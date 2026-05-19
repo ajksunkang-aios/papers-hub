@@ -1,0 +1,557 @@
+{
+  "id": "asplos-2000",
+  "venue": "asplos",
+  "year": 2000,
+  "short_name": "ASPLOS",
+  "full_name": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "source_url": "https://dblp.org/db/conf/asplos/asplos2000.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/asplos/asplos2000.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/asplos/2000",
+    "conf/asplos/2000-1",
+    "conf/asplos/2000-2",
+    "conf/asplos/2000-3",
+    "conf/asplos/2000-4",
+    "conf/asplos/2000-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) ACM International Conference on Architectural Support"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 24,
+  "display_count": 24,
+  "papers": [
+    {
+      "title": "An Analysis of Operating System Behavior on a Simultaneous Multithreaded Architecture",
+      "authors": [
+        "Joshua Redstone",
+        "Susan J. Eggers",
+        "Henry M. Levy"
+      ],
+      "pages": "245-256",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RedstoneEL00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RedstoneEL00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379245",
+        "https://doi.org/10.1145/384264.379245",
+        "https://doi.org/10.1145/378995.379245",
+        "https://doi.org/10.1145/356989.357012"
+      ]
+    },
+    {
+      "title": "Architectural Support for Copy and Tamper Resistant Software",
+      "authors": [
+        "David Lie",
+        "Chandramohan A. Thekkath",
+        "Mark Mitchell",
+        "Patrick Lincoln",
+        "Dan Boneh",
+        "John C. Mitchell",
+        "Mark Horowitz"
+      ],
+      "pages": "168-177",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LieTMLBMH00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LieTMLBMH00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379237",
+        "https://doi.org/10.1145/384264.379237",
+        "https://doi.org/10.1145/378995.379237",
+        "https://doi.org/10.1145/356989.357005"
+      ]
+    },
+    {
+      "title": "Architectural Support for Fast Symmetric-Key Cryptography",
+      "authors": [
+        "Jerome Burke",
+        "John McDonald",
+        "Todd M. Austin"
+      ],
+      "pages": "178-189",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BurkeMA00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BurkeMA00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379238",
+        "https://doi.org/10.1145/384264.379238",
+        "https://doi.org/10.1145/378995.379238",
+        "https://doi.org/10.1145/356989.357006"
+      ]
+    },
+    {
+      "title": "Architecture and design of AlphaServer GS320",
+      "authors": [
+        "Kourosh Gharachorloo",
+        "Madhu Sharma",
+        "Simon Steely",
+        "Stephen Van Doren"
+      ],
+      "pages": "13-24",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GharachorlooSSD00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GharachorlooSSD00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.378997",
+        "https://doi.org/10.1145/384264.378997",
+        "https://doi.org/10.1145/378995.378997",
+        "https://doi.org/10.1145/356989.356991"
+      ]
+    },
+    {
+      "title": "Communication Scheduling",
+      "authors": [
+        "Peter R. Mattson",
+        "William J. Dally",
+        "Scott Rixner",
+        "Ujval J. Kapasi",
+        "John D. Owens"
+      ],
+      "pages": "82-92",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MattsonDRKO00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MattsonDRKO00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379005",
+        "https://doi.org/10.1145/384264.379005",
+        "https://doi.org/10.1145/378995.379005",
+        "https://doi.org/10.1145/356989.356997"
+      ]
+    },
+    {
+      "title": "Designing computer systems with MEMS-based storage",
+      "authors": [
+        "Steven W. Schlosser",
+        "John Linwood Griffin",
+        "David Nagle",
+        "Gregory R. Ganger"
+      ],
+      "pages": "1-12",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SchlosserGNG00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SchlosserGNG00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.378996",
+        "https://doi.org/10.1145/384264.378996",
+        "https://doi.org/10.1145/378995.378996",
+        "https://doi.org/10.1145/356989.356990"
+      ]
+    },
+    {
+      "title": "Effective Null Pointer Check Elimination Utilizing Hardware Trap",
+      "authors": [
+        "Motohiro Kawahito",
+        "Hideaki Komatsu",
+        "Toshio Nakatani"
+      ],
+      "pages": "139-149",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KawahitoKN00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KawahitoKN00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379234",
+        "https://doi.org/10.1145/384264.379234",
+        "https://doi.org/10.1145/378995.379234"
+      ]
+    },
+    {
+      "title": "Efficient and Flexible Value Sampling",
+      "authors": [
+        "Michael Burrows",
+        "&Uacute;lfar Erlingsson",
+        "Shun-Tak Leung",
+        "Mark T. Vandevoorde",
+        "Carl A. Waldspurger",
+        "Kip Walker",
+        "William E. Weihl"
+      ],
+      "pages": "160-167",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BurrowsELVWWW00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BurrowsELVWWW00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379236",
+        "https://doi.org/10.1145/384264.379236",
+        "https://doi.org/10.1145/378995.379236",
+        "https://doi.org/10.1145/356989.357004"
+      ]
+    },
+    {
+      "title": "Evaluating Design Alternatives for Reliable Communication on High-Speed Networks",
+      "authors": [
+        "Raoul Bhoedjang",
+        "Kees Verstoep",
+        "Tim R&uuml;hl",
+        "Henri E. Bal",
+        "Rutger F. H. Hofman"
+      ],
+      "pages": "71-81",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BhoedjangVRBH00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BhoedjangVRBH00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379004",
+        "https://doi.org/10.1145/384264.379004",
+        "https://doi.org/10.1145/378995.379004",
+        "https://doi.org/10.1145/356989.356996",
+        "https://www.wikidata.org/entity/Q131132681"
+      ]
+    },
+    {
+      "title": "FLASH vs. (Simulated) FLASH: Closing the Simulation Loop",
+      "authors": [
+        "Jeff Gibson",
+        "Robert Kunz",
+        "David Ofelt",
+        "Mark A. Heinrich"
+      ],
+      "pages": "49-58",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GibsonKOH00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GibsonKOH00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379000",
+        "https://doi.org/10.1145/384264.379000",
+        "https://doi.org/10.1145/378995.379000",
+        "https://doi.org/10.1145/356989.356994"
+      ]
+    },
+    {
+      "title": "Frequent Value Locality and Value-Centric Data Cache Design",
+      "authors": [
+        "Youtao Zhang",
+        "Jun Yang 0002",
+        "Rajiv Gupta 0001"
+      ],
+      "pages": "150-159",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZhangYG00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZhangYG00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379235",
+        "https://doi.org/10.1145/384264.379235",
+        "https://doi.org/10.1145/378995.379235",
+        "https://doi.org/10.1145/356989.357003"
+      ]
+    },
+    {
+      "title": "Hardware Support for Dynamic Management of Compiler-Directed Computation Reuse",
+      "authors": [
+        "Daniel A. Connors",
+        "Hillery C. Hunter",
+        "Ben-Chung Cheng",
+        "Wen-mei W. Hwu"
+      ],
+      "pages": "222-233",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ConnorsHCH00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ConnorsHCH00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379243",
+        "https://doi.org/10.1145/384264.379243",
+        "https://doi.org/10.1145/378995.379243",
+        "https://doi.org/10.1145/356989.357010",
+        "https://www.wikidata.org/entity/Q121009434"
+      ]
+    },
+    {
+      "title": "Hoard: A Scalable Memory Allocator for Multithreaded Applications",
+      "authors": [
+        "Emery D. Berger",
+        "Kathryn S. McKinley",
+        "Robert D. Blumofe",
+        "Paul R. Wilson 0001"
+      ],
+      "pages": "117-128",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BergerMBW00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BergerMBW00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379232",
+        "https://doi.org/10.1145/384264.379232",
+        "https://doi.org/10.1145/378995.379232",
+        "https://doi.org/10.1145/356989.357000",
+        "https://www.wikidata.org/entity/Q56814358"
+      ]
+    },
+    {
+      "title": "MemorIES: A Programmable, Real-Time Hardware Emulation Tool for Multiprocessor Server Design",
+      "authors": [
+        "Ashwini K. Nanda",
+        "Kwok-Ken Mak",
+        "Krishnan Sugavanam",
+        "Ramendra K. Sahoo",
+        "Vijayaraghavan Soundararajan",
+        "T. Basil Smith"
+      ],
+      "pages": "37-48",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/NandaMSSSS00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/NandaMSSSS00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.378999",
+        "https://doi.org/10.1145/384264.378999",
+        "https://doi.org/10.1145/378995.378999",
+        "https://doi.org/10.1145/356989.356993"
+      ]
+    },
+    {
+      "title": "OceanStore: An Architecture for Global-Scale Persistent Storage",
+      "authors": [
+        "John Kubiatowicz",
+        "David Bindel",
+        "Yan Chen 0004",
+        "Steven E. Czerwinski",
+        "Patrick R. Eaton",
+        "Dennis Geels",
+        "Ramakrishna Gummadi",
+        "Sean C. Rhea",
+        "Hakim Weatherspoon",
+        "Westley Weimer",
+        "Chris Wells",
+        "Ben Y. Zhao"
+      ],
+      "pages": "190-201",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KubiatowiczBCCEGGRWWWZ00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KubiatowiczBCCEGGRWWWZ00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379239",
+        "https://doi.org/10.1145/384264.379239",
+        "https://doi.org/10.1145/378995.379239",
+        "https://doi.org/10.1145/356989.357007"
+      ]
+    },
+    {
+      "title": "OS and Compiler Considerations in the Design of the IA-64 Architecture",
+      "authors": [
+        "Rumi Zahir",
+        "Jonathan Ross",
+        "Dale Morris",
+        "Drew Hess"
+      ],
+      "pages": "212-221",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZahirRMH00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZahirRMH00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379242",
+        "https://doi.org/10.1145/384264.379242",
+        "https://doi.org/10.1145/378995.379242",
+        "https://doi.org/10.1145/356989.357009",
+        "https://www.wikidata.org/entity/Q121033915"
+      ]
+    },
+    {
+      "title": "Power Aware Page Allocation",
+      "authors": [
+        "Alvin R. Lebeck",
+        "Xiaobo Fan",
+        "Heng Zeng",
+        "Carla Schlatter Ellis"
+      ],
+      "pages": "105-116",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LebeckFZE00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LebeckFZE00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379007",
+        "https://doi.org/10.1145/384264.379007",
+        "https://doi.org/10.1145/378995.379007",
+        "https://doi.org/10.1145/356989.356999"
+      ]
+    },
+    {
+      "title": "Slipstream Processors: Improving both Performance and Fault Tolerance",
+      "authors": [
+        "Karthik Sundaramoorthy",
+        "Zachary Purser",
+        "Eric Rotenberg"
+      ],
+      "pages": "257-268",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SundaramoorthyPR00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SundaramoorthyPR00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379247",
+        "https://doi.org/10.1145/384264.379247",
+        "https://doi.org/10.1145/378995.379247",
+        "https://doi.org/10.1145/356989.357013"
+      ]
+    },
+    {
+      "title": "Software Profiling for Hot Path Prediction: Less is More",
+      "authors": [
+        "Evelyn Duesterwald",
+        "Vasanth Bala"
+      ],
+      "pages": "202-211",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DuesterwaldB00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DuesterwaldB00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379241",
+        "https://doi.org/10.1145/384264.379241",
+        "https://doi.org/10.1145/378995.379241",
+        "https://doi.org/10.1145/356989.357008"
+      ]
+    },
+    {
+      "title": "Symbiotic Jobscheduling for a Simultaneous Multithreading Processor",
+      "authors": [
+        "Allan Snavely",
+        "Dean M. Tullsen"
+      ],
+      "pages": "234-244",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SnavelyT00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SnavelyT00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379244",
+        "https://doi.org/10.1145/384264.379244",
+        "https://doi.org/10.1145/378995.379244",
+        "https://doi.org/10.1145/356989.357011"
+      ]
+    },
+    {
+      "title": "System Architecture Directions for Networked Sensors",
+      "authors": [
+        "Jason L. Hill",
+        "Robert Szewczyk",
+        "Alec Woo",
+        "Seth Hollar",
+        "David E. Culler",
+        "Kristofer S. J. Pister"
+      ],
+      "pages": "93-104",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HillSWHCP00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HillSWHCP00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379006",
+        "https://doi.org/10.1145/384264.379006",
+        "https://doi.org/10.1145/378995.379006",
+        "https://doi.org/10.1145/356989.356998"
+      ]
+    },
+    {
+      "title": "Thread Level Parallelism and Interactive Performance of Desktop Applications",
+      "authors": [
+        "Kriszti&aacute;n Flautner",
+        "Richard Uhlig",
+        "Steven K. Reinhardt",
+        "Trevor N. Mudge"
+      ],
+      "pages": "129-138",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/FlautnerURM00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/FlautnerURM00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379233",
+        "https://doi.org/10.1145/384264.379233",
+        "https://doi.org/10.1145/378995.379233",
+        "https://doi.org/10.1145/356989.357001",
+        "https://www.wikidata.org/entity/Q130967838"
+      ]
+    },
+    {
+      "title": "Timestamp snooping: an approach for extending SMPs",
+      "authors": [
+        "Milo M. K. Martin",
+        "Daniel J. Sorin",
+        "Anastassia Ailamaki",
+        "Alaa R. Alameldeen",
+        "Ross M. Dickson",
+        "Carl J. Mauer",
+        "Kevin E. Moore",
+        "Manoj Plakal",
+        "Mark D. Hill",
+        "David A. Wood 0001"
+      ],
+      "pages": "25-36",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MartinSAADMMPHW00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MartinSAADMMPHW00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.378998",
+        "https://doi.org/10.1145/384264.378998",
+        "https://doi.org/10.1145/378995.378998",
+        "https://doi.org/10.1145/356989.356992"
+      ]
+    },
+    {
+      "title": "Using Meta-level Compilation to Check FLASH Protocol Code",
+      "authors": [
+        "Andy Chou",
+        "Benjamin Chelf",
+        "Dawson R. Engler",
+        "Mark A. Heinrich"
+      ],
+      "pages": "59-70",
+      "year": "2000",
+      "venue": "ASPLOS 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChouCEH00",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChouCEH00.html",
+      "ee_links": [
+        "https://doi.org/10.1145/378993.379002",
+        "https://doi.org/10.1145/384264.379002",
+        "https://doi.org/10.1145/378995.379002",
+        "https://doi.org/10.1145/356989.356995",
+        "https://www.wikidata.org/entity/Q124883198"
+      ]
+    }
+  ]
+}

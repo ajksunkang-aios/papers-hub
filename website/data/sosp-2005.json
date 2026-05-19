@@ -1,0 +1,1309 @@
+{
+  "id": "sosp-2005",
+  "venue": "sosp",
+  "year": 2005,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp2005.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp2005.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/2005",
+    "conf/sosp/2005-1",
+    "conf/sosp/2005-2",
+    "conf/sosp/2005-3",
+    "conf/sosp/2005-4",
+    "conf/sosp/2005-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 73,
+  "display_count": 73,
+  "papers": [
+    {
+      "title": "A need for componentized transport protocols",
+      "authors": [
+        "Tyson Condie",
+        "Joseph M. Hellerstein",
+        "Petros Maniatis",
+        "Sean C. Rhea",
+        "Timothy Roscoe"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CondieHMRR05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CondieHMRR05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118617"
+      ]
+    },
+    {
+      "title": "A virtual machine monitor for utilizing non-dedicated clusters",
+      "authors": [
+        "Kenji Kaneda",
+        "Yoshihiro Oyama",
+        "Akinori Yonezawa"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KanedaOY05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KanedaOY05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118618"
+      ]
+    },
+    {
+      "title": "A virtual machine monitor for utilizing non-dedicated clusters",
+      "authors": [
+        "Kenji Kaneda",
+        "Yoshihiro Oyama",
+        "Akinori Yonezawa"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KanedaOY05a",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KanedaOY05a.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118625"
+      ]
+    },
+    {
+      "title": "An infrastructure for the development of kernel network services proof of concept: fast UDP",
+      "authors": [
+        "Edgar A. Le&oacute;n",
+        "Michal Ostrowski"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LeonO05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LeonO05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118582"
+      ]
+    },
+    {
+      "title": "Analysis of malicious abstract sensor faults in adaptive measurement-based overlay networks",
+      "authors": [
+        "AAron Walters",
+        "Cristina Nita-Rotaru"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WaltersN05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WaltersN05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118578"
+      ]
+    },
+    {
+      "title": "Anemone: adaptive network memory engine",
+      "authors": [
+        "Michael R. Hines",
+        "Mark Lewandowski",
+        "Kartik Gopalan"
+      ],
+      "pages": "1",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HinesLG05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HinesLG05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118608"
+      ]
+    },
+    {
+      "title": "Architecting a secure internet",
+      "authors": [
+        "Saikat Guha 0002",
+        "Paul Francis"
+      ],
+      "pages": "1",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GuhaF05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GuhaF05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118614"
+      ]
+    },
+    {
+      "title": "Are P2P concepts worth pursuing?",
+      "authors": [],
+      "pages": null,
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/X05a",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/X05a.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118576"
+      ]
+    },
+    {
+      "title": "BAR fault tolerance for cooperative services",
+      "authors": [
+        "Amitanand S. Aiyer",
+        "Lorenzo Alvisi",
+        "Allen Clement",
+        "Michael Dahlin",
+        "Jean-Philippe Martin",
+        "Carl Porth"
+      ],
+      "pages": "45-58",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AiyerACDMP05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AiyerACDMP05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095816"
+      ]
+    },
+    {
+      "title": "Capturing, indexing, clustering, and retrieving system history",
+      "authors": [
+        "Ira Cohen",
+        "Steve Zhang",
+        "Mois&eacute;s Goldszmidt",
+        "Julie Symons",
+        "Terence Kelly",
+        "Armando Fox"
+      ],
+      "pages": "105-118",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CohenZGSKF05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CohenZGSKF05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095821"
+      ]
+    },
+    {
+      "title": "CobWeb: a proactive analysis-driven approach to content distribution",
+      "authors": [
+        "Yee Jiun Song",
+        "Venugopalan Ramasubramanian",
+        "Emin G&uuml;n Sirer"
+      ],
+      "pages": "1-3",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SongRS05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SongRS05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118595"
+      ]
+    },
+    {
+      "title": "Connections: using context to enhance file search",
+      "authors": [
+        "Craig A. N. Soules",
+        "Gregory R. Ganger"
+      ],
+      "pages": "119-132",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SoulesG05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SoulesG05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095822"
+      ]
+    },
+    {
+      "title": "Daphne: performance debugging using model-driven anomaly characterization",
+      "authors": [
+        "Christopher Stewart",
+        "Kai Shen"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/StewartS05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/StewartS05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118580"
+      ]
+    },
+    {
+      "title": "DDVS: distributed dynamic voltage scaling",
+      "authors": [
+        "Timothy Durnan",
+        "Christian Poellabauer"
+      ],
+      "pages": "1",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DurnanP05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DurnanP05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118619"
+      ]
+    },
+    {
+      "title": "Detecting past and present intrusions through vulnerability-specific predicates",
+      "authors": [
+        "Ashlesha Joshi",
+        "Samuel T. King",
+        "George W. Dunlap",
+        "Peter M. Chen"
+      ],
+      "pages": "91-104",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JoshiKDC05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JoshiKDC05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095820",
+        "https://www.wikidata.org/entity/Q130918684"
+      ]
+    },
+    {
+      "title": "Distributed operating system for resource discovery and allocation in federated clusters",
+      "authors": [
+        "Emmanuel Jeanvoine"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Jeanvoine05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Jeanvoine05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118583"
+      ]
+    },
+    {
+      "title": "Efficient file storage using content-based indexing",
+      "authors": [
+        "Jo&atilde;o Barreto 0001",
+        "Paulo Ferreira 0001"
+      ],
+      "pages": "1-9",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BarretoF05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BarretoF05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118597"
+      ]
+    },
+    {
+      "title": "Experiences with Pip: finding unexpected behavior in distributed systems",
+      "authors": [
+        "Patrick Reynolds",
+        "Janet L. Wiener",
+        "Jeffrey C. Mogul",
+        "Mehul A. Shah",
+        "Charles Killian",
+        "Amin Vahdat"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ReynoldsWMSKV05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ReynoldsWMSKV05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118601"
+      ]
+    },
+    {
+      "title": "ExtraVirt: detecting and recovering from transient processor faults",
+      "authors": [
+        "Dominic G. Lucchetti",
+        "Steven K. Reinhardt",
+        "Peter M. Chen"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LucchettiRC05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LucchettiRC05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118621"
+      ]
+    },
+    {
+      "title": "Fault-scalable Byzantine fault-tolerant services",
+      "authors": [
+        "Michael Abd-El-Malek",
+        "Gregory R. Ganger",
+        "Garth R. Goodson",
+        "Michael K. Reiter",
+        "Jay J. Wylie"
+      ],
+      "pages": "59-74",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Abd-El-MalekGGRW05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Abd-El-MalekGGRW05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095817"
+      ]
+    },
+    {
+      "title": "FS2: dynamic data replication in free disk space for improving disk performance and energy consumption",
+      "authors": [
+        "Hai Huang 0002",
+        "Wanda Hung",
+        "Kang G. Shin"
+      ],
+      "pages": "263-276",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HuangHS05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HuangHS05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095836"
+      ]
+    },
+    {
+      "title": "Hibernator: helping disk arrays sleep through the winter",
+      "authors": [
+        "Qingbo Zhu",
+        "Zhifeng Chen",
+        "Lin Tan 0001",
+        "Yuanyuan Zhou 0001",
+        "Kimberly Keeton",
+        "John Wilkes"
+      ],
+      "pages": "177-190",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhuCTZKW05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhuCTZKW05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095828"
+      ]
+    },
+    {
+      "title": "Idletime scheduling with preemption intervals",
+      "authors": [
+        "Lars Eggert",
+        "Joseph D. Touch"
+      ],
+      "pages": "249-262",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/EggertT05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/EggertT05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095835"
+      ]
+    },
+    {
+      "title": "Implementing declarative overlays",
+      "authors": [
+        "Boon Thau Loo",
+        "Tyson Condie",
+        "Joseph M. Hellerstein",
+        "Petros Maniatis",
+        "Timothy Roscoe",
+        "Ion Stoica"
+      ],
+      "pages": "75-90",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LooCHMRS05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LooCHMRS05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095818"
+      ]
+    },
+    {
+      "title": "Improving dynamic update for operating systems",
+      "authors": [
+        "Andrew Baumann",
+        "Jonathan Appavoo"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BaumannA05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BaumannA05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118622"
+      ]
+    },
+    {
+      "title": "Improving the energy efficiency of high-performance server systems",
+      "authors": [
+        "Matthew E. Tolentino",
+        "Kirk W. Cameron"
+      ],
+      "pages": "1",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TolentinoC05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TolentinoC05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118620",
+        "https://www.wikidata.org/entity/Q130978745"
+      ]
+    },
+    {
+      "title": "INSIGHT: a distributed monitoring system for tracking continuous queries",
+      "authors": [
+        "Navendu Jain",
+        "Praveen Yalagandula",
+        "Mike Dahlin",
+        "Yin Zhang"
+      ],
+      "pages": "1",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JainYDZ05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JainYDZ05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118611"
+      ]
+    },
+    {
+      "title": "IRON file systems",
+      "authors": [
+        "Vijayan Prabhakaran",
+        "Lakshmi N. Bairavasundaram",
+        "Nitin Agrawal 0001",
+        "Haryadi S. Gunawi",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "206-220",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PrabhakaranBAGAA05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PrabhakaranBAGAA05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095830"
+      ]
+    },
+    {
+      "title": "Kairos: a macro-programming system for wireless sensor networks",
+      "authors": [
+        "Ramakrishna Gummadi",
+        "Nupur Kothari",
+        "Ramesh Govindan",
+        "Todd D. Millstein"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GummadiKGM05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GummadiKGM05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118600"
+      ]
+    },
+    {
+      "title": "Keynote speech",
+      "authors": [
+        "Andrew S. Tanenbaum"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Tanenbaum05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Tanenbaum05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1105662"
+      ]
+    },
+    {
+      "title": "Labels and event processes in the Asbestos operating system",
+      "authors": [
+        "Petros Efstathopoulos",
+        "Maxwell N. Krohn",
+        "Steve Vandebogart",
+        "Cliff Frey",
+        "David Ziegler",
+        "Eddie Kohler",
+        "David Mazi&egrave;res",
+        "M. Frans Kaashoek",
+        "Robert Morris 0005"
+      ],
+      "pages": "17-30",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/EfstathopoulosKVFZKMKM05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/EfstathopoulosKVFZKMKM05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095813",
+        "https://www.wikidata.org/entity/Q56863875"
+      ]
+    },
+    {
+      "title": "LLSS: toward system support for plugging privacy leaks",
+      "authors": [
+        "Aydan R. Yumerefendi",
+        "Landon P. Cox"
+      ],
+      "pages": "1",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YumerefendiC05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YumerefendiC05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118612"
+      ]
+    },
+    {
+      "title": "Making enterprise storage more search-friendly",
+      "authors": [
+        "Shankar Pasupathy",
+        "Garth R. Goodson",
+        "Vijayan Prabhakaran"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PasupathyGP05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PasupathyGP05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118606"
+      ]
+    },
+    {
+      "title": "Model-based validation for dealing with operator mistakes",
+      "authors": [
+        "Kiran Nagaraja",
+        "Andrew Tjang",
+        "F&aacute;bio Oliveira",
+        "Ricardo Bianchini",
+        "Richard P. Martin",
+        "Thu D. Nguyen"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NagarajaTOBMN05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NagarajaTOBMN05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118587"
+      ]
+    },
+    {
+      "title": "MON: management overlay networks for distributed systems",
+      "authors": [
+        "Jin Liang",
+        "Steven Y. Ko",
+        "Indranil Gupta",
+        "Klara Nahrstedt"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiangKGN05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiangKGN05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118585"
+      ]
+    },
+    {
+      "title": "Mondrix: memory isolation for linux using mondriaan memory protection",
+      "authors": [
+        "Emmett Witchel",
+        "Junghwan Rhee",
+        "Krste Asanovic"
+      ],
+      "pages": "31-44",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WitchelRA05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WitchelRA05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095814"
+      ]
+    },
+    {
+      "title": "Nexus: a new operating system for trustworthy computing",
+      "authors": [
+        "Alan Shieh",
+        "Dan Williams 0001",
+        "Emin G&uuml;n Sirer",
+        "Fred B. Schneider"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ShiehWSS05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ShiehWSS05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118613"
+      ]
+    },
+    {
+      "title": "Opening remarks",
+      "authors": [
+        "Kenneth P. Birman"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Birman05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Birman05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1105661"
+      ]
+    },
+    {
+      "title": "Operating system construction in Haskell",
+      "authors": [
+        "Rebekah Leslie",
+        "Mark P. Jones"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LeslieJ05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LeslieJ05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118589"
+      ]
+    },
+    {
+      "title": "OS support for multi-gigabit networking",
+      "authors": [
+        "Willem de Bruijn",
+        "Herbert Bos"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BruijnB05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BruijnB05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118599"
+      ]
+    },
+    {
+      "title": "P2p: still worthless?",
+      "authors": [],
+      "pages": null,
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/X05b",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/X05b.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118575"
+      ]
+    },
+    {
+      "title": "Peer to peer: still useless?",
+      "authors": [],
+      "pages": null,
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/X05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/X05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118573"
+      ]
+    },
+    {
+      "title": "Peerlessness is next to godlessness",
+      "authors": [
+        "Jon Crowcroft"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Crowcroft05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Crowcroft05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118574"
+      ]
+    },
+    {
+      "title": "PersiFS: a versioned file system with an efficient representation",
+      "authors": [
+        "Dan R. K. Ports",
+        "Austin T. Clements",
+        "Erik D. Demaine"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PortsCD05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PortsCD05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118598"
+      ]
+    },
+    {
+      "title": "Pioneer: verifying code integrity and enforcing untampered code execution on legacy systems",
+      "authors": [
+        "Arvind Seshadri",
+        "Mark Luk",
+        "Elaine Shi",
+        "Adrian Perrig",
+        "Leendert van Doorn",
+        "Pradeep K. Khosla"
+      ],
+      "pages": "1-16",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SeshadriLSPDK05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SeshadriLSPDK05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095812"
+      ]
+    },
+    {
+      "title": "Pre-virtualization: uniting two worlds",
+      "authors": [
+        "Joshua LeVasseur",
+        "Volkmar Uhlig",
+        "Ben Leslie",
+        "Matthew Chapman",
+        "Gernot Heiser"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LeVasseurULCH05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LeVasseurULCH05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118604"
+      ]
+    },
+    {
+      "title": "Proactive operating system recovery",
+      "authors": [
+        "Hiroo Ishikawa",
+        "Tatsuo Nakajima",
+        "Shuichi Oikawa",
+        "Toshio Hirotsu"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/IshikawaNOH05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/IshikawaNOH05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118584"
+      ]
+    },
+    {
+      "title": "RaceTrack: efficient detection of data race conditions via adaptive tracking",
+      "authors": [
+        "Yuan Yu",
+        "Tom Rodeheffer",
+        "Wei Chen"
+      ],
+      "pages": "221-234",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YuRC05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YuRC05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095832"
+      ]
+    },
+    {
+      "title": "Recovery oriented programming",
+      "authors": [
+        "Olga Brukman",
+        "Shlomi Dolev",
+        "Marcelo Sihman"
+      ],
+      "pages": "1",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BrukmanDS05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BrukmanDS05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118594"
+      ]
+    },
+    {
+      "title": "Rx: treating bugs as allergies - a safe method to survive software failures",
+      "authors": [
+        "Feng Qin 0003",
+        "Joseph A. Tucek",
+        "Jagadeesan Sundaresan",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "235-248",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/QinTSZ05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/QinTSZ05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095833"
+      ]
+    },
+    {
+      "title": "Scalability, fidelity, and containment in the potemkin virtual honeyfarm",
+      "authors": [
+        "Michael Vrable",
+        "Justin Ma",
+        "Jay Chen",
+        "David Moore 0001",
+        "Erik Vandekieft",
+        "Alex C. Snoeren",
+        "Geoffrey M. Voelker",
+        "Stefan Savage"
+      ],
+      "pages": "148-162",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/VrableMCMVSVS05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/VrableMCMVSVS05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095825"
+      ]
+    },
+    {
+      "title": "Scalable querying and tracking of sensor networks from mobile platforms",
+      "authors": [
+        "Stefan Pleisch",
+        "Ken Birman"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PleischB05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PleischB05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118602"
+      ]
+    },
+    {
+      "title": "Self-stabilizing operating systems",
+      "authors": [
+        "Shlomi Dolev",
+        "Reuven Yagel"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DolevY05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DolevY05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118590"
+      ]
+    },
+    {
+      "title": "Sending more for less bandwidth and power: a systems approach to network coding",
+      "authors": [
+        "Wenjun Hu",
+        "Sachin Katti",
+        "Hariharan Rahul",
+        "Dina Katabi",
+        "Jon Crowcroft"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HuKRKC05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HuKRKC05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118616"
+      ]
+    },
+    {
+      "title": "Sensor networks for high-resolution monitoring of volcanic activity",
+      "authors": [
+        "Matt Welsh",
+        "Geoff Werner-Allen",
+        "Konrad Lorincz",
+        "Omar Marcillo",
+        "Jeff Johnson 0001",
+        "Mario Ruiz",
+        "Jonathan Lees"
+      ],
+      "pages": "1",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WelshWLMJRL05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WelshWLMJRL05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118610"
+      ]
+    },
+    {
+      "title": "Service placement in shared wide-area platforms",
+      "authors": [
+        "David Oppenheimer",
+        "Brent N. Chun",
+        "David A. Patterson 0001",
+        "Alex C. Snoeren",
+        "Amin Vahdat"
+      ],
+      "pages": "1",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/OppenheimerCPSV05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/OppenheimerCPSV05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118581"
+      ]
+    },
+    {
+      "title": "Speculative execution in a distributed file system",
+      "authors": [
+        "Edmund B. Nightingale",
+        "Peter M. Chen",
+        "Jason Flinn"
+      ],
+      "pages": "191-205",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NightingaleCF05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NightingaleCF05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095829"
+      ]
+    },
+    {
+      "title": "Supporting arbitrary queries in peer-to-peer networks using hybrid routing",
+      "authors": [
+        "Vivek Sawant",
+        "Jasleen Kaur"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SawantK05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SawantK05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118592"
+      ]
+    },
+    {
+      "title": "t-kernel: a naturalizing OS kernel for low-power cost-effective computers",
+      "authors": [
+        "Lin Gu 0001",
+        "John A. Stankovic"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GuS05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GuS05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118588"
+      ]
+    },
+    {
+      "title": "The case for an object-based peer-to-peer reputation system",
+      "authors": [
+        "Kevin Walsh 0001",
+        "Emin G&uuml;n Sirer"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WalshS05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WalshS05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118593"
+      ]
+    },
+    {
+      "title": "The case for judicious resource management",
+      "authors": [
+        "Christian Poellabauer",
+        "Timothy Durnan"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PoellabauerD05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PoellabauerD05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118579"
+      ]
+    },
+    {
+      "title": "The KudOS architecture for file systems",
+      "authors": [
+        "Andrew de los Reyes",
+        "Christopher Frost 0001",
+        "Eddie Kohler",
+        "Mike Mammarella",
+        "Lei Zhang"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ReyesFKMZ05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ReyesFKMZ05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118624"
+      ]
+    },
+    {
+      "title": "The taser intrusion recovery system",
+      "authors": [
+        "Ashvin Goel",
+        "Kenneth Po",
+        "Kamran Farhadi",
+        "Zheng Li",
+        "Eyal de Lara"
+      ],
+      "pages": "163-176",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GoelPFLL05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GoelPFLL05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095826"
+      ]
+    },
+    {
+      "title": "THINC: a virtual display architecture for thin-client computing",
+      "authors": [
+        "Ricardo A. Baratto",
+        "Leonard N. Kim",
+        "Jason Nieh"
+      ],
+      "pages": "277-290",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BarattoKN05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BarattoKN05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095837"
+      ]
+    },
+    {
+      "title": "To infinity and beyond: time warped network emulation",
+      "authors": [
+        "Diwaker Gupta",
+        "Kenneth Yocum",
+        "Marvin McNett",
+        "Alex C. Snoeren",
+        "Amin Vahdat",
+        "Geoffrey M. Voelker"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GuptaYMSVV05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GuptaYMSVV05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118605"
+      ]
+    },
+    {
+      "title": "Towards scalable and simple software-DSM systems",
+      "authors": [
+        "Kenji Kise",
+        "Takahiro Katagiri",
+        "Hiroki Honda",
+        "Toshitsugu Yuba"
+      ],
+      "pages": "1-13",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KiseKHY05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KiseKHY05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118586"
+      ]
+    },
+    {
+      "title": "Transaction mix performance models: methods and application to performance anomaly detection",
+      "authors": [
+        "Terence Kelly"
+      ],
+      "pages": "1-3",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Kelly05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Kelly05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118591"
+      ]
+    },
+    {
+      "title": "Turning flash crowds into smart mobs with real-time stochastic detection and adaptive cooperative caching",
+      "authors": [
+        "Jay A. Patel",
+        "Charles M. Yang",
+        "Indranil Gupta"
+      ],
+      "pages": "1",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PatelYG05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PatelYG05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118623"
+      ]
+    },
+    {
+      "title": "UIA: a user information architecture for personal devices",
+      "authors": [
+        "Bryan Ford",
+        "Jacob Strauss",
+        "Chris Lesniewski-Laas",
+        "M. Frans Kaashoek",
+        "Robert Morris 0005",
+        "Sean C. Rhea"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FordSLKMR05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FordSLKMR05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118596"
+      ]
+    },
+    {
+      "title": "Using model checker and replay facility to debug complex distributed system",
+      "authors": [
+        "Xuezheng Liu",
+        "Aimin Pan",
+        "Wei Lin",
+        "Zheng Zhang 0001"
+      ],
+      "pages": "1",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiuPLZ05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiuPLZ05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118603"
+      ]
+    },
+    {
+      "title": "Versatile, portable, and efficient OS profiling via latency analysis",
+      "authors": [
+        "Nikolai Joukov",
+        "Rakesh Iyer",
+        "Avishay Traeger",
+        "Charles P. Wright",
+        "Erez Zadok"
+      ],
+      "pages": "1-14",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JoukovITWZ05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JoukovITWZ05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118607"
+      ]
+    },
+    {
+      "title": "Vigilante: end-to-end containment of internet worms",
+      "authors": [
+        "Manuel Costa",
+        "Jon Crowcroft",
+        "Miguel Castro 0001",
+        "Antony I. T. Rowstron",
+        "Lidong Zhou",
+        "Lintao Zhang",
+        "Paul Barham 0001"
+      ],
+      "pages": "133-147",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CostaCCRZZB05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CostaCCRZZB05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1095824"
+      ]
+    },
+    {
+      "title": "What the protocol stack missed: the transfer service",
+      "authors": [
+        "Niraj Tolia",
+        "David G. Andersen",
+        "Michael Kaminsky",
+        "Swapnil V. Patil"
+      ],
+      "pages": "1-2",
+      "year": "2005",
+      "venue": "SOSP 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ToliaAKP05",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ToliaAKP05.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1095810.1118615"
+      ]
+    }
+  ]
+}

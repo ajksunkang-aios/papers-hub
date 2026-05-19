@@ -1,0 +1,681 @@
+{
+  "id": "fast-2009",
+  "venue": "fast",
+  "year": 2009,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2009.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2009.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2009",
+    "conf/fast/2009-1",
+    "conf/fast/2009-2",
+    "conf/fast/2009-3",
+    "conf/fast/2009-4",
+    "conf/fast/2009-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 36,
+  "display_count": 36,
+  "papers": [
+    {
+      "title": "A Formal Model of Provenance in Distributed Systems",
+      "authors": [
+        "Issam Souilah",
+        "Adrian Francalanza",
+        "Vladimiro Sassone"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SouilahFS09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SouilahFS09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/souilah/souilah.pdf"
+      ]
+    },
+    {
+      "title": "A Framework for Fine-grained Data Integration and Curation, with Provenance, in a Dataspace",
+      "authors": [
+        "David W. Archer",
+        "Lois M. L. Delcambre",
+        "David Maier 0001"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ArcherDM09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ArcherDM09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/archer/archer.pdf"
+      ]
+    },
+    {
+      "title": "A Performance Evaluation and Examination of Open-Source Erasure Coding Libraries for Storage",
+      "authors": [
+        "James S. Plank",
+        "Jianqiang Luo",
+        "Catherine D. Schuman",
+        "Lihao Xu",
+        "Zooko Wilcox-O'Hearn"
+      ],
+      "pages": "253-265",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PlankLSXW09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PlankLSXW09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/plank/plank.pdf"
+      ]
+    },
+    {
+      "title": "A Systematic Approach to System State Restoration during Storage Controller Micro-Recovery",
+      "authors": [
+        "Sangeetha Seshadri",
+        "Lawrence Chiu",
+        "Ling Liu 0001"
+      ],
+      "pages": "283-296",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SeshadriCL09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SeshadriCL09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/seshadri/seshadri.pdf"
+      ]
+    },
+    {
+      "title": "Application of Named Graphs Towards Custom Provenance Views",
+      "authors": [
+        "Tara Gibson",
+        "Karen Schuchardt",
+        "Eric G. Stephan"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GibsonSS09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GibsonSS09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/gibson/gibson.pdf"
+      ]
+    },
+    {
+      "title": "Authenticity and Provenance in Long Term Digital Preservation: Modeling and Implementation in Preservation Aware Storage",
+      "authors": [
+        "Michael Factor",
+        "Ealan Henis",
+        "Dalit Naor",
+        "Simona Rabinovici-Cohen",
+        "Petra Reshef",
+        "Shahar Ronen",
+        "Giovanni Michetti",
+        "Maria Guercio"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/FactorHNRRRMG09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/FactorHNRRRMG09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/factor/factor.pdf"
+      ]
+    },
+    {
+      "title": "BORG: Block-reORGanization for Self-optimizing Storage Systems",
+      "authors": [
+        "Medha Bhadkamkar",
+        "Jorge Guerra",
+        "Luis Useche",
+        "Sam Burnett",
+        "Jason Liptak",
+        "Raju Rangaswami",
+        "Vagelis Hristidis"
+      ],
+      "pages": "183-196",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BhadkamkarGUBLRH09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BhadkamkarGUBLRH09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/bhadkamkar/bhadkamkar.pdf"
+      ]
+    },
+    {
+      "title": "CA-NFS: A Congestion-Aware Network File System",
+      "authors": [
+        "Alexandros Batsakis",
+        "Randal C. Burns",
+        "Arkady Kanevsky",
+        "James Lentini",
+        "Thomas Talpey"
+      ],
+      "pages": "99-110",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BatsakisBKLT09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BatsakisBKLT09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/batsakis/batsakis.pdf"
+      ]
+    },
+    {
+      "title": "Capture, Conversion, and Analysis of an Intense NFS Workload",
+      "authors": [
+        "Eric Anderson 0003"
+      ],
+      "pages": "139-152",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Anderson09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Anderson09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/anderson/anderson.pdf"
+      ]
+    },
+    {
+      "title": "Causality-Based Versioning",
+      "authors": [
+        "Kiran-Kumar Muniswamy-Reddy",
+        "David A. Holland"
+      ],
+      "pages": "15-28",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Muniswamy-ReddyH09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Muniswamy-ReddyH09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/muniswamy-reddy/muniswamy-reddy.pdf"
+      ]
+    },
+    {
+      "title": "CLIC: CLient-Informed Caching for Storage Servers",
+      "authors": [
+        "Xin Liu 0017",
+        "Ashraf Aboulnaga",
+        "Kenneth Salem",
+        "Xuhui Li 0002"
+      ],
+      "pages": "297-310",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuASL09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuASL09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/liu/liu.pdf"
+      ]
+    },
+    {
+      "title": "Cumulus: Filesystem Backup to the Cloud",
+      "authors": [
+        "Michael Vrable",
+        "Stefan Savage",
+        "Geoffrey M. Voelker"
+      ],
+      "pages": "225-238",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/VrableSV09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/VrableSV09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/vrable/vrable.pdf"
+      ]
+    },
+    {
+      "title": "DIADS: Addressing the \"My-Problem-or-Yours\" Syndrome with Integrated SAN and Database Diagnosis",
+      "authors": [
+        "Shivnath Babu",
+        "Nedyalko Borisov",
+        "Sandeep Uttamchandani",
+        "Ramani Routray",
+        "Aameek Singh"
+      ],
+      "pages": "57-70",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BabuBURS09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BabuBURS09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/babu/babu.pdf"
+      ]
+    },
+    {
+      "title": "Dynamic Resource Allocation for Database Servers Running on Virtual Storage",
+      "authors": [
+        "Gokul Soundararajan",
+        "Daniel Lupei",
+        "Saeed Ghanbari",
+        "Adrian Daniel Popescu",
+        "Jin Chen 0006",
+        "Cristiana Amza"
+      ],
+      "pages": "71-84",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SoundararajanLGPCA09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SoundararajanLGPCA09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/soundararajan/soundararajan.pdf"
+      ]
+    },
+    {
+      "title": "Enabling Transactional File Access via Lightweight Kernel Extensions",
+      "authors": [
+        "Richard P. Spillane",
+        "Sachin Gaikwad",
+        "Manjunath Chinni",
+        "Erez Zadok",
+        "Charles P. Wright"
+      ],
+      "pages": "29-42",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SpillaneGCZW09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SpillaneGCZW09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/spillane/spillane.pdf"
+      ]
+    },
+    {
+      "title": "Generating Realistic Impressions for File-System Benchmarking",
+      "authors": [
+        "Nitin Agrawal 0001",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "125-138",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AgrawalAA09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AgrawalAA09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/agrawal/agrawal.pdf"
+      ]
+    },
+    {
+      "title": "HYDRAstor: A Scalable Secondary Storage",
+      "authors": [
+        "Cezary Dubnicki",
+        "Leszek Gryz",
+        "Lukasz Heldt",
+        "Michal Kaczmarczyk",
+        "Wojciech Kilian",
+        "Przemyslaw Strzelczak",
+        "Jerzy Szczepkowski",
+        "Cristian Ungureanu",
+        "Michal Welnicki"
+      ],
+      "pages": "197-210",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DubnickiGHKKSSUW09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DubnickiGHKKSSUW09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/dubnicki/dubnicki.pdf"
+      ]
+    },
+    {
+      "title": "Making a Cloud Provenance-Aware",
+      "authors": [
+        "Kiran-Kumar Muniswamy-Reddy",
+        "Peter Macko",
+        "Margo I. Seltzer"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Muniswamy-ReddyMS09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Muniswamy-ReddyMS09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/muniswamy-reddy/muniswamy-reddy.pdf"
+      ]
+    },
+    {
+      "title": "Minuet: Rethinking Concurrency Control in Storage Area Networks",
+      "authors": [
+        "Andrey Ermolinskiy",
+        "Daekyeong Moon",
+        "Byung-Gon Chun",
+        "Scott Shenker"
+      ],
+      "pages": "311-324",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ErmolinskiyMCS09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ErmolinskiyMCS09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/ermolinskiy/ermolinskiy.pdf"
+      ]
+    },
+    {
+      "title": "On Explicit Provenance Management in RDF/S Graphs",
+      "authors": [
+        "Panagiotis Pediaditis",
+        "Giorgos Flouris",
+        "Irini Fundulaki",
+        "Vassilis Christophides"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PediaditisFFC09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PediaditisFFC09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/pediaditis/pediaditis.pdf"
+      ]
+    },
+    {
+      "title": "PARDA: Proportional Allocation of Resources for Distributed Storage Access",
+      "authors": [
+        "Ajay Gulati",
+        "Irfan Ahmad 0005",
+        "Carl A. Waldspurger"
+      ],
+      "pages": "85-98",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GulatiAW09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GulatiAW09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/gulati/gulati.pdf"
+      ]
+    },
+    {
+      "title": "Perspective: Semantic Data Management for the Home",
+      "authors": [
+        "Brandon Salmon",
+        "Steven W. Schlosser",
+        "Lorrie Faith Cranor",
+        "Gregory R. Ganger"
+      ],
+      "pages": "167-182",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SalmonSCG09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SalmonSCG09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/salmon/salmon.pdf"
+      ]
+    },
+    {
+      "title": "Provenance as Data Mining: Combining File System Metadata with Content Analysis",
+      "authors": [
+        "Vinay Deolalikar",
+        "Hernan Laffitte"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DeolalikarL09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DeolalikarL09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/deolalikar/deolalikar.pdf"
+      ]
+    },
+    {
+      "title": "Scalable Access Controls for Lineage",
+      "authors": [
+        "Arnon Rosenthal",
+        "Len Seligman",
+        "Adriane Chapman",
+        "Barbara T. Blaustein"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RosenthalSCB09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RosenthalSCB09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/rosenthal/rosenthal.pdf"
+      ]
+    },
+    {
+      "title": "Smoke and Mirrors: Reflecting Files at a Geographically Remote Location Without Loss of Performance",
+      "authors": [
+        "Hakim Weatherspoon",
+        "Lakshmi Ganesh",
+        "Tudor Marian",
+        "Mahesh Balakrishnan 0001",
+        "Ken Birman"
+      ],
+      "pages": "211-224",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WeatherspoonGMBB09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WeatherspoonGMBB09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/weatherspoon/weatherspoon.pdf"
+      ]
+    },
+    {
+      "title": "Sparse Indexing: Large Scale, Inline Deduplication Using Sampling and Locality",
+      "authors": [
+        "Mark Lillibridge",
+        "Kave Eshghi",
+        "Deepavali Bhagwat",
+        "Vinay Deolalikar",
+        "Greg Trezis",
+        "Peter Camble"
+      ],
+      "pages": "111-123",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LillibridgeEBDTC09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LillibridgeEBDTC09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/lillibridge/lillibridge.pdf"
+      ]
+    },
+    {
+      "title": "Spyglass: Fast, Scalable Metadata Search for Large-Scale Storage Systems",
+      "authors": [
+        "Andrew W. Leung",
+        "Minglong Shao",
+        "Timothy Bisson",
+        "Shankar Pasupathy",
+        "Ethan L. Miller"
+      ],
+      "pages": "153-166",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LeungSBPM09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LeungSBPM09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/leung/leung.pdf"
+      ]
+    },
+    {
+      "title": "Steps Toward Managing Lineage Metadata in Grid Clusters",
+      "authors": [
+        "Ashish Gehani",
+        "Minyoung Kim 0002",
+        "Jian Zhang"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GehaniKZ09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GehaniKZ09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/gehani/gehani.pdf"
+      ]
+    },
+    {
+      "title": "Story Book: An Efficient Extensible Provenance Framework",
+      "authors": [
+        "Richard P. Spillane",
+        "Russell Sears",
+        "Chaitanya Yalamanchili",
+        "Sachin Gaikwad",
+        "Manjunath Chinni",
+        "Erez Zadok"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SpillaneSYGCZ09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SpillaneSYGCZ09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/spillane/spillane.pdf"
+      ]
+    },
+    {
+      "title": "The Case for Browser Provenance",
+      "authors": [
+        "Daniel W. Margo",
+        "Margo I. Seltzer"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MargoS09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MargoS09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/margo/margo.pdf"
+      ]
+    },
+    {
+      "title": "The Case of the Fake Picasso: Preventing History Forgery with Secure Provenance",
+      "authors": [
+        "Ragib Hasan",
+        "Radu Sion",
+        "Marianne Winslett"
+      ],
+      "pages": "1-14",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HasanSW09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HasanSW09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/hasan/hasan.pdf"
+      ]
+    },
+    {
+      "title": "Tiered Fault Tolerance for Long-Term Integrity",
+      "authors": [
+        "Byung-Gon Chun",
+        "Petros Maniatis",
+        "Scott Shenker",
+        "John Kubiatowicz"
+      ],
+      "pages": "267-282",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChunMSK09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChunMSK09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/chun/chun.pdf"
+      ]
+    },
+    {
+      "title": "Towards Semantics for Provenance Security",
+      "authors": [
+        "Stephen Chong"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Chong09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Chong09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/chong/chong.pdf"
+      ]
+    },
+    {
+      "title": "Transparently Gathering Provenance with Provenance Aware Condor",
+      "authors": [
+        "Christine F. Reilly",
+        "Jeffrey F. Naughton"
+      ],
+      "pages": null,
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ReillyN09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ReillyN09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/tapp09/tech/full_papers/reilly/reilly.pdf"
+      ]
+    },
+    {
+      "title": "Understanding Customer Problem Troubleshooting from Storage System Logs",
+      "authors": [
+        "Weihang Jiang",
+        "Chongfeng Hu",
+        "Shankar Pasupathy",
+        "Arkady Kanevsky",
+        "Zhenmin Li",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "43-56",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JiangHPKLZ09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JiangHPKLZ09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/jiang/jiang.pdf"
+      ]
+    },
+    {
+      "title": "WorkOut: I/O Workload Outsourcing for Boosting RAID Reconstruction Performance",
+      "authors": [
+        "Suzhen Wu",
+        "Hong Jiang 0001",
+        "Dan Feng 0001",
+        "Lei Tian 0001",
+        "Bo Mao 0003"
+      ],
+      "pages": "239-252",
+      "year": "2009",
+      "venue": "FAST 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WuJFTM09",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WuJFTM09.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast09/tech/full_papers/wu/wu.pdf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1499 @@
+{
+  "id": "sosp-2025",
+  "venue": "sosp",
+  "year": 2025,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp2025.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp2025.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/2025",
+    "conf/sosp/2025-1",
+    "conf/sosp/2025-2",
+    "conf/sosp/2025-3",
+    "conf/sosp/2025-4",
+    "conf/sosp/2025-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 66,
+  "display_count": 66,
+  "papers": [
+    {
+      "title": "Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market",
+      "authors": [
+        "Yuxing Xiang",
+        "Xue Li 0024",
+        "Kun Qian 0004",
+        "Yufan Yang",
+        "Diwen Zhu",
+        "Wenyuan Yu",
+        "Ennan Zhai",
+        "Xuanzhe Liu",
+        "Xin Jin 0008",
+        "Jingren Zhou 0001"
+      ],
+      "pages": "1030-1045",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Xiang0QYZYZL0025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Xiang0QYZYZL0025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764815"
+      ]
+    },
+    {
+      "title": "Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack",
+      "authors": [
+        "Chuandong Li 0004",
+        "Ran Yi 0004",
+        "Zonghao Zhang",
+        "Jing Liu 0074",
+        "Changwoo Min",
+        "Jie Zhang 0048",
+        "Yingwei Luo",
+        "Xiaolin Wang 0001",
+        "Zhenlin Wang 0003",
+        "Diyu Zhou"
+      ],
+      "pages": "479-495",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/0004YZLMZLWWZ25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/0004YZLMZLWWZ25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764816"
+      ]
+    },
+    {
+      "title": "Analyzing and Enhancing ArckFS: An Anecdotal Example of Benefits of Artifact Evaluation",
+      "authors": [
+        "Jonguk Jeon",
+        "Subeen Park",
+        "Sanidhya Kashyap",
+        "Sudarsun Kannan",
+        "Diyu Zhou",
+        "Jeehoon Kang"
+      ],
+      "pages": "1149-1157",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JeonPKKZK25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JeonPKKZK25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3768291"
+      ]
+    },
+    {
+      "title": "Atmosphere: Practical Verified Kernels with Rust and Verus",
+      "authors": [
+        "Xiangdong Chen",
+        "Zhaofeng Li 0004",
+        "Jerry Zhang",
+        "Vikram Narayanan",
+        "Anton Burtsev"
+      ],
+      "pages": "752-767",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Chen0ZNB25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Chen0ZNB25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764821"
+      ]
+    },
+    {
+      "title": "AutoMan: Facilitating Verified Distributed Systems Development Through Automatic Code Generation and Manual Optimizations",
+      "authors": [
+        "Zihao Zhang",
+        "Ti Zhou",
+        "Christa Jenkins",
+        "Omar Chowdhury",
+        "Shuai Mu 0001"
+      ],
+      "pages": "768-785",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangZJC025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangZJC025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764822"
+      ]
+    },
+    {
+      "title": "cache_ext: Customizing the Page Cache with eBPF",
+      "authors": [
+        "Tal Zussman",
+        "Ioannis Zarkadas",
+        "Jeremy Carin",
+        "Andrew Cheng",
+        "Hubertus Franke",
+        "Jonas Pfefferle",
+        "Asaf Cidon"
+      ],
+      "pages": "462-478",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZussmanZCCFPC25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZussmanZCCFPC25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764820"
+      ]
+    },
+    {
+      "title": "Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference",
+      "authors": [
+        "Le Chen",
+        "Dahu Feng",
+        "Erhu Feng",
+        "Yingrui Wang",
+        "Rong Zhao",
+        "Yubin Xia",
+        "Pinjie Xu",
+        "Haibo Chen 0001"
+      ],
+      "pages": "359-374",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenFFWZXX025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenFFWZXX025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764808"
+      ]
+    },
+    {
+      "title": "CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost Embedded Devices",
+      "authors": [
+        "Saar Amar",
+        "Tony Chen",
+        "David Chisnall",
+        "Nathaniel Wesley Filardo",
+        "Ben Laurie",
+        "Hugo Lefeuvre",
+        "Kunyan Liu",
+        "Simon W. Moore",
+        "Robert Norton-Wright",
+        "Margo I. Seltzer",
+        "Yucong Tao",
+        "Robert N. M. Watson",
+        "Hongyan Xia"
+      ],
+      "pages": "67-84",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AmarCCFLLLMNSTW25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AmarCCFLLLMNSTW25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764844"
+      ]
+    },
+    {
+      "title": "COpter: Efficient Large-Scale Resource-Allocation via Continual Optimization",
+      "authors": [
+        "Suhas Jayaram Subramanya",
+        "Don Kurian Dennis",
+        "Virginia Smith",
+        "Gregory R. Ganger"
+      ],
+      "pages": "322-340",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SubramanyaDSG25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SubramanyaDSG25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764846"
+      ]
+    },
+    {
+      "title": "CortenMM: Efficient Memory Management with Strong Correctness Guarantees",
+      "authors": [
+        "Junyang Zhang",
+        "Xiangcan Xu",
+        "Yonghao Zou",
+        "Zhe Tang",
+        "Xinyi Wan 0001",
+        "Kang Hu",
+        "Siyuan Wang",
+        "Wenbo Xu",
+        "Di Wang 0017",
+        "Hao Chen 0023",
+        "Lin Huang 0005",
+        "Shoumeng Yan",
+        "Yuval Tamir",
+        "Yingwei Luo",
+        "Xiaolin Wang 0001",
+        "Huashan Yu",
+        "Zhenlin Wang 0003",
+        "Hongliang Tian",
+        "Diyu Zhou"
+      ],
+      "pages": "1082-1098",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangXZTWHWXW0H25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangXZTWHWXW0H25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764836"
+      ]
+    },
+    {
+      "title": "Coyote v2: Raising the Level of Abstraction for Data Center FPGAs",
+      "authors": [
+        "Benjamin Ramhorst",
+        "Dario Korolija",
+        "Maximilian Jakob Heer",
+        "Jonas Dann",
+        "Luhao Liu",
+        "Gustavo Alonso"
+      ],
+      "pages": "639-654",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RamhorstKHDLA25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RamhorstKHDLA25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764845"
+      ]
+    },
+    {
+      "title": "DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism",
+      "authors": [
+        "Chenyu Jiang 0002",
+        "Zhenkun Cai",
+        "Ye Tian",
+        "Zhen Jia 0001",
+        "Yida Wang 0003",
+        "Chuan Wu 0001"
+      ],
+      "pages": "221-236",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/0002CT00025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/0002CT00025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764849"
+      ]
+    },
+    {
+      "title": "Demeter: A Scalable and Elastic Tiered Memory Solution for Virtualized Cloud via Guest Delegation",
+      "authors": [
+        "Junliang Hu",
+        "Zhisheng Hu",
+        "Chun-Feng Wu",
+        "Ming-Chang Yang"
+      ],
+      "pages": "169-185",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HuHWY25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HuHWY25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764801"
+      ]
+    },
+    {
+      "title": "Device-Assisted Live Migration of RDMA Devices",
+      "authors": [
+        "Artem Y. Polyakov",
+        "Gal Shalom",
+        "Asaf Schwartz",
+        "Aviad Yehezkel",
+        "Omri Ben David",
+        "Omri Kahalon",
+        "Ariel Shahar",
+        "Liran Liss"
+      ],
+      "pages": "153-168",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PolyakovSSYDKSL25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PolyakovSSYDKSL25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764795"
+      ]
+    },
+    {
+      "title": "DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction",
+      "authors": [
+        "Yanqi Zhang",
+        "Yuwei Hu",
+        "Runyuan Zhao",
+        "John C. S. Lui",
+        "Haibo Chen 0001"
+      ],
+      "pages": "431-445",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangHZLC25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangHZLC25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764810"
+      ]
+    },
+    {
+      "title": "eBPF Misbehavior Detection: Fuzzing with a Specification-Based Oracle",
+      "authors": [
+        "Tao Lyu 0004",
+        "Kumar Kartikeya Dwivedi",
+        "Thomas Bourgeat",
+        "Mathias Payer",
+        "Meng Xu 0001",
+        "Sanidhya Kashyap"
+      ],
+      "pages": "701-718",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/0004DBP0K25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/0004DBP0K25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764797"
+      ]
+    },
+    {
+      "title": "Fast End-to-End Performance Simulation of Accelerated Hardware-Software Stacks",
+      "authors": [
+        "Jiacheng Ma 0002",
+        "Jonas Kaufmann",
+        "Emilien Guandalino",
+        "Rishabh R. Iyer",
+        "Thomas Bourgeat",
+        "George Candea"
+      ],
+      "pages": "341-358",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/0002KGIBC25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/0002KGIBC25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764825"
+      ]
+    },
+    {
+      "title": "Fawkes: Finding Data Durability Bugs in DBMSs via Recovered Data State Verification",
+      "authors": [
+        "Zhiyong Wu 0010",
+        "Jie Liang 0006",
+        "Jingzhou Fu",
+        "Wenqian Deng",
+        "Yu Jiang 0001"
+      ],
+      "pages": "670-684",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/00100FD025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/00100FD025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764841"
+      ]
+    },
+    {
+      "title": "FlexGuard: Fast Mutual Exclusion Independent of Subscription",
+      "authors": [
+        "Victor Laforet",
+        "Sanidhya Kashyap",
+        "Calin Iorgulescu",
+        "Julia Lawall",
+        "Jean-Pierre Lozi"
+      ],
+      "pages": "1115-1130",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LaforetKILL25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LaforetKILL25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764852"
+      ]
+    },
+    {
+      "title": "Ghost in the Android Shell: Pragmatic Test-oracle Specification of a Production Hypervisor",
+      "authors": [
+        "Kayvan Memarian",
+        "Ben Simner",
+        "David Kaloper-Mersinjak",
+        "Thibaut P&eacute;rami",
+        "Peter Sewell"
+      ],
+      "pages": "685-700",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MemarianSKPS25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MemarianSKPS25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764817"
+      ]
+    },
+    {
+      "title": "HedraRAG: Co-Optimizing Generation and Retrieval for Heterogeneous RAG Workflows",
+      "authors": [
+        "Zhengding Hu",
+        "Vibha Murthy",
+        "Zaifeng Pan",
+        "Wanlu Li",
+        "Xiaoyi Fang",
+        "Yufei Ding 0001",
+        "Yuke Wang"
+      ],
+      "pages": "623-638",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HuMPLF0W25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HuMPLF0W25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764806"
+      ]
+    },
+    {
+      "title": "How to Copy Memory? Coordinated Asynchronous Copy as a First-Class OS Service",
+      "authors": [
+        "Jingkai He",
+        "Yunpeng Dong",
+        "Dong Du 0003",
+        "Mo Zou",
+        "Zhitai Yu",
+        "Yuxin Ren 0001",
+        "Ning Jia 0004",
+        "Yubin Xia",
+        "Haibo Chen 0001"
+      ],
+      "pages": "1062-1081",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HeD0ZY0JX025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HeD0ZY0JX025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764800"
+      ]
+    },
+    {
+      "title": "IC-Cache: Efficient Large Language Model Serving via In-context Caching",
+      "authors": [
+        "Yifan Yu",
+        "Yu Gan 0002",
+        "Nikhil Sarda",
+        "Lillian Tsai",
+        "Jiaming Shen",
+        "Yanqi Zhou",
+        "Arvind Krishnamurthy",
+        "Fan Lai 0001",
+        "Hank Levy",
+        "David E. Culler"
+      ],
+      "pages": "375-398",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YuGSTSZK0LC25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YuGSTSZK0LC25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764829"
+      ]
+    },
+    {
+      "title": "Jenga: Effective Memory Management for Serving LLM with Heterogeneity",
+      "authors": [
+        "Chen Zhang 0001",
+        "Kuntai Du",
+        "Shu Liu",
+        "Woosuk Kwon",
+        "Xiangxi Mo",
+        "Yufeng Wang",
+        "Xiaoxuan Liu",
+        "Kaichao You",
+        "Zhuohan Li 0001",
+        "Mingsheng Long",
+        "Jidong Zhai",
+        "Joseph Gonzalez 0001",
+        "Ion Stoica"
+      ],
+      "pages": "446-461",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangDLKMWLYLLZ25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangDLKMWLYLLZ25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764823"
+      ]
+    },
+    {
+      "title": "KNighter: Transforming Static Analysis with LLM-Synthesized Checkers",
+      "authors": [
+        "Chenyuan Yang",
+        "Zijie Zhao",
+        "Zichen Xie",
+        "Haoyu Li",
+        "Lingming Zhang 0001"
+      ],
+      "pages": "655-669",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YangZXLZ25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YangZXLZ25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764827"
+      ]
+    },
+    {
+      "title": "KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models",
+      "authors": [
+        "Hongtao Chen",
+        "Weiyu Xie",
+        "Boxin Zhang",
+        "Jingqi Tang",
+        "Jiahao Wang",
+        "Jianwei Dong",
+        "Shaoyuan Chen",
+        "Ziwei Yuan",
+        "Chen Lin",
+        "Chengyu Qiu",
+        "Yuening Zhu",
+        "Qingliang Ou",
+        "Jiaqi Liao",
+        "Xianglin Chen",
+        "Zhiyuan Ai",
+        "Yongwei Wu 0001",
+        "Mingxing Zhang"
+      ],
+      "pages": "1014-1029",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenXZTWDCYLQZO25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenXZTWDCYLQZO25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764843"
+      ]
+    },
+    {
+      "title": "LithOS: An Operating System for Efficient Machine Learning on GPUs",
+      "authors": [
+        "Patrick H. Coppock",
+        "Brian Zhang",
+        "Eliot H. Solomon",
+        "Vasilis Kypriotis",
+        "Leon Yang",
+        "Bikash Sharma",
+        "Dan Schatzberg",
+        "Todd C. Mowry",
+        "Dimitrios Skarlatos 0002"
+      ],
+      "pages": "1-17",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CoppockZSKYSSM025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CoppockZSKYSSM025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764818"
+      ]
+    },
+    {
+      "title": "Loom: Efficient Capture and Querying of High-Frequency Telemetry",
+      "authors": [
+        "Franco Solleza",
+        "Shihang Li",
+        "William Sun",
+        "Richard Tang",
+        "Malte Schwarzkopf",
+        "Andrew Crotty",
+        "David Cohen",
+        "Nesime Tatbul",
+        "Stan Zdonik"
+      ],
+      "pages": "512-528",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SollezaLSTSCCTZ25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SollezaLSTSCCTZ25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764853"
+      ]
+    },
+    {
+      "title": "Managing Scalable Direct Storage Accesses for GPUs with GoFS",
+      "authors": [
+        "Shaobo Li 0005",
+        "Yirui Eric Zhou",
+        "Yuqi Xue",
+        "Yuan Xu",
+        "Jian Huang 0006"
+      ],
+      "pages": "979-995",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/0005ZXX025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/0005ZXX025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764857"
+      ]
+    },
+    {
+      "title": "Mantle: Efficient Hierarchical Metadata Management for Cloud Object Storage Services",
+      "authors": [
+        "Jiahao Li",
+        "Biao Cao",
+        "Jielong Jian",
+        "Cheng Li 0001",
+        "Sen Han",
+        "Yiduo Wang 0002",
+        "Yufei Wu 0011",
+        "Kang Chen",
+        "Zhihui Yin",
+        "Qiushi Chen",
+        "Jiwei Xiong",
+        "Jie Zhao 0020",
+        "Fengyuan Liu",
+        "Yan Xing",
+        "Liguo Duan",
+        "Miao Yu 0029",
+        "Ran Zheng",
+        "Feng Wu 0001",
+        "Xianjun Meng"
+      ],
+      "pages": "928-943",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiCJ0H00CYCXZLX25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiCJ0H00CYCXZLX25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764824"
+      ]
+    },
+    {
+      "title": "Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling",
+      "authors": [
+        "Yue Guan 0003",
+        "Xinwei Qiang",
+        "Zaifeng Pan",
+        "Daniels Johnson",
+        "Yuanwei Fang",
+        "Keren Zhou 0001",
+        "Yuke Wang",
+        "Wanlu Li",
+        "Yufei Ding 0001",
+        "Adnan Aziz"
+      ],
+      "pages": "1046-1061",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GuanQPJF0WL0A25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GuanQPJF0WL0A25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764798"
+      ]
+    },
+    {
+      "title": "METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation",
+      "authors": [
+        "Siddhant Ray",
+        "Rui Pan 0003",
+        "Zhuohan Gu",
+        "Kuntai Du",
+        "Shaoting Feng",
+        "Ganesh Ananthanarayanan",
+        "Ravi Netravali",
+        "Junchen Jiang"
+      ],
+      "pages": "606-622",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Ray0GDFANJ25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Ray0GDFANJ25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764855"
+      ]
+    },
+    {
+      "title": "Mitigating Application Resource Overload with Targeted Task Cancellation",
+      "authors": [
+        "Yigong Hu",
+        "Zeyin Zhang",
+        "Yicheng Liu",
+        "Yile Gu",
+        "Shuangyu Lei",
+        "Baris Kasikci",
+        "Peng Huang 0005"
+      ],
+      "pages": "270-285",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HuZLGLKH25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HuZLGLKH25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764835"
+      ]
+    },
+    {
+      "title": "Moirai: Optimizing Placement of Data and Compute in Hybrid Clouds",
+      "authors": [
+        "Ziyue Qiu",
+        "Hojin Park",
+        "Jing Zhao",
+        "Yu-Kai Wang",
+        "Arnav Balyan",
+        "Gurmeet Singh",
+        "Yangjun Zhang",
+        "Suqiang (Jack) Song",
+        "Gregory R. Ganger",
+        "George Amvrosiadis"
+      ],
+      "pages": "875-891",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/QiuPZWBSZSGA25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/QiuPZWBSZSGA25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764802"
+      ]
+    },
+    {
+      "title": "Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training",
+      "authors": [
+        "Yangtao Deng",
+        "Lei Zhang",
+        "Qinlong Wang",
+        "Xiaoyun Zhi",
+        "Xinlei Zhang",
+        "Zhuo Jiang",
+        "Haohan Xu",
+        "Lei Wang",
+        "Zuquan Song",
+        "Gaohong Liu",
+        "Yang Bai",
+        "Shuguang Wang",
+        "Wencong Xiao",
+        "Jianxi Ye",
+        "Minlan Yu",
+        "Hong Xu 0001"
+      ],
+      "pages": "254-269",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DengZWZZJXWSLBW25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DengZWZZJXWSLBW25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764848"
+      ]
+    },
+    {
+      "title": "Oasis: Pooling PCIe Devices Over CXL to Boost Utilization",
+      "authors": [
+        "Yuhong Zhong",
+        "Daniel S. Berger",
+        "Pantea Zardoshti",
+        "Enrique Saurez",
+        "Jacob Nelson 0001",
+        "Dan R. K. Ports",
+        "Antonis Psistakis",
+        "Joshua Fried",
+        "Asaf Cidon"
+      ],
+      "pages": "101-119",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhongBZS0PPFC25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhongBZS0PPFC25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764812"
+      ]
+    },
+    {
+      "title": "Optimistic Recovery for High-Availability Software via Partial Process State Preservation",
+      "authors": [
+        "Yuzhuo Jing",
+        "Yuqi Mai",
+        "Angting Cai",
+        "Yi Chen",
+        "Wanning He",
+        "Xiaoyang Qian",
+        "Peter M. Chen",
+        "Peng Huang 0005"
+      ],
+      "pages": "305-321",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JingMCCHQCH25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JingMCCHQCH25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764858"
+      ]
+    },
+    {
+      "title": "ORQ: Complex Analytics on Private Data with Strong Security Guarantees",
+      "authors": [
+        "Eli Baum",
+        "Sam Buxbaum",
+        "Nitin Mathai",
+        "Muhammad Faisal 0001",
+        "Vasiliki Kalavri",
+        "Mayank Varia",
+        "John Liagouris"
+      ],
+      "pages": "802-833",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BaumBM0KVL25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BaumBM0KVL25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764833"
+      ]
+    },
+    {
+      "title": "Orthrus: Efficient and Timely Detection of Silent User Data Corruption in the Cloud with Resource-Adaptive Computation Validation",
+      "authors": [
+        "Chenxiao Liu",
+        "Zhenting Zhu",
+        "Quanxi Li",
+        "Yanwen Xia",
+        "Yifan Qiao 0002",
+        "Xiangyun Deng",
+        "Youyou Lu",
+        "Tao Xie 0001",
+        "Huimin Cui",
+        "Zidong Du",
+        "Harry Xu 0001",
+        "Chenxi Wang 0005"
+      ],
+      "pages": "286-304",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiuZLXQDL0CD0W25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiuZLXQDL0CD0W25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764832"
+      ]
+    },
+    {
+      "title": "Pesto: Cooking up High Performance BFT Queries",
+      "authors": [
+        "Florian Suri-Payer",
+        "Neil Giridharan",
+        "Liam Arzola",
+        "Shir Cohen",
+        "Lorenzo Alvisi",
+        "Natacha Crooks"
+      ],
+      "pages": "529-554",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Suri-PayerGACAC25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Suri-PayerGACAC25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764799"
+      ]
+    },
+    {
+      "title": "PhoenixOS: Concurrent OS-level GPU Checkpoint and Restore with Validated Speculation",
+      "authors": [
+        "Xingda Wei",
+        "Zhuobin Huang",
+        "Tianle Sun",
+        "Yingyi Hao",
+        "Rong Chen 0001",
+        "Mingcong Han",
+        "Jinyu Gu 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "996-1013",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WeiHSH0H0025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WeiHSH0H0025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764813"
+      ]
+    },
+    {
+      "title": "Pie: A Programmable Serving System for Emerging LLM Applications",
+      "authors": [
+        "In Gim",
+        "Zhiyao Ma",
+        "SeungSeob Lee",
+        "Lin Zhong 0001"
+      ],
+      "pages": "415-430",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GimML025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GimML025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764814"
+      ]
+    },
+    {
+      "title": "PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications",
+      "authors": [
+        "Kuntai Du",
+        "Bowen Wang 0016",
+        "Chen Zhang 0001",
+        "Yiming Cheng",
+        "Qing Lan",
+        "Hejian Sang",
+        "Yihua Cheng",
+        "Jiayi Yao",
+        "Xiaoxuan Liu",
+        "Yifan Qiao 0002",
+        "Ion Stoica",
+        "Junchen Jiang"
+      ],
+      "pages": "399-414",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DuWZCLSCYLQSJ25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DuWZCLSCYLQSJ25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764834"
+      ]
+    },
+    {
+      "title": "Proto: A Guided Journey through Modern OS Construction",
+      "authors": [
+        "Wonkyo Choe",
+        "Rongxiang Wang",
+        "Afsara Benazir",
+        "Felix Xiaozhu Lin"
+      ],
+      "pages": "50-66",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChoeWBL25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChoeWBL25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764811"
+      ]
+    },
+    {
+      "title": "Prove It to the Kernel: Precise Extension Analysis via Proof-Guided Abstraction Refinement",
+      "authors": [
+        "Hao Sun 0021",
+        "Zhendong Su 0001"
+      ],
+      "pages": "736-751",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Sun025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Sun025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764796"
+      ]
+    },
+    {
+      "title": "Quilt: Resource-aware Merging of Serverless Workflows",
+      "authors": [
+        "Yuxuan Zhang",
+        "Sebastian Angel"
+      ],
+      "pages": "907-927",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangA25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangA25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764830"
+      ]
+    },
+    {
+      "title": "Rearchitecting the Thread Model of In-Memory Key-Value Stores with μTPS",
+      "authors": [
+        "Youmin Chen",
+        "Jiwu Shu",
+        "Yanyan Shen",
+        "Linpeng Huang",
+        "Hong Mei 0001"
+      ],
+      "pages": "1099-1114",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenSSH025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenSSH025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764794"
+      ]
+    },
+    {
+      "title": "Robust LLM Training Infrastructure at ByteDance",
+      "authors": [
+        "Borui Wan",
+        "Gaohong Liu",
+        "Zuquan Song",
+        "Jun Wang 0039",
+        "Yun Zhang",
+        "Guangming Sheng",
+        "Shuguang Wang",
+        "Houmin Wei",
+        "Chenyuan Wang",
+        "Weiqiang Lou",
+        "Xi Yang",
+        "Mofan Zhang",
+        "Kaihua Jiang",
+        "Cheng Ren",
+        "Xiaoyun Zhi",
+        "Menghan Yu",
+        "Zhe Nan",
+        "Zhuolin Zheng",
+        "Baoquan Zhong",
+        "Qinlong Wang",
+        "Huan Yu",
+        "Jinxin Chi",
+        "Wang Zhang 0017",
+        "Yuhan Li",
+        "Zixian Du",
+        "Sida Zhao",
+        "Yongqiang Zhang",
+        "Jingzhe Tang",
+        "Zherui Liu",
+        "Chuan Wu 0001",
+        "Yanghua Peng",
+        "Haibin Lin",
+        "Wencong Xiao",
+        "Xin Liu 0086",
+        "Liang Xiang"
+      ],
+      "pages": "186-203",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WanLSWZSWWWLYZJ25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WanLSWZSWWWLYZJ25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764838"
+      ]
+    },
+    {
+      "title": "Running Consistent Applications Closer to Users with Radical for Lower Latency",
+      "authors": [
+        "Nicolaas Kaashoek",
+        "Oleg Aleksandrovich Golev",
+        "Austin T. Li",
+        "Amit Levy 0001",
+        "Wyatt Lloyd"
+      ],
+      "pages": "962-978",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KaashoekGLLL25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KaashoekGLLL25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764831"
+      ]
+    },
+    {
+      "title": "Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters",
+      "authors": [
+        "Foteini Strati",
+        "Zhendong Zhang 0004",
+        "George Manos",
+        "Ixeia S&aacute;nchez P&eacute;riz",
+        "Qinghao Hu 0004",
+        "Tiancheng Chen",
+        "Berk Buzcu",
+        "Song Han 0003",
+        "Pamela Delgado",
+        "Ana Klimovic"
+      ],
+      "pages": "204-220",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/StratiZMP0CB0DK25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/StratiZMP0CB0DK25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764839"
+      ]
+    },
+    {
+      "title": "SAND: A New Programming Abstraction for Video-based Deep Learning",
+      "authors": [
+        "Juncheol Ye",
+        "Seungkook Lee",
+        "Hwijoon Lim",
+        "Jihyuk Lee",
+        "Uitaek Hong",
+        "Youngjin Kwon",
+        "Dongsu Han"
+      ],
+      "pages": "589-605",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YeLLLHKH25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YeLLLHKH25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764847"
+      ]
+    },
+    {
+      "title": "Scalable Address Spaces using Concurrent Interval Skiplist",
+      "authors": [
+        "Tae Woo Kim",
+        "Youngjin Kwon",
+        "Jeehoon Kang"
+      ],
+      "pages": "1131-1148",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KimKK25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KimKK25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764807"
+      ]
+    },
+    {
+      "title": "Scalable Far Memory: Balancing Faults and Evictions",
+      "authors": [
+        "Yueyang Pan",
+        "Yash Lala",
+        "Musa Unal",
+        "Yujie Ren",
+        "SeungSeob Lee",
+        "Abhishek Bhattacharjee",
+        "Anurag Khandelwal",
+        "Sanidhya Kashyap"
+      ],
+      "pages": "136-152",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PanLURLBKK25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PanLURLBKK25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764842"
+      ]
+    },
+    {
+      "title": "Sleeping with One Eye Open: Fast, Sustainable Storage with Sandman",
+      "authors": [
+        "Yanbo Zhou",
+        "Erci Xu",
+        "Anisa Su",
+        "Jim Harris",
+        "Adam Manzanares",
+        "Steven Swanson"
+      ],
+      "pages": "496-511",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhouXSHMS25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhouXSHMS25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764804"
+      ]
+    },
+    {
+      "title": "Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems",
+      "authors": [
+        "SeungSeob Lee",
+        "Jachym Putta",
+        "Ziming Mao",
+        "Anurag Khandelwal"
+      ],
+      "pages": "120-135",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LeePMK25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LeePMK25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764805"
+      ]
+    },
+    {
+      "title": "Tai Chi: A General High-Efficiency Scheduling Framework for SmartNICs in Hyperscale Clouds",
+      "authors": [
+        "Bang Di",
+        "Yun Xu",
+        "Kaijie Guo",
+        "Yibin Shen",
+        "Yu Li",
+        "Sanchuan Cheng",
+        "Hao Zheng",
+        "Fudong Qiu",
+        "Xiaokang Hu",
+        "Naixuan Guan",
+        "Dongdong Huang",
+        "Jinhu Li",
+        "Yi Wang",
+        "Yifang Yang",
+        "Jintao Li",
+        "Hang Yang",
+        "Chen Liang",
+        "Yilong Lv",
+        "Zikang Chen",
+        "Zhenwei Lu",
+        "Xiaohan Ma",
+        "Jiesheng Wu"
+      ],
+      "pages": "892-906",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DiXGSLCZQHGHLWY25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DiXGSLCZQHGHLWY25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764851"
+      ]
+    },
+    {
+      "title": "Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs",
+      "authors": [
+        "Pedro F. Silvestre",
+        "Peter R. Pietzuch"
+      ],
+      "pages": "572-588",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SilvestreP25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SilvestreP25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764840"
+      ]
+    },
+    {
+      "title": "The Design and Implementation of a Virtual Firmware Monitor",
+      "authors": [
+        "Charly Castes",
+        "Fran&ccedil;ois Costa",
+        "Neelu S. Kalani",
+        "Timothy Roscoe",
+        "Nate Foster",
+        "Thomas Bourgeat",
+        "Edouard Bugnion"
+      ],
+      "pages": "85-100",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CastesCKRFBB25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CastesCKRFBB25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764826"
+      ]
+    },
+    {
+      "title": "TickTock: Verified Isolation in a Production Embedded OS",
+      "authors": [
+        "Vivien Rindisbacher",
+        "Evan Johnson 0001",
+        "Nico Lehmann",
+        "Tyler Potyondy",
+        "Pat Pannuto",
+        "Stefan Savage",
+        "Deian Stefan",
+        "Ranjit Jhala"
+      ],
+      "pages": "786-801",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Rindisbacher0LP25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Rindisbacher0LP25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764856"
+      ]
+    },
+    {
+      "title": "Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks",
+      "authors": [
+        "Jinkun Geng",
+        "Shuai Mu 0001",
+        "Anirudh Sivaraman",
+        "Balaji Prabhakar"
+      ],
+      "pages": "555-571",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GengMSP25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GengMSP25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764854"
+      ]
+    },
+    {
+      "title": "Tock: From Research To Securing 10 Million Computers",
+      "authors": [
+        "Leon Schuermann",
+        "Brad Campbell",
+        "Branden Ghena",
+        "Philip Alexander Levis",
+        "Amit Levy 0001",
+        "Pat Pannuto"
+      ],
+      "pages": "36-49",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SchuermannCGLLP25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SchuermannCGLLP25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764828"
+      ]
+    },
+    {
+      "title": "TrainVerify: Equivalence-Based Verification for Distributed LLM Training",
+      "authors": [
+        "Yunchi Lu",
+        "Youshan Miao",
+        "Cheng Tan 0005",
+        "Peng Huang 0005",
+        "Yi Zhu",
+        "Xian Zhang 0001",
+        "Fan Yang 0024"
+      ],
+      "pages": "237-253",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LuM00Z0025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LuM00Z0025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764850"
+      ]
+    },
+    {
+      "title": "TRIP: Coercion-resistant Registration for E-Voting with Verifiability and Usability in Votegral",
+      "authors": [
+        "Louis-Henri Merino",
+        "Simone Colombo 0002",
+        "Rene Reyes",
+        "Alaleh Azhir",
+        "Shailesh Mishra",
+        "Pasindu Tennage",
+        "Mohammad Amin Raeisi",
+        "Haoqian Zhang",
+        "Jeff R. Allen",
+        "Bernhard Tellenbach",
+        "Vero Estrada-Gali&ntilde;anes",
+        "Bryan Ford"
+      ],
+      "pages": "834-874",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Merino0RAMTRZAT25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Merino0RAMTRZAT25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764837"
+      ]
+    },
+    {
+      "title": "Unlocking True Elasticity for the Cloud-Native Era with Dandelion",
+      "authors": [
+        "Tom Kuchler",
+        "Pinghe Li",
+        "Yazhuo Zhang",
+        "Lazar Cvetkovic",
+        "Boris Goranov",
+        "Tobias Stocker",
+        "Leon Thomm",
+        "Simone Kalbermatter",
+        "Tim Notter",
+        "Andrea Lattuada 0001",
+        "Ana Klimovic"
+      ],
+      "pages": "944-961",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KuchlerLZCGSTKN25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KuchlerLZCGSTKN25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764803"
+      ]
+    },
+    {
+      "title": "WASIT: Deep and Continuous Differential Testing of WebAssembly System Interface Implementations",
+      "authors": [
+        "Yage Hu",
+        "Wen Zhang",
+        "Botang Xiao",
+        "Qingchen Kong",
+        "Boyang Yi",
+        "Suxin Ji",
+        "Songlan Wang",
+        "Wenwen Wang 0001"
+      ],
+      "pages": "719-735",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HuZXKYJW025",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HuZXKYJW025.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764819"
+      ]
+    },
+    {
+      "title": "μFork: Supporting POSIX fork Within a Single-Address-Space OS",
+      "authors": [
+        "John Alistair Kressel",
+        "Hugo Lefeuvre",
+        "Pierre Olivier"
+      ],
+      "pages": "18-35",
+      "year": "2025",
+      "venue": "SOSP 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KresselLO25",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KresselLO25.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3731569.3764809"
+      ]
+    }
+  ]
+}

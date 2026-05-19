@@ -1,0 +1,782 @@
+{
+  "id": "usenix-2012",
+  "venue": "usenix",
+  "year": 2012,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2012.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2012.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2012",
+    "conf/usenix/2012-1",
+    "conf/usenix/2012-2",
+    "conf/usenix/2012-3",
+    "conf/usenix/2012-4",
+    "conf/usenix/2012-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 41,
+  "display_count": 41,
+  "papers": [
+    {
+      "title": "A Scalable Server for 3D Metaverses",
+      "authors": [
+        "Ewen Cheslack-Postava",
+        "Tahir Azim",
+        "Behram F. T. Mistree",
+        "Daniel Reiter Horn",
+        "Jeff Terrace",
+        "Philip Alexander Levis",
+        "Michael J. Freedman"
+      ],
+      "pages": "209-222",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Cheslack-PostavaAMHTLF12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Cheslack-PostavaAMHTLF12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/cheslack-postava"
+      ]
+    },
+    {
+      "title": "Abstractions for Usable Information Flow Control in Aeolus",
+      "authors": [
+        "Winnie Cheng",
+        "Dan R. K. Ports",
+        "David A. Schultz",
+        "Victoria Popic",
+        "Aaron Blankstein",
+        "James A. Cowling",
+        "Dorothy Curtis",
+        "Liuba Shrira",
+        "Barbara Liskov"
+      ],
+      "pages": "139-151",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChengPSPBCCSL12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChengPSPBCCSL12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/cheng"
+      ]
+    },
+    {
+      "title": "AddressSanitizer: A Fast Address Sanity Checker",
+      "authors": [
+        "Konstantin Serebryany",
+        "Derek Bruening",
+        "Alexander Potapenko",
+        "Dmitriy Vyukov"
+      ],
+      "pages": "309-318",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SerebryanyBPV12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SerebryanyBPV12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany"
+      ]
+    },
+    {
+      "title": "An Empirical Study of Memory Sharing in Virtual Machines",
+      "authors": [
+        "Sean Kenneth Barker",
+        "Timothy Wood 0001",
+        "Prashant J. Shenoy",
+        "Ramesh K. Sitaraman"
+      ],
+      "pages": "273-284",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BarkerWSS12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BarkerWSS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/barker"
+      ]
+    },
+    {
+      "title": "AppScope: Application Energy Metering Framework for Android Smartphone Using Kernel Activity Monitoring",
+      "authors": [
+        "Chanmin Yoon",
+        "Dongwon Kim",
+        "Wonwoo Jung",
+        "Chulkoo Kang",
+        "Hojung Cha"
+      ],
+      "pages": "387-400",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YoonKJKC12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YoonKJKC12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/yoon"
+      ]
+    },
+    {
+      "title": "Body Armor for Binaries: Preventing Buffer Overflows Without Recompilation",
+      "authors": [
+        "Asia Slowinska",
+        "Traian Stancescu",
+        "Herbert Bos"
+      ],
+      "pages": "125-137",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SlowinskiSB12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SlowinskiSB12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/slowinska"
+      ]
+    },
+    {
+      "title": "Building a Power-Proportional Software Router",
+      "authors": [
+        "Luca Niccolini",
+        "Gianluca Iannaccone",
+        "Sylvia Ratnasamy",
+        "Jaideep Chandrashekar",
+        "Luigi Rizzo"
+      ],
+      "pages": "89-100",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/NiccoliniIRCR12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/NiccoliniIRCR12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/niccolini"
+      ]
+    },
+    {
+      "title": "Cloud Terminal: Secure Access to Sensitive Applications from Untrusted Systems",
+      "authors": [
+        "Lorenzo Martignoni",
+        "Pongsin Poosankam",
+        "Matei Zaharia",
+        "Jun Han 0001",
+        "Stephen McCamant",
+        "Dawn Song",
+        "Vern Paxson",
+        "Adrian Perrig",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": "165-182",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MartignoniPZHMSPPSS12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MartignoniPZHMSPPSS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/martignoni"
+      ]
+    },
+    {
+      "title": "Composable Reliability for Asynchronous Systems",
+      "authors": [
+        "Sunghwan Yoo",
+        "Charles Killian",
+        "Terence Kelly",
+        "Hyoun Kyu Cho",
+        "Steven Plite"
+      ],
+      "pages": "27-40",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YooKKCP12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YooKKCP12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/yoo"
+      ]
+    },
+    {
+      "title": "Demand Based Hierarchical QoS Using Storage Resource Pools",
+      "authors": [
+        "Ajay Gulati",
+        "Ganesha Shanmuganathan",
+        "Xuechen Zhang 0001",
+        "Peter J. Varman"
+      ],
+      "pages": "1-13",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GulatiSZV12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GulatiSZV12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/gulati"
+      ]
+    },
+    {
+      "title": "Design and Implementation of an Embedded Python Run-Time System",
+      "authors": [
+        "Thomas W. Barr",
+        "Rebecca Smith",
+        "Scott Rixner"
+      ],
+      "pages": "297-308",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BarrSR12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BarrSR12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/barr"
+      ]
+    },
+    {
+      "title": "Dynamic Reconfiguration of Primary/Backup Clusters",
+      "authors": [
+        "Alexander Shraer",
+        "Benjamin C. Reed",
+        "Dahlia Malkhi",
+        "Flavio Paiva Junqueira"
+      ],
+      "pages": "425-437",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShraerRMJ12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShraerRMJ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/shraer"
+      ]
+    },
+    {
+      "title": "Enforcing Murphy's Law for Advance Identification of Run-time Failures",
+      "authors": [
+        "Zach Miller",
+        "Todd Tannenbaum",
+        "Ben Liblit"
+      ],
+      "pages": "203-208",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MillerTL12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MillerTL12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/miller"
+      ]
+    },
+    {
+      "title": "Erasure Coding in Windows Azure Storage",
+      "authors": [
+        "Cheng Huang 0002",
+        "Huseyin Simitci",
+        "Yikang Xu",
+        "Aaron Ogus",
+        "Brad Calder",
+        "Parikshit Gopalan",
+        "Jin Li 0001",
+        "Sergey Yekhanin"
+      ],
+      "pages": "15-26",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuangSXOCG0Y12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuangSXOCG0Y12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/huang"
+      ]
+    },
+    {
+      "title": "Gdev: First-Class GPU Resource Management in the Operating System",
+      "authors": [
+        "Shinpei Kato",
+        "Michael McThrow",
+        "Carlos Maltzahn",
+        "Scott A. Brandt"
+      ],
+      "pages": "401-412",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KatoMMB12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KatoMMB12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/kato"
+      ]
+    },
+    {
+      "title": "Generating Realistic Datasets for Deduplication Analysis",
+      "authors": [
+        "Vasily Tarasov",
+        "Amar Mudrankit",
+        "Will Buik",
+        "Philip Shilane",
+        "Geoff Kuenning",
+        "Erez Zadok"
+      ],
+      "pages": "261-272",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TarasovMBSKZ12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TarasovMBSKZ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/tarasov"
+      ]
+    },
+    {
+      "title": "Gnothi: Separating Data and Metadata for Efficient and Available Storage Replication",
+      "authors": [
+        "Yang Wang 0009",
+        "Lorenzo Alvisi",
+        "Mike Dahlin"
+      ],
+      "pages": "413-424",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0009AD12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0009AD12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/wang"
+      ]
+    },
+    {
+      "title": "Granola: Low-Overhead Distributed Transaction Coordination",
+      "authors": [
+        "James A. Cowling",
+        "Barbara Liskov"
+      ],
+      "pages": "223-235",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CowlingL12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CowlingL12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/cowling"
+      ]
+    },
+    {
+      "title": "High Performance Vehicular Connectivity with Opportunistic Erasure Coding",
+      "authors": [
+        "Ratul Mahajan",
+        "Jitendra Padhye",
+        "Sharad Agarwal",
+        "Brian Zill"
+      ],
+      "pages": "237-248",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MahajanPAZ12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MahajanPAZ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/mahajan"
+      ]
+    },
+    {
+      "title": "Managing Large Graphs on Multi-Cores with Graph Awareness",
+      "authors": [
+        "Vijayan Prabhakaran",
+        "Ming Wu 0007",
+        "Xuetian Weng",
+        "Frank McSherry",
+        "Lidong Zhou",
+        "Maya Haradasan"
+      ],
+      "pages": "41-52",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PrabhakaranWWMZH12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PrabhakaranWWMZH12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/prabhakaran"
+      ]
+    },
+    {
+      "title": "MemProf: A Memory Profiler for NUMA Multicore Systems",
+      "authors": [
+        "Renaud Lachaize",
+        "Baptiste Lepers",
+        "Vivien Qu&eacute;ma"
+      ],
+      "pages": "53-64",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LachaizeLQ12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LachaizeLQ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/lachaize"
+      ]
+    },
+    {
+      "title": "Mosh: An Interactive Remote Shell for Mobile Clients",
+      "authors": [
+        "Keith Winstein",
+        "Hari Balakrishnan"
+      ],
+      "pages": "177-182",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WinsteinB12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WinsteinB12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/winstein"
+      ]
+    },
+    {
+      "title": "netmap: A Novel Framework for Fast Packet I/O",
+      "authors": [
+        "Luigi Rizzo"
+      ],
+      "pages": "101-112",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Rizzo12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Rizzo12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/rizzo"
+      ]
+    },
+    {
+      "title": "Practical Hardening of Crash-Tolerant Systems",
+      "authors": [
+        "Miguel Correia 0001",
+        "Daniel G&oacute;mez Ferro",
+        "Flavio Paiva Junqueira",
+        "Marco Serafini"
+      ],
+      "pages": "453-466",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CorreiaFJS12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CorreiaFJS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/correia"
+      ]
+    },
+    {
+      "title": "Primary Data Deduplication - Large Scale Study and System Design",
+      "authors": [
+        "Ahmed El-Shimi",
+        "Ran Kalach",
+        "Ankit Kumar",
+        "Adi Ottean",
+        "Jin Li 0001",
+        "Sudipta Sengupta"
+      ],
+      "pages": "285-296",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/El-ShimiKKO0S12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/El-ShimiKKO0S12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/el-shimi"
+      ]
+    },
+    {
+      "title": "Remote Core Locking: Migrating Critical-Section Execution to Improve the Performance of Multithreaded Applications",
+      "authors": [
+        "Jean-Pierre Lozi",
+        "Florian David",
+        "Ga&euml;l Thomas 0001",
+        "Julia Lawall",
+        "Gilles Muller"
+      ],
+      "pages": "65-76",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LoziD0LM12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LoziD0LM12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/lozi"
+      ]
+    },
+    {
+      "title": "Revisiting Software Zero-Copy for Web-caching Applications with Twin Memory Allocation",
+      "authors": [
+        "Xiang Song",
+        "Jicheng Shi",
+        "Haibo Chen 0001",
+        "Binyu Zang"
+      ],
+      "pages": "355-360",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SongSCZ12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SongSCZ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/song"
+      ]
+    },
+    {
+      "title": "Rivet: Browser-agnostic Remote Debugging for Web Applications",
+      "authors": [
+        "James Mickens"
+      ],
+      "pages": "333-345",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Mickens12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Mickens12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/mickens"
+      ]
+    },
+    {
+      "title": "Seagull: Intelligent Cloud Bursting for Enterprise Applications",
+      "authors": [
+        "Tian Guo 0001",
+        "Upendra Sharma",
+        "Timothy Wood 0001",
+        "Sambit Sahu",
+        "Prashant J. Shenoy"
+      ],
+      "pages": "361-366",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuoSWSS12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuoSWSS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/guo"
+      ]
+    },
+    {
+      "title": "Server-assisted Latency Management for Wide-area Distributed Systems",
+      "authors": [
+        "Wonho Kim",
+        "KyoungSoo Park",
+        "Vivek S. Pai"
+      ],
+      "pages": "249-260",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KimPP12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KimPP12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/kim"
+      ]
+    },
+    {
+      "title": "Software Persistent Memory",
+      "authors": [
+        "Jorge Guerra",
+        "Leonardo M&aacute;rmol",
+        "Daniel Campello",
+        "Carlos Crespo",
+        "Raju Rangaswami",
+        "Jinpeng Wei"
+      ],
+      "pages": "319-331",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuerraMCCRW12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuerraMCCRW12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/guerra"
+      ]
+    },
+    {
+      "title": "Software Techniques for Avoiding Hardware Virtualization Exits",
+      "authors": [
+        "Ole Agesen",
+        "Jim Mattson",
+        "Radu Rugina",
+        "Jeffrey Sheldon"
+      ],
+      "pages": "373-385",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AgesenMRS12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AgesenMRS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/agesen"
+      ]
+    },
+    {
+      "title": "Surviving Congestion in Geo-Distributed Storage Systems",
+      "authors": [
+        "Brian Cho",
+        "Marcos K. Aguilera"
+      ],
+      "pages": "439-451",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChoA12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChoA12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/cho"
+      ]
+    },
+    {
+      "title": "The Click2NetFPGA Toolchain",
+      "authors": [
+        "Teemu Rinta-aho",
+        "Mika Karlstedt",
+        "Madhav P. Desai"
+      ],
+      "pages": "77-88",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Rinta-ahoKD12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Rinta-ahoKD12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/rinta-aho"
+      ]
+    },
+    {
+      "title": "The Forgotten 'Uncore': On the Energy-Efficiency of Heterogeneous Cores",
+      "authors": [
+        "Vishal Gupta 0001",
+        "Paul Brett",
+        "David A. Koufaty",
+        "Dheeraj Reddy",
+        "Scott Hahn",
+        "Karsten Schwan",
+        "Ganapati Srinivasa"
+      ],
+      "pages": "367-372",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuptaBKRHSS12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuptaBKRHSS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/gupta"
+      ]
+    },
+    {
+      "title": "Tolerating Overload Attacks Against Packet Capturing Systems",
+      "authors": [
+        "Antonis Papadogiannakis",
+        "Michalis Polychronakis",
+        "Evangelos P. Markatos"
+      ],
+      "pages": "197-202",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PapadogiannakisPM12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PapadogiannakisPM12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/papadogiannakis"
+      ]
+    },
+    {
+      "title": "Toward Efficient Querying of Compressed Network Payloads",
+      "authors": [
+        "Teryl Taylor",
+        "Scott E. Coull",
+        "Fabian Monrose",
+        "John McHugh"
+      ],
+      "pages": "113-124",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TaylorCMM12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TaylorCMM12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/taylor"
+      ]
+    },
+    {
+      "title": "Treehouse: Javascript Sandboxes to Help Web Developers Help Themselves",
+      "authors": [
+        "Lon Ingram",
+        "Michael Walfish"
+      ],
+      "pages": "153-164",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/IngramW12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/IngramW12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/ingram"
+      ]
+    },
+    {
+      "title": "Trickle: Rate Limiting YouTube Video Streaming",
+      "authors": [
+        "Monia Ghobadi",
+        "Yuchung Cheng",
+        "Ankur Jain",
+        "Matt Mathis"
+      ],
+      "pages": "191-196",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GhobadiCJM12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GhobadiCJM12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/ghobadi"
+      ]
+    },
+    {
+      "title": "TROPIC: Transactional Resource Orchestration Platform in the Cloud",
+      "authors": [
+        "Changbin Liu",
+        "Yun Mao",
+        "Xu Chen 0028",
+        "Mary F. Fernandez",
+        "Boon Thau Loo",
+        "Jacobus E. van der Merwe"
+      ],
+      "pages": "183-190",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiuMCFLM12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiuMCFLM12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/liu"
+      ]
+    },
+    {
+      "title": "Wimpy Nodes with 10GbE: Leveraging One-Sided Operations in Soft-RDMA to Boost Memcached",
+      "authors": [
+        "Patrick Stuedi",
+        "Animesh Trivedi",
+        "Bernard Metzler"
+      ],
+      "pages": "347-353",
+      "year": "2012",
+      "venue": "USENIX ATC 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/StuediTM12",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/StuediTM12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc12/technical-sessions/presentation/stuedi"
+      ]
+    }
+  ]
+}

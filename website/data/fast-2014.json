@@ -1,0 +1,500 @@
+{
+  "id": "fast-2014",
+  "venue": "fast",
+  "year": 2014,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2014.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2014.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2014",
+    "conf/fast/2014-1",
+    "conf/fast/2014-2",
+    "conf/fast/2014-3",
+    "conf/fast/2014-4",
+    "conf/fast/2014-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 24,
+  "display_count": 24,
+  "papers": [
+    {
+      "title": "(Big)data in a virtualized world: volume, velocity, and variety in cloud datacenters",
+      "authors": [
+        "Robert Birke",
+        "Mathias Bj&ouml;rkqvist",
+        "Lydia Y. Chen",
+        "Evgenia Smirni",
+        "Ton Engbersen"
+      ],
+      "pages": "177-189",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BirkeBCSE14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BirkeBCSE14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/birke"
+      ]
+    },
+    {
+      "title": "Analysis of HDFS under HBase: a facebook messages case study",
+      "authors": [
+        "Tyler Harter",
+        "Dhruba Borthakur",
+        "Siying Dong",
+        "Amitanand S. Aiyer",
+        "Liyin Tang",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "199-212",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HarterBDATAA14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HarterBDATAA14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/harter"
+      ]
+    },
+    {
+      "title": "Automatic identification of application I/O signatures from noisy server-side traces",
+      "authors": [
+        "Yang Liu 0129",
+        "Raghul Gunasekaran",
+        "Xiaosong Ma",
+        "Sudharshan S. Vazhkudai"
+      ],
+      "pages": "213-228",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuGMV14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuGMV14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/liu"
+      ]
+    },
+    {
+      "title": "Balancing fairness and efficiency in tiered storage systems with bottleneck-aware allocation",
+      "authors": [
+        "Hui Wang 0014",
+        "Peter J. Varman"
+      ],
+      "pages": "229-242",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangV14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangV14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/wang"
+      ]
+    },
+    {
+      "title": "Checking the integrity of transactional mechanisms",
+      "authors": [
+        "Daniel Fryer",
+        "Dai Qin",
+        "Jack Sun",
+        "Kah Wai Lee",
+        "Angela Demke Brown",
+        "Ashvin Goel"
+      ],
+      "pages": "295-308",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/FryerQSLBG14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/FryerQSLBG14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/fryer"
+      ]
+    },
+    {
+      "title": "CRAID: online RAID upgrades using dynamic hot data reorganization",
+      "authors": [
+        "Alberto Miranda",
+        "Toni Cortes"
+      ],
+      "pages": "133-146",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MirandaC14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MirandaC14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/miranda"
+      ]
+    },
+    {
+      "title": "DC express: shortest latency protocol for reading phase change memory over PCI express",
+      "authors": [
+        "Dejan Vucinic",
+        "Qingbo Wang",
+        "Cyril Guyot",
+        "Robert Mateescu",
+        "Filip Blagojevic",
+        "Luiz Franca-Neto",
+        "Damien Le Moal",
+        "Trevor Bunker",
+        "Jian Xu 0012",
+        "Steven Swanson",
+        "Zvonimir Bandic"
+      ],
+      "pages": "309-315",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/VucinicWGMBFMBXSB14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/VucinicWGMBFMBXSB14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/vucinic"
+      ]
+    },
+    {
+      "title": "Evaluating phase change memory for enterprise storage systems: a study of caching and tiering approaches",
+      "authors": [
+        "Hyojun Kim",
+        "Sangeetha Seshadri",
+        "Clement L. Dickey",
+        "Lawrence Chiu"
+      ],
+      "pages": "33-45",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimSDC14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimSDC14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/kim"
+      ]
+    },
+    {
+      "title": "From research to practice: experiences engineering a production metadata database for a scale out file system",
+      "authors": [
+        "Charles Johnson",
+        "Kimberly Keeton",
+        "Charles B. Morrey III",
+        "Craig A. N. Soules",
+        "Alistair C. Veitch",
+        "Stephen Bacon",
+        "Oskar Batuner",
+        "Marcelo Condotta",
+        "Hamilton Coutinho",
+        "Patrick J. Doyle",
+        "Rafael Eichelberger",
+        "Hugo Kiehl",
+        "Guilherme R. Magalhaes",
+        "James McEvoy",
+        "Padmanabhan Nagarajan",
+        "Patrick Osborne",
+        "Joaquim Souza",
+        "Andy Sparkes",
+        "Mike Spitzer",
+        "S&eacute;bastien Tandel",
+        "Lincoln Thomas",
+        "Sebastian Zangaro"
+      ],
+      "pages": "191-198",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JohnsonKMSVBBCCDEKMMNOSSSTTZ14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JohnsonKMSVBBCCDEKMMNOSSSTTZ14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/johnson"
+      ]
+    },
+    {
+      "title": "Journaling of journal is (almost) free",
+      "authors": [
+        "Kai Shen",
+        "Stan Park",
+        "Meng Zhu"
+      ],
+      "pages": "287-293",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ShenPZ14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ShenPZ14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/shen"
+      ]
+    },
+    {
+      "title": "Lifetime improvement of NAND flash-based storage systems using dynamic program and erase scaling",
+      "authors": [
+        "Jaeyong Jeong",
+        "Sangwook Shane Hahn",
+        "Sungjin Lee 0001",
+        "Jihong Kim 0001"
+      ],
+      "pages": "61-74",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JeongHLK14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JeongHLK14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/jeong"
+      ]
+    },
+    {
+      "title": "Log-structured memory for DRAM-based storage",
+      "authors": [
+        "Stephen M. Rumble",
+        "Ankita Kejriwal",
+        "John K. Ousterhout"
+      ],
+      "pages": "1-16",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RumbleKO14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RumbleKO14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/rumble"
+      ]
+    },
+    {
+      "title": "Migratory compression: coarse-grained data reordering to improve compressibility",
+      "authors": [
+        "Xing Lin",
+        "Guanlin Lu",
+        "Fred Douglis",
+        "Philip Shilane",
+        "Grant Wallace"
+      ],
+      "pages": "257-271",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LinLDSW14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LinLDSW14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/lin"
+      ]
+    },
+    {
+      "title": "MultiLanes: providing virtualized storage for OS-level virtualization on many cores",
+      "authors": [
+        "Junbin Kang",
+        "Benlong Zhang",
+        "Tianyu Wo",
+        "Chunming Hu",
+        "Jinpeng Huai"
+      ],
+      "pages": "317-329",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KangZWHH14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KangZWHH14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/kang"
+      ]
+    },
+    {
+      "title": "On the energy overhead of mobile storage systems",
+      "authors": [
+        "Jing Li 0021",
+        "Anirudh Badam",
+        "Ranveer Chandra",
+        "Steven Swanson",
+        "Bruce L. Worthington",
+        "Qi Zhang 0012"
+      ],
+      "pages": "105-118",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiBCSWZ14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiBCSWZ14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/li"
+      ]
+    },
+    {
+      "title": "Parity logging with reserved space: towards efficient updates and recovery in erasure-coded clustered storage",
+      "authors": [
+        "Jeremy C. W. Chan",
+        "Qian Ding",
+        "Patrick P. C. Lee",
+        "Helen H. W. Chan"
+      ],
+      "pages": "163-176",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChanDLC14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChanDLC14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/chan"
+      ]
+    },
+    {
+      "title": "ReconFS: a reconstructable file system on flash storage",
+      "authors": [
+        "Youyou Lu",
+        "Jiwu Shu",
+        "Wei Wang"
+      ],
+      "pages": "75-88",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LuSW14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LuSW14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/lu"
+      ]
+    },
+    {
+      "title": "Resolving journaling of journal anomaly in android I/O: multi-version B-tree with lazy split",
+      "authors": [
+        "Wook-Hee Kim",
+        "Beomseok Nam",
+        "Dongil Park",
+        "Youjip Won"
+      ],
+      "pages": "273-285",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimNPW14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimNPW14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/kim-wook-hee"
+      ]
+    },
+    {
+      "title": "SpringFS: bridging agility and performance in elastic distributed storage",
+      "authors": [
+        "Lianghong Xu",
+        "James Cipar",
+        "Elie Krevat",
+        "Alexey Tumanov",
+        "Nitin Gupta 0001",
+        "Michael A. Kozuch",
+        "Gregory R. Ganger"
+      ],
+      "pages": "243-255",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/XuCKTGKG14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/XuCKTGKG14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/xu"
+      ]
+    },
+    {
+      "title": "STAIR codes: a general family of erasure codes for tolerating device and sector failures in practical storage systems",
+      "authors": [
+        "Mingqiang Li",
+        "Patrick P. C. Lee"
+      ],
+      "pages": "147-162",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiL14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiL14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/li-mingqiang"
+      ]
+    },
+    {
+      "title": "Strata: scalable high-performance storage on virtualized non-volatile memory",
+      "authors": [
+        "Brendan Cully",
+        "Jake Wires",
+        "Dutch T. Meyer",
+        "Kevin Jamieson 0002",
+        "Keir Fraser",
+        "Tim Deegan",
+        "Daniel Stodden",
+        "Geoffrey Lefebvre",
+        "Daniel Ferstay",
+        "Andrew Warfield"
+      ],
+      "pages": "17-31",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CullyWMJFDSLFW14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CullyWMJFDSLFW14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/cully"
+      ]
+    },
+    {
+      "title": "Toward strong, usable access control for shared distributed data",
+      "authors": [
+        "Michelle L. Mazurek",
+        "Yuan Liang",
+        "William Melicher",
+        "Manya Sleeper",
+        "Lujo Bauer",
+        "Gregory R. Ganger",
+        "Nitin Gupta 0001",
+        "Michael K. Reiter"
+      ],
+      "pages": "89-103",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MazurekLMSBGGR14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MazurekLMSBGGR14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/mazurek"
+      ]
+    },
+    {
+      "title": "ViewBox: integrating local file systems with cloud storage services",
+      "authors": [
+        "Yupu Zhang",
+        "Chris Dragga",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "119-132",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangDAA14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangDAA14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/zhang"
+      ]
+    },
+    {
+      "title": "Wear unleveling: improving NAND flash lifetime by balancing page endurance",
+      "authors": [
+        "Xavier Jimenez",
+        "David Novo",
+        "Paolo Ienne"
+      ],
+      "pages": "47-59",
+      "year": "2014",
+      "venue": "FAST 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JimenezNI14",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JimenezNI14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast14/technical-sessions/presentation/jimenez"
+      ]
+    }
+  ]
+}

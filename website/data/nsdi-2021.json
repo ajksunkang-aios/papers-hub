@@ -1,0 +1,1211 @@
+{
+  "id": "nsdi-2021",
+  "venue": "nsdi",
+  "year": 2021,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2021.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2021.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2021",
+    "conf/nsdi/2021-1",
+    "conf/nsdi/2021-2",
+    "conf/nsdi/2021-3",
+    "conf/nsdi/2021-4",
+    "conf/nsdi/2021-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 59,
+  "display_count": 59,
+  "papers": [
+    {
+      "title": "A Social Network Under Social Distancing: Risk-Driven Backbone Management During COVID-19 and Beyond",
+      "authors": [
+        "Yiting Xia",
+        "Ying Zhang 0022",
+        "Zhizhen Zhong",
+        "Guanqing Yan",
+        "Chiunlin Lim",
+        "Satyajeet Singh Ahuja",
+        "Soshant Bali",
+        "Alexander Nikolaidis",
+        "Kimia Ghobadi",
+        "Manya Ghobadi"
+      ],
+      "pages": "217-231",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XiaZZYLABNGG21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XiaZZYLABNGG21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/xia"
+      ]
+    },
+    {
+      "title": "Accessing Cloud with Disaggregated Software-Defined Router",
+      "authors": [
+        "Hua Shao",
+        "Xiaoliang Wang 0001",
+        "Yuanwei Lu",
+        "Yanbo Yu",
+        "Shengli Zheng",
+        "Youjian Zhao"
+      ],
+      "pages": "1-14",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Shao0LYZZ21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Shao0LYZZ21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/shao"
+      ]
+    },
+    {
+      "title": "Adapting Wireless Mesh Network Configuration from Simulation to Reality via Deep Learning based Domain Adaptation",
+      "authors": [
+        "Junyang Shi",
+        "Mo Sha 0001",
+        "Xi Peng 0005"
+      ],
+      "pages": "887-901",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Shi0P21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Shi0P21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/shi"
+      ]
+    },
+    {
+      "title": "AIRCODE: Hidden Screen-Camera Communication on an Invisible and Inaudible Dual Channel",
+      "authors": [
+        "Kun Qian 0004",
+        "Yumeng Lu",
+        "Zheng Yang 0002",
+        "Kai Zhang",
+        "Kehong Huang",
+        "Xinjun Cai",
+        "Chenshu Wu",
+        "Yunhao Liu 0001"
+      ],
+      "pages": "457-470",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0004L0ZHCWL21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0004L0ZHCWL21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/qian"
+      ]
+    },
+    {
+      "title": "Alohamora: Reviving HTTP/2 Push and Preload by Adapting Policies On the Fly",
+      "authors": [
+        "Nikhil Kansal",
+        "Murali Ramanujam",
+        "Ravi Netravali"
+      ],
+      "pages": "269-287",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KansalRN21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KansalRN21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/kansal"
+      ]
+    },
+    {
+      "title": "ATP: In-network Aggregation for Multi-tenant Learning",
+      "authors": [
+        "ChonLam Lao",
+        "Yanfang Le",
+        "Kshiteej Mahajan",
+        "Yixi Chen",
+        "Wenfei Wu",
+        "Aditya Akella",
+        "Michael M. Swift"
+      ],
+      "pages": "741-761",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LaoLMCWAS21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LaoLMCWAS21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/lao"
+      ]
+    },
+    {
+      "title": "Avenir: Managing Data Plane Diversity with Control Plane Synthesis",
+      "authors": [
+        "Eric Hayden Campbell",
+        "William T. Hallahan",
+        "Priya Srikumar",
+        "Carmelo Cascone",
+        "Jed Liu",
+        "Vignesh Ramamurthy",
+        "Hossein Hojjat",
+        "Ruzica Piskac",
+        "Robert Soul&eacute;",
+        "Nate Foster"
+      ],
+      "pages": "133-153",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CampbellHSCLRHP21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CampbellHSCLRHP21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/campbell"
+      ]
+    },
+    {
+      "title": "BMC: Accelerating Memcached using Safe In-kernel Caching and Pre-stack Processing",
+      "authors": [
+        "Yoann Ghigoff",
+        "Julien Sopena",
+        "Kahina Lazri",
+        "Antoine Blin",
+        "Gilles Muller"
+      ],
+      "pages": "487-501",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GhigoffSLBM21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GhigoffSLBM21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/ghigoff"
+      ]
+    },
+    {
+      "title": "Bootstrapping Battery-free Wireless Networks: Efficient Neighbor Discovery and Synchronization in the Face of Intermittency",
+      "authors": [
+        "Kai Geissdoerfer",
+        "Marco Zimmerling"
+      ],
+      "pages": "439-455",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GeissdoerferZ21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GeissdoerferZ21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/geissdoerfer"
+      ]
+    },
+    {
+      "title": "Breaking the Transience-Equilibrium Nexus: A New Approach to Datacenter Packet Transport",
+      "authors": [
+        "Shiyu Liu",
+        "Ahmad Ghalayini",
+        "Mohammad Alizadeh",
+        "Balaji Prabhakar",
+        "Mendel Rosenblum",
+        "Anirudh Sivaraman"
+      ],
+      "pages": "47-63",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiuGAPRS21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiuGAPRS21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/liu"
+      ]
+    },
+    {
+      "title": "Caerus: NIMBLE Task Scheduling for Serverless Analytics",
+      "authors": [
+        "Hong Zhang 0025",
+        "Yupeng Tang",
+        "Anurag Khandelwal",
+        "Jingrong Chen 0002",
+        "Ion Stoica"
+      ],
+      "pages": "653-669",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangTKCS21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangTKCS21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/zhang-hong"
+      ]
+    },
+    {
+      "title": "CodedBulk: Inter-Datacenter Bulk Transfers using Network Coding",
+      "authors": [
+        "Shih-Hao Tseng",
+        "Saksham Agarwal",
+        "Rachit Agarwal 0001",
+        "Hitesh Ballani",
+        "Ao Tang"
+      ],
+      "pages": "15-28",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/TsengA0BT21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/TsengA0BT21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/tseng"
+      ]
+    },
+    {
+      "title": "Contracting Wide-area Network Topologies to Solve Flow Problems Quickly",
+      "authors": [
+        "Firas Abuzaid",
+        "Srikanth Kandula",
+        "Behnaz Arzani",
+        "Ishai Menache",
+        "Matei Zaharia",
+        "Peter Bailis"
+      ],
+      "pages": "175-200",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AbuzaidKAMZB21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AbuzaidKAMZB21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/abuzaid"
+      ]
+    },
+    {
+      "title": "Cost-effective Cloud Edge Traffic Engineering with Cascara",
+      "authors": [
+        "Rachee Singh",
+        "Sharad Agarwal",
+        "Matt Calder",
+        "Paramvir Bahl"
+      ],
+      "pages": "201-216",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SinghACB21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SinghACB21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/singh"
+      ]
+    },
+    {
+      "title": "Debugging Transient Faults in Data Centers using Synchronized Network-wide Packet Histories",
+      "authors": [
+        "Pravein Govindan Kannan",
+        "Nishant Budhdev",
+        "Raj Joshi",
+        "Mun Choon Chan"
+      ],
+      "pages": "253-268",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KannanBJC21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KannanBJC21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/kannan"
+      ]
+    },
+    {
+      "title": "Device-Based LTE Latency Reduction at the Application Layer",
+      "authors": [
+        "Zhaowei Tan",
+        "Jinghao Zhao",
+        "Yuanjie Li",
+        "Yifei Xu",
+        "Songwu Lu"
+      ],
+      "pages": "471-486",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/TanZLXL21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/TanZLXL21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/tan"
+      ]
+    },
+    {
+      "title": "Don't Yank My Chain: Auditable NF Service Chaining",
+      "authors": [
+        "Guyue Liu",
+        "Hugo Sadok",
+        "Anne Kohlbrenner",
+        "Bryan Parno",
+        "Vyas Sekar",
+        "Justine Sherry"
+      ],
+      "pages": "155-173",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiuSKPSS21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiuSKPSS21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/liu-guyue"
+      ]
+    },
+    {
+      "title": "EarFisher: Detecting Wireless Eavesdroppers by Stimulating and Sensing Memory EMR",
+      "authors": [
+        "Cheng Shen",
+        "Jun Huang"
+      ],
+      "pages": "873-886",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShenH21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShenH21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/shen"
+      ]
+    },
+    {
+      "title": "Efficient Wideband Spectrum Sensing Using MEMS Acoustic Resonators",
+      "authors": [
+        "Junfeng Guan",
+        "Jitian Zhang",
+        "Ruochen Lu",
+        "Hyungjoo Seo",
+        "Jin Zhou 0001",
+        "Songbin Gong",
+        "Haitham Hassanieh"
+      ],
+      "pages": "809-825",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuanZLSZGH21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuanZLSZGH21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/guan"
+      ]
+    },
+    {
+      "title": "Elastic Resource Sharing for Distributed Deep Learning",
+      "authors": [
+        "Changho Hwang",
+        "Taehyun Kim",
+        "Sunghyun Kim",
+        "Jinwoo Shin",
+        "KyoungSoo Park"
+      ],
+      "pages": "721-739",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HwangKKSP21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HwangKKSP21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/hwang"
+      ]
+    },
+    {
+      "title": "EPaxos Revisited",
+      "authors": [
+        "Sarah Tollman",
+        "Seo Jin Park",
+        "John K. Ousterhout"
+      ],
+      "pages": "613-632",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/TollmanPO21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/TollmanPO21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/tollman"
+      ]
+    },
+    {
+      "title": "Fast and Light Bandwidth Testing for Internet Users",
+      "authors": [
+        "Xinlei Yang",
+        "Xianlong Wang 0003",
+        "Zhenhua Li 0001",
+        "Yunhao Liu 0001",
+        "Feng Qian 0001",
+        "Liangyi Gong",
+        "Rui Miao",
+        "Tianyin Xu"
+      ],
+      "pages": "1011-1026",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YangW0LQGMX21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YangW0LQGMX21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/yang-xinlei"
+      ]
+    },
+    {
+      "title": "Fault-Tolerant Replication with Pull-Based Consensus in MongoDB",
+      "authors": [
+        "Siyuan Zhou",
+        "Shuai Mu 0001"
+      ],
+      "pages": "687-703",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhouM21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhouM21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/zhou"
+      ]
+    },
+    {
+      "title": "Finding Invariants of Distributed Systems: It's a Small (Enough) World After All",
+      "authors": [
+        "Travis Hance",
+        "Marijn Heule",
+        "Ruben Martins",
+        "Bryan Parno"
+      ],
+      "pages": "115-131",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HanceHMP21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HanceHMP21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/hance"
+      ]
+    },
+    {
+      "title": "Flightplan: Dataplane Disaggregation and Placement for P4 Programs",
+      "authors": [
+        "Nik Sultana",
+        "John Sonchack",
+        "Hans Giesen",
+        "Isaac Pedisich",
+        "Zhaoyang Han",
+        "Nishanth Shyamkumar",
+        "Shivani Burad",
+        "Andr&eacute; DeHon",
+        "Boon Thau Loo"
+      ],
+      "pages": "571-592",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SultanaSGPHSBDL21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SultanaSGPHSBDL21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/sultana"
+      ]
+    },
+    {
+      "title": "From Conception to Retirement: a Lifetime Story of a 3-Year-Old Wireless Beacon System in the Wild",
+      "authors": [
+        "Yi Ding 0011",
+        "Ling Liu",
+        "Yu Yang 0010",
+        "Yunhuai Liu",
+        "Desheng Zhang 0002",
+        "Tian He 0001"
+      ],
+      "pages": "859-872",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DingLYLZ021",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DingLYLZ021.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/ding"
+      ]
+    },
+    {
+      "title": "GAIA: A System for Interactive Analysis on Distributed Graphs Using a High-Level Language",
+      "authors": [
+        "Zhengping Qian",
+        "Chenqiang Min",
+        "Longbin Lai",
+        "Yong Fang",
+        "Gaofeng Li",
+        "Youyang Yao",
+        "Bingqing Lyu",
+        "Xiaoli Zhou",
+        "Zhimin Chen",
+        "Jingren Zhou 0001"
+      ],
+      "pages": "321-335",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/QianMLFLYLZCZ21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/QianMLFLYLZCZ21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/qian-zhengping"
+      ]
+    },
+    {
+      "title": "LightGuardian: A Full-Visibility, Lightweight, In-band Telemetry System Using Sketchlets",
+      "authors": [
+        "Yikai Zhao 0001",
+        "Kaicheng Yang 0001",
+        "Zirui Liu 0002",
+        "Tong Yang 0003",
+        "Li Chen 0008",
+        "Shiyi Liu",
+        "Naiqian Zheng",
+        "Ruixin Wang",
+        "Hanbo Wu",
+        "Yi Wang 0004",
+        "Nicholas Zhang"
+      ],
+      "pages": "991-1010",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhaoYLYCLZWWWZ21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhaoYLYCLZWWWZ21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/zhao"
+      ]
+    },
+    {
+      "title": "MAVL: Multiresolution Analysis of Voice Localization",
+      "authors": [
+        "Mei Wang",
+        "Wei Sun",
+        "Lili Qiu"
+      ],
+      "pages": "845-858",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangSQ21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangSQ21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/wang"
+      ]
+    },
+    {
+      "title": "Metha: Network Verifiers Need To Be Correct Too!",
+      "authors": [
+        "R&uuml;diger Birkner",
+        "Tobias Brodmann",
+        "Petar Tsankov",
+        "Laurent Vanbever",
+        "Martin T. Vechev"
+      ],
+      "pages": "99-113",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BirknerBTVV21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BirknerBTVV21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/birkner"
+      ]
+    },
+    {
+      "title": "MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds",
+      "authors": [
+        "Yilong Li",
+        "Seo Jin Park",
+        "John K. Ousterhout"
+      ],
+      "pages": "593-611",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiPO21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiPO21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/li-yilong"
+      ]
+    },
+    {
+      "title": "Mistify: Automating DNN Model Porting for On-Device Inference at the Edge",
+      "authors": [
+        "Peizhen Guo",
+        "Bo Hu",
+        "Wenjun Hu"
+      ],
+      "pages": "705-719",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuoHH21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuoHH21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/guo"
+      ]
+    },
+    {
+      "title": "Move Fast and Meet Deadlines: Fine-grained Real-time Stream Processing with Cameo",
+      "authors": [
+        "Le Xu",
+        "Shivaram Venkataraman",
+        "Indranil Gupta",
+        "Luo Mai",
+        "Rahul Potharaju"
+      ],
+      "pages": "389-405",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XuVGMP21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XuVGMP21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/xu"
+      ]
+    },
+    {
+      "title": "Oblique: Accelerating Page Loads Using Symbolic Execution",
+      "authors": [
+        "Ronny Ko",
+        "James Mickens",
+        "Blake Loring",
+        "Ravi Netravali"
+      ],
+      "pages": "289-302",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KoMLN21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KoMLN21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/ko"
+      ]
+    },
+    {
+      "title": "On the Use of ML for Blackbox System Performance Prediction",
+      "authors": [
+        "Silvery Fu",
+        "Saurabh Gupta 0001",
+        "Radhika Mittal",
+        "Sylvia Ratnasamy"
+      ],
+      "pages": "763-784",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FuGMR21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FuGMR21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/fu"
+      ]
+    },
+    {
+      "title": "One Protocol to Rule Them All: Wireless Network-on-Chip using Deep Reinforcement Learning",
+      "authors": [
+        "Suraj Jog",
+        "Zikun Liu 0002",
+        "Antonio Franques",
+        "Vimuth Fernando",
+        "Sergi Abadal",
+        "Josep Torrellas",
+        "Haitham Hassanieh"
+      ],
+      "pages": "973-989",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JogLFFATH21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JogLFFATH21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/jog"
+      ]
+    },
+    {
+      "title": "Orion: Google's Software-Defined Networking Control Plane",
+      "authors": [
+        "Andrew D. Ferguson",
+        "Steve D. Gribble",
+        "Chi-Yao Hong",
+        "Charles Killian",
+        "Waqar Mohsin",
+        "Henrik M&uuml;he",
+        "Joon Ong",
+        "Leon Poutievski",
+        "Arjun Singh",
+        "Lorenzo Vicisano",
+        "Richard Alimi",
+        "Shawn Shuoshuo Chen",
+        "Mike Conley",
+        "Subhasree Mandal",
+        "Karthik Nagaraj",
+        "Kondapa Naidu Bollineni",
+        "Amr Sabaa",
+        "Shidong Zhang",
+        "Min Zhu",
+        "Amin Vahdat"
+      ],
+      "pages": "83-98",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FergusonGHKMMOP21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FergusonGHKMMOP21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/ferguson"
+      ]
+    },
+    {
+      "title": "Ownership: A Distributed Futures System for Fine-Grained Tasks",
+      "authors": [
+        "Stephanie Wang",
+        "Eric Liang",
+        "Edward Oakes",
+        "Benjamin Hindman",
+        "Frank Sifei Luan",
+        "Audrey Cheng",
+        "Ion Stoica"
+      ],
+      "pages": "671-686",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangLOHLCS21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangLOHLCS21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/cheng"
+      ]
+    },
+    {
+      "title": "Practical Null Steering in Millimeter Wave Networks",
+      "authors": [
+        "Sohrab Madani",
+        "Suraj Jog",
+        "Jes&uacute;s Omar Lacruz",
+        "Joerg Widmer",
+        "Haitham Hassanieh"
+      ],
+      "pages": "903-921",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MadaniJLWH21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MadaniJLWH21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/madani"
+      ]
+    },
+    {
+      "title": "Prism: Proxies without the Pain",
+      "authors": [
+        "Yutaro Hayakawa",
+        "Michio Honda",
+        "Douglas Santry",
+        "Lars Eggert"
+      ],
+      "pages": "535-549",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HayakawaHSE21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HayakawaHSE21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/hayakawa"
+      ]
+    },
+    {
+      "title": "Programming Network Stack for Middleboxes with Rubik",
+      "authors": [
+        "Hao Li 0011",
+        "Changhao Wu",
+        "Guangda Sun",
+        "Peng Zhang 0011",
+        "Danfeng Shan",
+        "Tian Pan 0001",
+        "Chengchen Hu"
+      ],
+      "pages": "551-570",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0011WS0S0H21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0011WS0S0H21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/li"
+      ]
+    },
+    {
+      "title": "Pushing the Physical Limits of IoT Devices with Programmable Metasurfaces",
+      "authors": [
+        "Lili Chen",
+        "Wenjun Hu",
+        "Kyle Jamieson",
+        "Xiaojiang Chen",
+        "Dingyi Fang",
+        "Jeremy Gummeson"
+      ],
+      "pages": "425-438",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChenHJCFG21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChenHJCFG21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/chen"
+      ]
+    },
+    {
+      "title": "Running BGP in Data Centers at Scale",
+      "authors": [
+        "Anubhavnidhi Abhashkumar",
+        "Kausik Subramanian",
+        "Alexey Andreyev",
+        "Hyojeong Kim",
+        "Nanda Kishore Salem",
+        "Jingyi Yang",
+        "Petr Lapukhov",
+        "Aditya Akella",
+        "Hongyi Zeng"
+      ],
+      "pages": "65-81",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AbhashkumarSAKS21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AbhashkumarSAKS21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/abhashkumar"
+      ]
+    },
+    {
+      "title": "Scaling Distributed Machine Learning with In-Network Aggregation",
+      "authors": [
+        "Amedeo Sapio",
+        "Marco Canini",
+        "Chen-Yu Ho 0001",
+        "Jacob Nelson 0001",
+        "Panos Kalnis",
+        "Changhoon Kim",
+        "Arvind Krishnamurthy",
+        "Masoud Moshref",
+        "Dan R. K. Ports",
+        "Peter Richt&aacute;rik"
+      ],
+      "pages": "785-808",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SapioC0NKKKMPR21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SapioC0NKKKMPR21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/sapio"
+      ]
+    },
+    {
+      "title": "Segcache: a memory-efficient and scalable in-memory key-value cache for small objects",
+      "authors": [
+        "Juncheng Yang",
+        "Yao Yue",
+        "Rashmi Vinayak"
+      ],
+      "pages": "503-518",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YangYV21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YangYV21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/yang-juncheng"
+      ]
+    },
+    {
+      "title": "SENSEI: Aligning Video Streaming Quality with Dynamic User Sensitivity",
+      "authors": [
+        "Xu Zhang",
+        "Yiyang Ou",
+        "Siddhartha Sen 0001",
+        "Junchen Jiang"
+      ],
+      "pages": "303-320",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangO0J21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangO0J21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/zhang-xu"
+      ]
+    },
+    {
+      "title": "Ship Compute or Ship Data? Why Not Both?",
+      "authors": [
+        "Jie You",
+        "Jingfeng Wu",
+        "Xin Jin 0008",
+        "Mosharaf Chowdhury"
+      ],
+      "pages": "633-651",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YouW0C21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YouW0C21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/you"
+      ]
+    },
+    {
+      "title": "Simplifying Backscatter Deployment: Full-Duplex LoRa Backscatter",
+      "authors": [
+        "Mohamad Katanbaf",
+        "Anthony Weinand",
+        "Vamsi Talla"
+      ],
+      "pages": "955-972",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KatanbafWT21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KatanbafWT21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/katanbaf"
+      ]
+    },
+    {
+      "title": "Staying Alive: Connection Path Reselection at the Edge",
+      "authors": [
+        "Raul Landa",
+        "Lorenzo Saino",
+        "Lennert Buytenhek",
+        "Jo&atilde;o Taveira Ara&uacute;jo"
+      ],
+      "pages": "233-251",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LandaSBA21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LandaSBA21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/landa"
+      ]
+    },
+    {
+      "title": "SyncScatter: Enabling WiFi like synchronization and range for WiFi backscatter Communication",
+      "authors": [
+        "Manideep Dunna",
+        "Miao Meng",
+        "Po-Han Wang 0002",
+        "Chi Zhang",
+        "Patrick P. Mercier",
+        "Dinesh Bharadia"
+      ],
+      "pages": "923-937",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DunnaM0ZMB21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DunnaM0ZMB21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/dunna"
+      ]
+    },
+    {
+      "title": "TEGRA: Efficient Ad-Hoc Analytics on Evolving Graphs",
+      "authors": [
+        "Anand Padmanabha Iyer",
+        "Qifan Pu",
+        "Kishan Patel",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "pages": "337-355",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/IyerPPGS21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/IyerPPGS21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/iyer"
+      ]
+    },
+    {
+      "title": "Toward Nearly-Zero-Error Sketching via Compressive Sensing",
+      "authors": [
+        "Qun Huang 0001",
+        "Siyuan Sheng",
+        "Xiang Chen 0017",
+        "Yungang Bao",
+        "Rui Zhang",
+        "Yanwei Xu 0004",
+        "Gong Zhang 0001"
+      ],
+      "pages": "1027-1044",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0001SCBZXZ21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0001SCBZXZ21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/huang"
+      ]
+    },
+    {
+      "title": "Twenty Years After: Hierarchical Core-Stateless Fair Queueing",
+      "authors": [
+        "Zhuolong Yu",
+        "Jingfeng Wu",
+        "Vladimir Braverman",
+        "Ion Stoica",
+        "Xin Jin 0008"
+      ],
+      "pages": "29-45",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YuWBS021",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YuWBS021.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/yu"
+      ]
+    },
+    {
+      "title": "Unifying Timestamp with Transaction Ordering for MVCC with Decentralized Scalar Timestamp",
+      "authors": [
+        "Xingda Wei",
+        "Rong Chen 0001",
+        "Haibo Chen 0001",
+        "Zhaoguo Wang",
+        "Zhenhan Gong",
+        "Binyu Zang"
+      ],
+      "pages": "357-372",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Wei00WGZ21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Wei00WGZ21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/wei"
+      ]
+    },
+    {
+      "title": "Verification and Redesign of OFDM Backscatter",
+      "authors": [
+        "Xin Liu 0045",
+        "Zicheng Chi",
+        "Wei Wang 0190",
+        "Yao Yao 0009",
+        "Pei Hao",
+        "Ting Zhu 0001"
+      ],
+      "pages": "939-953",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0045C00HZ21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0045C00HZ21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/liu-xin"
+      ]
+    },
+    {
+      "title": "When Cloud Storage Meets RDMA",
+      "authors": [
+        "Yixiao Gao",
+        "Qiang Li 0045",
+        "Lingbo Tang",
+        "Yongqing Xi",
+        "Pengcheng Zhang",
+        "Wenwen Peng",
+        "Bo Li 0061",
+        "Yaohui Wu",
+        "Shaozong Liu",
+        "Lei Yan",
+        "Fei Feng",
+        "Yan Zhuang",
+        "Fan Liu",
+        "Pan Liu",
+        "Xingkui Liu",
+        "Zhongjie Wu",
+        "Junping Wu",
+        "Zheng Cao 0003",
+        "Chen Tian 0001",
+        "Jinbo Wu",
+        "Jiaji Zhu",
+        "Haiyong Wang",
+        "Dennis Cai",
+        "Jiesheng Wu"
+      ],
+      "pages": "519-533",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GaoLTXZPLWLYFZL21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GaoLTXZPLWLYFZL21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/gao"
+      ]
+    },
+    {
+      "title": "When to Hedge in Interactive Services",
+      "authors": [
+        "Mia Primorac",
+        "Katerina J. Argyraki",
+        "Edouard Bugnion"
+      ],
+      "pages": "373-387",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PrimoracAB21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PrimoracAB21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/primorac"
+      ]
+    },
+    {
+      "title": "Whiz: Data-Driven Analytics Execution",
+      "authors": [
+        "Robert Grandl",
+        "Arjun Singhvi",
+        "Raajay Viswanathan",
+        "Aditya Akella"
+      ],
+      "pages": "407-423",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GrandlSVA21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GrandlSVA21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/grandl"
+      ]
+    },
+    {
+      "title": "WiForce: Wireless Sensing and Localization of Contact Forces on a Space Continuum",
+      "authors": [
+        "Agrim Gupta",
+        "C&eacute;dric Girerd",
+        "Manideep Dunna",
+        "Qiming Zhang 0003",
+        "Raghav Subbaraman",
+        "Tania K. Morimoto",
+        "Dinesh Bharadia"
+      ],
+      "pages": "827-844",
+      "year": "2021",
+      "venue": "NSDI 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuptaGDZSMB21",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuptaGDZSMB21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi21/presentation/gupta"
+      ]
+    }
+  ]
+}

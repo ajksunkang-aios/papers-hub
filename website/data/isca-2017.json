@@ -1,0 +1,1444 @@
+{
+  "id": "isca-2017",
+  "venue": "isca",
+  "year": 2017,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2017.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2017.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2017",
+    "conf/isca/2017-1",
+    "conf/isca/2017-2",
+    "conf/isca/2017-3",
+    "conf/isca/2017-4",
+    "conf/isca/2017-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 75,
+  "display_count": 75,
+  "papers": [
+    {
+      "title": "A Lightweight AES Implementation Against Bivariate First-Order DPA Attacks",
+      "authors": [
+        "Weize Yu",
+        "Sel&ccedil;uk K&ouml;se"
+      ],
+      "pages": "1:1-1:7",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YuK17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YuK17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3092627.3092628"
+      ]
+    },
+    {
+      "title": "A Programmable Galois Field Processor for the Internet of Things",
+      "authors": [
+        "Yajing Chen",
+        "Shengshuo Lu",
+        "Cheng Fu",
+        "David T. Blaauw",
+        "Ronald Dreslinski Jr.",
+        "Trevor N. Mudge",
+        "Hun-Seok Kim"
+      ],
+      "pages": "55-68",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChenLFBDMK17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChenLFBDMK17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080227"
+      ]
+    },
+    {
+      "title": "A Programmable Hardware Accelerator for Simulating Dynamical Systems",
+      "authors": [
+        "Jaeha Kung",
+        "Yun Long",
+        "Duckhwan Kim 0001",
+        "Saibal Mukhopadhyay"
+      ],
+      "pages": "403-415",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KungL0M17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KungL0M17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080252",
+        "https://www.wikidata.org/entity/Q130973190"
+      ]
+    },
+    {
+      "title": "Accelerating GPU Hardware Transactional Memory with Snapshot Isolation",
+      "authors": [
+        "Sui Chen",
+        "Lu Peng 0001",
+        "Samuel Irving"
+      ],
+      "pages": "282-294",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChenPI17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChenPI17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080204"
+      ]
+    },
+    {
+      "title": "Access Pattern-Aware Cache Management for Improving Data Utilization in GPU",
+      "authors": [
+        "Gunjae Koo",
+        "Yunho Oh",
+        "Won Woo Ro",
+        "Murali Annavaram"
+      ],
+      "pages": "307-319",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KooORA17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KooORA17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080239"
+      ]
+    },
+    {
+      "title": "Aggressive Pipelining of Irregular Applications on Reconfigurable Hardware",
+      "authors": [
+        "Zhaoshi Li",
+        "Leibo Liu",
+        "Yangdong Deng",
+        "Shouyi Yin",
+        "Yao Wang",
+        "Shaojun Wei"
+      ],
+      "pages": "575-586",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiLDYWW17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiLDYWW17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080228"
+      ]
+    },
+    {
+      "title": "All I want for Christmas... is a CUDA ASIC",
+      "authors": [
+        "Scott LeGrand"
+      ],
+      "pages": "6",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Legrand17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Legrand17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149172",
+        "https://www.wikidata.org/entity/Q131112719"
+      ]
+    },
+    {
+      "title": "An end to end IR stack for deep learning systems",
+      "authors": [
+        "Tianqi Chen 0001"
+      ],
+      "pages": "8",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Chen17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Chen17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149174"
+      ]
+    },
+    {
+      "title": "APPROX-NoC: A Data Approximation Framework for Network-On-Chip Architectures",
+      "authors": [
+        "Rahul Boyapati",
+        "Jiayi Huang 0001",
+        "Pritam Majumder",
+        "Ki Hwan Yum",
+        "Eun Jung Kim 0001"
+      ],
+      "pages": "666-677",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BoyapatiHMY017",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BoyapatiHMY017.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080241"
+      ]
+    },
+    {
+      "title": "Architectural Support for Server-Side PHP Processing",
+      "authors": [
+        "Dibakar Gope",
+        "David J. Schlais",
+        "Mikko H. Lipasti"
+      ],
+      "pages": "507-520",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GopeSL17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GopeSL17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080234"
+      ]
+    },
+    {
+      "title": "Bespoke Processors for Applications with Ultra-low Area and Power Constraints",
+      "authors": [
+        "Hari Cherupalli",
+        "Henry Duwe",
+        "Weidong Ye",
+        "Rakesh Kumar 0002",
+        "John Sartori"
+      ],
+      "pages": "41-54",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CherupalliDY0S17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CherupalliDY0S17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080247",
+        "https://www.wikidata.org/entity/Q130958334"
+      ]
+    },
+    {
+      "title": "CHARSTAR: Clock Hierarchy Aware Resource Scaling in Tiled ARchitectures",
+      "authors": [
+        "Gokul Subramanian Ravi",
+        "Mikko H. Lipasti"
+      ],
+      "pages": "147-160",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RaviL17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RaviL17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080212"
+      ]
+    },
+    {
+      "title": "Chasing Away RAts: Semantics and Evaluation for Relaxed Atomics on Heterogeneous Systems",
+      "authors": [
+        "Matthew D. Sinclair",
+        "Johnathan Alsop",
+        "Sarita V. Adve"
+      ],
+      "pages": "161-174",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SinclairAA17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SinclairAA17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080206"
+      ]
+    },
+    {
+      "title": "Clank: Architectural Support for Intermittent Computation",
+      "authors": [
+        "Matthew Hicks"
+      ],
+      "pages": "228-240",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Hicks17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Hicks17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080238"
+      ]
+    },
+    {
+      "title": "Decoupled Affine Computation for SIMT GPUs",
+      "authors": [
+        "Kai Wang",
+        "Calvin Lin"
+      ],
+      "pages": "295-306",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangL17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangL17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080205"
+      ]
+    },
+    {
+      "title": "DICE: Compressing DRAM Caches for Bandwidth and Capacity",
+      "authors": [
+        "Vinson Young",
+        "Prashant J. Nair",
+        "Moinuddin K. Qureshi"
+      ],
+      "pages": "627-638",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YoungNQ17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YoungNQ17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080243"
+      ]
+    },
+    {
+      "title": "Do-It-Yourself Virtual Memory Translation",
+      "authors": [
+        "Hanna Alam",
+        "Tianhao Zhang",
+        "Mattan Erez",
+        "Yoav Etsion"
+      ],
+      "pages": "457-468",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AlamZEE17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AlamZEE17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080209",
+        "https://www.wikidata.org/entity/Q131124106"
+      ]
+    },
+    {
+      "title": "EbDa: A New Theory on Design and Verification of Deadlock-free Interconnection Networks",
+      "authors": [
+        "Masoumeh Ebrahimi",
+        "Masoud Daneshtalab"
+      ],
+      "pages": "703-715",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/EbrahimiD17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/EbrahimiD17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080253"
+      ]
+    },
+    {
+      "title": "EDDIE: EM-Based Detection of Deviations in Program Execution",
+      "authors": [
+        "Alireza Nazari",
+        "Nader Sehatbakhsh",
+        "Monjur Alam",
+        "Alenka G. Zajic",
+        "Milos Prvulovic"
+      ],
+      "pages": "333-346",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NazariSAZP17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NazariSAZP17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080223"
+      ]
+    },
+    {
+      "title": "Efficient methods and hardware for deep learning",
+      "authors": [
+        "Bill Dally"
+      ],
+      "pages": "2",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Dally17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Dally17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149168"
+      ]
+    },
+    {
+      "title": "Enhancing human capabilities",
+      "authors": [
+        "Jason Mars"
+      ],
+      "pages": "3",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Mars17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Mars17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149169"
+      ]
+    },
+    {
+      "title": "Footprint: Regulating Routing Adaptiveness in Networks-on-Chip",
+      "authors": [
+        "Binzhang Fu",
+        "John Kim 0001"
+      ],
+      "pages": "691-702",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FuK17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FuK17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080249"
+      ]
+    },
+    {
+      "title": "Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism",
+      "authors": [
+        "Suvinay Subramanian",
+        "Mark C. Jeffrey",
+        "Maleen Abeydeera",
+        "Hyun Ryong Lee",
+        "Victor A. Ying",
+        "Joel S. Emer",
+        "Daniel S&aacute;nchez 0003"
+      ],
+      "pages": "587-599",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SubramanianJALY17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SubramanianJALY17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080218"
+      ]
+    },
+    {
+      "title": "HA2lloc: Hardware-Assisted Secure Allocator",
+      "authors": [
+        "Orlando Arias",
+        "Dean Sullivan",
+        "Yier Jin"
+      ],
+      "pages": "8:1-8:7",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AriasSJ17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AriasSJ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3092627.3092635"
+      ]
+    },
+    {
+      "title": "Hardware Translation Coherence for Virtualized Systems",
+      "authors": [
+        "Zi Yan",
+        "J&aacute;n Vesel&yacute;",
+        "Guilherme Cox",
+        "Abhishek Bhattacharjee"
+      ],
+      "pages": "430-443",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YanVCB17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YanVCB17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080211"
+      ]
+    },
+    {
+      "title": "HeteroOS: OS Design for Heterogeneous Memory Management in Datacenter",
+      "authors": [
+        "Sudarsun Kannan",
+        "Ada Gavrilovska",
+        "Vishal Gupta 0001",
+        "Karsten Schwan"
+      ],
+      "pages": "521-534",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KannanGGS17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KannanGGS17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080245"
+      ]
+    },
+    {
+      "title": "Hiding the Long Latency of Persist Barriers Using Speculative Execution",
+      "authors": [
+        "Seunghee Shin",
+        "James Tuck 0001",
+        "Yan Solihin"
+      ],
+      "pages": "175-186",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShinTS17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShinTS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080240"
+      ]
+    },
+    {
+      "title": "Host-Based Dos Attacks and Defense in the Cloud",
+      "authors": [
+        "Tianwei Zhang 0004",
+        "Ruby B. Lee"
+      ],
+      "pages": "3:1-3:8",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhangL17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhangL17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3092627.3092630"
+      ]
+    },
+    {
+      "title": "Hybrid TLB Coalescing: Improving TLB Translation Coverage under Diverse Fragmented Memory Allocations",
+      "authors": [
+        "Chang Hyun Park 0001",
+        "Taekyung Heo",
+        "Jungi Jeong",
+        "Jaehyuk Huh 0001"
+      ],
+      "pages": "444-456",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ParkHJH17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ParkHJH17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080217"
+      ]
+    },
+    {
+      "title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+      "authors": [
+        "Norman P. Jouppi",
+        "Cliff Young",
+        "Nishant Patil",
+        "David A. Patterson 0001",
+        "Gaurav Agrawal",
+        "Raminder Bajwa",
+        "Sarah Bates",
+        "Suresh Bhatia",
+        "Nan Boden",
+        "Al Borchers",
+        "Rick Boyle",
+        "Pierre-luc Cantin",
+        "Clifford Chao",
+        "Chris Clark",
+        "Jeremy Coriell",
+        "Mike Daley",
+        "Matt Dau",
+        "Jeffrey Dean",
+        "Ben Gelb",
+        "Tara Vazir Ghaemmaghami",
+        "Rajendra Gottipati",
+        "William Gulland",
+        "Robert Hagmann",
+        "C. Richard Ho",
+        "Doug Hogberg",
+        "John Hu",
+        "Robert Hundt",
+        "Dan Hurt",
+        "Julian Ibarz",
+        "Aaron Jaffey",
+        "Alek Jaworski",
+        "Alexander Kaplan",
+        "Harshit Khaitan",
+        "Daniel Killebrew",
+        "Andy Koch",
+        "Naveen Kumar",
+        "Steve Lacy",
+        "James Laudon",
+        "James Law",
+        "Diemthu Le",
+        "Chris Leary",
+        "Zhuyuan Liu",
+        "Kyle Lucke",
+        "Alan Lundin",
+        "Gordon MacKean",
+        "Adriana Maggiore",
+        "Maire Mahony",
+        "Kieran Miller",
+        "Rahul Nagarajan",
+        "Ravi Narayanaswami",
+        "Ray Ni",
+        "Kathy Nix",
+        "Thomas Norrie",
+        "Mark Omernick",
+        "Narayana Penukonda",
+        "Andy Phelps",
+        "Jonathan Ross",
+        "Matt Ross",
+        "Amir Salek",
+        "Emad Samadiani",
+        "Chris Severn",
+        "Gregory Sizikov",
+        "Matthew Snelham",
+        "Jed Souter",
+        "Dan Steinberg",
+        "Andy Swing",
+        "Mercedes Tan",
+        "Gregory Thorson",
+        "Bo Tian",
+        "Horia Toma",
+        "Erick Tuttle",
+        "Vijay Vasudevan",
+        "Richard Walter",
+        "Walter Wang",
+        "Eric Wilcox",
+        "Doe Hyun Yoon"
+      ],
+      "pages": "1-12",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JouppiYPPABBBBB17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JouppiYPPABBBBB17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080246",
+        "https://www.wikidata.org/entity/Q130988175"
+      ]
+    },
+    {
+      "title": "Intel&reg; Software Guard Extensions (Intel&reg; SGX) Architecture for Oversubscription of Secure Memory in a Virtualized Environment",
+      "authors": [
+        "Somnath Chakrabarti",
+        "Rebekah Leslie-Hurd",
+        "Mona Vij",
+        "Frank McKeen",
+        "Carlos V. Rozas",
+        "Dror Caspi",
+        "Ilya Alexandrovich",
+        "Ittai Anati"
+      ],
+      "pages": "7:1-7:8",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChakrabartiLVMR17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChakrabartiLVMR17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3092627.3092634"
+      ]
+    },
+    {
+      "title": "Introduction to the workshop on trends in machine learning",
+      "authors": [
+        "Karin Strauss",
+        "Olivier Temam"
+      ],
+      "pages": "1",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/StraussT17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/StraussT17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149167"
+      ]
+    },
+    {
+      "title": "InvisiMem: Smart Memory Defenses for Memory Bus Side Channel",
+      "authors": [
+        "Shaizeen Aga",
+        "Satish Narayanasamy"
+      ],
+      "pages": "94-106",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AgaN17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AgaN17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080232"
+      ]
+    },
+    {
+      "title": "Jenga: Software-Defined Cache Hierarchies",
+      "authors": [
+        "Po-An Tsai",
+        "Nathan Beckmann",
+        "Daniel S&aacute;nchez 0003"
+      ],
+      "pages": "652-665",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TsaiBS17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TsaiBS17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080214"
+      ]
+    },
+    {
+      "title": "Language-level persistency",
+      "authors": [
+        "Aasheesh Kolli",
+        "Vaibhav Gogte",
+        "Ali G. Saidi",
+        "Stephan Diestelhorst",
+        "Peter M. Chen",
+        "Satish Narayanasamy",
+        "Thomas F. Wenisch"
+      ],
+      "pages": "481-493",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KolliGSDCNW17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KolliGSDCNW17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080229"
+      ]
+    },
+    {
+      "title": "Learning to co-design",
+      "authors": [
+        "Vincent Vanhoucke"
+      ],
+      "pages": "9",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Vanhoucke17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Vanhoucke17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149175"
+      ]
+    },
+    {
+      "title": "Lemonade from Lemons: Harnessing Device Wearout to Create Limited-Use Security Architectures",
+      "authors": [
+        "Zhaoxia Deng",
+        "Ariel Feldman",
+        "Stuart A. Kurtz",
+        "Frederic T. Chong"
+      ],
+      "pages": "361-374",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DengFKC17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DengFKC17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080226"
+      ]
+    },
+    {
+      "title": "Lightweight Block Cipher Circuits for Automotive and IoT Sensor Devices",
+      "authors": [
+        "Santosh Ghosh",
+        "Rafael Misoczki",
+        "Li Zhao 0002",
+        "Manoj R. Sastry"
+      ],
+      "pages": "5:1-5:7",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GhoshMZS17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GhoshMZS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3092627.3092632"
+      ]
+    },
+    {
+      "title": "LogCA: A High-Level Performance Model for Hardware Accelerators",
+      "authors": [
+        "Muhammad Shoaib Bin Altaf",
+        "David A. Wood 0001"
+      ],
+      "pages": "375-388",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AltafW17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AltafW17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080216"
+      ]
+    },
+    {
+      "title": "Machine learning on the edge",
+      "authors": [
+        "Ofer Dekel"
+      ],
+      "pages": "4",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Dekel17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Dekel17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149170"
+      ]
+    },
+    {
+      "title": "Maximizing CNN Accelerator Efficiency Through Resource Partitioning",
+      "authors": [
+        "Yongming Shen 0001",
+        "Michael Ferdman",
+        "Peter A. Milder"
+      ],
+      "pages": "535-547",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShenFM17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShenFM17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080221"
+      ]
+    },
+    {
+      "title": "MCM-GPU: Multi-Chip-Module GPUs for Continued Performance Scalability",
+      "authors": [
+        "Akhil Arunkumar",
+        "Evgeny Bolotin",
+        "Benjamin Y. Cho",
+        "Ugljesa Milic",
+        "Eiman Ebrahimi",
+        "Oreste Villa",
+        "Aamer Jaleel",
+        "Carole-Jean Wu",
+        "David W. Nellans"
+      ],
+      "pages": "320-332",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ArunkumarBCMEVJ17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ArunkumarBCMEVJ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080231"
+      ]
+    },
+    {
+      "title": "Memory bandwidth in deep learning hardware",
+      "authors": [
+        "Carey K. Kloss"
+      ],
+      "pages": "10",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Kloss17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Kloss17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149176"
+      ]
+    },
+    {
+      "title": "MeRLiN: Exploiting Dynamic Instruction Behavior for Fast and Accurate Microarchitecture Level Reliability Assessment",
+      "authors": [
+        "Manolis Kaliorakis",
+        "Dimitris Gizopoulos",
+        "Ramon Canal",
+        "Antonio Gonz&aacute;lez 0001"
+      ],
+      "pages": "241-254",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KaliorakisGC017",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KaliorakisGC017.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080225",
+        "https://www.wikidata.org/entity/Q130967856"
+      ]
+    },
+    {
+      "title": "ML computation patterns in production systems",
+      "authors": [
+        "Yangqing Jia"
+      ],
+      "pages": "11",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Jia17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Jia17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149177"
+      ]
+    },
+    {
+      "title": "MTraceCheck: Validating Non-Deterministic Behavior of Memory Consistency Models in Post-Silicon Validation",
+      "authors": [
+        "Doowon Lee",
+        "Valeria Bertacco"
+      ],
+      "pages": "201-213",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeB17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeB17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080235"
+      ]
+    },
+    {
+      "title": "Non-Speculative Load-Load Reordering in TSO",
+      "authors": [
+        "Alberto Ros 0001",
+        "Trevor E. Carlson",
+        "Mehdi Alipour",
+        "Stefanos Kaxiras"
+      ],
+      "pages": "187-200",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RosCAK17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RosCAK17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080220"
+      ]
+    },
+    {
+      "title": "ObfusMem: A Low-Overhead Access Obfuscation for Trusted Memories",
+      "authors": [
+        "Amro Awad",
+        "Yipeng Wang 0002",
+        "Deborah Shands",
+        "Yan Solihin"
+      ],
+      "pages": "107-119",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AwadWSS17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AwadWSS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080230"
+      ]
+    },
+    {
+      "title": "Parallel Automata Processor",
+      "authors": [
+        "Arun Subramaniyan 0001",
+        "Reetuparna Das"
+      ],
+      "pages": "600-612",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/0001D17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/0001D17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080207"
+      ]
+    },
+    {
+      "title": "Plasticine: A Reconfigurable Architecture For Parallel Paterns",
+      "authors": [
+        "Raghu Prabhakar",
+        "Yaqi Zhang 0001",
+        "David Koeplinger",
+        "Matthew Feldman",
+        "Tian Zhao 0001",
+        "Stefan Hadjis",
+        "Ardavan Pedram",
+        "Christos Kozyrakis",
+        "Kunle Olukotun"
+      ],
+      "pages": "389-402",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PrabhakarZKFZHP17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PrabhakarZKFZHP17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080256"
+      ]
+    },
+    {
+      "title": "Position Paper: Challenges Towards Securing Hardware-assisted Execution Environments",
+      "authors": [
+        "Zhenyu Ning",
+        "Fengwei Zhang",
+        "Weisong Shi",
+        "Weidong Shi"
+      ],
+      "pages": "6:1-6:8",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NingZSS17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NingZSS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3092627.3092633",
+        "https://www.wikidata.org/entity/Q131128578"
+      ]
+    },
+    {
+      "title": "PowerChief: Intelligent Power Allocation for Multi-Stage Applications to Improve Responsiveness on Power Constrained CMP",
+      "authors": [
+        "Hailong Yang 0002",
+        "Quan Chen 0002",
+        "Moeiz Riaz",
+        "Zhongzhi Luan",
+        "Lingjia Tang",
+        "Jason Mars"
+      ],
+      "pages": "133-146",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YangCRLTM17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YangCRLTM17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080224"
+      ]
+    },
+    {
+      "title": "Quality of Service Support for Fine-Grained Sharing on GPUs",
+      "authors": [
+        "Zhenning Wang",
+        "Jun Yang 0002",
+        "Rami G. Melhem",
+        "Bruce R. Childers",
+        "Youtao Zhang",
+        "Minyi Guo"
+      ],
+      "pages": "269-281",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangYMCZG17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangYMCZG17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080203"
+      ]
+    },
+    {
+      "title": "Redundant Memory Array Architecture for Efficient Selective Protection",
+      "authors": [
+        "Ruohuang Zheng",
+        "Michael C. Huang 0001"
+      ],
+      "pages": "214-227",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhengH17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhengH17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080213"
+      ]
+    },
+    {
+      "title": "Regaining Lost Cycles with HotCalls: A Fast Interface for SGX Secure Enclaves",
+      "authors": [
+        "Ofir Weisse",
+        "Valeria Bertacco",
+        "Todd M. Austin"
+      ],
+      "pages": "81-93",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WeisseBA17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WeisseBA17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080208"
+      ]
+    },
+    {
+      "title": "Rethinking TLB Designs in Virtualized Environments: A Very Large Part-of-Memory TLB",
+      "authors": [
+        "Jee Ho Ryoo",
+        "Nagendra Gulur",
+        "Shuang Song 0007",
+        "Lizy K. John"
+      ],
+      "pages": "469-480",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RyooGSJ17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RyooGSJ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080210",
+        "https://www.wikidata.org/entity/Q131125668"
+      ]
+    },
+    {
+      "title": "ScaleDeep: A Scalable Compute Architecture for Learning and Evaluating Deep Networks",
+      "authors": [
+        "Swagath Venkataramani",
+        "Ashish Ranjan 0001",
+        "Subarno Banerjee",
+        "Dipankar Das 0002",
+        "Sasikanth Avancha",
+        "Ashok Jagannathan",
+        "Ajaya Durg",
+        "Dheemanth Nagaraj",
+        "Bharat Kaul",
+        "Pradeep Dubey",
+        "Anand Raghunathan"
+      ],
+      "pages": "13-26",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/VenkataramaniRB17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/VenkataramaniRB17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080244"
+      ]
+    },
+    {
+      "title": "Scalpel: Customizing DNN Pruning to the Underlying Hardware Parallelism",
+      "authors": [
+        "Jiecao Yu",
+        "Andrew Lukefahr",
+        "David J. Palframan",
+        "Ganesh S. Dasika",
+        "Reetuparna Das",
+        "Scott A. Mahlke"
+      ],
+      "pages": "548-560",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YuLPDDM17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YuLPDDM17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080215"
+      ]
+    },
+    {
+      "title": "SCNN: An Accelerator for Compressed-sparse Convolutional Neural Networks",
+      "authors": [
+        "Angshuman Parashar",
+        "Minsoo Rhu",
+        "Anurag Mukkara",
+        "Antonio Puglielli",
+        "Rangharajan Venkatesan",
+        "Brucek Khailany",
+        "Joel S. Emer",
+        "Stephen W. Keckler",
+        "William J. Dally"
+      ],
+      "pages": "27-40",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ParasharRMPVKEK17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ParasharRMPVKEK17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080254"
+      ]
+    },
+    {
+      "title": "Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Attacks",
+      "authors": [
+        "Mengjia Yan 0001",
+        "Bhargava Gopireddy",
+        "Thomas Shull",
+        "Josep Torrellas"
+      ],
+      "pages": "347-360",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YanGST17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YanGST17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080222"
+      ]
+    },
+    {
+      "title": "SeM: A CPU Architecture Extension for Secure Remote Computing",
+      "authors": [
+        "Ofir Shwartz",
+        "Yitzhak Birk"
+      ],
+      "pages": "4:1-4:8",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShwartzB17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShwartzB17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3092627.3092631"
+      ]
+    },
+    {
+      "title": "Shakti-T: A RISC-V Processor with Light Weight Security Extensions",
+      "authors": [
+        "Arjun Menon",
+        "Subadra Murugan",
+        "Chester Rebeiro",
+        "Neel Gala",
+        "Kamakoti Veezhinathan"
+      ],
+      "pages": "2:1-2:8",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MenonMRGV17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MenonMRGV17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3092627.3092629",
+        "https://www.wikidata.org/entity/Q131117855"
+      ]
+    },
+    {
+      "title": "ShortCut: Architectural Support for Fast Object Access in Scripting Languages",
+      "authors": [
+        "Jiho Choi",
+        "Thomas Shull",
+        "Mar&iacute;a Jes&uacute;s Garzar&aacute;n",
+        "Josep Torrellas"
+      ],
+      "pages": "494-506",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChoiSGT17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChoiSGT17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080237",
+        "https://www.wikidata.org/entity/Q131118599"
+      ]
+    },
+    {
+      "title": "Snowflake: deep neural network accelerator",
+      "authors": [
+        "Eugenio Culurciello"
+      ],
+      "pages": "12",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Culurciello17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Culurciello17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149178"
+      ]
+    },
+    {
+      "title": "Stream-Dataflow Acceleration",
+      "authors": [
+        "Tony Nowatzki",
+        "Vinay Gangadhar",
+        "Newsha Ardalani",
+        "Karthikeyan Sankaralingam"
+      ],
+      "pages": "416-429",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NowatzkiGAS17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NowatzkiGAS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080255"
+      ]
+    },
+    {
+      "title": "The Mondrian Data Engine",
+      "authors": [
+        "Mario Drumond",
+        "Alexandros Daglis",
+        "Nooshin Sadat Mirzadeh",
+        "Dmitrii Ustiugov",
+        "Javier Picorel",
+        "Babak Falsafi",
+        "Boris Grot",
+        "Dionisios N. Pnevmatikatos"
+      ],
+      "pages": "639-651",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DrumondDMUPFGP17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DrumondDMUPFGP17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080233"
+      ]
+    },
+    {
+      "title": "The Reach Profiler (REAPER): Enabling the Mitigation of DRAM Retention Failures via Profiling at Aggressive Conditions",
+      "authors": [
+        "Minesh Patel",
+        "Jeremie S. Kim",
+        "Onur Mutlu"
+      ],
+      "pages": "255-268",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PatelKM17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PatelKM17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080242"
+      ]
+    },
+    {
+      "title": "The road to exascale AI",
+      "authors": [
+        "Gregory F. Diamos"
+      ],
+      "pages": "13",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Diamos17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Diamos17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149179",
+        "https://www.wikidata.org/entity/Q131016059"
+      ]
+    },
+    {
+      "title": "There and Back Again: Optimizing the Interconnect in Networks of Memory Cubes",
+      "authors": [
+        "Matthew Poremba",
+        "Itir Akgun",
+        "Jieming Yin",
+        "Onur Kayiran",
+        "Yuan Xie 0001",
+        "Gabriel H. Loh"
+      ],
+      "pages": "678-690",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PorembaAYKXL17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PorembaAYKXL17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080251"
+      ]
+    },
+    {
+      "title": "ThermoGater: Thermally-Aware On-Chip Voltage Regulation",
+      "authors": [
+        "S. Karen Khatamifard",
+        "Longfei Wang",
+        "Weize Yu",
+        "Sel&ccedil;uk K&ouml;se",
+        "Ulya R. Karpuzcu"
+      ],
+      "pages": "120-132",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KhatamifardWYKK17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KhatamifardWYKK17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080250"
+      ]
+    },
+    {
+      "title": "Toward visual intelligence",
+      "authors": [
+        "Ali Farhadi"
+      ],
+      "pages": "7",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Farhadi17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Farhadi17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149173"
+      ]
+    },
+    {
+      "title": "Towards more hardware-friendly deep learning",
+      "authors": [
+        "Yoshua Bengio"
+      ],
+      "pages": "5",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Bengio17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Bengio17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3149166.3149171"
+      ]
+    },
+    {
+      "title": "Understanding and Optimizing Asynchronous Low-Precision Stochastic Gradient Descent",
+      "authors": [
+        "Christopher De Sa",
+        "Matthew Feldman",
+        "Christopher R&eacute;",
+        "Kunle Olukotun"
+      ],
+      "pages": "561-574",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SaFRO17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SaFRO17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080248"
+      ]
+    },
+    {
+      "title": "Viyojit: Decoupling Battery and DRAM Capacities for Battery-Backed DRAM",
+      "authors": [
+        "Rajat Kateja",
+        "Anirudh Badam",
+        "Sriram Govindan",
+        "Bikash Sharma",
+        "Greg Ganger"
+      ],
+      "pages": "613-626",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KatejaBGSG17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KatejaBGSG17.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=3080236"
+      ]
+    },
+    {
+      "title": "XPro: A Cross-End Processing Architecture for Data Analytics in Wearables",
+      "authors": [
+        "Aosen Wang",
+        "Lizhong Chen",
+        "Wenyao Xu"
+      ],
+      "pages": "69-80",
+      "year": "2017",
+      "venue": "ISCA 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangCX17",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangCX17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3079856.3080219"
+      ]
+    }
+  ]
+}

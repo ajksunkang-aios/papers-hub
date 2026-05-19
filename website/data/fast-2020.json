@@ -1,0 +1,489 @@
+{
+  "id": "fast-2020",
+  "venue": "fast",
+  "year": 2020,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2020.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2020.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2020",
+    "conf/fast/2020-1",
+    "conf/fast/2020-2",
+    "conf/fast/2020-3",
+    "conf/fast/2020-4",
+    "conf/fast/2020-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 23,
+  "display_count": 23,
+  "papers": [
+    {
+      "title": "A Study of SSD Reliability in Large Scale Enterprise Storage Deployments",
+      "authors": [
+        "Stathis Maneas",
+        "Kaveh Mahdaviani",
+        "Tim Emami",
+        "Bianca Schroeder"
+      ],
+      "pages": "137-149",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ManeasMES20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ManeasMES20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/maneas"
+      ]
+    },
+    {
+      "title": "An Empirical Guide to the Behavior and Use of Scalable Persistent Memory",
+      "authors": [
+        "Jian Yang",
+        "Juno Kim",
+        "Morteza Hoseinzadeh",
+        "Joseph Izraelevitz",
+        "Steven Swanson"
+      ],
+      "pages": "169-182",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YangKHIS20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YangKHIS20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/yang"
+      ]
+    },
+    {
+      "title": "BCW: Buffer-Controlled Writes to HDDs for SSD-HDD Hybrid Storage Server",
+      "authors": [
+        "Shucheng Wang",
+        "Ziyi Lu",
+        "Qiang Cao 0001",
+        "Hong Jiang 0001",
+        "Jie Yao 0001",
+        "Yuanyuan Dong",
+        "Puyuan Yang"
+      ],
+      "pages": "253-266",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangLC0YDY20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangLC0YDY20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/wang-shucheng"
+      ]
+    },
+    {
+      "title": "Carver: Finding Important Parameters for Storage System Tuning",
+      "authors": [
+        "Zhen Cao",
+        "Geoff Kuenning",
+        "Erez Zadok"
+      ],
+      "pages": "43-57",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CaoKZ20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CaoKZ20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/cao-zhen"
+      ]
+    },
+    {
+      "title": "Characterizing, Modeling, and Benchmarking RocksDB Key-Value Workloads at Facebook",
+      "authors": [
+        "Zhichao Cao 0002",
+        "Siying Dong",
+        "Sagar Vemuri",
+        "David H. C. Du"
+      ],
+      "pages": "209-223",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CaoDVD20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CaoDVD20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/cao-zhichao"
+      ]
+    },
+    {
+      "title": "CRaft: An Erasure-coding-supported Version of Raft for Reducing Storage Cost and Network Cost",
+      "authors": [
+        "Zizhong Wang",
+        "Tongliang Li",
+        "Haixia Wang 0001",
+        "Airan Shao",
+        "Yunren Bai",
+        "Shangming Cai",
+        "Zihan Xu",
+        "Dongsheng Wang 0002"
+      ],
+      "pages": "297-308",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangLWSBCXW20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangLWSBCXW20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/wang-zizhong"
+      ]
+    },
+    {
+      "title": "DC-Store: Eliminating Noisy Neighbor Containers using Deterministic I/O Performance and Resource Isolation",
+      "authors": [
+        "Miryeong Kwon",
+        "Donghyun Gouk",
+        "Changrim Lee",
+        "Byounggeun Kim",
+        "Jooyoung Hwang",
+        "Myoungsoo Jung"
+      ],
+      "pages": "183-191",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KwonGLKHJ20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KwonGLKHJ20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/kwon"
+      ]
+    },
+    {
+      "title": "FPGA-Accelerated Compactions for LSM-based Key-Value Store",
+      "authors": [
+        "Teng Zhang",
+        "Jianying Wang",
+        "Xuntao Cheng",
+        "Hao Xu",
+        "Nanlong Yu",
+        "Gui Huang",
+        "Tieying Zhang",
+        "Dengcheng He",
+        "Feifei Li 0001",
+        "Wei Cao 0006",
+        "Zhongdong Huang",
+        "Jianling Sun"
+      ],
+      "pages": "225-237",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangWCXYHZH0CH20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangWCXYHZH0CH20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/zhang-teng"
+      ]
+    },
+    {
+      "title": "GIFT: A Coupon Based Throttle-and-Reward Mechanism for Fair and Efficient I/O Bandwidth Management on Parallel Storage Systems",
+      "authors": [
+        "Tirthak Patel",
+        "Rohan Garg 0001",
+        "Devesh Tiwari"
+      ],
+      "pages": "103-119",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Patel0T20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Patel0T20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/patel-gift"
+      ]
+    },
+    {
+      "title": "GoSeed: Generating an Optimal Seeding Plan for Deduplicated Storage",
+      "authors": [
+        "Aviv Nachman",
+        "Gala Yadgar",
+        "Sarai Sheinvald"
+      ],
+      "pages": "193-207",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/NachmanYS20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/NachmanYS20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/nachman"
+      ]
+    },
+    {
+      "title": "HotRing: A Hotspot-Aware In-Memory Key-Value Store",
+      "authors": [
+        "Jiqiang Chen",
+        "Liang Chen",
+        "Sheng Wang 0011",
+        "Guoyun Zhu",
+        "Yuanyuan Sun",
+        "Huan Liu",
+        "Feifei Li 0001"
+      ],
+      "pages": "239-252",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChenCWZSL020",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChenCWZSL020.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/chen-jiqiang"
+      ]
+    },
+    {
+      "title": "How to Copy Files",
+      "authors": [
+        "Yang Zhan 0001",
+        "Alexander Conway 0001",
+        "Yizheng Jiao",
+        "Nirjhar Mukherjee",
+        "Ian Groombridge",
+        "Michael A. Bender",
+        "Martin Farach-Colton",
+        "William Jannen",
+        "Rob Johnson 0001",
+        "Donald E. Porter",
+        "Jun Yuan 0006"
+      ],
+      "pages": "75-89",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/0001CJMGBFJJPY20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/0001CJMGBFJJPY20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/zhan"
+      ]
+    },
+    {
+      "title": "Hybrid Data Reliability for Emerging Key-Value Storage Devices",
+      "authors": [
+        "Rekha Pitchumani",
+        "Yang-Suk Kee"
+      ],
+      "pages": "309-322",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PitchumaniK20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PitchumaniK20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/pitchumani"
+      ]
+    },
+    {
+      "title": "InfiniCache: Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache",
+      "authors": [
+        "Ao Wang",
+        "Jingyuan Zhang",
+        "Xiaolong Ma",
+        "Ali Anwar 0001",
+        "Lukas Rupprecht",
+        "Dimitrios Skourtis",
+        "Vasily Tarasov",
+        "Feng Yan 0001",
+        "Yue Cheng 0001"
+      ],
+      "pages": "267-281",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangZMARST0C20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangZMARST0C20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/wang-ao"
+      ]
+    },
+    {
+      "title": "Lock-Free Collaboration Support for Cloud Storage Services with Operation Inference and Transformation",
+      "authors": [
+        "Jian Chen",
+        "Minghao Zhao 0001",
+        "Zhenhua Li 0001",
+        "Ennan Zhai",
+        "Feng Qian 0001",
+        "Hongyi Chen",
+        "Yunhao Liu 0001",
+        "Tianyin Xu"
+      ],
+      "pages": "13-27",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChenZ0ZQCLX20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChenZ0ZQCLX20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/chen"
+      ]
+    },
+    {
+      "title": "Making Disk Failure Predictions SMARTer!",
+      "authors": [
+        "Sidi Lu",
+        "Bing Luo",
+        "Tirthak Patel",
+        "Yongtao Yao",
+        "Devesh Tiwari",
+        "Weisong Shi"
+      ],
+      "pages": "151-167",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LuLPYTS20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LuLPYTS20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/lu"
+      ]
+    },
+    {
+      "title": "MAPX: Controlled Data Migration in the Expansion of Decentralized Object-Based Storage Systems",
+      "authors": [
+        "Li Wang",
+        "Yiming Zhang 0003",
+        "Jiawei Xu",
+        "Guangtao Xue"
+      ],
+      "pages": "1-11",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangZXX20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangZXX20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/wang-li"
+      ]
+    },
+    {
+      "title": "POLARDB Meets Computational Storage: Efficiently Support Analytical Workloads in Cloud-Native Relational Database",
+      "authors": [
+        "Wei Cao",
+        "Yang Liu 0256",
+        "Zhushi Cheng",
+        "Ning Zheng",
+        "Wei Li",
+        "Wenjie Wu",
+        "Linqiang Ouyang",
+        "Peng Wang",
+        "Yijing Wang",
+        "Ray Kuan",
+        "Zhenjun Liu",
+        "Feng Zhu",
+        "Tong Zhang 0002"
+      ],
+      "pages": "29-41",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CaoLCZLWOWWKLZZ20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CaoLCZLWOWWKLZZ20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/cao-wei"
+      ]
+    },
+    {
+      "title": "Quiver: An Informed Storage Cache for Deep Learning",
+      "authors": [
+        "Abhishek Vijaya Kumar",
+        "Muthian Sivathanu"
+      ],
+      "pages": "283-296",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KumarS20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KumarS20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/kumar"
+      ]
+    },
+    {
+      "title": "Read as Needed: Building WiSER, a Flash-Optimized Search Engine",
+      "authors": [
+        "Jun He",
+        "Kan Wu",
+        "Sudarsun Kannan",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "59-73",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HeWKAA20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HeWKAA20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/he"
+      ]
+    },
+    {
+      "title": "Scalable Parallel Flash Firmware for Many-core Architectures",
+      "authors": [
+        "Jie Zhang 0048",
+        "Miryeong Kwon",
+        "Michael M. Swift",
+        "Myoungsoo Jung"
+      ],
+      "pages": "121-136",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/0048KSJ20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/0048KSJ20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/zhang-jie"
+      ]
+    },
+    {
+      "title": "Strong and Efficient Consistency with Consistency-Aware Durability",
+      "authors": [
+        "Aishwarya Ganesan",
+        "Ramnatthan Alagappan",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "323-337",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GanesanAAA20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GanesanAAA20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/ganesan"
+      ]
+    },
+    {
+      "title": "Uncovering Access, Reuse, and Sharing Characteristics of I/O-Intensive Files on Large-Scale Production HPC Systems",
+      "authors": [
+        "Tirthak Patel",
+        "Suren Byna",
+        "Glenn K. Lockwood",
+        "Nicholas J. Wright",
+        "Philip H. Carns",
+        "Robert B. Ross",
+        "Devesh Tiwari"
+      ],
+      "pages": "91-101",
+      "year": "2020",
+      "venue": "FAST 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PatelBLWCRT20",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PatelBLWCRT20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast20/presentation/patel-hpc-systems"
+      ]
+    }
+  ]
+}

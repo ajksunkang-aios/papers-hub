@@ -1,0 +1,514 @@
+{
+  "id": "fast-2010",
+  "venue": "fast",
+  "year": 2010,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2010.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2010.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2010",
+    "conf/fast/2010-1",
+    "conf/fast/2010-2",
+    "conf/fast/2010-3",
+    "conf/fast/2010-4",
+    "conf/fast/2010-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 27,
+  "display_count": 27,
+  "papers": [
+    {
+      "title": "A Clean-Slate Look at Disk Scrubbing",
+      "authors": [
+        "Alina Oprea",
+        "Ari Juels"
+      ],
+      "pages": "57-70",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/OpreaJ10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/OpreaJ10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/oprea.pdf"
+      ]
+    },
+    {
+      "title": "Accelerating Parallel Analysis of Scientific Simulation Data via Zazen",
+      "authors": [
+        "Tiankai Tu",
+        "Charles A. Rendleman",
+        "Patrick J. Miller",
+        "Federico D. Sacerdoti",
+        "Ron O. Dror",
+        "David E. Shaw"
+      ],
+      "pages": "129-142",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TuRMSDS10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TuRMSDS10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/tu.pdf"
+      ]
+    },
+    {
+      "title": "BASIL: Automated IO Load Balancing Across Storage Devices",
+      "authors": [
+        "Ajay Gulati",
+        "Chethan Kumar",
+        "Irfan Ahmad 0005",
+        "Karan Kumar"
+      ],
+      "pages": "169-182",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GulatiKAK10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GulatiKAK10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/gulati.pdf"
+      ]
+    },
+    {
+      "title": "Bimodal Content Defined Chunking for Backup Streams",
+      "authors": [
+        "Erik Kruus",
+        "Cristian Ungureanu",
+        "Cezary Dubnicki"
+      ],
+      "pages": "239-252",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KruusUD10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KruusUD10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/kruus.pdf"
+      ]
+    },
+    {
+      "title": "Black-Box Problem Diagnosis in Parallel File Systems",
+      "authors": [
+        "Michael P. Kasick",
+        "Jiaqi Tan 0001",
+        "Rajeev Gandhi",
+        "Priya Narasimhan"
+      ],
+      "pages": "43-56",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KasickTGN10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KasickTGN10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/kasick.pdf"
+      ]
+    },
+    {
+      "title": "CFD-Based Operational Thermal Efficiency Improvement of a Production Data Center",
+      "authors": [
+        "Umesh Singh",
+        "Amarendra Singh",
+        "Parvez S.",
+        "Anand Sivasubramaniam"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SinghSSS10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SinghSSS10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/sustainit-10/cfd-based-operational-thermal-efficiency-improvement-production-data-center"
+      ]
+    },
+    {
+      "title": "DFS: A File System for Virtualized Flash Storage",
+      "authors": [
+        "William K. Josephson",
+        "Lars Ailo Bongo",
+        "David Flynn",
+        "Kai Li 0001"
+      ],
+      "pages": "85-100",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JosephsonBFL10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JosephsonBFL10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/josephson.pdf"
+      ]
+    },
+    {
+      "title": "Discovery of Application Workloads from Network File Traces",
+      "authors": [
+        "Neeraja J. Yadwadkar",
+        "Chiranjib Bhattacharyya",
+        "Kanchi Gopinath",
+        "Thirumale Niranjan",
+        "Sai Susarla"
+      ],
+      "pages": "183-196",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YadwadkarBGNS10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YadwadkarBGNS10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/yadwadkar.pdf"
+      ]
+    },
+    {
+      "title": "Effects of Data Center Vibration on Compute System Performance",
+      "authors": [
+        "Julian Turner"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Turner10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Turner10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/sustainit-10/effects-data-center-vibration-compute-system-performance"
+      ]
+    },
+    {
+      "title": "Efficient Object Storage Journaling in a Distributed Parallel File System",
+      "authors": [
+        "Sarp Oral",
+        "Feiyi Wang",
+        "David Dillow",
+        "Galen M. Shipman",
+        "Ross G. Miller",
+        "Oleg Drokin"
+      ],
+      "pages": "143-154",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/OralWDSMD10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/OralWDSMD10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/oral.pdf"
+      ]
+    },
+    {
+      "title": "End-to-end Data Integrity for File Systems: A ZFS Case Study",
+      "authors": [
+        "Yupu Zhang",
+        "Abhishek Rajimwale",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "29-42",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangRAA10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangRAA10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/zhang.pdf"
+      ]
+    },
+    {
+      "title": "Estimating Environmental Costs",
+      "authors": [
+        "Kiara Corrigan",
+        "Amip Shah",
+        "Chandrakant D. Patel"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CorriganSP10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CorriganSP10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/sustainit-10/estimating-environmental-costs"
+      ]
+    },
+    {
+      "title": "Evaluating Performance and Energy in File System Server Workloads",
+      "authors": [
+        "Priya Sehgal",
+        "Vasily Tarasov",
+        "Erez Zadok"
+      ],
+      "pages": "253-266",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SehgalTZ10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SehgalTZ10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/sehgal.pdf"
+      ]
+    },
+    {
+      "title": "Extending SSD Lifetimes with Disk-Based Write Caches",
+      "authors": [
+        "Gokul Soundararajan",
+        "Vijayan Prabhakaran",
+        "Mahesh Balakrishnan 0001",
+        "Ted Wobber"
+      ],
+      "pages": "101-114",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SoundararajanPBW10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SoundararajanPBW10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/soundararajan.pdf"
+      ]
+    },
+    {
+      "title": "HydraFS: A High-Throughput File System for the HYDRAstor Content-Addressable Storage System",
+      "authors": [
+        "Cristian Ungureanu",
+        "Benjamin Atkin",
+        "Akshat Aranya",
+        "Salil Gokhale",
+        "Stephen Rago",
+        "Grzegorz Calkowski",
+        "Cezary Dubnicki",
+        "Aniruddha Bohra"
+      ],
+      "pages": "225-238",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/UngureanuAAGRCDB10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/UngureanuAAGRCDB10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/ungureanu.pdf"
+      ]
+    },
+    {
+      "title": "I/O Deduplication: Utilizing Content Similarity to Improve I/O Performance",
+      "authors": [
+        "Ricardo Koller",
+        "Raju Rangaswami"
+      ],
+      "pages": "211-224",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KollerR10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KollerR10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/koller.pdf"
+      ]
+    },
+    {
+      "title": "Membrane: Operating System Support for Restartable File Systems",
+      "authors": [
+        "Swaminathan Sundararaman",
+        "Sriram Subramanian",
+        "Abhishek Rajimwale",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Michael M. Swift"
+      ],
+      "pages": "281-294",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SundararamanSRAAS10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SundararamanSRAAS10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/sundararaman.pdf"
+      ]
+    },
+    {
+      "title": "Panache: A Parallel File System Cache for Global File Access",
+      "authors": [
+        "Marc Eshel",
+        "Roger L. Haskin",
+        "Dean Hildebrand",
+        "Manoj Naik",
+        "Frank B. Schmuck",
+        "Renu Tewari"
+      ],
+      "pages": "155-168",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/EshelHHNST10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/EshelHHNST10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/eshel.pdf"
+      ]
+    },
+    {
+      "title": "Power-aware Proactive Storage-tiering Management for High-speed Tiered-storage Systems",
+      "authors": [
+        "Kazuhisa Fujimoto",
+        "Hirotoshi Akaike",
+        "Naoya Okada",
+        "Kenji Miura",
+        "Hiroaki Muraoka"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/FujimotoAOMM10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/FujimotoAOMM10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/sustainit-10/power-aware-proactive-storage-tiering-management-high-speed-tiered-storage"
+      ]
+    },
+    {
+      "title": "Provenance for the Cloud",
+      "authors": [
+        "Kiran-Kumar Muniswamy-Reddy",
+        "Peter Macko",
+        "Margo I. Seltzer"
+      ],
+      "pages": "197-210",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Muniswamy-ReddyMS10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Muniswamy-ReddyMS10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/muniswamy-reddy.pdf"
+      ]
+    },
+    {
+      "title": "quFiles: The Right File at the Right Time",
+      "authors": [
+        "Kaushik Veeraraghavan",
+        "Jason Flinn",
+        "Edmund B. Nightingale",
+        "Brian Noble"
+      ],
+      "pages": "1-14",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/VeeraraghavanFNN10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/VeeraraghavanFNN10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/veeraraghavan.pdf"
+      ]
+    },
+    {
+      "title": "SRCMap: Energy Proportional Storage Using Dynamic Consolidation",
+      "authors": [
+        "Akshat Verma",
+        "Ricardo Koller",
+        "Luis Useche",
+        "Raju Rangaswami"
+      ],
+      "pages": "267-280",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/VermaKUR10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/VermaKUR10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/verma.pdf"
+      ]
+    },
+    {
+      "title": "The Green Switch: Designing for Sustainability in Mobile Computing",
+      "authors": [
+        "Galit Zadok",
+        "Riikka Puustinen"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZadokP10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZadokP10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/sustainit-10/green-switch-designing-sustainability-mobile-computing"
+      ]
+    },
+    {
+      "title": "Towards Energy Proportional Cloud for Data Processing Frameworks",
+      "authors": [
+        "Hyeong Seog Kim",
+        "Dongin Shin",
+        "Youngjin Yu",
+        "Hyeonsang Eom",
+        "Heon Y. Yeom"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimSYEY10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimSYEY10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/sustainit-10/towards-energy-proportional-cloud-data-processing-frameworks"
+      ]
+    },
+    {
+      "title": "Tracking Back References in a Write-Anywhere File System",
+      "authors": [
+        "Peter Macko",
+        "Margo I. Seltzer",
+        "Keith A. Smith"
+      ],
+      "pages": "15-28",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MackoSS10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MackoSS10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/macko.pdf"
+      ]
+    },
+    {
+      "title": "Understanding Latent Sector Errors and How to Protect Against Them",
+      "authors": [
+        "Bianca Schroeder",
+        "Sotirios Damouras",
+        "Phillipa Gill"
+      ],
+      "pages": "71-84",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SchroederDG10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SchroederDG10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/schroeder.pdf"
+      ]
+    },
+    {
+      "title": "Write Endurance in Flash Drives: Measurements and Analysis",
+      "authors": [
+        "Simona Boboila",
+        "Peter Desnoyers"
+      ],
+      "pages": "115-128",
+      "year": "2010",
+      "venue": "FAST 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BoboilaD10",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BoboilaD10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast10/tech/full_papers/boboila.pdf"
+      ]
+    }
+  ]
+}

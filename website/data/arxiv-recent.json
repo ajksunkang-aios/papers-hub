@@ -1,0 +1,289 @@
+{
+  "fetched_at": "2026-05-19T08:12:02.470076+00:00",
+  "sources": [
+    {
+      "id": "cs.OS",
+      "url": "https://arxiv.org/list/cs.OS/recent"
+    },
+    {
+      "id": "cs.CL",
+      "url": "https://arxiv.org/list/cs.CL/recent"
+    }
+  ],
+  "filter_note": "cs.CL: OS cross-list or system-software terms required (linux/os kernel weighted highest); generic LLM/NLP or serving-only papers excluded.",
+  "count": 10,
+  "papers": [
+    {
+      "arxiv_id": "2605.18066v1",
+      "title": "TIDAL: Recovering Temporal Phase for Cloud Block Storage Placement from LLM-Derived Semantics",
+      "authors": [
+        "Difan Tan",
+        "Changlin Wan",
+        "Jiawen Liu",
+        "Hua Wang",
+        "Ke Zhou"
+      ],
+      "abstract": "Cloud Virtual Disk (CVD) placement in Cloud Block Storage (CBS) is critical for resource efficiency and performance isolation. Existing schemes prioritize spatial load balancing by dispersing disks across pods based on configuration-derived load estimates. However, overload risk in CBS is fundamentally temporal. Even when average load is balanced, pods can still suffer transient congestion when the peaks of co-located disks align in time. Achieving complementary placement, which co-locates CVDs with offset peaks, is hard at provisioning time because new disks have no history from which to infer temporal phase. We present TIDAL, a CVD placement framework that recovers phase-aware signals for cold-start placement from an underused source: tenant-provided names and identifiers in provisioning metadata. TIDAL first uses LLMs to recover application semantics from noisy metadata such as project, VM, and disk names. It then translates these semantics into phase-aware temporal signals to guide complementary placement. To satisfy control-plane constraints, TIDAL adopts an offline-to-online design with teacher-student distillation, regex-based filtering, and prefix-aware caching, enabling CPU-only inference with millisecond-level latency. Evaluations driven by production traces show that TIDAL reduces overload frequency by 79.1% and P95 overload duration by 73.7% compared with the strongest baselines.",
+      "published": "2026-05-18T08:49:16Z",
+      "updated": "2026-05-18T08:49:16Z",
+      "categories": [
+        "cs.OS",
+        "cs.DC"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.18066v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.18066v1",
+      "relevance_score": 3,
+      "relevance_tags": [
+        "llm",
+        "latency"
+      ]
+    },
+    {
+      "arxiv_id": "2605.17992v1",
+      "title": "PipeANN-Filter: An Efficient Filtered Vector Search System on SSD",
+      "authors": [
+        "Hao Guo",
+        "Jiwu Shu",
+        "Youyou Lu"
+      ],
+      "abstract": "We propose PipeANN-Filter, an efficient filtered vector search system on SSD. Unlike existing systems that explore only valid vectors (i.e., those satisfying the attribute constraints) during search, PipeANN-Filter explores a superset of valid vectors, and performs attribute verification after getting the top-k closest result vectors. This allows PipeANN-Filter to leverage probabilistic data structures (e.g., Bloom filters) to identify the superset, trading off a small number of false-positive vector explorations for a massive reduction in SSD I/O for attribute reading. Evaluations show that PipeANN-Filter improves search latency and throughput compared to state-of-the-art systems. PipeANN-Filter is open-source at https://github.com/thustorage/PipeANN",
+      "published": "2026-05-18T07:48:53Z",
+      "updated": "2026-05-18T07:48:53Z",
+      "categories": [
+        "cs.OS",
+        "cs.DB"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.17992v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17992v1",
+      "relevance_score": 3,
+      "relevance_tags": [
+        "ssd",
+        "throughput",
+        "latency"
+      ]
+    },
+    {
+      "arxiv_id": "2605.17320v1",
+      "title": "TClone: Low-Latency Forking of Live GUI Environments for Computer-Use Agents",
+      "authors": [
+        "Yutong Huang",
+        "Vikranth Srivatsa",
+        "Alex Asch",
+        "Hansin Tushar Patwa",
+        "Yiying Zhang"
+      ],
+      "abstract": "Computer-use agents increasingly operate inside live personal workspaces, where their actions can modify files, applications, GUI state, credentials, and authenticated sessions. This creates a tension between safety and quality: agents need isolation and rollback to avoid damaging user state, but also need fast branching to support speculative execution and parallel search. Existing VMs, containers, and checkpoint/restore systems can isolate or recover workloads, but they do not provide low-latency versioning of a full interactive workspace. We present TClone, a forkable personal workspace system for computer-use agents. TClone enables a live GUI workspace to be snapshotted, forked into isolated branches, rolled back, and selectively committed or merged. Its design separates fast branch creation from durable checkpointing, using sibling containers, copy-on-write memory sharing, filesystem versioning, GUI-local execution, and asynchronous checkpointing. In our end-to-end agent-loop measurement, TClone reduces total task latency by 1.9x and 1.5x over KVM and CRIU. By making workspace versioning a first-class systems primitive, TClone supports safer and higher-quality agent execution over real personal computing environments.",
+      "published": "2026-05-17T08:24:01Z",
+      "updated": "2026-05-17T08:24:01Z",
+      "categories": [
+        "cs.OS",
+        "cs.AI"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.17320v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17320v1",
+      "relevance_score": 4,
+      "relevance_tags": [
+        "container",
+        "latency",
+        "computer-use agent"
+      ]
+    },
+    {
+      "arxiv_id": "2605.16565v1",
+      "title": "Skim: Speculative Execution for Fast and Efficient Web Agents",
+      "authors": [
+        "Mike Wong",
+        "Kevin Hsieh",
+        "Suman Nath",
+        "Ravi Netravali"
+      ],
+      "abstract": "Skim is a speculative execution framework for web agents that exploits the predictable structure of purpose-built websites. Today's web-agent expense is not intrinsic to the tasks but a property of how agents are composed: frontier-model inference, browser rendering, and ReAct-style planning are applied to every step of every task regardless of complexity. Skim's key observation is that websites enforce stable URL patterns, answer formats, and task-to-trajectory mappings across queries of the same type, so most queries can bypass these heavyweight components entirely. An offline profiler captures these patterns once per site. At runtime, Skim matches each query to a template, synthesizes the destination URL, and extracts the answer with a small model. A lightweight verifier gates each fast-path output against the query and schema; rare misspeculations cascade to the full agent, warm-started by the fast path's final URL to preserve upstream trajectory progress. Across standard web-agent benchmarks paired with three backboneagents (WebVoyager, AgentOccam, BrowserUse), Skim reduces median per-task cost by 1.9x and latency by 33.4% with no accuracy loss.",
+      "published": "2026-05-15T19:12:43Z",
+      "updated": "2026-05-15T19:12:43Z",
+      "categories": [
+        "cs.AI",
+        "cs.OS"
+      ],
+      "primary_category": "cs.AI",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.16565v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16565v1",
+      "relevance_score": 1,
+      "relevance_tags": [
+        "latency"
+      ]
+    },
+    {
+      "arxiv_id": "2605.15026v1",
+      "title": "SemaTune: Semantic-Aware Online OS Tuning with Large Language Models",
+      "authors": [
+        "Georgios Liargkovas",
+        "Mihir Nitin Joshi",
+        "Hubertus Franke",
+        "Kostis Kaffes"
+      ],
+      "abstract": "Online OS tuning can improve long-running services, but existing controllers are poorly matched to live hosts. They treat scheduler, power, memory, and I/O controls as black-box variables and optimize a scalar reward. This view ignores cross-knob policy structure, breaks down when application metrics are unavailable, and can send a running service into degraded regions that persist after the bad setting is removed. We present SemaTune, a host-side framework for steady-state OS tuning with bounded language-model guidance. SemaTune turns knob schemas, telemetry, current configuration, recent action--response history, and retrieved prior runs into a compact decision context. A fast loop proposes low-latency updates, a slower loop periodically revises the search strategy, and every proposed change passes through typed validation before reaching kernel or sysctl interfaces. This lets the controller reason about OS-control meaning and indirect performance signals while keeping model cost, latency, and authority constrained. We evaluate SemaTune on 13 live workloads from five benchmark suites while tuning up to 41 Linux parameters. Across the suite, SemaTune improves stable-phase performance by 72.5\\% over default settings and by 153.3\\% relative to the strongest non-LLM baseline. A 30-window session costs about \\$0.20 in model calls. With only host-level metrics, SemaTune still outperforms baselines given direct application objectives by 93.7 percentage points, while avoiding severe degraded regions reached by structure-blind exploration.",
+      "published": "2026-05-14T16:25:32Z",
+      "updated": "2026-05-14T16:25:32Z",
+      "categories": [
+        "cs.OS",
+        "cs.AI",
+        "cs.PF"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.15026v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.15026v1",
+      "relevance_score": 13,
+      "relevance_tags": [
+        "large language model",
+        "llm",
+        "kernel",
+        "scheduler",
+        "latency",
+        "os "
+      ]
+    },
+    {
+      "arxiv_id": "2605.12129v1",
+      "title": "It's Not the Size: Harness Design Determines Operational Stability in Small Language Models",
+      "authors": [
+        "Yong-eun Cho"
+      ],
+      "abstract": "This paper experimentally analyzes how the level of harness engineering affects the operational performance of small language models (SLMs, 2-3B parameters). Three harness conditions - model-only (raw prompt), minimal-shell (wrapper tags), and a 4-stage pipeline (plan->execute->verify->recover) - are applied to three models (Gemma4 E2B, Qwen3.5:2B, LLaMA 3.2 3B) across 24 tasks, comparing Task Success Rate (TSR) and Valid TSR (VTSR). The pipeline harness achieves TSR=0.952 and VTSR=1.000 on Gemma4 E2B (T1-T5, 21 tasks). A non-monotonic phenomenon - minimal-shell TSR < model-only TSR - is observed in two models. In LLaMA 3.2 3B model-only, seven format violations yield TSR=0.429, revealing scaffold collapse: the model abandons JSON structure under complex format requirements without harness support. Ablation shows planning and recovery each contribute approximately 24.7% of total gain. VCR (Verification Catch Rate)=0.625 across all pipeline runs.",
+      "published": "2026-05-12T13:50:30Z",
+      "updated": "2026-05-12T13:50:30Z",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.OS"
+      ],
+      "primary_category": "cs.SE",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.12129v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.12129v1",
+      "relevance_score": 1,
+      "relevance_tags": [
+        "operating systems"
+      ]
+    },
+    {
+      "arxiv_id": "2605.09735v1",
+      "title": "KV-RM: Regularizing KV-Cache Movement for Static-Graph LLM Serving",
+      "authors": [
+        "Zhiqing Zhong",
+        "Zhijing Ye",
+        "Jian Zhang",
+        "Weijian Zheng",
+        "Bolun Sun",
+        "Xiaodong Yu"
+      ],
+      "abstract": "Static-graph LLM decoders provide predictable launches, fixed tensor shapes, and low submission overhead, but online decoding exposes highly irregular KV-cache behavior: request lengths differ, EOS events arrive asynchronously, and logical histories fragment over time. Dynamic runtimes recover flexibility through paged KV management and step-level scheduling, while static-graph executors often over-reserve memory and suffer burst-time latency outliers. This paper studies whether much of this variability can be absorbed below a fixed decode interface. We present KV-RM, a runtime design that regularizes KV-cache movement beneath a static-graph LLM decoder. KV-RM decouples logical KV histories from physical storage, tracks active KV state through a block pager, and materializes each decode step through a single committed descriptor. A merge-staged transport path coalesces non-contiguous KV mappings into a small number of large transfer groups before a fixed-shape attention kernel consumes them. Optional bounded far-history summaries can be enabled under the same interface, but the core design does not depend on them. On a 2-GPU NVIDIA A100 node, KV-RM improves mixed-length decoding throughput and tail latency relative to a static-graph baseline, reduces reserved KV memory across workload families, and removes severe burst-time latency spikes under production-trace replay. These results suggest that KV-cache movement, rather than kernel shape, can be an effective boundary for recovering runtime flexibility in static-graph LLM serving.",
+      "published": "2026-05-10T20:10:26Z",
+      "updated": "2026-05-10T20:10:26Z",
+      "categories": [
+        "cs.AR",
+        "cs.AI",
+        "cs.DC",
+        "cs.OS"
+      ],
+      "primary_category": "cs.AR",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.09735v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.09735v1",
+      "relevance_score": 11,
+      "relevance_tags": [
+        "llm",
+        "gpu",
+        "kernel",
+        "throughput",
+        "latency",
+        "os "
+      ]
+    },
+    {
+      "arxiv_id": "2605.07008v1",
+      "title": "Pomegranate: A Lightweight Compartmentalization Architecture using Virtualization Extensions",
+      "authors": [
+        "Shriram Raja",
+        "Zhiyuan Ruan",
+        "Richard West"
+      ],
+      "abstract": "The monolithic nature of widely used commodity operating systems means that vulnerabilities in one software component potentially compromise the entire kernel. Formally verifying these systems, or redesigning them altogether as microkernels, according to the principle of least privilege, requires significant effort. Researchers have therefore considered compartmentalization techniques that minimize or totally avoid changes to existing systems. However, current approaches use techniques such as Memory Protection Keys (MPKs), necessitating extensive code analysis to ensure security, or use virtualization by instrumenting the kernel with calls to the glue code that switches compartments. In this work, we present Pomegranate, a framework that uses hardware-assisted virtualization to securely compartmentalize an existing system with minimal to no modifications to its source code. Allowed interactions between compartments are defined using an access-control policy and strictly enforced using Extended Page Tables. Using special sentry functions, Pomegranate is able to check all cross-compartment transitions without trapping into the hypervisor. We demonstrate the efficacy of Pomegranate on a compartmentalized Linux network stack using the igc NIC driver. Experiments show the overheads of our approach are negligible at MTU-sized packets when compartment boundaries are carefully established to avoid excessive inter-compartment communication.",
+      "published": "2026-05-07T22:44:40Z",
+      "updated": "2026-05-07T22:44:40Z",
+      "categories": [
+        "cs.CR",
+        "cs.OS"
+      ],
+      "primary_category": "cs.CR",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.07008v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07008v1",
+      "relevance_score": 9,
+      "relevance_tags": [
+        "operating system",
+        "kernel",
+        "virtualization"
+      ]
+    },
+    {
+      "arxiv_id": "2605.04837v1",
+      "title": "Shedding Light onto Safety Integrity Level and Basic Software Constraints in a Real-World Automotive Application: Case Study with Driverator Framework",
+      "authors": [
+        "Tobias Denzinger",
+        "Matthias Becker",
+        "Peter Ulbrich"
+      ],
+      "abstract": "Automotive electronic control units (ECUs) are intricate systems with hundreds of individual functions, numerous software components, and multiple interdependent tasks. A prevalent structural pattern in these systems are so-called cause-effect chains. While significant research efforts have been dedicated to the temporal analysis and optimization of these chains, particularly minimizing data age and function response times, other crucial non-functional properties remain relatively underexplored. In particular, the safety integrity level (SIL) classification substantially influences the system design by determining task colocation strategies. Improper sharing of functions or interweaving tasks with different safety levels can compromise the integrity of critical functions. Additionally, AUTOSAR basic software (BSW) (e.g. OS, runtime environment, communication stacks, or diagnostics) introduces complexity that varies based on task characteristics and SIL categories. Furthermore, memory requirements present another critical challenge, given the diversity of memory architectures and SIL-specific dependencies that strongly constrain task allocations. This paper thoroughly characterizes a real-world automotive application, describing an automotive application based on SIL constraints, the impact of basic software, and memory requirements. In this context, the Driverator configuration framework is introduced for scalable system analysis.",
+      "published": "2026-05-06T12:34:32Z",
+      "updated": "2026-05-06T12:34:32Z",
+      "categories": [
+        "cs.SE",
+        "cs.OS"
+      ],
+      "primary_category": "cs.SE",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.04837v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.04837v1",
+      "relevance_score": 1,
+      "relevance_tags": [
+        "operating systems"
+      ]
+    },
+    {
+      "arxiv_id": "2605.04226v1",
+      "title": "ipc_shared_ptr: A Publish/Subscribe-Aware Smart Pointer for Cross-Process Object Lifetime Management",
+      "authors": [
+        "Takahiro Ishikawa-Aso",
+        "Atsushi Yano",
+        "Koichi Imai",
+        "Takuya Azumi",
+        "Shinpei Kato"
+      ],
+      "abstract": "True zero-copy Inter-Process Communication (IPC) in publish/subscribe (pub/sub) middleware such as Robot Operating System 2 (ROS 2) requires subscribers to reference message objects in publisher-owned shared memory. Objects must not be reclaimed while referenced, yet must eventually be reclaimed, with correct handling of crash recovery and Transient Local QoS retention requirements. We propose ipc_shared_ptr, a pub/sub-aware smart pointer for cross-process message lifetime management. ipc_shared_ptr exploits pub/sub structural properties to specialize Birrell's reference listing, limiting global metadata updates to per-subscriber 0<->1 transitions and achieving an order-of-magnitude reduction in global communication over general-purpose distributed reference counting. We analyze the key metadata management tradeoff: scalability versus implementation simplicity. Owner-driven reclaim offers greater scalability, but concurrent membership changes and reclamation decisions produce races that widen the correctness-verification state space. Single-writer achieves structural atomicity, eliminating this complexity at the cost of a centralized bottleneck. iceoryx2 (owner-driven reclaim) and Agnocast -- a true zero-copy ROS 2 IPC middleware sharing the publisher's heap with subscribers and adopting ipc_shared_ptr with single-writer -- embody each architecture. Comparative evaluation at the scale of Autoware -- the largest open-source ROS 2 application -- confirms that single-writer achieves sufficient scalability: at 200 topics, two subscribers per topic and 100 Hz, Agnocast's E2E p99.9 is 2.9x lower than iceoryx2's, justifying implementation simplicity over owner-driven reclaim.",
+      "published": "2026-05-05T19:09:18Z",
+      "updated": "2026-05-05T19:09:18Z",
+      "categories": [
+        "cs.OS",
+        "cs.DC",
+        "cs.RO"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.04226v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.04226v1",
+      "relevance_score": 6,
+      "relevance_tags": [
+        "operating system",
+        "os "
+      ]
+    }
+  ]
+}

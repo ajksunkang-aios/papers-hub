@@ -1,0 +1,979 @@
+{
+  "id": "isca-2012",
+  "venue": "isca",
+  "year": 2012,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2012.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2012.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2012",
+    "conf/isca/2012-1",
+    "conf/isca/2012-2",
+    "conf/isca/2012-3",
+    "conf/isca/2012-4",
+    "conf/isca/2012-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 47,
+  "display_count": 47,
+  "papers": [
+    {
+      "title": "A case for exploiting subarray-level parallelism (SALP) in DRAM",
+      "authors": [
+        "Yoongu Kim",
+        "Vivek Seshadri",
+        "Donghyuk Lee",
+        "Jamie Liu",
+        "Onur Mutlu"
+      ],
+      "pages": "368-379",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimSLLM12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimSLLM12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237032",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237032",
+        "http://dl.acm.org/citation.cfm?id=2337202"
+      ]
+    },
+    {
+      "title": "A case for random shortcut topologies for HPC interconnects",
+      "authors": [
+        "Michihiro Koibuchi",
+        "Hiroki Matsutani",
+        "Hideharu Amano",
+        "D. Frank Hsu",
+        "Henri Casanova"
+      ],
+      "pages": "177-188",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KoibuchiMAHC12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KoibuchiMAHC12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237016",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237016",
+        "http://dl.acm.org/citation.cfm?id=2337179"
+      ]
+    },
+    {
+      "title": "A defect-tolerant accelerator for emerging high-performance applications",
+      "authors": [
+        "Olivier Temam"
+      ],
+      "pages": "356-367",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Temam12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Temam12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237031",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237031",
+        "http://dl.acm.org/citation.cfm?id=2337200"
+      ]
+    },
+    {
+      "title": "A first-order mechanistic model for architectural vulnerability factor",
+      "authors": [
+        "Arun A. Nair",
+        "Stijn Eyerman",
+        "Lieven Eeckhout",
+        "Lizy Kurian John"
+      ],
+      "pages": "273-284",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NairEEJ12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NairEEJ12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237024",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237024",
+        "http://dl.acm.org/citation.cfm?id=2337191"
+      ]
+    },
+    {
+      "title": "A micro-architectural analysis of switched photonic multi-chip interconnects",
+      "authors": [
+        "Pranay Koka",
+        "Michael O. McCracken",
+        "Herb Schwetman",
+        "Chia-Hsin Owen Chen",
+        "Xuezhe Zheng",
+        "Ron Ho",
+        "Kannan Raj",
+        "Ashok V. Krishnamoorthy"
+      ],
+      "pages": "153-164",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KokaMSCZHRK12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KokaMSCZHRK12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237014",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237014",
+        "http://dl.acm.org/citation.cfm?id=2337177"
+      ]
+    },
+    {
+      "title": "BlockChop: Dynamic squash elimination for hybrid processor architecture",
+      "authors": [
+        "Jason Mars",
+        "Naveen Kumar 0002"
+      ],
+      "pages": "536-547",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MarsK12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MarsK12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237046",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237046",
+        "http://dl.acm.org/citation.cfm?id=2337221"
+      ]
+    },
+    {
+      "title": "BOOM: Enabling mobile memory based low-power server DIMMs",
+      "authors": [
+        "Doe Hyun Yoon",
+        "Jichuan Chang",
+        "Naveen Muralimanohar",
+        "Parthasarathy Ranganathan"
+      ],
+      "pages": "25-36",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YoonCMR12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YoonCMR12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237003",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237003",
+        "http://dl.acm.org/citation.cfm?id=2337163"
+      ]
+    },
+    {
+      "title": "Boosting mobile GPU performance with a decoupled access/execute fragment processor",
+      "authors": [
+        "Jos&eacute;-Mar&iacute;a Arnau",
+        "Joan-Manuel Parcerisa",
+        "Polychronis Xekalakis"
+      ],
+      "pages": "84-93",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ArnauPX12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ArnauPX12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237008",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237008",
+        "http://dl.acm.org/citation.cfm?id=2337169",
+        "https://www.wikidata.org/entity/Q61738478"
+      ]
+    },
+    {
+      "title": "Branch regulation: Low-overhead protection from code reuse attacks",
+      "authors": [
+        "Mehmet Kayaalp 0001",
+        "Meltem Ozsoy",
+        "Nael B. Abu-Ghazaleh",
+        "Dmitry Ponomarev 0001"
+      ],
+      "pages": "94-105",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KayaalpOAP12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KayaalpOAP12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237009",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237009",
+        "http://dl.acm.org/citation.cfm?id=2337171"
+      ]
+    },
+    {
+      "title": "Buffer-on-board memory systems",
+      "authors": [
+        "Elliott Cooper-Balis",
+        "Paul Rosenfeld",
+        "Bruce L. Jacob"
+      ],
+      "pages": "392-403",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Cooper-BalisRJ12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Cooper-BalisRJ12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237034",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237034",
+        "http://dl.acm.org/citation.cfm?id=2337204"
+      ]
+    },
+    {
+      "title": "Can traditional programming bridge the Ninja performance gap for parallel computing applications?",
+      "authors": [
+        "Nadathur Satish",
+        "Changkyu Kim",
+        "Jatin Chhugani",
+        "Hideki Saito 0001",
+        "Rakesh Krishnaiyer",
+        "Mikhail Smelyanskiy",
+        "Milind Girkar",
+        "Pradeep Dubey"
+      ],
+      "pages": "440-451",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SatishKCSKSGD12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SatishKCSKSGD12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237038",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237038",
+        "http://dl.acm.org/citation.cfm?id=2337210"
+      ]
+    },
+    {
+      "title": "CAPRI: Prediction of compaction-adequacy for handling control-divergence in GPGPU architectures",
+      "authors": [
+        "Minsoo Rhu",
+        "Mattan Erez"
+      ],
+      "pages": "61-71",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RhuE12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RhuE12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237006",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237006",
+        "http://dl.acm.org/citation.cfm?id=2337167"
+      ]
+    },
+    {
+      "title": "Configurable fine-grain protection for multicore processor virtualization",
+      "authors": [
+        "David Wentzlaff",
+        "Christopher J. Jackson",
+        "Patrick Griffin",
+        "Anant Agarwal"
+      ],
+      "pages": "464-475",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WentzlaffJGA12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WentzlaffJGA12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237040",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237040",
+        "http://dl.acm.org/citation.cfm?id=2337213"
+      ]
+    },
+    {
+      "title": "End-to-end sequential consistency",
+      "authors": [
+        "Abhayendra Singh",
+        "Satish Narayanasamy",
+        "Daniel Marino",
+        "Todd D. Millstein",
+        "Madanlal Musuvathi"
+      ],
+      "pages": "524-535",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SinghNMMM12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SinghNMMM12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237045",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237045",
+        "http://dl.acm.org/citation.cfm?id=2337220"
+      ]
+    },
+    {
+      "title": "Enhancing effective throughput for transmission line-based bus",
+      "authors": [
+        "Aaron Carpenter",
+        "Jianyun Hu",
+        "&Ouml;v&uuml;n&ccedil; Kocabas",
+        "Michael C. Huang 0001",
+        "Hui Wu 0007"
+      ],
+      "pages": "165-176",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CarpenterHKHW12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CarpenterHKHW12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237015",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237015",
+        "http://dl.acm.org/citation.cfm?id=2337178"
+      ]
+    },
+    {
+      "title": "Euripus: A flexible unified hardware memory checkpointing accelerator for bidirectional-debugging and reliability",
+      "authors": [
+        "Ioannis Doudalis",
+        "Milos Prvulovic"
+      ],
+      "pages": "261-272",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DoudalisP12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DoudalisP12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237023",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237023",
+        "http://dl.acm.org/citation.cfm?id=2337190"
+      ]
+    },
+    {
+      "title": "FLEXclusion: Balancing cache capacity and on-chip bandwidth via Flexible Exclusion",
+      "authors": [
+        "Jaewoong Sim",
+        "Jaekyu Lee",
+        "Moinuddin K. Qureshi",
+        "Hyesoon Kim"
+      ],
+      "pages": "321-332",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SimLQK12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SimLQK12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237028",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237028",
+        "http://dl.acm.org/citation.cfm?id=2337196"
+      ]
+    },
+    {
+      "title": "Harmony: Collection and analysis of parallel block vectors",
+      "authors": [
+        "Melanie Kambadur",
+        "Kui Tang",
+        "Martha A. Kim"
+      ],
+      "pages": "452-463",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KambadurTK12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KambadurTK12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237039",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237039",
+        "http://dl.acm.org/citation.cfm?id=2337211"
+      ]
+    },
+    {
+      "title": "iGPU: Exception support and speculative execution on GPUs",
+      "authors": [
+        "Jaikrishnan Menon",
+        "Marc de Kruijf",
+        "Karthikeyan Sankaralingam"
+      ],
+      "pages": "72-83",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MenonKS12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MenonKS12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237007",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237007",
+        "http://dl.acm.org/citation.cfm?id=2337168"
+      ]
+    },
+    {
+      "title": "Improving writeback efficiency with decoupled last-write prediction",
+      "authors": [
+        "Zhe Wang 0023",
+        "Samira Manabi Khan",
+        "Daniel A. Jim&eacute;nez"
+      ],
+      "pages": "309-320",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangKJ12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangKJ12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237027",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237027",
+        "http://dl.acm.org/citation.cfm?id=2337195"
+      ]
+    },
+    {
+      "title": "Inspection resistant memory: Architectural support for security from physical examination",
+      "authors": [
+        "Jonathan Valamehr",
+        "Melissa Chase",
+        "Seny Kamara",
+        "Andrew Putnam",
+        "Daniel Shumow",
+        "Vinod Vaikuntanathan",
+        "Timothy Sherwood"
+      ],
+      "pages": "130-141",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ValamehrCKPSVS12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ValamehrCKPSVS12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237012",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237012",
+        "http://dl.acm.org/citation.cfm?id=2337174"
+      ]
+    },
+    {
+      "title": "iSwitch: Coordinating and optimizing renewable energy powered server clusters",
+      "authors": [
+        "Chao Li 0009",
+        "Amer Qouneh",
+        "Tao Li 0006"
+      ],
+      "pages": "512-523",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiQL12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiQL12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237044",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237044",
+        "http://dl.acm.org/citation.cfm?id=2337218"
+      ]
+    },
+    {
+      "title": "Lane decoupling for improving the timing-error resiliency of wide-SIMD architectures",
+      "authors": [
+        "Evgeni Krimer",
+        "Patrick Chiang 0001",
+        "Mattan Erez"
+      ],
+      "pages": "237-248",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KrimerCE12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KrimerCE12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237021",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237021",
+        "http://dl.acm.org/citation.cfm?id=2337187"
+      ]
+    },
+    {
+      "title": "LOT-ECC: Localized and tiered reliability mechanisms for commodity memory systems",
+      "authors": [
+        "Aniruddha N. Udipi",
+        "Naveen Muralimanohar",
+        "Rajeev Balasubramonian",
+        "Al Davis",
+        "Norman P. Jouppi"
+      ],
+      "pages": "285-296",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/UdipiMBDJ12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/UdipiMBDJ12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237025",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237025",
+        "http://dl.acm.org/citation.cfm?id=2337192"
+      ]
+    },
+    {
+      "title": "Managing distributed UPS energy for effective power capping in data centers",
+      "authors": [
+        "Vasileios Kontorinis",
+        "Liuyi Eric Zhang",
+        "Baris Aksanli",
+        "Jack Sampson",
+        "Houman Homayoun",
+        "Eddie Pettis",
+        "Dean M. Tullsen",
+        "Tajana Simunic Rosing"
+      ],
+      "pages": "488-499",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KontorinisZASHPTR12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KontorinisZASHPTR12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237042",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237042",
+        "http://dl.acm.org/citation.cfm?id=2337216"
+      ]
+    },
+    {
+      "title": "PARDIS: A programmable memory controller for the DDRx interfacing standards",
+      "authors": [
+        "Mahdi Nazm Bojnordi",
+        "Engin Ipek"
+      ],
+      "pages": "13-24",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BojnordiI12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BojnordiI12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237002",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237002",
+        "http://dl.acm.org/citation.cfm?id=2337162"
+      ]
+    },
+    {
+      "title": "Physically Addressed Queueing (PAQ): Improving parallelism in Solid State Disks",
+      "authors": [
+        "Myoungsoo Jung",
+        "Ellis Herbert Wilson",
+        "Mahmut T. Kandemir"
+      ],
+      "pages": "404-415",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JungWK12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JungWK12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237035",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237035",
+        "http://dl.acm.org/citation.cfm?id=2337206"
+      ]
+    },
+    {
+      "title": "PreSET: Improving performance of phase change memories by exploiting asymmetry in write times",
+      "authors": [
+        "Moinuddin K. Qureshi",
+        "Michele Franceschini",
+        "Ashish Jagmohan",
+        "Luis A. Lastras"
+      ],
+      "pages": "380-391",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/QureshiFJL12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/QureshiFJL12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237033",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237033",
+        "http://dl.acm.org/citation.cfm?id=2337203"
+      ]
+    },
+    {
+      "title": "Probabilistic Shared Cache Management (PriSM)",
+      "authors": [
+        "R. Manikantan",
+        "Kaushik Rajan",
+        "R. Govindarajan"
+      ],
+      "pages": "428-439",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ManikantanRG12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ManikantanRG12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237037",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237037",
+        "http://dl.acm.org/citation.cfm?id=2337208"
+      ]
+    },
+    {
+      "title": "RADISH: Always-on sound and complete race detection in software and hardware",
+      "authors": [
+        "Joseph Devietti",
+        "Benjamin P. Wood",
+        "Karin Strauss",
+        "Luis Ceze",
+        "Dan Grossman",
+        "Shaz Qadeer"
+      ],
+      "pages": "201-212",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DeviettiWSCGQ12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DeviettiWSCGQ12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237018",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237018",
+        "http://dl.acm.org/citation.cfm?id=2337182"
+      ]
+    },
+    {
+      "title": "RAIDR: Retention-aware intelligent DRAM refresh",
+      "authors": [
+        "Jamie Liu",
+        "Ben Jaiyen",
+        "Richard Veras",
+        "Onur Mutlu"
+      ],
+      "pages": "1-12",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiuJVM12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiuJVM12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237001",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237001",
+        "http://dl.acm.org/citation.cfm?id=2337161"
+      ]
+    },
+    {
+      "title": "Reducing memory reference energy with opportunistic virtual caching",
+      "authors": [
+        "Arkaprava Basu",
+        "Mark D. Hill",
+        "Michael M. Swift"
+      ],
+      "pages": "297-308",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BasuHS12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BasuHS12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237026",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237026",
+        "http://dl.acm.org/citation.cfm?id=2337194"
+      ]
+    },
+    {
+      "title": "Revisiting hardware-assisted page walks for virtualized systems",
+      "authors": [
+        "Jeongseob Ahn",
+        "Seongwook Jin",
+        "Jaehyuk Huh 0001"
+      ],
+      "pages": "476-487",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AhnJH12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AhnJH12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237041",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237041",
+        "http://dl.acm.org/citation.cfm?id=2337214"
+      ]
+    },
+    {
+      "title": "Scale-out processors",
+      "authors": [
+        "Pejman Lotfi-Kamran",
+        "Boris Grot",
+        "Michael Ferdman",
+        "Stavros Volos",
+        "Yusuf Onur Ko&ccedil;berber",
+        "Javier Picorel",
+        "Almutaz Adileh",
+        "Djordje Jevdjic",
+        "Sachin Idgunji",
+        "Emre Ozer 0001",
+        "Babak Falsafi"
+      ],
+      "pages": "500-511",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Lotfi-KamranGFVKPAJIOF12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Lotfi-KamranGFVKPAJIOF12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237043",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237043",
+        "http://dl.acm.org/citation.cfm?id=2337217"
+      ]
+    },
+    {
+      "title": "Scheduling heterogeneous multi-cores through performance impact estimation (PIE)",
+      "authors": [
+        "Kenzo Van Craeynest",
+        "Aamer Jaleel",
+        "Lieven Eeckhout",
+        "Paolo Narv&aacute;ez",
+        "Joel S. Emer"
+      ],
+      "pages": "213-224",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CraeynestJENE12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CraeynestJENE12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237019",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237019",
+        "http://dl.acm.org/citation.cfm?id=2337184"
+      ]
+    },
+    {
+      "title": "Setting an error detection infrastructure with low cost acoustic wave detectors",
+      "authors": [
+        "Gaurang Upasani",
+        "Xavier Vera",
+        "Antonio Gonz&aacute;lez 0001"
+      ],
+      "pages": "333-343",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/UpasaniVG12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/UpasaniVG12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237029",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237029",
+        "http://dl.acm.org/citation.cfm?id=2337198"
+      ]
+    },
+    {
+      "title": "Side-channel vulnerability factor: A metric for measuring information leakage",
+      "authors": [
+        "John Demme",
+        "Robert Martin",
+        "Adam Waksman",
+        "Simha Sethumadhavan"
+      ],
+      "pages": "106-117",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DemmeMWS12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DemmeMWS12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237010",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237010",
+        "http://dl.acm.org/citation.cfm?id=2337172"
+      ]
+    },
+    {
+      "title": "Simultaneous branch and warp interweaving for sustained GPU performance",
+      "authors": [
+        "Nicolas Brunie",
+        "Caroline Collange",
+        "Gregory Frederick Diamos"
+      ],
+      "pages": "49-60",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BrunieCD12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BrunieCD12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237005",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237005",
+        "http://dl.acm.org/citation.cfm?id=2337166"
+      ]
+    },
+    {
+      "title": "Staged memory scheduling: Achieving high performance and scalability in heterogeneous systems",
+      "authors": [
+        "Rachata Ausavarungnirun",
+        "Kevin Kai-Wei Chang",
+        "Lavanya Subramanian",
+        "Gabriel H. Loh",
+        "Onur Mutlu"
+      ],
+      "pages": "416-427",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AusavarungnirunCSLM12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AusavarungnirunCSLM12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237036",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237036",
+        "http://dl.acm.org/citation.cfm?id=2337207"
+      ]
+    },
+    {
+      "title": "The dynamic granularity memory system",
+      "authors": [
+        "Doe Hyun Yoon",
+        "Min Kyu Jeong",
+        "Michael B. Sullivan 0001",
+        "Mattan Erez"
+      ],
+      "pages": "548-560",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YoonJSE12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YoonJSE12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237047",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237047",
+        "http://dl.acm.org/citation.cfm?id=2337222"
+      ]
+    },
+    {
+      "title": "The Yin and Yang of power and performance for asymmetric hardware and managed software",
+      "authors": [
+        "Ting Cao",
+        "Stephen M. Blackburn",
+        "Tiejun Gao",
+        "Kathryn S. McKinley"
+      ],
+      "pages": "225-236",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CaoBGM12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CaoBGM12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237020",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237020",
+        "http://dl.acm.org/citation.cfm?id=2337185",
+        "https://www.wikidata.org/entity/Q58625748"
+      ]
+    },
+    {
+      "title": "TimeWarp: Rethinking timekeeping and performance monitoring mechanisms to mitigate side-channel attacks",
+      "authors": [
+        "Robert Martin",
+        "John Demme",
+        "Simha Sethumadhavan"
+      ],
+      "pages": "118-129",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MartinDS12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MartinDS12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237011",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237011",
+        "http://dl.acm.org/citation.cfm?id=2337173"
+      ]
+    },
+    {
+      "title": "Tolerating process variations in nanophotonic on-chip networks",
+      "authors": [
+        "Yi Xu 0010",
+        "Jun Yang 0002",
+        "Rami G. Melhem"
+      ],
+      "pages": "142-152",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/XuYM12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/XuYM12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237013",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237013",
+        "http://dl.acm.org/citation.cfm?id=2337176"
+      ]
+    },
+    {
+      "title": "Towards energy-proportional datacenter memory with mobile DRAM",
+      "authors": [
+        "Krishna T. Malladi",
+        "Frank A. Nothaft",
+        "Karthika Periyathambi",
+        "Benjamin C. Lee",
+        "Christos Kozyrakis",
+        "Mark Horowitz"
+      ],
+      "pages": "37-48",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MalladiNPLKH12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MalladiNPLKH12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237004",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237004",
+        "http://dl.acm.org/citation.cfm?id=2337164"
+      ]
+    },
+    {
+      "title": "Viper: Virtual pipelines for enhanced reliability",
+      "authors": [
+        "Andrea Pellegrini",
+        "Joseph L. Greathouse",
+        "Valeria Bertacco"
+      ],
+      "pages": "344-355",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PellegriniGB12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PellegriniGB12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237030",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237030",
+        "http://dl.acm.org/citation.cfm?id=2337199"
+      ]
+    },
+    {
+      "title": "VRSync: Characterizing and eliminating synchronization-induced voltage emergencies in many-core processors",
+      "authors": [
+        "Timothy N. Miller",
+        "Renji Thomas",
+        "Xiang Pan",
+        "Radu Teodorescu"
+      ],
+      "pages": "249-260",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MillerTPT12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MillerTPT12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237022",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237022",
+        "http://dl.acm.org/citation.cfm?id=2337188"
+      ]
+    },
+    {
+      "title": "Watchdog: Hardware for safe and secure manual memory management and full memory safety",
+      "authors": [
+        "Santosh Nagarakatte",
+        "Milo M. K. Martin",
+        "Steve Zdancewic"
+      ],
+      "pages": "189-200",
+      "year": "2012",
+      "venue": "ISCA 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NagarakatteMZ12",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NagarakatteMZ12.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2012.6237017",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2012.6237017",
+        "http://dl.acm.org/citation.cfm?id=2337181"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,661 @@
+{
+  "id": "isca-1993",
+  "venue": "isca",
+  "year": 1993,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca1993.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca1993.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/1993",
+    "conf/isca/1993-1",
+    "conf/isca/1993-2",
+    "conf/isca/1993-3",
+    "conf/isca/1993-4",
+    "conf/isca/1993-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 32,
+  "display_count": 32,
+  "papers": [
+    {
+      "title": "16-Bit vs. 32-Bit Instructions for Pipelined Microprocessors",
+      "authors": [
+        "John D. Bunda",
+        "Donald S. Fussell",
+        "Roy M. Jenevein",
+        "William C. Athas"
+      ],
+      "pages": "237-246",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BundaFJA93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BundaFJA93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165159",
+        "https://www.wikidata.org/entity/Q130963023"
+      ]
+    },
+    {
+      "title": "A Case for Two-Way Skewed-Associative Caches",
+      "authors": [
+        "Andr&eacute; Seznec"
+      ],
+      "pages": "169-178",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Seznec93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Seznec93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165152",
+        "https://doi.org/10.1109/ISCA.1993.698558",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698558"
+      ]
+    },
+    {
+      "title": "A Comparison of Adaptive Wormhole Routing Algorithms",
+      "authors": [
+        "Rajendra V. Boppana",
+        "Suresh Chalasani"
+      ],
+      "pages": "351-360",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BoppanaC93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BoppanaC93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165177",
+        "https://doi.org/10.1109/ISCA.1993.698575",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698575"
+      ]
+    },
+    {
+      "title": "A Comparison of Dynamic Branch Predictors that Use Two Levels of Branch History",
+      "authors": [
+        "Tse-Yu Yeh",
+        "Yale N. Patt"
+      ],
+      "pages": "257-266",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YehP93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YehP93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165161",
+        "https://doi.org/10.1109/ISCA.1993.698566",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698566"
+      ]
+    },
+    {
+      "title": "Adaptive Cache Coherency for Detecting Migratory Shared Data",
+      "authors": [
+        "Alan L. Cox",
+        "Robert J. Fowler"
+      ],
+      "pages": "98-108",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CoxF93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CoxF93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165146",
+        "https://doi.org/10.1109/ISCA.1993.698549",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698549"
+      ]
+    },
+    {
+      "title": "An Adaptive Cache Coherence Protocol Optimized for Migratory Sharing",
+      "authors": [
+        "Per Stenstr&ouml;m",
+        "Mats Brorsson",
+        "Lars Sandberg"
+      ],
+      "pages": "109-118",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/StenstromBS93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/StenstromBS93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165147",
+        "https://doi.org/10.1109/ISCA.1993.698550",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698550"
+      ]
+    },
+    {
+      "title": "Architectural Requirements of Parallel Scientific Applications with Explicit Communication",
+      "authors": [
+        "Robert Cypher",
+        "Alex Ho",
+        "Smaragda Konstantinidou",
+        "Paul Messina"
+      ],
+      "pages": "2-13",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CypherHKM93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CypherHKM93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165124",
+        "https://doi.org/10.1109/ISCA.1993.698541",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698541"
+      ]
+    },
+    {
+      "title": "Architectural Support for Translation Table Management in Large Address Space Machines",
+      "authors": [
+        "Jerome C. Huck",
+        "Jim Hays"
+      ],
+      "pages": "39-50",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HuckH93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HuckH93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165128",
+        "https://doi.org/10.1109/ISCA.1993.698544",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698544"
+      ]
+    },
+    {
+      "title": "Cache Write Policies and Performance",
+      "authors": [
+        "Norman P. Jouppi"
+      ],
+      "pages": "191-201",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Jouppi93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Jouppi93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165154",
+        "https://doi.org/10.1109/ISCA.1993.698560",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698560"
+      ]
+    },
+    {
+      "title": "Column-Associative Caches: A Technique for Reducing the Miss Rate of Direct-Mapped Caches",
+      "authors": [
+        "Anant Agarwal",
+        "Steven D. Pudar"
+      ],
+      "pages": "179-190",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AgarwalP93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AgarwalP93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165153",
+        "https://doi.org/10.1109/ISCA.1993.698559",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698559"
+      ]
+    },
+    {
+      "title": "Design Tradeoffs for Software-Managed TLBs",
+      "authors": [
+        "David Nagle",
+        "Richard Uhlig",
+        "Tim J. Stanley",
+        "Stuart Sechrest",
+        "Trevor N. Mudge",
+        "Richard B. Brown"
+      ],
+      "pages": "27-38",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NagleUSSMB93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NagleUSSMB93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165127",
+        "https://doi.org/10.1109/ISCA.1993.698543",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698543"
+      ]
+    },
+    {
+      "title": "Evaluation of Mechanisms for Fine-Grained Parallel Programs in the J-Machine and the CM-5",
+      "authors": [
+        "Ellen Spertus",
+        "Seth Copen Goldstein",
+        "Klaus E. Schauser",
+        "Thorsten von Eicken",
+        "David E. Culler",
+        "William J. Dally"
+      ],
+      "pages": "302-313",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SpertusGSECD93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SpertusGSECD93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165165",
+        "https://doi.org/10.1109/ISCA.1993.698570",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698570"
+      ]
+    },
+    {
+      "title": "Evaluation of Release Consistent Software Distributed Shared Memory on Emerging Network Technology",
+      "authors": [
+        "Sandhya Dwarkadas",
+        "Peter J. Keleher",
+        "Alan L. Cox",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "144-155",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DwarkadasKCZ93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DwarkadasKCZ93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165150",
+        "https://doi.org/10.1109/ISCA.1993.698553",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698553"
+      ]
+    },
+    {
+      "title": "Hierarchical Performance Modeling with MACS: A Case Study of the Convex C-240",
+      "authors": [
+        "Eric L. Boyd",
+        "Edward S. Davidson"
+      ],
+      "pages": "203-212",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BoydD93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BoydD93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165155",
+        "https://doi.org/10.1109/ISCA.1993.698561",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698561"
+      ]
+    },
+    {
+      "title": "Improving AP1000 Parallel Computer Performance with Message Communication",
+      "authors": [
+        "Takeshi Horie",
+        "Kenichi Hayashi",
+        "Toshiyuki Shimizu",
+        "Hiroaki Ishihata"
+      ],
+      "pages": "314-325",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HorieHSI93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HorieHSI93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165168",
+        "https://doi.org/10.1109/ISCA.1993.698571",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698571"
+      ]
+    },
+    {
+      "title": "Limitations of Cache Prefetching on a Bus-Based Multiprocessor",
+      "authors": [
+        "Dean M. Tullsen",
+        "Susan J. Eggers"
+      ],
+      "pages": "278-288",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TullsenE93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TullsenE93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165163",
+        "https://doi.org/10.1109/ISCA.1993.698568",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698568"
+      ]
+    },
+    {
+      "title": "Mechanisms for Cooperative Shared Memory",
+      "authors": [
+        "David A. Wood 0001",
+        "Satish Chandra 0001",
+        "Babak Falsafi",
+        "Mark D. Hill",
+        "James R. Larus",
+        "Alvin R. Lebeck",
+        "James C. Lewis",
+        "Shubhendu S. Mukherjee",
+        "Subbarao Palacharla",
+        "Steven K. Reinhardt"
+      ],
+      "pages": "156-167",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WoodCFHLLLMPR93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WoodCFHLLLMPR93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165151",
+        "https://doi.org/10.1109/ISCA.1993.698554",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698554"
+      ]
+    },
+    {
+      "title": "Multiple Threads in Cyclic Register Windows",
+      "authors": [
+        "Yasuo Hidaka",
+        "Hanpei Koike",
+        "Hidehiko Tanaka"
+      ],
+      "pages": "131-142",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HidakaKT93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HidakaKT93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165149",
+        "https://doi.org/10.1109/ISCA.1993.698552",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698552"
+      ]
+    },
+    {
+      "title": "Odd Memory Systems May be Quite Interesting",
+      "authors": [
+        "Andr&eacute; Seznec",
+        "Jacques Lenfant"
+      ],
+      "pages": "341-350",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SeznecL93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SeznecL93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165175",
+        "https://doi.org/10.1109/ISCA.1993.698574",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698574"
+      ]
+    },
+    {
+      "title": "Parity Logging Overcoming the Small Write Problem in Redundant Disk Arrays",
+      "authors": [
+        "Daniel Stodolsky",
+        "Garth A. Gibson",
+        "Mark Holland"
+      ],
+      "pages": "64-75",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/StodolskyGH93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/StodolskyGH93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165143",
+        "https://doi.org/10.1109/ISCA.1993.698546",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698546"
+      ]
+    },
+    {
+      "title": "Performance of Cached DRAM Organizations in Vector Supercomputers",
+      "authors": [
+        "Wei-Chung Hsu",
+        "James E. Smith"
+      ],
+      "pages": "327-336",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HsuS93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HsuS93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165170",
+        "https://doi.org/10.1109/ISCA.1993.698572",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698572"
+      ]
+    },
+    {
+      "title": "Register Connection: A New Approach to Adding Registers into Instruction Set Architectures",
+      "authors": [
+        "Tokuzo Kiyohara",
+        "Scott A. Mahlke",
+        "William Y. Chen",
+        "Roger A. Bringmann",
+        "Richard E. Hank",
+        "Sadun Anik",
+        "Wen-mei W. Hwu"
+      ],
+      "pages": "247-256",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KiyoharaMCBHAH93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KiyoharaMCBHAH93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165160",
+        "https://doi.org/10.1109/ISCA.1993.698565",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698565"
+      ]
+    },
+    {
+      "title": "Register Relocation: Flexible Contexts for Multithreading",
+      "authors": [
+        "Carl A. Waldspurger",
+        "William E. Weihl"
+      ],
+      "pages": "120-130",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WaldspurgerW93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WaldspurgerW93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165148"
+      ]
+    },
+    {
+      "title": "The Architecture of a Fault-Tolerant Cached RAID Controller",
+      "authors": [
+        "Jai Menon 0001",
+        "Jim Cortney"
+      ],
+      "pages": "76-86",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MenonC93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MenonC93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165144",
+        "https://doi.org/10.1109/ISCA.1993.698547",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698547"
+      ]
+    },
+    {
+      "title": "The Cedar System and an Initial Performance Study",
+      "authors": [
+        "David J. Kuck",
+        "Edward S. Davidson",
+        "Duncan H. Lawrie",
+        "Ahmed H. Sameh",
+        "Chuan-Qi Zhu",
+        "Alexander V. Veidenbaum",
+        "Jeff Konicek",
+        "Pen-Chung Yew",
+        "Kyle A. Gallivan",
+        "William Jalby",
+        "Harry A. G. Wijshoff",
+        "Randall Bramley",
+        "Ulrike Meier Yang",
+        "Perry A. Emrath",
+        "David A. Padua",
+        "Rudolf Eigenmann",
+        "Jay P. Hoeflinger",
+        "Greg P. Jaxon",
+        "Zhiyuan Li 0001",
+        "T. Murphy",
+        "John T. Andrews",
+        "Stephen W. Turner"
+      ],
+      "pages": "213-223",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KuckDLSZVKYGJWBYEPEHJLMAT93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KuckDLSZVKYGJWBYEPEHJLMAT93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165157",
+        "https://doi.org/10.1109/ISCA.1993.698562",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698562"
+      ]
+    },
+    {
+      "title": "The Chinese Remainder Theorem and the Prime Memory System",
+      "authors": [
+        "Qingshi Gao"
+      ],
+      "pages": "337-340",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Gao93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Gao93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165172",
+        "https://doi.org/10.1109/ISCA.1993.698573",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698573"
+      ]
+    },
+    {
+      "title": "The Detection and Elimination of Useless Misses in Multiprocessors",
+      "authors": [
+        "Michel Dubois 0001",
+        "Jonas Skeppstedt",
+        "Livio Ricciulli",
+        "Krishnan Ramamurthy",
+        "Per Stenstr&ouml;m"
+      ],
+      "pages": "88-97",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DuboisSRS93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DuboisSRS93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165145",
+        "https://doi.org/10.1109/ISCA.1993.698548",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698548"
+      ]
+    },
+    {
+      "title": "The J-Machine Multicomputer: An Architectural Evaluation",
+      "authors": [
+        "Michael D. Noakes",
+        "Deborah A. Wallach",
+        "William J. Dally"
+      ],
+      "pages": "224-235",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NoakesWD93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NoakesWD93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165158",
+        "https://doi.org/10.1109/ISCA.1993.698563",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698563"
+      ]
+    },
+    {
+      "title": "The Performance of Cache-Coherent Ring-based Multiprocessors",
+      "authors": [
+        "Luiz Andr&eacute; Barroso",
+        "Michel Dubois 0001"
+      ],
+      "pages": "268-277",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BarrosoD93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BarrosoD93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165162",
+        "https://doi.org/10.1109/ISCA.1993.698567",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698567"
+      ]
+    },
+    {
+      "title": "The TickerTAIP Parallel RAID Architecture",
+      "authors": [
+        "Pei Cao",
+        "Swee Boon Lim",
+        "Shivakumar Venkataraman",
+        "John Wilkes"
+      ],
+      "pages": "52-63",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CaoLVW93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CaoLVW93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165130",
+        "https://doi.org/10.1109/ISCA.1993.698545",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698545"
+      ]
+    },
+    {
+      "title": "Transactional Memory: Architectural Support for Lock-Free Data Structures",
+      "authors": [
+        "Maurice Herlihy",
+        "J. Eliot B. Moss"
+      ],
+      "pages": "289-300",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HerlihyM93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HerlihyM93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165164",
+        "https://doi.org/10.1109/ISCA.1993.698569",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698569"
+      ]
+    },
+    {
+      "title": "Working Sets, Cache Sizes, and Node Granularity Issues for Large-Scale Multiprocessors",
+      "authors": [
+        "Edward Rothberg",
+        "Jaswinder Pal Singh",
+        "Anoop Gupta"
+      ],
+      "pages": "14-25",
+      "year": "1993",
+      "venue": "ISCA 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RothbergSG93",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RothbergSG93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/165123.165126",
+        "https://doi.org/10.1109/ISCA.1993.698542",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1993.698542"
+      ]
+    }
+  ]
+}

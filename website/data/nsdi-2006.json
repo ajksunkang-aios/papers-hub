@@ -1,0 +1,548 @@
+{
+  "id": "nsdi-2006",
+  "venue": "nsdi",
+  "year": 2006,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2006.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2006.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2006",
+    "conf/nsdi/2006-1",
+    "conf/nsdi/2006-2",
+    "conf/nsdi/2006-3",
+    "conf/nsdi/2006-4",
+    "conf/nsdi/2006-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 29,
+  "display_count": 29,
+  "papers": [
+    {
+      "title": "An Architecture for Internet Data Transfer",
+      "authors": [
+        "Niraj Tolia",
+        "Michael Kaminsky",
+        "David G. Andersen",
+        "Swapnil Patil 0001"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ToliaKAP06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ToliaKAP06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/tolia.html"
+      ]
+    },
+    {
+      "title": "Availability of Multi-Object Operations (Awarded Best Paper)",
+      "authors": [
+        "Haifeng Yu",
+        "Phillip B. Gibbons",
+        "Suman Nath"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YuGN06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YuGN06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/yu.html"
+      ]
+    },
+    {
+      "title": "Colyseus: A Distributed Architecture for Online Multiplayer Games",
+      "authors": [
+        "Ashwin R. Bharambe",
+        "Jeffrey Pang",
+        "Srinivasan Seshan"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BharambePS06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BharambePS06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/bharambe.html"
+      ]
+    },
+    {
+      "title": "Connection Conditioning: Architecture-Independent Support for Simple, Robust Servers",
+      "authors": [
+        "KyoungSoo Park",
+        "Vivek S. Pai"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ParkP06a",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ParkP06a.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/park_CC.html"
+      ]
+    },
+    {
+      "title": "Corona: A High Performance Publish-Subscribe System for the World Wide Web",
+      "authors": [
+        "Venugopalan Ramasubramanian",
+        "Ryan Peterson 0002",
+        "Emin G&uuml;n Sirer"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RamasubramanianPS06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RamasubramanianPS06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/ramasubramanian.html"
+      ]
+    },
+    {
+      "title": "Distributed Quota Enforcement for Spam Control",
+      "authors": [
+        "Michael Walfish",
+        "J. D. Zamfirescu",
+        "Hari Balakrishnan",
+        "David R. Karger",
+        "Scott Shenker"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WalfishZBKS06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WalfishZBKS06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/walfish.html"
+      ]
+    },
+    {
+      "title": "Efficient Replica Maintenance for Distributed Storage Systems",
+      "authors": [
+        "Byung-Gon Chun",
+        "Frank Dabek",
+        "Andreas Haeberlen",
+        "Emil Sit",
+        "Hakim Weatherspoon",
+        "M. Frans Kaashoek",
+        "John Kubiatowicz",
+        "Robert Morris 0005"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChunDHSWKKM06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChunDHSWKKM06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/chun.html"
+      ]
+    },
+    {
+      "title": "Experience with an Object Reputation System for Peer-to-Peer Filesharing",
+      "authors": [
+        "Kevin Walsh 0001",
+        "Emin G&uuml;n Sirer"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WalshS06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WalshS06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/walsh.html"
+      ]
+    },
+    {
+      "title": "Exploiting Availability Prediction in Distributed Systems",
+      "authors": [
+        "James W. Mickens",
+        "Brian D. Noble"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MickensN06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MickensN06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/mickens.html"
+      ]
+    },
+    {
+      "title": "Geographic Routing Without Planarization",
+      "authors": [
+        "Ben Leong",
+        "Barbara Liskov",
+        "Robert Morris 0005"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LeongLM06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LeongLM06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/leong.html"
+      ]
+    },
+    {
+      "title": "Keynote",
+      "authors": [
+        "Udi Manber"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Manber06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Manber06.html",
+      "ee_links": []
+    },
+    {
+      "title": "Na Kika: Secure Service Execution and Composition in an Open Edge-Side Computing Network",
+      "authors": [
+        "Robert Grimm 0001",
+        "Guy Lichtman",
+        "Nikolaos Michalakis",
+        "Amos Elliston",
+        "Adam Kravetz",
+        "Jonathan Miller",
+        "Sajid Raza"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GrimmLMEKMR06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GrimmLMEKMR06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/grimm.html"
+      ]
+    },
+    {
+      "title": "OASIS: Anycast for Any Service",
+      "authors": [
+        "Michael J. Freedman",
+        "Karthik Lakshminarayanan",
+        "David Mazi&egrave;res"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FreedmanLM06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FreedmanLM06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/freedman.html"
+      ]
+    },
+    {
+      "title": "OCALA: An Architecture for Supporting Legacy Applications over Overlays",
+      "authors": [
+        "Dilip Antony Joseph",
+        "Jayanthkumar Kannan",
+        "Ayumu Kubota",
+        "Karthik Lakshminarayanan",
+        "Ion Stoica",
+        "Klaus Wehrle"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JosephKKLSW06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JosephKKLSW06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/joseph.html"
+      ]
+    },
+    {
+      "title": "Olive: Distributed Point-in-Time Branching Storage for Real Systems",
+      "authors": [
+        "Marcos Kawazoe Aguilera",
+        "Susan Spence",
+        "Alistair C. Veitch"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AguileraSV06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AguileraSV06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/aguilera.html"
+      ]
+    },
+    {
+      "title": "Open Versus Closed: A Cautionary Tale",
+      "authors": [
+        "Bianca Schroeder",
+        "Adam Wierman",
+        "Mor Harchol-Balter"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SchroederWH06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SchroederWH06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/schroeder.html"
+      ]
+    },
+    {
+      "title": "OverCite: A Distributed, Cooperative CiteSeer",
+      "authors": [
+        "Jeremy Stribling",
+        "Jinyang Li 0001",
+        "Isaac G. Councill",
+        "M. Frans Kaashoek",
+        "Robert Morris 0005"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/StriblingLCKM06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/StriblingLCKM06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/stribling.html"
+      ]
+    },
+    {
+      "title": "Pastwatch: A Distributed Version Control System",
+      "authors": [
+        "Alexander Yip",
+        "Benjie Chen",
+        "Robert Morris 0005"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YipCM06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YipCM06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/yip.html"
+      ]
+    },
+    {
+      "title": "PCP: Efficient Endpoint Congestion Control",
+      "authors": [
+        "Thomas E. Anderson",
+        "Andy Collins",
+        "Arvind Krishnamurthy",
+        "John Zahorjan"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AndersonCKZ06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AndersonCKZ06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/anderson.html"
+      ]
+    },
+    {
+      "title": "Pip: Detecting the Unexpected in Distributed Systems",
+      "authors": [
+        "Patrick Reynolds",
+        "Charles Killian",
+        "Janet L. Wiener",
+        "Jeffrey C. Mogul",
+        "Mehul A. Shah",
+        "Amin Vahdat"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ReynoldsKWMSV06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ReynoldsKWMSV06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/reynolds.html"
+      ]
+    },
+    {
+      "title": "PRACTI Replication",
+      "authors": [
+        "Nalini Moti Belaramani",
+        "Michael Dahlin",
+        "Lei Gao",
+        "Amol Nayate",
+        "Arun Venkataramani",
+        "Praveen Yalagandula",
+        "Jiandan Zheng"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BelaramaniDGNVYZ06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BelaramaniDGNVYZ06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/belaramani.html"
+      ]
+    },
+    {
+      "title": "Practical Data-Centric Storage",
+      "authors": [
+        "Cheng Tien Ee",
+        "Sylvia Ratnasamy",
+        "Scott Shenker"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/EeRS06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/EeRS06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/ee.html"
+      ]
+    },
+    {
+      "title": "PRESTO: Feedback-driven Data Management in Sensor Networks",
+      "authors": [
+        "Ming Li 0009",
+        "Deepak Ganesan",
+        "Prashant J. Shenoy"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiGS06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiGS06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/li.html"
+      ]
+    },
+    {
+      "title": "RE: Reliable Email",
+      "authors": [
+        "Scott Garriss",
+        "Michael Kaminsky",
+        "Michael J. Freedman",
+        "Brad Karp",
+        "David Mazi&egrave;res",
+        "Haifeng Yu"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GarrissKFKMY06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GarrissKFKMY06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/garriss.html"
+      ]
+    },
+    {
+      "title": "Scale and Performance in the CoBlitz Large-File Distribution Service",
+      "authors": [
+        "KyoungSoo Park",
+        "Vivek S. Pai"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ParkP06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ParkP06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/park_CoB.html"
+      ]
+    },
+    {
+      "title": "Subtleties in Tolerating Correlated Failures in Wide-area Storage Systems",
+      "authors": [
+        "Suman Nath",
+        "Haifeng Yu",
+        "Phillip B. Gibbons",
+        "Srinivasan Seshan"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NathYGS06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NathYGS06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/nath.html"
+      ]
+    },
+    {
+      "title": "The Dark Oracle: Perspective-Aware Unused and Unreachable Address Discovery",
+      "authors": [
+        "Evan Cooke",
+        "Michael D. Bailey",
+        "Farnam Jahanian",
+        "Richard Mortier"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CookeBJM06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CookeBJM06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/cooke.html"
+      ]
+    },
+    {
+      "title": "To Infinity and Beyond: Time-Warped Network Emulation",
+      "authors": [
+        "Diwaker Gupta",
+        "Ken Yocum",
+        "Marvin McNett",
+        "Alex C. Snoeren",
+        "Amin Vahdat",
+        "Geoffrey M. Voelker"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuptaYMSVV06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuptaYMSVV06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/gupta.html"
+      ]
+    },
+    {
+      "title": "Virtualization Aware File Systems: Getting Beyond the Limitations of Virtual Disks",
+      "authors": [
+        "Ben Pfaff",
+        "Tal Garfinkel",
+        "Mendel Rosenblum"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "NSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PfaffGR06",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PfaffGR06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi06/tech/pfaff.html"
+      ]
+    }
+  ]
+}

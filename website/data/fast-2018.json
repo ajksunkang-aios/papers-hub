@@ -1,0 +1,512 @@
+{
+  "id": "fast-2018",
+  "venue": "fast",
+  "year": 2018,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2018.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2018.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2018",
+    "conf/fast/2018-1",
+    "conf/fast/2018-2",
+    "conf/fast/2018-3",
+    "conf/fast/2018-4",
+    "conf/fast/2018-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 23,
+  "display_count": 23,
+  "papers": [
+    {
+      "title": "ALACC: Accelerating Restore Performance of Data Deduplication Systems Using Adaptive Look-Ahead Window Assisted Chunk Caching",
+      "authors": [
+        "Zhichao Cao 0002",
+        "Hao Wen 0001",
+        "Fenggang Wu",
+        "David H. C. Du"
+      ],
+      "pages": "309-324",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CaoWWD18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CaoWWD18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/cao"
+      ]
+    },
+    {
+      "title": "Barrier-Enabled IO Stack for Flash Storage",
+      "authors": [
+        "Youjip Won",
+        "Jaemin Jung",
+        "Gyeongyeol Choi",
+        "Joontaek Oh",
+        "Seongbae Son",
+        "Joo Young Hwang",
+        "Sangyeun Cho"
+      ],
+      "pages": "211-226",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WonJCOSHC18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WonJCOSHC18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/won"
+      ]
+    },
+    {
+      "title": "Clay Codes: Moulding MDS Codes to Yield an MSR Code",
+      "authors": [
+        "Myna Vajha",
+        "Vinayak Ramkumar",
+        "Bhagyashree Puranik",
+        "Ganesh R. Kini",
+        "Elita A. Lobo",
+        "Birenjith Sasidharan",
+        "P. Vijay Kumar",
+        "Alexander Barg",
+        "Min Ye 0005",
+        "Srinivasan Narayanamurthy",
+        "Syed Hussain",
+        "Siddhartha Nandi"
+      ],
+      "pages": "139-154",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/VajhaRPKLSKBYNH18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/VajhaRPKLSKBYNH18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/vajha"
+      ]
+    },
+    {
+      "title": "Designing a True Direct-Access File System with DevFS",
+      "authors": [
+        "Sudarsun Kannan",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Yuangang Wang",
+        "Jun Xu",
+        "Gopinath Palani"
+      ],
+      "pages": "241-256",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KannanAAWXP18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KannanAAWXP18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/kannan"
+      ]
+    },
+    {
+      "title": "Endurable Transient Inconsistency in Byte-Addressable Persistent B+-Tree",
+      "authors": [
+        "Deukyeon Hwang",
+        "Wook-Hee Kim",
+        "Youjip Won",
+        "Beomseok Nam"
+      ],
+      "pages": "187-200",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HwangKWN18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HwangKWN18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/hwang"
+      ]
+    },
+    {
+      "title": "Fail-Slow at Scale: Evidence of Hardware Performance Faults in Large Production Systems",
+      "authors": [
+        "Haryadi S. Gunawi",
+        "Riza O. Suminto",
+        "Russell Sears",
+        "Casey Golliher",
+        "Swaminathan Sundararaman",
+        "Xing Lin",
+        "Tim Emami",
+        "Weiguang Sheng",
+        "Nematollah Bidokhti",
+        "Caitie McCaffrey",
+        "Gary Grider",
+        "Parks M. Fields",
+        "Kevin Harms",
+        "Robert B. Ross",
+        "Andree Jacobson",
+        "Robert Ricci",
+        "Kirk Webb",
+        "Peter Alvaro",
+        "H. Birali Runesha",
+        "Mingzhe Hao",
+        "Huaicheng Li"
+      ],
+      "pages": "1-14",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GunawiSSGSLESBM18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GunawiSSGSLESBM18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/gunawi"
+      ]
+    },
+    {
+      "title": "FStream: Managing Flash Streams in the File System",
+      "authors": [
+        "Eunhee Rho",
+        "Kanchan Joshi",
+        "Seung-Uk Shin",
+        "Nitesh Jagadeesh Shetty",
+        "Joo Young Hwang",
+        "Sangyeun Cho",
+        "Daniel D. G. Lee",
+        "Jaeheon Jeong"
+      ],
+      "pages": "257-264",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RhoJSSHCLJ18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RhoJSSHCLJ18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/rho"
+      ]
+    },
+    {
+      "title": "High-Performance Transaction Processing in Journaling File Systems",
+      "authors": [
+        "Yongseok Son",
+        "Sunggon Kim",
+        "Heon Y. Yeom",
+        "Hyuck Han"
+      ],
+      "pages": "227-240",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SonKYH18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SonKYH18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/son"
+      ]
+    },
+    {
+      "title": "Improving Docker Registry Design Based on Production Workload Analysis",
+      "authors": [
+        "Ali Anwar 0001",
+        "Mohamed Mohamed 0001",
+        "Vasily Tarasov",
+        "Michael Littley",
+        "Lukas Rupprecht",
+        "Yue Cheng 0001",
+        "Nannan Zhao",
+        "Dimitris Skourtis",
+        "Amit Warke",
+        "Heiko Ludwig",
+        "Dean Hildebrand",
+        "Ali Raza Butt"
+      ],
+      "pages": "265-278",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AnwarMTLRCZNWLH18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AnwarMTLRCZNWLH18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/anwar"
+      ]
+    },
+    {
+      "title": "Logical Synchronous Replication in the Tintri VMstore File System",
+      "authors": [
+        "Gideon Glass",
+        "Arjun Gopalan",
+        "Dattatraya Koujalagi",
+        "Abhinand Palicherla",
+        "Sumedh Sakdeo"
+      ],
+      "pages": "295-308",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GlassGKPS18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GlassGKPS18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/glass"
+      ]
+    },
+    {
+      "title": "MQSim: A Framework for Enabling Realistic Studies of Modern Multi-Queue SSD Devices",
+      "authors": [
+        "Arash Tavakkol",
+        "Juan G&oacute;mez-Luna",
+        "Mohammad Sadrosadati",
+        "Saugata Ghose",
+        "Onur Mutlu"
+      ],
+      "pages": "49-66",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TavakkolGSGM18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TavakkolGSGM18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/tavakkol"
+      ]
+    },
+    {
+      "title": "PEN: Design and Evaluation of Partial-Erase for 3D NAND-Based High Density SSDs",
+      "authors": [
+        "Chun-Yi Liu 0002",
+        "Jagadish Kotra",
+        "Myoungsoo Jung",
+        "Mahmut T. Kandemir"
+      ],
+      "pages": "67-82",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuKJK18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuKJK18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/liu"
+      ]
+    },
+    {
+      "title": "Protocol-Aware Recovery for Consensus-Based Storage",
+      "authors": [
+        "Ramnatthan Alagappan",
+        "Aishwarya Ganesan",
+        "Eric Lee",
+        "Aws Albarghouthi",
+        "Vijay Chidambaram",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "15-32",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AlagappanGLACAA18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AlagappanGLACAA18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/alagappan"
+      ]
+    },
+    {
+      "title": "RAID+: Deterministic and Balanced Data Distribution for Large Disk Enclosures",
+      "authors": [
+        "Guangyan Zhang",
+        "Zican Huang",
+        "Xiaosong Ma",
+        "Songlin Yang",
+        "Zhufan Wang",
+        "Weimin Zheng"
+      ],
+      "pages": "279-294",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangHMYWZ18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangHMYWZ18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/zhang"
+      ]
+    },
+    {
+      "title": "RFLUSH: Rethink the Flush",
+      "authors": [
+        "Jeseong Yeon",
+        "Minseong Jeong",
+        "Sungjin Lee 0001",
+        "Eunji Lee"
+      ],
+      "pages": "201-210",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YeonJLL18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YeonJLL18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/yeon"
+      ]
+    },
+    {
+      "title": "Spiffy: Enabling File-System Aware Storage Applications",
+      "authors": [
+        "Kuei Sun",
+        "Daniel Fryer",
+        "Joseph Chu",
+        "Matthew Lakier",
+        "Angela Demke Brown",
+        "Ashvin Goel"
+      ],
+      "pages": "91-104",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SunFCLBG18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SunFCLBG18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/sun"
+      ]
+    },
+    {
+      "title": "Stash in a Flash",
+      "authors": [
+        "Aviad Zuck",
+        "Yue Li 0001",
+        "Jehoshua Bruck",
+        "Donald E. Porter",
+        "Dan Tsafrir"
+      ],
+      "pages": "169-188",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Zuck0BPT18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Zuck0BPT18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/zuck"
+      ]
+    },
+    {
+      "title": "The CASE of FEMU: Cheap, Accurate, Scalable and Extensible Flash Emulator",
+      "authors": [
+        "Huaicheng Li",
+        "Mingzhe Hao",
+        "Michael Hao Tong",
+        "Swaminathan Sundararaman",
+        "Matias Bj&oslash;rling",
+        "Haryadi S. Gunawi"
+      ],
+      "pages": "83-90",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiHTSBG18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiHTSBG18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/li"
+      ]
+    },
+    {
+      "title": "The Full Path to Full-Path Indexing",
+      "authors": [
+        "Yang Zhan 0001",
+        "Alexander Conway 0001",
+        "Yizheng Jiao",
+        "Eric Knorr",
+        "Michael A. Bender",
+        "Martin Farach-Colton",
+        "William Jannen",
+        "Rob Johnson 0001",
+        "Donald E. Porter",
+        "Jun Yuan 0006"
+      ],
+      "pages": "123-138",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhanCJKBFJJPY18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhanCJKBFJJPY18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/zhan"
+      ]
+    },
+    {
+      "title": "Towards Robust File System Checkers",
+      "authors": [
+        "Om Rameshwar Gatla",
+        "Muhammad Hameed",
+        "Mai Zheng",
+        "Viacheslav Dubeyko",
+        "Adam Manzanares",
+        "Filip Blagojevic",
+        "Cyril Guyot",
+        "Robert Mateescu"
+      ],
+      "pages": "105-122",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GatlaHZDMBGM18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GatlaHZDMBGM18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/gatla"
+      ]
+    },
+    {
+      "title": "Towards Web-based Delta Synchronization for Cloud Storage Services",
+      "authors": [
+        "He Xiao",
+        "Zhenhua Li 0001",
+        "Ennan Zhai",
+        "Tianyin Xu",
+        "Yang Li 0092",
+        "Yunhao Liu 0001",
+        "Quanlu Zhang",
+        "Yao Liu 0001"
+      ],
+      "pages": "155-168",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/XiaoLZXLLZL18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/XiaoLZXLLZL18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/xiao"
+      ]
+    },
+    {
+      "title": "UKSM: Swift Memory Deduplication via Hierarchical and Adaptive Memory Region Distilling",
+      "authors": [
+        "Nai Xia",
+        "Chen Tian 0001",
+        "Yan Luo 0001",
+        "Hang Liu 0001",
+        "Xiaoliang Wang 0001"
+      ],
+      "pages": "325-340",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/XiaTLLW18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/XiaTLLW18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/xia"
+      ]
+    },
+    {
+      "title": "WAFL Iron: Repairing Live Enterprise File Systems",
+      "authors": [
+        "Ram Kesavan",
+        "Harendra Kumar",
+        "Sushrut Bhowmik"
+      ],
+      "pages": "33-48",
+      "year": "2018",
+      "venue": "FAST 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KesavanKB18",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KesavanKB18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast18/presentation/kesavan"
+      ]
+    }
+  ]
+}

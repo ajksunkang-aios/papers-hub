@@ -1,0 +1,362 @@
+{
+  "id": "sosp-1999",
+  "venue": "sosp",
+  "year": 1999,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp1999.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp1999.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/1999",
+    "conf/sosp/1999-1",
+    "conf/sosp/1999-2",
+    "conf/sosp/1999-3",
+    "conf/sosp/1999-4",
+    "conf/sosp/1999-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 19,
+  "display_count": 19,
+  "papers": [
+    {
+      "title": "Active network vision and reality: lessions form a capsule-based system",
+      "authors": [
+        "David Wetherall"
+      ],
+      "pages": "64-79",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Wetherall99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Wetherall99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319156"
+      ]
+    },
+    {
+      "title": "Borrowed-virtual-time (BVT) scheduling: supporting latency-sensitive threads in a general-purpose schedular",
+      "authors": [
+        "Kenneth J. Duda",
+        "David R. Cheriton"
+      ],
+      "pages": "261-276",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DudaC99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DudaC99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319169"
+      ]
+    },
+    {
+      "title": "Building reliable, high-performance communication systems from components",
+      "authors": [
+        "Xiaoming Liu 0003",
+        "Christoph Kreitz",
+        "Robbert van Renesse",
+        "Jason Hickey",
+        "Mark Hayden",
+        "Kenneth P. Birman",
+        "Robert L. Constable"
+      ],
+      "pages": "80-92",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiuKRHHBC99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiuKRHHBC99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319157"
+      ]
+    },
+    {
+      "title": "Cellular Disco: resource management using virtual clusters on shared-memory multiprocessors",
+      "authors": [
+        "Kinshuk Govil",
+        "Dan Teodosiu 0002",
+        "Yongqiang Huang 0002",
+        "Mendel Rosenblum"
+      ],
+      "pages": "154-169",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GovilTHR99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GovilTHR99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319162"
+      ]
+    },
+    {
+      "title": "Deciding when to forget in the Elephant file system",
+      "authors": [
+        "Douglas S. Santry",
+        "Michael J. Feeley",
+        "Norman C. Hutchinson",
+        "Alistair C. Veitch",
+        "Ross W. Carton",
+        "Jacob Ofir"
+      ],
+      "pages": "110-123",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SantryFHVCO99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SantryFHVCO99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319159"
+      ]
+    },
+    {
+      "title": "Design and implementation of a distributed virtual machine for networked computers",
+      "authors": [
+        "Emin G&uuml;n Sirer",
+        "Robert Grimm 0001",
+        "Arthur J. Gregory",
+        "Brian N. Bershad"
+      ],
+      "pages": "202-216",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SirerGGB99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SirerGGB99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319165"
+      ]
+    },
+    {
+      "title": "EMERALDS: a small-memory real-time microkernel",
+      "authors": [
+        "Khawar M. Zuberi",
+        "Padmanabhan Pillai",
+        "Kang G. Shin"
+      ],
+      "pages": "277-299",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZuberiPS99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZuberiPS99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319170"
+      ]
+    },
+    {
+      "title": "Energy-aware adaptation for mobile applications",
+      "authors": [
+        "Jason Flinn",
+        "Mahadev Satyanarayanan"
+      ],
+      "pages": "48-63",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FlinnS99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FlinnS99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319155"
+      ]
+    },
+    {
+      "title": "EROS: a fast capability system",
+      "authors": [
+        "Jonathan S. Shapiro",
+        "Jonathan M. Smith",
+        "David J. Farber"
+      ],
+      "pages": "170-185",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ShapiroSF99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ShapiroSF99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319163"
+      ]
+    },
+    {
+      "title": "File system usage in Windows NT 4.0",
+      "authors": [
+        "Werner Vogels"
+      ],
+      "pages": "93-109",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Vogels99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Vogels99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319158"
+      ]
+    },
+    {
+      "title": "Integrating segmentation and paging protection for safe, efficient and transparent software extensions",
+      "authors": [
+        "Tzi-cker Chiueh",
+        "Ganesh Venkitachalam",
+        "Prashant Pradhan"
+      ],
+      "pages": "140-153",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChiuehVP99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChiuehVP99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319161"
+      ]
+    },
+    {
+      "title": "Manageability, Availability and Performance in Porcupine: A Highly Scalable, Cluster-based Mail Service",
+      "authors": [
+        "Yasushi Saito",
+        "Brian N. Bershad",
+        "Henry M. Levy"
+      ],
+      "pages": "1-15",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SaitoBL99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SaitoBL99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319152"
+      ]
+    },
+    {
+      "title": "On the scale and performance of cooperative Web proxy caching",
+      "authors": [
+        "Alec Wolman",
+        "Geoffrey M. Voelker",
+        "Nitin Sharma 0002",
+        "Neal Cardwell",
+        "Anna R. Karlin",
+        "Henry M. Levy"
+      ],
+      "pages": "16-31",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WolmanVSCKL99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WolmanVSCKL99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319153"
+      ]
+    },
+    {
+      "title": "Progress-based regulation of low-importance processes",
+      "authors": [
+        "John R. Douceur",
+        "William J. Bolosky"
+      ],
+      "pages": "247-260",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DouceurB99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DouceurB99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319168"
+      ]
+    },
+    {
+      "title": "Separating key management from file system security",
+      "authors": [
+        "David Mazi&egrave;res",
+        "Michael Kaminsky",
+        "M. Frans Kaashoek",
+        "Emmett Witchel"
+      ],
+      "pages": "124-139",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MazieresKKW99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MazieresKKW99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319160"
+      ]
+    },
+    {
+      "title": "Soft timers: efficient microsecond software timer support for network processing",
+      "authors": [
+        "Mohit Aron",
+        "Peter Druschel"
+      ],
+      "pages": "232-246",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AronD99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AronD99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319167"
+      ]
+    },
+    {
+      "title": "The Click modular router",
+      "authors": [
+        "Robert Morris 0005",
+        "Eddie Kohler",
+        "John Jannotti",
+        "M. Frans Kaashoek"
+      ],
+      "pages": "217-231",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MorrisKJK99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MorrisKJK99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319166",
+        "https://www.wikidata.org/entity/Q130990421"
+      ]
+    },
+    {
+      "title": "The design and implementation of an intentional naming system",
+      "authors": [
+        "William Adjie-Winoto",
+        "Elliot Schwartz",
+        "Hari Balakrishnan",
+        "Jeremy Lilley"
+      ],
+      "pages": "186-201",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Adjie-WinotoSBL99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Adjie-WinotoSBL99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319164"
+      ]
+    },
+    {
+      "title": "The interactive performance of SLIM: a stateless, thin-client architecture",
+      "authors": [
+        "Brian K. Schmidt",
+        "Monica S. Lam",
+        "J. Duane Northcutt"
+      ],
+      "pages": "32-47",
+      "year": "1999",
+      "venue": "SOSP 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SchmidtLN99",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SchmidtLN99.html",
+      "ee_links": [
+        "https://doi.org/10.1145/319151.319154"
+      ]
+    }
+  ]
+}

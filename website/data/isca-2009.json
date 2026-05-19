@@ -1,0 +1,854 @@
+{
+  "id": "isca-2009",
+  "venue": "isca",
+  "year": 2009,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2009.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2009.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2009",
+    "conf/isca/2009-1",
+    "conf/isca/2009-2",
+    "conf/isca/2009-3",
+    "conf/isca/2009-4",
+    "conf/isca/2009-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 45,
+  "display_count": 45,
+  "papers": [
+    {
+      "title": "A case for an interleaving constrained shared-memory multi-processor",
+      "authors": [
+        "Jie Yu 0016",
+        "Satish Narayanasamy"
+      ],
+      "pages": "325-336",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YuN09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YuN09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555796"
+      ]
+    },
+    {
+      "title": "A case for bufferless routing in on-chip networks",
+      "authors": [
+        "Thomas Moscibroda",
+        "Onur Mutlu"
+      ],
+      "pages": "196-207",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MoscibrodaM09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MoscibrodaM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555781"
+      ]
+    },
+    {
+      "title": "A durable and energy efficient main memory using phase change memory technology",
+      "authors": [
+        "Ping Zhou",
+        "Bo Zhao 0007",
+        "Jun Yang 0002",
+        "Youtao Zhang"
+      ],
+      "pages": "14-23",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhouZYZ09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhouZYZ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555759"
+      ]
+    },
+    {
+      "title": "A fault tolerant, area efficient architecture for Shor's factoring algorithm",
+      "authors": [
+        "Mark Whitney",
+        "Nemanja Isailovic",
+        "Yatish Patel",
+        "John Kubiatowicz"
+      ],
+      "pages": "383-394",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WhitneyIPK09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WhitneyIPK09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555802"
+      ]
+    },
+    {
+      "title": "A memory system design framework: creating smart memories",
+      "authors": [
+        "Amin Firoozshahian",
+        "Alex Solomatnikov",
+        "Ofer Shacham",
+        "Zain Asgar",
+        "Stephen Richardson",
+        "Christos Kozyrakis",
+        "Mark Horowitz"
+      ],
+      "pages": "406-417",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FiroozshahianSSARKH09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FiroozshahianSSARKH09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555805"
+      ]
+    },
+    {
+      "title": "Achieving predictable performance through better memory controller placement in many-core CMPs",
+      "authors": [
+        "Dennis Abts",
+        "Natalie D. Enright Jerger",
+        "John Kim 0001",
+        "Dan Gibson",
+        "Mikko H. Lipasti"
+      ],
+      "pages": "451-461",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AbtsJKGL09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AbtsJKGL09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555810"
+      ]
+    },
+    {
+      "title": "An analytical model for a GPU architecture with memory-level and thread-level parallelism awareness",
+      "authors": [
+        "Sunpyo Hong",
+        "Hyesoon Kim"
+      ],
+      "pages": "152-163",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HongK09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HongK09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555775",
+        "https://www.wikidata.org/entity/Q131118630"
+      ]
+    },
+    {
+      "title": "AnySP: anytime anywhere anyway signal processing",
+      "authors": [
+        "Mark Woh",
+        "Sangwon Seo",
+        "Scott A. Mahlke",
+        "Trevor N. Mudge",
+        "Chaitali Chakrabarti",
+        "Kriszti&aacute;n Flautner"
+      ],
+      "pages": "128-139",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WohSMMCF09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WohSMMCF09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555773"
+      ]
+    },
+    {
+      "title": "Application-aware deadlock-free oblivious routing",
+      "authors": [
+        "Michel A. Kinsy",
+        "Myong Hyon Cho",
+        "Tina Wen",
+        "G. Edward Suh",
+        "Marten van Dijk",
+        "Srinivas Devadas"
+      ],
+      "pages": "208-219",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KinsyCWSDD09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KinsyCWSDD09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555782"
+      ]
+    },
+    {
+      "title": "Architecting phase change memory as a scalable dram alternative",
+      "authors": [
+        "Benjamin C. Lee",
+        "Engin Ipek",
+        "Onur Mutlu",
+        "Doug Burger"
+      ],
+      "pages": "2-13",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeIMB09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeIMB09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555758"
+      ]
+    },
+    {
+      "title": "Architectural core salvaging in a multi-core processor for hard-error tolerance",
+      "authors": [
+        "Michael D. Powell",
+        "Arijit Biswas",
+        "Shantanu Gupta",
+        "Shubhendu S. Mukherjee"
+      ],
+      "pages": "93-104",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PowellBGM09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PowellBGM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555769",
+        "https://www.wikidata.org/entity/Q130993347"
+      ]
+    },
+    {
+      "title": "Boosting single-thread performance in multi-core systems through fine-grain multi-threading",
+      "authors": [
+        "Carlos Madriles",
+        "Pedro L&oacute;pez 0001",
+        "Josep M. Codina",
+        "Enric Gibert",
+        "Fernando Latorre",
+        "Alejandro Mart&iacute;nez",
+        "Ra&uacute;l Mart&iacute;nez",
+        "Antonio Gonz&aacute;lez 0001"
+      ],
+      "pages": "474-483",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MadrilesLCGLMMG09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MadrilesLCGLMMG09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555813"
+      ]
+    },
+    {
+      "title": "Decoupled DIMM: building high-bandwidth memory system using low-speed DRAM devices",
+      "authors": [
+        "Hongzhong Zheng",
+        "Jiang Lin",
+        "Zhao Zhang 0010",
+        "Zhichun Zhu"
+      ],
+      "pages": "255-266",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhengLZZ09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhengLZZ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555788"
+      ]
+    },
+    {
+      "title": "Decoupled store completion/silent deterministic replay: enabling scalable data memory for CPR/CFP processors",
+      "authors": [
+        "Andrew D. Hilton",
+        "Amir Roth"
+      ],
+      "pages": "245-254",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HiltonR09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HiltonR09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555786"
+      ]
+    },
+    {
+      "title": "Disaggregated memory for expansion and sharing in blade servers",
+      "authors": [
+        "Kevin T. Lim",
+        "Jichuan Chang",
+        "Trevor N. Mudge",
+        "Parthasarathy Ranganathan",
+        "Steven K. Reinhardt",
+        "Thomas F. Wenisch"
+      ],
+      "pages": "267-278",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LimCMRRW09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LimCMRRW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555789"
+      ]
+    },
+    {
+      "title": "Dynamic MIPS rate stabilization in out-of-order processors",
+      "authors": [
+        "Jinho Suh",
+        "Michel Dubois 0001"
+      ],
+      "pages": "46-56",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SuhD09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SuhD09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555763",
+        "https://www.wikidata.org/entity/Q130985300"
+      ]
+    },
+    {
+      "title": "Dynamic performance tuning for speculative threads",
+      "authors": [
+        "Yangchun Luo",
+        "Venkatesan Packirisamy",
+        "Wei-Chung Hsu",
+        "Antonia Zhai",
+        "Nikhil Mungre",
+        "Ankit Tarkas"
+      ],
+      "pages": "462-473",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LuoPHZMT09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LuoPHZMT09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555812"
+      ]
+    },
+    {
+      "title": "ECMon: exposing cache events for monitoring",
+      "authors": [
+        "Vijay Nagarajan",
+        "Rajiv Gupta 0001"
+      ],
+      "pages": "349-360",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NagarajanG09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NagarajanG09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555798"
+      ]
+    },
+    {
+      "title": "End-to-end performance forecasting: finding bottlenecks before they happen",
+      "authors": [
+        "Ali G. Saidi",
+        "Nathan L. Binkert",
+        "Steven K. Reinhardt",
+        "Trevor N. Mudge"
+      ],
+      "pages": "361-370",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SaidiBRM09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SaidiBRM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555800",
+        "https://www.wikidata.org/entity/Q130969009"
+      ]
+    },
+    {
+      "title": "End-to-end register data-flow continuous self-test",
+      "authors": [
+        "Javier Carretero",
+        "Pedro Chaparro",
+        "Xavier Vera",
+        "Jaume Abella 0001",
+        "Antonio Gonz&aacute;lez 0001"
+      ],
+      "pages": "105-115",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CarreteroCVAG09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CarreteroCVAG09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555770"
+      ]
+    },
+    {
+      "title": "Firefly: illuminating future network-on-chip with nanophotonics",
+      "authors": [
+        "Yan Pan 0003",
+        "Prabhat Kumar 0002",
+        "John Kim 0001",
+        "Gokhan Memik",
+        "Yu Zhang 0034",
+        "Alok N. Choudhary"
+      ],
+      "pages": "429-440",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PanKKMZC09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PanKKMZC09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555808"
+      ]
+    },
+    {
+      "title": "Flexible reference-counting-based hardware acceleration for garbage collection",
+      "authors": [
+        "Jos&eacute; A. Joao",
+        "Onur Mutlu",
+        "Yale N. Patt"
+      ],
+      "pages": "418-428",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JoaoMP09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JoaoMP09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555806"
+      ]
+    },
+    {
+      "title": "Hardware support for WCET analysis of hard real-time multicore systems",
+      "authors": [
+        "Marco Paolieri",
+        "Eduardo Qui&ntilde;ones",
+        "Francisco J. Cazorla",
+        "Guillem Bernat",
+        "Mateo Valero"
+      ],
+      "pages": "57-68",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PaolieriQCBV09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PaolieriQCBV09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555764",
+        "https://www.wikidata.org/entity/Q59421721"
+      ]
+    },
+    {
+      "title": "Hybrid cache architecture with disparate memory technologies",
+      "authors": [
+        "Xiaoxia Wu",
+        "Jian Li 0059",
+        "Lixin Zhang 0002",
+        "Evan Speight",
+        "Ramakrishnan Rajamony",
+        "Yuan Xie 0001"
+      ],
+      "pages": "34-45",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WuLZSRX09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WuLZSRX09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555761"
+      ]
+    },
+    {
+      "title": "Indirect adaptive routing on large scale interconnection networks",
+      "authors": [
+        "Nan Jiang 0009",
+        "John Kim 0001",
+        "William J. Dally"
+      ],
+      "pages": "220-231",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JiangKD09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JiangKD09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555783"
+      ]
+    },
+    {
+      "title": "Internet-scale service infrastructure efficiency",
+      "authors": [
+        "James R. Hamilton"
+      ],
+      "pages": "232",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Hamilton09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Hamilton09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555756"
+      ]
+    },
+    {
+      "title": "InvisiFence: performance-transparent memory ordering in conventional multiprocessors",
+      "authors": [
+        "Colin Blundell",
+        "Milo M. K. Martin",
+        "Thomas F. Wenisch"
+      ],
+      "pages": "233-244",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BlundellMW09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BlundellMW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555785"
+      ]
+    },
+    {
+      "title": "Memory mapped ECC: low-cost error protection for last level caches",
+      "authors": [
+        "Doe Hyun Yoon",
+        "Mattan Erez"
+      ],
+      "pages": "116-127",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YoonE09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YoonE09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555771"
+      ]
+    },
+    {
+      "title": "Multi-execution: multicore caching for data-similar executions",
+      "authors": [
+        "Susmit Biswas",
+        "Diana Franklin",
+        "Alan Savage",
+        "Ryan Dixon",
+        "Timothy Sherwood",
+        "Frederic T. Chong"
+      ],
+      "pages": "164-173",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BiswasFSDSC09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BiswasFSDSC09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555777",
+        "https://www.wikidata.org/entity/Q130981540"
+      ]
+    },
+    {
+      "title": "Performance and power of cache-based reconfigurable computing",
+      "authors": [
+        "Andrew Putnam",
+        "Susan J. Eggers",
+        "Dave Bennett",
+        "Eric Dellinger",
+        "Jeff Mason",
+        "Henry Styles",
+        "Prasanna Sundararajan",
+        "Ralph Wittig"
+      ],
+      "pages": "395-405",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PutnamEBDMSSW09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PutnamEBDMSSW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555804"
+      ]
+    },
+    {
+      "title": "Phastlane: a rapid transit optical routing network",
+      "authors": [
+        "Mark J. Cianchetti",
+        "Joseph C. Kerekes",
+        "David H. Albonesi"
+      ],
+      "pages": "441-450",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CianchettiKA09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CianchettiKA09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555809"
+      ]
+    },
+    {
+      "title": "PIPP: promotion/insertion pseudo-partitioning of multi-core shared caches",
+      "authors": [
+        "Yuejian Xie",
+        "Gabriel H. Loh"
+      ],
+      "pages": "174-183",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/XieL09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/XieL09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555778"
+      ]
+    },
+    {
+      "title": "Reactive NUCA: near-optimal block placement and replication in distributed caches",
+      "authors": [
+        "Nikos Hardavellas",
+        "Michael Ferdman",
+        "Babak Falsafi",
+        "Anastasia Ailamaki"
+      ],
+      "pages": "184-195",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HardavellasFFA09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HardavellasFFA09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555779"
+      ]
+    },
+    {
+      "title": "Rigel: an architecture and scalable programming interface for a 1000-core accelerator",
+      "authors": [
+        "John H. Kelm",
+        "Daniel R. Johnson",
+        "Matthew R. Johnson 0003",
+        "Neal Clayton Crago",
+        "William Tuohy",
+        "Aqeel Mahesri",
+        "Steven S. Lumetta",
+        "Matthew I. Frank",
+        "Sanjay J. Patel"
+      ],
+      "pages": "140-151",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KelmJJCTMLFP09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KelmJJCTMLFP09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555774"
+      ]
+    },
+    {
+      "title": "Scalable high performance main memory system using phase-change memory technology",
+      "authors": [
+        "Moinuddin K. Qureshi",
+        "Vijayalakshmi Srinivasan",
+        "Jude A. Rivers"
+      ],
+      "pages": "24-33",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/QureshiSR09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/QureshiSR09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555760"
+      ]
+    },
+    {
+      "title": "Scaling the bandwidth wall: challenges in and avenues for CMP scaling",
+      "authors": [
+        "Brian M. Rogers",
+        "Anil Krishna",
+        "Gordon B. Bell",
+        "Ken V. Vu",
+        "Xiaowei Jiang",
+        "Yan Solihin"
+      ],
+      "pages": "371-382",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RogersKBVJS09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RogersKBVJS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555801"
+      ]
+    },
+    {
+      "title": "SigRace: signature-based data race detection",
+      "authors": [
+        "Abdullah Muzahid",
+        "Dar&iacute;o Su&aacute;rez Gracia",
+        "Shanxiang Qi",
+        "Josep Torrellas"
+      ],
+      "pages": "337-348",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MuzahidSQT09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MuzahidSQT09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555797",
+        "https://www.wikidata.org/entity/Q61677422"
+      ]
+    },
+    {
+      "title": "Simultaneous speculative threading: a novel pipeline architecture implemented in sun's rock processor",
+      "authors": [
+        "Shailender Chaudhry",
+        "Robert Cypher",
+        "Magnus Ekman",
+        "Martin Karlsson",
+        "Anders Landin",
+        "Sherman Yip",
+        "H&aring;kan Zeffer",
+        "Marc Tremblay"
+      ],
+      "pages": "484-495",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChaudhryCEKLYZT09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChaudhryCEKLYZT09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555814"
+      ]
+    },
+    {
+      "title": "Spatio-temporal memory streaming",
+      "authors": [
+        "Stephen Somogyi",
+        "Thomas F. Wenisch",
+        "Anastasia Ailamaki",
+        "Babak Falsafi"
+      ],
+      "pages": "69-80",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SomogyiWAF09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SomogyiWAF09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555766"
+      ]
+    },
+    {
+      "title": "Stream chaining: exploiting multiple levels of correlation in data prefetching",
+      "authors": [
+        "Pedro Diaz",
+        "Marcelo Cintra"
+      ],
+      "pages": "81-92",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DiazC09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DiazC09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555767"
+      ]
+    },
+    {
+      "title": "Temperature-constrained power control for chip multiprocessors with online model estimation",
+      "authors": [
+        "Yefu Wang",
+        "Kai Ma",
+        "Xiaorui Wang"
+      ],
+      "pages": "314-324",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangMW09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangMW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555794"
+      ]
+    },
+    {
+      "title": "Ten ways to waste a parallel computer",
+      "authors": [
+        "Katherine A. Yelick"
+      ],
+      "pages": "1",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Yelick09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Yelick09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555755"
+      ]
+    },
+    {
+      "title": "The performance of PC solid-state disks (SSDs) as a function of bandwidth, concurrency, device architecture, and system organization",
+      "authors": [
+        "Cagdas Dirik",
+        "Bruce L. Jacob"
+      ],
+      "pages": "279-289",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DirikJ09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DirikJ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555790",
+        "https://www.wikidata.org/entity/Q130958664"
+      ]
+    },
+    {
+      "title": "Thread criticality predictors for dynamic performance, power, and resource management in chip multiprocessors",
+      "authors": [
+        "Abhishek Bhattacharjee",
+        "Margaret Martonosi"
+      ],
+      "pages": "290-301",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BhattacharjeeM09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BhattacharjeeM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555792"
+      ]
+    },
+    {
+      "title": "Thread motion: fine-grained power management for multi-core systems",
+      "authors": [
+        "Krishna K. Rangan",
+        "Gu-Yeon Wei",
+        "David M. Brooks"
+      ],
+      "pages": "302-313",
+      "year": "2009",
+      "venue": "ISCA 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RanganWB09",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RanganWB09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1555754.1555793"
+      ]
+    }
+  ]
+}

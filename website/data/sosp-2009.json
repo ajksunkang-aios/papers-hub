@@ -1,0 +1,621 @@
+{
+  "id": "sosp-2009",
+  "venue": "sosp",
+  "year": 2009,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp2009.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp2009.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/2009",
+    "conf/sosp/2009-1",
+    "conf/sosp/2009-2",
+    "conf/sosp/2009-3",
+    "conf/sosp/2009-4",
+    "conf/sosp/2009-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 30,
+  "display_count": 30,
+  "papers": [
+    {
+      "title": "A microkernel API for fine-grained decomposition",
+      "authors": [
+        "Sebastian Reichelt",
+        "Jan Stoess",
+        "Frank Bellosa"
+      ],
+      "pages": "2:1-2:5",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ReicheltSB09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ReicheltSB09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1745438.1745441"
+      ]
+    },
+    {
+      "title": "Automatic device driver synthesis with termite",
+      "authors": [
+        "Leonid Ryzhyk",
+        "Peter Chubb",
+        "Ihor Kuz",
+        "Etienne Le Sueur",
+        "Gernot Heiser"
+      ],
+      "pages": "73-86",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RyzhykCKSH09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RyzhykCKSH09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629583"
+      ]
+    },
+    {
+      "title": "Automatically patching errors in deployed software",
+      "authors": [
+        "Jeff H. Perkins",
+        "Sunghun Kim 0001",
+        "Samuel Larsen",
+        "Saman P. Amarasinghe",
+        "Jonathan Bachrach",
+        "Michael Carbin",
+        "Carlos Pacheco",
+        "Frank Sherwood",
+        "Stelios Sidiroglou",
+        "Gregory T. Sullivan",
+        "Weng-Fai Wong",
+        "Yoav Zibin",
+        "Michael D. Ernst",
+        "Martin C. Rinard"
+      ],
+      "pages": "87-102",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PerkinsKLABCPSSSWZER09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PerkinsKLABCPSSSWZER09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629585",
+        "https://www.wikidata.org/entity/Q57311850"
+      ]
+    },
+    {
+      "title": "Better I/O through byte-addressable, persistent memory",
+      "authors": [
+        "Jeremy Condit",
+        "Edmund B. Nightingale",
+        "Christopher Frost 0001",
+        "Engin Ipek",
+        "Benjamin C. Lee",
+        "Doug Burger",
+        "Derrick Coetzee"
+      ],
+      "pages": "133-146",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ConditNFILBC09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ConditNFILBC09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629589"
+      ]
+    },
+    {
+      "title": "CatchAndRetry: extending exceptions to handle distributed system failures and recovery",
+      "authors": [
+        "Emre Kiciman",
+        "Benjamin Livshits",
+        "Madanlal Musuvathi"
+      ],
+      "pages": "4:1-4:5",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KicimanLM09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KicimanLM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1745438.1745444"
+      ]
+    },
+    {
+      "title": "Checking process-oriented operating system behaviour using CSP and refinement",
+      "authors": [
+        "Frederick R. M. Barnes",
+        "Carl G. Ritson"
+      ],
+      "pages": "1:1-1:5",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BarnesR09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BarnesR09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1745438.1745440"
+      ]
+    },
+    {
+      "title": "Code-Partitioning Gossip",
+      "authors": [
+        "Lonnie Princehouse",
+        "Ken Birman"
+      ],
+      "pages": "3:1-3:5",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PrincehouseB09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PrincehouseB09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1745438.1745443"
+      ]
+    },
+    {
+      "title": "Debugging in the (very) large: ten years of implementation and experience",
+      "authors": [
+        "Kirk Glerum",
+        "Kinshuman Kinshumann",
+        "Steve Greenberg",
+        "Gabriel Aul",
+        "Vince R. Orgovan",
+        "Greg Nichols",
+        "David Grant",
+        "Gretchen Loihle",
+        "Galen C. Hunt"
+      ],
+      "pages": "103-116",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GlerumKGAONGLH09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GlerumKGAONGLH09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629586"
+      ]
+    },
+    {
+      "title": "Detecting large-scale system problems by mining console logs",
+      "authors": [
+        "Wei Xu 0012",
+        "Ling Huang 0001",
+        "Armando Fox",
+        "David A. Patterson 0001",
+        "Michael I. Jordan"
+      ],
+      "pages": "117-132",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/XuHFPJ09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/XuHFPJ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629587",
+        "https://www.wikidata.org/entity/Q131125194"
+      ]
+    },
+    {
+      "title": "Distributed aggregation for data-parallel computing: interfaces and implementations",
+      "authors": [
+        "Yuan Yu",
+        "Pradeep Kumar Gunda",
+        "Michael Isard"
+      ],
+      "pages": "247-260",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YuGI09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YuGI09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629600",
+        "https://www.wikidata.org/entity/Q60204501"
+      ]
+    },
+    {
+      "title": "Distributed data flow language for multi-party protocols",
+      "authors": [
+        "Krzysztof Ostrowski",
+        "Ken Birman",
+        "Danny Dolev"
+      ],
+      "pages": "7:1-7:5",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/OstrowskiBD09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/OstrowskiBD09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1745438.1745448"
+      ]
+    },
+    {
+      "title": "Fabric: a platform for secure distributed computation and storage",
+      "authors": [
+        "Jed Liu",
+        "Michael D. George",
+        "K. Vikram",
+        "Xin Qi 0012",
+        "Lucas Waye",
+        "Andrew C. Myers"
+      ],
+      "pages": "321-334",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiuGVQWM09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiuGVQWM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629606"
+      ]
+    },
+    {
+      "title": "Fast byte-granularity software fault isolation",
+      "authors": [
+        "Miguel Castro 0001",
+        "Manuel Costa",
+        "Jean-Philippe Martin",
+        "Marcus Peinado",
+        "Periklis Akritidis",
+        "Austin Donnelly",
+        "Paul Barham 0001",
+        "Richard Black"
+      ],
+      "pages": "45-58",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CastroCMPADBB09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CastroCMPADBB09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629581"
+      ]
+    },
+    {
+      "title": "FAWN: a fast array of wimpy nodes",
+      "authors": [
+        "David G. Andersen",
+        "Jason Franklin",
+        "Michael Kaminsky",
+        "Amar Phanishayee",
+        "Lawrence Tan",
+        "Vijay Vasudevan"
+      ],
+      "pages": "1-14",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AndersenFKPTV09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AndersenFKPTV09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629577"
+      ]
+    },
+    {
+      "title": "Filet-o-Fish: practical and dependable domain-specific languages for OS development",
+      "authors": [
+        "Pierre-&Eacute;variste Dagand",
+        "Andrew Baumann",
+        "Timothy Roscoe"
+      ],
+      "pages": "5:1-5:5",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DagandBR09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DagandBR09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1745438.1745446"
+      ]
+    },
+    {
+      "title": "Heat-ray: combating identity snowball attacks using machinelearning, combinatorial optimization and attack graphs",
+      "authors": [
+        "John Dunagan",
+        "Alice X. Zheng",
+        "Daniel R. Simon"
+      ],
+      "pages": "305-320",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DunaganZS09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DunaganZS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629605"
+      ]
+    },
+    {
+      "title": "Helios: heterogeneous multiprocessing with satellite kernels",
+      "authors": [
+        "Edmund B. Nightingale",
+        "Orion Hodson",
+        "Ross McIlroy",
+        "Chris Hawblitzel",
+        "Galen C. Hunt"
+      ],
+      "pages": "221-234",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NightingaleHMHH09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NightingaleHMHH09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629597"
+      ]
+    },
+    {
+      "title": "Improving application security with data flow assertions",
+      "authors": [
+        "Alexander Yip",
+        "Xi Wang 0005",
+        "Nickolai Zeldovich",
+        "M. Frans Kaashoek"
+      ],
+      "pages": "291-304",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YipWZK09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YipWZK09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629604"
+      ]
+    },
+    {
+      "title": "KStruct: preserving consistency through C annotations",
+      "authors": [
+        "Alexander Schmidt 0001",
+        "Martin von L&ouml;wis",
+        "Andreas Polze"
+      ],
+      "pages": "6:1-6:5",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SchmidtLP09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SchmidtLP09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1745438.1745447"
+      ]
+    },
+    {
+      "title": "Modular data storage with Anvil",
+      "authors": [
+        "Mike Mammarella",
+        "Shant Hovsepian",
+        "Eddie Kohler"
+      ],
+      "pages": "147-160",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MammarellaHK09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MammarellaHK09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629590"
+      ]
+    },
+    {
+      "title": "ODR: output-deterministic replay for multicore debugging",
+      "authors": [
+        "Gautam Altekar",
+        "Ion Stoica"
+      ],
+      "pages": "193-206",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AltekarS09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AltekarS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629594"
+      ]
+    },
+    {
+      "title": "Operating systems transactions",
+      "authors": [
+        "Donald E. Porter",
+        "Owen S. Hofmann",
+        "Christopher J. Rossbach",
+        "Alexander Benn",
+        "Emmett Witchel"
+      ],
+      "pages": "161-176",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PorterHRBW09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PorterHRBW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629591",
+        "https://www.wikidata.org/entity/Q56211926"
+      ]
+    },
+    {
+      "title": "PRES: probabilistic replay with execution sketching on multiprocessors",
+      "authors": [
+        "Soyeon Park",
+        "Yuanyuan Zhou 0001",
+        "Weiwei Xiong",
+        "Zuoning Yin",
+        "Rini Kaushik",
+        "Kyu H. Lee",
+        "Shan Lu 0001"
+      ],
+      "pages": "177-192",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ParkZXYKLL09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ParkZXYKLL09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629593"
+      ]
+    },
+    {
+      "title": "Quincy: fair scheduling for distributed computing clusters",
+      "authors": [
+        "Michael Isard",
+        "Vijayan Prabhakaran",
+        "Jon Currey",
+        "Udi Wieder",
+        "Kunal Talwar",
+        "Andrew V. Goldberg"
+      ],
+      "pages": "261-276",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/IsardPCWTG09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/IsardPCWTG09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629601",
+        "https://www.wikidata.org/entity/Q131128285"
+      ]
+    },
+    {
+      "title": "RouteBricks: exploiting parallelism to scale software routers",
+      "authors": [
+        "Mihai Dobrescu",
+        "Norbert Egi",
+        "Katerina J. Argyraki",
+        "Byung-Gon Chun",
+        "Kevin R. Fall",
+        "Gianluca Iannaccone",
+        "Allan Knies",
+        "Maziar Manesh",
+        "Sylvia Ratnasamy"
+      ],
+      "pages": "15-28",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DobrescuEACFIKMR09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DobrescuEACFIKMR09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629578"
+      ]
+    },
+    {
+      "title": "seL4: formal verification of an OS kernel",
+      "authors": [
+        "Gerwin Klein",
+        "Kevin Elphinstone",
+        "Gernot Heiser",
+        "June Andronick",
+        "David A. Cock",
+        "Philip Derrin",
+        "Dhammika Elkaduwe",
+        "Kai Engelhardt",
+        "Rafal Kolanski",
+        "Michael Norrish",
+        "Thomas Sewell",
+        "Harvey Tuch",
+        "Simon Winwood"
+      ],
+      "pages": "207-220",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KleinEHACDEEKNSTW09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KleinEHACDEEKNSTW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629596",
+        "https://www.wikidata.org/entity/Q131136678"
+      ]
+    },
+    {
+      "title": "Surviving sensor network software faults",
+      "authors": [
+        "Yang Chen 0024",
+        "Omprakash Gnawali",
+        "Maria A. Kazandjieva",
+        "Philip Alexander Levis",
+        "John Regehr"
+      ],
+      "pages": "235-246",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenGKLR09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenGKLR09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629598"
+      ]
+    },
+    {
+      "title": "The multikernel: a new OS architecture for scalable multicore systems",
+      "authors": [
+        "Andrew Baumann",
+        "Paul Barham 0001",
+        "Pierre-&Eacute;variste Dagand",
+        "Tim Harris 0001",
+        "Rebecca Isaacs",
+        "Simon Peter 0001",
+        "Timothy Roscoe",
+        "Adrian Sch&uuml;pbach",
+        "Akhilesh Singhania"
+      ],
+      "pages": "29-44",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BaumannBDHIPRSS09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BaumannBDHIPRSS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629579"
+      ]
+    },
+    {
+      "title": "Tolerating hardware device failures in software",
+      "authors": [
+        "Asim Kadav",
+        "Matthew J. Renzelmann",
+        "Michael M. Swift"
+      ],
+      "pages": "59-72",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KadavRS09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KadavRS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629582"
+      ]
+    },
+    {
+      "title": "Upright cluster services",
+      "authors": [
+        "Allen Clement",
+        "Manos Kapritsos",
+        "Sangmin Lee",
+        "Yang Wang 0009",
+        "Lorenzo Alvisi",
+        "Michael Dahlin",
+        "Taylor Rich&eacute;"
+      ],
+      "pages": "277-290",
+      "year": "2009",
+      "venue": "SOSP 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ClementKLWADR09",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ClementKLWADR09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1629575.1629602",
+        "https://www.wikidata.org/entity/Q131127272"
+      ]
+    }
+  ]
+}

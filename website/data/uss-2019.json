@@ -1,0 +1,2658 @@
+{
+  "id": "uss-2019",
+  "venue": "uss",
+  "year": 2019,
+  "short_name": "USENIX Security",
+  "full_name": "USENIX Security Symposium",
+  "source_url": "https://dblp.org/db/conf/uss/uss2019.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/uss/uss2019.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/uss/2019",
+    "conf/uss/2019-1",
+    "conf/uss/2019-2",
+    "conf/uss/2019-3",
+    "conf/uss/2019-4",
+    "conf/uss/2019-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Security Symposium"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 139,
+  "display_count": 139,
+  "papers": [
+    {
+      "title": "\"Johnny, you are fired!\" - Spoofing OpenPGP and S/MIME Signatures in Emails",
+      "authors": [
+        "Jens M&uuml;ller 0007",
+        "Marcus Brinkmann",
+        "Damian Poddebniak",
+        "Hanno B&ouml;ck",
+        "Sebastian Schinzel",
+        "Juraj Somorovsky",
+        "J&ouml;rg Schwenk"
+      ],
+      "pages": "1011-1028",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0007BPBSSS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0007BPBSSS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/muller"
+      ]
+    },
+    {
+      "title": "50 Ways to Leak Your Data: An Exploration of Apps' Circumvention of the Android Permissions System",
+      "authors": [
+        "Joel Reardon",
+        "&Aacute;lvaro Feal",
+        "Primal Wijesekera",
+        "Amit Elazari Bar On",
+        "Narseo Vallina-Rodriguez",
+        "Serge Egelman"
+      ],
+      "pages": "603-620",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ReardonFWOVE19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ReardonFWOVE19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/reardon"
+      ]
+    },
+    {
+      "title": "A Billion Open Interfaces for Eve and Mallory: MitM, DoS, and Tracking Attacks on iOS and macOS Through Apple Wireless Direct Link",
+      "authors": [
+        "Milan Stute",
+        "Sashank Narain",
+        "Alex Mariotto",
+        "Alexander Heinrich",
+        "David Kreitschmann",
+        "Guevara Noubir",
+        "Matthias Hollick"
+      ],
+      "pages": "37-54",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/StuteNMHKNH19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/StuteNMHKNH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/stute"
+      ]
+    },
+    {
+      "title": "A Data-Driven Reflection on 36 Years of Security and Privacy Research",
+      "authors": [
+        "Aniqua Z. Baset",
+        "Tamara Denning"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BasetD19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BasetD19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/baset"
+      ]
+    },
+    {
+      "title": "A Multi-level Fidelity Microgrid Testbed Model for Cybersecurity Experimentation",
+      "authors": [
+        "Aditya Ashok",
+        "Siddharth Sridhar",
+        "Tamara Becejac",
+        "Theora Rice",
+        "Matt Engels",
+        "Scott Harpool",
+        "Mark Rice 0002",
+        "Thomas Edgar"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AshokSBREH0E19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AshokSBREH0E19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/ashok"
+      ]
+    },
+    {
+      "title": "A Study of the Feasibility of Co-located App Attacks against BLE and a Large-Scale Analysis of the Current Application-Layer Security Landscape",
+      "authors": [
+        "Pallavi Sivakumaran",
+        "Jorge Blasco"
+      ],
+      "pages": "1-18",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SivakumaranB19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SivakumaranB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/sivakumaran"
+      ]
+    },
+    {
+      "title": "A Systematic Evaluation of Transient Execution Attacks and Defenses",
+      "authors": [
+        "Claudio Canella",
+        "Jo Van Bulck",
+        "Michael Schwarz 0001",
+        "Moritz Lipp",
+        "Benjamin von Berg",
+        "Philipp Ortner",
+        "Frank Piessens",
+        "Dmitry Evtyushkin",
+        "Daniel Gruss"
+      ],
+      "pages": "249-266",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CanellaB0LBOPEG19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CanellaB0LBOPEG19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/canella"
+      ]
+    },
+    {
+      "title": "All Things Considered: An Analysis of IoT Devices on Home Networks",
+      "authors": [
+        "Deepak Kumar 0006",
+        "Kelly Shen",
+        "Benton Case",
+        "Deepali Garg",
+        "Galina Alperovich",
+        "Dmitry Kuznetsov",
+        "Rajarshi Gupta",
+        "Zakir Durumeric"
+      ],
+      "pages": "1169-1185",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KumarSCGAKGD19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KumarSCGAKGD19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/kumar-deepak"
+      ]
+    },
+    {
+      "title": "All Your Clicks Belong to Me: Investigating Click Interception on the Web",
+      "authors": [
+        "Mingxue Zhang 0001",
+        "Wei Meng 0001",
+        "Sangho Lee 0001",
+        "Byoungyoung Lee",
+        "Xinyu Xing 0001"
+      ],
+      "pages": "941-957",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZhangM0LX19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZhangM0LX19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/zhang"
+      ]
+    },
+    {
+      "title": "ALOHA: Auxiliary Loss Optimization for Hypothesis Augmentation",
+      "authors": [
+        "Ethan M. Rudd",
+        "Felipe N. Ducau",
+        "Cody Wild",
+        "Konstantin Berlin",
+        "Richard E. Harang"
+      ],
+      "pages": "303-320",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/RuddDWBH19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/RuddDWBH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/rudd"
+      ]
+    },
+    {
+      "title": "An Assessment of the Usability of Cybercrime Datasets",
+      "authors": [
+        "Ildiko Pete",
+        "Yi Ting Chua 0001"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PeteC19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PeteC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/pete-ildiko"
+      ]
+    },
+    {
+      "title": "An Efficient Method to Determine which Combination of Keywords Triggered Automatic Filtering of a Message",
+      "authors": [
+        "Ruohan Xiong",
+        "Jeffrey Knockel"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/XiongK19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/XiongK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci19/presentation/xiong"
+      ]
+    },
+    {
+      "title": "AntiFuzz: Impeding Fuzzing Audits of Binary Executables",
+      "authors": [
+        "Emre G&uuml;ler",
+        "Cornelius Aschermann",
+        "Ali Abbasi 0002",
+        "Thorsten Holz"
+      ],
+      "pages": "1931-1947",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GulerAAH19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GulerAAH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/guler"
+      ]
+    },
+    {
+      "title": "Applications and Challenges in Securing Time",
+      "authors": [
+        "Fatima M. Anwar 0001",
+        "Mani B. Srivastava"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AnwarS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AnwarS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/anwar"
+      ]
+    },
+    {
+      "title": "Artifice: A Deniable Steganographic File System",
+      "authors": [
+        "Austen Barker",
+        "Staunton Sample",
+        "Yash Gupta",
+        "Anastasia McTaggart",
+        "Ethan L. Miller",
+        "Darrell D. E. Long"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BarkerSGMML19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BarkerSGMML19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci19/presentation/barker"
+      ]
+    },
+    {
+      "title": "ATTACK2VEC: Leveraging Temporal Word Embeddings to Understand the Evolution of Cyberattacks",
+      "authors": [
+        "Yun Shen",
+        "Gianluca Stringhini"
+      ],
+      "pages": "905-921",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ShenS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ShenS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/shen"
+      ]
+    },
+    {
+      "title": "Automated Attack Discovery in Data Plane Systems",
+      "authors": [
+        "Qiao Kang",
+        "Jiarong Xing",
+        "Ang Chen 0001"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KangXC19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KangXC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/kang"
+      ]
+    },
+    {
+      "title": "Back to the Whiteboard: a Principled Approach for the Assessment and Design of Memory Forensic Techniques",
+      "authors": [
+        "Fabio Pagani",
+        "Davide Balzarotti"
+      ],
+      "pages": "1751-1768",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PaganiB19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PaganiB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/pagani"
+      ]
+    },
+    {
+      "title": "Birthday, Name and Bifacial-security: Understanding Passwords of Chinese Web Users",
+      "authors": [
+        "Ding Wang 0002",
+        "Ping Wang 0003",
+        "Debiao He",
+        "Yuan Tian 0001"
+      ],
+      "pages": "1537-1555",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/00020HT19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/00020HT19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/wang-ding"
+      ]
+    },
+    {
+      "title": "BITE: Bitcoin Lightweight Client Privacy using Trusted Execution",
+      "authors": [
+        "Sinisa Matetic",
+        "Karl W&uuml;st",
+        "Moritz Schneider 0001",
+        "Kari Kostiainen",
+        "Ghassan Karame",
+        "Srdjan Capkun"
+      ],
+      "pages": "783-800",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MateticWSKKC19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MateticWSKKC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/matetic"
+      ]
+    },
+    {
+      "title": "Blind Bernoulli Trials: A Noninteractive Protocol For Hidden-Weight Coin Flips",
+      "authors": [
+        "R. Joseph Connor",
+        "Max Schuchard"
+      ],
+      "pages": "1483-1500",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ConnorS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ConnorS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/connor"
+      ]
+    },
+    {
+      "title": "CAERUS: Chronoscopic Assessment Engine for Recovering Undocumented Specifications",
+      "authors": [
+        "Adam Seitz",
+        "Adam Satar",
+        "Brian Burke",
+        "Lok K. Yan",
+        "Zachary Estrada"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SeitzSBYE19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SeitzSBYE19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/seitz"
+      ]
+    },
+    {
+      "title": "CANvas: Fast and Inexpensive Automotive Network Mapping",
+      "authors": [
+        "Sekar Kulandaivel",
+        "Tushar Goyal",
+        "Arnav Kumar Agrawal",
+        "Vyas Sekar"
+      ],
+      "pages": "389-405",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KulandaivelGAS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KulandaivelGAS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/kulandaivel"
+      ]
+    },
+    {
+      "title": "Clinical Computer Security for Victims of Intimate Partner Violence",
+      "authors": [
+        "Sam Havron",
+        "Diana Freed",
+        "Rahul Chatterjee 0001",
+        "Damon McCoy",
+        "Nicola Dell",
+        "Thomas Ristenpart"
+      ],
+      "pages": "105-122",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HavronF0MDR19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HavronF0MDR19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/havron"
+      ]
+    },
+    {
+      "title": "Cognitive Triaging of Phishing Attacks",
+      "authors": [
+        "Amber van der Heijden",
+        "Luca Allodi"
+      ],
+      "pages": "1309-1326",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HeijdenA19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HeijdenA19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/van-der-heijden"
+      ]
+    },
+    {
+      "title": "Comparative Measurement of Cache Configurations' Impacts on Cache Timing Side-Channel Attacks",
+      "authors": [
+        "Xiaodong Yu 0001",
+        "Ya Xiao 0002",
+        "Kirk W. Cameron",
+        "Danfeng (Daphne) Yao"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/YuXCY19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/YuXCY19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/yu"
+      ]
+    },
+    {
+      "title": "Computer Security and Privacy in the Interactions Between Victim Service Providers and Human Trafficking Survivors",
+      "authors": [
+        "Christine Chen",
+        "Nicola Dell",
+        "Franziska Roesner"
+      ],
+      "pages": "89-104",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChenDR19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChenDR19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/chen"
+      ]
+    },
+    {
+      "title": "CONFIRM: Evaluating Compatibility and Relevance of Control-flow Integrity Protections for Modern Software",
+      "authors": [
+        "Xiaoyang Xu 0002",
+        "Masoud Ghaffarinia",
+        "Wenhao Wang",
+        "Kevin W. Hamlen",
+        "Zhiqiang Lin 0001"
+      ],
+      "pages": "1805-1821",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/XuGWHL19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/XuGWHL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/xu-xiaoyang"
+      ]
+    },
+    {
+      "title": "CSI NN: Reverse Engineering of Neural Network Architectures Through Electromagnetic Side Channel",
+      "authors": [
+        "Lejla Batina",
+        "Shivam Bhasin",
+        "Dirmanto Jap",
+        "Stjepan Picek"
+      ],
+      "pages": "515-532",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BatinaBJP19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BatinaBJP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/batina"
+      ]
+    },
+    {
+      "title": "CT-GAN: Malicious Tampering of 3D Medical Imagery using Deep Learning",
+      "authors": [
+        "Yisroel Mirsky",
+        "Tom Mahler",
+        "Ilan Shelef",
+        "Yuval Elovici"
+      ],
+      "pages": "461-478",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MirskyMSE19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MirskyMSE19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/mirsky"
+      ]
+    },
+    {
+      "title": "DEEPVSA: Facilitating Value-set Analysis with Deep Learning for Postmortem Program Analysis",
+      "authors": [
+        "Wenbo Guo 0002",
+        "Dongliang Mu",
+        "Xinyu Xing 0001",
+        "Min Du 0003",
+        "Dawn Song"
+      ],
+      "pages": "1787-1804",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GuoMXDS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GuoMXDS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/guo"
+      ]
+    },
+    {
+      "title": "Design and Implementation of a Cyber Physical Testbed for Security Training",
+      "authors": [
+        "Paul Pfister",
+        "Mathew L. Wymore",
+        "Doug Jacobson",
+        "Daji Qiao"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PfisterWJQ19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PfisterWJQ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/pfister"
+      ]
+    },
+    {
+      "title": "Detecting and Characterizing Lateral Phishing at Scale",
+      "authors": [
+        "Grant Ho",
+        "Asaf Cidon",
+        "Lior Gavish",
+        "Marco Schweighauser",
+        "Vern Paxson",
+        "Stefan Savage",
+        "Geoffrey M. Voelker",
+        "David A. Wagner 0001"
+      ],
+      "pages": "1273-1290",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HoCGSPSV019",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HoCGSPSV019.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/ho"
+      ]
+    },
+    {
+      "title": "Detecting Missing-Check Bugs via Semantic- and Context-Aware Criticalness and Constraints Inferences",
+      "authors": [
+        "Kangjie Lu",
+        "Aditya Pakki",
+        "Qiushi Wu"
+      ],
+      "pages": "1769-1786",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LuPW19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LuPW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/lu"
+      ]
+    },
+    {
+      "title": "Devils in the Guidance: Predicting Logic Vulnerabilities in Payment Syndication Services through Automated Documentation Analysis",
+      "authors": [
+        "Yi Chen 0024",
+        "Luyi Xing",
+        "Yue Qin",
+        "Xiaojing Liao",
+        "XiaoFeng Wang 0001",
+        "Kai Chen 0012",
+        "Wei Zou"
+      ],
+      "pages": "747-764",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChenXQL00Z19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChenXQL00Z19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/chen-yi"
+      ]
+    },
+    {
+      "title": "Discovering and Understanding the Security Hazards in the Interactions between IoT Devices, Mobile Apps, and Clouds on Smart Home Platforms",
+      "authors": [
+        "Wei Zhou 0026",
+        "Yan Jia 0009",
+        "Yao Yao",
+        "Lipeng Zhu 0003",
+        "Le Guan",
+        "Yuhang Mao",
+        "Peng Liu 0005",
+        "Yuqing Zhang 0001"
+      ],
+      "pages": "1133-1150",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0026JYZGM0Z19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0026JYZGM0Z19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/zhou"
+      ]
+    },
+    {
+      "title": "EnFuzz: Ensemble Fuzzing with Seed Synchronization among Diverse Fuzzers",
+      "authors": [
+        "Yuanliang Chen",
+        "Yu Jiang 0001",
+        "Fuchen Ma",
+        "Jie Liang 0006",
+        "Mingzhe Wang",
+        "Chijin Zhou",
+        "Xun Jiao 0002",
+        "Zhuo Su 0005"
+      ],
+      "pages": "1967-1983",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Chen0MLWZJS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Chen0MLWZJS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/chen-yuanliang"
+      ]
+    },
+    {
+      "title": "Entanglements and Exploits: Sociotechnical Security as an Analytic Framework",
+      "authors": [
+        "Matt Goerzen",
+        "Elizabeth Anne Watkins",
+        "Gabrielle Lim"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GoerzenWL19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GoerzenWL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci19/presentation/goerzen"
+      ]
+    },
+    {
+      "title": "EnTrust: Regulating Sensor Access by Cooperating Programs via Delegation Graphs",
+      "authors": [
+        "Giuseppe Petracca",
+        "Yuqiong Sun",
+        "Ahmad Atamli-Reineh",
+        "Patrick D. McDaniel",
+        "Jens Grossklags",
+        "Trent Jaeger"
+      ],
+      "pages": "567-584",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PetraccaSAMGJ19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PetraccaSAMGJ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/petracca"
+      ]
+    },
+    {
+      "title": "ERIM: Secure, Efficient In-process Isolation with Protection Keys (MPK)",
+      "authors": [
+        "Anjo Vahldiek-Oberwagner",
+        "Eslam Elnikety",
+        "Nuno O. Duarte",
+        "Michael Sammler",
+        "Peter Druschel",
+        "Deepak Garg 0001"
+      ],
+      "pages": "1221-1238",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Vahldiek-Oberwagner19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Vahldiek-Oberwagner19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/vahldiek-oberwagner"
+      ]
+    },
+    {
+      "title": "Evaluating Differentially Private Machine Learning in Practice",
+      "authors": [
+        "Bargav Jayaraman",
+        "David Evans 0001"
+      ],
+      "pages": "1895-1912",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Jayaraman019",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Jayaraman019.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/jayaraman"
+      ]
+    },
+    {
+      "title": "Evaluating the Contextual Integrity of Privacy Regulation: Parents' IoT Toy Privacy Norms Versus COPPA",
+      "authors": [
+        "Noah J. Apthorpe",
+        "Sarah Varghese",
+        "Nick Feamster"
+      ],
+      "pages": "123-140",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ApthorpeVF19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ApthorpeVF19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/apthorpe"
+      ]
+    },
+    {
+      "title": "Evaluating the Long-term Effects of Parameters on the Characteristics of the Tranco Top Sites Ranking",
+      "authors": [
+        "Victor Le Pochat",
+        "Tom van Goethem",
+        "Wouter Joosen"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PochatGJ19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PochatGJ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/lepochat"
+      ]
+    },
+    {
+      "title": "EverParse: Verified Secure Zero-Copy Parsers for Authenticated Message Formats",
+      "authors": [
+        "Tahina Ramananandro",
+        "Antoine Delignat-Lavaud",
+        "C&eacute;dric Fournet",
+        "Nikhil Swamy",
+        "Tej Chajed",
+        "Nadim Kobeissi",
+        "Jonathan Protzenko"
+      ],
+      "pages": "1465-1482",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/RamananandroDFS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/RamananandroDFS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/delignat-lavaud"
+      ]
+    },
+    {
+      "title": "Everyone is Different: Client-side Diversification for Defending Against Extension Fingerprinting",
+      "authors": [
+        "Erik Trickel",
+        "Oleksii Starov",
+        "Alexandros Kapravelos",
+        "Nick Nikiforakis",
+        "Adam Doup&eacute;"
+      ],
+      "pages": "1679-1696",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TrickelSKND19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TrickelSKND19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/trickel"
+      ]
+    },
+    {
+      "title": "Exploiting Unprotected I/O Operations in AMD's Secure Encrypted Virtualization",
+      "authors": [
+        "Mengyuan Li 0004",
+        "Yinqian Zhang",
+        "Zhiqiang Lin 0001",
+        "Yan Solihin"
+      ],
+      "pages": "1257-1272",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiZLS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiZLS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/li-mengyuan"
+      ]
+    },
+    {
+      "title": "FastKitten: Practical Smart Contracts on Bitcoin",
+      "authors": [
+        "Poulami Das 0003",
+        "Lisa Eckey",
+        "Tommaso Frassetto",
+        "David Gens",
+        "Kristina Host&aacute;kov&aacute;",
+        "Patrick Jauernig",
+        "Sebastian Faust",
+        "Ahmad-Reza Sadeghi"
+      ],
+      "pages": "801-818",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0003EFGHJFS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0003EFGHJFS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/das"
+      ]
+    },
+    {
+      "title": "FIRM-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation",
+      "authors": [
+        "Yaowen Zheng",
+        "Ali Davanian",
+        "Heng Yin 0001",
+        "Chengyu Song",
+        "Hongsong Zhu",
+        "Limin Sun 0001"
+      ],
+      "pages": "1099-1114",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZhengDYSZS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZhengDYSZS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/zheng"
+      ]
+    },
+    {
+      "title": "From IP ID to Device ID and KASLR Bypass",
+      "authors": [
+        "Amit Klein 0001",
+        "Benny Pinkas"
+      ],
+      "pages": "1063-1080",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KleinP19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KleinP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/klein"
+      ]
+    },
+    {
+      "title": "Fuzzification: Anti-Fuzzing Techniques",
+      "authors": [
+        "Jinho Jung 0001",
+        "Hong Hu 0004",
+        "David Solodukhin",
+        "Daniel Pagan",
+        "Kyu Hyung Lee",
+        "Taesoo Kim"
+      ],
+      "pages": "1913-1930",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/JungHSPLK19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/JungHSPLK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/jung"
+      ]
+    },
+    {
+      "title": "GRIMOIRE: Synthesizing Structure while Fuzzing",
+      "authors": [
+        "Tim Blazytko",
+        "Cornelius Aschermann",
+        "Moritz Schl&ouml;gel",
+        "Ali Abbasi 0002",
+        "Sergej Schumilo",
+        "Simon W&ouml;rner",
+        "Thorsten Holz"
+      ],
+      "pages": "1985-2002",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BlazytkoASASWH19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BlazytkoASASWH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/blazytko"
+      ]
+    },
+    {
+      "title": "HardFails: Insights into Software-Exploitable Hardware Bugs",
+      "authors": [
+        "Ghada Dessouky",
+        "David Gens",
+        "Patrick Haney",
+        "Garrett Persyn",
+        "Arun K. Kanuparthi",
+        "Hareesh Khattri",
+        "Jason M. Fung",
+        "Ahmad-Reza Sadeghi",
+        "Jeyavijayan Rajendran"
+      ],
+      "pages": "213-230",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DessoukyGHPKKFS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DessoukyGHPKKFS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/dessouky"
+      ]
+    },
+    {
+      "title": "HideMyApp: Hiding the Presence of Sensitive Apps on Android",
+      "authors": [
+        "Anh Pham",
+        "Italo Dacosta",
+        "Eleonora Losiouk",
+        "John Stephan",
+        "K&eacute;vin Huguenin",
+        "Jean-Pierre Hubaux"
+      ],
+      "pages": "711-728",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PhamDLSHH19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PhamDLSHH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/pham"
+      ]
+    },
+    {
+      "title": "Hiding in Plain Signal: Physical Signal Overshadowing Attack on LTE",
+      "authors": [
+        "Hojoon Yang",
+        "Sangwook Bae",
+        "Mincheol Son",
+        "Hongil Kim",
+        "Song Min Kim",
+        "Yongdae Kim"
+      ],
+      "pages": "55-72",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/YangBSKKK19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/YangBSKKK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/yang-hojoon"
+      ]
+    },
+    {
+      "title": "High Precision Detection of Business Email Compromise",
+      "authors": [
+        "Asaf Cidon",
+        "Lior Gavish",
+        "Itay Bleier",
+        "Nadia Korshun",
+        "Marco Schweighauser",
+        "Alexey Tsitkin"
+      ],
+      "pages": "1291-1307",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CidonGBKST19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CidonGBKST19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/cidon"
+      ]
+    },
+    {
+      "title": "IDAPro for IoT Malware analysis?",
+      "authors": [
+        "Sri Shaila G",
+        "Ahmad Darki",
+        "Michalis Faloutsos",
+        "Nael B. Abu-Ghazaleh",
+        "Manu Sridharan"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GDFAS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GDFAS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/g"
+      ]
+    },
+    {
+      "title": "Identifying Cache-Based Side Channels through Secret-Augmented Abstract Interpretation",
+      "authors": [
+        "Shuai Wang 0011",
+        "Yuyan Bao",
+        "Xiao Liu 0025",
+        "Pei Wang 0007",
+        "Danfeng Zhang",
+        "Dinghao Wu"
+      ],
+      "pages": "657-674",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0011BL0ZW19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0011BL0ZW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/wang-shuai"
+      ]
+    },
+    {
+      "title": "Iframes/Popups Are Dangerous in Mobile WebView: Studying and Mitigating Differential Context Vulnerabilities",
+      "authors": [
+        "Guangliang Yang 0001",
+        "Jeff Huang 0001",
+        "Guofei Gu"
+      ],
+      "pages": "977-994",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Yang0G19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Yang0G19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/yang-guangliang"
+      ]
+    },
+    {
+      "title": "Implementation of Programmable CPS Testbed for Anomaly Detection",
+      "authors": [
+        "Hyeok-Ki Shin",
+        "Woomyo Lee",
+        "Jeong-Han Yun",
+        "HyoungChun Kim"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ShinLYK19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ShinLYK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/shin"
+      ]
+    },
+    {
+      "title": "Improving Meek With Adversarial Techniques",
+      "authors": [
+        "Steven Sheffey",
+        "Ferrol Aderholdt"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SheffeyA19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SheffeyA19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci19/presentation/sheffey"
+      ]
+    },
+    {
+      "title": "Improving Robustness of ML Classifiers against Realizable Evasion Attacks Using Conserved Features",
+      "authors": [
+        "Liang Tong",
+        "Bo Li 0026",
+        "Chen Hajaj",
+        "Chaowei Xiao",
+        "Ning Zhang 0017",
+        "Yevgeniy Vorobeychik"
+      ],
+      "pages": "285-302",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Tong0HXZV19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Tong0HXZV19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/tong"
+      ]
+    },
+    {
+      "title": "in-toto: Providing farm-to-table guarantees for bits and bytes",
+      "authors": [
+        "Santiago Torres-Arias",
+        "Hammad Afzali",
+        "Trishank Karthik Kuppusamy",
+        "Reza Curtmola",
+        "Justin Cappos"
+      ],
+      "pages": "1393-1410",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Torres-AriasAKC19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Torres-AriasAKC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias"
+      ]
+    },
+    {
+      "title": "Inadvertently Making Cyber Criminals Rich: A Comprehensive Study of Cryptojacking Campaigns at Internet Scale",
+      "authors": [
+        "Hugo L. J. Bijmans",
+        "Tim M. Booij",
+        "Christian Doerr"
+      ],
+      "pages": "1627-1644",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BijmansBD19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BijmansBD19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/bijmans"
+      ]
+    },
+    {
+      "title": "IODINE: Verifying Constant-Time Execution of Hardware",
+      "authors": [
+        "Klaus von Gleissenthall",
+        "Rami G&ouml;khan Kici",
+        "Deian Stefan",
+        "Ranjit Jhala"
+      ],
+      "pages": "1411-1428",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GleissenthallKS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GleissenthallKS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/von-gleissenthall"
+      ]
+    },
+    {
+      "title": "Is Less Really More? Towards Better Metrics for Measuring Security Improvements Realized Through Software Debloating",
+      "authors": [
+        "Michael D. Brown",
+        "Santosh Pande"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BrownP19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BrownP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/brown"
+      ]
+    },
+    {
+      "title": "JEDI: Many-to-Many End-to-End Encryption and Key Delegation for IoT",
+      "authors": [
+        "Sam Kumar",
+        "Yuncong Hu",
+        "Michael P. Andersen",
+        "Raluca Ada Popa",
+        "David E. Culler"
+      ],
+      "pages": "1519-1536",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KumarHAPC19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KumarHAPC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/kumar-sam"
+      ]
+    },
+    {
+      "title": "KEPLER: Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities",
+      "authors": [
+        "Wei Wu 0010",
+        "Yueqi Chen 0001",
+        "Xinyu Xing 0001",
+        "Wei Zou"
+      ],
+      "pages": "1187-1204",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WuCXZ19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WuCXZ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/wu-wei"
+      ]
+    },
+    {
+      "title": "Leaky Images: Targeted Privacy Attacks in the Web",
+      "authors": [
+        "Cristian-Alexandru Staicu",
+        "Michael Pradel"
+      ],
+      "pages": "923-939",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/StaicuP19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/StaicuP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/staicu"
+      ]
+    },
+    {
+      "title": "Less is More: Quantifying the Security Benefits of Debloating Web Applications",
+      "authors": [
+        "Babak Amin Azad",
+        "Pierre Laperdrix",
+        "Nick Nikiforakis"
+      ],
+      "pages": "1697-1714",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AzadLN19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AzadLN19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/azad"
+      ]
+    },
+    {
+      "title": "Lessons from Using the I-Corps Methodology to Understand Cyber Threat Intelligence Sharing",
+      "authors": [
+        "Josiah Dykstra",
+        "Matt Fante",
+        "Paul Donahue",
+        "Dawn Varva",
+        "Linda Wilk",
+        "Amanda Johnson"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DykstraFDVWJ19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DykstraFDVWJ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/dykstra"
+      ]
+    },
+    {
+      "title": "Lessons Learned from 10k Experiments to Compare Virtual and Physical Testbeds",
+      "authors": [
+        "Jonathan Crussell",
+        "Thomas M. Kroeger",
+        "David Kavaler",
+        "Aaron Brown",
+        "Cynthia A. Phillips"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CrussellKKBP19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CrussellKKBP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/crussell"
+      ]
+    },
+    {
+      "title": "Looking from the Mirror: Evaluating IoT Device Security through Mobile Companion Apps",
+      "authors": [
+        "Xueqiang Wang",
+        "Yuqiong Sun",
+        "Susanta Nanda",
+        "XiaoFeng Wang 0001"
+      ],
+      "pages": "1151-1167",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WangSN019",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WangSN019.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/wang-xueqiang"
+      ]
+    },
+    {
+      "title": "Losing the Car Keys: Wireless PHY-Layer Insecurity in EV Charging",
+      "authors": [
+        "Richard Baker 0008",
+        "Ivan Martinovic"
+      ],
+      "pages": "407-424",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0008M19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0008M19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/baker"
+      ]
+    },
+    {
+      "title": "Measuring I2P Censorship at a Global Scale",
+      "authors": [
+        "Nguyen Phong Hoang",
+        "Sadie Doreen",
+        "Michalis Polychronakis"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HoangDP19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HoangDP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci19/presentation/hoang"
+      ]
+    },
+    {
+      "title": "Misleading Authorship Attribution of Source Code using Adversarial Learning",
+      "authors": [
+        "Erwin Quiring",
+        "Alwin Maier",
+        "Konrad Rieck"
+      ],
+      "pages": "479-496",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/QuiringMR19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/QuiringMR19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/quiring"
+      ]
+    },
+    {
+      "title": "Mobile Private Contact Discovery at Scale",
+      "authors": [
+        "Daniel Kales",
+        "Christian Rechberger",
+        "Thomas Schneider 0003",
+        "Matthias Senker",
+        "Christian Weinert"
+      ],
+      "pages": "1447-1464",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KalesR0SW19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KalesR0SW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/kales"
+      ]
+    },
+    {
+      "title": "MOPT: Optimized Mutation Scheduling for Fuzzers",
+      "authors": [
+        "Chenyang Lyu",
+        "Shouling Ji",
+        "Chao Zhang 0008",
+        "Yuwei Li 0002",
+        "Wei-Han Lee",
+        "Yu Song",
+        "Raheem Beyah"
+      ],
+      "pages": "1949-1966",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LyuJZLLSB19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LyuJZLLSB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/lyu"
+      ]
+    },
+    {
+      "title": "No Right to Remain Silent: Isolating Malicious Mixes",
+      "authors": [
+        "Hemi Leibowitz",
+        "Ania M. Piotrowska",
+        "George Danezis",
+        "Amir Herzberg"
+      ],
+      "pages": "1841-1858",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LeibowitzPDH19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LeibowitzPDH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/leibowitz"
+      ]
+    },
+    {
+      "title": "Not Everything is Dark and Gloomy: Power Grid Protections Against IoT Demand Attacks",
+      "authors": [
+        "Bing Huang",
+        "Alvaro A. C&aacute;rdenas",
+        "Ross Baldick"
+      ],
+      "pages": "1115-1132",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HuangCB19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HuangCB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/huang"
+      ]
+    },
+    {
+      "title": "On (The Lack Of) Location Privacy in Crowdsourcing Applications",
+      "authors": [
+        "Spyros Boukoros",
+        "Mathias Humbert",
+        "Stefan Katzenbeisser 0001",
+        "Carmela Troncoso"
+      ],
+      "pages": "1859-1876",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BoukorosH0T19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BoukorosH0T19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/boukoros"
+      ]
+    },
+    {
+      "title": "On the Importance of Encrypted-SNI (ESNI) to Censorship Circumvention",
+      "authors": [
+        "Zimo Chai",
+        "Amirhossein Ghafari",
+        "Amir Houmansadr"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChaiGH19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChaiGH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci19/presentation/chai"
+      ]
+    },
+    {
+      "title": "Origin-sensitive Control Flow Integrity",
+      "authors": [
+        "Mustakimur Khandaker",
+        "Wenqing Liu",
+        "Abu Naser",
+        "Zhi Wang 0004",
+        "Jie Yang 0003"
+      ],
+      "pages": "195-211",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KhandakerLN0Y19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KhandakerLN0Y19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/khandaker"
+      ]
+    },
+    {
+      "title": "PAC it up: Towards Pointer Integrity using ARM Pointer Authentication",
+      "authors": [
+        "Hans Liljestrand",
+        "Thomas Nyman",
+        "Kui Wang",
+        "Carlos Chinea Perez",
+        "Jan-Erik Ekberg",
+        "N. Asokan"
+      ],
+      "pages": "177-194",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiljestrandNWPE19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiljestrandNWPE19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/liljestrand"
+      ]
+    },
+    {
+      "title": "Percentages, Probabilities and Professions of Performance",
+      "authors": [
+        "Jim Alves-Foss"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Alves-Foss19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Alves-Foss19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/alves-foss"
+      ]
+    },
+    {
+      "title": "PeX: A Permission Check Analysis Framework for Linux Kernel",
+      "authors": [
+        "Tong Zhang",
+        "Wenbo Shen",
+        "Dongyoon Lee",
+        "Changhee Jung",
+        "Ahmed M. Azab",
+        "Ruowen Wang"
+      ],
+      "pages": "1205-1220",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZhangSLJAW19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZhangSLJAW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/zhang-tong"
+      ]
+    },
+    {
+      "title": "Platforms in Everything: Analyzing Ground-Truth Data on the Anatomy and Economics of Bullet-Proof Hosting",
+      "authors": [
+        "Arman Noroozian",
+        "Jan Koenders",
+        "Eelco van Veldhuizen",
+        "Carlos Hernandez Ga&ntilde;&aacute;n",
+        "Sumayah A. Alrwais",
+        "Damon McCoy",
+        "Michel van Eeten"
+      ],
+      "pages": "1341-1356",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/NoroozianKVGAME19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/NoroozianKVGAME19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/noroozian"
+      ]
+    },
+    {
+      "title": "Please Pay Inside: Evaluating Bluetooth-based Detection of Gas Pump Skimmers",
+      "authors": [
+        "Nishant Bhaskar",
+        "Maxwell Bland",
+        "Kirill Levchenko",
+        "Aaron Schulman"
+      ],
+      "pages": "373-388",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BhaskarBLS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BhaskarBLS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/bhaskar"
+      ]
+    },
+    {
+      "title": "Point Break: A Study of Bandwidth Denial-of-Service Attacks against Tor",
+      "authors": [
+        "Rob Jansen",
+        "Tavish Vaidya",
+        "Micah Sherr"
+      ],
+      "pages": "1823-1840",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/JansenVS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/JansenVS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/jansen"
+      ]
+    },
+    {
+      "title": "PolicyLint: Investigating Internal Privacy Policy Contradictions on Google Play",
+      "authors": [
+        "Benjamin Andow",
+        "Samin Yaseer Mahmud",
+        "Wenyu Wang",
+        "Justin Whitaker",
+        "William Enck",
+        "Bradley Reaves",
+        "Kapil Singh",
+        "Tao Xie 0001"
+      ],
+      "pages": "585-602",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AndowMWWERS019",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AndowMWWERS019.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/andow"
+      ]
+    },
+    {
+      "title": "Probability Model Transforming Encoders Against Encoding Attacks",
+      "authors": [
+        "Haibo Cheng 0001",
+        "Zhixiong Zheng",
+        "Wenting Li 0002",
+        "Ping Wang 0003",
+        "Chao-Hsien Chu"
+      ],
+      "pages": "1573-1590",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChengZL0C19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChengZL0C19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/cheng"
+      ]
+    },
+    {
+      "title": "Protecting accounts from credential stuffing with password breach alerting",
+      "authors": [
+        "Kurt Thomas",
+        "Jennifer Pullman",
+        "Kevin Yeo",
+        "Ananth Raghunathan",
+        "Patrick Gage Kelley",
+        "Luca Invernizzi",
+        "Borbala Benko",
+        "Tadek Pietraszek",
+        "Sarvar Patel",
+        "Dan Boneh",
+        "Elie Bursztein"
+      ],
+      "pages": "1556-1571",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ThomasPYRKIBPPB19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ThomasPYRKIBPPB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/thomas"
+      ]
+    },
+    {
+      "title": "Protecting Cloud Virtual Machines from Hypervisor and Host Operating System Exploits",
+      "authors": [
+        "Shih-Wei Li",
+        "John S. Koh",
+        "Jason Nieh"
+      ],
+      "pages": "1357-1374",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiKN19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiKN19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/li-shih-wei"
+      ]
+    },
+    {
+      "title": "Proteus: A DLT-Agnostic Emulation and Analysis Framework",
+      "authors": [
+        "Russell Van Dam",
+        "Thien-Nam Dinh",
+        "Christopher Cordi",
+        "Gregory Jacobus",
+        "Nicholas D. Pattengale",
+        "Steven Elliott"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DamDCJPE19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DamDCJPE19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/vandam"
+      ]
+    },
+    {
+      "title": "Pythia: Remote Oracles for the Masses",
+      "authors": [
+        "Shin-Yeh Tsai",
+        "Mathias Payer",
+        "Yiying Zhang 0005"
+      ],
+      "pages": "693-710",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TsaiPZ19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TsaiPZ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/tsai"
+      ]
+    },
+    {
+      "title": "RAZOR: A Framework for Post-deployment Software Debloating",
+      "authors": [
+        "Chenxiong Qian",
+        "Hong Hu 0004",
+        "Mansour Alharthi",
+        "Simon Pak Ho Chung",
+        "Taesoo Kim",
+        "Wenke Lee"
+      ],
+      "pages": "1733-1750",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/QianHACKL19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/QianHACKL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/qian"
+      ]
+    },
+    {
+      "title": "Reading the Tea leaves: A Comparative Analysis of Threat Intelligence",
+      "authors": [
+        "Vector Guo Li",
+        "Matthew Dunn",
+        "Paul Pearce",
+        "Damon McCoy",
+        "Geoffrey M. Voelker",
+        "Stefan Savage"
+      ],
+      "pages": "851-867",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiDPMVS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiDPMVS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/li"
+      ]
+    },
+    {
+      "title": "Rendered Private: Making GLSL Execution Uniform to Prevent WebGL-based Browser Fingerprinting",
+      "authors": [
+        "Shujiang Wu",
+        "Song Li 0006",
+        "Yinzhi Cao",
+        "Ningfei Wang"
+      ],
+      "pages": "1645-1660",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WuLCW19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WuLCW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/wu"
+      ]
+    },
+    {
+      "title": "Robust Website Fingerprinting Through the Cache Occupancy Channel",
+      "authors": [
+        "Anatoly Shusterman",
+        "Lachlan Kang",
+        "Yarden Haskal",
+        "Yosef Meltser",
+        "Prateek Mittal",
+        "Yossi Oren",
+        "Yuval Yarom"
+      ],
+      "pages": "639-656",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ShustermanKHMMO19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ShustermanKHMMO19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/shusterman"
+      ]
+    },
+    {
+      "title": "RVFuzzer: Finding Input Validation Bugs in Robotic Vehicles through Control-Guided Testing",
+      "authors": [
+        "Taegyu Kim",
+        "Chung Hwan Kim",
+        "Junghwan Rhee",
+        "Fan Fei 0002",
+        "Zhan Tu",
+        "Gregory Walkup",
+        "Xiangyu Zhang 0001",
+        "Xinyan Deng",
+        "Dongyan Xu"
+      ],
+      "pages": "425-442",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KimKRFTW0DX19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KimKRFTW0DX19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/kim"
+      ]
+    },
+    {
+      "title": "SafeHidden: An Efficient and Secure Information Hiding Technique Using Re-randomization",
+      "authors": [
+        "Zhe Wang 0017",
+        "Chenggang Wu 0002",
+        "Yinqian Zhang",
+        "Bowen Tang 0001",
+        "Pen-Chung Yew",
+        "Mengyao Xie",
+        "Yuanming Lai",
+        "Yan Kang 0002",
+        "Yueqiang Cheng",
+        "Zhiping Shi 0002"
+      ],
+      "pages": "1239-1256",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WangWZTYXLKCS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WangWZTYXLKCS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/wang"
+      ]
+    },
+    {
+      "title": "Scalable Scanning and Automatic Classification of TLS Padding Oracle Vulnerabilities",
+      "authors": [
+        "Robert Merget",
+        "Juraj Somorovsky",
+        "Nimrod Aviram",
+        "Craig Young",
+        "Janis Fliegenschmidt",
+        "J&ouml;rg Schwenk",
+        "Yuval Shavitt"
+      ],
+      "pages": "1029-1046",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MergetSAYFSS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MergetSAYFSS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/merget"
+      ]
+    },
+    {
+      "title": "ScatterCache: Thwarting Cache Attacks via Cache Set Randomization",
+      "authors": [
+        "Mario Werner",
+        "Thomas Unterluggauer",
+        "Lukas Giner",
+        "Michael Schwarz 0001",
+        "Daniel Gruss",
+        "Stefan Mangard"
+      ],
+      "pages": "675-692",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WernerUG0GM19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WernerUG0GM19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/werner"
+      ]
+    },
+    {
+      "title": "Secure Multi-User Content Sharing for Augmented Reality Applications",
+      "authors": [
+        "Kimberly Ruth",
+        "Tadayoshi Kohno",
+        "Franziska Roesner"
+      ],
+      "pages": "141-158",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/RuthKR19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/RuthKR19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/ruth"
+      ]
+    },
+    {
+      "title": "Seeing is Not Believing: Camouflage Attacks on Image Scaling Algorithms",
+      "authors": [
+        "Qixue Xiao",
+        "Yufei Chen 0001",
+        "Chao Shen 0001",
+        "Yu Chen 0004",
+        "Kang Li 0001"
+      ],
+      "pages": "443-460",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/XiaoCS0019",
+      "dblp_url": "https://dblp.org/rec/conf/uss/XiaoCS0019.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/xiao"
+      ]
+    },
+    {
+      "title": "simTPM: User-centric TPM for Mobile Devices",
+      "authors": [
+        "Dhiman Chakraborty 0001",
+        "Lucjan Hanzlik",
+        "Sven Bugiel"
+      ],
+      "pages": "533-550",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChakrabortyHB19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChakrabortyHB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/chakraborty"
+      ]
+    },
+    {
+      "title": "Site Isolation: Process Separation for Web Sites within the Browser",
+      "authors": [
+        "Charles Reis",
+        "Alexander Moshchuk",
+        "Nasko Oskov"
+      ],
+      "pages": "1661-1678",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ReisMO19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ReisMO19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/reis"
+      ]
+    },
+    {
+      "title": "Small World with High Risks: A Study of Security Threats in the npm Ecosystem",
+      "authors": [
+        "Markus Zimmermann",
+        "Cristian-Alexandru Staicu",
+        "Cam Tenny",
+        "Michael Pradel"
+      ],
+      "pages": "995-1010",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZimmermannSTP19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZimmermannSTP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman"
+      ]
+    },
+    {
+      "title": "SPINE: Surveillance Protection in the Network Elements",
+      "authors": [
+        "Trisha Datta",
+        "Nick Feamster",
+        "Jennifer Rexford",
+        "Liang Wang 0054"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DattaFRW19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DattaFRW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci19/presentation/datta"
+      ]
+    },
+    {
+      "title": "SPOILER: Speculative Load Hazards Boost Rowhammer and Cache Attacks",
+      "authors": [
+        "Saad Islam",
+        "Ahmad Moghimi",
+        "Ida Bruhns",
+        "Moritz Krebbel",
+        "Berk G&uuml;lmezoglu",
+        "Thomas Eisenbarth 0001",
+        "Berk Sunar"
+      ],
+      "pages": "621-637",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/IslamMBKG0S19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/IslamMBKG0S19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/islam"
+      ]
+    },
+    {
+      "title": "Stack Overflow Considered Helpful! Deep Learning Security Nudges Towards Stronger Cryptography",
+      "authors": [
+        "Felix Fischer 0001",
+        "Huang Xiao",
+        "Ching-yu Kao",
+        "Yannick Stachelscheid",
+        "Benjamin Johnson 0001",
+        "Danial Razar",
+        "Paul Fawkesley",
+        "Nat Buckley",
+        "Konstantin B&ouml;ttinger",
+        "Paul Muntean 0001",
+        "Jens Grossklags"
+      ],
+      "pages": "339-356",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/FischerXKSJRFBB19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/FischerXKSJRFBB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/fischer"
+      ]
+    },
+    {
+      "title": "StrongChain: Transparent and Collaborative Proof-of-Work Consensus",
+      "authors": [
+        "Pawel Szalachowski",
+        "Dani&euml;l Reijsbergen",
+        "Ivan Homoliak",
+        "Siwei Sun"
+      ],
+      "pages": "819-836",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SzalachowskiRHS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SzalachowskiRHS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/szalachowski"
+      ]
+    },
+    {
+      "title": "Terminal Brain Damage: Exposing the Graceless Degradation in Deep Neural Networks Under Hardware Fault Attacks",
+      "authors": [
+        "Sanghyun Hong 0001",
+        "Pietro Frigo",
+        "Yigitcan Kaya",
+        "Cristiano Giuffrida",
+        "Tudor Dumitras"
+      ],
+      "pages": "497-514",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HongFKGD19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HongFKGD19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/hong"
+      ]
+    },
+    {
+      "title": "TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time",
+      "authors": [
+        "Feargus Pendlebury",
+        "Fabio Pierazzi",
+        "Roberto Jordaney",
+        "Johannes Kinder",
+        "Lorenzo Cavallaro"
+      ],
+      "pages": "729-746",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PendleburyPJKC19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PendleburyPJKC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/pendlebury"
+      ]
+    },
+    {
+      "title": "The Anatomy of a Cryptocurrency Pump-and-Dump Scheme",
+      "authors": [
+        "Jiahua Xu 0002",
+        "Benjamin Livshits"
+      ],
+      "pages": "1609-1625",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/XuL19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/XuL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/xu-jiahua"
+      ]
+    },
+    {
+      "title": "The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts",
+      "authors": [
+        "Christof Ferreira Torres",
+        "Mathis Steichen",
+        "Radu State"
+      ],
+      "pages": "1591-1607",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TorresSS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TorresSS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/ferreira"
+      ]
+    },
+    {
+      "title": "The Betrayal At Cloud City: An Empirical Analysis Of Cloud-Based Mobile Backends",
+      "authors": [
+        "Omar Alrawi",
+        "Chaoshun Zuo",
+        "Ruian Duan",
+        "Ranjita Pai Kasturi",
+        "Zhiqiang Lin 0001",
+        "Brendan Saltaformaggio"
+      ],
+      "pages": "551-566",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AlrawiZDKLS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AlrawiZDKLS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/alrawi"
+      ]
+    },
+    {
+      "title": "The CrossPath Attack: Disrupting the SDN Control Channel via Shared Links",
+      "authors": [
+        "Jiahao Cao 0001",
+        "Qi Li 0002",
+        "Renjie Xie",
+        "Kun Sun 0001",
+        "Guofei Gu",
+        "Mingwei Xu 0001",
+        "Yuan Yang 0001"
+      ],
+      "pages": "19-36",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Cao0XSGX019",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Cao0XSGX019.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/cao"
+      ]
+    },
+    {
+      "title": "The DComp Testbed",
+      "authors": [
+        "Ryan Goodfellow",
+        "Stephen Schwab",
+        "Erik Kline",
+        "Lincoln Thurlow",
+        "Geoff Lawler"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GoodfellowSKTL19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GoodfellowSKTL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/goodfellow"
+      ]
+    },
+    {
+      "title": "The Impact of Secure Transport Protocols on Phishing Efficacy",
+      "authors": [
+        "Zane Ma",
+        "Joshua Reynolds",
+        "Joseph Dickinson",
+        "Kaishen Wang",
+        "Taylor Judd",
+        "Joseph D. Barnes",
+        "Joshua Mason",
+        "Michael D. Bailey"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MaRDWJBMB19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MaRDWJBMB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/ma"
+      ]
+    },
+    {
+      "title": "The KNOB is Broken: Exploiting Low Entropy in the Encryption Key Negotiation Of Bluetooth BR/EDR",
+      "authors": [
+        "Daniele Antonioli",
+        "Nils Ole Tippenhauer",
+        "Kasper Bonne Rasmussen"
+      ],
+      "pages": "1047-1061",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AntonioliTR19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AntonioliTR19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/antonioli"
+      ]
+    },
+    {
+      "title": "The Secret Sharer: Evaluating and Testing Unintended Memorization in Neural Networks",
+      "authors": [
+        "Nicholas Carlini",
+        "Chang Liu 0021",
+        "&Uacute;lfar Erlingsson",
+        "Jernej Kos",
+        "Dawn Song"
+      ],
+      "pages": "267-284",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Carlini0EKS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Carlini0EKS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/carlini"
+      ]
+    },
+    {
+      "title": "The Web's Identity Crisis: Understanding the Effectiveness of Website Identity Indicators",
+      "authors": [
+        "Christopher Thompson 0002",
+        "Martin Shelton",
+        "Emily Stark 0001",
+        "Max Walker",
+        "Emily Schechter",
+        "Adrienne Porter Felt"
+      ],
+      "pages": "1715-1732",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ThompsonSSWSF19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ThompsonSSWSF19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/thompson"
+      ]
+    },
+    {
+      "title": "Towards the Detection of Inconsistencies in Public Security Vulnerability Reports",
+      "authors": [
+        "Ying Dong",
+        "Wenbo Guo 0002",
+        "Yueqi Chen 0001",
+        "Xinyu Xing 0001",
+        "Yuqing Zhang",
+        "Gang Wang 0011"
+      ],
+      "pages": "869-885",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DongGCXZ019",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DongGCXZ019.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/dong"
+      ]
+    },
+    {
+      "title": "Tracing Transactions Across Cryptocurrency Ledgers",
+      "authors": [
+        "Haaroon Yousaf",
+        "George Kappos",
+        "Sarah Meiklejohn"
+      ],
+      "pages": "837-850",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/YousafKM19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/YousafKM19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/yousaf"
+      ]
+    },
+    {
+      "title": "Triton: A Software-Reconfigurable Federated Avionics Testbed",
+      "authors": [
+        "Sam Crow",
+        "Brown Farinholt",
+        "Brian Johannesmeyer",
+        "Karl Koscher",
+        "Stephen Checkoway",
+        "Stefan Savage",
+        "Aaron Schulman",
+        "Alex C. Snoeren",
+        "Kirill Levchenko"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CrowFJKCSSSL19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CrowFJKCSSSL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset19/presentation/crow"
+      ]
+    },
+    {
+      "title": "Understanding and Improving Security and Privacy in Multi-User Smart Homes: A Design Exploration and In-Home User Study",
+      "authors": [
+        "Eric Zeng 0001",
+        "Franziska Roesner"
+      ],
+      "pages": "159-176",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZengR19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZengR19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/zeng"
+      ]
+    },
+    {
+      "title": "Understanding and Securing Device Vulnerabilities through Automated Bug Report Analysis",
+      "authors": [
+        "Xuan Feng 0005",
+        "Xiaojing Liao",
+        "XiaoFeng Wang 0001",
+        "Haining Wang 0001",
+        "Qiang Li 0007",
+        "Kai Yang",
+        "Hongsong Zhu",
+        "Limin Sun 0001"
+      ],
+      "pages": "887-903",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/FengL0W0YZS19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/FengL0W0YZS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/feng"
+      ]
+    },
+    {
+      "title": "Understanding iOS-based Crowdturfing Through Hidden UI Analysis",
+      "authors": [
+        "Yeonjoon Lee",
+        "Xueqiang Wang",
+        "Kwangwuk Lee",
+        "Xiaojing Liao",
+        "XiaoFeng Wang 0001",
+        "Tongxin Li 0002",
+        "Xianghang Mi"
+      ],
+      "pages": "765-781",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LeeWLL0LM19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LeeWLL0LM19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/lee"
+      ]
+    },
+    {
+      "title": "Users Really Do Answer Telephone Scams",
+      "authors": [
+        "Huahong Tu",
+        "Adam Doup&eacute;",
+        "Ziming Zhao 0001",
+        "Gail-Joon Ahn"
+      ],
+      "pages": "1327-1340",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TuD0A19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TuD0A19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/tu"
+      ]
+    },
+    {
+      "title": "Utility-Optimized Local Differential Privacy Mechanisms for Distribution Estimation",
+      "authors": [
+        "Takao Murakami",
+        "Yusuke Kawamoto 0001"
+      ],
+      "pages": "1877-1894",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Murakami019",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Murakami019.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/murakami"
+      ]
+    },
+    {
+      "title": "UWB-ED: Distance Enlargement Attack Detection in Ultra-Wideband",
+      "authors": [
+        "Mridula Singh",
+        "Patrick Leu",
+        "AbdelRahman Abdou",
+        "Srdjan Capkun"
+      ],
+      "pages": "73-88",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SinghLAC19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SinghLAC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/singh"
+      ]
+    },
+    {
+      "title": "uXOM: Efficient eXecute-Only Memory on ARM Cortex-M",
+      "authors": [
+        "Donghyun Kwon",
+        "Jangseop Shin",
+        "Giyeol Kim",
+        "Byoungyoung Lee",
+        "Yeongpil Cho",
+        "Yunheung Paek"
+      ],
+      "pages": "231-247",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KwonSKLCP19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KwonSKLCP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/kwon"
+      ]
+    },
+    {
+      "title": "VRASED: A Verified Hardware/Software Co-Design for Remote Attestation",
+      "authors": [
+        "Ivan De Oliveira Nunes",
+        "Karim Eldefrawy",
+        "Norrathep Rattanavipanon",
+        "Michael Steiner 0001",
+        "Gene Tsudik"
+      ],
+      "pages": "1429-1446",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/NunesERST19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/NunesERST19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/de-oliveira-nunes"
+      ]
+    },
+    {
+      "title": "WAVE: A Decentralized Authorization Framework with Transitive Delegation",
+      "authors": [
+        "Michael P. Andersen",
+        "Sam Kumar",
+        "Moustafa AbdelBaky",
+        "Gabe Fierro",
+        "John Kolb",
+        "Hyung-Sin Kim",
+        "David E. Culler",
+        "Raluca Ada Popa"
+      ],
+      "pages": "1375-1392",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AndersenKAFKKCP19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AndersenKAFKKCP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/andersen"
+      ]
+    },
+    {
+      "title": "What Are You Searching For? A Remote Keylogging Attack on Search Engine Autocomplete",
+      "authors": [
+        "John V. Monaco"
+      ],
+      "pages": "959-976",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Monaco19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Monaco19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/monaco"
+      ]
+    },
+    {
+      "title": "When the Signal is in the Noise: Exploiting Diffix's Sticky Noise",
+      "authors": [
+        "Andrea Gadotti",
+        "Florimond Houssiau",
+        "Luc Rocher",
+        "Benjamin Livshits",
+        "Yves-Alexandre de Montjoye"
+      ],
+      "pages": "1081-1098",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GadottiHRLM19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GadottiHRLM19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/gadotti"
+      ]
+    },
+    {
+      "title": "Why Do Adversarial Attacks Transfer? Explaining Transferability of Evasion and Poisoning Attacks",
+      "authors": [
+        "Ambra Demontis",
+        "Marco Melis",
+        "Maura Pintor",
+        "Matthew Jagielski",
+        "Battista Biggio",
+        "Alina Oprea",
+        "Cristina Nita-Rotaru",
+        "Fabio Roli"
+      ],
+      "pages": "321-338",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DemontisMPJBONR19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DemontisMPJBONR19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/demontis"
+      ]
+    },
+    {
+      "title": "Wireless Attacks on Aircraft Instrument Landing Systems",
+      "authors": [
+        "Harshad Sathaye",
+        "Domien Schepers",
+        "Aanjhan Ranganathan",
+        "Guevara Noubir"
+      ],
+      "pages": "357-372",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SathayeSRN19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SathayeSRN19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/sathaye"
+      ]
+    },
+    {
+      "title": "XONN: XNOR-based Oblivious Deep Neural Network Inference",
+      "authors": [
+        "M. Sadegh Riazi",
+        "Mohammad Samragh",
+        "Hao Chen 0030",
+        "Kim Laine",
+        "Kristin E. Lauter",
+        "Farinaz Koushanfar"
+      ],
+      "pages": "1501-1518",
+      "year": "2019",
+      "venue": "USENIX Security 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/RiaziS0LLK19",
+      "dblp_url": "https://dblp.org/rec/conf/uss/RiaziS0LLK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity19/presentation/riazi"
+      ]
+    }
+  ]
+}

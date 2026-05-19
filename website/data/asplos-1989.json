@@ -1,0 +1,502 @@
+{
+  "id": "asplos-1989",
+  "venue": "asplos",
+  "year": 1989,
+  "short_name": "ASPLOS",
+  "full_name": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "source_url": "https://dblp.org/db/conf/asplos/asplos1989.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/asplos/asplos1989.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/asplos/1989",
+    "conf/asplos/1989-1",
+    "conf/asplos/1989-2",
+    "conf/asplos/1989-3",
+    "conf/asplos/1989-4",
+    "conf/asplos/1989-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) ACM International Conference on Architectural Support"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 27,
+  "display_count": 27,
+  "papers": [
+    {
+      "title": "A Message Driven Or-Parallel Machine",
+      "authors": [
+        "Sergio A. Delgado-Rannauro",
+        "T. J. Reynolds"
+      ],
+      "pages": "217-228",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Delgado-RannauroR89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Delgado-RannauroR89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68203",
+        "https://doi.org/10.1145/68182.68203"
+      ]
+    },
+    {
+      "title": "A Real-Time Support Processor for Ada Tasking",
+      "authors": [
+        "Joachim Roos"
+      ],
+      "pages": "162-171",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Roos89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Roos89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68198",
+        "https://doi.org/10.1145/68182.68198"
+      ]
+    },
+    {
+      "title": "A Software Instruction Counter",
+      "authors": [
+        "John M. Mellor-Crummey",
+        "Thomas J. LeBlanc"
+      ],
+      "pages": "78-86",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Mellor-CrummeyL89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Mellor-CrummeyL89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68189",
+        "https://doi.org/10.1145/68182.68189"
+      ]
+    },
+    {
+      "title": "A Unified Vector/Scalar Floating-Point Architecture",
+      "authors": [
+        "Norman P. Jouppi",
+        "Jonathan Bertoni",
+        "David W. Wall"
+      ],
+      "pages": "134-143",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JouppiBW89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JouppiBW89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68195",
+        "https://doi.org/10.1145/68182.68195"
+      ]
+    },
+    {
+      "title": "An Analysis of 8086 Instruction Set Usage in MS DOS Programs",
+      "authors": [
+        "Thomas L. Adams",
+        "Richard E. Zimmerman"
+      ],
+      "pages": "152-160",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/AdamsZ89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/AdamsZ89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68197",
+        "https://doi.org/10.1145/68182.68197"
+      ]
+    },
+    {
+      "title": "Analysis of Cache Invalidation Patterns in Multiprocessors",
+      "authors": [
+        "Wolf-Dietrich Weber",
+        "Anoop Gupta"
+      ],
+      "pages": "243-256",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WeberG89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WeberG89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68205",
+        "https://doi.org/10.1145/68182.68205"
+      ]
+    },
+    {
+      "title": "Architectural Support for Synchronous Task Communication",
+      "authors": [
+        "Forbes J. Burkowski",
+        "Gordon V. Cormack",
+        "G. D. P. Dueck"
+      ],
+      "pages": "40-53",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BurkowskiCD89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BurkowskiCD89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68186",
+        "https://doi.org/10.1145/68182.68186"
+      ]
+    },
+    {
+      "title": "Architecture and Compiler Tradeoffs for a Long Instruction Word Microprocessor",
+      "authors": [
+        "Robert Cohn",
+        "Thomas R. Gross",
+        "Monica Lam 0001",
+        "P. S. Tseng"
+      ],
+      "pages": "2-14",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CohnGLT89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CohnGLT89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68183",
+        "https://doi.org/10.1145/68182.68183",
+        "https://www.wikidata.org/entity/Q123271282"
+      ]
+    },
+    {
+      "title": "Available Instruction-Level Parallelism for Superscalar and Superpipelined Machines",
+      "authors": [
+        "Norman P. Jouppi",
+        "David W. Wall"
+      ],
+      "pages": "272-282",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JouppiW89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JouppiW89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68207",
+        "https://doi.org/10.1145/68182.68207"
+      ]
+    },
+    {
+      "title": "Data Buffering: Run-Time Versus Compile-Time Support",
+      "authors": [
+        "Hans M. Mulder"
+      ],
+      "pages": "144-151",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Mulder89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Mulder89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68196",
+        "https://doi.org/10.1145/68182.68196"
+      ]
+    },
+    {
+      "title": "Efficent Synchronization Primitives for Large-Scale Cache-Coherent Multiprocessors",
+      "authors": [
+        "James R. Goodman",
+        "Mary K. Vernon",
+        "Philip J. Woest"
+      ],
+      "pages": "64-75",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GoodmanVW89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GoodmanVW89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68188",
+        "https://doi.org/10.1145/68182.68188"
+      ]
+    },
+    {
+      "title": "Efficient Debugging Primitives for Multiprocessors",
+      "authors": [
+        "Ziya Aral",
+        "Ilya Gertner",
+        "Greg Schaffer"
+      ],
+      "pages": "87-95",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/AralGS89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/AralGS89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68190",
+        "https://doi.org/10.1145/68182.68190"
+      ]
+    },
+    {
+      "title": "Evaluating the Performance of Software Cache Coherence",
+      "authors": [
+        "Susan S. Owicki",
+        "Anant Agarwal"
+      ],
+      "pages": "230-242",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/OwickiA89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/OwickiA89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68204",
+        "https://doi.org/10.1145/68182.68204"
+      ]
+    },
+    {
+      "title": "Failure Correction Techniques for Large Disk Arrays",
+      "authors": [
+        "Garth A. Gibson",
+        "Lisa Hellerstein",
+        "Richard M. Karp",
+        "Randy H. Katz",
+        "David A. Patterson 0001"
+      ],
+      "pages": "123-132",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GibsonHKKP89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GibsonHKKP89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68194",
+        "https://doi.org/10.1145/68182.68194"
+      ]
+    },
+    {
+      "title": "Limits on Multiple Instruction Issue",
+      "authors": [
+        "Michael D. Smith 0001",
+        "Mike Johnson",
+        "Mark Horowitz"
+      ],
+      "pages": "290-302",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SmithJH89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SmithJH89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68209",
+        "https://doi.org/10.1145/68182.68209"
+      ]
+    },
+    {
+      "title": "Micro-Optimization of Floating Point Operations",
+      "authors": [
+        "William J. Dally"
+      ],
+      "pages": "283-289",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Dally89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Dally89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68208",
+        "https://doi.org/10.1145/68182.68208"
+      ]
+    },
+    {
+      "title": "Overlapped Loop Support in the Cydra 5",
+      "authors": [
+        "James C. Dehnert",
+        "Peter Y.-T. Hsu",
+        "Joseph P. Bratt"
+      ],
+      "pages": "26-38",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DehnertHB89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DehnertHB89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68185",
+        "https://doi.org/10.1145/68182.68185"
+      ]
+    },
+    {
+      "title": "Program Optimization for Instruction Caches",
+      "authors": [
+        "Scott McFarling"
+      ],
+      "pages": "183-191",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/McFarling89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/McFarling89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68200",
+        "https://doi.org/10.1145/68182.68200"
+      ]
+    },
+    {
+      "title": "Reference History, Page Size, and Migration Daemons in Local/Remote Architectures",
+      "authors": [
+        "Mark A. Holliday"
+      ],
+      "pages": "104-112",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Holliday89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Holliday89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68192",
+        "https://doi.org/10.1145/68182.68192"
+      ]
+    },
+    {
+      "title": "Sheaved Memory: Architectural Support for State Saving and Restoration in Paged Systems",
+      "authors": [
+        "Mark E. Staknis"
+      ],
+      "pages": "96-102",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Staknis89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Staknis89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68191",
+        "https://doi.org/10.1145/68182.68191",
+        "https://www.wikidata.org/entity/Q113079008"
+      ]
+    },
+    {
+      "title": "The Design of Nectar: A Network Backplane for Heterogeneous Multicomputers",
+      "authors": [
+        "Emmanuel A. Arnould",
+        "Francois J. Bitz",
+        "Eric C. Cooper",
+        "H. T. Kung 0001",
+        "Robert D. Sansom",
+        "Peter Steenkiste"
+      ],
+      "pages": "205-216",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ArnouldBCKSS89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ArnouldBCKSS89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68202",
+        "https://doi.org/10.1145/68182.68202"
+      ]
+    },
+    {
+      "title": "The Effect of Sharing on the Cache and Bus Performance of Parallel Programs",
+      "authors": [
+        "Susan J. Eggers",
+        "Randy H. Katz"
+      ],
+      "pages": "257-270",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/EggersK89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/EggersK89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68206",
+        "https://doi.org/10.1145/68182.68206"
+      ]
+    },
+    {
+      "title": "The Fuzzy Barrier: A Mechanism for High Speed Synchronization of Processors",
+      "authors": [
+        "Rajiv Gupta 0001"
+      ],
+      "pages": "54-63",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Gupta89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Gupta89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68187",
+        "https://doi.org/10.1145/68182.68187"
+      ]
+    },
+    {
+      "title": "The Run-Time Environment for Screme, A Scheme Implementation on the 88000",
+      "authors": [
+        "Steven R. Vegdahl",
+        "Uwe F. Pleban"
+      ],
+      "pages": "172-182",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/VegdahlP89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/VegdahlP89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68199",
+        "https://doi.org/10.1145/68182.68199"
+      ]
+    },
+    {
+      "title": "Tradeoffs in Instruction Format Design for Horizontal Architectures",
+      "authors": [
+        "Gurindar S. Sohi",
+        "Sriram Vajapeyam"
+      ],
+      "pages": "15-25",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SohiV89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SohiV89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68184",
+        "https://doi.org/10.1145/68182.68184"
+      ]
+    },
+    {
+      "title": "Translation Lookaside Buffer Consistency: A Software Approach",
+      "authors": [
+        "David L. Black 0001",
+        "Richard F. Rashid",
+        "David B. Golub",
+        "Charles R. Hill",
+        "Robert V. Baron"
+      ],
+      "pages": "113-122",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BlackRGHB89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BlackRGHB89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68193",
+        "https://doi.org/10.1145/68182.68193"
+      ]
+    },
+    {
+      "title": "Using Registers to Optimize Cross-Domain Call Performance",
+      "authors": [
+        "Paul A. Karger"
+      ],
+      "pages": "194-204",
+      "year": "1989",
+      "venue": "ASPLOS 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Karger89",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Karger89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/70082.68201",
+        "https://doi.org/10.1145/68182.68201"
+      ]
+    }
+  ]
+}

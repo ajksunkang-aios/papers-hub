@@ -1,0 +1,454 @@
+{
+  "id": "sosp-1997",
+  "venue": "sosp",
+  "year": 1997,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp1997.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp1997.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/1997",
+    "conf/sosp/1997-1",
+    "conf/sosp/1997-2",
+    "conf/sosp/1997-3",
+    "conf/sosp/1997-4",
+    "conf/sosp/1997-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 23,
+  "display_count": 23,
+  "papers": [
+    {
+      "title": "A Decentralized Model for Information Flow Control",
+      "authors": [
+        "Andrew C. Myers",
+        "Barbara Liskov"
+      ],
+      "pages": "129-142",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MyersL97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MyersL97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266669"
+      ]
+    },
+    {
+      "title": "Agile Application-Aware Adaptation for Mobility",
+      "authors": [
+        "Brian Noble",
+        "Mahadev Satyanarayanan",
+        "Dushyanth Narayanan",
+        "J. Eric Tilton",
+        "Jason Flinn",
+        "Kevin R. Walker"
+      ],
+      "pages": "276-287",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NobleSNTFW97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NobleSNTFW97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266708"
+      ]
+    },
+    {
+      "title": "Application Performance and Flexibility on Exokernel Systems",
+      "authors": [
+        "M. Frans Kaashoek",
+        "Dawson R. Engler",
+        "Gregory R. Ganger",
+        "H&eacute;ctor M. Brice&ntilde;o",
+        "Russell Hunt",
+        "David Mazi&egrave;res",
+        "Thomas Pinckney",
+        "Robert Grimm 0001",
+        "John Jannotti",
+        "Kenneth Mackenzie"
+      ],
+      "pages": "52-65",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KaashoekEGBHMPGM97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KaashoekEGBHMPGM97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266644"
+      ]
+    },
+    {
+      "title": "Automated Hoarding for Mobile Computers",
+      "authors": [
+        "Geoffrey H. Kuenning",
+        "Gerald J. Popek"
+      ],
+      "pages": "264-275",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KuenningP97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KuenningP97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266706"
+      ]
+    },
+    {
+      "title": "Cashmere-2L: Software Coherent Shared Memory on a Clustered Remote-Write Network",
+      "authors": [
+        "Robert Stets",
+        "Sandhya Dwarkadas",
+        "Nikos Hardavellas",
+        "Galen C. Hunt",
+        "Leonidas I. Kontothanassis",
+        "Srinivasan Parthasarathy 0001",
+        "Michael L. Scott"
+      ],
+      "pages": "170-183",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/StetsDHHKPS97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/StetsDHHKPS97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266675"
+      ]
+    },
+    {
+      "title": "Cluster-Based Scalable Network Services",
+      "authors": [
+        "Armando Fox",
+        "Steven D. Gribble",
+        "Yatin Chawathe",
+        "Eric A. Brewer",
+        "Paul Gauthier"
+      ],
+      "pages": "78-91",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FoxGCB97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FoxGCB97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266662"
+      ]
+    },
+    {
+      "title": "Continuous Profiling: Where Have All the Cycles Gone?",
+      "authors": [
+        "Jennifer-Ann M. Anderson",
+        "Lance M. Berc",
+        "Jeffrey Dean",
+        "Sanjay Ghemawat",
+        "Monika Rauch Henzinger",
+        "Shun-Tak Leung",
+        "Richard L. Sites",
+        "Mark T. Vandevoorde",
+        "Carl A. Waldspurger",
+        "William E. Weihl"
+      ],
+      "pages": "1-14",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AndersonBDGHLSVWW97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AndersonBDGHLSVWW97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266637"
+      ]
+    },
+    {
+      "title": "CPU Reservations and Time Constraints: Efficient, Predictable Scheduling of Independent Activities",
+      "authors": [
+        "Michael B. Jones",
+        "Daniela Rosu 0001",
+        "Marcel-Catalin Rosu"
+      ],
+      "pages": "198-211",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JonesRR97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JonesRR97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266689"
+      ]
+    },
+    {
+      "title": "DISCO: Running Commodity Operating Systems on Scalable Multiprocessors",
+      "authors": [
+        "Edouard Bugnion",
+        "Scott Devine",
+        "Mendel Rosenblum"
+      ],
+      "pages": "143-156",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BugnionDR97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BugnionDR97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266672"
+      ]
+    },
+    {
+      "title": "Distributed Schedule Management in the Tiger Video Fileserver",
+      "authors": [
+        "William J. Bolosky",
+        "Robert P. Fitzgerald",
+        "John R. Douceur"
+      ],
+      "pages": "212-223",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BoloskyF97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BoloskyF97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266692"
+      ]
+    },
+    {
+      "title": "Eraser: A Dynamic Data Race Detector for Multi-Threaded Programs",
+      "authors": [
+        "Stefan Savage",
+        "Michael Burrows",
+        "Greg Nelson",
+        "Patrick Sobalvarro",
+        "Thomas E. Anderson"
+      ],
+      "pages": "27-37",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SavageABNS97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SavageABNS97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266641"
+      ]
+    },
+    {
+      "title": "Exploiting the Non-Determinism and Asynchrony of Set Iterators to Reduce Aggregate File I/O Latency",
+      "authors": [
+        "David C. Steere"
+      ],
+      "pages": "252-263",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Steere97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Steere97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266705"
+      ]
+    },
+    {
+      "title": "Extensible Security Architecture for Java",
+      "authors": [
+        "Dan S. Wallach",
+        "Dirk Balfanz",
+        "Drew Dean",
+        "Edward W. Felten"
+      ],
+      "pages": "116-128",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WallachBDF97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WallachBDF97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266668"
+      ]
+    },
+    {
+      "title": "Flexible Update Propagation for Weakly Consistent Replication",
+      "authors": [
+        "Karin Petersen",
+        "Mike Spreitzer",
+        "Douglas B. Terry",
+        "Marvin Theimer",
+        "Alan J. Demers"
+      ],
+      "pages": "288-301",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PetersenSTTD97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PetersenSTTD97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266711"
+      ]
+    },
+    {
+      "title": "Frangipani: A Scalable Distributed File System",
+      "authors": [
+        "Chandramohan A. Thekkath",
+        "Timothy P. Mann",
+        "Edward K. Lee 0001"
+      ],
+      "pages": "224-237",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ThekkathML97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ThekkathML97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266694"
+      ]
+    },
+    {
+      "title": "Free Transactions With Rio Vista",
+      "authors": [
+        "David E. Lowell",
+        "Peter M. Chen"
+      ],
+      "pages": "92-101",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LowellC97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LowellC97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266665"
+      ]
+    },
+    {
+      "title": "HAC: Hybrid Adaptive Caching for Distributed Storage Systems",
+      "authors": [
+        "Miguel Castro 0001",
+        "Atul Adya",
+        "Barbara Liskov",
+        "Andrew C. Myers"
+      ],
+      "pages": "102-115",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CastroALM97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CastroALM97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266666"
+      ]
+    },
+    {
+      "title": "Improving the Performance of Log-Structured File Systems with Adaptive Methods",
+      "authors": [
+        "Jeanna Neefe Matthews",
+        "Drew S. Roselli",
+        "Adam M. Costello",
+        "Randolph Y. Wang",
+        "Thomas E. Anderson"
+      ],
+      "pages": "238-251",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NeefeWRCA97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NeefeWRCA97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266700"
+      ]
+    },
+    {
+      "title": "System Support for Automated Profiling and Optimization",
+      "authors": [
+        "Xiaolan Zhang 0001",
+        "Zheng Wang",
+        "Nicholas C. Gloy",
+        "J. Bradley Chen",
+        "Michael D. Smith 0001"
+      ],
+      "pages": "15-26",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangWGCS97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangWGCS97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266640"
+      ]
+    },
+    {
+      "title": "The Design, Implementation and Evaluation of SMART: A Scheduler for Multimedia Applications",
+      "authors": [
+        "Jason Nieh",
+        "Monica S. Lam"
+      ],
+      "pages": "184-197",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NiehL97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NiehL97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266677"
+      ]
+    },
+    {
+      "title": "The Flux OSKit: A Substrate for Kernel and Language Research",
+      "authors": [
+        "Bryan Ford",
+        "Godmar Back",
+        "Greg Benson",
+        "Jay Lepreau",
+        "Albert Lin",
+        "Olin Shivers"
+      ],
+      "pages": "38-51",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FordBBLLS97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FordBBLLS97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266642"
+      ]
+    },
+    {
+      "title": "The Performance of &micro;Kernel-Based Systems",
+      "authors": [
+        "Hermann H&auml;rtig",
+        "Michael Hohmuth",
+        "Jochen Liedtke",
+        "Sebastian Sch&ouml;nberg",
+        "Jean Wolter"
+      ],
+      "pages": "66-77",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HartigHLSW97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HartigHLSW97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266660",
+        "https://www.wikidata.org/entity/Q55897163"
+      ]
+    },
+    {
+      "title": "Towards Transparent and Efficient Software Distributed Shared Memory",
+      "authors": [
+        "Daniel J. Scales",
+        "Kourosh Gharachorloo"
+      ],
+      "pages": "157-169",
+      "year": "1997",
+      "venue": "SOSP 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ScalesG97",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ScalesG97.html",
+      "ee_links": [
+        "https://doi.org/10.1145/268998.266673"
+      ]
+    }
+  ]
+}

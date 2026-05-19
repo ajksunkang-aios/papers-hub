@@ -1,0 +1,572 @@
+{
+  "id": "fast-2022",
+  "venue": "fast",
+  "year": 2022,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2022.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2022.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2022",
+    "conf/fast/2022-1",
+    "conf/fast/2022-2",
+    "conf/fast/2022-3",
+    "conf/fast/2022-4",
+    "conf/fast/2022-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 29,
+  "display_count": 29,
+  "papers": [
+    {
+      "title": "25 Years of Storage Research and Education: A Retrospective",
+      "authors": [
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": null,
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Arpaci-Dusseau22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Arpaci-Dusseau22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/keynote"
+      ]
+    },
+    {
+      "title": "A Log-Structured Merge Tree-aware Message Authentication Scheme for Persistent Key-Value Stores",
+      "authors": [
+        "Ig-Jae Kim",
+        "J. Hyun Kim",
+        "Minu Chung",
+        "Hyungon Moon",
+        "Sam H. Noh"
+      ],
+      "pages": "363-380",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimKCMN22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimKCMN22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/kim-igjae"
+      ]
+    },
+    {
+      "title": "Aurogon: Taming Aborts in All Phases for Distributed In-Memory Transactions",
+      "authors": [
+        "Tianyang Jiang",
+        "Guangyan Zhang",
+        "Zhiyue Li",
+        "Weimin Zheng"
+      ],
+      "pages": "217-232",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JiangZLZ22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JiangZLZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/jiang"
+      ]
+    },
+    {
+      "title": "CacheSifter: Sifting Cache Files for Boosted Mobile Performance and Lifetime",
+      "authors": [
+        "Yu Liang 0004",
+        "Riwei Pan",
+        "Tianyu Ren",
+        "Yufei Cui",
+        "Rachata Ausavarungnirun",
+        "Xianzhang Chen",
+        "Changlong Li 0006",
+        "Tei-Wei Kuo",
+        "Chun Jason Xue"
+      ],
+      "pages": "445-459",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/0004PRCACLKX22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/0004PRCACLKX22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/liang"
+      ]
+    },
+    {
+      "title": "Closing the B+-tree vs. LSM-tree Write Amplification Gap on Modern Storage Hardware with Built-in Transparent Compression",
+      "authors": [
+        "Yifan Qiao 0003",
+        "Xubin Chen",
+        "Ning Zheng",
+        "Jiangpeng Li",
+        "Yang Liu 0256",
+        "Tong Zhang 0002"
+      ],
+      "pages": "69-82",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/QiaoCZLL022",
+      "dblp_url": "https://dblp.org/rec/conf/fast/QiaoCZLL022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/qiao"
+      ]
+    },
+    {
+      "title": "ctFS: Replacing File Indexing with Hardware Memory Translation through Contiguous File Allocation for Persistent Memory",
+      "authors": [
+        "Ruibin Li",
+        "Xiang Ren 0003",
+        "Xu Zhao 0004",
+        "Siwei He",
+        "Michael Stumm",
+        "Ding Yuan 0004"
+      ],
+      "pages": "35-50",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Li0ZHSY22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Li0ZHSY22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/li"
+      ]
+    },
+    {
+      "title": "DedupSearch: Two-Phase Deduplication Aware Keyword Search",
+      "authors": [
+        "Nadav Elias",
+        "Philip Shilane",
+        "Sarai Sheinvald",
+        "Gala Yadgar"
+      ],
+      "pages": "233-246",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/EliasSSY22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/EliasSSY22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/elias"
+      ]
+    },
+    {
+      "title": "DeepSketch: A New Machine Learning-Based Reference Search Technique for Post-Deduplication Delta Compression",
+      "authors": [
+        "Jisung Park 0001",
+        "Jeonggyun Kim",
+        "Yeseong Kim",
+        "Sungjin Lee 0001",
+        "Onur Mutlu"
+      ],
+      "pages": "247-264",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/0001KKLM22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/0001KKLM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/park"
+      ]
+    },
+    {
+      "title": "DEPART: Replica Decoupling for Distributed Key-Value Storage",
+      "authors": [
+        "Qiang Zhang",
+        "Yongkun Li 0001",
+        "Patrick P. C. Lee",
+        "Yinlong Xu 0001",
+        "Si Wu 0003"
+      ],
+      "pages": "397-412",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangLLX022",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangLLX022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/zhang-qiang"
+      ]
+    },
+    {
+      "title": "DUPEFS: Leaking Data Over the Network With Filesystem Deduplication Side Channels",
+      "authors": [
+        "Andrei Bacs",
+        "Saidgani Musaev",
+        "Kaveh Razavi",
+        "Cristiano Giuffrida",
+        "Herbert Bos"
+      ],
+      "pages": "281-296",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BacsMRGB22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BacsMRGB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/bacs"
+      ]
+    },
+    {
+      "title": "exF2FS: Transaction Support in Log-Structured Filesystem",
+      "authors": [
+        "Joontaek Oh",
+        "Sion Ji",
+        "Yongjin Kim",
+        "Youjip Won"
+      ],
+      "pages": "345-362",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/OhJKW22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/OhJKW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/oh"
+      ]
+    },
+    {
+      "title": "FORD: Fast One-sided RDMA-based Distributed Transactions for Disaggregated Persistent Memory",
+      "authors": [
+        "Ming Zhang",
+        "Yu Hua 0001",
+        "Pengfei Zuo",
+        "Lurong Liu"
+      ],
+      "pages": "51-68",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Zhang0ZL22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Zhang0ZL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/zhang-ming"
+      ]
+    },
+    {
+      "title": "FusionFS: Fusing I/O Operations using CISCOps in Firmware File Systems",
+      "authors": [
+        "Jian Zhang",
+        "Yujie Ren",
+        "Sudarsun Kannan"
+      ],
+      "pages": "297-312",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangRK22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangRK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/zhang-jian"
+      ]
+    },
+    {
+      "title": "GuardedErase: Extending SSD Lifetimes by Protecting Weak Wordlines",
+      "authors": [
+        "Duwon Hong",
+        "Myungsuk Kim",
+        "Geonhee Cho",
+        "Dusol Lee",
+        "Jihong Kim 0001"
+      ],
+      "pages": "133-146",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HongKCL022",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HongKCL022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/hong"
+      ]
+    },
+    {
+      "title": "Hardware/Software Co-Programmable Framework for Computational SSDs to Accelerate Deep Learning Service on Large-Scale Graphs",
+      "authors": [
+        "Miryeong Kwon",
+        "Donghyun Gouk",
+        "Sangwon Lee 0014",
+        "Myoungsoo Jung"
+      ],
+      "pages": "147-164",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KwonGLJ22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KwonGLJ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/kwon"
+      ]
+    },
+    {
+      "title": "HTMFS: Strong Consistency Comes for Free with Hardware Transactional Memory in Persistent Memory File Systems",
+      "authors": [
+        "Jifei Yi",
+        "Mingkai Dong 0002",
+        "Fangnuo Wu",
+        "Haibo Chen 0001"
+      ],
+      "pages": "17-34",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Yi0W022",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Yi0W022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/yi-htmfs"
+      ]
+    },
+    {
+      "title": "Hydra : Resilient and Highly Available Remote Memory",
+      "authors": [
+        "Youngmoon Lee",
+        "Hasan Al Maruf",
+        "Mosharaf Chowdhury",
+        "Asaf Cidon",
+        "Kang G. Shin"
+      ],
+      "pages": "181-198",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LeeMCCS22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LeeMCCS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/lee"
+      ]
+    },
+    {
+      "title": "Improving the Reliability of Next Generation SSDs using WOM-v Codes",
+      "authors": [
+        "Shehbaz Jaffer",
+        "Kaveh Mahdaviani",
+        "Bianca Schroeder"
+      ],
+      "pages": "117-132",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JafferMS22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JafferMS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/jaffer"
+      ]
+    },
+    {
+      "title": "InfiniFS: An Efficient Metadata Service for Large-Scale Distributed Filesystems",
+      "authors": [
+        "Wenhao Lv",
+        "Youyou Lu",
+        "Yiming Zhang 0003",
+        "Peile Duan",
+        "Jiwu Shu"
+      ],
+      "pages": "313-328",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LvLZDS22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LvLZDS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/lv"
+      ]
+    },
+    {
+      "title": "MT^2: Memory Bandwidth Regulation on Hybrid NVM/DRAM Platforms",
+      "authors": [
+        "Jifei Yi",
+        "Benchao Dong",
+        "Mingkai Dong 0002",
+        "Ruizhe Tong",
+        "Haibo Chen 0001"
+      ],
+      "pages": "199-216",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YiD0T022",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YiD0T022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/yi-mt2"
+      ]
+    },
+    {
+      "title": "NyxCache: Flexible and Efficient Multi-tenant Persistent Memory Caching",
+      "authors": [
+        "Kan Wu",
+        "Kaiwei Tu",
+        "Yuvraj Patel",
+        "Rathijit Sen",
+        "Kwanghyun Park 0001",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "1-16",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WuTPS0AA22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WuTPS0AA22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/wu"
+      ]
+    },
+    {
+      "title": "Operational Characteristics of SSDs in Enterprise Storage Systems: A Large-Scale Field Study",
+      "authors": [
+        "Stathis Maneas",
+        "Kaveh Mahdaviani",
+        "Tim Emami",
+        "Bianca Schroeder"
+      ],
+      "pages": "165-180",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ManeasMES22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ManeasMES22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/maneas"
+      ]
+    },
+    {
+      "title": "PAIO: General, Portable I/O Optimizations With Minor Application Modifications",
+      "authors": [
+        "Ricardo Macedo",
+        "Yusuke Tanimura",
+        "Jason Haga",
+        "Vijay Chidambaram",
+        "Jos&eacute; Pereira 0001",
+        "Jo&atilde;o Paulo 0001"
+      ],
+      "pages": "413-428",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MacedoTHC0022",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MacedoTHC0022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/macedo"
+      ]
+    },
+    {
+      "title": "Practicably Boosting the Processing Performance of BFS-like Algorithms on Semi-External Graph System via I/O-Efficient Graph Ordering",
+      "authors": [
+        "Tsun-Yu Yang",
+        "Yuhong Liang",
+        "Ming-Chang Yang"
+      ],
+      "pages": "381-396",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YangLY22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YangLY22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/yang"
+      ]
+    },
+    {
+      "title": "Removing Double-Logging with Passive Data Persistence in LSM-tree based Relational Databases",
+      "authors": [
+        "Kecheng Huang",
+        "Zhaoyan Shen",
+        "Zhiping Jia",
+        "Zili Shao",
+        "Feng Chen 0005"
+      ],
+      "pages": "101-116",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HuangSJS022",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HuangSJS022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/huang"
+      ]
+    },
+    {
+      "title": "ScaleXFS: Getting scalability of XFS back on the ring",
+      "authors": [
+        "Dohyun Kim",
+        "Kwangwon Min",
+        "Joontaek Oh",
+        "Youjip Won"
+      ],
+      "pages": "329-344",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimMOW22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimMOW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/kim-dohyun"
+      ]
+    },
+    {
+      "title": "Separating Data via Block Invalidation Time Inference for Write Amplification Reduction in Log-Structured Storage",
+      "authors": [
+        "Qiuping Wang",
+        "Jinhong Li",
+        "Patrick P. C. Lee",
+        "Tao Ouyang",
+        "Chao Shi",
+        "Lilong Huang"
+      ],
+      "pages": "429-444",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangLLOSH22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangLLOSH22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/wang"
+      ]
+    },
+    {
+      "title": "The what, The from, and The to: The Migration Games in Deduplicated Systems",
+      "authors": [
+        "Roei Kisous",
+        "Ariel Kolikant",
+        "Abhinav Duggal",
+        "Sarai Sheinvald",
+        "Gala Yadgar"
+      ],
+      "pages": "265-280",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KisousKDSY22",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KisousKDSY22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/kisous"
+      ]
+    },
+    {
+      "title": "TVStore: Automatically Bounding Time Series Storage via Time-Varying Compression",
+      "authors": [
+        "Yanzhe An",
+        "Yue Su",
+        "Yuqing Zhu 0001",
+        "Jianmin Wang 0001"
+      ],
+      "pages": "83-100",
+      "year": "2022",
+      "venue": "FAST 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AnS0022",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AnS0022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast22/presentation/an"
+      ]
+    }
+  ]
+}

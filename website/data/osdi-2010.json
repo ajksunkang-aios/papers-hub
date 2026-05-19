@@ -1,0 +1,946 @@
+{
+  "id": "osdi-2010",
+  "venue": "osdi",
+  "year": 2010,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi2010.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi2010.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/2010",
+    "conf/osdi/2010-1",
+    "conf/osdi/2010-2",
+    "conf/osdi/2010-3",
+    "conf/osdi/2010-4",
+    "conf/osdi/2010-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 50,
+  "display_count": 50,
+  "papers": [
+    {
+      "title": "A Decision-Analytic Approach for P2P Cooperation Policy Setting",
+      "authors": [
+        "Golnaz Vakili",
+        "Thanasis G. Papaioannou",
+        "Siavash Khorsandi"
+      ],
+      "pages": "5:1-5:4",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/VakiliPK10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/VakiliPK10.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1879082.1879089",
+        "https://www.usenix.org/conference/netecon10/decision-analytic-approach-p2p-cooperation-policy-setting"
+      ]
+    },
+    {
+      "title": "A Graphical Representation for Identifier Structure in Logs",
+      "authors": [
+        "Ariel Rabkin",
+        "Wei Xu 0012",
+        "Avani Wildani",
+        "Armando Fox",
+        "David A. Patterson 0001",
+        "Randy H. Katz"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/RabkinXWFPK10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/RabkinXWFPK10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/slaml10/graphical-representation-identifier-structure-logs"
+      ]
+    },
+    {
+      "title": "A Network Formation Model for Internet Transit Relations",
+      "authors": [
+        "Aemen Lodhi",
+        "Constantine Dovrolis"
+      ],
+      "pages": "4:1-4:9",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LodhiD10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LodhiD10.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1879082.1879088",
+        "https://www.usenix.org/conference/netecon10/network-formation-model-internet-transit-relations"
+      ]
+    },
+    {
+      "title": "Accountable Virtual Machines",
+      "authors": [
+        "Andreas Haeberlen",
+        "Paarijaat Aditya",
+        "Rodrigo Rodrigues 0001",
+        "Peter Druschel"
+      ],
+      "pages": "119-134",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HaeberlenARD10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HaeberlenARD10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Haeberlen.pdf"
+      ]
+    },
+    {
+      "title": "Ad Hoc Synchronization Considered Harmful",
+      "authors": [
+        "Weiwei Xiong",
+        "Soyeon Park",
+        "Jiaqi Zhang",
+        "Yuanyuan Zhou 0001",
+        "Zhiqiang Ma"
+      ],
+      "pages": "163-176",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/XiongPZZM10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/XiongPZZM10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Xiong.pdf"
+      ]
+    },
+    {
+      "title": "An Analysis of Linux Scalability to Many Cores",
+      "authors": [
+        "Silas Boyd-Wickizer",
+        "Austin T. Clements",
+        "Yandong Mao",
+        "Aleksey Pesterev",
+        "M. Frans Kaashoek",
+        "Robert Morris 0005",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "1-16",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Boyd-WickizerCMPKMZ10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Boyd-WickizerCMPKMZ10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Boyd-Wickizer.pdf"
+      ]
+    },
+    {
+      "title": "Analyzing Web Logs to Detect User-Visible Failures",
+      "authors": [
+        "Wanchun Li",
+        "Ian Gorton"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiG10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiG10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/slaml10/analyzing-web-logs-detect-user-visible-failures"
+      ]
+    },
+    {
+      "title": "Automating Configuration Troubleshooting with Dynamic Information Flow Analysis",
+      "authors": [
+        "Mona Attariyan",
+        "Jason Flinn"
+      ],
+      "pages": "237-250",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AttariyanF10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AttariyanF10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Attariyan.pdf"
+      ]
+    },
+    {
+      "title": "Availability in Globally Distributed Storage Systems",
+      "authors": [
+        "Daniel Ford",
+        "Fran&ccedil;ois Labelle",
+        "Florentina I. Popovici",
+        "Murray Stokely",
+        "Van-Anh Truong",
+        "Luiz Barroso",
+        "Carrie Grimes",
+        "Sean Quinlan"
+      ],
+      "pages": "61-74",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FordLPSTBGQ10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FordLPSTBGQ10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Ford.pdf"
+      ]
+    },
+    {
+      "title": "Bridging the Gaps: Joining Information Sources with Splunk",
+      "authors": [
+        "Jon Stearley",
+        "Sophia Corwell",
+        "Ken Lord"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/StearleyCL10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/StearleyCL10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/slaml10/bridging-gaps-joining-information-sources-splunk"
+      ]
+    },
+    {
+      "title": "Building Extensible Networks with Rule-Based Forwarding",
+      "authors": [
+        "Lucian Popa 0002",
+        "Norbert Egi",
+        "Sylvia Ratnasamy",
+        "Ion Stoica"
+      ],
+      "pages": "379-392",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PopaERS10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PopaERS10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Popa.pdf"
+      ]
+    },
+    {
+      "title": "Bypassing Races in Live Applications with Execution Filters",
+      "authors": [
+        "Jingyue Wu",
+        "Heming Cui",
+        "Junfeng Yang"
+      ],
+      "pages": "135-149",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WuCY10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WuCY10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Wu.pdf"
+      ]
+    },
+    {
+      "title": "Can the Production Network Be the Testbed?",
+      "authors": [
+        "Rob Sherwood",
+        "Glen Gibb",
+        "Kok-Kiong Yap",
+        "Guido Appenzeller",
+        "Mart&iacute;n Casado",
+        "Nick McKeown",
+        "Guru M. Parulkar"
+      ],
+      "pages": "365-378",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SherwoodGYACMP10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SherwoodGYACMP10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Sherwood.pdf"
+      ]
+    },
+    {
+      "title": "Collusion-resilient Credit-based Reputations for Peer-to-Peer Content Distribution",
+      "authors": [
+        "Dinh Nguyen Tran",
+        "Jinyang Li 0001",
+        "Lakshminarayanan Subramanian"
+      ],
+      "pages": "2:1-2:8",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/TranLS10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/TranLS10.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1879082.1879085",
+        "https://www.usenix.org/conference/netecon10/collusion-resilient-credit-based-reputations-peer-peer-content-distribution"
+      ]
+    },
+    {
+      "title": "Comet: An active distributed key-value store",
+      "authors": [
+        "Roxana Geambasu",
+        "Amit A. Levy 0001",
+        "Tadayoshi Kohno",
+        "Arvind Krishnamurthy",
+        "Henry M. Levy"
+      ],
+      "pages": "323-336",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GeambasuLKKL10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GeambasuLKKL10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Geambasu.pdf"
+      ]
+    },
+    {
+      "title": "Content Pricing in Peer-to-Peer Networks",
+      "authors": [
+        "Jaeok Park",
+        "Mihaela van der Schaar"
+      ],
+      "pages": "3:1-3:6",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ParkS10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ParkS10.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1879082.1879086",
+        "https://www.usenix.org/conference/netecon10/content-pricing-peer-peer-networks"
+      ]
+    },
+    {
+      "title": "Creating the Knowledge about IT Events",
+      "authors": [
+        "Gilad Barash",
+        "Ira Cohen",
+        "Eli Mordechai",
+        "Carl Staelin",
+        "Rafael Dakar"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BarashCMSD10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BarashCMSD10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/slaml10/creating-knowledge-about-it-events"
+      ]
+    },
+    {
+      "title": "Depot: Cloud Storage with Minimal Trust",
+      "authors": [
+        "Prince Mahajan",
+        "Srinath T. V. Setty",
+        "Sangmin Lee",
+        "Allen Clement",
+        "Lorenzo Alvisi",
+        "Michael Dahlin",
+        "Michael Walfish"
+      ],
+      "pages": "307-322",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MahajanSLCADW10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MahajanSLCADW10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Mahajan.pdf"
+      ]
+    },
+    {
+      "title": "Deterministic Process Groups in dOS",
+      "authors": [
+        "Tom Bergan",
+        "Nicholas Hunt",
+        "Luis Ceze",
+        "Steven D. Gribble"
+      ],
+      "pages": "177-191",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BerganHCG10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BerganHCG10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Bergan.pdf"
+      ]
+    },
+    {
+      "title": "Effective Data-Race Detection for the Kernel",
+      "authors": [
+        "John Erickson",
+        "Madanlal Musuvathi",
+        "Sebastian Burckhardt",
+        "Kirk Olynyk"
+      ],
+      "pages": "151-162",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/EricksonMBO10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/EricksonMBO10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Erickson.pdf"
+      ]
+    },
+    {
+      "title": "Efficient System-Enforced Deterministic Parallelism",
+      "authors": [
+        "Amittai Aviram",
+        "Shu-Chun Weng",
+        "Sen Hu",
+        "Bryan Ford"
+      ],
+      "pages": "193-206",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AviramWHF10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AviramWHF10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Aviram.pdf"
+      ]
+    },
+    {
+      "title": "Enabling Configuration-Independent Automation by Non-Expert Users",
+      "authors": [
+        "Nate Kushman",
+        "Dina Katabi"
+      ],
+      "pages": "223-236",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KushmanK10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KushmanK10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Kushman.pdf"
+      ]
+    },
+    {
+      "title": "Experience Mining Google's Production Console Logs",
+      "authors": [
+        "Wei Xu 0012",
+        "Ling Huang 0001",
+        "Michael I. Jordan"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/XuHJ10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/XuHJ10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/slaml10/experience-mining-googles-production-console-logs"
+      ]
+    },
+    {
+      "title": "Finding a Needle in Haystack: Facebook's Photo Storage",
+      "authors": [
+        "Doug Beaver",
+        "Sanjeev Kumar",
+        "Harry C. Li",
+        "Jason Sobel",
+        "Peter Vajgel"
+      ],
+      "pages": "47-60",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BeaverKLSV10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BeaverKLSV10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Beaver.pdf"
+      ]
+    },
+    {
+      "title": "FlexSC: Flexible System Call Scheduling with Exception-Less System Calls",
+      "authors": [
+        "Livio Soares",
+        "Michael Stumm"
+      ],
+      "pages": "33-46",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SoaresS10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SoaresS10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Soares.pdf"
+      ]
+    },
+    {
+      "title": "Innovations and Upgrades in Virtualized Network Architectures",
+      "authors": [
+        "Paul Laskowski",
+        "John Chuang"
+      ],
+      "pages": "6:1-6:11",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LaskowskiC10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LaskowskiC10.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1879082.1879091",
+        "https://www.usenix.org/conference/netecon10/innovations-and-upgrades-virtualized-network-architectures"
+      ]
+    },
+    {
+      "title": "Intrusion Recovery Using Selective Re-execution",
+      "authors": [
+        "Taesoo Kim",
+        "Xi Wang 0005",
+        "Nickolai Zeldovich",
+        "M. Frans Kaashoek"
+      ],
+      "pages": "89-104",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KimWZK10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KimWZK10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Kim.pdf"
+      ]
+    },
+    {
+      "title": "Large-scale Incremental Processing Using Distributed Transactions and Notifications",
+      "authors": [
+        "Daniel Peng",
+        "Frank Dabek"
+      ],
+      "pages": "251-264",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PengD10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PengD10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Peng.pdf"
+      ]
+    },
+    {
+      "title": "Liquidity in Credit Networks: A Little Trust Goes a Long Way",
+      "authors": [
+        "Pranav Dandekar",
+        "Ashish Goel",
+        "Ramesh Govindan",
+        "Ian Post"
+      ],
+      "pages": "1:1",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DandekarGGP10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DandekarGGP10.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1879082.1879084",
+        "https://www.usenix.org/conference/netecon10/liquidity-credit-networks-little-trust-goes-long-way"
+      ]
+    },
+    {
+      "title": "Mathematical Modeling of Competition in Sponsored Search Market",
+      "authors": [
+        "Jerry Liu",
+        "Dah Ming Chiu"
+      ],
+      "pages": "10:1-10:6",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiuC10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiuC10.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1879082.1879096",
+        "https://www.usenix.org/conference/netecon10/mathematical-modeling-competition-sponsored-search-market"
+      ]
+    },
+    {
+      "title": "mClock: Handling Throughput Variability for Hypervisor IO Scheduling",
+      "authors": [
+        "Ajay Gulati",
+        "Arif Merchant",
+        "Peter J. Varman"
+      ],
+      "pages": "437-450",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GulatiMV10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GulatiMV10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Gulati.pdf"
+      ]
+    },
+    {
+      "title": "Nectar: Automatic Management of Data and Computation in Datacenters",
+      "authors": [
+        "Pradeep Kumar Gunda",
+        "Lenin Ravindranath",
+        "Chandramohan A. Thekkath",
+        "Yuan Yu",
+        "Li Zhuang"
+      ],
+      "pages": "75-88",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GundaRTYZ10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GundaRTYZ10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Gunda.pdf"
+      ]
+    },
+    {
+      "title": "Onix: A Distributed Control Platform for Large-scale Production Networks",
+      "authors": [
+        "Teemu Koponen",
+        "Mart&iacute;n Casado",
+        "Natasha Gude",
+        "Jeremy Stribling",
+        "Leon Poutievski",
+        "Min Zhu",
+        "Rajiv Ramanathan",
+        "Yuichiro Iwata",
+        "Hiroaki Inoue",
+        "Takayuki Hama",
+        "Scott Shenker"
+      ],
+      "pages": "351-364",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KoponenCGSPZRIIHS10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KoponenCGSPZRIIHS10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Koponen.pdf"
+      ]
+    },
+    {
+      "title": "Optimizing Data Analysis with a Semi-structured Time Series Database",
+      "authors": [
+        "Ledion Bitincka",
+        "Archana Ganapathi",
+        "Stephen Sorkin",
+        "Steve Zhang"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BitinckaGSZ10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BitinckaGSZ10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/slaml10/optimizing-data-analysis-semi-structured-time-series-database"
+      ]
+    },
+    {
+      "title": "Piccolo: Building Fast, Distributed Programs with Partitioned Tables",
+      "authors": [
+        "Russell Power",
+        "Jinyang Li 0001"
+      ],
+      "pages": "293-306",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PowerL10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PowerL10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Power.pdf"
+      ]
+    },
+    {
+      "title": "Reining in the Outliers in Map-Reduce Clusters using Mantri",
+      "authors": [
+        "Ganesh Ananthanarayanan",
+        "Srikanth Kandula",
+        "Albert G. Greenberg",
+        "Ion Stoica",
+        "Yi Lu 0001",
+        "Bikas Saha",
+        "Edward Harris"
+      ],
+      "pages": "265-278",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AnanthanarayananKGSLSH10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AnanthanarayananKGSLSH10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Ananthanarayanan.pdf"
+      ]
+    },
+    {
+      "title": "SIP CLF: A Common Log Format (CLF) for the Session Initiation Protocol (SIP)",
+      "authors": [
+        "Vijay K. Gurbani",
+        "Eric William Burger",
+        "Carol Davids",
+        "Tricha Anjali"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GurbaniBDA10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GurbaniBDA10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/slaml10/sip-clf-common-log-format-clf-session-initiation-protocol-sip"
+      ]
+    },
+    {
+      "title": "SPORC: Group Collaboration using Untrusted Cloud Resources",
+      "authors": [
+        "Ariel J. Feldman",
+        "William P. Zeller",
+        "Michael J. Freedman",
+        "Edward W. Felten"
+      ],
+      "pages": "337-350",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FeldmanZFF10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FeldmanZFF10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Feldman.pdf"
+      ]
+    },
+    {
+      "title": "Stable Deterministic Multithreading through Schedule Memoization",
+      "authors": [
+        "Heming Cui",
+        "Jingyue Wu",
+        "Chia-Che Tsai",
+        "Junfeng Yang"
+      ],
+      "pages": "207-221",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CuiWTY10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CuiWTY10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Cui.pdf"
+      ]
+    },
+    {
+      "title": "StarTrack Next Generation: A Scalable Infrastructure for Track-Based Applications",
+      "authors": [
+        "Maya Haridasan",
+        "Iqbal Mohomed",
+        "Doug Terry",
+        "Chandramohan A. Thekkath",
+        "Li Zhang 0001"
+      ],
+      "pages": "409-422",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HaridasanMTTZ10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HaridasanMTTZ10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Haridasan.pdf"
+      ]
+    },
+    {
+      "title": "Static Checking of Dynamically-Varying Security Policies in Database-Backed Applications",
+      "authors": [
+        "Adam Chlipala"
+      ],
+      "pages": "105-118",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Chlipala10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Chlipala10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Chlipala.pdf"
+      ]
+    },
+    {
+      "title": "Subscription Dynamics and Competition in Communications Markets",
+      "authors": [
+        "Shaolei Ren"
+      ],
+      "pages": "9:1-9:6",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Ren10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Ren10.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1879082.1879095",
+        "https://www.usenix.org/conference/netecon10/subscription-dynamics-and-competition-communications-markets"
+      ]
+    },
+    {
+      "title": "Synoptic: Summarizing System Logs with Refinement",
+      "authors": [
+        "Sigurd Schneider",
+        "Ivan Beschastnikh",
+        "Slava Chernyak",
+        "Michael D. Ernst",
+        "Yuriy Brun"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SchneiderBCEB10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SchneiderBCEB10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/slaml10/synoptic-summarizing-system-logs-refinement"
+      ]
+    },
+    {
+      "title": "TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+      "authors": [
+        "William Enck",
+        "Peter Gilbert",
+        "Byung-Gon Chun",
+        "Landon P. Cox",
+        "Jaeyeon Jung",
+        "Patrick D. McDaniel",
+        "Anmol Sheth"
+      ],
+      "pages": "393-407",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/EnckGCCJMS10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/EnckGCCJMS10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Enck.pdf"
+      ]
+    },
+    {
+      "title": "The Turtles Project: Design and Implementation of Nested Virtualization",
+      "authors": [
+        "Muli Ben-Yehuda",
+        "Michael D. Day",
+        "Zvi Dubitzky",
+        "Michael Factor",
+        "Nadav Har'El",
+        "Abel Gordon",
+        "Anthony Liguori",
+        "Orit Wasserman",
+        "Ben-Ami Yassour"
+      ],
+      "pages": "423-436",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Ben-YehudaDDFHGLWY10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Ben-YehudaDDFHGLWY10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Ben-Yehuda.pdf"
+      ]
+    },
+    {
+      "title": "Tiered Incentives for Integrity Based Queuing",
+      "authors": [
+        "Fariba Khan",
+        "Carl A. Gunter"
+      ],
+      "pages": "8:1-8:7",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KhanG10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KhanG10.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1879082.1879093",
+        "https://www.usenix.org/conference/netecon10/tiered-incentives-integrity-based-queuing"
+      ]
+    },
+    {
+      "title": "Trade & Cap: A Customer-Managed, Market-Based System for Trading Bandwidth Allowances at a Shared Link",
+      "authors": [
+        "Jorge Londo&ntilde;o",
+        "Azer Bestavros",
+        "Nikolaos Laoutaris"
+      ],
+      "pages": "7:1-7:7",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LondonoBL10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LondonoBL10.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1879082.1879092",
+        "https://www.usenix.org/conference/netecon10/trade-cap-customer-managed-market-based-system-trading-bandwidth-allowances",
+        "https://www.wikidata.org/entity/Q61693660"
+      ]
+    },
+    {
+      "title": "Transactional Consistency and Automatic Management in an Application Data Cache",
+      "authors": [
+        "Dan R. K. Ports",
+        "Austin T. Clements",
+        "Irene Zhang",
+        "Samuel Madden 0001",
+        "Barbara Liskov"
+      ],
+      "pages": "279-292",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PortsCZML10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PortsCZML10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Ports.pdf"
+      ]
+    },
+    {
+      "title": "Trust and Protection in the Illinois Browser Operating System",
+      "authors": [
+        "Shuo Tang",
+        "Haohui Mai",
+        "Samuel T. King"
+      ],
+      "pages": "17-32",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/TangMK10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/TangMK10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Tang.pdf"
+      ]
+    },
+    {
+      "title": "Virtualize Everything but Time",
+      "authors": [
+        "Timothy Broomhead",
+        "Laurence Cremean",
+        "Julien Ridoux",
+        "Darryl Veitch"
+      ],
+      "pages": "451-464",
+      "year": "2010",
+      "venue": "OSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BroomheadCRV10",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BroomheadCRV10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi10/tech/full_papers/Broomhead.pdf"
+      ]
+    }
+  ]
+}

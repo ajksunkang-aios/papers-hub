@@ -1,0 +1,668 @@
+{
+  "id": "osdi-2006",
+  "venue": "osdi",
+  "year": 2006,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi2006.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi2006.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/2006",
+    "conf/osdi/2006-1",
+    "conf/osdi/2006-2",
+    "conf/osdi/2006-3",
+    "conf/osdi/2006-4",
+    "conf/osdi/2006-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 35,
+  "display_count": 35,
+  "papers": [
+    {
+      "title": "A Distributed File System for a Wide-Area High Performance Computing Infrastructure",
+      "authors": [
+        "Edward Walker"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Walker06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Walker06.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-06/distributed-file-system-wide-area-high-performance-computing-infrastructure"
+      ]
+    },
+    {
+      "title": "A Modular Network Layer for Sensornets",
+      "authors": [
+        "Cheng Tien Ee",
+        "Rodrigo Fonseca",
+        "Sukun Kim",
+        "Daekyeong Moon",
+        "Arsalan Tavakoli",
+        "David E. Culler",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": "249-262",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/EeFKMTCSS06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/EeFKMTCSS06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/ee.html"
+      ]
+    },
+    {
+      "title": "A Platform for Unobtrusive Measurements on PlanetLab",
+      "authors": [
+        "Rob Sherwood",
+        "Neil Spring"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SherwoodS06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SherwoodS06.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-06/platform-unobtrusive-measurements-planetlab"
+      ]
+    },
+    {
+      "title": "BAR Gossip",
+      "authors": [
+        "Harry C. Li",
+        "Allen Clement",
+        "Edmund L. Wong",
+        "Jeff Napper",
+        "Indrajit Roy 0001",
+        "Lorenzo Alvisi",
+        "Michael Dahlin"
+      ],
+      "pages": "191-204",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiCWNRAD06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiCWNRAD06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/li.html"
+      ]
+    },
+    {
+      "title": "Bigtable: A Distributed Storage System for Structured Data (Awarded Best Paper!)",
+      "authors": [
+        "Fay Chang",
+        "Jeffrey Dean",
+        "Sanjay Ghemawat",
+        "Wilson C. Hsieh",
+        "Deborah A. Wallach",
+        "Michael Burrows",
+        "Tushar Chandra",
+        "Andrew Fikes",
+        "Robert Gruber"
+      ],
+      "pages": "205-218",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChangDGHWBCFG06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChangDGHWBCFG06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/chang.html"
+      ]
+    },
+    {
+      "title": "BrowserShield: Vulnerability-Driven Filtering of Dynamic HTML",
+      "authors": [
+        "Charles Reis",
+        "John Dunagan",
+        "Helen J. Wang",
+        "Opher Dubrovsky",
+        "Saher Esmeir"
+      ],
+      "pages": "61-74",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ReisDWDE06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ReisDWDE06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/reis.html"
+      ]
+    },
+    {
+      "title": "Ceph: A Scalable, High-Performance Distributed File System",
+      "authors": [
+        "Sage A. Weil",
+        "Scott A. Brandt",
+        "Ethan L. Miller",
+        "Darrell D. E. Long",
+        "Carlos Maltzahn"
+      ],
+      "pages": "307-320",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WeilBMLM06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WeilBMLM06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/weil.html"
+      ]
+    },
+    {
+      "title": "ConfiDNS: Leveraging Scale and History to Improve DNS Security",
+      "authors": [
+        "Lindsey Poole",
+        "Vivek S. Pai"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PooleP06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PooleP06.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-06/confidns-leveraging-scale-and-history-improve-dns-security"
+      ]
+    },
+    {
+      "title": "Connection Handoff Policies for TCP Offload Network Interfaces",
+      "authors": [
+        "Hyong-youb Kim",
+        "Scott Rixner"
+      ],
+      "pages": "293-306",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KimR06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KimR06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/kim.html"
+      ]
+    },
+    {
+      "title": "CRAMM: Virtual Memory Support for Garbage-Collected Applications",
+      "authors": [
+        "Ting Yang",
+        "Emery D. Berger",
+        "Scott F. Kaplan",
+        "J. Eliot B. Moss"
+      ],
+      "pages": "103-116",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YangBKM06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YangBKM06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/yang_ting.html"
+      ]
+    },
+    {
+      "title": "Data Management for Internet-Scale Single-Sign-On",
+      "authors": [
+        "Sharon E. Perl",
+        "Margo I. Seltzer"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PerlS06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PerlS06.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-06/data-management-internet-scale-single-sign"
+      ]
+    },
+    {
+      "title": "Distributed Directory Service in the Farsite File System",
+      "authors": [
+        "John R. Douceur",
+        "Jon Howell"
+      ],
+      "pages": "321-334",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DouceurH06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DouceurH06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/douceur.html"
+      ]
+    },
+    {
+      "title": "EnsemBlue: Integrating Distributed Storage and Consumer Electronics",
+      "authors": [
+        "Daniel Peek",
+        "Jason Flinn"
+      ],
+      "pages": "219-232",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PeekF06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PeekF06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/peek.html"
+      ]
+    },
+    {
+      "title": "Experiences Building PlanetLab",
+      "authors": [
+        "Larry L. Peterson",
+        "Andy C. Bavier",
+        "Marc E. Fiuczynski",
+        "Steve Muir"
+      ],
+      "pages": "351-366",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PetersonBFM06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PetersonBFM06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/peterson.html"
+      ]
+    },
+    {
+      "title": "EXPLODE: A Lightweight, General System for Finding Serious Storage System Errors",
+      "authors": [
+        "Junfeng Yang",
+        "Can Sar",
+        "Dawson R. Engler"
+      ],
+      "pages": "131-146",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YangSE06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YangSE06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/yang_junfeng.html"
+      ]
+    },
+    {
+      "title": "Fidelity and Yield in a Volcano Monitoring Sensor Network",
+      "authors": [
+        "Geoffrey Werner-Allen",
+        "Konrad Lorincz",
+        "Jeff Johnson 0001",
+        "Jonathan Lees",
+        "Matt Welsh"
+      ],
+      "pages": "381-396",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Werner-AllenLJLW06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Werner-AllenLJLW06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/werner-allen.html"
+      ]
+    },
+    {
+      "title": "Flight Data Recorder: Monitoring Persistent-State Interactions to Improve Systems Management",
+      "authors": [
+        "Chad Verbowski",
+        "Emre Kiciman",
+        "Arunvijay Kumar",
+        "Brad Daniels",
+        "Shan Lu 0001",
+        "Juhan Lee",
+        "Yi-Min Wang",
+        "Roussi Roussev"
+      ],
+      "pages": "117-130",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/VerbowskiKKDLLWR06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/VerbowskiKKDLLWR06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/verbowski.html"
+      ]
+    },
+    {
+      "title": "From Uncertainty to Belief: Inferring the Specification Within",
+      "authors": [
+        "Ted Kremenek",
+        "Paul Twohey",
+        "Godmar Back",
+        "Andrew Y. Ng",
+        "Dawson R. Engler"
+      ],
+      "pages": "161-176",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KremenekTBNE06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KremenekTBNE06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/kremenek.html"
+      ]
+    },
+    {
+      "title": "Geolocalization on the Internet through Constraint Satisfaction",
+      "authors": [
+        "Bernard Wong 0001",
+        "Ivan Stoyanov",
+        "Emin G&uuml;n Sirer"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WongSS06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WongSS06.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-06/geolocalization-internet-through-constraint-satisfaction"
+      ]
+    },
+    {
+      "title": "HQ Replication: A Hybrid Quorum Protocol for Byzantine Fault Tolerance",
+      "authors": [
+        "James A. Cowling",
+        "Daniel S. Myers",
+        "Barbara Liskov",
+        "Rodrigo Rodrigues 0001",
+        "Liuba Shrira"
+      ],
+      "pages": "177-190",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CowlingMLRS06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CowlingMLRS06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/cowling.html"
+      ]
+    },
+    {
+      "title": "iPlane: An Information Plane for Distributed Services",
+      "authors": [
+        "Harsha V. Madhyastha",
+        "Tomas Isdal",
+        "Michael Piatek",
+        "Colin Dixon",
+        "Thomas E. Anderson",
+        "Arvind Krishnamurthy",
+        "Arun Venkataramani"
+      ],
+      "pages": "367-380",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MadhyasthaIPDAKV06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MadhyasthaIPDAKV06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/madhyastha.html"
+      ]
+    },
+    {
+      "title": "Making Information Flow Explicit in HiStar",
+      "authors": [
+        "Nickolai Zeldovich",
+        "Silas Boyd-Wickizer",
+        "Eddie Kohler",
+        "David Mazi&egrave;res"
+      ],
+      "pages": "263-278",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZeldovichBKM06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZeldovichBKM06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/zeldovich.html"
+      ]
+    },
+    {
+      "title": "Operating System Profiling via Latency Analysis",
+      "authors": [
+        "Nikolai Joukov",
+        "Avishay Traeger",
+        "Rakesh Iyer",
+        "Charles P. Wright",
+        "Erez Zadok"
+      ],
+      "pages": "89-102",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/JoukovTIWZ06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/JoukovTIWZ06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/joukov.html"
+      ]
+    },
+    {
+      "title": "Optimizing Grid Site Manager Performance with Virtual Machines",
+      "authors": [
+        "Ludmila Cherkasova",
+        "Diwaker Gupta",
+        "Eygene Ryabinkin",
+        "Roman Kurakin",
+        "Vladimir Dobretsov",
+        "Amin Vahdat"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CherkasovaGRKDV06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CherkasovaGRKDV06.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-06/optimizing-grid-site-manager-performance-virtual-machines"
+      ]
+    },
+    {
+      "title": "Persistent Personal Names for Globally Connected Mobile Devices",
+      "authors": [
+        "Bryan Ford",
+        "Jacob Strauss",
+        "Chris Lesniewski-Laas",
+        "Sean C. Rhea",
+        "M. Frans Kaashoek",
+        "Robert Morris 0005"
+      ],
+      "pages": "233-248",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FordSLRKM06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FordSLRKM06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/ford.html"
+      ]
+    },
+    {
+      "title": "Resource Management for Global Public Computing: Many Policies Are Better Than (N)one",
+      "authors": [
+        "Evangelos Kotsovinos",
+        "Iulia Ion",
+        "Tim Harris 0001"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KotsovinosIH06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KotsovinosIH06.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-06/resource-management-global-public-computing-many-policies-are-better-none"
+      ]
+    },
+    {
+      "title": "Rethink the Sync (Awarded Best Paper!)",
+      "authors": [
+        "Edmund B. Nightingale",
+        "Kaushik Veeraraghavan",
+        "Peter M. Chen",
+        "Jason Flinn"
+      ],
+      "pages": "1-14",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/NightingaleVCF06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/NightingaleVCF06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/nightingale.html"
+      ]
+    },
+    {
+      "title": "SafeDrive: Safe and Recoverable Extensions Using Language-Based Techniques",
+      "authors": [
+        "Feng Zhou",
+        "Jeremy Condit",
+        "Zachary R. Anderson",
+        "Ilya Bagrak",
+        "Robert Ennals",
+        "Matthew Harren",
+        "George C. Necula",
+        "Eric A. Brewer"
+      ],
+      "pages": "45-60",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhouCABEHNB06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhouCABEHNB06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/zhou.html"
+      ]
+    },
+    {
+      "title": "Securing Software by Enforcing Data-flow Integrity",
+      "authors": [
+        "Miguel Castro 0001",
+        "Manuel Costa",
+        "Tim Harris 0001"
+      ],
+      "pages": "147-160",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CastroCH06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CastroCH06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/castro.html"
+      ]
+    },
+    {
+      "title": "Splitting Interfaces: Making Trust Between Applications and Operating Systems Configurable",
+      "authors": [
+        "Richard Ta-Min",
+        "Lionel Litty",
+        "David Lie"
+      ],
+      "pages": "279-292",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Ta-MinLL06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Ta-MinLL06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/ta-min.html"
+      ]
+    },
+    {
+      "title": "Stasis: Flexible Transactional Storage",
+      "authors": [
+        "Russell Sears",
+        "Eric A. Brewer"
+      ],
+      "pages": "29-44",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SearsB06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SearsB06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/sears.html"
+      ]
+    },
+    {
+      "title": "The Chubby Lock Service for Loosely-Coupled Distributed Systems",
+      "authors": [
+        "Michael Burrows"
+      ],
+      "pages": "335-350",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Burrows06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Burrows06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/burrows.html"
+      ]
+    },
+    {
+      "title": "Towards Fingerpointing in the Emulab Dynamic Distributed System",
+      "authors": [
+        "Michael P. Kasick",
+        "Priya Narasimhan",
+        "Kevin Atkinson",
+        "Jay Lepreau"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KasickNAL06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KasickNAL06.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-06/towards-fingerpointing-emulab-dynamic-distributed-system"
+      ]
+    },
+    {
+      "title": "Type-Safe Disks",
+      "authors": [
+        "Gopalan Sivathanu",
+        "Swaminathan Sundararaman",
+        "Erez Zadok"
+      ],
+      "pages": "15-28",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SivathanuSZ06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SivathanuSZ06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/sivathanu.html"
+      ]
+    },
+    {
+      "title": "XFI: Software Guards for System Address Spaces",
+      "authors": [
+        "&Uacute;lfar Erlingsson",
+        "Mart&iacute;n Abadi",
+        "Michael Vrable",
+        "Mihai Budiu",
+        "George C. Necula"
+      ],
+      "pages": "75-88",
+      "year": "2006",
+      "venue": "OSDI 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ErlingssonAVBN06",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ErlingssonAVBN06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi06/tech/erlingsson.html"
+      ]
+    }
+  ]
+}

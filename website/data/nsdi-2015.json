@@ -1,0 +1,847 @@
+{
+  "id": "nsdi-2015",
+  "venue": "nsdi",
+  "year": 2015,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2015.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2015.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2015",
+    "conf/nsdi/2015-1",
+    "conf/nsdi/2015-2",
+    "conf/nsdi/2015-3",
+    "conf/nsdi/2015-4",
+    "conf/nsdi/2015-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 42,
+  "display_count": 42,
+  "papers": [
+    {
+      "title": "A General Approach to Network Configuration Analysis",
+      "authors": [
+        "Ari Fogel",
+        "Stanley Fung",
+        "Luis Pedrosa",
+        "Meg Walraed-Sullivan",
+        "Ramesh Govindan",
+        "Ratul Mahajan",
+        "Todd D. Millstein"
+      ],
+      "pages": "469-483",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FogelFPWGMM15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FogelFPWGMM15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/fogel"
+      ]
+    },
+    {
+      "title": "Analyzing Protocol Implementations for Interoperability",
+      "authors": [
+        "Luis Pedrosa",
+        "Ari Fogel",
+        "Nupur Kothari",
+        "Ramesh Govindan",
+        "Ratul Mahajan",
+        "Todd D. Millstein"
+      ],
+      "pages": "485-498",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PedrosaFKGMM15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PedrosaFKGMM15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/pedrosa"
+      ]
+    },
+    {
+      "title": "Atomix: A Framework for Deploying Signal Processing Applications on Wireless Infrastructure",
+      "authors": [
+        "Manu Bansal",
+        "Aaron Schulman",
+        "Sachin Katti"
+      ],
+      "pages": "173-188",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BansalSK15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BansalSK15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/bansal"
+      ]
+    },
+    {
+      "title": "Attaining the Promise and Avoiding the Pitfalls of TCP in the Datacenter",
+      "authors": [
+        "Glenn Judd"
+      ],
+      "pages": "145-157",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Judd15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Judd15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/judd"
+      ]
+    },
+    {
+      "title": "Beyond Sensing: Multi-GHz Realtime Spectrum Analytics",
+      "authors": [
+        "Lixin Shi",
+        "Paramvir Bahl",
+        "Dina Katabi"
+      ],
+      "pages": "159-172",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShiBK15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShiBK15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/shi"
+      ]
+    },
+    {
+      "title": "C3: Cutting Tail Latency in Cloud Data Stores via Adaptive Replica Selection",
+      "authors": [
+        "P. Lalith Suresh",
+        "Marco Canini",
+        "Stefan Schmid 0001",
+        "Anja Feldmann"
+      ],
+      "pages": "513-527",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SureshCSF15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SureshCSF15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/suresh"
+      ]
+    },
+    {
+      "title": "C3: Internet-Scale Control Plane for Video Quality Optimization",
+      "authors": [
+        "Aditya Ganjam",
+        "Faisal Siddiqui",
+        "Jibin Zhan",
+        "Xi Liu",
+        "Ion Stoica",
+        "Junchen Jiang",
+        "Vyas Sekar",
+        "Hui Zhang 0001"
+      ],
+      "pages": "131-144",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GanjamSZLSJS015",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GanjamSZLSJS015.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/ganjam"
+      ]
+    },
+    {
+      "title": "CellIQ : Real-Time Cellular Network Analytics at Scale",
+      "authors": [
+        "Anand P. Iyer",
+        "Li Erran Li",
+        "Ion Stoica"
+      ],
+      "pages": "309-322",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/IyerLS15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/IyerLS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/iyer"
+      ]
+    },
+    {
+      "title": "Checking Beliefs in Dynamic Networks",
+      "authors": [
+        "Nuno P. Lopes",
+        "Nikolaj S. Bj&oslash;rner",
+        "Patrice Godefroid",
+        "Karthick Jayaraman",
+        "George Varghese"
+      ],
+      "pages": "499-512",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LopesBGJV15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LopesBGJV15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/lopes"
+      ]
+    },
+    {
+      "title": "Compiling Packet Programs to Reconfigurable Switches",
+      "authors": [
+        "Lavanya Jose",
+        "Lisa Yan",
+        "George Varghese",
+        "Nick McKeown"
+      ],
+      "pages": "103-115",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JoseYVM15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JoseYVM15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/jose"
+      ]
+    },
+    {
+      "title": "CosTLO: Cost-Effective Redundancy for Lower Latency Variance on Cloud Storage Services",
+      "authors": [
+        "Zhe Wu 0003",
+        "Curtis Yu",
+        "Harsha V. Madhyastha"
+      ],
+      "pages": "543-557",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WuYM15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WuYM15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/wu"
+      ]
+    },
+    {
+      "title": "CoVisor: A Compositional Hypervisor for Software-Defined Networks",
+      "authors": [
+        "Xin Jin 0008",
+        "Jennifer Gossels",
+        "Jennifer Rexford",
+        "David Walker 0001"
+      ],
+      "pages": "87-101",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JinGRW15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JinGRW15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/jin"
+      ]
+    },
+    {
+      "title": "CubicRing: Enabling One-Hop Failure Detection and Recovery for Distributed In-Memory Storage Systems",
+      "authors": [
+        "Yiming Zhang 0003",
+        "Chuanxiong Guo",
+        "Dongsheng Li 0001",
+        "Rui Chu",
+        "Haitao Wu",
+        "Yongqiang Xiong"
+      ],
+      "pages": "529-542",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangGLCWX15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangGLCWX15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/zhang"
+      ]
+    },
+    {
+      "title": "Designing Distributed Systems Using Approximate Synchrony in Data Center Networks",
+      "authors": [
+        "Dan R. K. Ports",
+        "Jialin Li 0001",
+        "Vincent Liu 0001",
+        "Naveen Kr. Sharma",
+        "Arvind Krishnamurthy"
+      ],
+      "pages": "43-57",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PortsLLSK15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PortsLLSK15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/ports"
+      ]
+    },
+    {
+      "title": "Enforcing Customizable Consistency Properties in Software-Defined Networks",
+      "authors": [
+        "Wenxuan Zhou 0003",
+        "Dong (Kevin) Jin",
+        "Jason Croft",
+        "Matthew Caesar 0001",
+        "Philip Brighten Godfrey"
+      ],
+      "pages": "73-85",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhouJCCG15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhouJCCG15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/zhou"
+      ]
+    },
+    {
+      "title": "Explicit Path Control in Commodity Data Centers: Design and Applications",
+      "authors": [
+        "Shuihai Hu",
+        "Kai Chen 0005",
+        "Haitao Wu",
+        "Wei Bai 0001",
+        "Chang Lan",
+        "Hao Wang 0022",
+        "Hongze Zhao",
+        "Chuanxiong Guo"
+      ],
+      "pages": "15-28",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Hu0WBLWZG15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Hu0WBLWZG15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/hu"
+      ]
+    },
+    {
+      "title": "FastRoute: A Scalable Load-Aware Anycast Routing Architecture for Modern CDNs",
+      "authors": [
+        "Ashley Flavel",
+        "Pradeepkumar Mani",
+        "David A. Maltz",
+        "Nick Holt",
+        "Jie Liu 0001",
+        "Yingying Chen",
+        "Oleg Surmachev"
+      ],
+      "pages": "381-394",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FlavelMMHLCS15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FlavelMMHLCS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/flavel"
+      ]
+    },
+    {
+      "title": "FlexRadio: Fully Flexible Radios and Networks",
+      "authors": [
+        "Bo Chen",
+        "Vivek Yenamandra",
+        "Kannan Srinivasan 0001"
+      ],
+      "pages": "205-218",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChenYS15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChenYS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/chen"
+      ]
+    },
+    {
+      "title": "Flywheel: Google's Data Compression Proxy for the Mobile Web",
+      "authors": [
+        "Victor Agababov",
+        "Michael Buettner",
+        "Victor Chudnovsky",
+        "Mark Cogan",
+        "Ben Greenstein",
+        "Shane McDaniel",
+        "Michael Piatek",
+        "Colin Scott",
+        "Matt Welsh",
+        "Bolian Yin"
+      ],
+      "pages": "367-380",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AgababovBCCGMPS15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AgababovBCCGMPS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/agababov"
+      ]
+    },
+    {
+      "title": "Global Analytics in the Face of Bandwidth and Regulatory Constraints",
+      "authors": [
+        "Ashish Vulimiri",
+        "Carlo Curino",
+        "Philip Brighten Godfrey",
+        "Thomas Jungblut",
+        "Jitu Padhye",
+        "George Varghese"
+      ],
+      "pages": "323-336",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/VulimiriCGJPV15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/VulimiriCGJPV15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/vulimiri"
+      ]
+    },
+    {
+      "title": "Increasing Datacenter Network Utilisation with GRIN",
+      "authors": [
+        "Alexandru Agache",
+        "Razvan Deaconescu",
+        "Costin Raiciu"
+      ],
+      "pages": "29-42",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AgacheDR15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AgacheDR15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/agache"
+      ]
+    },
+    {
+      "title": "Information-Agnostic Flow Scheduling for Commodity Data Centers",
+      "authors": [
+        "Wei Bai 0001",
+        "Kai Chen 0005",
+        "Hao Wang 0022",
+        "Li Chen 0008",
+        "Dongsu Han",
+        "Chen Tian 0001"
+      ],
+      "pages": "455-468",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Bai0WCHT15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Bai0WCHT15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/bai"
+      ]
+    },
+    {
+      "title": "Jitsu: Just-In-Time Summoning of Unikernels",
+      "authors": [
+        "Anil Madhavapeddy",
+        "Thomas Leonard",
+        "Magnus Skjegstad",
+        "Thomas Gazagnaire",
+        "David Sheets",
+        "David J. Scott",
+        "Richard Mortier",
+        "Amir Chaudhry",
+        "Balraj Singh",
+        "Jon Ludlam",
+        "Jon Crowcroft",
+        "Ian M. Leslie"
+      ],
+      "pages": "559-573",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MadhavapeddyLSG15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MadhavapeddyLSG15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/madhavapeddy"
+      ]
+    },
+    {
+      "title": "Kinetic: Verifiable Dynamic Network Control",
+      "authors": [
+        "Hyojoon Kim",
+        "Joshua Reich",
+        "Arpit Gupta",
+        "Muhammad Shahbaz 0001",
+        "Nick Feamster",
+        "Russell J. Clark 0001"
+      ],
+      "pages": "59-72",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KimRGSFC15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KimRGSFC15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/kim"
+      ]
+    },
+    {
+      "title": "Klotski: Reprioritizing Web Content to Improve User Experience on Mobile Devices",
+      "authors": [
+        "Michael Butkiewicz",
+        "Daimeng Wang",
+        "Zhe Wu 0003",
+        "Harsha V. Madhyastha",
+        "Vyas Sekar"
+      ],
+      "pages": "439-453",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ButkiewiczWWMS15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ButkiewiczWWMS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/butkiewicz"
+      ]
+    },
+    {
+      "title": "Making Sense of Performance in Data Analytics Frameworks",
+      "authors": [
+        "Kay Ousterhout",
+        "Ryan Rasti",
+        "Sylvia Ratnasamy",
+        "Scott Shenker",
+        "Byung-Gon Chun"
+      ],
+      "pages": "293-307",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/OusterhoutRRSC15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/OusterhoutRRSC15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/ousterhout"
+      ]
+    },
+    {
+      "title": "ModNet: A Modular Approach to Network Stack Extension",
+      "authors": [
+        "Sharvanath Pathak",
+        "Vivek S. Pai"
+      ],
+      "pages": "425-438",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PathakP15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PathakP15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/pathak"
+      ]
+    },
+    {
+      "title": "Multi-Person Localization via RF Body Reflections",
+      "authors": [
+        "Fadel Adib",
+        "Zachary Kabelac",
+        "Dina Katabi"
+      ],
+      "pages": "279-292",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AdibKK15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AdibKK15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/adib"
+      ]
+    },
+    {
+      "title": "PCC: Re-architecting Congestion Control for Consistent High Performance",
+      "authors": [
+        "Mo Dong",
+        "Qingxi Li",
+        "Doron Zarchy",
+        "Philip Brighten Godfrey",
+        "Michael Schapira"
+      ],
+      "pages": "395-408",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DongLZGS15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DongLZGS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/dong"
+      ]
+    },
+    {
+      "title": "Queues Don't Matter When You Can JUMP Them!",
+      "authors": [
+        "Matthew P. Grosvenor",
+        "Malte Schwarzkopf",
+        "Ionel Gog",
+        "Robert N. M. Watson",
+        "Andrew W. Moore 0002",
+        "Steven Hand 0001",
+        "Jon Crowcroft"
+      ],
+      "pages": "1-14",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GrosvenorSGW0HC15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GrosvenorSGW0HC15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/grosvenor"
+      ]
+    },
+    {
+      "title": "Raising the Bar for Using GPUs in Software Packet Processing",
+      "authors": [
+        "Anuj Kalia",
+        "Dong Zhou 0006",
+        "Michael Kaminsky",
+        "David G. Andersen"
+      ],
+      "pages": "409-423",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KaliaZKA15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KaliaZKA15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/kalia"
+      ]
+    },
+    {
+      "title": "Relative Localization of RFID Tags using Spatial-Temporal Phase Profiling",
+      "authors": [
+        "Longfei Shangguan",
+        "Zheng Yang 0002",
+        "Alex X. Liu",
+        "Zimu Zhou",
+        "Yunhao Liu 0001"
+      ],
+      "pages": "251-263",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShangguanYLZL15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShangguanYLZL15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/shangguan"
+      ]
+    },
+    {
+      "title": "Retro: Targeted Resource Management in Multi-tenant Distributed Systems",
+      "authors": [
+        "Jonathan Mace",
+        "Peter Bod&iacute;k",
+        "Rodrigo Fonseca",
+        "Madanlal Musuvathi"
+      ],
+      "pages": "589-603",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MaceBFM15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MaceBFM15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/mace"
+      ]
+    },
+    {
+      "title": "Ripple: Communicating through Physical Vibration",
+      "authors": [
+        "Nirupam Roy",
+        "Mahanth Gowda",
+        "Romit Roy Choudhury"
+      ],
+      "pages": "265-278",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RoyGC15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RoyGC15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/roy"
+      ]
+    },
+    {
+      "title": "Scalable Error Isolation for Distributed Systems",
+      "authors": [
+        "Diogo Behrens",
+        "Marco Serafini",
+        "Flavio Paiva Junqueira",
+        "Sergei Arnautov",
+        "Christof Fetzer"
+      ],
+      "pages": "605-620",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BehrensSJAF15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BehrensSJAF15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/behrens"
+      ]
+    },
+    {
+      "title": "Securing RFIDs by Randomizing the Modulation and Channel",
+      "authors": [
+        "Haitham Hassanieh",
+        "Jue Wang 0012",
+        "Dina Katabi",
+        "Tadayoshi Kohno"
+      ],
+      "pages": "235-249",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HassaniehWKK15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HassaniehWKK15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/hassanieh"
+      ]
+    },
+    {
+      "title": "Succinct: Enabling Queries on Compressed Data",
+      "authors": [
+        "Rachit Agarwal 0001",
+        "Anurag Khandelwal",
+        "Ion Stoica"
+      ],
+      "pages": "337-350",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AgarwalKS15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AgarwalKS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/agarwal"
+      ]
+    },
+    {
+      "title": "Tardigrade: Leveraging Lightweight Virtual Machines to Easily and Efficiently Construct Fault-Tolerant Services",
+      "authors": [
+        "Jacob R. Lorch",
+        "Andrew Baumann",
+        "Lisa Glendenning",
+        "Dutch T. Meyer",
+        "Andrew Warfield"
+      ],
+      "pages": "575-588",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LorchBGMW15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LorchBGMW15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/lorch"
+      ]
+    },
+    {
+      "title": "The Design and Implementation of Open vSwitch",
+      "authors": [
+        "Ben Pfaff",
+        "Justin Pettit",
+        "Teemu Koponen",
+        "Ethan J. Jackson",
+        "Andy Zhou",
+        "Jarno Rajahalme",
+        "Jesse Gross",
+        "Alex Wang",
+        "Joe Stringer",
+        "Pravin Shelar",
+        "Keith Amidon",
+        "Mart&iacute;n Casado"
+      ],
+      "pages": "117-130",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PfaffPKJZRGWSSA15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PfaffPKJZRGWSSA15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/pfaff"
+      ]
+    },
+    {
+      "title": "Towards Wifi Mobility without Fast Handover",
+      "authors": [
+        "Andrei Croitoru",
+        "Dragos Niculescu",
+        "Costin Raiciu"
+      ],
+      "pages": "219-234",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CroitoruNR15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CroitoruNR15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/croitoru"
+      ]
+    },
+    {
+      "title": "WiDeo: Fine-grained Device-free Motion Tracing using RF Backscatter",
+      "authors": [
+        "Kiran Raj Joshi",
+        "Dinesh Bharadia",
+        "Manikanta Kotaru",
+        "Sachin Katti"
+      ],
+      "pages": "189-204",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JoshiBKK15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JoshiBKK15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/joshi"
+      ]
+    },
+    {
+      "title": "Wormhole: Reliable Pub-Sub to Support Geo-replicated Internet Services",
+      "authors": [
+        "Yogeshwer Sharma",
+        "Philippe Ajoux",
+        "Petchean Ang",
+        "David Callies",
+        "Abhishek Choudhary",
+        "Laurent Demailly",
+        "Thomas Fersch",
+        "Liat Atsmon Guz",
+        "Andrzej Kotulski",
+        "Sachin Kulkarni",
+        "Sanjeev Kumar",
+        "Harry C. Li",
+        "Jun Li",
+        "Evgeniy Makeev",
+        "Kowshik Prakasam",
+        "Robbert van Renesse",
+        "Sabyasachi Roy",
+        "Pratyush Seth",
+        "Yee Jiun Song",
+        "Benjamin Wester",
+        "Kaushik Veeraraghavan",
+        "Peter Xie"
+      ],
+      "pages": "351-366",
+      "year": "2015",
+      "venue": "NSDI 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SharmaAACCDFGKK15",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SharmaAACCDFGKK15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/sharma"
+      ]
+    }
+  ]
+}

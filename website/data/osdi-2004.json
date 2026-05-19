@@ -1,0 +1,740 @@
+{
+  "id": "osdi-2004",
+  "venue": "osdi",
+  "year": 2004,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi2004.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi2004.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/2004",
+    "conf/osdi/2004-1",
+    "conf/osdi/2004-2",
+    "conf/osdi/2004-3",
+    "conf/osdi/2004-4",
+    "conf/osdi/2004-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 40,
+  "display_count": 40,
+  "papers": [
+    {
+      "title": "A Shared Global Event Propagation System to Enable Next Generation Distributed Services",
+      "authors": [
+        "Paul Brett",
+        "Rob C. Knauerhase"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BrettK04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BrettK04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/shared-global-event-propagation-system-enable-next-generation-distributed"
+      ]
+    },
+    {
+      "title": "Automated Worm Fingerprinting",
+      "authors": [
+        "Sumeet Singh",
+        "Cristian Estan",
+        "George Varghese",
+        "Stefan Savage"
+      ],
+      "pages": "45-60",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SinghEVS04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SinghEVS04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/singh.html"
+      ]
+    },
+    {
+      "title": "Automatic Misconfiguration Troubleshooting with PeerPressure",
+      "authors": [
+        "Helen J. Wang",
+        "John C. Platt",
+        "Yu Chen",
+        "Ruyun Zhang",
+        "Yi-Min Wang"
+      ],
+      "pages": "245-258",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangPCZW04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangPCZW04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/wang.html"
+      ]
+    },
+    {
+      "title": "Beyond Availability: Towards a Deeper Understanding of Machine Failure Characteristics in Large Distributed Systems",
+      "authors": [
+        "Praveen Yalagandula",
+        "Suman Nath"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YalagandulaN04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YalagandulaN04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/beyond-availability-towards-deeper-understanding-machine-failure"
+      ]
+    },
+    {
+      "title": "Boxwood: Abstractions as the Foundation for Storage Infrastructure",
+      "authors": [
+        "John MacCormick",
+        "Nick Murphy",
+        "Marc Najork",
+        "Chandramohan A. Thekkath",
+        "Lidong Zhou"
+      ],
+      "pages": "105-120",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MacCormickMNTZ04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MacCormickMNTZ04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/maccormick.html"
+      ]
+    },
+    {
+      "title": "Chain Replication for Supporting High Throughput and Availability",
+      "authors": [
+        "Robbert van Renesse",
+        "Fred B. Schneider"
+      ],
+      "pages": "91-104",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/RenesseS04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/RenesseS04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/renesse.html"
+      ]
+    },
+    {
+      "title": "CoDNS: Improving DNS Performance and Reliability via Cooperative Lookups",
+      "authors": [
+        "KyoungSoo Park",
+        "Vivek S. Pai",
+        "Larry L. Peterson",
+        "Zhe Wang"
+      ],
+      "pages": "199-214",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ParkPPW04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ParkPPW04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/park.html"
+      ]
+    },
+    {
+      "title": "Configuration Debugging as Search: Finding the Needle in the Haystack",
+      "authors": [
+        "Andrew Whitaker",
+        "Richard S. Cox",
+        "Steven D. Gribble"
+      ],
+      "pages": "77-90",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WhitakerCG04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WhitakerCG04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/whitaker.html"
+      ]
+    },
+    {
+      "title": "Correlating Instrumentation Data to System States: A Building Block for Automated Diagnosis and Control",
+      "authors": [
+        "Ira Cohen",
+        "Jeffrey S. Chase",
+        "Mois&eacute;s Goldszmidt",
+        "Terence Kelly",
+        "Julie Symons"
+      ],
+      "pages": "231-244",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CohenCGKS04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CohenCGKS04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/cohen.html"
+      ]
+    },
+    {
+      "title": "CP-Miner: A Tool for Finding Copy-paste and Related Bugs in Operating System Code",
+      "authors": [
+        "Zhenmin Li",
+        "Shan Lu 0001",
+        "Suvda Myagmar",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "289-302",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiLMZ04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiLMZ04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/li_z.html"
+      ]
+    },
+    {
+      "title": "Deploying Large File Transfer on an HTTP Content Distribution Network",
+      "authors": [
+        "KyoungSoo Park",
+        "Vivek S. Pai"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ParkP04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ParkP04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/deploying-large-file-transfer-http-content-distribution-network"
+      ]
+    },
+    {
+      "title": "Deploying Safe User-Level Network Services with icTCP",
+      "authors": [
+        "Haryadi S. Gunawi",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "317-332",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GunawiAA04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GunawiAA04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/gunawi.html"
+      ]
+    },
+    {
+      "title": "Deployment of a Large-scale Peer-to-Peer Social Network",
+      "authors": [
+        "Mao Yang 0004",
+        "Hua Chen",
+        "Ben Y. Zhao",
+        "Yafei Dai",
+        "Zheng Zhang 0001"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YangCZDZ04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YangCZDZ04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/deployment-large-scale-peer-peer-social-network"
+      ]
+    },
+    {
+      "title": "Design Considerations for Information Planes",
+      "authors": [
+        "Brent N. Chun",
+        "Joseph M. Hellerstein"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChunH04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChunH04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/design-considerations-information-planes"
+      ]
+    },
+    {
+      "title": "DISC: A System for Distributed Data Intensive Scientific Computing",
+      "authors": [
+        "George Kola",
+        "Tevfik Kosar",
+        "Jaime Frey",
+        "Miron Livny",
+        "Robert Brunner",
+        "Michael Remijan"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KolaKFLBR04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KolaKFLBR04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/disc-system-distributed-data-intensive-scientific-computing"
+      ]
+    },
+    {
+      "title": "Distributed Resource Discovery on PlanetLab with SWORD",
+      "authors": [
+        "David Oppenheimer",
+        "Jeannie R. Albrecht",
+        "David A. Patterson 0001",
+        "Amin Vahdat"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/OppenheimerAPV04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/OppenheimerAPV04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/distributed-resource-discovery-planetlab-sword"
+      ]
+    },
+    {
+      "title": "Energy-Efficiency and Storage Flexibility in the Blue File System",
+      "authors": [
+        "Edmund B. Nightingale",
+        "Jason Flinn"
+      ],
+      "pages": "363-378",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/NightingaleF04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/NightingaleF04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/nightingale.html"
+      ]
+    },
+    {
+      "title": "Enhancing Server Availability and Security Through Failure-Oblivious Computing",
+      "authors": [
+        "Martin C. Rinard",
+        "Cristian Cadar",
+        "Daniel Dumitran",
+        "Daniel M. Roy 0001",
+        "Tudor Leu",
+        "William S. Beebee"
+      ],
+      "pages": "303-316",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/RinardCDRLB04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/RinardCDRLB04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/rinard.html"
+      ]
+    },
+    {
+      "title": "FFPF: Fairly Fast Packet Filters",
+      "authors": [
+        "Herbert Bos",
+        "Willem de Bruijn",
+        "Mihai-Lucian Cristea",
+        "Trung Nguyen",
+        "Georgios Portokalidis"
+      ],
+      "pages": "347-363",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BosBCNP04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BosBCNP04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/bos.html"
+      ]
+    },
+    {
+      "title": "FUSE: Lightweight Guaranteed Distributed Failure Notification",
+      "authors": [
+        "John Dunagan",
+        "Nicholas J. A. Harvey",
+        "Michael B. Jones",
+        "Dejan Kostic",
+        "Marvin Theimer",
+        "Alec Wolman"
+      ],
+      "pages": "151-166",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DunaganHJKTW04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DunaganHJKTW04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/dunagan.html"
+      ]
+    },
+    {
+      "title": "Global-scale Service Deployment in the XenoServer Platform",
+      "authors": [
+        "Evangelos Kotsovinos",
+        "Tim D. Moreton",
+        "Ian Pratt 0001",
+        "Russ Ross",
+        "Keir Fraser",
+        "Steven Hand 0001",
+        "Tim Harris 0001"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KotsovinosMPRFHH04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KotsovinosMPRFHH04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/global-scale-service-deployment-xenoserver-platform"
+      ]
+    },
+    {
+      "title": "Implementing the Emulab-PlanetLab Portal: Experience and Lessons Learned",
+      "authors": [
+        "Kirk Webb",
+        "Mike Hibler"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WebbH04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WebbH04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/implementing-emulab-planetlab-portal-experience-and-lessons-learned"
+      ]
+    },
+    {
+      "title": "Improving the Reliability of Internet Paths with One-hop Source Routing",
+      "authors": [
+        "P. Krishna Gummadi",
+        "Harsha V. Madhyastha",
+        "Steven D. Gribble",
+        "Henry M. Levy",
+        "David Wetherall"
+      ],
+      "pages": "183-198",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GummadiMGLW04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GummadiMGLW04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/gummadi.html"
+      ]
+    },
+    {
+      "title": "ksniffer: Determining the Remote Client Perceived Response Time from Live Packet Streams",
+      "authors": [
+        "David P. Olshefski",
+        "Jason Nieh",
+        "Erich M. Nahum"
+      ],
+      "pages": "333-346",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/OlshefskiNN04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/OlshefskiNN04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/olshefski.html"
+      ]
+    },
+    {
+      "title": "Lessons from E-speak",
+      "authors": [
+        "Alan H. Karp"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Karp04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Karp04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/lessons-e-speak"
+      ]
+    },
+    {
+      "title": "Life or Death at Block-Level",
+      "authors": [
+        "Muthian Sivathanu",
+        "Lakshmi N. Bairavasundaram",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "379-394",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SivathanuBAA04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SivathanuBAA04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/sivathanu.html"
+      ]
+    },
+    {
+      "title": "MapReduce: Simplified Data Processing on Large Clusters",
+      "authors": [
+        "Jeffrey Dean",
+        "Sanjay Ghemawat"
+      ],
+      "pages": "137-150",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DeanG04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DeanG04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/dean.html"
+      ]
+    },
+    {
+      "title": "Microreboot - A Technique for Cheap Recovery",
+      "authors": [
+        "George Candea",
+        "Shinichi Kawamoto",
+        "Yuichi Fujiki",
+        "Greg Friedman",
+        "Armando Fox"
+      ],
+      "pages": "31-44",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CandeaKFFF04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CandeaKFFF04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/candea.html"
+      ]
+    },
+    {
+      "title": "Middleboxes No Longer Considered Harmful",
+      "authors": [
+        "Michael Walfish",
+        "Jeremy Stribling",
+        "Maxwell N. Krohn",
+        "Hari Balakrishnan",
+        "Robert Morris 0005",
+        "Scott Shenker"
+      ],
+      "pages": "215-230",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WalfishSKBMS04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WalfishSKBMS04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/walfish.html"
+      ]
+    },
+    {
+      "title": "PlanetSeer: Internet Path Failure Monitoring and Characterization in Wide-Area Services",
+      "authors": [
+        "Ming Zhang 0005",
+        "Chi Zhang 0070",
+        "Vivek S. Pai",
+        "Larry L. Peterson",
+        "Randolph Y. Wang"
+      ],
+      "pages": "167-182",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhangZPPW04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhangZPPW04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/zhang.html"
+      ]
+    },
+    {
+      "title": "Program-Counter-Based Pattern Classification in Buffer Caching",
+      "authors": [
+        "Chris Gniady",
+        "Ali Raza Butt",
+        "Y. Charlie Hu"
+      ],
+      "pages": "395-408",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GniadyBH04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GniadyBH04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/gnaidy.html"
+      ]
+    },
+    {
+      "title": "Recovering Device Drivers (Awarded Best Paper!)",
+      "authors": [
+        "Michael M. Swift",
+        "Muthukaruppan Annamalai",
+        "Brian N. Bershad",
+        "Henry M. Levy"
+      ],
+      "pages": "1-16",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SwiftABL04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SwiftABL04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/swift.html"
+      ]
+    },
+    {
+      "title": "Safely Harnessing Wide Area Surrogate Computing or How to Avoid Building the Perfect Platform for Network Attacks",
+      "authors": [
+        "Sachin Goyal",
+        "John Carter"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GoyalC04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GoyalC04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/safely-harnessing-wide-area-surrogate-computing-or-how-avoid-building-perfect"
+      ]
+    },
+    {
+      "title": "Secure Untrusted Data Repository (SUNDR)",
+      "authors": [
+        "Jinyuan Li",
+        "Maxwell N. Krohn",
+        "David Mazi&egrave;res",
+        "Dennis E. Shasha"
+      ],
+      "pages": "121-136",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiKMS04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiKMS04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/li_j.html"
+      ]
+    },
+    {
+      "title": "The Seven Deadly Sins of Distributed Systems",
+      "authors": [
+        "Steve Muir"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Muir04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Muir04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/seven-deadly-sins-distributed-systems"
+      ]
+    },
+    {
+      "title": "Towards a Deployable IP Anycast Service",
+      "authors": [
+        "Hitesh Ballani",
+        "Paul Francis"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BallaniF04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BallaniF04.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/worlds-04/towards-deployable-ip-anycast-service"
+      ]
+    },
+    {
+      "title": "Understanding and Dealing with Operator Mistakes in Internet Services",
+      "authors": [
+        "Kiran Nagaraja",
+        "F&aacute;bio Oliveira",
+        "Ricardo Bianchini",
+        "Richard P. Martin",
+        "Thu D. Nguyen"
+      ],
+      "pages": "61-76",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/NagarajaOBMN04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/NagarajaOBMN04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/naragaraja.html"
+      ]
+    },
+    {
+      "title": "Unmodified Device Driver Reuse and Improved System Dependability via Virtual Machines",
+      "authors": [
+        "Joshua LeVasseur",
+        "Volkmar Uhlig",
+        "Jan Stoess",
+        "Stefan G&ouml;tz 0004"
+      ],
+      "pages": "17-30",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LevasseurUSG04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LevasseurUSG04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/levasseur.html"
+      ]
+    },
+    {
+      "title": "Using Magpie for Request Extraction and Workload Modelling",
+      "authors": [
+        "Paul Barham 0001",
+        "Austin Donnelly",
+        "Rebecca Isaacs",
+        "Richard Mortier"
+      ],
+      "pages": "259-272",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BarhamDIM04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BarhamDIM04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/barham.html"
+      ]
+    },
+    {
+      "title": "Using Model Checking to Find Serious File System Errors (Awarded Best Paper!)",
+      "authors": [
+        "Junfeng Yang",
+        "Paul Twohey",
+        "Dawson R. Engler",
+        "Madanlal Musuvathi"
+      ],
+      "pages": "273-288",
+      "year": "2004",
+      "venue": "OSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YangTEM04",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YangTEM04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi04/tech/yang.html"
+      ]
+    }
+  ]
+}

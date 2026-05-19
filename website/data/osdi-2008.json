@@ -1,0 +1,1182 @@
+{
+  "id": "osdi-2008",
+  "venue": "osdi",
+  "year": 2008,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi2008.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi2008.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/2008",
+    "conf/osdi/2008-1",
+    "conf/osdi/2008-2",
+    "conf/osdi/2008-3",
+    "conf/osdi/2008-4",
+    "conf/osdi/2008-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 64,
+  "display_count": 64,
+  "papers": [
+    {
+      "title": "A Comparison of High-Level Full-System Power Models",
+      "authors": [
+        "Suzanne Rivoire",
+        "Parthasarathy Ranganathan",
+        "Christos Kozyrakis"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/RivoireRK08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/RivoireRK08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/full_papers/rivoire/rivoire.pdf"
+      ]
+    },
+    {
+      "title": "An Internet Protocol Address Clustering Algorithm",
+      "authors": [
+        "Robert Beverly",
+        "Karen R. Sollins"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BeverlyS08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BeverlyS08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/sysml08/tech/full_papers/beverly/beverly.pdf"
+      ]
+    },
+    {
+      "title": "Automating Network Application Dependency Discovery: Experiences, Limitations, and New Solutions",
+      "authors": [
+        "Xu Chen 0028",
+        "Ming Zhang 0005",
+        "Zhuoqing Morley Mao",
+        "Paramvir Bahl"
+      ],
+      "pages": "117-130",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChenZMB08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChenZMB08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/chen_xu/chen_xu.pdf"
+      ]
+    },
+    {
+      "title": "Avoiding File System Micromanagement with Range Writes",
+      "authors": [
+        "Ashok Anand",
+        "Sayandeep Sen",
+        "Andrew Krioukov",
+        "Florentina I. Popovici",
+        "Aditya Akella",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Suman Banerjee 0001"
+      ],
+      "pages": "161-176",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AnandSKPAAAB08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AnandSKPAAAB08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/anand/anand.pdf"
+      ]
+    },
+    {
+      "title": "Binary Translation Using Peephole Superoptimizers",
+      "authors": [
+        "Sorav Bansal",
+        "Alex Aiken"
+      ],
+      "pages": "177-192",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BansalA08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BansalA08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/bansal/bansal.pdf"
+      ]
+    },
+    {
+      "title": "Block Mason",
+      "authors": [
+        "Dutch T. Meyer",
+        "Brendan Cully",
+        "Jake Wires",
+        "Norman C. Hutchinson",
+        "Andrew Warfield"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MeyerCWHW08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MeyerCWHW08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wiov08/tech/full_papers/meyer/meyer.pdf"
+      ]
+    },
+    {
+      "title": "Carnegie Mellon's CyDAT: Harnessing a Wide Array of Telemetry Data to Enhance Distributed System Diagnostics",
+      "authors": [
+        "Chas DiFatta",
+        "Mark Poepping",
+        "Daniel V. Klein"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DiFattaPK08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DiFattaPK08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wasl/tech/full_papers/difatta/difatta.pdf"
+      ]
+    },
+    {
+      "title": "CLUEBOX: A Performance Log Analyzer for Automated Troubleshooting",
+      "authors": [
+        "S. Ratna Sandeep",
+        "M. Swapna",
+        "Thirumale Niranjan",
+        "Sai Susarla",
+        "Siddhartha Nandi"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SandeepSNSN08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SandeepSNSN08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wasl/tech/full_papers/sandeep/sandeep.pdf"
+      ]
+    },
+    {
+      "title": "Corey: An Operating System for Many Cores",
+      "authors": [
+        "Silas Boyd-Wickizer",
+        "Haibo Chen 0001",
+        "Rong Chen 0001",
+        "Yandong Mao",
+        "M. Frans Kaashoek",
+        "Robert Morris 0005",
+        "Aleksey Pesterev",
+        "Lex Stein",
+        "Ming Wu 0007",
+        "Yue-hua Dai",
+        "Yang Zhang",
+        "Zheng Zhang 0001"
+      ],
+      "pages": "43-57",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Boyd-WickizerCCMKMPSWDZZ08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Boyd-WickizerCCMKMPSWDZZ08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/boyd-wickizer/boyd-wickizer.pdf"
+      ]
+    },
+    {
+      "title": "CuriOS: Improving Reliability through Operating System Structure",
+      "authors": [
+        "Francis M. David",
+        "Ellick Chan",
+        "Jeffrey C. Carlyle",
+        "Roy H. Campbell"
+      ],
+      "pages": "59-72",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DavidCCC08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DavidCCC08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/david/david.pdf"
+      ]
+    },
+    {
+      "title": "Deadlock Immunity: Enabling Systems to Defend Against Deadlocks",
+      "authors": [
+        "Horatiu Jula",
+        "Daniel M. Tralamazza",
+        "Cristian Zamfir",
+        "George Candea"
+      ],
+      "pages": "295-308",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/JulaTZC08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/JulaTZC08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/jula/jula.pdf"
+      ]
+    },
+    {
+      "title": "Delivering Energy Proportionality with Non Energy-Proportional Systems - Optimizing the Ensemble",
+      "authors": [
+        "Niraj Tolia",
+        "Zhikui Wang",
+        "Manish Marwah",
+        "Cullen E. Bash",
+        "Parthasarathy Ranganathan",
+        "Xiaoyun Zhu"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ToliaWMBRZ08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ToliaWMBRZ08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/full_papers/tolia/tolia.pdf"
+      ]
+    },
+    {
+      "title": "Device Driver Safety Through a Reference Validation Mechanism",
+      "authors": [
+        "Dan Williams 0001",
+        "Patrick Reynolds",
+        "Kevin Walsh 0001",
+        "Emin G&uuml;n Sirer",
+        "Fred B. Schneider"
+      ],
+      "pages": "241-254",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WilliamsRWSS08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WilliamsRWSS08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/williams/williams.pdf"
+      ]
+    },
+    {
+      "title": "Difference Engine: Harnessing Memory Redundancy in Virtual Machines",
+      "authors": [
+        "Diwaker Gupta",
+        "Sangmin Lee",
+        "Michael Vrable",
+        "Stefan Savage",
+        "Alex C. Snoeren",
+        "George Varghese",
+        "Geoffrey M. Voelker",
+        "Amin Vahdat"
+      ],
+      "pages": "309-322",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GuptaLVSSVVV08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GuptaLVSSVVV08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/gupta/gupta.pdf"
+      ]
+    },
+    {
+      "title": "Digging for Data Structures",
+      "authors": [
+        "Anthony Cozzie",
+        "Frank Stratton",
+        "Hui Xue 0007",
+        "Samuel T. King"
+      ],
+      "pages": "255-266",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CozzieSXK08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CozzieSXK08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/cozzie/cozzie.pdf"
+      ]
+    },
+    {
+      "title": "Disk Drive Workload Captured in Logs Collected During the Field Return Incoming Test",
+      "authors": [
+        "Alma Riska",
+        "Erik Riedel"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/RiskaR08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/RiskaR08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wasl/tech/full_papers/riska/riska.pdf"
+      ]
+    },
+    {
+      "title": "DryadLINQ: A System for General-Purpose Distributed Data-Parallel Computing Using a High-Level Language",
+      "authors": [
+        "Yuan Yu",
+        "Michael Isard",
+        "Dennis Fetterly",
+        "Mihai Budiu",
+        "&Uacute;lfar Erlingsson",
+        "Pradeep Kumar Gunda",
+        "Jon Currey"
+      ],
+      "pages": "1-14",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YuIFBEGC08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YuIFBEGC08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/yu_y/yu_y.pdf"
+      ]
+    },
+    {
+      "title": "Empirical Analysis on Energy Efficiency of Flash-based SSDs",
+      "authors": [
+        "Euiseong Seo",
+        "Seon-Yeong Park",
+        "Bhuvan Urgaonkar"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SeoPU08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SeoPU08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/full_papers/seo/seo.pdf"
+      ]
+    },
+    {
+      "title": "Empirical Comparison of Techniques for Automated Failure Diagnosis",
+      "authors": [
+        "Songyun Duan",
+        "Shivnath Babu"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DuanB08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DuanB08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/sysml08/tech/full_papers/duan/duan.pdf"
+      ]
+    },
+    {
+      "title": "Error Log Processing for Accurate Failure Prediction",
+      "authors": [
+        "Felix Salfner",
+        "Steffen Tschirpke"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SalfnerT08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SalfnerT08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wasl/tech/full_papers/salfner/salfner.pdf"
+      ]
+    },
+    {
+      "title": "Everest: Scaling Down Peak Loads Through I/O Off-Loading",
+      "authors": [
+        "Dushyanth Narayanan",
+        "Austin Donnelly",
+        "Eno Thereska",
+        "Sameh Elnikety",
+        "Antony I. T. Rowstron"
+      ],
+      "pages": "15-28",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/NarayananDTER08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/NarayananDTER08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/narayanan/narayanan.pdf"
+      ]
+    },
+    {
+      "title": "Experiences with Content Addressable Storage and Virtual Disks",
+      "authors": [
+        "Anthony Liguori",
+        "Eric Van Hensbergen"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiguoriH08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiguoriH08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wiov08/tech/full_papers/liguori/liguori.pdf"
+      ]
+    },
+    {
+      "title": "Finding and Reproducing Heisenbugs in Concurrent Programs",
+      "authors": [
+        "Madanlal Musuvathi",
+        "Shaz Qadeer",
+        "Thomas Ball 0001",
+        "G&eacute;rard Basler",
+        "Piramanayagam Arumuga Nainar",
+        "Iulian Neamtiu"
+      ],
+      "pages": "267-280",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MusuvathiQBBNN08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MusuvathiQBBNN08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/musuvathi/musuvathi.pdf"
+      ]
+    },
+    {
+      "title": "Finding Similar Failures Using Callstack Similarity",
+      "authors": [
+        "Kevin Bartz",
+        "Jack W. Stokes",
+        "John C. Platt",
+        "Ryan Kivett",
+        "David Grant",
+        "Silviu Calinoiu",
+        "Gretchen Loihle"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BartzSPKGCL08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BartzSPKGCL08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/sysml08/tech/full_papers/bartz/bartz.pdf"
+      ]
+    },
+    {
+      "title": "FlightPath: Obedience vs. Choice in Cooperative Services",
+      "authors": [
+        "Harry C. Li",
+        "Allen Clement",
+        "Mirco Marchetti",
+        "Manos Kapritsos",
+        "Luke Robison",
+        "Lorenzo Alvisi",
+        "Michael Dahlin"
+      ],
+      "pages": "355-368",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiCMKRAD08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiCMKRAD08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/li_h/li_h.pdf"
+      ]
+    },
+    {
+      "title": "From Optimization to Regret Minimization and Back Again",
+      "authors": [
+        "Ioannis C. Avramopoulos",
+        "Jennifer Rexford",
+        "Robert E. Schapire"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AvramopoulosRS08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AvramopoulosRS08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/sysml08/tech/full_papers/avramopoulos/avramopoulos.pdf"
+      ]
+    },
+    {
+      "title": "Gadara: Dynamic Deadlock Avoidance for Multithreaded Programs",
+      "authors": [
+        "Yin Wang 0001",
+        "Terence Kelly",
+        "Manjunath Kudlur",
+        "St&eacute;phane Lafortune",
+        "Scott A. Mahlke"
+      ],
+      "pages": "281-294",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangKKLM08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangKKLM08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/wang/wang.pdf"
+      ]
+    },
+    {
+      "title": "Getting Things Done on Computational RFIDs with Energy-Aware Checkpointing and Voltage-Aware Scheduling",
+      "authors": [
+        "Benjamin Ransford",
+        "Shane S. Clark",
+        "Mastooreh Salajegheh",
+        "Kevin Fu"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/RansfordCSF08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/RansfordCSF08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/full_papers/ransford/ransford.pdf"
+      ]
+    },
+    {
+      "title": "GPU Virtualization on VMware's Hosted I/O Architecture",
+      "authors": [
+        "Micah Dowty",
+        "Jeremy Sugerman"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DowtyS08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DowtyS08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wiov08/tech/full_papers/dowty/dowty.pdf"
+      ]
+    },
+    {
+      "title": "Greening the Switch",
+      "authors": [
+        "Ganesh Ananthanarayanan",
+        "Randy H. Katz"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AnanthanarayananK08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AnanthanarayananK08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/full_papers/ananthanarayanan/ananthanarayanan.pdf"
+      ]
+    },
+    {
+      "title": "Hardware Enforcement of Application Security Policies Using Tagged Memory",
+      "authors": [
+        "Nickolai Zeldovich",
+        "Hari Kannan",
+        "Michael Dalton",
+        "Christos Kozyrakis"
+      ],
+      "pages": "225-240",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZeldovichKDK08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZeldovichKDK08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/zeldovich/zeldovich.pdf"
+      ]
+    },
+    {
+      "title": "HiLighter: Automatically Building Robust Signatures of Performance Behavior for Small- and Large-Scale Systems",
+      "authors": [
+        "Peter Bod&iacute;k",
+        "Mois&eacute;s Goldszmidt",
+        "Armando Fox"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BodikGF08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BodikGF08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/sysml08/tech/full_papers/bodik/bodik.pdf"
+      ]
+    },
+    {
+      "title": "Hot Data Centers vs. Cool Peers",
+      "authors": [
+        "Sergiu Nedevschi",
+        "Sylvia Ratnasamy",
+        "Jitendra Padhye"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/NedevschiRP08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/NedevschiRP08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/full_papers/nedevschi/nedevschi.pdf"
+      ]
+    },
+    {
+      "title": "Hunting for Problems with Artemis",
+      "authors": [
+        "Gabriela F. Cretu-Ciocarlie",
+        "Mihai Budiu",
+        "Mois&eacute;s Goldszmidt"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Cretu-CiocarlieBG08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Cretu-CiocarlieBG08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wasl/tech/full_papers/cretu/cretu.pdf"
+      ]
+    },
+    {
+      "title": "Improving MapReduce Performance in Heterogeneous Environments",
+      "authors": [
+        "Matei Zaharia",
+        "Andy Konwinski",
+        "Anthony D. Joseph",
+        "Randy H. Katz",
+        "Ion Stoica"
+      ],
+      "pages": "29-42",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZahariaKJKS08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZahariaKJKS08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/zaharia/zaharia.pdf"
+      ]
+    },
+    {
+      "title": "KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs",
+      "authors": [
+        "Cristian Cadar",
+        "Daniel Dunbar",
+        "Dawson R. Engler"
+      ],
+      "pages": "209-224",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CadarDE08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CadarDE08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/cadar/cadar.pdf"
+      ]
+    },
+    {
+      "title": "Leveraging Legacy Code to Deploy Desktop Applications on the Web",
+      "authors": [
+        "John R. Douceur",
+        "Jeremy Elson",
+        "Jon Howell",
+        "Jacob R. Lorch"
+      ],
+      "pages": "339-354",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DouceurEHL08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DouceurEHL08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/douceur/douceur.pdf"
+      ]
+    },
+    {
+      "title": "Lightweight, High-Resolution Monitoring for Troubleshooting Production Systems",
+      "authors": [
+        "Sapan Bhatia",
+        "Abhishek Kumar 0003",
+        "Marc E. Fiuczynski",
+        "Larry L. Peterson"
+      ],
+      "pages": "103-116",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BhatiaKFP08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BhatiaKFP08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/bhatia/bhatia.pdf"
+      ]
+    },
+    {
+      "title": "Live Migration of Direct-Access Devices",
+      "authors": [
+        "Asim Kadav",
+        "Michael M. Swift"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KadavS08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KadavS08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wiov08/tech/full_papers/kadav/kadav.pdf"
+      ]
+    },
+    {
+      "title": "Looking Between the Street Lamps",
+      "authors": [
+        "Jeffrey C. Mogul"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Mogul08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Mogul08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/mogul_panel.pdf"
+      ]
+    },
+    {
+      "title": "Memory-aware Scheduling for Energy Efficiency on Multicore Processors",
+      "authors": [
+        "Andreas Merkel",
+        "Frank Bellosa"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MerkelB08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MerkelB08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/full_papers/merkel/merkel.pdf"
+      ]
+    },
+    {
+      "title": "Mencius: Building Efficient Replicated State Machine for WANs",
+      "authors": [
+        "Yanhua Mao",
+        "Flavio Paiva Junqueira",
+        "Keith Marzullo"
+      ],
+      "pages": "369-384",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MaoJM08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MaoJM08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/mao/mao.pdf"
+      ]
+    },
+    {
+      "title": "Mining Console Logs for Large-Scale System Problem Detection",
+      "authors": [
+        "Wei Xu 0012",
+        "Ling Huang 0001",
+        "Armando Fox",
+        "David A. Patterson 0001",
+        "Michael I. Jordan"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/XuHFPJ08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/XuHFPJ08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/sysml08/tech/full_papers/xu/xu.pdf"
+      ]
+    },
+    {
+      "title": "Network Imprecision: A New Consistency Metric for Scalable Monitoring",
+      "authors": [
+        "Navendu Jain",
+        "Prince Mahajan",
+        "Dmitry Kit",
+        "Praveen Yalagandula",
+        "Michael Dahlin",
+        "Yin Zhang"
+      ],
+      "pages": "87-102",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/JainMKYDZ08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/JainMKYDZ08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/jain/jain.pdf"
+      ]
+    },
+    {
+      "title": "On the Impact of Disk Scrubbing on Energy Savings",
+      "authors": [
+        "Guanying Wang",
+        "Ali Raza Butt",
+        "Chris Gniady"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangBG08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangBG08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/full_papers/wang/wang.pdf"
+      ]
+    },
+    {
+      "title": "Paravirtualized Paging",
+      "authors": [
+        "Daniel J. Magenheimer",
+        "Chris Mason",
+        "Dave McCracken",
+        "Kurt Hackel"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MagenheimerMMH08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MagenheimerMMH08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wiov08/tech/full_papers/magenheimer/magenheimer.pdf"
+      ]
+    },
+    {
+      "title": "Picviz: Finding a Needle in a Haystack",
+      "authors": [
+        "S&eacute;bastien Tricaud"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Tricaud08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Tricaud08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wasl/tech/full_papers/tricaud/tricaud.pdf"
+      ]
+    },
+    {
+      "title": "Predicting Computer System Failures Using Support Vector Machines",
+      "authors": [
+        "Errin W. Fulp",
+        "Glenn A. Fink",
+        "Jereme N. Haack"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FulpFH08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FulpFH08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wasl/tech/full_papers/fulp/fulp.pdf"
+      ]
+    },
+    {
+      "title": "Probabilistic Inference in Queueing Networks",
+      "authors": [
+        "Charles Sutton",
+        "Michael I. Jordan"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SuttonJ08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SuttonJ08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/sysml08/tech/full_papers/sutton/sutton.pdf"
+      ]
+    },
+    {
+      "title": "Quanto: Tracking Energy in Networked Embedded Systems",
+      "authors": [
+        "Rodrigo Fonseca",
+        "Prabal Dutta",
+        "Philip Alexander Levis",
+        "Ion Stoica"
+      ],
+      "pages": "323-338",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FonsecaDLS08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FonsecaDLS08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/fonseca/fonseca.pdf"
+      ]
+    },
+    {
+      "title": "R2: An Application-Level Kernel for Record and Replay",
+      "authors": [
+        "Zhenyu Guo",
+        "Xi Wang 0005",
+        "Jian Tang",
+        "Xuezheng Liu",
+        "Zhilei Xu",
+        "Ming Wu 0007",
+        "M. Frans Kaashoek",
+        "Zheng Zhang 0001"
+      ],
+      "pages": "193-208",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GuoWTLXWKZ08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GuoWTLXWKZ08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/guo/guo.pdf"
+      ]
+    },
+    {
+      "title": "Redline: First Class Support for Interactivity in Commodity Operating Systems",
+      "authors": [
+        "Ting Yang",
+        "Tongping Liu",
+        "Emery D. Berger",
+        "Scott F. Kaplan",
+        "J. Eliot B. Moss"
+      ],
+      "pages": "73-86",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YangLBKM08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YangLBKM08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/yang/yang.pdf"
+      ]
+    },
+    {
+      "title": "Run-time Energy Consumption Estimation Based on Workload in Server Systems",
+      "authors": [
+        "Adam Wade Lewis",
+        "Soumik Ghosh",
+        "Nian-Feng Tzeng"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LewisGT08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LewisGT08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/full_papers/lewis/lewis.pdf"
+      ]
+    },
+    {
+      "title": "SALSA: Analyzing Logs as StAte Machines",
+      "authors": [
+        "Jiaqi Tan 0001",
+        "Xinghao Pan",
+        "Soila Kavulya",
+        "Rajeev Gandhi",
+        "Priya Narasimhan"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/TanPKGN08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/TanPKGN08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wasl/tech/full_papers/tan/tan.pdf"
+      ]
+    },
+    {
+      "title": "Scalable I/O - A Well-Architected Way to Do Scalable, Secure and Virtualized I/O",
+      "authors": [
+        "Julian Satran",
+        "Leah Shalev",
+        "Muli Ben-Yehuda",
+        "Zorik Machulsky"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SatranSBM08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SatranSBM08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wiov08/tech/full_papers/satran/satran.pdf"
+      ]
+    },
+    {
+      "title": "SQCK: A Declarative File System Checker",
+      "authors": [
+        "Haryadi S. Gunawi",
+        "Abhishek Rajimwale",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "131-146",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GunawiRAA08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GunawiRAA08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/gunawi/gunawi.pdf"
+      ]
+    },
+    {
+      "title": "SR-IOV Networking in Xen: Architecture, Design and Implementation",
+      "authors": [
+        "Yaozu Dong",
+        "Zhao Yu",
+        "Greg Rose"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DongYR08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DongYR08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wiov08/tech/full_papers/dong/dong.pdf"
+      ]
+    },
+    {
+      "title": "Standardized But Flexible I/O for Self-Virtualizing Devices",
+      "authors": [
+        "Joshua LeVasseur",
+        "Ramu Panayappan",
+        "Espen Skoglund",
+        "Christo du Toit",
+        "Leon Lynch",
+        "Alex Ward",
+        "Dulloor Rao",
+        "Rolf Neugebauer",
+        "Derek McAuley"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LeVasseurPSTLWRNM08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LeVasseurPSTLWRNM08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wiov08/tech/full_papers/levasseur/levasseur.pdf"
+      ]
+    },
+    {
+      "title": "Taming Heterogeneous NIC Capabilities for I/O Virtualization",
+      "authors": [
+        "Jose Renato Santos",
+        "Yoshio Turner",
+        "Jayaram Mudigonda"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SantosTM08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SantosTM08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wiov08/tech/full_papers/santos/santos.pdf"
+      ]
+    },
+    {
+      "title": "The True Cost of Accurate Time",
+      "authors": [
+        "Thomas Schmid 0002",
+        "Zainul Charbiwala",
+        "Jonathan Friedman",
+        "Mani B. Srivastava",
+        "Young H. Cho"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SchmidCFSC08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SchmidCFSC08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/full_papers/schmid/schmid.pdf"
+      ]
+    },
+    {
+      "title": "Towards Virtual Passthrough I/O on Commodity Devices",
+      "authors": [
+        "Lei Xia 0001",
+        "Jack Lange",
+        "Peter A. Dinda"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/XiaLD08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/XiaLD08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/wiov08/tech/full_papers/xia/xia.pdf"
+      ]
+    },
+    {
+      "title": "Transactional Flash",
+      "authors": [
+        "Vijayan Prabhakaran",
+        "Thomas L. Rodeheffer",
+        "Lidong Zhou"
+      ],
+      "pages": "147-160",
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PrabhakaranRZ08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PrabhakaranRZ08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi08/tech/full_papers/prabhakaran/prabhakaran.pdf"
+      ]
+    },
+    {
+      "title": "What if the Energy Grid Were Designed Like the Internet?",
+      "authors": [
+        "Randy H. Katz"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Katz08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Katz08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/katz_panel.pdf"
+      ]
+    },
+    {
+      "title": "Where Does the Power Go and What to do About it?",
+      "authors": [
+        "James R. Hamilton"
+      ],
+      "pages": null,
+      "year": "2008",
+      "venue": "OSDI 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Hamilton08",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Hamilton08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/hotpower08/tech/hamilton_panel.pdf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "id": "sosp-1971",
+  "venue": "sosp",
+  "year": 1971,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp1971.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp1971.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/1971",
+    "conf/sosp/1971-1",
+    "conf/sosp/1971-2",
+    "conf/sosp/1971-3",
+    "conf/sosp/1971-4",
+    "conf/sosp/1971-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 23,
+  "display_count": 23,
+  "papers": [
+    {
+      "title": "A Comparative Analysis of Disk Scheduling Policies (Abstract)",
+      "authors": [
+        "Toby J. Teorey",
+        "Tad B. Pinkerton"
+      ],
+      "pages": "114-121",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TeoreyP71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TeoreyP71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806509"
+      ]
+    },
+    {
+      "title": "A Concurrent Algorithm for Avoiding Deadlocks",
+      "authors": [
+        "Rafael O. Fontao"
+      ],
+      "pages": "72-79",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Fontao71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Fontao71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806502"
+      ]
+    },
+    {
+      "title": "A Hardware Architecture for Implementing Protection Rings (Abstract)",
+      "authors": [
+        "Michael D. Schroeder",
+        "Jerome H. Saltzer"
+      ],
+      "pages": "42-54",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SchroederS71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SchroederS71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806498"
+      ]
+    },
+    {
+      "title": "A Multiprogramming System for Control",
+      "authors": [
+        "Sam Howry"
+      ],
+      "pages": "24-30",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Howry71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Howry71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806495"
+      ]
+    },
+    {
+      "title": "A Study of Storage Partitioning Using a Mathematical Model (Abstract)",
+      "authors": [
+        "Edward G. Coffman Jr.",
+        "T. A. Ryan"
+      ],
+      "pages": "122-129",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CoffmanR71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CoffmanR71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806510"
+      ]
+    },
+    {
+      "title": "An Algorithm for Drum Storage Management in Time-Sharing Systems",
+      "authors": [
+        "Mark L. Greenberg"
+      ],
+      "pages": "141-148",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Greenberg71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Greenberg71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806512"
+      ]
+    },
+    {
+      "title": "An Approach to System Correctness",
+      "authors": [
+        "Gilles Kahn"
+      ],
+      "pages": "86-94",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Kahn71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Kahn71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806504"
+      ]
+    },
+    {
+      "title": "An Operating System Based on the Concept of a Supervisory Computer (Abstract)",
+      "authors": [
+        "R. Stockton Gaines"
+      ],
+      "pages": "17-23",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Gaines71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Gaines71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806494"
+      ]
+    },
+    {
+      "title": "Experimental Data on How Program Behavior Affects the Choice of Scheduler Parameters",
+      "authors": [
+        "Juan Rodriguez-Rosell"
+      ],
+      "pages": "156-163",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Rodriguez-Rosell71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Rodriguez-Rosell71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806514"
+      ]
+    },
+    {
+      "title": "Extensible Data Features in the Operating System Language OSL/2",
+      "authors": [
+        "Peter Alsberg"
+      ],
+      "pages": "31-34",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Alsberg71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Alsberg71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806496"
+      ]
+    },
+    {
+      "title": "Handling Difficult Faults in Operating Systems",
+      "authors": [
+        "Roger M. Needham"
+      ],
+      "pages": "55-57",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Needham71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Needham71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806499"
+      ]
+    },
+    {
+      "title": "Process Selection in an Hierarchical Operating System",
+      "authors": [
+        "Robert C. Varney"
+      ],
+      "pages": "106-108",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Varney71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Varney71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806507"
+      ]
+    },
+    {
+      "title": "Process Synchronization without Long-Term Interlock",
+      "authors": [
+        "William B. Easton"
+      ],
+      "pages": "95-100",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Easton71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Easton71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806505"
+      ]
+    },
+    {
+      "title": "Properties of the Working Set Model (Abstract)",
+      "authors": [
+        "Peter J. Denning",
+        "Stuart C. Schwartz"
+      ],
+      "pages": "130-140",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DenningS71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DenningS71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806511"
+      ]
+    },
+    {
+      "title": "Short Term Scheduling in Multiprogramming Systems",
+      "authors": [
+        "Per Brinch Hansen"
+      ],
+      "pages": "101-105",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Hansen71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Hansen71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806506"
+      ]
+    },
+    {
+      "title": "Simulation Studies of a Virtual Memory, Time Shared, Demand Paging Operating System",
+      "authors": [
+        "Joseph Winograd",
+        "S. J. Morganstein",
+        "R. Herman"
+      ],
+      "pages": "149-155",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WinogradMH71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WinogradMH71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806513"
+      ]
+    },
+    {
+      "title": "Some Deadlock Properties of Computer Systems",
+      "authors": [
+        "Richard C. Holt"
+      ],
+      "pages": "64-71",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Holt71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Holt71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806501"
+      ]
+    },
+    {
+      "title": "Storage Reallocation in Hierarchical Associative Memories",
+      "authors": [
+        "Jeffrey L. Gertz"
+      ],
+      "pages": "58-63",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Gertz71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Gertz71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806500"
+      ]
+    },
+    {
+      "title": "Synchronization of Communicating Processes (Abstract)",
+      "authors": [
+        "A. Nico Habermann"
+      ],
+      "pages": "80-85",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Habermann71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Habermann71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806503"
+      ]
+    },
+    {
+      "title": "TENEX, a Paged Time Sharing System for the PDP-10 (Abstract)",
+      "authors": [
+        "Daniel G. Bobrow",
+        "Jerry D. Burchfiel",
+        "Daniel L. Murphy 0001",
+        "Raymond S. Tomlinson"
+      ],
+      "pages": "1-10",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BobrowBMT71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BobrowBMT71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806492"
+      ]
+    },
+    {
+      "title": "The Dependence of Computer System Queues upon Processing Time Distribution and Central Processor Scheduling",
+      "authors": [
+        "Forest Baskett"
+      ],
+      "pages": "109-113",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Baskett71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Baskett71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806508"
+      ]
+    },
+    {
+      "title": "The Design of the Venus Operating System",
+      "authors": [
+        "Barbara H. Liskov"
+      ],
+      "pages": "11-16",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Liskov71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Liskov71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806493"
+      ]
+    },
+    {
+      "title": "The MULTICS Input/Output System",
+      "authors": [
+        "Richard J. Feiertag",
+        "Elliott I. Organick"
+      ],
+      "pages": "35-41",
+      "year": "1971",
+      "venue": "SOSP 1971",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FeiertagO71",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FeiertagO71.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800212.806497"
+      ]
+    }
+  ]
+}

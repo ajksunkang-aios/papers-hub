@@ -1,0 +1,1151 @@
+{
+  "id": "osdi-2024",
+  "venue": "osdi",
+  "year": 2024,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi2024.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi2024.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/2024",
+    "conf/osdi/2024-1",
+    "conf/osdi/2024-2",
+    "conf/osdi/2024-3",
+    "conf/osdi/2024-4",
+    "conf/osdi/2024-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 53,
+  "display_count": 53,
+  "papers": [
+    {
+      "title": "A Tale of Two Paths: Toward a Hybrid Data Plane for Efficient Far-Memory Applications",
+      "authors": [
+        "Lei Chen",
+        "Shi Liu",
+        "Chenxi Wang 0005",
+        "Haoran Ma",
+        "Yifan Qiao 0002",
+        "Zhe Wang 0017",
+        "Chenggang Wu 0002",
+        "Youyou Lu",
+        "Xiaobing Feng 0002",
+        "Huimin Cui",
+        "Shan Lu 0001",
+        "Harry Xu 0001"
+      ],
+      "pages": "77-95",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChenLWMQ00L0C0024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChenLWMQ00L0C0024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/chen-lei"
+      ]
+    },
+    {
+      "title": "ACCL+: an FPGA-Based Collective Engine for Distributed Applications",
+      "authors": [
+        "Zhenhao He",
+        "Dario Korolija",
+        "Yu Zhu",
+        "Benjamin Ramhorst",
+        "Tristan Laan",
+        "Lucian Petrica",
+        "Michaela Blott",
+        "Gustavo Alonso"
+      ],
+      "pages": "211-231",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HeKZRLPBA24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HeKZRLPBA24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/he"
+      ]
+    },
+    {
+      "title": "Anvil: Verifying Liveness of Cluster Management Controllers",
+      "authors": [
+        "Xudong Sun 0013",
+        "Wenjie Ma",
+        "Jiawei Tyler Gu",
+        "Zicheng Ma",
+        "Tej Chajed",
+        "Jon Howell",
+        "Andrea Lattuada 0001",
+        "Oded Padon",
+        "Lalith Suresh 0001",
+        "Adriana Szekeres",
+        "Tianyin Xu"
+      ],
+      "pages": "649-666",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/0013MGMCH0PSSX24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/0013MGMCH0PSSX24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/sun-xudong"
+      ]
+    },
+    {
+      "title": "Automatically Reasoning About How Systems Code Uses the CPU Cache",
+      "authors": [
+        "Rishabh R. Iyer",
+        "Katerina J. Argyraki",
+        "George Candea"
+      ],
+      "pages": "581-598",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/IyerAC24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/IyerAC24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/iyer"
+      ]
+    },
+    {
+      "title": "Beaver: Practical Partial Snapshots for Distributed Cloud Services",
+      "authors": [
+        "Liangcheng Yu",
+        "Xiao Zhang",
+        "Haoran Zhang 0009",
+        "John Sonchack",
+        "Dan R. K. Ports",
+        "Vincent Liu 0001"
+      ],
+      "pages": "233-249",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YuZZSP024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YuZZSP024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/yu"
+      ]
+    },
+    {
+      "title": "Burstable Cloud Block Storage with Data Processing Units",
+      "authors": [
+        "Junyi Shu",
+        "Kun Qian 0004",
+        "Ennan Zhai",
+        "Xuanzhe Liu",
+        "Xin Jin 0008"
+      ],
+      "pages": "783-799",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ShuQZL024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ShuQZL024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/shu"
+      ]
+    },
+    {
+      "title": "Caravan: Practical Online Learning of In-Network ML Models with Labeling Agents",
+      "authors": [
+        "Qizheng Zhang",
+        "Ali Imran 0005",
+        "Enkeleda Bardhi",
+        "Tushar Swamy",
+        "Nathan Zhang",
+        "Muhammad Shahbaz 0001",
+        "Kunle Olukotun"
+      ],
+      "pages": "325-345",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhangIBSZSO24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhangIBSZSO24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/zhang-qizheng"
+      ]
+    },
+    {
+      "title": "ChameleonAPI: Automatic and Efficient Customization of Neural Networks for ML Applications",
+      "authors": [
+        "Yuhan Liu 0004",
+        "Chengcheng Wan 0001",
+        "Kuntai Du",
+        "Henry Hoffmann",
+        "Junchen Jiang",
+        "Shan Lu 0001",
+        "Michael Maire"
+      ],
+      "pages": "365-386",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Liu0DHJ0M24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Liu0DHJ0M24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/liu"
+      ]
+    },
+    {
+      "title": "Chop Chop: Byzantine Atomic Broadcast to the Network Limit",
+      "authors": [
+        "Martina Camaioni",
+        "Rachid Guerraoui",
+        "Matteo Monti",
+        "Pierre-Louis Roman",
+        "Manuel Vidigueira",
+        "Gauthier Voron"
+      ],
+      "pages": "269-287",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CamaioniGMRVV24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CamaioniGMRVV24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/camaioni"
+      ]
+    },
+    {
+      "title": "Data-flow Availability: Achieving Timing Assurance in Autonomous Systems",
+      "authors": [
+        "Ao Li 0006",
+        "Ning Zhang 0017"
+      ],
+      "pages": "445-463",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/0006024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/0006024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/li"
+      ]
+    },
+    {
+      "title": "Detecting Logic Bugs in Database Engines via Equivalent Expression Transformation",
+      "authors": [
+        "Zu-Ming Jiang",
+        "Zhendong Su 0001"
+      ],
+      "pages": "821-835",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Jiang024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Jiang024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/jiang"
+      ]
+    },
+    {
+      "title": "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
+      "authors": [
+        "Yinmin Zhong",
+        "Shengyu Liu",
+        "Junda Chen",
+        "Jianbo Hu",
+        "Yibo Zhu 0001",
+        "Xuanzhe Liu",
+        "Xin Jin 0008",
+        "Hao Zhang 0025"
+      ],
+      "pages": "193-210",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhongLCHZL0024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhongLCHZL0024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/zhong-yinmin"
+      ]
+    },
+    {
+      "title": "dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving",
+      "authors": [
+        "Bingyang Wu",
+        "Ruidong Zhu",
+        "Zili Zhang",
+        "Peng Sun 0006",
+        "Xuanzhe Liu",
+        "Xin Jin 0008"
+      ],
+      "pages": "911-927",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WuZZSL024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WuZZSL024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/wu-bingyang"
+      ]
+    },
+    {
+      "title": "DRust: Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency",
+      "authors": [
+        "Haoran Ma",
+        "Yifan Qiao 0002",
+        "Shi Liu",
+        "Shan Yu",
+        "Yuanjiang Ni",
+        "Qingda Lu",
+        "Jiesheng Wu",
+        "Yiying Zhang 0005",
+        "Miryung Kim",
+        "Harry Xu 0001"
+      ],
+      "pages": "97-115",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MaQLYNLW0K024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MaQLYNLW0K024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/ma-haoran"
+      ]
+    },
+    {
+      "title": "DSig: Breaking the Barrier of Signatures in Data Centers",
+      "authors": [
+        "Marcos K. Aguilera",
+        "Cl&eacute;ment Burgelin",
+        "Rachid Guerraoui",
+        "Antoine Murat",
+        "Athanasios Xygkis",
+        "Igor Zablotchi"
+      ],
+      "pages": "667-685",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AguileraBGMXZ24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AguileraBGMXZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/aguilera"
+      ]
+    },
+    {
+      "title": "Enabling Tensor Language Model to Assist in Generating High-Performance Tensor Programs for Deep Learning",
+      "authors": [
+        "Yi Zhai 0005",
+        "Sijia Yang",
+        "Keyu Pan",
+        "Renwei Zhang",
+        "Shuo Liu 0019",
+        "Chao Liu",
+        "Zichun Ye",
+        "Jianmin Ji",
+        "Jie Zhao 0002",
+        "Yu Zhang 0086",
+        "Yanyong Zhang"
+      ],
+      "pages": "289-305",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhaiYPZLLYJZ0Z24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhaiYPZLLYJZ0Z24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/zhai"
+      ]
+    },
+    {
+      "title": "Fairness in Serving Large Language Models",
+      "authors": [
+        "Ying Sheng 0007",
+        "Shiyi Cao",
+        "Dacheng Li",
+        "Banghua Zhu",
+        "Zhuohan Li 0001",
+        "Danyang Zhuo",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "pages": "965-988",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/0007CLZ0ZGS24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/0007CLZ0ZGS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/sheng"
+      ]
+    },
+    {
+      "title": "FairyWREN: A Sustainable Cache for Emerging Write-Read-Erase Flash Interfaces",
+      "authors": [
+        "Sara McAllister",
+        "Yucong Wang",
+        "Benjamin Berg",
+        "Daniel S. Berger",
+        "George Amvrosiadis",
+        "Nathan Beckmann",
+        "Gregory R. Ganger"
+      ],
+      "pages": "745-764",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/McAllisterWBBAB24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/McAllisterWBBAB24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/mcallister"
+      ]
+    },
+    {
+      "title": "Fast and Scalable In-network Lock Management Using Lock Fission",
+      "authors": [
+        "Hanze Zhang",
+        "Ke Cheng",
+        "Rong Chen 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "251-268",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhangC0024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhangC0024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/zhang-hanze"
+      ]
+    },
+    {
+      "title": "Flock: A Framework for Deploying On-Demand Distributed Trust",
+      "authors": [
+        "Darya Kaviani",
+        "Sijun Tan",
+        "Pravein Govindan Kannan",
+        "Raluca Ada Popa"
+      ],
+      "pages": "721-743",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KavianiTKP24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KavianiTKP24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/kaviani"
+      ]
+    },
+    {
+      "title": "Harvesting Memory-bound CPU Stall Cycles in Software with MSH",
+      "authors": [
+        "Zhihong Luo",
+        "Sam Son",
+        "Sylvia Ratnasamy",
+        "Scott Shenker"
+      ],
+      "pages": "57-75",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LuoSRS24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LuoSRS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/luo"
+      ]
+    },
+    {
+      "title": "High-throughput and Flexible Host Networking for Accelerated Computing",
+      "authors": [
+        "Athinagoras Skiadopoulos",
+        "Zhiqiang Xie",
+        "Mark Zhao",
+        "Qizhe Cai",
+        "Saksham Agarwal",
+        "Jacob Adelmann",
+        "David Ahern",
+        "Carlo Contavalli",
+        "Michael D. Goldflam",
+        "Vitaly Mayatskikh",
+        "Raghu Raja",
+        "Daniel Walton",
+        "Rachit Agarwal 0001",
+        "Shrijeet Mukherjee",
+        "Christos Kozyrakis"
+      ],
+      "pages": "405-423",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SkiadopoulosXZC24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SkiadopoulosXZC24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/skiadopoulos"
+      ]
+    },
+    {
+      "title": "Identifying On-/Off-CPU Bottlenecks Together with Blocked Samples",
+      "authors": [
+        "Minwoo Ahn",
+        "Jeongmin Han",
+        "Youngjin Kwon",
+        "Jinkyu Jeong"
+      ],
+      "pages": "893-910",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AhnHKJ24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AhnHKJ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/ahn"
+      ]
+    },
+    {
+      "title": "Inductive Invariants That Spark Joy: Using Invariant Taxonomies to Streamline Distributed Protocol Proofs",
+      "authors": [
+        "Tony Nuda Zhang",
+        "Travis Hance",
+        "Manos Kapritsos",
+        "Tej Chajed",
+        "Bryan Parno"
+      ],
+      "pages": "837-853",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhangHKCP24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhangHKCP24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/zhang-nuda"
+      ]
+    },
+    {
+      "title": "InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management",
+      "authors": [
+        "Wonbeom Lee",
+        "Jungi Lee",
+        "Junghwan Seo",
+        "Jaewoong Sim"
+      ],
+      "pages": "155-172",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LeeLSS24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LeeLSS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/lee"
+      ]
+    },
+    {
+      "title": "IntOS: Persistent Embedded Operating System and Language Support for Multi-threaded Intermittent Computing",
+      "authors": [
+        "Yilun Wu",
+        "Byounguk Min",
+        "Mohannad Ismail",
+        "Wenjie Xiong 0001",
+        "Changhee Jung",
+        "Dongyoon Lee"
+      ],
+      "pages": "425-443",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WuMI0JL24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WuMI0JL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/wu-yilun"
+      ]
+    },
+    {
+      "title": "IronSpec: Increasing the Reliability of Formal Specifications",
+      "authors": [
+        "Eli Goldweber",
+        "Weixin Yu",
+        "Seyed Armin Vakil-Ghahani",
+        "Manos Kapritsos"
+      ],
+      "pages": "875-891",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GoldweberYVK24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GoldweberYVK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/goldweber"
+      ]
+    },
+    {
+      "title": "Ladder: Enabling Efficient Low-Precision Deep Learning Computing through Hardware-aware Tensor Transformation",
+      "authors": [
+        "Lei Wang 0222",
+        "Lingxiao Ma",
+        "Shijie Cao",
+        "Quanlu Zhang",
+        "Jilong Xue",
+        "Yining Shi 0001",
+        "Ningxin Zheng",
+        "Ziming Miao",
+        "Fan Yang 0024",
+        "Ting Cao 0003",
+        "Yuqing Yang 0001",
+        "Mao Yang 0004"
+      ],
+      "pages": "307-323",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangMCZX0ZM0C0Y24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangMCZX0ZM0C0Y24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/wang-lei"
+      ]
+    },
+    {
+      "title": "Llumnix: Dynamic Scheduling for Large Language Model Serving",
+      "authors": [
+        "Biao Sun 0002",
+        "Ziming Huang",
+        "Hanyu Zhao",
+        "Wencong Xiao",
+        "Xinyi Zhang",
+        "Yong Li 0045",
+        "Wei Lin 0016"
+      ],
+      "pages": "173-191",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SunHZXZL024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SunHZXZL024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/sun-biao"
+      ]
+    },
+    {
+      "title": "Managing Memory Tiers with CXL in Virtualized Environments",
+      "authors": [
+        "Yuhong Zhong",
+        "Daniel S. Berger",
+        "Carl A. Waldspurger",
+        "Ryan Wee",
+        "Ishwar Agarwal",
+        "Rajat Agarwal",
+        "Frank Hady",
+        "Karthik Kumar",
+        "Mark D. Hill",
+        "Mosharaf Chowdhury",
+        "Asaf Cidon"
+      ],
+      "pages": "37-56",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhongBWWAAHKHCC24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhongBWWAAHKHCC24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/zhong-yuhong"
+      ]
+    },
+    {
+      "title": "Massively Parallel Multi-Versioned Transaction Processing",
+      "authors": [
+        "Shujian Qian",
+        "Ashvin Goel"
+      ],
+      "pages": "765-781",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/QianG24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/QianG24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/qian"
+      ]
+    },
+    {
+      "title": "MAST: Global Scheduling of ML Training across Geo-Distributed Datacenters at Hyperscale",
+      "authors": [
+        "Arnab Choudhury",
+        "Yang Wang 0009",
+        "Tuomas Pelkonen",
+        "Kutta Srinivasan",
+        "Abha Jain",
+        "Shenghao Lin",
+        "Delia David",
+        "Siavash Soleimanifard",
+        "Michael Chen",
+        "Abhishek Yadav",
+        "Ritesh Tijoriwala",
+        "Denis Samoylov",
+        "Chunqiang Tang"
+      ],
+      "pages": "563-580",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Choudhury0PSJLD24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Choudhury0PSJLD24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/choudhury"
+      ]
+    },
+    {
+      "title": "Microkernel Goes General: Performance and Compatibility in the HongMeng Production Microkernel",
+      "authors": [
+        "Haibo Chen 0001",
+        "Xie Miao",
+        "Ning Jia 0004",
+        "Nan Wang",
+        "Yu Li",
+        "Nian Liu",
+        "Yutao Liu",
+        "Fei Wang 0130",
+        "Qiang Huang",
+        "Kun Li",
+        "Hongyang Yang",
+        "Hui Wang",
+        "Jie Yin",
+        "Yu Peng",
+        "Fengwei Xu"
+      ],
+      "pages": "465-485",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/0001MJWLLLWHLYW24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/0001MJWLLLWHLYW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/chen-haibo"
+      ]
+    },
+    {
+      "title": "MonoNN: Enabling a New Monolithic Optimization Space for Neural Network Inference Tasks on Modern GPU-Centric Architectures",
+      "authors": [
+        "Donglin Zhuang",
+        "Zhen Zheng",
+        "Haojun Xia",
+        "Xiafei Qiu",
+        "Junjie Bai",
+        "Wei Lin 0016",
+        "Shuaiwen Leon Song"
+      ],
+      "pages": "989-1005",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhuangZXQB0S24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhuangZXQB0S24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/zhuang"
+      ]
+    },
+    {
+      "title": "Motor: Enabling Multi-Versioning for Distributed Transactions on Disaggregated Memory",
+      "authors": [
+        "Ming Zhang",
+        "Yu Hua 0001",
+        "Zhijun Yang"
+      ],
+      "pages": "801-819",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Zhang0Y24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Zhang0Y24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/zhang-ming"
+      ]
+    },
+    {
+      "title": "nnScaler: Constraint-Guided Parallelization Plan Generation for Deep Learning Training",
+      "authors": [
+        "Zhiqi Lin",
+        "Youshan Miao",
+        "Quanlu Zhang",
+        "Fan Yang 0024",
+        "Yi Zhu",
+        "Cheng Li 0001",
+        "Saeed Maleki",
+        "Xu Cao",
+        "Ning Shang",
+        "Yilei Yang",
+        "Weijiang Xu",
+        "Mao Yang 0004",
+        "Lintao Zhang",
+        "Lidong Zhou"
+      ],
+      "pages": "347-363",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LinMZ0Z0MCSYXYZ24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LinMZ0Z0MCSYXYZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/lin-zhiqi"
+      ]
+    },
+    {
+      "title": "Nomad: Non-Exclusive Memory Tiering via Transactional Page Migration",
+      "authors": [
+        "Lingfeng Xiang",
+        "Zhen Lin",
+        "Weishu Deng",
+        "Hui Lu 0001",
+        "Jia Rao",
+        "Yifan Yuan",
+        "Ren Wang 0001"
+      ],
+      "pages": "19-35",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/XiangLD0RY024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/XiangLD0RY024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/xiang"
+      ]
+    },
+    {
+      "title": "Optimizing Resource Allocation in Hyperscale Datacenters: Scalability, Usability, and Experiences",
+      "authors": [
+        "Neeraj Kumar 0004",
+        "Pol Mauri Ruiz",
+        "Vijay Menon",
+        "Igor Kabiljo",
+        "Mayank Pundir",
+        "Andrew Newell",
+        "Daniel Lee",
+        "Liyuan Wang",
+        "Chunqiang Tang"
+      ],
+      "pages": "507-528",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KumarRMKPNLWT24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KumarRMKPNLWT24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/kumar"
+      ]
+    },
+    {
+      "title": "Parrot: Efficient Serving of LLM-based Applications with Semantic Variable",
+      "authors": [
+        "Chaofan Lin",
+        "Zhenhua Han",
+        "Chengruidong Zhang",
+        "Yuqing Yang 0001",
+        "Fan Yang 0024",
+        "Chen Chen 0067",
+        "Lili Qiu"
+      ],
+      "pages": "929-945",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LinHZ00CQ24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LinHZ00CQ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/lin-chaofan"
+      ]
+    },
+    {
+      "title": "Performance Interfaces for Hardware Accelerators",
+      "authors": [
+        "Jiacheng Ma 0002",
+        "Rishabh R. Iyer",
+        "Sahand Kashani",
+        "Mahyar Emami",
+        "Thomas Bourgeat",
+        "George Candea"
+      ],
+      "pages": "855-874",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/0002IKEBC24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/0002IKEBC24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/ma-jiacheng"
+      ]
+    },
+    {
+      "title": "Ransom Access Memories: Achieving Practical Ransomware Protection in Cloud with DeftPunk",
+      "authors": [
+        "Zhongyu Wang",
+        "Yaheng Song",
+        "Erci Xu",
+        "Haonan Wu",
+        "Guangxun Tong",
+        "Shizhuo Sun",
+        "Haoran Li",
+        "Jincheng Liu",
+        "Lijun Ding",
+        "Rong Liu",
+        "Jiaji Zhu",
+        "Jiesheng Wu"
+      ],
+      "pages": "687-702",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangSXWTSLLDLZW24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangSXWTSLLDLZW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/wang-zhongyu"
+      ]
+    },
+    {
+      "title": "Sabre: Hardware-Accelerated Snapshot Compression for Serverless MicroVMs",
+      "authors": [
+        "Nikita Lazarev",
+        "Varun Gohil",
+        "James Tsai",
+        "Andy Anderson",
+        "Bhushan Chitlur",
+        "Zhiru Zhang",
+        "Christina Delimitrou"
+      ],
+      "pages": "1-18",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LazarevGTACZD24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LazarevGTACZD24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/lazarev"
+      ]
+    },
+    {
+      "title": "Secret Key Recovery in a Global-Scale End-to-End Encryption System",
+      "authors": [
+        "Graeme Connell",
+        "Vivian Fang",
+        "Rolfe Schmidt",
+        "Emma Dauterman",
+        "Raluca Ada Popa"
+      ],
+      "pages": "703-719",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ConnellFSDP24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ConnellFSDP24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/connell"
+      ]
+    },
+    {
+      "title": "ServerlessLLM: Low-Latency Serverless Inference for Large Language Models",
+      "authors": [
+        "Yao Fu 0013",
+        "Leyang Xue",
+        "Yeqi Huang",
+        "Andrei-Octavian Brabete",
+        "Dmitrii Ustiugov",
+        "Yuvraj Patel",
+        "Luo Mai"
+      ],
+      "pages": "135-153",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FuXHBUPM24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FuXHBUPM24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/fu"
+      ]
+    },
+    {
+      "title": "ServiceLab: Preventing Tiny Performance Regressions at Hyperscale through Pre-Production Testing",
+      "authors": [
+        "Mike Chow",
+        "Yang Wang 0009",
+        "William Wang",
+        "Ayichew Hailu",
+        "Rohan Bopardikar",
+        "Bin Zhang",
+        "Jialiang Qu",
+        "David Meisner",
+        "Santosh Sonawane",
+        "Yunqi Zhang",
+        "Rodrigo Paim",
+        "Mack Ward",
+        "Ivor Huang",
+        "Matt McNally",
+        "Daniel Hodges",
+        "Zoltan Farkas",
+        "Caner Gocmen",
+        "Elvis Huang",
+        "Chunqiang Tang"
+      ],
+      "pages": "545-562",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Chow0WHBZQMSZPW24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Chow0WHBZQMSZPW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/chow"
+      ]
+    },
+    {
+      "title": "SquirrelFS: using the Rust compiler to check file-system crash consistency",
+      "authors": [
+        "Hayley LeBlanc",
+        "Nathan Taylor",
+        "James Bornholt",
+        "Vijay Chidambaram"
+      ],
+      "pages": "387-404",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LeBlancTBC24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LeBlancTBC24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/leblanc"
+      ]
+    },
+    {
+      "title": "Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve",
+      "authors": [
+        "Amey Agrawal",
+        "Nitin Kedia",
+        "Ashish Panwar",
+        "Jayashree Mohan",
+        "Nipun Kwatra",
+        "Bhargav S. Gulavani",
+        "Alexey Tumanov",
+        "Ramachandran Ramjee"
+      ],
+      "pages": "117-134",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AgrawalKPMKGTR24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AgrawalKPMKGTR24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/agrawal"
+      ]
+    },
+    {
+      "title": "USHER: Holistic Interference Avoidance for Resource Optimized ML Inference",
+      "authors": [
+        "Sudipta Saha Shubha",
+        "Haiying Shen",
+        "Anand P. Iyer"
+      ],
+      "pages": "947-964",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ShubhaSI24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ShubhaSI24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/shubha"
+      ]
+    },
+    {
+      "title": "Using Dynamically Layered Definite Releases for Verifying the RefFS File System",
+      "authors": [
+        "Mo Zou",
+        "Dong Du 0003",
+        "Mingkai Dong 0002",
+        "Haibo Chen 0001"
+      ],
+      "pages": "629-648",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Zou00024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Zou00024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/zou"
+      ]
+    },
+    {
+      "title": "Validating the eBPF Verifier via State Embedding",
+      "authors": [
+        "Hao Sun 0021",
+        "Zhendong Su 0001"
+      ],
+      "pages": "615-628",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Sun024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Sun024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/sun-hao"
+      ]
+    },
+    {
+      "title": "VeriSMo: A Verified Security Module for Confidential VMs",
+      "authors": [
+        "Ziqiao Zhou",
+        "Anjali",
+        "Weiteng Chen",
+        "Sishuai Gong",
+        "Chris Hawblitzel",
+        "Weidong Cui"
+      ],
+      "pages": "599-614",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhouACGHC24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhouACGHC24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/zhou"
+      ]
+    },
+    {
+      "title": "When will my ML Job finish? Toward providing Completion Time Estimates through Predictability-Centric Scheduling",
+      "authors": [
+        "Abdullah Bin Faisal",
+        "Noah Martin",
+        "Hafiz Mohsin Bashir",
+        "Swaminathan Lamelas",
+        "Fahad R. Dogar"
+      ],
+      "pages": "487-505",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FaisalMBLD24",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FaisalMBLD24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/bin-faisal"
+      ]
+    },
+    {
+      "title": "μSlope: High Compression and Fast Search on Semi-Structured Logs",
+      "authors": [
+        "Rui Wang",
+        "Devin Gibson",
+        "Kirk Rodrigues",
+        "Yu Luo 0006",
+        "Yun Zhang",
+        "Kaibo Wang",
+        "Yupeng Fu",
+        "Ting Chen",
+        "Ding Yuan 0004"
+      ],
+      "pages": "529-544",
+      "year": "2024",
+      "venue": "OSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangGR0ZWFC024",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangGR0ZWFC024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi24/presentation/wang-rui"
+      ]
+    }
+  ]
+}

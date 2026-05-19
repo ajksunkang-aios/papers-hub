@@ -1,0 +1,1330 @@
+{
+  "id": "eurosys-2020",
+  "venue": "eurosys",
+  "year": 2020,
+  "short_name": "EuroSys",
+  "full_name": "European Conference on Computer Systems",
+  "source_url": "https://dblp.org/db/conf/eurosys/eurosys2020.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/eurosys/eurosys2020.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/eurosys/2020",
+    "conf/eurosys/2020-1",
+    "conf/eurosys/2020-2",
+    "conf/eurosys/2020-3",
+    "conf/eurosys/2020-4",
+    "conf/eurosys/2020-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) European Conference on Computer Systems"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 69,
+  "display_count": 69,
+  "papers": [
+    {
+      "title": "A fault-tolerance shim for serverless computing",
+      "authors": [
+        "Vikram Sreekanti",
+        "Chenggang Wu 0001",
+        "Saurav Chhatrapati",
+        "Joseph E. Gonzalez",
+        "Joseph M. Hellerstein",
+        "Jose M. Faleiro"
+      ],
+      "pages": "15:1-15:15",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SreekantiWCGHF20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SreekantiWCGHF20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387535"
+      ]
+    },
+    {
+      "title": "A Linux in unikernel clothing",
+      "authors": [
+        "Hsuan-Chi Kuo",
+        "Dan Williams 0001",
+        "Ricardo Koller",
+        "Sibin Mohan"
+      ],
+      "pages": "11:1-11:15",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KuoWKM20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KuoWKM20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387526",
+        "https://www.wikidata.org/entity/Q131120049"
+      ]
+    },
+    {
+      "title": "A low-cost set CRDT based on causal lengths",
+      "authors": [
+        "Weihai Yu",
+        "Sigbj&oslash;rn Rostad"
+      ],
+      "pages": "5:1-5:6",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/YuR20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/YuR20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393678"
+      ]
+    },
+    {
+      "title": "Accelerating winograd convolutions using symbolic computation and meta-programming",
+      "authors": [
+        "Arya Mazaheri",
+        "Tim Beringer",
+        "Matthew W. Moskewicz",
+        "Felix Wolf 0001",
+        "Ali Jannesari"
+      ],
+      "pages": "40:1-40:14",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MazaheriBM0J20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MazaheriBM0J20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387549",
+        "https://www.wikidata.org/entity/Q131115428"
+      ]
+    },
+    {
+      "title": "Accessible near-storage computing with FPGAs",
+      "authors": [
+        "Robert Schmid",
+        "Max Plauth",
+        "Lukas Wenzel",
+        "Felix Eberhardt",
+        "Andreas Polze"
+      ],
+      "pages": "28:1-28:12",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SchmidPWEP20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SchmidPWEP20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387557",
+        "https://www.wikidata.org/entity/Q130862999"
+      ]
+    },
+    {
+      "title": "AlloX: compute allocation in hybrid clusters",
+      "authors": [
+        "Tan N. Le",
+        "Xiao Sun 0004",
+        "Mosharaf Chowdhury",
+        "Zhenhua Liu 0002"
+      ],
+      "pages": "31:1-31:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LeSCL20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LeSCL20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387547"
+      ]
+    },
+    {
+      "title": "An enclave assisted snapshot-based kernel integrity monitor",
+      "authors": [
+        "Dimitris Deyannis",
+        "Dimitris Karnikis",
+        "Giorgos Vasiliadis",
+        "Sotiris Ioannidis"
+      ],
+      "pages": "19-24",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/DeyannisKVI20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/DeyannisKVI20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3378679.3394539"
+      ]
+    },
+    {
+      "title": "An HTM-based update-side synchronization for RCU on NUMA systems",
+      "authors": [
+        "Seongjae Park",
+        "Paul E. McKenney",
+        "Laurent Dufour",
+        "Heon Y. Yeom"
+      ],
+      "pages": "37:1-37:15",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ParkMDY20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ParkMDY20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387527"
+      ]
+    },
+    {
+      "title": "Analyzing system performance with probabilistic performance annotations",
+      "authors": [
+        "Daniele Rogora",
+        "Antonio Carzaniga",
+        "Amer Diwan",
+        "Matthias Hauswirth",
+        "Robert Soul&eacute;"
+      ],
+      "pages": "43:1-43:14",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RogoraCDHS20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RogoraCDHS20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387554"
+      ]
+    },
+    {
+      "title": "AniFilter: parallel and failure-atomic cuckoo filter for non-volatile memories",
+      "authors": [
+        "Hyungjun Oh",
+        "Bongki Cho",
+        "Changdae Kim",
+        "Heejin Park",
+        "Jiwon Seo 0002"
+      ],
+      "pages": "21:1-21:15",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/OhCKPS20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/OhCKPS20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387528"
+      ]
+    },
+    {
+      "title": "Aspect-oriented language for reactive distributed applications at the edge",
+      "authors": [
+        "Ivan Kuraj",
+        "Armando Solar-Lezama"
+      ],
+      "pages": "67-72",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KurajS20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KurajS20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3378679.3394531",
+        "https://www.wikidata.org/entity/Q130868614"
+      ]
+    },
+    {
+      "title": "Autarky: closing controlled channels with self-paging enclaves",
+      "authors": [
+        "Meni Orenbach",
+        "Andrew Baumann",
+        "Mark Silberstein"
+      ],
+      "pages": "7:1-7:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/OrenbachBS20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/OrenbachBS20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387541"
+      ]
+    },
+    {
+      "title": "AutoCouch: a JSON CRDT framework",
+      "authors": [
+        "Pascal Grosch",
+        "Roman Krafft",
+        "Marcel W&ouml;lki",
+        "Annette Bieniusa"
+      ],
+      "pages": "6:1-6:7",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GroschKWB20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GroschKWB20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393679",
+        "https://www.wikidata.org/entity/Q131112069"
+      ]
+    },
+    {
+      "title": "Autopilot: workload autoscaling at Google",
+      "authors": [
+        "Krzysztof Rzadca",
+        "Pawel Findeisen",
+        "Jacek Swiderski",
+        "Przemyslaw Zych",
+        "Przemyslaw Broniek",
+        "Jarek Kusmierek",
+        "Pawel Nowak",
+        "Beata Strack",
+        "Piotr Witusowski",
+        "Steven Hand 0001",
+        "John Wilkes"
+      ],
+      "pages": "16:1-16:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RzadcaFSZBKNSWH20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RzadcaFSZBKNSWH20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387524"
+      ]
+    },
+    {
+      "title": "Avoiding scheduler subversion using scheduler-cooperative locks",
+      "authors": [
+        "Yuvraj Patel",
+        "Leon Yang",
+        "Leo Prasath Arulraj",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Michael M. Swift"
+      ],
+      "pages": "9:1-9:17",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PatelYAAAS20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PatelYAAAS20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387521"
+      ]
+    },
+    {
+      "title": "Balancing efficiency and fairness in heterogeneous GPU clusters for deep learning",
+      "authors": [
+        "Shubham Chaudhary 0004",
+        "Ramachandran Ramjee",
+        "Muthian Sivathanu",
+        "Nipun Kwatra",
+        "Srinidhi Viswanatha"
+      ],
+      "pages": "1:1-1:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ChaudharyRSKV20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ChaudharyRSKV20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387555"
+      ]
+    },
+    {
+      "title": "Balancing storage efficiency and data confidentiality with tunable encrypted deduplication",
+      "authors": [
+        "Jingwei Li 0001",
+        "Zuoru Yang",
+        "Yanjing Ren",
+        "Patrick P. C. Lee",
+        "Xiaosong Zhang 0001"
+      ],
+      "pages": "22:1-22:15",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/0001YRLZ20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/0001YRLZ20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387531",
+        "https://www.wikidata.org/entity/Q130867123"
+      ]
+    },
+    {
+      "title": "BinRec: dynamic binary lifting and recompilation",
+      "authors": [
+        "Anil Altinay",
+        "Joseph Nash",
+        "Taddeus Kroes",
+        "Prabhu Rajasekaran",
+        "Dixin Zhou",
+        "Adrian Dabrowski",
+        "David Gens",
+        "Yeoul Na",
+        "Stijn Volckaert",
+        "Cristiano Giuffrida",
+        "Herbert Bos",
+        "Michael Franz"
+      ],
+      "pages": "36:1-36:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/AltinayNKRZDGNV20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/AltinayNKRZDGNV20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387550",
+        "https://www.wikidata.org/entity/Q131119179"
+      ]
+    },
+    {
+      "title": "Borg: the next generation",
+      "authors": [
+        "Muhammad Tirmazi",
+        "Adam Barker",
+        "Nan Deng",
+        "Md E. Haque",
+        "Zhijing Gene Qin",
+        "Steven Hand 0001",
+        "Mor Harchol-Balter",
+        "John Wilkes"
+      ],
+      "pages": "30:1-30:14",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/TirmaziBDHQHHW20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/TirmaziBDHQHHW20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387517"
+      ]
+    },
+    {
+      "title": "Can far memory improve job throughput?",
+      "authors": [
+        "Emmanuel Amaro",
+        "Christopher Branner-Augmon",
+        "Zhihong Luo",
+        "Amy Ousterhout",
+        "Marcos K. Aguilera",
+        "Aurojit Panda",
+        "Sylvia Ratnasamy",
+        "Scott Shenker"
+      ],
+      "pages": "14:1-14:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/AmaroBLOAPRS20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/AmaroBLOAPRS20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387522",
+        "https://www.wikidata.org/entity/Q130993593"
+      ]
+    },
+    {
+      "title": "Chronofold: a data structure for versioned text",
+      "authors": [
+        "Victor Grishchenko",
+        "Mikhail A. Patrakeev"
+      ],
+      "pages": "7:1-7:9",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GrishchenkoP20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GrishchenkoP20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393680"
+      ]
+    },
+    {
+      "title": "CoLearn: enabling federated learning in MUD-compliant IoT edge networks",
+      "authors": [
+        "Angelo Feraudo",
+        "Poonam Yadav",
+        "Vadim Safronov",
+        "Diana Andreea Popescu",
+        "Richard Mortier",
+        "Shiqiang Wang 0001",
+        "Paolo Bellavista",
+        "Jon Crowcroft"
+      ],
+      "pages": "25-30",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/FeraudoYSPMWBC20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/FeraudoYSPMWBC20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3378679.3394528"
+      ]
+    },
+    {
+      "title": "Composing and decomposing op-based CRDTs with semidirect products: (summary)",
+      "authors": [
+        "Matthew Weidner",
+        "Heather Miller",
+        "Christopher Meiklejohn"
+      ],
+      "pages": "14:1-14:2",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/WeidnerMM20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/WeidnerMM20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393687"
+      ]
+    },
+    {
+      "title": "CSI: inferring mobile ABR video adaptation behavior under HTTPS and QUIC",
+      "authors": [
+        "Shichang Xu",
+        "Subhabrata Sen",
+        "Z. Morley Mao"
+      ],
+      "pages": "33:1-33:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/XuSM20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/XuSM20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387558"
+      ]
+    },
+    {
+      "title": "DeepDish: multi-object tracking with an off-the-shelf Raspberry Pi",
+      "authors": [
+        "Matthew Danish",
+        "Justas Brazauskas",
+        "Rob Bricheno",
+        "Ian Lewis",
+        "Richard Mortier"
+      ],
+      "pages": "37-42",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/DanishBBLM20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/DanishBBLM20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3378679.3394535"
+      ]
+    },
+    {
+      "title": "Delegation sketch: a parallel design with support for fast and accurate concurrent operations",
+      "authors": [
+        "Charalampos Stylianopoulos",
+        "Ivan Walulya",
+        "Magnus Almgren",
+        "Olaf Landsiedel",
+        "Marina Papatriantafilou"
+      ],
+      "pages": "4:1-4:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/StylianopoulosW20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/StylianopoulosW20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387542"
+      ]
+    },
+    {
+      "title": "Design of a symbolically executable embedded hypervisor",
+      "authors": [
+        "Jan Nordholz"
+      ],
+      "pages": "6:1-6:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Nordholz20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Nordholz20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387516",
+        "https://www.wikidata.org/entity/Q130813666"
+      ]
+    },
+    {
+      "title": "Don't shoot down TLB shootdowns!",
+      "authors": [
+        "Nadav Amit",
+        "Amy Tai",
+        "Michael Wei"
+      ],
+      "pages": "35:1-35:14",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/AmitTW20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/AmitTW20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387518"
+      ]
+    },
+    {
+      "title": "Edge replication strategies for wide-area distributed processing",
+      "authors": [
+        "Niklas Semmler",
+        "Matthias Rost",
+        "Georgios Smaragdakis",
+        "Anja Feldmann"
+      ],
+      "pages": "1-6",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SemmlerRSF20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SemmlerRSF20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3378679.3394532",
+        "https://www.wikidata.org/entity/Q130870912"
+      ]
+    },
+    {
+      "title": "Efficient renaming in sequence CRDTs",
+      "authors": [
+        "Matthieu Nicolas",
+        "G&eacute;rald Oster",
+        "Olivier Perrin 0001"
+      ],
+      "pages": "9:1-9:8",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/NicolasO020",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/NicolasO020.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393682"
+      ]
+    },
+    {
+      "title": "Env2Vec: accelerating VNF testing with deep learning",
+      "authors": [
+        "Guangyuan Piao",
+        "Patrick K. Nicholson",
+        "Diego Lugones"
+      ],
+      "pages": "41:1-41:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PiaoNL20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PiaoNL20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387525"
+      ]
+    },
+    {
+      "title": "EvenDB: optimizing key-value storage for spatial locality",
+      "authors": [
+        "Eran Gilad",
+        "Edward Bortnikov",
+        "Anastasia Braginsky",
+        "Yonatan Gottesman",
+        "Eshcar Hillel",
+        "Idit Keidar",
+        "Nurit Moscovici",
+        "Rana Shahout"
+      ],
+      "pages": "27:1-27:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GiladBBGHKMS20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GiladBBGHKMS20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387523"
+      ]
+    },
+    {
+      "title": "Experiences of landing machine learning onto market-scale mobile malware detection",
+      "authors": [
+        "Liangyi Gong",
+        "Zhenhua Li 0001",
+        "Feng Qian 0001",
+        "Zifan Zhang",
+        "Qi Alfred Chen",
+        "Zhiyun Qian",
+        "Hao Lin 0005",
+        "Yunhao Liu 0001"
+      ],
+      "pages": "2:1-2:14",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Gong00ZCQLL20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Gong00ZCQLL20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387530",
+        "https://www.wikidata.org/entity/Q131125900"
+      ]
+    },
+    {
+      "title": "Flec: a versatile programming framework for eventually consistent systems",
+      "authors": [
+        "Jim Bauwens",
+        "Elisa Gonzalez Boix"
+      ],
+      "pages": "12:1-12:4",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BauwensB20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BauwensB20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393685",
+        "https://www.wikidata.org/entity/Q131109341"
+      ]
+    },
+    {
+      "title": "HovercRaft: achieving scalability and fault-tolerance for microsecond-scale datacenter services",
+      "authors": [
+        "Marios Kogias",
+        "Edouard Bugnion"
+      ],
+      "pages": "25:1-25:17",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KogiasB20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KogiasB20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387545",
+        "https://www.wikidata.org/entity/Q130959435"
+      ]
+    },
+    {
+      "title": "Improving resource utilization by timely fine-grained scheduling",
+      "authors": [
+        "Tatiana Jin",
+        "Zhenkun Cai",
+        "Boyang Li 0016",
+        "Chengguang Zheng",
+        "Guanxian Jiang",
+        "James Cheng"
+      ],
+      "pages": "20:1-20:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/JinCLZJC20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/JinCLZJC20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387551"
+      ]
+    },
+    {
+      "title": "Keystone: an open framework for architecting trusted execution environments",
+      "authors": [
+        "Dayeol Lee",
+        "David Kohlbrenner",
+        "Shweta Shinde",
+        "Krste Asanovic",
+        "Dawn Song"
+      ],
+      "pages": "38:1-38:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LeeKSAS20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LeeKSAS20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387532",
+        "https://www.wikidata.org/entity/Q131120017"
+      ]
+    },
+    {
+      "title": "Kollaps: decentralized and dynamic topology emulation",
+      "authors": [
+        "Paulo Gouveia",
+        "Jo&atilde;o Neves",
+        "Carlos Segarra",
+        "Luca Liechti",
+        "Shady Issa",
+        "Valerio Schiavoni",
+        "Miguel Matos"
+      ],
+      "pages": "23:1-23:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GouveiaNSLISM20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GouveiaNSLISM20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387540",
+        "https://www.wikidata.org/entity/Q124031557"
+      ]
+    },
+    {
+      "title": "LDP-Fed: federated learning with local differential privacy",
+      "authors": [
+        "Stacey Truex",
+        "Ling Liu 0001",
+        "Ka Ho Chow",
+        "Mehmet Emre Gursoy",
+        "Wenqi Wei 0001"
+      ],
+      "pages": "61-66",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Truex0CGW20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Truex0CGW20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3378679.3394533"
+      ]
+    },
+    {
+      "title": "Low-latency geo-replicated state machines with guaranteed writes",
+      "authors": [
+        "Michael Eischer",
+        "Benedikt Stra&szlig;ner",
+        "Tobias Distler"
+      ],
+      "pages": "13:1-13:9",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/EischerSD20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/EischerSD20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393686",
+        "https://www.wikidata.org/entity/Q130953206"
+      ]
+    },
+    {
+      "title": "Meerkat: multicore-scalable replicated transactions following the zero-coordination principle",
+      "authors": [
+        "Adriana Szekeres",
+        "Michael J. Whittaker",
+        "Jialin Li 0001",
+        "Naveen Kr. Sharma",
+        "Arvind Krishnamurthy",
+        "Dan R. K. Ports",
+        "Irene Zhang"
+      ],
+      "pages": "17:1-17:14",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SzekeresWLSKPZ20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SzekeresWLSKPZ20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387529"
+      ]
+    },
+    {
+      "title": "Mousse: a system for selective symbolic execution of programs with untamed environments",
+      "authors": [
+        "Yingtong Liu",
+        "Hsin-Wei Hung",
+        "Ardalan Amiri Sani"
+      ],
+      "pages": "34:1-34:15",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LiuHS20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LiuHS20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387556",
+        "https://www.wikidata.org/entity/Q131118392"
+      ]
+    },
+    {
+      "title": "Moving elements in list CRDTs",
+      "authors": [
+        "Martin Kleppmann"
+      ],
+      "pages": "4:1-4:6",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Kleppmann20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Kleppmann20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393677"
+      ]
+    },
+    {
+      "title": "MPTEE: bringing flexible and efficient memory protection to Intel SGX",
+      "authors": [
+        "Wenjia Zhao",
+        "Kangjie Lu",
+        "Yong Qi",
+        "Saiyu Qi"
+      ],
+      "pages": "18:1-18:15",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ZhaoLQQ20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ZhaoLQQ20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387536"
+      ]
+    },
+    {
+      "title": "Oblivious coopetitive analytics using hardware enclaves",
+      "authors": [
+        "Ankur Dave",
+        "Chester Leung",
+        "Raluca Ada Popa",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "pages": "39:1-39:17",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/DaveLPGS20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/DaveLPGS20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387552",
+        "https://www.wikidata.org/entity/Q131118967"
+      ]
+    },
+    {
+      "title": "On combining fault tolerance and partial replication with causal consistency",
+      "authors": [
+        "Albert van der Linde",
+        "Diogo Serra",
+        "Jo&atilde;o Leit&atilde;o 0001",
+        "Nuno M. Pregui&ccedil;a"
+      ],
+      "pages": "11:1-11:5",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LindeS0P20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LindeS0P20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393684"
+      ]
+    },
+    {
+      "title": "On the impact of clustering for IoT analytics and message broker placement across cloud and edge",
+      "authors": [
+        "Daniel Happ",
+        "Suzan Bayhan"
+      ],
+      "pages": "43-48",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/HappB20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/HappB20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3378679.3394538"
+      ]
+    },
+    {
+      "title": "Orion: time estimated causally consistent key-value store",
+      "authors": [
+        "Diptanshu Kakwani",
+        "Rupesh Nasre"
+      ],
+      "pages": "3:1-3:6",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KakwaniN20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KakwaniN20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393676"
+      ]
+    },
+    {
+      "title": "PAIGE: towards a hybrid-edge design for privacy-preserving intelligent personal assistants",
+      "authors": [
+        "Yilei Liang",
+        "Dan O'Keeffe",
+        "Nishanth Sastry"
+      ],
+      "pages": "55-60",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LiangOS20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LiangOS20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3378679.3394536"
+      ]
+    },
+    {
+      "title": "Paxos vs Raft: have we reached consensus on distributed consensus?",
+      "authors": [
+        "Heidi Howard",
+        "Richard Mortier"
+      ],
+      "pages": "8:1-8:9",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/HowardM20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/HowardM20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393681"
+      ]
+    },
+    {
+      "title": "Peregrine: a pattern-aware graph mining system",
+      "authors": [
+        "Kasra Jamshidi",
+        "Rakesh Mahadasa",
+        "Keval Vora"
+      ],
+      "pages": "13:1-13:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/JamshidiMV20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/JamshidiMV20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387548"
+      ]
+    },
+    {
+      "title": "Persistent memory and the rise of universal constructions",
+      "authors": [
+        "Andreia Correia",
+        "Pascal Felber",
+        "Pedro Ramalhete"
+      ],
+      "pages": "5:1-5:15",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/CorreiaFR20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/CorreiaFR20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387515"
+      ]
+    },
+    {
+      "title": "PLASMA: programmable elasticity for stateful cloud computing applications",
+      "authors": [
+        "Bo Sang",
+        "Pierre-Louis Roman",
+        "Patrick Eugster",
+        "Hui Lu 0001",
+        "Srivatsan Ravi",
+        "Gustavo Petri"
+      ],
+      "pages": "42:1-42:15",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SangRELRP20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SangRELRP20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387553"
+      ]
+    },
+    {
+      "title": "Preserving reciprocal consistency in distributed graph databases",
+      "authors": [
+        "Jack Waudby",
+        "Paul D. Ezhilchelvan",
+        "Jim Webber",
+        "Isi Mitrani"
+      ],
+      "pages": "2:1-2:7",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/WaudbyEWM20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/WaudbyEWM20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393675",
+        "https://www.wikidata.org/entity/Q130866472"
+      ]
+    },
+    {
+      "title": "Privacy-preserving activity and health monitoring on databox",
+      "authors": [
+        "Yuchen Zhao",
+        "Hamed Haddadi 0001",
+        "Severin Skillman",
+        "Shirin Enshaeifar",
+        "Payam M. Barnaghi"
+      ],
+      "pages": "49-54",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ZhaoHSEB20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ZhaoHSEB20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3378679.3394529"
+      ]
+    },
+    {
+      "title": "Provable multicore schedulers with Ipanema: application to work conservation",
+      "authors": [
+        "Baptiste Lepers",
+        "Redha Gouicem",
+        "Damien Carver",
+        "Jean-Pierre Lozi",
+        "Nicolas Palix",
+        "Maria-Virginia Aponte",
+        "Willy Zwaenepoel",
+        "Julien Sopena",
+        "Julia Lawall",
+        "Gilles Muller"
+      ],
+      "pages": "3:1-3:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LepersGCLPAZSLM20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LepersGCLPAZSLM20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387544"
+      ]
+    },
+    {
+      "title": "PushPin: towards production-quality peer-to-peer collaboration",
+      "authors": [
+        "Peter van Hardenberg",
+        "Martin Kleppmann"
+      ],
+      "pages": "10:1-10:10",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/HardenbergK20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/HardenbergK20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393683"
+      ]
+    },
+    {
+      "title": "Quantifying the latency benefits of near-edge and in-network FPGA acceleration",
+      "authors": [
+        "Ryan A. Cooke",
+        "Suhaib A. Fahmy"
+      ],
+      "pages": "7-12",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/CookeF20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/CookeF20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3378679.3394534",
+        "https://www.wikidata.org/entity/Q130853859"
+      ]
+    },
+    {
+      "title": "RAIDP: replication with intra-disk parity",
+      "authors": [
+        "Eitan Rosenfeld",
+        "Aviad Zuck",
+        "Nadav Amit",
+        "Michael Factor",
+        "Dan Tsafrir"
+      ],
+      "pages": "26:1-26:17",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RosenfeldZAFT20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RosenfeldZAFT20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387546"
+      ]
+    },
+    {
+      "title": "Rhythm: component-distinguishable workload deployment in datacenters",
+      "authors": [
+        "Laiping Zhao",
+        "Yanan Yang",
+        "Kaixuan Zhang 0001",
+        "Xiaobo Zhou 0003",
+        "Tie Qiu 0001",
+        "Keqiu Li",
+        "Yungang Bao"
+      ],
+      "pages": "19:1-19:17",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ZhaoYZZQLB20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ZhaoYZZQLB20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387534",
+        "https://www.wikidata.org/entity/Q131115818"
+      ]
+    },
+    {
+      "title": "Scalable range locks for scalable address spaces and beyond",
+      "authors": [
+        "Alex Kogan",
+        "Dave Dice",
+        "Shady Issa"
+      ],
+      "pages": "8:1-8:15",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KoganDI20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KoganDI20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387533"
+      ]
+    },
+    {
+      "title": "SEUSS: skip redundant paths to make serverless fast",
+      "authors": [
+        "James Cadden",
+        "Thomas Unger",
+        "Yara Awad",
+        "Han Dong",
+        "Orran Krieger",
+        "Jonathan Appavoo"
+      ],
+      "pages": "32:1-32:15",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/CaddenUADKA20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/CaddenUADKA20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3392698",
+        "https://www.wikidata.org/entity/Q131119142"
+      ]
+    },
+    {
+      "title": "State-machine replication for planet-scale systems",
+      "authors": [
+        "Vitor Enes",
+        "Carlos Baquero",
+        "Tuanir Fran&ccedil;a Rezende",
+        "Alexey Gotsman",
+        "Matthieu Perrin",
+        "Pierre Sutra"
+      ],
+      "pages": "24:1-24:15",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/EnesBRGPS20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/EnesBRGPS20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387543",
+        "https://www.wikidata.org/entity/Q130947952"
+      ]
+    },
+    {
+      "title": "Statically inferring performance properties of software configurations",
+      "authors": [
+        "Chi Li",
+        "Shu Wang",
+        "Henry Hoffmann",
+        "Shan Lu 0001"
+      ],
+      "pages": "10:1-10:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LiWHL20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LiWHL20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387520"
+      ]
+    },
+    {
+      "title": "StRoM: smart remote memory",
+      "authors": [
+        "David Sidler",
+        "Zeke Wang",
+        "Monica Chiosa",
+        "Amit Kulkarni 0002",
+        "Gustavo Alonso"
+      ],
+      "pages": "29:1-29:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SidlerWCKA20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SidlerWCKA20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387519"
+      ]
+    },
+    {
+      "title": "Subway: minimizing data transfer during out-of-GPU-memory graph processing",
+      "authors": [
+        "Amir Hossein Nodehi Sabet",
+        "Zhijia Zhao 0001",
+        "Rajiv Gupta 0001"
+      ],
+      "pages": "12:1-12:16",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Sabet0G20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Sabet0G20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3342195.3387537"
+      ]
+    },
+    {
+      "title": "The intrinsic cost of causal consistency",
+      "authors": [
+        "Albert van der Linde",
+        "Pedro Fouto",
+        "Jo&atilde;o Leit&atilde;o 0001",
+        "Nuno M. Pregui&ccedil;a"
+      ],
+      "pages": "1:1-1:6",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LindeF0P20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LindeF0P20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3380787.3393674"
+      ]
+    },
+    {
+      "title": "The serverkernel operating system",
+      "authors": [
+        "Jon Larrea",
+        "Antonio Barbalace"
+      ],
+      "pages": "13-18",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LarreaB20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LarreaB20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3378679.3394537"
+      ]
+    },
+    {
+      "title": "Towards federated unsupervised representation learning",
+      "authors": [
+        "Bram van Berlo",
+        "Aaqib Saeed",
+        "Tanir Ozcelebi"
+      ],
+      "pages": "31-36",
+      "year": "2020",
+      "venue": "EuroSys 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BerloSO20",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BerloSO20.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3378679.3394530"
+      ]
+    }
+  ]
+}

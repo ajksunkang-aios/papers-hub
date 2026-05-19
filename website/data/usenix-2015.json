@@ -1,0 +1,895 @@
+{
+  "id": "usenix-2015",
+  "venue": "usenix",
+  "year": 2015,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2015.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2015.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2015",
+    "conf/usenix/2015-1",
+    "conf/usenix/2015-2",
+    "conf/usenix/2015-3",
+    "conf/usenix/2015-4",
+    "conf/usenix/2015-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 47,
+  "display_count": 47,
+  "papers": [
+    {
+      "title": "Accurate Latency-based Congestion Feedback for Datacenters",
+      "authors": [
+        "Changhyun Lee",
+        "Chunjong Park",
+        "Keon Jang",
+        "Sue B. Moon",
+        "Dongsu Han"
+      ],
+      "pages": "403-415",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LeePJMH15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LeePJMH15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/lee-changhyun"
+      ]
+    },
+    {
+      "title": "Between Mutual Trust and Mutual Distrust: Practical Fine-grained Privilege Separation in Multithreaded Applications",
+      "authors": [
+        "Jun Wang 0141",
+        "Xi Xiong",
+        "Peng Liu 0005"
+      ],
+      "pages": "361-373",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangXL15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangXL15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/wang_jun"
+      ]
+    },
+    {
+      "title": "Bistro: Scheduling Data-Parallel Jobs Against Live Production Systems",
+      "authors": [
+        "Andrey Goder",
+        "Alexey Spiridonov",
+        "Yin Wang"
+      ],
+      "pages": "459-471",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GoderSW15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GoderSW15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/goder"
+      ]
+    },
+    {
+      "title": "Bolt: Faster Reconfiguration in Operating Systems",
+      "authors": [
+        "Sankaralingam Panneerselvam",
+        "Michael M. Swift",
+        "Nam Sung Kim"
+      ],
+      "pages": "511-516",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PanneerselvamSK15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PanneerselvamSK15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/panneerselvam"
+      ]
+    },
+    {
+      "title": "Boosting GPU Virtualization Performance with Hybrid Shadow Page Tables",
+      "authors": [
+        "Yaozu Dong",
+        "Mochi Xue",
+        "Xiao Zheng",
+        "Jiajun Wang",
+        "Zhengwei Qi",
+        "Haibing Guan"
+      ],
+      "pages": "517-528",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DongXZWQG15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DongXZWQG15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/dong"
+      ]
+    },
+    {
+      "title": "Callisto-RTS: Fine-Grain Parallel Loops",
+      "authors": [
+        "Tim Harris 0001",
+        "Stefan Kaestle"
+      ],
+      "pages": "45-56",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HarrisK15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HarrisK15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/harris"
+      ]
+    },
+    {
+      "title": "CDStore: Toward Reliable, Secure, and Cost-Efficient Cloud Storage via Convergent Dispersal",
+      "authors": [
+        "Mingqiang Li",
+        "Chuan Qin 0009",
+        "Patrick P. C. Lee"
+      ],
+      "pages": "111-124",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiQL15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiQL15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/li-mingqiang"
+      ]
+    },
+    {
+      "title": "Data Sharing or Resource Contention: Toward Performance Transparency on Multicore Systems",
+      "authors": [
+        "Sharanyan Srikanthan",
+        "Sandhya Dwarkadas",
+        "Kai Shen"
+      ],
+      "pages": "529-540",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SrikanthanDS15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SrikanthanDS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/srikanthan"
+      ]
+    },
+    {
+      "title": "Establishing a Base of Trust with Performance Counters for Enterprise Workloads",
+      "authors": [
+        "Andrzej Nowak",
+        "Ahmad Yasin",
+        "Avi Mendelson",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "541-548",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/NowakYMZ15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/NowakYMZ15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/nowak"
+      ]
+    },
+    {
+      "title": "Experience with Rules-Based Programming for Distributed, Concurrent, Fault-Tolerant Code",
+      "authors": [
+        "Ryan Stutsman",
+        "Collin Lee",
+        "John K. Ousterhout"
+      ],
+      "pages": "17-30",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/StutsmanLO15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/StutsmanLO15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/stutsman"
+      ]
+    },
+    {
+      "title": "Fence: Protecting Device Availability With Uniform Resource Control",
+      "authors": [
+        "Tao Li",
+        "Albert Rafetseder",
+        "Rodrigo Fonseca",
+        "Justin Cappos"
+      ],
+      "pages": "177-191",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiRFC15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiRFC15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/li"
+      ]
+    },
+    {
+      "title": "FloSIS: A Highly Scalable Network Flow Capture System for Fast Retrieval and Storage Efficiency",
+      "authors": [
+        "Jihyung Lee",
+        "Sungryoul Lee",
+        "Junghee Lee",
+        "Yung Yi",
+        "KyoungSoo Park"
+      ],
+      "pages": "445-457",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LeeLLYP15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LeeLLYP15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/lee-jihyung"
+      ]
+    },
+    {
+      "title": "GraphQ: Graph Query Processing with Abstraction Refinement - Scalable and Programmable Analytics over Very Large Graphs on a Single PC",
+      "authors": [
+        "Kai Wang 0029",
+        "Guoqing Xu 0001",
+        "Zhendong Su 0001",
+        "Yu David Liu"
+      ],
+      "pages": "387-401",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangXSL15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangXSL15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/wang-kai"
+      ]
+    },
+    {
+      "title": "GridGraph: Large-Scale Graph Processing on a Single Machine Using 2-Level Hierarchical Partitioning",
+      "authors": [
+        "Xiaowei Zhu 0001",
+        "Wentao Han",
+        "Wenguang Chen"
+      ],
+      "pages": "375-386",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhuHC15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhuHC15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/zhu"
+      ]
+    },
+    {
+      "title": "Hawk: Hybrid Datacenter Scheduling",
+      "authors": [
+        "Pamela Delgado",
+        "Florin Dinu",
+        "Anne-Marie Kermarrec",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "499-510",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DelgadoDKZ15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DelgadoDKZ15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/delgado"
+      ]
+    },
+    {
+      "title": "Identifying Trends in Enterprise Data Protection Systems",
+      "authors": [
+        "George Amvrosiadis",
+        "Medha Bhadkamkar"
+      ],
+      "pages": "151-164",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AmvrosiadisB15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AmvrosiadisB15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/amvrosiadis"
+      ]
+    },
+    {
+      "title": "LAMA: Optimized Locality-aware Memory Allocation for Key-value Cache",
+      "authors": [
+        "Xiameng Hu",
+        "Xiaolin Wang 0001",
+        "Yechen Li",
+        "Lan Zhou",
+        "Yingwei Luo",
+        "Chen Ding 0001",
+        "Song Jiang 0001",
+        "Zhenlin Wang 0003"
+      ],
+      "pages": "57-69",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuWLZLDJW15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuWLZLDJW15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/hu"
+      ]
+    },
+    {
+      "title": "Lamassu: Storage-Efficient Host-Side Encryption",
+      "authors": [
+        "Peter Shah",
+        "Won So"
+      ],
+      "pages": "333-345",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShahS15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShahS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/shah"
+      ]
+    },
+    {
+      "title": "Latency-Tolerant Software Distributed Shared Memory",
+      "authors": [
+        "Jacob Nelson 0001",
+        "Brandon Holt",
+        "Brandon Myers",
+        "Preston Briggs",
+        "Luis Ceze",
+        "Simon Kahan",
+        "Mark Oskin"
+      ],
+      "pages": "291-305",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/NelsonHMBCKO15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/NelsonHMBCKO15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/nelson"
+      ]
+    },
+    {
+      "title": "Lightweight Application-Level Crash Consistency on Transactional Flash Storage",
+      "authors": [
+        "Changwoo Min",
+        "Woon-Hak Kang",
+        "Taesoo Kim",
+        "Sang-Won Lee 0001",
+        "Young Ik Eom"
+      ],
+      "pages": "221-234",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MinKKLE15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MinKKLE15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/min"
+      ]
+    },
+    {
+      "title": "Log2: A Cost-Aware Logging Mechanism for Performance Diagnosis",
+      "authors": [
+        "Rui Ding 0001",
+        "Hucheng Zhou",
+        "Jian-Guang Lou",
+        "Hongyu Zhang 0002",
+        "Qingwei Lin",
+        "Qiang Fu 0015",
+        "Dongmei Zhang 0001",
+        "Tao Xie 0001"
+      ],
+      "pages": "139-150",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DingZLZLFZX15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DingZLZLFZX15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/ding"
+      ]
+    },
+    {
+      "title": "LPD: Low Power Display Mechanism for Mobile and Wearable Devices",
+      "authors": [
+        "MyungJoo Ham",
+        "Inki Dae",
+        "Chanwoo Choi"
+      ],
+      "pages": "587-598",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HamDC15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HamDC15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/ham_lpd"
+      ]
+    },
+    {
+      "title": "LSM-trie: An LSM-tree-based Ultra-Large Key-Value Store for Small Data Items",
+      "authors": [
+        "Xingbo Wu",
+        "Yuehai Xu",
+        "Zili Shao",
+        "Song Jiang 0001"
+      ],
+      "pages": "71-82",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WuXSJ15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WuXSJ15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/wu"
+      ]
+    },
+    {
+      "title": "Mahimahi: Accurate Record-and-Replay for HTTP",
+      "authors": [
+        "Ravi Netravali",
+        "Anirudh Sivaraman",
+        "Somak Das",
+        "Ameesh Goyal",
+        "Keith Winstein",
+        "James Mickens",
+        "Hari Balakrishnan"
+      ],
+      "pages": "417-429",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/NetravaliSDGWMB15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/NetravaliSDGWMB15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/netravali"
+      ]
+    },
+    {
+      "title": "Memory-Centric Data Storage for Mobile Systems",
+      "authors": [
+        "Jinglei Ren",
+        "Chieh-Jan Mike Liang",
+        "Yongwei Wu 0001",
+        "Thomas Moscibroda"
+      ],
+      "pages": "599-611",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RenLWM15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RenLWM15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/ren"
+      ]
+    },
+    {
+      "title": "Mercury: Hybrid Centralized and Distributed Scheduling in Large Shared Clusters",
+      "authors": [
+        "Konstantinos Karanasos",
+        "Sriram Rao",
+        "Carlo Curino",
+        "Chris Douglas",
+        "Kishore Chaliparambil",
+        "Giovanni Matteo Fumarola",
+        "Solom Heddaya",
+        "Raghu Ramakrishnan 0001",
+        "Sarvesh Sakalanaga"
+      ],
+      "pages": "485-497",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KaranasosRCDCFH15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KaranasosRCDCFH15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/karanasos"
+      ]
+    },
+    {
+      "title": "MetaSync: File Synchronization Across Multiple Untrusted Storage Services",
+      "authors": [
+        "Seungyeop Han",
+        "Haichen Shen",
+        "Taesoo Kim",
+        "Arvind Krishnamurthy",
+        "Thomas E. Anderson",
+        "David Wetherall"
+      ],
+      "pages": "83-95",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HanSKKAW15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HanSKKAW15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/han"
+      ]
+    },
+    {
+      "title": "NightWatch: Integrating Lightweight and Transparent Cache Pollution Control into Dynamic Memory Allocation Systems",
+      "authors": [
+        "Rentong Guo",
+        "Xiaofei Liao",
+        "Hai Jin 0001",
+        "Jianhui Yue",
+        "Guang Tan"
+      ],
+      "pages": "307-318",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuoLJYT15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuoLJYT15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/guo"
+      ]
+    },
+    {
+      "title": "NVMKV: A Scalable, Lightweight, FTL-aware Key-Value Store",
+      "authors": [
+        "Leonardo M&aacute;rmol",
+        "Swaminathan Sundararaman",
+        "Nisha Talagala",
+        "Raju Rangaswami"
+      ],
+      "pages": "207-219",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MarmolSTR15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MarmolSTR15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/marmol"
+      ]
+    },
+    {
+      "title": "Pyro: A Spatial-Temporal Big-Data Storage System",
+      "authors": [
+        "Shen Li 0002",
+        "Shaohan Hu",
+        "Raghu K. Ganti",
+        "Mudhakar Srivatsa",
+        "Tarek F. Abdelzaher"
+      ],
+      "pages": "97-109",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiHGSA15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiHGSA15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/li_shen"
+      ]
+    },
+    {
+      "title": "Request-Oriented Durable Write Caching for Application Performance",
+      "authors": [
+        "Sangwook Kim",
+        "Hwanju Kim",
+        "Sang-Hoon Kim",
+        "Joonwon Lee",
+        "Jinkyu Jeong"
+      ],
+      "pages": "193-206",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KimKKLJ15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KimKKLJ15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/kim"
+      ]
+    },
+    {
+      "title": "Rubik: Unlocking the Power of Locality and End-point Flexibility in Cloud Scale Load Balancing",
+      "authors": [
+        "Rohan Gandhi",
+        "Y. Charlie Hu",
+        "Cheng-Kok Koh",
+        "Hongqiang Harry Liu",
+        "Ming Zhang 0005"
+      ],
+      "pages": "473-485",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GandhiHKLZ15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GandhiHKLZ15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-sessions/presentation/gandhi"
+      ]
+    },
+    {
+      "title": "SecPod: a Framework for Virtualization-based Security Systems",
+      "authors": [
+        "Xiaoguang Wang 0003",
+        "Yue Chen",
+        "Zhi Wang 0004",
+        "Yong Qi",
+        "Yajin Zhou"
+      ],
+      "pages": "347-360",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangCWQZ15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangCWQZ15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/wang-xiaoguang"
+      ]
+    },
+    {
+      "title": "Secure Deduplication of General Computations",
+      "authors": [
+        "Yang Tang 0003",
+        "Junfeng Yang"
+      ],
+      "pages": "319-331",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TangY15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TangY15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/tang"
+      ]
+    },
+    {
+      "title": "Selectively Taming Background Android Apps to Improve Battery Lifetime",
+      "authors": [
+        "Marcelo Martins",
+        "Justin Cappos",
+        "Rodrigo Fonseca"
+      ],
+      "pages": "563-575",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MartinsCF15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MartinsCF15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/martins"
+      ]
+    },
+    {
+      "title": "Shoal: Smart Allocation and Replication of Memory For Parallel Programs",
+      "authors": [
+        "Stefan Kaestle",
+        "Reto Achermann",
+        "Timothy Roscoe",
+        "Tim Harris 0001"
+      ],
+      "pages": "263-276",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KaestleAR015",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KaestleAR015.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/kaestle"
+      ]
+    },
+    {
+      "title": "Slipstream: Automatic Interprocess Communication Optimization",
+      "authors": [
+        "Will Dietz",
+        "Joshua Cranmer",
+        "Nathan Dautenhahn",
+        "Vikram S. Adve"
+      ],
+      "pages": "431-443",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DietzCDA15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DietzCDA15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/dietz"
+      ]
+    },
+    {
+      "title": "SpanFS: A Scalable File System on Fast Storage Devices",
+      "authors": [
+        "Junbin Kang",
+        "Benlong Zhang",
+        "Tianyu Wo",
+        "Weiren Yu",
+        "Lian Du",
+        "Shuai Ma 0001",
+        "Jinpeng Huai"
+      ],
+      "pages": "249-261",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KangZWYDMH15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KangZWYDMH15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/kang"
+      ]
+    },
+    {
+      "title": "Spartan: A Distributed Array Framework with Smart Tiling",
+      "authors": [
+        "Chien-Chin Huang",
+        "Qi Chen 0009",
+        "Zhaoguo Wang",
+        "Russell Power",
+        "Jorge Ortiz 0001",
+        "Jinyang Li 0001",
+        "Zhen Xiao"
+      ],
+      "pages": "1-15",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuangCWPOLX15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuangCWPOLX15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/huang-chien-chin"
+      ]
+    },
+    {
+      "title": "Surviving Peripheral Failures in Embedded Systems",
+      "authors": [
+        "Rebecca Smith",
+        "Scott Rixner"
+      ],
+      "pages": "125-137",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SmithR15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SmithR15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/smith"
+      ]
+    },
+    {
+      "title": "Systematically Exploring the Behavior of Control Programs",
+      "authors": [
+        "Jason Croft",
+        "Ratul Mahajan",
+        "Matthew Caesar 0001",
+        "Madan Musuvathi"
+      ],
+      "pages": "165-176",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CroftMCM15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CroftMCM15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/croft"
+      ]
+    },
+    {
+      "title": "Thread and Memory Placement on NUMA Systems: Asymmetry Matters",
+      "authors": [
+        "Baptiste Lepers",
+        "Vivien Qu&eacute;ma",
+        "Alexandra Fedorova"
+      ],
+      "pages": "277-289",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LepersQF15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LepersQF15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/lepers"
+      ]
+    },
+    {
+      "title": "Tiered Replication: A Cost-effective Alternative to Full Cluster Geo-replication",
+      "authors": [
+        "Asaf Cidon",
+        "Robert Escriva",
+        "Sachin Katti",
+        "Mendel Rosenblum",
+        "Emin G&uuml;n Sirer"
+      ],
+      "pages": "31-43",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CidonEKRS15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CidonEKRS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/cidon"
+      ]
+    },
+    {
+      "title": "U-root: A Go-based, Firmware Embeddable Root File System with On-demand Compilation",
+      "authors": [
+        "Ronald G. Minnich",
+        "Andrey Mirtchovski"
+      ],
+      "pages": "577-586",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MinnichM15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MinnichM15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/minnich"
+      ]
+    },
+    {
+      "title": "Utilizing the IOMMU Scalably",
+      "authors": [
+        "Omer Peleg",
+        "Adam Morrison 0001",
+        "Benjamin Serebrin",
+        "Dan Tsafrir"
+      ],
+      "pages": "549-562",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PelegMST15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PelegMST15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/peleg"
+      ]
+    },
+    {
+      "title": "WALDIO: Eliminating the Filesystem Journaling in Resolving the Journaling of Journal Anomaly",
+      "authors": [
+        "Wongun Lee",
+        "Keonwoo Lee",
+        "Hankeun Son",
+        "Wook-Hee Kim",
+        "Beomseok Nam",
+        "Youjip Won"
+      ],
+      "pages": "235-247",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LeeLSKNW15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LeeLSKNW15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/lee_wongun"
+      ]
+    },
+    {
+      "title": "WearDrive: Fast and Energy-Efficient Storage for Wearables",
+      "authors": [
+        "Jian Huang 0006",
+        "Anirudh Badam",
+        "Ranveer Chandra",
+        "Edmund B. Nightingale"
+      ],
+      "pages": "613-625",
+      "year": "2015",
+      "venue": "USENIX ATC 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuangBCN15",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuangBCN15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc15/technical-session/presentation/huang-jian"
+      ]
+    }
+  ]
+}

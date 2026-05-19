@@ -1,0 +1,888 @@
+{
+  "id": "usenix-2002",
+  "venue": "usenix",
+  "year": 2002,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2002.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2002.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2002",
+    "conf/usenix/2002-1",
+    "conf/usenix/2002-2",
+    "conf/usenix/2002-3",
+    "conf/usenix/2002-4",
+    "conf/usenix/2002-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 51,
+  "display_count": 51,
+  "papers": [
+    {
+      "title": "A Decoupled Architecture for Application-Specific File Prefetching",
+      "authors": [
+        "Chuan-Kai Yang",
+        "Tulika Mitra",
+        "Tzi-cker Chiueh"
+      ],
+      "pages": "157-170",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YangMC02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YangMC02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/yang.html"
+      ]
+    },
+    {
+      "title": "A Mechanism for TCP-Friendly Transport-Level Protocol Coordination",
+      "authors": [
+        "David E. Ott",
+        "Ketan Mayer-Patel"
+      ],
+      "pages": "147-159",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/OttM02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/OttM02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/ott.html"
+      ]
+    },
+    {
+      "title": "A Precise and Efficient Evaluation of the Proximity Between Web Clients and Their Local DNS Servers",
+      "authors": [
+        "Zhuoqing Morley Mao",
+        "Charles D. Cranor",
+        "Fred Douglis",
+        "Michael Rabinovich",
+        "Oliver Spatscheck",
+        "Jia Wang 0001"
+      ],
+      "pages": "229-242",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MaoCDRSW02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MaoCDRSW02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/mao.html"
+      ]
+    },
+    {
+      "title": "A Study of the Relative Costs of Network Security Protocols",
+      "authors": [
+        "Stefan Miltchev",
+        "Sotiris Ioannidis",
+        "Angelos D. Keromytis"
+      ],
+      "pages": "41-48",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MiltchevIK02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MiltchevIK02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/miltchev.html"
+      ]
+    },
+    {
+      "title": "ACPI Implementation on FreeBSD",
+      "authors": [
+        "Takanori Watanabe"
+      ],
+      "pages": "121-131",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Watanabe02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Watanabe02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/watanabe.html"
+      ]
+    },
+    {
+      "title": "An Implementation of Scheduler Activations on the NetBSD Operating System",
+      "authors": [
+        "Nathan J. Williams"
+      ],
+      "pages": "99-108",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Williams02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Williams02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/williams.html"
+      ]
+    },
+    {
+      "title": "Application-specific Network Management for Energy-Aware Streaming of Popular Multimedia Formats",
+      "authors": [
+        "Surendar Chandra",
+        "Amin Vahdat"
+      ],
+      "pages": "329-342",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChandraV02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChandraV02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/chandra.html"
+      ]
+    },
+    {
+      "title": "Authorization and Charging in Public WLANs Using FreeBSD and 802.1x",
+      "authors": [
+        "Pekka Nikander"
+      ],
+      "pages": "109-119",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Nikander02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Nikander02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/nikander.html"
+      ]
+    },
+    {
+      "title": "Biglook: A Widget Library for the Scheme Programming Language",
+      "authors": [
+        "Erick Gallesio",
+        "Manuel Serrano"
+      ],
+      "pages": "85-97",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GallesioS02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GallesioS02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/gallesio.html"
+      ]
+    },
+    {
+      "title": "Bridging the Information Gap in Storage Protocol Stacks",
+      "authors": [
+        "Timothy E. Denehy",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "177-190",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DenehyAA02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DenehyAA02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/denehy.html"
+      ]
+    },
+    {
+      "title": "Characterizing Alert and Browse Services of Mobile Clients",
+      "authors": [
+        "Atul Adya",
+        "Paramvir Bahl",
+        "Lili Qiu"
+      ],
+      "pages": "343-356",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AdyaBQ02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AdyaBQ02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/adyabahl.html"
+      ]
+    },
+    {
+      "title": "Congestion Control in Linux TCP",
+      "authors": [
+        "Pasi Sarolahti",
+        "Alexey Kuznetsov"
+      ],
+      "pages": "49-62",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SarolahtiK02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SarolahtiK02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/sarolahti.html"
+      ]
+    },
+    {
+      "title": "Conquest: Better Performance Through a Disk/Persistent-RAM Hybrid File System",
+      "authors": [
+        "An-I Wang",
+        "Peter L. Reiher",
+        "Gerald J. Popek",
+        "Geoffrey H. Kuenning"
+      ],
+      "pages": "15-28",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangRPK02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangRPK02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/wang.html"
+      ]
+    },
+    {
+      "title": "Cooperative Task Management Without Manual Stack Management",
+      "authors": [
+        "Atul Adya",
+        "Jon Howell",
+        "Marvin Theimer",
+        "William J. Bolosky",
+        "John R. Douceur"
+      ],
+      "pages": "289-302",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AdyaHTBD02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AdyaHTBD02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/adyahowell.html"
+      ]
+    },
+    {
+      "title": "CPCMS: A Configuration Management System Based on Cryptographic Names",
+      "authors": [
+        "Jonathan S. Shapiro",
+        "John Vanderburgh"
+      ],
+      "pages": "207-220",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShapiroV02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShapiroV02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/shapiro.html"
+      ]
+    },
+    {
+      "title": "Cyclone: A Safe Dialect of C",
+      "authors": [
+        "Trevor Jim",
+        "J. Gregory Morrisett",
+        "Dan Grossman",
+        "Michael W. Hicks",
+        "James Cheney",
+        "Yanling Wang"
+      ],
+      "pages": "275-288",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JimMGHCW02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JimMGHCW02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/jim.html"
+      ]
+    },
+    {
+      "title": "Design and Performance of the OpenBSD Stateful Packet Filter (pf)",
+      "authors": [
+        "Daniel Hartmeier"
+      ],
+      "pages": "171-180",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Hartmeier02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Hartmeier02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/hartmeier.html"
+      ]
+    },
+    {
+      "title": "Design Evolution of the EROS Single-Level Store",
+      "authors": [
+        "Jonathan S. Shapiro",
+        "Jonathan Adams"
+      ],
+      "pages": "59-72",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShapiroA02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShapiroA02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/shapiro.html"
+      ]
+    },
+    {
+      "title": "Engineering a Differencing and Compression Data Format",
+      "authors": [
+        "David G. Korn",
+        "Kiem-Phong Vo"
+      ],
+      "pages": "219-228",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KornV02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KornV02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/korn.html"
+      ]
+    },
+    {
+      "title": "Enhancing NFS Cross-Administrative Domain Access",
+      "authors": [
+        "Joseph Spadavecchia",
+        "Erez Zadok"
+      ],
+      "pages": "181-194",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SpadavecchiaZ02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SpadavecchiaZ02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/spadavecchia.html"
+      ]
+    },
+    {
+      "title": "EtE: Passive End-to-End Internet Service Performance Monitoring",
+      "authors": [
+        "Yun Fu 0003",
+        "Amin Vahdat",
+        "Ludmila Cherkasova",
+        "Wenting Tang"
+      ],
+      "pages": "115-130",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FuVCT02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FuVCT02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/fu.html"
+      ]
+    },
+    {
+      "title": "Exploiting Gray-Box Knowledge of Buffer-Cache Management",
+      "authors": [
+        "Nathan C. Burnett",
+        "John Bent",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "29-44",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BurnettBAA02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BurnettBAA02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/burnett.html"
+      ]
+    },
+    {
+      "title": "Filesystem Performance and Scalability in Linux 2.4.17",
+      "authors": [
+        "Ray Bryant",
+        "Ruth Forester",
+        "John Hawkes"
+      ],
+      "pages": "259-274",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BryantFH02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BryantFH02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/bryant.htmli"
+      ]
+    },
+    {
+      "title": "Geographic Properties of Internet Routing",
+      "authors": [
+        "Lakshminarayanan Subramanian",
+        "Venkata N. Padmanabhan",
+        "Randy H. Katz"
+      ],
+      "pages": "243-259",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SubramanianPK02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SubramanianPK02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/subramanian.html"
+      ]
+    },
+    {
+      "title": "Gscope: A Visualization Tool for Time-Sensitive Software",
+      "authors": [
+        "Ashvin Goel",
+        "Jonathan Walpole"
+      ],
+      "pages": "133-142",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GoelW02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GoelW02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/goel.html"
+      ]
+    },
+    {
+      "title": "Improving Wait-Free Algorithms for Interprocess Communication in Embedded Real-Time Systems",
+      "authors": [
+        "Hai Huang 0002",
+        "Padmanabhan Pillai",
+        "Kang G. Shin"
+      ],
+      "pages": "303-316",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuangPS02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuangPS02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/huang.html"
+      ]
+    },
+    {
+      "title": "Inferring Scheduling Behavior with Hourglass",
+      "authors": [
+        "John Regehr"
+      ],
+      "pages": "143-156",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Regehr02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Regehr02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/regehr.html"
+      ]
+    },
+    {
+      "title": "Interactive 3D Graphics Applications for Tcl",
+      "authors": [
+        "Oliver Kersting",
+        "J&uuml;rgen D&ouml;llner"
+      ],
+      "pages": "1-12",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KerstingD02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KerstingD02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/kersting.html"
+      ]
+    },
+    {
+      "title": "Linux NFS Client Write Performance",
+      "authors": [
+        "Chuck Lever",
+        "Peter Honeyman"
+      ],
+      "pages": "29-40",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LeverH02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LeverH02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/lever.html"
+      ]
+    },
+    {
+      "title": "Maximizing Throughput in Replicated Disk Striping of Variable Bit-Rate Streams",
+      "authors": [
+        "Stergios V. Anastasiadis",
+        "Kenneth C. Sevcik",
+        "Michael Stumm"
+      ],
+      "pages": "191-204",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AnastasiadisSS02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AnastasiadisSS02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/anastaiadis.html"
+      ]
+    },
+    {
+      "title": "My Cache or Yours? Making Storage More Exclusive",
+      "authors": [
+        "Theodore M. Wong",
+        "John Wilkes"
+      ],
+      "pages": "161-175",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WongW02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WongW02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/wong.html"
+      ]
+    },
+    {
+      "title": "Ningaui: A Linux Cluster for Business",
+      "authors": [
+        "Andrew Hume",
+        "Scott Daniels"
+      ],
+      "pages": "195-206",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HumeD02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HumeD02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/hume.html"
+      ]
+    },
+    {
+      "title": "Ninja: A Framework for Network Services",
+      "authors": [
+        "J. Robert von Behren",
+        "Eric A. Brewer",
+        "Nikita Borisov",
+        "Michael Chen 0001",
+        "Matt Welsh",
+        "Josh MacDonald",
+        "Jeremy Lau",
+        "David E. Culler"
+      ],
+      "pages": "87-102",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BehrenBBCWMLC02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BehrenBBCWMLC02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/behren.html"
+      ]
+    },
+    {
+      "title": "Overhauling Amd for the '00s: A Case Study of GNU Autotools",
+      "authors": [
+        "Erez Zadok"
+      ],
+      "pages": "287-297",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Zadok02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Zadok02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/zadok.html"
+      ]
+    },
+    {
+      "title": "Planned Extensions to the Linux Ext2/Ext3 Filesystem",
+      "authors": [
+        "Theodore Y. Ts'o",
+        "Stephen Tweedie"
+      ],
+      "pages": "235-243",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TsoT02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TsoT02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/tso.html"
+      ]
+    },
+    {
+      "title": "Providing Process Origin Information to Aid in Network Traceback",
+      "authors": [
+        "Florian P. Buchholz",
+        "Clay Shields"
+      ],
+      "pages": "261-274",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BuchholzS02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BuchholzS02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/buchholz.html"
+      ]
+    },
+    {
+      "title": "Recent Filesystem Optimisations on FreeBSD",
+      "authors": [
+        "Ian Dowse",
+        "David Malone"
+      ],
+      "pages": "245-258",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DowseM02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DowseM02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/dowse.html"
+      ]
+    },
+    {
+      "title": "Robust Positioning Algorithms for Distributed Ad-Hoc Wireless Sensor Networks",
+      "authors": [
+        "Chris Savarese",
+        "Jan M. Rabaey",
+        "Koen Langendoen"
+      ],
+      "pages": "317-327",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SavareseRL02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SavareseRL02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/savarese.html"
+      ]
+    },
+    {
+      "title": "Simple and General Statistical Profiling with PCT",
+      "authors": [
+        "Charles Blake 0001",
+        "Steven J. Bauer"
+      ],
+      "pages": "205-217",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BlakeB02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BlakeB02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/blake.html"
+      ]
+    },
+    {
+      "title": "Simple Memory Protection for Embedded Operating System Kernels",
+      "authors": [
+        "Frank W. Miller"
+      ],
+      "pages": "299-308",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Miller02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Miller02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/miller.html"
+      ]
+    },
+    {
+      "title": "Speeding Up Kernel Scheduler by Reducing Cache Misses",
+      "authors": [
+        "Shuji Yamamura",
+        "Akira Hirai",
+        "Mitsuru Sato",
+        "Masao Yamamoto",
+        "Akira Naruse",
+        "Kouichi Kumon"
+      ],
+      "pages": "275-285",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YamamuraHSYNK02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YamamuraHSYNK02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/yamamura.html"
+      ]
+    },
+    {
+      "title": "Structure and Performance of the Direct Access File System",
+      "authors": [
+        "Kostas Magoutis",
+        "Salimah Addetia",
+        "Alexandra Fedorova",
+        "Margo I. Seltzer",
+        "Jeffrey S. Chase",
+        "Andrew J. Gallatin",
+        "Richard Kisley",
+        "Rajiv Wickremesinghe",
+        "Eran Gabber"
+      ],
+      "pages": "1-14",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MagoutisAFSCGKWG02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MagoutisAFSCGKWG02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/magoutis.html"
+      ]
+    },
+    {
+      "title": "SWILL: A Simple Embedded Web Server Library",
+      "authors": [
+        "Sotiria Lampoudi",
+        "David M. Beazley"
+      ],
+      "pages": "19-27",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LampoudiB02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LampoudiB02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/lampoudi.html"
+      ]
+    },
+    {
+      "title": "The AGFL Grammar Work Lab",
+      "authors": [
+        "Cornelis H. A. Koster",
+        "Erik Verbruggen"
+      ],
+      "pages": "13-18",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KosterV02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KosterV02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/koster.html"
+      ]
+    },
+    {
+      "title": "The Future Is Coming: Where the X Window System Should Go",
+      "authors": [
+        "Jim Gettys"
+      ],
+      "pages": "63-69",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Gettys02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Gettys02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/gettys.html"
+      ]
+    },
+    {
+      "title": "The JX Operating System",
+      "authors": [
+        "Michael Golm",
+        "Meik Felser",
+        "Christian Wawersich",
+        "J&uuml;rgen Klein&ouml;der"
+      ],
+      "pages": "45-58",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GolmFWK02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GolmFWK02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/golm.html"
+      ]
+    },
+    {
+      "title": "The Performance of Remote Display Mechanisms for Thin-Client Computing",
+      "authors": [
+        "S. Jae Yang",
+        "Jason Nieh",
+        "Matt Selsky",
+        "Nikhil Tiwari"
+      ],
+      "pages": "131-146",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YangNST02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YangNST02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/yang.html"
+      ]
+    },
+    {
+      "title": "Think: A Software Framework for Component-based Operating System Kernels",
+      "authors": [
+        "Jean-Philippe Fassino",
+        "Jean-Bernard Stefani",
+        "Julia L. Lawall",
+        "Gilles Muller"
+      ],
+      "pages": "73-86",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FassinoSLM02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FassinoSLM02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/fassino.html"
+      ]
+    },
+    {
+      "title": "Using Cohort-Scheduling to Enhance Server Performance",
+      "authors": [
+        "James R. Larus",
+        "Michael Parkes"
+      ],
+      "pages": "103-114",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LarusP02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LarusP02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/larus.html"
+      ]
+    },
+    {
+      "title": "X Meets Z: Verifying Correctness in the Presence of POSIX Threads",
+      "authors": [
+        "Bart Massey",
+        "Robert T. Bauer"
+      ],
+      "pages": "221-234",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MasseyB02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MasseyB02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/massey.html"
+      ]
+    },
+    {
+      "title": "XCL: An Xlib Compatibility Layer for XCB",
+      "authors": [
+        "Jamey Sharp",
+        "Bart Massey"
+      ],
+      "pages": "71-83",
+      "year": "2002",
+      "venue": "USENIX ATC 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SharpM02",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SharpM02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix02/tech/freenix/sharp.html"
+      ]
+    }
+  ]
+}

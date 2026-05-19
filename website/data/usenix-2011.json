@@ -1,0 +1,749 @@
+{
+  "id": "usenix-2011",
+  "venue": "usenix",
+  "year": 2011,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2011.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2011.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2011",
+    "conf/usenix/2011-1",
+    "conf/usenix/2011-2",
+    "conf/usenix/2011-3",
+    "conf/usenix/2011-4",
+    "conf/usenix/2011-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 40,
+  "display_count": 40,
+  "papers": [
+    {
+      "title": "A Case for NUMA-aware Contention Management on Multicore Systems",
+      "authors": [
+        "Sergey Blagodurov",
+        "Sergey Zhuravlev",
+        "Mohammad Dashti 0002",
+        "Alexandra Fedorova"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BlagodurovZDF11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BlagodurovZDF11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/case-numa-aware-contention-management-multicore-systems"
+      ]
+    },
+    {
+      "title": "Autonomous Storage Management for Personal Devices with PodBase",
+      "authors": [
+        "Ansley Post",
+        "Juan Navarro",
+        "Petr Kuznetsov",
+        "Peter Druschel"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PostNKD11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PostNKD11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/autonomous-storage-management-personal-devices-podbase"
+      ]
+    },
+    {
+      "title": "Building a High-performance Deduplication System",
+      "authors": [
+        "Fanglu Guo",
+        "Petros Efstathopoulos"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuoE11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuoE11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/building-high-performance-deduplication-system"
+      ]
+    },
+    {
+      "title": "CDE: Using System Call Interposition to Automatically Create Portable Software Packages",
+      "authors": [
+        "Philip J. Guo",
+        "Dawson R. Engler"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuoE11a",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuoE11a.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/cde-using-system-call-interposition-automatically-create-portable-software"
+      ]
+    },
+    {
+      "title": "Context-based Online Configuration-Error Detection",
+      "authors": [
+        "Yinglian Xie",
+        "Rina Panigrahy",
+        "Junfeng Yang",
+        "Chad Verbowski",
+        "Arunvijay Kumar"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XiePYVK11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XiePYVK11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/context-based-online-configuration-error-detection"
+      ]
+    },
+    {
+      "title": "Enabling Security in Cloud Storage SLAs with CloudProof",
+      "authors": [
+        "Raluca Ada Popa",
+        "Jacob R. Lorch",
+        "David Molnar",
+        "Helen J. Wang",
+        "Li Zhuang"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PopaLMWZ11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PopaLMWZ11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/enabling-security-cloud-storage-slas-cloudproof"
+      ]
+    },
+    {
+      "title": "Exception-Less System Calls for Event-Driven Servers",
+      "authors": [
+        "Livio Soares",
+        "Michael Stumm"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SoaresS11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SoaresS11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/exception-less-system-calls-event-driven-servers"
+      ]
+    },
+    {
+      "title": "Eyo: Device-Transparent Personal Storage",
+      "authors": [
+        "Jacob Strauss",
+        "Justin Mazzola Paluska",
+        "Chris Lesniewski-Laas",
+        "Bryan Ford",
+        "Robert Morris 0005",
+        "M. Frans Kaashoek"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/StraussPLFMK11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/StraussPLFMK11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/eyo-device-transparent-personal-storage"
+      ]
+    },
+    {
+      "title": "FVD: A High-Performance Virtual Machine Image Format for Cloud",
+      "authors": [
+        "Chunqiang Tang"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Tang11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Tang11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/fvd-high-performance-virtual-machine-image-format-cloud"
+      ]
+    },
+    {
+      "title": "G2: A Graph Processing System for Diagnosing Distributed Systems",
+      "authors": [
+        "Zhenyu Guo",
+        "Dong Zhou 0006",
+        "Haoxiang Lin",
+        "Mao Yang 0004",
+        "Fan Long",
+        "Chaoqiang Deng",
+        "Changshu Liu",
+        "Lidong Zhou"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuoZLYLDLZ11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuoZLYLDLZ11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/g2-graph-processing-system-diagnosing-distributed-systems"
+      ]
+    },
+    {
+      "title": "Gatekeeper: Supporting Bandwidth Guarantees for Multi-tenant Datacenter Networks",
+      "authors": [
+        "Henrique Rodrigues",
+        "Jose Renato Santos",
+        "Yoshio Turner",
+        "Paolo Soares",
+        "Dorgival O. Guedes"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RodriguesSTSG11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RodriguesSTSG11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/wiov11/gatekeeper-supporting-bandwidth-guarantees-multi-tenant-datacenter-networks"
+      ]
+    },
+    {
+      "title": "HiTune: Dataflow-Based Performance Analysis for Big Data Cloud",
+      "authors": [
+        "Jinquan Dai",
+        "Jie Huang",
+        "Shengsheng Huang",
+        "Bo Huang 0002",
+        "Yan Liu"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DaiHH0L11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DaiHH0L11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/hitune-dataflow-based-performance-analysis-big-data-cloud"
+      ]
+    },
+    {
+      "title": "In-situ MapReduce for Log Processing",
+      "authors": [
+        "Dionysios Logothetis",
+        "Chris Trezzo",
+        "Kevin C. Webb 0001",
+        "Kenneth Yocum"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LogothetisTWY11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LogothetisTWY11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/situ-mapreduce-log-processing"
+      ]
+    },
+    {
+      "title": "Internet-scale Visualization and Detection of Performance Events",
+      "authors": [
+        "Jeffrey Pang",
+        "Subhabrata Sen",
+        "Oliver Spatscheck",
+        "Shobha Venkataraman"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PangSSV11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PangSSV11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/internet-scale-visualization-and-detection-performance-events"
+      ]
+    },
+    {
+      "title": "jVPFS: Adding Robustness to a Secure Stacked File System with Untrusted Local Storage Components",
+      "authors": [
+        "Carsten Weinhold"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Weinhold11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Weinhold11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/jvpfs-adding-robustness-secure-stacked-file-system-untrusted-local-storage"
+      ]
+    },
+    {
+      "title": "Low Cost Working Set Size Tracking",
+      "authors": [
+        "Weiming Zhao",
+        "Xinxin Jin",
+        "Zhenlin Wang 0003",
+        "Xiaolin Wang 0001",
+        "Yingwei Luo",
+        "Xiaoming Li 0001"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhaoJWWLL11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhaoJWWLL11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/low-cost-working-set-size-tracking"
+      ]
+    },
+    {
+      "title": "Nested QoS: Providing Flexible Performance in Shared IO Environment",
+      "authors": [
+        "Hui Wang 0014",
+        "Peter J. Varman"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0014V11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0014V11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/wiov11/nested-qos-providing-flexible-performance-shared-io-environment"
+      ]
+    },
+    {
+      "title": "OFRewind: Enabling Record and Replay Troubleshooting for Networks",
+      "authors": [
+        "Andreas Wundsam",
+        "Dan Levin",
+        "Srini Seetharaman",
+        "Anja Feldmann"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WundsamLSF11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WundsamLSF11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/ofrewind-enabling-record-and-replay-troubleshooting-networks"
+      ]
+    },
+    {
+      "title": "Okeanos: Wasteless Journaling for Fast and Reliable Multistream Storage",
+      "authors": [
+        "Stergios V. Anastasiadis"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Anastasiadis11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Anastasiadis11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/okeanos-wasteless-journaling-fast-and-reliable-multistream-storage"
+      ]
+    },
+    {
+      "title": "Online Migration for Geo-distributed Storage Systems",
+      "authors": [
+        "Nguyen Tran",
+        "Marcos K. Aguilera",
+        "Mahesh Balakrishnan 0001"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TranAB11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TranAB11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/online-migration-geo-distributed-storage-systems"
+      ]
+    },
+    {
+      "title": "ORDER: Object centRic DEterministic Replay for Java",
+      "authors": [
+        "Zhemin Yang",
+        "Min Yang 0002",
+        "Lvcai Xu",
+        "Haibo Chen 0001",
+        "Binyu Zang"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YangYXCZ11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YangYXCZ11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/order-object-centric-deterministic-replay-java"
+      ]
+    },
+    {
+      "title": "Pegasus: Coordinated Scheduling for Virtualized Accelerator-based Systems",
+      "authors": [
+        "Vishakha Gupta",
+        "Karsten Schwan",
+        "Niraj Tolia",
+        "Vanish Talwar",
+        "Parthasarathy Ranganathan"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuptaSTTR11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuptaSTTR11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/pegasus-coordinated-scheduling-virtualized-accelerator-based-systems"
+      ]
+    },
+    {
+      "title": "Polygraph: System for Dynamic Reduction of False Alerts in Large-Scale IT Service Delivery Environments",
+      "authors": [
+        "Sangkyum Kim",
+        "Winnie Cheng",
+        "Shang Guo",
+        "Laura Z. Luan",
+        "Daniela Rosu 0001",
+        "Abhijit Bose"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KimCGLRB11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KimCGLRB11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/polygraph-system-dynamic-reduction-false-alerts-large-scale-it-service"
+      ]
+    },
+    {
+      "title": "Power Budgeting for Virtualized Data Centers",
+      "authors": [
+        "Harold Lim",
+        "Aman Kansal",
+        "Jie Liu 0001"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LimKL11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LimKL11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/power-budgeting-virtualized-data-centers"
+      ]
+    },
+    {
+      "title": "Resizable, Scalable, Concurrent Hash Tables via Relativistic Programming",
+      "authors": [
+        "Josh Triplett",
+        "Paul E. McKenney",
+        "Jonathan Walpole"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TriplettMW11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TriplettMW11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/resizable-scalable-concurrent-hash-tables-relativistic-programming"
+      ]
+    },
+    {
+      "title": "Revisiting the Storage Stack in Virtualized NAS Environments",
+      "authors": [
+        "Dean Hildebrand",
+        "Anna Povzner",
+        "Renu Tewari",
+        "Vasily Tarasov"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HildebrandPTT11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HildebrandPTT11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/wiov11/revisiting-storage-stack-virtualized-nas-environments"
+      ]
+    },
+    {
+      "title": "Semantics of Caching with SPOCA: A Stateless, Proportional, Optimally-Consistent Addressing Algorithm",
+      "authors": [
+        "Ashish Chawla",
+        "Benjamin C. Reed",
+        "Karl Juhnke",
+        "Ghousuddin Syed"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChawlaRJS11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChawlaRJS11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/semantics-caching-spoca-stateless-proportional-optimally-consistent"
+      ]
+    },
+    {
+      "title": "SiLo: A Similarity-Locality based Near-Exact Deduplication Scheme with Low RAM Overhead and High Throughput",
+      "authors": [
+        "Wen Xia",
+        "Hong Jiang 0001",
+        "Dan Feng 0001",
+        "Yu Hua 0001"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XiaJFH11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XiaJFH11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/silo-similarity-locality-based-near-exact-deduplication-scheme-low-ram"
+      ]
+    },
+    {
+      "title": "Slow Down or Sleep, That Is the Question",
+      "authors": [
+        "Etienne Le Sueur",
+        "Gernot Heiser"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SueurH11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SueurH11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/slow-down-or-sleep-question"
+      ]
+    },
+    {
+      "title": "SplitX: Split Guest/Hypervisor Execution on Multi-Core",
+      "authors": [
+        "Alex Landau",
+        "Muli Ben-Yehuda",
+        "Abel Gordon"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LandauBG11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LandauBG11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/wiov11/splitx-split-guesthypervisor-execution-multi-core"
+      ]
+    },
+    {
+      "title": "Taming the Flying Cable Monster: A Topology Design and Optimization Framework for Data-Center Networks",
+      "authors": [
+        "Jayaram Mudigonda",
+        "Praveen Yalagandula",
+        "Jeffrey C. Mogul"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MudigondaYM11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MudigondaYM11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/taming-flying-cable-monster-topology-design-and-optimization-framework-data"
+      ]
+    },
+    {
+      "title": "The Design and Evolution of Live Storage Migration in VMware ESX",
+      "authors": [
+        "Ali Jos&eacute; Mashtizadeh",
+        "Emr&eacute; Celebi",
+        "Tal Garfinkel",
+        "Min Cai"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CelebiGC11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CelebiGC11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/design-and-evolution-live-storage-migration-vmware-esx"
+      ]
+    },
+    {
+      "title": "TidyFS: A Simple and Small Distributed File System",
+      "authors": [
+        "Dennis Fetterly",
+        "Maya Haridasan",
+        "Michael Isard",
+        "Swaminathan Sundararaman"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FetterlyHIS11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FetterlyHIS11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/tidyfs-simple-and-small-distributed-file-system"
+      ]
+    },
+    {
+      "title": "TimeGraph: GPU Scheduling for Real-Time Multi-Tasking Environments",
+      "authors": [
+        "Shinpei Kato",
+        "Karthik Lakshmanan",
+        "Ragunathan Rajkumar",
+        "Yutaka Ishikawa"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KatoLRI11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KatoLRI11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/timegraph-gpu-scheduling-real-time-multi-tasking-environments"
+      ]
+    },
+    {
+      "title": "Toward Online Testing of Federated and Heterogeneous Distributed Systems",
+      "authors": [
+        "Marco Canini",
+        "Vojin Jovanovic",
+        "Daniele Venzano",
+        "Boris Spasojevic",
+        "Olivier Crameri",
+        "Dejan Kostic"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CaniniJVSCK11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CaniniJVSCK11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/toward-online-testing-federated-and-heterogeneous-distributed-systems"
+      ]
+    },
+    {
+      "title": "VAMOS: Virtualization Aware Middleware",
+      "authors": [
+        "Denis Filimonov",
+        "Maor Dahan"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FilimonovD11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FilimonovD11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/wiov11/vamos-virtualization-aware-middleware"
+      ]
+    },
+    {
+      "title": "vIC: Interrupt Coalescing for Virtual Machine Storage Device IO",
+      "authors": [
+        "Irfan Ahmad 0005",
+        "Ajay Gulati",
+        "Ali Jos&eacute; Mashtizadeh"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AhmadGM11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AhmadGM11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/vic-interrupt-coalescing-virtual-machine-storage-device-io"
+      ]
+    },
+    {
+      "title": "Victim Disk First: An Asymmetric Cache to Boost the Performance of Disk Arrays under Faulty Conditions",
+      "authors": [
+        "Shenggang Wan",
+        "Qiang Cao 0001",
+        "Jianzhong Huang 0001",
+        "Siyi Li",
+        "Xin Li",
+        "Shenghui Zhan",
+        "Li Yu",
+        "Changsheng Xie 0001",
+        "Xubin He"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WanCHLLZYXH11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WanCHLLZYXH11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/victim-disk-first-asymmetric-cache-boost-performance-disk-arrays-under-faulty"
+      ]
+    },
+    {
+      "title": "vIOMMU: Efficient IOMMU Emulation",
+      "authors": [
+        "Nadav Amit",
+        "Muli Ben-Yehuda",
+        "Dan Tsafrir",
+        "Assaf Schuster"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AmitBTS11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AmitBTS11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/viommu-efficient-iommu-emulation"
+      ]
+    },
+    {
+      "title": "Vsys: A Programmable sudo",
+      "authors": [
+        "Sapan Bhatia",
+        "Giovanni Di Stasi",
+        "Thom Haddow",
+        "Andy C. Bavier",
+        "Steve Muir",
+        "Larry L. Peterson"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "USENIX ATC 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BhatiaSHBMP11",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BhatiaSHBMP11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixatc11/vsys-programmable-sudo"
+      ]
+    }
+  ]
+}

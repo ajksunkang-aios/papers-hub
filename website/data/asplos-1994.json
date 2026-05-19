@@ -1,0 +1,603 @@
+{
+  "id": "asplos-1994",
+  "venue": "asplos",
+  "year": 1994,
+  "short_name": "ASPLOS",
+  "full_name": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "source_url": "https://dblp.org/db/conf/asplos/asplos1994.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/asplos/asplos1994.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/asplos/1994",
+    "conf/asplos/1994-1",
+    "conf/asplos/1994-2",
+    "conf/asplos/1994-3",
+    "conf/asplos/1994-4",
+    "conf/asplos/1994-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) ACM International Conference on Architectural Support"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 29,
+  "display_count": 29,
+  "papers": [
+    {
+      "title": "A Technique for Monitoring Run-Time Dynamics of an Operating System and a Microprocessor Executing User Applications",
+      "authors": [
+        "Pramod V. Argade",
+        "David K. Charles",
+        "Craig Taylor"
+      ],
+      "pages": "122-131",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ArgadeCT94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ArgadeCT94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195518",
+        "https://doi.org/10.1145/195470.195518",
+        "https://doi.org/10.1145/381792.195518",
+        "https://www.wikidata.org/entity/Q130953885"
+      ]
+    },
+    {
+      "title": "AP1000+: Architectural Support of PUT/GET Interface for Parallelizing Compiler",
+      "authors": [
+        "Kenichi Hayashi",
+        "Tsunehisa Doi",
+        "Takeshi Horie",
+        "Yoichi Koyanagi",
+        "Osamu Shiraki",
+        "Nobutaka Imamura",
+        "Toshiyuki Shimizu",
+        "Hiroaki Ishihata",
+        "Tatsuya Shindo"
+      ],
+      "pages": "196-207",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HayashiDHKSISIS94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HayashiDHKSISIS94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195538",
+        "https://doi.org/10.1145/195470.195538",
+        "https://doi.org/10.1145/381792.195538",
+        "https://www.wikidata.org/entity/Q121438479"
+      ]
+    },
+    {
+      "title": "Avoiding Conflict Misses Dynamically in Large Direct-Mapped Caches",
+      "authors": [
+        "Brian N. Bershad",
+        "Dennis Lee 0001",
+        "Theodore H. Romer",
+        "J. Bradley Chen"
+      ],
+      "pages": "158-170",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BershadLRC94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BershadLRC94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195527",
+        "https://doi.org/10.1145/195470.195527",
+        "https://doi.org/10.1145/381792.195527"
+      ]
+    },
+    {
+      "title": "Compiler Optimizations for Improving Data Locality",
+      "authors": [
+        "Steve Carr 0001",
+        "Kathryn S. McKinley",
+        "Chau-Wen Tseng"
+      ],
+      "pages": "252-262",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CarrMT94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CarrMT94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195557",
+        "https://doi.org/10.1145/195470.195557",
+        "https://doi.org/10.1145/381792.195557",
+        "https://www.wikidata.org/entity/Q121436055"
+      ]
+    },
+    {
+      "title": "Contrasting Characteristics and Cache Performance of Technical and Multi-User Commercial Workloads",
+      "authors": [
+        "Ann Marie Grizzaffi Maynard",
+        "Colette M. Donnelly",
+        "Bret R. Olszewski"
+      ],
+      "pages": "145-156",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MaynardDO94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MaynardDO94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195524",
+        "https://doi.org/10.1145/195470.195524",
+        "https://doi.org/10.1145/381792.195524"
+      ]
+    },
+    {
+      "title": "DCG: An Efficient, Retargetable Dynamic Code Generation System",
+      "authors": [
+        "Dawson R. Engler",
+        "Todd A. Proebsting"
+      ],
+      "pages": "263-272",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/EnglerP94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/EnglerP94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195567",
+        "https://doi.org/10.1145/195470.195567",
+        "https://doi.org/10.1145/381792.195567"
+      ]
+    },
+    {
+      "title": "Dynamic Memory Disambiguation Using the Memory Conflict Buffer",
+      "authors": [
+        "David M. Gallagher",
+        "William Y. Chen",
+        "Scott A. Mahlke",
+        "John C. Gyllenhaal",
+        "Wen-mei W. Hwu"
+      ],
+      "pages": "183-193",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GallagherCMGH94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GallagherCMGH94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195534",
+        "https://doi.org/10.1145/195470.195534",
+        "https://doi.org/10.1145/381792.195534"
+      ]
+    },
+    {
+      "title": "eNVy: A Non-Volatile, Main Memory Storage System",
+      "authors": [
+        "Michael Wu 0003",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "86-97",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WuZ94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WuZ94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195506",
+        "https://doi.org/10.1145/195470.195506",
+        "https://doi.org/10.1145/381792.195506"
+      ]
+    },
+    {
+      "title": "Fine-grain Access Control for Distributed Shared Memory",
+      "authors": [
+        "Ioannis Schoinas",
+        "Babak Falsafi",
+        "Alvin R. Lebeck",
+        "Steven K. Reinhardt",
+        "James R. Larus",
+        "David A. Wood 0001"
+      ],
+      "pages": "297-306",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SchoinasFLRLW94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SchoinasFLRLW94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195575",
+        "https://doi.org/10.1145/195470.195575",
+        "https://doi.org/10.1145/381792.195575"
+      ]
+    },
+    {
+      "title": "Hardware and Software Support for Efficient Exception Handling",
+      "authors": [
+        "Chandramohan A. Thekkath",
+        "Henry M. Levy"
+      ],
+      "pages": "110-119",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ThekkathL94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ThekkathL94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195515",
+        "https://doi.org/10.1145/195470.195515",
+        "https://doi.org/10.1145/381792.195515"
+      ]
+    },
+    {
+      "title": "Hardware Support for Fast Capability-based Addressing",
+      "authors": [
+        "Nicholas P. Carter",
+        "Stephen W. Keckler",
+        "William J. Dally"
+      ],
+      "pages": "319-327",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CarterKD94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CarterKD94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195579",
+        "https://doi.org/10.1145/195470.195579",
+        "https://doi.org/10.1145/381792.195579"
+      ]
+    },
+    {
+      "title": "Improving the Accuracy of Static Branch Prediction Using Branch Correlation",
+      "authors": [
+        "Cliff Young",
+        "Michael D. Smith 0001"
+      ],
+      "pages": "232-241",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/YoungS94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/YoungS94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195549",
+        "https://doi.org/10.1145/195470.195549",
+        "https://doi.org/10.1145/381792.195549"
+      ]
+    },
+    {
+      "title": "Integration of Message Passing and Shared Memory in the Stanford FLASH Multiprocessor",
+      "authors": [
+        "John Heinlein",
+        "Kourosh Gharachorloo",
+        "Scott Dresser",
+        "Anoop Gupta"
+      ],
+      "pages": "38-50",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HeinleinGDG94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HeinleinGDG94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195494",
+        "https://doi.org/10.1145/195470.195494",
+        "https://doi.org/10.1145/381792.195494"
+      ]
+    },
+    {
+      "title": "Interleaving: A Multithreading Technique Targeting Multiprocessors and Workstations",
+      "authors": [
+        "James Laudon",
+        "Anoop Gupta",
+        "Mark Horowitz"
+      ],
+      "pages": "308-318",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LaudonGH94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LaudonGH94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195576",
+        "https://doi.org/10.1145/195470.195576",
+        "https://doi.org/10.1145/381792.195576"
+      ]
+    },
+    {
+      "title": "LCM: Memory System Support for Parallel Language Implementation",
+      "authors": [
+        "James R. Larus",
+        "Brad Richards",
+        "Guhan Viswanathan"
+      ],
+      "pages": "208-218",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LarusRV94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LarusRV94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195545",
+        "https://doi.org/10.1145/195470.195545",
+        "https://doi.org/10.1145/381792.195545"
+      ]
+    },
+    {
+      "title": "Performance of a Hardware-Assisted Real-Time Garbage Collector",
+      "authors": [
+        "William J. Schmidt",
+        "Kelvin D. Nilsen"
+      ],
+      "pages": "76-85",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SchmidtN94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SchmidtN94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195504",
+        "https://doi.org/10.1145/195470.195504",
+        "https://doi.org/10.1145/381792.195504"
+      ]
+    },
+    {
+      "title": "Reactive Synchronization Algorithms for Multiprocessors",
+      "authors": [
+        "Beng-Hong Lim",
+        "Anant Agarwal"
+      ],
+      "pages": "25-35",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LimA94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LimA94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195490",
+        "https://doi.org/10.1145/195470.195490",
+        "https://doi.org/10.1145/381792.195490"
+      ]
+    },
+    {
+      "title": "Reducing Branch Costs via Branch Alignment",
+      "authors": [
+        "Brad Calder",
+        "Dirk Grunwald"
+      ],
+      "pages": "242-251",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CalderG94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CalderG94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195553",
+        "https://doi.org/10.1145/195470.195553",
+        "https://doi.org/10.1145/381792.195553"
+      ]
+    },
+    {
+      "title": "Resource Allocation in a High Clock Rate Microprocessor",
+      "authors": [
+        "Michael Upton",
+        "Thomas R. Huff",
+        "Trevor N. Mudge",
+        "Richard B. Brown"
+      ],
+      "pages": "98-109",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/UptonHMB94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/UptonHMB94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195510",
+        "https://doi.org/10.1145/195470.195510",
+        "https://doi.org/10.1145/381792.195510",
+        "https://www.wikidata.org/entity/Q130953910"
+      ]
+    },
+    {
+      "title": "Scheduling and Page Migration for Multiprocessor Compute Servers",
+      "authors": [
+        "Rohit Chandra",
+        "Scott Devine",
+        "Ben Verghese",
+        "Anoop Gupta",
+        "Mendel Rosenblum"
+      ],
+      "pages": "12-24",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChandraDVGR94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChandraDVGR94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195485",
+        "https://doi.org/10.1145/195470.195485",
+        "https://doi.org/10.1145/381792.195485"
+      ]
+    },
+    {
+      "title": "Separating Data and Control Transfer in Distributed Operating Systems",
+      "authors": [
+        "Chandramohan A. Thekkath",
+        "Henry M. Levy",
+        "Edward D. Lazowska"
+      ],
+      "pages": "2-11",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ThekkathLL94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ThekkathLL94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195481",
+        "https://doi.org/10.1145/195470.195481",
+        "https://doi.org/10.1145/381792.195481"
+      ]
+    },
+    {
+      "title": "Simple Compiler Algorithms to Reduce Ownership Operhead in Cache Coherence Protocols",
+      "authors": [
+        "Jonas Skeppstedt",
+        "Per Stenstr&ouml;m"
+      ],
+      "pages": "286-296",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SkeppstedtS94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SkeppstedtS94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195572",
+        "https://doi.org/10.1145/195470.195572",
+        "https://doi.org/10.1145/381792.195572",
+        "https://www.wikidata.org/entity/Q122203936"
+      ]
+    },
+    {
+      "title": "Software Overhead in Messaging Layers: Where Does the Time Go?",
+      "authors": [
+        "Vijay Karamcheti",
+        "Andrew A. Chien"
+      ],
+      "pages": "51-60",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KaramchetiC94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KaramchetiC94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195499",
+        "https://doi.org/10.1145/195470.195499",
+        "https://doi.org/10.1145/381792.195499"
+      ]
+    },
+    {
+      "title": "Surpassing the TLB Performance of Superpages with Less Operating System Support",
+      "authors": [
+        "Madhusudhan Talluri",
+        "Mark D. Hill"
+      ],
+      "pages": "171-182",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TalluriH94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TalluriH94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195531",
+        "https://doi.org/10.1145/195470.195531",
+        "https://doi.org/10.1145/381792.195531"
+      ]
+    },
+    {
+      "title": "The Effectiveness of Multiple Hardware Contexts",
+      "authors": [
+        "Radhika Thekkath",
+        "Susan J. Eggers"
+      ],
+      "pages": "328-337",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ThekkathE94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ThekkathE94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195583",
+        "https://doi.org/10.1145/195470.195583",
+        "https://doi.org/10.1145/381792.195583"
+      ]
+    },
+    {
+      "title": "The Performance Advantages of Integrating Block Data Trabsfer in Cache-Coherent Multiprocessors",
+      "authors": [
+        "Steven Cameron Woo",
+        "Jaswinder Pal Singh",
+        "John L. Hennessy"
+      ],
+      "pages": "219-229",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WooSH94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WooSH94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195547",
+        "https://doi.org/10.1145/195470.195547",
+        "https://doi.org/10.1145/381792.195547"
+      ]
+    },
+    {
+      "title": "The Performance Impact of Flexibility in the Stanford FLASH Multiprocessor",
+      "authors": [
+        "Mark A. Heinrich",
+        "Jeffrey Kuskin",
+        "David Ofelt",
+        "John Heinlein",
+        "Joel Baxter",
+        "Jaswinder Pal Singh",
+        "Richard Simoni",
+        "Kourosh Gharachorloo",
+        "David Nakahira",
+        "Mark Horowitz",
+        "Anoop Gupta",
+        "Mendel Rosenblum",
+        "John L. Hennessy"
+      ],
+      "pages": "274-285",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HeinrichKOHBSSGNHGRH94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HeinrichKOHBSSGNHGRH94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195569",
+        "https://doi.org/10.1145/195470.195569",
+        "https://doi.org/10.1145/381792.195569"
+      ]
+    },
+    {
+      "title": "Trap-driven Simulation with Tapeworm II",
+      "authors": [
+        "Richard Uhlig",
+        "David Nagle",
+        "Trevor N. Mudge",
+        "Stuart Sechrest"
+      ],
+      "pages": "132-144",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/UhligNMS94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/UhligNMS94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195521",
+        "https://doi.org/10.1145/195470.195521",
+        "https://doi.org/10.1145/381792.195521"
+      ]
+    },
+    {
+      "title": "Where is Time Spent in Message-Passing and Shared-Memory Programs?",
+      "authors": [
+        "Satish Chandra 0001",
+        "James R. Larus",
+        "Anne Rogers"
+      ],
+      "pages": "61-73",
+      "year": "1994",
+      "venue": "ASPLOS 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChandraLR94",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChandraLR94.html",
+      "ee_links": [
+        "https://doi.org/10.1145/195473.195501",
+        "https://doi.org/10.1145/195470.195501",
+        "https://doi.org/10.1145/381792.195501"
+      ]
+    }
+  ]
+}

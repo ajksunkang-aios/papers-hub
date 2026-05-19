@@ -1,0 +1,682 @@
+{
+  "id": "sosp-2007",
+  "venue": "sosp",
+  "year": 2007,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp2007.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp2007.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/2007",
+    "conf/sosp/2007-1",
+    "conf/sosp/2007-2",
+    "conf/sosp/2007-3",
+    "conf/sosp/2007-4",
+    "conf/sosp/2007-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 35,
+  "display_count": 35,
+  "papers": [
+    {
+      "title": "/*icomment: bugs or bad comments?*/",
+      "authors": [
+        "Lin Tan 0001",
+        "Ding Yuan 0004",
+        "Gopal Krishna",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "145-158",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TanYKZ07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TanYKZ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294276"
+      ]
+    },
+    {
+      "title": "A DSL approach for object memory management of small devices",
+      "authors": [
+        "Kevin Marquet",
+        "Gilles Grimaud"
+      ],
+      "pages": "4:1-4:5",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MarquetG07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MarquetG07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1376789.1376795"
+      ]
+    },
+    {
+      "title": "A high-performance operating system for structured concurrent programs",
+      "authors": [
+        "Luc Bl&auml;ser"
+      ],
+      "pages": "8:1-8:5",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Blaser07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Blaser07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1376789.1376800"
+      ]
+    },
+    {
+      "title": "AjaxScope: a platform for remotely monitoring the client-side behavior of web 2.0 applications",
+      "authors": [
+        "Emre Kiciman",
+        "V. Benjamin Livshits"
+      ],
+      "pages": "17-30",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KicimanL07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KicimanL07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294264",
+        "https://www.wikidata.org/entity/Q131136286"
+      ]
+    },
+    {
+      "title": "Attested append-only memory: making adversaries stick to their word",
+      "authors": [
+        "Byung-Gon Chun",
+        "Petros Maniatis",
+        "Scott Shenker",
+        "John Kubiatowicz"
+      ],
+      "pages": "189-204",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChunMSK07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChunMSK07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294280",
+        "https://www.wikidata.org/entity/Q54161544"
+      ]
+    },
+    {
+      "title": "AutoBash: improving configuration management with operating system causality analysis",
+      "authors": [
+        "Ya-Yunn Su",
+        "Mona Attariyan",
+        "Jason Flinn"
+      ],
+      "pages": "237-250",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SuAF07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SuAF07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294284"
+      ]
+    },
+    {
+      "title": "Bouncer: securing software by blocking bad input",
+      "authors": [
+        "Manuel Costa",
+        "Miguel Castro 0001",
+        "Lidong Zhou",
+        "Lintao Zhang",
+        "Marcus Peinado"
+      ],
+      "pages": "117-130",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CostaCZZP07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CostaCZZP07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294274"
+      ]
+    },
+    {
+      "title": "Checking the hardware-software interface in spec#",
+      "authors": [
+        "Kevin Bierhoff",
+        "Chris Hawblitzel"
+      ],
+      "pages": "9:1-9:5",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BierhoffH07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BierhoffH07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1376789.1376802"
+      ]
+    },
+    {
+      "title": "Configurable memory protection by aspects",
+      "authors": [
+        "Daniel Lohmann",
+        "Jochen Streicher",
+        "Wanja Hofer",
+        "Olaf Spinczyk",
+        "Wolfgang Schr&ouml;der-Preikschat"
+      ],
+      "pages": "3:1-3:5",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LohmannSHSS07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LohmannSHSS07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1376789.1376794"
+      ]
+    },
+    {
+      "title": "DejaView: a personal virtual computer recorder",
+      "authors": [
+        "Oren Laadan",
+        "Ricardo A. Baratto",
+        "Dan B. Phung",
+        "Shaya Potter",
+        "Jason Nieh"
+      ],
+      "pages": "279-292",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LaadanBPPN07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LaadanBPPN07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294289"
+      ]
+    },
+    {
+      "title": "Dynamo: amazon's highly available key-value store",
+      "authors": [
+        "Giuseppe DeCandia",
+        "Deniz Hastorun",
+        "Madan Jampani",
+        "Gunavardhan Kakulapati",
+        "Avinash Lakshman",
+        "Alex Pilchin",
+        "Swaminathan Sivasubramanian",
+        "Peter Vosshall",
+        "Werner Vogels"
+      ],
+      "pages": "205-220",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DeCandiaHJKLPSVV07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DeCandiaHJKLPSVV07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294281",
+        "https://www.wikidata.org/entity/Q56567174"
+      ]
+    },
+    {
+      "title": "Formalising device driver interfaces",
+      "authors": [
+        "Leonid Ryzhyk",
+        "Ihor Kuz",
+        "Gernot Heiser"
+      ],
+      "pages": "10:1-10:5",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RyzhykKH07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RyzhykKH07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1376789.1376803"
+      ]
+    },
+    {
+      "title": "Generalized file system dependencies",
+      "authors": [
+        "Christopher Frost 0001",
+        "Mike Mammarella",
+        "Eddie Kohler",
+        "Andrew de los Reyes",
+        "Shant Hovsepian",
+        "Andrew Matsuoka",
+        "Lei Zhang"
+      ],
+      "pages": "307-320",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FrostMKRHMZ07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FrostMKRHMZ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294291"
+      ]
+    },
+    {
+      "title": "Improving file system reliability with I/O shepherding",
+      "authors": [
+        "Haryadi S. Gunawi",
+        "Vijayan Prabhakaran",
+        "Swetha Krishnan",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "293-306",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GunawiPKAA07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GunawiPKAA07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294290"
+      ]
+    },
+    {
+      "title": "Information flow control for standard OS abstractions",
+      "authors": [
+        "Maxwell N. Krohn",
+        "Alexander Yip",
+        "Micah Z. Brodsky",
+        "Natan Cliffer",
+        "M. Frans Kaashoek",
+        "Eddie Kohler",
+        "Robert Morris 0005"
+      ],
+      "pages": "321-334",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KrohnYBCKKM07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KrohnYBCKKM07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294293"
+      ]
+    },
+    {
+      "title": "Integrating concurrency control and energy management in device drivers",
+      "authors": [
+        "Kevin Klues",
+        "Vlado Handziski",
+        "Chenyang Lu 0001",
+        "Adam Wolisz",
+        "David E. Culler",
+        "David Gay",
+        "Philip Alexander Levis"
+      ],
+      "pages": "251-264",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KluesHLWCGL07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KluesHLWCGL07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294286"
+      ]
+    },
+    {
+      "title": "Low-overhead byzantine fault-tolerant storage",
+      "authors": [
+        "James Hendricks",
+        "Gregory R. Ganger",
+        "Michael K. Reiter"
+      ],
+      "pages": "73-86",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HendricksGR07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HendricksGR07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294269"
+      ]
+    },
+    {
+      "title": "MUVI: automatically inferring multi-variable access correlations and detecting related semantic and concurrency bugs",
+      "authors": [
+        "Shan Lu 0001",
+        "Soyeon Park",
+        "Chongfeng Hu",
+        "Xiao Ma 0014",
+        "Weihang Jiang",
+        "Zhenmin Li",
+        "Raluca A. Popa",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "103-116",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LuPHMJLPZ07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LuPHMJLPZ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294272"
+      ]
+    },
+    {
+      "title": "PeerReview: practical accountability for distributed systems",
+      "authors": [
+        "Andreas Haeberlen",
+        "Petr Kouznetsov",
+        "Peter Druschel"
+      ],
+      "pages": "175-188",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HaeberlenKD07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HaeberlenKD07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294279"
+      ]
+    },
+    {
+      "title": "Predictive thread-to-core assignment on a heterogeneous multi-core processor",
+      "authors": [
+        "Tyler Sondag",
+        "Viswanath Krishnamurthy",
+        "Hridesh Rajan"
+      ],
+      "pages": "7:1-7:5",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SondagKR07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SondagKR07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1376789.1376799"
+      ]
+    },
+    {
+      "title": "Protection and communication abstractions for web browsers in MashupOS",
+      "authors": [
+        "Helen J. Wang",
+        "Xiaofeng Fan",
+        "Jon Howell",
+        "Collin Jackson"
+      ],
+      "pages": "1-16",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WangFHJ07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WangFHJ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294263"
+      ]
+    },
+    {
+      "title": "Resource management aspects for sensor network software",
+      "authors": [
+        "Sean Walton",
+        "Eric Eide"
+      ],
+      "pages": "5:1-5:5",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WaltonE07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WaltonE07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1376789.1376796",
+        "https://www.wikidata.org/entity/Q57538305"
+      ]
+    },
+    {
+      "title": "Secure virtual architecture: a safe execution environment for commodity operating systems",
+      "authors": [
+        "John Criswell",
+        "Andrew Lenharth",
+        "Dinakar Dhurjati",
+        "Vikram S. Adve"
+      ],
+      "pages": "351-366",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CriswellLDA07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CriswellLDA07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294295",
+        "https://www.wikidata.org/entity/Q131136677"
+      ]
+    },
+    {
+      "title": "Secure web application via automatic partitioning",
+      "authors": [
+        "Stephen Chong",
+        "Jed Liu",
+        "Andrew C. Myers",
+        "Xin Qi 0012",
+        "K. Vikram",
+        "Lantian Zheng",
+        "Xin Zheng"
+      ],
+      "pages": "31-44",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChongLMQVZZ07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChongLMQVZZ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294265",
+        "https://www.wikidata.org/entity/Q131136412"
+      ]
+    },
+    {
+      "title": "SecVisor: a tiny hypervisor to provide lifetime kernel code integrity for commodity OSes",
+      "authors": [
+        "Arvind Seshadri",
+        "Mark Luk",
+        "Ning Qu",
+        "Adrian Perrig"
+      ],
+      "pages": "335-350",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SeshadriLQP07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SeshadriLQP07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294294"
+      ]
+    },
+    {
+      "title": "Sinfonia: a new paradigm for building scalable distributed systems",
+      "authors": [
+        "Marcos Kawazoe Aguilera",
+        "Arif Merchant",
+        "Mehul A. Shah",
+        "Alistair C. Veitch",
+        "Christos T. Karamanolis"
+      ],
+      "pages": "159-174",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AguileraMSVK07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AguileraMSVK07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294278"
+      ]
+    },
+    {
+      "title": "Staged deployment in mirage, an integrated software upgrade testing and distribution system",
+      "authors": [
+        "Olivier Crameri",
+        "Nikola Knezevic",
+        "Dejan Kostic",
+        "Ricardo Bianchini",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "221-236",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CrameriKKBZ07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CrameriKKBZ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294283"
+      ]
+    },
+    {
+      "title": "Tolerating byzantine faults in transaction processing systems using commit barrier scheduling",
+      "authors": [
+        "Ben Vandiver",
+        "Hari Balakrishnan",
+        "Barbara Liskov",
+        "Samuel Madden 0001"
+      ],
+      "pages": "59-72",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/VandiverBLM07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/VandiverBLM07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294268"
+      ]
+    },
+    {
+      "title": "Towards easing the diagnosis of bugs in OS code",
+      "authors": [
+        "Henrik Stuart",
+        "Ren&eacute; Rydhof Hansen",
+        "Julia L. Lawall",
+        "Jesper Andersen",
+        "Yoann Padioleau",
+        "Gilles Muller"
+      ],
+      "pages": "2:1-2:5",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/StuartHLAPM07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/StuartHLAPM07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1376789.1376792"
+      ]
+    },
+    {
+      "title": "Triage: diagnosing production run failures at the user's site",
+      "authors": [
+        "Joseph A. Tucek",
+        "Shan Lu 0001",
+        "Chengdu Huang",
+        "Spiros Xanthos",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "131-144",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TucekLHXZ07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TucekLHXZ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294275"
+      ]
+    },
+    {
+      "title": "TxLinux: using and managing hardware transactional memory in an operating system",
+      "authors": [
+        "Christopher J. Rossbach",
+        "Owen S. Hofmann",
+        "Donald E. Porter",
+        "Hany E. Ramadan",
+        "Bhandari Aditya",
+        "Emmett Witchel"
+      ],
+      "pages": "87-102",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RossbachHPRAW07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RossbachHPRAW07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294271"
+      ]
+    },
+    {
+      "title": "VirtualPower: coordinated power management in virtualized enterprise systems",
+      "authors": [
+        "Ripal Nathuji",
+        "Karsten Schwan"
+      ],
+      "pages": "265-278",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NathujiS07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NathujiS07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294287"
+      ]
+    },
+    {
+      "title": "Why the grass may not be greener on the other side: a comparison of locking vs. transactional memory",
+      "authors": [
+        "Paul E. McKenney",
+        "Maged M. Michael",
+        "Jonathan Walpole"
+      ],
+      "pages": "6:1-6:5",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/McKenneyMW07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/McKenneyMW07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1376789.1376798"
+      ]
+    },
+    {
+      "title": "Writing systems software in a functional language: an experience report",
+      "authors": [
+        "Iavor S. Diatchki",
+        "Thomas Hallgren",
+        "Mark P. Jones",
+        "Rebekah Leslie",
+        "Andrew Tolmach"
+      ],
+      "pages": "1:1-1:5",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DiatchkiHJLT07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DiatchkiHJLT07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1376789.1376791"
+      ]
+    },
+    {
+      "title": "Zyzzyva: speculative byzantine fault tolerance",
+      "authors": [
+        "Ramakrishna Kotla",
+        "Lorenzo Alvisi",
+        "Michael Dahlin",
+        "Allen Clement",
+        "Edmund L. Wong"
+      ],
+      "pages": "45-58",
+      "year": "2007",
+      "venue": "SOSP 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KotlaADCW07",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KotlaADCW07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1294261.1294267"
+      ]
+    }
+  ]
+}

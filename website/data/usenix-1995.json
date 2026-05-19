@@ -1,0 +1,484 @@
+{
+  "id": "usenix-1995",
+  "venue": "usenix",
+  "year": 1995,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix1995.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix1995.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/1995",
+    "conf/usenix/1995-1",
+    "conf/usenix/1995-2",
+    "conf/usenix/1995-3",
+    "conf/usenix/1995-4",
+    "conf/usenix/1995-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 27,
+  "display_count": 27,
+  "papers": [
+    {
+      "title": "A Flash-Memory Based File System",
+      "authors": [
+        "Atsuo Kawaguchi",
+        "Shingo Nishioka",
+        "Hiroshi Motoda"
+      ],
+      "pages": "155-164",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KawaguchiNM95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KawaguchiNM95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/flash-memory-based-file-system"
+      ]
+    },
+    {
+      "title": "Adaptable Binary Programs",
+      "authors": [
+        "Susan L. Graham",
+        "Steven Lucco",
+        "Robert Wahbe"
+      ],
+      "pages": "315-325",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GrahamLW95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GrahamLW95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/adaptable-binary-programs"
+      ]
+    },
+    {
+      "title": "ATOM: A Flexible Interface for Building High Performance Program Analysis Tools",
+      "authors": [
+        "Alan Eustace",
+        "Amitabh Srivastava"
+      ],
+      "pages": "303-314",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/EustaceS95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/EustaceS95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/atom-flexible-interface-building-high-performance"
+      ]
+    },
+    {
+      "title": "DP: A Library for Building Portable, Reliable Distributed Applications",
+      "authors": [
+        "David M. Arnow"
+      ],
+      "pages": "235-247",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Arnow95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Arnow95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/dp-library-building-portable-reliable-distributed"
+      ]
+    },
+    {
+      "title": "Dynamic Vnodes - Design and Implementation",
+      "authors": [
+        "Aju John"
+      ],
+      "pages": "11-23",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/John95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/John95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/dynamic-vnodes-design-and-implementation"
+      ]
+    },
+    {
+      "title": "Evaluation of Design Alternatives for a Cluster File System",
+      "authors": [
+        "Murthy V. Devarakonda",
+        "Ajay Mohindra",
+        "Jill Simoneaux",
+        "William H. Tetzlaff"
+      ],
+      "pages": "35-46",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DevarakondaMST95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DevarakondaMST95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/evaluation-design-alternatives-cluster-file-system"
+      ]
+    },
+    {
+      "title": "Events in an RPC Based Distributed System",
+      "authors": [
+        "Jim Waldo",
+        "Ann Wollrath",
+        "Geoff Wyant",
+        "Samuel C. Kendall"
+      ],
+      "pages": "131-142",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WaldoWWK95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WaldoWWK95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/events-rpc-based-distributed-system"
+      ]
+    },
+    {
+      "title": "File System Logging versus Clustering: A Performance Comparison",
+      "authors": [
+        "Margo I. Seltzer",
+        "Keith A. Smith",
+        "Hari Balakrishnan",
+        "Jacqueline Chang",
+        "Sara McMains",
+        "Venkata N. Padmanabhan"
+      ],
+      "pages": "249-264",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SeltzerSBCMP95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SeltzerSBCMP95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/file-system-logging-versus-clustering-performance"
+      ]
+    },
+    {
+      "title": "Flexible and Safe Resolution of File Conflicts",
+      "authors": [
+        "Puneet Kumar 0001",
+        "Mahadev Satyanarayanan"
+      ],
+      "pages": "95-106",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KumarS95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KumarS95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/flexible-and-safe-resolution-file-conflicts"
+      ]
+    },
+    {
+      "title": "Heuristic Cleaning Algorithms in Log-Structured File Systems",
+      "authors": [
+        "Trevor Blackwell",
+        "Jeffrey Harris",
+        "Margo I. Seltzer"
+      ],
+      "pages": "277-288",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BlackwellHS95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BlackwellHS95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/heuristic-cleaning-algorithms-log-structured-file"
+      ]
+    },
+    {
+      "title": "Idleness is Not Sloth",
+      "authors": [
+        "Richard A. Golding",
+        "Peter Bosch II",
+        "Carl Staelin",
+        "Tim Sullivan 0002",
+        "John Wilkes"
+      ],
+      "pages": "201-212",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GoldingBSSW95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GoldingBSSW95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/idleness-not-sloth"
+      ]
+    },
+    {
+      "title": "Implementing Real Time Packet Forwarding Policies Using Streams",
+      "authors": [
+        "Ian Wakeman",
+        "Atanu Ghosh",
+        "Jon Crowcroft",
+        "Van Jacobson",
+        "Sally Floyd"
+      ],
+      "pages": "71-82",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WakemanGCJF95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WakemanGCJF95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/implementing-real-time-packet-forwarding-policies-using"
+      ]
+    },
+    {
+      "title": "Libckpt: Transparent Checkpointing under UNIX",
+      "authors": [
+        "James S. Plank",
+        "Micah D. Beck",
+        "Gerry Kingsley",
+        "Kai Li 0001"
+      ],
+      "pages": "213-224",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PlankBKL95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PlankBKL95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/libckpt-transparent-checkpointing-under-unix"
+      ]
+    },
+    {
+      "title": "Mach-US: Unix On Generic OS Object Servers",
+      "authors": [
+        "J. Mark Stevenson",
+        "Daniel P. Julin"
+      ],
+      "pages": "119-130",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/StevensonJ95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/StevensonJ95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/mach-us-unix-generic-os-object-servers"
+      ]
+    },
+    {
+      "title": "Metadata Logging in an NFS Server",
+      "authors": [
+        "Uresh Vahalia",
+        "Cary G. Gray",
+        "Dennis Ting"
+      ],
+      "pages": "265-276",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/VahaliaGT95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/VahaliaGT95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/metadata-logging-nfs-server"
+      ]
+    },
+    {
+      "title": "Multi-Resident AFS: An Adventure in Mass Storage",
+      "authors": [
+        "Jonathan S. Goldick",
+        "Kathy Benninger",
+        "Christopher Kirby",
+        "Christopher Maher",
+        "Bill Zumach"
+      ],
+      "pages": "47-58",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GoldickBKMZ95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GoldickBKMZ95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/multi-resident-afs-adventure-mass-storage"
+      ]
+    },
+    {
+      "title": "OODCE: A C++ Framework for the OSF Distributed Computing Environment",
+      "authors": [
+        "John Dilley"
+      ],
+      "pages": "107-118",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Dilley95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Dilley95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/oodce-c-framework-osf-distributed-computing-environment"
+      ]
+    },
+    {
+      "title": "Optimizing the Performance of Dynamically-Linked Programs",
+      "authors": [
+        "W. Wilson Ho",
+        "Wei-Chau Chang",
+        "Lilian H. Leung"
+      ],
+      "pages": "225-233",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HoCL95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HoCL95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/optimizing-performance-dynamically-linked-programs"
+      ]
+    },
+    {
+      "title": "Performance Implications of Multiple Pointer Sizes",
+      "authors": [
+        "Jeffrey C. Mogul",
+        "Joel F. Bartlett",
+        "Robert N. Mayo",
+        "Amitabh Srivastava"
+      ],
+      "pages": "187-200",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MogulBMS95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MogulBMS95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/performance-implications-multiple-pointer-sizes"
+      ]
+    },
+    {
+      "title": "Portals in 4.4BSD",
+      "authors": [
+        "W. Richard Stevens",
+        "Jan-Simon Pendry"
+      ],
+      "pages": "1-10",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/StevensP95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/StevensP95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/portals-44bsd"
+      ]
+    },
+    {
+      "title": "RAMA: Easy Access to a High-Bandwidth Massively Parallel File System",
+      "authors": [
+        "Ethan L. Miller",
+        "Randy H. Katz"
+      ],
+      "pages": "59-70",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MillerK95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MillerK95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/rama-easy-access-high-bandwidth-massively-parallel-file"
+      ]
+    },
+    {
+      "title": "Scaling the Web of Trust: Combining Kerberos and PGP to Provide Large Scale Authentication",
+      "authors": [
+        "Jeffrey I. Schiller",
+        "Derek R. Atkins"
+      ],
+      "pages": "83-94",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SchillerA95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SchillerA95.html",
+      "ee_links": []
+    },
+    {
+      "title": "SIFT - a Tool for Wide-Area Information Dissemination",
+      "authors": [
+        "Tak W. Yan",
+        "Hector Garcia-Molina"
+      ],
+      "pages": "177-186",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YanG95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YanG95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/sift-tool-wide-area-information-dissemination"
+      ]
+    },
+    {
+      "title": "The New Jersey Machine-Code Toolkit",
+      "authors": [
+        "Norman Ramsey",
+        "Mary F. Fernandez"
+      ],
+      "pages": "289-302",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RamseyF95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RamseyF95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/new-jersey-machine-code-toolkit"
+      ]
+    },
+    {
+      "title": "TRON: Process-Specific File Protection for the UNIX Operating System",
+      "authors": [
+        "Andrew Berman",
+        "Virgil Bourassa",
+        "Erik Selberg"
+      ],
+      "pages": "165-175",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BermanBS95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BermanBS95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/tron-process-specific-file-protection-unix-operating"
+      ]
+    },
+    {
+      "title": "Turning the AIX Operating System into an MP-capable OS",
+      "authors": [
+        "Jacques Talbot"
+      ],
+      "pages": "143-153",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Talbot95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Talbot95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/turning-aix-operating-system-mp-capable-os"
+      ]
+    },
+    {
+      "title": "Union Mounts in 4.4BSD-Lite",
+      "authors": [
+        "Jan-Simon Pendry",
+        "Marshall K. McKusick"
+      ],
+      "pages": "25-33",
+      "year": "1995",
+      "venue": "USENIX ATC 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PendryM95",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PendryM95.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-1995-technical-conference/union-mounts-44bsd-lite"
+      ]
+    }
+  ]
+}

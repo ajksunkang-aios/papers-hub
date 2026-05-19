@@ -1,0 +1,366 @@
+{
+  "id": "osdi-1999",
+  "venue": "osdi",
+  "year": 1999,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi1999.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi1999.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/1999",
+    "conf/osdi/1999-1",
+    "conf/osdi/1999-2",
+    "conf/osdi/1999-3",
+    "conf/osdi/1999-4",
+    "conf/osdi/1999-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 20,
+  "display_count": 20,
+  "papers": [
+    {
+      "title": "A Comparison of Windows Driver Model Latency Performance on Windows NT and Windows 98",
+      "authors": [
+        "Erik Cota-Robles",
+        "James P. Held"
+      ],
+      "pages": "159-172",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Cota-RoblesH99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Cota-RoblesH99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296823"
+      ]
+    },
+    {
+      "title": "A Feedback-driven Proportion Allocator for Real-Rate Scheduling",
+      "authors": [
+        "David C. Steere",
+        "Ashvin Goel",
+        "Joshua Gruenberg",
+        "Dylan McNamee",
+        "Calton Pu",
+        "Jonathan Walpole"
+      ],
+      "pages": "145-158",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SteereGGMPW99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SteereGGMPW99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296820"
+      ]
+    },
+    {
+      "title": "Automatic I/O Hint Generation Through Speculative Execution",
+      "authors": [
+        "Fay W. Chang",
+        "Garth A. Gibson"
+      ],
+      "pages": "1-14",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChangG99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChangG99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296807"
+      ]
+    },
+    {
+      "title": "Defending Against Denial of Service Attacks in Scout",
+      "authors": [
+        "Oliver Spatscheck",
+        "Larry L. Peterson"
+      ],
+      "pages": "59-72",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SpatscheckP99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SpatscheckP99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296811"
+      ]
+    },
+    {
+      "title": "ETI Resource Distributor: Guaranteed Resource Allocation and Scheduling in Multimedia Systems",
+      "authors": [
+        "Miche Baker-Harvey"
+      ],
+      "pages": "131-144",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Baker-Harvey99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Baker-Harvey99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296819"
+      ]
+    },
+    {
+      "title": "Fine-Grained Dynamic Instrumentation of Commodity Operating System Kernels",
+      "authors": [
+        "Ariel Tamches",
+        "Barton P. Miller"
+      ],
+      "pages": "117-130",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/TamchesM99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/TamchesM99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296817"
+      ]
+    },
+    {
+      "title": "Integrating Content-Based Access Mechanisms with Hierarchical File Systems",
+      "authors": [
+        "Burra Gopal",
+        "Udi Manber"
+      ],
+      "pages": "265-278",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GopalM99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GopalM99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296838"
+      ]
+    },
+    {
+      "title": "Interface and Execution Models in the Fluke Kernel",
+      "authors": [
+        "Bryan Ford",
+        "Mike Hibler",
+        "Jay Lepreau",
+        "Roland McGrath",
+        "Patrick Tullmann"
+      ],
+      "pages": "101-115",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FordHLMT99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FordHLMT99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296815"
+      ]
+    },
+    {
+      "title": "IO-Lite: A Unified I/O Buffering and Caching System",
+      "authors": [
+        "Vivek S. Pai",
+        "Peter Druschel",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "15-28",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PaiDZ99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PaiDZ99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296808"
+      ]
+    },
+    {
+      "title": "Logical vs. Physical File System Backup",
+      "authors": [
+        "Norman C. Hutchinson",
+        "Stephen Manley",
+        "Mike Federwisch",
+        "Guy Harris",
+        "Dave Hitz",
+        "Steven Kleiman",
+        "Sean W. O'Malley"
+      ],
+      "pages": "239-249",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HutchinsonMFHHKO99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HutchinsonMFHHKO99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296835"
+      ]
+    },
+    {
+      "title": "MultiView and Millipage - Fine-Grain Sharing in Page-Based DSMs",
+      "authors": [
+        "Ayal Itzkovitz",
+        "Assaf Schuster"
+      ],
+      "pages": "215-228",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ItzkovitzS99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ItzkovitzS99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296830"
+      ]
+    },
+    {
+      "title": "Optimizing the Idle Task and Other MMU Tricks",
+      "authors": [
+        "Cort Dougan",
+        "Paul Mackerras",
+        "Victor Yodaiken"
+      ],
+      "pages": "229-237",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DouganMY99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DouganMY99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296833"
+      ]
+    },
+    {
+      "title": "Practical Byzantine Fault Tolerance",
+      "authors": [
+        "Miguel Castro 0001",
+        "Barbara Liskov"
+      ],
+      "pages": "173-186",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CastroL99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CastroL99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296824"
+      ]
+    },
+    {
+      "title": "Resource Containers: A New Facility for Resource Management in Server Systems",
+      "authors": [
+        "Gaurav Banga",
+        "Peter Druschel",
+        "Jeffrey C. Mogul"
+      ],
+      "pages": "45-58",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BangaDM99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BangaDM99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296810"
+      ]
+    },
+    {
+      "title": "Self-Paging in the Nemesis Operating System",
+      "authors": [
+        "Steven M. Hand"
+      ],
+      "pages": "73-86",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Hand99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Hand99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296812"
+      ]
+    },
+    {
+      "title": "Tapeworm: High-Level Abstractions of Shared Accesses",
+      "authors": [
+        "Peter J. Keleher"
+      ],
+      "pages": "201-214",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Keleher99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Keleher99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296828"
+      ]
+    },
+    {
+      "title": "The Coign Automatic Distributed Partitioning System",
+      "authors": [
+        "Galen C. Hunt",
+        "Michael L. Scott"
+      ],
+      "pages": "187-200",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HuntS99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HuntS99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296826"
+      ]
+    },
+    {
+      "title": "The Design of a Multicast-Based Distributed File System",
+      "authors": [
+        "Bj&ouml;rn Gr&ouml;nvall",
+        "Assar Westerlund",
+        "Stephen Pink"
+      ],
+      "pages": "251-264",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GronvallWP99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GronvallWP99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296837"
+      ]
+    },
+    {
+      "title": "Tornado: Maximizing Locality and Concurrency in a Shared Memory Multiprocessor Operating System",
+      "authors": [
+        "Benjamin Gamsa",
+        "Orran Krieger",
+        "Jonathan Appavoo",
+        "Michael Stumm"
+      ],
+      "pages": "87-100",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GamsaKAS99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GamsaKAS99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296814"
+      ]
+    },
+    {
+      "title": "Virtual Log Based File Systems for a Programmable Disk",
+      "authors": [
+        "Randolph Y. Wang",
+        "Thomas E. Anderson",
+        "David A. Patterson 0001"
+      ],
+      "pages": "29-43",
+      "year": "1999",
+      "venue": "OSDI 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangAP99",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangAP99.html",
+      "ee_links": [
+        "https://dl.acm.org/citation.cfm?id=296809"
+      ]
+    }
+  ]
+}

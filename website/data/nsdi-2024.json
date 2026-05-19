@@ -1,0 +1,2425 @@
+{
+  "id": "nsdi-2024",
+  "venue": "nsdi",
+  "year": 2024,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2024.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2024.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2024",
+    "conf/nsdi/2024-1",
+    "conf/nsdi/2024-2",
+    "conf/nsdi/2024-3",
+    "conf/nsdi/2024-4",
+    "conf/nsdi/2024-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 112,
+  "display_count": 112,
+  "papers": [
+    {
+      "title": "A High-Performance Design, Implementation, Deployment, and Evaluation of The Slim Fly Network",
+      "authors": [
+        "Nils Blach",
+        "Maciej Besta",
+        "Daniele De Sensi",
+        "Jens Domke",
+        "Hussein Harake",
+        "Shigang Li 0002",
+        "Patrick Iff",
+        "Marek Konieczny",
+        "Kartik Lakhotia",
+        "Ales Kubicek",
+        "Marcel Ferrari",
+        "Fabrizio Petrini",
+        "Torsten Hoefler"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BlachBSDH0IKLKF24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BlachBSDH0IKLKF24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/blach"
+      ]
+    },
+    {
+      "title": "A large-scale deployment of DCTCP",
+      "authors": [
+        "Abhishek Dhamija",
+        "Balasubramanian Madhavan",
+        "Hechao Li",
+        "Jie Meng",
+        "Shrikrishna Khare",
+        "Madhavi Rao",
+        "Lawrence Brakmo",
+        "Neil Spring",
+        "Prashanth Kannan",
+        "Srikanth Sundaresan",
+        "Soudeh Ghorbani"
+      ],
+      "pages": "239-252",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DhamijaMLMKRBSK24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DhamijaMLMKRBSK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/dhamija"
+      ]
+    },
+    {
+      "title": "A System to Detect Forged-Origin BGP Hijacks",
+      "authors": [
+        "Thomas Holterbach",
+        "Thomas Alfroy",
+        "Amreesh Phokeer",
+        "Alberto Dainotti",
+        "Cristel Pelsser"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HolterbachAPDP24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HolterbachAPDP24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/holterbach"
+      ]
+    },
+    {
+      "title": "Accelerating Neural Recommendation Training with Embedding Scheduling",
+      "authors": [
+        "Chaoliang Zeng",
+        "Xudong Liao",
+        "Xiaodian Cheng",
+        "Han Tian",
+        "Xinchen Wan",
+        "Hao Wang 0116",
+        "Kai Chen 0005"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZengLCTW0024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZengLCTW0024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zeng"
+      ]
+    },
+    {
+      "title": "Accelerating Skewed Workloads With Performance Multipliers in the TurboDB Distributed Database",
+      "authors": [
+        "Jennifer Lam",
+        "Jeffrey Helt",
+        "Wyatt Lloyd",
+        "Haonan Lu"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LamHLL24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LamHLL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/lam"
+      ]
+    },
+    {
+      "title": "ADR-X: ANN-Assisted Wireless Link Rate Adaptation for Compute-Constrained Embedded Gaming Devices",
+      "authors": [
+        "Hao Yin",
+        "Murali Ramanujam",
+        "Joe Schaefer",
+        "Stan Adermann",
+        "Srihari Narlanka",
+        "Perry Lea",
+        "Ravi Netravali",
+        "Krishna Chintalapudi"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YinRSANLNC24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YinRSANLNC24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/yin"
+      ]
+    },
+    {
+      "title": "Alea-BFT: Practical Asynchronous Byzantine Fault Tolerance",
+      "authors": [
+        "Diogo S. Antunes",
+        "Afonso N. Oliveira",
+        "Andr&eacute; Breda",
+        "Matheus Guilherme Franco",
+        "Henrique Moniz",
+        "Rodrigo Rodrigues 0001"
+      ],
+      "pages": "313-328",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AntunesOBFM024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AntunesOBFM024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/antunes"
+      ]
+    },
+    {
+      "title": "Application-Level Service Assurance with 5G RAN Slicing",
+      "authors": [
+        "Arjun Balasingam",
+        "Manikanta Kotaru",
+        "Paramvir Bahl"
+      ],
+      "pages": "841-857",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BalasingamKB24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BalasingamKB24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/balasingam"
+      ]
+    },
+    {
+      "title": "Approximate Caching for Efficiently Serving Text-to-Image Diffusion Models",
+      "authors": [
+        "Shubham Agarwal 0007",
+        "Subrata Mitra",
+        "Sarthak Chakraborty",
+        "Srikrishna Karanam",
+        "Koyel Mukherjee",
+        "Shiv Kumar Saini"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0007MCKMS24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0007MCKMS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/agarwal-shubham"
+      ]
+    },
+    {
+      "title": "ARTEMIS: Adaptive Bitrate Ladder Optimization for Live Video Streaming",
+      "authors": [
+        "Farzad Tashtarian",
+        "Abdelhak Bentaleb",
+        "Hadi Amirpour",
+        "Sergey Gorinsky",
+        "Junchen Jiang",
+        "Hermann Hellwagner",
+        "Christian Timmerer"
+      ],
+      "pages": "591-611",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/TashtarianBAGJH24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/TashtarianBAGJH24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/tashtarian"
+      ]
+    },
+    {
+      "title": "AUGUR: Practical Mobile Multipath Transport Service for Low Tail Latency in Real-Time Streaming",
+      "authors": [
+        "Yuhan Zhou",
+        "Tingfeng Wang",
+        "Liying Wang 0011",
+        "Nian Wen",
+        "Rui Han",
+        "Jing Wang 0077",
+        "Chenglei Wu",
+        "Jiafeng Chen",
+        "Longwei Jiang",
+        "Shibo Wang 0002",
+        "Honghao Liu",
+        "Chenren Xu"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhouWWWHWWCJWLX24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhouWWWHWWCJWLX24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhou-yuhan"
+      ]
+    },
+    {
+      "title": "Automatic Parallelization of Software Network Functions",
+      "authors": [
+        "Francisco Pereira 0004",
+        "Fernando M. V. Ramos",
+        "Luis Pedrosa"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PereiraRP24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PereiraRP24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/pereira"
+      ]
+    },
+    {
+      "title": "AutoSketch: Automatic Sketch-Oriented Compiler for Query-driven Network Telemetry",
+      "authors": [
+        "Haifeng Sun 0004",
+        "Qun Huang 0001",
+        "Jinbo Sun",
+        "Wei Wang 0011",
+        "Jiaheng Li",
+        "Fuliang Li",
+        "Yungang Bao",
+        "Xin Yao",
+        "Gong Zhang 0001"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Sun0SWLLBY024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Sun0SWLLBY024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/sun"
+      ]
+    },
+    {
+      "title": "Autothrottle: A Practical Bi-Level Approach to Resource Management for SLO-Targeted Microservices",
+      "authors": [
+        "Zibo Wang",
+        "Pinghe Li",
+        "Chieh-Jan Mike Liang",
+        "Feng Wu",
+        "Francis Y. Yan"
+      ],
+      "pages": "149-165",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangLLWY24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangLLWY24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/wang-zibo"
+      ]
+    },
+    {
+      "title": "BBQ: A Fast and Scalable Integer Priority Queue for Hardware Packet Scheduling",
+      "authors": [
+        "Nirav Atre",
+        "Hugo Sadok",
+        "Justine Sherry"
+      ],
+      "pages": "455-475",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AtreSS24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AtreSS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/atre"
+      ]
+    },
+    {
+      "title": "BFMSense: WiFi Sensing Using Beamforming Feedback Matrix",
+      "authors": [
+        "Enze Yi",
+        "Dan Wu 0007",
+        "Jie Xiong 0001",
+        "Fusang Zhang",
+        "Kai Niu 0003",
+        "Wenwei Li",
+        "Daqing Zhang 0001"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YiW0Z0L024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YiW0Z0L024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/yi"
+      ]
+    },
+    {
+      "title": "Brain-on-Switch: Towards Advanced Intelligent Network Data Plane via NN-Driven Traffic Analysis at Line-Speed",
+      "authors": [
+        "Jinzhu Yan",
+        "Haotian Xu",
+        "Zhuotao Liu",
+        "Qi Li 0002",
+        "Ke Xu 0002",
+        "Mingwei Xu 0001",
+        "Jianping Wu"
+      ],
+      "pages": "419-440",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YanXL00XW24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YanXL00XW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/yan"
+      ]
+    },
+    {
+      "title": "Can't Be Late: Optimizing Spot Instance Savings under Deadlines",
+      "authors": [
+        "Zhanghao Wu",
+        "Wei-Lin Chiang",
+        "Ziming Mao",
+        "Zongheng Yang",
+        "Eric J. Friedman",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": "185-203",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WuCMYFSS24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WuCMYFSS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/wu-zhanghao"
+      ]
+    },
+    {
+      "title": "CAPA: An Architecture For Operating Cluster Networks With High Availability",
+      "authors": [
+        "Bingzhe Liu",
+        "Colin Scott",
+        "Mukarram Tariq",
+        "Andrew D. Ferguson",
+        "Phillipa Gill",
+        "Richard Alimi",
+        "Omid Alipourfard",
+        "Deepak Arulkannan",
+        "Virginia Beauregard",
+        "Patrick Conner",
+        "Philip Brighten Godfrey",
+        "Xander Lin",
+        "Joon Ong",
+        "Mayur Patel",
+        "Amr Sabaa",
+        "Arjun Singh",
+        "Alex Smirnov",
+        "Manish Verma",
+        "Prerepa V. Viswanadham",
+        "Amin Vahdat"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiuSTFGAAABCGLO24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiuSTFGAAABCGLO24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/liu-bingzhe"
+      ]
+    },
+    {
+      "title": "CASSINI: Network-Aware Job Scheduling in Machine Learning Clusters",
+      "authors": [
+        "Sudarsanan Rajasekaran",
+        "Manya Ghobadi",
+        "Aditya Akella"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RajasekaranGA24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RajasekaranGA24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/rajasekaran"
+      ]
+    },
+    {
+      "title": "Catch Me If You Can: Laser Tethering with Highly Mobile Targets",
+      "authors": [
+        "Charles J. Carver",
+        "Hadleigh Schwartz",
+        "Qijia Shao",
+        "Nicholas Shade",
+        "Joseph P. Lazzaro",
+        "Xiaoxin Wang",
+        "Jifeng Liu",
+        "Eric R. Fossum",
+        "Xia Zhou"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CarverSSSLWLFZ24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CarverSSSLWLFZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/carver"
+      ]
+    },
+    {
+      "title": "Characterization of Large Language Model Development in the Datacenter",
+      "authors": [
+        "Qinghao Hu 0004",
+        "Zhisheng Ye 0002",
+        "Zerui Wang",
+        "Guoteng Wang",
+        "Meng Zhang 0045",
+        "Qiaoling Chen",
+        "Peng Sun 0006",
+        "Dahua Lin",
+        "Xiaolin Wang 0001",
+        "Yingwei Luo",
+        "Yonggang Wen 0001",
+        "Tianwei Zhang 0004"
+      ],
+      "pages": "709-729",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Hu0WWZC0L0L0024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Hu0WWZC0L0L0024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/hu"
+      ]
+    },
+    {
+      "title": "CHISEL: An optical slice of the wide-area network",
+      "authors": [
+        "Abhishek Vijaya Kumar",
+        "Bill Owens",
+        "Nikolaj S. Bj&oslash;rner",
+        "Binbin Guan",
+        "Yawei Yin",
+        "Paramvir Bahl",
+        "Rachee Singh"
+      ],
+      "pages": "859-875",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KumarOBGYBS24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KumarOBGYBS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/kumar"
+      ]
+    },
+    {
+      "title": "Cloud-LoRa: Enabling Cloud Radio Access LoRa Networks Using Reinforcement Learning Based Bandwidth-Adaptive Compression",
+      "authors": [
+        "Muhammad Osama Shahid",
+        "Daniel Jay Koch",
+        "Jayaram Raghuram",
+        "Bhuvana Krishnaswamy",
+        "Krishna Chintalapudi",
+        "Suman Banerjee 0001"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShahidKRKC024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShahidKRKC024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/shahid"
+      ]
+    },
+    {
+      "title": "Cloudcast: High-Throughput, Cost-Aware Overlay Multicast in the Cloud",
+      "authors": [
+        "Sarah Wooders",
+        "Shu Liu",
+        "Paras Jain 0001",
+        "Xiangxi Mo",
+        "Joseph E. Gonzalez",
+        "Vincent Liu 0001",
+        "Ion Stoica"
+      ],
+      "pages": "281-296",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WoodersL0MG0S24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WoodersL0MG0S24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/wooders"
+      ]
+    },
+    {
+      "title": "Cloudy with a Chance of Cyberattacks: Dangling Resources Abuse on Cloud Platforms",
+      "authors": [
+        "Jens Frie&szlig;",
+        "Tobias Gattermayer",
+        "Nethanel Gelernter",
+        "Haya Schulmann",
+        "Michael Waidner"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FriessGGSW24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FriessGGSW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/friess"
+      ]
+    },
+    {
+      "title": "Credence: Augmenting Datacenter Switch Buffer Sharing with ML Predictions",
+      "authors": [
+        "Vamsi Addanki",
+        "Maciej Pacut",
+        "Stefan Schmid 0001"
+      ],
+      "pages": "613-634",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AddankiP024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AddankiP024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/addanki-credence"
+      ]
+    },
+    {
+      "title": "Crescent: Emulating Heterogeneous Production Network at Scale",
+      "authors": [
+        "Zhaoyu Gao",
+        "Anubhavnidhi Abhashkumar",
+        "Zhen Sun",
+        "Weirong Jiang",
+        "Yi Wang"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GaoASJW24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GaoASJW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/gao-zhaoyu"
+      ]
+    },
+    {
+      "title": "Cyclops: A Nanomaterial-based, Battery-Free Intraocular Pressure (IOP) Monitoring System inside Contact Lens",
+      "authors": [
+        "Liyao Li",
+        "Bozhao Shang",
+        "Yun Wu",
+        "Jie Xiong 0001",
+        "Xiaojiang Chen",
+        "Yaxiong Xie"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiSW0CX24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiSW0CX24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/li-liyao"
+      ]
+    },
+    {
+      "title": "Democratizing Direct-to-Cell Low Earth Orbit Satellite Networks",
+      "authors": [
+        "Lixin Liu",
+        "Yuanjie Li",
+        "Hewu Li",
+        "Jiabo Yang",
+        "Wei Liu 0192",
+        "Jingyi Lan",
+        "Yufeng Wang",
+        "Jiarui Li",
+        "Jianping Wu",
+        "Qian Wu 0001",
+        "Jun Liu 0063",
+        "Zeqi Lai"
+      ],
+      "pages": "791-808",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiuLLYLLWLWWLL24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiuLLYLLWLWWLL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/liu-lixin"
+      ]
+    },
+    {
+      "title": "DINT: Fast In-Kernel Distributed Transactions with eBPF",
+      "authors": [
+        "Yang Zhou 0008",
+        "Xingyu Xiang",
+        "Matthew Kiley",
+        "Sowmya Dharanipragada",
+        "Minlan Yu"
+      ],
+      "pages": "401-417",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0008XKDY24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0008XKDY24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhou-yang"
+      ]
+    },
+    {
+      "title": "DISTMM: Accelerating Distributed Multimodal Model Training",
+      "authors": [
+        "Jun Huang",
+        "Zhen Zhang 0063",
+        "Shuai Zheng 0004",
+        "Feng Qin",
+        "Yida Wang 0003"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HuangZZQ024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HuangZZQ024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/huang"
+      ]
+    },
+    {
+      "title": "EdgeRIC: Empowering Real-time Intelligent Optimization and Control in NextG Cellular Networks",
+      "authors": [
+        "Woo-Hyun Ko",
+        "Ushasi Ghosh",
+        "Ujwal Dinesha",
+        "Raini Wu",
+        "Srinivas Shakkottai",
+        "Dinesh Bharadia"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KoGDWSB24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KoGDWSB24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/ko"
+      ]
+    },
+    {
+      "title": "Efficient Exposure of Partial Failure Bugs in Distributed Systems with Inferred Abstract States",
+      "authors": [
+        "Haoze Wu",
+        "Jia Pan",
+        "Peng Huang 0005"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WuP024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WuP024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/wu-haoze"
+      ]
+    },
+    {
+      "title": "Empower Programmable Pipeline for Advanced Stateful Packet Processing",
+      "authors": [
+        "Yong Feng",
+        "Zhikang Chen",
+        "Haoyu Song 0001",
+        "Yinchao Zhang",
+        "Hanyi Zhou",
+        "Ruoyu Sun 0009",
+        "Wenkuo Dong",
+        "Peng Lu",
+        "Shuxin Liu",
+        "Chuwen Zhang",
+        "Yang Xu 0010",
+        "Bin Liu 0001"
+      ],
+      "pages": "491-508",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FengC0ZZSDLLZ0024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FengC0ZZSDLLZ0024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/feng-yong"
+      ]
+    },
+    {
+      "title": "EPVerifier: Accelerating Update Storms Verification with Edge-Predicate",
+      "authors": [
+        "Chenyang Zhao 0005",
+        "Yuebin Guo",
+        "Jingyu Wang 0001",
+        "Qi Qi 0001",
+        "Zirui Zhuang",
+        "Haifeng Sun 0001",
+        "Lingqi Guo",
+        "Yuming Xie",
+        "Jianxin Liao"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhaoG00Z0GXL24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhaoG00Z0GXL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhao"
+      ]
+    },
+    {
+      "title": "ExChain: Exception Dependency Analysis for Root Cause Diagnosis",
+      "authors": [
+        "Ao Li 0009",
+        "Shan Lu 0001",
+        "Suman Nath",
+        "Rohan Padhye",
+        "Vyas Sekar"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Li0NPS24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Li0NPS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/li-ao"
+      ]
+    },
+    {
+      "title": "Fast Vector Query Processing for Large Datasets Beyond GPU Memory with Reordered Pipelining",
+      "authors": [
+        "Zili Zhang",
+        "Fangyue Liu",
+        "Gang Huang 0001",
+        "Xuanzhe Liu",
+        "Xin Jin 0008"
+      ],
+      "pages": "23-40",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangL0L024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangL0L024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhang-zili-pipelining"
+      ]
+    },
+    {
+      "title": "Finding Adversarial Inputs for Heuristics using Multi-level Optimization",
+      "authors": [
+        "Pooria Namyar",
+        "Behnaz Arzani",
+        "Ryan Beckett",
+        "Santiago Segarra",
+        "Himanshu Raj",
+        "Umesh Krishnaswamy",
+        "Ramesh Govindan",
+        "Srikanth Kandula"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NamyarABSRKGK24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NamyarABSRKGK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/namyar-finding"
+      ]
+    },
+    {
+      "title": "Flow Scheduling with Imprecise Knowledge",
+      "authors": [
+        "Wenxin Li 0001",
+        "Xin He",
+        "Yuan Liu",
+        "Keqiu Li",
+        "Kai Chen 0005",
+        "Zhao Ge",
+        "Zewei Guan",
+        "Heng Qi",
+        "Song Zhang 0008",
+        "Guyue Liu"
+      ],
+      "pages": "95-111",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0001HLL0GGQZL24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0001HLL0GGQZL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/li-wenxin"
+      ]
+    },
+    {
+      "title": "Gemino: Practical and Robust Neural Compression for Video Conferencing",
+      "authors": [
+        "Vibhaalakshmi Sivaraman",
+        "Pantea Karimi",
+        "Vedantha Venkatapathy",
+        "Mehrdad Khani Shirkoohi",
+        "Sadjad Fouladi",
+        "Mohammad Alizadeh",
+        "Fr&eacute;do Durand",
+        "Vivienne Sze"
+      ],
+      "pages": "569-590",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SivaramanKVSFAD24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SivaramanKVSFAD24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/sivaraman"
+      ]
+    },
+    {
+      "title": "GRACE: Loss-Resilient Real-Time Video through Neural Codecs",
+      "authors": [
+        "Yihua Cheng",
+        "Ziyi Zhang",
+        "Hanchen Li",
+        "Anton Arapin",
+        "Yue Zhang",
+        "Qizheng Zhang",
+        "Yuhan Liu 0004",
+        "Kuntai Du",
+        "Xu Zhang",
+        "Francis Y. Yan",
+        "Amrita Mazumdar",
+        "Nick Feamster",
+        "Junchen Jiang"
+      ],
+      "pages": "509-531",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChengZLAZZLDZYM24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChengZLAZZLDZYM24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/cheng"
+      ]
+    },
+    {
+      "title": "Habitus: Boosting Mobile Immersive Content Delivery through Full-body Pose Tracking and Multipath Networking",
+      "authors": [
+        "Anlan Zhang",
+        "Chendong Wang",
+        "Yuming Hu",
+        "Ahmad Hassan 0004",
+        "Zejun Zhang 0002",
+        "Bo Han 0001",
+        "Feng Qian 0001",
+        "Shichang Xu"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangWHHZ00X24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangWHHZ00X24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhang-anlan"
+      ]
+    },
+    {
+      "title": "Hairpin: Rethinking Packet Loss Recovery in Edge-based Interactive Video Streaming",
+      "authors": [
+        "Zili Meng",
+        "Xiao Kong",
+        "Jing Chen",
+        "Bo Wang 0066",
+        "Mingwei Xu 0001",
+        "Rui Han",
+        "Honghao Liu",
+        "Venkat Arun",
+        "Hongxin Hu",
+        "Xue Wei"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MengKC0XHLAHW24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MengKC0XHLAHW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/meng"
+      ]
+    },
+    {
+      "title": "Harmonic: Hardware-assisted RDMA Performance Isolation for Public Clouds",
+      "authors": [
+        "Jiaqi Lou",
+        "Xinhao Kong",
+        "Jinghan Huang 0001",
+        "Wei Bai 0001",
+        "Nam Sung Kim",
+        "Danyang Zhuo"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LouKH0KZ24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LouKH0KZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/lou"
+      ]
+    },
+    {
+      "title": "Harmony: A Congestion-free Datacenter Architecture",
+      "authors": [
+        "Saksham Agarwal",
+        "Qizhe Cai",
+        "Rachit Agarwal 0001",
+        "David B. Shmoys",
+        "Amin Vahdat"
+      ],
+      "pages": "329-343",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AgarwalC0SV24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AgarwalC0SV24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/agarwal-saksham"
+      ]
+    },
+    {
+      "title": "Harvesting Idle Memory for Application-managed Soft State with Midas",
+      "authors": [
+        "Yifan Qiao 0002",
+        "Zhenyuan Ruan",
+        "Haoran Ma",
+        "Adam Belay",
+        "Miryung Kim",
+        "Harry Xu 0001"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/QiaoRMBK024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/QiaoRMBK024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/qiao"
+      ]
+    },
+    {
+      "title": "Horus: Granular In-Network Task Scheduler for Cloud Datacenters",
+      "authors": [
+        "Parham Yassini",
+        "Khaled Diab 0001",
+        "Saeed Mahloujifar",
+        "Mohamed Hefeeda"
+      ],
+      "pages": "1-22",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YassiniDMH24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YassiniDMH24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/yassini"
+      ]
+    },
+    {
+      "title": "iStack: A General and Stateful Name-based Protocol Stack for Named Data Networking",
+      "authors": [
+        "Tianlong Li",
+        "Tian Song",
+        "Yating Yang"
+      ],
+      "pages": "267-280",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiSY24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiSY24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/li-tianlong"
+      ]
+    },
+    {
+      "title": "Jolteon: Unleashing the Promise of Serverless for Serverless Workflows",
+      "authors": [
+        "Zili Zhang",
+        "Chao Jin 0007",
+        "Xin Jin 0008"
+      ],
+      "pages": "167-183",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangJ024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangJ024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhang-zili-jolteon"
+      ]
+    },
+    {
+      "title": "Klonet: an Easy-to-Use and Scalable Platform for Computer Networks Education",
+      "authors": [
+        "Tie Ma",
+        "Long Luo",
+        "Hongfang Yu",
+        "Xi Chen 0026",
+        "Jingzhao Xie",
+        "Chongxi Ma",
+        "Yunhan Xie",
+        "Gang Sun 0001",
+        "Tianxi Wei",
+        "Li Chen 0008",
+        "Yanwei Xu 0004",
+        "Nicholas Zhang"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MaLYCXMXSWCXZ24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MaLYCXMXSWCXZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/ma"
+      ]
+    },
+    {
+      "title": "Known Knowns and Unknowns: Near-realtime Earth Observation Via Query Bifurcation in Serval",
+      "authors": [
+        "Bill Tao",
+        "Om Chabra",
+        "Ishani Janveja",
+        "Indranil Gupta",
+        "Deepak Vasisht"
+      ],
+      "pages": "809-824",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/TaoCJGV24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/TaoCJGV24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/tao"
+      ]
+    },
+    {
+      "title": "LDB: An Efficient Latency Profiling Tool for Multithreaded Applications",
+      "authors": [
+        "Inho Cho",
+        "Seo Jin Park",
+        "Ahmed Saeed 0001",
+        "Mohammad Alizadeh",
+        "Adam Belay"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChoP0AB24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChoP0AB24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/cho"
+      ]
+    },
+    {
+      "title": "Leo: Online ML-based Traffic Classification at Multi-Terabit Line Rate",
+      "authors": [
+        "Syed Usman Jafri",
+        "Sanjay G. Rao",
+        "Vishal Shrivastav",
+        "Mohit Tawarmalani"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JafriRST24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JafriRST24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/jafri"
+      ]
+    },
+    {
+      "title": "LiFteR: Unleash Learned Codecs in Video Streaming with Loose Frame Referencing",
+      "authors": [
+        "Bo Chen 0025",
+        "Zhisheng Yan",
+        "Yinjie Zhang",
+        "Zhe Yang 0010",
+        "Klara Nahrstedt"
+      ],
+      "pages": "533-548",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0025YZ0N24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0025YZ0N24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/chen-bo"
+      ]
+    },
+    {
+      "title": "LitePred: Transferable and Scalable Latency Prediction for Hardware-Aware Neural Architecture Search",
+      "authors": [
+        "Chengquan Feng",
+        "Li Lyna Zhang",
+        "Yuanchi Liu",
+        "Jiahang Xu",
+        "Chengruidong Zhang",
+        "Zhiyuan Wang",
+        "Ting Cao 0003",
+        "Mao Yang 0004",
+        "Haisheng Tan"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FengZLXZWCYT24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FengZLXZWCYT24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/feng-chengquan"
+      ]
+    },
+    {
+      "title": "Load is not what you should balance: Introducing Prequal",
+      "authors": [
+        "Bartek Wydrowski",
+        "Robert Kleinberg",
+        "Stephen M. Rumble",
+        "Aaron Archer"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WydrowskiKRA24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WydrowskiKRA24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/wydrowski"
+      ]
+    },
+    {
+      "title": "LoLKV: The Logless, Linearizable, RDMA-based Key-Value Storage System",
+      "authors": [
+        "Ahmed Alquraan",
+        "Sreeharsha Udayashankar",
+        "Virendra J. Marathe",
+        "Bernard Wong 0001",
+        "Samer Al-Kiswany"
+      ],
+      "pages": "41-54",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AlquraanUM0A24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AlquraanUM0A24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/alquraan"
+      ]
+    },
+    {
+      "title": "LuoShen: A Hyper-Converged Programmable Gateway for Multi-Tenant Multi-Service Edge Clouds",
+      "authors": [
+        "Tian Pan 0001",
+        "Kun Liu",
+        "Xionglie Wei",
+        "Yisong Qiao",
+        "Jun Hu",
+        "Zhiguo Li",
+        "Jun Liang",
+        "Tiesheng Cheng",
+        "Wenqiang Su",
+        "Jie Lu",
+        "Yuke Hong",
+        "Zhengzhong Wang",
+        "Zhi Xu",
+        "Chongjing Dai",
+        "Peiqiao Wang",
+        "Xuetao Jia",
+        "Jianyuan Lu",
+        "Enge Song",
+        "Jun Zeng",
+        "Biao Lyu",
+        "Ennan Zhai",
+        "Jiao Zhang 0002",
+        "Tao Huang 0005",
+        "Dennis Cai",
+        "Shunmin Zhu"
+      ],
+      "pages": "877-892",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0001LWQHLLCSLHW24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0001LWQHLLCSLHW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/pan"
+      ]
+    },
+    {
+      "title": "MadEye: Boosting Live Video Analytics Accuracy with Adaptive Camera Configurations",
+      "authors": [
+        "Mike Wong 0003",
+        "Murali Ramanujam",
+        "Guha Balakrishnan",
+        "Ravi Netravali"
+      ],
+      "pages": "549-568",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0003RBN24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0003RBN24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/wong"
+      ]
+    },
+    {
+      "title": "Making Kernel Bypass Practical for the Cloud with Junction",
+      "authors": [
+        "Joshua Fried",
+        "Gohar Irfan Chaudhry",
+        "Enrique Saurez",
+        "Esha Choukse",
+        "&Iacute;&ntilde;igo Goiri",
+        "Sameh Elnikety",
+        "Rodrigo Fonseca",
+        "Adam Belay"
+      ],
+      "pages": "55-73",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FriedCSCGEFB24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FriedCSCGEFB24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/fried"
+      ]
+    },
+    {
+      "title": "MegaScale: Scaling Large Language Model Training to More Than 10, 000 GPUs",
+      "authors": [
+        "Ziheng Jiang",
+        "Haibin Lin",
+        "Yinmin Zhong",
+        "Qi Huang 0001",
+        "Yangrui Chen",
+        "Zhi Zhang 0005",
+        "Yanghua Peng",
+        "Xiang Li 0067",
+        "Cong Xie",
+        "Shibiao Nong",
+        "Yulu Jia",
+        "Sun He",
+        "Hongmin Chen",
+        "Zhihao Bai",
+        "Qi Hou",
+        "Shipeng Yan",
+        "Ding Zhou",
+        "Yiyao Sheng",
+        "Zhuo Jiang",
+        "Haohan Xu",
+        "Haoran Wei",
+        "Zhang Zhang 0003",
+        "Pengfei Nie",
+        "Leqi Zou",
+        "Sida Zhao",
+        "Liang Xiang",
+        "Zherui Liu",
+        "Zhe Li",
+        "Xiaoying Jia 0001",
+        "Jianxi Ye",
+        "Xin Jin 0008",
+        "Xin Liu 0086"
+      ],
+      "pages": "745-760",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JiangLZHCZPLXNJ24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JiangLZHCZPLXNJ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/jiang-ziheng"
+      ]
+    },
+    {
+      "title": "MESSI: Behavioral Testing of BGP Implementations",
+      "authors": [
+        "Rathin Singha",
+        "Rajdeep Mondal",
+        "Ryan Beckett",
+        "Siva Kesava Reddy Kakarla",
+        "Todd D. Millstein",
+        "George Varghese"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SinghaMBKMV24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SinghaMBKMV24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/singha"
+      ]
+    },
+    {
+      "title": "mmComb: High-speed mmWave Commodity WiFi Backscatter",
+      "authors": [
+        "Yoon Chae",
+        "Zhenzhe Lin",
+        "Kangmin Bae",
+        "Song Min Kim",
+        "Parth Pathak 0001"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChaeLBK024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChaeLBK024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/chae"
+      ]
+    },
+    {
+      "title": "MobileConfig: Remote Configuration Management for Mobile Apps at Hyperscale",
+      "authors": [
+        "Matt Guo",
+        "Soteris Demetriou",
+        "Joey Yang",
+        "Michael Leighton",
+        "Diedi Hu",
+        "Tong Bao",
+        "Amit Adhikari",
+        "Thawan Kooburat",
+        "Annie Kim",
+        "Chunqiang Tang"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuoDYLHBAKKT24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuoDYLHBAKKT24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/guo"
+      ]
+    },
+    {
+      "title": "MuCache: A General Framework for Caching in Microservice Graphs",
+      "authors": [
+        "Haoran Zhang 0009",
+        "Konstantinos Kallas",
+        "Spyros Pavlatos",
+        "Rajeev Alur",
+        "Sebastian Angel",
+        "Vincent Liu 0001"
+      ],
+      "pages": "221-238",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangKPAA024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangKPAA024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhang-haoran"
+      ]
+    },
+    {
+      "title": "Multitenant In-Network Acceleration with SwitchVM",
+      "authors": [
+        "Sajy Khashab",
+        "Alon Rashelbach",
+        "Mark Silberstein"
+      ],
+      "pages": "691-708",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KhashabRS24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KhashabRS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/khashab"
+      ]
+    },
+    {
+      "title": "NetAssistant: Dialogue Based Network Diagnosis in Data Center Networks",
+      "authors": [
+        "Haopei Wang",
+        "Anubhavnidhi Abhashkumar",
+        "Changyu Lin",
+        "Tianrong Zhang",
+        "Xiaoming Gu",
+        "Ning Ma",
+        "Chang Wu",
+        "Songlin Liu",
+        "Wei Zhou",
+        "Yongbin Dong",
+        "Weirong Jiang",
+        "Yi Wang"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangALZGMWLZDJW24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangALZGMWLZDJW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/wang-haopei"
+      ]
+    },
+    {
+      "title": "Netcastle: Network Infrastructure Testing At Scale",
+      "authors": [
+        "Rob Sherwood",
+        "Jinghao Shi",
+        "Ying Zhang 0022",
+        "Neil Spring",
+        "Srikanth Sundaresan",
+        "Jasmeet Bagga",
+        "Prathyusha Peddi",
+        "Vineela Kukkadapu",
+        "Rashmi Shrivastava",
+        "Manikantan K.",
+        "Pavan Patil",
+        "Srikrishna Gopu",
+        "Varun Varadan",
+        "Ethan Shi",
+        "Hany Morsy",
+        "Yuting Bu",
+        "Renjie Yang",
+        "Rasmus Jonsson",
+        "Wei Zhang",
+        "Jesus Jussepen Arredondo",
+        "Diana Saha",
+        "Sean Choi"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SherwoodS0SSBPK24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SherwoodS0SSBPK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/sherwood"
+      ]
+    },
+    {
+      "title": "NetVigil: Robust and Low-Cost Anomaly Detection for East-West Data Center Security",
+      "authors": [
+        "Kevin Hsieh",
+        "Mike Wong 0003",
+        "Santiago Segarra",
+        "Sathiya Kumaran Mani",
+        "Trevor Eberl",
+        "Anatoliy Panasyuk",
+        "Ravi Netravali",
+        "Ranveer Chandra",
+        "Srikanth Kandula"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Hsieh0SMEPNCK24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Hsieh0SMEPNCK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/hsieh"
+      ]
+    },
+    {
+      "title": "NN-Defined Modulator: Reconfigurable and Portable Software Modulator on IoT Gateways",
+      "authors": [
+        "Jiazhao Wang",
+        "Wenchao Jiang",
+        "Ruofeng Liu",
+        "Bin Hu 0022",
+        "Demin Gao",
+        "Shuai Wang 0008"
+      ],
+      "pages": "775-789",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangJLHG024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangJLHG024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/wang-jiazhao"
+      ]
+    },
+    {
+      "title": "NR-Surface: NextG-ready &micro;W-reconfigurable mmWave Metasurface",
+      "authors": [
+        "Minseok Kim",
+        "Namjo Ahn",
+        "Song Min Kim"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KimAK24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KimAK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/kim"
+      ]
+    },
+    {
+      "title": "OctoSketch: Enabling Real-Time, Continuous Network Monitoring over Multiple Cores",
+      "authors": [
+        "Yinda Zhang 0002",
+        "Peiqing Chen",
+        "Zaoxing Liu"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0002CL24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0002CL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhang-yinda"
+      ]
+    },
+    {
+      "title": "OPPerTune: Post-Deployment Configuration Tuning of Services Made Easy",
+      "authors": [
+        "Gagan Somashekar",
+        "Karan Tandon",
+        "Anush Kini",
+        "Chieh-Chun Chang",
+        "Petr Husak",
+        "Ranjita Bhagwan",
+        "Mayukh Das",
+        "Anshul Gandhi",
+        "Nagarajan Natarajan"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SomashekarTKCHB24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SomashekarTKCHB24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/somashekar"
+      ]
+    },
+    {
+      "title": "Orthcatter: High-throughput In-band OFDM Backscatter with Over-the-Air Code Division",
+      "authors": [
+        "Caihui Du",
+        "Jihong Yu",
+        "Rongrong Zhang",
+        "Ju Ren 0001",
+        "Jianping An"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DuYZ0A24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DuYZ0A24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/du"
+      ]
+    },
+    {
+      "title": "Parcae: Proactive, Liveput-Optimized DNN Training on Preemptible Instances",
+      "authors": [
+        "Jiangfei Duan",
+        "Ziang Song",
+        "Xupeng Miao",
+        "Xiaoli Xi",
+        "Dahua Lin",
+        "Harry Xu 0001",
+        "Minjia Zhang",
+        "Zhihao Jia"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DuanSMXL0ZJ24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DuanSMXL0ZJ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/duan"
+      ]
+    },
+    {
+      "title": "Passengers' Safety Matters: Experiences of Deploying a Large-Scale Indoor Delivery Monitoring System",
+      "authors": [
+        "Xiubin Fan",
+        "Zhongming Lin",
+        "Yuming Hu",
+        "Tianrui Jiang",
+        "Feng Qian 0001",
+        "Zhimeng Yin 0001",
+        "S.-H. Gary Chan",
+        "Dapeng Wu 0001"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FanLHJ00C024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FanLHJ00C024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/fan"
+      ]
+    },
+    {
+      "title": "POSEIDON: A Consolidated Virtual Network Controller that Manages Millions of Tenants via Config Tree",
+      "authors": [
+        "Biao Lyu",
+        "Enge Song",
+        "Tian Pan 0001",
+        "Jianyuan Lu",
+        "Shize Zhang",
+        "Xiaoqing Sun",
+        "Lei Gao",
+        "Chenxiao Wang",
+        "Han Xiao",
+        "Yong Pan",
+        "Xiuheng Chen",
+        "Yandong Duan",
+        "Weisheng Wang",
+        "Jinpeng Long",
+        "Yanfeng Wang",
+        "Kunpeng Zhou",
+        "Zhigang Zong",
+        "Xing Li 0007",
+        "Guangwang Li",
+        "Pengyu Zhang",
+        "Peng Cheng 0001",
+        "Jiming Chen 0001",
+        "Shunmin Zhu"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LyuS0LZSGWXPCDW24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LyuS0LZSGWXPCDW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/lyu"
+      ]
+    },
+    {
+      "title": "Precise Data Center Traffic Engineering with Constrained Hardware Resources",
+      "authors": [
+        "Shawn Shuoshuo Chen",
+        "Keqiang He",
+        "Rui Wang 0025",
+        "Srinivasan Seshan",
+        "Peter Steenkiste"
+      ],
+      "pages": "669-690",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChenH0SS24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChenH0SS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/chen-shawn"
+      ]
+    },
+    {
+      "title": "Pudica: Toward Near-Zero Queuing Delay in Congestion Control for Cloud Gaming",
+      "authors": [
+        "Shibo Wang 0002",
+        "Shusen Yang",
+        "Xiao Kong",
+        "Chenglei Wu",
+        "Longwei Jiang",
+        "Chenren Xu",
+        "Cong Zhao 0001",
+        "Xuesong Yang",
+        "Jianjun Xiao 0003",
+        "Xin Liu",
+        "Changxi Zheng",
+        "Jing Wang 0077",
+        "Honghao Liu"
+      ],
+      "pages": "113-129",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangYKWJX0YXLZW24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangYKWJX0YXLZW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/wang-shibo"
+      ]
+    },
+    {
+      "title": "QuickUpdate: a Real-Time Personalization System for Large-Scale Recommendation Models",
+      "authors": [
+        "Kiran Kumar Matam",
+        "Hani Ramezani",
+        "Fan Wang",
+        "Zeliang Chen",
+        "Yue Dong",
+        "Maomao Ding",
+        "Zhiwei Zhao",
+        "Zhengyu Zhang",
+        "Ellie Wen",
+        "Assaf Eisenman"
+      ],
+      "pages": "731-744",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MatamRWCDDZZWE24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MatamRWCDDZZWE24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/matam"
+      ]
+    },
+    {
+      "title": "Reasoning about Network Traffic Load Property at Production Scale",
+      "authors": [
+        "Ruihan Li",
+        "Fangdan Ye",
+        "Yifei Yuan 0001",
+        "Ruizhen Yang",
+        "Bingchuan Tian",
+        "Tianchen Guo",
+        "Hao Wu",
+        "Xiaobo Zhu",
+        "Zhongyu Guan",
+        "Qing Ma",
+        "Xianlong Zeng",
+        "Chenren Xu",
+        "Dennis Cai",
+        "Ennan Zhai"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiYYYTGWZGMZXCZ24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiYYYTGWZGMZXCZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/li-ruihan"
+      ]
+    },
+    {
+      "title": "Resiliency at Scale: Managing Google's TPUv4 Machine Learning Supercomputer",
+      "authors": [
+        "Yazhou Zu",
+        "Alireza Ghaffarkhah",
+        "Hoang-Vu Dang",
+        "Brian Towles",
+        "Steven Hand 0001",
+        "Safeen Huda",
+        "Adekunle Bello",
+        "Alexander Kolbasov",
+        "Arash Rezaei",
+        "Dayou Du",
+        "Steve Lacy",
+        "Hang Wang",
+        "Aaron Wisner",
+        "Chris Lewis",
+        "Henri Bahini"
+      ],
+      "pages": "761-774",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZuGDT0HBKRDLWWL24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZuGDT0HBKRDLWWL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zu"
+      ]
+    },
+    {
+      "title": "Reverie: Low Pass Filter-Based Switch Buffer Sharing for Datacenters with RDMA and TCP Traffic",
+      "authors": [
+        "Vamsi Addanki",
+        "Wei Bai 0001",
+        "Stefan Schmid 0001",
+        "Maria Apostolaki"
+      ],
+      "pages": "651-668",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Addanki00A24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Addanki00A24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/addanki-reverie"
+      ]
+    },
+    {
+      "title": "Revisiting Congestion Control for Lossless Ethernet",
+      "authors": [
+        "Yiran Zhang",
+        "Qingkai Meng 0001",
+        "Chaolei Hu",
+        "Fengyuan Ren"
+      ],
+      "pages": "131-148",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangMHR24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangMHR24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhang-yiran"
+      ]
+    },
+    {
+      "title": "RFID+: Spatially Controllable Identification of UHF RFIDs via Controlled Magnetic Fields",
+      "authors": [
+        "Donghui Dai",
+        "Zhenlin An",
+        "Zheng Gong",
+        "Qingrui Pan",
+        "Lei Yang 0025"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DaiAGP024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DaiAGP024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/dai"
+      ]
+    },
+    {
+      "title": "Seer: Enabling Future-Aware Online Caching in Networked Systems",
+      "authors": [
+        "Jason Lei",
+        "Vishal Shrivastav"
+      ],
+      "pages": "635-649",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LeiS24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LeiS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/lei"
+      ]
+    },
+    {
+      "title": "Sequence Abstractions for Flexible, Line-Rate Network Monitoring",
+      "authors": [
+        "Andrew Johnson",
+        "Ryan Beckett",
+        "Xiaoqi Chen",
+        "Ratul Mahajan",
+        "David Walker 0001"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JohnsonBCM024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JohnsonBCM024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/johnson"
+      ]
+    },
+    {
+      "title": "Sidekick: In-Network Assistance for Secure End-to-End Transport Protocols",
+      "authors": [
+        "Gina Yuan",
+        "Matthew Sotoudeh",
+        "David K. Zhang",
+        "Michael Welzl",
+        "David Mazi&egrave;res",
+        "Keith Winstein"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YuanSZWMW24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YuanSZWMW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/yuan"
+      ]
+    },
+    {
+      "title": "SIEVE is Simpler than LRU: an Efficient Turn-Key Eviction Algorithm for Web Caches",
+      "authors": [
+        "Yazhuo Zhang",
+        "Juncheng Yang",
+        "Yao Yue",
+        "Ymir Vigfusson",
+        "K. V. Rashmi"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangYYVR24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangYYVR24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhang-yazhuo"
+      ]
+    },
+    {
+      "title": "Sifter: An Inversion-Free and Large-Capacity Programmable Packet Scheduler",
+      "authors": [
+        "Peixuan Gao",
+        "Anthony Dalleggio",
+        "Jiajin Liu",
+        "Chen Peng",
+        "Yang Xu 0010",
+        "H. Jonathan Chao"
+      ],
+      "pages": "75-95",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GaoDLP0C24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GaoDLP0C24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/gao-peixuan"
+      ]
+    },
+    {
+      "title": "Sirius: Composing Network Function Chains into P4-Capable Edge Gateways",
+      "authors": [
+        "Jiaqi Gao",
+        "Jiamin Cao",
+        "Yifan Li",
+        "Mengqi Liu 0001",
+        "Ming Tang",
+        "Dennis Cai",
+        "Ennan Zhai"
+      ],
+      "pages": "477-490",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GaoCLLTCZ24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GaoCLLTCZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/gao-jiaqi"
+      ]
+    },
+    {
+      "title": "SMUFF: Towards Line Rate Wi-Fi Direct Transport with Orchestrated On-device Buffer Management",
+      "authors": [
+        "Chengke Wang",
+        "Hao Wang 0035",
+        "Yuhan Zhou",
+        "Yunzhe Ni",
+        "Feng Qian 0001",
+        "Chenren Xu"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangWZN0X24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangWZN0X24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/wang-chengke"
+      ]
+    },
+    {
+      "title": "Solving Max-Min Fair Resource Allocations Quickly on Large Graphs",
+      "authors": [
+        "Pooria Namyar",
+        "Behnaz Arzani",
+        "Srikanth Kandula",
+        "Santiago Segarra",
+        "Daniel Crankshaw",
+        "Umesh Krishnaswamy",
+        "Ramesh Govindan",
+        "Himanshu Raj"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NamyarAKSCKGR24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NamyarAKSCKGR24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/namyar-solving"
+      ]
+    },
+    {
+      "title": "Spectrumize: Spectrum-efficient Satellite Networks for the Internet of Things",
+      "authors": [
+        "Vaibhav Singh",
+        "Tusher Chakraborty",
+        "Suraj Jog",
+        "Om Chabra",
+        "Deepak Vasisht",
+        "Ranveer Chandra"
+      ],
+      "pages": "825-840",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SinghCJCVC24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SinghCJCVC24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/singh-vaibhav"
+      ]
+    },
+    {
+      "title": "Sprinter: Speeding Up High-Fidelity Crawling of the Modern Web",
+      "authors": [
+        "Ayush Goel",
+        "Jingyuan Zhu",
+        "Ravi Netravali",
+        "Harsha V. Madhyastha"
+      ],
+      "pages": "893-906",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GoelZNM24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GoelZNM24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/goel"
+      ]
+    },
+    {
+      "title": "SwiftPaxos: Fast Geo-Replicated State Machines",
+      "authors": [
+        "Fedor Ryabinin",
+        "Alexey Gotsman",
+        "Pierre Sutra"
+      ],
+      "pages": "345-369",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RyabininGS24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RyabininGS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/ryabinin"
+      ]
+    },
+    {
+      "title": "Swing: Short-cutting Rings for Higher Bandwidth Allreduce",
+      "authors": [
+        "Daniele De Sensi",
+        "Tommaso Bonato",
+        "David Saam",
+        "Torsten Hoefler"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SensiBSH24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SensiBSH24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/de-sensi"
+      ]
+    },
+    {
+      "title": "TANGO: Secure Collaborative Route Control across the Public Internet",
+      "authors": [
+        "Henry Birge-Lee",
+        "Sophia Yoo",
+        "Benjamin Herber",
+        "Jennifer Rexford",
+        "Maria Apostolaki"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Birge-LeeYHRA24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Birge-LeeYHRA24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/birge-lee"
+      ]
+    },
+    {
+      "title": "TECC: Towards Efficient QUIC Tunneling via Collaborative Transmission Control",
+      "authors": [
+        "Jiaxing Zhang",
+        "Furong Yang",
+        "Ting Liu",
+        "Qinghua Wu 0004",
+        "Wu Zhao",
+        "Yuanbo Zhang",
+        "Wentao Chen",
+        "Yanmei Liu",
+        "Hongyu Guo",
+        "Yunfei Ma",
+        "Zhenyu Li 0001"
+      ],
+      "pages": "253-266",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangYLWZZCLGML24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangYLWZZCLGML24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhang-jiaxing"
+      ]
+    },
+    {
+      "title": "THC: Accelerating Distributed Deep Learning Using Tensor Homomorphic Compression",
+      "authors": [
+        "Minghao Li 0003",
+        "Ran Ben Basat",
+        "Shay Vargaftik",
+        "ChonLam Lao",
+        "Kevin Xu",
+        "Michael Mitzenmacher",
+        "Minlan Yu"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiBVLXMY24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiBVLXMY24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/li-minghao"
+      ]
+    },
+    {
+      "title": "The Bedrock of Byzantine Fault Tolerance: A Unified Platform for BFT Protocols Analysis, Implementation, and Experimentation",
+      "authors": [
+        "Mohammad Javad Amiri",
+        "Chenyuan Wu",
+        "Divyakant Agrawal",
+        "Amr El Abbadi",
+        "Boon Thau Loo",
+        "Mohammad Sadoghi"
+      ],
+      "pages": "371-400",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AmiriWAALS24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AmiriWAALS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/amiri"
+      ]
+    },
+    {
+      "title": "The Eternal Tussle: Exploring the Role of Centralization in IPFS",
+      "authors": [
+        "Yiluo Wei",
+        "Dennis Trautwein",
+        "Yiannis Psaras",
+        "Ignacio Castro",
+        "Will Scott",
+        "Aravindh Raman",
+        "Gareth Tyson"
+      ],
+      "pages": "441-454",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WeiTPCSRT24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WeiTPCSRT24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/wei"
+      ]
+    },
+    {
+      "title": "Towards Domain-Specific Network Transport for Distributed DNN Training",
+      "authors": [
+        "Hao Wang 0116",
+        "Han Tian",
+        "Jingrong Chen 0004",
+        "Xinchen Wan",
+        "Jiacheng Xia",
+        "Gaoxiong Zeng",
+        "Wei Bai 0001",
+        "Junchen Jiang",
+        "Yong Wang 0046",
+        "Kai Chen 0005"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0116T0WXZ0JW024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0116T0WXZ0JW024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/wang-hao"
+      ]
+    },
+    {
+      "title": "Towards Intelligent Automobile Cockpit via A New Container Architecture",
+      "authors": [
+        "Lin Jiang",
+        "Feiyu Zhang",
+        "Jiang Ming 0002"
+      ],
+      "pages": "205-219",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JiangZ024",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JiangZ024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/jiang-lin"
+      ]
+    },
+    {
+      "title": "Towards provably performant congestion control",
+      "authors": [
+        "Anup Agarwal",
+        "Venkat Arun",
+        "Devdeep Ray",
+        "Ruben Martins",
+        "Srinivasan Seshan"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AgarwalARMS24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AgarwalARMS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/agarwal-anup"
+      ]
+    },
+    {
+      "title": "UFO: The Ultimate QoS-Aware Core Management for Virtualized and Oversubscribed Public Clouds",
+      "authors": [
+        "Yajuan Peng",
+        "Shuang Chen",
+        "Yi Zhao 0018",
+        "Zhibin Yu"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PengCZY24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PengCZY24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/peng"
+      ]
+    },
+    {
+      "title": "Understanding Routable PCIe Performance for Composable Infrastructures",
+      "authors": [
+        "Wentao Hou",
+        "Jie Zhang 0081",
+        "Zeke Wang",
+        "Ming Liu 0027"
+      ],
+      "pages": "297-312",
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HouZWL24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HouZWL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/hou"
+      ]
+    },
+    {
+      "title": "VILAM: Infrastructure-assisted 3D Visual Localization and Mapping for Autonomous Driving",
+      "authors": [
+        "Jiahe Cui",
+        "Shuyao Shi",
+        "Yuze He",
+        "Jianwei Niu 0002",
+        "Guoliang Xing",
+        "Zhenchao Ouyang"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CuiSH0XO24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CuiSH0XO24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/cui"
+      ]
+    },
+    {
+      "title": "Vulcan: Automatic Query Planning for Live ML Analytics",
+      "authors": [
+        "Yiwen Zhang 0008",
+        "Xumiao Zhang",
+        "Ganesh Ananthanarayanan",
+        "Anand P. Iyer",
+        "Yuanchao Shu",
+        "Victor Bahl",
+        "Z. Morley Mao",
+        "Mosharaf Chowdhury"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangZAISBMC24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangZAISBMC24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhang-yiwen"
+      ]
+    },
+    {
+      "title": "Where The Wild Things Are: Brute-Force SSH Attacks In The Wild And How To Stop Them",
+      "authors": [
+        "Sachin Kumar Singh",
+        "Shreeman Gautam",
+        "Cameron Cartier",
+        "Sameer Patil 0001",
+        "Robert Ricci"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SinghGCPR24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SinghGCPR24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/singh-sachin"
+      ]
+    },
+    {
+      "title": "Zombie: Middleboxes that Don't Snoop",
+      "authors": [
+        "Collin Zhang",
+        "Zachary DeStefano",
+        "Arasu Arun",
+        "Joseph Bonneau",
+        "Paul Grubbs",
+        "Michael Walfish"
+      ],
+      "pages": null,
+      "year": "2024",
+      "venue": "NSDI 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangDABGW24",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangDABGW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi24/presentation/zhang-collin"
+      ]
+    }
+  ]
+}

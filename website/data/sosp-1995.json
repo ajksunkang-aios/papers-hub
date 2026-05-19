@@ -1,0 +1,569 @@
+{
+  "id": "sosp-1995",
+  "venue": "sosp",
+  "year": 1995,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp1995.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp1995.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/1995",
+    "conf/sosp/1995-1",
+    "conf/sosp/1995-2",
+    "conf/sosp/1995-3",
+    "conf/sosp/1995-4",
+    "conf/sosp/1995-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 30,
+  "display_count": 30,
+  "papers": [
+    {
+      "title": "A Highly Available, Scalable ITV System",
+      "authors": [
+        "Michael N. Nelson",
+        "Mark A. Linton",
+        "Susan S. Owicki"
+      ],
+      "pages": "54-67",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NelsonLO95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NelsonLO95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224062"
+      ]
+    },
+    {
+      "title": "A New Page Table for 64-bit Address Spaces",
+      "authors": [
+        "Madhusudhan Talluri",
+        "Mark D. Hill",
+        "Yousef Y. A. Khalidi"
+      ],
+      "pages": "184-200",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TalluriHK95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TalluriHK95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224071"
+      ]
+    },
+    {
+      "title": "A Real-time Upcall Facility for Protocol Processing with QoS Guarantees",
+      "authors": [
+        "R. Gopalakrishnan",
+        "Guru M. Parulkar"
+      ],
+      "pages": "231",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GopalakrishnanP95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GopalakrishnanP95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.225835"
+      ]
+    },
+    {
+      "title": "Autonomous Replication Across Wide-Area Internetworks",
+      "authors": [
+        "James Gwertzman",
+        "Margo I. Seltzer"
+      ],
+      "pages": "234",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GwertzmanS95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GwertzmanS95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.225836"
+      ]
+    },
+    {
+      "title": "CRL: High-Performance All-Software Distributed Shared Memory",
+      "authors": [
+        "Kirk L. Johnson",
+        "M. Frans Kaashoek",
+        "Deborah A. Wallach"
+      ],
+      "pages": "213-228",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JohnsonKW95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JohnsonKW95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224073"
+      ]
+    },
+    {
+      "title": "Exokernel: An Operating System Architecture for Application-Level Resource Management",
+      "authors": [
+        "Dawson R. Engler",
+        "M. Frans Kaashoek",
+        "James W. O'Toole Jr."
+      ],
+      "pages": "251-266",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/EnglerKO95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/EnglerKO95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224076",
+        "https://www.wikidata.org/entity/Q56114812"
+      ]
+    },
+    {
+      "title": "Exploiting Process Lifetime Distributions for Dynamic Load Balancing",
+      "authors": [
+        "Mor Harchol-Balter",
+        "Allen B. Downey"
+      ],
+      "pages": "236",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Harchol-BalterD95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Harchol-BalterD95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.225838",
+        "https://www.wikidata.org/entity/Q57507156"
+      ]
+    },
+    {
+      "title": "Exploiting Weak Connectivity for Mobile File Access",
+      "authors": [
+        "Lily B. Mummert",
+        "Maria Ebling",
+        "Mahadev Satyanarayanan"
+      ],
+      "pages": "143-155",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MummertES95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MummertES95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224068"
+      ]
+    },
+    {
+      "title": "Extensibility, Safety and Performance in the SPIN Operating System",
+      "authors": [
+        "Brian N. Bershad",
+        "Stefan Savage",
+        "Przemyslaw Pardyak",
+        "Emin G&uuml;n Sirer",
+        "Marc E. Fiuczynski",
+        "David Becker",
+        "Craig Chambers",
+        "Susan J. Eggers"
+      ],
+      "pages": "267-284",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BershadSPSFBCE95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BershadSPSFBCE95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224077"
+      ]
+    },
+    {
+      "title": "Hive: Fault Containment for Shared-Memory Multiprocessors",
+      "authors": [
+        "John Chapin",
+        "Mendel Rosenblum",
+        "Scott Devine",
+        "Tirthankar Lahiri",
+        "Dan Teodosiu 0002",
+        "Anoop Gupta"
+      ],
+      "pages": "12-25",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChapinRDLTG95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChapinRDLTG95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224059"
+      ]
+    },
+    {
+      "title": "Hypervisor-based Fault-tolerance",
+      "authors": [
+        "Thomas C. Bressoud",
+        "Fred B. Schneider"
+      ],
+      "pages": "1-11",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BressoudS95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BressoudS95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224058"
+      ]
+    },
+    {
+      "title": "Implementing Global Memory Management in a Workstation Cluster",
+      "authors": [
+        "Michael J. Feeley",
+        "William E. Morgan",
+        "Fr&eacute;d&eacute;ric H. Pighin",
+        "Anna R. Karlin",
+        "Henry M. Levy",
+        "Chandramohan A. Thekkath"
+      ],
+      "pages": "201-212",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FeeleyMPKL95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FeeleyMPKL95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224072"
+      ]
+    },
+    {
+      "title": "Informed Prefetching and Caching",
+      "authors": [
+        "R. Hugo Patterson",
+        "Garth A. Gibson",
+        "Eka Ginting",
+        "Daniel Stodolsky",
+        "Jim Zelenka"
+      ],
+      "pages": "79-95",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PattersonGGSZ95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PattersonGGSZ95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224064"
+      ]
+    },
+    {
+      "title": "Logged Virtual Memory",
+      "authors": [
+        "David R. Cheriton",
+        "Kenneth J. Duda"
+      ],
+      "pages": "26-39",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CheritonD95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CheritonD95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224060"
+      ]
+    },
+    {
+      "title": "Managing Update Conflicts in Bayou, a Weakly Connected Replicated Storage System",
+      "authors": [
+        "Douglas B. Terry",
+        "Marvin Theimer",
+        "Karin Petersen",
+        "Alan J. Demers",
+        "Mike Spreitzer",
+        "Carl Hauser"
+      ],
+      "pages": "172-183",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TerryTPDSH95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TerryTPDSH95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224070",
+        "https://www.wikidata.org/entity/Q56571059"
+      ]
+    },
+    {
+      "title": "Object and Native Code Thread Mobility Among Heterogeneous Computers",
+      "authors": [
+        "Bjarne Steensgaard",
+        "Eric Jul"
+      ],
+      "pages": "68-78",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SteensgaardJ95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SteensgaardJ95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224063"
+      ]
+    },
+    {
+      "title": "On micro-Kernel Construction",
+      "authors": [
+        "Jochen Liedtke"
+      ],
+      "pages": "237-250",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Liedtke95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Liedtke95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224075",
+        "https://www.wikidata.org/entity/Q56057491"
+      ]
+    },
+    {
+      "title": "Optimistic Incremental Specialization: Streamlining a Commercial Operating System",
+      "authors": [
+        "Calton Pu",
+        "Tito Autrey",
+        "Andrew P. Black",
+        "Charles Consel",
+        "Crispin Cowan",
+        "Jon Inouye",
+        "Lakshmi Kethana",
+        "Jonathan Walpole",
+        "Ke Zhang"
+      ],
+      "pages": "314-324",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PuABCCIKWZ95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PuABCCIKWZ95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224080"
+      ]
+    },
+    {
+      "title": "Performance of Cache Coherence in Stackable Filing",
+      "authors": [
+        "John S. Heidemann",
+        "Gerald J. Popek"
+      ],
+      "pages": "127-142",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HeidemannP95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HeidemannP95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224067"
+      ]
+    },
+    {
+      "title": "Rover: A Toolkit for Mobile Information Access",
+      "authors": [
+        "Anthony D. Joseph",
+        "Alan F. deLespinasse",
+        "Joshua A. Tauber",
+        "David K. Gifford",
+        "M. Frans Kaashoek"
+      ],
+      "pages": "156-171",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JosephdTGK95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JosephdTGK95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224069",
+        "https://www.wikidata.org/entity/Q57392846"
+      ]
+    },
+    {
+      "title": "Serverless Network File Systems",
+      "authors": [
+        "Thomas E. Anderson",
+        "Michael Dahlin",
+        "Jeanna M. Neefe",
+        "David A. Patterson 0001",
+        "Drew S. Roselli",
+        "Randolph Y. Wang"
+      ],
+      "pages": "109-126",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AndersonDNPRW95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AndersonDNPRW95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224066"
+      ]
+    },
+    {
+      "title": "SMART: A Processor Scheduler for Multimedia Applications",
+      "authors": [
+        "Jason Nieh",
+        "Monica S. Lam"
+      ],
+      "pages": "233",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NiehL95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NiehL95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.225837"
+      ]
+    },
+    {
+      "title": "The HP AutoRAID Hierarchical Storage System",
+      "authors": [
+        "John Wilkes",
+        "Richard A. Golding",
+        "Carl Staelin",
+        "Tim Sullivan 0002"
+      ],
+      "pages": "96-108",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WilkesGSS95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WilkesGSS95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224065"
+      ]
+    },
+    {
+      "title": "The Impact of Architectural Trends on Operating System Performance",
+      "authors": [
+        "Mendel Rosenblum",
+        "Edouard Bugnion",
+        "Stephen Alan Herrod",
+        "Emmett Witchel",
+        "Anoop Gupta"
+      ],
+      "pages": "285-298",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RosenblumBHWG95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RosenblumBHWG95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224078"
+      ]
+    },
+    {
+      "title": "The Measured Performance of Personal Computer Operating Systems",
+      "authors": [
+        "J. Bradley Chen",
+        "Yasuhiro Endo",
+        "Kee Chan",
+        "David Mazi&egrave;res",
+        "Antonio Dias",
+        "Margo I. Seltzer",
+        "Michael D. Smith 0001"
+      ],
+      "pages": "299-313",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenECMDSS95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenECMDSS95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224079"
+      ]
+    },
+    {
+      "title": "The Performance of the Container Shipping I/O System",
+      "authors": [
+        "Eric W. Anderson 0001",
+        "Joseph Pasquale"
+      ],
+      "pages": "229",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AndersonP95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AndersonP95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.225831"
+      ]
+    },
+    {
+      "title": "Time-Function Scheduling: A General Approach To Controllable Resource Management",
+      "authors": [
+        "Liana L. Fong",
+        "Mark S. Squillante"
+      ],
+      "pages": "230",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FongS95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FongS95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.225832"
+      ]
+    },
+    {
+      "title": "U-Net: A User-Level Network Interface for Parallel and Distributed Computing",
+      "authors": [
+        "Thorsten von Eicken",
+        "Anindya Basu",
+        "Vineet Buch",
+        "Werner Vogels"
+      ],
+      "pages": "40-53",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/EickenBBV95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/EickenBBV95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.224061"
+      ]
+    },
+    {
+      "title": "Using a Modified Object Buffer to Improve the Write Performance of an Object-Oriented Database",
+      "authors": [
+        "Sanjay Ghemawat",
+        "M. Frans Kaashoek",
+        "Barbara Liskov"
+      ],
+      "pages": "235",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GhemawatKL95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GhemawatKL95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.225834"
+      ]
+    },
+    {
+      "title": "Using Annotated Interface Definitions to Optimize RPC",
+      "authors": [
+        "Bryan Ford",
+        "Mike Hibler",
+        "Jay Lepreau"
+      ],
+      "pages": "232",
+      "year": "1995",
+      "venue": "SOSP 1995",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FordHL95",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FordHL95.html",
+      "ee_links": [
+        "https://doi.org/10.1145/224056.225833"
+      ]
+    }
+  ]
+}

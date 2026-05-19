@@ -1,0 +1,1193 @@
+{
+  "id": "sosp-2015",
+  "venue": "sosp",
+  "year": 2015,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp2015.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp2015.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/2015",
+    "conf/sosp/2015-1",
+    "conf/sosp/2015-2",
+    "conf/sosp/2015-3",
+    "conf/sosp/2015-4",
+    "conf/sosp/2015-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 64,
+  "display_count": 64,
+  "papers": [
+    {
+      "title": "A case for bad big.LITTLE switching: how to scale power-performance in SI-HMP",
+      "authors": [
+        "Seehwan Yoo",
+        "YoonSeok Shim",
+        "Seunghac Lee",
+        "Sang-Ah Lee",
+        "Joongheon Kim"
+      ],
+      "pages": "1-5",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YooSLLK15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YooSLLK15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818613.2818745"
+      ]
+    },
+    {
+      "title": "A fast and slippery slope for file systems",
+      "authors": [
+        "Ricardo Santana",
+        "Raju Rangaswami",
+        "Vasily Tarasov",
+        "Dean Hildebrand"
+      ],
+      "pages": "5:1-5:8",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SantanaRTH15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SantanaRTH15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2819001.2819003"
+      ]
+    },
+    {
+      "title": "Androtrace: framework for tracing and analyzing IOs on Android",
+      "authors": [
+        "Eunryoung Lim",
+        "Seongjin Lee",
+        "Youjip Won"
+      ],
+      "pages": "3:1-3:8",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LimLW15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LimLW15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2819001.2819007"
+      ]
+    },
+    {
+      "title": "Arabesque: a system for distributed graph mining",
+      "authors": [
+        "Carlos H. C. Teixeira",
+        "Alexandre J. Fonseca",
+        "Marco Serafini",
+        "Georgos Siganos",
+        "Mohammed J. Zaki",
+        "Ashraf Aboulnaga"
+      ],
+      "pages": "425-440",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TeixeiraFSSZA15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TeixeiraFSSZA15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815410"
+      ]
+    },
+    {
+      "title": "Building consistent transactions with inconsistent replication",
+      "authors": [
+        "Irene Zhang",
+        "Naveen Kr. Sharma",
+        "Adriana Szekeres",
+        "Arvind Krishnamurthy",
+        "Dan R. K. Ports"
+      ],
+      "pages": "263-278",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangSSKP15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangSSKP15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815404"
+      ]
+    },
+    {
+      "title": "Chaos: scale-out graph processing from secondary storage",
+      "authors": [
+        "Amitabha Roy 0002",
+        "Laurent Bindschaedler",
+        "Jasmina Malicevic",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "410-424",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/0002BMZ15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/0002BMZ15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815408"
+      ]
+    },
+    {
+      "title": "Coz: finding code that counts with causal profiling",
+      "authors": [
+        "Charlie Curtsinger",
+        "Emery D. Berger"
+      ],
+      "pages": "184-197",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CurtsingerB15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CurtsingerB15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815409"
+      ]
+    },
+    {
+      "title": "Cross-checking semantic correctness: the case of finding file system bugs",
+      "authors": [
+        "Changwoo Min",
+        "Sanidhya Kashyap",
+        "Byoungyoung Lee",
+        "Chengyu Song",
+        "Taesoo Kim"
+      ],
+      "pages": "361-377",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MinKLSK15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MinKLSK15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815422"
+      ]
+    },
+    {
+      "title": "Data layout for power efficient archival storage systems",
+      "authors": [
+        "Ramana Reddy",
+        "Atish Kathpal",
+        "Jayanta Basak",
+        "Randy H. Katz"
+      ],
+      "pages": "16-20",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ReddyKBK15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ReddyKBK15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818613.2818742"
+      ]
+    },
+    {
+      "title": "Drowsy power management",
+      "authors": [
+        "Matthew Lentz",
+        "James Litton",
+        "Bobby Bhattacharjee"
+      ],
+      "pages": "230-244",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LentzLB15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LentzLB15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815414"
+      ]
+    },
+    {
+      "title": "E2: a framework for NFV applications",
+      "authors": [
+        "Shoumik Palkar",
+        "Chang Lan",
+        "Sangjin Han",
+        "Keon Jang",
+        "Aurojit Panda",
+        "Sylvia Ratnasamy",
+        "Luigi Rizzo",
+        "Scott Shenker"
+      ],
+      "pages": "121-136",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PalkarLHJPRRS15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PalkarLHJPRRS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815423"
+      ]
+    },
+    {
+      "title": "Evolution of fault tolerance",
+      "authors": [
+        "Ken Birman"
+      ],
+      "pages": "7:1-7:32",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Birman15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Birman15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2830908"
+      ]
+    },
+    {
+      "title": "Evolution of file and memory management",
+      "authors": [
+        "Mahadev Satyanarayanan"
+      ],
+      "pages": "6:1-6:28",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Satyanarayanan15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Satyanarayanan15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2830907"
+      ]
+    },
+    {
+      "title": "Existential consistency: measuring and understanding consistency at Facebook",
+      "authors": [
+        "Haonan Lu",
+        "Kaushik Veeraraghavan",
+        "Philippe Ajoux",
+        "Jim Hunt",
+        "Yee Jiun Song",
+        "Wendy Tobagus",
+        "Sanjeev Kumar",
+        "Wyatt Lloyd"
+      ],
+      "pages": "295-310",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LuVAHSTKL15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LuVAHSTKL15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815426"
+      ]
+    },
+    {
+      "title": "Exploiting NVM in large-scale graph analytics",
+      "authors": [
+        "Jasmina Malicevic",
+        "Subramanya Dulloor",
+        "Narayanan Sundaram",
+        "Nadathur Satish",
+        "Jeff Jackson",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "2:1-2:9",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MalicevicDSSJZ15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MalicevicDSSJZ15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2819001.2819005"
+      ]
+    },
+    {
+      "title": "Failure sketching: a technique for automated root cause diagnosis of in-production failures",
+      "authors": [
+        "Baris Kasikci",
+        "Benjamin Schubert",
+        "Cristiano Pereira",
+        "Gilles Pokam",
+        "George Candea"
+      ],
+      "pages": "344-360",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KasikciSPPC15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KasikciSPPC15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815412"
+      ]
+    },
+    {
+      "title": "Fast in-memory transaction processing using RDMA and HTM",
+      "authors": [
+        "Xingda Wei",
+        "Jiaxin Shi",
+        "Yanzhe Chen",
+        "Rong Chen 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "87-104",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WeiSCCC15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WeiSCCC15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815419"
+      ]
+    },
+    {
+      "title": "Hardening an L4 microkernel against soft errors by aspect-oriented programming and whole-program analysis",
+      "authors": [
+        "Christoph Borchert",
+        "Olaf Spinczyk"
+      ],
+      "pages": "1-7",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BorchertS15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BorchertS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818302.2818304"
+      ]
+    },
+    {
+      "title": "Harnessing energy efficiency of heterogeneous-ISA platforms",
+      "authors": [
+        "Sharath K. Bhat",
+        "Ajithchandra Saya",
+        "Hemedra K. Rawat",
+        "Antonio Barbalace",
+        "Binoy Ravindran"
+      ],
+      "pages": "6-10",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BhatSRBR15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BhatSRBR15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818613.2818747"
+      ]
+    },
+    {
+      "title": "High-performance ACID via modular concurrency control",
+      "authors": [
+        "Chao Xie",
+        "Chunzhi Su",
+        "Cody Littley",
+        "Lorenzo Alvisi",
+        "Manos Kapritsos",
+        "Yang Wang 0009"
+      ],
+      "pages": "279-294",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/XieSLAK015",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/XieSLAK015.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815430"
+      ]
+    },
+    {
+      "title": "Holistic configuration management at Facebook",
+      "authors": [
+        "Chunqiang Tang",
+        "Thawan Kooburat",
+        "Pradeep Venkatachalam",
+        "Akshay Chander",
+        "Zhe Wen",
+        "Aravind Narayanan",
+        "Patrick Dowell",
+        "Robert Karl"
+      ],
+      "pages": "328-343",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TangKVCWNDK15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TangKVCWNDK15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815401"
+      ]
+    },
+    {
+      "title": "How device properties influence energy-delay metrics and the energy-efficiency of parallel computations",
+      "authors": [
+        "Phillip Stanley-Marbell"
+      ],
+      "pages": "31-35",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Stanley-Marbell15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Stanley-Marbell15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818613.2818744"
+      ]
+    },
+    {
+      "title": "How to get more value from your file system directory cache",
+      "authors": [
+        "Chia-Che Tsai",
+        "Yang Zhan 0001",
+        "Jayashree Reddy",
+        "Yizheng Jiao",
+        "Tao Zhang 0045",
+        "Donald E. Porter"
+      ],
+      "pages": "441-456",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TsaiZRJZP15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TsaiZRJZP15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815405"
+      ]
+    },
+    {
+      "title": "Implementing linearizability at large scale and low latency",
+      "authors": [
+        "Collin Lee",
+        "Seo Jin Park",
+        "Ankita Kejriwal",
+        "Satoshi Matsushita",
+        "John K. Ousterhout"
+      ],
+      "pages": "71-86",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LeePKMO15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LeePKMO15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815416"
+      ]
+    },
+    {
+      "title": "Interruptible tasks: treating memory pressure as interrupts for highly scalable data-parallel programs",
+      "authors": [
+        "Lu Fang 0003",
+        "Khanh Nguyen 0001",
+        "Guoqing Xu 0001",
+        "Brian Demsky",
+        "Shan Lu 0001"
+      ],
+      "pages": "394-409",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FangNXDL15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FangNXDL15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815407",
+        "https://www.wikidata.org/entity/Q131120554"
+      ]
+    },
+    {
+      "title": "IronFleet: proving practical distributed systems correct",
+      "authors": [
+        "Chris Hawblitzel",
+        "Jon Howell",
+        "Manos Kapritsos",
+        "Jacob R. Lorch",
+        "Bryan Parno",
+        "Michael Lowell Roberts",
+        "Srinath T. V. Setty",
+        "Brian Zill"
+      ],
+      "pages": "1-17",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HawblitzelHKLPR15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HawblitzelHKLPR15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815428",
+        "https://www.wikidata.org/entity/Q130959462"
+      ]
+    },
+    {
+      "title": "Is achieving security a hopeless quest?",
+      "authors": [
+        "Margo I. Seltzer",
+        "Mark Miller",
+        "David Mazi&egrave;res",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "13:1",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SeltzerMMZ15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SeltzerMMZ15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2830914"
+      ]
+    },
+    {
+      "title": "JouleGuard: energy guarantees for approximate applications",
+      "authors": [
+        "Henry Hoffmann"
+      ],
+      "pages": "198-214",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Hoffmann15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Hoffmann15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815403"
+      ]
+    },
+    {
+      "title": "Lightweight capability domains: towards decomposing the Linux kernel",
+      "authors": [
+        "Charles Jacobsen",
+        "Muktesh Khole",
+        "Sarah Spall",
+        "Scotty Bauer",
+        "Anton Burtsev"
+      ],
+      "pages": "8-14",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JacobsenKSBB15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JacobsenKSBB15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818302.2818307"
+      ]
+    },
+    {
+      "title": "Making lock-free data structures verifiable with artificial transactions",
+      "authors": [
+        "Xinhao Yuan",
+        "David Williams-King",
+        "Junfeng Yang",
+        "Simha Sethumadhavan"
+      ],
+      "pages": "39-45",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YuanWYS15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YuanWYS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818302.2818309"
+      ]
+    },
+    {
+      "title": "Mj&ouml;lnir: collecting trash in a demanding new world",
+      "authors": [
+        "Zev Weiss",
+        "Sriram Subramanian",
+        "Swaminathan Sundararaman",
+        "Vinay Sridhar",
+        "Nisha Talagala",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "4:1-4:10",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WeissSSSTAA15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WeissSSSTAA15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2819001.2819006"
+      ]
+    },
+    {
+      "title": "Modeling communication costs in blade servers",
+      "authors": [
+        "Qiuyun Wang",
+        "Benjamin C. Lee"
+      ],
+      "pages": "11-15",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WangL15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WangL15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818613.2818743",
+        "https://www.wikidata.org/entity/Q131125813"
+      ]
+    },
+    {
+      "title": "No compromises: distributed transactions with consistency, availability, and performance",
+      "authors": [
+        "Aleksandar Dragojevic",
+        "Dushyanth Narayanan",
+        "Edmund B. Nightingale",
+        "Matthew Renzelmann",
+        "Alex Shamis",
+        "Anirudh Badam",
+        "Miguel Castro 0001"
+      ],
+      "pages": "54-70",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DragojevicNNRSB15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DragojevicNNRSB15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815425"
+      ]
+    },
+    {
+      "title": "Opportunistic storage maintenance",
+      "authors": [
+        "George Amvrosiadis",
+        "Angela Demke Brown",
+        "Ashvin Goel"
+      ],
+      "pages": "457-473",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AmvrosiadisBG15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AmvrosiadisBG15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815424"
+      ]
+    },
+    {
+      "title": "Optimizing power consumption of mobile games",
+      "authors": [
+        "Yu Yan",
+        "Songtao He",
+        "Yunxin Liu",
+        "Longbo Huang"
+      ],
+      "pages": "21-25",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YanHLH15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YanHLH15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818613.2818746"
+      ]
+    },
+    {
+      "title": "Overview of the day",
+      "authors": [
+        "Jeanna Neefe Matthews"
+      ],
+      "pages": "1:1-1:20",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Matthews15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Matthews15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2839321"
+      ]
+    },
+    {
+      "title": "Ownership is theft: experiences building an embedded OS in rust",
+      "authors": [
+        "Amit A. Levy 0001",
+        "Michael P. Andersen",
+        "Bradford Campbell",
+        "David E. Culler",
+        "Prabal Dutta",
+        "Branden Ghena",
+        "Philip Alexander Levis",
+        "Pat Pannuto"
+      ],
+      "pages": "21-26",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LevyACCDGLP15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LevyACCDGLP15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818302.2818306"
+      ]
+    },
+    {
+      "title": "Parallel computing and the OS",
+      "authors": [
+        "M. Frans Kaashoek"
+      ],
+      "pages": "10:1-10:35",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Kaashoek15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Kaashoek15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2830911"
+      ]
+    },
+    {
+      "title": "Parallelizing user-defined aggregations using symbolic execution",
+      "authors": [
+        "Veselin Raychev",
+        "Madanlal Musuvathi",
+        "Todd Mytkowicz"
+      ],
+      "pages": "153-167",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RaychevMM15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RaychevMM15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815418",
+        "https://www.wikidata.org/entity/Q131117261"
+      ]
+    },
+    {
+      "title": "Past and future of hardware and architecture",
+      "authors": [
+        "David A. Patterson 0001"
+      ],
+      "pages": "9:1-9:63",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Patterson15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Patterson15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2830910",
+        "https://www.wikidata.org/entity/Q131130230"
+      ]
+    },
+    {
+      "title": "Paxos made transparent",
+      "authors": [
+        "Heming Cui",
+        "Rui Gu",
+        "Cheng Liu",
+        "Tianyu Chen",
+        "Junfeng Yang"
+      ],
+      "pages": "105-120",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CuiGLCY15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CuiGLCY15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815427",
+        "https://www.wikidata.org/entity/Q130959437"
+      ]
+    },
+    {
+      "title": "Perspectives on OS foundations",
+      "authors": [
+        "Peter J. Denning"
+      ],
+      "pages": "3:1-3:46",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Denning15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Denning15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2830904"
+      ]
+    },
+    {
+      "title": "Perspectives on protection and security",
+      "authors": [
+        "Butler W. Lampson"
+      ],
+      "pages": "4:1-4:21",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Lampson15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Lampson15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2830905"
+      ]
+    },
+    {
+      "title": "Perspectives on system languages and abstraction",
+      "authors": [
+        "Barbara Liskov"
+      ],
+      "pages": "5:1-5:25",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Liskov15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Liskov15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2830906"
+      ]
+    },
+    {
+      "title": "Pivot tracing: dynamic causal monitoring for distributed systems",
+      "authors": [
+        "Jonathan Mace",
+        "Ryan Roelke",
+        "Rodrigo Fonseca"
+      ],
+      "pages": "378-393",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MaceRF15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MaceRF15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815415",
+        "https://www.wikidata.org/entity/Q131123568"
+      ]
+    },
+    {
+      "title": "Read-log-update: a lightweight synchronization mechanism for concurrent programming",
+      "authors": [
+        "Alexander Matveev",
+        "Nir Shavit",
+        "Pascal Felber",
+        "Patrick Marlier"
+      ],
+      "pages": "168-183",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MatveevSFM15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MatveevSFM15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815406"
+      ]
+    },
+    {
+      "title": "Reminiscences on SOSP history day",
+      "authors": [
+        "Peter G. Neumann"
+      ],
+      "pages": "14:1-14:9",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Neumann15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Neumann15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2847551"
+      ]
+    },
+    {
+      "title": "Revisiting hash table design for phase change memory",
+      "authors": [
+        "Biplob Debnath",
+        "Alireza Haghdoost",
+        "Asim Kadav",
+        "Mohammed G. Khatib",
+        "Cristian Ungureanu"
+      ],
+      "pages": "1:1-1:9",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DebnathHKKU15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DebnathHKKU15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2819001.2819002"
+      ]
+    },
+    {
+      "title": "Running application specific kernel code by a just-in-time compiler",
+      "authors": [
+        "Ake Koomsin",
+        "Yasushi Shinjo"
+      ],
+      "pages": "15-20",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KoomsinS15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KoomsinS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818302.2818305",
+        "https://www.wikidata.org/entity/Q130851730"
+      ]
+    },
+    {
+      "title": "SibylFS: formal specification and oracle-based testing for POSIX and real-world file systems",
+      "authors": [
+        "Tom Ridge",
+        "David Sheets",
+        "Thomas Tuerk",
+        "Andrea Giugliano",
+        "Anil Madhavapeddy",
+        "Peter Sewell"
+      ],
+      "pages": "38-53",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RidgeSTGMS15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RidgeSTGMS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815411"
+      ]
+    },
+    {
+      "title": "Software defined batteries",
+      "authors": [
+        "Anirudh Badam",
+        "Ranveer Chandra",
+        "Jon Dutra",
+        "Anthony Ferrese",
+        "Steve Hodges 0001",
+        "Pan Hu 0003",
+        "Julia Meinershagen",
+        "Thomas Moscibroda",
+        "Bodhi Priyantha",
+        "Evangelia D. Skiani"
+      ],
+      "pages": "215-229",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BadamCDFHHMMPS15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BadamCDFHHMMPS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815429"
+      ]
+    },
+    {
+      "title": "Speculative region-based memory management for big data systems",
+      "authors": [
+        "Khanh Nguyen 0001",
+        "Lu Fang 0003",
+        "Guoqing Xu 0001",
+        "Brian Demsky"
+      ],
+      "pages": "27-32",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NguyenFXD15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NguyenFXD15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818302.2818308"
+      ]
+    },
+    {
+      "title": "Split-level I/O scheduling",
+      "authors": [
+        "Suli Yang",
+        "Tyler Harter",
+        "Nishant Agrawal",
+        "Salini Selvaraj Kowsalya",
+        "Anand Krishnamurthy",
+        "Samer Al-Kiswany",
+        "Rini T. Kaushik",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "474-489",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YangHAKKAKAA15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YangHAKKAKAA15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815421",
+        "https://www.wikidata.org/entity/Q131112745"
+      ]
+    },
+    {
+      "title": "Sudden drop in the battery level?: understanding smartphone state of charge anomaly",
+      "authors": [
+        "Mohammad Ashraful Hoque",
+        "Sasu Tarkoma"
+      ],
+      "pages": "26-30",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HoqueT15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HoqueT15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818613.2818741"
+      ]
+    },
+    {
+      "title": "Tapir: a language for verified OS kernel probes",
+      "authors": [
+        "Ilya Yanok",
+        "Nathaniel Nystrom"
+      ],
+      "pages": "33-38",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YanokN15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YanokN15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2818302.2818303"
+      ]
+    },
+    {
+      "title": "The founding of the SOSP conferences",
+      "authors": [
+        "Jack B. Dennis"
+      ],
+      "pages": "2:1-2:4",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Dennis15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Dennis15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2839323"
+      ]
+    },
+    {
+      "title": "The network and the OS",
+      "authors": [
+        "David Clark"
+      ],
+      "pages": "11:1-11:19",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Clark15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Clark15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2830912"
+      ]
+    },
+    {
+      "title": "The rise of cloud computing systems",
+      "authors": [
+        "Jeffrey Dean"
+      ],
+      "pages": "12:1-12:40",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Dean15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Dean15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2830913"
+      ]
+    },
+    {
+      "title": "Towards software defined persistent memory: rethinking software support for heterogenous memory architectures",
+      "authors": [
+        "Swaminathan Sundararaman",
+        "Nisha Talagala",
+        "Dhananjoy Das",
+        "Amar Mudrankit",
+        "Dulcardo Arteaga"
+      ],
+      "pages": "6:1-6:10",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SundararamanTDM15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SundararamanTDM15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2819001.2819004"
+      ]
+    },
+    {
+      "title": "Using Crash Hoare logic for certifying the FSCQ file system",
+      "authors": [
+        "Haogang Chen 0001",
+        "Daniel Ziegler 0002",
+        "Tej Chajed",
+        "Adam Chlipala",
+        "M. Frans Kaashoek",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "18-37",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenZCCKZ15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenZCCKZ15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815402",
+        "https://www.wikidata.org/entity/Q130867517"
+      ]
+    },
+    {
+      "title": "Virtual CPU validation",
+      "authors": [
+        "Nadav Amit",
+        "Dan Tsafrir",
+        "Assaf Schuster",
+        "Ahmad Ayoub",
+        "Eran Shlomo"
+      ],
+      "pages": "311-327",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AmitTSAS15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AmitTSAS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815420",
+        "https://www.wikidata.org/entity/Q131122340"
+      ]
+    },
+    {
+      "title": "Virtualization",
+      "authors": [
+        "Andrew Herbert"
+      ],
+      "pages": "8:1-8:19",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Herbert15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Herbert15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2830903.2830909"
+      ]
+    },
+    {
+      "title": "Vuvuzela: scalable private messaging resistant to traffic analysis",
+      "authors": [
+        "Jelle van den Hooff",
+        "David Lazar",
+        "Matei Zaharia",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "137-152",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HooffLZZ15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HooffLZZ15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815417"
+      ]
+    },
+    {
+      "title": "Yesquel: scalable sql storage for web applications",
+      "authors": [
+        "Marcos K. Aguilera",
+        "Joshua B. Leners",
+        "Michael Walfish"
+      ],
+      "pages": "245-262",
+      "year": "2015",
+      "venue": "SOSP 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AguileraLW15",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AguileraLW15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2815400.2815413"
+      ]
+    }
+  ]
+}

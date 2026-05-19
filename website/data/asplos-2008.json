@@ -1,0 +1,843 @@
+{
+  "id": "asplos-2008",
+  "venue": "asplos",
+  "year": 2008,
+  "short_name": "ASPLOS",
+  "full_name": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "source_url": "https://dblp.org/db/conf/asplos/asplos2008.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/asplos/asplos2008.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/asplos/2008",
+    "conf/asplos/2008-1",
+    "conf/asplos/2008-2",
+    "conf/asplos/2008-3",
+    "conf/asplos/2008-4",
+    "conf/asplos/2008-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) ACM International Conference on Architectural Support"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 40,
+  "display_count": 40,
+  "papers": [
+    {
+      "title": "Accelerating two-dimensional page walks for virtualized systems",
+      "authors": [
+        "Ravi Bhargava",
+        "Ben Serebrin",
+        "Francesco Spadini",
+        "Srilatha Manne"
+      ],
+      "pages": "26-35",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BhargavaSSM08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BhargavaSSM08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346286",
+        "https://doi.org/10.1145/1353536.1346286",
+        "https://doi.org/10.1145/1353534.1346286",
+        "https://doi.org/10.1145/1353535.1346286"
+      ]
+    },
+    {
+      "title": "Accurate branch prediction for short threads",
+      "authors": [
+        "Bumyong Choi",
+        "Leo Porter 0001",
+        "Dean M. Tullsen"
+      ],
+      "pages": "125-134",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChoiPT08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChoiPT08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346298",
+        "https://doi.org/10.1145/1353536.1346298",
+        "https://doi.org/10.1145/1353534.1346298",
+        "https://doi.org/10.1145/1353535.1346298"
+      ]
+    },
+    {
+      "title": "Adapting to intermittent faults in multicore systems",
+      "authors": [
+        "Philip M. Wells",
+        "Koushik Chakraborty",
+        "Gurindar S. Sohi"
+      ],
+      "pages": "255-264",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WellsCS08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WellsCS08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346314",
+        "https://doi.org/10.1145/1353536.1346314",
+        "https://doi.org/10.1145/1353534.1346314",
+        "https://doi.org/10.1145/1353535.1346314",
+        "https://www.wikidata.org/entity/Q131121685"
+      ]
+    },
+    {
+      "title": "Adaptive set pinning: managing shared caches in chip multiprocessors",
+      "authors": [
+        "Shekhar Srikantaiah",
+        "Mahmut T. Kandemir",
+        "Mary Jane Irwin"
+      ],
+      "pages": "135-144",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SrikantaiahKI08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SrikantaiahKI08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346299",
+        "https://doi.org/10.1145/1353536.1346299",
+        "https://doi.org/10.1145/1353534.1346299",
+        "https://doi.org/10.1145/1353535.1346299"
+      ]
+    },
+    {
+      "title": "Archipelago: trading address space for reliability and security",
+      "authors": [
+        "Vitaliy B. Lvin",
+        "Gene Novark",
+        "Emery D. Berger",
+        "Benjamin G. Zorn"
+      ],
+      "pages": "115-124",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LvinNBZ08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LvinNBZ08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346296",
+        "https://doi.org/10.1145/1353536.1346296",
+        "https://doi.org/10.1145/1353534.1346296",
+        "https://doi.org/10.1145/1353535.1346296",
+        "https://www.wikidata.org/entity/Q131120734"
+      ]
+    },
+    {
+      "title": "Better bug reporting with better privacy",
+      "authors": [
+        "Miguel Castro 0001",
+        "Manuel Costa",
+        "Jean-Philippe Martin"
+      ],
+      "pages": "319-328",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CastroCM08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CastroCM08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346322",
+        "https://doi.org/10.1145/1353536.1346322",
+        "https://doi.org/10.1145/1353534.1346322",
+        "https://doi.org/10.1145/1353535.1346322"
+      ]
+    },
+    {
+      "title": "Communication optimizations for global multi-threaded instruction scheduling",
+      "authors": [
+        "Guilherme Ottoni",
+        "David I. August"
+      ],
+      "pages": "222-232",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/OttoniA08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/OttoniA08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346310",
+        "https://doi.org/10.1145/1353536.1346310",
+        "https://doi.org/10.1145/1353534.1346310",
+        "https://doi.org/10.1145/1353535.1346310"
+      ]
+    },
+    {
+      "title": "Concurrency control with data coloring",
+      "authors": [
+        "Luis Ceze",
+        "Christoph von Praun",
+        "Calin Cascaval",
+        "Pablo Montesinos",
+        "Josep Torrellas"
+      ],
+      "pages": "6-10",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CezePCMT08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CezePCMT08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1353522.1353525"
+      ]
+    },
+    {
+      "title": "Dispersing proprietary applications as benchmarks through code mutation",
+      "authors": [
+        "Luk Van Ertvelde",
+        "Lieven Eeckhout"
+      ],
+      "pages": "201-210",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ErtveldeE08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ErtveldeE08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346307",
+        "https://doi.org/10.1145/1353536.1346307",
+        "https://doi.org/10.1145/1353534.1346307",
+        "https://doi.org/10.1145/1353535.1346307"
+      ]
+    },
+    {
+      "title": "Efficiency trends and limits from comprehensive microarchitectural adaptivity",
+      "authors": [
+        "Benjamin C. Lee",
+        "David M. Brooks"
+      ],
+      "pages": "36-47",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LeeB08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LeeB08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346288",
+        "https://doi.org/10.1145/1353536.1346288",
+        "https://doi.org/10.1145/1353534.1346288",
+        "https://doi.org/10.1145/1353535.1346288"
+      ]
+    },
+    {
+      "title": "Exploiting access semantics and program behavior to reduce snoop power in chip multiprocessors",
+      "authors": [
+        "Chinnakrishnan S. Ballapuram",
+        "Ahmad Sharif",
+        "Hsien-Hsin S. Lee"
+      ],
+      "pages": "60-69",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BallapuramSL08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BallapuramSL08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346290",
+        "https://doi.org/10.1145/1353536.1346290",
+        "https://doi.org/10.1145/1353534.1346290",
+        "https://doi.org/10.1145/1353535.1346290",
+        "https://www.wikidata.org/entity/Q130986861"
+      ]
+    },
+    {
+      "title": "Feedback-driven threading: power-efficient and high-performance execution of multi-threaded workloads on CMPs",
+      "authors": [
+        "M. Aater Suleman",
+        "Moinuddin K. Qureshi",
+        "Yale N. Patt"
+      ],
+      "pages": "277-286",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SulemanQP08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SulemanQP08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346317",
+        "https://doi.org/10.1145/1353536.1346317",
+        "https://doi.org/10.1145/1353534.1346317",
+        "https://doi.org/10.1145/1353535.1346317"
+      ]
+    },
+    {
+      "title": "GC assertions: using the garbage collector to check heap properties",
+      "authors": [
+        "Edward Aftandilian",
+        "Samuel Z. Guyer"
+      ],
+      "pages": "36-40",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/AftandilianG08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/AftandilianG08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1353522.1353533"
+      ]
+    },
+    {
+      "title": "General and efficient locking without blocking",
+      "authors": [
+        "Yannis Smaragdakis",
+        "Anthony Kay",
+        "Reimer Behrends",
+        "Michal Young"
+      ],
+      "pages": "1-5",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SmaragdakisKBY08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SmaragdakisKBY08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1353522.1353524"
+      ]
+    },
+    {
+      "title": "Hardbound: architectural support for spatial safety of the C programming language",
+      "authors": [
+        "Joe Devietti",
+        "Colin Blundell",
+        "Milo M. K. Martin",
+        "Steve Zdancewic"
+      ],
+      "pages": "103-114",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DeviettiBMZ08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DeviettiBMZ08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346295",
+        "https://doi.org/10.1145/1353536.1346295",
+        "https://doi.org/10.1145/1353534.1346295",
+        "https://doi.org/10.1145/1353535.1346295"
+      ]
+    },
+    {
+      "title": "Hardware counter driven on-the-fly request signatures",
+      "authors": [
+        "Kai Shen",
+        "Ming Zhong 0006",
+        "Sandhya Dwarkadas",
+        "Chuanpeng Li",
+        "Christopher Stewart",
+        "Xiao Zhang"
+      ],
+      "pages": "189-200",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ShenZDLSZ08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ShenZDLSZ08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346306",
+        "https://doi.org/10.1145/1353536.1346306",
+        "https://doi.org/10.1145/1353534.1346306",
+        "https://doi.org/10.1145/1353535.1346306"
+      ]
+    },
+    {
+      "title": "How low can you go?: recommendations for hardware-supported minimal TCB code execution",
+      "authors": [
+        "Jonathan M. McCune",
+        "Bryan Parno",
+        "Adrian Perrig",
+        "Michael K. Reiter",
+        "Arvind Seshadri"
+      ],
+      "pages": "14-25",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/McCunePPRS08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/McCunePPRS08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346285",
+        "https://doi.org/10.1145/1353536.1346285",
+        "https://doi.org/10.1145/1353534.1346285",
+        "https://doi.org/10.1145/1353535.1346285"
+      ]
+    },
+    {
+      "title": "Improving the performance of object-oriented languages with dynamic predication of indirect jumps",
+      "authors": [
+        "Jos&eacute; A. Joao",
+        "Onur Mutlu",
+        "Hyesoon Kim",
+        "Rishi Agarwal",
+        "Yale N. Patt"
+      ],
+      "pages": "80-90",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JoaoMKAP08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JoaoMKAP08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346293",
+        "https://doi.org/10.1145/1353536.1346293",
+        "https://doi.org/10.1145/1353534.1346293",
+        "https://doi.org/10.1145/1353535.1346293",
+        "https://www.wikidata.org/entity/Q130963669"
+      ]
+    },
+    {
+      "title": "IWannaBit!",
+      "authors": [
+        "Cliff Click"
+      ],
+      "pages": "20-25",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Click08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Click08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1353522.1353529"
+      ]
+    },
+    {
+      "title": "Learning from mistakes: a comprehensive study on real world concurrency bug characteristics",
+      "authors": [
+        "Shan Lu 0001",
+        "Soyeon Park",
+        "Eunsoo Seo",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "329-339",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LuPSZ08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LuPSZ08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346323",
+        "https://doi.org/10.1145/1353536.1346323",
+        "https://doi.org/10.1145/1353534.1346323",
+        "https://doi.org/10.1145/1353535.1346323"
+      ]
+    },
+    {
+      "title": "Merge: a programming model for heterogeneous multi-core systems",
+      "authors": [
+        "Michael D. Linderman",
+        "Jamison D. Collins",
+        "Hong Wang 0003",
+        "Teresa H. Meng"
+      ],
+      "pages": "287-296",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LindermanCWM08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LindermanCWM08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346318",
+        "https://doi.org/10.1145/1353536.1346318",
+        "https://doi.org/10.1145/1353534.1346318",
+        "https://doi.org/10.1145/1353535.1346318"
+      ]
+    },
+    {
+      "title": "No \"power\" struggles: coordinated multi-level power management for the data center",
+      "authors": [
+        "Ramya Raghavendra",
+        "Parthasarathy Ranganathan",
+        "Vanish Talwar",
+        "Zhikui Wang",
+        "Xiaoyun Zhu"
+      ],
+      "pages": "48-59",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RaghavendraRTWZ08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RaghavendraRTWZ08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346289",
+        "https://doi.org/10.1145/1353536.1346289",
+        "https://doi.org/10.1145/1353534.1346289",
+        "https://doi.org/10.1145/1353535.1346289"
+      ]
+    },
+    {
+      "title": "Optimistic parallelism benefits from data partitioning",
+      "authors": [
+        "Milind Kulkarni 0001",
+        "Keshav Pingali",
+        "Ganesh Ramanarayanan",
+        "Bruce Walter",
+        "Kavita Bala",
+        "L. Paul Chew"
+      ],
+      "pages": "233-243",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KulkarniPRWBC08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KulkarniPRWBC08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346311",
+        "https://doi.org/10.1145/1353536.1346311",
+        "https://doi.org/10.1145/1353534.1346311",
+        "https://doi.org/10.1145/1353535.1346311"
+      ]
+    },
+    {
+      "title": "Overshadow: a virtualization-based approach to retrofitting protection in commodity operating systems",
+      "authors": [
+        "Xiaoxin Chen",
+        "Tal Garfinkel",
+        "E. Christopher Lewis",
+        "Pratap Subrahmanyam",
+        "Carl A. Waldspurger",
+        "Dan Boneh",
+        "Jeffrey S. Dwoskin",
+        "Dan R. K. Ports"
+      ],
+      "pages": "2-13",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChenGLSWBDP08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChenGLSWBDP08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346284",
+        "https://doi.org/10.1145/1353536.1346284",
+        "https://doi.org/10.1145/1353534.1346284",
+        "https://doi.org/10.1145/1353535.1346284"
+      ]
+    },
+    {
+      "title": "Parallelizing security checks on commodity hardware",
+      "authors": [
+        "Edmund B. Nightingale",
+        "Daniel Peek",
+        "Peter M. Chen",
+        "Jason Flinn"
+      ],
+      "pages": "308-318",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/NightingalePCF08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/NightingalePCF08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346321",
+        "https://doi.org/10.1145/1353536.1346321",
+        "https://doi.org/10.1145/1353534.1346321",
+        "https://doi.org/10.1145/1353535.1346321",
+        "https://www.wikidata.org/entity/Q114977941"
+      ]
+    },
+    {
+      "title": "PICSEL: measuring user-perceived performance to control dynamic frequency scaling",
+      "authors": [
+        "Arindam Mallik",
+        "Jack Cosgrove",
+        "Robert P. Dick",
+        "Gokhan Memik",
+        "Peter A. Dinda"
+      ],
+      "pages": "70-79",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MallikCDMD08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MallikCDMD08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346291",
+        "https://doi.org/10.1145/1353536.1346291",
+        "https://doi.org/10.1145/1353534.1346291",
+        "https://doi.org/10.1145/1353535.1346291"
+      ]
+    },
+    {
+      "title": "Predictor virtualization",
+      "authors": [
+        "Ioana Burcea",
+        "Stephen Somogyi",
+        "Andreas Moshovos",
+        "Babak Falsafi"
+      ],
+      "pages": "157-167",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BurceaSMF08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BurceaSMF08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346301",
+        "https://doi.org/10.1145/1353536.1346301",
+        "https://doi.org/10.1145/1353534.1346301",
+        "https://doi.org/10.1145/1353535.1346301"
+      ]
+    },
+    {
+      "title": "Reasoning about the ARM weakly consistent memory model",
+      "authors": [
+        "Nathan Chong",
+        "Samin Ishtiaq"
+      ],
+      "pages": "16-19",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChongI08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChongI08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1353522.1353528"
+      ]
+    },
+    {
+      "title": "SoftSig: software-exposed hardware signatures for code analysis and optimization",
+      "authors": [
+        "James Tuck 0001",
+        "Wonsun Ahn",
+        "Luis Ceze",
+        "Josep Torrellas"
+      ],
+      "pages": "145-156",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TuckACT08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TuckACT08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346300",
+        "https://doi.org/10.1145/1353536.1346300",
+        "https://doi.org/10.1145/1353534.1346300",
+        "https://doi.org/10.1145/1353535.1346300"
+      ]
+    },
+    {
+      "title": "Streamware: programming general-purpose multicore processors using streams",
+      "authors": [
+        "Jayanth Gummaraju",
+        "Joel Coburn",
+        "Yoshio Turner",
+        "Mendel Rosenblum"
+      ],
+      "pages": "297-307",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GummarajuCTR08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GummarajuCTR08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346319",
+        "https://doi.org/10.1145/1353536.1346319",
+        "https://doi.org/10.1145/1353534.1346319",
+        "https://doi.org/10.1145/1353535.1346319"
+      ]
+    },
+    {
+      "title": "Tapping into the fountain of CPUs: on operating system support for programmable devices",
+      "authors": [
+        "Yaron Weinsberg",
+        "Danny Dolev",
+        "Tal Anker",
+        "Muli Ben-Yehuda",
+        "Pete Wyckoff"
+      ],
+      "pages": "179-188",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WeinsbergDABW08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WeinsbergDABW08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346304",
+        "https://doi.org/10.1145/1353536.1346304",
+        "https://doi.org/10.1145/1353534.1346304",
+        "https://doi.org/10.1145/1353535.1346304"
+      ]
+    },
+    {
+      "title": "The case for simple, visible cache coherency",
+      "authors": [
+        "Robert Kunz",
+        "Mark Horowitz"
+      ],
+      "pages": "31-35",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KunzH08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KunzH08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1353522.1353532"
+      ]
+    },
+    {
+      "title": "The design and implementation of microdrivers",
+      "authors": [
+        "Vinod Ganapathy",
+        "Matthew J. Renzelmann",
+        "Arini Balakrishnan",
+        "Michael M. Swift",
+        "Somesh Jha"
+      ],
+      "pages": "168-178",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GanapathyRBSJ08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GanapathyRBSJ08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346303",
+        "https://doi.org/10.1145/1353536.1346303",
+        "https://doi.org/10.1145/1353534.1346303",
+        "https://doi.org/10.1145/1353535.1346303"
+      ]
+    },
+    {
+      "title": "The mapping collector: virtual memory support for generational, parallel, and concurrent compaction",
+      "authors": [
+        "Michal Wegiel",
+        "Chandra Krintz"
+      ],
+      "pages": "91-102",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WegielK08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WegielK08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346294",
+        "https://doi.org/10.1145/1353536.1346294",
+        "https://doi.org/10.1145/1353534.1346294",
+        "https://doi.org/10.1145/1353535.1346294"
+      ]
+    },
+    {
+      "title": "The potential for variable-granularity access tracking for optimistic parallelism",
+      "authors": [
+        "Mihai Burcea",
+        "J. Gregory Steffan",
+        "Cristiana Amza"
+      ],
+      "pages": "11-15",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BurceaSA08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BurceaSA08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1353522.1353527"
+      ]
+    },
+    {
+      "title": "Toward molecular programming with DNA",
+      "authors": [
+        "Erik Winfree"
+      ],
+      "pages": "1",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Winfree08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Winfree08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346282",
+        "https://doi.org/10.1145/1353536.1346282",
+        "https://doi.org/10.1145/1353534.1346282",
+        "https://doi.org/10.1145/1353535.1346282",
+        "https://www.wikidata.org/entity/Q59328976"
+      ]
+    },
+    {
+      "title": "Understanding and visualizing full systems with data flow tomography",
+      "authors": [
+        "Shashidhar Mysore",
+        "Bita Mazloom",
+        "Banit Agrawal",
+        "Timothy Sherwood"
+      ],
+      "pages": "211-221",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MysoreMAS08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MysoreMAS08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346308",
+        "https://doi.org/10.1145/1353536.1346308",
+        "https://doi.org/10.1145/1353534.1346308",
+        "https://doi.org/10.1145/1353535.1346308",
+        "https://www.wikidata.org/entity/Q131131108"
+      ]
+    },
+    {
+      "title": "Understanding the propagation of hard errors to software and implications for resilient system design",
+      "authors": [
+        "Man-Lap Li",
+        "Pradeep Ramachandran",
+        "Swarup Kumar Sahoo",
+        "Sarita V. Adve",
+        "Vikram S. Adve",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "265-276",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LiRSAAZ08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LiRSAAZ08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346315",
+        "https://doi.org/10.1145/1353536.1346315",
+        "https://doi.org/10.1145/1353534.1346315",
+        "https://doi.org/10.1145/1353535.1346315"
+      ]
+    },
+    {
+      "title": "What can performance counters do for memory subsystem analysis?",
+      "authors": [
+        "St&eacute;phane Eranian"
+      ],
+      "pages": "26-30",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Eranian08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Eranian08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1353522.1353531"
+      ]
+    },
+    {
+      "title": "Xoc, an extension-oriented compiler for systems programming",
+      "authors": [
+        "Russ Cox",
+        "Tom Bergan",
+        "Austin T. Clements",
+        "M. Frans Kaashoek",
+        "Eddie Kohler"
+      ],
+      "pages": "244-254",
+      "year": "2008",
+      "venue": "ASPLOS 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CoxBCKK08",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CoxBCKK08.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1346281.1346312",
+        "https://doi.org/10.1145/1353536.1346312",
+        "https://doi.org/10.1145/1353534.1346312",
+        "https://doi.org/10.1145/1353535.1346312",
+        "https://www.wikidata.org/entity/Q122060845"
+      ]
+    }
+  ]
+}

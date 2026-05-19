@@ -1,0 +1,524 @@
+{
+  "id": "fast-2019",
+  "venue": "fast",
+  "year": 2019,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2019.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2019.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2019",
+    "conf/fast/2019-1",
+    "conf/fast/2019-2",
+    "conf/fast/2019-3",
+    "conf/fast/2019-4",
+    "conf/fast/2019-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 26,
+  "display_count": 26,
+  "papers": [
+    {
+      "title": "Automatic, Application-Aware I/O Forwarding Resource Allocation",
+      "authors": [
+        "Xu Ji",
+        "Bin Yang 0043",
+        "Tianyu Zhang",
+        "Xiaosong Ma",
+        "Xiupeng Zhu",
+        "Xiyang Wang 0003",
+        "Nosayba El-Sayed",
+        "Jidong Zhai",
+        "Weiguo Liu",
+        "Wei Xue 0003"
+      ],
+      "pages": "265-279",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JiYZMZWEZLX19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JiYZMZWEZLX19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/ji"
+      ]
+    },
+    {
+      "title": "Cluster storage systems gotta have HeART: improving storage efficiency by exploiting disk-reliability heterogeneity",
+      "authors": [
+        "Saurabh Kadekodi",
+        "K. V. Rashmi",
+        "Gregory R. Ganger"
+      ],
+      "pages": "345-358",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KadekodiRG19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KadekodiRG19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/kadekodi"
+      ]
+    },
+    {
+      "title": "Design Tradeoffs for SSD Reliability",
+      "authors": [
+        "Bryan S. Kim",
+        "Jongmoo Choi",
+        "Sang Lyul Min"
+      ],
+      "pages": "281-294",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimCM19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimCM19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/kim-bryan"
+      ]
+    },
+    {
+      "title": "DistCache: Provable Load Balancing for Large-Scale Storage Systems with Distributed Caching",
+      "authors": [
+        "Zaoxing Liu",
+        "Zhihao Bai",
+        "Zhenming Liu",
+        "Xiaozhou Li",
+        "Changhoon Kim",
+        "Vladimir Braverman",
+        "Xin Jin 0008",
+        "Ion Stoica"
+      ],
+      "pages": "143-157",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuBLLKB0S19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuBLLKB0S19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/liu"
+      ]
+    },
+    {
+      "title": "Fast Erasure Coding for Data Storage: A Comprehensive Study of the Acceleration Techniques",
+      "authors": [
+        "Tianli Zhou",
+        "Chao Tian 0002"
+      ],
+      "pages": "317-329",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhouT19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhouT19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/zhou"
+      ]
+    },
+    {
+      "title": "Finesse: Fine-Grained Feature Locality based Fast Resemblance Detection for Post-Deduplication Delta Compression",
+      "authors": [
+        "Yucheng Zhang",
+        "Wen Xia",
+        "Dan Feng 0001",
+        "Hong Jiang 0001",
+        "Yu Hua 0001",
+        "Qiang Wang 0035"
+      ],
+      "pages": "121-128",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangX000W19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangX000W19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/zhang"
+      ]
+    },
+    {
+      "title": "Fully Automatic Stream Management for Multi-Streamed SSDs Using Program Contexts",
+      "authors": [
+        "Taejin Kim",
+        "Duwon Hong",
+        "Sangwook Shane Hahn",
+        "Myoungjun Chun",
+        "Sungjin Lee 0001",
+        "Joo Young Hwang",
+        "Jongyoul Lee",
+        "Jihong Kim 0001"
+      ],
+      "pages": "295-308",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimHHCLHLK19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimHHCLHLK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/kim-taejin"
+      ]
+    },
+    {
+      "title": "GearDB: A GC-free Key-Value Store on HM-SMR Drives with Gear Compaction",
+      "authors": [
+        "Ting Yao 0001",
+        "Jiguang Wan 0001",
+        "Ping Huang 0001",
+        "Yiwen Zhang",
+        "Zhiwen Liu",
+        "Changsheng Xie 0001",
+        "Xubin He"
+      ],
+      "pages": "159-171",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YaoWHZLXH19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YaoWHZLXH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/yao"
+      ]
+    },
+    {
+      "title": "GraphOne: A Data Store for Real-time Analytics on Evolving Graphs",
+      "authors": [
+        "Pradeep Kumar",
+        "H. Howie Huang"
+      ],
+      "pages": "249-263",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KumarH19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KumarH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/kumar"
+      ]
+    },
+    {
+      "title": "INSTalytics: Cluster Filesystem Co-design for Big-data Analytics",
+      "authors": [
+        "Muthian Sivathanu",
+        "Midhul Vuppalapati",
+        "Bhargav S. Gulavani",
+        "Kaushik Rajan",
+        "Jyoti Leeka",
+        "Jayashree Mohan",
+        "Piyus Kedia"
+      ],
+      "pages": "235-248",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SivathanuVGRLMK19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SivathanuVGRLMK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/sivathanu"
+      ]
+    },
+    {
+      "title": "Large-Scale Graph Processing on Emerging Storage Devices",
+      "authors": [
+        "Nima Elyasi",
+        "Changho Choi",
+        "Anand Sivasubramaniam"
+      ],
+      "pages": "309-316",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ElyasiCS19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ElyasiCS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/elyasi"
+      ]
+    },
+    {
+      "title": "OpenEC: Toward Unified and Configurable Erasure Coding Management in Distributed Storage Systems",
+      "authors": [
+        "Xiaolu Li 0002",
+        "Runhui Li",
+        "Patrick P. C. Lee",
+        "Yuchong Hu"
+      ],
+      "pages": "331-344",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiLLH19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiLLH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/li"
+      ]
+    },
+    {
+      "title": "Optimizing Systems for Byte-Addressable NVM by Reducing Bit Flipping",
+      "authors": [
+        "Daniel Bittman",
+        "Darrell D. E. Long",
+        "Peter Alvaro",
+        "Ethan L. Miller"
+      ],
+      "pages": "17-30",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BittmanLAM19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BittmanLAM19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/bittman"
+      ]
+    },
+    {
+      "title": "Orion: A Distributed File System for Non-Volatile Main Memory and RDMA-Capable Networks",
+      "authors": [
+        "Jian Yang",
+        "Joseph Izraelevitz",
+        "Steven Swanson"
+      ],
+      "pages": "221-234",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YangIS19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YangIS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/yang"
+      ]
+    },
+    {
+      "title": "Pay Migration Tax to Homeland: Anchor-based Scalable Reference Counting for Multicores",
+      "authors": [
+        "Seokyong Jung",
+        "Jong-Bin Kim",
+        "Minsoo Ryu",
+        "Sooyong Kang",
+        "Hyungsoo Jung 0001"
+      ],
+      "pages": "79-91",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JungKRKJ19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JungKRKJ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/jung"
+      ]
+    },
+    {
+      "title": "Reaping the performance of fast NVM storage with uDepot",
+      "authors": [
+        "Kornilios Kourtis",
+        "Nikolas Ioannou",
+        "Ioannis Koltsidas"
+      ],
+      "pages": "1-15",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KourtisIK19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KourtisIK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/kourtis"
+      ]
+    },
+    {
+      "title": "ScaleCheck: A Single-Machine Approach for Discovering Scalability Bugs in Large Distributed Systems",
+      "authors": [
+        "Cesar A. Stuardo",
+        "Tanakorn Leesatapornwongsa",
+        "Riza O. Suminto",
+        "Huan Ke",
+        "Jeffrey F. Lukman",
+        "Wei-Chiu Chuang",
+        "Shan Lu 0001",
+        "Haryadi S. Gunawi"
+      ],
+      "pages": "359-373",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/StuardoLSKLCLG19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/StuardoLSKLCLG19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/stuardo"
+      ]
+    },
+    {
+      "title": "Sketching Volume Capacities in Deduplicated Storage",
+      "authors": [
+        "Danny Harnik",
+        "Moshik Hershcovitch",
+        "Yosef Shatsky",
+        "Amir Epstein",
+        "Ronen I. Kat"
+      ],
+      "pages": "107-119",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HarnikHSEK19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HarnikHSEK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/harnik"
+      ]
+    },
+    {
+      "title": "Sliding Look-Back Window Assisted Data Chunk Rewriting for Improving Deduplication Restore Performance",
+      "authors": [
+        "Zhichao Cao 0002",
+        "Shiyong Liu",
+        "Fenggang Wu",
+        "Guohua Wang",
+        "Bingzhe Li",
+        "David H. C. Du"
+      ],
+      "pages": "129-142",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CaoLWWLD19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CaoLWWLD19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/cao"
+      ]
+    },
+    {
+      "title": "SLM-DB: Single-Level Key-Value Store with Persistent Memory",
+      "authors": [
+        "Olzhas Kaiyrakhmet",
+        "Songyi Lee",
+        "Beomseok Nam",
+        "Sam H. Noh",
+        "Young-ri Choi"
+      ],
+      "pages": "191-205",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KaiyrakhmetLNNC19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KaiyrakhmetLNNC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/kaiyrakhmet"
+      ]
+    },
+    {
+      "title": "Software Wear Management for Persistent Memories",
+      "authors": [
+        "Vaibhav Gogte",
+        "William Wang",
+        "Stephan Diestelhorst",
+        "Aasheesh Kolli",
+        "Peter M. Chen",
+        "Satish Narayanasamy",
+        "Thomas F. Wenisch"
+      ],
+      "pages": "45-63",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GogteWDKCNW19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GogteWDKCNW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/gogte"
+      ]
+    },
+    {
+      "title": "Speculative Encryption on GPU Applied to Cryptographic File Systems",
+      "authors": [
+        "Vandeir Eduardo",
+        "Luis Carlos Erpen De Bona",
+        "Wagner M. Nunan Zola"
+      ],
+      "pages": "93-105",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/EduardoBZ19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/EduardoBZ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/eduardo"
+      ]
+    },
+    {
+      "title": "SPEICHER: Securing LSM-based Key-Value Stores using Shielded Execution",
+      "authors": [
+        "Maurice Bailleu",
+        "J&ouml;rg Thalheim",
+        "Pramod Bhatotia",
+        "Christof Fetzer",
+        "Michio Honda",
+        "Kapil Vaswani"
+      ],
+      "pages": "173-190",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BailleuTBFHV19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BailleuTBFHV19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/bailleu"
+      ]
+    },
+    {
+      "title": "Storage Gardening: Using a Virtualization Layer for Efficient Defragmentation in the WAFL File System",
+      "authors": [
+        "Ram Kesavan",
+        "Matthew Curtis-Maury",
+        "Vinay Devadas",
+        "Kesari Mishra"
+      ],
+      "pages": "65-78",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KesavanCDM19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KesavanCDM19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/kesavan"
+      ]
+    },
+    {
+      "title": "Write-Optimized Dynamic Hashing for Persistent Memory",
+      "authors": [
+        "Moohyeon Nam",
+        "Hokeun Cha",
+        "Young-ri Choi",
+        "Sam H. Noh",
+        "Beomseok Nam"
+      ],
+      "pages": "31-44",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/NamCCNN19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/NamCCNN19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/nam"
+      ]
+    },
+    {
+      "title": "Ziggurat: A Tiered File System for Non-Volatile Main Memories and Disks",
+      "authors": [
+        "Shengan Zheng",
+        "Morteza Hoseinzadeh",
+        "Steven Swanson"
+      ],
+      "pages": "207-219",
+      "year": "2019",
+      "venue": "FAST 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhengHS19",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhengHS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast19/presentation/zheng"
+      ]
+    }
+  ]
+}

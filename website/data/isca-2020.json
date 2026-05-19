@@ -1,0 +1,1741 @@
+{
+  "id": "isca-2020",
+  "venue": "isca",
+  "year": 2020,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2020.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2020.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2020",
+    "conf/isca/2020-1",
+    "conf/isca/2020-2",
+    "conf/isca/2020-3",
+    "conf/isca/2020-4",
+    "conf/isca/2020-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 82,
+  "display_count": 82,
+  "papers": [
+    {
+      "title": "A Bus Authentication and Anti-Probing Architecture Extending Hardware Trusted Computing Base Off CPU Chips and Beyond",
+      "authors": [
+        "Zhenyu Xu",
+        "Thomas Mauldin",
+        "Zheyi Yao",
+        "Shuyi Pei",
+        "Tao Wei 0001",
+        "Qing Yang 0001"
+      ],
+      "pages": "749-761",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/XuMYPWY20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/XuMYPWY20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00067"
+      ]
+    },
+    {
+      "title": "A Case for Hardware-Based Demand Paging",
+      "authors": [
+        "Gyusun Lee",
+        "Wenjing Jin 0001",
+        "Wonsuk Song",
+        "Jeonghun Gong",
+        "Jonghyun Bae",
+        "Tae Jun Ham",
+        "Jae W. Lee",
+        "Jinkyu Jeong"
+      ],
+      "pages": "1103-1116",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeJSGBHLJ20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeJSGBHLJ20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00093",
+        "https://www.wikidata.org/entity/Q130965472"
+      ]
+    },
+    {
+      "title": "A Multi-Neural Network Acceleration Architecture",
+      "authors": [
+        "Eunjin Baek",
+        "Dongup Kwon",
+        "Jangwoo Kim"
+      ],
+      "pages": "940-953",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BaekKK20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BaekKK20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00081"
+      ]
+    },
+    {
+      "title": "A Specialized Architecture for Object Serialization with Applications to Big Data Analytics",
+      "authors": [
+        "Jaeyoung Jang",
+        "Sungjun Jung",
+        "Sunmin Jeong",
+        "Jun Heo 0001",
+        "Hoon Shin",
+        "Tae Jun Ham",
+        "Jae W. Lee"
+      ],
+      "pages": "322-334",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JangJJHSHL20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JangJJHSHL20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00036",
+        "https://www.wikidata.org/entity/Q131116116"
+      ]
+    },
+    {
+      "title": "Accel-Sim: An Extensible Simulation Framework for Validated GPU Modeling",
+      "authors": [
+        "Mahmoud Khairy",
+        "Zhesheng Shen",
+        "Tor M. Aamodt",
+        "Timothy G. Rogers"
+      ],
+      "pages": "473-486",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KhairySAR20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KhairySAR20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00047"
+      ]
+    },
+    {
+      "title": "AccQOC: Accelerating Quantum Optimal Control Based Pulse Generation",
+      "authors": [
+        "Jinglei Cheng",
+        "Haoqing Deng",
+        "Xuehai Qian"
+      ],
+      "pages": "543-555",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChengDQ20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChengDQ20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00052",
+        "https://www.wikidata.org/entity/Q130922143"
+      ]
+    },
+    {
+      "title": "An In-Network Architecture for Accelerating Shared-Memory Multiprocessor Collectives",
+      "authors": [
+        "Benjamin Klenk",
+        "Nan Jiang 0009",
+        "Greg Thorson",
+        "Larry Dennison"
+      ],
+      "pages": "996-1009",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KlenkJTD20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KlenkJTD20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00085"
+      ]
+    },
+    {
+      "title": "Architecting Noisy Intermediate-Scale Trapped Ion Quantum Computers",
+      "authors": [
+        "Prakash Murali",
+        "Dripto M. Debroy",
+        "Kenneth R. Brown",
+        "Margaret Martonosi"
+      ],
+      "pages": "529-542",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MuraliDBM20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MuraliDBM20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00051",
+        "https://www.wikidata.org/entity/Q130920912"
+      ]
+    },
+    {
+      "title": "Auto-Predication of Critical Branches",
+      "authors": [
+        "Adarsh Chauhan",
+        "Jayesh Gaur",
+        "Zeev Sperber",
+        "Franck Sala",
+        "Lihu Rappoport",
+        "Adi Yoaz",
+        "Sreenivas Subramoney"
+      ],
+      "pages": "92-104",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChauhanGSSRYS20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChauhanGSSRYS20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00019"
+      ]
+    },
+    {
+      "title": "BabelFish: Fusing Address Translations for Containers",
+      "authors": [
+        "Dimitrios Skarlatos 0002",
+        "Umur Darbaz",
+        "Bhargava Gopireddy",
+        "Nam Sung Kim",
+        "Josep Torrellas"
+      ],
+      "pages": "501-514",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SkarlatosDGKT20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SkarlatosDGKT20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00049"
+      ]
+    },
+    {
+      "title": "Bonsai: High-Performance Adaptive Merge Tree Sorting",
+      "authors": [
+        "Nikola Samardzic",
+        "Weikang Qiao",
+        "Vaibhav Aggarwal",
+        "Mau-Chung Frank Chang",
+        "Jason Cong"
+      ],
+      "pages": "282-294",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SamardzicQACC20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SamardzicQACC20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00033",
+        "https://www.wikidata.org/entity/Q130970149"
+      ]
+    },
+    {
+      "title": "Bouquet of Instruction Pointers: Instruction Pointer Classifier-based Spatial Hardware Prefetching",
+      "authors": [
+        "Samuel Pakalapati",
+        "Biswabandan Panda"
+      ],
+      "pages": "118-131",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PakalapatiP20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PakalapatiP20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00021"
+      ]
+    },
+    {
+      "title": "Buddy Compression: Enabling Larger Memory for Deep Learning and HPC Workloads on GPUs",
+      "authors": [
+        "Esha Choukse",
+        "Michael B. Sullivan 0001",
+        "Mike O'Connor",
+        "Mattan Erez",
+        "Jeff Pool",
+        "David W. Nellans",
+        "Stephen W. Keckler"
+      ],
+      "pages": "926-939",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChoukseSOEPNK20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChoukseSOEPNK20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00080"
+      ]
+    },
+    {
+      "title": "Centaur: A Chiplet-based, Hybrid Sparse-Dense Accelerator for Personalized Recommendations",
+      "authors": [
+        "Ranggi Hwang",
+        "Taehun Kim",
+        "Youngeun Kwon",
+        "Minsoo Rhu"
+      ],
+      "pages": "968-981",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HwangKKR20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HwangKKR20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00083"
+      ]
+    },
+    {
+      "title": "Check-In: In-Storage Checkpointing for Key-Value Store System Leveraging Flash-Based SSDs",
+      "authors": [
+        "Joohyeong Yoon",
+        "Won Seob Jeong",
+        "Won Woo Ro"
+      ],
+      "pages": "693-706",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YoonJR20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YoonJR20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00063",
+        "https://www.wikidata.org/entity/Q130957524"
+      ]
+    },
+    {
+      "title": "CHEx86: Context-Sensitive Enforcement of Memory Safety via Microcode-Enabled Capabilities",
+      "authors": [
+        "Rasool Sharifi",
+        "Ashish Venkat"
+      ],
+      "pages": "762-775",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SharifiV20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SharifiV20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00068"
+      ]
+    },
+    {
+      "title": "CLR-DRAM: A Low-Cost DRAM Architecture Enabling Dynamic Capacity-Latency Trade-Off",
+      "authors": [
+        "Haocong Luo",
+        "Taha Shahroodi",
+        "Hasan Hassan",
+        "Minesh Patel",
+        "Abdullah Giray Yaglik&ccedil;i",
+        "Lois Orosa 0001",
+        "Jisung Park 0001",
+        "Onur Mutlu"
+      ],
+      "pages": "666-679",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LuoSHPYOPM20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LuoSHPYOPM20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00061"
+      ]
+    },
+    {
+      "title": "Commutative Data Reordering: A New Technique to Reduce Data Movement Energy on Sparse Inference Workloads",
+      "authors": [
+        "Ben Feinberg",
+        "Benjamin C. Heyman",
+        "Darya Mikhailenko",
+        "Ryan Wong 0001",
+        "An C. Ho",
+        "Engin Ipek"
+      ],
+      "pages": "1076-1088",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FeinbergHMWHI20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FeinbergHMWHI20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00091"
+      ]
+    },
+    {
+      "title": "Compact Leakage-Free Support for Integrity and Reliability",
+      "authors": [
+        "Meysam Taassori",
+        "Rajeev Balasubramonian",
+        "Siddhartha Chhabra",
+        "Alaa R. Alameldeen",
+        "Manjula Peddireddy",
+        "Rajat Agarwal",
+        "Ryan Stutsman"
+      ],
+      "pages": "735-748",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TaassoriBCAPAS20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TaassoriBCAPAS20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00066"
+      ]
+    },
+    {
+      "title": "CryoCore: A Fast and Dense Processor Architecture for Cryogenic Computing",
+      "authors": [
+        "Ilkwon Byun",
+        "Dongmoon Min",
+        "Gyu-hyeon Lee",
+        "Seongmin Na",
+        "Jangwoo Kim"
+      ],
+      "pages": "335-348",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ByunMLNK20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ByunMLNK20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00037"
+      ]
+    },
+    {
+      "title": "D&eacute;j&agrave; View: Spatio-Temporal Compute Reuse for' Energy-Efficient 360° VR Video Streaming",
+      "authors": [
+        "Shulin Zhao 0001",
+        "Haibo Zhang 0005",
+        "Sandeepa Bhuyan",
+        "Cyan Subhra Mishra",
+        "Ziyu Ying 0001",
+        "Mahmut T. Kandemir",
+        "Anand Sivasubramaniam",
+        "Chita R. Das"
+      ],
+      "pages": "241-253",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhaoZBMYKSD20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhaoZBMYKSD20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00030"
+      ]
+    },
+    {
+      "title": "Data Compression Accelerator on IBM POWER9 and z15 Processors : Industrial Product",
+      "authors": [
+        "B&uuml;lent Abali",
+        "Bart Blaner",
+        "John J. Reilly",
+        "Matthias Klein",
+        "Ashutosh Mishra",
+        "Craig B. Agricola",
+        "Bedri Sendir",
+        "Alper Buyuktosunoglu",
+        "Christian Jacobi 0002",
+        "William J. Starke",
+        "Haren Myneni",
+        "Charlie Wang"
+      ],
+      "pages": "1-14",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AbaliBRKMASBJSM20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AbaliBRKMASBJSM20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00012",
+        "https://www.wikidata.org/entity/Q131121435"
+      ]
+    },
+    {
+      "title": "DeepRecSys: A System for Optimizing End-To-End At-Scale Neural Recommendation Inference",
+      "authors": [
+        "Udit Gupta 0001",
+        "Samuel Hsia",
+        "Vikram Saraph",
+        "Xiaodong Wang 0020",
+        "Brandon Reagen",
+        "Gu-Yeon Wei",
+        "Hsien-Hsin S. Lee",
+        "David Brooks 0001",
+        "Carole-Jean Wu"
+      ],
+      "pages": "982-995",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GuptaHSWRWL0W20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GuptaHSWRWL0W20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00084"
+      ]
+    },
+    {
+      "title": "Divide and Conquer Frontend Bottleneck",
+      "authors": [
+        "Ali Ansari 0001",
+        "Pejman Lotfi-Kamran",
+        "Hamid Sarbazi-Azad"
+      ],
+      "pages": "65-78",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AnsariLS20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AnsariLS20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00017"
+      ]
+    },
+    {
+      "title": "DRQ: Dynamic Region-based Quantization for Deep Neural Network Acceleration",
+      "authors": [
+        "Zhuoran Song",
+        "Bangqi Fu",
+        "Feiyang Wu",
+        "Zhaoming Jiang",
+        "Li Jiang 0002",
+        "Naifeng Jing",
+        "Xiaoyao Liang"
+      ],
+      "pages": "1010-1021",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SongFWJ0JL20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SongFWJ0JL20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00086"
+      ]
+    },
+    {
+      "title": "DSAGEN: Synthesizing Programmable Spatial Accelerators",
+      "authors": [
+        "Jian Weng 0002",
+        "Sihao Liu",
+        "Vidushi Dadu",
+        "Zhengrong Wang",
+        "Preyas Shah",
+        "Tony Nowatzki"
+      ],
+      "pages": "268-281",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/0002LDWSN20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/0002LDWSN20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00032"
+      ]
+    },
+    {
+      "title": "Echo: Compiler-based GPU Memory Footprint Reduction for LSTM RNN Training",
+      "authors": [
+        "Bojian Zheng",
+        "Nandita Vijaykumar",
+        "Gennady Pekhimenko"
+      ],
+      "pages": "1089-1102",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhengVP20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhengVP20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00092"
+      ]
+    },
+    {
+      "title": "Efficiently Supporting Dynamic Task Parallelism on Heterogeneous Cache-Coherent Systems",
+      "authors": [
+        "Moyang Wang",
+        "Tuan Ta",
+        "Lin Cheng",
+        "Christopher Batten"
+      ],
+      "pages": "173-186",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangTCB20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangTCB20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00025"
+      ]
+    },
+    {
+      "title": "Enhancing and Exploiting Contiguity for Fast Memory Virtualization",
+      "authors": [
+        "Chloe Alverti",
+        "Stratos Psomadakis",
+        "Vasileios Karakostas",
+        "Jayneel Gandhi",
+        "Konstantinos Nikas",
+        "Georgios I. Goumas",
+        "Nectarios Koziris"
+      ],
+      "pages": "515-528",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AlvertiPKGNGK20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AlvertiPKGNGK20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00050",
+        "https://www.wikidata.org/entity/Q130974300"
+      ]
+    },
+    {
+      "title": "Evolution of the Samsung Exynos CPU Microarchitecture",
+      "authors": [
+        "Brian Grayson",
+        "Jeff Rupley",
+        "Gerald D. Zuraski",
+        "Eric Quinnell",
+        "Daniel A. Jim&eacute;nez",
+        "Tarun Nakra",
+        "Paul Kitchin",
+        "Ryan Hensley",
+        "Edward Brekelbaum",
+        "Vikas Sinha",
+        "Ankit Ghiya"
+      ],
+      "pages": "40-51",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GraysonRZQJNKHB20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GraysonRZQJNKHB20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00015",
+        "https://www.wikidata.org/entity/Q130950454"
+      ]
+    },
+    {
+      "title": "Flick: Fast and Lightweight ISA-Crossing Call for Heterogeneous-ISA Environments",
+      "authors": [
+        "Shenghsun Cho",
+        "Han Chen",
+        "Sergey Madaminov",
+        "Michael Ferdman",
+        "Peter A. Milder"
+      ],
+      "pages": "187-198",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChoCMFM20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChoCMFM20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00026"
+      ]
+    },
+    {
+      "title": "Focused Value Prediction",
+      "authors": [
+        "Sumeet Bandishte",
+        "Jayesh Gaur",
+        "Zeev Sperber",
+        "Lihu Rappoport",
+        "Adi Yoaz",
+        "Sreenivas Subramoney"
+      ],
+      "pages": "79-91",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BandishteGSRYS20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BandishteGSRYS20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00018"
+      ]
+    },
+    {
+      "title": "GaaS-X: Graph Analytics Accelerator Supporting Sparse Data Representation using Crossbar Architectures",
+      "authors": [
+        "Nagadastagiri Challapalle",
+        "Sahithi Rampalli",
+        "Linghao Song",
+        "Nandhini Chandramoorthy",
+        "Karthik Swaminathan",
+        "John Sampson",
+        "Yiran Chen 0001",
+        "Vijaykrishnan Narayanan"
+      ],
+      "pages": "433-445",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChallapalleRSCS20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChallapalleRSCS20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00044"
+      ]
+    },
+    {
+      "title": "Genesis: A Hardware Acceleration Framework for Genomic Data Analysis",
+      "authors": [
+        "Tae Jun Ham",
+        "David Bruns-Smith",
+        "Brendan Sweeney",
+        "Yejin Lee 0001",
+        "Seong Hoon Seo",
+        "U. Gyeong Song",
+        "Young H. Oh",
+        "Krste Asanovic",
+        "Jae W. Lee",
+        "Lisa Wu Wills"
+      ],
+      "pages": "254-267",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HamBSLSSOALW20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HamBSLSSOALW20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00031"
+      ]
+    },
+    {
+      "title": "Gorgon: Accelerating Machine Learning from Relational Data",
+      "authors": [
+        "Matthew Vilim",
+        "Alexander Rucker",
+        "Yaqi Zhang 0001",
+        "Sophia Liu",
+        "Kunle Olukotun"
+      ],
+      "pages": "309-321",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/VilimRZLO20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/VilimRZLO20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00035"
+      ]
+    },
+    {
+      "title": "GraphABCD: Scaling Out Graph Analytics with Asynchronous Block Coordinate Descent",
+      "authors": [
+        "Yifan Yang",
+        "Zhaoshi Li",
+        "Yangdong Deng",
+        "Zhiwei Liu",
+        "Shouyi Yin",
+        "Shaojun Wei",
+        "Leibo Liu"
+      ],
+      "pages": "419-432",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YangLDLYWL20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YangLDLYWL20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00043"
+      ]
+    },
+    {
+      "title": "Hardware-Based Domain Virtualization for Intra-Process Isolation of Persistent Memory Objects",
+      "authors": [
+        "Yuanchao Xu 0001",
+        "Chencheng Ye 0001",
+        "Yan Solihin",
+        "Xipeng Shen"
+      ],
+      "pages": "680-692",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/XuYSS20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/XuYSS20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00062",
+        "https://www.wikidata.org/entity/Q130991300"
+      ]
+    },
+    {
+      "title": "Hardware-Software Co-Design for Brain-Computer Interfaces",
+      "authors": [
+        "Ioannis Karageorgos",
+        "Karthik Sriram",
+        "J&aacute;n Vesel&yacute;",
+        "Michael Wu",
+        "Marc Powell",
+        "David A. Borton",
+        "Rajit Manohar",
+        "Abhishek Bhattacharjee"
+      ],
+      "pages": "391-404",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KarageorgosSVWP20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KarageorgosSVWP20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00041"
+      ]
+    },
+    {
+      "title": "Heat to Power: Thermal Energy Harvesting and Recycling for Warm Water-Cooled Datacenters",
+      "authors": [
+        "Xinhui Zhu",
+        "Weixiang Jiang",
+        "Fangming Liu",
+        "Qixia Zhang",
+        "Li Pan",
+        "Qiong Chen",
+        "Ziyang Jia"
+      ],
+      "pages": "405-418",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhuJLZPCJ20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhuJLZPCJ20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00042"
+      ]
+    },
+    {
+      "title": "HieraGen: Automated Generation of Concurrent, Hierarchical Cache Coherence Protocols",
+      "authors": [
+        "Nicolai Oswald",
+        "Vijay Nagarajan",
+        "Daniel J. Sorin"
+      ],
+      "pages": "888-899",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/OswaldNS20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/OswaldNS20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00077"
+      ]
+    },
+    {
+      "title": "High-Performance Deep-Learning Coprocessor Integrated into x86 SoC with Server-Class CPUs Industrial Product",
+      "authors": [
+        "G. Glenn Henry",
+        "Parviz Palangpour",
+        "Michael Thomson",
+        "J. Scott Gardner",
+        "Bryce Arden",
+        "Jim Donahue",
+        "Kimble Houck",
+        "Jonathan Johnson",
+        "Kyle O'Brien",
+        "Scott Petersen",
+        "Benjamin Seroussi",
+        "Tyler Walker"
+      ],
+      "pages": "15-26",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HenryPTGADHJOPS20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HenryPTGADHJOPS20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00013"
+      ]
+    },
+    {
+      "title": "HOOP: Efficient Hardware-Assisted Out-of-Place Update for Non-Volatile Memory",
+      "authors": [
+        "Miao Cai 0001",
+        "Chance C. Coats",
+        "Jian Huang 0006"
+      ],
+      "pages": "584-596",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CaiCH20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CaiCH20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00055"
+      ]
+    },
+    {
+      "title": "Hyper-Ap: Enhancing Associative Processing Through A Full-Stack Optimization",
+      "authors": [
+        "Yue Zha",
+        "Jing Li 0073"
+      ],
+      "pages": "846-859",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhaL20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhaL20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00074"
+      ]
+    },
+    {
+      "title": "HyperTRIO: Hyper-Tenant Translation of I/O Addresses",
+      "authors": [
+        "Alexey Lavrov",
+        "David Wentzlaff"
+      ],
+      "pages": "487-500",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LavrovW20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LavrovW20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00048",
+        "https://www.wikidata.org/entity/Q131118263"
+      ]
+    },
+    {
+      "title": "Independent Forward Progress of Work-groups",
+      "authors": [
+        "Alexandru Dutu",
+        "Matthew D. Sinclair",
+        "Bradford M. Beckmann",
+        "David A. Wood 0001",
+        "Marcus Chow"
+      ],
+      "pages": "1022-1035",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DutuSB0C20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DutuSB0C20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00087"
+      ]
+    },
+    {
+      "title": "iPIM: Programmable In-Memory Image Processing Accelerator Using Near-Bank Architecture",
+      "authors": [
+        "Peng Gu",
+        "Xinfeng Xie",
+        "Yufei Ding 0001",
+        "Guoyang Chen",
+        "Weifeng Zhang 0003",
+        "Dimin Niu",
+        "Yuan Xie 0001"
+      ],
+      "pages": "804-817",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GuXDCZNX20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GuXDCZNX20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00071"
+      ]
+    },
+    {
+      "title": "JPEG-ACT: Accelerating Deep Learning via Transform-based Lossy Compression",
+      "authors": [
+        "R. David Evans",
+        "Lufei Liu 0001",
+        "Tor M. Aamodt"
+      ],
+      "pages": "860-873",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/EvansLA20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/EvansLA20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00075",
+        "https://www.wikidata.org/entity/Q130994217"
+      ]
+    },
+    {
+      "title": "Lelantus: Fine-Granularity Copy-On-Write Operations for Secure Non-Volatile Memories",
+      "authors": [
+        "Jian Zhou 0004",
+        "Amro Awad",
+        "Jun Wang 0001"
+      ],
+      "pages": "597-609",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhouAW20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhouAW20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00056"
+      ]
+    },
+    {
+      "title": "MLPerf Inference Benchmark",
+      "authors": [
+        "Vijay Janapa Reddi",
+        "Christine Cheng",
+        "David Kanter",
+        "Peter Mattson",
+        "Guenther Schmuelling",
+        "Carole-Jean Wu",
+        "Brian Anderson",
+        "Maximilien Breughe",
+        "Mark Charlebois",
+        "William Chou",
+        "Ramesh Chukka",
+        "Cody Coleman",
+        "Sam Davis",
+        "Pan Deng",
+        "Greg Diamos",
+        "Jared Duke",
+        "Dave Fick",
+        "J. Scott Gardner",
+        "Itay Hubara",
+        "Sachin Idgunji",
+        "Thomas B. Jablin",
+        "Jeff Jiao",
+        "Tom St. John",
+        "Pankaj Kanwar",
+        "David Lee",
+        "Jeffery Liao",
+        "Anton Lokhmotov",
+        "Francisco Massa",
+        "Peng Meng",
+        "Paulius Micikevicius",
+        "Colin Osborne",
+        "Gennady Pekhimenko",
+        "Arun Tejusve Raghunath Rajan",
+        "Dilip Sequeira",
+        "Ashish Sirasao",
+        "Fei Sun 0002",
+        "Hanlin Tang",
+        "Michael Thomson",
+        "Frank Wei",
+        "Ephrem Wu",
+        "Lingjie Xu",
+        "Koichi Yamada",
+        "Bing Yu",
+        "George Yuan",
+        "Aaron Zhong",
+        "Peizhao Zhang",
+        "Yuchen Zhou"
+      ],
+      "pages": "446-459",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ReddiCKMSWABCCC20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ReddiCKMSWABCCC20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00045"
+      ]
+    },
+    {
+      "title": "Mocktails: Capturing the Memory Behaviour of Proprietary Mobile Architectures",
+      "authors": [
+        "Mario Badr",
+        "Carlo Delconte",
+        "Isak Edo",
+        "Radhika Jagtap",
+        "Matteo Andreozzi",
+        "Natalie D. Enright Jerger"
+      ],
+      "pages": "460-472",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BadrDEJAJ20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BadrDEJAJ20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00046"
+      ]
+    },
+    {
+      "title": "MorLog: Morphable Hardware Logging for Atomic Persistence in Non-Volatile Main Memory",
+      "authors": [
+        "Xueliang Wei",
+        "Dan Feng 0001",
+        "Wei Tong 0001",
+        "Jingning Liu",
+        "Liuqing Ye"
+      ],
+      "pages": "610-623",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Wei0TLY20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Wei0TLY20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00057"
+      ]
+    },
+    {
+      "title": "MuonTrap: Preventing Cross-Domain Spectre-Like Attacks by Capturing Speculative State",
+      "authors": [
+        "Sam Ainsworth 0001",
+        "Timothy M. Jones 0001"
+      ],
+      "pages": "132-144",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Ainsworth020",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Ainsworth020.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00022",
+        "https://www.wikidata.org/entity/Q131124409"
+      ]
+    },
+    {
+      "title": "Near Data Acceleration with Concurrent Host Access",
+      "authors": [
+        "Benjamin Y. Cho",
+        "Yongkee Kwon",
+        "Sangkug Lym",
+        "Mattan Erez"
+      ],
+      "pages": "818-831",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChoKLE20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChoKLE20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00072"
+      ]
+    },
+    {
+      "title": "NEBULA: A Neuromorphic Spin-Based Ultra-Low Power Architecture for SNNs and ANNs",
+      "authors": [
+        "Sonali Singh",
+        "Anup Sarma",
+        "Nicholas Jao",
+        "Ashutosh Pattnaik",
+        "Sen Lu",
+        "Kezhou Yang",
+        "Abhronil Sengupta",
+        "Vijaykrishnan Narayanan",
+        "Chita R. Das"
+      ],
+      "pages": "363-376",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SinghSJPLYSND20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SinghSJPLYSND20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00039"
+      ]
+    },
+    {
+      "title": "Nested Enclave: Supporting Fine-grained Hierarchical Isolation with SGX",
+      "authors": [
+        "Joongun Park",
+        "Naegyeong Kang",
+        "Taehoon Kim 0001",
+        "Youngjin Kwon",
+        "Jaehyuk Huh 0001"
+      ],
+      "pages": "776-789",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ParkKKKH20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ParkKKKH20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00069"
+      ]
+    },
+    {
+      "title": "NISQ+: Boosting quantum computing power by approximating quantum error correction",
+      "authors": [
+        "Adam Holmes",
+        "Mohammad Reza Jokar",
+        "Ghasem Pasandi",
+        "Yongshan Ding 0001",
+        "Massoud Pedram",
+        "Frederic T. Chong"
+      ],
+      "pages": "556-569",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HolmesJPDPC20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HolmesJPDPC20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00053",
+        "https://www.wikidata.org/entity/Q130921503"
+      ]
+    },
+    {
+      "title": "Packet Chasing: Spying on Network Packets over a Cache Side-Channel",
+      "authors": [
+        "Mohammadkazem Taram",
+        "Ashish Venkat",
+        "Dean M. Tullsen"
+      ],
+      "pages": "721-734",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TaramVT20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TaramVT20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00065",
+        "https://www.wikidata.org/entity/Q130992236"
+      ]
+    },
+    {
+      "title": "Perforated Page: Supporting Fragmented Memory Allocation for Large Pages",
+      "authors": [
+        "Chang Hyun Park 0001",
+        "Sanghoon Cha",
+        "Bokyeong Kim",
+        "Youngjin Kwon",
+        "David Black-Schaffer",
+        "Jaehyuk Huh 0001"
+      ],
+      "pages": "913-925",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/0001CKKBH20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/0001CKKBH20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00079"
+      ]
+    },
+    {
+      "title": "Printed Microprocessors",
+      "authors": [
+        "Nathaniel Bleier",
+        "Muhammad Husnain Mubarik",
+        "Farhan Rasheed",
+        "Jasmin Aghassi-Hagmann",
+        "Mehdi B. Tahoori",
+        "Rakesh Kumar 0002"
+      ],
+      "pages": "213-226",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BleierMRATK20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BleierMRATK20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00028",
+        "https://www.wikidata.org/entity/Q130949247"
+      ]
+    },
+    {
+      "title": "RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing",
+      "authors": [
+        "Liu Ke 0001",
+        "Udit Gupta 0001",
+        "Benjamin Youngjae Cho",
+        "David Brooks 0001",
+        "Vikas Chandra",
+        "Utku Diril",
+        "Amin Firoozshahian",
+        "Kim M. Hazelwood",
+        "Bill Jia",
+        "Hsien-Hsin S. Lee",
+        "Meng Li 0004",
+        "Bert Maher",
+        "Dheevatsa Mudigere",
+        "Maxim Naumov",
+        "Martin Schatz",
+        "Mikhail Smelyanskiy",
+        "Xiaodong Wang 0020",
+        "Brandon Reagen",
+        "Carole-Jean Wu",
+        "Mark Hempstead",
+        "Xuan Zhang 0001"
+      ],
+      "pages": "790-803",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KeGC0CDFHJL0MMN20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KeGC0CDFHJL0MMN20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00070"
+      ]
+    },
+    {
+      "title": "Relaxed Persist Ordering Using Strand Persistency",
+      "authors": [
+        "Vaibhav Gogte",
+        "William Wang",
+        "Stephan Diestelhorst",
+        "Peter M. Chen",
+        "Satish Narayanasamy",
+        "Thomas F. Wenisch"
+      ],
+      "pages": "652-665",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GogteWDCNW20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GogteWDCNW20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00060"
+      ]
+    },
+    {
+      "title": "Revisiting RowHammer: An Experimental Analysis of Modern DRAM Devices and Mitigation Techniques",
+      "authors": [
+        "Jeremie S. Kim",
+        "Minesh Patel",
+        "Abdullah Giray Yaglik&ccedil;i",
+        "Hasan Hassan",
+        "Roknoddin Azizi",
+        "Lois Orosa 0001",
+        "Onur Mutlu"
+      ],
+      "pages": "638-651",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimPYHAOM20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimPYHAOM20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00059"
+      ]
+    },
+    {
+      "title": "ScoRD: A Scoped Race Detector for GPUs",
+      "authors": [
+        "Aditya K. Kamath",
+        "Alvin A. George",
+        "Arkaprava Basu"
+      ],
+      "pages": "1036-1049",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KamathGB20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KamathGB20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00088"
+      ]
+    },
+    {
+      "title": "Slipstream Processors Revisited: Exploiting Branch Sets",
+      "authors": [
+        "Vinesh Srinivasan",
+        "Rangeen Basu Roy Chowdhury",
+        "Eric Rotenberg"
+      ],
+      "pages": "105-117",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SrinivasanCR20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SrinivasanCR20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00020"
+      ]
+    },
+    {
+      "title": "SmartExchange: Trading Higher-cost Memory Storage/Access for Lower-cost Computation",
+      "authors": [
+        "Yang Zhao 0013",
+        "Xiaohan Chen 0001",
+        "Yue Wang 0036",
+        "Chaojian Li",
+        "Haoran You",
+        "Yonggan Fu",
+        "Yuan Xie 0001",
+        "Zhangyang Wang",
+        "Yingyan Lin 0001"
+      ],
+      "pages": "954-967",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhaoCWLYF0WL20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhaoCWLYF0WL20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00082"
+      ]
+    },
+    {
+      "title": "SOFF: An OpenCL High-Level Synthesis Framework for FPGAs",
+      "authors": [
+        "Gangwon Jo",
+        "Heehoon Kim",
+        "Jeesoo Lee",
+        "Jaejin Lee"
+      ],
+      "pages": "295-308",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JoKLL20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JoKLL20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00034"
+      ]
+    },
+    {
+      "title": "Speculative Data-Oblivious Execution: Mobilizing Safe Prediction For Safe and Efficient Speculative Execution",
+      "authors": [
+        "Jiyong Yu",
+        "Namrata Mantri",
+        "Josep Torrellas",
+        "Adam Morrison 0001",
+        "Christopher W. Fletcher"
+      ],
+      "pages": "707-720",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YuMT0F20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YuMT0F20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00064"
+      ]
+    },
+    {
+      "title": "SpinalFlow: An Architecture and Dataflow Tailored for Spiking Neural Networks",
+      "authors": [
+        "Surya Narayanan",
+        "Karl Taht",
+        "Rajeev Balasubramonian",
+        "Edouard Giacomin",
+        "Pierre-Emmanuel Gaillardon"
+      ],
+      "pages": "349-362",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NarayananTBGG20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NarayananTBGG20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00038"
+      ]
+    },
+    {
+      "title": "SQUARE: Strategic Quantum Ancilla Reuse for Modular Quantum Programs via Cost-Effective Uncomputation",
+      "authors": [
+        "Yongshan Ding 0001",
+        "Xin-Chuan Wu",
+        "Adam Holmes",
+        "Ash Wiseth",
+        "Diana Franklin",
+        "Margaret Martonosi",
+        "Frederic T. Chong"
+      ],
+      "pages": "570-583",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DingWHWFMC20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DingWHWFMC20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00054",
+        "https://www.wikidata.org/entity/Q130921493"
+      ]
+    },
+    {
+      "title": "SysScale: Exploiting Multi-domain Dynamic Voltage and Frequency Scaling for Energy Efficient Mobile Processors",
+      "authors": [
+        "Jawad Haj-Yahya",
+        "Mohammed Alser",
+        "Jeremie S. Kim",
+        "Abdullah Giray Yaglik&ccedil;i",
+        "Nandita Vijaykumar",
+        "Efraim Rotem",
+        "Onur Mutlu"
+      ],
+      "pages": "227-240",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Haj-YahyaAKYVRM20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Haj-YahyaAKYVRM20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00029",
+        "https://www.wikidata.org/entity/Q130967020"
+      ]
+    },
+    {
+      "title": "T4: Compiling Sequential Code for Effective Speculative Parallelization in Hardware",
+      "authors": [
+        "Victor A. Ying",
+        "Mark C. Jeffrey",
+        "Daniel S&aacute;nchez 0003"
+      ],
+      "pages": "159-172",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YingJ020",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YingJ020.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00024"
+      ]
+    },
+    {
+      "title": "Tailored Page Sizes",
+      "authors": [
+        "Faruk Guvenilir",
+        "Yale N. Patt"
+      ],
+      "pages": "900-912",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GuvenilirP20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GuvenilirP20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00078"
+      ]
+    },
+    {
+      "title": "The IBM z15 High Frequency Mainframe Branch Predictor Industrial Product",
+      "authors": [
+        "Narasimha Adiga",
+        "James Bonanno",
+        "Adam Collura",
+        "Matthias Heizmann",
+        "Brian R. Prasky",
+        "Anthony Saporito"
+      ],
+      "pages": "27-39",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AdigaBCHPS20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AdigaBCHPS20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00014"
+      ]
+    },
+    {
+      "title": "The NEBULA RPC-Optimized Architecture",
+      "authors": [
+        "Mark Sutherland",
+        "Siddharth Gupta 0003",
+        "Babak Falsafi",
+        "Virendra J. Marathe",
+        "Dionisios N. Pnevmatikatos",
+        "Alexandros Daglis"
+      ],
+      "pages": "199-212",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SutherlandGFMPD20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SutherlandGFMPD20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00027",
+        "https://www.wikidata.org/entity/Q131125915"
+      ]
+    },
+    {
+      "title": "The Virtual Block Interface: A Flexible Alternative to the Conventional Virtual Memory Framework",
+      "authors": [
+        "Nastaran Hajinazar",
+        "Pratyush Patel",
+        "Minesh Patel",
+        "Konstantinos Kanellopoulos",
+        "Saugata Ghose",
+        "Rachata Ausavarungnirun",
+        "Geraldo F. Oliveira",
+        "Jonathan Appavoo",
+        "Vivek Seshadri",
+        "Onur Mutlu"
+      ],
+      "pages": "1050-1063",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HajinazarPPKGAO20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HajinazarPPKGAO20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00089"
+      ]
+    },
+    {
+      "title": "Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads",
+      "authors": [
+        "Dennis Abts",
+        "Jonathan Ross",
+        "Jonathan Sparling",
+        "Mark Wong-VanHaren",
+        "Max Baker",
+        "Tom Hawkins",
+        "Andrew Bell",
+        "John Thompson",
+        "Temesghen Kahsai",
+        "Garrin Kimmell",
+        "Jennifer Hwang",
+        "Rebekah Leslie-Hurd",
+        "Michael Bye",
+        "E. R. Creswick",
+        "Matthew Boyd",
+        "Mahitha Venigalla",
+        "Evan Laforge",
+        "Jon Purdy",
+        "Purushotham Kamath",
+        "Dinesh Maheshwari",
+        "Michael Beidler",
+        "Geert Rosseel",
+        "Omar Ahmad",
+        "Gleb Gagarin",
+        "Richard Czekalski",
+        "Ashay Rane",
+        "Sahil Parmar",
+        "Jeff Werner",
+        "Jim Sproch",
+        "Adri&aacute;n Mac&iacute;as",
+        "Brian Kurtz"
+      ],
+      "pages": "145-158",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AbtsRSWBHBTKKHL20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AbtsRSWBHBTKKHL20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00023"
+      ]
+    },
+    {
+      "title": "Timely: Pushing Data Movements And Interfaces In Pim Accelerators Towards Local And In Time Domain",
+      "authors": [
+        "Weitao Li",
+        "Pengfei Xu 0011",
+        "Yang Zhao 0013",
+        "Haitong Li",
+        "Yuan Xie 0001",
+        "Yingyan Lin 0001"
+      ],
+      "pages": "832-845",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Li0ZL0L20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Li0ZL0L20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00073"
+      ]
+    },
+    {
+      "title": "TransForm: Formally Specifying Transistency Models and Synthesizing Enhanced Litmus Tests",
+      "authors": [
+        "Naorin Hossain",
+        "Caroline Trippel",
+        "Margaret Martonosi"
+      ],
+      "pages": "874-887",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HossainTM20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HossainTM20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00076"
+      ]
+    },
+    {
+      "title": "TVARAK: Software-Managed Hardware Offload for Redundancy in Direct-Access NVM Storage",
+      "authors": [
+        "Rajat Kateja",
+        "Nathan Beckmann",
+        "Gregory R. Ganger"
+      ],
+      "pages": "624-637",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KatejaBG20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KatejaBG20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00058",
+        "https://www.wikidata.org/entity/Q131115670"
+      ]
+    },
+    {
+      "title": "UGEMM: Unary Computing Architecture for GEMM Applications",
+      "authors": [
+        "Di Wu 0016",
+        "Jingjie Li",
+        "Ruokai Yin",
+        "Hsuan Hsiao",
+        "Younghyun Kim 0001",
+        "Joshua San Miguel"
+      ],
+      "pages": "377-390",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WuLYHKM20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WuLYHKM20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00040"
+      ]
+    },
+    {
+      "title": "Xuantie-910: A Commercial Multi-Core 12-Stage Pipeline Out-of-Order 64-bit High Performance RISC-V Processor with Vector Extension : Industrial Product",
+      "authors": [
+        "Chen Chen 0058",
+        "Xiaoyan Xiang",
+        "Chang Liu 0021",
+        "Yunhai Shang",
+        "Ren Guo",
+        "Dongqi Liu 0003",
+        "Yimin Lu",
+        "Ziyi Hao",
+        "Jiahui Luo",
+        "Zhijian Chen",
+        "Chunqiang Li",
+        "Yu Pu",
+        "Jianyi Meng",
+        "Xiaolang Yan",
+        "Yuan Xie 0001",
+        "Xiaoning Qi"
+      ],
+      "pages": "52-64",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChenXLSGLLHLCLP20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChenXLSGLLHLCLP20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00016"
+      ]
+    },
+    {
+      "title": "ZnG: Architecting GPU Multi-Processors with New Flash for Scalable Data Analysis",
+      "authors": [
+        "Jie Zhang 0048",
+        "Myoungsoo Jung"
+      ],
+      "pages": "1064-1075",
+      "year": "2020",
+      "venue": "ISCA 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/0004J20",
+      "dblp_url": "https://dblp.org/rec/conf/isca/0004J20.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA45697.2020.00090",
+        "https://www.wikidata.org/entity/Q130955668"
+      ]
+    }
+  ]
+}

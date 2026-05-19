@@ -1,0 +1,95 @@
+{
+  "venues": [
+    {
+      "slug": "sosp",
+      "short_name": "SOSP",
+      "full_name": "ACM Symposium on Operating Systems Principles",
+      "skip_title_patterns": [
+        "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+      ],
+      "link_priority": ["doi.acm.org", "dl.acm.org", "dblp.org"]
+    },
+    {
+      "slug": "osdi",
+      "short_name": "OSDI",
+      "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+      "skip_title_patterns": [
+        "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+      ],
+      "link_priority": ["usenix.org", "dblp.org"]
+    },
+    {
+      "slug": "nsdi",
+      "short_name": "NSDI",
+      "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+      "skip_title_patterns": [
+        "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+      ],
+      "link_priority": ["usenix.org", "dblp.org"]
+    },
+    {
+      "slug": "isca",
+      "short_name": "ISCA",
+      "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+      "skip_title_patterns": [
+        "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+      ],
+      "link_priority": ["doi.acm.org", "dl.acm.org", "dblp.org", "ieee.org"]
+    },
+    {
+      "slug": "asplos",
+      "short_name": "ASPLOS",
+      "full_name": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+      "skip_title_patterns": [
+        "^Proceedings of the \\d+(st|nd|rd|th) ACM International Conference on Architectural Support"
+      ],
+      "link_priority": ["doi.acm.org", "dl.acm.org", "dblp.org"]
+    },
+    {
+      "slug": "eurosys",
+      "short_name": "EuroSys",
+      "full_name": "European Conference on Computer Systems",
+      "skip_title_patterns": [
+        "^Proceedings of the \\d+(st|nd|rd|th) European Conference on Computer Systems"
+      ],
+      "link_priority": ["doi.acm.org", "dl.acm.org", "dblp.org"]
+    },
+    {
+      "slug": "icse",
+      "short_name": "ICSE",
+      "full_name": "International Conference on Software Engineering",
+      "skip_title_patterns": [
+        "^Proceedings of the \\d+(st|nd|rd|th) International Conference on Software Engineering"
+      ],
+      "link_priority": ["doi.acm.org", "dl.acm.org", "dblp.org", "ieee.org"]
+    },
+    {
+      "slug": "uss",
+      "short_name": "USENIX Security",
+      "full_name": "USENIX Security Symposium",
+      "skip_title_patterns": [
+        "^\\d+(st|nd|rd|th) USENIX Security Symposium"
+      ],
+      "link_priority": ["usenix.org", "dblp.org"]
+    },
+    {
+      "slug": "usenix",
+      "short_name": "USENIX ATC",
+      "full_name": "USENIX Annual Technical Conference",
+      "skip_title_patterns": [
+        "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+        "^USENIX Annual Technical Conference \\d+"
+      ],
+      "link_priority": ["usenix.org", "dblp.org"]
+    },
+    {
+      "slug": "fast",
+      "short_name": "FAST",
+      "full_name": "USENIX Conference on File and Storage Technologies",
+      "skip_title_patterns": [
+        "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+      ],
+      "link_priority": ["usenix.org", "dblp.org"]
+    }
+  ]
+}

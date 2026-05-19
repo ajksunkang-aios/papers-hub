@@ -1,0 +1,1616 @@
+{
+  "id": "nsdi-2022",
+  "venue": "nsdi",
+  "year": 2022,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2022.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2022.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2022",
+    "conf/nsdi/2022-1",
+    "conf/nsdi/2022-2",
+    "conf/nsdi/2022-3",
+    "conf/nsdi/2022-4",
+    "conf/nsdi/2022-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 78,
+  "display_count": 78,
+  "papers": [
+    {
+      "title": "A Case for Task Sampling based Learning for Cluster Job Scheduling",
+      "authors": [
+        "Akshay Jajoo",
+        "Y. Charlie Hu",
+        "Xiaojun Lin 0001",
+        "Nan Deng"
+      ],
+      "pages": "19-33",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JajooHLD22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JajooHLD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/jajoo"
+      ]
+    },
+    {
+      "title": "Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks",
+      "authors": [
+        "Joshua Romero",
+        "Junqi Yin",
+        "Nouamane Laanait",
+        "Bing Xie",
+        "M. Todd Young",
+        "Sean Treichler",
+        "Vitalii Starchenko",
+        "Albina Y. Borisevich",
+        "Alex Sergeev",
+        "Michael A. Matheson"
+      ],
+      "pages": "1027-1040",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RomeroYLXYTSBSM22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RomeroYLXYTSBSM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/romero"
+      ]
+    },
+    {
+      "title": "An edge-queued datagram service for all datacenter traffic",
+      "authors": [
+        "Vladimir Andrei Olteanu",
+        "Haggai Eran",
+        "Dragos Dumitrescu",
+        "Adrian Popa",
+        "Cristi Baciu",
+        "Mark Silberstein",
+        "Georgios Nikolaidis",
+        "Mark Handley",
+        "Costin Raiciu"
+      ],
+      "pages": "761-777",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/OlteanuEDPBSNHR22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/OlteanuEDPBSNHR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/olteanu"
+      ]
+    },
+    {
+      "title": "Aquila: A unified, low-latency fabric for datacenter networks",
+      "authors": [
+        "Dan Gibson",
+        "Hema Hariharan",
+        "Eric Lance",
+        "Moray McLaren",
+        "Behnam Montazeri",
+        "Arjun Singh",
+        "Stephen Wang",
+        "Hassan M. G. Wassel",
+        "Zhehua Wu",
+        "Sunghwan Yoo",
+        "Raghuraman Balasubramanian",
+        "Prashant Chandra",
+        "Michael Cutforth",
+        "Peter Cuy",
+        "David Decotigny",
+        "Rakesh Gautam",
+        "Alex Iriza",
+        "Milo M. K. Martin",
+        "Rick Roy",
+        "Zuowei Shen",
+        "Ming Tan",
+        "Ye Tang",
+        "Monica Wong-Chan",
+        "Joe Zbiciak",
+        "Amin Vahdat"
+      ],
+      "pages": "1249-1266",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GibsonHLMMSWWWY22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GibsonHLMMSWWWY22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/gibson"
+      ]
+    },
+    {
+      "title": "Automated Verification of Network Function Binaries",
+      "authors": [
+        "Solal Pirelli",
+        "Akvile Valentukonyte",
+        "Katerina J. Argyraki",
+        "George Candea"
+      ],
+      "pages": "585-600",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PirelliVAC22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PirelliVAC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/pirelli"
+      ]
+    },
+    {
+      "title": "Backdraft: a Lossless Virtual Switch that Prevents the Slow Receiver Problem",
+      "authors": [
+        "Alireza Sanaee",
+        "Farbod Shahinfar",
+        "Gianni Antichi",
+        "Brent E. Stephens"
+      ],
+      "pages": "1375-1392",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SanaeeSAS22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SanaeeSAS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/sanaee"
+      ]
+    },
+    {
+      "title": "Backpressure Flow Control",
+      "authors": [
+        "Prateesh Goyal",
+        "Preey Shah",
+        "Kevin Zhao",
+        "Georgios Nikolaidis",
+        "Mohammad Alizadeh",
+        "Thomas E. Anderson"
+      ],
+      "pages": "779-805",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GoyalSZNAA22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GoyalSZNAA22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/goyal"
+      ]
+    },
+    {
+      "title": "Bluebird: High-performance SDN for Bare-metal Cloud Services",
+      "authors": [
+        "Manikandan Arumugam",
+        "Deepak Bansal",
+        "Navdeep Bhatia",
+        "James Boerner",
+        "Simon Capper",
+        "Changhoon Kim",
+        "Sarah McClure",
+        "Neeraj Motwani",
+        "Ranga Narasimhan",
+        "Urvish Panchal",
+        "Tommaso Pimpo",
+        "Ariff Premji",
+        "Pranjal Shrivastava",
+        "Rishabh Tewari"
+      ],
+      "pages": "355-370",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ArumugamBBBCKMM22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ArumugamBBBCKMM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/arumugam"
+      ]
+    },
+    {
+      "title": "Buffer-based End-to-end Request Event Monitoring in the Cloud",
+      "authors": [
+        "Kaihui Gao",
+        "Chen Sun 0005",
+        "Shuai Wang 0028",
+        "Dan Li 0001",
+        "Yu Zhou 0008",
+        "Hongqiang Harry Liu",
+        "Lingjun Zhu",
+        "Ming Zhang 0005"
+      ],
+      "pages": "829-843",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GaoS00ZLZ022",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GaoS00ZLZ022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/gao-kaihui"
+      ]
+    },
+    {
+      "title": "C2DN: How to Harness Erasure Codes at the Edge for Efficient Content Delivery",
+      "authors": [
+        "Juncheng Yang",
+        "Anirudh Sabnis",
+        "Daniel S. Berger",
+        "K. V. Rashmi",
+        "Ramesh K. Sitaraman"
+      ],
+      "pages": "1159-1177",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YangSBRS22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YangSBRS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/yang-juncheng"
+      ]
+    },
+    {
+      "title": "Cetus: Releasing P4 Programmers from the Chore of Trial and Error Compiling",
+      "authors": [
+        "Yifan Li",
+        "Jiaqi Gao",
+        "Ennan Zhai",
+        "Mengqi Liu 0001",
+        "Kun Liu",
+        "Hongqiang Harry Liu"
+      ],
+      "pages": "371-385",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiGZLLL22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiGZLLL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/li-yifan"
+      ]
+    },
+    {
+      "title": "Characterizing Physical-Layer Transmission Errors in Cable Broadband Networks",
+      "authors": [
+        "Jiyao Hu",
+        "Zhenyu Zhou",
+        "Xiaowei Yang 0001"
+      ],
+      "pages": "845-859",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HuZ022",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HuZ022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/hu"
+      ]
+    },
+    {
+      "title": "Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models",
+      "authors": [
+        "Assaf Eisenman",
+        "Kiran Kumar Matam",
+        "Steven Ingram",
+        "Dheevatsa Mudigere",
+        "Raghuraman Krishnamoorthi",
+        "Krishnakumar Nair",
+        "Misha Smelyanskiy",
+        "Murali Annavaram"
+      ],
+      "pages": "929-943",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/EisenmanMIMKNSA22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/EisenmanMIMKNSA22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/eisenman"
+      ]
+    },
+    {
+      "title": "cISP: A Speed-of-Light Internet Service Provider",
+      "authors": [
+        "Debopam Bhattacherjee",
+        "Waqar Aqeel",
+        "Sangeetha Abdu Jyothi",
+        "Ilker Nadi Bozkurt",
+        "William Sentosa",
+        "Muhammad Tirmazi",
+        "Anthony Aguirre",
+        "Balakrishnan Chandrasekaran 0002",
+        "Philip Brighten Godfrey",
+        "Gregory Laughlin",
+        "Bruce M. Maggs",
+        "Ankit Singla"
+      ],
+      "pages": "1115-1133",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BhattacherjeeAJ22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BhattacherjeeAJ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/bhattacherjee"
+      ]
+    },
+    {
+      "title": "Closed-loop Network Performance Monitoring and Diagnosis with SpiderMon",
+      "authors": [
+        "Weitao Wang",
+        "Xinyu Crystal Wu",
+        "Praveen Tammana",
+        "Ang Chen 0001",
+        "T. S. Eugene Ng"
+      ],
+      "pages": "267-285",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangWTCN22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangWTCN22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/wang-weitao-spidermon"
+      ]
+    },
+    {
+      "title": "CloudCluster: Unearthing the Functional Structure of a Cloud Service",
+      "authors": [
+        "Weiwu Pang",
+        "Sourav Panda",
+        "Muhammad Jehangir Amjad",
+        "Christophe Diot",
+        "Ramesh Govindan"
+      ],
+      "pages": "1213-1230",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PangPADG22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PangPADG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/pang"
+      ]
+    },
+    {
+      "title": "Cocktail: A Multidimensional Optimization for Model Serving in Cloud",
+      "authors": [
+        "Jashwant Raj Gunasekaran",
+        "Cyan Subhra Mishra",
+        "Prashanth Thinakaran",
+        "Bikash Sharma",
+        "Mahmut Taylan Kandemir",
+        "Chita R. Das"
+      ],
+      "pages": "1041-1057",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GunasekaranMTSK22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GunasekaranMTSK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/gunasekaran"
+      ]
+    },
+    {
+      "title": "Collie: Finding Performance Anomalies in RDMA Subsystems",
+      "authors": [
+        "Xinhao Kong",
+        "Yibo Zhu 0001",
+        "Huaping Zhou",
+        "Zhuo Jiang",
+        "Jianxi Ye",
+        "Chuanxiong Guo",
+        "Danyang Zhuo"
+      ],
+      "pages": "287-305",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KongZZJYGZ22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KongZZJYGZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/kong"
+      ]
+    },
+    {
+      "title": "Configanator: A Data-driven Approach to Improving CDN Performance",
+      "authors": [
+        "Usama Naseer",
+        "Theophilus A. Benson"
+      ],
+      "pages": "1135-1158",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NaseerB22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NaseerB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/naseer"
+      ]
+    },
+    {
+      "title": "CurvingLoRa to Boost LoRa Network Throughput via Concurrent Transmission",
+      "authors": [
+        "Chenning Li",
+        "Xiuzhen Guo",
+        "Longfei Shangguan",
+        "Zhichao Cao 0001",
+        "Kyle Jamieson"
+      ],
+      "pages": "879-895",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiGSCJ22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiGSCJ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/li-chenning"
+      ]
+    },
+    {
+      "title": "Data-Parallel Actors: A Programming Model for Scalable Query Serving Systems",
+      "authors": [
+        "Peter Kraft",
+        "Fiodar Kazhamiaka",
+        "Peter Bailis",
+        "Matei Zaharia"
+      ],
+      "pages": "1059-1074",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KraftKBZ22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KraftKBZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/kraft"
+      ]
+    },
+    {
+      "title": "Decentralized cloud wide-area network traffic engineering with BLASTSHIELD",
+      "authors": [
+        "Umesh Krishnaswamy",
+        "Rachee Singh",
+        "Nikolaj S. Bj&oslash;rner",
+        "Himanshu Raj"
+      ],
+      "pages": "325-338",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KrishnaswamySBR22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KrishnaswamySBR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/krishnaswamy"
+      ]
+    },
+    {
+      "title": "Detecting Ephemeral Optical Events with OpTel",
+      "authors": [
+        "Congcong Miao",
+        "Minggang Chen",
+        "Arpit Gupta",
+        "Zili Meng",
+        "Lianjin Ye",
+        "Jingyu Xiao",
+        "Jie Chen",
+        "Zekun He",
+        "Xulong Luo",
+        "Jilong Wang 0001",
+        "Heng Yu 0005"
+      ],
+      "pages": "339-353",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MiaoCGMYXCHL0022",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MiaoCGMYXCHL0022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/miao"
+      ]
+    },
+    {
+      "title": "Differential Network Analysis",
+      "authors": [
+        "Peng Zhang 0011",
+        "Aaron Gember-Jacobson",
+        "Yueshang Zuo",
+        "Yuhao Huang",
+        "Xu Liu 0013",
+        "Hao Li 0011"
+      ],
+      "pages": "601-615",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0011GZH0022",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0011GZH0022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/zhang-peng"
+      ]
+    },
+    {
+      "title": "DispersedLedger: High-Throughput Byzantine Consensus on Variable Bandwidth Networks",
+      "authors": [
+        "Lei Yang 0031",
+        "Seo Jin Park",
+        "Mohammad Alizadeh",
+        "Sreeram Kannan",
+        "David Tse"
+      ],
+      "pages": "493-512",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YangPAKT22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YangPAKT22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/yang"
+      ]
+    },
+    {
+      "title": "Donar: Anonymous VoIP over Tor",
+      "authors": [
+        "Y&eacute;rom-David Bromberg",
+        "Quentin Dufour",
+        "Davide Frey",
+        "Etienne Rivi&egrave;re"
+      ],
+      "pages": "249-265",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BrombergDFR22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BrombergDFR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/bromberg"
+      ]
+    },
+    {
+      "title": "Dynamic Scheduling of Approximate Telemetry Queries",
+      "authors": [
+        "Chris Misa",
+        "Walt O'Connor",
+        "Ramakrishnan Durairajan",
+        "Reza Rejaie",
+        "Walter Willinger"
+      ],
+      "pages": "701-717",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MisaODRW22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MisaODRW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/misa"
+      ]
+    },
+    {
+      "title": "Efficient Scheduling Policies for Microsecond-Scale Tasks",
+      "authors": [
+        "Sarah McClure",
+        "Amy Ousterhout",
+        "Scott Shenker",
+        "Sylvia Ratnasamy"
+      ],
+      "pages": "1-18",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/McClureOSR22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/McClureOSR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/mcclure"
+      ]
+    },
+    {
+      "title": "Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers",
+      "authors": [
+        "Romil Bhardwaj",
+        "Zhengxu Xia",
+        "Ganesh Ananthanarayanan",
+        "Junchen Jiang",
+        "Yuanchao Shu",
+        "Nikolaos Karianakis",
+        "Kevin Hsieh",
+        "Paramvir Bahl",
+        "Ion Stoica"
+      ],
+      "pages": "119-135",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BhardwajXAJSKHB22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BhardwajXAJSKHB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/bhardwaj"
+      ]
+    },
+    {
+      "title": "Elixir: A High-performance and Low-cost Approach to Managing Hardware/Software Hybrid Flow Tables Considering Flow Burstiness",
+      "authors": [
+        "Yanshu Wang",
+        "Dan Li 0001",
+        "Yuanwei Lu",
+        "Jianping Wu",
+        "Hua Shao",
+        "Yutian Wang"
+      ],
+      "pages": "535-550",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Wang0LWSW22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Wang0LWSW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/wang-yanshu"
+      ]
+    },
+    {
+      "title": "Enabling In-situ Programmability in Network Data Plane: From Architecture to Language",
+      "authors": [
+        "Yong Feng",
+        "Zhikang Chen",
+        "Haoyu Song 0001",
+        "Wenquan Xu",
+        "Jiahao Li",
+        "Zijian Zhang",
+        "Tong Yun",
+        "Ying Wan",
+        "Bin Liu 0001"
+      ],
+      "pages": "635-649",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FengC0XLZYW022",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FengC0XLZYW022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/feng"
+      ]
+    },
+    {
+      "title": "Enabling IoT Self-Localization Using Ambient 5G Signals",
+      "authors": [
+        "Suraj Jog",
+        "Junfeng Guan",
+        "Sohrab Madani",
+        "Ruochen Lu",
+        "Songbin Gong",
+        "Deepak Vasisht",
+        "Haitham Hassanieh"
+      ],
+      "pages": "1011-1026",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JogGMLGVH22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JogGMLGVH22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/jog"
+      ]
+    },
+    {
+      "title": "Evolvable Network Telemetry at Facebook",
+      "authors": [
+        "Yang Zhou 0008",
+        "Ying Zhang",
+        "Minlan Yu",
+        "Guangyu Wang",
+        "Dexter Cao",
+        "Yu-Wei Eric Sung",
+        "Starsky H. Y. Wong"
+      ],
+      "pages": "961-975",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0008ZYWCSW22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0008ZYWCSW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/zhou"
+      ]
+    },
+    {
+      "title": "Exploiting Digital Micro-Mirror Devices for Ambient Light Communication",
+      "authors": [
+        "Talia Xu",
+        "Miguel A. Ch&aacute;vez Tapia",
+        "Marco Z&uacute;&ntilde;iga"
+      ],
+      "pages": "387-400",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XuTZ22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XuTZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/xu-talia"
+      ]
+    },
+    {
+      "title": "FlexTOE: Flexible TCP Offload with Fine-Grained Parallelism",
+      "authors": [
+        "Rajath Shashidhara",
+        "Tim Stamler",
+        "Antoine Kaufmann",
+        "Simon Peter 0001"
+      ],
+      "pages": "87-102",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShashidharaSKP22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShashidharaSKP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/shashidhara"
+      ]
+    },
+    {
+      "title": "Gearbox: A Hierarchical Packet Scheduler for Approximate Weighted Fair Queuing",
+      "authors": [
+        "Peixuan Gao",
+        "Anthony Dalleggio",
+        "Yang Xu 0010",
+        "H. Jonathan Chao"
+      ],
+      "pages": "551-565",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GaoD0C22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GaoD0C22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/gao-peixuan"
+      ]
+    },
+    {
+      "title": "Graham: Synchronizing Clocks by Leveraging Local Clock Properties",
+      "authors": [
+        "Ali Najafi",
+        "Michael Wei"
+      ],
+      "pages": "453-466",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NajafiW22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NajafiW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/najafi"
+      ]
+    },
+    {
+      "title": "HeteroSketch: Coordinating Network-wide Monitoring in Heterogeneous and Dynamic Networks",
+      "authors": [
+        "Anup Agarwal",
+        "Zaoxing Liu",
+        "Srinivasan Seshan"
+      ],
+      "pages": "719-741",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AgarwalLS22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AgarwalLS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/agarwal"
+      ]
+    },
+    {
+      "title": "How to diagnose nanosecond network latencies in rich end-host stacks",
+      "authors": [
+        "Roni Haecki",
+        "Radhika Niranjan Mysore",
+        "Lalith Suresh 0001",
+        "Gerd Zellweger",
+        "Bo Gan",
+        "Timothy Merrifield",
+        "Sujata Banerjee",
+        "Timothy Roscoe"
+      ],
+      "pages": "861-877",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HaeckiMSZGMBR22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HaeckiMSZGMBR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/haecki"
+      ]
+    },
+    {
+      "title": "IA-CCF: Individual Accountability for Permissioned Ledgers",
+      "authors": [
+        "Alex Shamis",
+        "Peter R. Pietzuch",
+        "Burcu Canakci",
+        "Miguel Castro 0001",
+        "C&eacute;dric Fournet",
+        "Edward Ashton",
+        "Amaury Chamayou",
+        "Sylvan Clebsch",
+        "Antoine Delignat-Lavaud",
+        "Matthew Kerner",
+        "Julien Maffre",
+        "Olga Vrousgou",
+        "Christoph M. Wintersteiger",
+        "Manuel Costa",
+        "Mark Russinovich"
+      ],
+      "pages": "467-491",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShamisPC0FACCDK22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShamisPC0FACCDK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/shamis"
+      ]
+    },
+    {
+      "title": "IMap: Fast and Scalable In-Network Scanning with Programmable Switches",
+      "authors": [
+        "Guanyu Li",
+        "Menghao Zhang 0001",
+        "Cheng Guo 0007",
+        "Han Bao 0011",
+        "Mingwei Xu 0001",
+        "Hongxin Hu",
+        "Fenghua Li"
+      ],
+      "pages": "667-681",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiZG0XHL22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiZG0XHL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/li-guanyu"
+      ]
+    },
+    {
+      "title": "In-Network Velocity Control of Industrial Robot Arms",
+      "authors": [
+        "S&aacute;ndor Laki",
+        "Csaba Gy&ouml;rgyi",
+        "J&oacute;zsef Peto",
+        "P&eacute;ter V&ouml;r&ouml;s",
+        "G&eacute;za Szab&oacute;"
+      ],
+      "pages": "995-1009",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LakiGPVS22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LakiGPVS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/laki"
+      ]
+    },
+    {
+      "title": "Isolation Mechanisms for High-Speed Packet-Processing Pipelines",
+      "authors": [
+        "Tao Wang 0088",
+        "Xiangrui Yang 0002",
+        "Gianni Antichi",
+        "Anirudh Sivaraman",
+        "Aurojit Panda"
+      ],
+      "pages": "1289-1305",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangYASP22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangYASP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/wang-tao"
+      ]
+    },
+    {
+      "title": "Justitia: Software Multi-Tenancy in Hardware Kernel-Bypass Networks",
+      "authors": [
+        "Yiwen Zhang 0008",
+        "Yue Tan",
+        "Brent E. Stephens",
+        "Mosharaf Chowdhury"
+      ],
+      "pages": "1307-1326",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangTSC22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangTSC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/zhang-yiwen"
+      ]
+    },
+    {
+      "title": "Katra: Realtime Verification for Multilayer Networks",
+      "authors": [
+        "Ryan Beckett",
+        "Aarti Gupta"
+      ],
+      "pages": "617-634",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BeckettG22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BeckettG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/beckett"
+      ]
+    },
+    {
+      "title": "Learning to Communicate Effectively Between Battery-free Devices",
+      "authors": [
+        "Kai Geissdoerfer",
+        "Marco Zimmerling"
+      ],
+      "pages": "419-435",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GeissdoerferZ22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GeissdoerferZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/geissdoerfer"
+      ]
+    },
+    {
+      "title": "MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters",
+      "authors": [
+        "Qizhen Weng 0001",
+        "Wencong Xiao",
+        "Yinghao Yu",
+        "Wei Wang 0030",
+        "Cheng Wang",
+        "Jian He 0004",
+        "Yong Li 0045",
+        "Liping Zhang 0013",
+        "Wei Lin 0016",
+        "Yu Ding"
+      ],
+      "pages": "945-960",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WengXYWWHLZLD22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WengXYWWHLZLD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/weng"
+      ]
+    },
+    {
+      "title": "Modular Switch Programming Under Resource Constraints",
+      "authors": [
+        "Mary Hogan",
+        "Shir Landau Feibish",
+        "Mina Tahmasbi Arashloo",
+        "Jennifer Rexford",
+        "David Walker 0001"
+      ],
+      "pages": "193-207",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HoganFARW22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HoganFARW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/hogan"
+      ]
+    },
+    {
+      "title": "NetHint: White-Box Networking for Multi-Tenant Data Centers",
+      "authors": [
+        "Jingrong Chen 0002",
+        "Hong Zhang 0025",
+        "Wei Zhang",
+        "Liang Luo",
+        "Jeffrey S. Chase",
+        "Ion Stoica",
+        "Danyang Zhuo"
+      ],
+      "pages": "1327-1343",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0002ZZLCSZ22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0002ZZLCSZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/chen-jingrong"
+      ]
+    },
+    {
+      "title": "NetVRM: Virtual Register Memory for Programmable Networks",
+      "authors": [
+        "Hang Zhu",
+        "Tao Wang 0088",
+        "Yi Hong",
+        "Dan R. K. Ports",
+        "Anirudh Sivaraman",
+        "Xin Jin 0008"
+      ],
+      "pages": "155-170",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhuWHPS022",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhuWHPS022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/zhu"
+      ]
+    },
+    {
+      "title": "Optimizing Network Provisioning through Cooperation",
+      "authors": [
+        "Harsha Sharma",
+        "Parth Thakkar",
+        "Sagar Bharadwaj",
+        "Ranjita Bhagwan",
+        "Venkata N. Padmanabhan",
+        "Yogesh Bansal",
+        "P. Vijay Kumar",
+        "Kathleen Voelbel"
+      ],
+      "pages": "1179-1194",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SharmaTBBPBKV22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SharmaTBBPBKV22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/sharma"
+      ]
+    },
+    {
+      "title": "OrbWeaver: Using IDLE Cycles in Programmable Networks for Opportunistic Coordination",
+      "authors": [
+        "Liangcheng Yu",
+        "John Sonchack",
+        "Vincent Liu 0001"
+      ],
+      "pages": "1195-1212",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YuSL22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YuSL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/yu"
+      ]
+    },
+    {
+      "title": "Orca: Server-assisted Multicast for Datacenter Networks",
+      "authors": [
+        "Khaled Diab 0001",
+        "Parham Yassini",
+        "Mohamed Hefeeda"
+      ],
+      "pages": "1075-1091",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DiabYH22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DiabYH22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/diab-orca"
+      ]
+    },
+    {
+      "title": "Packet Order Matters! Improving Application Performance by Deliberately Delaying Packets",
+      "authors": [
+        "Hamid Ghasemirahni",
+        "Tom Barbette",
+        "Georgios P. Katsikas",
+        "Alireza Farshin",
+        "Amir Roozbeh",
+        "Massimo Girondi",
+        "Marco Chiesa",
+        "Gerald Q. Maguire Jr.",
+        "Dejan Kostic"
+      ],
+      "pages": "807-827",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GhasemirahniBKF22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GhasemirahniBKF22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/ghasemirahni"
+      ]
+    },
+    {
+      "title": "Passive DSSS: Empowering the Downlink Communication for Backscatter Systems",
+      "authors": [
+        "Songfan Li",
+        "Hui Zheng",
+        "Chong Zhang",
+        "Yihang Song",
+        "Shen Yang",
+        "Minghua Chen",
+        "Li Lu 0001",
+        "Mo Li 0001"
+      ],
+      "pages": "913-928",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiZZSYC0022",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiZZSYC0022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/li-songfan"
+      ]
+    },
+    {
+      "title": "Performance Interfaces for Network Functions",
+      "authors": [
+        "Rishabh R. Iyer",
+        "Katerina J. Argyraki",
+        "George Candea"
+      ],
+      "pages": "567-584",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/IyerAC22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/IyerAC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/iyer"
+      ]
+    },
+    {
+      "title": "PLatter: On the Feasibility of Building-scale Power Line Backscatter",
+      "authors": [
+        "Junbo Zhang 0001",
+        "Elahe Soltanaghai",
+        "Artur Balanuta",
+        "Reese Grimsley",
+        "Swarun Kumar",
+        "Anthony G. Rowe"
+      ],
+      "pages": "897-911",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangSBGKR22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangSBGKR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/zhang-junbo"
+      ]
+    },
+    {
+      "title": "PowerTCP: Pushing the Performance Limits of Datacenter Networks",
+      "authors": [
+        "Vamsi Addanki",
+        "Oliver Michel",
+        "Stefan Schmid 0001"
+      ],
+      "pages": "51-70",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AddankiM022",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AddankiM022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/addanki"
+      ]
+    },
+    {
+      "title": "Privid: Practical, Privacy-Preserving Video Analytics Queries",
+      "authors": [
+        "Frank Cangialosi",
+        "Neil Agarwal",
+        "Venkat Arun",
+        "Junchen Jiang",
+        "Srinivas Narayana",
+        "Anand D. Sarwate",
+        "Ravi Netravali"
+      ],
+      "pages": "209-228",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CangialosiAANSN22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CangialosiAANSN22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/cangialosi"
+      ]
+    },
+    {
+      "title": "RDC: Energy-Efficient Data Center Network Congestion Relief with Topological Reconfigurability at the Edge",
+      "authors": [
+        "Weitao Wang",
+        "Dingming Wu 0002",
+        "Sushovan Das",
+        "Afsaneh Rahbar",
+        "Ang Chen 0001",
+        "T. S. Eugene Ng"
+      ],
+      "pages": "1267-1288",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Wang0DRCN22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Wang0DRCN22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/wang-weitao-rdc"
+      ]
+    },
+    {
+      "title": "RDMA is Turing complete, we just did not know it yet!",
+      "authors": [
+        "Waleed Reda",
+        "Marco Canini",
+        "Dejan Kostic",
+        "Simon Peter 0001"
+      ],
+      "pages": "71-85",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RedaCKP22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RedaCKP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/reda"
+      ]
+    },
+    {
+      "title": "Re-architecting Traffic Analysis with Neural Network Interface Cards",
+      "authors": [
+        "Giuseppe Siracusano",
+        "Salvator Galea",
+        "Davide Sanvito",
+        "Mohammad Malekzadeh",
+        "Gianni Antichi",
+        "Paolo Costa",
+        "Hamed Haddadi 0001",
+        "Roberto Bifulco"
+      ],
+      "pages": "513-533",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SiracusanoGSMAC22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SiracusanoGSMAC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/siracusano"
+      ]
+    },
+    {
+      "title": "Runtime Programmable Switches",
+      "authors": [
+        "Jiarong Xing",
+        "Kuo-Feng Hsu",
+        "Matty Kadosh",
+        "Alan Lo",
+        "Yonatan Piasetzky",
+        "Arvind Krishnamurthy",
+        "Ang Chen 0001"
+      ],
+      "pages": "651-665",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XingHKLPKC22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XingHKLPKC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/xing"
+      ]
+    },
+    {
+      "title": "Saiyan: Design and Implementation of a Low-power Demodulator for LoRa Backscatter Systems",
+      "authors": [
+        "Xiuzhen Guo",
+        "Longfei Shangguan",
+        "Yuan He 0004",
+        "Nan Jing",
+        "Jiacheng Zhang",
+        "Haotian Jiang",
+        "Yunhao Liu 0001"
+      ],
+      "pages": "437-451",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuoS0JZJL22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuoS0JZJL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/guo"
+      ]
+    },
+    {
+      "title": "SCALE: Automatically Finding RFC Compliance Bugs in DNS Nameservers",
+      "authors": [
+        "Siva Kesava Reddy Kakarla",
+        "Ryan Beckett",
+        "Todd D. Millstein",
+        "George Varghese"
+      ],
+      "pages": "307-323",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KakarlaBMV22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KakarlaBMV22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/kakarla"
+      ]
+    },
+    {
+      "title": "Scaling Open vSwitch with a Computational Cache",
+      "authors": [
+        "Alon Rashelbach",
+        "Ori Rottenstreich",
+        "Mark Silberstein"
+      ],
+      "pages": "1359-1374",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RashelbachRS22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RashelbachRS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/rashelbach"
+      ]
+    },
+    {
+      "title": "SketchLib: Enabling Efficient Sketch-based Monitoring on Programmable Switches",
+      "authors": [
+        "Hun Namkung",
+        "Zaoxing Liu",
+        "Daehyeok Kim",
+        "Vyas Sekar",
+        "Peter Steenkiste"
+      ],
+      "pages": "743-759",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NamkungLKSS22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NamkungLKSS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/namkung"
+      ]
+    },
+    {
+      "title": "Spectrum: High-bandwidth Anonymous Broadcast",
+      "authors": [
+        "Zachary Newman",
+        "Sacha Servan-Schreiber",
+        "Srinivas Devadas"
+      ],
+      "pages": "229-248",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NewmanSD22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NewmanSD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/newman"
+      ]
+    },
+    {
+      "title": "Starlight: Fast Container Provisioning on the Edge and over the WAN",
+      "authors": [
+        "Jun Lin Chen",
+        "Daniyal Liaqat",
+        "Moshe Gabel",
+        "Eyal de Lara"
+      ],
+      "pages": "35-50",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChenLGL22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChenLGL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/chen-jun-lin"
+      ]
+    },
+    {
+      "title": "SwarmMap: Scaling Up Real-time Collaborative Visual SLAM at the Edge",
+      "authors": [
+        "Jingao Xu",
+        "Hao Cao",
+        "Zheng Yang 0002",
+        "Longfei Shangguan",
+        "Jialin Zhang",
+        "Xiaowu He",
+        "Yunhao Liu 0001"
+      ],
+      "pages": "977-993",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XuC0SZHL22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XuC0SZHL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/xu"
+      ]
+    },
+    {
+      "title": "Swift: Adaptive Video Streaming with Layered Neural Codecs",
+      "authors": [
+        "Mallesham Dasari",
+        "Kumara Kahatapitiya",
+        "Samir R. Das",
+        "Aruna Balasubramanian",
+        "Dimitris Samaras"
+      ],
+      "pages": "103-118",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DasariKDBS22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DasariKDBS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/dasari"
+      ]
+    },
+    {
+      "title": "SwiSh: Distributed Shared State Abstractions for Programmable Switches",
+      "authors": [
+        "Lior Zeno",
+        "Dan R. K. Ports",
+        "Jacob Nelson 0001",
+        "Daehyeok Kim",
+        "Shir Landau Feibish",
+        "Idit Keidar",
+        "Arik Rinberg",
+        "Alon Rashelbach",
+        "Igor Lima de Paula",
+        "Mark Silberstein"
+      ],
+      "pages": "171-191",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZenoPNKFKRRPS22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZenoPNKFKRRPS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/zeno"
+      ]
+    },
+    {
+      "title": "Tiara: A Scalable and Efficient Hardware Acceleration Architecture for Stateful Layer-4 Load Balancing",
+      "authors": [
+        "Chaoliang Zeng",
+        "Layong Luo",
+        "Teng Zhang",
+        "Zilong Wang 0007",
+        "Luyang Li",
+        "Wenchen Han",
+        "Nan Chen",
+        "Lebing Wan",
+        "Lichao Liu",
+        "Zhipeng Ding",
+        "Xiongfei Geng",
+        "Tao Feng",
+        "Feng Ning",
+        "Kai Chen 0005",
+        "Chuanxiong Guo"
+      ],
+      "pages": "1345-1358",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZengLZWLHCWLDGF22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZengLZWLHCWLDGF22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/zeng"
+      ]
+    },
+    {
+      "title": "Unlocking the Power of Inline Floating-Point Operations on Programmable Switches",
+      "authors": [
+        "Yifan Yuan",
+        "Omar Alama",
+        "Jiawei Fei",
+        "Jacob Nelson 0001",
+        "Dan R. K. Ports",
+        "Amedeo Sapio",
+        "Marco Canini",
+        "Nam Sung Kim"
+      ],
+      "pages": "683-700",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YuanAFNPSCK22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YuanAFNPSCK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/yuan"
+      ]
+    },
+    {
+      "title": "Whisper: IoT in the TV White Space Spectrum",
+      "authors": [
+        "Tusher Chakraborty",
+        "Heping Shi",
+        "Zerina Kapetanovic",
+        "Bodhi Priyantha",
+        "Deepak Vasisht",
+        "Binh Vu",
+        "Parag Pandit",
+        "Prasad Pillai",
+        "Yaswant Chabria",
+        "Andrew Nelson",
+        "Michael Daum",
+        "Ranveer Chandra"
+      ],
+      "pages": "401-418",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChakrabortySKPV22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChakrabortySKPV22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/chakraborty"
+      ]
+    },
+    {
+      "title": "Yeti: Stateless and Generalized Multicast Forwarding",
+      "authors": [
+        "Khaled Diab 0001",
+        "Mohamed Hefeeda"
+      ],
+      "pages": "1093-1114",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DiabH22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DiabH22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/diab-yeti"
+      ]
+    },
+    {
+      "title": "YuZu: Neural-Enhanced Volumetric Video Streaming",
+      "authors": [
+        "Anlan Zhang",
+        "Chendong Wang",
+        "Bo Han 0001",
+        "Feng Qian 0001"
+      ],
+      "pages": "137-154",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangW0022",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangW0022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/zhang-anlan"
+      ]
+    },
+    {
+      "title": "Zeta: A Scalable and Robust East-West Communication Framework in Large-Scale Clouds",
+      "authors": [
+        "Qianyu Zhang 0001",
+        "Gongming Zhao",
+        "Hongli Xu 0001",
+        "Zhuolong Yu",
+        "Liguang Xie",
+        "Yangming Zhao",
+        "Chunming Qiao",
+        "Ying Xiong",
+        "Liusheng Huang"
+      ],
+      "pages": "1231-1248",
+      "year": "2022",
+      "venue": "NSDI 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangZXYXZQXH22",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangZXYXZQXH22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi22/presentation/zhang-qianyu"
+      ]
+    }
+  ]
+}

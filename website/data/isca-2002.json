@@ -1,0 +1,559 @@
+{
+  "id": "isca-2002",
+  "venue": "isca",
+  "year": 2002,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2002.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2002.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2002",
+    "conf/isca/2002-1",
+    "conf/isca/2002-2",
+    "conf/isca/2002-3",
+    "conf/isca/2002-4",
+    "conf/isca/2002-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 27,
+  "display_count": 27,
+  "papers": [
+    {
+      "title": "A Large, Fast Instruction Window for Tolerating Cache Misses",
+      "authors": [
+        "Alvin R. Lebeck",
+        "Tong Li 0003",
+        "Eric Rotenberg",
+        "Jinson Koppanalil",
+        "Jaidev P. Patwardhan"
+      ],
+      "pages": "59-70",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LebeckLRKP02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LebeckLRKP02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003562",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003562",
+        "http://dl.acm.org/citation.cfm?id=545223"
+      ]
+    },
+    {
+      "title": "A Scalable Instruction Queue Design Using Dependence Chains",
+      "authors": [
+        "Steven E. Raasch",
+        "Nathan L. Binkert",
+        "Steven K. Reinhardt"
+      ],
+      "pages": "318-329",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RaaschBR02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RaaschBR02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003589",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003589",
+        "http://dl.acm.org/citation.cfm?id=545251"
+      ]
+    },
+    {
+      "title": "An Instruction Set and Microarchitecture for Instruction Level Distributed Processing",
+      "authors": [
+        "Ho-Seop Kim",
+        "James E. Smith 0001"
+      ],
+      "pages": "71-81",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimS02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimS02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003563",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003563",
+        "http://dl.acm.org/citation.cfm?id=545224"
+      ]
+    },
+    {
+      "title": "Avoiding Initialization Misses to the Heap",
+      "authors": [
+        "Jarrod A. Lewis",
+        "Mikko H. Lipasti",
+        "Bryan Black"
+      ],
+      "pages": "183-194",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LewisLB02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LewisLB02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003577",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003577",
+        "http://dl.acm.org/citation.cfm?id=545236"
+      ]
+    },
+    {
+      "title": "Design Tradeoffs for the Alpha EV8 Conditional Branch Predictor",
+      "authors": [
+        "Andr&eacute; Seznec",
+        "Stephen Felix",
+        "Venkata Krishnan",
+        "Yiannakis Sazeides"
+      ],
+      "pages": "295-306",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SeznecFKS02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SeznecFKS02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003587",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003587",
+        "http://dl.acm.org/citation.cfm?id=545249"
+      ]
+    },
+    {
+      "title": "Detailed Design and Evaluation of Redundant Multithreading Alternatives",
+      "authors": [
+        "Shubhendu S. Mukherjee",
+        "Michael Kontz",
+        "Steven K. Reinhardt"
+      ],
+      "pages": "99-110",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MukherjeeKR02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MukherjeeKR02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003566",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003566",
+        "http://dl.acm.org/citation.cfm?id=545227"
+      ]
+    },
+    {
+      "title": "Difficult-Path Branch Prediction Using Subordinate Microthreads",
+      "authors": [
+        "Robert S. Chappell",
+        "Francis Tseng",
+        "Yale N. Patt",
+        "Adi Yoaz"
+      ],
+      "pages": "307-317",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChappellTPY02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChappellTPY02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003588",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003588",
+        "http://dl.acm.org/citation.cfm?id=545250"
+      ]
+    },
+    {
+      "title": "Drowsy Caches: Simple Techniques for Reducing Leakage Power",
+      "authors": [
+        "Kriszti&aacute;n Flautner",
+        "Nam Sung Kim",
+        "Steven M. Martin",
+        "David T. Blaauw",
+        "Trevor N. Mudge"
+      ],
+      "pages": "148-157",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FlautnerKMBM02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FlautnerKMBM02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003572",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003572",
+        "http://dl.acm.org/citation.cfm?id=545232"
+      ]
+    },
+    {
+      "title": "Dynamic Fine-Grain Leakage Reduction Using Leakage-Biased Bitlines",
+      "authors": [
+        "Seongmoo Heo",
+        "Kenneth C. Barr",
+        "Mark Hampton",
+        "Krste Asanovic"
+      ],
+      "pages": "137-147",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HeoBHA02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HeoBHA02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003571",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003571",
+        "http://dl.acm.org/citation.cfm?id=545231"
+      ]
+    },
+    {
+      "title": "Efficient Dynamic Scheduling Through Tag Elimination",
+      "authors": [
+        "Dan Ernst",
+        "Todd M. Austin"
+      ],
+      "pages": "37-46",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ErnstA02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ErnstA02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003560",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003560",
+        "http://dl.acm.org/citation.cfm?id=545221"
+      ]
+    },
+    {
+      "title": "Experiences with VI Communication for Database Storage",
+      "authors": [
+        "Yuanyuan Zhou 0001",
+        "Kai Li 0001",
+        "Angelos Bilas",
+        "Suresh Jagannathan",
+        "Cezary Dubnicki",
+        "James Philbin"
+      ],
+      "pages": "257-268",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhouLBJDP02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhouLBJDP02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003584",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003584",
+        "http://dl.acm.org/citation.cfm?id=545244"
+      ]
+    },
+    {
+      "title": "Going the Distance for TLB Prefetching: An Application-Driven Study",
+      "authors": [
+        "Gokul B. Kandiraju",
+        "Anand Sivasubramaniam"
+      ],
+      "pages": "195-206",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KandirajuS02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KandirajuS02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003578",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003578",
+        "http://dl.acm.org/citation.cfm?id=545237"
+      ]
+    },
+    {
+      "title": "Implementing Optimizations at Decode Time",
+      "authors": [
+        "Ilhyun Kim",
+        "Mikko H. Lipasti"
+      ],
+      "pages": "221-232",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimL02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimL02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003580",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003580",
+        "http://dl.acm.org/citation.cfm?id=545240"
+      ]
+    },
+    {
+      "title": "Increasing Processor Performance by Implementing Deeper Pipelines",
+      "authors": [
+        "Eric Sprangle",
+        "Doug Carmean"
+      ],
+      "pages": "25-34",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SprangleC02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SprangleC02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003559",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003559",
+        "http://dl.acm.org/citation.cfm?id=545219"
+      ]
+    },
+    {
+      "title": "Managing Multi-Configuration Hardware via Dynamic Working Set Analysis",
+      "authors": [
+        "Ashutosh S. Dhodapkar",
+        "James E. Smith 0001"
+      ],
+      "pages": "233-244",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DhodapkarS02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DhodapkarS02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003581",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003581",
+        "http://dl.acm.org/citation.cfm?id=545241"
+      ]
+    },
+    {
+      "title": "Power and Performance Evaluation of Globally Asynchronous Locally Synchronous Processors",
+      "authors": [
+        "Anoop Iyer",
+        "Diana Marculescu"
+      ],
+      "pages": "158-168",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/IyerM02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/IyerM02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003573",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003573",
+        "http://dl.acm.org/citation.cfm?id=545233"
+      ]
+    },
+    {
+      "title": "Queue Pair IP: A Hybrid Architecture for System Area Networks",
+      "authors": [
+        "Philip Buonadonna",
+        "David E. Culler"
+      ],
+      "pages": "247-256",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BuonadonnaC02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BuonadonnaC02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003583",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003583",
+        "http://dl.acm.org/citation.cfm?id=545243"
+      ]
+    },
+    {
+      "title": "ReVive: Cost-Effective Architectural Support for Rollback Recovery in Shared-Memory Multiprocessors",
+      "authors": [
+        "Milos Prvulovic",
+        "Josep Torrellas",
+        "Zheng Zhang 0001"
+      ],
+      "pages": "111-122",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PrvulovicTZ02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PrvulovicTZ02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003567",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003567",
+        "http://dl.acm.org/citation.cfm?id=545228"
+      ]
+    },
+    {
+      "title": "SafetyNet: Improving the Availability of Shared Memory Multiprocessors with Global Checkpoint/Recovery",
+      "authors": [
+        "Daniel J. Sorin",
+        "Milo M. K. Martin",
+        "Mark D. Hill",
+        "David A. Wood 0001"
+      ],
+      "pages": "123-134",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SorinMHW02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SorinMHW02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003568",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003568",
+        "http://dl.acm.org/citation.cfm?id=545229"
+      ]
+    },
+    {
+      "title": "Slack: Maximizing Performance Under Technological Constraints",
+      "authors": [
+        "Brian A. Fields",
+        "Rastislav Bod&iacute;k",
+        "Mark D. Hill"
+      ],
+      "pages": "47-58",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FieldsBH02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FieldsBH02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003561",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003561",
+        "http://dl.acm.org/citation.cfm?id=545222"
+      ]
+    },
+    {
+      "title": "Speculative Dynamic Vectorization",
+      "authors": [
+        "Alex Pajuelo",
+        "Antonio Gonz&aacute;lez 0001",
+        "Mateo Valero"
+      ],
+      "pages": "271-280",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PajueloGV02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PajueloGV02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003585",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003585",
+        "http://dl.acm.org/citation.cfm?id=545246"
+      ]
+    },
+    {
+      "title": "Tarantula: A Vector Extension to the Alpha Architecture",
+      "authors": [
+        "Roger Espasa",
+        "Federico Ardanaz",
+        "Julio Gago",
+        "Roger Gramunt",
+        "Isaac Hernandez",
+        "Toni Juan",
+        "Joel S. Emer",
+        "Stephen Felix",
+        "P. Geoffrey Lowney",
+        "Matthew Mattina",
+        "Andr&eacute; Seznec"
+      ],
+      "pages": "281-292",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/EspasaAGGHJEFLMS02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/EspasaAGGHJEFLMS02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003586",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003586",
+        "http://dl.acm.org/citation.cfm?id=545247",
+        "https://www.wikidata.org/entity/Q56047137"
+      ]
+    },
+    {
+      "title": "The Optimal Logic Depth Per Pipeline Stage is 6 to 8 FO4 Inverter Delays",
+      "authors": [
+        "M. S. Hrishikesh",
+        "Doug Burger",
+        "Stephen W. Keckler",
+        "Premkishore Shivakumar",
+        "Norman P. Jouppi",
+        "Keith I. Farkas"
+      ],
+      "pages": "14-24",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HrishikeshBKSJF02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HrishikeshBKSJF02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003558",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003558",
+        "http://dl.acm.org/citation.cfm?id=545218"
+      ]
+    },
+    {
+      "title": "The Optimum Pipeline Depth for a Microprocessor",
+      "authors": [
+        "Allan Hartstein",
+        "Thomas R. Puzak"
+      ],
+      "pages": "7-13",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HartsteinP02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HartsteinP02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003557",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003557",
+        "http://dl.acm.org/citation.cfm?id=545217"
+      ]
+    },
+    {
+      "title": "Timekeeping in the Memory System: Predicting and Optimizing Memory Behavior",
+      "authors": [
+        "Zhigang Hu",
+        "Margaret Martonosi",
+        "Stefanos Kaxiras"
+      ],
+      "pages": "209-220",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HuMK02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HuMK02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003579",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003579",
+        "http://dl.acm.org/citation.cfm?id=545239"
+      ]
+    },
+    {
+      "title": "Transient-Fault Recovery Using Simultaneous Multithreading",
+      "authors": [
+        "T. N. Vijaykumar",
+        "Irith Pomeranz",
+        "Karl Cheng"
+      ],
+      "pages": "87-98",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/VijaykumarPC02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/VijaykumarPC02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003565",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003565",
+        "http://dl.acm.org/citation.cfm?id=545226"
+      ]
+    },
+    {
+      "title": "Using a User-Level Memory Thread for Correlation Prefetching",
+      "authors": [
+        "Yan Solihin",
+        "Josep Torrellas",
+        "Jaejin Lee"
+      ],
+      "pages": "171-182",
+      "year": "2002",
+      "venue": "ISCA 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SolihinTL02",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SolihinTL02.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2002.1003576",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2002.1003576",
+        "http://dl.acm.org/citation.cfm?id=545235"
+      ]
+    }
+  ]
+}

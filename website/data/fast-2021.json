@@ -1,0 +1,602 @@
+{
+  "id": "fast-2021",
+  "venue": "fast",
+  "year": 2021,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2021.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2021.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2021",
+    "conf/fast/2021-1",
+    "conf/fast/2021-2",
+    "conf/fast/2021-3",
+    "conf/fast/2021-4",
+    "conf/fast/2021-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 28,
+  "display_count": 28,
+  "papers": [
+    {
+      "title": "A Community Cache with Complete Information",
+      "authors": [
+        "Mania Abdi",
+        "Amin Mosayyebzadeh",
+        "Mohammad Hossein Hajkazemi",
+        "Emine Ugur Kaynar",
+        "Ata Turk",
+        "Larry Rudolph",
+        "Orran Krieger",
+        "Peter Desnoyers"
+      ],
+      "pages": "323-340",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AbdiMHKTRKD21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AbdiMHKTRKD21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/abdi"
+      ]
+    },
+    {
+      "title": "An In-Depth Study of Correlated Failures in Production SSD-Based Data Centers",
+      "authors": [
+        "Shujie Han 0001",
+        "Patrick P. C. Lee",
+        "Fan Xu",
+        "Yi Liu",
+        "Cheng He",
+        "Jiongzhou Liu"
+      ],
+      "pages": "417-429",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HanLXLHL21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HanLXLHL21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/han"
+      ]
+    },
+    {
+      "title": "ArchTM: Architecture-Aware, High Performance Transaction for Persistent Memory",
+      "authors": [
+        "Kai Wu 0006",
+        "Jie Ren 0015",
+        "Ivy Bo Peng",
+        "Dong Li 0001"
+      ],
+      "pages": "141-153",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/00060P021",
+      "dblp_url": "https://dblp.org/rec/conf/fast/00060P021.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/wu-kai"
+      ]
+    },
+    {
+      "title": "Behemoth: A Flash-centric Training Accelerator for Extreme-scale DNNs",
+      "authors": [
+        "Shine Kim",
+        "Yunho Jin",
+        "Gina Sohn",
+        "Jonghyun Bae",
+        "Tae Jun Ham",
+        "Jae W. Lee"
+      ],
+      "pages": "371-385",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimJSBHL21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimJSBHL21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/kim"
+      ]
+    },
+    {
+      "title": "CheckFreq: Frequent, Fine-Grained DNN Checkpointing",
+      "authors": [
+        "Jayashree Mohan",
+        "Amar Phanishayee",
+        "Vijay Chidambaram"
+      ],
+      "pages": "203-216",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MohanPC21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MohanPC21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/mohan"
+      ]
+    },
+    {
+      "title": "CNSBench: A Cloud Native Storage Benchmark",
+      "authors": [
+        "Alex Merenstein",
+        "Vasily Tarasov",
+        "Ali Anwar 0001",
+        "Deepavali Bhagwat",
+        "Julie Lee",
+        "Lukas Rupprecht",
+        "Dimitris Skourtis",
+        "Yang Yang",
+        "Erez Zadok"
+      ],
+      "pages": "263-276",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MerensteinT0BLR21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MerensteinT0BLR21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/merenstein"
+      ]
+    },
+    {
+      "title": "Concordia: Distributed Shared Memory with In-Network Cache Coherence",
+      "authors": [
+        "Qing Wang 0031",
+        "Youyou Lu",
+        "Erci Xu",
+        "Junru Li",
+        "Youmin Chen",
+        "Jiwu Shu"
+      ],
+      "pages": "277-292",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangLXLCS21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangLXLCS21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/wang"
+      ]
+    },
+    {
+      "title": "D2FQ: Device-Direct Fair Queueing for NVMe SSDs",
+      "authors": [
+        "Jiwon Woo",
+        "Minwoo Ahn",
+        "Gyusun Lee",
+        "Jinkyu Jeong"
+      ],
+      "pages": "403-415",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WooALJ21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WooALJ21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/woo"
+      ]
+    },
+    {
+      "title": "eMRC: Efficient Miss Ratio Approximation for Multi-Tier Caching",
+      "authors": [
+        "Zhang Liu 0008",
+        "Hee Won Lee",
+        "Yu Xiang 0003",
+        "Dirk Grunwald",
+        "Sangtae Ha"
+      ],
+      "pages": "293-306",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuLXGH21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuLXGH21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/liu"
+      ]
+    },
+    {
+      "title": "Evolution of Development Priorities in Key-value Stores Serving Large-scale Applications: The RocksDB Experience",
+      "authors": [
+        "Siying Dong",
+        "Andrew Kryczka",
+        "Yanqin Jin",
+        "Michael Stumm"
+      ],
+      "pages": "33-49",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DongKJS21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DongKJS21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/dong"
+      ]
+    },
+    {
+      "title": "Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distributed Storage",
+      "authors": [
+        "Yuchong Hu",
+        "Liangfeng Cheng",
+        "Qiaori Yao",
+        "Patrick P. C. Lee",
+        "Weichun Wang",
+        "Wei Chen"
+      ],
+      "pages": "233-248",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HuCYLWC21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HuCYLWC21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/hu"
+      ]
+    },
+    {
+      "title": "Facebook's Tectonic Filesystem: Efficiency from Exascale",
+      "authors": [
+        "Satadru Pan",
+        "Theano Stavrinos",
+        "Yunqiao Zhang",
+        "Atul Sikaria",
+        "Pavel Zakharov",
+        "Abhinav Sharma",
+        "Shiva Shankar P.",
+        "Mike Shuey",
+        "Richard Wareing",
+        "Monika Gangapuram",
+        "Guanglei Cao",
+        "Christian Preseau",
+        "Pratap Singh",
+        "Kestutis Patiejunas",
+        "J. R. Tipton",
+        "Ethan Katz-Bassett",
+        "Wyatt Lloyd"
+      ],
+      "pages": "217-231",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PanSZSZSPSWGCPS21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PanSZSZSPSWGCPS21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/pan"
+      ]
+    },
+    {
+      "title": "FlashNeuron: SSD-Enabled Large-Batch Training of Very Deep Neural Networks",
+      "authors": [
+        "Jonghyun Bae",
+        "Jongsung Lee 0001",
+        "Yunho Jin",
+        "Sam Son",
+        "Shine Kim",
+        "Hakbeom Jang",
+        "Tae Jun Ham",
+        "Jae W. Lee"
+      ],
+      "pages": "387-401",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BaeLJSKJHL21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BaeLJSKJHL21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/bae"
+      ]
+    },
+    {
+      "title": "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays",
+      "authors": [
+        "Tianyang Jiang",
+        "Guangyan Zhang",
+        "Zican Huang",
+        "Xiaosong Ma",
+        "Junyu Wei",
+        "Zhiyue Li",
+        "Weimin Zheng"
+      ],
+      "pages": "355-370",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JiangZHMWLZ21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JiangZHMWLZ21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/jiang"
+      ]
+    },
+    {
+      "title": "High Velocity Kernel File Systems with Bento",
+      "authors": [
+        "Samantha Miller",
+        "Kaiyuan Zhang 0001",
+        "Mengqi Chen",
+        "Ryan Jennings",
+        "Ang Chen 0001",
+        "Danyang Zhuo",
+        "Thomas E. Anderson"
+      ],
+      "pages": "65-79",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MillerZCJCZA21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MillerZCJCZA21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/miller"
+      ]
+    },
+    {
+      "title": "Learning Cache Replacement with CACHEUS",
+      "authors": [
+        "Liana V. Rodriguez",
+        "Farzana Beente Yusuf",
+        "Steven Lyons",
+        "Eysler Paz",
+        "Raju Rangaswami",
+        "Jason Liu 0001",
+        "Ming Zhao 0002",
+        "Giri Narasimhan"
+      ],
+      "pages": "341-354",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RodriguezYLPRL021",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RodriguezYLPRL021.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/rodriguez"
+      ]
+    },
+    {
+      "title": "On the Feasibility of Parser-based Log Compression in Large-Scale Cloud Systems",
+      "authors": [
+        "Junyu Wei",
+        "Guangyan Zhang",
+        "Yang Wang 0009",
+        "Zhiwei Liu",
+        "Zhanyang Zhu",
+        "Junchao Chen 0005",
+        "Tingtao Sun",
+        "Qi Zhou 0001"
+      ],
+      "pages": "249-262",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WeiZWLZCSZ21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WeiZWLZCSZ21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/wei"
+      ]
+    },
+    {
+      "title": "Pattern-Guided File Compression with User-Experience Enhancement for Log-Structured File System on Mobile Devices",
+      "authors": [
+        "Cheng Ji 0002",
+        "Li-Pin Chang",
+        "Riwei Pan",
+        "Chao Wu 0006",
+        "Congming Gao",
+        "Liang Shi 0001",
+        "Tei-Wei Kuo",
+        "Chun Jason Xue"
+      ],
+      "pages": "127-140",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JiCP0GSKX21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JiCP0GSKX21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/ji"
+      ]
+    },
+    {
+      "title": "pFSCK: Accelerating File System Checking and Repair for Modern Storage",
+      "authors": [
+        "David Domingo",
+        "Sudarsun Kannan"
+      ],
+      "pages": "113-126",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DomingoK21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DomingoK21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/domingo"
+      ]
+    },
+    {
+      "title": "Remap-SSD: Safely and Efficiently Exploiting SSD Address Remapping to Eliminate Duplicate Writes",
+      "authors": [
+        "You Zhou 0009",
+        "Qiulin Wu",
+        "Fei Wu 0005",
+        "Hong Jiang 0001",
+        "Jian Zhou 0004",
+        "Changsheng Xie 0001"
+      ],
+      "pages": "187-202",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhouW0J0X21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhouW0J0X21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/zhou"
+      ]
+    },
+    {
+      "title": "REMIX: Efficient Range Query for LSM-trees",
+      "authors": [
+        "Wenshao Zhong",
+        "Chen Chen",
+        "Xingbo Wu",
+        "Song Jiang 0001"
+      ],
+      "pages": "51-64",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhongCWJ21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhongCWJ21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/zhong"
+      ]
+    },
+    {
+      "title": "Rethinking File Mapping for Persistent Memory",
+      "authors": [
+        "Ian Neal",
+        "Gefei Zuo",
+        "Eric Shiple",
+        "Tanvir Ahmed Khan",
+        "Youngjin Kwon",
+        "Simon Peter 0001",
+        "Baris Kasikci"
+      ],
+      "pages": "97-111",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/NealZSKKPK21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/NealZSKKPK21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/neal"
+      ]
+    },
+    {
+      "title": "ROART: Range-query Optimized Persistent ART",
+      "authors": [
+        "Shaonan Ma",
+        "Kang Chen",
+        "Shimin Chen",
+        "Mengxing Liu",
+        "Jianglang Zhu",
+        "Hongbo Kang",
+        "Yongwei Wu 0001"
+      ],
+      "pages": "1-16",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MaCCLZKW21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MaCCLZKW21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/ma"
+      ]
+    },
+    {
+      "title": "Scalable Persistent Memory File System with Kernel-Userspace Collaboration",
+      "authors": [
+        "Youmin Chen",
+        "Youyou Lu",
+        "Bohong Zhu",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Jiwu Shu"
+      ],
+      "pages": "81-95",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChenLZAAS21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChenLZAAS21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/chen-youmin"
+      ]
+    },
+    {
+      "title": "SpanDB: A Fast, Cost-Effective LSM-tree Based KV Store on Hybrid Storage",
+      "authors": [
+        "Hao Chen 0080",
+        "Chaoyi Ruan",
+        "Cheng Li 0001",
+        "Xiaosong Ma",
+        "Yinlong Xu 0001"
+      ],
+      "pages": "17-32",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChenRLMX21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChenRLMX21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/chen-hao"
+      ]
+    },
+    {
+      "title": "SPHT: Scalable Persistent Hardware Transactions",
+      "authors": [
+        "Daniel Castro 0004",
+        "Alexandro Baldassin",
+        "Jo&atilde;o Barreto 0001",
+        "Paolo Romano 0002"
+      ],
+      "pages": "155-169",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/0004B0021",
+      "dblp_url": "https://dblp.org/rec/conf/fast/0004B0021.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/castro"
+      ]
+    },
+    {
+      "title": "The Dilemma between Deduplication and Locality: Can Both be Achieved?",
+      "authors": [
+        "Xiangyu Zou",
+        "Jingsong Yuan",
+        "Philip Shilane",
+        "Wen Xia",
+        "Haijun Zhang 0002",
+        "Xuan Wang 0002"
+      ],
+      "pages": "171-185",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZouYSX0W21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZouYSX0W21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/zou"
+      ]
+    },
+    {
+      "title": "The Storage Hierarchy is Not a Hierarchy: Optimizing Caching on Modern Storage Devices with Orthus",
+      "authors": [
+        "Kan Wu",
+        "Zhihan Guo",
+        "Guanzhou Hu",
+        "Kaiwei Tu",
+        "Ramnatthan Alagappan",
+        "Rathijit Sen",
+        "Kwanghyun Park 0001",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "307-323",
+      "year": "2021",
+      "venue": "FAST 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WuGHTASPAA21",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WuGHTASPAA21.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast21/presentation/wu-kan"
+      ]
+    }
+  ]
+}

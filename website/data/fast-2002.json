@@ -1,0 +1,405 @@
+{
+  "id": "fast-2002",
+  "venue": "fast",
+  "year": 2002,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2002.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2002.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2002",
+    "conf/fast/2002-1",
+    "conf/fast/2002-2",
+    "conf/fast/2002-3",
+    "conf/fast/2002-4",
+    "conf/fast/2002-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 21,
+  "display_count": 21,
+  "papers": [
+    {
+      "title": "A Framework for Evaluating Storage System Security",
+      "authors": [
+        "Erik Riedel",
+        "Mahesh Kallahalla",
+        "Ram Swaminathan"
+      ],
+      "pages": "15-30",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RiedelKS02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RiedelKS02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/riedel.html"
+      ]
+    },
+    {
+      "title": "Appia: Automatic Storage Area Network Fabric Design",
+      "authors": [
+        "Julie Ward",
+        "Michael O'Sullivan",
+        "Troy Shahoumian",
+        "John Wilkes"
+      ],
+      "pages": "203-217",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WardOSW02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WardOSW02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/ward.html"
+      ]
+    },
+    {
+      "title": "Aqueduct: Online Data Migration with Performance Guarantees",
+      "authors": [
+        "Chenyang Lu 0001",
+        "Guillermo A. Alvarez",
+        "John Wilkes"
+      ],
+      "pages": "219-230",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LuAW02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LuAW02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/lu.html"
+      ]
+    },
+    {
+      "title": "Configuring and Scheduling an Eager-Writing Disk Array for a Transaction Processing Workload",
+      "authors": [
+        "Chi Zhang 0070",
+        "Xiang Yu",
+        "Arvind Krishnamurthy",
+        "Randolph Y. Wang"
+      ],
+      "pages": "289-304",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangYKW02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangYKW02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/zhang.html"
+      ]
+    },
+    {
+      "title": "Enabling the Archival Storage of Signed Documents",
+      "authors": [
+        "Petros Maniatis",
+        "Mary Baker"
+      ],
+      "pages": "31-45",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ManiatisB02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ManiatisB02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/maniatis.html"
+      ]
+    },
+    {
+      "title": "Exploiting Inter-File Access Patterns Using Multi-Collective I/O",
+      "authors": [
+        "Gokhan Memik",
+        "Mahmut T. Kandemir",
+        "Alok N. Choudhary"
+      ],
+      "pages": "245-258",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MemikKC02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MemikKC02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/memik.html"
+      ]
+    },
+    {
+      "title": "Freeblock Scheduling Outside of Disk Firmware",
+      "authors": [
+        "Christopher R. Lumb",
+        "Jiri Schindler",
+        "Gregory R. Ganger"
+      ],
+      "pages": "275-288",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LumbSG02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LumbSG02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/lumb.html"
+      ]
+    },
+    {
+      "title": "GPFS: A Shared-Disk File System for Large Computing Clusters",
+      "authors": [
+        "Frank B. Schmuck",
+        "Roger L. Haskin"
+      ],
+      "pages": "231-244",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SchmuckH02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SchmuckH02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/schmuck.html"
+      ]
+    },
+    {
+      "title": "Hippodrome: Running Circles Around Storage Administration",
+      "authors": [
+        "Eric Anderson 0003",
+        "Michael Hobbs",
+        "Kimberly Keeton",
+        "Susan Spence",
+        "Mustafa Uysal",
+        "Alistair C. Veitch"
+      ],
+      "pages": "175-188",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AndersonHKSUV02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AndersonHKSUV02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/andersonHIP.html"
+      ]
+    },
+    {
+      "title": "Myriad: Cost-Effective Disaster Tolerance",
+      "authors": [
+        "Fay W. Chang",
+        "Minwen Ji",
+        "Shun-Tak Leung",
+        "John MacCormick",
+        "Sharon E. Perl",
+        "Li Zhang 0001"
+      ],
+      "pages": "103-116",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChangJLMPZ02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChangJLMPZ02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/chang.html"
+      ]
+    },
+    {
+      "title": "Obtaining High Performance for Storage Outsourcing",
+      "authors": [
+        "Wee Teck Ng",
+        "Bruce Hillyer",
+        "Elizabeth A. M. Shriver",
+        "Eran Gabber",
+        "Banu &Ouml;zden"
+      ],
+      "pages": "145-158",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/NgHSGO02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/NgHSGO02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/ng.html"
+      ]
+    },
+    {
+      "title": "PersonalRAID: Mobile Storage for Distributed and Disconnected Computers",
+      "authors": [
+        "Sumeet Sobti",
+        "Nitin Garg",
+        "Chi Zhang 0070",
+        "Xiang Yu",
+        "Arvind Krishnamurthy",
+        "Randolph Y. Wang"
+      ],
+      "pages": "159-174",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SobtiGZYKW02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SobtiGZYKW02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/sobti.html"
+      ]
+    },
+    {
+      "title": "Safety, Visibility, and Performance in a Wide-Area File System",
+      "authors": [
+        "Minkyong Kim",
+        "Landon P. Cox",
+        "Brian D. Noble"
+      ],
+      "pages": "131-144",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimCN02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimCN02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/kim.html"
+      ]
+    },
+    {
+      "title": "Selecting RAID Levels for Disk Arrays",
+      "authors": [
+        "Eric Anderson 0003",
+        "Ram Swaminathan",
+        "Alistair C. Veitch",
+        "Guillermo A. Alvarez",
+        "John Wilkes"
+      ],
+      "pages": "189-201",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AndersonSVAW02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AndersonSVAW02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/andersonRAID.html"
+      ]
+    },
+    {
+      "title": "SnapMirror: File-System-Based Asynchronous Mirroring for Disaster Recovery",
+      "authors": [
+        "R. Hugo Patterson",
+        "Stephen Manley",
+        "Mike Federwisch",
+        "Dave Hitz",
+        "Steven Kleiman",
+        "Shane Owara"
+      ],
+      "pages": "117-129",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PattersonMFHKO02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PattersonMFHKO02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/patterson.html"
+      ]
+    },
+    {
+      "title": "Storage-Aware Caching: Revisiting Caching for Heterogeneous Storage Systems",
+      "authors": [
+        "Brian C. Forney",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "61-74",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ForneyAA02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ForneyAA02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/forney.html"
+      ]
+    },
+    {
+      "title": "Strong Security for Network-Attached Storage",
+      "authors": [
+        "Ethan L. Miller",
+        "Darrell D. E. Long",
+        "William E. Freeman",
+        "Benjamin C. Reed"
+      ],
+      "pages": "1-13",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MillerLFR02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MillerLFR02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/miller.html"
+      ]
+    },
+    {
+      "title": "Timing-Accurate Storage Emulation",
+      "authors": [
+        "John Linwood Griffin",
+        "Jiri Schindler",
+        "Steven W. Schlosser",
+        "John S. Bucy",
+        "Gregory R. Ganger"
+      ],
+      "pages": "75-88",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GriffinSSBG02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GriffinSSBG02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/griffin.html"
+      ]
+    },
+    {
+      "title": "Track-Aligned Extents: Matching Access Patterns to Disk Drive Characteristics",
+      "authors": [
+        "Jiri Schindler",
+        "John Linwood Griffin",
+        "Christopher R. Lumb",
+        "Gregory R. Ganger"
+      ],
+      "pages": "259-274",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SchindlerGLG02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SchindlerGLG02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/schindler.html"
+      ]
+    },
+    {
+      "title": "Venti: A New Approach to Archival Storage",
+      "authors": [
+        "Sean Quinlan",
+        "Sean Dorward"
+      ],
+      "pages": "89-101",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/QuinlanD02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/QuinlanD02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/quinlan.html"
+      ]
+    },
+    {
+      "title": "WOLF - A Novel Reordering Write Buffer to Boost the Performance of Log-Structured File Systems",
+      "authors": [
+        "Jun Wang 0001",
+        "Yiming Hu"
+      ],
+      "pages": "47-60",
+      "year": "2002",
+      "venue": "FAST 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangH02",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangH02.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/fast02/wang.html"
+      ]
+    }
+  ]
+}

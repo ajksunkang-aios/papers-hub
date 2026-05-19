@@ -1,0 +1,773 @@
+{
+  "id": "nsdi-2010",
+  "venue": "nsdi",
+  "year": 2010,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2010.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2010.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2010",
+    "conf/nsdi/2010-1",
+    "conf/nsdi/2010-2",
+    "conf/nsdi/2010-3",
+    "conf/nsdi/2010-4",
+    "conf/nsdi/2010-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 40,
+  "display_count": 40,
+  "papers": [
+    {
+      "title": "A Preliminary Analysis of TCP Performance in an Enterprise Network",
+      "authors": [
+        "Boris Nechaev",
+        "Mark Allman",
+        "Vern Paxson",
+        "Andrei V. Gurtov"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NechaevAPG08",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NechaevAPG08.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inmwren-10/preliminary-analysis-tcp-performance-enterprise-network"
+      ]
+    },
+    {
+      "title": "AccuRate: Constellation Based Rate Estimation in Wireless Networks",
+      "authors": [
+        "Souvik Sen",
+        "Naveen Santhapuri",
+        "Romit Roy Choudhury",
+        "Srihari Nelakuditi"
+      ],
+      "pages": "175-190",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SenSCN10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SenSCN10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/sen_souvik.pdf"
+      ]
+    },
+    {
+      "title": "Airavat: Security and Privacy for MapReduce",
+      "authors": [
+        "Indrajit Roy 0001",
+        "Srinath T. V. Setty",
+        "Ann Kilzer",
+        "Vitaly Shmatikov",
+        "Emmett Witchel"
+      ],
+      "pages": "297-312",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RoySKSW10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RoySKSW10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/roy.pdf"
+      ]
+    },
+    {
+      "title": "Automated and Scalable QoS Control for Network Convergence",
+      "authors": [
+        "Wonho Kim",
+        "Puneet Sharma 0001",
+        "Jeongkeun Lee",
+        "Sujata Banerjee",
+        "Jean Tourrilhes",
+        "Sung-Ju Lee",
+        "Praveen Yalagandula"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KimSLBTLY08",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KimSLBTLY08.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inmwren-10/automated-and-scalable-qos-control-network-convergence"
+      ]
+    },
+    {
+      "title": "Behavioral Clustering of HTTP-Based Malware and Signature Generation Using Malicious Network Traces",
+      "authors": [
+        "Roberto Perdisci",
+        "Wenke Lee",
+        "Nick Feamster"
+      ],
+      "pages": "391-404",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PerdisciLF10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PerdisciLF10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/perdisci.pdf"
+      ]
+    },
+    {
+      "title": "Beyond the Best: Real-Time Non-Invasive Collection of BGP Messages",
+      "authors": [
+        "Stefano Vissicchio",
+        "Luca Cittadini",
+        "Maurizio Pizzonia",
+        "Luca Vergantini",
+        "Valerio Mezzapesa",
+        "Maria Luisa Papagni"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/VissicchioCPVMP08",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/VissicchioCPVMP08.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inmwren-10/beyond-best-real-time-non-invasive-collection-bgp-messages"
+      ]
+    },
+    {
+      "title": "Carousel: Scalable Logging for Intrusion Prevention Systems",
+      "authors": [
+        "Vinh The Lam",
+        "Michael Mitzenmacher",
+        "George Varghese"
+      ],
+      "pages": "361-376",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LamMV10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LamMV10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/lam.pdf"
+      ]
+    },
+    {
+      "title": "Centrifuge: Integrated Lease Management and Partitioning for Cloud Services",
+      "authors": [
+        "Atul Adya",
+        "John Dunagan",
+        "Alec Wolman"
+      ],
+      "pages": "1-16",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AdyaDW10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AdyaDW10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/adya.pdf"
+      ]
+    },
+    {
+      "title": "Cheap and Large CAMs for High Performance Data-Intensive Networked Systems",
+      "authors": [
+        "Ashok Anand",
+        "Chitra Muthukrishnan",
+        "Steven Kappes",
+        "Aditya Akella",
+        "Suman Nath"
+      ],
+      "pages": "433-448",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AnandMKAN10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AnandMKAN10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/anand.pdf"
+      ]
+    },
+    {
+      "title": "Contracts: Practical Contribution Incentives for P2P Live Streaming",
+      "authors": [
+        "Michael Piatek",
+        "Arvind Krishnamurthy",
+        "Arun Venkataramani",
+        "Yang Richard Yang",
+        "David Zhang 0002",
+        "Alexander Jaffe"
+      ],
+      "pages": "81-94",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PiatekKVYZJ10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PiatekKVYZJ10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/piatek.pdf"
+      ]
+    },
+    {
+      "title": "Crom: Faster Web Browsing Using Speculative Execution",
+      "authors": [
+        "James W. Mickens",
+        "Jeremy Elson",
+        "Jon Howell",
+        "Jay R. Lorch"
+      ],
+      "pages": "127-142",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MickensEHL10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MickensEHL10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/mickens-crom.pdf"
+      ]
+    },
+    {
+      "title": "ElasticTree: Saving Energy in Data Center Networks",
+      "authors": [
+        "Brandon Heller",
+        "Srinivasan Seetharaman",
+        "Priya Mahadevan",
+        "Yiannis Yiakoumis",
+        "Puneet Sharma 0001",
+        "Sujata Banerjee",
+        "Nick McKeown"
+      ],
+      "pages": "249-264",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HellerSMYSBM10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HellerSMYSBM10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/heller.pdf"
+      ]
+    },
+    {
+      "title": "EndRE: An End-System Redundancy Elimination Service for Enterprises",
+      "authors": [
+        "Bhavish Agarwal",
+        "Aditya Akella",
+        "Ashok Anand",
+        "Athula Balachandran",
+        "Pushkar V. Chitnis",
+        "Chitra Muthukrishnan",
+        "Ramachandran Ramjee",
+        "George Varghese"
+      ],
+      "pages": "419-432",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AgarwalAABCMRV10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AgarwalAABCMRV10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/aggarwal.pdf"
+      ]
+    },
+    {
+      "title": "Europa: Efficient User Mode Packet Forwarding in Network Virtualization",
+      "authors": [
+        "Yong Liao",
+        "Dong Yin",
+        "Lixin Gao 0001"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiaoYG08",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiaoYG08.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inmwren-10/europa-efficient-user-mode-packet-forwarding-network-virtualization"
+      ]
+    },
+    {
+      "title": "Experiences with CoralCDN: A Five-Year Operational View",
+      "authors": [
+        "Michael J. Freedman"
+      ],
+      "pages": "95-110",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Freedman10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Freedman10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/freedman.pdf"
+      ]
+    },
+    {
+      "title": "Experiences with Tracing Causality in Networked Services",
+      "authors": [
+        "Rodrigo Fonseca",
+        "Michael J. Freedman",
+        "George Porter"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FonsecaFP08",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FonsecaFP08.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inmwren-10/experiences-tracing-causality-networked-services"
+      ]
+    },
+    {
+      "title": "Exploring Link Correlation for Efficient Flooding in Wireless Sensor Networks",
+      "authors": [
+        "Ting Zhu 0001",
+        "Ziguo Zhong",
+        "Tian He 0001",
+        "Zhi-Li Zhang"
+      ],
+      "pages": "49-64",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhuZHZ10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhuZHZ10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/zhu.pdf"
+      ]
+    },
+    {
+      "title": "Extensible and Scalable Network Monitoring Using OpenSAFE",
+      "authors": [
+        "Jeffrey R. Ballard",
+        "Ian Rae",
+        "Aditya Akella"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BallardR08",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BallardR08.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inmwren-10/extensible-and-scalable-network-monitoring-using-opensafe"
+      ]
+    },
+    {
+      "title": "Glasnost: Enabling End Users to Detect Traffic Differentiation",
+      "authors": [
+        "Marcel Dischinger",
+        "Massimiliano Marcon",
+        "Saikat Guha 0002",
+        "P. Krishna Gummadi",
+        "Ratul Mahajan",
+        "Stefan Saroiu"
+      ],
+      "pages": "405-418",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DischingerMGGMS10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DischingerMGGMS10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/dischinger.pdf"
+      ]
+    },
+    {
+      "title": "Hedera: Dynamic Flow Scheduling for Data Center Networks",
+      "authors": [
+        "Mohammad Al-Fares",
+        "Sivasankar Radhakrishnan",
+        "Barath Raghavan",
+        "Nelson Huang",
+        "Amin Vahdat"
+      ],
+      "pages": "281-296",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Al-FaresRRHV10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Al-FaresRRHV10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/al-fares.pdf"
+      ]
+    },
+    {
+      "title": "HyperFlow: A Distributed Control Plane for OpenFlow",
+      "authors": [
+        "Yashar Ganjali",
+        "Amin Tootoonchian"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GanjaliT08",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GanjaliT08.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inmwren-10/hyperflow-distributed-control-plane-openflow"
+      ]
+    },
+    {
+      "title": "MapReduce Online",
+      "authors": [
+        "Tyson Condie",
+        "Neil Conway",
+        "Peter Alvaro",
+        "Joseph M. Hellerstein",
+        "Khaled Elmeleegy",
+        "Russell Sears"
+      ],
+      "pages": "313-328",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CondieCAHES10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CondieCAHES10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/condie.pdf"
+      ]
+    },
+    {
+      "title": "Maranello: Practical Partial Packet Recovery for 802.11",
+      "authors": [
+        "Bo Han 0001",
+        "Aaron Schulman",
+        "Francesco Gringoli",
+        "Neil Spring",
+        "Bobby Bhattacharjee",
+        "Lorenzo Nava",
+        "Lusheng Ji",
+        "Seungjoon Lee",
+        "Robert R. Miller"
+      ],
+      "pages": "205-218",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HanSGSBNJLM10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HanSGSBNJLM10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/han.pdf"
+      ]
+    },
+    {
+      "title": "Mugshot: Deterministic Capture and Replay for JavaScript Applications",
+      "authors": [
+        "James W. Mickens",
+        "Jeremy Elson",
+        "Jon Howell"
+      ],
+      "pages": "159-174",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MickensEH10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MickensEH10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/mickens-mugshot.pdf"
+      ]
+    },
+    {
+      "title": "Optimizing Cost and Performance in Online Service Provider Networks",
+      "authors": [
+        "Zheng Zhang 0009",
+        "Ming Zhang 0005",
+        "Albert G. Greenberg",
+        "Y. Charlie Hu",
+        "Ratul Mahajan",
+        "Blaine Christian"
+      ],
+      "pages": "33-48",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangZGHMC10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangZGHMC10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/zhang.pdf"
+      ]
+    },
+    {
+      "title": "Proactive Network Management of IPTV Networks",
+      "authors": [
+        "Rakesh K. Sinha",
+        "Kadangode K. Ramakrishnan",
+        "Robert D. Doverspike",
+        "Dahai Xu",
+        "Jorge L. Pastor",
+        "Aman Shaikh",
+        "Seungjoon Lee",
+        "Chris Chase"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SinhaRDXPSLC08",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SinhaRDXPSLC08.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inmwren-10/proactive-network-management-iptv-networks"
+      ]
+    },
+    {
+      "title": "Prophecy: Using History for High-Throughput Fault Tolerance",
+      "authors": [
+        "Siddhartha Sen 0001",
+        "Wyatt Lloyd",
+        "Michael J. Freedman"
+      ],
+      "pages": "345-360",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SenLF10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SenLF10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/sen_siddhartha.pdf"
+      ]
+    },
+    {
+      "title": "Reverse traceroute",
+      "authors": [
+        "Ethan Katz-Bassett",
+        "Harsha V. Madhyastha",
+        "Vijay Kumar Adhikari",
+        "Colin Scott",
+        "Justine Sherry",
+        "Peter van Wesep",
+        "Thomas E. Anderson",
+        "Arvind Krishnamurthy"
+      ],
+      "pages": "219-234",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Katz-BassettMASSWAK10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Katz-BassettMASSWAK10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/katz-bassett.pdf"
+      ]
+    },
+    {
+      "title": "Scalable WiFi Media Delivery through Adaptive Broadcasts",
+      "authors": [
+        "Sayandeep Sen",
+        "Neel Kamal Madabhushi",
+        "Suman Banerjee 0001"
+      ],
+      "pages": "191-204",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SenMB10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SenMB10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/sen_sayandeep.pdf"
+      ]
+    },
+    {
+      "title": "Seamless BGP Migration with Router Grafting",
+      "authors": [
+        "Eric Keller",
+        "Jennifer Rexford",
+        "Jacobus E. van der Merwe"
+      ],
+      "pages": "235-248",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KellerRM10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KellerRM10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/keller.pdf"
+      ]
+    },
+    {
+      "title": "SPAIN: COTS Data-Center Ethernet for Multipathing over Arbitrary Topologies",
+      "authors": [
+        "Jayaram Mudigonda",
+        "Praveen Yalagandula",
+        "Mohammad Al-Fares",
+        "Jeffrey C. Mogul"
+      ],
+      "pages": "265-280",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MudigondaYAM10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MudigondaYAM10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/mudigonda.pdf"
+      ]
+    },
+    {
+      "title": "SplitScreen: Enabling Efficient, Distributed Malware Detection",
+      "authors": [
+        "Sang Kil Cha",
+        "Iulian Moraru",
+        "Jiyong Jang",
+        "John Truelove",
+        "David Brumley",
+        "David G. Andersen"
+      ],
+      "pages": "377-390",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChaMJTBA10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChaMJTBA10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/cha.pdf"
+      ]
+    },
+    {
+      "title": "Supporting Demanding Wireless Applications with Frequency-agile Radios",
+      "authors": [
+        "Lei Yang 0020",
+        "Wei Hou",
+        "Lili Cao",
+        "Ben Y. Zhao",
+        "Haitao Zheng 0001"
+      ],
+      "pages": "65-80",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YangHCZZ10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YangHCZZ10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/yang.pdf"
+      ]
+    },
+    {
+      "title": "The \"Platform as a Service\" Model for Networking",
+      "authors": [
+        "Eric Keller",
+        "Jennifer Rexford"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KellerR08",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KellerR08.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inmwren-10/platform-service-model-networking"
+      ]
+    },
+    {
+      "title": "The Architecture and Implementation of an Extensible Web Crawler",
+      "authors": [
+        "Jonathan M. Hsieh",
+        "Steven D. Gribble",
+        "Henry M. Levy"
+      ],
+      "pages": "329-344",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HsiehGL10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HsiehGL10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/hsieh.pdf"
+      ]
+    },
+    {
+      "title": "The Case for Fine-Grained Traffic Engineering in Data Centers",
+      "authors": [
+        "Theophilus Benson",
+        "Ashok Anand",
+        "Aditya Akella",
+        "Ming Zhang 0005"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BensonAAZ08",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BensonAAZ08.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inmwren-10/case-fine-grained-traffic-engineering-data-centers"
+      ]
+    },
+    {
+      "title": "vDC: Virtual Data Center Powered with AS Alliance for Enabling Cost-Effective Business Continuity and Coverage",
+      "authors": [
+        "Yuichiro Hei",
+        "Akihiro Nakao",
+        "Tomohiko Ogishi",
+        "Toru Hasegawa",
+        "Shu Yamamoto"
+      ],
+      "pages": null,
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HeiNOHY08",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HeiNOHY08.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inmwren-10/vdc-virtual-data-center-powered-alliance-enabling-cost-effective-business"
+      ]
+    },
+    {
+      "title": "Volley: Automated Data Placement for Geo-Distributed Cloud Services",
+      "authors": [
+        "Sharad Agarwal",
+        "John Dunagan",
+        "Navendu Jain",
+        "Stefan Saroiu",
+        "Alec Wolman"
+      ],
+      "pages": "17-32",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AgarwalDJSW10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AgarwalDJSW10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/agarwal.pdf"
+      ]
+    },
+    {
+      "title": "WebProphet: Automating Performance Prediction for Web Services",
+      "authors": [
+        "Zhichun Li",
+        "Ming Zhang 0005",
+        "Zhaosheng Zhu",
+        "Yan Chen 0004",
+        "Albert G. Greenberg",
+        "Yi-Min Wang"
+      ],
+      "pages": "143-158",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiZZCGW10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiZZCGW10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/li.pdf"
+      ]
+    },
+    {
+      "title": "Whanau: A Sybil-proof Distributed Hash Table",
+      "authors": [
+        "Chris Lesniewski-Laas",
+        "M. Frans Kaashoek"
+      ],
+      "pages": "111-126",
+      "year": "2010",
+      "venue": "NSDI 2010",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Lesniewski-LaasK10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Lesniewski-LaasK10.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi10/tech/full_papers/lesniewski-laas.pdf"
+      ]
+    }
+  ]
+}

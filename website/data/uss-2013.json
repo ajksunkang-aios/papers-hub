@@ -1,0 +1,1466 @@
+{
+  "id": "uss-2013",
+  "venue": "uss",
+  "year": 2013,
+  "short_name": "USENIX Security",
+  "full_name": "USENIX Security Symposium",
+  "source_url": "https://dblp.org/db/conf/uss/uss2013.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/uss/uss2013.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/uss/2013",
+    "conf/uss/2013-1",
+    "conf/uss/2013-2",
+    "conf/uss/2013-3",
+    "conf/uss/2013-4",
+    "conf/uss/2013-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Security Symposium"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 80,
+  "display_count": 80,
+  "papers": [
+    {
+      "title": "Alice in Warningland: A Large-Scale Field Study of Browser Security Warning Effectiveness",
+      "authors": [
+        "Devdatta Akhawe",
+        "Adrienne Porter Felt"
+      ],
+      "pages": "257-272",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AkhaweF13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AkhaweF13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/akhawe"
+      ]
+    },
+    {
+      "title": "An Analysis of Long Lines in Richland County, South Carolina",
+      "authors": [
+        "Duncan A. Buell"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Buell13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Buell13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/evtwote13/workshop-program/presentation/buell"
+      ]
+    },
+    {
+      "title": "An Empirical Study of Vulnerability Rewards Programs",
+      "authors": [
+        "Matthew Finifter",
+        "Devdatta Akhawe",
+        "David A. Wagner 0001"
+      ],
+      "pages": "273-288",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/FinifterAW13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/FinifterAW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/finifter"
+      ]
+    },
+    {
+      "title": "Automatic Mediation of Privacy-Sensitive Resource Access in Smartphone Applications",
+      "authors": [
+        "Benjamin Livshits",
+        "Jaeyeon Jung"
+      ],
+      "pages": "113-130",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LivshitsJ13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LivshitsJ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/livshits"
+      ]
+    },
+    {
+      "title": "Bridging the Data Gap: Data Related Challenges in Evaluating Large Scale Collaborative Security Systems",
+      "authors": [
+        "John Sonchack",
+        "Adam J. Aviv",
+        "Jonathan M. Smith"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SonchackAS13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SonchackAS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset13/workshop-program/presentation/sonchack"
+      ]
+    },
+    {
+      "title": "BugBox: A Vulnerability Corpus for PHP Web Applications",
+      "authors": [
+        "Gary Nilson",
+        "Kent Wills",
+        "Jeffrey Stuckman",
+        "James Purtilo"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/NilsonWSP13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/NilsonWSP13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset13/workshop-program/presentation/nilson"
+      ]
+    },
+    {
+      "title": "Building Dissent Networks: Towards Effective Countermeasures against Large-Scale Communications Blackouts",
+      "authors": [
+        "Shaddi Hasan",
+        "Yahel Ben-David",
+        "Giulia Fanti",
+        "Eric A. Brewer",
+        "Scott Shenker"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HasanBFBS13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HasanBFBS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci13/workshop-program/presentation/hasan"
+      ]
+    },
+    {
+      "title": "CacheAudit: A Tool for the Static Analysis of Cache Side Channels",
+      "authors": [
+        "Goran Doychev",
+        "Dominik Feld",
+        "Boris K&ouml;pf",
+        "Laurent Mauborgne",
+        "Jan Reineke 0001"
+      ],
+      "pages": "431-446",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DoychevFKMR13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DoychevFKMR13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/doychev"
+      ]
+    },
+    {
+      "title": "Capability Exchange: Improving Access Control Usability in Health IT",
+      "authors": [
+        "Chen Qin",
+        "Emily Freebairn",
+        "Sean Smith"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/QinFS13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/QinFS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/healthtech13/workshop-program/presentation/qin"
+      ]
+    },
+    {
+      "title": "Cataloging and Comparing Logging Mechanism Specifications for Electronic Health Record Systems",
+      "authors": [
+        "Jason Tyler King",
+        "Laurie A. Williams"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KingW13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KingW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/healthtech13/workshop-program/presentation/king"
+      ]
+    },
+    {
+      "title": "Control Flow Integrity for COTS Binaries",
+      "authors": [
+        "Mingwei Zhang 0005",
+        "R. Sekar 0001"
+      ],
+      "pages": "337-352",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZhangS13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZhangS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/Zhang"
+      ]
+    },
+    {
+      "title": "Dismantling Megamos Crypto: Wirelessly Lockpicking a Vehicle Immobilizer",
+      "authors": [
+        "Roel Verdult",
+        "Flavio D. Garcia",
+        "Baris Ege"
+      ],
+      "pages": "703-718",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/VerdultGE13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/VerdultGE13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/verdult"
+      ]
+    },
+    {
+      "title": "Dowsing for Overflows: A Guided Fuzzer to Find Buffer Boundary Violations",
+      "authors": [
+        "Istv&aacute;n Haller",
+        "Asia Slowinska",
+        "Matthias Neugschwandtner",
+        "Herbert Bos"
+      ],
+      "pages": "49-64",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HallerSNB13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HallerSNB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/papers/haller"
+      ]
+    },
+    {
+      "title": "DupLESS: Server-Aided Encryption for Deduplicated Storage",
+      "authors": [
+        "Sriram Keelveedhi",
+        "Mihir Bellare",
+        "Thomas Ristenpart"
+      ],
+      "pages": "179-194",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KeelveedhiBR13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KeelveedhiBR13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/bellare"
+      ]
+    },
+    {
+      "title": "Effective Inter-Component Communication Mapping in Android: An Essential Step Towards Holistic Security Analysis",
+      "authors": [
+        "Damien Octeau",
+        "Patrick D. McDaniel",
+        "Somesh Jha",
+        "Alexandre Bartel",
+        "Eric Bodden",
+        "Jacques Klein",
+        "Yves Le Traon"
+      ],
+      "pages": "543-558",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/OcteauMJBBKT13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/OcteauMJBBKT13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/octeau"
+      ]
+    },
+    {
+      "title": "Electronic Prescription for Controlled Substances: A Cybersecurity Perspective",
+      "authors": [
+        "Samuel Tan",
+        "Rebecca Shapiro",
+        "Sean W. Smith"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TanSS13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TanSS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/healthtech13/workshop-program/presentation/tan"
+      ]
+    },
+    {
+      "title": "Enabling Fine-Grained Permissions for Augmented Reality Applications with Recognizers",
+      "authors": [
+        "Suman Jana",
+        "David Molnar",
+        "Alexander Moshchuk",
+        "Alan M. Dunn",
+        "Benjamin Livshits",
+        "Helen J. Wang",
+        "Eyal Ofek"
+      ],
+      "pages": "415-430",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/JanaMMDLWO13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/JanaMMDLWO13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/jana"
+      ]
+    },
+    {
+      "title": "Eradicating DNS Rebinding with the Extended Same-origin Policy",
+      "authors": [
+        "Martin Johns",
+        "Sebastian Lekies",
+        "Ben Stock"
+      ],
+      "pages": "621-636",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/JohnsLS13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/JohnsLS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/johns"
+      ]
+    },
+    {
+      "title": "ExecScent: Mining for New C&C Domains in Live Networks with Adaptive Control Protocol Templates",
+      "authors": [
+        "Terry Nelms",
+        "Roberto Perdisci",
+        "Mustaque Ahamad"
+      ],
+      "pages": "589-604",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/NelmsPA13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/NelmsPA13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/nelms"
+      ]
+    },
+    {
+      "title": "Explicating SDKs: Uncovering Assumptions Underlying Secure Authentication and Authorization",
+      "authors": [
+        "Rui Wang 0010",
+        "Yuchen Zhou",
+        "Shuo Chen 0001",
+        "Shaz Qadeer",
+        "David Evans 0001",
+        "Yuri Gurevich"
+      ],
+      "pages": "399-314",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0010ZCQEG13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0010ZCQEG13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/wang_rui"
+      ]
+    },
+    {
+      "title": "FIE on Firmware: Finding Vulnerabilities in Embedded Systems Using Symbolic Execution",
+      "authors": [
+        "Drew Davidson",
+        "Benjamin Moench",
+        "Thomas Ristenpart",
+        "Somesh Jha"
+      ],
+      "pages": "463-478",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DavidsonMRJ13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DavidsonMRJ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/davidson"
+      ]
+    },
+    {
+      "title": "Five Incidents, One Theme: Twitter Spam as a Weapon to Drown Voices of Protest",
+      "authors": [
+        "John-Paul Verkamp",
+        "Minaxi Gupta"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/VerkampG13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/VerkampG13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci13/workshop-program/presentation/verkamp"
+      ]
+    },
+    {
+      "title": "Flexible and Fine-grained Mandatory Access Control on Android for Diverse Security and Privacy Policies",
+      "authors": [
+        "Sven Bugiel",
+        "Stephan Heuser",
+        "Ahmad-Reza Sadeghi"
+      ],
+      "pages": "131-146",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BugielHS13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BugielHS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/bugiel"
+      ]
+    },
+    {
+      "title": "From Helios to Zeus",
+      "authors": [
+        "Georgios Tsoukalas",
+        "Kostas Papadimitriou",
+        "Panos Louridas",
+        "Panayiotis Tsanakas"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TsoukalasPLT13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TsoukalasPLT13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/evtwote13/workshop-program/presentation/tsoukalas"
+      ]
+    },
+    {
+      "title": "Generation of SSH Network Traffic Data for IDS Testbeds",
+      "authors": [
+        "Hristo N. Djidjev",
+        "Lyudmil Aleksandrov"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DjidjevA13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DjidjevA13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset13/workshop-program/presentation/djidjev"
+      ]
+    },
+    {
+      "title": "Greystar: Fast and Accurate Detection of SMS Spam Numbers in Large Cellular Networks Using Gray Phone Space",
+      "authors": [
+        "Nan Jiang 0017",
+        "Yu Jin 0001",
+        "Ann Skudlark",
+        "Zhi-Li Zhang"
+      ],
+      "pages": "1-16",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Jiang0SZ13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Jiang0SZ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/jiang"
+      ]
+    },
+    {
+      "title": "How to Build an Undervoting Machine: Lessons from an Alternative Ballot Design",
+      "authors": [
+        "Kristen K. Greene",
+        "Michael D. Byrne",
+        "Stephen N. Goggin"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GreeneBG13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GreeneBG13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/evtwote13/workshop-program/presentation/greene"
+      ]
+    },
+    {
+      "title": "Impression Fraud in On-line Advertising via Pay-Per-View Networks",
+      "authors": [
+        "Kevin Springborn",
+        "Paul Barford"
+      ],
+      "pages": "211-226",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SpringbornB13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SpringbornB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/springborn"
+      ]
+    },
+    {
+      "title": "Improved Support for Machine-assisted Ballot-level Audits",
+      "authors": [
+        "Eric Kim",
+        "Nicholas Carlini",
+        "Andrew Chang",
+        "George Yiu",
+        "Kai Wang 0059",
+        "David A. Wagner 0001"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KimCCYWW13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KimCCYWW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/evtwote13/workshop-program/presentation/kim"
+      ]
+    },
+    {
+      "title": "Internet Censorship in Iran: A First Look",
+      "authors": [
+        "Simurgh Aryan",
+        "Homa Aryan",
+        "J. Alex Halderman"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AryanAH13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AryanAH13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci13/workshop-program/presentation/aryan"
+      ]
+    },
+    {
+      "title": "Internet Measurements and Public Policy: Mind the Gap",
+      "authors": [
+        "Hadi Asghari",
+        "Michel van Eeten",
+        "Milton L. Mueller"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AsghariEM13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AsghariEM13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset13/workshop-program/presentation/asghari"
+      ]
+    },
+    {
+      "title": "Jekyll on iOS: When Benign Apps Become Evil",
+      "authors": [
+        "Tielei Wang",
+        "Kangjie Lu",
+        "Long Lu",
+        "Simon P. Chung",
+        "Wenke Lee"
+      ],
+      "pages": "559-572",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WangLLCL13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WangLLCL13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/wang_tielei"
+      ]
+    },
+    {
+      "title": "KI-Mon: A Hardware-assisted Event-triggered Monitoring Platform for Mutable Kernel Object",
+      "authors": [
+        "Hojoon Lee 0001",
+        "Hyungon Moon",
+        "DaeHee Jang",
+        "Kihwan Kim",
+        "Jihoon Lee",
+        "Yunheung Paek",
+        "Brent ByungHoon Kang"
+      ],
+      "pages": "511-526",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LeeMJKLPK13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LeeMJKLPK13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/lee"
+      ]
+    },
+    {
+      "title": "Language-based Defenses Against Untrusted Browser Origins",
+      "authors": [
+        "Karthikeyan Bhargavan",
+        "Antoine Delignat-Lavaud",
+        "Sergio Maffeis"
+      ],
+      "pages": "653-670",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BhargavanDM13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BhargavanDM13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/bhargavan"
+      ]
+    },
+    {
+      "title": "Let Me Answer That for You: Exploiting Broadcast Information in Cellular Networks",
+      "authors": [
+        "Nico Golde",
+        "Kevin Redon",
+        "Jean-Pierre Seifert"
+      ],
+      "pages": "33-48",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GoldeRS13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GoldeRS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/golde"
+      ]
+    },
+    {
+      "title": "Lost in the Edge: Finding Your Way with DNSSEC Signposts",
+      "authors": [
+        "Charalampos Rotsos",
+        "Heidi Howard",
+        "David Sheets",
+        "Richard Mortier",
+        "Anil Madhavapeddy",
+        "Amir Chaudhry",
+        "Jon Crowcroft"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/RotsosHSMMCC13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/RotsosHSMMCC13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci13/workshop-program/presentation/rotsos"
+      ]
+    },
+    {
+      "title": "MalwareLab: Experimentation with Cybercrime Attack Tools",
+      "authors": [
+        "Luca Allodi",
+        "Vadim Kotov",
+        "Fabio Massacci"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AllodiKM13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AllodiKM13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset13/workshop-program/presentation/allodi"
+      ]
+    },
+    {
+      "title": "Measuring the Practical Impact of DNSSEC Deployment",
+      "authors": [
+        "Wilson Lian",
+        "Eric Rescorla",
+        "Hovav Shacham",
+        "Stefan Savage"
+      ],
+      "pages": "573-588",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LianRSS13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LianRSS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/lian"
+      ]
+    },
+    {
+      "title": "MetaSymploit: Day-One Defense against Script-based Attacks with Security-Enhanced Symbolic Analysis",
+      "authors": [
+        "Ruowen Wang",
+        "Peng Ning",
+        "Tao Xie",
+        "Quan Chen"
+      ],
+      "pages": "65-80",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WangNXC13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WangNXC13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/papers/wang"
+      ]
+    },
+    {
+      "title": "MINESTRONE: Testing the SOUP",
+      "authors": [
+        "Azzedine Benameur",
+        "Nathan S. Evans",
+        "Matthew C. Elder"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BenameurEE13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BenameurEE13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset13/workshop-program/presentation/benameur"
+      ]
+    },
+    {
+      "title": "Native x86 Decompilation Using Semantics-Preserving Structural Analysis and Iterative Control-Flow Structuring",
+      "authors": [
+        "David Brumley",
+        "JongHyup Lee",
+        "Edward J. Schwartz",
+        "Maverick Woo"
+      ],
+      "pages": "353-368",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BrumleyLSW13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BrumleyLSW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/schwartz"
+      ]
+    },
+    {
+      "title": "OCTANE (Open Car Testbed and Network Experiments): Bringing Cyber-Physical Security Research to Researchers and Students",
+      "authors": [
+        "Christopher E. Everett",
+        "Damon McCoy"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/EverettM13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/EverettM13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset13/workshop-program/presentation/everett"
+      ]
+    },
+    {
+      "title": "On the Security of Picture Gesture Authentication",
+      "authors": [
+        "Ziming Zhao 0001",
+        "Gail-Joon Ahn",
+        "Jeong-Jin Seo",
+        "Hongxin Hu"
+      ],
+      "pages": "383-398",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZhaoASH13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZhaoASH13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/zhao"
+      ]
+    },
+    {
+      "title": "On the Security of RC4 in TLS",
+      "authors": [
+        "Nadhem J. AlFardan",
+        "Daniel J. Bernstein",
+        "Kenneth G. Paterson",
+        "Bertram Poettering",
+        "Jacob C. N. Schuldt"
+      ],
+      "pages": "305-320",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AlFardanBPPS13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AlFardanBPPS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/alFardan"
+      ]
+    },
+    {
+      "title": "PCF: A Portable Circuit Format for Scalable Two-Party Secure Computation",
+      "authors": [
+        "Ben Kreuter",
+        "Abhi Shelat",
+        "Benjamin Mood",
+        "Kevin R. B. Butler"
+      ],
+      "pages": "321-336",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KreuterSMB13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KreuterSMB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/kreuter"
+      ]
+    },
+    {
+      "title": "Practical Comprehensive Bounds on Surreptitious Communication over DNS",
+      "authors": [
+        "Vern Paxson",
+        "Mihai Christodorescu",
+        "Mobin Javed",
+        "Josyula R. Rao",
+        "Reiner Sailer",
+        "Douglas Lee Schales",
+        "Marc Ph. Stoecklin",
+        "Kurt Thomas",
+        "Wietse Z. Venema",
+        "Nicholas Weaver"
+      ],
+      "pages": "17-32",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PaxsonCJRSSSTVW13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PaxsonCJRSSSTVW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/paxson"
+      ]
+    },
+    {
+      "title": "Privacy Aspects of Health Related Information Sharing in Online Social Networks",
+      "authors": [
+        "Sadegh Torabi",
+        "Konstantin Beznosov"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TorabiB13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TorabiB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/healthtech13/workshop-program/presentation/torabi"
+      ]
+    },
+    {
+      "title": "Privacy-Preserving Computation of Disease Risk by Using Genomic, Clinical, and Environmental Data",
+      "authors": [
+        "Erman Ayday",
+        "Jean Louis Raisaro",
+        "Paul J. McLaren",
+        "Jacques Fellay",
+        "Jean-Pierre Hubaux"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AydayRMFH13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AydayRMFH13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/healthtech13/workshop-program/presentation/ayday"
+      ]
+    },
+    {
+      "title": "Proactively Accountable Anonymous Messaging in Verdict",
+      "authors": [
+        "Henry Corrigan-Gibbs",
+        "David Isaac Wolinsky",
+        "Bryan Ford"
+      ],
+      "pages": "147-162",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Corrigan-GibbsWF13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Corrigan-GibbsWF13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/corrigan-gibbs"
+      ]
+    },
+    {
+      "title": "Proving Pr&ecirc;t &agrave; Voter Receipt Free Using Computational Security Models",
+      "authors": [
+        "Dalia Khader",
+        "Qiang Tang 0001",
+        "Peter Y. A. Ryan"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KhaderTR13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KhaderTR13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/evtwote13/workshop-program/presentation/khader"
+      ]
+    },
+    {
+      "title": "Reducing Latency in Tor Circuits with Unordered Delivery",
+      "authors": [
+        "Michael F. Nowlan",
+        "David Isaac Wolinsky",
+        "Bryan Ford"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/NowlanWF13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/NowlanWF13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci13/workshop-program/presentation/nowlan"
+      ]
+    },
+    {
+      "title": "Requirements and Design for an Extensible Toolkit for Analyzing EMR Audit Logs",
+      "authors": [
+        "Eric Duffy",
+        "Steve Nyemba",
+        "Carl A. Gunter",
+        "David M. Liebovitz",
+        "Bradley A. Malin"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DuffyNGLM13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DuffyNGLM13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/healthtech13/workshop-program/presentation/duffy"
+      ]
+    },
+    {
+      "title": "Rethinking Voter Coercion: The Realities Imposed by Technology",
+      "authors": [
+        "Josh Benaloh"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Benaloh13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Benaloh13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/evtwote13/workshop-program/presentation/benaloh"
+      ]
+    },
+    {
+      "title": "Revolver: An Automated Approach to the Detection of Evasive Web-based Malware",
+      "authors": [
+        "Alexandros Kapravelos",
+        "Yan Shoshitaishvili",
+        "Marco Cova",
+        "Christopher Kruegel",
+        "Giovanni Vigna"
+      ],
+      "pages": "637-652",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KapravelosSCKV13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KapravelosSCKV13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/kapravelos"
+      ]
+    },
+    {
+      "title": "RTRlib: An Open-Source Library in C for RPKI-based Prefix Origin Validation",
+      "authors": [
+        "Matthias W&auml;hlisch",
+        "Fabian Holler",
+        "Thomas C. Schmidt",
+        "Jochen H. Schiller"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WahlischHSS13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WahlischHSS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset13/workshop-program/presentation/w%C3%A4hlisch"
+      ]
+    },
+    {
+      "title": "Sancus: Low-cost Trustworthy Extensible Networked Devices with a Zero-software Trusted Computing Base",
+      "authors": [
+        "Job Noorman",
+        "Pieter Agten",
+        "Wilfried Daniels",
+        "Raoul Strackx",
+        "Anthony Van Herrewege",
+        "Christophe Huygens",
+        "Bart Preneel",
+        "Ingrid Verbauwhede",
+        "Frank Piessens"
+      ],
+      "pages": "479-494",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/NoormanADSHHPVP13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/NoormanADSHHPVP13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/noorman"
+      ]
+    },
+    {
+      "title": "Secure Outsourced Garbled Circuit Evaluation for Mobile Devices",
+      "authors": [
+        "Henry Carter",
+        "Benjamin Mood",
+        "Patrick Traynor",
+        "Kevin R. B. Butler"
+      ],
+      "pages": "289-304",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CarterMTB13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CarterMTB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/carter"
+      ]
+    },
+    {
+      "title": "Securing Computer Hardware Using 3D Integrated Circuit (IC) Technology and Split Manufacturing for Obfuscation",
+      "authors": [
+        "Frank Imeson",
+        "Ariq Emtenan",
+        "Siddharth Garg",
+        "Mahesh V. Tripunitara"
+      ],
+      "pages": "495-510",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ImesonEGT13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ImesonEGT13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/imeson"
+      ]
+    },
+    {
+      "title": "Securing Embedded User Interfaces: Android and Beyond",
+      "authors": [
+        "Franziska Roesner",
+        "Tadayoshi Kohno"
+      ],
+      "pages": "97-112",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/RoesnerK13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/RoesnerK13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/roesner"
+      ]
+    },
+    {
+      "title": "STAR-Vote: A Secure, Transparent, Auditable, and Reliable Voting System",
+      "authors": [
+        "Josh Benaloh",
+        "Michael D. Byrne",
+        "Bryce Eakin",
+        "Philip T. Kortum",
+        "Neal McBurnett",
+        "Olivier Pereira",
+        "Philip B. Stark",
+        "Dan S. Wallach",
+        "Gail Fisher",
+        "Julian Montoya",
+        "Michelle Parker",
+        "Michael Winn"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BenalohBEKMPSWFMPW13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BenalohBEKMPSWFMPW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/evtwote13/workshop-program/presentation/bell"
+      ]
+    },
+    {
+      "title": "Steal This Movie: Automatically Bypassing DRM Protection in Streaming Media Services",
+      "authors": [
+        "Ruoyu Wang 0001",
+        "Yan Shoshitaishvili",
+        "Christopher Kruegel",
+        "Giovanni Vigna"
+      ],
+      "pages": "687-702",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WangSKV13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WangSKV13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/wang_ruoyu"
+      ]
+    },
+    {
+      "title": "Strato: A Retargetable Framework for Low-Level Inlined-Reference Monitors",
+      "authors": [
+        "Bin Zeng 0004",
+        "Gang Tan",
+        "&Uacute;lfar Erlingsson"
+      ],
+      "pages": "369-382",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0004TE13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0004TE13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/zeng"
+      ]
+    },
+    {
+      "title": "Take This Personally: Pollution Attacks on Personalized Services",
+      "authors": [
+        "Xinyu Xing 0001",
+        "Wei Meng 0001",
+        "Dan Doozan",
+        "Alex C. Snoeren",
+        "Nick Feamster",
+        "Wenke Lee"
+      ],
+      "pages": "671-686",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/XingMDSFL13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/XingMDSFL13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/xing"
+      ]
+    },
+    {
+      "title": "Testing Voters' Understanding of a Security Mechanism Used in Verifiable Voting",
+      "authors": [
+        "Morgan Llewellyn",
+        "Steve A. Schneider",
+        "Zhe Xia",
+        "Chris Culnane",
+        "James Heather",
+        "Peter Y. A. Ryan",
+        "Sriramkrishnan Srinivasan"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LlewellynSXCHRS13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LlewellynSXCHRS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/evtwote13/workshop-program/presentation/llewellyn"
+      ]
+    },
+    {
+      "title": "The Anatomy of Web Censorship in Pakistan",
+      "authors": [
+        "Zubair Nabi"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Nabi13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Nabi13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci13/workshop-program/presentation/nabi"
+      ]
+    },
+    {
+      "title": "The Velocity of Censorship: High-Fidelity Detection of Microblog Post Deletions",
+      "authors": [
+        "Tao Zhu",
+        "David Phipps",
+        "Adam Pridgen",
+        "Jedidiah R. Crandall",
+        "Dan S. Wallach"
+      ],
+      "pages": "227-240",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZhuPPCW13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZhuPPCW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/zhu"
+      ]
+    },
+    {
+      "title": "Towards a Censorship Analyser for Tor",
+      "authors": [
+        "Philipp Winter"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Winter13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Winter13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci13/workshop-program/presentation/winter"
+      ]
+    },
+    {
+      "title": "Towards Automatic Software Lineage Inference",
+      "authors": [
+        "Jiyong Jang",
+        "Maverick Woo",
+        "David Brumley"
+      ],
+      "pages": "81-96",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/JangWB13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/JangWB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/papers/jang"
+      ]
+    },
+    {
+      "title": "Towards Illuminating a Censorship Monitor's Model to Facilitate Evasion",
+      "authors": [
+        "Sheharbano Khattak",
+        "Mobin Javed",
+        "Philip D. Anderson",
+        "Vern Paxson"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KhattakJAP13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KhattakJAP13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci13/workshop-program/presentation/khattak"
+      ]
+    },
+    {
+      "title": "Towards Provably-Secure Scalable Anonymous Broadcast",
+      "authors": [
+        "Mahdi Zamani",
+        "Jared Saia",
+        "Mahnush Movahedi",
+        "Joud S. Khoury"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZamaniSMK13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZamaniSMK13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/foci13/workshop-program/presentation/zamani"
+      ]
+    },
+    {
+      "title": "Trafficking Fraudulent Accounts: The Role of the Underground Market in Twitter Spam and Abuse",
+      "authors": [
+        "Kurt Thomas",
+        "Damon McCoy",
+        "Chris Grier",
+        "Alek Kolcz",
+        "Vern Paxson"
+      ],
+      "pages": "195-210",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ThomasMGKP13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ThomasMGKP13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/thomas"
+      ]
+    },
+    {
+      "title": "Transparent ROP Exploit Mitigation Using Indirect Branch Tracing",
+      "authors": [
+        "Vasilis Pappas",
+        "Michalis Polychronakis",
+        "Angelos D. Keromytis"
+      ],
+      "pages": "447-462",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PappasPK13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PappasPK13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/pappas"
+      ]
+    },
+    {
+      "title": "Understanding the Challenges with Medical Data Segmentation for Privacy",
+      "authors": [
+        "Ellick Chan",
+        "Peifung E. Lam",
+        "John C. Mitchell"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChanLM13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChanLM13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/healthtech13/workshop-program/presentation/chan"
+      ]
+    },
+    {
+      "title": "Using Bowel Sounds to Create a Forensically-aware Insulin Pump System",
+      "authors": [
+        "Nathan Henry",
+        "Nathanael Paul",
+        "Nicole McFarlane"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HenryPM13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HenryPM13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/healthtech13/workshop-program/presentation/henry"
+      ]
+    },
+    {
+      "title": "Valuing Security by Getting [d0x3d!]: Experiences with a Network Security Board Game",
+      "authors": [
+        "Mark A. Gondree",
+        "Zachary N. J. Peterson"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GondreeP13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GondreeP13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/cset13/workshop-program/presentation/gondree"
+      ]
+    },
+    {
+      "title": "WattsUpDoc: Power Side Channels to Nonintrusively Discover Untargeted Malware on Embedded Medical Devices",
+      "authors": [
+        "Shane S. Clark",
+        "Benjamin Ransford",
+        "Amir Rahmati",
+        "Shane Guineau",
+        "Jacob Sorber",
+        "Wenyuan Xu 0001",
+        "Kevin Fu"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ClarkRRGSXF13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ClarkRRGSXF13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/healthtech13/workshop-program/presentation/clark"
+      ]
+    },
+    {
+      "title": "WHYPER: Towards Automating Risk Assessment of Mobile Applications",
+      "authors": [
+        "Rahul Pandita",
+        "Xusheng Xiao",
+        "Wei Yang 0013",
+        "William Enck",
+        "Tao Xie 0001"
+      ],
+      "pages": "527-542",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PanditaXYEX13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PanditaXYEX13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/pandita"
+      ]
+    },
+    {
+      "title": "You Are How You Click: Clickstream Analysis for Sybil Detection",
+      "authors": [
+        "Gang Wang 0011",
+        "Tristan Konolige",
+        "Christo Wilson",
+        "Xiao Wang 0018",
+        "Haitao Zheng 0001",
+        "Ben Y. Zhao"
+      ],
+      "pages": "241-256",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WangKWWZZ13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WangKWWZZ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/wang"
+      ]
+    },
+    {
+      "title": "ZMap: Fast Internet-wide Scanning and Its Security Applications",
+      "authors": [
+        "Zakir Durumeric",
+        "Eric Wustrow",
+        "J. Alex Halderman"
+      ],
+      "pages": "605-620",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DurumericWH13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DurumericWH13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/durumeric"
+      ]
+    },
+    {
+      "title": "ZQL: A Compiler for Privacy-Preserving Data Processing",
+      "authors": [
+        "C&eacute;dric Fournet",
+        "Markulf Kohlweiss",
+        "George Danezis",
+        "Zhengqin Luo"
+      ],
+      "pages": "163-178",
+      "year": "2013",
+      "venue": "USENIX Security 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/FournetKDL13",
+      "dblp_url": "https://dblp.org/rec/conf/uss/FournetKDL13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/fournet"
+      ]
+    }
+  ]
+}

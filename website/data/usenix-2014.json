@@ -1,0 +1,857 @@
+{
+  "id": "usenix-2014",
+  "venue": "usenix",
+  "year": 2014,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2014.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2014.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2014",
+    "conf/usenix/2014-1",
+    "conf/usenix/2014-2",
+    "conf/usenix/2014-3",
+    "conf/usenix/2014-4",
+    "conf/usenix/2014-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 44,
+  "display_count": 44,
+  "papers": [
+    {
+      "title": "A Full GPU Virtualization Solution with Mediated Pass-Through",
+      "authors": [
+        "Kun Tian",
+        "Yaozu Dong",
+        "David Cowperthwaite"
+      ],
+      "pages": "121-132",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TianDC14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TianDC14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/tian"
+      ]
+    },
+    {
+      "title": "A Modular and Efficient Past State System for Berkeley DB",
+      "authors": [
+        "Ross Shaull",
+        "Liuba Shrira",
+        "Barbara Liskov"
+      ],
+      "pages": "157-168",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShaullSL14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShaullSL14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/shaull"
+      ]
+    },
+    {
+      "title": "Accelerating Restore and Garbage Collection in Deduplication-based Backup Systems via Exploiting Historical Information",
+      "authors": [
+        "Min Fu 0002",
+        "Dan Feng 0001",
+        "Yu Hua 0001",
+        "Xubin He",
+        "Zuoning Chen",
+        "Wen Xia",
+        "Fangting Huang",
+        "Qing Liu 0007"
+      ],
+      "pages": "181-192",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FuFHHCXHL14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FuFHHCXHL14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/fu_min"
+      ]
+    },
+    {
+      "title": "Application-Defined Decentralized Access Control",
+      "authors": [
+        "Yuanzhong Xu",
+        "Alan M. Dunn",
+        "Owen S. Hofmann",
+        "Michael Z. Lee",
+        "Syed Akbar Mehdi",
+        "Emmett Witchel"
+      ],
+      "pages": "395-407",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XuDHLMW14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XuDHLMW14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/xu"
+      ]
+    },
+    {
+      "title": "Automating the Choice of Consistency Levels in Replicated Systems",
+      "authors": [
+        "Cheng Li 0001",
+        "Jo&atilde;o Leit&atilde;o 0001",
+        "Allen Clement",
+        "Nuno M. Pregui&ccedil;a",
+        "Rodrigo Rodrigues 0001",
+        "Viktor Vafeiadis"
+      ],
+      "pages": "281-292",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0001LCPRV14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0001LCPRV14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/li_cheng_2"
+      ]
+    },
+    {
+      "title": "BISmark: A Testbed for Deploying Measurements and Applications in Broadband Access Networks",
+      "authors": [
+        "Srikanth Sundaresan",
+        "Sam Burnett",
+        "Nick Feamster",
+        "Walter de Donato"
+      ],
+      "pages": "383-394",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SundaresanBFD14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SundaresanBFD14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/sundaresan"
+      ]
+    },
+    {
+      "title": "Efficient Tracing of Cold Code via Bias-Free Sampling",
+      "authors": [
+        "Baris Kasikci",
+        "Thomas Ball 0001",
+        "George Candea",
+        "John Erickson",
+        "Madanlal Musuvathi"
+      ],
+      "pages": "243-254",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KasikciBCEM14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KasikciBCEM14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/kasikci"
+      ]
+    },
+    {
+      "title": "ELF: Efficient Lightweight Fast Stream Processing at Scale",
+      "authors": [
+        "Liting Hu",
+        "Karsten Schwan",
+        "Hrishikesh Amur",
+        "Xin Chen"
+      ],
+      "pages": "25-36",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuSAC14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuSAC14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/hu"
+      ]
+    },
+    {
+      "title": "Exploiting Bounded Staleness to Speed Up Big Data Analytics",
+      "authors": [
+        "Henggang Cui",
+        "James Cipar",
+        "Qirong Ho",
+        "Jin Kyu Kim",
+        "Seunghak Lee",
+        "Abhimanu Kumar",
+        "Jinliang Wei",
+        "Wei Dai 0003",
+        "Gregory R. Ganger",
+        "Phillip B. Gibbons",
+        "Garth A. Gibson",
+        "Eric P. Xing"
+      ],
+      "pages": "37-48",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CuiCHKLKWDGGGX14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CuiCHKLKWDGGGX14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/cui"
+      ]
+    },
+    {
+      "title": "Flash on Rails: Consistent Flash Performance through Redundancy",
+      "authors": [
+        "Dimitris Skourtis",
+        "Dimitris Achlioptas",
+        "Noah Watkins",
+        "Carlos Maltzahn",
+        "Scott A. Brandt"
+      ],
+      "pages": "463-474",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SkourtisAWMB14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SkourtisAWMB14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/skourtis"
+      ]
+    },
+    {
+      "title": "FlexECC: Partially Relaxing ECC of MLC SSD for Better Cache Performance",
+      "authors": [
+        "Ping Huang 0001",
+        "Pradeep Subedi",
+        "Xubin He",
+        "Shuang He",
+        "Ke Zhou 0001"
+      ],
+      "pages": "489-500",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuangSHHZ14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuangSHHZ14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/huang"
+      ]
+    },
+    {
+      "title": "GASPP: A GPU-Accelerated Stateful Packet Processing Framework",
+      "authors": [
+        "Giorgos Vasiliadis",
+        "Lazaros Koromilas",
+        "Michalis Polychronakis",
+        "Sotiris Ioannidis"
+      ],
+      "pages": "321-332",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/VasiliadisKPI14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/VasiliadisKPI14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/vasiliadis"
+      ]
+    },
+    {
+      "title": "Gestalt: Fast, Unified Fault Localization for Networked Systems",
+      "authors": [
+        "Radhika Niranjan Mysore",
+        "Ratul Mahajan",
+        "Amin Vahdat",
+        "George Varghese"
+      ],
+      "pages": "255-267",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MysoreMVV14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MysoreMVV14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/mysore"
+      ]
+    },
+    {
+      "title": "Gleaner: Mitigating the Blocked-Waiter Wakeup Problem for Virtualized Multicore Applications",
+      "authors": [
+        "Xiaoning Ding",
+        "Phillip B. Gibbons",
+        "Michael A. Kozuch",
+        "Jianchen Shan"
+      ],
+      "pages": "73-84",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DingGKS14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DingGKS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/ding"
+      ]
+    },
+    {
+      "title": "GPUvm: Why Not Virtualizing GPUs at the Hypervisor?",
+      "authors": [
+        "Yusuke Suzuki",
+        "Shinpei Kato",
+        "Hiroshi Yamada",
+        "Kenji Kono"
+      ],
+      "pages": "109-120",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SuzukiKYK14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SuzukiKYK14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/suzuki"
+      ]
+    },
+    {
+      "title": "HACK: Hierarchical ACKs for Efficient Wireless Medium Utilization",
+      "authors": [
+        "Lynne Salameh",
+        "Astrit Zhushi",
+        "Mark Handley",
+        "Kyle Jamieson",
+        "Brad Karp"
+      ],
+      "pages": "359-370",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SalamehZHJK14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SalamehZHJK14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/salameh"
+      ]
+    },
+    {
+      "title": "HaPPy: Hyperthread-aware Power Profiling Dynamically",
+      "authors": [
+        "Yan Zhai",
+        "Xiao Zhang",
+        "St&eacute;phane Eranian",
+        "Lingjia Tang",
+        "Jason Mars"
+      ],
+      "pages": "211-217",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhaiZETM14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhaiZETM14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/zhai"
+      ]
+    },
+    {
+      "title": "HYPERSHELL: A Practical Hypervisor Layer Guest OS Shell for Automated In-VM Management",
+      "authors": [
+        "Yangchun Fu",
+        "Junyuan Zeng",
+        "Zhiqiang Lin 0001"
+      ],
+      "pages": "85-96",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FuZL14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FuZL14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/fu"
+      ]
+    },
+    {
+      "title": "I/O Speculation for the Microsecond Era",
+      "authors": [
+        "Michael Yung Chung Wei",
+        "Matias Bj&oslash;rling",
+        "Philippe Bonnet",
+        "Steven Swanson"
+      ],
+      "pages": "475-481",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WeiBBS14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WeiBBS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/wei"
+      ]
+    },
+    {
+      "title": "Implementing a Leading Loads Performance Predictor on Commodity Processors",
+      "authors": [
+        "Bo Su",
+        "Joseph L. Greathouse",
+        "Junli Gu",
+        "Michael Boyer",
+        "Li Shen 0007",
+        "Zhiying Wang 0003"
+      ],
+      "pages": "205-210",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SuGGBSW14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SuGGBSW14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/su"
+      ]
+    },
+    {
+      "title": "In Search of an Understandable Consensus Algorithm",
+      "authors": [
+        "Diego Ongaro",
+        "John K. Ousterhout"
+      ],
+      "pages": "305-319",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/OngaroO14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/OngaroO14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/ongaro"
+      ]
+    },
+    {
+      "title": "Insight: In-situ Online Service Failure Path Inference in Production Computing Infrastructures",
+      "authors": [
+        "Hiep Nguyen",
+        "Daniel Joseph Dean",
+        "Kamal Kc",
+        "Xiaohui Gu"
+      ],
+      "pages": "269-280",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/NguyenDKG14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/NguyenDKG14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/nguyen"
+      ]
+    },
+    {
+      "title": "Large Pages May Be Harmful on NUMA Systems",
+      "authors": [
+        "Fabien Gaud",
+        "Baptiste Lepers",
+        "Jeremie Decouchant",
+        "Justin R. Funston",
+        "Alexandra Fedorova",
+        "Vivien Qu&eacute;ma"
+      ],
+      "pages": "231-242",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GaudLDFFQ14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GaudLDFFQ14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/gaud"
+      ]
+    },
+    {
+      "title": "Making State Explicit for Imperative Big Data Processing",
+      "authors": [
+        "Raul Castro Fernandez",
+        "Matteo Migliavacca",
+        "Evangelia Kalyvianaki",
+        "Peter R. Pietzuch"
+      ],
+      "pages": "49-60",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FernandezMKP14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FernandezMKP14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/castro-fernandez"
+      ]
+    },
+    {
+      "title": "Medusa: Managing Concurrency and Communication in Embedded Systems",
+      "authors": [
+        "Thomas W. Barr",
+        "Scott Rixner"
+      ],
+      "pages": "439-450",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BarrR14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BarrR14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/barr"
+      ]
+    },
+    {
+      "title": "MiniBox: A Two-Way Sandbox for x86 Native Code",
+      "authors": [
+        "Yanlin Li",
+        "Jonathan M. McCune",
+        "James Newsome",
+        "Adrian Perrig",
+        "Brandon Baker",
+        "Will Drewry"
+      ],
+      "pages": "409-420",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiMNPBD14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiMNPBD14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/li_yanlin"
+      ]
+    },
+    {
+      "title": "Missive: Fast Application Launch From an Untrusted Buffer Cache",
+      "authors": [
+        "Jon Howell",
+        "Jeremy Elson",
+        "Bryan Parno",
+        "John R. Douceur"
+      ],
+      "pages": "145-156",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HowellEPD14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HowellEPD14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/howell"
+      ]
+    },
+    {
+      "title": "Nitro: A Capacity-Optimized SSD Cache for Primary Storage",
+      "authors": [
+        "Cheng Li",
+        "Philip Shilane",
+        "Fred Douglis",
+        "Hyong Shim",
+        "Stephen Smaldone",
+        "Grant Wallace"
+      ],
+      "pages": "501-512",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiSDSSW14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiSDSSW14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/li_cheng_1"
+      ]
+    },
+    {
+      "title": "OS I/O Path Optimizations for Flash Solid-state Drives",
+      "authors": [
+        "Woong Shin",
+        "Qichen Chen",
+        "Myoungwon Oh",
+        "Hyeonsang Eom",
+        "Heon Y. Yeom"
+      ],
+      "pages": "483-488",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShinCOEY14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShinCOEY14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/shin"
+      ]
+    },
+    {
+      "title": "OSv - Optimizing the Operating System for Virtual Machines",
+      "authors": [
+        "Avi Kivity",
+        "Dor Laor",
+        "Glauber Costa",
+        "Pekka Enberg",
+        "Nadav Har'El",
+        "Don Marti",
+        "Vlad Zolotarov"
+      ],
+      "pages": "61-72",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KivityLCEHMZ14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KivityLCEHMZ14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/kivity"
+      ]
+    },
+    {
+      "title": "Panopticon: Reaping the Benefits of Incremental SDN Deployment in Enterprise Networks",
+      "authors": [
+        "Dan Levin",
+        "Marco Canini",
+        "Stefan Schmid 0001",
+        "Fabian Schaffert",
+        "Anja Feldmann"
+      ],
+      "pages": "333-345",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LevinCSSF14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LevinCSSF14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/levin"
+      ]
+    },
+    {
+      "title": "Programmatic Orchestration of WiFi Networks",
+      "authors": [
+        "Julius Schulz-Zander",
+        "P. Lalith Suresh",
+        "Nadi Sarrar",
+        "Anja Feldmann",
+        "Thomas H&uuml;hn",
+        "Ruben Merz"
+      ],
+      "pages": "347-358",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Schulz-ZanderSSFHM14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Schulz-ZanderSSFHM14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/schulz-zandery"
+      ]
+    },
+    {
+      "title": "Pythia: Diagnosing Performance Problems in Wide Area Providers",
+      "authors": [
+        "Partha Kanuparthy",
+        "Constantine Dovrolis"
+      ],
+      "pages": "371-382",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KanuparthyD14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KanuparthyD14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/kanuparthy"
+      ]
+    },
+    {
+      "title": "Reliable Writeback for Client-side Flash Caches",
+      "authors": [
+        "Dai Qin",
+        "Angela Demke Brown",
+        "Ashvin Goel"
+      ],
+      "pages": "451-462",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/QinBG14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/QinBG14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/qin"
+      ]
+    },
+    {
+      "title": "Scalable Read-mostly Synchronization Using Passive Reader-Writer Locks",
+      "authors": [
+        "Ran Liu 0003",
+        "Heng Zhang",
+        "Haibo Chen 0001"
+      ],
+      "pages": "219-230",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0003ZC14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0003ZC14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/liu"
+      ]
+    },
+    {
+      "title": "SCFS: A Shared Cloud-backed File System",
+      "authors": [
+        "Alysson Neves Bessani",
+        "Ricardo Mendes",
+        "Tiago Oliveira 0008",
+        "Nuno Ferreira Neves",
+        "Miguel Correia 0001",
+        "Marcelo Pasin",
+        "Paulo Ver&iacute;ssimo"
+      ],
+      "pages": "169-180",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BessaniMONCPV14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BessaniMONCPV14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/bessani"
+      ]
+    },
+    {
+      "title": "ShuffleWatcher: Shuffle-aware Scheduling in Multi-tenant MapReduce Clusters",
+      "authors": [
+        "Faraz Ahmad",
+        "Srimat T. Chakradhar",
+        "Anand Raghunathan",
+        "T. N. Vijaykumar"
+      ],
+      "pages": "1-12",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AhmadCRV14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AhmadCRV14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/ahmad"
+      ]
+    },
+    {
+      "title": "Sirius: Distributing and Coordinating Application Reference Data",
+      "authors": [
+        "Michael Bevilacqua-Linn",
+        "Maulan Byron",
+        "Peter Cline",
+        "Jon Moore",
+        "Steve Muir"
+      ],
+      "pages": "293-304",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Bevilacqua-LinnBCMM14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Bevilacqua-LinnBCMM14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/bevilacqua-linn"
+      ]
+    },
+    {
+      "title": "Static Analysis of Variability in System Software: The 90, 000 #ifdefs Issue",
+      "authors": [
+        "Reinhard Tartler",
+        "Christian Dietrich 0001",
+        "Julio Sincero",
+        "Wolfgang Schr&ouml;der-Preikschat",
+        "Daniel Lohmann"
+      ],
+      "pages": "421-432",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TartlerDSSL14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TartlerDSSL14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/tartler"
+      ]
+    },
+    {
+      "title": "The TURBO Diaries: Application-controlled Frequency Scaling Explained",
+      "authors": [
+        "Jons-Tobias Wamhoff",
+        "Stephan Diestelhorst",
+        "Christof Fetzer",
+        "Patrick Marlier",
+        "Pascal Felber",
+        "Dave Dice"
+      ],
+      "pages": "193-204",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WamhoffDFMFD14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WamhoffDFMFD14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/wamhoff"
+      ]
+    },
+    {
+      "title": "vCacheShare: Automated Server Flash Cache Space Management in a Virtualization Environment",
+      "authors": [
+        "Fei Meng",
+        "Li Zhou",
+        "Xiaosong Ma",
+        "Sandeep Uttamchandani",
+        "Deng Liu"
+      ],
+      "pages": "133-144",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MengZMUL14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MengZMUL14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/meng"
+      ]
+    },
+    {
+      "title": "Violet: A Storage Stack for IOPS/Capacity Bifurcated Storage Environments",
+      "authors": [
+        "Douglas Santry",
+        "Kaladhar Voruganti"
+      ],
+      "pages": "13-24",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SantryV14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SantryV14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/santry"
+      ]
+    },
+    {
+      "title": "XvMotion: Unified Virtual Machine Migration over Long Distance",
+      "authors": [
+        "Ali Jos&eacute; Mashtizadeh",
+        "Min Cai",
+        "Gabriel Tarasuk-Levin",
+        "Ricardo Koller",
+        "Tal Garfinkel",
+        "Sreekanth Setty"
+      ],
+      "pages": "97-108",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MashtizadehCTKGS14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MashtizadehCTKGS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/mashtizadeh"
+      ]
+    },
+    {
+      "title": "Yat: A Validation Framework for Persistent Memory Software",
+      "authors": [
+        "Philip Lantz",
+        "Dulloor Subramanya Rao",
+        "Sanjay Kumar",
+        "Rajesh Sankaran",
+        "Jeff Jackson"
+      ],
+      "pages": "433-438",
+      "year": "2014",
+      "venue": "USENIX ATC 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LantzRKSJ14",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LantzRKSJ14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc14/technical-sessions/presentation/lantz"
+      ]
+    }
+  ]
+}

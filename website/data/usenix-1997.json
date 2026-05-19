@@ -1,0 +1,45 @@
+{
+  "id": "usenix-1997",
+  "venue": "usenix",
+  "year": 1997,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix1997.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix1997.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/1997",
+    "conf/usenix/1997-1",
+    "conf/usenix/1997-2",
+    "conf/usenix/1997-3",
+    "conf/usenix/1997-4",
+    "conf/usenix/1997-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 1,
+  "display_count": 1,
+  "papers": [
+    {
+      "title": "Embedded Inodes and Explicit Grouping: Exploiting Disk Bandwidth for Small Files",
+      "authors": [
+        "Gregory R. Ganger",
+        "M. Frans Kaashoek"
+      ],
+      "pages": "1-17",
+      "year": "1997",
+      "venue": "USENIX ATC 1997",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GangerK97",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GangerK97.html",
+      "ee_links": []
+    }
+  ]
+}

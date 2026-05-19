@@ -1,0 +1,362 @@
+{
+  "id": "sosp-1973",
+  "venue": "sosp",
+  "year": 1973,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp1973.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp1973.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/1973",
+    "conf/sosp/1973-1",
+    "conf/sosp/1973-2",
+    "conf/sosp/1973-3",
+    "conf/sosp/1973-4",
+    "conf/sosp/1973-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 21,
+  "display_count": 21,
+  "papers": [
+    {
+      "title": "A Page Allocation Strategy for Multiprogramming Systems with Virtual Memory",
+      "authors": [
+        "Donald D. Chamberlin",
+        "Samuel H. Fuller",
+        "Leonard Y. Liu"
+      ],
+      "pages": "66-72",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChamberlinFL73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChamberlinFL73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808051"
+      ]
+    },
+    {
+      "title": "A Task Scheduling Algorithm for a Multiprogramming Computer System",
+      "authors": [
+        "K. L. Krause",
+        "Vincent Y. Shen",
+        "Herbert D. Schwetman"
+      ],
+      "pages": "112-118",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KrauseSS73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KrauseSS73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808058"
+      ]
+    },
+    {
+      "title": "An Experimental Implementation on the Kernel/Domain Architecture",
+      "authors": [
+        "Michael J. Spier",
+        "Thomas N. Hastings",
+        "David N. Cutler"
+      ],
+      "pages": "8-21",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SpierHC73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SpierHC73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808043"
+      ]
+    },
+    {
+      "title": "ARGOS: An Operating System for a Computer Utility Supporting Interactive Instrument Control",
+      "authors": [
+        "Paul Day",
+        "John Hines"
+      ],
+      "pages": "28-37",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DayH73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DayH73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808046"
+      ]
+    },
+    {
+      "title": "Bounds on Scheduling with Limited Resources",
+      "authors": [
+        "M. R. Garey",
+        "Ronald L. Graham"
+      ],
+      "pages": "104-111",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GareyG73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GareyG73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808057"
+      ]
+    },
+    {
+      "title": "Dynamic Storage Partitioning",
+      "authors": [
+        "Peter J. Denning",
+        "Jeffrey R. Spirn"
+      ],
+      "pages": "73-79",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DenningS73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DenningS73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808052"
+      ]
+    },
+    {
+      "title": "Formal Requirements for Virtualizable Third Generation Architectures",
+      "authors": [
+        "Gerald J. Popek",
+        "Robert P. Goldberg"
+      ],
+      "pages": "121",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PopekG73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PopekG73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808061",
+        "https://www.wikidata.org/entity/Q29301067"
+      ]
+    },
+    {
+      "title": "Interprocess Communication in Real-Time Systems",
+      "authors": [
+        "Paul G. Sorenson"
+      ],
+      "pages": "1-7",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Sorenson73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Sorenson73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808042"
+      ]
+    },
+    {
+      "title": "Limitations of Dijkstra's Semaphore Primitives and Petri Nets",
+      "authors": [
+        "S. Rao Kosaraju"
+      ],
+      "pages": "122-136",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Kosaraju73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Kosaraju73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808062"
+      ]
+    },
+    {
+      "title": "Multiprocessor Self Diagnosis, Surgery, and Recovery in Air Traffic Control",
+      "authors": [
+        "W. Walther"
+      ],
+      "pages": "38-44",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Walther73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Walther73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808047"
+      ]
+    },
+    {
+      "title": "On Reference String Generation Processes",
+      "authors": [
+        "Arvind 0001",
+        "Richard Y. Kain",
+        "Eitan Sadeh"
+      ],
+      "pages": "80-87",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ArvindKS73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ArvindKS73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808053"
+      ]
+    },
+    {
+      "title": "On the Propability of Deadline in Computer Systems",
+      "authors": [
+        "Clarence A. Ellis"
+      ],
+      "pages": "88-95",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Ellis73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Ellis73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808054"
+      ]
+    },
+    {
+      "title": "On the Structure and Control of Commands",
+      "authors": [
+        "C. J. Stephenson"
+      ],
+      "pages": "22-26",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Stephenson73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Stephenson73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808044"
+      ]
+    },
+    {
+      "title": "Online System Performance Measurements with Software and Hybrid Monitors",
+      "authors": [
+        "Liba Svobodova"
+      ],
+      "pages": "45-53",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Svobodova73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Svobodova73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808048"
+      ]
+    },
+    {
+      "title": "Optimal Folding of a Paging Drum in a Three Level Memory System",
+      "authors": [
+        "Lee J. Scheffler"
+      ],
+      "pages": "58-65",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Scheffler73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Scheffler73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808050"
+      ]
+    },
+    {
+      "title": "Polynomial Complete Scheduling Problems",
+      "authors": [
+        "Jeffrey D. Ullman"
+      ],
+      "pages": "96-101",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Ullman73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Ullman73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808055"
+      ]
+    },
+    {
+      "title": "Protection and the Control of Information Sharing in MULTICS",
+      "authors": [
+        "Jerome H. Saltzer"
+      ],
+      "pages": "119",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Saltzer73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Saltzer73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808059"
+      ]
+    },
+    {
+      "title": "Random Arrival and the MTPT Drum Scheduling Discipline",
+      "authors": [
+        "Samuel H. Fuller"
+      ],
+      "pages": "54-57",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Fuller73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Fuller73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808049"
+      ]
+    },
+    {
+      "title": "Scheduling Independent Tasks to Reduce Mean Finishing Time (Extended Abstract)",
+      "authors": [
+        "John L. Bruno",
+        "Edward G. Coffman Jr.",
+        "Ravi Sethi"
+      ],
+      "pages": "102-103",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BrunoCS73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BrunoCS73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808056"
+      ]
+    },
+    {
+      "title": "The Case for Capability-Based Computers",
+      "authors": [
+        "Robert S. Fabry"
+      ],
+      "pages": "120",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Fabry73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Fabry73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808060"
+      ]
+    },
+    {
+      "title": "The UNIX Time-Sharing System (Abstract)",
+      "authors": [
+        "Dennis Ritchie",
+        "Ken Thompson"
+      ],
+      "pages": "27",
+      "year": "1973",
+      "venue": "SOSP 1973",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RitchieT73",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RitchieT73.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800009.808045"
+      ]
+    }
+  ]
+}

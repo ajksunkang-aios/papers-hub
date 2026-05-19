@@ -1,0 +1,976 @@
+{
+  "id": "eurosys-2009",
+  "venue": "eurosys",
+  "year": 2009,
+  "short_name": "EuroSys",
+  "full_name": "European Conference on Computer Systems",
+  "source_url": "https://dblp.org/db/conf/eurosys/eurosys2009.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/eurosys/eurosys2009.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/eurosys/2009",
+    "conf/eurosys/2009-1",
+    "conf/eurosys/2009-2",
+    "conf/eurosys/2009-3",
+    "conf/eurosys/2009-4",
+    "conf/eurosys/2009-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) European Conference on Computer Systems"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 52,
+  "display_count": 52,
+  "papers": [
+    {
+      "title": "A communication mechanism for resource isolation",
+      "authors": [
+        "Matthieu Lemerre",
+        "Vincent David",
+        "Guy Vidal-Naquet"
+      ],
+      "pages": "1-6",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LemerreDV09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LemerreDV09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519130.1519131"
+      ]
+    },
+    {
+      "title": "A peer-to-peer architecture for multi-path data transfer optimization using local decisions",
+      "authors": [
+        "Mugurel Ionut Andreica",
+        "Eliana-Dina Tirsa",
+        "Nicolae Tapus"
+      ],
+      "pages": "2-5",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/AndreicaTT09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/AndreicaTT09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518691.1518693"
+      ]
+    },
+    {
+      "title": "A runtime system for software lock elision",
+      "authors": [
+        "Amitabha Roy 0002",
+        "Steven Hand 0001",
+        "Tim Harris 0001"
+      ],
+      "pages": "261-274",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RoyHH09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RoyHH09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519094"
+      ]
+    },
+    {
+      "title": "A simple approach to shared storage database servers",
+      "authors": [
+        "Lu&iacute;s Soares",
+        "Jos&eacute; Pereira 0001"
+      ],
+      "pages": "21-24",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Soares009",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Soares009.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518691.1518698",
+        "https://www.wikidata.org/entity/Q58023696"
+      ]
+    },
+    {
+      "title": "Adding the easy button to the cloud with SnowFlock and MPI",
+      "authors": [
+        "Philip Patchin",
+        "H. Andr&eacute;s Lagar-Cavilla",
+        "Eyal de Lara",
+        "Michael Brudno"
+      ],
+      "pages": "1-8",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PatchinLLB09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PatchinLLB09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519138.1519139"
+      ]
+    },
+    {
+      "title": "An asynchronous nonblocking coordination and synchronization protocol for a parallel robotic control kernel",
+      "authors": [
+        "Philippe Stellwag",
+        "Wolfgang Schr&ouml;der-Preikschat",
+        "Daniel Lohmann"
+      ],
+      "pages": "7-12",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/StellwagSL09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/StellwagSL09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519130.1519132"
+      ]
+    },
+    {
+      "title": "An evaluation of multiple communication interfaces for virtualized SMP clusters",
+      "authors": [
+        "Muhammad Atif",
+        "Peter Strazdins"
+      ],
+      "pages": "9-16",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/AtifS09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/AtifS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519138.1519140",
+        "https://www.wikidata.org/entity/Q130966812"
+      ]
+    },
+    {
+      "title": "Automated control of multiple virtualized resources",
+      "authors": [
+        "Pradeep Padala",
+        "Kai-Yuan Hou",
+        "Kang G. Shin",
+        "Xiaoyun Zhu",
+        "Mustafa Uysal",
+        "Zhikui Wang",
+        "Sharad Singhal",
+        "Arif Merchant"
+      ],
+      "pages": "13-26",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PadalaHSZUWSM09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PadalaHSZUWSM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519068"
+      ]
+    },
+    {
+      "title": "CLON: overlay network for clouds",
+      "authors": [
+        "Miguel Matos",
+        "Ant&oacute;nio Lu&iacute;s Sousa",
+        "Jos&eacute; Pereira 0001",
+        "Rui Oliveira 0001"
+      ],
+      "pages": "14-17",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MatosS0009",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MatosS0009.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518691.1518696",
+        "https://www.wikidata.org/entity/Q58023698"
+      ]
+    },
+    {
+      "title": "Clouder: a flexible large scale decentralized object store: architecture overview",
+      "authors": [
+        "Ricardo Vila&ccedil;a",
+        "Rui Oliveira 0001"
+      ],
+      "pages": "25-28",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Vilaca009",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Vilaca009.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518691.1518699",
+        "https://www.wikidata.org/entity/Q58845787"
+      ]
+    },
+    {
+      "title": "Confining windows inter-process communications for OS-level virtual machine",
+      "authors": [
+        "Zhiyong Shan",
+        "Yang Yu",
+        "Tzi-cker Chiueh"
+      ],
+      "pages": "30-35",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ShanYC09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ShanYC09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518684.1518690"
+      ]
+    },
+    {
+      "title": "Dingo: taming device drivers",
+      "authors": [
+        "Leonid Ryzhyk",
+        "Peter Chubb",
+        "Ihor Kuz",
+        "Gernot Heiser"
+      ],
+      "pages": "275-288",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RyzhykCKH09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RyzhykCKH09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519095"
+      ]
+    },
+    {
+      "title": "Effective and efficient compromise recovery for weakly consistent replication",
+      "authors": [
+        "Prince Mahajan",
+        "Ramakrishna Kotla",
+        "Catherine C. Marshall",
+        "Venugopalan Ramasubramanian",
+        "Thomas L. Rodeheffer",
+        "Douglas B. Terry",
+        "Ted Wobber"
+      ],
+      "pages": "131-144",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MahajanKMRRTW09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MahajanKMRRTW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519080"
+      ]
+    },
+    {
+      "title": "Enhancing dependability in avionics using virtualization",
+      "authors": [
+        "Youssef Laarouchi",
+        "Yves Deswarte",
+        "David Powell",
+        "Jean Arlat",
+        "Eric De Nadai"
+      ],
+      "pages": "13-17",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LaarouchiDPAN09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LaarouchiDPAN09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518684.1518687"
+      ]
+    },
+    {
+      "title": "Enterprise grade cloud computing",
+      "authors": [
+        "Paul Murray"
+      ],
+      "pages": "1",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Murray09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Murray09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518691.1518692"
+      ]
+    },
+    {
+      "title": "Extending virtualization services with trust guarantees via behavioral monitoring",
+      "authors": [
+        "Himanshu Raj",
+        "Karsten Schwan"
+      ],
+      "pages": "24-29",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RajS09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RajS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518684.1518689"
+      ]
+    },
+    {
+      "title": "Fair and timely scheduling via cooperative polling",
+      "authors": [
+        "Charles Krasic",
+        "Mayukh Saubhasik",
+        "Anirban Sinha",
+        "Ashvin Goel"
+      ],
+      "pages": "103-116",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KrasicSSG09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KrasicSSG09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519077"
+      ]
+    },
+    {
+      "title": "First-aid: surviving and preventing memory management bugs during production runs",
+      "authors": [
+        "Qi Gao 0004",
+        "Wenbin Zhang 0005",
+        "Yan Tang",
+        "Feng Qin"
+      ],
+      "pages": "159-172",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GaoZTQ09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GaoZTQ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519083",
+        "https://www.wikidata.org/entity/Q131126555"
+      ]
+    },
+    {
+      "title": "GViM: GPU-accelerated virtual machines",
+      "authors": [
+        "Vishakha Gupta",
+        "Ada Gavrilovska",
+        "Karsten Schwan",
+        "Harshvardhan Kharche",
+        "Niraj Tolia",
+        "Vanish Talwar",
+        "Parthasarathy Ranganathan"
+      ],
+      "pages": "17-24",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GuptaGSKTTR09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GuptaGSKTTR09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519138.1519141"
+      ]
+    },
+    {
+      "title": "HAAIS-DSL: DSL to develop home automation and ambient intelligence systems",
+      "authors": [
+        "Pedro J. Clemente",
+        "Jos&eacute; Mar&iacute;a Conejero",
+        "Juan Hern&aacute;ndez 0001",
+        "Lara S&aacute;nchez"
+      ],
+      "pages": "13-18",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ClementeC0S09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ClementeC0S09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519130.1519133",
+        "https://www.wikidata.org/entity/Q58487134"
+      ]
+    },
+    {
+      "title": "Highly available and scalable grid services",
+      "authors": [
+        "Guillaume Pierre",
+        "Thorsten Sch&uuml;tt",
+        "J&ouml;rg Domaschka",
+        "Massimo Coppola"
+      ],
+      "pages": "18-20",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PierreSDC09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PierreSDC09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518691.1518697"
+      ]
+    },
+    {
+      "title": "IBMon: monitoring VMM-bypass capable InfiniBand devices using memory introspection",
+      "authors": [
+        "Adit Ranadive",
+        "Ada Gavrilovska",
+        "Karsten Schwan"
+      ],
+      "pages": "25-32",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RanadiveGS09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RanadiveGS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519138.1519142"
+      ]
+    },
+    {
+      "title": "Improving the responsiveness of internet services with automatic cache placement",
+      "authors": [
+        "Alexander Rasmussen",
+        "Emre Kiciman",
+        "V. Benjamin Livshits",
+        "Madanlal Musuvathi"
+      ],
+      "pages": "27-32",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RasmussenKLM09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RasmussenKLM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519069"
+      ]
+    },
+    {
+      "title": "Instruction-level countermeasures against stack-based buffer overflow attacks",
+      "authors": [
+        "Francesco Gadaleta",
+        "Yves Younan",
+        "Bart Jacobs 0002",
+        "Wouter Joosen",
+        "Erik De Neve",
+        "Nils Beosier"
+      ],
+      "pages": "7-12",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GadaletaY0JNB09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GadaletaY0JNB09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518684.1518686",
+        "https://www.wikidata.org/entity/Q131113280"
+      ]
+    },
+    {
+      "title": "Isolating web programs in modern browser architectures",
+      "authors": [
+        "Charles Reis",
+        "Steven D. Gribble"
+      ],
+      "pages": "219-232",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ReisG09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ReisG09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519090"
+      ]
+    },
+    {
+      "title": "Koala: a platform for OS-level power management",
+      "authors": [
+        "David C. Snowdon",
+        "Etienne Le Sueur",
+        "Stefan M. Petters",
+        "Gernot Heiser"
+      ],
+      "pages": "289-302",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SnowdonSPH09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SnowdonSPH09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519097"
+      ]
+    },
+    {
+      "title": "Ksplice: automatic rebootless kernel updates",
+      "authors": [
+        "Jeff Arnold",
+        "M. Frans Kaashoek"
+      ],
+      "pages": "187-198",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ArnoldK09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ArnoldK09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519085",
+        "https://www.wikidata.org/entity/Q56671829"
+      ]
+    },
+    {
+      "title": "mBrace: action-based performance monitoring of multi-tier web applications",
+      "authors": [
+        "Andrej van der Zee",
+        "Alexandre Courbot",
+        "Tatsuo Nakajima"
+      ],
+      "pages": "29-32",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ZeeCN09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ZeeCN09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518691.1518700"
+      ]
+    },
+    {
+      "title": "Memory resource allocation for file system prefetching: from a supply chain management perspective",
+      "authors": [
+        "Zhe Zhang 0005",
+        "Amit Kulkarni",
+        "Xiaosong Ma",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "75-88",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ZhangKMZ09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ZhangKMZ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519075"
+      ]
+    },
+    {
+      "title": "Migrating server storage to SSDs: analysis of tradeoffs",
+      "authors": [
+        "Dushyanth Narayanan",
+        "Eno Thereska",
+        "Austin Donnelly",
+        "Sameh Elnikety",
+        "Antony I. T. Rowstron"
+      ],
+      "pages": "145-158",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/NarayananTDER09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/NarayananTDER09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519081",
+        "https://www.wikidata.org/entity/Q130957166"
+      ]
+    },
+    {
+      "title": "Multi-aspect profiling of kernel rootkit behavior",
+      "authors": [
+        "Ryan D. Riley",
+        "Xuxian Jiang",
+        "Dongyan Xu"
+      ],
+      "pages": "47-60",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RileyJX09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RileyJX09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519072",
+        "https://www.wikidata.org/entity/Q131128603"
+      ]
+    },
+    {
+      "title": "Optimising client accesses within Armada",
+      "authors": [
+        "Fabian Groffen",
+        "Martin L. Kersten",
+        "Stefan Manegold"
+      ],
+      "pages": "10-13",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GroffenKM09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GroffenKM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518691.1518695"
+      ]
+    },
+    {
+      "title": "Orchestra: intrusion detection using parallel execution and monitoring of program variants in user-space",
+      "authors": [
+        "Babak Salamat",
+        "Todd Jackson",
+        "Andreas Gal",
+        "Michael Franz"
+      ],
+      "pages": "33-46",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SalamatJGF09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SalamatJGF09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519071"
+      ]
+    },
+    {
+      "title": "Performance comparison of two virtual machine scenarios using an HPC application: a case study using molecular dynamics simulations",
+      "authors": [
+        "Anand Tikotekar",
+        "Hong Ong",
+        "Sadaf R. Alam",
+        "Geoffroy Vall&eacute;e",
+        "Thomas J. Naughton",
+        "Christian Engelmann",
+        "Stephen L. Scott"
+      ],
+      "pages": "33-40",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/TikotekarOAVNES09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/TikotekarOAVNES09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519138.1519143"
+      ]
+    },
+    {
+      "title": "Pointless tainting?: evaluating the practicality of pointer tainting",
+      "authors": [
+        "Asia Slowinska",
+        "Herbert Bos"
+      ],
+      "pages": "61-74",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SlowinskaB09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SlowinskaB09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519073",
+        "https://www.wikidata.org/entity/Q131127786"
+      ]
+    },
+    {
+      "title": "Predicting replicated database scalability from standalone database profiling",
+      "authors": [
+        "Sameh Elnikety",
+        "Steven G. Dropsho",
+        "Emmanuel Cecchet",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "303-316",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ElniketyDCZ09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ElniketyDCZ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519098",
+        "https://www.wikidata.org/entity/Q130877717"
+      ]
+    },
+    {
+      "title": "Privacy-preserving browser-side scripting with BFlow",
+      "authors": [
+        "Alexander Yip",
+        "Neha Narula",
+        "Maxwell N. Krohn",
+        "Robert Morris 0005"
+      ],
+      "pages": "233-246",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/YipNKM09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/YipNKM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519091",
+        "https://www.wikidata.org/entity/Q131120472"
+      ]
+    },
+    {
+      "title": "Programmable temporal isolation in real-time and embedded execution environments",
+      "authors": [
+        "Silviu S. Craciunas",
+        "Christoph M. Kirsch",
+        "Hannes Payer",
+        "Harald R&ouml;ck",
+        "Ana Sokolova"
+      ],
+      "pages": "19-24",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/CraciunasKPRS09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/CraciunasKPRS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519130.1519134"
+      ]
+    },
+    {
+      "title": "SCAN-Lite: enterprise-wide analysis on the cheap",
+      "authors": [
+        "Craig A. N. Soules",
+        "Kimberly Keeton",
+        "Charles B. Morrey III"
+      ],
+      "pages": "117-130",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SoulesKMM09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SoulesKMM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519079"
+      ]
+    },
+    {
+      "title": "SmartVisor: towards an efficient and compatible virtualization platform for embedded system",
+      "authors": [
+        "Disheng Su",
+        "Wenzhi Chen",
+        "Wei Huang",
+        "Haitao Shan",
+        "Yunhong Jiang"
+      ],
+      "pages": "37-41",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SuCHSJ09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SuCHSJ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519130.1519137",
+        "https://www.wikidata.org/entity/Q131128740"
+      ]
+    },
+    {
+      "title": "SnowFlock: rapid virtual machine cloning for cloud computing",
+      "authors": [
+        "Horacio Andr&eacute;s Lagar-Cavilla",
+        "Joseph Andrew Whitney",
+        "Adin Matthew Scannell",
+        "Philip Patchin",
+        "Stephen M. Rumble",
+        "Eyal de Lara",
+        "Michael Brudno",
+        "Mahadev Satyanarayanan"
+      ],
+      "pages": "1-12",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Lagar-CavillaWSPRLBS09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Lagar-CavillaWSPRLBS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519067",
+        "https://www.wikidata.org/entity/Q57392802"
+      ]
+    },
+    {
+      "title": "Statistical profiling-based techniques for effective power provisioning in data centers",
+      "authors": [
+        "Sriram Govindan",
+        "Jeonghwan Choi",
+        "Bhuvan Urgaonkar",
+        "Anand Sivasubramaniam",
+        "Andrea Baldini"
+      ],
+      "pages": "317-330",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GovindanCUSB09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GovindanCUSB09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519099"
+      ]
+    },
+    {
+      "title": "Taming subsystems: capabilities as universal resource access control in L4",
+      "authors": [
+        "Adam Lackorzynski",
+        "Alexander Warg"
+      ],
+      "pages": "25-30",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LackorzynskiW09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LackorzynskiW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519130.1519135"
+      ]
+    },
+    {
+      "title": "Towards automatic performance optimisation of componentised systems",
+      "authors": [
+        "Nicholas Fitzroy-Dale",
+        "Ihor Kuz"
+      ],
+      "pages": "31-36",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Fitzroy-DaleK09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Fitzroy-DaleK09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519130.1519136"
+      ]
+    },
+    {
+      "title": "Towards practical page coloring-based multicore cache management",
+      "authors": [
+        "Xiao Zhang",
+        "Sandhya Dwarkadas",
+        "Kai Shen"
+      ],
+      "pages": "89-102",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ZhangDS09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ZhangDS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519076"
+      ]
+    },
+    {
+      "title": "Tralfamadore: unifying source code and execution experience",
+      "authors": [
+        "Geoffrey Lefebvre",
+        "Brendan Cully",
+        "Michael J. Feeley",
+        "Norman C. Hutchinson",
+        "Andrew Warfield"
+      ],
+      "pages": "199-204",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LefebvreCFHW09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LefebvreCFHW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519087",
+        "https://www.wikidata.org/entity/Q131129699"
+      ]
+    },
+    {
+      "title": "Transparent checkpoints of closed distributed systems in Emulab",
+      "authors": [
+        "Anton Burtsev",
+        "Prashanth Radhakrishnan",
+        "Mike Hibler",
+        "Jay Lepreau"
+      ],
+      "pages": "173-186",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BurtsevRHL09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BurtsevRHL09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519084"
+      ]
+    },
+    {
+      "title": "User interactions in social networks and their implications",
+      "authors": [
+        "Christo Wilson",
+        "Bryce Boe",
+        "Alessandra Sala",
+        "Krishna P. N. Puttaswamy",
+        "Ben Y. Zhao"
+      ],
+      "pages": "205-218",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/WilsonBSPZ09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/WilsonBSPZ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519089"
+      ]
+    },
+    {
+      "title": "Virtual machines jailed: virtualization in systems with small trusted computing bases",
+      "authors": [
+        "Michael Peter",
+        "Henning Schild",
+        "Adam Lackorzynski",
+        "Alexander Warg"
+      ],
+      "pages": "18-23",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PeterSLW09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PeterSLW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518684.1518688",
+        "https://www.wikidata.org/entity/Q131128746"
+      ]
+    },
+    {
+      "title": "Virtualization-based separation of privilege: working with sensitive data in untrusted environment",
+      "authors": [
+        "Igor B. Burdonov",
+        "Alexander S. Kosachev",
+        "Pavel Iakovenko"
+      ],
+      "pages": "1-6",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BurdonovKI09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BurdonovKI09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518684.1518685"
+      ]
+    },
+    {
+      "title": "xCalls: safe I/O in memory transactions",
+      "authors": [
+        "Haris Volos 0001",
+        "Andres Jaan Tack",
+        "Neelam Goyal",
+        "Michael M. Swift",
+        "Adam Welc"
+      ],
+      "pages": "247-260",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/VolosTGSW09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/VolosTGSW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1519065.1519093"
+      ]
+    },
+    {
+      "title": "XTream: an open, distributed platform for processing personal information streams",
+      "authors": [
+        "Michael Duller",
+        "Gustavo Alonso"
+      ],
+      "pages": "6-9",
+      "year": "2009",
+      "venue": "EuroSys 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/DullerA09",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/DullerA09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1518691.1518694"
+      ]
+    }
+  ]
+}

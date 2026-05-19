@@ -1,0 +1,487 @@
+{
+  "id": "fast-2024",
+  "venue": "fast",
+  "year": 2024,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2024.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2024.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2024",
+    "conf/fast/2024-1",
+    "conf/fast/2024-2",
+    "conf/fast/2024-3",
+    "conf/fast/2024-4",
+    "conf/fast/2024-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 22,
+  "display_count": 22,
+  "papers": [
+    {
+      "title": "Baleen: ML Admission & Prefetching for Flash Caches",
+      "authors": [
+        "Daniel Lin-Kit Wong",
+        "Hao Wu",
+        "Carson Molder",
+        "Sathya Gunasekar",
+        "Jimmy Lu",
+        "Snehal Khandkar",
+        "Abhinav Sharma",
+        "Daniel S. Berger",
+        "Nathan Beckmann",
+        "Gregory R. Ganger"
+      ],
+      "pages": "347-371",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WongWMGLKSBBG24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WongWMGLKSBBG24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/wong"
+      ]
+    },
+    {
+      "title": "COLE: A Column-based Learned Storage for Blockchain Systems",
+      "authors": [
+        "Ce Zhang 0007",
+        "Cheng Xu 0004",
+        "Haibo Hu 0001",
+        "Jianliang Xu"
+      ],
+      "pages": "329-345",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/000700X24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/000700X24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/zhang-ce"
+      ]
+    },
+    {
+      "title": "Combining Buffered I/O and Direct I/O in Distributed File Systems",
+      "authors": [
+        "Yingjin Qian",
+        "Marc-Andr&eacute; Vef",
+        "Patrick Farrell",
+        "Andreas Dilger",
+        "Xi Li",
+        "Shuichi Ihara",
+        "Yinjin Fu",
+        "Wei Xue",
+        "Andr&eacute; Brinkmann"
+      ],
+      "pages": "17-33",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/QianVFDLIFXB24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/QianVFDLIFXB24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/qian"
+      ]
+    },
+    {
+      "title": "ELECT: Enabling Erasure Coding Tiering for LSM-tree-based Storage",
+      "authors": [
+        "Yanjing Ren",
+        "Yuanming Ren",
+        "Xiaolu Li 0002",
+        "Yuchong Hu",
+        "Jingwei Li 0001",
+        "Patrick P. C. Lee"
+      ],
+      "pages": "293-310",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RenR0HLL24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RenR0HLL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/ren"
+      ]
+    },
+    {
+      "title": "I/O in a Flash: Evolution of ONTAP to Low-Latency SSDs",
+      "authors": [
+        "Matthew Curtis-Maury",
+        "Ram Kesavan",
+        "Bharadwaj V. R.",
+        "Nikhil Mattankot",
+        "Vania Fang",
+        "Yash Trivedi",
+        "Kesari Mishra",
+        "Qin Li"
+      ],
+      "pages": "177-192",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Curtis-MauryKRM24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Curtis-MauryKRM24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/curtis-maury"
+      ]
+    },
+    {
+      "title": "I/O Passthru: Upstreaming a flexible and efficient I/O Path in Linux",
+      "authors": [
+        "Kanchan Joshi",
+        "Anuj Gupta",
+        "Javier Gonz&aacute;lez 0006",
+        "Ankit Kumar",
+        "Krishna Kanth Reddy",
+        "Arun George",
+        "Simon Andreas Frimann Lund",
+        "Jens Axboe"
+      ],
+      "pages": "107-121",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JoshiG0KRGLA24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JoshiG0KRGLA24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/joshi"
+      ]
+    },
+    {
+      "title": "In-Memory Key-Value Store Live Migration with NetMigrate",
+      "authors": [
+        "Zeying Zhu",
+        "Yibo Zhao",
+        "Zaoxing Liu"
+      ],
+      "pages": "209-224",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhuZL24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhuZL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/zhu"
+      ]
+    },
+    {
+      "title": "IONIA: High-Performance Replication for Modern Disk-based KV Stores",
+      "authors": [
+        "Yi Xu",
+        "Henry Zhu",
+        "Prashant Pandey 0001",
+        "Alex Conway 0001",
+        "Rob Johnson 0001",
+        "Aishwarya Ganesan",
+        "Ramnatthan Alagappan"
+      ],
+      "pages": "225-241",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/XuZ0CJGA24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/XuZ0CJGA24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/xu"
+      ]
+    },
+    {
+      "title": "Kosmo: Efficient Online Miss Ratio Curve Generation for Eviction Policy Evaluation",
+      "authors": [
+        "Kia Shakiba",
+        "Sari Sultan",
+        "Michael Stumm"
+      ],
+      "pages": "89-105",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ShakibaSS24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ShakibaSS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/shakiba"
+      ]
+    },
+    {
+      "title": "Metis: File System Model Checking via Versatile Input and State Exploration",
+      "authors": [
+        "Yifei Liu",
+        "Manish Adkar",
+        "Gerard J. Holzmann",
+        "Geoff Kuenning",
+        "Pei Liu",
+        "Scott A. Smolka",
+        "Wei Su",
+        "Erez Zadok"
+      ],
+      "pages": "123-140",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuAHKLSSZ24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuAHKLSSZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/liu-yifei"
+      ]
+    },
+    {
+      "title": "MIDAS: Minimizing Write Amplification in Log-Structured Systems through Adaptive Group Number and Size Configuration",
+      "authors": [
+        "Seonggyun Oh",
+        "Jeeyun Kim",
+        "Soyoung Han",
+        "Jaeho Kim",
+        "Sungjin Lee 0001",
+        "Sam H. Noh"
+      ],
+      "pages": "259-275",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/OhKHK0N24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/OhKHK0N24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/oh"
+      ]
+    },
+    {
+      "title": "MinFlow: High-performance and Cost-efficient Data Passing for I/O-intensive Stateful Serverless Analytics",
+      "authors": [
+        "Tao Li",
+        "Yongkun Li 0001",
+        "Wenzhe Zhu",
+        "Yinlong Xu 0001",
+        "John C. S. Lui"
+      ],
+      "pages": "311-327",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Li0ZXL24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Li0ZXL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/li"
+      ]
+    },
+    {
+      "title": "OmniCache: Collaborative Caching for Near-storage Accelerators",
+      "authors": [
+        "Jian Zhang",
+        "Yujie Ren",
+        "Marie Nguyen",
+        "Changwoo Min",
+        "Sudarsun Kannan"
+      ],
+      "pages": "35-50",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangRNMK24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangRNMK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/zhang-jian"
+      ]
+    },
+    {
+      "title": "Optimizing File Systems on Heterogeneous Memory by Integrating DRAM Cache with Virtual Memory Management",
+      "authors": [
+        "Yubo Liu",
+        "Yuxin Ren 0001",
+        "Mingrui Liu 0005",
+        "Hongbo Li 0007",
+        "Hanjun Guo",
+        "Xie Miao",
+        "Xinwei Hu",
+        "Haibo Chen 0001"
+      ],
+      "pages": "71-87",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Liu0LLGMH024",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Liu0LLGMH024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/liu-yubo"
+      ]
+    },
+    {
+      "title": "Physical vs. Logical Indexing with IDEA: Inverted Deduplication-Aware Index",
+      "authors": [
+        "Asaf Levi",
+        "Philip Shilane",
+        "Sarai Sheinvald",
+        "Gala Yadgar"
+      ],
+      "pages": "243-258",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LeviSSY24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LeviSSY24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/levi"
+      ]
+    },
+    {
+      "title": "RFUSE: Modernizing Userspace Filesystem Framework through Scalable Kernel-Userspace Communication",
+      "authors": [
+        "Kyu-Jin Cho",
+        "Jaewon Choi",
+        "Hyungjoon Kwon",
+        "Jin-Soo Kim"
+      ],
+      "pages": "141-157",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChoCKK24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChoCKK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/cho"
+      ]
+    },
+    {
+      "title": "Seraph: Towards Scalable and Efficient Fully-external Graph Computation via On-demand Processing",
+      "authors": [
+        "Tsun-Yu Yang",
+        "Yizou Chen",
+        "Yuhong Liang",
+        "Ming-Chang Yang"
+      ],
+      "pages": "373-387",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YangCLY24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YangCLY24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/yang-tsun-yu"
+      ]
+    },
+    {
+      "title": "Symbiosis: The Art of Application and Kernel Cache Cooperation",
+      "authors": [
+        "Yifan Dai",
+        "Jing Liu 0074",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "51-69",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DaiLAA24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DaiLAA24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/dai"
+      ]
+    },
+    {
+      "title": "TeRM: Extending RDMA-Attached Memory with SSD",
+      "authors": [
+        "Zhe Yang 0012",
+        "Qing Wang 0031",
+        "Xiaojian Liao",
+        "Youyou Lu",
+        "Keji Huang",
+        "Jiwu Shu"
+      ],
+      "pages": "1-16",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Yang0LLHS24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Yang0LLHS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/yang-zhe"
+      ]
+    },
+    {
+      "title": "The Design and Implementation of a Capacity-Variant Storage System",
+      "authors": [
+        "Ziyang Jiao",
+        "Xiangqun Zhang 0002",
+        "Hojin Shin",
+        "Jongmoo Choi",
+        "Bryan S. Kim"
+      ],
+      "pages": "159-176",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JiaoZSCK24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JiaoZSCK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/jiao"
+      ]
+    },
+    {
+      "title": "We Ain't Afraid of No File Fragmentation: Causes and Prevention of Its Performance Impact on Modern Flash SSDs",
+      "authors": [
+        "Yuhun Jun",
+        "Shin-Hyun Park",
+        "Jeong-Uk Kang",
+        "Sang-Hoon Kim",
+        "Euiseong Seo"
+      ],
+      "pages": "193-208",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JunPKKS24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JunPKKS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/jun"
+      ]
+    },
+    {
+      "title": "What's the Story in EBS Glory: Evolutions and Lessons in Building Cloud Block Store",
+      "authors": [
+        "Weidong Zhang 0011",
+        "Erci Xu",
+        "Qiuping Wang",
+        "Xiaolu Zhang",
+        "Yuesheng Gu",
+        "Zhenwei Lu",
+        "Tao Ouyang",
+        "Guanqun Dai",
+        "Wenwen Peng",
+        "Zhe Xu",
+        "Shuo Zhang",
+        "Dong Wu",
+        "Yilei Peng",
+        "Tianyun Wang",
+        "Haoran Zhang",
+        "Jiasheng Wang",
+        "Wenyuan Yan",
+        "Yuanyuan Dong",
+        "Wenhui Yao",
+        "Zhongjie Wu",
+        "Lingjun Zhu",
+        "Chao Shi",
+        "Yinhu Wang",
+        "Rong Liu",
+        "Junping Wu",
+        "Jiaji Zhu",
+        "Jiesheng Wu"
+      ],
+      "pages": "277-291",
+      "year": "2024",
+      "venue": "FAST 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangXWZGLODPXZ24",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangXWZGLODPXZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast24/presentation/zhang-weidong"
+      ]
+    }
+  ]
+}

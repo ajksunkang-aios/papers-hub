@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conference Papers | OS Kernel Papers Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <p class="eyebrow"><a id="back-link" href="index.html">All conferences</a></p>
+        <h1 id="page-title">Conference</h1>
+        <p class="lede" id="page-subtitle"></p>
+        <dl class="stats" id="stats"></dl>
+      </div>
+    </header>
+
+    <main class="wrap conf-page">
+      <section class="toolbar toolbar-sticky" aria-label="Filters">
+        <label class="search">
+          <span class="sr-only">Search papers</span>
+          <input
+            id="search"
+            type="search"
+            placeholder="Search title or author..."
+            autocomplete="off"
+          />
+        </label>
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+      </section>
+
+      <section id="paper-list" class="paper-list paper-list-dense" aria-label="Paper list"></section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <p>
+        Data source: <span id="source-links"></span>
+        | Generated <time id="generated-at"></time>
+      </p>
+    </footer>
+
+    <script src="conference.js?v=7" type="module"></script>
+  </body>
+</html>

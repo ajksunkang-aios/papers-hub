@@ -1,0 +1,758 @@
+{
+  "id": "fast-2025",
+  "venue": "fast",
+  "year": 2025,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2025.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2025.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2025",
+    "conf/fast/2025-1",
+    "conf/fast/2025-2",
+    "conf/fast/2025-3",
+    "conf/fast/2025-4",
+    "conf/fast/2025-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 36,
+  "display_count": 36,
+  "papers": [
+    {
+      "title": "3L-Cache: Low Overhead and Precise Learning-based Eviction Policy for Caches",
+      "authors": [
+        "Wenbin Zhou",
+        "Zhixiong Niu",
+        "Yongqiang Xiong",
+        "Juan Fang",
+        "Qian Wang"
+      ],
+      "pages": "237-254",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhouNXFW25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhouNXFW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/zhou-wenbin"
+      ]
+    },
+    {
+      "title": "AegonKV: A High Bandwidth, Low Tail Latency, and Low Storage Cost KV-Separated LSM Store with SmartSSD-based GC Offloading",
+      "authors": [
+        "Zhuohui Duan",
+        "Hao Feng",
+        "Haikun Liu",
+        "Xiaofei Liao",
+        "Hai Jin 0001",
+        "Bangyu Li"
+      ],
+      "pages": "321-335",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DuanFLL0L25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DuanFLL0L25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/duan"
+      ]
+    },
+    {
+      "title": "Archer: Adaptive Memory Compression with Page-Association-Rule Awareness for High-Speed Response of Mobile Devices",
+      "authors": [
+        "Changlong Li 0006",
+        "Zongwei Zhu",
+        "Chao Wang 0003",
+        "Fangming Liu",
+        "Fei Xu",
+        "Edwin H.-M. Sha",
+        "Xuehai Zhou"
+      ],
+      "pages": "497-511",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiZ0LXSZ25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiZ0LXSZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/li"
+      ]
+    },
+    {
+      "title": "AtomicDisk: A Secure Virtual Disk for TEEs against Eviction Attacks",
+      "authors": [
+        "Hongliang Tian",
+        "Xinyi Yu",
+        "Shaowei Song",
+        "Qingsong Chen",
+        "Zhihao Zhang",
+        "Shiyu Wang",
+        "Weijie Liu 0004",
+        "Erci Xu",
+        "Shoumeng Yan",
+        "Yiming Zhang 0003"
+      ],
+      "pages": "449-459",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TianYSCZWLXY025",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TianYSCZWLXY025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/tian-hongliang"
+      ]
+    },
+    {
+      "title": "AWUPF Rediscovered: Atomic Writes to Unleash Pivotal Fault-Tolerance in SSDs",
+      "authors": [
+        "Jiyune Jeon",
+        "Jongseok Kim",
+        "Sam H. Noh",
+        "Euiseong Seo"
+      ],
+      "pages": "441-448",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JeonKNS25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JeonKNS25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/jeon"
+      ]
+    },
+    {
+      "title": "Boosting File Systems Elegantly: A Transparent NVM Write-ahead Log for Disk File Systems",
+      "authors": [
+        "Guoyu Wang",
+        "Xilong Che",
+        "Haoyang Wei",
+        "Shuo Chen",
+        "Puyi He",
+        "Juncheng Hu"
+      ],
+      "pages": "19-34",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangCWCHH25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangCWCHH25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/wang"
+      ]
+    },
+    {
+      "title": "Cloudscape: A Study of Storage Services in Modern Cloud Architectures",
+      "authors": [
+        "Sambhav Satija",
+        "Chenhao Ye",
+        "Ranjitha Kosgi",
+        "Aditya Jain",
+        "Romit Kankaria",
+        "Yiwei Chen",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Kiran Srinivasan"
+      ],
+      "pages": "103-121",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SatijaYKJKCAAS25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SatijaYKJKCAAS25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/satija"
+      ]
+    },
+    {
+      "title": "D2FS: Device-Driven Filesystem Garbage Collection",
+      "authors": [
+        "Juwon Kim",
+        "Seungjae Lee",
+        "Joontaek Oh",
+        "Dongkun Shin",
+        "Youjip Won"
+      ],
+      "pages": "337-353",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimLOSW25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimLOSW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/kim-juwon"
+      ]
+    },
+    {
+      "title": "DJFS : Directory-Granularity Filesystem Journaling for CMM-H SSDs",
+      "authors": [
+        "Seung Won Yoo",
+        "Joontaek Oh",
+        "Myeongin Cheon",
+        "Bonmoo Koo",
+        "Wonseb Jeong",
+        "Hyunsub Song",
+        "Hyeonho Song",
+        "Donghun Lee",
+        "Youjip Won"
+      ],
+      "pages": "35-51",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YooOCKJSSLW25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YooOCKJSSLW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/yoo"
+      ]
+    },
+    {
+      "title": "DNA data storage: A generative tool for Motif-based DNA storage",
+      "authors": [
+        "Samira Brunmayr",
+        "Omer S. Sella",
+        "Thomas Heinis"
+      ],
+      "pages": "573-581",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BrunmayrSH25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BrunmayrSH25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/brunmayr"
+      ]
+    },
+    {
+      "title": "Don't Maintain Twice, It's Alright: Merged Metadata Management in Deduplication File System with GogetaFS",
+      "authors": [
+        "Yanqi Pan",
+        "Wen Xia",
+        "Erci Xu",
+        "Hao Huang",
+        "Xiangyu Zou",
+        "Shiyi Li"
+      ],
+      "pages": "479-495",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PanXXHZL25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PanXXHZL25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/pan"
+      ]
+    },
+    {
+      "title": "Fast, Transparent Filesystem Microkernel Recovery with Ananke",
+      "authors": [
+        "Jing Liu 0074",
+        "Yifan Dai",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "1-18",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuDAA25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuDAA25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/liu-jing"
+      ]
+    },
+    {
+      "title": "FlacIO: Flat and Collective I/O for Container Image Service",
+      "authors": [
+        "Yubo Liu",
+        "Hongbo Li 0007",
+        "Mingrui Liu 0005",
+        "Rui Jing",
+        "Jian Guo",
+        "Bo Zhang",
+        "Hanjun Guo",
+        "Yuxin Ren 0001",
+        "Ning Jia 0004"
+      ],
+      "pages": "87-101",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuLLJGZG0J25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuLLJGZG0J25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/liu-yubo"
+      ]
+    },
+    {
+      "title": "GeminiFS: A Companion File System for GPUs",
+      "authors": [
+        "Shi Qiu 0012",
+        "Weinan Liu",
+        "Yifan Hu",
+        "Jianqin Yan",
+        "Zhirong Shen",
+        "Xin Yao",
+        "Renhai Chen",
+        "Gong Zhang 0001",
+        "Yiming Zhang 0003"
+      ],
+      "pages": "221-236",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/QiuLHYSYCZZ25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/QiuLHYSYCZZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/qiu"
+      ]
+    },
+    {
+      "title": "GPHash: An Efficient Hash Index for GPU with Byte-Granularity Persistent Memory",
+      "authors": [
+        "Menglei Chen",
+        "Yu Hua 0001",
+        "Zhangyu Chen",
+        "Ming Zhang",
+        "Gen Dong"
+      ],
+      "pages": "203-220",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Chen0CZD25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Chen0CZD25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/chen-menglei"
+      ]
+    },
+    {
+      "title": "HaSiS: A Hardware-assisted Single-index Store for Hybrid Transactional and Analytical Processing",
+      "authors": [
+        "Kecheng Huang",
+        "Zhaoyan Shen",
+        "Zili Shao",
+        "Feng Chen 0005",
+        "Tong Zhang 0002"
+      ],
+      "pages": "305-320",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HuangSS0025",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HuangSS0025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/huang"
+      ]
+    },
+    {
+      "title": "HiDPU: A DPU-Oriented Hybrid Indexing Scheme for Disaggregated Storage Systems",
+      "authors": [
+        "Wenbin Zhu",
+        "Zhaoyan Shen",
+        "Qian Wei",
+        "Renhai Chen",
+        "Xin Yao",
+        "Dongxiao Yu",
+        "Zili Shao"
+      ],
+      "pages": "271-285",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhuSWCYYS25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhuSWCYYS25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/zhu"
+      ]
+    },
+    {
+      "title": "IMPRESS: An Importance-Informed Multi-Tier Prefix KV Storage System for Large Language Model Inference",
+      "authors": [
+        "Weijian Chen 0002",
+        "Shuibing He",
+        "Haoyang Qu",
+        "Ruidong Zhang",
+        "Siling Yang",
+        "Ping Chen",
+        "Yi Zheng",
+        "Baoxing Huai",
+        "Gang Chen 0001"
+      ],
+      "pages": "187-201",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/0002HQZYCZH025",
+      "dblp_url": "https://dblp.org/rec/conf/fast/0002HQZYCZH025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/chen-weijian-impress"
+      ]
+    },
+    {
+      "title": "LeapGNN: Accelerating Distributed GNN Training Leveraging Feature-Centric Model Migration",
+      "authors": [
+        "Weijian Chen 0002",
+        "Shuibing He",
+        "Haoyang Qu",
+        "Xuechen Zhang 0001"
+      ],
+      "pages": "255-270",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/0002HQ025",
+      "dblp_url": "https://dblp.org/rec/conf/fast/0002HQ025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/chen-weijian-leap"
+      ]
+    },
+    {
+      "title": "Liquid-State Drive: A Case for DNA Block Device for Enormous Data",
+      "authors": [
+        "Jiahao Zhou",
+        "Mingkai Dong 0002",
+        "Fei Wang 0130",
+        "Jingyao Zeng",
+        "Lei Zhao 0011",
+        "Chunhai Fan",
+        "Haibo Chen 0001"
+      ],
+      "pages": "557-571",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Zhou0WZ0F025",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Zhou0WZ0F025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/zhou-jiahao"
+      ]
+    },
+    {
+      "title": "Maat: Analyzing and Optimizing Overcharge on Blockchain Storage",
+      "authors": [
+        "Zheyuan He",
+        "Zihao Li 0001",
+        "Ao Qiao",
+        "Jingwei Li 0001",
+        "Feng Luo 0009",
+        "Sen Yang",
+        "Gelei Deng",
+        "Shuwei Song",
+        "Xiaosong Zhang 0001",
+        "Ting Chen 0002",
+        "Xiapu Luo"
+      ],
+      "pages": "123-137",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/He0Q0LYDS00L25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/He0Q0LYDS00L25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/he"
+      ]
+    },
+    {
+      "title": "MedFS: Pursuing Low Update Overhead via Metadata-Enabled Delta Compression for Log-structured File System on Mobile Device",
+      "authors": [
+        "Chao Wu 0006",
+        "Cheng Ji 0002",
+        "Li-Pin Chang",
+        "Zongwei Zhu",
+        "Congming Gao",
+        "Weichao Guo",
+        "Chao Yu",
+        "Yanzhi Wang 0001"
+      ],
+      "pages": "461-478",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/00060CZGGYW25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/00060CZGGYW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/wu"
+      ]
+    },
+    {
+      "title": "Mooncake: Trading More Storage for Less Computation - A KVCache-centric Architecture for Serving LLM Chatbot",
+      "authors": [
+        "Ruoyu Qin",
+        "Zheming Li",
+        "Weiran He",
+        "Jialei Cui",
+        "Feng Ren",
+        "Mingxing Zhang",
+        "Yongwei Wu 0001",
+        "Weimin Zheng",
+        "Xinran Xu"
+      ],
+      "pages": "155-170",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/QinLHCRZ0ZX25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/QinLHCRZ0ZX25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/qin"
+      ]
+    },
+    {
+      "title": "Oasis: An Out-of-core Approximate Graph System via All-Distances Sketches",
+      "authors": [
+        "Tsun-Yu Yang",
+        "Yi Li",
+        "Yizou Chen",
+        "Bingzhe Li",
+        "Ming-Chang Yang"
+      ],
+      "pages": "523-537",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YangLCLY25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YangLCLY25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/yang"
+      ]
+    },
+    {
+      "title": "On Scalable Integrity Checking for Secure Cloud Disks",
+      "authors": [
+        "Quinn Burke 0002",
+        "Ryan Sheatsley",
+        "Rachel King",
+        "Owen Hines",
+        "Michael Swift",
+        "Patrick D. McDaniel"
+      ],
+      "pages": "391-405",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/0002SKHSM25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/0002SKHSM25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/burke"
+      ]
+    },
+    {
+      "title": "OPIMQ: Order Preserving IO stack for Multi-Queue Block Device",
+      "authors": [
+        "Jieun Kim",
+        "Joontaek Oh",
+        "Juwon Kim",
+        "Seung Won Yoo",
+        "Youjip Won"
+      ],
+      "pages": "425-439",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimOKYW25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimOKYW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/kim-jieun"
+      ]
+    },
+    {
+      "title": "PIMLex: A High-Performance Learned Index with Processing-in-Memory",
+      "authors": [
+        "Lixiao Cui",
+        "Kedi Yang",
+        "Yusen Li",
+        "Gang Wang 0001",
+        "Xiaoguang Liu 0001"
+      ],
+      "pages": "287-303",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CuiYL0025",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CuiYL0025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/cui"
+      ]
+    },
+    {
+      "title": "PolyStore: Exploiting Combined Capabilities of Heterogeneous Storage",
+      "authors": [
+        "Yujie Ren",
+        "David Domingo",
+        "Jian Zhang",
+        "Paul John",
+        "Rekha Pitchumani",
+        "Sanidhya Kashyap",
+        "Sudarsun Kannan"
+      ],
+      "pages": "539-555",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RenDZJPKK25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RenDZJPKK25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/ren"
+      ]
+    },
+    {
+      "title": "Rethinking the Request-to-IO Transformation Process of File Systems for Full Utilization of High-Bandwidth SSDs",
+      "authors": [
+        "Yekang Zhan",
+        "Haichuan Hu",
+        "Xiangrui Yang 0001",
+        "Qiang Cao 0001",
+        "Hong Jiang 0001",
+        "Shaohua Wang",
+        "Jie Yao 0001"
+      ],
+      "pages": "69-86",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhanHY00W025",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhanHY00W025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/zhan"
+      ]
+    },
+    {
+      "title": "Revisiting Network Coding for Warm Blob Storage",
+      "authors": [
+        "Chuang Gan 0002",
+        "Yuchong Hu",
+        "Leyan Zhao",
+        "Xin Zhao",
+        "Pengyu Gong",
+        "Dan Feng 0001"
+      ],
+      "pages": "139-154",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GanHZZG025",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GanHZZG025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/gan"
+      ]
+    },
+    {
+      "title": "ScaleLFS: A Log-Structured File System with Scalable Garbage Collection for Commodity SSDs",
+      "authors": [
+        "Jinyong Ha 0001",
+        "Sangjin Lee 0003",
+        "Hyeonsang Eom",
+        "Yongseok Son"
+      ],
+      "pages": "53-67",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/00010ES25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/00010ES25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/ha"
+      ]
+    },
+    {
+      "title": "Selective On-Device Execution of Data-Dependent Read I/Os",
+      "authors": [
+        "Chanyoung Park",
+        "Minu Chung",
+        "Hyungon Moon"
+      ],
+      "pages": "373-390",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ParkCM25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ParkCM25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/park"
+      ]
+    },
+    {
+      "title": "ShiftLock: Mitigate One-sided RDMA Lock Contention via Handover",
+      "authors": [
+        "Jian Gao",
+        "Qing Wang 0031",
+        "Jiwu Shu"
+      ],
+      "pages": "355-372",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Gao0S25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Gao0S25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/gao"
+      ]
+    },
+    {
+      "title": "Silhouette: Leveraging Consistency Mechanisms to Detect Bugs in Persistent Memory-Based File Systems",
+      "authors": [
+        "Bing Jiao",
+        "Ashvin Goel",
+        "An-I Andy Wang"
+      ],
+      "pages": "407-423",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JiaoGW25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JiaoGW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/jiao"
+      ]
+    },
+    {
+      "title": "Towards High-throughput and Low-latency Billion-scale Vector Search via CPU/GPU Collaborative Filtering and Re-ranking",
+      "authors": [
+        "Bing Tian",
+        "Haikun Liu",
+        "Yuhang Tang",
+        "Shihai Xiao",
+        "Zhuohui Duan",
+        "Xiaofei Liao",
+        "Hai Jin 0001",
+        "Xuecang Zhang",
+        "Junhua Zhu",
+        "Yu Zhang 0027"
+      ],
+      "pages": "171-185",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TianLTXDL0ZZ025",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TianLTXDL0ZZ025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/tian-bing"
+      ]
+    },
+    {
+      "title": "VectorCDC: Accelerating Data Deduplication with Vector Instructions",
+      "authors": [
+        "Sreeharsha Udayashankar",
+        "Abdelrahman Baba",
+        "Samer Al-Kiswany"
+      ],
+      "pages": "513-522",
+      "year": "2025",
+      "venue": "FAST 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/UdayashankarBA25",
+      "dblp_url": "https://dblp.org/rec/conf/fast/UdayashankarBA25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast25/presentation/udayashankar"
+      ]
+    }
+  ]
+}

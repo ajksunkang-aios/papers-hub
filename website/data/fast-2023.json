@@ -1,0 +1,668 @@
+{
+  "id": "fast-2023",
+  "venue": "fast",
+  "year": 2023,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2023.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2023.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2023",
+    "conf/fast/2023-1",
+    "conf/fast/2023-2",
+    "conf/fast/2023-3",
+    "conf/fast/2023-4",
+    "conf/fast/2023-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 29,
+  "display_count": 29,
+  "papers": [
+    {
+      "title": "ADOC: Automatically Harmonizing Dataflow Between Components in Log-Structured Key-Value Stores for Improved Performance",
+      "authors": [
+        "Jinghuan Yu",
+        "Sam H. Noh",
+        "Young-ri Choi",
+        "Chun Jason Xue"
+      ],
+      "pages": "65-80",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YuNCX23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YuNCX23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/yu"
+      ]
+    },
+    {
+      "title": "Building and Operating a Pretty Big Storage System (My Adventures in Amazon S3)",
+      "authors": [
+        "Andy Warfield"
+      ],
+      "pages": null,
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Warfield23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Warfield23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/warfield"
+      ]
+    },
+    {
+      "title": "Citron: Distributed Range Lock Management with One-sided RDMA",
+      "authors": [
+        "Jian Gao",
+        "Youyou Lu",
+        "Minhui Xie",
+        "Qing Wang 0031",
+        "Jiwu Shu"
+      ],
+      "pages": "297-314",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GaoLX0S23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GaoLX0S23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/gao"
+      ]
+    },
+    {
+      "title": "CJFS: Concurrent Journaling for Better Scalability",
+      "authors": [
+        "Joontaek Oh",
+        "Seung Won Yoo",
+        "Hojin Nam",
+        "Changwoo Min",
+        "Youjip Won"
+      ],
+      "pages": "167-182",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/OhYNMW23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/OhYNMW23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/oh"
+      ]
+    },
+    {
+      "title": "ConfD: Analyzing Configuration Dependencies of File Systems for Fun and Profit",
+      "authors": [
+        "Tabassum Mahmud",
+        "Om Rameshwar Gatla",
+        "Duo Zhang",
+        "Carson Love",
+        "Ryan Bumann",
+        "Mai Zheng"
+      ],
+      "pages": "199-214",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MahmudGZLBZ23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MahmudGZLBZ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/mahmud"
+      ]
+    },
+    {
+      "title": "Fast Application Launch on Personal Computing/Communication Devices",
+      "authors": [
+        "Junhee Ryu",
+        "Dongeun Lee 0001",
+        "Kang G. Shin",
+        "Kyungtae Kang"
+      ],
+      "pages": "425-440",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Ryu0SK23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Ryu0SK23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/ryu"
+      ]
+    },
+    {
+      "title": "Fisc: A Large-scale Cloud-native-oriented File System",
+      "authors": [
+        "Qiang Li 0045",
+        "Lulu Chen",
+        "Xiaoliang Wang 0001",
+        "Shuo Huang",
+        "Qiao Xiang",
+        "Yuanyuan Dong",
+        "Wenhui Yao",
+        "Minfei Huang",
+        "Puyuan Yang",
+        "Shanyang Liu",
+        "Zhaosheng Zhu",
+        "Huayong Wang",
+        "Haonan Qiu",
+        "Derui Liu",
+        "Shaozong Liu",
+        "Yujie Zhou",
+        "Yaohui Wu",
+        "Zhiwu Wu",
+        "Shang Gao",
+        "Chao Han",
+        "Zicheng Luo",
+        "Yuchao Shao",
+        "Gexiao Tian",
+        "Zhongjie Wu",
+        "Zheng Cao 0003",
+        "Jinbo Wu",
+        "Jiwu Shu",
+        "Jie Wu 0003",
+        "Jiesheng Wu"
+      ],
+      "pages": "231-246",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiC0HXDYHYLZWQL23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiC0HXDYHYLZWQL23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/li-qiang-fisc"
+      ]
+    },
+    {
+      "title": "FUSEE: A Fully Memory-Disaggregated Key-Value Store",
+      "authors": [
+        "Jiacheng Shen",
+        "Pengfei Zuo",
+        "Xuchuan Luo",
+        "Tianyi Yang",
+        "Yuxin Su 0001",
+        "Yangfan Zhou 0002",
+        "Michael R. Lyu"
+      ],
+      "pages": "81-98",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ShenZLY0ZL23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ShenZLY0ZL23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/shen"
+      ]
+    },
+    {
+      "title": "GL-Cache: Group-level learning for efficient and high-performance caching",
+      "authors": [
+        "Juncheng Yang",
+        "Ziming Mao",
+        "Yao Yue",
+        "K. V. Rashmi"
+      ],
+      "pages": "115-134",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YangMYR23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YangMYR23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/yang-juncheng"
+      ]
+    },
+    {
+      "title": "HadaFS: A File System Bridging the Local and Shared Burst Buffer for Exascale Supercomputers",
+      "authors": [
+        "Xiaobin He",
+        "Bin Yang 0043",
+        "Jie Gao",
+        "Wei Xiao",
+        "Qi Chen",
+        "Shupeng Shi",
+        "Dexun Chen",
+        "Weiguo Liu",
+        "Wei Xue 0003",
+        "Zuoning Chen"
+      ],
+      "pages": "215-230",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HeYGXCSCLXC23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HeYGXCSCLXC23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/he"
+      ]
+    },
+    {
+      "title": "InftyDedup: Scalable and Cost-Effective Cloud Tiering with Deduplication",
+      "authors": [
+        "Iwona Kotlarska",
+        "Andrzej Jackowski",
+        "Krzysztof Lichota",
+        "Michal Welnicki",
+        "Cezary Dubnicki",
+        "Konrad Iwanicki"
+      ],
+      "pages": "33-48",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KotlarskaJLWDI23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KotlarskaJLWDI23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/kotlarska"
+      ]
+    },
+    {
+      "title": "Integrated Host-SSD Mapping Table Management for Improving User Experience of Smartphones",
+      "authors": [
+        "Yoona Kim",
+        "Inhyuk Choi",
+        "Juhyung Park",
+        "Jaeheon Lee",
+        "Sungjin Lee 0001",
+        "Jihong Kim 0001"
+      ],
+      "pages": "441-456",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimCPL0023",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimCPL0023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/kim-yoona"
+      ]
+    },
+    {
+      "title": "Intelligent Resource Scheduling for Co-located Latency-critical Services: A Multi-Model Collaborative Learning Approach",
+      "authors": [
+        "Lei Liu 0037",
+        "Xinglei Dou",
+        "Yuetao Chen"
+      ],
+      "pages": "153-166",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuDC23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuDC23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/liu"
+      ]
+    },
+    {
+      "title": "MadFS: Per-File Virtualization for Userspace Persistent Memory Filesystems",
+      "authors": [
+        "Shawn Zhong",
+        "Chenhao Ye",
+        "Guanzhou Hu",
+        "Suyan Qu",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Michael M. Swift"
+      ],
+      "pages": "265-280",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhongYHQAAS23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhongYHQAAS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/zhong"
+      ]
+    },
+    {
+      "title": "More Than Capacity: Performance-oriented Evolution of Pangu in Alibaba",
+      "authors": [
+        "Qiang Li 0045",
+        "Qiao Xiang",
+        "Yuxin Wang 0003",
+        "Haohao Song",
+        "Ridi Wen",
+        "Wenhui Yao",
+        "Yuanyuan Dong",
+        "Shuqi Zhao",
+        "Shuo Huang",
+        "Zhaosheng Zhu",
+        "Huayong Wang",
+        "Shanyang Liu",
+        "Lulu Chen",
+        "Zhiwu Wu",
+        "Haonan Qiu",
+        "Derui Liu",
+        "Gexiao Tian",
+        "Chao Han",
+        "Shaozong Liu",
+        "Yaohui Wu",
+        "Zicheng Luo",
+        "Yuchao Shao",
+        "Junping Wu",
+        "Zheng Cao 0003",
+        "Zhongjie Wu",
+        "Jiaji Zhu",
+        "Jinbo Wu",
+        "Jiwu Shu",
+        "Jiesheng Wu"
+      ],
+      "pages": "331-346",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiXWSWYDZHZWLCW23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiXWSWYDZHZWLCW23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/li-qiang-deployed"
+      ]
+    },
+    {
+      "title": "Multi-view Feature-based SSD Failure Prediction: What, When, and Why",
+      "authors": [
+        "Yuqi Zhang",
+        "Wenwen Hao",
+        "Ben Niu",
+        "Kangkang Liu",
+        "Shuyang Wang",
+        "Na Liu",
+        "Xing He",
+        "Yongwong Gwon",
+        "Chankyu Koh"
+      ],
+      "pages": "409-424",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangHNLWLHGK23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangHNLWLHGK23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/zhang"
+      ]
+    },
+    {
+      "title": "NVMeVirt: A Versatile Software-defined Virtual NVMe Device",
+      "authors": [
+        "Sang-Hoon Kim",
+        "Jaehoon Shim",
+        "Euidong Lee",
+        "Seong-Yeob Jeong",
+        "Ilkueon Kang",
+        "Jin-Soo Kim"
+      ],
+      "pages": "379-394",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimSLJKK23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimSLJKK23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/kim-sang-hoon"
+      ]
+    },
+    {
+      "title": "On Stacking a Persistent Memory File System on Legacy File Systems",
+      "authors": [
+        "Hobin Woo",
+        "Daegyu Han",
+        "Seungjoon Ha",
+        "Sam H. Noh",
+        "Beomseok Nam"
+      ],
+      "pages": "281-296",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WooHHNN23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WooHHNN23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/woo"
+      ]
+    },
+    {
+      "title": "ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage",
+      "authors": [
+        "Xiaolu Li 0002",
+        "Keyun Cheng",
+        "Kaicheng Tang",
+        "Patrick P. C. Lee",
+        "Yuchong Hu",
+        "Dan Feng 0001",
+        "Jie Li 0019",
+        "Ting-Yi Wu"
+      ],
+      "pages": "17-32",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/0002CTLH0LW23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/0002CTLH0LW23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/li-xiaolu"
+      ]
+    },
+    {
+      "title": "Patronus: High-Performance and Protective Remote Memory",
+      "authors": [
+        "Bin Yan",
+        "Youyou Lu",
+        "Qing Wang 0031",
+        "Minhui Xie",
+        "Jiwu Shu"
+      ],
+      "pages": "315-330",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YanL0XS23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YanL0XS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/yan"
+      ]
+    },
+    {
+      "title": "Perseus: A Fail-Slow Detection Framework for Cloud Storage Systems",
+      "authors": [
+        "Ruiming Lu",
+        "Erci Xu",
+        "Yiming Zhang 0003",
+        "Fengyi Zhu",
+        "Zhaosheng Zhu",
+        "Mengtian Wang",
+        "Zongpeng Zhu",
+        "Guangtao Xue",
+        "Jiwu Shu",
+        "Minglu Li 0001",
+        "Jiesheng Wu"
+      ],
+      "pages": "49-64",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LuX0ZZWZXS0W23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LuX0ZZWZXS0W23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/lu"
+      ]
+    },
+    {
+      "title": "Practical Design Considerations for Wide Locally Recoverable Codes (LRCs)",
+      "authors": [
+        "Saurabh Kadekodi",
+        "Shashwat Silas",
+        "David Clausen",
+        "Arif Merchant"
+      ],
+      "pages": "1-16",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KadekodiSCM23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KadekodiSCM23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/kadekodi"
+      ]
+    },
+    {
+      "title": "Revitalizing the Forgotten On-Chip DMA to Expedite Data Movement in NVM-based Storage Systems",
+      "authors": [
+        "Jingbo Su",
+        "Jiahao Li",
+        "Luofan Chen",
+        "Cheng Li 0001",
+        "Kai Zhang",
+        "Liang Yang",
+        "Sam H. Noh",
+        "Yinlong Xu 0001"
+      ],
+      "pages": "363-378",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SuLC0ZYX23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SuLC0ZYX23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/su"
+      ]
+    },
+    {
+      "title": "ROLEX: A Scalable RDMA-oriented Learned Key-Value Store for Disaggregated Memory Systems",
+      "authors": [
+        "Pengfei Li",
+        "Yu Hua 0001",
+        "Pengfei Zuo",
+        "Zhangyu Chen",
+        "Jiajie Sheng"
+      ],
+      "pages": "99-114",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Li0ZCS23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Li0ZCS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/li-pengfei"
+      ]
+    },
+    {
+      "title": "SHADE: Enable Fundamental Cacheability for Distributed Deep Learning Training",
+      "authors": [
+        "Redwan Ibne Seraj Khan",
+        "Ahmad Hossein Yazdani",
+        "Yuqi Fu",
+        "Arnab K. Paul",
+        "Bo Ji 0001",
+        "Xun Jian 0002",
+        "Yue Cheng 0001",
+        "Ali Raza Butt"
+      ],
+      "pages": "135-152",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KhanYFPJJ0B23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KhanYFPJJ0B23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/khan"
+      ]
+    },
+    {
+      "title": "SMRSTORE: A Storage Engine for Cloud Object Storage on HM-SMR Drives",
+      "authors": [
+        "Su Zhou",
+        "Erci Xu",
+        "Hao Wu",
+        "Yu Du",
+        "Jiacheng Cui",
+        "Wanyu Fu",
+        "Chang Liu",
+        "Yingni Wang",
+        "Wenbo Wang",
+        "Shouqu Sun",
+        "Xianfei Wang",
+        "Bo Feng",
+        "Biyun Zhu",
+        "Xin Tong",
+        "Weikang Kong",
+        "Linyan Liu",
+        "Zhongjie Wu",
+        "Jinbo Wu",
+        "Qingchao Luo",
+        "Jiesheng Wu"
+      ],
+      "pages": "395-408",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhouXWDCFLWWSWF23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhouXWDCFLWWSWF23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/zhou"
+      ]
+    },
+    {
+      "title": "TENET: Memory Safe and Fault Tolerant Persistent Transactional Memory",
+      "authors": [
+        "Madhava Krishnan Ramanathan",
+        "Diyu Zhou",
+        "Wook-Hee Kim",
+        "Sudarsun Kannan",
+        "Sanidhya Kashyap",
+        "Changwoo Min"
+      ],
+      "pages": "247-264",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RamanathanZKKKM23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RamanathanZKKKM23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/krishnan"
+      ]
+    },
+    {
+      "title": "Unsafe at Any Copy: Name Collisions from Mixing Case Sensitivities",
+      "authors": [
+        "Aditya Basu",
+        "John Sampson",
+        "Zhiyun Qian",
+        "Trent Jaeger"
+      ],
+      "pages": "183-198",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BasuSQJ23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BasuSQJ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/basu"
+      ]
+    },
+    {
+      "title": "λ-IO: A Unified IO Stack for Computational Storage",
+      "authors": [
+        "Zhe Yang 0012",
+        "Youyou Lu",
+        "Xiaojian Liao",
+        "Youmin Chen",
+        "Junru Li",
+        "Siyu He",
+        "Jiwu Shu"
+      ],
+      "pages": "347-362",
+      "year": "2023",
+      "venue": "FAST 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YangLLCLHS23",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YangLLCLHS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast23/presentation/yang-zhe"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "id": "sosp-1987",
+  "venue": "sosp",
+  "year": 1987,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp1987.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp1987.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/1987",
+    "conf/sosp/1987-1",
+    "conf/sosp/1987-2",
+    "conf/sosp/1987-3",
+    "conf/sosp/1987-4",
+    "conf/sosp/1987-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 19,
+  "display_count": 19,
+  "papers": [
+    {
+      "title": "801 Storage: Architecture and Programming (Extended Abstract)",
+      "authors": [
+        "Albert Chang",
+        "Mark F. Mergen"
+      ],
+      "pages": "109-110",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChangM87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChangM87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37513"
+      ]
+    },
+    {
+      "title": "A Name Service for Evolving, Heterogeneous Systems",
+      "authors": [
+        "Michael F. Schwartz",
+        "John Zahorjan",
+        "David Notkin"
+      ],
+      "pages": "52-62",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SchwartzZN87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SchwartzZN87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37506"
+      ]
+    },
+    {
+      "title": "A Simple and Efficient Implementation for Small Databases",
+      "authors": [
+        "Andrew Birrell",
+        "Michael B. Jones",
+        "Edward Wobber"
+      ],
+      "pages": "149-154",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BirrellJW87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BirrellJW87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37517",
+        "https://www.wikidata.org/entity/Q56066311"
+      ]
+    },
+    {
+      "title": "Attacking the Process Migration Bottleneck",
+      "authors": [
+        "Edward R. Zayas"
+      ],
+      "pages": "13-24",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Zayas87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Zayas87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37503"
+      ]
+    },
+    {
+      "title": "Caching in the Sprite Network File System (Extended Abstract)",
+      "authors": [
+        "Michael N. Nelson",
+        "Brent B. Welch",
+        "John K. Ousterhout"
+      ],
+      "pages": "3-4",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NelsonWO87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NelsonWO87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37501"
+      ]
+    },
+    {
+      "title": "Distributed Simulation and the Time Wrap Operating System",
+      "authors": [
+        "David R. Jefferson",
+        "Brian Beckman",
+        "Frederick Wieland",
+        "Leo Blume",
+        "Mike Di Loreto",
+        "Phil Hontalas",
+        "Pierre Laroche",
+        "Kathy Sturdevant",
+        "Jack Tupman",
+        "L. Van Warren",
+        "John J. Wedel",
+        "Herb Younger",
+        "Steve Bellenot"
+      ],
+      "pages": "77-93",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JeffersonBWBLHLSTWWYB87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JeffersonBWBLHLSTWWYB87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37508"
+      ]
+    },
+    {
+      "title": "Exploiting Virtual Synchrony in Distributed Systems",
+      "authors": [
+        "Kenneth P. Birman",
+        "Thomas A. Joseph"
+      ],
+      "pages": "123-138",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BirmanJ87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BirmanJ87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37515"
+      ]
+    },
+    {
+      "title": "Fine-Grained Mobility in the Emerald System (Extended Abstract)",
+      "authors": [
+        "Eric Jul",
+        "Henry M. Levy",
+        "Norman C. Hutchinson",
+        "Andrew P. Black"
+      ],
+      "pages": "105-106",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JulLHB87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JulLHB87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37511"
+      ]
+    },
+    {
+      "title": "Hashed and Hierarchical Timing Wheels: Data Structures for the Efficient Implementation of a Timer Facility",
+      "authors": [
+        "George Varghese",
+        "Anthony Lauck"
+      ],
+      "pages": "25-38",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/VargheseL87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/VargheseL87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37504"
+      ]
+    },
+    {
+      "title": "Implementation of Argus",
+      "authors": [
+        "Barbara Liskov",
+        "Dorothy Curtis",
+        "Paul Johnson 0001",
+        "Robert Scheifler"
+      ],
+      "pages": "111-122",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiskovCJS87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiskovCJS87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37514"
+      ]
+    },
+    {
+      "title": "Log Files: An Extended File Service Exploiting Write-Once Storage",
+      "authors": [
+        "Ross S. Finlayson",
+        "David R. Cheriton"
+      ],
+      "pages": "139-148",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FinlaysonC87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FinlaysonC87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37516"
+      ]
+    },
+    {
+      "title": "Managing Stored Voice in the Etherphone System (Extended Abstract)",
+      "authors": [
+        "Douglas B. Terry",
+        "Daniel C. Swinehart"
+      ],
+      "pages": "103-104",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TerryS87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TerryS87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37510"
+      ]
+    },
+    {
+      "title": "Recovery Management in QuickSilver (Extended Abstract)",
+      "authors": [
+        "Roger L. Haskin",
+        "Yoni Malachi",
+        "Wayne Sawdon",
+        "Gregory Chan"
+      ],
+      "pages": "107-108",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HaskinMSC87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HaskinMSC87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37512"
+      ]
+    },
+    {
+      "title": "Reimplementing the Cedar File System Using Logging and Group Commit",
+      "authors": [
+        "Robert B. Hagmann"
+      ],
+      "pages": "155-162",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Hagmann87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Hagmann87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37518"
+      ]
+    },
+    {
+      "title": "Scale and Performance in a Distributed File System (Extended Abstract)",
+      "authors": [
+        "John H. Howard",
+        "Michael L. Kazar",
+        "Sherri G. Menees",
+        "David A. Nichols",
+        "Mahadev Satyanarayanan",
+        "Robert N. Sidebotham",
+        "Michael J. West"
+      ],
+      "pages": "1-2",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HowardKMNSSW87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HowardKMNSSW87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37500"
+      ]
+    },
+    {
+      "title": "Synchronization Primitives for a Multiprocessor: A Formal Specification",
+      "authors": [
+        "Andrew Birrell",
+        "John V. Guttag",
+        "James J. Horning",
+        "Roy Levin"
+      ],
+      "pages": "94-102",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BirrellGHL87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BirrellGHL87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37509"
+      ]
+    },
+    {
+      "title": "The Duality of Memory and Communication in the Implementation of a Multiprocessor Operating System",
+      "authors": [
+        "Michael Young",
+        "Avadis Tevanian",
+        "Richard F. Rashid",
+        "David B. Golub",
+        "Jeffrey L. Eppinger",
+        "Jonathan Chew",
+        "William J. Bolosky",
+        "David L. Black 0001",
+        "Robert V. Baron"
+      ],
+      "pages": "63-76",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YoungTRGECBBB87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YoungTRGECBBB87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37507"
+      ]
+    },
+    {
+      "title": "The Packet Filter: An Efficient Mechanism for User-level Network Code",
+      "authors": [
+        "Jeffrey C. Mogul",
+        "Richard F. Rashid",
+        "Michael J. Accetta"
+      ],
+      "pages": "39-51",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MogulRA87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MogulRA87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37505"
+      ]
+    },
+    {
+      "title": "Using Idle Workstations in a Shared Computing Environment",
+      "authors": [
+        "David A. Nichols"
+      ],
+      "pages": "5-12",
+      "year": "1987",
+      "venue": "SOSP 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Nichols87",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Nichols87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/41457.37502"
+      ]
+    }
+  ]
+}

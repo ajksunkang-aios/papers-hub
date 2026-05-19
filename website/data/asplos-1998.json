@@ -1,0 +1,576 @@
+{
+  "id": "asplos-1998",
+  "venue": "asplos",
+  "year": 1998,
+  "short_name": "ASPLOS",
+  "full_name": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "source_url": "https://dblp.org/db/conf/asplos/asplos1998.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/asplos/asplos1998.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/asplos/1998",
+    "conf/asplos/1998-1",
+    "conf/asplos/1998-2",
+    "conf/asplos/1998-3",
+    "conf/asplos/1998-4",
+    "conf/asplos/1998-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) ACM International Conference on Architectural Support"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 28,
+  "display_count": 28,
+  "papers": [
+    {
+      "title": "A Cost-Effective, High-Bandwidth Storage Architecture",
+      "authors": [
+        "Garth A. Gibson",
+        "David Nagle",
+        "Khalil Amiri",
+        "Jeff Butler",
+        "Fay W. Chang",
+        "Howard Gobioff",
+        "Charles Hardin",
+        "Erik Riedel",
+        "David Rochberg",
+        "Jim Zelenka"
+      ],
+      "pages": "92-103",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GibsonNABCGHRRZ98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GibsonNABCGHRRZ98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291029",
+        "https://doi.org/10.1145/291006.291029",
+        "https://doi.org/10.1145/384265.291029"
+      ]
+    },
+    {
+      "title": "A Look at Several Memory Management Units, TLB-Refill Mechanisms, and Page Table Organizations",
+      "authors": [
+        "Bruce L. Jacob",
+        "Trevor N. Mudge"
+      ],
+      "pages": "295-306",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JacobM98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JacobM98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291065",
+        "https://doi.org/10.1145/291006.291065",
+        "https://doi.org/10.1145/384265.291065"
+      ]
+    },
+    {
+      "title": "Accelerating Multi-Media Processing by Implementing Memoing in Multiplication and Division Units",
+      "authors": [
+        "Daniel Citron",
+        "Dror G. Feitelson",
+        "Larry Rudolph"
+      ],
+      "pages": "252-261",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CitronFR98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CitronFR98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291056",
+        "https://doi.org/10.1145/291006.291056",
+        "https://doi.org/10.1145/384265.291056"
+      ]
+    },
+    {
+      "title": "Active Disks: Programming Model, Algorithms and Evaluation",
+      "authors": [
+        "Anurag Acharya 0001",
+        "Mustafa Uysal",
+        "Joel H. Saltz"
+      ],
+      "pages": "81-91",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/AcharyaUS98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/AcharyaUS98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291026",
+        "https://doi.org/10.1145/291006.291026",
+        "https://doi.org/10.1145/384265.291026"
+      ]
+    },
+    {
+      "title": "An Empirical Analysis of Instruction Repetition",
+      "authors": [
+        "Avinash Sodani",
+        "Gurindar S. Sohi"
+      ],
+      "pages": "35-45",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SodaniS98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SodaniS98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291016",
+        "https://doi.org/10.1145/291006.291016",
+        "https://doi.org/10.1145/384265.291016"
+      ]
+    },
+    {
+      "title": "An Empirical Study of Decentralized ILP Execution Models",
+      "authors": [
+        "Narayan Ranganathan",
+        "Manoj Franklin"
+      ],
+      "pages": "272-281",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RanganathanF98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RanganathanF98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291061",
+        "https://doi.org/10.1145/291006.291061",
+        "https://doi.org/10.1145/384265.291061"
+      ]
+    },
+    {
+      "title": "An Out-of-Order Execution Technique for Runtime Binary Translators",
+      "authors": [
+        "Bich C. Le"
+      ],
+      "pages": "151-158",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Le98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Le98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291039",
+        "https://doi.org/10.1145/291006.291039",
+        "https://doi.org/10.1145/384265.291039"
+      ]
+    },
+    {
+      "title": "Cache-Conscious Data Placement",
+      "authors": [
+        "Brad Calder",
+        "Chandra Krintz",
+        "Simmi John",
+        "Todd M. Austin"
+      ],
+      "pages": "139-149",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CalderKJA98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CalderKJA98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291036",
+        "https://doi.org/10.1145/291006.291036",
+        "https://doi.org/10.1145/384265.291036"
+      ]
+    },
+    {
+      "title": "Capturing Dynamic Memory Reference Behavior with Adaptive Cache Topology",
+      "authors": [
+        "Jih-Kwon Peir",
+        "Yongjoon Lee",
+        "Windsor W. Hsu"
+      ],
+      "pages": "240-250",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/PeirLH98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/PeirLH98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291053",
+        "https://doi.org/10.1145/291006.291053",
+        "https://doi.org/10.1145/384265.291053"
+      ]
+    },
+    {
+      "title": "Compiler-Controlled Memory",
+      "authors": [
+        "Keith D. Cooper",
+        "Timothy J. Harvey"
+      ],
+      "pages": "2-11",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CooperH98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CooperH98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291010",
+        "https://doi.org/10.1145/291006.291010",
+        "https://doi.org/10.1145/384265.291010",
+        "https://www.wikidata.org/entity/Q121032154"
+      ]
+    },
+    {
+      "title": "Data Speculation Support for a Chip Multiprocessor",
+      "authors": [
+        "Lance Hammond",
+        "Mark Willey",
+        "Kunle Olukotun"
+      ],
+      "pages": "58-69",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HammondWO98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HammondWO98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291020",
+        "https://doi.org/10.1145/291006.291020",
+        "https://doi.org/10.1145/384265.291020"
+      ]
+    },
+    {
+      "title": "Dependance Based Prefetching for Linked Data Structures",
+      "authors": [
+        "Amir Roth",
+        "Andreas Moshovos",
+        "Gurindar S. Sohi"
+      ],
+      "pages": "115-126",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RothMS98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RothMS98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291034",
+        "https://doi.org/10.1145/291006.291034",
+        "https://doi.org/10.1145/384265.291034"
+      ]
+    },
+    {
+      "title": "Fast Out-Of-Order Processor Simulation Using Memoization",
+      "authors": [
+        "Eric Schnarr",
+        "James R. Larus"
+      ],
+      "pages": "283-294",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SchnarrL98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SchnarrL98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291063",
+        "https://doi.org/10.1145/291006.291063",
+        "https://doi.org/10.1145/384265.291063"
+      ]
+    },
+    {
+      "title": "Hardware-Software Trade-Offs in a Direct Rambus Implementation of the RAMpage Memory Hierarchy",
+      "authors": [
+        "Philip Machanick",
+        "Pierre Salverda",
+        "Lance Pompe"
+      ],
+      "pages": "105-114",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MachanickSP98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MachanickSP98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291032",
+        "https://doi.org/10.1145/291006.291032",
+        "https://doi.org/10.1145/384265.291032",
+        "https://www.wikidata.org/entity/Q57528109"
+      ]
+    },
+    {
+      "title": "Investigating Optimal Local Memory Performance",
+      "authors": [
+        "Olivier Temam"
+      ],
+      "pages": "218-227",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Temam98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Temam98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291050",
+        "https://doi.org/10.1145/291006.291050",
+        "https://doi.org/10.1145/384265.291050"
+      ]
+    },
+    {
+      "title": "Locality-Aware Request Distribution in Cluster-based Network Servers",
+      "authors": [
+        "Vivek S. Pai",
+        "Mohit Aron",
+        "Gaurav Banga",
+        "Michael Svendsen",
+        "Peter Druschel",
+        "Willy Zwaenepoel",
+        "Erich M. Nahum"
+      ],
+      "pages": "205-216",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/PaiABSDZN98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/PaiABSDZN98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291048",
+        "https://doi.org/10.1145/291006.291048",
+        "https://doi.org/10.1145/384265.291048"
+      ]
+    },
+    {
+      "title": "Overlapping Execution with Transfer Using Non-Strict Execution for Mobile Programs",
+      "authors": [
+        "Chandra Krintz",
+        "Brad Calder",
+        "Han Bok Lee",
+        "Benjamin G. Zorn"
+      ],
+      "pages": "159-169",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KrintzCLZ98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KrintzCLZ98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291040",
+        "https://doi.org/10.1145/291006.291040",
+        "https://doi.org/10.1145/384265.291040"
+      ]
+    },
+    {
+      "title": "Performance Counters and State Sharing Annotations: a Unified Approach to Thread Locality",
+      "authors": [
+        "Boris Weissman"
+      ],
+      "pages": "127-138",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Weissman98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Weissman98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291035",
+        "https://doi.org/10.1145/291006.291035",
+        "https://doi.org/10.1145/384265.291035"
+      ]
+    },
+    {
+      "title": "Performance Isolation: Sharing and Isolation in Shared-Memory Multiprocessors",
+      "authors": [
+        "Ben Verghese",
+        "Anoop Gupta",
+        "Mendel Rosenblum"
+      ],
+      "pages": "181-192",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/VergheseGR98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/VergheseGR98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291044",
+        "https://doi.org/10.1145/291006.291044",
+        "https://doi.org/10.1145/384265.291044"
+      ]
+    },
+    {
+      "title": "Performance of Database Workloads on Shared-Memory Systems with Out-of-Order Processors",
+      "authors": [
+        "Parthasarathy Ranganathan",
+        "Kourosh Gharachorloo",
+        "Sarita V. Adve",
+        "Luiz Andr&eacute; Barroso"
+      ],
+      "pages": "307-318",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RanganathanGAB98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RanganathanGAB98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291067",
+        "https://doi.org/10.1145/291006.291067",
+        "https://doi.org/10.1145/384265.291067"
+      ]
+    },
+    {
+      "title": "Precise Miss Analysis for Program Transformations with Caches of Arbitrary Associativity",
+      "authors": [
+        "Somnath Ghosh",
+        "Margaret Martonosi",
+        "Sharad Malik"
+      ],
+      "pages": "228-239",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GhoshMM98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GhoshMM98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291051",
+        "https://doi.org/10.1145/291006.291051",
+        "https://doi.org/10.1145/384265.291051"
+      ]
+    },
+    {
+      "title": "Schedule-Independent Storage Mapping for Loops",
+      "authors": [
+        "Michelle Mills Strout",
+        "Larry Carter",
+        "Jeanne Ferrante",
+        "Beth Simon"
+      ],
+      "pages": "24-33",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/StroutCFS98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/StroutCFS98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291015",
+        "https://doi.org/10.1145/291006.291015",
+        "https://doi.org/10.1145/384265.291015"
+      ]
+    },
+    {
+      "title": "Segregating Heap Objects by Reference Behavior and Lifetime",
+      "authors": [
+        "Matthew L. Seidl",
+        "Benjamin G. Zorn"
+      ],
+      "pages": "12-23",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SeidlZ98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SeidlZ98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291012",
+        "https://doi.org/10.1145/291006.291012",
+        "https://doi.org/10.1145/384265.291012"
+      ]
+    },
+    {
+      "title": "Space-Time Scheduling of Instruction-Level Parallelism on a Raw Machine",
+      "authors": [
+        "Walter Lee",
+        "Rajeev Barua",
+        "Matthew I. Frank",
+        "Devabhaktuni Srikrishna",
+        "Jonathan Babb",
+        "Vivek Sarkar",
+        "Saman P. Amarasinghe"
+      ],
+      "pages": "46-57",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LeeBFSBSA98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LeeBFSBSA98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291018",
+        "https://doi.org/10.1145/291006.291018",
+        "https://doi.org/10.1145/384265.291018"
+      ]
+    },
+    {
+      "title": "UTLB: A Mechanism for Address Translation on Network Interfaces",
+      "authors": [
+        "Yuqun Chen",
+        "Angelos Bilas",
+        "Stefanos N. Damianakis",
+        "Cezary Dubnicki",
+        "Kai Li 0001"
+      ],
+      "pages": "193-204",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChenBDDL98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChenBDDL98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291046",
+        "https://doi.org/10.1145/291006.291046",
+        "https://doi.org/10.1145/384265.291046"
+      ]
+    },
+    {
+      "title": "Value Speculation Scheduling for High Performance Processors",
+      "authors": [
+        "Chao-ying Fu",
+        "Matthew D. Jennings",
+        "Sergei Y. Larin",
+        "Thomas M. Conte"
+      ],
+      "pages": "262-271",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/FuJLC98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/FuJLC98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291058",
+        "https://doi.org/10.1145/291006.291058",
+        "https://doi.org/10.1145/384265.291058"
+      ]
+    },
+    {
+      "title": "Variable Length Path Branch Prediction",
+      "authors": [
+        "Jared Stark",
+        "Marius Evers",
+        "Yale N. Patt"
+      ],
+      "pages": "170-179",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/StarkEP98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/StarkEP98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291042",
+        "https://doi.org/10.1145/291006.291042",
+        "https://doi.org/10.1145/384265.291042"
+      ]
+    },
+    {
+      "title": "VISA: Netstation's Virtual Internet SCSI Adapter",
+      "authors": [
+        "Rodney Van Meter",
+        "Gregory G. Finn",
+        "Steve Hotz"
+      ],
+      "pages": "71-80",
+      "year": "1998",
+      "venue": "ASPLOS 1998",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MeterFH98",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MeterFH98.html",
+      "ee_links": [
+        "https://doi.org/10.1145/291069.291023",
+        "https://doi.org/10.1145/291006.291023",
+        "https://doi.org/10.1145/384265.291023",
+        "https://www.wikidata.org/entity/Q62366600"
+      ]
+    }
+  ]
+}

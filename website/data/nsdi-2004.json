@@ -1,0 +1,520 @@
+{
+  "id": "nsdi-2004",
+  "venue": "nsdi",
+  "year": 2004,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2004.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2004.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2004",
+    "conf/nsdi/2004-1",
+    "conf/nsdi/2004-2",
+    "conf/nsdi/2004-3",
+    "conf/nsdi/2004-4",
+    "conf/nsdi/2004-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 28,
+  "display_count": 28,
+  "papers": [
+    {
+      "title": "Beehive: O(1) Lookup Performance for Power-Law Query Distributions in Peer-to-Peer Overlays",
+      "authors": [
+        "Venugopalan Ramasubramanian",
+        "Emin G&uuml;n Sirer"
+      ],
+      "pages": "99-112",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RamasubramanianS04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RamasubramanianS04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/ramasubramanian.html"
+      ]
+    },
+    {
+      "title": "Consistent and Automatic Replica Regeneration",
+      "authors": [
+        "Haifeng Yu",
+        "Amin Vahdat"
+      ],
+      "pages": "323-336",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YuV04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YuV04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/yu.html"
+      ]
+    },
+    {
+      "title": "Constructing Services with Interposable Virtual Hardware",
+      "authors": [
+        "Andrew Whitaker",
+        "Richard S. Cox",
+        "Marianne Shaw",
+        "Steven D. Gribble"
+      ],
+      "pages": "169-182",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WhitakerCSG04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WhitakerCSG04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/whitaker.html"
+      ]
+    },
+    {
+      "title": "Contract-Based Load Management in Federated Distributed Systems",
+      "authors": [
+        "Magdalena Balazinska",
+        "Hari Balakrishnan",
+        "Michael Stonebraker"
+      ],
+      "pages": "197-210",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BalazinskaBS04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BalazinskaBS04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/balazinska.html"
+      ]
+    },
+    {
+      "title": "Democratizing Content Publication with Coral",
+      "authors": [
+        "Michael J. Freedman",
+        "Eric Freudenthal",
+        "David Mazi&egrave;res"
+      ],
+      "pages": "239-252",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FreedmanFM04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FreedmanFM04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/freedman.html"
+      ]
+    },
+    {
+      "title": "Design, Implementation, and Evaluation of Duplicate Transfer Detection in HTTP",
+      "authors": [
+        "Jeffrey C. Mogul",
+        "Yee-Man Chan",
+        "Terence Kelly"
+      ],
+      "pages": "43-56",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MogulCK04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MogulCK04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/mogul.html"
+      ]
+    },
+    {
+      "title": "Designing a DHT for Low Latency and High Throughput",
+      "authors": [
+        "Frank Dabek",
+        "Jinyang Li 0001",
+        "Emil Sit",
+        "James Robertson",
+        "M. Frans Kaashoek",
+        "Robert Morris 0005"
+      ],
+      "pages": "85-98",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DabekLSRKM04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DabekLSRKM04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/dabek.html"
+      ]
+    },
+    {
+      "title": "Efficient Routing for Peer-to-Peer Overlays",
+      "authors": [
+        "Anjali Gupta",
+        "Barbara Liskov",
+        "Rodrigo Rodrigues 0001"
+      ],
+      "pages": "113-126",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuptaLR04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuptaLR04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/gupta.html"
+      ]
+    },
+    {
+      "title": "Explicit Control in the Batch-Aware Distributed File System",
+      "authors": [
+        "John Bent",
+        "Douglas Thain",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Miron Livny"
+      ],
+      "pages": "365-378",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BentTAAL04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BentTAAL04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/bent.html"
+      ]
+    },
+    {
+      "title": "Hybrid Global-Local Indexing for Efficient Peer-to-Peer Information Retrieval",
+      "authors": [
+        "Chunqiang Tang",
+        "Sandhya Dwarkadas"
+      ],
+      "pages": "211-224",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/TangD04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/TangD04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/tang.html"
+      ]
+    },
+    {
+      "title": "Listen and Whisper: Security Mechanisms for BGP (Awarded Best Student Paper!)",
+      "authors": [
+        "Lakshminarayanan Subramanian",
+        "Volker Roth 0002",
+        "Ion Stoica",
+        "Scott Shenker",
+        "Randy H. Katz"
+      ],
+      "pages": "127-140",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SubramanianRSSK04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SubramanianRSSK04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/subramanianListen.html"
+      ]
+    },
+    {
+      "title": "MACEDON: Methodology for Automatically Creating, Evaluating, and Designing Overlay Networks",
+      "authors": [
+        "Adolfo Rodriguez",
+        "Charles Killian",
+        "Sooraj Bhat",
+        "Dejan Kostic",
+        "Amin Vahdat"
+      ],
+      "pages": "267-280",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RodriguezKBKV04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RodriguezKBKV04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/rodriguez.html"
+      ]
+    },
+    {
+      "title": "Measurement and Analysis of Spyware in a University Environment",
+      "authors": [
+        "Stefan Saroiu",
+        "Steven D. Gribble",
+        "Henry M. Levy"
+      ],
+      "pages": "141-153",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SaroiuGL04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SaroiuGL04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/saroiu.html"
+      ]
+    },
+    {
+      "title": "Model Checking Large Network Protocol Implementations",
+      "authors": [
+        "Madanlal Musuvathi",
+        "Dawson R. Engler"
+      ],
+      "pages": "155-168",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MusuvathiE04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MusuvathiE04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/musuvathi.html"
+      ]
+    },
+    {
+      "title": "Operating Systems Support for Planetary-Scale Network Services",
+      "authors": [
+        "Andy C. Bavier",
+        "Mic Bowman",
+        "Brent N. Chun",
+        "David E. Culler",
+        "Scott Karlin",
+        "Steve Muir",
+        "Larry L. Peterson",
+        "Timothy Roscoe",
+        "Tammo Spalink",
+        "Mike Wawrzoniak"
+      ],
+      "pages": "253-266",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BavierBCCKMPRSW04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BavierBCCKMPRSW04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/bavier.html"
+      ]
+    },
+    {
+      "title": "OSPF Monitoring: Architecture, Design, and Deployment Experience",
+      "authors": [
+        "Aman Shaikh",
+        "Albert G. Greenberg"
+      ],
+      "pages": "57-70",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShaikhG04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShaikhG04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/shaikh.html"
+      ]
+    },
+    {
+      "title": "OverQoS: An Overlay Based Architecture for Enhancing Internet QoS",
+      "authors": [
+        "Lakshminarayanan Subramanian",
+        "Ion Stoica",
+        "Hari Balakrishnan",
+        "Randy H. Katz"
+      ],
+      "pages": "71-84",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SubramanianSBK04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SubramanianSBK04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/subramanianOver.html"
+      ]
+    },
+    {
+      "title": "Path-Based Failure and Evolution Management",
+      "authors": [
+        "Mike Y. Chen",
+        "Anthony J. Accardi",
+        "Emre Kiciman",
+        "David A. Patterson 0001",
+        "Armando Fox",
+        "Eric A. Brewer"
+      ],
+      "pages": "309-322",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChenAKPFB04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChenAKPFB04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/chen.html"
+      ]
+    },
+    {
+      "title": "Programming Sensor Networks Using Abstract Regions",
+      "authors": [
+        "Matt Welsh",
+        "Geoffrey Mainland"
+      ],
+      "pages": "29-42",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WelshM04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WelshM04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/welsh.html"
+      ]
+    },
+    {
+      "title": "Running Massively Multiplayer Games as a Business",
+      "authors": [
+        "Richard Lawrence"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Lawrence04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Lawrence04.html",
+      "ee_links": []
+    },
+    {
+      "title": "Session State: Beyond Soft State",
+      "authors": [
+        "Benjamin C. Ling",
+        "Emre Kiciman",
+        "Armando Fox"
+      ],
+      "pages": "295-308",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LingKF04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LingKF04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/ling.html"
+      ]
+    },
+    {
+      "title": "Structure Management for Scalable Overlay Service Construction",
+      "authors": [
+        "Kai Shen"
+      ],
+      "pages": "281-294",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Shen04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Shen04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/shen.html"
+      ]
+    },
+    {
+      "title": "SWAP: A Scheduler with Automatic Process Dependency Detection",
+      "authors": [
+        "Haoqiang Zheng",
+        "Jason Nieh"
+      ],
+      "pages": "183-196",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhengN04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhengN04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/zheng.html"
+      ]
+    },
+    {
+      "title": "The Emergence of Networking Abstractions and Techniques in TinyOS",
+      "authors": [
+        "Philip Alexander Levis",
+        "Samuel Madden 0001",
+        "David Gay",
+        "Joseph Polastre",
+        "Robert Szewczyk",
+        "Alec Woo",
+        "Eric A. Brewer",
+        "David E. Culler"
+      ],
+      "pages": "1-14",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LevisMGPSWBC04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LevisMGPSWBC04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/levisEmerge.html"
+      ]
+    },
+    {
+      "title": "TimeLine: A High Performance Archive for a Distributed Object Store",
+      "authors": [
+        "Chuang-Hue Moh",
+        "Barbara Liskov"
+      ],
+      "pages": "351-364",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MohL04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MohL04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/moh.html"
+      ]
+    },
+    {
+      "title": "Total Recall: System Support for Automated Availability Management",
+      "authors": [
+        "Ranjita Bhagwan",
+        "Kiran Tati",
+        "Yuchung Cheng",
+        "Stefan Savage",
+        "Geoffrey M. Voelker"
+      ],
+      "pages": "337-350",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BhagwanTCSV04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BhagwanTCSV04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/bhagwan.html"
+      ]
+    },
+    {
+      "title": "Trickle: A Self-Regulating Algorithm for Code Propagation and Maintenance in Wireless Sensor Networks (Awarded Best Paper!)",
+      "authors": [
+        "Philip Alexander Levis",
+        "Neil Patel",
+        "David E. Culler",
+        "Scott Shenker"
+      ],
+      "pages": "15-28",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LevisPCS04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LevisPCS04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/levisTrickle.html"
+      ]
+    },
+    {
+      "title": "Untangling the Web from DNS",
+      "authors": [
+        "Michael Walfish",
+        "Hari Balakrishnan"
+      ],
+      "pages": "225-238",
+      "year": "2004",
+      "venue": "NSDI 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WalfishB04",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WalfishB04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi04/tech/walfish.html"
+      ]
+    }
+  ]
+}

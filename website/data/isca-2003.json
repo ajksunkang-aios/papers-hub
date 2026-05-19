@@ -1,0 +1,737 @@
+{
+  "id": "isca-2003",
+  "venue": "isca",
+  "year": 2003,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2003.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2003.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2003",
+    "conf/isca/2003-1",
+    "conf/isca/2003-2",
+    "conf/isca/2003-3",
+    "conf/isca/2003-4",
+    "conf/isca/2003-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 37,
+  "display_count": 37,
+  "papers": [
+    {
+      "title": "A \"Flight Data Recorder\" for Enabling Full-System Multiprocessor Deterministic Replay",
+      "authors": [
+        "Min Xu",
+        "Rastislav Bod&iacute;k",
+        "Mark D. Hill"
+      ],
+      "pages": "122-133",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/XuBH03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/XuBH03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206994",
+        "https://doi.org/10.1145/859618.859633"
+      ]
+    },
+    {
+      "title": "A Highly-Configurable Cache Architecture for Embedded Systems",
+      "authors": [
+        "Chuanjun Zhang",
+        "Frank Vahid",
+        "Walid A. Najjar"
+      ],
+      "pages": "136-146",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhangVN03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhangVN03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206995",
+        "https://doi.org/10.1145/859618.859635",
+        "https://www.wikidata.org/entity/Q130960441"
+      ]
+    },
+    {
+      "title": "A Performance Analysis of PIM, Stream Processing, and Tiled Processing on Memory-Intensive Signal Processing Kernels",
+      "authors": [
+        "Jinwoo Suh",
+        "Eun-Gyu Kim",
+        "Stephen P. Crago",
+        "Lakshmi Srinivasan",
+        "Matthew C. French"
+      ],
+      "pages": "410-419",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SuhKCSF03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SuhKCSF03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207018",
+        "https://doi.org/10.1145/859618.859665",
+        "https://www.wikidata.org/entity/Q130984373"
+      ]
+    },
+    {
+      "title": "A Pipelined Memory Architecture for High Throughput Network Processors",
+      "authors": [
+        "Timothy Sherwood",
+        "George Varghese",
+        "Brad Calder"
+      ],
+      "pages": "288-299",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SherwoodVC03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SherwoodVC03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207008",
+        "https://doi.org/10.1145/859618.859652"
+      ]
+    },
+    {
+      "title": "Banked Multiported Register Files for High-Frequency Superscalar Microprocessors",
+      "authors": [
+        "Jessica H. Tseng",
+        "Krste Asanovic"
+      ],
+      "pages": "62-71",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TsengA03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TsengA03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206989",
+        "https://doi.org/10.1145/859618.859627",
+        "https://www.wikidata.org/entity/Q130959052"
+      ]
+    },
+    {
+      "title": "Building Quantum Wires: The Long and the Short of It",
+      "authors": [
+        "Mark Oskin",
+        "Frederic T. Chong",
+        "Isaac L. Chuang",
+        "John Kubiatowicz"
+      ],
+      "pages": "374-385",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/OskinCCK03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/OskinCCK03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207015",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207015",
+        "https://doi.org/10.1145/859618.859661",
+        "https://www.wikidata.org/entity/Q130927151"
+      ]
+    },
+    {
+      "title": "Cyclone: A Broadcast-Free Dynamic Instruction Scheduler with Selective Replay",
+      "authors": [
+        "Dan Ernst",
+        "Andrew Hamel",
+        "Todd M. Austin"
+      ],
+      "pages": "253-262",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ErnstHA03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ErnstHA03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207005",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207005",
+        "https://doi.org/10.1145/859618.859647"
+      ]
+    },
+    {
+      "title": "Detecting Global Stride Locality in Value Streams",
+      "authors": [
+        "Huiyang Zhou",
+        "Jill Flanagan",
+        "Thomas M. Conte"
+      ],
+      "pages": "324-335",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhouFC03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhouFC03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207011",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207011",
+        "https://doi.org/10.1145/859618.859656"
+      ]
+    },
+    {
+      "title": "DISE: A Programmable Macro Engine for Customizing Applications",
+      "authors": [
+        "Marc L. Corliss",
+        "E. Christopher Lewis",
+        "Amir Roth"
+      ],
+      "pages": "362-373",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CorlissLR03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CorlissLR03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207014",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207014",
+        "https://doi.org/10.1145/859618.859660"
+      ]
+    },
+    {
+      "title": "DRPM: Dynamic Speed Control for Power Mangagement in Server Class Disks",
+      "authors": [
+        "Sudhanva Gurumurthi",
+        "Anand Sivasubramaniam",
+        "Mahmut T. Kandemir",
+        "Hubertus Franke"
+      ],
+      "pages": "169-179",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GurumurthiSKF03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GurumurthiSKF03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1206998",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206998",
+        "https://doi.org/10.1145/859618.859638"
+      ]
+    },
+    {
+      "title": "Dynamically Managing the Communication-Parallelism Trade-off in Future Clustered Processors",
+      "authors": [
+        "Rajeev Balasubramonian",
+        "Sandhya Dwarkadas",
+        "David H. Albonesi"
+      ],
+      "pages": "275-286",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BalasubramonianDA03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BalasubramonianDA03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207007",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207007",
+        "https://doi.org/10.1145/859618.859650"
+      ]
+    },
+    {
+      "title": "Effective ahead Pipelining of Instruction Block Address Generation",
+      "authors": [
+        "Andr&eacute; Seznec",
+        "Antony Fraboulet"
+      ],
+      "pages": "241-252",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SeznecF03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SeznecF03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207004",
+        "https://doi.org/10.1145/859618.859646"
+      ]
+    },
+    {
+      "title": "Efficient Use of Memory Bandwidth to Improve Network Processor Throughput",
+      "authors": [
+        "Jahangir Hasan",
+        "Satish Chandra 0001",
+        "T. N. Vijaykumar"
+      ],
+      "pages": "300-311",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HasanCV03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HasanCV03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207009",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207009",
+        "https://doi.org/10.1145/859618.859653"
+      ]
+    },
+    {
+      "title": "Energy Efficient Co-Adaptive Instruction Fetch and Issue",
+      "authors": [
+        "Alper Buyuktosunoglu",
+        "Tejas Karkhanis",
+        "David H. Albonesi",
+        "Pradip Bose"
+      ],
+      "pages": "147-156",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BuyuktosunogluKAB03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BuyuktosunogluKAB03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206996",
+        "https://doi.org/10.1145/859618.859636"
+      ]
+    },
+    {
+      "title": "Exploiting ILP, TLP and DLP with the Polymorphous TRIPS Architecture",
+      "authors": [
+        "Karthikeyan Sankaralingam",
+        "Ramadass Nagarajan",
+        "Haiming Liu 0001",
+        "Changkyu Kim",
+        "Jaehyuk Huh 0001",
+        "Doug Burger",
+        "Stephen W. Keckler",
+        "Charles R. Moore"
+      ],
+      "pages": "422-433",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SankaralingamNLKHBKM03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SankaralingamNLKHBKM03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207019",
+        "https://doi.org/10.1145/859618.859667"
+      ]
+    },
+    {
+      "title": "GOAL: A Load-Balanced Adaptive Routing Algorithm for Torus Networks",
+      "authors": [
+        "Arjun Singh",
+        "William J. Dally",
+        "Amit K. Gupta",
+        "Brian Towles"
+      ],
+      "pages": "194-205",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SinghDGT03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SinghDGT03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207000",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207000",
+        "https://doi.org/10.1145/859618.859641"
+      ]
+    },
+    {
+      "title": "Guided Region Prefetching: A Cooperative Hardware/Software Approach",
+      "authors": [
+        "Zhenlin Wang 0003",
+        "Doug Burger",
+        "Steven K. Reinhardt",
+        "Kathryn S. McKinley",
+        "Charles C. Weems"
+      ],
+      "pages": "388-398",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangBRMW03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangBRMW03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207016",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207016",
+        "https://doi.org/10.1145/859618.859663"
+      ]
+    },
+    {
+      "title": "Half-Price Architecture",
+      "authors": [
+        "Ilhyun Kim",
+        "Mikko H. Lipasti"
+      ],
+      "pages": "28-38",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimL03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimL03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1206986",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206986",
+        "https://doi.org/10.1145/859618.859623"
+      ]
+    },
+    {
+      "title": "Iimplicitly-Multithreaded Processors",
+      "authors": [
+        "Il Park 0001",
+        "Babak Falsafi",
+        "T. N. Vijaykumar"
+      ],
+      "pages": "39-50",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ParkFV03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ParkFV03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1206987",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206987",
+        "https://doi.org/10.1145/859618.859624"
+      ]
+    },
+    {
+      "title": "Improving Branch Prediction by Dynamic Dataflow-Based Identification of Correlated Branches from a Large Global History",
+      "authors": [
+        "Renju Thomas",
+        "Manoj Franklin",
+        "Chris Wilkerson",
+        "Jared Stark"
+      ],
+      "pages": "314-323",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ThomasFWS03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ThomasFWS03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207010",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207010",
+        "https://doi.org/10.1145/859618.859655"
+      ]
+    },
+    {
+      "title": "Improving Dynamic Cluster Assignment for Clustered Trace Cache Processors",
+      "authors": [
+        "Ravi Bhargava",
+        "Lizy Kurian John"
+      ],
+      "pages": "264-274",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BhargavaJ03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BhargavaJ03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207006",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207006",
+        "https://doi.org/10.1145/859618.859649"
+      ]
+    },
+    {
+      "title": "MisSPECulation: Partial and Misleading Use of SPEC CPU2000 in Computer Architecture Conferences",
+      "authors": [
+        "Daniel Citron"
+      ],
+      "pages": "52-59",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Citron03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Citron03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1206988",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206988",
+        "https://doi.org/10.1145/859618.859625"
+      ]
+    },
+    {
+      "title": "Overcoming the Limitations of Conventional Vector Processors",
+      "authors": [
+        "Christoforos E. Kozyrakis",
+        "David A. Patterson 0001"
+      ],
+      "pages": "399-409",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KozyrakisP03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KozyrakisP03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207017",
+        "https://doi.org/10.1145/859618.859664"
+      ]
+    },
+    {
+      "title": "Parallelism in the Front-End",
+      "authors": [
+        "Paramjit S. Oberoi",
+        "Gurindar S. Sohi"
+      ],
+      "pages": "230-240",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/OberoiS03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/OberoiS03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207003",
+        "https://doi.org/10.1145/859618.859645"
+      ]
+    },
+    {
+      "title": "Performance Analysis of the Alpha 21364-BAsed HP GS1280 Multiprocessor",
+      "authors": [
+        "Zarka Cvetanovic"
+      ],
+      "pages": "218-228",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Cvetanovic03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Cvetanovic03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207002",
+        "https://doi.org/10.1145/859618.859643"
+      ]
+    },
+    {
+      "title": "Phase Tracking and Prediction",
+      "authors": [
+        "Timothy Sherwood",
+        "Suleyman Sair",
+        "Brad Calder"
+      ],
+      "pages": "336-347",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SherwoodSC03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SherwoodSC03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207012",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207012",
+        "https://doi.org/10.1145/859618.859657"
+      ]
+    },
+    {
+      "title": "Pipeline Damping: A Microarchitectural Technique to Reduce Inductive Noise in Supply Voltage",
+      "authors": [
+        "Michael D. Powell",
+        "T. N. Vijaykumar"
+      ],
+      "pages": "72-83",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PowellV03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PowellV03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1206990",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206990",
+        "https://doi.org/10.1145/859618.859628"
+      ]
+    },
+    {
+      "title": "Positional Adaptation of Processors: Application to Energy Reduction",
+      "authors": [
+        "Michael C. Huang 0001",
+        "Jose Renau",
+        "Josep Torrellas"
+      ],
+      "pages": "157-168",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HuangRT03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HuangRT03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1206997",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206997",
+        "https://doi.org/10.1145/859618.859637"
+      ]
+    },
+    {
+      "title": "Profile-Based Dynamic Voltage and Frequency Scaling for a Multiple Clock Domain Microprocessor",
+      "authors": [
+        "Grigorios Magklis",
+        "Michael L. Scott",
+        "Greg Semeraro",
+        "David H. Albonesi",
+        "Steve Dropsho"
+      ],
+      "pages": "14-25",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MagklisSSAD03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MagklisSSAD03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206985",
+        "https://doi.org/10.1145/859618.859621",
+        "https://www.wikidata.org/entity/Q130953478"
+      ]
+    },
+    {
+      "title": "ReEnact: Using Thread-Level Speculation Mechanisms to Debug Data Races in Multithreaded Codes",
+      "authors": [
+        "Milos Prvulovic",
+        "Josep Torrellas"
+      ],
+      "pages": "110-121",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PrvulovicT03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PrvulovicT03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1206993",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206993",
+        "https://doi.org/10.1145/859618.859632"
+      ]
+    },
+    {
+      "title": "SMARTS: Accelerating Microarchitecture Simulation via Rigorous Statistical Sampling",
+      "authors": [
+        "Roland E. Wunderlich",
+        "Thomas F. Wenisch",
+        "Babak Falsafi",
+        "James C. Hoe"
+      ],
+      "pages": "84-95",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WunderlichWFH03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WunderlichWFH03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1206991",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206991",
+        "https://doi.org/10.1145/859618.859629"
+      ]
+    },
+    {
+      "title": "Temperature-Aware Microarchitecture",
+      "authors": [
+        "Kevin Skadron",
+        "Mircea R. Stan",
+        "Wei Huang 0004",
+        "Sivakumar Velusamy",
+        "Karthik Sankaranarayanan",
+        "David Tarjan"
+      ],
+      "pages": "2-13",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SkadronSHVST03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SkadronSHVST03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206984",
+        "https://doi.org/10.1145/859618.859620"
+      ]
+    },
+    {
+      "title": "The Jrpm System for Dynamically Parallelizing Java Programs",
+      "authors": [
+        "Michael K. Chen 0001",
+        "Kunle Olukotun"
+      ],
+      "pages": "434-445",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChenO03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChenO03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207020",
+        "https://doi.org/10.1145/859618.859668",
+        "https://www.wikidata.org/entity/Q57532212"
+      ]
+    },
+    {
+      "title": "Token Coherence: Decoupling Performance and Correctness",
+      "authors": [
+        "Milo M. K. Martin",
+        "Mark D. Hill",
+        "David A. Wood 0001"
+      ],
+      "pages": "182-193",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MartinHW03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MartinHW03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1206999",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206999",
+        "https://doi.org/10.1145/859618.859640"
+      ]
+    },
+    {
+      "title": "Transient-Fault Recovery for Chip Multiprocessors",
+      "authors": [
+        "Mohamed A. Gomaa",
+        "Chad Scarbrough",
+        "Irith Pomeranz",
+        "T. N. Vijaykumar"
+      ],
+      "pages": "98-109",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GomaaSPV03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GomaaSPV03.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1206992",
+        "https://doi.org/10.1145/859618.859631"
+      ]
+    },
+    {
+      "title": "Using Destination-Set Prediction to Improve the Latency/Bandwidth Tradeoff in Shared-Memory Multiprocessors",
+      "authors": [
+        "Milo M. K. Martin",
+        "Pacia J. Harper",
+        "Daniel J. Sorin",
+        "Mark D. Hill",
+        "David A. Wood 0001"
+      ],
+      "pages": "206-217",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MartinHSHW03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MartinHSHW03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207001",
+        "https://doi.org/10.1145/859618.859642"
+      ]
+    },
+    {
+      "title": "Virtual Simple Architecture (VISA): Exceeding the Complexity Limit in Safe Real-Time Systems",
+      "authors": [
+        "Aravindh Anantaraman",
+        "Kiran Seth",
+        "Kaustubh Patil",
+        "Eric Rotenberg",
+        "Frank Mueller 0001"
+      ],
+      "pages": "350-361",
+      "year": "2003",
+      "venue": "ISCA 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AnantaramanSPRM03",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AnantaramanSPRM03.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2003.1207013",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2003.1207013",
+        "https://doi.org/10.1145/859618.859659"
+      ]
+    }
+  ]
+}

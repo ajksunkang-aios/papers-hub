@@ -1,0 +1,552 @@
+{
+  "id": "usenix-1990",
+  "venue": "usenix",
+  "year": 1990,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix1990.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix1990.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/1990",
+    "conf/usenix/1990-1",
+    "conf/usenix/1990-2",
+    "conf/usenix/1990-3",
+    "conf/usenix/1990-4",
+    "conf/usenix/1990-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 37,
+  "display_count": 37,
+  "papers": [
+    {
+      "title": "A Dynamic File System Inode Allocation and Reclaim Policy",
+      "authors": [
+        "Ronald E. Barkley",
+        "T. Paul Lee"
+      ],
+      "pages": "1-10",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BarkleyL90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BarkleyL90.html",
+      "ee_links": []
+    },
+    {
+      "title": "A Fast /tmp File System by Delay Mount Option",
+      "authors": [
+        "Masataka Ohta",
+        "Hiroshi Tezuka"
+      ],
+      "pages": "145-150",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/OhtaT90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/OhtaT90.html",
+      "ee_links": []
+    },
+    {
+      "title": "A Filesystem for Software Development",
+      "authors": [
+        "David Hendricks"
+      ],
+      "pages": "333-340",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Hendricks90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Hendricks90.html",
+      "ee_links": []
+    },
+    {
+      "title": "A High-Level User Interface Toolkit for the X Window System and Character Terminals",
+      "authors": [
+        "Michel Pedneault"
+      ],
+      "pages": "307-314",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Pedneault90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Pedneault90.html",
+      "ee_links": []
+    },
+    {
+      "title": "A New Design for Distributed Systems: The Remote Memory Model",
+      "authors": [
+        "Douglas Comer",
+        "Jim Griffioen"
+      ],
+      "pages": "127-136",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ComerG90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ComerG90.html",
+      "ee_links": []
+    },
+    {
+      "title": "A Pageable Memory Based Filesystem",
+      "authors": [
+        "Marshall K. McKusick",
+        "Michael J. Karels",
+        "Keith Bostic"
+      ],
+      "pages": "137-144",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/McKusickKB90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/McKusickKB90.html",
+      "ee_links": []
+    },
+    {
+      "title": "A Portable Run-time System for the Hermes Distributed Programming Language",
+      "authors": [
+        "David F. Bacon",
+        "Andy Lowry"
+      ],
+      "pages": "39-50",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BaconL90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BaconL90.html",
+      "ee_links": []
+    },
+    {
+      "title": "A Transparent Integration Approach for Rewritable Optical Autochangers",
+      "authors": [
+        "Bruce Thompson",
+        "Daryl Stolte",
+        "David Ellis"
+      ],
+      "pages": "119-126",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ThompsonSE90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ThompsonSE90.html",
+      "ee_links": []
+    },
+    {
+      "title": "An Implementation of Real-Time Thread Synchronization",
+      "authors": [
+        "Mark Heuser"
+      ],
+      "pages": "97-106",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Heuser90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Heuser90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Binary Emulation of UNIX Using the V Kernel",
+      "authors": [
+        "David R. Cheriton",
+        "Gregory R. Whitehead",
+        "Edward W. Sznyter"
+      ],
+      "pages": "73-86",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CheritonWS90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CheritonWS90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Dalek: A GNU, Improved Programmable Debugger",
+      "authors": [
+        "Ronald A. Olsson",
+        "Richard H. Crawford",
+        "W. Wilson Ho"
+      ],
+      "pages": "221-232",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/OlssonCH90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/OlssonCH90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Deceit: A Flexible Distributed File System",
+      "authors": [
+        "Alex Siegel",
+        "Kenneth P. Birman",
+        "Keith Marzullo"
+      ],
+      "pages": "51-62",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SiegelBM90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SiegelBM90.html",
+      "ee_links": []
+    },
+    {
+      "title": "DEcorum File System Architectural Overview",
+      "authors": [
+        "Michael L. Kazar",
+        "Bruce W. Leverett",
+        "Owen T. Anderson",
+        "Vasilis Apostolides",
+        "Beth A. Bottos",
+        "Sailesh Chutani",
+        "Craig Everhart",
+        "W. Anthony Mason",
+        "Shu-Tsui Tu",
+        "Edward R. Zayas"
+      ],
+      "pages": "151-164",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KazarLAABCEMTZ90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KazarLAABCEMTZ90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Efficient User-Level File Cache Management on the Sun Vnode Interface",
+      "authors": [
+        "David C. Steere",
+        "James J. Kistler",
+        "Mahadev Satyanarayanan"
+      ],
+      "pages": "325-332",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SteereKS90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SteereKS90.html",
+      "ee_links": []
+    },
+    {
+      "title": "ELF: An Object File to Mitigate Mischievous Misoneism",
+      "authors": [
+        "James Q. Arnold"
+      ],
+      "pages": "1-10",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Arnold90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Arnold90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Evolution of the Ucode Compiler Intermediate Language",
+      "authors": [
+        "Vatsa Santhanam",
+        "Paul Chan",
+        "Manoj Dadoo"
+      ],
+      "pages": "199-210",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SanthanamCD90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SanthanamCD90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Evolving the Vnode interface",
+      "authors": [
+        "David S. H. Rosenthal"
+      ],
+      "pages": "107-118",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Rosenthal90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Rosenthal90.html",
+      "ee_links": []
+    },
+    {
+      "title": "expect: Curing Those Uncontrollable Fits of Interaction",
+      "authors": [
+        "Don Libes"
+      ],
+      "pages": "183-192",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Libes90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Libes90.html",
+      "ee_links": []
+    },
+    {
+      "title": "IAW - The Intelligence Analyst Workbench",
+      "authors": [
+        "Kenyon Kenyon"
+      ],
+      "pages": "193-198",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Kenyon90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Kenyon90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Implementation of the Ficus Replicated File System",
+      "authors": [
+        "Richard G. Guy",
+        "John S. Heidemann",
+        "Wai-Kei Mak",
+        "Thomas W. Page Jr.",
+        "Gerald J. Popek",
+        "Dieter Rothmeier"
+      ],
+      "pages": "63-72",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuyHMPPR90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuyHMPPR90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Insuring improved VM Performance: Some No-Fault Policies",
+      "authors": [
+        "D. Chen",
+        "Ronald E. Barkley",
+        "T. Paul Lee"
+      ],
+      "pages": "11-24",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChenBL90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChenBL90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Issues in Shared Libraries Design",
+      "authors": [
+        "Marc Sabetella"
+      ],
+      "pages": "11-24",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Sabetella90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Sabetella90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Montage: Breaking Windows into Small Pieces",
+      "authors": [
+        "Paul Haahr"
+      ],
+      "pages": "289-298",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Haahr90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Haahr90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Performance Measurements of a Multiprocessor Sprite Kernel",
+      "authors": [
+        "John H. Hartman",
+        "John K. Ousterhout"
+      ],
+      "pages": "279-288",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HartmanO90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HartmanO90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Perspectives on NES File Server Performance Characterization",
+      "authors": [
+        "Bruce E. Keith"
+      ],
+      "pages": "267-278",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Keith90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Keith90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Putting UNIX on Very Fast Computers or What the Speed of Light Means to Your Favorite System Call",
+      "authors": [
+        "Michael D. O'Dell"
+      ],
+      "pages": "239-246",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ODell90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ODell90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Shared Libraries as Objects",
+      "authors": [
+        "Donn Seeley"
+      ],
+      "pages": "25-38",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Seeley90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Seeley90.html",
+      "ee_links": []
+    },
+    {
+      "title": "swm: An X Window Manager Shell",
+      "authors": [
+        "Thomas E. LaStrange"
+      ],
+      "pages": "299-306",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LaStrange90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LaStrange90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Tcl: An Embeddable Command Language",
+      "authors": [
+        "John K. Ousterhout"
+      ],
+      "pages": "133-146",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Ousterhout90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Ousterhout90.html",
+      "ee_links": []
+    },
+    {
+      "title": "The Big Picture: Visualizing System Behavior in Real Time",
+      "authors": [
+        "R. D. Trammell"
+      ],
+      "pages": "257-266",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Trammell90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Trammell90.html",
+      "ee_links": []
+    },
+    {
+      "title": "The COPS Security Checker System",
+      "authors": [
+        "Daniel Farmer",
+        "Eugene H. Spafford"
+      ],
+      "pages": "165-170",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FarmerS90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FarmerS90.html",
+      "ee_links": []
+    },
+    {
+      "title": "The Design of a Secure Internet Gateway",
+      "authors": [
+        "Bill Cheswick"
+      ],
+      "pages": "233-238",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Cheswick90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Cheswick90.html",
+      "ee_links": []
+    },
+    {
+      "title": "The Evolution of Dbx",
+      "authors": [
+        "Mark A. Linton"
+      ],
+      "pages": "211-220",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Linton90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Linton90.html",
+      "ee_links": []
+    },
+    {
+      "title": "The Evolution of turnin: A Classroom Oriented File Exchange Service",
+      "authors": [
+        "William Cattey"
+      ],
+      "pages": "171-182",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Cattey90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Cattey90.html",
+      "ee_links": []
+    },
+    {
+      "title": "The LFS Storage Manager",
+      "authors": [
+        "Mendel Rosenblum",
+        "John K. Ousterhout"
+      ],
+      "pages": "315-324",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RosenblumO90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RosenblumO90.html",
+      "ee_links": []
+    },
+    {
+      "title": "UNIX as an Application Program",
+      "authors": [
+        "David B. Golub",
+        "Randall W. Dean",
+        "Alessandro Forin",
+        "Richard F. Rashid"
+      ],
+      "pages": "87-95",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GolubDFR90",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GolubDFR90.html",
+      "ee_links": []
+    },
+    {
+      "title": "Why Aren't Operating Systems Getting Faster As Fast as Hardware?",
+      "authors": [
+        "John K. Ousterhout"
+      ],
+      "pages": "247-256",
+      "year": "1990",
+      "venue": "USENIX ATC 1990",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Ousterhout90a",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Ousterhout90a.html",
+      "ee_links": []
+    }
+  ]
+}

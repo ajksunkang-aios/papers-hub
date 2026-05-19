@@ -1,0 +1,868 @@
+{
+  "id": "nsdi-2016",
+  "venue": "nsdi",
+  "year": 2016,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2016.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2016.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2016",
+    "conf/nsdi/2016-1",
+    "conf/nsdi/2016-2",
+    "conf/nsdi/2016-3",
+    "conf/nsdi/2016-4",
+    "conf/nsdi/2016-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 44,
+  "display_count": 44,
+  "papers": [
+    {
+      "title": "A Scalable Multi-User Uplink for Wi-Fi",
+      "authors": [
+        "Adriana B. Flores",
+        "Sadia Quadri",
+        "Edward W. Knightly"
+      ],
+      "pages": "179-191",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FloresQK16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FloresQK16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/flores"
+      ]
+    },
+    {
+      "title": "An Industrial-Scale Software Defined Internet Exchange Point",
+      "authors": [
+        "Arpit Gupta",
+        "Robert MacDavid",
+        "R&uuml;diger Birkner",
+        "Marco Canini",
+        "Nick Feamster",
+        "Jennifer Rexford",
+        "Laurent Vanbever"
+      ],
+      "pages": "1-14",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuptaMBCFRV16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuptaMBCFRV16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/gupta"
+      ]
+    },
+    {
+      "title": "AnonRep: Towards Tracking-Resistant Anonymous Reputation",
+      "authors": [
+        "Ennan Zhai",
+        "David Isaac Wolinsky",
+        "Ruichuan Chen",
+        "Ewa Syta",
+        "Chao Teng",
+        "Bryan Ford"
+      ],
+      "pages": "583-596",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhaiWCSTF16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhaiWCSTF16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/zhai"
+      ]
+    },
+    {
+      "title": "Be Fast, Cheap and in Control with SwitchKV",
+      "authors": [
+        "Xiaozhou Li",
+        "Raghav Sethi",
+        "Michael Kaminsky",
+        "David G. Andersen",
+        "Michael J. Freedman"
+      ],
+      "pages": "31-44",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiSKAF16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiSKAF16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/li-xiaozhou"
+      ]
+    },
+    {
+      "title": "BeamSpy: Enabling Robust 60 GHz Links Under Blockage",
+      "authors": [
+        "Sanjib Sur 0001",
+        "Xinyu Zhang 0003",
+        "Parmesh Ramanathan",
+        "Ranveer Chandra"
+      ],
+      "pages": "193-206",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SurZRC16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SurZRC16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/sur"
+      ]
+    },
+    {
+      "title": "Bitcoin-NG: A Scalable Blockchain Protocol",
+      "authors": [
+        "Ittay Eyal",
+        "Adem Efe Gencer",
+        "Emin G&uuml;n Sirer",
+        "Robbert van Renesse"
+      ],
+      "pages": "45-59",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/EyalGSR16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/EyalGSR16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/eyal"
+      ]
+    },
+    {
+      "title": "BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores",
+      "authors": [
+        "Anurag Khandelwal",
+        "Rachit Agarwal 0001",
+        "Ion Stoica"
+      ],
+      "pages": "485-500",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Khandelwal0S16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Khandelwal0S16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/khandelwal"
+      ]
+    },
+    {
+      "title": "BUZZ: Testing Context-Dependent Policies in Stateful Networks",
+      "authors": [
+        "Seyed Kaveh Fayaz",
+        "Tianlong Yu",
+        "Yoshiaki Tobioka",
+        "Sagar Chaki",
+        "Vyas Sekar"
+      ],
+      "pages": "275-289",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FayazYTCS16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FayazYTCS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/fayaz"
+      ]
+    },
+    {
+      "title": "CFA: A Practical Prediction System for Video QoE Optimization",
+      "authors": [
+        "Junchen Jiang",
+        "Vyas Sekar",
+        "Henry Milner",
+        "Davis Shepherd",
+        "Ion Stoica",
+        "Hui Zhang 0001"
+      ],
+      "pages": "137-150",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JiangSMSS016",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JiangSMSS016.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/jiang"
+      ]
+    },
+    {
+      "title": "Cliffhanger: Scaling Performance Cliffs in Web Memory Caches",
+      "authors": [
+        "Asaf Cidon",
+        "Assaf Eisenman",
+        "Mohammad Alizadeh",
+        "Sachin Katti"
+      ],
+      "pages": "379-392",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CidonEAK16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CidonEAK16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/cidon"
+      ]
+    },
+    {
+      "title": "Compiling Path Queries",
+      "authors": [
+        "Srinivas Narayana",
+        "Mina Tahmasbi",
+        "Jennifer Rexford",
+        "David Walker 0001"
+      ],
+      "pages": "207-222",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NarayanaTRW16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NarayanaTRW16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/narayana"
+      ]
+    },
+    {
+      "title": "Consensus in a Box: Inexpensive Coordination in Hardware",
+      "authors": [
+        "Zsolt Istv&aacute;n",
+        "David Sidler",
+        "Gustavo Alonso",
+        "Marko Vukolic"
+      ],
+      "pages": "425-438",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/IstvanSAV16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/IstvanSAV16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/istvan"
+      ]
+    },
+    {
+      "title": "Decimeter-Level Localization with a Single WiFi Access Point",
+      "authors": [
+        "Deepak Vasisht",
+        "Swarun Kumar",
+        "Dina Katabi"
+      ],
+      "pages": "165-178",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/VasishtKK16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/VasishtKK16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/vasisht"
+      ]
+    },
+    {
+      "title": "DFC: Accelerating String Pattern Matching for Network Applications",
+      "authors": [
+        "Byungkwon Choi",
+        "Jongwook Chae",
+        "Muhammad Jamshed",
+        "KyoungSoo Park",
+        "Dongsu Han"
+      ],
+      "pages": "551-565",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChoiCJPH16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChoiCJPH16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/choi"
+      ]
+    },
+    {
+      "title": "Diamond: Nesting the Data Center Network with Wireless Rings in 3D Space",
+      "authors": [
+        "Yong Cui 0001",
+        "Shihan Xiao",
+        "Xin Wang 0001",
+        "Zhenjie Yang",
+        "Chao Zhu 0002",
+        "Xiangyang Li 0001",
+        "Liu Yang",
+        "Ning Ge 0001"
+      ],
+      "pages": "657-669",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CuiXWYZLYG16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CuiXWYZLYG16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/cui"
+      ]
+    },
+    {
+      "title": "Diplomat: Using Delegations to Protect Community Repositories",
+      "authors": [
+        "Trishank Karthik Kuppusamy",
+        "Santiago Torres-Arias",
+        "Vladimir Diaz",
+        "Justin Cappos"
+      ],
+      "pages": "567-581",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KuppusamyTDC16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KuppusamyTDC16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/kuppusamy"
+      ]
+    },
+    {
+      "title": "Earp: Principled Storage, Sharing, and Protection for Mobile Apps",
+      "authors": [
+        "Yuanzhong Xu",
+        "Tyler Hunt",
+        "Youngjin Kwon",
+        "Martin Georgiev",
+        "Vitaly Shmatikov",
+        "Emmett Witchel"
+      ],
+      "pages": "627-642",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XuHKGSW16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XuHKGSW16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/xu"
+      ]
+    },
+    {
+      "title": "Efficiently Delivering Online Services over Integrated Infrastructure",
+      "authors": [
+        "Hongqiang Harry Liu",
+        "Raajay Viswanathan",
+        "Matt Calder",
+        "Aditya Akella",
+        "Ratul Mahajan",
+        "Jitendra Padhye",
+        "Ming Zhang 0005"
+      ],
+      "pages": "77-90",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiuVCAMPZ16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiuVCAMPZ16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/liu"
+      ]
+    },
+    {
+      "title": "Embark: Securely Outsourcing Middleboxes to the Cloud",
+      "authors": [
+        "Chang Lan",
+        "Justine Sherry",
+        "Raluca Ada Popa",
+        "Sylvia Ratnasamy",
+        "Zhi Liu"
+      ],
+      "pages": "255-273",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LanSPRL16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LanSPRL16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/lan"
+      ]
+    },
+    {
+      "title": "Enabling ECN in Multi-Service Multi-Queue Data Centers",
+      "authors": [
+        "Wei Bai 0001",
+        "Li Chen 0008",
+        "Kai Chen 0005",
+        "Haitao Wu"
+      ],
+      "pages": "537-549",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0001C0W16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0001C0W16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/bai"
+      ]
+    },
+    {
+      "title": "Ernest: Efficient Performance Prediction for Large-Scale Advanced Analytics",
+      "authors": [
+        "Shivaram Venkataraman",
+        "Zongheng Yang",
+        "Michael J. Franklin",
+        "Benjamin Recht",
+        "Ion Stoica"
+      ],
+      "pages": "363-378",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/VenkataramanYFR16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/VenkataramanYFR16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/venkataraman"
+      ]
+    },
+    {
+      "title": "Exploring Cross-Application Cellular Traffic Optimization with Baidu TrafficGuard",
+      "authors": [
+        "Zhenhua Li 0001",
+        "Weiwei Wang 0002",
+        "Tianyin Xu",
+        "Xin Zhong",
+        "Xiang-Yang Li 0001",
+        "Yunhao Liu 0001",
+        "Christo Wilson",
+        "Ben Y. Zhao"
+      ],
+      "pages": "61-76",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiWXZLLWZ16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiWXZLLWZ16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/li-zhenhua"
+      ]
+    },
+    {
+      "title": "FairRide: Near-Optimal, Fair Cache Sharing",
+      "authors": [
+        "Qifan Pu",
+        "Haoyuan Li 0001",
+        "Matei Zaharia",
+        "Ali Ghodsi 0002",
+        "Ion Stoica"
+      ],
+      "pages": "393-406",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PuLZGS16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PuLZGS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/pu"
+      ]
+    },
+    {
+      "title": "FlowRadar: A Better NetFlow for Data Centers",
+      "authors": [
+        "Yuliang Li",
+        "Rui Miao 0001",
+        "Changhoon Kim",
+        "Minlan Yu"
+      ],
+      "pages": "311-324",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiMKY16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiMKY16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/li-yuliang"
+      ]
+    },
+    {
+      "title": "HUG: Multi-Resource Fairness for Correlated and Elastic Demands",
+      "authors": [
+        "Mosharaf Chowdhury",
+        "Zhenhua Liu 0002",
+        "Ali Ghodsi 0002",
+        "Ion Stoica"
+      ],
+      "pages": "407-424",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChowdhuryLGS16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChowdhuryLGS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/chowdhury"
+      ]
+    },
+    {
+      "title": "iCellular: Device-Customized Cellular Network Access on Commodity Smartphones",
+      "authors": [
+        "Yuanjie Li",
+        "Haotian Deng 0001",
+        "Chunyi Peng 0001",
+        "Zengwen Yuan",
+        "Guan-Hua Tu",
+        "Jiayao Li",
+        "Songwu Lu"
+      ],
+      "pages": "643-656",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiDPYTLL16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiDPYTLL16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/li-yuanjie"
+      ]
+    },
+    {
+      "title": "Maglev: A Fast and Reliable Software Network Load Balancer",
+      "authors": [
+        "Daniel E. Eisenbud",
+        "Cheng Yi",
+        "Carlo Contavalli",
+        "Cody Smith",
+        "Roman Kononov",
+        "Eric Mann-Hielscher",
+        "Ardas Cilingiroglu",
+        "Bin Cheyney",
+        "Wentao Shang",
+        "Jinnah Dylan Hosein"
+      ],
+      "pages": "523-535",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/EisenbudYCSKMCC16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/EisenbudYCSKMCC16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/eisenbud"
+      ]
+    },
+    {
+      "title": "Mind the Gap: Towards a Backpressure-Based Transport Protocol for the Tor Network",
+      "authors": [
+        "Florian Tschorsch",
+        "Bj&ouml;rn Scheuermann 0001"
+      ],
+      "pages": "597-610",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/TschorschS16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/TschorschS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/tschorsch"
+      ]
+    },
+    {
+      "title": "Minimizing Faulty Executions of Distributed Systems",
+      "authors": [
+        "Colin Scott",
+        "Aurojit Panda",
+        "Vjekoslav Brajkovic",
+        "George C. Necula",
+        "Arvind Krishnamurthy",
+        "Scott Shenker"
+      ],
+      "pages": "291-309",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ScottPBNKS16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ScottPBNKS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/scott"
+      ]
+    },
+    {
+      "title": "Passive Wi-Fi: Bringing Low Power to Wi-Fi Transmissions",
+      "authors": [
+        "Bryce Kellogg",
+        "Vamsi Talla",
+        "Shyamnath Gollakota",
+        "Joshua R. Smith 0001"
+      ],
+      "pages": "151-164",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KelloggTGS16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KelloggTGS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/kellogg"
+      ]
+    },
+    {
+      "title": "Paving the Way for NFV: Simplifying Middlebox Modifications Using StateAlyzr",
+      "authors": [
+        "Junaid Khalid",
+        "Aaron Gember-Jacobson",
+        "Roney Michael",
+        "Anubhavnidhi Abhashkumar",
+        "Aditya Akella"
+      ],
+      "pages": "239-253",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KhalidGMAA16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KhalidGMAA16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/khalid"
+      ]
+    },
+    {
+      "title": "PhyCloak: Obfuscating Sensing from Communication Signals",
+      "authors": [
+        "Yue Qiao",
+        "Ouyang Zhang",
+        "Wenjie Zhou",
+        "Kannan Srinivasan 0001",
+        "Anish Arora"
+      ],
+      "pages": "685-699",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/QiaoZZSA16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/QiaoZZSA16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/qiao"
+      ]
+    },
+    {
+      "title": "Polaris: Faster Page Loads Using Fine-grained Dependency Tracking",
+      "authors": [
+        "Ravi Netravali",
+        "Ameesh Goyal",
+        "James Mickens",
+        "Hari Balakrishnan"
+      ],
+      "pages": "123-136",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NetravaliGMB16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NetravaliGMB16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/netravali"
+      ]
+    },
+    {
+      "title": "Ripple II: Faster Communication through Physical Vibration",
+      "authors": [
+        "Nirupam Roy",
+        "Romit Roy Choudhury"
+      ],
+      "pages": "671-684",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RoyC16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RoyC16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/roy"
+      ]
+    },
+    {
+      "title": "Scalable and Private Media Consumption with Popcorn",
+      "authors": [
+        "Trinabh Gupta",
+        "Natacha Crooks",
+        "Whitney Mulhern",
+        "Srinath T. V. Setty",
+        "Lorenzo Alvisi",
+        "Michael Walfish"
+      ],
+      "pages": "91-107",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuptaCMSAW16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuptaCMSAW16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/gupta-trinabh"
+      ]
+    },
+    {
+      "title": "Sibyl: A Practical Internet Route Oracle",
+      "authors": [
+        "&Iacute;talo Cunha",
+        "Pietro Marchetta",
+        "Matt Calder",
+        "Yi-Ching Chiu",
+        "Brandon Schlinker",
+        "Bruno V. A. Machado",
+        "Antonio Pescap&egrave;",
+        "Vasileios Giotsas",
+        "Harsha V. Madhyastha",
+        "Ethan Katz-Bassett"
+      ],
+      "pages": "325-344",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CunhaMCCSMPGMK16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CunhaMCCSMPGMK16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/cunha"
+      ]
+    },
+    {
+      "title": "Sieve: Cryptographically Enforced Access Control for User Data in Untrusted Clouds",
+      "authors": [
+        "Frank Wang",
+        "James Mickens",
+        "Nickolai Zeldovich",
+        "Vinod Vaikuntanathan"
+      ],
+      "pages": "611-626",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangMZV16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangMZV16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/wang-frank"
+      ]
+    },
+    {
+      "title": "Simplifying Software-Defined Network Optimization Using SOL",
+      "authors": [
+        "Victor Heorhiadi",
+        "Michael K. Reiter",
+        "Vyas Sekar"
+      ],
+      "pages": "223-237",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HeorhiadiRS16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HeorhiadiRS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/heorhiadi"
+      ]
+    },
+    {
+      "title": "Social Hash: An Assignment Framework for Optimizing Distributed Systems Operations on Social Networks",
+      "authors": [
+        "Alon Shalita",
+        "Brian Karrer",
+        "Igor Kabiljo",
+        "Arun Sharma",
+        "Alessandro Presta",
+        "Aaron Adcock",
+        "Herald Kllapi",
+        "Michael Stumm"
+      ],
+      "pages": "455-468",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShalitaKKSPAKS16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShalitaKKSPAKS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/shalita"
+      ]
+    },
+    {
+      "title": "Speeding up Web Page Loads with Shandian",
+      "authors": [
+        "Xiao Sophia Wang",
+        "Arvind Krishnamurthy",
+        "David Wetherall"
+      ],
+      "pages": "109-122",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangKW16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangKW16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/wang"
+      ]
+    },
+    {
+      "title": "StreamScope: Continuous Reliable Distributed Processing of Big Data Streams",
+      "authors": [
+        "Wei Lin 0016",
+        "Haochuan Fan",
+        "Zhengping Qian",
+        "Junwei Xu",
+        "Sen Yang",
+        "Jingren Zhou 0001",
+        "Lidong Zhou"
+      ],
+      "pages": "439-453",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LinFQXYZZ16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LinFQXYZZ16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/lin"
+      ]
+    },
+    {
+      "title": "Universal Packet Scheduling",
+      "authors": [
+        "Radhika Mittal",
+        "Rachit Agarwal 0001",
+        "Sylvia Ratnasamy",
+        "Scott Shenker"
+      ],
+      "pages": "501-521",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Mittal0RS16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Mittal0RS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/mittal"
+      ]
+    },
+    {
+      "title": "VAST: A Unified Platform for Interactive Network Forensics",
+      "authors": [
+        "Matthias Vallentin",
+        "Vern Paxson",
+        "Robin Sommer"
+      ],
+      "pages": "345-362",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/VallentinPS16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/VallentinPS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/vallentin"
+      ]
+    },
+    {
+      "title": "XFabric: A Reconfigurable In-Rack Network for Rack-Scale Computers",
+      "authors": [
+        "Sergey Legtchenko",
+        "Nicholas Chen",
+        "Daniel Cletheroe",
+        "Antony I. T. Rowstron",
+        "Hugh Williams",
+        "Xiaohan Zhao"
+      ],
+      "pages": "15-29",
+      "year": "2016",
+      "venue": "NSDI 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LegtchenkoCCRWZ16",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LegtchenkoCCRWZ16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/legtchenko"
+      ]
+    }
+  ]
+}

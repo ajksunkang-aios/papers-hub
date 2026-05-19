@@ -1,0 +1,486 @@
+{
+  "id": "isca-2001",
+  "venue": "isca",
+  "year": 2001,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2001.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2001.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2001",
+    "conf/isca/2001-1",
+    "conf/isca/2001-2",
+    "conf/isca/2001-3",
+    "conf/isca/2001-4",
+    "conf/isca/2001-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 24,
+  "display_count": 24,
+  "papers": [
+    {
+      "title": "A simple method for extracting models for protocol code",
+      "authors": [
+        "David Lie",
+        "Andy Chou",
+        "Dawson R. Engler",
+        "David L. Dill"
+      ],
+      "pages": "192-203",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LieCED01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LieCED01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379263",
+        "https://doi.org/10.1109/ISCA.2001.937448",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937448"
+      ]
+    },
+    {
+      "title": "Automated design of finite state machine predictors for customized processors",
+      "authors": [
+        "Timothy Sherwood",
+        "Brad Calder"
+      ],
+      "pages": "86-97",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SherwoodC01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SherwoodC01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379254",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937436",
+        "https://www.wikidata.org/entity/Q130950435"
+      ]
+    },
+    {
+      "title": "Better exploration of region-level value locality with integrated computation reuse and value prediction",
+      "authors": [
+        "Youfeng Wu",
+        "Dong-yuan Chen",
+        "Jesse Fang"
+      ],
+      "pages": "98-108",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WuCF01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WuCF01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379255",
+        "https://doi.org/10.1109/ISCA.2001.937437",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937437"
+      ]
+    },
+    {
+      "title": "Cache decay: exploiting generational behavior to reduce cache leakage power",
+      "authors": [
+        "Stefanos Kaxiras",
+        "Zhigang Hu",
+        "Margaret Martonosi"
+      ],
+      "pages": "240-251",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KaxirasHM01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KaxirasHM01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379268",
+        "https://doi.org/10.1109/ISCA.2001.937453",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937453"
+      ]
+    },
+    {
+      "title": "Code layout optimizations for transaction processing workloads",
+      "authors": [
+        "Alex Ram&iacute;rez",
+        "Luiz Andr&eacute; Barroso",
+        "Kourosh Gharachorloo",
+        "Robert S. Cohn",
+        "Josep Llu&iacute;s Larriba-Pey",
+        "P. Geoffrey Lowney",
+        "Mateo Valero"
+      ],
+      "pages": "155-164",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RamirezBGCLLV01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RamirezBGCLLV01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379260",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937444",
+        "https://www.wikidata.org/entity/Q61731049"
+      ]
+    },
+    {
+      "title": "Concurrency, latency, or system overhead: which has the largest impact on uniprocessor DRAM-system performance?",
+      "authors": [
+        "Vinodh Cuppu",
+        "Bruce L. Jacob"
+      ],
+      "pages": "62-71",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CuppuJ01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CuppuJ01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379252",
+        "https://doi.org/10.1109/ISCA.2001.937433",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937433"
+      ]
+    },
+    {
+      "title": "CryptoManiac: a fast flexible architecture for secure communication",
+      "authors": [
+        "Lisa Wu 0001",
+        "Christopher T. Weaver",
+        "Todd M. Austin"
+      ],
+      "pages": "110-119",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WuWA01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WuWA01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379256",
+        "https://doi.org/10.1109/ISCA.2001.937439",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937439"
+      ]
+    },
+    {
+      "title": "Data prefetching by dependence graph precomputation",
+      "authors": [
+        "Murali Annavaram",
+        "Jignesh M. Patel",
+        "Edward S. Davidson"
+      ],
+      "pages": "52-61",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AnnavaramPD01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AnnavaramPD01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379251",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937432"
+      ]
+    },
+    {
+      "title": "Dead-block prediction & dead-block correlating prefetchers",
+      "authors": [
+        "An-Chow Lai",
+        "Cem Fide",
+        "Babak Falsafi"
+      ],
+      "pages": "144-154",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LaiFF01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LaiFF01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379259",
+        "https://doi.org/10.1109/ISCA.2001.937443",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937443"
+      ]
+    },
+    {
+      "title": "Dynamically allocating processor resources between nearby and distant ILP",
+      "authors": [
+        "Rajeev Balasubramonian",
+        "Sandhya Dwarkadas",
+        "David H. Albonesi"
+      ],
+      "pages": "26-37",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BalasubramonianDA01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BalasubramonianDA01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379249",
+        "https://doi.org/10.1109/ISCA.2001.937428"
+      ]
+    },
+    {
+      "title": "Energy-effective issue logic",
+      "authors": [
+        "Daniele Folegnani",
+        "Antonio Gonz&aacute;lez 0001"
+      ],
+      "pages": "230-239",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FolegnaniG01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FolegnaniG01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379266",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937452",
+        "https://www.wikidata.org/entity/Q130995212"
+      ]
+    },
+    {
+      "title": "Execution-based prediction using speculative slices",
+      "authors": [
+        "Craig B. Zilles",
+        "Gurindar S. Sohi"
+      ],
+      "pages": "2-13",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZillesS01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZillesS01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379246",
+        "https://doi.org/10.1109/ISCA.2001.937426"
+      ]
+    },
+    {
+      "title": "Exploring and exploiting wire-level pipelining in emerging technologies",
+      "authors": [
+        "Michael T. Niemier",
+        "Peter M. Kogge"
+      ],
+      "pages": "166-177",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NiemierK01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NiemierK01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379261",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937445"
+      ]
+    },
+    {
+      "title": "Focusing processor policies via critical-path prediction",
+      "authors": [
+        "Brian A. Fields",
+        "Shai Rubin",
+        "Rastislav Bod&iacute;k"
+      ],
+      "pages": "74-85",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FieldsRB01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FieldsRB01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379253",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937434"
+      ]
+    },
+    {
+      "title": "Locality vs. criticality",
+      "authors": [
+        "Srikanth T. Srinivasan",
+        "Roy Dz-Ching Ju",
+        "Alvin R. Lebeck",
+        "Chris Wilkerson"
+      ],
+      "pages": "132-143",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SrinivasanJLW01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SrinivasanJLW01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379258",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937442",
+        "https://www.wikidata.org/entity/Q130965016"
+      ]
+    },
+    {
+      "title": "Measuring Experimental Error in Microprocessor Simulation",
+      "authors": [
+        "Rajagopalan Desikan",
+        "Doug Burger",
+        "Stephen W. Keckler"
+      ],
+      "pages": "266-277",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DesikanB01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DesikanB01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.565338",
+        "https://www.wikidata.org/entity/Q130951314"
+      ]
+    },
+    {
+      "title": "NanoFabrics: spatial computing using molecular electronics",
+      "authors": [
+        "Seth Copen Goldstein",
+        "Mihai Budiu"
+      ],
+      "pages": "178-191",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GoldsteinB01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GoldsteinB01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379262",
+        "https://doi.org/10.1109/ISCA.2001.937446",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937446"
+      ]
+    },
+    {
+      "title": "Power and energy reduction via pipeline balancing",
+      "authors": [
+        "R. Iris Bahar",
+        "Srilatha Manne"
+      ],
+      "pages": "218-229",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BaharM01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BaharM01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379265",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937451"
+      ]
+    },
+    {
+      "title": "QoS provisioning in clusters: an investigation of Router and NIC design",
+      "authors": [
+        "Ki Hwan Yum",
+        "Eun Jung Kim 0001",
+        "Chita R. Das"
+      ],
+      "pages": "120-129",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YumKD01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YumKD01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379257",
+        "https://doi.org/10.1109/ISCA.2001.937441",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937441"
+      ]
+    },
+    {
+      "title": "Rapid profiling via stratified sampling",
+      "authors": [
+        "S. Subramanya Sastry",
+        "Rastislav Bod&iacute;k",
+        "James E. Smith 0001"
+      ],
+      "pages": "278-289",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SastryBS01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SastryBS01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379273",
+        "https://doi.org/10.1109/ISCA.2001.937456",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937456"
+      ]
+    },
+    {
+      "title": "Removing architectural bottlenecks to the scalability of speculative parallelization",
+      "authors": [
+        "Milos Prvulovic",
+        "Mar&iacute;a Jes&uacute;s Garzar&aacute;n",
+        "Lawrence Rauchwerger",
+        "Josep Torrellas"
+      ],
+      "pages": "204-215",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PrvulovicGRT01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PrvulovicGRT01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379264",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937450",
+        "https://www.wikidata.org/entity/Q131130218"
+      ]
+    },
+    {
+      "title": "Speculative precomputation: long-range prefetching of delinquent loads",
+      "authors": [
+        "Jamison D. Collins",
+        "Hong Wang 0003",
+        "Dean M. Tullsen",
+        "Christopher J. Hughes",
+        "Yong-Fong Lee",
+        "Daniel M. Lavery",
+        "John Paul Shen"
+      ],
+      "pages": "14-25",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CollinsWTHLLS01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CollinsWTHLLS01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379248",
+        "https://doi.org/10.1109/ISCA.2001.937427",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937427",
+        "https://www.wikidata.org/entity/Q130967041"
+      ]
+    },
+    {
+      "title": "Tolerating memory latency through software-controlled pre-execution in simultaneous multithreading processors",
+      "authors": [
+        "Chi-Keung Luk"
+      ],
+      "pages": "40-51",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Luk01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Luk01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379250",
+        "https://doi.org/10.1109/ISCA.2001.937430",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937430"
+      ]
+    },
+    {
+      "title": "Variability in the execution of multimedia applications and implications for architecture",
+      "authors": [
+        "Christopher J. Hughes",
+        "Praful Kaul",
+        "Sarita V. Adve",
+        "Rohit Jain",
+        "Chanik Park",
+        "Jayanth Srinivasan"
+      ],
+      "pages": "254-265",
+      "year": "2001",
+      "venue": "ISCA 2001",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HughesKAJPS01",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HughesKAJPS01.html",
+      "ee_links": [
+        "https://doi.org/10.1145/379240.379270",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2001.937454"
+      ]
+    }
+  ]
+}

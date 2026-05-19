@@ -1,0 +1,977 @@
+{
+  "id": "usenix-2006",
+  "venue": "usenix",
+  "year": 2006,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2006.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2006.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2006",
+    "conf/usenix/2006-1",
+    "conf/usenix/2006-2",
+    "conf/usenix/2006-3",
+    "conf/usenix/2006-4",
+    "conf/usenix/2006-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 58,
+  "display_count": 58,
+  "papers": [
+    {
+      "title": "Algorithms and Data Structures for the 21st Century",
+      "authors": [
+        "Stephen C. Johnson"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Johnson06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Johnson06.html",
+      "ee_links": []
+    },
+    {
+      "title": "An Evaluation of Network Stack Parallelization Strategies in Modern Operating Systems",
+      "authors": [
+        "Paul Willmann",
+        "Scott Rixner",
+        "Alan L. Cox"
+      ],
+      "pages": "91-96",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WillmannRC06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WillmannRC06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/willmann.html"
+      ]
+    },
+    {
+      "title": "An Introduction to Software Radio",
+      "authors": [
+        "Eric Blossom"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Blossom06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Blossom06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/slides/blossom_2006.pdf"
+      ]
+    },
+    {
+      "title": "Antfarm: Tracking Processes in a Virtual Machine Environment",
+      "authors": [
+        "Stephen T. Jones",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "1-14",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JonesAA06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JonesAA06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/jones.html"
+      ]
+    },
+    {
+      "title": "Architectures and Algorithms for Biomolecular Simulation",
+      "authors": [
+        "Cliff Young"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Young06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Young06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/mp3/young.mp3"
+      ]
+    },
+    {
+      "title": "Bump in the Ether: A Framework for Securing Sensitive User Input",
+      "authors": [
+        "Jonathan M. McCune",
+        "Adrian Perrig",
+        "Michael K. Reiter"
+      ],
+      "pages": "185-198",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/McCunePR06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/McCunePR06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/mccune.html"
+      ]
+    },
+    {
+      "title": "Compare-by-Hash: A Reasoned Analysis",
+      "authors": [
+        "John Black"
+      ],
+      "pages": "85-90",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Black06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Black06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/black.html"
+      ]
+    },
+    {
+      "title": "Computers, Developers, and The Law",
+      "authors": [
+        "Dan Appelman"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Appelman06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Appelman06.html",
+      "ee_links": []
+    },
+    {
+      "title": "Cutting through the Confusion: A Measurement Study of Homograph Attacks",
+      "authors": [
+        "Tobias Holgers",
+        "David E. Watson",
+        "Steven D. Gribble"
+      ],
+      "pages": "261-266",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HolgersWG06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HolgersWG06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/holgers.html"
+      ]
+    },
+    {
+      "title": "Deploying a Sensor Network on an Active Volcano",
+      "authors": [
+        "Matt Welsh"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Welsh06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Welsh06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/slides/welsh_2006.pdf"
+      ]
+    },
+    {
+      "title": "Design Tradeoffs in Applying Content Addressable Storage to Enterprise-scale Systems Based on Virtual Machines",
+      "authors": [
+        "Partho Nath",
+        "Michael Kozuch",
+        "David R. O'Hallaron",
+        "Jan Harkes",
+        "Mahadev Satyanarayanan",
+        "Niraj Tolia",
+        "Matt Toups"
+      ],
+      "pages": "71-84",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/NathKOHSTT06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/NathKOHSTT06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/nath.html"
+      ]
+    },
+    {
+      "title": "Disk Drive Level Workload Characterization",
+      "authors": [
+        "Alma Riska",
+        "Erik Riedel"
+      ],
+      "pages": "97-102",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RiskaR06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RiskaR06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/riska.html"
+      ]
+    },
+    {
+      "title": "Efficient Query Subscription Processing for Prospective Search Engines",
+      "authors": [
+        "Utku Irmak",
+        "Svilen Mihaylov",
+        "Torsten Suel",
+        "Samrat Ganguly",
+        "Rauf Izmailov"
+      ],
+      "pages": "375-380",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/IrmakMSGI06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/IrmakMSGI06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/irmak.html"
+      ]
+    },
+    {
+      "title": "Flux: A Language for Programming High-Performance Servers",
+      "authors": [
+        "Brendan Burns",
+        "Kevin Grimaldi",
+        "Alexander Kostadinov",
+        "Emery D. Berger",
+        "Mark D. Corner"
+      ],
+      "pages": "129-142",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BurnsGKBC06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BurnsGKBC06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/burns.html"
+      ]
+    },
+    {
+      "title": "Gold and Fool's Gold: Successes, Failures, and Futures in Computer Systems Research",
+      "authors": [
+        "Butler W. Lampson"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Lampson06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Lampson06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/slides/lampson_2006.pdf"
+      ]
+    },
+    {
+      "title": "Hackers and Founders",
+      "authors": [
+        "Paul Graham"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Graham06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Graham06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/mp3/graham.mp3"
+      ]
+    },
+    {
+      "title": "Hacking Perl²",
+      "authors": [
+        "David N. Blank-Edelman"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Blank-Edelman06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Blank-Edelman06.html",
+      "ee_links": []
+    },
+    {
+      "title": "High Capacity and High Performance Storage on a Limited Budget",
+      "authors": [
+        "Jacob Farmer"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Farmer06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Farmer06.html",
+      "ee_links": []
+    },
+    {
+      "title": "High Performance VMM-Bypass I/O in Virtual Machines",
+      "authors": [
+        "Jiuxing Liu",
+        "Wei Huang 0003",
+        "B&uuml;lent Abali",
+        "Dhabaleswar K. Panda 0001"
+      ],
+      "pages": "29-42",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiuHAP06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiuHAP06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/liu.html"
+      ]
+    },
+    {
+      "title": "How DNS Misnaming Distorts Internet Topology Mapping",
+      "authors": [
+        "Ming Zhang 0005",
+        "Yaoping Ruan",
+        "Vivek S. Pai",
+        "Jennifer Rexford"
+      ],
+      "pages": "369-374",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangRPR06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangRPR06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/zhang.html"
+      ]
+    },
+    {
+      "title": "Implementation and Evaluation of Moderate Parallelism in the BIND9 DNS Server",
+      "authors": [
+        "Tatuya Jinmei",
+        "Paul Vixie"
+      ],
+      "pages": "115-128",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JinmeiV06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JinmeiV06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/jinmei.html"
+      ]
+    },
+    {
+      "title": "Integrated Scientific Workflow Management for the Emulab Network Testbed",
+      "authors": [
+        "Eric Eide",
+        "Leigh Stoller",
+        "Tim Stack",
+        "Juliana Freire",
+        "Jay Lepreau"
+      ],
+      "pages": "363-368",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/EideSSFL06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/EideSSFL06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/eide.html"
+      ]
+    },
+    {
+      "title": "IP Only Server",
+      "authors": [
+        "Muli Ben-Yehuda",
+        "Oleg Goldshmidt",
+        "Elliot K. Kolodner",
+        "Zorik Machulsky",
+        "Vadim Makhervaks",
+        "Julian Satran",
+        "Marc Segal",
+        "Leah Shalev",
+        "Ilan Shimony"
+      ],
+      "pages": "381-386",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Ben-YehudaGKMMSSSS06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Ben-YehudaGKMMSSSS06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/ben-yehuda.html"
+      ]
+    },
+    {
+      "title": "LADS: Large-scale Automated DDoS Detection System",
+      "authors": [
+        "Vyas Sekar",
+        "Nick G. Duffield",
+        "Oliver Spatscheck",
+        "Jacobus E. van der Merwe",
+        "Hui Zhang 0001"
+      ],
+      "pages": "171-184",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SekarDSMZ06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SekarDSMZ06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/sekar.html"
+      ]
+    },
+    {
+      "title": "Loose Synchronization for Large-Scale Networked Systems",
+      "authors": [
+        "Jeannie R. Albrecht",
+        "Christopher Tuttle",
+        "Alex C. Snoeren",
+        "Amin Vahdat"
+      ],
+      "pages": "301-314",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AlbrechtTSV06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AlbrechtTSV06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/albrecht.html"
+      ]
+    },
+    {
+      "title": "Opening Remarks",
+      "authors": [],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/X06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/X06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/mp3/opening.mp3"
+      ]
+    },
+    {
+      "title": "Optimizing Network Virtualization in Xen (awarded best paper)",
+      "authors": [
+        "Aravind Menon",
+        "Alan L. Cox",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "15-28",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MenonCZ06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MenonCZ06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/menon.html"
+      ]
+    },
+    {
+      "title": "Panel: Is University Systems Teaching and Research Relevant to Industry?",
+      "authors": [
+        "Gernot Heiser"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Heiser06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Heiser06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/mp3/heiser.mp3"
+      ]
+    },
+    {
+      "title": "Panel: Open Source Software Business Models",
+      "authors": [
+        "Stephen R. Walli"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Walli06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Walli06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/mp3/walli.mp3"
+      ]
+    },
+    {
+      "title": "Permissive Action Links, Nuclear Weapons, and the History of Public Key Cryptography",
+      "authors": [
+        "Steven M. Bellovin"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Bellovin06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Bellovin06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/slides/bellovin_2006.pdf"
+      ]
+    },
+    {
+      "title": "PlanetLab: Evolution vs. Intelligent Design in Planetary-Scale Infrastructure",
+      "authors": [
+        "Larry L. Peterson"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Peterson06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Peterson06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/slides/peterson_2006.pdf"
+      ]
+    },
+    {
+      "title": "Privacy & Cryptography",
+      "authors": [
+        "Steven M. Bellovin"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Bellovin06a",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Bellovin06a.html",
+      "ee_links": []
+    },
+    {
+      "title": "Privacy Analysis for Data Sharing in *nix Systems",
+      "authors": [
+        "Aameek Singh",
+        "Ling Liu 0001",
+        "Mustaque Ahamad"
+      ],
+      "pages": "249-254",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SinghLA06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SinghLA06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/singh.html"
+      ]
+    },
+    {
+      "title": "Provenance-Aware Storage Systems",
+      "authors": [
+        "Kiran-Kumar Muniswamy-Reddy",
+        "David A. Holland",
+        "Uri Braun",
+        "Margo I. Seltzer"
+      ],
+      "pages": "43-56",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Muniswamy-ReddyHBS06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Muniswamy-ReddyHBS06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/muniswamy-reddy.html"
+      ]
+    },
+    {
+      "title": "Reclaiming Network-wide Visibility Using Ubiquitous Endsystem Monitors",
+      "authors": [
+        "Evan Cooke",
+        "Richard Mortier",
+        "Austin Donnelly",
+        "Paul Barham 0001",
+        "Rebecca Isaacs"
+      ],
+      "pages": "357-362",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CookeMDBI06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CookeMDBI06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/cooke.html"
+      ]
+    },
+    {
+      "title": "Replay Debugging for Distributed Applications (Awarded Best Paper!)",
+      "authors": [
+        "Dennis Geels",
+        "Gautam Altekar",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": "289-300",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GeelsASS06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GeelsASS06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/geels.html"
+      ]
+    },
+    {
+      "title": "Resilient Connections for SSH and TLS",
+      "authors": [
+        "Teemu Koponen",
+        "Pasi Eronen",
+        "Mikko S&auml;rel&auml;"
+      ],
+      "pages": "329-340",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KoponenES06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KoponenES06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/koponen.html"
+      ]
+    },
+    {
+      "title": "Reval: A Tool for Real-time Evaluation of DDoS Mitigation Strategies",
+      "authors": [
+        "Rangarajan Vasudevan",
+        "Zhuoqing Morley Mao",
+        "Oliver Spatscheck",
+        "Jacobus E. van der Merwe"
+      ],
+      "pages": "157-170",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/VasudevanMSM06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/VasudevanMSM06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/vasudevan.html"
+      ]
+    },
+    {
+      "title": "Routing Without Tears, Bridging Without Danger",
+      "authors": [
+        "Radia J. Perlman"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Perlman06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Perlman06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/slides/perlman_2006.pdf"
+      ]
+    },
+    {
+      "title": "RRDTool: Logging and Graphing",
+      "authors": [
+        "John Sellens"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Sellens06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Sellens06.html",
+      "ee_links": []
+    },
+    {
+      "title": "Securing Web Service by Automatic Robot Detection",
+      "authors": [
+        "KyoungSoo Park",
+        "Vivek S. Pai",
+        "Kang-Won Lee",
+        "Seraphin B. Calo"
+      ],
+      "pages": "255-260",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ParkPLC06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ParkPLC06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/park.html"
+      ]
+    },
+    {
+      "title": "Security Is Broken",
+      "authors": [
+        "Rik Farrow"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Farrow06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Farrow06.html",
+      "ee_links": []
+    },
+    {
+      "title": "Service Placement in a Shared Wide-Area Platform",
+      "authors": [
+        "David Oppenheimer",
+        "Brent N. Chun",
+        "David A. Patterson 0001",
+        "Alex C. Snoeren",
+        "Amin Vahdat"
+      ],
+      "pages": "273-288",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/OppenheimerCPSV06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/OppenheimerCPSV06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/oppenheimer.html"
+      ]
+    },
+    {
+      "title": "Sharing Networked Resources with Brokered Leases",
+      "authors": [
+        "David Irwin 0001",
+        "Jeffrey S. Chase",
+        "Laura E. Grit",
+        "Aydan R. Yumerefendi",
+        "David Becker",
+        "Ken Yocum"
+      ],
+      "pages": "199-212",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/IrwinCGYBY06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/IrwinCGYBY06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/irwin.html"
+      ]
+    },
+    {
+      "title": "SMART: An Integrated Multi-Action Advisor for Storage Systems",
+      "authors": [
+        "Li Yin",
+        "Sandeep Uttamchandani",
+        "Madhukar R. Korupolu",
+        "Kaladhar Voruganti",
+        "Randy H. Katz"
+      ],
+      "pages": "229-242",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YinUKVK06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YinUKVK06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/yin.html"
+      ]
+    },
+    {
+      "title": "sMonitor: A Non-Intrusive Client-Perceived End-to-End Performance Monitor of Secured Internet Services",
+      "authors": [
+        "Jianbin Wei",
+        "Cheng-Zhong Xu 0001"
+      ],
+      "pages": "243-248",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WeiX06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WeiX06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/wei.html"
+      ]
+    },
+    {
+      "title": "Stealth Probing: Efficient Data-Plane Security for IP Routing",
+      "authors": [
+        "Ioannis C. Avramopoulos",
+        "Jennifer Rexford"
+      ],
+      "pages": "267-272",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AvramopoulosR06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AvramopoulosR06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/avramopoulos.html"
+      ]
+    },
+    {
+      "title": "Structured and Unstructured Overlays under the Microscope: A Measurement-based View of Two P2P Systems That People Use",
+      "authors": [
+        "Yi Qiao",
+        "Fabi&aacute;n E. Bustamante"
+      ],
+      "pages": "341-355",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/QiaoB06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/QiaoB06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/qiao.html"
+      ]
+    },
+    {
+      "title": "Success, Failure, and Alternative Solutions for Network Security",
+      "authors": [
+        "Peiter Zatko"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Zatko06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Zatko06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/mp3/zatko.mp3"
+      ]
+    },
+    {
+      "title": "Sure, You Can Archive Data, But Will You Be Able to Retrieve It in 20 Years?",
+      "authors": [
+        "Evan Marcus"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Marcus06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Marcus06.html",
+      "ee_links": []
+    },
+    {
+      "title": "Surviving Spam Mail",
+      "authors": [
+        "Gray Watson"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Watson06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Watson06.html",
+      "ee_links": []
+    },
+    {
+      "title": "System- and Application-level Support for Runtime Hardware Reconfiguration on SoC Platforms",
+      "authors": [
+        "Dimitris Syrivelis",
+        "Spyros Lalis"
+      ],
+      "pages": "315-327",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SyrivelisL06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SyrivelisL06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/syrivelis.html"
+      ]
+    },
+    {
+      "title": "Thresher: An Efficient Storage Manager for Copy-on-write Snapshots",
+      "authors": [
+        "Liuba Shrira",
+        "Hao Xu"
+      ],
+      "pages": "57-70",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShriraX06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShriraX06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/shrira.html"
+      ]
+    },
+    {
+      "title": "Towards a Resilient Operating System for Wireless Sensor Networks",
+      "authors": [
+        "Hyoseung Kim 0001",
+        "Hojung Cha"
+      ],
+      "pages": "103-108",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KimC06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KimC06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/kim.html"
+      ]
+    },
+    {
+      "title": "Transparent Contribution of Memory",
+      "authors": [
+        "James Cipar",
+        "Mark D. Corner",
+        "Emery D. Berger"
+      ],
+      "pages": "109-114",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CiparCB06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CiparCB06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/cipar.html"
+      ]
+    },
+    {
+      "title": "Understanding and Addressing Blocking-Induced Network Server Latency",
+      "authors": [
+        "Yaoping Ruan",
+        "Vivek S. Pai"
+      ],
+      "pages": "143-156",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RuanP06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RuanP06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/ruan.html"
+      ]
+    },
+    {
+      "title": "Understanding and Validating Database System Administration",
+      "authors": [
+        "F&aacute;bio Oliveira",
+        "Kiran Nagaraja",
+        "Rekha Bachwani",
+        "Ricardo Bianchini",
+        "Richard P. Martin",
+        "Thu D. Nguyen"
+      ],
+      "pages": "213-228",
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/OliveiraNBBMN06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/OliveiraNBBMN06.html",
+      "ee_links": [
+        "http://www.usenix.org/events/usenix06/tech/oliveira.html"
+      ]
+    },
+    {
+      "title": "VoIP Security",
+      "authors": [
+        "Heison Chak"
+      ],
+      "pages": null,
+      "year": "2006",
+      "venue": "USENIX ATC 2006",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Chak06",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Chak06.html",
+      "ee_links": []
+    }
+  ]
+}

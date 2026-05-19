@@ -1,0 +1,618 @@
+{
+  "id": "usenix-1992",
+  "venue": "usenix",
+  "year": 1992,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix1992.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix1992.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/1992",
+    "conf/usenix/1992-1",
+    "conf/usenix/1992-2",
+    "conf/usenix/1992-3",
+    "conf/usenix/1992-4",
+    "conf/usenix/1992-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 36,
+  "display_count": 36,
+  "papers": [
+    {
+      "title": "#ifdef Considered Harmful, or Portability Experience with C News",
+      "authors": [
+        "Henry Spencer",
+        "Geoff Collyer"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SpencerC92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SpencerC92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/ifdef-considered-harmful-or-portability"
+      ]
+    },
+    {
+      "title": "A Discipline of Error Handling",
+      "authors": [
+        "Doug Moen"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Moen92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Moen92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/discipline-error-handling"
+      ]
+    },
+    {
+      "title": "A Highly Available Lock Manager for HA-NFS",
+      "authors": [
+        "Anupam Bhide",
+        "Spencer Shepler"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BhideS92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BhideS92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/highly-available-lock-manager-ha-nfs"
+      ]
+    },
+    {
+      "title": "A Privilege Mechanism for UNIX System V Release 4 Operating Systems",
+      "authors": [
+        "Charles Salemi",
+        "Suryakanta Shah",
+        "Eric Lund"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SalemiSL92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SalemiSL92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/privilege-mechanism-unix-system-v-release-4"
+      ]
+    },
+    {
+      "title": "A Scalable Implementation of Virtual Memory HAT Layer for Shared Memory Multiprocessor Machines",
+      "authors": [
+        "Ramesh Balan",
+        "Kurt D. Gollhardt"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BalanG92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BalanG92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/scalable-implementation-virtual-memory-hat-layer"
+      ]
+    },
+    {
+      "title": "An Internet Gatekeeper",
+      "authors": [
+        "Herve Schauer",
+        "Christophe Wolfhugel"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SchauerW92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SchauerW92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/internet-gatekeeper"
+      ]
+    },
+    {
+      "title": "Beyond Multiprocessing: Multithreading the SunOS Kernel",
+      "authors": [
+        "Joseph R. Eykholt",
+        "Steve R. Kleiman",
+        "Steve Barton",
+        "Roger Faulkner",
+        "Anil Shivalingiah",
+        "Mark Smith",
+        "Jim Voll",
+        "Mary Weeks",
+        "Dock Williams"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/EykholtKBFSSVWW92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/EykholtKBFSSVWW92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/beyond-multiprocessing-multithreading-sunos"
+      ]
+    },
+    {
+      "title": "Centralized System Monitoring with Swatch",
+      "authors": [
+        "Stephen E. Hansen",
+        "E. Todd Atkins"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HansenA92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HansenA92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/centralized-system-monitoring-swatch"
+      ]
+    },
+    {
+      "title": "Cheap Mutual Exclusion",
+      "authors": [
+        "William L. Moran Jr.",
+        "Farnam Jahanian"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MoranJ92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MoranJ92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/cheap-mutual-exclusion"
+      ]
+    },
+    {
+      "title": "Covers and Frontmatter",
+      "authors": [
+        "Stuart I. Feldman"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Feldman92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Feldman92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/covers-and-frontmatter"
+      ]
+    },
+    {
+      "title": "Experiences of Internet Security in Italy",
+      "authors": [
+        "Alessandro Berni",
+        "Paolo Franchi",
+        "Joy Marino"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BerniFM92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BerniFM92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/experiences-internet-security-italy"
+      ]
+    },
+    {
+      "title": "File System Multithreading in System V Release 4 MP",
+      "authors": [
+        "J. Kent Peacock"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Peacock92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Peacock92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/file-system-multithreading-system-v-release-4-mp"
+      ]
+    },
+    {
+      "title": "Giving Customers the Tools to Protect Themselves",
+      "authors": [
+        "Shabbir J. Safdar"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Safdar92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Safdar92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/giving-customers-tools-protect-themselves"
+      ]
+    },
+    {
+      "title": "Implementing Lightweight Threads",
+      "authors": [
+        "Dan Stein",
+        "Devang Shah"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SteinS92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SteinS92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/implementing-lightweight-threads"
+      ]
+    },
+    {
+      "title": "Incl: A Tool to Analyze Include Files",
+      "authors": [
+        "Kiem-Phong Vo",
+        "Yih-Farn Chen"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/VoC92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/VoC92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/incl-tool-analyze-include-files"
+      ]
+    },
+    {
+      "title": "InterNetNews: Usenet Transport for Internet Sites",
+      "authors": [
+        "Rich Salz"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Salz92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Salz92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/internetnews-usenet-transport-internet-sites"
+      ]
+    },
+    {
+      "title": "Introduction to the Shadow Password Suite",
+      "authors": [
+        "John F. Haugh II"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Haugh92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Haugh92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/introduction-shadow-password-suite"
+      ]
+    },
+    {
+      "title": "Large Scale Porting through Parameterization",
+      "authors": [
+        "David M. Tilbrook",
+        "Russell Crook"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TilbrookC92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TilbrookC92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/large-scale-porting-through-parameterization"
+      ]
+    },
+    {
+      "title": "Mainframe Services from Gigabit-Networked Workstations",
+      "authors": [
+        "Jean-Philippe Baud",
+        "Christian Boissat",
+        "Fabrizio Cane",
+        "Frederic Hemmer",
+        "Erik Jagel",
+        "Ashok Kumar",
+        "Gordon Lee",
+        "Bernd Panzer-Steindel",
+        "Les Robertson",
+        "Ben Segal",
+        "Antoine Trannoy",
+        "Igor Zacharov"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BaudBCHJKLPRSTZ92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BaudBCHJKLPRSTZ92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/mainframe-services-gigabit-networked-workstations"
+      ]
+    },
+    {
+      "title": "NeD: The Network Extensible Debugger",
+      "authors": [
+        "Paul Maybee"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Maybee92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Maybee92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/ned-network-extensible-debugger"
+      ]
+    },
+    {
+      "title": "Network (In)Security Through IP Packet Filtering",
+      "authors": [
+        "D. Brent Chapman"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Chapman92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Chapman92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/network-insecurity-through-ip-packet-filtering"
+      ]
+    },
+    {
+      "title": "On Migrating a Distributed Application to a Multi-Threaded Environment",
+      "authors": [
+        "Thuan Q. Pham",
+        "Pankaj K. Garg"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PhamG92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PhamG92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/migrating-distributed-application-multi-threaded"
+      ]
+    },
+    {
+      "title": "Performance of a Parallel Network Backup Manager",
+      "authors": [
+        "James da Silva",
+        "&Oacute;lafur Gudmundsson",
+        "Daniel Moss&eacute;"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SilvaGM92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SilvaGM92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/performance-parallel-network-backup-manager"
+      ]
+    },
+    {
+      "title": "Regression Testing and Conformance Testing Interactive Programs",
+      "authors": [
+        "Don Libes"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Libes92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Libes92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/regression-testing-and-conformance-testing"
+      ]
+    },
+    {
+      "title": "Security Aspects of a UNIX PEM Implementation",
+      "authors": [
+        "James M. Galvin",
+        "David M. Balenson"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GalvinB92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GalvinB92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/security-aspects-unix-pem-implementation"
+      ]
+    },
+    {
+      "title": "SOCKS",
+      "authors": [
+        "David Koblas",
+        "Michelle R. Koblas"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KoblasK92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KoblasK92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/socks"
+      ]
+    },
+    {
+      "title": "TCP Wrapper: Network Monitoring, Access Control, and Booby Traps",
+      "authors": [
+        "Wietse Z. Venema"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Venema92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Venema92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/tcp-wrapper-network-monitoring-access-control-and"
+      ]
+    },
+    {
+      "title": "TDBM: A DBM Library with Atomic Transactions",
+      "authors": [
+        "Barry J. Brachman",
+        "Gerald W. Neufeld"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BrachmanN92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BrachmanN92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/tdbm-dbm-library-atomic-transactions"
+      ]
+    },
+    {
+      "title": "The Continuous Media File System",
+      "authors": [
+        "David P. Anderson",
+        "Yoshitomo Osawa",
+        "Ramesh Govindan"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AndersonOG92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AndersonOG92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/continuous-media-file-system"
+      ]
+    },
+    {
+      "title": "The DIDS (Distributed Intrusion Detection System) Prototype",
+      "authors": [
+        "Steven R. Snapp",
+        "Stephen E. Smaha",
+        "Daniel M. Teal",
+        "Tim Grance"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SnappSTG92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SnappSTG92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/dids-distributed-intrusion-detection-system"
+      ]
+    },
+    {
+      "title": "The Greatest Cracker-Case in Denmark: The Detecting, Tracing, and Arresting of Two International Crackers",
+      "authors": [
+        "J&ouml;rgen Bo Madsen"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Madsen92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Madsen92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/greatest-cracker-case-denmark-detecting-tracing"
+      ]
+    },
+    {
+      "title": "The Recovery Box: Using Fast Recovery to Provide High Availability in the UNIX Environment",
+      "authors": [
+        "Mary Baker",
+        "Mark Sullivan"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BakerS92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BakerS92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/recovery-box-using-fast-recovery-provide-high"
+      ]
+    },
+    {
+      "title": "There Be Dragons",
+      "authors": [
+        "Steven M. Bellovin"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Bellovin92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Bellovin92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/there-be-dragons"
+      ]
+    },
+    {
+      "title": "Tiled Virtual Memory for UNIX",
+      "authors": [
+        "James Franklin"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Franklin92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Franklin92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/tiled-virtual-memory-unix"
+      ]
+    },
+    {
+      "title": "Virtual Window Systems: A New Approach to Supporting Concurrent Heterogeneous Windowing Systems",
+      "authors": [
+        "Rita Pascale",
+        "Jeremy Epstein"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PascaleE92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PascaleE92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/virtual-window-systems-new-approach-supporting"
+      ]
+    },
+    {
+      "title": "VNS Retriever: Querying MEDLINE over the Internet",
+      "authors": [
+        "Kevin Brook Long",
+        "Jerry Fowler",
+        "Stan Barber"
+      ],
+      "pages": null,
+      "year": "1992",
+      "venue": "USENIX ATC 1992",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LongFB92",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LongFB92.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenix-summer-1992-technical-conference/vns-retriever-querying-medline-over-internet"
+      ]
+    }
+  ]
+}

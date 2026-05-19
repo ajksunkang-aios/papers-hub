@@ -1,0 +1,814 @@
+{
+  "id": "asplos-2009",
+  "venue": "asplos",
+  "year": 2009,
+  "short_name": "ASPLOS",
+  "full_name": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "source_url": "https://dblp.org/db/conf/asplos/asplos2009.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/asplos/asplos2009.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/asplos/2009",
+    "conf/asplos/2009-1",
+    "conf/asplos/2009-2",
+    "conf/asplos/2009-3",
+    "conf/asplos/2009-4",
+    "conf/asplos/2009-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) ACM International Conference on Architectural Support"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 41,
+  "display_count": 41,
+  "papers": [
+    {
+      "title": "3D finite difference computation on GPUs using CUDA",
+      "authors": [
+        "Paulius Micikevicius"
+      ],
+      "pages": "79-84",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Micikevicius09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Micikevicius09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1513895.1513905",
+        "https://www.wikidata.org/entity/Q131113556"
+      ]
+    },
+    {
+      "title": "Accelerating cosmological data analysis with graphics processors",
+      "authors": [
+        "Dylan W. Roeh",
+        "Volodymyr V. Kindratenko",
+        "Robert J. Brunner"
+      ],
+      "pages": "1-8",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RoehKB09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RoehKB09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1513895.1513896"
+      ]
+    },
+    {
+      "title": "Accelerating critical section execution with asymmetric multi-core architectures",
+      "authors": [
+        "M. Aater Suleman",
+        "Onur Mutlu",
+        "Moinuddin K. Qureshi",
+        "Yale N. Patt"
+      ],
+      "pages": "253-264",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SulemanMQP09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SulemanMQP09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508274",
+        "https://doi.org/10.1145/1508284.1508274",
+        "https://doi.org/10.1145/2528521.1508274"
+      ]
+    },
+    {
+      "title": "Accelerating linpack with CUDA on heterogenous clusters",
+      "authors": [
+        "Massimiliano Fatica"
+      ],
+      "pages": "46-51",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Fatica09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Fatica09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1513895.1513901",
+        "https://www.wikidata.org/entity/Q131114158"
+      ]
+    },
+    {
+      "title": "Accelerating phase unwrapping and affine transformations for optical quadrature microscopy using CUDA",
+      "authors": [
+        "Perhaad Mistry",
+        "Sherman Braganza",
+        "David R. Kaeli",
+        "Miriam Leeser"
+      ],
+      "pages": "28-37",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MistryBKL09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MistryBKL09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1513895.1513899",
+        "https://www.wikidata.org/entity/Q131113579"
+      ]
+    },
+    {
+      "title": "An evaluation of the TRIPS computer system",
+      "authors": [
+        "Mark Gebhart",
+        "Bertrand A. Maher",
+        "Katherine E. Coons",
+        "Jeffrey R. Diamond",
+        "Paul Gratz",
+        "Mario Marino",
+        "Nitya Ranganathan",
+        "Behnam Robatmili",
+        "Aaron Smith",
+        "James H. Burrill",
+        "Stephen W. Keckler",
+        "Doug Burger",
+        "Kathryn S. McKinley"
+      ],
+      "pages": "1-12",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GebhartMCDGMRRSBKBM09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GebhartMCDGMRRSBKBM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508246",
+        "https://doi.org/10.1145/1508284.1508246",
+        "https://doi.org/10.1145/2528521.1508246"
+      ]
+    },
+    {
+      "title": "Anomaly-based bug prediction, isolation, and validation: an automated approach for software debugging",
+      "authors": [
+        "Martin Dimitrov",
+        "Huiyang Zhou"
+      ],
+      "pages": "61-72",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DimitrovZ09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DimitrovZ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508252",
+        "https://doi.org/10.1145/1508284.1508252",
+        "https://doi.org/10.1145/2528521.1508252"
+      ]
+    },
+    {
+      "title": "Architectural implications of nanoscale integrated sensing and computing",
+      "authors": [
+        "Constantin Pistol",
+        "Christopher Dwyer",
+        "Alvin R. Lebeck"
+      ],
+      "pages": "13-24",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/PistolDL09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/PistolDL09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508247",
+        "https://doi.org/10.1145/1508284.1508247",
+        "https://doi.org/10.1145/2528521.1508247"
+      ]
+    },
+    {
+      "title": "Architectural support for SWAR text processing with parallel bit streams: the inductive doubling principle",
+      "authors": [
+        "Robert D. Cameron",
+        "Dan Lin 0003"
+      ],
+      "pages": "337-348",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CameronL09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CameronL09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508283",
+        "https://doi.org/10.1145/1508284.1508283",
+        "https://doi.org/10.1145/2528521.1508283"
+      ]
+    },
+    {
+      "title": "Architecture-aware optimization targeting multithreaded stream computing",
+      "authors": [
+        "Byunghyun Jang",
+        "Synho Do",
+        "Homer H. Pien",
+        "David R. Kaeli"
+      ],
+      "pages": "62-70",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JangDPK09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JangDPK09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1513895.1513903"
+      ]
+    },
+    {
+      "title": "ASSURE: automatic software self-healing using rescue points",
+      "authors": [
+        "Stelios Sidiroglou",
+        "Oren Laadan",
+        "Carlos Perez",
+        "Nicolas Viennot",
+        "Jason Nieh",
+        "Angelos D. Keromytis"
+      ],
+      "pages": "37-48",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SidiroglouLPVNK09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SidiroglouLPVNK09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508250",
+        "https://doi.org/10.1145/1508284.1508250",
+        "https://doi.org/10.1145/2528521.1508250"
+      ]
+    },
+    {
+      "title": "Capo: a software-hardware interface for practical deterministic multiprocessor replay",
+      "authors": [
+        "Pablo Montesinos",
+        "Matthew Hicks",
+        "Samuel T. King",
+        "Josep Torrellas"
+      ],
+      "pages": "73-84",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MontesinosHKT09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MontesinosHKT09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508254",
+        "https://doi.org/10.1145/1508284.1508254",
+        "https://doi.org/10.1145/2528521.1508254"
+      ]
+    },
+    {
+      "title": "Commutativity analysis for software parallelization: letting program transformations see the big picture",
+      "authors": [
+        "Farhana Aleen",
+        "Nathan Clark"
+      ],
+      "pages": "241-252",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/AleenC09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/AleenC09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508273",
+        "https://doi.org/10.1145/1508284.1508273",
+        "https://doi.org/10.1145/2528521.1508273"
+      ]
+    },
+    {
+      "title": "Complete information flow tracking from the gates up",
+      "authors": [
+        "Mohit Tiwari",
+        "Hassan M. G. Wassel",
+        "Bita Mazloom",
+        "Shashidhar Mysore",
+        "Frederic T. Chong",
+        "Timothy Sherwood"
+      ],
+      "pages": "109-120",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TiwariWMMCS09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TiwariWMMCS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508258",
+        "https://doi.org/10.1145/1508284.1508258",
+        "https://doi.org/10.1145/2528521.1508258",
+        "https://www.wikidata.org/entity/Q130964427"
+      ]
+    },
+    {
+      "title": "CTrigger: exposing atomicity violation bugs from their hiding places",
+      "authors": [
+        "Soyeon Park",
+        "Shan Lu 0001",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "25-36",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ParkLZ09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ParkLZ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508249",
+        "https://doi.org/10.1145/1508284.1508249",
+        "https://doi.org/10.1145/2528521.1508249"
+      ]
+    },
+    {
+      "title": "DFTL: a flash translation layer employing demand-based selective caching of page-level address mappings",
+      "authors": [
+        "Aayush Gupta",
+        "Youngjae Kim 0001",
+        "Bhuvan Urgaonkar"
+      ],
+      "pages": "229-240",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GuptaKU09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GuptaKU09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508271",
+        "https://doi.org/10.1145/1508284.1508271",
+        "https://doi.org/10.1145/2528521.1508271"
+      ]
+    },
+    {
+      "title": "DMP: deterministic shared memory multiprocessing",
+      "authors": [
+        "Joseph Devietti",
+        "Brandon Lucia",
+        "Luis Ceze",
+        "Mark Oskin"
+      ],
+      "pages": "85-96",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DeviettiLCO09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DeviettiLCO09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508255",
+        "https://doi.org/10.1145/1508284.1508255",
+        "https://doi.org/10.1145/2528521.1508255"
+      ]
+    },
+    {
+      "title": "Dynamic prediction of collection yield for managed runtimes",
+      "authors": [
+        "Michal Wegiel",
+        "Chandra Krintz"
+      ],
+      "pages": "289-300",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WegielK09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WegielK09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508278",
+        "https://doi.org/10.1145/1508284.1508278",
+        "https://doi.org/10.1145/2528521.1508278"
+      ]
+    },
+    {
+      "title": "Early experience with a commercial hardware transactional memory implementation",
+      "authors": [
+        "David Dice",
+        "Yossi Lev",
+        "Mark Moir",
+        "Daniel Nussbaum"
+      ],
+      "pages": "157-168",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DiceLMN09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DiceLMN09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508263",
+        "https://doi.org/10.1145/1508284.1508263",
+        "https://doi.org/10.1145/2528521.1508263",
+        "https://www.wikidata.org/entity/Q29999779"
+      ]
+    },
+    {
+      "title": "Efficient online validation with delta execution",
+      "authors": [
+        "Joseph A. Tucek",
+        "Weiwei Xiong",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "193-204",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TucekXZ09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TucekXZ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508267",
+        "https://doi.org/10.1145/1508284.1508267",
+        "https://doi.org/10.1145/2528521.1508267"
+      ]
+    },
+    {
+      "title": "Gordon: using flash memory to build fast, power-efficient clusters for data-intensive applications",
+      "authors": [
+        "Adrian M. Caulfield",
+        "Laura M. Grupp",
+        "Steven Swanson"
+      ],
+      "pages": "217-228",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CaulfieldGS09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CaulfieldGS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508270",
+        "https://doi.org/10.1145/1508284.1508270",
+        "https://doi.org/10.1145/2528521.1508270"
+      ]
+    },
+    {
+      "title": "GPU acceleration of a production molecular docking code",
+      "authors": [
+        "Bharat Sukhwani",
+        "Martin C. Herbordt"
+      ],
+      "pages": "19-27",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SukhwaniH09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SukhwaniH09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1513895.1513898"
+      ]
+    },
+    {
+      "title": "hiCUDA: a high-level directive-based language for GPU programming",
+      "authors": [
+        "Tianyi David Han",
+        "Tarek S. Abdelrahman"
+      ],
+      "pages": "52-61",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HanA09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HanA09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1513895.1513902",
+        "https://www.wikidata.org/entity/Q131116850"
+      ]
+    },
+    {
+      "title": "High performance computation and interactive display of molecular orbitals on GPUs and multi-core CPUs",
+      "authors": [
+        "John E. Stone",
+        "Jan Saam",
+        "David J. Hardy",
+        "Kirby L. Vandivort",
+        "Wen-mei W. Hwu",
+        "Klaus Schulten"
+      ],
+      "pages": "9-18",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/StoneSHVHS09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/StoneSHVHS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1513895.1513897",
+        "https://www.wikidata.org/entity/Q131119665"
+      ]
+    },
+    {
+      "title": "ISOLATOR: dynamically ensuring isolation in comcurrent programs",
+      "authors": [
+        "Sriram K. Rajamani",
+        "G. Ramalingam",
+        "Venkatesh Prasad Ranganath",
+        "Kapil Vaswani"
+      ],
+      "pages": "181-192",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RajamaniRRV09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RajamaniRRV09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508266",
+        "https://doi.org/10.1145/1508284.1508266",
+        "https://doi.org/10.1145/2528521.1508266"
+      ]
+    },
+    {
+      "title": "Kendo: efficient deterministic multithreading in software",
+      "authors": [
+        "Marek Olszewski",
+        "Jason Ansel",
+        "Saman P. Amarasinghe"
+      ],
+      "pages": "97-108",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/OlszewskiAA09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/OlszewskiAA09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508256",
+        "https://doi.org/10.1145/1508284.1508256",
+        "https://doi.org/10.1145/2528521.1508256"
+      ]
+    },
+    {
+      "title": "Leak pruning",
+      "authors": [
+        "Michael D. Bond",
+        "Kathryn S. McKinley"
+      ],
+      "pages": "277-288",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BondM09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BondM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508277",
+        "https://doi.org/10.1145/1508284.1508277",
+        "https://doi.org/10.1145/2528521.1508277"
+      ]
+    },
+    {
+      "title": "Maximum benefit from a minimal HTM",
+      "authors": [
+        "Owen S. Hofmann",
+        "Christopher J. Rossbach",
+        "Emmett Witchel"
+      ],
+      "pages": "145-156",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HofmannRW09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HofmannRW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508262",
+        "https://doi.org/10.1145/1508284.1508262",
+        "https://doi.org/10.1145/2528521.1508262",
+        "https://www.wikidata.org/entity/Q131122903"
+      ]
+    },
+    {
+      "title": "Mixed-mode multicore reliability",
+      "authors": [
+        "Philip M. Wells",
+        "Koushik Chakraborty",
+        "Gurindar S. Sohi"
+      ],
+      "pages": "169-180",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WellsCS09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WellsCS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508265",
+        "https://doi.org/10.1145/1508284.1508265",
+        "https://doi.org/10.1145/2528521.1508265"
+      ]
+    },
+    {
+      "title": "Optimization of tele-immersion codes",
+      "authors": [
+        "Albert Sidelnik",
+        "I-Jui Sung",
+        "Wanmin Wu",
+        "Mar&iacute;a Jes&uacute;s Garzar&aacute;n",
+        "Wen-mei W. Hwu",
+        "Klara Nahrstedt",
+        "David A. Padua",
+        "Sanjay J. Patel"
+      ],
+      "pages": "85-93",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SidelnikSWGHNPP09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SidelnikSWGHNPP09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1513895.1513906"
+      ]
+    },
+    {
+      "title": "Per-thread cycle accounting in SMT processors",
+      "authors": [
+        "Stijn Eyerman",
+        "Lieven Eeckhout"
+      ],
+      "pages": "133-144",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/EyermanE09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/EyermanE09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508260",
+        "https://doi.org/10.1145/1508284.1508260",
+        "https://doi.org/10.1145/2528521.1508260"
+      ]
+    },
+    {
+      "title": "Performance analysis of accelerated image registration using GPGPU",
+      "authors": [
+        "Peter Bui",
+        "Jay B. Brockman"
+      ],
+      "pages": "38-45",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BuiB09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BuiB09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1513895.1513900",
+        "https://www.wikidata.org/entity/Q131118090"
+      ]
+    },
+    {
+      "title": "Phantom-BTB: a virtualized branch target buffer design",
+      "authors": [
+        "Ioana Burcea",
+        "Andreas Moshovos"
+      ],
+      "pages": "313-324",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BurceaM09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BurceaM09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508281",
+        "https://doi.org/10.1145/1508284.1508281",
+        "https://doi.org/10.1145/2528521.1508281"
+      ]
+    },
+    {
+      "title": "PowerNap: eliminating server idle power",
+      "authors": [
+        "David Meisner",
+        "Brian T. Gold",
+        "Thomas F. Wenisch"
+      ],
+      "pages": "205-216",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MeisnerGW09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MeisnerGW09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508269",
+        "https://doi.org/10.1145/1508284.1508269",
+        "https://doi.org/10.1145/2528521.1508269"
+      ]
+    },
+    {
+      "title": "Producing wrong data without doing anything obviously wrong!",
+      "authors": [
+        "Todd Mytkowicz",
+        "Amer Diwan",
+        "Matthias Hauswirth",
+        "Peter F. Sweeney"
+      ],
+      "pages": "265-276",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MytkowiczDHS09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MytkowiczDHS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508275",
+        "https://doi.org/10.1145/1508284.1508275",
+        "https://doi.org/10.1145/2528521.1508275"
+      ]
+    },
+    {
+      "title": "QR decomposition on GPUs",
+      "authors": [
+        "Andrew Kerr",
+        "Dan Campbell",
+        "Mark A. Richards"
+      ],
+      "pages": "71-78",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KerrCR09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KerrCR09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1513895.1513904"
+      ]
+    },
+    {
+      "title": "RapidMRC: approximating L2 miss rate curves on commodity systems for online optimizations",
+      "authors": [
+        "David K. Tam",
+        "Reza Azimi",
+        "Livio Soares",
+        "Michael Stumm"
+      ],
+      "pages": "121-132",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TamASS09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TamASS09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508259",
+        "https://doi.org/10.1145/1508284.1508259",
+        "https://doi.org/10.1145/2528521.1508259"
+      ]
+    },
+    {
+      "title": "Recovery domains: an organizing principle for recoverable operating systems",
+      "authors": [
+        "Andrew Lenharth",
+        "Vikram S. Adve",
+        "Samuel T. King"
+      ],
+      "pages": "49-60",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LenharthAK09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LenharthAK09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508251",
+        "https://doi.org/10.1145/1508284.1508251",
+        "https://doi.org/10.1145/2528521.1508251"
+      ]
+    },
+    {
+      "title": "StreamRay: a stream filtering architecture for coherent ray tracing",
+      "authors": [
+        "Karthik Ramani",
+        "Christiaan P. Gribble",
+        "Al Davis"
+      ],
+      "pages": "325-336",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RamaniGD09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RamaniGD09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508282",
+        "https://doi.org/10.1145/1508284.1508282",
+        "https://doi.org/10.1145/2528521.1508282"
+      ]
+    },
+    {
+      "title": "TwinDrivers: semi-automatic derivation of fast and safe hypervisor network drivers from guest OS drivers",
+      "authors": [
+        "Aravind Menon",
+        "Simon Schubert",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "301-312",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MenonSZ09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MenonSZ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1508244.1508279",
+        "https://doi.org/10.1145/1508284.1508279",
+        "https://doi.org/10.1145/2528521.1508279"
+      ]
+    },
+    {
+      "title": "Understanding software approaches for GPGPU reliability",
+      "authors": [
+        "Martin Dimitrov",
+        "Mike Mantor",
+        "Huiyang Zhou"
+      ],
+      "pages": "94-104",
+      "year": "2009",
+      "venue": "ASPLOS 2009",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DimitrovMZ09",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DimitrovMZ09.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1513895.1513907"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "id": "fast-2013",
+  "venue": "fast",
+  "year": 2013,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2013.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2013.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2013",
+    "conf/fast/2013-1",
+    "conf/fast/2013-2",
+    "conf/fast/2013-3",
+    "conf/fast/2013-4",
+    "conf/fast/2013-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 24,
+  "display_count": 24,
+  "papers": [
+    {
+      "title": "A study of Linux file system evolution",
+      "authors": [
+        "Lanyue Lu",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Shan Lu 0001"
+      ],
+      "pages": "31-44",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LuAAL13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LuAAL13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/lu"
+      ]
+    },
+    {
+      "title": "Active flash: towards energy-efficient, in-situ data analytics on extreme-scale machines",
+      "authors": [
+        "Devesh Tiwari",
+        "Simona Boboila",
+        "Sudharshan S. Vazhkudai",
+        "Youngjae Kim 0001",
+        "Xiaosong Ma",
+        "Peter Desnoyers",
+        "Yan Solihin"
+      ],
+      "pages": "119-132",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TiwariBVKMDS13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TiwariBVKMDS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/tiwari"
+      ]
+    },
+    {
+      "title": "Building workload-independent storage with VT-trees",
+      "authors": [
+        "Pradeep Shetty",
+        "Richard P. Spillane",
+        "Ravikant Malpani",
+        "Binesh Andrews",
+        "Justin Seyster",
+        "Erez Zadok"
+      ],
+      "pages": "17-30",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ShettySMASZ13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ShettySMASZ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/shetty"
+      ]
+    },
+    {
+      "title": "Concurrent deletion in a distributed content-addressable storage system with global deduplication",
+      "authors": [
+        "Przemyslaw Strzelczak",
+        "Elzbieta Adamczyk",
+        "Urszula Herman-Izycka",
+        "Jakub Sakowicz",
+        "Lukasz Slusarczyk",
+        "Jaroslaw Wrona",
+        "Cezary Dubnicki"
+      ],
+      "pages": "161-174",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/StrzelczakAHSSWD13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/StrzelczakAHSSWD13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/strzelczak"
+      ]
+    },
+    {
+      "title": "Extending the lifetime of flash-based storage through reducing write amplification from file systems",
+      "authors": [
+        "Youyou Lu",
+        "Jiwu Shu",
+        "Weimin Zheng"
+      ],
+      "pages": "257-270",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LuSZ13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LuSZ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/lu_youyou"
+      ]
+    },
+    {
+      "title": "Ffsck: the fast file system checker",
+      "authors": [
+        "Ao Ma",
+        "Chris Dragga",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "1-16",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MaDAA13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MaDAA13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/ma"
+      ]
+    },
+    {
+      "title": "File recipe compression in data deduplication systems",
+      "authors": [
+        "Dirk Meister",
+        "Andr&eacute; Brinkmann",
+        "Tim S&uuml;&szlig;"
+      ],
+      "pages": "175-182",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MeisterBS13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MeisterBS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/meister"
+      ]
+    },
+    {
+      "title": "Gecko: contention-oblivious disk arrays for cloud storage",
+      "authors": [
+        "Ji-Yong Shin",
+        "Mahesh Balakrishnan 0001",
+        "Tudor Marian",
+        "Hakim Weatherspoon"
+      ],
+      "pages": "285-298",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ShinBMW13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ShinBMW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/shin"
+      ]
+    },
+    {
+      "title": "Getting real: lessons in transitioning research simulations into hardware systems",
+      "authors": [
+        "Mohit Saxena",
+        "Yiying Zhang 0005",
+        "Michael M. Swift",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "215-228",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SaxenaZSAA13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SaxenaZSAA13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/saxena"
+      ]
+    },
+    {
+      "title": "HARDFS: hardening HDFS with selective and lightweight versioning",
+      "authors": [
+        "Thanh Do",
+        "Tyler Harter",
+        "Yingchao Liu",
+        "Haryadi S. Gunawi",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "105-118",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DoHLGAA13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DoHLGAA13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/do"
+      ]
+    },
+    {
+      "title": "Horus: fine-grained encryption-based security for large-scale storage",
+      "authors": [
+        "Yan Li 0006",
+        "Nakul Sanjay Dhotre",
+        "Yasuhiro Ohara",
+        "Thomas M. Kroeger",
+        "Ethan L. Miller",
+        "Darrell D. E. Long"
+      ],
+      "pages": "147-160",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiDOKML13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiDOKML13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/li_yan"
+      ]
+    },
+    {
+      "title": "Improving restore speed for backup systems that use inline chunk-based deduplication",
+      "authors": [
+        "Mark Lillibridge",
+        "Kave Eshghi",
+        "Deepavali Bhagwat"
+      ],
+      "pages": "183-198",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LillibridgeEB13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LillibridgeEB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/lillibridge"
+      ]
+    },
+    {
+      "title": "LDPC-in-SSD: making advanced error correction codes work effectively in solid state drives",
+      "authors": [
+        "Kai Zhao 0005",
+        "Wenzhe Zhao",
+        "Hongbin Sun 0001",
+        "Tong Zhang 0002",
+        "Xiaodong Zhang 0001",
+        "Nanning Zheng 0001"
+      ],
+      "pages": "243-256",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhaoZS0ZZ13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhaoZS0ZZ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/zhao"
+      ]
+    },
+    {
+      "title": "Memory efficient sanitization of a deduplicated storage system",
+      "authors": [
+        "Fabiano C. Botelho",
+        "Philip Shilane",
+        "Nitin Garg",
+        "Windsor Hsu"
+      ],
+      "pages": "81-94",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BotelhoSGH13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BotelhoSGH13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/botelho"
+      ]
+    },
+    {
+      "title": "MixApart: decoupled analytics for shared storage systems",
+      "authors": [
+        "Madalin Mihailescu",
+        "Gokul Soundararajan",
+        "Cristiana Amza"
+      ],
+      "pages": "133-146",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MihailescuSA13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MihailescuSA13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/mihailescu"
+      ]
+    },
+    {
+      "title": "Screaming fast Galois field arithmetic using intel SIMD instructions",
+      "authors": [
+        "James S. Plank",
+        "Kevin M. Greenan",
+        "Ethan L. Miller"
+      ],
+      "pages": "299-306",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PlankGM13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PlankGM13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/plank_james_simd"
+      ]
+    },
+    {
+      "title": "SD codes: erasure codes designed for how storage systems really fail",
+      "authors": [
+        "James S. Plank",
+        "Mario Blaum",
+        "James L. Hafner"
+      ],
+      "pages": "95-104",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PlankBH13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PlankBH13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/plank"
+      ]
+    },
+    {
+      "title": "Shroud: ensuring private access to large-scale data in the data center",
+      "authors": [
+        "Jacob R. Lorch",
+        "Bryan Parno",
+        "James W. Mickens",
+        "Mariana Raykova 0001",
+        "Joshua Schiffman"
+      ],
+      "pages": "199-214",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LorchPM0S13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LorchPM0S13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/lorch"
+      ]
+    },
+    {
+      "title": "To Zip or not to Zip: effective resource usage for real-time compression",
+      "authors": [
+        "Danny Harnik",
+        "Ronen I. Kat",
+        "Oded Margalit",
+        "Dmitry Sotnikov",
+        "Avishay Traeger"
+      ],
+      "pages": "229-242",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HarnikKMST13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HarnikKMST13.html",
+      "ee_links": [
+        "https://www.usenix.org/node/172697"
+      ]
+    },
+    {
+      "title": "Understanding the robustness of SSDS under power fault",
+      "authors": [
+        "Mai Zheng",
+        "Joseph A. Tucek",
+        "Feng Qin",
+        "Mark Lillibridge"
+      ],
+      "pages": "271-284",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhengTQL13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhengTQL13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/zheng"
+      ]
+    },
+    {
+      "title": "Unioning of the buffer cache and journaling layers with non-volatile memory",
+      "authors": [
+        "Eunji Lee",
+        "Hyokyung Bahn",
+        "Sam H. Noh"
+      ],
+      "pages": "73-80",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LeeBN13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LeeBN13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/lee"
+      ]
+    },
+    {
+      "title": "Virtual machine workloads: the case for new benchmarks for NAS",
+      "authors": [
+        "Vasily Tarasov",
+        "Dean Hildebrand",
+        "Geoff Kuenning",
+        "Erez Zadok"
+      ],
+      "pages": "307-320",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TarasovHKZ13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TarasovHKZ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/tarasov"
+      ]
+    },
+    {
+      "title": "Warming up storage-level caches with bonfire",
+      "authors": [
+        "Yiying Zhang 0005",
+        "Gokul Soundararajan",
+        "Mark W. Storer",
+        "Lakshmi N. Bairavasundaram",
+        "Sethuraman Subbiah",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "59-72",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangSSBSAA13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangSSBSAA13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/zhang"
+      ]
+    },
+    {
+      "title": "Write policies for host-side flash caches",
+      "authors": [
+        "Ricardo Koller",
+        "Leonardo M&aacute;rmol",
+        "Raju Rangaswami",
+        "Swaminathan Sundararaman",
+        "Nisha Talagala",
+        "Ming Zhao 0002"
+      ],
+      "pages": "45-58",
+      "year": "2013",
+      "venue": "FAST 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KollerMRSTZ13",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KollerMRSTZ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast13/technical-sessions/presentation/koller"
+      ]
+    }
+  ]
+}

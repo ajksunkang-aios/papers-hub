@@ -1,0 +1,376 @@
+{
+  "id": "uss-2003",
+  "venue": "uss",
+  "year": 2003,
+  "short_name": "USENIX Security",
+  "full_name": "USENIX Security Symposium",
+  "source_url": "https://dblp.org/db/conf/uss/uss2003.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/uss/uss2003.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/uss/2003",
+    "conf/uss/2003-1",
+    "conf/uss/2003-2",
+    "conf/uss/2003-3",
+    "conf/uss/2003-4",
+    "conf/uss/2003-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Security Symposium"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 21,
+  "display_count": 21,
+  "papers": [
+    {
+      "title": "802.11 Denial-of-Service Attacks: Real Vulnerabilities and Practical Solutions",
+      "authors": [
+        "John Bellardo",
+        "Stefan Savage"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BellardoS03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BellardoS03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/80211-denial-service-attacks-real-vulnerabilities-and"
+      ]
+    },
+    {
+      "title": "A New Two-Server Approach for Authentication with Short Secrets",
+      "authors": [
+        "John G. Brainard",
+        "Ari Juels",
+        "Burt Kaliski",
+        "Michael Szydlo"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BrainardJKS03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BrainardJKS03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/new-two-server-approach-authentication-short-secrets"
+      ]
+    },
+    {
+      "title": "Address Obfuscation: An Efficient Approach to Combat a Broad Range of Memory Error Exploits",
+      "authors": [
+        "Sandeep Bhatkar",
+        "Daniel C. DuVarney",
+        "R. Sekar 0001"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BhatkarDS03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BhatkarDS03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/address-obfuscation-efficient-approach-combat-broad-range"
+      ]
+    },
+    {
+      "title": "Analyzing Integrity Protection in the SELinux Example Policy",
+      "authors": [
+        "Trent Jaeger",
+        "Reiner Sailer",
+        "Xiaolan Zhang 0001"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/JaegerSZ03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/JaegerSZ03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/analyzing-integrity-protection-selinux-example-policy"
+      ]
+    },
+    {
+      "title": "Denial of Service via Algorithmic Complexity Attacks",
+      "authors": [
+        "Scott A. Crosby",
+        "Dan S. Wallach"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CrosbyW03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CrosbyW03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/denial-service-algorithmic-complexity-attacks"
+      ]
+    },
+    {
+      "title": "Detecting Malicious Java Code Using Virtual Machine Auditing",
+      "authors": [
+        "Sunil Soman",
+        "Chandra Krintz",
+        "Giovanni Vigna"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SomanKV03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SomanKV03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/detecting-malicious-java-code-using-virtual-machine"
+      ]
+    },
+    {
+      "title": "Domain-Based Administration of Identity-Based Cryptosystems for Secure Email and IPSEC",
+      "authors": [
+        "Diana K. Smetters",
+        "Glenn Durfee"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SmettersD03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SmettersD03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/domain-based-administration-identity-based-cryptosystems"
+      ]
+    },
+    {
+      "title": "Dynamic Detection and Prevention of Race Conditions in File Accesses",
+      "authors": [
+        "Eugene Tsyrklevich",
+        "Bennet Yee"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TsyrklevichY03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TsyrklevichY03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/dynamic-detection-and-prevention-race-conditions-file"
+      ]
+    },
+    {
+      "title": "Establishing the Genuinity of Remote Computer Systems",
+      "authors": [
+        "Rick Kennell",
+        "Leah H. Jamieson"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KennellJ03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KennellJ03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/establishing-genuinity-remote-computer-systems"
+      ]
+    },
+    {
+      "title": "High Coverage Detection of Input-Related Security Faults",
+      "authors": [
+        "Eric Larson",
+        "Todd M. Austin"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LarsonA03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LarsonA03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/high-coverage-detection-input-related-security-faults"
+      ]
+    },
+    {
+      "title": "Implementing and Testing a Virus Throttle",
+      "authors": [
+        "Jamie Twycross",
+        "Matthew M. Williamson"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TwycrossW03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TwycrossW03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/implementing-and-testing-virus-throttle"
+      ]
+    },
+    {
+      "title": "Improving Host Security with System Call Policies",
+      "authors": [
+        "Niels Provos"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Provos03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Provos03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/improving-host-security-system-call-policies"
+      ]
+    },
+    {
+      "title": "Plug-and-Play PKI: A PKI Your Mother Can Use",
+      "authors": [
+        "Peter Gutmann"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Gutmann03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Gutmann03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/plug-and-play-pki-pki-your-mother-can-use"
+      ]
+    },
+    {
+      "title": "PointGuard™: Protecting Pointers from Buffer Overflow Vulnerabilities",
+      "authors": [
+        "Crispin Cowan",
+        "Steve Beattie",
+        "John Johansen",
+        "Perry Wagle"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CowanBJW03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CowanBJW03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/pointguard%E2%84%A2-protecting-pointers-buffer-overflow"
+      ]
+    },
+    {
+      "title": "Preventing Privilege Escalation",
+      "authors": [
+        "Niels Provos",
+        "Markus Friedl",
+        "Peter Honeyman"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ProvosFH03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ProvosFH03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/preventing-privilege-escalation"
+      ]
+    },
+    {
+      "title": "Remote Timing Attacks Are Practical",
+      "authors": [
+        "David Brumley",
+        "Dan Boneh"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BrumleyB03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BrumleyB03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/remote-timing-attacks-are-practical"
+      ]
+    },
+    {
+      "title": "Scrash: A System for Generating Secure Crash Information",
+      "authors": [
+        "Peter Broadwell",
+        "Matthew Harren",
+        "Naveen Sastry"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BroadwellHS03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BroadwellHS03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/scrash-system-generating-secure-crash-information"
+      ]
+    },
+    {
+      "title": "Security Holes . . . Who Cares?",
+      "authors": [
+        "Eric Rescorla"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Rescorla03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Rescorla03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/security-holes-who-cares"
+      ]
+    },
+    {
+      "title": "SSL Splitting: Securely Serving Data from Untrusted Caches",
+      "authors": [
+        "Chris Lesniewski-Laas",
+        "M. Frans Kaashoek"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Lesniewski-LaasK03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Lesniewski-LaasK03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/ssl-splitting-securely-serving-data-untrusted-caches"
+      ]
+    },
+    {
+      "title": "Static Analysis of Executables to Detect Malicious Patterns",
+      "authors": [
+        "Mihai Christodorescu",
+        "Somesh Jha"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChristodorescuJ03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChristodorescuJ03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/static-analysis-executables-detect-malicious-patterns"
+      ]
+    },
+    {
+      "title": "Storage-based Intrusion Detection: Watching Storage Activity for Suspicious Behavior",
+      "authors": [
+        "Adam G. Pennington",
+        "John D. Strunk",
+        "John Linwood Griffin",
+        "Craig A. N. Soules",
+        "Garth R. Goodson",
+        "Gregory R. Ganger"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "USENIX Security 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PenningtonSGSGG03",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PenningtonSGSGG03.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/12th-usenix-security-symposium/storage-based-intrusion-detection-watching-storage"
+      ]
+    }
+  ]
+}

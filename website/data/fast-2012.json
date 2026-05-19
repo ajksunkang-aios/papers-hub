@@ -1,0 +1,506 @@
+{
+  "id": "fast-2012",
+  "venue": "fast",
+  "year": 2012,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2012.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2012.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2012",
+    "conf/fast/2012-1",
+    "conf/fast/2012-2",
+    "conf/fast/2012-3",
+    "conf/fast/2012-4",
+    "conf/fast/2012-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 26,
+  "display_count": 26,
+  "papers": [
+    {
+      "title": "Adding advanced storage controller functionality via low-overhead virtualization",
+      "authors": [
+        "Muli Ben-Yehuda",
+        "Michael Factor",
+        "Eran Rom",
+        "Avishay Traeger",
+        "Eran Borovik",
+        "Ben-Ami Yassour"
+      ],
+      "pages": "15",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Ben-YehudaFRTBY12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Ben-YehudaFRTBY12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/adding-advanced-storage-controller-functionality-low-overhead-virtualization"
+      ]
+    },
+    {
+      "title": "BlueSky: a cloud-backed file system for the enterprise",
+      "authors": [
+        "Michael Vrable",
+        "Stefan Savage",
+        "Geoffrey M. Voelker"
+      ],
+      "pages": "19",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/VrableSV12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/VrableSV12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/bluesky-cloud-backed-file-system-enterprise"
+      ]
+    },
+    {
+      "title": "Caching less for better performance: balancing cache size and update cost of flash memory cache in hybrid storage systems",
+      "authors": [
+        "Yongseok Oh",
+        "Jongmoo Choi",
+        "Donghee Lee 0001",
+        "Sam H. Noh"
+      ],
+      "pages": "25",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/OhCLN12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/OhCLN12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/caching-less-better-performance-balancing-cache-size-and-update-cost-flash-memory"
+      ]
+    },
+    {
+      "title": "Characteristics of backup workloads in production systems",
+      "authors": [
+        "Grant Wallace",
+        "Fred Douglis",
+        "Hangwei Qian",
+        "Philip Shilane",
+        "Stephen Smaldone",
+        "Mark Chamness",
+        "Windsor Hsu"
+      ],
+      "pages": "4",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WallaceDQSSCH12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WallaceDQSSCH12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/characteristics-backup-workloads-production-systems"
+      ]
+    },
+    {
+      "title": "Consistency without ordering",
+      "authors": [
+        "Vijay Chidambaram",
+        "Tushar Sharma",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "9",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChidambaramSAA12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChidambaramSAA12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/consistency-without-ordering"
+      ]
+    },
+    {
+      "title": "De-indirection for flash-based SSDs with nameless writes",
+      "authors": [
+        "Yiying Zhang 0005",
+        "Leo Prasath Arulraj",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "1",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangAAA12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangAAA12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/de-indirection-flash-based-ssds-nameless-writes"
+      ]
+    },
+    {
+      "title": "Extracting flexible, replayable models from large block traces",
+      "authors": [
+        "Vasily Tarasov",
+        "Santhosh Kumar",
+        "Jack Ma",
+        "Dean Hildebrand",
+        "Anna Povzner",
+        "Geoff Kuenning",
+        "Erez Zadok"
+      ],
+      "pages": "22",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TarasovKMHPKZ12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TarasovKMHPKZ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/extracting-flexible-replayable-models-large-block-traces-0"
+      ]
+    },
+    {
+      "title": "FIOS: a fair, efficient flash I/O scheduler",
+      "authors": [
+        "Stan Park",
+        "Kai Shen"
+      ],
+      "pages": "13",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ParkS12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ParkS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/fios-fair-efficient-flash-io-scheduler"
+      ]
+    },
+    {
+      "title": "iDedup: latency-aware, inline data deduplication for primary storage",
+      "authors": [
+        "Kiran Srinivasan",
+        "Timothy Bisson",
+        "Garth R. Goodson",
+        "Kaladhar Voruganti"
+      ],
+      "pages": "24",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SrinivasanBGV12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SrinivasanBGV12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/idedup-latency-aware-inline-data-deduplication-primary-storage"
+      ]
+    },
+    {
+      "title": "Lifetime management of flash-based SSDs using recovery-aware dynamic throttling",
+      "authors": [
+        "Sungjin Lee 0001",
+        "Taejin Kim",
+        "Kyungho Kim",
+        "Jihong Kim 0001"
+      ],
+      "pages": "26",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LeeKKK12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LeeKKK12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/lifetime-management-flash-based-ssds-using-recovery-aware-dynamic-throttling"
+      ]
+    },
+    {
+      "title": "NCCloud: applying network coding for the storage repair in a cloud-of-clouds",
+      "authors": [
+        "Yuchong Hu",
+        "Henry C. H. Chen",
+        "Patrick P. C. Lee",
+        "Yang Tang 0003"
+      ],
+      "pages": "21",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HuCLT12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HuCLT12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/nccloud-applying-network-coding-storage-repair-cloud-clouds"
+      ]
+    },
+    {
+      "title": "Optimizing NAND flash-based SSDs via retention relaxation",
+      "authors": [
+        "Ren-Shuo Liu",
+        "Chia-Lin Yang",
+        "Wei Wu"
+      ],
+      "pages": "11",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuYW12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuYW12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/optimizing-nand-flash-based-ssds-retention-relaxation"
+      ]
+    },
+    {
+      "title": "Power consumption in enterprise-scale backup storage systems",
+      "authors": [
+        "Zhichao Li",
+        "Kevin M. Greenan",
+        "Andrew W. Leung",
+        "Erez Zadok"
+      ],
+      "pages": "6",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiGLZ12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiGLZ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/power-consumption-enterprise-scale-backup-storage-systems"
+      ]
+    },
+    {
+      "title": "Recon: verifying file system consistency at runtime",
+      "authors": [
+        "Daniel Fryer",
+        "Kuei Sun",
+        "Rahat Mahmood",
+        "Tinghao Cheng",
+        "Shaun Benjamin",
+        "Ashvin Goel",
+        "Angela Demke Brown"
+      ],
+      "pages": "7",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/FryerSMCBGB12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/FryerSMCBGB12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/recon-verifying-file-system-consistency-runtime"
+      ]
+    },
+    {
+      "title": "Reducing SSD read latency via NAND flash program and erase suspension",
+      "authors": [
+        "Guanying Wu",
+        "Xubin He"
+      ],
+      "pages": "10",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WuH12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WuH12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/reducing-ssd-read-latency-nand-flash-program-and-erase-suspension"
+      ]
+    },
+    {
+      "title": "Rethinking erasure codes for cloud file systems: minimizing I/O for recovery and degraded reads",
+      "authors": [
+        "Osama Khan",
+        "Randal C. Burns",
+        "James S. Plank",
+        "William Pierce",
+        "Cheng Huang"
+      ],
+      "pages": "20",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KhanBPPH12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KhanBPPH12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/rethinking-erasure-codes-cloud-file-systems-minimizing-io-recovery-and-degraded"
+      ]
+    },
+    {
+      "title": "Revisiting storage for smartphones",
+      "authors": [
+        "Hyojun Kim",
+        "Nitin Agrawal 0001",
+        "Cristian Ungureanu"
+      ],
+      "pages": "17",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimAU12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimAU12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/revisiting-storage-smartphones-0"
+      ]
+    },
+    {
+      "title": "scc: cluster storage provisioning informed by application characteristics and SLAs",
+      "authors": [
+        "Harsha V. Madhyastha",
+        "John McCullough",
+        "George Porter",
+        "Rishi Kapoor",
+        "Stefan Savage",
+        "Alex C. Snoeren",
+        "Amin Vahdat"
+      ],
+      "pages": "23",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MadhyasthaMPKSSV12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MadhyasthaMPKSSV12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/scc-cluster-storage-provisioning-informed-application-characteristics-and-slas"
+      ]
+    },
+    {
+      "title": "Serving large-scale batch computed data with project Voldemort",
+      "authors": [
+        "Roshan Sumbaly",
+        "Jay Kreps",
+        "Lei Gao",
+        "Alex Feinberg",
+        "Chinmay Soman",
+        "Sam Shah"
+      ],
+      "pages": "18",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SumbalyKGFSS12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SumbalyKGFSS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/serving-large-scale-batch-computed-data-project-voldemort"
+      ]
+    },
+    {
+      "title": "SFS: random write considered harmful in solid state drives",
+      "authors": [
+        "Changwoo Min",
+        "Kangnyeon Kim",
+        "Hyunjin Cho",
+        "Sang-Won Lee 0001",
+        "Young Ik Eom"
+      ],
+      "pages": "12",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MinKCLE12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MinKCLE12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/sfs-random-write-considered-harmful-solid-state-drives"
+      ]
+    },
+    {
+      "title": "Shredder: GPU-accelerated incremental storage and computation",
+      "authors": [
+        "Pramod Bhatotia",
+        "Rodrigo Rodrigues 0001",
+        "Akshat Verma"
+      ],
+      "pages": "14",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BhatotiaRV12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BhatotiaRV12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/shredder-gpu-accelerated-incremental-storage-and-computation"
+      ]
+    },
+    {
+      "title": "The bleak future of NAND flash memory",
+      "authors": [
+        "Laura M. Grupp",
+        "John D. Davis",
+        "Steven Swanson"
+      ],
+      "pages": "2",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GruppDS12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GruppDS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/bleak-future-nand-flash-memory"
+      ]
+    },
+    {
+      "title": "Understanding performance implications of nested file systems in a virtualized environment",
+      "authors": [
+        "Duy Le 0005",
+        "Hai Huang 0002",
+        "Haining Wang 0001"
+      ],
+      "pages": "8",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LeHW12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LeHW12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/understanding-performance-implications-nested-file-systems-virtualized-environment"
+      ]
+    },
+    {
+      "title": "WAN optimized replication of backup datasets using stream-informed delta compression",
+      "authors": [
+        "Philip Shilane",
+        "Mark Huang",
+        "Grant Wallace",
+        "Windsor Hsu"
+      ],
+      "pages": "5",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ShilaneHWH12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ShilaneHWH12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/wan-optimized-replication-backup-datasets-using-stream-informed-delta-compression"
+      ]
+    },
+    {
+      "title": "When poll is better than interrupt",
+      "authors": [
+        "Jisoo Yang",
+        "Dave B. Minturn",
+        "Frank T. Hady"
+      ],
+      "pages": "3",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YangMH12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YangMH12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/when-poll-better-interrupt"
+      ]
+    },
+    {
+      "title": "ZZFS: a hybrid device and cloud file system for spontaneous users",
+      "authors": [
+        "Michelle L. Mazurek",
+        "Eno Thereska",
+        "Dinan Gunawardena",
+        "Richard H. R. Harper",
+        "James Scott"
+      ],
+      "pages": "16",
+      "year": "2012",
+      "venue": "FAST 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MazurekTGHS12",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MazurekTGHS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast12/zzfs-hybrid-device-and-cloud-file-system-spontaneous-users"
+      ]
+    }
+  ]
+}

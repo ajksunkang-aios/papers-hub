@@ -1,0 +1,899 @@
+{
+  "id": "isca-2007",
+  "venue": "isca",
+  "year": 2007,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2007.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2007.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2007",
+    "conf/isca/2007-1",
+    "conf/isca/2007-2",
+    "conf/isca/2007-3",
+    "conf/isca/2007-4",
+    "conf/isca/2007-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 46,
+  "display_count": 46,
+  "papers": [
+    {
+      "title": "A 64-bit stream processor architecture for scientific applications",
+      "authors": [
+        "Xuejun Yang",
+        "Xiaobo Yan",
+        "Zuocheng Xing",
+        "Yu Deng 0001",
+        "Jiang Jiang",
+        "Ying Zhang 0032"
+      ],
+      "pages": "210-219",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YangYXDJZ07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YangYXDJZ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250689",
+        "https://www.wikidata.org/entity/Q130986783"
+      ]
+    },
+    {
+      "title": "A novel dimensionally-decomposed router for on-chip communication in 3D architectures",
+      "authors": [
+        "Jongman Kim",
+        "Chrysostomos Nicopoulos",
+        "Dongkook Park",
+        "Reetuparna Das",
+        "Yuan Xie 0001",
+        "Narayanan Vijaykrishnan",
+        "Mazin S. Yousif",
+        "Chita R. Das"
+      ],
+      "pages": "138-149",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimNPDXVYD07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimNPDXVYD07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250680"
+      ]
+    },
+    {
+      "title": "Adaptive insertion policies for high performance caching",
+      "authors": [
+        "Moinuddin K. Qureshi",
+        "Aamer Jaleel",
+        "Yale N. Patt",
+        "Simon C. Steely Jr.",
+        "Joel S. Emer"
+      ],
+      "pages": "381-391",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/QureshiJPSE07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/QureshiJPSE07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250709"
+      ]
+    },
+    {
+      "title": "An effective hybrid transactional memory system with strong isolation guarantees",
+      "authors": [
+        "Chi Cao Minh",
+        "Martin Trautmann",
+        "JaeWoong Chung",
+        "Austen McDonald",
+        "Nathan Grasso Bronson",
+        "Jared Casper",
+        "Christos Kozyrakis",
+        "Kunle Olukotun"
+      ],
+      "pages": "69-80",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MinhTCMBCKO07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MinhTCMBCKO07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250673"
+      ]
+    },
+    {
+      "title": "An integrated hardware-software approach to flexible transactional memory",
+      "authors": [
+        "Arrvindh Shriraman",
+        "Michael F. Spear",
+        "Hemayet Hossain",
+        "Virendra J. Marathe",
+        "Sandhya Dwarkadas",
+        "Michael L. Scott"
+      ],
+      "pages": "104-115",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShriramanSHMDS07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShriramanSHMDS07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250676",
+        "https://www.wikidata.org/entity/Q131129095"
+      ]
+    },
+    {
+      "title": "Analysis of redundancy and application balance in the SPEC CPU2006 benchmark suite",
+      "authors": [
+        "Aashish Phansalkar",
+        "Ajay Joshi",
+        "Lizy Kurian John"
+      ],
+      "pages": "412-423",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PhansalkarJJ07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PhansalkarJJ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250713",
+        "https://www.wikidata.org/entity/Q130967833"
+      ]
+    },
+    {
+      "title": "Anton, a special-purpose machine for molecular dynamics simulation",
+      "authors": [
+        "David E. Shaw",
+        "Martin M. Deneroff",
+        "Ron O. Dror",
+        "Jeffrey Kuskin",
+        "Richard H. Larson",
+        "John K. Salmon",
+        "Cliff Young",
+        "Brannon Batson",
+        "Kevin J. Bowers",
+        "Jack C. Chao",
+        "Michael P. Eastwood",
+        "Joseph Gagliardo",
+        "J. P. Grossman",
+        "C. Richard Ho",
+        "Doug Ierardi",
+        "Istv&aacute;n Kolossv&aacute;ry",
+        "John L. Klepeis",
+        "Timothy Layman",
+        "Christine McLeavey",
+        "Mark A. Moraes",
+        "Rolf Mueller",
+        "Edward C. Priest",
+        "Yibing Shan",
+        "Jochen Spengler",
+        "Michael Theobald",
+        "Brian Towles",
+        "Stanley C. Wang"
+      ],
+      "pages": "1-12",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShawDDKLSYBBCEGGHIKKLMMMPSSTTW07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShawDDKLSYBBCEGGHIKKLMMMPSSTTW07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250664"
+      ]
+    },
+    {
+      "title": "Aquacore: a programmable architecture for microfluidics",
+      "authors": [
+        "Ahmed M. Amin",
+        "Mithuna Thottethodi",
+        "T. N. Vijaykumar",
+        "Steven Wereley",
+        "Stephen C. Jacobson"
+      ],
+      "pages": "254-265",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AminTVWJ07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AminTVWJ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250694",
+        "https://www.wikidata.org/entity/Q130983859"
+      ]
+    },
+    {
+      "title": "Architectural implications of brick and mortar silicon manufacturing",
+      "authors": [
+        "Martha Mercaldi Kim",
+        "Mojtaba Mehrara",
+        "Mark Oskin",
+        "Todd M. Austin"
+      ],
+      "pages": "244-253",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimMOA07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimMOA07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250693"
+      ]
+    },
+    {
+      "title": "Automated design of application specific superscalar processors: an analytical approach",
+      "authors": [
+        "Tejas Karkhanis",
+        "James E. Smith 0001"
+      ],
+      "pages": "402-411",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KarkhanisS07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KarkhanisS07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250712"
+      ]
+    },
+    {
+      "title": "BulkSC: bulk enforcement of sequential consistency",
+      "authors": [
+        "Luis Ceze",
+        "James Tuck 0001",
+        "Pablo Montesinos",
+        "Josep Torrellas"
+      ],
+      "pages": "278-289",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CezeTMT07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CezeTMT07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250697"
+      ]
+    },
+    {
+      "title": "Carbon: architectural support for fine-grained parallelism on chip multiprocessors",
+      "authors": [
+        "Sanjeev Kumar",
+        "Christopher J. Hughes",
+        "Anthony D. Nguyen"
+      ],
+      "pages": "162-173",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KumarHN07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KumarHN07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250683"
+      ]
+    },
+    {
+      "title": "Comparing memory systems for chip multiprocessors",
+      "authors": [
+        "Jacob Leverich",
+        "Hideho Arakida",
+        "Alex Solomatnikov",
+        "Amin Firoozshahian",
+        "Mark Horowitz",
+        "Christos Kozyrakis"
+      ],
+      "pages": "358-368",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeverichASFHK07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeverichASFHK07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250707"
+      ]
+    },
+    {
+      "title": "Configurable isolation: building high availability systems with commodity multi-core processors",
+      "authors": [
+        "Nidhi Aggarwal",
+        "Parthasarathy Ranganathan",
+        "Norman P. Jouppi",
+        "James E. Smith 0001"
+      ],
+      "pages": "470-481",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AggarwalRJS07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AggarwalRJS07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250720"
+      ]
+    },
+    {
+      "title": "Core fusion: accommodating software diversity in chip multiprocessors",
+      "authors": [
+        "Engin Ipek",
+        "Meyrem Kirman",
+        "Nevin Kirman",
+        "Jos&eacute; F. Mart&iacute;nez"
+      ],
+      "pages": "186-197",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/IpekKKM07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/IpekKKM07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250686"
+      ]
+    },
+    {
+      "title": "Dynamic prediction of architectural vulnerability from microarchitectural state",
+      "authors": [
+        "Kristen R. Walcott",
+        "Greg Humphreys",
+        "Sudhanva Gurumurthi"
+      ],
+      "pages": "516-527",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WalcottHG07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WalcottHG07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250726",
+        "https://www.wikidata.org/entity/Q130917763"
+      ]
+    },
+    {
+      "title": "Examining ACE analysis reliability estimates using fault-injection",
+      "authors": [
+        "Nicholas J. Wang",
+        "Aqeel Mahesri",
+        "Sanjay J. Patel"
+      ],
+      "pages": "460-469",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangMP07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangMP07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250719",
+        "https://www.wikidata.org/entity/Q130971923"
+      ]
+    },
+    {
+      "title": "Express virtual channels: towards the ideal interconnection fabric",
+      "authors": [
+        "Amit Kumar 0002",
+        "Li-Shiuan Peh",
+        "Partha Kundu",
+        "Niraj K. Jha"
+      ],
+      "pages": "150-161",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KumarPKJ07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KumarPKJ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250681"
+      ]
+    },
+    {
+      "title": "Flattened butterfly: a cost-efficient topology for high-radix networks",
+      "authors": [
+        "John Kim 0001",
+        "William J. Dally",
+        "Dennis Abts"
+      ],
+      "pages": "126-137",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimDA07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimDA07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250679"
+      ]
+    },
+    {
+      "title": "Ginger: control independence using tag rewriting",
+      "authors": [
+        "Andrew D. Hilton",
+        "Amir Roth"
+      ],
+      "pages": "436-447",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HiltonR07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HiltonR07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250716"
+      ]
+    },
+    {
+      "title": "Hardware atomicity for reliable software speculation",
+      "authors": [
+        "Naveen Neelakantam",
+        "Ravi Rajwar",
+        "Suresh Srinivas",
+        "Uma Srinivasan 0003",
+        "Craig B. Zilles"
+      ],
+      "pages": "174-185",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NeelakantamRSSZ07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NeelakantamRSSZ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250684"
+      ]
+    },
+    {
+      "title": "Interconnect design considerations for large NUCA caches",
+      "authors": [
+        "Naveen Muralimanohar",
+        "Rajeev Balasubramonian"
+      ],
+      "pages": "369-380",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MuralimanoharB07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MuralimanoharB07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250708"
+      ]
+    },
+    {
+      "title": "Late-binding: enabling unordered load-store queues",
+      "authors": [
+        "Simha Sethumadhavan",
+        "Franziska Roesner",
+        "Joel S. Emer",
+        "Doug Burger",
+        "Stephen W. Keckler"
+      ],
+      "pages": "347-357",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SethumadhavanREBK07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SethumadhavanREBK07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250705"
+      ]
+    },
+    {
+      "title": "Limiting the power consumption of main memory",
+      "authors": [
+        "Bruno Diniz",
+        "Dorgival Olavo Guedes Neto",
+        "Wagner Meira Jr.",
+        "Ricardo Bianchini"
+      ],
+      "pages": "290-301",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DinizGMB07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DinizGMB07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250699"
+      ]
+    },
+    {
+      "title": "Making the fast case common and the uncommon case simple in unbounded transactional memory",
+      "authors": [
+        "Colin Blundell",
+        "Joe Devietti",
+        "E. Christopher Lewis",
+        "Milo M. K. Martin"
+      ],
+      "pages": "24-34",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BlundellDLM07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BlundellDLM07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250667",
+        "https://www.wikidata.org/entity/Q131123719"
+      ]
+    },
+    {
+      "title": "Matrix scheduler reloaded",
+      "authors": [
+        "Peter G. Sassone",
+        "Jeff Rupley",
+        "Edward Brekelbaum",
+        "Gabriel H. Loh",
+        "Bryan Black"
+      ],
+      "pages": "335-346",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SassoneRBLB07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SassoneRBLB07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250704"
+      ]
+    },
+    {
+      "title": "Mechanisms for bounding vulnerabilities of processor structures",
+      "authors": [
+        "Niranjan Soundararajan",
+        "Angshuman Parashar",
+        "Anand Sivasubramaniam"
+      ],
+      "pages": "506-515",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SoundararajanPS07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SoundararajanPS07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250725",
+        "https://www.wikidata.org/entity/Q130925791"
+      ]
+    },
+    {
+      "title": "Mechanisms for store-wait-free multiprocessors",
+      "authors": [
+        "Thomas F. Wenisch",
+        "Anastassia Ailamaki",
+        "Babak Falsafi",
+        "Andreas Moshovos"
+      ],
+      "pages": "266-277",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WenischAFM07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WenischAFM07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250696"
+      ]
+    },
+    {
+      "title": "MetaTM//TxLinux: transactional memory for an operating system",
+      "authors": [
+        "Hany E. Ramadan",
+        "Christopher J. Rossbach",
+        "Donald E. Porter",
+        "Owen S. Hofmann",
+        "Bhandari Aditya",
+        "Emmett Witchel"
+      ],
+      "pages": "92-103",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RamadanRPHBW07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RamadanRPHBW07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250675"
+      ]
+    },
+    {
+      "title": "New cache designs for thwarting software cache-based side channel attacks",
+      "authors": [
+        "Zhenghong Wang",
+        "Ruby B. Lee"
+      ],
+      "pages": "494-505",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangL07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangL07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250723"
+      ]
+    },
+    {
+      "title": "ParallAX: an architecture for real-time physics",
+      "authors": [
+        "Thomas Y. Yeh",
+        "Petros Faloutsos",
+        "Sanjay J. Patel",
+        "Glenn Reinman"
+      ],
+      "pages": "232-243",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YehFPR07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YehFPR07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250691"
+      ]
+    },
+    {
+      "title": "Performance and security lessons learned from virtualizing the alpha processor",
+      "authors": [
+        "Paul A. Karger"
+      ],
+      "pages": "392-401",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Karger07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Karger07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250711"
+      ]
+    },
+    {
+      "title": "Performance pathologies in hardware transactional memory",
+      "authors": [
+        "Jayaram Bobba",
+        "Kevin E. Moore",
+        "Haris Volos 0001",
+        "Luke Yen",
+        "Mark D. Hill",
+        "Michael M. Swift",
+        "David A. Wood 0001"
+      ],
+      "pages": "81-91",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BobbaMVYHSW07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BobbaMVYHSW07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250674"
+      ]
+    },
+    {
+      "title": "Physical simulation for animation and visual effects: parallelization and characterization for chip multiprocessors",
+      "authors": [
+        "Christopher J. Hughes",
+        "Radek Grzeszczuk",
+        "Eftychios Sifakis",
+        "Daehyun Kim 0001",
+        "Sanjeev Kumar",
+        "Andrew Selle",
+        "Jatin Chhugani",
+        "Matthew J. Holliman",
+        "Yen-Kuang Chen"
+      ],
+      "pages": "220-231",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HughesGSKKSCHC07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HughesGSKKSCHC07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250690"
+      ]
+    },
+    {
+      "title": "Power model validation through thermal measurements",
+      "authors": [
+        "Francisco J. Mesa-Martinez",
+        "Joseph Nayfach-Battilana",
+        "Jose Renau"
+      ],
+      "pages": "302-311",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Mesa-MartinezNR07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Mesa-MartinezNR07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250700"
+      ]
+    },
+    {
+      "title": "Power provisioning for a warehouse-sized computer",
+      "authors": [
+        "Xiaobo Fan",
+        "Wolf-Dietrich Weber",
+        "Luiz Andr&eacute; Barroso"
+      ],
+      "pages": "13-23",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FanWB07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FanWB07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250665"
+      ]
+    },
+    {
+      "title": "Raksha: a flexible information flow architecture for software security",
+      "authors": [
+        "Michael Dalton",
+        "Hari Kannan",
+        "Christos Kozyrakis"
+      ],
+      "pages": "482-493",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DaltonKK07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DaltonKK07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250722"
+      ]
+    },
+    {
+      "title": "ReCycle: : pipeline adaptation to tolerate process variation",
+      "authors": [
+        "Abhishek Tiwari 0002",
+        "Smruti R. Sarangi",
+        "Josep Torrellas"
+      ],
+      "pages": "323-334",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TiwariST07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TiwariST07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250703"
+      ]
+    },
+    {
+      "title": "Rotary router: an efficient architecture for CMP interconnection networks",
+      "authors": [
+        "Pablo Abad Fidalgo",
+        "Valentin Puente",
+        "Jos&eacute;-&Aacute;ngel Gregorio",
+        "Pablo Prieto"
+      ],
+      "pages": "116-125",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AbadPGP07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AbadPGP07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250678"
+      ]
+    },
+    {
+      "title": "Synchronization state buffer: supporting efficient fine-grain synchronization on many-core architectures",
+      "authors": [
+        "Weirong Zhu",
+        "Vugranam C. Sreedhar",
+        "Ziang Hu",
+        "Guang R. Gao"
+      ],
+      "pages": "35-45",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhuSHG07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhuSHG07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250668"
+      ]
+    },
+    {
+      "title": "Tailoring quantum architectures to implementation style: a quantum computer for mobile and persistent qubits",
+      "authors": [
+        "Eric Chi",
+        "Stephen A. Lyon",
+        "Margaret Martonosi"
+      ],
+      "pages": "198-209",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChiLM07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChiLM07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250687",
+        "https://www.wikidata.org/entity/Q130922899"
+      ]
+    },
+    {
+      "title": "Thermal modeling and management of DRAM memory systems",
+      "authors": [
+        "Jiang Lin",
+        "Hongzhong Zheng",
+        "Zhichun Zhu",
+        "Howard David",
+        "Zhao Zhang 0010"
+      ],
+      "pages": "312-322",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LinZZDZ07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LinZZDZ07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250701"
+      ]
+    },
+    {
+      "title": "Transparent control independence (TCI)",
+      "authors": [
+        "Ahmed S. Al-Zawawi",
+        "Vimal K. Reddy",
+        "Eric Rotenberg",
+        "Haitham Akkary"
+      ],
+      "pages": "448-459",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Al-ZawawiRRA07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Al-ZawawiRRA07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250717"
+      ]
+    },
+    {
+      "title": "Virtual hierarchies to support server consolidation",
+      "authors": [
+        "Michael R. Marty",
+        "Mark D. Hill"
+      ],
+      "pages": "46-56",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MartyH07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MartyH07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250670"
+      ]
+    },
+    {
+      "title": "Virtual private caches",
+      "authors": [
+        "Kyle J. Nesbit",
+        "James Laudon",
+        "James E. Smith 0001"
+      ],
+      "pages": "57-68",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NesbitLS07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NesbitLS07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250671"
+      ]
+    },
+    {
+      "title": "VPC prediction: reducing the cost of indirect branches via hardware-based dynamic devirtualization",
+      "authors": [
+        "Hyesoon Kim",
+        "Jos&eacute; A. Joao",
+        "Onur Mutlu",
+        "Chang Joo Lee",
+        "Yale N. Patt",
+        "Robert Cohn"
+      ],
+      "pages": "424-435",
+      "year": "2007",
+      "venue": "ISCA 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimJMLPC07",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimJMLPC07.html",
+      "ee_links": [
+        "https://doi.org/10.1145/1250662.1250715"
+      ]
+    }
+  ]
+}

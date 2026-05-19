@@ -1,0 +1,383 @@
+{
+  "id": "sosp-1993",
+  "venue": "sosp",
+  "year": 1993,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp1993.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp1993.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/1993",
+    "conf/sosp/1993-1",
+    "conf/sosp/1993-2",
+    "conf/sosp/1993-3",
+    "conf/sosp/1993-4",
+    "conf/sosp/1993-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 21,
+  "display_count": 21,
+  "papers": [
+    {
+      "title": "Authentication in the Taos Operating System",
+      "authors": [
+        "Edward Wobber",
+        "Mart&iacute;n Abadi",
+        "Michael Burrows",
+        "Butler W. Lampson"
+      ],
+      "pages": "256-269",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WobberABL93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WobberABL93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168640"
+      ]
+    },
+    {
+      "title": "Concurrent Compacting Garbage Collection of a Persistent Heap",
+      "authors": [
+        "James W. O'Toole Jr.",
+        "Scott Nettles",
+        "David K. Gifford"
+      ],
+      "pages": "161-174",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/OTooleNG93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/OTooleNG93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168632"
+      ]
+    },
+    {
+      "title": "Efficient Software-Based Fault Isolation",
+      "authors": [
+        "Robert Wahbe",
+        "Steven Lucco",
+        "Thomas E. Anderson",
+        "Susan L. Graham"
+      ],
+      "pages": "203-216",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WahbeLAG93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WahbeLAG93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168635"
+      ]
+    },
+    {
+      "title": "Extensible File Systems in Spring",
+      "authors": [
+        "Yousef Y. A. Khalidi",
+        "Michael N. Nelson"
+      ],
+      "pages": "1-14",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KhalidiN93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KhalidiN93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168620"
+      ]
+    },
+    {
+      "title": "Fbufs: A High-Bandwidth Cross-Domain Transfer Facility",
+      "authors": [
+        "Peter Druschel",
+        "Larry L. Peterson"
+      ],
+      "pages": "189-202",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DruschelP93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DruschelP93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168634"
+      ]
+    },
+    {
+      "title": "Handling Audio and Video Streams in a Distributed Environment",
+      "authors": [
+        "Alan Jones",
+        "Andrew Hopper"
+      ],
+      "pages": "231-243",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JonesH93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JonesH93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168638"
+      ]
+    },
+    {
+      "title": "Improving IPC by Kernel Design",
+      "authors": [
+        "Jochen Liedtke"
+      ],
+      "pages": "175-188",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Liedtke93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Liedtke93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168633"
+      ]
+    },
+    {
+      "title": "Interposition Agents: Transparently Interposing User Code at the System Interface",
+      "authors": [
+        "Michael B. Jones"
+      ],
+      "pages": "80-93",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Jones93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Jones93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168626"
+      ]
+    },
+    {
+      "title": "Lightweight Recoverable Virtual Memory",
+      "authors": [
+        "Mahadev Satyanarayanan",
+        "Henry H. Mashburn",
+        "Puneet Kumar 0001",
+        "David C. Steere",
+        "James J. Kistler"
+      ],
+      "pages": "146-160",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SatyanarayananMKSK93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SatyanarayananMKSK93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168631"
+      ]
+    },
+    {
+      "title": "Network Objects",
+      "authors": [
+        "Andrew Birrell",
+        "Greg Nelson",
+        "Susan S. Owicki",
+        "Edward Wobber"
+      ],
+      "pages": "217-230",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BirrellNOW93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BirrellNOW93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168637"
+      ]
+    },
+    {
+      "title": "Performance Assertion Checking",
+      "authors": [
+        "Sharon E. Perl",
+        "William E. Weihl"
+      ],
+      "pages": "134-145",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PerlW93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PerlW93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168630"
+      ]
+    },
+    {
+      "title": "Protection Traps and Alternatives for Memory Management of an Object-Oriented Language",
+      "authors": [
+        "Antony L. Hosking",
+        "J. Eliot B. Moss"
+      ],
+      "pages": "106-119",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HoskingM93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HoskingM93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168628"
+      ]
+    },
+    {
+      "title": "Protocol Service Decomposition for High-Performance Networking",
+      "authors": [
+        "Chris Maeda",
+        "Brian N. Bershad"
+      ],
+      "pages": "244-255",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MaedaB93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MaedaB93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168639"
+      ]
+    },
+    {
+      "title": "Providing Location Information in a Ubiquitous Computing Environment",
+      "authors": [
+        "Mike Spreitzer",
+        "Marvin Theimer"
+      ],
+      "pages": "270-283",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SpreitzerT93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SpreitzerT93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168641"
+      ]
+    },
+    {
+      "title": "Subcontract: A Flexible Base for Distributed Programming",
+      "authors": [
+        "Graham Hamilton",
+        "Michael L. Powell",
+        "James G. Mitchell"
+      ],
+      "pages": "69-79",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HamiltonPM93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HamiltonPM93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168625"
+      ]
+    },
+    {
+      "title": "The Impact of Operating System Structure on Memory System Performance",
+      "authors": [
+        "J. Bradley Chen",
+        "Brian N. Bershad"
+      ],
+      "pages": "120-133",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenB93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenB93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168629",
+        "https://www.wikidata.org/entity/Q56057490"
+      ]
+    },
+    {
+      "title": "The Information Bus - An Architecture for Extensible Distributed Systems",
+      "authors": [
+        "Brian M. Oki",
+        "Manfred Pfl&uuml;gl",
+        "Alex Siegel",
+        "Dale Skeen"
+      ],
+      "pages": "58-68",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/OkiPSS93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/OkiPSS93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168624"
+      ]
+    },
+    {
+      "title": "The Logical Disk: A New Approach to Improving File Systems",
+      "authors": [
+        "Wiebren de Jonge",
+        "M. Frans Kaashoek",
+        "Wilson C. Hsieh"
+      ],
+      "pages": "15-28",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JongeKH93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JongeKH93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168621"
+      ]
+    },
+    {
+      "title": "The Zebra Striped Network File System",
+      "authors": [
+        "John H. Hartman",
+        "John K. Ousterhout"
+      ],
+      "pages": "29-43",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HartmanO93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HartmanO93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168622"
+      ]
+    },
+    {
+      "title": "Understanding the Limitations of Causally and Totally Ordered Communication",
+      "authors": [
+        "David R. Cheriton",
+        "Dale Skeen"
+      ],
+      "pages": "44-57",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CheritonS93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CheritonS93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168623"
+      ]
+    },
+    {
+      "title": "Using Threads in Interactive Systems: A Case Study",
+      "authors": [
+        "Carl Hauser",
+        "Christian Jacobi",
+        "Marvin Theimer",
+        "Brent B. Welch",
+        "Mark D. Weiser"
+      ],
+      "pages": "94-105",
+      "year": "1993",
+      "venue": "SOSP 1993",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HauserJTWW93",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HauserJTWW93.html",
+      "ee_links": [
+        "https://doi.org/10.1145/168619.168627"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,964 @@
+{
+  "id": "isca-1988",
+  "venue": "isca",
+  "year": 1988,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca1988.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca1988.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/1988",
+    "conf/isca/1988-1",
+    "conf/isca/1988-2",
+    "conf/isca/1988-3",
+    "conf/isca/1988-4",
+    "conf/isca/1988-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 50,
+  "display_count": 50,
+  "papers": [
+    {
+      "title": "A Bit-Plane Architecture for Optical Computing with Two-Dimensional Symbolic Substitution",
+      "authors": [
+        "Ahmed Louri",
+        "Kai Hwang 0001"
+      ],
+      "pages": "18-27",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LouriH88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LouriH88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5206",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5206",
+        "https://doi.org/10.1145/633625.52403"
+      ]
+    },
+    {
+      "title": "A Cache Coherence Scheme With Fast Selective Invalidation",
+      "authors": [
+        "Hoichi Cheong",
+        "Alexander V. Veidenbaum"
+      ],
+      "pages": "299-307",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Veidenbaum88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Veidenbaum88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5240",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5240",
+        "https://doi.org/10.1145/633625.52434"
+      ]
+    },
+    {
+      "title": "A Cache-based Message Passing Scheme for a Shared-bus Multiprocessor",
+      "authors": [
+        "Bruno R. Preiss",
+        "V. Carl Hamacher"
+      ],
+      "pages": "358-364",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PreissH88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PreissH88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5246",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5246",
+        "https://doi.org/10.1145/633625.52440"
+      ]
+    },
+    {
+      "title": "A Characterization of Sharing in Parallel Programs and Its Application to Coherency Protocol Evaluation",
+      "authors": [
+        "Susan J. Eggers",
+        "Randy H. Katz"
+      ],
+      "pages": "373-382",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/EggersK88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/EggersK88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5248",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5248",
+        "https://doi.org/10.1145/633625.52442"
+      ]
+    },
+    {
+      "title": "A Fetch-And-Op Implementation for Parallel Computers",
+      "authors": [
+        "G. Jack Lipovski",
+        "Paul Vaughan"
+      ],
+      "pages": "384-392",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LipovskiV88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LipovskiV88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5249",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5249",
+        "https://doi.org/10.1145/633625.52443"
+      ]
+    },
+    {
+      "title": "A Kernel-independent, Pipelined Architecture for Real-Time 2-D Convolution",
+      "authors": [
+        "Shridhar B. Shukla",
+        "Dharma P. Agrawal"
+      ],
+      "pages": "160-166",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShuklaA88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShuklaA88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5225",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5225",
+        "https://doi.org/10.1145/633625.52419"
+      ]
+    },
+    {
+      "title": "A Partial-Multiple-Bus Computer Structure with Improved Cost-Effectiveness",
+      "authors": [
+        "Hong Jiang",
+        "Kenneth C. Smith"
+      ],
+      "pages": "116-122",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JiangS88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JiangS88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5220",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5220",
+        "https://doi.org/10.1145/633625.52414"
+      ]
+    },
+    {
+      "title": "A Simulation Study of Two-Level Caches",
+      "authors": [
+        "Robert T. Short",
+        "Henry M. Levy"
+      ],
+      "pages": "81-88",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShortL88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShortL88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5213",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5213",
+        "https://doi.org/10.1145/633625.52410"
+      ]
+    },
+    {
+      "title": "An Accurate and Efficient Performance Analysis Technique for Multiprocessor Snooping Cache-Consistency Protocols",
+      "authors": [
+        "Mary K. Vernon",
+        "Edward D. Lazowska",
+        "John Zahorjan"
+      ],
+      "pages": "308-315",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/VernonLZ88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/VernonLZ88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5241",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5241",
+        "https://doi.org/10.1145/633625.52435"
+      ]
+    },
+    {
+      "title": "An Evaluation of Directory Schemes for Cache Coherence",
+      "authors": [
+        "Anant Agarwal",
+        "Richard Simoni",
+        "John L. Hennessy",
+        "Mark Horowitz"
+      ],
+      "pages": "280-289",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AgarwalSHH88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AgarwalSHH88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5238",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5238",
+        "https://doi.org/10.1145/633625.52432"
+      ]
+    },
+    {
+      "title": "Analysis of Bus Hierarchies for Multiprocessors",
+      "authors": [
+        "Donald C. Winsor",
+        "Trevor N. Mudge"
+      ],
+      "pages": "100-107",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WinsorM88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WinsorM88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5218",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5218",
+        "https://doi.org/10.1145/633625.52412"
+      ]
+    },
+    {
+      "title": "Analysis of Memory Referencing Behavior For Design of Local Memories",
+      "authors": [
+        "Geoffrey D. McNiven",
+        "Edward S. Davidson"
+      ],
+      "pages": "56-63",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/McNivenD88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/McNivenD88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5210",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5210",
+        "https://doi.org/10.1145/633625.52407"
+      ]
+    },
+    {
+      "title": "Cache Performance of Vector Processors",
+      "authors": [
+        "Kimming So",
+        "Vittorio Zecca"
+      ],
+      "pages": "261-268",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SoZ88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SoZ88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5236",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5236",
+        "https://doi.org/10.1145/633625.52430"
+      ]
+    },
+    {
+      "title": "Critical Issues in Mapping Neural Networks on Message-Passing Multicomputers",
+      "authors": [
+        "Joydeep Ghosh",
+        "Kai Hwang 0001"
+      ],
+      "pages": "3-11",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GhoshH88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GhoshH88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5204",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5204",
+        "https://doi.org/10.1145/633625.52401"
+      ]
+    },
+    {
+      "title": "Data Buffer Performance for Sequential Prolog Architectures",
+      "authors": [
+        "Evan Tick"
+      ],
+      "pages": "434-442",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Tick88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Tick88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5254",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5254",
+        "https://doi.org/10.1145/633625.52448"
+      ]
+    },
+    {
+      "title": "Deadlock Avoidance for Systolic Communication",
+      "authors": [
+        "H. T. Kung 0001"
+      ],
+      "pages": "252-260",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Kung88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Kung88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5235",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5235",
+        "https://doi.org/10.1145/633625.52429"
+      ]
+    },
+    {
+      "title": "Design and Performance of Special Purpose Hardware for Time Warp",
+      "authors": [
+        "Richard Fujimoto",
+        "Jya-Jang Tsai",
+        "Ganesh Gopalakrishnan"
+      ],
+      "pages": "401-408",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FujimotoTG88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FujimotoTG88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5251",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5251",
+        "https://doi.org/10.1145/633625.52445"
+      ]
+    },
+    {
+      "title": "Design of a Concurrent Computer for Solving Systems of Linear Equations",
+      "authors": [
+        "Kishan Jainandunsing",
+        "Ed F. Deprettere"
+      ],
+      "pages": "204-211",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JainandunsingD88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JainandunsingD88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5230",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5230",
+        "https://doi.org/10.1145/633625.52424"
+      ]
+    },
+    {
+      "title": "Destination Tag Routing Techniques Based on a State Model for the IADM Network",
+      "authors": [
+        "Darwen Rau",
+        "Jos&eacute; A. B. Fortes",
+        "Howard Jay Siegel"
+      ],
+      "pages": "318-324",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RauFS88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RauFS88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5242",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5242",
+        "https://doi.org/10.1145/633625.52436"
+      ]
+    },
+    {
+      "title": "Distributed Round-Robin and First-Come First-Serve Protocols and Their Application to Multiprocessor Bus Arbitration",
+      "authors": [
+        "Mary K. Vernon",
+        "Udi Manber"
+      ],
+      "pages": "269-277",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/VernonM88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/VernonM88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5237",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5237",
+        "https://doi.org/10.1145/633625.52431"
+      ]
+    },
+    {
+      "title": "Exploiting Bit Level Concurrency in Real-Time Geometric Feature Extractions",
+      "authors": [
+        "Wentai Liu",
+        "Tong-Fei Yeh",
+        "William E. Batchelor",
+        "Ralph K. Cavin III"
+      ],
+      "pages": "167-174",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YehBC88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YehBC88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5226",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5226",
+        "https://doi.org/10.1145/633625.52420"
+      ]
+    },
+    {
+      "title": "Exploiting Parallel Microprocessor Microarchitectures With a Compiler Code Generator",
+      "authors": [
+        "Wen-mei W. Hwu",
+        "Pohua P. Chang"
+      ],
+      "pages": "45-53",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HwuC88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HwuC88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5209",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5209",
+        "https://doi.org/10.1145/633625.52406",
+        "https://www.wikidata.org/entity/Q121326996"
+      ]
+    },
+    {
+      "title": "Extra Group Network: A Cost-Effective Fault-Tolerant Multistage Interconnection Network",
+      "authors": [
+        "Sizheng Wei",
+        "Gyungho Lee"
+      ],
+      "pages": "108-115",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WeiL88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WeiL88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5219",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5219",
+        "https://doi.org/10.1145/633625.52413"
+      ]
+    },
+    {
+      "title": "Flagship: A Parallel Architecture for Declarative Programming",
+      "authors": [
+        "Ian Watson",
+        "Viv Woods",
+        "Paul Watson 0001",
+        "Richard Banach",
+        "Mark Irvine Greenberg",
+        "John Sargeant"
+      ],
+      "pages": "124-130",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WatsonWWBGS88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WatsonWWBGS88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5221",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5221",
+        "https://doi.org/10.1145/633625.52415"
+      ]
+    },
+    {
+      "title": "High-Performance Multi-Queue Buffers for VLSI Communication Switches",
+      "authors": [
+        "Yuval Tamir",
+        "Gregory L. Frazier"
+      ],
+      "pages": "343-354",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Frazier88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Frazier88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5245",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5245",
+        "https://doi.org/10.1145/633625.52439"
+      ]
+    },
+    {
+      "title": "Hyperswitch Network for the Hypercube Computer",
+      "authors": [
+        "E. T. Chow",
+        "H. Madan",
+        "John C. Peterson",
+        "Dirk Grunwald",
+        "Daniel A. Reed"
+      ],
+      "pages": "90-99",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChowMPGR88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChowMPGR88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5214",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5214",
+        "https://doi.org/10.1145/633625.52411"
+      ]
+    },
+    {
+      "title": "IMPULSE: A High Performance Processing Unit for Multiprocessors for Scientific Calculation",
+      "authors": [
+        "Taisuke Boku",
+        "Shigehiro Nomura",
+        "Hideharu Amano"
+      ],
+      "pages": "365-372",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BokuNA88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BokuNA88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5247",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5247",
+        "https://doi.org/10.1145/633625.52441"
+      ]
+    },
+    {
+      "title": "MASA: A Multithreaded Processor Architecture for Parallel Symbolic Computing",
+      "authors": [
+        "Robert H. Halstead Jr.",
+        "Tetsuya Fujita"
+      ],
+      "pages": "443-451",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HalsteadF88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HalsteadF88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5255",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5255",
+        "https://doi.org/10.1145/633625.52449"
+      ]
+    },
+    {
+      "title": "Measuring VAX 8800 Performance with a Histogram Hardware Monitor",
+      "authors": [
+        "Douglas W. Clark",
+        "Peter J. Bannon",
+        "James B. Keller"
+      ],
+      "pages": "176-185",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ClarkBK88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ClarkBK88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5227",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5227",
+        "https://doi.org/10.1145/633625.52421"
+      ]
+    },
+    {
+      "title": "Multinomial Conjunctoid Statistical Learning Machines",
+      "authors": [
+        "Yoshiyasu Takefuji",
+        "Robert J. Jannarone",
+        "Yong B. Cho",
+        "Tatung Chen"
+      ],
+      "pages": "12-17",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TakefujiJCC88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TakefujiJCC88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5205",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5205",
+        "https://doi.org/10.1145/633625.52402"
+      ]
+    },
+    {
+      "title": "Multiprocessor Cache Analysis Using ATUM",
+      "authors": [
+        "Richard L. Sites",
+        "Anant Agarwal"
+      ],
+      "pages": "186-195",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SitesA88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SitesA88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5228",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5228",
+        "https://doi.org/10.1145/633625.52422"
+      ]
+    },
+    {
+      "title": "On the Inclusion Properties for Multi-Level Cache Hierarchies",
+      "authors": [
+        "Jean-Loup Baer",
+        "Wen-Hann Wang"
+      ],
+      "pages": "73-80",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BaerW88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BaerW88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5212",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5212",
+        "https://doi.org/10.1145/633625.52409"
+      ]
+    },
+    {
+      "title": "Parallel Architecture for OPS5",
+      "authors": [
+        "Philip L. Butler",
+        "J. D. Allen Jr.",
+        "Donald W. Bouldin"
+      ],
+      "pages": "452-457",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ButlerAB88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ButlerAB88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5256",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5256",
+        "https://doi.org/10.1145/633625.52450"
+      ]
+    },
+    {
+      "title": "Performance Evaluation of On-Chip Register and Cache Organizations",
+      "authors": [
+        "Richard J. Eickemeyer",
+        "Janak H. Patel"
+      ],
+      "pages": "64-72",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/EickenmeyerP88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/EickenmeyerP88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5211",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5211",
+        "https://doi.org/10.1145/633625.52408"
+      ]
+    },
+    {
+      "title": "Performance Tradeoffs in Cache Design",
+      "authors": [
+        "Steven A. Przybylski",
+        "Mark Horowitz",
+        "John L. Hennessy"
+      ],
+      "pages": "290-298",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PrzybylskiHH88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PrzybylskiHH88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5239",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5239",
+        "https://doi.org/10.1145/633625.52433"
+      ]
+    },
+    {
+      "title": "Priority-Driven, Preemptive I/O Controllers for Real-Time Systems",
+      "authors": [
+        "Brinkley Sprunt",
+        "David Blair Kirk",
+        "Lui Sha"
+      ],
+      "pages": "152-159",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SpruntKS88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SpruntKS88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5224",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5224",
+        "https://doi.org/10.1145/633625.52418"
+      ]
+    },
+    {
+      "title": "Regular CC-Banyan Networks",
+      "authors": [
+        "Doug W. Kim",
+        "G. Jack Lipovski",
+        "Alfred C. Hartmann",
+        "Roy M. Jenevein"
+      ],
+      "pages": "325-332",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimLHJ88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimLHJ88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5243",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5243",
+        "https://doi.org/10.1145/633625.52437"
+      ]
+    },
+    {
+      "title": "Resource Requirements of Dataflow Programs",
+      "authors": [
+        "David E. Culler",
+        "Arvind 0001"
+      ],
+      "pages": "141-150",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CullerA88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CullerA88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5223",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5223",
+        "https://doi.org/10.1145/633625.52417"
+      ]
+    },
+    {
+      "title": "Scrambled Storage for Parallel Memory Systems",
+      "authors": [
+        "De-Lei Lee"
+      ],
+      "pages": "232-239",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Lee88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Lee88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5233",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5233",
+        "https://doi.org/10.1145/633625.52427"
+      ]
+    },
+    {
+      "title": "Solving Partial Differential Equations in a Data-Driven Multiprocessor Environment",
+      "authors": [
+        "Jean-Luc Gaudiot",
+        "C. M. Lin",
+        "M. Hosseiniyar"
+      ],
+      "pages": "223-230",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GaudiotLH88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GaudiotLH88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5232",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5232",
+        "https://doi.org/10.1145/633625.52426"
+      ]
+    },
+    {
+      "title": "Synchronizing Processors Through Memory Requests in a Tightly Coupled Multiprocessor",
+      "authors": [
+        "Andr&eacute; Seznec",
+        "Yvon J&eacute;gou"
+      ],
+      "pages": "393-400",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SeznecJ88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SeznecJ88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5250",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5250",
+        "https://doi.org/10.1145/633625.52444"
+      ]
+    },
+    {
+      "title": "The Architecture of a Linda Coprocessor",
+      "authors": [
+        "Venkatesh Krishnaswamy",
+        "Sudhir Ahuja",
+        "Nicholas Carriero",
+        "David Gelernter"
+      ],
+      "pages": "240-249",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KrishnaswamyACG88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KrishnaswamyACG88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5234",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5234",
+        "https://doi.org/10.1145/633625.52428"
+      ]
+    },
+    {
+      "title": "The Performance Potential of Multiple Functional Unit Processors",
+      "authors": [
+        "Andrew R. Pleszkun",
+        "Gurindar S. Sohi"
+      ],
+      "pages": "37-44",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PleszkunS88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PleszkunS88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5208",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5208",
+        "https://doi.org/10.1145/633625.52405"
+      ]
+    },
+    {
+      "title": "The Reconfigurable Arithmetic Processor",
+      "authors": [
+        "Stuart Fiske",
+        "William J. Dally"
+      ],
+      "pages": "30-36",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FiskeD88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FiskeD88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5207",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5207",
+        "https://doi.org/10.1145/633625.52404"
+      ]
+    },
+    {
+      "title": "The VMP Multiprocessor: Initial Experience, Refinements and Performance Evlauation",
+      "authors": [
+        "David R. Cheriton",
+        "Anoop Gupta",
+        "Patrick D. Boyle",
+        "Hendrik A. Goosen"
+      ],
+      "pages": "410-421",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CheritonGBG88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CheritonGBG88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5252",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5252",
+        "https://doi.org/10.1145/633625.52446"
+      ]
+    },
+    {
+      "title": "The White Dwarf: A High-Performance Application-Specific Processor",
+      "authors": [
+        "Andrew Wolfe",
+        "Maur&iacute;cio Breternitz Jr.",
+        "Chriss Stephens",
+        "A. L. Ting",
+        "David Blair Kirk",
+        "Ronald P. Bianchini Jr.",
+        "John Paul Shen"
+      ],
+      "pages": "212-222",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BreternitzSTKBS88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BreternitzSTKBS88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5231",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5231",
+        "https://doi.org/10.1145/633625.52425",
+        "https://www.wikidata.org/entity/Q58071622"
+      ]
+    },
+    {
+      "title": "The Wisconsin Multicube: A New Large-Scale Cache-Coherent Multiprocessor",
+      "authors": [
+        "James R. Goodman",
+        "Philip J. Woest"
+      ],
+      "pages": "422-431",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GoodmanW88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GoodmanW88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5253",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5253",
+        "https://doi.org/10.1145/633625.52447"
+      ]
+    },
+    {
+      "title": "Toward a Dataflow/von Neumann Hybrid Architecture",
+      "authors": [
+        "Robert A. Iannucci"
+      ],
+      "pages": "131-140",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Iannucci88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Iannucci88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5222",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5222",
+        "https://doi.org/10.1145/633625.52416"
+      ]
+    },
+    {
+      "title": "Trade-offs Between Devices and Paths in Achieving Disk Interleaving",
+      "authors": [
+        "Spencer W. Ng",
+        "Dorothy Lang",
+        "Robert Selinger"
+      ],
+      "pages": "196-201",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NgLS88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NgLS88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5229",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5229",
+        "https://doi.org/10.1145/633625.52423"
+      ]
+    },
+    {
+      "title": "Traffic Analysis of Rectangular SW-Banyan Networks",
+      "authors": [
+        "Roy M. Jenevein",
+        "Thomas Mookken"
+      ],
+      "pages": "333-342",
+      "year": "1988",
+      "venue": "ISCA 1988",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JeneveinM88",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JeneveinM88.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1988.5244",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1988.5244",
+        "https://doi.org/10.1145/633625.52438"
+      ]
+    }
+  ]
+}

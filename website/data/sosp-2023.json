@@ -1,0 +1,1004 @@
+{
+  "id": "sosp-2023",
+  "venue": "sosp",
+  "year": 2023,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp2023.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp2023.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/2023",
+    "conf/sosp/2023-1",
+    "conf/sosp/2023-2",
+    "conf/sosp/2023-3",
+    "conf/sosp/2023-4",
+    "conf/sosp/2023-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 43,
+  "display_count": 43,
+  "papers": [
+    {
+      "title": "A Cloud-Scale Characterization of Remote Procedure Calls",
+      "authors": [
+        "Korakit Seemakhupt",
+        "Brent E. Stephens",
+        "Samira Manabi Khan",
+        "Sihang Liu 0001",
+        "Hassan M. G. Wassel",
+        "Soheil Hassas Yeganeh",
+        "Alex C. Snoeren",
+        "Arvind Krishnamurthy",
+        "David E. Culler",
+        "Henry M. Levy"
+      ],
+      "pages": "498-514",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SeemakhuptSK0WY23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SeemakhuptSK0WY23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613156",
+        "https://www.wikidata.org/entity/Q130978085"
+      ]
+    },
+    {
+      "title": "Achieving Microsecond-Scale Tail Latency Efficiently with Approximate Optimal Scheduling",
+      "authors": [
+        "Rishabh R. Iyer",
+        "Musa Unal",
+        "Marios Kogias",
+        "George Candea"
+      ],
+      "pages": "466-481",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/IyerUKC23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/IyerUKC23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613136"
+      ]
+    },
+    {
+      "title": "Acto: Automatic End-to-End Testing for Operation Correctness of Cloud System Management",
+      "authors": [
+        "Jiawei Tyler Gu",
+        "Xudong Sun 0013",
+        "Wentao Zhang",
+        "Yuxuan Jiang 0016",
+        "Chen Wang 0039",
+        "Mandana Vaziri",
+        "Owolabi Legunsen",
+        "Tianyin Xu"
+      ],
+      "pages": "96-112",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GuSZJWVLX23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GuSZJWVLX23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613161"
+      ]
+    },
+    {
+      "title": "Antipode: Enforcing Cross-Service Causal Consistency in Distributed Applications",
+      "authors": [
+        "Jo&atilde;o Ferreira Loff",
+        "Daniel Porto 0002",
+        "Jo&atilde;o Garcia 0001",
+        "Jonathan Mace",
+        "Rodrigo Rodrigues 0001"
+      ],
+      "pages": "298-313",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LoffP0M023",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LoffP0M023.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613176",
+        "https://www.wikidata.org/entity/Q130851276"
+      ]
+    },
+    {
+      "title": "Arboretum: A Planner for Large-Scale Federated Analytics with Differential Privacy",
+      "authors": [
+        "Elizabeth Margolin",
+        "Karan Newatia",
+        "Tao Luo",
+        "Edo Roth",
+        "Andreas Haeberlen"
+      ],
+      "pages": "451-465",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MargolinNLRH23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MargolinNLRH23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3624566"
+      ]
+    },
+    {
+      "title": "Automated Verification of an In-Production DNS Authoritative Engine",
+      "authors": [
+        "Naiqian Zheng",
+        "Mengqi Liu 0001",
+        "Yuxing Xiang",
+        "Linjian Song",
+        "Dong Li",
+        "Feng Han",
+        "Nan Wang",
+        "Yong Ma",
+        "Zhuo Liang",
+        "Dennis Cai",
+        "Ennan Zhai",
+        "Xuanzhe Liu",
+        "Xin Jin 0008"
+      ],
+      "pages": "80-95",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhengLXSLHWMLCZ23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhengLXSLHWMLCZ23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613153",
+        "https://www.wikidata.org/entity/Q130935803"
+      ]
+    },
+    {
+      "title": "Bagpipe: Accelerating Deep Recommendation Model Training",
+      "authors": [
+        "Saurabh Agarwal",
+        "Chengpo Yan",
+        "Ziyi Zhang",
+        "Shivaram Venkataraman"
+      ],
+      "pages": "348-363",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AgarwalYZV23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AgarwalYZV23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613142"
+      ]
+    },
+    {
+      "title": "Blueprint: A Toolchain for Highly-Reconfigurable Microservice Applications",
+      "authors": [
+        "Vaastav Anand",
+        "Deepak Garg 0001",
+        "Antoine Kaufmann",
+        "Jonathan Mace"
+      ],
+      "pages": "482-497",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Anand0KM23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Anand0KM23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613138"
+      ]
+    },
+    {
+      "title": "Cornflakes: Zero-Copy Serialization for Microsecond-Scale Networking",
+      "authors": [
+        "Deepti Raghavan",
+        "Shreya Ravi",
+        "Gina Yuan",
+        "Pratiksha Thaker",
+        "Sanjari Srivastava",
+        "Micah Murray",
+        "Pedro Henrique Penna",
+        "Amy Ousterhout",
+        "Philip Alexander Levis",
+        "Matei Zaharia",
+        "Irene Zhang"
+      ],
+      "pages": "200-215",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RaghavanRYTSMPO23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RaghavanRYTSMPO23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613137",
+        "https://www.wikidata.org/entity/Q130940311"
+      ]
+    },
+    {
+      "title": "Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System",
+      "authors": [
+        "Jiacheng Shen",
+        "Pengfei Zuo",
+        "Xuchuan Luo",
+        "Yuxin Su 0001",
+        "Jiazhen Gu",
+        "Hao Feng",
+        "Yangfan Zhou 0002",
+        "Michael R. Lyu"
+      ],
+      "pages": "675-691",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ShenZL0GFZL23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ShenZL0GFZL23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613144",
+        "https://www.wikidata.org/entity/Q130953078"
+      ]
+    },
+    {
+      "title": "Edna: Disguising and Revealing User Data in Web Applications",
+      "authors": [
+        "Lillian Tsai",
+        "Hannah Gross",
+        "Eddie Kohler",
+        "M. Frans Kaashoek",
+        "Malte Schwarzkopf"
+      ],
+      "pages": "434-450",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TsaiGKKS23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TsaiGKKS23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613146",
+        "https://www.wikidata.org/entity/Q130836788"
+      ]
+    },
+    {
+      "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+      "authors": [
+        "Woosuk Kwon",
+        "Zhuohan Li 0001",
+        "Siyuan Zhuang",
+        "Ying Sheng 0007",
+        "Lianmin Zheng",
+        "Cody Hao Yu",
+        "Joseph Gonzalez 0001",
+        "Hao Zhang 0025",
+        "Ion Stoica"
+      ],
+      "pages": "611-626",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KwonLZ0ZY0ZS23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KwonLZ0ZY0ZS23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613165",
+        "https://www.wikidata.org/entity/Q126728542"
+      ]
+    },
+    {
+      "title": "Enabling High-Performance and Secure Userspace NVM File Systems with the Trio Architecture",
+      "authors": [
+        "Diyu Zhou",
+        "Vojtech Aschenbrenner",
+        "Tao Lyu 0004",
+        "Jian Zhang",
+        "Sudarsun Kannan",
+        "Sanidhya Kashyap"
+      ],
+      "pages": "150-165",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhouA0ZKK23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhouA0ZKK23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613171"
+      ]
+    },
+    {
+      "title": "Falcon: Fast OLTP Engine for Persistent Cache and Non-Volatile Memory",
+      "authors": [
+        "Zhicheng Ji",
+        "Kang Chen",
+        "Leping Wang",
+        "Mingxing Zhang",
+        "Yongwei Wu 0001"
+      ],
+      "pages": "531-544",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JiCWZW23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JiCWZW23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613141",
+        "https://www.wikidata.org/entity/Q130961477"
+      ]
+    },
+    {
+      "title": "FIFO queues are all you need for cache eviction",
+      "authors": [
+        "Juncheng Yang",
+        "Yazhuo Zhang",
+        "Ziyue Qiu",
+        "Yao Yue",
+        "Rashmi Vinayak"
+      ],
+      "pages": "130-149",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YangZQYV23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YangZQYV23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613147",
+        "https://www.wikidata.org/entity/Q130819722"
+      ]
+    },
+    {
+      "title": "Flexible Advancement in Asynchronous BFT Consensus",
+      "authors": [
+        "Shengyun Liu",
+        "Wenbo Xu 0002",
+        "Chen Shan",
+        "Xiaofeng Yan",
+        "Tianjing Xu",
+        "Bo Wang 0116",
+        "Lei Fan 0002",
+        "Fuxi Deng",
+        "Ying Yan 0002",
+        "Hui Zhang 0002"
+      ],
+      "pages": "264-280",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiuXS0XWFDYZ23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiuXS0XWFDYZ23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613164",
+        "https://www.wikidata.org/entity/Q130898852"
+      ]
+    },
+    {
+      "title": "GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints",
+      "authors": [
+        "Zhuang Wang",
+        "Zhen Jia 0001",
+        "Shuai Zheng 0004",
+        "Zhen Zhang 0063",
+        "Xinwei Fu",
+        "T. S. Eugene Ng",
+        "Yida Wang 0003"
+      ],
+      "pages": "364-381",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WangJZZFNW23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WangJZZFNW23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613145",
+        "https://www.wikidata.org/entity/Q130838957"
+      ]
+    },
+    {
+      "title": "Grove: a Separation-Logic Library for Verifying Distributed Systems",
+      "authors": [
+        "Upamanyu Sharma",
+        "Ralf Jung 0002",
+        "Joseph Tassarotti",
+        "M. Frans Kaashoek",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "113-129",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Sharma0TKZ23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Sharma0TKZ23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613172",
+        "https://www.wikidata.org/entity/Q130821877"
+      ]
+    },
+    {
+      "title": "gSampler: General and Efficient GPU-based Graph Sampling for Graph Learning",
+      "authors": [
+        "Ping Gong 0009",
+        "Renjie Liu 0001",
+        "Zunyao Mao",
+        "Zhenkun Cai",
+        "Xiao Yan 0002",
+        "Cheng Li 0001",
+        "Minjie Wang",
+        "Zhuozhao Li"
+      ],
+      "pages": "562-578",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GongLMC0LWL23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GongLMC0LWL23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613168"
+      ]
+    },
+    {
+      "title": "Halfmoon: Log-Optimal Fault-Tolerant Stateful Serverless Computing",
+      "authors": [
+        "Sheng Qi",
+        "Xuanzhe Liu",
+        "Xin Jin 0008"
+      ],
+      "pages": "314-330",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/QiLJ23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/QiLJ23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613154"
+      ]
+    },
+    {
+      "title": "MEMTIS: Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination",
+      "authors": [
+        "Taehyung Lee 0001",
+        "Sumit Kumar Monga",
+        "Changwoo Min",
+        "Young Ik Eom"
+      ],
+      "pages": "17-34",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LeeMME23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LeeMME23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613167",
+        "https://www.wikidata.org/entity/Q130952038"
+      ]
+    },
+    {
+      "title": "Mira: A Program-Behavior-Guided Far Memory System",
+      "authors": [
+        "Zhiyuan Guo",
+        "Zijian He",
+        "Yiying Zhang 0005"
+      ],
+      "pages": "692-708",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GuoH023",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GuoH023.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613157",
+        "https://www.wikidata.org/entity/Q130956980"
+      ]
+    },
+    {
+      "title": "One Simple API Can Cause Hundreds of Bugs An Analysis of Refcounting Bugs in All Modern Linux Kernels",
+      "authors": [
+        "Liang He 0011",
+        "Purui Su",
+        "Chao Zhang 0008",
+        "Yan Cai 0001",
+        "Jinxin Ma"
+      ],
+      "pages": "52-65",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HeSZ0M23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HeSZ0M23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613162",
+        "https://www.wikidata.org/entity/Q131113887"
+      ]
+    },
+    {
+      "title": "Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates",
+      "authors": [
+        "Insu Jang",
+        "Zhenning Yang",
+        "Zhen Zhang 0063",
+        "Xin Jin 0008",
+        "Mosharaf Chowdhury"
+      ],
+      "pages": "382-395",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JangYZJC23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JangYZJC23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613152",
+        "https://www.wikidata.org/entity/Q130825546"
+      ]
+    },
+    {
+      "title": "Paella: Low-latency Model Serving with Software-defined GPU Scheduling",
+      "authors": [
+        "Kelvin K. W. Ng",
+        "Henri Maxime Demoulin",
+        "Vincent Liu 0001"
+      ],
+      "pages": "595-610",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NgD023",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NgD023.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613163",
+        "https://www.wikidata.org/entity/Q130868160"
+      ]
+    },
+    {
+      "title": "Partial Failure Resilient Memory Management System for (CXL-based) Distributed Shared Memory",
+      "authors": [
+        "Mingxing Zhang",
+        "Teng Ma 0006",
+        "Jinqi Hua",
+        "Zheng Liu",
+        "Kang Chen",
+        "Ning Ding",
+        "Fan Du",
+        "Jinlei Jiang",
+        "Tao Ma 0006",
+        "Yongwei Wu 0001"
+      ],
+      "pages": "658-674",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangMHLCDDJMW23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangMHLCDDJMW23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613135",
+        "https://www.wikidata.org/entity/Q130837155"
+      ]
+    },
+    {
+      "title": "PIT: Optimization of Dynamic Sparse Deep Learning Models via Permutation Invariant Transformation",
+      "authors": [
+        "Ningxin Zheng",
+        "Huiqiang Jiang",
+        "Quanlu Zhang",
+        "Zhenhua Han",
+        "Lingxiao Ma",
+        "Yuqing Yang 0001",
+        "Fan Yang 0024",
+        "Chengruidong Zhang",
+        "Lili Qiu",
+        "Mao Yang 0004",
+        "Lidong Zhou"
+      ],
+      "pages": "331-347",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhengJZHM0YZQYZ23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhengJZHM0YZQYZ23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613139",
+        "https://www.wikidata.org/entity/Q130940098"
+      ]
+    },
+    {
+      "title": "Private Web Search with Tiptoe",
+      "authors": [
+        "Alexandra Henzinger",
+        "Emma Dauterman",
+        "Henry Corrigan-Gibbs",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "396-416",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HenzingerDCZ23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HenzingerDCZ23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613134",
+        "https://www.wikidata.org/entity/Q130836727"
+      ]
+    },
+    {
+      "title": "Project Silica: Towards Sustainable Cloud Archival Storage in Glass",
+      "authors": [
+        "Patrick Anderson 0001",
+        "Erika Blancada Aranas",
+        "Youssef Assaf",
+        "Raphael Behrendt",
+        "Richard Black",
+        "Marco Caballero",
+        "Pashmina Cameron",
+        "Burcu Canakci",
+        "Thales De Carvalho",
+        "Andromachi Chatzieleftheriou",
+        "Rebekah Storan Clarke",
+        "James Clegg",
+        "Daniel Cletheroe",
+        "Bridgette Cooper",
+        "Tim Deegan",
+        "Austin Donnelly",
+        "Rokas Drevinskas",
+        "Alexander L. Gaunt",
+        "Christos Gkantsidis",
+        "Ariel Gomez Diaz",
+        "Istv&aacute;n Haller",
+        "Freddie Hong",
+        "Teodora Ilieva",
+        "Shashidhar Joshi",
+        "Russell Joyce",
+        "Mint Kunkel",
+        "David Lara",
+        "Sergey Legtchenko",
+        "Fanglin Linda Liu",
+        "Bruno Magalh&atilde;es",
+        "Alana Marzoev",
+        "Marvin McNett",
+        "Jayashree Mohan",
+        "Michael Myrah",
+        "Truong Nguyen",
+        "Sebastian Nowozin",
+        "Aaron Ogus",
+        "Hiske Overweg",
+        "Antony I. T. Rowstron",
+        "Maneesh Sah",
+        "Masaaki Sakakura",
+        "Peter Scholtz",
+        "Nina Schreiner",
+        "Omer Sella",
+        "Adam Smith",
+        "Ioan A. Stefanovici",
+        "David Sweeney",
+        "Benn Thomsen",
+        "Govert Verkes",
+        "Phil Wainman",
+        "Jonathan Westcott",
+        "Luke Weston",
+        "Charles Whittaker",
+        "Pablo Wilke Berenguer",
+        "Hugh Williams",
+        "Thomas Winkler",
+        "Stefan Winzeck"
+      ],
+      "pages": "166-181",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/0001AABBCCCCCCC23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/0001AABBCCCCCCC23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613208",
+        "https://www.wikidata.org/entity/Q130930442"
+      ]
+    },
+    {
+      "title": "Pushing Performance Isolation Boundaries into Application with pBox",
+      "authors": [
+        "Yigong Hu",
+        "Gongqi Huang",
+        "Peng Huang 0005"
+      ],
+      "pages": "247-263",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HuH023",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HuH023.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613159"
+      ]
+    },
+    {
+      "title": "PVM: Efficient Shadow Paging for Deploying Secure Containers in Cloud-native Environment",
+      "authors": [
+        "Hang Huang",
+        "Jiangshan Lai",
+        "Jia Rao",
+        "Hui Lu 0001",
+        "Wenlong Hou",
+        "Hang Su",
+        "Quan Xu",
+        "Jiang Zhong",
+        "Jiahao Zeng",
+        "Xu Wang",
+        "Zhengyu He",
+        "Weidong Han 0003",
+        "Jiang Liu",
+        "Tao Ma 0006",
+        "Song Wu 0001"
+      ],
+      "pages": "515-530",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HuangLR0HSXZZWH23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HuangLR0HSXZZWH23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613158",
+        "https://www.wikidata.org/entity/Q130933866"
+      ]
+    },
+    {
+      "title": "QuePaxa: Escaping the tyranny of timeouts in consensus",
+      "authors": [
+        "Pasindu Tennage",
+        "Cristina Basescu",
+        "Lefteris Kokoris-Kogias",
+        "Ewa Syta",
+        "Philipp Jovanovic",
+        "Vero Estrada-Gali&ntilde;anes",
+        "Bryan Ford"
+      ],
+      "pages": "281-297",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TennageBKSJEF23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TennageBKSJEF23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613150"
+      ]
+    },
+    {
+      "title": "RackBlox: A Software-Defined Rack-Scale Storage System with Network-Storage Co-Design",
+      "authors": [
+        "Benjamin Reidys",
+        "Yuqi Xue",
+        "Daixuan Li",
+        "Bharat Sukhwani",
+        "Wen-Mei Hwu",
+        "Deming Chen",
+        "Sameh W. Asaad",
+        "Jian Huang 0006"
+      ],
+      "pages": "182-199",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ReidysXLSHCA023",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ReidysXLSHCA023.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613170",
+        "https://www.wikidata.org/entity/Q130865927"
+      ]
+    },
+    {
+      "title": "Sia: Heterogeneity-aware, goodput-optimized ML-cluster scheduling",
+      "authors": [
+        "Suhas Jayaram Subramanya",
+        "Daiyaan Arfeen",
+        "Shouxu Lin",
+        "Aurick Qiao",
+        "Zhihao Jia",
+        "Gregory R. Ganger"
+      ],
+      "pages": "642-657",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SubramanyaALQJG23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SubramanyaALQJG23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613175"
+      ]
+    },
+    {
+      "title": "Siloz: Leveraging DRAM Isolation Domains to Prevent Inter-VM Rowhammer",
+      "authors": [
+        "Kevin Loughlin",
+        "Jonah Rosenblum",
+        "Stefan Saroiu",
+        "Alec Wolman",
+        "Dimitrios Skarlatos 0002",
+        "Baris Kasikci"
+      ],
+      "pages": "417-433",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LoughlinRSW0K23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LoughlinRSW0K23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613143",
+        "https://www.wikidata.org/entity/Q131114633"
+      ]
+    },
+    {
+      "title": "Snowcat: Efficient Kernel Concurrency Testing using a Learned Coverage Predictor",
+      "authors": [
+        "Sishuai Gong",
+        "Dinglan Peng",
+        "Deniz Altinb&uuml;ken",
+        "Pedro Fonseca 0001",
+        "Petros Maniatis"
+      ],
+      "pages": "35-51",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GongPA0M23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GongPA0M23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613148",
+        "https://www.wikidata.org/entity/Q131119156"
+      ]
+    },
+    {
+      "title": "SPFresh: Incremental In-Place Update for Billion-Scale Vector Search",
+      "authors": [
+        "Yuming Xu",
+        "Hengyu Liang",
+        "Jin Li 0050",
+        "Shuotao Xu",
+        "Qi Chen 0009",
+        "Qianxi Zhang",
+        "Cheng Li 0001",
+        "Ziyue Yang",
+        "Fan Yang 0024",
+        "Yuqing Yang 0001",
+        "Peng Cheng 0005",
+        "Mao Yang 0004"
+      ],
+      "pages": "545-561",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/XuLLXCZLYYYCY23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/XuLLXCZLYYYCY23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613166",
+        "https://www.wikidata.org/entity/Q130938046"
+      ]
+    },
+    {
+      "title": "TreeSLS: A Whole-system Persistent Microkernel with Tree-structured State Checkpoint on NVM",
+      "authors": [
+        "Fangnuo Wu",
+        "Mingkai Dong 0002",
+        "Gequan Mo",
+        "Haibo Chen 0001"
+      ],
+      "pages": "1-16",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Wu0M023",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Wu0M023.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613160"
+      ]
+    },
+    {
+      "title": "Turbo: Effective Caching in Differentially-Private Databases",
+      "authors": [
+        "Kelly Kostopoulou",
+        "Pierre Tholoniat",
+        "Asaf Cidon",
+        "Roxana Geambasu",
+        "Mathias L&eacute;cuyer"
+      ],
+      "pages": "579-594",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KostopoulouTCGL23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KostopoulouTCGL23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613174",
+        "https://www.wikidata.org/entity/Q130855654"
+      ]
+    },
+    {
+      "title": "UGACHE: A Unified GPU Cache for Embedding-based Deep Learning",
+      "authors": [
+        "Xiaoniu Song",
+        "Yiwen Zhang",
+        "Rong Chen 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "627-641",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SongZ0C23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SongZ0C23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613169",
+        "https://www.wikidata.org/entity/Q130866767"
+      ]
+    },
+    {
+      "title": "Understanding Silent Data Corruptions in a Large Production CPU Population",
+      "authors": [
+        "Shaobu Wang",
+        "Guangyan Zhang",
+        "Junyu Wei",
+        "Yang Wang 0009",
+        "Jiesheng Wu",
+        "Qingchao Luo"
+      ],
+      "pages": "216-230",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WangZW0WL23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WangZW0WL23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613149"
+      ]
+    },
+    {
+      "title": "Validating JIT Compilers via Compilation Space Exploration",
+      "authors": [
+        "Cong Li 0003",
+        "Yanyan Jiang 0001",
+        "Chang Xu 0001",
+        "Zhendong Su 0001"
+      ],
+      "pages": "66-79",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Li00S23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Li00S23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613140",
+        "https://www.wikidata.org/entity/Q130834851"
+      ]
+    },
+    {
+      "title": "XFaaS: Hyperscale and Low Cost Serverless Functions at Meta",
+      "authors": [
+        "Alireza Sahraei",
+        "Soteris Demetriou",
+        "Amirali Sobhgol",
+        "Haoran Zhang 0009",
+        "Abhigna Nagaraja",
+        "Neeraj Pathak",
+        "Girish Joshi",
+        "Carla Souza",
+        "Bo Huang",
+        "Wyatt Cook",
+        "Andrii Golovei",
+        "Pradeep Venkat",
+        "Andrew Mcfague",
+        "Dimitrios Skarlatos 0002",
+        "Vipul Patel",
+        "Ravinder Thind",
+        "Ernesto Gonzalez",
+        "Yun Jin",
+        "Chunqiang Tang"
+      ],
+      "pages": "231-246",
+      "year": "2023",
+      "venue": "SOSP 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SahraeiDSZNPJSH23",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SahraeiDSZNPJSH23.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3600006.3613155",
+        "https://www.wikidata.org/entity/Q130932250"
+      ]
+    }
+  ]
+}

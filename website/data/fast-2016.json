@@ -1,0 +1,541 @@
+{
+  "id": "fast-2016",
+  "venue": "fast",
+  "year": 2016,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2016.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2016.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2016",
+    "conf/fast/2016-1",
+    "conf/fast/2016-2",
+    "conf/fast/2016-3",
+    "conf/fast/2016-4",
+    "conf/fast/2016-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 27,
+  "display_count": 27,
+  "papers": [
+    {
+      "title": "Access Characteristic Guided Read and Write Cost Regulation for Performance Improvement on Flash Memory",
+      "authors": [
+        "Qiao Li 0001",
+        "Liang Shi 0001",
+        "Chun Jason Xue",
+        "Kaijie Wu 0001",
+        "Cheng Ji 0002",
+        "Qingfeng Zhuge",
+        "Edwin Hsing-Mean Sha"
+      ],
+      "pages": "125-132",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiSXWJZS16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiSXWJZS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/li-qiao"
+      ]
+    },
+    {
+      "title": "Application-Managed Flash",
+      "authors": [
+        "Sungjin Lee 0001",
+        "Ming Liu",
+        "Sang Woo Jun",
+        "Shuotao Xu",
+        "Jihong Kim 0001",
+        "Arvind 0001"
+      ],
+      "pages": "339-353",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LeeLJXKA16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LeeLJXKA16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/lee"
+      ]
+    },
+    {
+      "title": "BTrDB: Optimizing Storage System Design for Timeseries Processing",
+      "authors": [
+        "Michael P. Andersen",
+        "David E. Culler"
+      ],
+      "pages": "39-52",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AndersenC16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AndersenC16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/andersen"
+      ]
+    },
+    {
+      "title": "CacheDedup: In-line Deduplication for Flash Caching",
+      "authors": [
+        "Wenji Li",
+        "Gregory Jean-Baptise",
+        "Juan Riveros",
+        "Giri Narasimhan",
+        "Tony Zhang",
+        "Ming Zhao 0002"
+      ],
+      "pages": "301-314",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiJRNZZ16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiJRNZZ16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/li-wenji"
+      ]
+    },
+    {
+      "title": "CloudCache: On-demand Flash Cache Management for Cloud Computing",
+      "authors": [
+        "Dulcardo Arteaga",
+        "Jorge Cabrera 0002",
+        "Jing Xu 0012",
+        "Swaminathan Sundararaman",
+        "Ming Zhao 0002"
+      ],
+      "pages": "355-369",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ArteagaCXS016",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ArteagaCXS016.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/arteaga"
+      ]
+    },
+    {
+      "title": "Efficient and Available In-memory KV-Store with Hybrid Erasure Coding and Replication",
+      "authors": [
+        "Heng Zhang",
+        "Mingkai Dong 0002",
+        "Haibo Chen 0001"
+      ],
+      "pages": "167-180",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangDC16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangDC16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/zhang-heng"
+      ]
+    },
+    {
+      "title": "Environmental Conditions and Disk Reliability in Free-cooled Datacenters",
+      "authors": [
+        "Ioannis Manousakis",
+        "Sriram Sankar",
+        "Gregg McKnight",
+        "Thu D. Nguyen",
+        "Ricardo Bianchini"
+      ],
+      "pages": "53-65",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ManousakisSMNB16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ManousakisSMNB16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/manousakis"
+      ]
+    },
+    {
+      "title": "Estimating Unseen Deduplication - from Theory to Practice",
+      "authors": [
+        "Danny Harnik",
+        "Ety Khaitzin",
+        "Dmitry Sotnikov"
+      ],
+      "pages": "277-290",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HarnikKS16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HarnikKS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/harnik"
+      ]
+    },
+    {
+      "title": "Flamingo: Enabling Evolvable HDD-based Near-Line Storage",
+      "authors": [
+        "Sergey Legtchenko",
+        "Xiaozhou Li",
+        "Antony I. T. Rowstron",
+        "Austin Donnelly",
+        "Richard Black"
+      ],
+      "pages": "213-226",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LegtchenkoLRDB16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LegtchenkoLRDB16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/legtchenko"
+      ]
+    },
+    {
+      "title": "Flash Reliability in Production: The Expected and the Unexpected",
+      "authors": [
+        "Bianca Schroeder",
+        "Raghav Lagisetty",
+        "Arif Merchant"
+      ],
+      "pages": "67-80",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SchroederLM16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SchroederLM16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/schroeder"
+      ]
+    },
+    {
+      "title": "Isotope: Transactional Isolation for Block Storage",
+      "authors": [
+        "Ji-Yong Shin",
+        "Mahesh Balakrishnan 0001",
+        "Tudor Marian",
+        "Hakim Weatherspoon"
+      ],
+      "pages": "23-37",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ShinBMW16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ShinBMW16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/shin"
+      ]
+    },
+    {
+      "title": "Mitigating Sync Amplification for Copy-on-write Virtual Disk",
+      "authors": [
+        "Qingshu Chen",
+        "Liang Liang",
+        "Yubin Xia",
+        "Haibo Chen 0001"
+      ],
+      "pages": "241-247",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChenLXC16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChenLXC16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/chen-qingshu"
+      ]
+    },
+    {
+      "title": "NOVA: A Log-structured File System for Hybrid Volatile/Non-volatile Main Memories",
+      "authors": [
+        "Jian Xu 0012",
+        "Steven Swanson"
+      ],
+      "pages": "323-338",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/XuS16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/XuS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/xu"
+      ]
+    },
+    {
+      "title": "Opening the Chrysalis: On the Real Repair Performance of MSR Codes",
+      "authors": [
+        "Lluis Pamies-Juarez",
+        "Filip Blagojevic",
+        "Robert Mateescu",
+        "Cyril Guyot",
+        "Eyal En Gad",
+        "Zvonimir Bandic"
+      ],
+      "pages": "81-94",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Pamies-JuarezBM16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Pamies-JuarezBM16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/pamies-juarez"
+      ]
+    },
+    {
+      "title": "Optimizing Every Operation in a Write-optimized File System",
+      "authors": [
+        "Jun Yuan 0006",
+        "Yang Zhan 0001",
+        "William Jannen",
+        "Prashant Pandey 0001",
+        "Amogh Akshintala",
+        "Kanchan Chandnani",
+        "Pooja Deo",
+        "Zardosht Kasheff",
+        "Leif Walsh",
+        "Michael A. Bender",
+        "Martin Farach-Colton",
+        "Rob Johnson 0001",
+        "Bradley C. Kuszmaul",
+        "Donald E. Porter"
+      ],
+      "pages": "1-14",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YuanZJPACDKWBFJ16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YuanZJPACDKWBFJ16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/yuan"
+      ]
+    },
+    {
+      "title": "OrderMergeDedup: Efficient, Failure-Consistent Deduplication on Flash",
+      "authors": [
+        "Zhuan Chen",
+        "Kai Shen"
+      ],
+      "pages": "291-299",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChenS16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChenS16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/chen-zhuan"
+      ]
+    },
+    {
+      "title": "PCAP: Performance-aware Power Capping for the Disk Drive in the Cloud",
+      "authors": [
+        "Mohammed G. Khatib",
+        "Zvonimir Bandic"
+      ],
+      "pages": "227-240",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KhatibB16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KhatibB16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/khatib"
+      ]
+    },
+    {
+      "title": "Reducing Solid-State Storage Device Write Stress through Opportunistic In-place Delta Compression",
+      "authors": [
+        "Xuebin Zhang",
+        "Jiangpeng Li",
+        "Hao Wang 0042",
+        "Kai Zhao 0005",
+        "Tong Zhang 0002"
+      ],
+      "pages": "111-124",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangLWZ016",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangLWZ016.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/zhang-xuebin"
+      ]
+    },
+    {
+      "title": "Slacker: Fast Distribution with Lazy Docker Containers",
+      "authors": [
+        "Tyler Harter",
+        "Brandon Salmon",
+        "Rose Liu",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "181-195",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HarterSLAA16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HarterSLAA16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/harter"
+      ]
+    },
+    {
+      "title": "sRoute: Treating the Storage Stack Like a Network",
+      "authors": [
+        "Ioan A. Stefanovici",
+        "Bianca Schroeder",
+        "Greg O'Shea",
+        "Eno Thereska"
+      ],
+      "pages": "197-212",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/StefanoviciSOT16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/StefanoviciSOT16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/stefanovici"
+      ]
+    },
+    {
+      "title": "The Composite-file File System: Decoupling the One-to-One Mapping of Files and Metadata for Better Performance",
+      "authors": [
+        "Shuanglong Zhang",
+        "Helen Catanese",
+        "An-I Andy Wang"
+      ],
+      "pages": "15-22",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangCW16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangCW16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/zhang-shuanglong"
+      ]
+    },
+    {
+      "title": "The Devil Is in the Details: Implementing Flash Page Reuse with WOM Codes",
+      "authors": [
+        "Fabio Margaglia",
+        "Gala Yadgar",
+        "Eitan Yaakobi",
+        "Yue Li 0001",
+        "Assaf Schuster",
+        "Andr&eacute; Brinkmann"
+      ],
+      "pages": "95-109",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MargagliaYYLSB16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MargagliaYYLSB16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/margaglia"
+      ]
+    },
+    {
+      "title": "The Tail at Store: A Revelation from Millions of Hours of Disk and SSD Deployments",
+      "authors": [
+        "Mingzhe Hao",
+        "Gokul Soundararajan",
+        "Deepak R. Kenchammana-Hosekote",
+        "Andrew A. Chien",
+        "Haryadi S. Gunawi"
+      ],
+      "pages": "263-276",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HaoSKCG16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HaoSKCG16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/hao"
+      ]
+    },
+    {
+      "title": "Towards Accurate and Fast Evaluation of Multi-Stage Log-structured Designs",
+      "authors": [
+        "Hyeontaek Lim",
+        "David G. Andersen",
+        "Michael Kaminsky"
+      ],
+      "pages": "149-166",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LimAK16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LimAK16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/lim"
+      ]
+    },
+    {
+      "title": "Uncovering Bugs in Distributed Storage Systems during Testing (Not in Production!)",
+      "authors": [
+        "Pantazis Deligiannis",
+        "Matt McCutchen",
+        "Paul Thomson",
+        "Shuo Chen 0001",
+        "Alastair F. Donaldson",
+        "John Erickson",
+        "Cheng Huang",
+        "Akash Lal",
+        "Rashmi Mudduluru",
+        "Shaz Qadeer",
+        "Wolfram Schulte"
+      ],
+      "pages": "249-262",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DeligiannisMTCD16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DeligiannisMTCD16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/deligiannis"
+      ]
+    },
+    {
+      "title": "Using Hints to Improve Inline Block-layer Deduplication",
+      "authors": [
+        "Sonam Mandal",
+        "Geoff Kuenning",
+        "Dongju Ok",
+        "Varun Shastry",
+        "Philip Shilane",
+        "Sun Zhen",
+        "Vasily Tarasov",
+        "Erez Zadok"
+      ],
+      "pages": "315-322",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MandalKOSSZTZ16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MandalKOSSZTZ16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/mandal"
+      ]
+    },
+    {
+      "title": "WiscKey: Separating Keys from Values in SSD-conscious Storage",
+      "authors": [
+        "Lanyue Lu",
+        "Thanumalayan Sankaranarayana Pillai",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "133-148",
+      "year": "2016",
+      "venue": "FAST 2016",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LuPAA16",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LuPAA16.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast16/technical-sessions/presentation/lu"
+      ]
+    }
+  ]
+}

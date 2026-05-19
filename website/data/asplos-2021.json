@@ -1,0 +1,1530 @@
+{
+  "id": "asplos-2021",
+  "venue": "asplos",
+  "year": 2021,
+  "short_name": "ASPLOS",
+  "full_name": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "source_url": "https://dblp.org/db/conf/asplos/asplos2021.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/asplos/asplos2021.html",
+    "https://dblp.org/db/conf/asplos/asplos2021-1.html",
+    "https://dblp.org/db/conf/asplos/asplos2021-2.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/asplos/2021",
+    "conf/asplos/2021-1",
+    "conf/asplos/2021-2",
+    "conf/asplos/2021-3",
+    "conf/asplos/2021-4",
+    "conf/asplos/2021-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) ACM International Conference on Architectural Support"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 75,
+  "display_count": 75,
+  "papers": [
+    {
+      "title": "A compiler infrastructure for accelerator generators",
+      "authors": [
+        "Rachit Nigam",
+        "Samuel Thomas",
+        "Zhijing Li 0002",
+        "Adrian Sampson"
+      ],
+      "pages": "804-817",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/NigamT0S21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/NigamT0S21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446712",
+        "https://www.wikidata.org/entity/Q130826084"
+      ]
+    },
+    {
+      "title": "A hierarchical neural model of data prefetching",
+      "authors": [
+        "Zhan Shi",
+        "Akanksha Jain",
+        "Kevin Swersky",
+        "Milad Hashemi",
+        "Parthasarathy Ranganathan",
+        "Calvin Lin"
+      ],
+      "pages": "861-873",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ShiJSHRL21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ShiJSHRL21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446752"
+      ]
+    },
+    {
+      "title": "Analytical characterization and design space exploration for optimization of CNNs",
+      "authors": [
+        "Rui Li 0033",
+        "Yufan Xu 0001",
+        "Aravind Sukumaran-Rajam",
+        "Atanas Rountev",
+        "P. Sadayappan"
+      ],
+      "pages": "928-942",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0033XSRS21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0033XSRS21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446759",
+        "https://www.wikidata.org/entity/Q130972070"
+      ]
+    },
+    {
+      "title": "Automatically detecting and fixing concurrency bugs in go software systems",
+      "authors": [
+        "Ziheng Liu",
+        "Shuofei Zhu",
+        "Boqin Qin",
+        "Hao Chen 0003",
+        "Linhai Song"
+      ],
+      "pages": "616-629",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LiuZQCS21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LiuZQCS21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446756"
+      ]
+    },
+    {
+      "title": "Autonomous NIC offloads",
+      "authors": [
+        "Boris Pismenny",
+        "Haggai Eran",
+        "Aviad Yehezkel",
+        "Liran Liss",
+        "Adam Morrison 0001",
+        "Dan Tsafrir"
+      ],
+      "pages": "18-35",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/PismennyEYL0T21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/PismennyEYL0T21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446732"
+      ]
+    },
+    {
+      "title": "BayesPerf: minimizing performance monitoring errors using Bayesian statistics",
+      "authors": [
+        "Subho S. Banerjee",
+        "Saurabh Jha",
+        "Zbigniew Kalbarczyk",
+        "Ravishankar K. Iyer"
+      ],
+      "pages": "832-844",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BanerjeeJKI21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BanerjeeJKI21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446739",
+        "https://www.wikidata.org/entity/Q130959026"
+      ]
+    },
+    {
+      "title": "BCD deduplication: effective memory compression using partial cache-line deduplication",
+      "authors": [
+        "Sungbo Park",
+        "Ingab Kang",
+        "Yaebin Moon",
+        "Jung Ho Ahn",
+        "G. Edward Suh"
+      ],
+      "pages": "52-64",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ParkKMAS21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ParkKMAS21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446722",
+        "https://www.wikidata.org/entity/Q130969795"
+      ]
+    },
+    {
+      "title": "Benchmarking, analysis, and optimization of serverless function snapshots",
+      "authors": [
+        "Dmitrii Ustiugov",
+        "Plamen Petrov 0003",
+        "Marios Kogias",
+        "Edouard Bugnion",
+        "Boris Grot"
+      ],
+      "pages": "559-572",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Ustiugov0KBG21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Ustiugov0KBG21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446714",
+        "https://www.wikidata.org/entity/Q131109865"
+      ]
+    },
+    {
+      "title": "C11Tester: a race detector for C/C++ atomics",
+      "authors": [
+        "Weiyu Luo",
+        "Brian Demsky"
+      ],
+      "pages": "630-646",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LuoD21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LuoD21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446711"
+      ]
+    },
+    {
+      "title": "Clobber-NVM: log less, re-execute more",
+      "authors": [
+        "Yi Xu 0017",
+        "Joseph Izraelevitz",
+        "Steven Swanson"
+      ],
+      "pages": "346-359",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/XuIS21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/XuIS21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446730",
+        "https://www.wikidata.org/entity/Q130870984"
+      ]
+    },
+    {
+      "title": "Compiler-driven FPGA virtualization with SYNERGY",
+      "authors": [
+        "Joshua Landgraf",
+        "Tiffany Yang",
+        "Will Lin",
+        "Christopher J. Rossbach",
+        "Eric Schkufza"
+      ],
+      "pages": "818-831",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LandgrafYLRS21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LandgrafYLRS21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446755",
+        "https://www.wikidata.org/entity/Q130822150"
+      ]
+    },
+    {
+      "title": "Computing with time: microarchitectural weird machines",
+      "authors": [
+        "Dmitry Evtyushkin",
+        "Thomas Benjamin",
+        "Jesse Elwell",
+        "Jeffrey A. Eitel",
+        "Angelo Sapello",
+        "Abhrajit Ghosh"
+      ],
+      "pages": "758-772",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/EvtyushkinBEESG21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/EvtyushkinBEESG21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446729",
+        "https://www.wikidata.org/entity/Q130958599"
+      ]
+    },
+    {
+      "title": "Corundum: statically-enforced persistent memory safety",
+      "authors": [
+        "Morteza Hoseinzadeh",
+        "Steven Swanson"
+      ],
+      "pages": "429-442",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HoseinzadehS21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HoseinzadehS21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446710",
+        "https://www.wikidata.org/entity/Q130965257"
+      ]
+    },
+    {
+      "title": "CubicleOS: a library OS with software componentisation for practical isolation",
+      "authors": [
+        "Vasily A. Sartakov",
+        "Llu&iacute;s Vilanova",
+        "Peter R. Pietzuch"
+      ],
+      "pages": "546-558",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SartakovVP21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SartakovVP21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446731",
+        "https://www.wikidata.org/entity/Q131119924"
+      ]
+    },
+    {
+      "title": "CutQC: using small Quantum computers for large Quantum circuit evaluations",
+      "authors": [
+        "Wei Tang",
+        "Teague Tomesh",
+        "Martin Suchara",
+        "Jeffrey Larson 0001",
+        "Margaret Martonosi"
+      ],
+      "pages": "473-486",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TangTSLM21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TangTSLM21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446758"
+      ]
+    },
+    {
+      "title": "Dagger: efficient and fast RPCs in cloud microservices with near-memory reconfigurable NICs",
+      "authors": [
+        "Nikita Lazarev",
+        "Shaojie Xiang",
+        "Neil Adit",
+        "Zhiru Zhang",
+        "Christina Delimitrou"
+      ],
+      "pages": "36-51",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LazarevXAZD21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LazarevXAZD21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446696"
+      ]
+    },
+    {
+      "title": "Defensive approximation: securing CNNs using approximate computing",
+      "authors": [
+        "Amira Guesmi",
+        "Ihsen Alouani",
+        "Khaled N. Khasawneh",
+        "Mouna Baklouti",
+        "Tarek Frikha",
+        "Mohamed Abid",
+        "Nael B. Abu-Ghazaleh"
+      ],
+      "pages": "990-1003",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GuesmiAKBFAA21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GuesmiAKBFAA21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446747",
+        "https://www.wikidata.org/entity/Q130971237"
+      ]
+    },
+    {
+      "title": "DiAG: a dataflow-inspired architecture for general-purpose processors",
+      "authors": [
+        "Dong Kai Wang",
+        "Nam Sung Kim"
+      ],
+      "pages": "93-106",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WangK21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WangK21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446703"
+      ]
+    },
+    {
+      "title": "Effective simulation and debugging for a high-level hardware language using software compilers",
+      "authors": [
+        "Cl&eacute;ment Pit-Claudel",
+        "Thomas Bourgeat",
+        "Stella Lau",
+        "Arvind 0001",
+        "Adam Chlipala"
+      ],
+      "pages": "789-803",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Pit-ClaudelBLAC21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Pit-ClaudelBLAC21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446720",
+        "https://www.wikidata.org/entity/Q130847977"
+      ]
+    },
+    {
+      "title": "Enclosure: language-based restriction of untrusted libraries",
+      "authors": [
+        "Adrien Ghosn",
+        "Marios Kogias",
+        "Mathias Payer",
+        "James R. Larus",
+        "Edouard Bugnion"
+      ],
+      "pages": "255-267",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GhosnKPLB21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GhosnKPLB21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446728",
+        "https://www.wikidata.org/entity/Q131109883"
+      ]
+    },
+    {
+      "title": "FaasCache: keeping serverless computing alive with greedy-dual caching",
+      "authors": [
+        "Alexander Fuerst",
+        "Prateek Sharma 0001"
+      ],
+      "pages": "386-400",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/FuerstS21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/FuerstS21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446757",
+        "https://www.wikidata.org/entity/Q131130895"
+      ]
+    },
+    {
+      "title": "Fast local page-tables for virtualized NUMA servers with vMitosis",
+      "authors": [
+        "Ashish Panwar",
+        "Reto Achermann",
+        "Arkaprava Basu",
+        "Abhishek Bhattacharjee",
+        "K. Gopinath",
+        "Jayneel Gandhi"
+      ],
+      "pages": "194-210",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/PanwarABBGG21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/PanwarABBGG21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446709",
+        "https://www.wikidata.org/entity/Q131125685"
+      ]
+    },
+    {
+      "title": "Fast, flexible, and comprehensive bug detection for persistent memory programs",
+      "authors": [
+        "Bang Di",
+        "Jiawen Liu",
+        "Hao Chen 0002",
+        "Dong Li 0001"
+      ],
+      "pages": "503-516",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DiLCL21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DiLCL21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446744",
+        "https://www.wikidata.org/entity/Q130974303"
+      ]
+    },
+    {
+      "title": "Gamma: leveraging Gustavson's algorithm to accelerate sparse matrix multiplication",
+      "authors": [
+        "Guowei Zhang 0002",
+        "Nithya Attaluri",
+        "Joel S. Emer",
+        "Daniel S&aacute;nchez 0003"
+      ],
+      "pages": "687-701",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0002AE021",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0002AE021.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446702"
+      ]
+    },
+    {
+      "title": "HerQules: securing programs via hardware-enforced message queues",
+      "authors": [
+        "Daming D. Chen",
+        "Wen Shih Lim",
+        "Mohammad Bakhshalipour",
+        "Phillip B. Gibbons",
+        "James C. Hoe",
+        "Bryan Parno"
+      ],
+      "pages": "773-788",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChenLBGHP21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChenLBGHP21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446736",
+        "https://www.wikidata.org/entity/Q130883874"
+      ]
+    },
+    {
+      "title": "Hippocrates: healing persistent memory bugs without doing any harm",
+      "authors": [
+        "Ian Neal",
+        "Andrew Quinn 0001",
+        "Baris Kasikci"
+      ],
+      "pages": "401-414",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Neal0K21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Neal0K21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446694",
+        "https://www.wikidata.org/entity/Q130971564"
+      ]
+    },
+    {
+      "title": "In-fat pointer: hardware-assisted tagged-pointer spatial memory safety defense with subobject granularity protection",
+      "authors": [
+        "Shengjie Xu",
+        "Wei Huang 0027",
+        "David Lie"
+      ],
+      "pages": "224-240",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Xu0L21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Xu0L21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446761",
+        "https://www.wikidata.org/entity/Q130983077"
+      ]
+    },
+    {
+      "title": "Incremental CFG patching for binary rewriting",
+      "authors": [
+        "Xiaozhu Meng",
+        "Weijie Liu 0004"
+      ],
+      "pages": "1020-1033",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Meng021",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Meng021.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446765",
+        "https://www.wikidata.org/entity/Q130967338"
+      ]
+    },
+    {
+      "title": "Jaaru: efficiently model checking persistent memory programs",
+      "authors": [
+        "Hamed Gorjiara",
+        "Guoqing Harry Xu",
+        "Brian Demsky"
+      ],
+      "pages": "415-428",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GorjiaraXD21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GorjiaraXD21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446735",
+        "https://www.wikidata.org/entity/Q130970838"
+      ]
+    },
+    {
+      "title": "Jamais vu: thwarting microarchitectural replay attacks",
+      "authors": [
+        "Dimitrios Skarlatos 0002",
+        "Zirui Neil Zhao",
+        "Riccardo Paccagnella",
+        "Christopher W. Fletcher",
+        "Josep Torrellas"
+      ],
+      "pages": "1061-1076",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0002ZPFT21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0002ZPFT21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446716"
+      ]
+    },
+    {
+      "title": "Judging a type by its pointer: optimizing GPU virtual functions",
+      "authors": [
+        "Mengchi Zhang",
+        "Ahmad Alawneh",
+        "Timothy G. Rogers"
+      ],
+      "pages": "241-254",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZhangAR21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZhangAR21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446734",
+        "https://www.wikidata.org/entity/Q131119695"
+      ]
+    },
+    {
+      "title": "Kard: lightweight data race detection with per-thread memory protection",
+      "authors": [
+        "Adil Ahmad",
+        "Sangho Lee 0001",
+        "Pedro Fonseca 0001",
+        "Byoungyoung Lee"
+      ],
+      "pages": "647-660",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Ahmad0FL21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Ahmad0FL21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446727",
+        "https://www.wikidata.org/entity/Q130969777"
+      ]
+    },
+    {
+      "title": "KLOCs: kernel-level object contexts for heterogeneous memory systems",
+      "authors": [
+        "Sudarsun Kannan",
+        "Yujie Ren",
+        "Abhishek Bhattacharjee"
+      ],
+      "pages": "65-78",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KannanRB21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KannanRB21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446745",
+        "https://www.wikidata.org/entity/Q130965195"
+      ]
+    },
+    {
+      "title": "Language-parametric compiler validation with application to LLVM",
+      "authors": [
+        "Theodoros Kasampalis",
+        "Daejun Park 0001",
+        "Zhengyao Lin",
+        "Vikram S. Adve",
+        "Grigore Rosu"
+      ],
+      "pages": "1004-1019",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Kasampalis0LAR21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Kasampalis0LAR21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446751",
+        "https://www.wikidata.org/entity/Q130826074"
+      ]
+    },
+    {
+      "title": "LifeStream: a high-performance stream processing engine for periodic streams",
+      "authors": [
+        "Anand Jayarajan",
+        "Kimberly Hau",
+        "Andrew Goodwin",
+        "Gennady Pekhimenko"
+      ],
+      "pages": "107-122",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JayarajanHGP21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JayarajanHGP21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446725"
+      ]
+    },
+    {
+      "title": "Logical abstractions for noisy variational Quantum algorithm simulation",
+      "authors": [
+        "Yipeng Huang 0001",
+        "Steven Holtzen",
+        "Todd D. Millstein",
+        "Guy Van den Broeck",
+        "Margaret Martonosi"
+      ],
+      "pages": "456-472",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0001HMBM21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0001HMBM21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446750",
+        "https://www.wikidata.org/entity/Q130913027"
+      ]
+    },
+    {
+      "title": "MERCI: efficient embedding reduction on commodity hardware via sub-query memoization",
+      "authors": [
+        "Yejin Lee 0001",
+        "Seong Hoon Seo",
+        "Hyunji Choi",
+        "Hyoung Uk Sul",
+        "Soosung Kim 0001",
+        "Jae W. Lee",
+        "Tae Jun Ham"
+      ],
+      "pages": "302-313",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0001SCSKLH21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0001SCSKLH21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446717"
+      ]
+    },
+    {
+      "title": "Mind mappings: enabling efficient algorithm-accelerator mapping space search",
+      "authors": [
+        "Kartik Hegde",
+        "Po-An Tsai",
+        "Sitao Huang",
+        "Vikas Chandra",
+        "Angshuman Parashar",
+        "Christopher W. Fletcher"
+      ],
+      "pages": "943-958",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HegdeTHCPF21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HegdeTHCPF21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446762"
+      ]
+    },
+    {
+      "title": "Neural architecture search as program transformation exploration",
+      "authors": [
+        "Jack Turner",
+        "Elliot J. Crowley",
+        "Michael F. P. O'Boyle"
+      ],
+      "pages": "915-927",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TurnerCO21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TurnerCO21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446753"
+      ]
+    },
+    {
+      "title": "NeuroEngine: a hardware-based event-driven simulation system for advanced brain-inspired computing",
+      "authors": [
+        "Hunjun Lee",
+        "Chanmyeong Kim",
+        "Yujin Chung",
+        "Jangwoo Kim"
+      ],
+      "pages": "975-989",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LeeKCK21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LeeKCK21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446738"
+      ]
+    },
+    {
+      "title": "Nightcore: efficient and scalable serverless computing for latency-sensitive, interactive microservices",
+      "authors": [
+        "Zhipeng Jia",
+        "Emmett Witchel"
+      ],
+      "pages": "152-166",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JiaW21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JiaW21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446701",
+        "https://www.wikidata.org/entity/Q131109700"
+      ]
+    },
+    {
+      "title": "NOREBA: a compiler-informed non-speculative out-of-order commit processor",
+      "authors": [
+        "Ali Hajiabadi",
+        "Andreas Diavastos",
+        "Trevor E. Carlson"
+      ],
+      "pages": "182-193",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HajiabadiDC21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HajiabadiDC21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446726",
+        "https://www.wikidata.org/entity/Q130826094"
+      ]
+    },
+    {
+      "title": "Orchestrated trios: compiling for efficient communication in Quantum programs with 3-Qubit gates",
+      "authors": [
+        "Casey Duckering",
+        "Jonathan M. Baker",
+        "Andrew Litteken",
+        "Frederic T. Chong"
+      ],
+      "pages": "375-385",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DuckeringBLC21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DuckeringBLC21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446718",
+        "https://www.wikidata.org/entity/Q130837670"
+      ]
+    },
+    {
+      "title": "PacketMill: toward per-Core 100-Gbps networking",
+      "authors": [
+        "Alireza Farshin",
+        "Tom Barbette",
+        "Amir Roozbeh",
+        "Gerald Q. Maguire Jr.",
+        "Dejan Kostic"
+      ],
+      "pages": "1-17",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/FarshinBRMK21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/FarshinBRMK21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446724"
+      ]
+    },
+    {
+      "title": "PIBE: practical kernel control-flow hardening with profile-guided indirect branch elimination",
+      "authors": [
+        "Victor Duta",
+        "Cristiano Giuffrida",
+        "Herbert Bos",
+        "Erik van der Kouwe"
+      ],
+      "pages": "743-757",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DutaGBK21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DutaGBK21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446740"
+      ]
+    },
+    {
+      "title": "PMEM-spec: persistent memory speculation (strict persistency can trump relaxed persistency)",
+      "authors": [
+        "Jungi Jeong",
+        "Changhee Jung"
+      ],
+      "pages": "517-529",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JeongJ21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JeongJ21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446698",
+        "https://www.wikidata.org/entity/Q130981738"
+      ]
+    },
+    {
+      "title": "PMFuzz: test case generation for persistent memory programs",
+      "authors": [
+        "Sihang Liu 0001",
+        "Suyash Mahar",
+        "Baishakhi Ray",
+        "Samira Manabi Khan"
+      ],
+      "pages": "487-502",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0001MRK21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0001MRK21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446691",
+        "https://www.wikidata.org/entity/Q130971549"
+      ]
+    },
+    {
+      "title": "Probabilistic profiling of stateful data planes for adversarial testing",
+      "authors": [
+        "Qiao Kang",
+        "Jiarong Xing",
+        "Yiming Qiu 0001",
+        "Ang Chen 0001"
+      ],
+      "pages": "286-301",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KangXQC21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KangXQC21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446764"
+      ]
+    },
+    {
+      "title": "Prolonging 3D NAND SSD lifetime via read latency relaxation",
+      "authors": [
+        "Chun-Yi Liu 0002",
+        "Yunju Lee",
+        "Myoungsoo Jung",
+        "Mahmut Taylan Kandemir",
+        "Wonil Choi"
+      ],
+      "pages": "730-742",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0002LJKC21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0002LJKC21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446733",
+        "https://www.wikidata.org/entity/Q130949742"
+      ]
+    },
+    {
+      "title": "PTEMagnet: fine-grained physical memory reservation for faster page walks in public clouds",
+      "authors": [
+        "Artemiy Margaritov",
+        "Dmitrii Ustiugov",
+        "Amna Shahab",
+        "Boris Grot"
+      ],
+      "pages": "211-223",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MargaritovUSG21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MargaritovUSG21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446704",
+        "https://www.wikidata.org/entity/Q130972802"
+      ]
+    },
+    {
+      "title": "Q-VR: system-level design for future mobile collaborative virtual reality",
+      "authors": [
+        "Chenhao Xie 0001",
+        "Xie Li",
+        "Yang Hu 0001",
+        "Huwan Peng",
+        "Michael B. Taylor",
+        "Shuaiwen Leon Song"
+      ],
+      "pages": "587-599",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0001LHPTS21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0001LHPTS21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446715"
+      ]
+    },
+    {
+      "title": "Qraft: reverse your Quantum circuit and know the correct program output",
+      "authors": [
+        "Tirthak Patel",
+        "Devesh Tiwari"
+      ],
+      "pages": "443-455",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/PatelT21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/PatelT21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446743",
+        "https://www.wikidata.org/entity/Q130913015"
+      ]
+    },
+    {
+      "title": "Quantifying the design-space tradeoffs in autonomous drones",
+      "authors": [
+        "Ramyad Hadidi",
+        "Bahar Asgari",
+        "Sam Jijina",
+        "Adriana Amyette",
+        "Nima Shoghi",
+        "Hyesoon Kim"
+      ],
+      "pages": "661-673",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HadidiAJASK21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HadidiAJASK21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446721",
+        "https://www.wikidata.org/entity/Q131130354"
+      ]
+    },
+    {
+      "title": "RecSSD: near data processing for solid state drive based recommendation inference",
+      "authors": [
+        "Mark Wilkening",
+        "Udit Gupta 0001",
+        "Samuel Hsia",
+        "Caroline Trippel",
+        "Carole-Jean Wu",
+        "David Brooks 0001",
+        "Gu-Yeon Wei"
+      ],
+      "pages": "717-729",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WilkeningGHTW0W21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WilkeningGHTW0W21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446763",
+        "https://www.wikidata.org/entity/Q130962056"
+      ]
+    },
+    {
+      "title": "Reducing solid-state drive read latency by optimizing read-retry",
+      "authors": [
+        "Jisung Park 0001",
+        "Myungsuk Kim",
+        "Myoungjun Chun",
+        "Lois Orosa 0001",
+        "Jihong Kim 0001",
+        "Onur Mutlu"
+      ],
+      "pages": "702-716",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0001KC00M21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0001KC00M21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446719",
+        "https://www.wikidata.org/entity/Q130959789"
+      ]
+    },
+    {
+      "title": "Rethinking software runtimes for disaggregated memory",
+      "authors": [
+        "Irina Calciu",
+        "M. Talha Imran",
+        "Ivan Puddu",
+        "Sanidhya Kashyap",
+        "Hasan Al Maruf",
+        "Onur Mutlu",
+        "Aasheesh Kolli"
+      ],
+      "pages": "79-92",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CalciuIPKMMK21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CalciuIPKMMK21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446713",
+        "https://www.wikidata.org/entity/Q130964019"
+      ]
+    },
+    {
+      "title": "Rhythmic pixel regions: multi-resolution visual sensing system towards high-precision visual computing at low power",
+      "authors": [
+        "Venkatesh Kodukula",
+        "Alexander Shearer",
+        "Van Nguyen",
+        "Srinivas Lingutla",
+        "Yifei Liu",
+        "Robert LiKamWa"
+      ],
+      "pages": "573-586",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KodukulaSNLLL21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KodukulaSNLLL21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446737"
+      ]
+    },
+    {
+      "title": "Robomorphic computing: a design methodology for domain-specific accelerators parameterized by robot morphology",
+      "authors": [
+        "Sabrina M. Neuman",
+        "Brian Plancher",
+        "Thomas Bourgeat",
+        "Thierry Tambe",
+        "Srinivas Devadas",
+        "Vijay Janapa Reddi"
+      ],
+      "pages": "674-686",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/NeumanPBTDR21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/NeumanPBTDR21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446746"
+      ]
+    },
+    {
+      "title": "Sage: practical and scalable ML-driven performance debugging in microservices",
+      "authors": [
+        "Yu Gan 0002",
+        "Mingyu Liang",
+        "Sundar Dev",
+        "David Lo 0003",
+        "Christina Delimitrou"
+      ],
+      "pages": "135-151",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0002LD0D21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0002LD0D21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446700"
+      ]
+    },
+    {
+      "title": "Scalable FSM parallelization via path fusion and higher-order speculation",
+      "authors": [
+        "Junqiao Qiu",
+        "Xiaofan Sun",
+        "Amir Hossein Nodehi Sabet",
+        "Zhijia Zhao 0001"
+      ],
+      "pages": "887-901",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/QiuSS021",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/QiuSS021.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446705",
+        "https://www.wikidata.org/entity/Q130958299"
+      ]
+    },
+    {
+      "title": "SherLock: unsupervised synchronization-operation inference",
+      "authors": [
+        "Guangpu Li",
+        "Dongjie Chen",
+        "Shan Lu 0001",
+        "Madanlal Musuvathi",
+        "Suman Nath"
+      ],
+      "pages": "314-328",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LiC0MN21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LiC0MN21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446754"
+      ]
+    },
+    {
+      "title": "SIMDRAM: a framework for bit-serial SIMD processing using DRAM",
+      "authors": [
+        "Nastaran Hajinazar",
+        "Geraldo F. Oliveira",
+        "Sven Gregorio",
+        "Jo&atilde;o Dinis Ferreira",
+        "Nika Mansouri-Ghiasi",
+        "Minesh Patel",
+        "Mohammed Alser",
+        "Saugata Ghose",
+        "Juan G&oacute;mez-Luna",
+        "Onur Mutlu"
+      ],
+      "pages": "329-345",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HajinazarOGFMPA21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HajinazarOGFMPA21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446749"
+      ]
+    },
+    {
+      "title": "Sinan: ML-based and QoS-aware resource management for cloud microservices",
+      "authors": [
+        "Yanqi Zhang",
+        "Weizhe Hua",
+        "Zhuangzhuang Zhou",
+        "G. Edward Suh",
+        "Christina Delimitrou"
+      ],
+      "pages": "167-181",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZhangHZSD21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZhangHZSD21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446693"
+      ]
+    },
+    {
+      "title": "Speculative interference attacks: breaking invisible speculation schemes",
+      "authors": [
+        "Mohammad Behnia",
+        "Prateek Sahu",
+        "Riccardo Paccagnella",
+        "Jiyong Yu",
+        "Zirui Neil Zhao",
+        "Xiang Zou",
+        "Thomas Unterluggauer",
+        "Josep Torrellas",
+        "Carlos V. Rozas",
+        "Adam Morrison 0001",
+        "Frank McKeen",
+        "Fangfei Liu",
+        "Ron Gabor",
+        "Christopher W. Fletcher",
+        "Abhishek Basak",
+        "Alaa R. Alameldeen"
+      ],
+      "pages": "1046-1060",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BehniaSPYZZUTR021",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BehniaSPYZZUTR021.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446708",
+        "https://www.wikidata.org/entity/Q131130953"
+      ]
+    },
+    {
+      "title": "Statistical robustness of Markov chain Monte Carlo accelerators",
+      "authors": [
+        "Xiangyu Zhang 0011",
+        "Ramin Bashizade",
+        "Yicheng Wang",
+        "Sayan Mukherjee 0001",
+        "Alvin R. Lebeck"
+      ],
+      "pages": "959-974",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0011BW0L21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0011BW0L21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446697"
+      ]
+    },
+    {
+      "title": "Streamline: a fast, flushless cache covert-channel attack by enabling asynchronous collusion",
+      "authors": [
+        "Gururaj Saileshwar",
+        "Christopher W. Fletcher",
+        "Moinuddin K. Qureshi"
+      ],
+      "pages": "1077-1090",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SaileshwarFQ21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SaileshwarFQ21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446742"
+      ]
+    },
+    {
+      "title": "Switches for HIRE: resource scheduling for data center in-network computing",
+      "authors": [
+        "Marcel Bl&ouml;cher",
+        "Lin Wang 0015",
+        "Patrick Eugster",
+        "Max Schmidt"
+      ],
+      "pages": "268-285",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BlocherWES21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BlocherWES21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446760",
+        "https://www.wikidata.org/entity/Q130970058"
+      ]
+    },
+    {
+      "title": "Time-optimal Qubit mapping",
+      "authors": [
+        "Chi Zhang 0041",
+        "Ari B. Hayes",
+        "Longfei Qiu",
+        "Yuwei Jin",
+        "Yan-Hao Chen",
+        "Eddy Z. Zhang"
+      ],
+      "pages": "360-374",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZhangHQJCZ21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZhangHQJCZ21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446706",
+        "https://www.wikidata.org/entity/Q130929345"
+      ]
+    },
+    {
+      "title": "Training for multi-resolution inference using reusable quantization terms",
+      "authors": [
+        "Sai Qian Zhang",
+        "Bradley McDanel",
+        "H. T. Kung 0001",
+        "Xin Dong 0009"
+      ],
+      "pages": "845-860",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZhangM0021",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZhangM0021.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446741"
+      ]
+    },
+    {
+      "title": "Vectorization for digital signal processors via equality saturation",
+      "authors": [
+        "Alexa VanHattum",
+        "Rachit Nigam",
+        "Vincent T. Lee",
+        "James Bornholt",
+        "Adrian Sampson"
+      ],
+      "pages": "874-886",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/VanHattumNLBS21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/VanHattumNLBS21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446707"
+      ]
+    },
+    {
+      "title": "VeGen: a vectorizer generator for SIMD and beyond",
+      "authors": [
+        "Yishen Chen",
+        "Charith Mendis",
+        "Michael Carbin",
+        "Saman P. Amarasinghe"
+      ],
+      "pages": "902-914",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChenMCA21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChenMCA21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446692"
+      ]
+    },
+    {
+      "title": "VSync: push-button verification and optimization for synchronization primitives on weak memory models",
+      "authors": [
+        "Jonas Oberhauser",
+        "Rafael Lourenco de Lima Chehab",
+        "Diogo Behrens",
+        "Ming Fu",
+        "Antonio Paolillo",
+        "Lilith Oberhauser",
+        "Koustubha Bhat",
+        "Yuzhong Wen",
+        "Haibo Chen 0001",
+        "Jaeho Kim",
+        "Viktor Vafeiadis"
+      ],
+      "pages": "530-545",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/OberhauserCBFPO21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/OberhauserCBFPO21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446748",
+        "https://www.wikidata.org/entity/Q130987292"
+      ]
+    },
+    {
+      "title": "Warehouse-scale video acceleration: co-design and deployment in the wild",
+      "authors": [
+        "Parthasarathy Ranganathan",
+        "Daniel Stodolsky",
+        "Jeff Calow",
+        "Jeremy Dorfman",
+        "Marisabel Guevara",
+        "Clinton Wills Smullen IV",
+        "Aki Kuusela",
+        "Raghu Balasubramanian",
+        "Sandeep Bhatia",
+        "Prakash Chauhan",
+        "Anna Cheung",
+        "In Suk Chong",
+        "Niranjani Dasharathi",
+        "Jia Feng",
+        "Brian Fosco",
+        "Samuel Foss",
+        "Ben Gelb",
+        "Sara J. Gwin",
+        "Yoshiaki Hase",
+        "Da-ke He",
+        "C. Richard Ho",
+        "Roy W. Huffman Jr.",
+        "Elisha Indupalli",
+        "Indira Jayaram",
+        "Poonacha Kongetira",
+        "Cho Mon Kyaw",
+        "Aaron Laursen",
+        "Yuan Li",
+        "Fong Lou",
+        "Kyle A. Lucke",
+        "J. P. Maaninen",
+        "Ramon Macias",
+        "Maire Mahony",
+        "David Alexander Munday",
+        "Srikanth Muroor",
+        "Narayana Penukonda",
+        "Eric Perkins-Argueta",
+        "Devin Persaud",
+        "Alex Ram&iacute;rez",
+        "Ville-Mikko Rautio",
+        "Yolanda Ripley",
+        "Amir Salek",
+        "Sathish Sekar",
+        "Sergey N. Sokolov",
+        "Rob Springer",
+        "Don Stark 0002",
+        "Mercedes Tan",
+        "Mark S. Wachsler",
+        "Andrew C. Walton",
+        "David A. Wickeraad",
+        "Alvin Wijaya",
+        "Hon Kwan Wu"
+      ],
+      "pages": "600-615",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RanganathanSCDG21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RanganathanSCDG21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446723",
+        "https://www.wikidata.org/entity/Q131127070"
+      ]
+    },
+    {
+      "title": "When application-specific ISA meets FPGAs: a multi-layer virtualization framework for heterogeneous cloud FPGAs",
+      "authors": [
+        "Yue Zha",
+        "Jing Li 0073"
+      ],
+      "pages": "123-134",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Zha021",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Zha021.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446699",
+        "https://www.wikidata.org/entity/Q130866286"
+      ]
+    },
+    {
+      "title": "Who's debugging the debuggers? exposing debug information bugs in optimized binaries",
+      "authors": [
+        "Giuseppe Antonio Di Luna",
+        "Davide Italiano",
+        "Luca Massarelli",
+        "Sebastian &Ouml;sterlund",
+        "Cristiano Giuffrida",
+        "Leonardo Querzoni"
+      ],
+      "pages": "1034-1045",
+      "year": "2021",
+      "venue": "ASPLOS 2021",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LunaIMOGQ21",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LunaIMOGQ21.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3445814.3446695"
+      ]
+    }
+  ]
+}

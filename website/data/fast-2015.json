@@ -1,0 +1,559 @@
+{
+  "id": "fast-2015",
+  "venue": "fast",
+  "year": 2015,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2015.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2015.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2015",
+    "conf/fast/2015-1",
+    "conf/fast/2015-2",
+    "conf/fast/2015-3",
+    "conf/fast/2015-4",
+    "conf/fast/2015-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 28,
+  "display_count": 28,
+  "papers": [
+    {
+      "title": "A Practical Implementation of Clustered Fault Tolerant Write Acceleration in a Virtualized Environment",
+      "authors": [
+        "Deepavali Bhagwat",
+        "Mahesh Patil",
+        "Michal Ostrowski",
+        "Murali Vilayannur",
+        "Woon Jung",
+        "Chethan Kumar"
+      ],
+      "pages": "287-300",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BhagwatPOVJK15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BhagwatPOVJK15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/bhagwat"
+      ]
+    },
+    {
+      "title": "A Tale of Two Erasure Codes in HDFS",
+      "authors": [
+        "Mingyuan Xia 0001",
+        "Mohit Saxena",
+        "Mario Blaum",
+        "David Pease"
+      ],
+      "pages": "213-226",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/XiaSBP15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/XiaSBP15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/xia"
+      ]
+    },
+    {
+      "title": "Analysis of the ECMWF Storage Landscape",
+      "authors": [
+        "Matthias Grawinkel",
+        "Lars Nagel 0001",
+        "Markus M&auml;sker",
+        "Federico Padua",
+        "Andr&eacute; Brinkmann",
+        "Lennart Sorth"
+      ],
+      "pages": "15-27",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GrawinkelNMPBS15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GrawinkelNMPBS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/grawinkel"
+      ]
+    },
+    {
+      "title": "ANViL: Advanced Virtualization for Modern Non-Volatile Memory Devices",
+      "authors": [
+        "Zev Weiss",
+        "Sriram Subramanian",
+        "Swaminathan Sundararaman",
+        "Nisha Talagala",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "111-118",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WeissSSTAA15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WeissSSTAA15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/weiss"
+      ]
+    },
+    {
+      "title": "BetrFS: A Right-Optimized Write-Optimized File System",
+      "authors": [
+        "William Jannen",
+        "Jun Yuan 0006",
+        "Yang Zhan 0001",
+        "Amogh Akshintala",
+        "John Esmet",
+        "Yizheng Jiao",
+        "Ankur Mittal",
+        "Prashant Pandey 0001",
+        "Phaneendra Reddy",
+        "Leif Walsh",
+        "Michael A. Bender",
+        "Martin Farach-Colton",
+        "Rob Johnson 0001",
+        "Bradley C. Kuszmaul",
+        "Donald E. Porter"
+      ],
+      "pages": "301-315",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JannenYZAEJMPRW15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JannenYZAEJMPRW15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/jannen"
+      ]
+    },
+    {
+      "title": "Boosting Quasi-Asynchronous I/O for Better Responsiveness in Mobile Devices",
+      "authors": [
+        "Daeho Jeong",
+        "Youngjae Lee",
+        "Jin-Soo Kim 0001"
+      ],
+      "pages": "191-202",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JeongLK15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JeongLK15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/jeong"
+      ]
+    },
+    {
+      "title": "CalvinFS: Consistent WAN Replication and Scalable Metadata Management for Distributed File Systems",
+      "authors": [
+        "Alexander Thomson",
+        "Daniel J. Abadi"
+      ],
+      "pages": "1-14",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ThomsonA15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ThomsonA15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/thomson"
+      ]
+    },
+    {
+      "title": "Chronicle: Capture and Analysis of NFS Workloads at Line Rate",
+      "authors": [
+        "Ardalan Kangarlou",
+        "Sandip Shete",
+        "John D. Strunk"
+      ],
+      "pages": "345-358",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KangarlouSS15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KangarlouSS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/kangarlou"
+      ]
+    },
+    {
+      "title": "Design Tradeoffs for Data Deduplication Performance in Backup Workloads",
+      "authors": [
+        "Min Fu 0002",
+        "Dan Feng 0001",
+        "Yu Hua 0001",
+        "Xubin He",
+        "Zuoning Chen",
+        "Wen Xia",
+        "Yucheng Zhang",
+        "Yujuan Tan"
+      ],
+      "pages": "331-344",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/FuFHHCXZT15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/FuFHHCXZT15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/fu"
+      ]
+    },
+    {
+      "title": "Efficient Intra-Operating System Protection Against Harmful DMAs",
+      "authors": [
+        "Moshe Malka",
+        "Nadav Amit",
+        "Dan Tsafrir"
+      ],
+      "pages": "29-44",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MalkaAT15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MalkaAT15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/malka"
+      ]
+    },
+    {
+      "title": "Efficient MRC Construction with SHARDS",
+      "authors": [
+        "Carl A. Waldspurger",
+        "Nohhyun Park",
+        "Alexander T. Garthwaite",
+        "Irfan Ahmad 0005"
+      ],
+      "pages": "95-110",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WaldspurgerPGA15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WaldspurgerPGA15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/waldspurger"
+      ]
+    },
+    {
+      "title": "F2FS: A New File System for Flash Storage",
+      "authors": [
+        "Changman Lee",
+        "Dongho Sim",
+        "Joo Young Hwang",
+        "Sangyeun Cho"
+      ],
+      "pages": "273-286",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LeeSHC15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LeeSHC15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/lee"
+      ]
+    },
+    {
+      "title": "Failure-Atomic Updates of Application Data in a Linux File System",
+      "authors": [
+        "Rajat Verma",
+        "Anton Ajay Mendez",
+        "Stan Park",
+        "Sandya S. Mannarswamy",
+        "Terence Kelly",
+        "Charles B. Morrey III"
+      ],
+      "pages": "203-211",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/VermaMPMKM15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/VermaMPMKM15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/verma"
+      ]
+    },
+    {
+      "title": "FlashGraph: Processing Billion-Node Graphs on an Array of Commodity SSDs",
+      "authors": [
+        "Da Zheng 0004",
+        "Disa Mhembere",
+        "Randal C. Burns",
+        "Joshua T. Vogelstein",
+        "Carey E. Priebe",
+        "Alexander S. Szalay"
+      ],
+      "pages": "45-58",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhengMBVPS15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhengMBVPS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/zheng"
+      ]
+    },
+    {
+      "title": "Having Your Cake and Eating It Too: Jointly Optimal Erasure Codes for I/O, Storage, and Network-bandwidth",
+      "authors": [
+        "K. V. Rashmi",
+        "Preetum Nakkiran",
+        "Jingyan Wang 0001",
+        "Nihar B. Shah",
+        "Kannan Ramchandran"
+      ],
+      "pages": "81-94",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RashmiNWSR15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RashmiNWSR15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/rashmi"
+      ]
+    },
+    {
+      "title": "Host-side Filesystem Journaling for Durable Shared Storage",
+      "authors": [
+        "Andromachi Hatzieleftheriou",
+        "Stergios V. Anastasiadis"
+      ],
+      "pages": "59-66",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Hatzieleftheriou15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Hatzieleftheriou15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/hatzieleftheriou"
+      ]
+    },
+    {
+      "title": "How Much Can Data Compressibility Help to Improve NAND Flash Memory Lifetime?",
+      "authors": [
+        "Jiangpeng Li",
+        "Kai Zhao 0005",
+        "Xuebin Zhang",
+        "Jun Ma 0012",
+        "Ming Zhao",
+        "Tong Zhang 0002"
+      ],
+      "pages": "227-240",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiZZMZ015",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiZZMZ015.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/li"
+      ]
+    },
+    {
+      "title": "LADS: Optimizing Data Transfers Using Layout-Aware Data Scheduling",
+      "authors": [
+        "Youngjae Kim 0001",
+        "Scott Atchley",
+        "Geoffroy Vall&eacute;e",
+        "Galen M. Shipman"
+      ],
+      "pages": "67-80",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimAVS15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimAVS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/kim"
+      ]
+    },
+    {
+      "title": "Non-blocking Writes to Files",
+      "authors": [
+        "Daniel Campello",
+        "Hector L&oacute;pez",
+        "Ricardo Koller",
+        "Raju Rangaswami",
+        "Luis Useche"
+      ],
+      "pages": "151-165",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CampelloLKRU15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CampelloLKRU15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/campello"
+      ]
+    },
+    {
+      "title": "NV-Tree: Reducing Consistency Cost for NVM-based Single Level Systems",
+      "authors": [
+        "Jun Yang 0022",
+        "Qingsong Wei",
+        "Cheng Chen 0008",
+        "Chundong Wang 0001",
+        "Khai Leong Yong",
+        "Bingsheng He"
+      ],
+      "pages": "167-181",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YangWCWYH15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YangWCWYH15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/yang"
+      ]
+    },
+    {
+      "title": "RAIDShield: Characterizing, Monitoring, and Proactively Protecting Against Disk Failures",
+      "authors": [
+        "Ao Ma",
+        "Fred Douglis",
+        "Guanlin Lu",
+        "Darren Sawyer",
+        "Surendar Chandra",
+        "Windsor W. Hsu"
+      ],
+      "pages": "241-256",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MaDLSCH15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MaDLSCH15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/ma"
+      ]
+    },
+    {
+      "title": "Reducing File System Tail Latencies with Chopper",
+      "authors": [
+        "Jun He",
+        "Duy Nguyen",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "119-133",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HeNAA15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HeNAA15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/he"
+      ]
+    },
+    {
+      "title": "Reliable, Consistent, and Efficient Data Sync for Mobile Apps",
+      "authors": [
+        "Younghwan Go",
+        "Nitin Agrawal 0001",
+        "Akshat Aranya",
+        "Cristian Ungureanu"
+      ],
+      "pages": "359-372",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GoAAU15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GoAAU15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/go"
+      ]
+    },
+    {
+      "title": "RIPQ: Advanced Photo Caching on Flash for Facebook",
+      "authors": [
+        "Linpeng Tang",
+        "Qi Huang",
+        "Wyatt Lloyd",
+        "Sanjeev Kumar",
+        "Kai Li 0001"
+      ],
+      "pages": "373-386",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TangHLKL15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TangHLKL15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/tang"
+      ]
+    },
+    {
+      "title": "SDGen: Mimicking Datasets for Content Generation in Storage Benchmarks",
+      "authors": [
+        "Ra&uacute;l Gracia Tinedo",
+        "Danny Harnik",
+        "Dalit Naor",
+        "Dmitry Sotnikov",
+        "Sivan Toledo",
+        "Aviad Zuck"
+      ],
+      "pages": "317-330",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TinedoHNSTZ15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TinedoHNSTZ15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/gracia-tinedo"
+      ]
+    },
+    {
+      "title": "Skylight-A Window on Shingled Disk Operation",
+      "authors": [
+        "Abutalib Aghayev",
+        "Peter Desnoyers"
+      ],
+      "pages": "135-149",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AghayevD15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AghayevD15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/aghayev"
+      ]
+    },
+    {
+      "title": "Towards SLO Complying SSDs Through OPS Isolation",
+      "authors": [
+        "Jaeho Kim",
+        "Donghee Lee 0001",
+        "Sam H. Noh"
+      ],
+      "pages": "183-189",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimLN15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimLN15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/kim_jaeho"
+      ]
+    },
+    {
+      "title": "Write Once, Get 50% Free: Saving SSD Erase Costs Using WOM Codes",
+      "authors": [
+        "Gala Yadgar",
+        "Eitan Yaakobi",
+        "Assaf Schuster"
+      ],
+      "pages": "257-271",
+      "year": "2015",
+      "venue": "FAST 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YadgarYS15",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YadgarYS15.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast15/technical-sessions/presentation/yadgar"
+      ]
+    }
+  ]
+}

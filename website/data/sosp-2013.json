@@ -1,0 +1,1349 @@
+{
+  "id": "sosp-2013",
+  "venue": "sosp",
+  "year": 2013,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp2013.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp2013.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/2013",
+    "conf/sosp/2013-1",
+    "conf/sosp/2013-2",
+    "conf/sosp/2013-3",
+    "conf/sosp/2013-4",
+    "conf/sosp/2013-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 71,
+  "display_count": 71,
+  "papers": [
+    {
+      "title": "A lightweight infrastructure for graph analytics",
+      "authors": [
+        "Donald Nguyen",
+        "Andrew Lenharth",
+        "Keshav Pingali"
+      ],
+      "pages": "456-471",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NguyenLP13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NguyenLP13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522739"
+      ]
+    },
+    {
+      "title": "A measurement study of GPU DVFS on energy conservation",
+      "authors": [
+        "Xinxin Mei",
+        "Ling Sing Yung",
+        "Kaiyong Zhao",
+        "Xiaowen Chu 0001"
+      ],
+      "pages": "10:1-10:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MeiYZC13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MeiYZC13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525852"
+      ]
+    },
+    {
+      "title": "An analysis of Facebook photo caching",
+      "authors": [
+        "Qi Huang",
+        "Ken Birman",
+        "Robbert van Renesse",
+        "Wyatt Lloyd",
+        "Sanjeev Kumar",
+        "Harry C. Li"
+      ],
+      "pages": "167-181",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HuangBRLKL13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HuangBRLKL13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522722"
+      ]
+    },
+    {
+      "title": "Annotation for automation: rapid generation of file system tools",
+      "authors": [
+        "Kuei Jack Sun",
+        "Daniel Fryer",
+        "Angela Demke Brown",
+        "Ashvin Goel"
+      ],
+      "pages": "4:1-4:6",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SunFBG13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SunFBG13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525528.2525529"
+      ]
+    },
+    {
+      "title": "Asynchronous intrusion recovery for interconnected web services",
+      "authors": [
+        "Ramesh Chandra",
+        "Taesoo Kim",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "213-227",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChandraKZ13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChandraKZ13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522725"
+      ]
+    },
+    {
+      "title": "Bankshot: caching slow storage in fast non-volatile memory",
+      "authors": [
+        "Meenakshi Sundaram Bhaskaran",
+        "Jian Xu 0012",
+        "Steven Swanson"
+      ],
+      "pages": "1:1-1:9",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BhaskaranXS13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BhaskaranXS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2527792.2527793",
+        "https://www.wikidata.org/entity/Q130978086"
+      ]
+    },
+    {
+      "title": "Better flash access via shape-shifting virtual memory pages",
+      "authors": [
+        "Anirudh Badam",
+        "Vivek S. Pai",
+        "David W. Nellans"
+      ],
+      "pages": "3:1-3:14",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BadamPN13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BadamPN13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2524211.2524221"
+      ]
+    },
+    {
+      "title": "Consistency-based service level agreements for cloud storage",
+      "authors": [
+        "Douglas B. Terry",
+        "Vijayan Prabhakaran",
+        "Ramakrishna Kotla",
+        "Mahesh Balakrishnan 0001",
+        "Marcos K. Aguilera",
+        "Hussam Abu-Libdeh"
+      ],
+      "pages": "309-324",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TerryPKBAA13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TerryPKBAA13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522731"
+      ]
+    },
+    {
+      "title": "Consistent, durable, and safe memory management for byte-addressable non volatile main memory",
+      "authors": [
+        "Iulian Moraru",
+        "David G. Andersen",
+        "Michael Kaminsky",
+        "Niraj Tolia",
+        "Parthasarathy Ranganathan",
+        "Nathan L. Binkert"
+      ],
+      "pages": "1:1-1:17",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MoraruAKTRB13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MoraruAKTRB13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2524211.2524216"
+      ]
+    },
+    {
+      "title": "Cooperative control architecture of fan-less servers and fresh-air cooling in container servers for low power operation",
+      "authors": [
+        "Hiroshi Endo",
+        "Hiroyoshi Kodama",
+        "Hiroyuki Fukuda",
+        "Toshio Sugimoto",
+        "Takashi Horie",
+        "Masao Kondo"
+      ],
+      "pages": "4:1-4:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/EndoKFSHK13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/EndoKFSHK13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525844"
+      ]
+    },
+    {
+      "title": "Coordinate page allocation and thread group for improving main memory power efficiency",
+      "authors": [
+        "Gangyong Jia",
+        "Xi Li 0003",
+        "Jian Wan 0001",
+        "Liang Shi 0001",
+        "Chao Wang 0003"
+      ],
+      "pages": "7:1-7:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JiaLWSW13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JiaLWSW13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525851"
+      ]
+    },
+    {
+      "title": "Dandelion: a compiler and runtime for heterogeneous systems",
+      "authors": [
+        "Christopher J. Rossbach",
+        "Yuan Yu",
+        "Jon Currey",
+        "Jean-Philippe Martin",
+        "Dennis Fetterly"
+      ],
+      "pages": "49-68",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RossbachYCMF13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RossbachYCMF13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522715",
+        "https://www.wikidata.org/entity/Q131125031"
+      ]
+    },
+    {
+      "title": "Discretized streams: fault-tolerant streaming computation at scale",
+      "authors": [
+        "Matei Zaharia",
+        "Tathagata Das",
+        "Haoyuan Li 0001",
+        "Timothy Hunter",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": "423-438",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZahariaDLHSS13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZahariaDLHSS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522737",
+        "https://www.wikidata.org/entity/Q131127935"
+      ]
+    },
+    {
+      "title": "Do not blame users for misconfigurations",
+      "authors": [
+        "Tianyin Xu",
+        "Jiaqi Zhang",
+        "Peng Huang 0005",
+        "Jing Zheng",
+        "Tianwei Sheng",
+        "Ding Yuan 0004",
+        "Yuanyuan Zhou 0001",
+        "Shankar Pasupathy"
+      ],
+      "pages": "244-259",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/XuZHZSYZP13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/XuZHZSYZP13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522727",
+        "https://www.wikidata.org/entity/Q130929105"
+      ]
+    },
+    {
+      "title": "Evaluating integrated graphics processors for data center workloads",
+      "authors": [
+        "Sangman Kim",
+        "Indrajit Roy 0001",
+        "Vanish Talwar"
+      ],
+      "pages": "8:1-8:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KimRT13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KimRT13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525847"
+      ]
+    },
+    {
+      "title": "Everything you always wanted to know about synchronization but were afraid to ask",
+      "authors": [
+        "Tudor David",
+        "Rachid Guerraoui",
+        "Vasileios Trigonakis"
+      ],
+      "pages": "33-48",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DavidGT13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DavidGT13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522714",
+        "https://www.wikidata.org/entity/Q60019869"
+      ]
+    },
+    {
+      "title": "Exploiting processor heterogeneity for energy efficient context inference on mobile phones",
+      "authors": [
+        "Chenguang Shen",
+        "Supriyo Chakraborty",
+        "Kasturi Rangan Raghavan",
+        "Haksoo Choi",
+        "Mani B. Srivastava"
+      ],
+      "pages": "9:1-9:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ShenCRCS13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ShenCRCS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525856"
+      ]
+    },
+    {
+      "title": "Exploring storage class memory with key value stores",
+      "authors": [
+        "Katelin A. Bailey",
+        "Peter Hornyack",
+        "Luis Ceze",
+        "Steven D. Gribble",
+        "Henry M. Levy"
+      ],
+      "pages": "4:1-4:8",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BaileyHCGL13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BaileyHCGL13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2527792.2527799"
+      ]
+    },
+    {
+      "title": "Fast dynamic binary translation for the kernel",
+      "authors": [
+        "Piyus Kedia",
+        "Sorav Bansal"
+      ],
+      "pages": "101-115",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KediaB13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KediaB13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522718"
+      ]
+    },
+    {
+      "title": "File systems deserve verification too!",
+      "authors": [
+        "Gabriele Keller",
+        "Toby C. Murray",
+        "Sidney Amani",
+        "Liam O'Connor",
+        "Zilin Chen",
+        "Leonid Ryzhyk",
+        "Gerwin Klein",
+        "Gernot Heiser"
+      ],
+      "pages": "1:1-1:7",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KellerMAOCRKH13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KellerMAOCRKH13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525528.2525530"
+      ]
+    },
+    {
+      "title": "From ARIES to MARS: transaction support for next-generation, solid-state drives",
+      "authors": [
+        "Joel Coburn",
+        "Trevor Bunker",
+        "Meir Schwarz",
+        "Rajesh Gupta 0001",
+        "Steven Swanson"
+      ],
+      "pages": "197-212",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CoburnBSGS13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CoburnBSGS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522724",
+        "https://www.wikidata.org/entity/Q130970810"
+      ]
+    },
+    {
+      "title": "From L3 to seL4 what have we learnt in 20 years of L4 microkernels?",
+      "authors": [
+        "Kevin Elphinstone",
+        "Gernot Heiser"
+      ],
+      "pages": "133-150",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ElphinstoneH13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ElphinstoneH13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522720",
+        "https://www.wikidata.org/entity/Q56057492"
+      ]
+    },
+    {
+      "title": "Greening the compute cloud's pricing plans",
+      "authors": [
+        "Rini T. Kaushik",
+        "Prasenjit Sarkar",
+        "Abdullah Gharaibeh"
+      ],
+      "pages": "6:1-6:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KaushikSG13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KaushikSG13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525855"
+      ]
+    },
+    {
+      "title": "High performance & low latency in solid-state drives through redundancy",
+      "authors": [
+        "Dimitris Skourtis",
+        "Dimitris Achlioptas",
+        "Carlos Maltzahn",
+        "Scott A. Brandt"
+      ],
+      "pages": "6:1-6:9",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SkourtisAMB13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SkourtisAMB13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2527792.2527798",
+        "https://www.wikidata.org/entity/Q130980485"
+      ]
+    },
+    {
+      "title": "Hosting dynamic data in the cloud with Isis2 and the Ida DHT",
+      "authors": [
+        "Ken Birman",
+        "Heesung Sohn"
+      ],
+      "pages": "10:1-10:15",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BirmanS13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BirmanS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2524211.2524212"
+      ]
+    },
+    {
+      "title": "How much energy can we save from prefetching ads?: energy drain analysis of top 100 apps",
+      "authors": [
+        "Xiaomeng Chen",
+        "Abhilash Jindal",
+        "Y. Charlie Hu"
+      ],
+      "pages": "3:1-3:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenJH13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenJH13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525848"
+      ]
+    },
+    {
+      "title": "Impact of DVFS on n-tier application performance",
+      "authors": [
+        "Qingyang Wang 0001",
+        "Yasuhiko Kanemasa",
+        "Jack Li 0001",
+        "Chien-An Lai",
+        "Masazumi Matsubara",
+        "Calton Pu"
+      ],
+      "pages": "5:1-5:16",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WangKLLMP13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WangKLLMP13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2524211.2524220"
+      ]
+    },
+    {
+      "title": "Improving performance and lifetime of the SSD RAID-based host cache through a log-structured approach",
+      "authors": [
+        "Yongseok Oh",
+        "Jongmoo Choi",
+        "Donghee Lee 0001",
+        "Sam H. Noh"
+      ],
+      "pages": "5:1-5:8",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/OhCLN13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/OhCLN13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2527792.2527795",
+        "https://www.wikidata.org/entity/Q130952603"
+      ]
+    },
+    {
+      "title": "inTune: coordinating multicore islands to achieve global policy objectives",
+      "authors": [
+        "Priyanka Tembey",
+        "Ada Gavrilovska",
+        "Karsten Schwan"
+      ],
+      "pages": "4:1-4:16",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TembeyGS13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TembeyGS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2524211.2524213"
+      ]
+    },
+    {
+      "title": "IOFlow: a software-defined storage architecture",
+      "authors": [
+        "Eno Thereska",
+        "Hitesh Ballani",
+        "Greg O'Shea",
+        "Thomas Karagiannis",
+        "Antony I. T. Rowstron",
+        "Tom Talpey",
+        "Richard Black",
+        "Timothy Zhu"
+      ],
+      "pages": "182-196",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ThereskaBOKRTBZ13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ThereskaBOKRTBZ13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522723"
+      ]
+    },
+    {
+      "title": "LFGraph: simple and fast distributed graph analytics",
+      "authors": [
+        "Imranul Hoque",
+        "Indranil Gupta"
+      ],
+      "pages": "9:1-9:17",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HoqueG13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HoqueG13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2524211.2524218"
+      ]
+    },
+    {
+      "title": "Log-structured cache: trading hit-rate for storage performance (and winning) in mobile devices",
+      "authors": [
+        "Abutalib Aghayev",
+        "Peter Desnoyers"
+      ],
+      "pages": "7:1-7:7",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AghayevD13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AghayevD13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2527792.2527797"
+      ]
+    },
+    {
+      "title": "MBrace: cloud computing with monads",
+      "authors": [
+        "Jan Dzik",
+        "Nick Palladinos",
+        "Konstantinos Rontogiannis",
+        "Eirik Tsarpalis",
+        "Nikolaos Vathis"
+      ],
+      "pages": "7:1-7:6",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DzikPRTV13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DzikPRTV13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525528.2525531"
+      ]
+    },
+    {
+      "title": "MetaData persistence using storage class memory: experiences with flash-backed DRAM",
+      "authors": [
+        "Jithin Jose",
+        "Mohammad Banikazemi",
+        "Wendy Belluomini",
+        "Chet Murthy",
+        "Dhabaleswar K. Panda 0001"
+      ],
+      "pages": "3:1-3:7",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JoseBBMP13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JoseBBMP13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2527792.2527800",
+        "https://www.wikidata.org/entity/Q130971655"
+      ]
+    },
+    {
+      "title": "Mobile multicores: use them or waste them",
+      "authors": [
+        "Aaron Carroll",
+        "Gernot Heiser"
+      ],
+      "pages": "12:1-12:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CarrollH13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CarrollH13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525850"
+      ]
+    },
+    {
+      "title": "Modeling NICs with Unicorn",
+      "authors": [
+        "Pravin Shinde",
+        "Antoine Kaufmann",
+        "Kornilios Kourtis",
+        "Timothy Roscoe"
+      ],
+      "pages": "3:1-3:6",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ShindeKKR13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ShindeKKR13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525528.2525532"
+      ]
+    },
+    {
+      "title": "MUTT: a watchdog for OSN applications",
+      "authors": [
+        "Amre Shakimov",
+        "Landon P. Cox"
+      ],
+      "pages": "6:1-6:14",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ShakimovC13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ShakimovC13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2524211.2524215"
+      ]
+    },
+    {
+      "title": "Naiad: a timely dataflow system",
+      "authors": [
+        "Derek Gordon Murray",
+        "Frank McSherry",
+        "Rebecca Isaacs",
+        "Michael Isard",
+        "Paul Barham 0001",
+        "Mart&iacute;n Abadi"
+      ],
+      "pages": "439-455",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MurrayMIIBA13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MurrayMIIBA13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522738"
+      ]
+    },
+    {
+      "title": "No more electrical infrastructure: towards fuel cell powered data centers",
+      "authors": [
+        "Ana Carolina Riekstin",
+        "Sean James",
+        "Aman Kansal",
+        "Jie Liu 0001",
+        "Eric Peterson"
+      ],
+      "pages": "5:1-5:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RiekstinJKLP13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RiekstinJKLP13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525853"
+      ]
+    },
+    {
+      "title": "NVM heaps for accelerating browser-based applications",
+      "authors": [
+        "Sudarsun Kannan",
+        "Ada Gavrilovska",
+        "Karsten Schwan",
+        "Sanjay Kumar"
+      ],
+      "pages": "8:1-8:8",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KannanGSK13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KannanGSK13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2527792.2527796",
+        "https://www.wikidata.org/entity/Q131114306"
+      ]
+    },
+    {
+      "title": "On death, taxes, and sleep disorder bugs in smartphones",
+      "authors": [
+        "Abhilash Jindal",
+        "Abhinav Pathak",
+        "Y. Charlie Hu",
+        "Samuel P. Midkiff"
+      ],
+      "pages": "1:1-1:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JindalPHM13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JindalPHM13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525845"
+      ]
+    },
+    {
+      "title": "Optimistic crash consistency",
+      "authors": [
+        "Vijay Chidambaram",
+        "Thanumalayan Sankaranarayana Pillai",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "228-243",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChidambaramPAA13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChidambaramPAA13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522726"
+      ]
+    },
+    {
+      "title": "Parrot: a practical runtime for deterministic, stable, and reliable threads",
+      "authors": [
+        "Heming Cui",
+        "Jir&iacute; Simsa",
+        "Yi-Hong Lin",
+        "Hao Li",
+        "Ben Blum",
+        "Xinan Xu",
+        "Junfeng Yang",
+        "Garth A. Gibson",
+        "Randal E. Bryant"
+      ],
+      "pages": "388-405",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CuiSLLBXYGB13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CuiSLLBXYGB13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522735"
+      ]
+    },
+    {
+      "title": "Phase change memory in enterprise storage systems: silver bullet or snake oil?",
+      "authors": [
+        "Hyojun Kim",
+        "Sangeetha Seshadri",
+        "Clement L. Dickey",
+        "Lawrence Chiu"
+      ],
+      "pages": "2:1-2:8",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KimSDC13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KimSDC13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2527792.2527794",
+        "https://www.wikidata.org/entity/Q130968027"
+      ]
+    },
+    {
+      "title": "RaceMob: crowdsourced data race detection",
+      "authors": [
+        "Baris Kasikci",
+        "Cristian Zamfir",
+        "George Candea"
+      ],
+      "pages": "406-422",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KasikciZC13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KasikciZC13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522736"
+      ]
+    },
+    {
+      "title": "Racing and pacing to idle: an evaluation of heuristics for energy-aware resource allocation",
+      "authors": [
+        "Henry Hoffmann"
+      ],
+      "pages": "13:1-13:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Hoffmann13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Hoffmann13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525854"
+      ]
+    },
+    {
+      "title": "Replication, history, and grafting in the Ori file system",
+      "authors": [
+        "Ali Jos&eacute; Mashtizadeh",
+        "Andrea Bittau",
+        "Yifeng Frank Huang",
+        "David Mazi&egrave;res"
+      ],
+      "pages": "151-166",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MashtizadehBHM13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MashtizadehBHM13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522721"
+      ]
+    },
+    {
+      "title": "ROOT: replaying multithreaded traces with resource-oriented ordering",
+      "authors": [
+        "Zev Weiss",
+        "Tyler Harter",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "373-387",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WeissHAA13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WeissHAA13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522734"
+      ]
+    },
+    {
+      "title": "Scalable coordination of a tightly-coupled service in the wide area",
+      "authors": [
+        "Kevin C. Webb 0001",
+        "Bhanu Chandra Vattikonda",
+        "Kenneth Yocum",
+        "Alex C. Snoeren"
+      ],
+      "pages": "8:1-8:15",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WebbVYS13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WebbVYS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2524211.2524214"
+      ]
+    },
+    {
+      "title": "Semi-automated debugging via binary search through a process lifetime",
+      "authors": [
+        "Kapil Arya",
+        "Tyler Denniston",
+        "Ana Maria Visan",
+        "Gene Cooperman"
+      ],
+      "pages": "9:1-9:7",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AryaDVC13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AryaDVC13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525528.2525533"
+      ]
+    },
+    {
+      "title": "SETSUDŌ: perturbation-based testing framework for scalable distributed systems",
+      "authors": [
+        "Pallavi Joshi",
+        "Malay K. Ganai",
+        "Gogul Balakrishnan",
+        "Aarti Gupta",
+        "Nadia Papakonstantinou"
+      ],
+      "pages": "7:1-7:14",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JoshiGBGP13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JoshiGBGP13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2524211.2524217"
+      ]
+    },
+    {
+      "title": "SPANStore: cost-effective geo-replicated storage spanning multiple cloud services",
+      "authors": [
+        "Zhe Wu 0003",
+        "Michael Butkiewicz",
+        "Dorian Jean Perkins",
+        "Ethan Katz-Bassett",
+        "Harsha V. Madhyastha"
+      ],
+      "pages": "292-308",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WuBPKM13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WuBPKM13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522730"
+      ]
+    },
+    {
+      "title": "Sparrow: distributed, low latency scheduling",
+      "authors": [
+        "Kay Ousterhout",
+        "Patrick Wendell",
+        "Matei Zaharia",
+        "Ion Stoica"
+      ],
+      "pages": "69-84",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/OusterhoutWZS13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/OusterhoutWZS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522716"
+      ]
+    },
+    {
+      "title": "Speedy transactions in multicore in-memory databases",
+      "authors": [
+        "Stephen Tu",
+        "Wenting Zheng",
+        "Eddie Kohler",
+        "Barbara Liskov",
+        "Samuel Madden 0001"
+      ],
+      "pages": "18-32",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TuZKLM13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TuZKLM13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522713"
+      ]
+    },
+    {
+      "title": "Tango: distributed data structures over a shared log",
+      "authors": [
+        "Mahesh Balakrishnan 0001",
+        "Dahlia Malkhi",
+        "Ted Wobber",
+        "Ming Wu 0007",
+        "Vijayan Prabhakaran",
+        "Michael Wei",
+        "John D. Davis",
+        "Sriram Rao",
+        "Tao Zou 0002",
+        "Aviad Zuck"
+      ],
+      "pages": "325-340",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BalakrishnanMWWPWDRZZ13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BalakrishnanMWWPWDRZZ13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522732"
+      ]
+    },
+    {
+      "title": "The operating system: should there be one?",
+      "authors": [
+        "Stephen Kell"
+      ],
+      "pages": "8:1-8:7",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Kell13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Kell13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525528.2525534"
+      ]
+    },
+    {
+      "title": "The scalable commutativity rule: designing scalable software for multicore processors",
+      "authors": [
+        "Austin T. Clements",
+        "M. Frans Kaashoek",
+        "Nickolai Zeldovich",
+        "Robert T. Morris",
+        "Eddie Kohler"
+      ],
+      "pages": "1-17",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ClementsKZMK13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ClementsKZMK13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522712",
+        "https://www.wikidata.org/entity/Q131128731"
+      ]
+    },
+    {
+      "title": "There is more consensus in Egalitarian parliaments",
+      "authors": [
+        "Iulian Moraru",
+        "David G. Andersen",
+        "Michael Kaminsky"
+      ],
+      "pages": "358-372",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MoraruAK13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MoraruAK13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2517350"
+      ]
+    },
+    {
+      "title": "Timecard: controlling user-perceived delays in server-based mobile applications",
+      "authors": [
+        "Lenin Ravindranath",
+        "Jitendra Padhye",
+        "Ratul Mahajan",
+        "Hari Balakrishnan"
+      ],
+      "pages": "85-100",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RavindranathPMB13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RavindranathPMB13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522717"
+      ]
+    },
+    {
+      "title": "Towards a verified component platform",
+      "authors": [
+        "Matthew Fernandez",
+        "Ihor Kuz",
+        "Gerwin Klein",
+        "June Andronick"
+      ],
+      "pages": "2:1-2:7",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FernandezKKA13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FernandezKKA13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525528.2525535"
+      ]
+    },
+    {
+      "title": "Towards better CPU power management on multicore smartphones",
+      "authors": [
+        "Yifan Zhang 0002",
+        "Xudong Wang",
+        "Xuanzhe Liu",
+        "Yunxin Liu 0001",
+        "Li Zhuang",
+        "Feng Zhao 0001"
+      ],
+      "pages": "11:1-11:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangWLLZZ13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangWLLZZ13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525849"
+      ]
+    },
+    {
+      "title": "Towards optimization-safe systems: analyzing the impact of undefined behavior",
+      "authors": [
+        "Xi Wang 0005",
+        "Nickolai Zeldovich",
+        "M. Frans Kaashoek",
+        "Armando Solar-Lezama"
+      ],
+      "pages": "260-275",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WangZKS13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WangZKS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522728",
+        "https://www.wikidata.org/entity/Q131133591"
+      ]
+    },
+    {
+      "title": "Transaction chains: achieving serializability with low latency in geo-distributed storage systems",
+      "authors": [
+        "Yang Zhang",
+        "Russell Power",
+        "Siyuan Zhou",
+        "Yair Sovran",
+        "Marcos K. Aguilera",
+        "Jinyang Li 0001"
+      ],
+      "pages": "276-291",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangPZSAL13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangPZSAL13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522729"
+      ]
+    },
+    {
+      "title": "Transparent driver-kernel isolation with VMM intervention",
+      "authors": [
+        "Hao Zheng 0004",
+        "Endong Wang",
+        "Yinfeng Wang",
+        "Xingjun Zhang",
+        "Baoke Chen",
+        "Weiguo Wu",
+        "Xiaoshe Dong"
+      ],
+      "pages": "2:1-2:16",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhengWWZCWD13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhengWWZCWD13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2524211.2524219"
+      ]
+    },
+    {
+      "title": "Understanding the genetic makeup of Linux device drivers",
+      "authors": [
+        "Peter Senna Tschudin",
+        "Laurent R&eacute;veill&egrave;re",
+        "Lingxiao Jiang",
+        "David Lo 0001",
+        "Julia Lawall",
+        "Gilles Muller"
+      ],
+      "pages": "10:1-10:6",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TschudinRJLLM13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TschudinRJLLM13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525528.2525536",
+        "https://www.wikidata.org/entity/Q130959886"
+      ]
+    },
+    {
+      "title": "Verifying computations with state",
+      "authors": [
+        "Benjamin Braun",
+        "Ariel J. Feldman",
+        "Zuocheng Ren",
+        "Srinath T. V. Setty",
+        "Andrew J. Blumberg",
+        "Michael Walfish"
+      ],
+      "pages": "341-357",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BraunFRSBW13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BraunFRSBW13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522733"
+      ]
+    },
+    {
+      "title": "VirtuOS: an operating system with kernel virtualization",
+      "authors": [
+        "Ruslan Nikolaev 0001",
+        "Godmar Back"
+      ],
+      "pages": "116-132",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NikolaevB13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NikolaevB13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522719"
+      ]
+    },
+    {
+      "title": "Weir: a streaming language for performance analysis",
+      "authors": [
+        "Anton Burtsev",
+        "Nikhil Mishrikoti",
+        "Eric Eide",
+        "Robert Ricci"
+      ],
+      "pages": "6:1-6:6",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BurtsevMER13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BurtsevMER13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525528.2525537",
+        "https://www.wikidata.org/entity/Q57538294"
+      ]
+    },
+    {
+      "title": "Why application errors drain battery easily?: a study of memory leaks in smartphone apps",
+      "authors": [
+        "Mingyuan Xia 0001",
+        "Wenbo He 0003",
+        "Xue Liu 0001",
+        "Jie Liu 0001"
+      ],
+      "pages": "2:1-2:5",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/XiaHLL13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/XiaHLL13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525526.2525846"
+      ]
+    },
+    {
+      "title": "X-Stream: edge-centric graph processing using streaming partitions",
+      "authors": [
+        "Amitabha Roy 0002",
+        "Ivo Mihailovic",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "472-488",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RoyMZ13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RoyMZ13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2517349.2522740",
+        "https://www.wikidata.org/entity/Q130970780"
+      ]
+    },
+    {
+      "title": "Your server as a function",
+      "authors": [
+        "Marius Eriksen"
+      ],
+      "pages": "5:1-5:7",
+      "year": "2013",
+      "venue": "SOSP 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Eriksen13",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Eriksen13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2525528.2525538"
+      ]
+    }
+  ]
+}

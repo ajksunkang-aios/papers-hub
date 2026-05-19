@@ -1,0 +1,755 @@
+{
+  "id": "usenix-2013",
+  "venue": "usenix",
+  "year": 2013,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2013.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2013.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2013",
+    "conf/usenix/2013-1",
+    "conf/usenix/2013-2",
+    "conf/usenix/2013-3",
+    "conf/usenix/2013-4",
+    "conf/usenix/2013-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 40,
+  "display_count": 40,
+  "papers": [
+    {
+      "title": "A Formal Specification of the Hormone Loop of an Artificial Hormone System",
+      "authors": [
+        "Mathias Pacher",
+        "Uwe Brinkschulte"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PacherB13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PacherB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/esos13/workshop-program/presentation/pacher"
+      ]
+    },
+    {
+      "title": "Characterization of Incremental Data Changes for Efficient Data Protection",
+      "authors": [
+        "Hyong Shim",
+        "Philip Shilane",
+        "Windsor Hsu"
+      ],
+      "pages": "157-168",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShimSH13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShimSH13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/shim"
+      ]
+    },
+    {
+      "title": "Copysets: Reducing the Frequency of Data Loss in Cloud Storage",
+      "authors": [
+        "Asaf Cidon",
+        "Stephen M. Rumble",
+        "Ryan Stutsman",
+        "Sachin Katti",
+        "John K. Ousterhout",
+        "Mendel Rosenblum"
+      ],
+      "pages": "37-48",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CidonRSKOR13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CidonRSKOR13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/cidon"
+      ]
+    },
+    {
+      "title": "DeepDive: Transparently Identifying and Managing Performance Interference in Virtualized Environments",
+      "authors": [
+        "Dejan M. Novakovic",
+        "Nedeljko Vasic",
+        "Stanko Novakovic",
+        "Dejan Kostic",
+        "Ricardo Bianchini"
+      ],
+      "pages": "219-230",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/NovakovicVNKB13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/NovakovicVNKB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/novakovi%C4%87"
+      ]
+    },
+    {
+      "title": "DEFINED: Deterministic Execution for Interactive Control-Plane Debugging",
+      "authors": [
+        "Chia-Chi Lin",
+        "Virajith Jalaparti",
+        "Matthew Caesar 0001",
+        "Jacobus E. van der Merwe"
+      ],
+      "pages": "347-358",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LinJCM13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LinJCM13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/lin"
+      ]
+    },
+    {
+      "title": "DHT Broadcast Optimisation with ID Assignment Rules",
+      "authors": [
+        "Michael Roth 0002",
+        "Julia Schmitt",
+        "Florian Kluge",
+        "Theo Ungerer"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RothSKU13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RothSKU13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/esos13/workshop-program/presentation/roth"
+      ]
+    },
+    {
+      "title": "Efficient and Scalable Paravirtual I/O System",
+      "authors": [
+        "Nadav Har'El",
+        "Abel Gordon",
+        "Alex Landau",
+        "Muli Ben-Yehuda",
+        "Avishay Traeger",
+        "Razya Ladelsky"
+      ],
+      "pages": "231-242",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HarElGLBTL13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HarElGLBTL13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/har%E2%80%99el"
+      ]
+    },
+    {
+      "title": "Enabling OS Research by Inferring Interactions in the Black-Box GPU Stack",
+      "authors": [
+        "Konstantinos Menychtas",
+        "Kai Shen",
+        "Michael L. Scott"
+      ],
+      "pages": "291-296",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MenychtasSS13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MenychtasSS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/menychtas"
+      ]
+    },
+    {
+      "title": "Estimating Duplication by Content-based Sampling",
+      "authors": [
+        "Fei Xie",
+        "Michael Condict",
+        "Sandip Shete"
+      ],
+      "pages": "181-186",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XieCS13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XieCS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/xie"
+      ]
+    },
+    {
+      "title": "Flash Caching on the Storage Client",
+      "authors": [
+        "David A. Holland",
+        "Elaine Angelino",
+        "Gideon Wald",
+        "Margo I. Seltzer"
+      ],
+      "pages": "127-138",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HollandAWS13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HollandAWS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/holland"
+      ]
+    },
+    {
+      "title": "FlashFQ: A Fair Queueing I/O Scheduler for Flash-Based SSDs",
+      "authors": [
+        "Kai Shen",
+        "Stan Park"
+      ],
+      "pages": "67-78",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShenP13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShenP13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/shen"
+      ]
+    },
+    {
+      "title": "How to Run POSIX Apps in a Minimal Picoprocess",
+      "authors": [
+        "Jon Howell",
+        "Bryan Parno",
+        "John R. Douceur"
+      ],
+      "pages": "321-332",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HowellPD13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HowellPD13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/howell"
+      ]
+    },
+    {
+      "title": "Hyper-Switch: A Scalable Software Virtual Switching Architecture",
+      "authors": [
+        "Kaushik Kumar Ram",
+        "Alan L. Cox",
+        "Mehul Chadha",
+        "Scott Rixner"
+      ],
+      "pages": "13-24",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RamCCR13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RamCCR13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/ram"
+      ]
+    },
+    {
+      "title": "I/O Stack Optimization for Smartphones",
+      "authors": [
+        "Sooman Jeong",
+        "Kisung Lee",
+        "Seongjin Lee",
+        "Seoungbum Son",
+        "Youjip Won"
+      ],
+      "pages": "309-320",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JeongLLSW13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JeongLLSW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/jeong"
+      ]
+    },
+    {
+      "title": "IAMEM: Interaction-Aware Memory Energy Management",
+      "authors": [
+        "Mingsong Bi",
+        "Srinivasan Chandrasekharan",
+        "Chris Gniady"
+      ],
+      "pages": "267-278",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BiCG13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BiCG13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/bi"
+      ]
+    },
+    {
+      "title": "Improving Server Application Performance via Pure TCP ACK Receive Optimization",
+      "authors": [
+        "Michael Chan 0004",
+        "David R. Cheriton"
+      ],
+      "pages": "359-364",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChanC13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChanC13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/chan"
+      ]
+    },
+    {
+      "title": "Infrastructure for Studying Infrastructure",
+      "authors": [
+        "Christopher Landauer"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Landauer13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Landauer13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/esos13/workshop-program/presentation/landauer"
+      ]
+    },
+    {
+      "title": "Janus: Optimal Flash Provisioning for Cloud Storage Workloads",
+      "authors": [
+        "Christoph Albrecht",
+        "Arif Merchant",
+        "Murray Stokely",
+        "Muhammad Waliji",
+        "Fran&ccedil;ois Labelle",
+        "Nate Coehlo",
+        "Xudong Shi 0003",
+        "Eric Schrock"
+      ],
+      "pages": "91-102",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AlbrechtMSWLCSS13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AlbrechtMSWLCSS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/albrecht"
+      ]
+    },
+    {
+      "title": "Lightweight Memory Tracing",
+      "authors": [
+        "Mathias Payer",
+        "Enrico Kravina",
+        "Thomas R. Gross"
+      ],
+      "pages": "115-126",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PayerKG13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PayerKG13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/payer"
+      ]
+    },
+    {
+      "title": "Mandatory Access Control for the Android Dalvik Virtual Machine",
+      "authors": [
+        "Aline Bousquet",
+        "J&eacute;r&eacute;my Briffaut",
+        "Laurent Clevy",
+        "Christian Toinard",
+        "Benjamin Venelle"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BousquetBCTV13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BousquetBCTV13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/esos13/workshop-program/presentation/bousquet"
+      ]
+    },
+    {
+      "title": "Mantis: Automatic Performance Prediction for Smartphone Applications",
+      "authors": [
+        "Yongin Kwon",
+        "Sangmin Lee",
+        "Hayoon Yi",
+        "Donghyun Kwon",
+        "Seungjun Yang",
+        "Byung-Gon Chun",
+        "Ling Huang 0001",
+        "Petros Maniatis",
+        "Mayur Naik",
+        "Yunheung Paek"
+      ],
+      "pages": "297-308",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KwonLYKYCHMNP13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KwonLYKYCHMNP13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/kwon"
+      ]
+    },
+    {
+      "title": "MiG: Efficient Migration of Desktop VMs Using Semantic Compression",
+      "authors": [
+        "Anshul Rai",
+        "Ramachandran Ramjee",
+        "Ashok Anand",
+        "Venkata N. Padmanabhan",
+        "George Varghese"
+      ],
+      "pages": "25-36",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RaiRAPV13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RaiRAPV13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/rai"
+      ]
+    },
+    {
+      "title": "MutantX-S: Scalable Malware Clustering Based on Static Features",
+      "authors": [
+        "Xin Hu 0001",
+        "Kang G. Shin",
+        "Sandeep Bhatkar",
+        "Kent Griffin"
+      ],
+      "pages": "187-198",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuSBG13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuSBG13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/hu"
+      ]
+    },
+    {
+      "title": "Network Interface Design for Low Latency Request-Response Protocols",
+      "authors": [
+        "Mario Flajslik",
+        "Mendel Rosenblum"
+      ],
+      "pages": "333-346",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FlajslikR13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FlajslikR13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/flajslik"
+      ]
+    },
+    {
+      "title": "On the Efficiency of Durable State Machine Replication",
+      "authors": [
+        "Alysson Neves Bessani",
+        "Marcel Santos",
+        "Jo&atilde;o Felix",
+        "Nuno Ferreira Neves",
+        "Miguel Correia 0001"
+      ],
+      "pages": "169-180",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BessaniSFNC13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BessaniSFNC13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/bessani"
+      ]
+    },
+    {
+      "title": "Optimizing VM Checkpointing for Restore Performance in VMware ESXi",
+      "authors": [
+        "Irene Zhang",
+        "Tyler Denniston",
+        "Yury Baskakov",
+        "Alex Garthwaite"
+      ],
+      "pages": "1-12",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangDBG13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangDBG13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/zhang"
+      ]
+    },
+    {
+      "title": "packetdrill: Scriptable Network Stack Testing, from Sockets to Packets",
+      "authors": [
+        "Neal Cardwell",
+        "Yuchung Cheng",
+        "Lawrence Brakmo",
+        "Matt Mathis",
+        "Barath Raghavan",
+        "Nandita Dukkipati",
+        "Hsiao-Keng Jerry Chu",
+        "Andreas Terzis",
+        "Tom Herbert"
+      ],
+      "pages": "213-218",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CardwellCBMRDCTH13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CardwellCBMRDCTH13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/cardwell"
+      ]
+    },
+    {
+      "title": "PIKACHU: How to Rebalance Load in Optimizing MapReduce On Heterogeneous Clusters",
+      "authors": [
+        "Rohan Gandhi",
+        "Di Xie",
+        "Y. Charlie Hu"
+      ],
+      "pages": "61-66",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GandhiXH13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GandhiXH13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/gandhi"
+      ]
+    },
+    {
+      "title": "Practical and Effective Sandboxing for Non-root Users",
+      "authors": [
+        "Taesoo Kim",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "139-144",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KimZ13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KimZ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/kim"
+      ]
+    },
+    {
+      "title": "Reducing the Communication Overhead of an Artificial Hormone System for Task Allocation by a Task Window",
+      "authors": [
+        "Uwe Brinkschulte"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Brinkschulte13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Brinkschulte13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/esos13/workshop-program/presentation/brinkschulte"
+      ]
+    },
+    {
+      "title": "Redundant State Detection for Dynamic Symbolic Execution",
+      "authors": [
+        "Suhabe Bugrara",
+        "Dawson R. Engler"
+      ],
+      "pages": "199-211",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BugraraE13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BugraraE13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/bugrara"
+      ]
+    },
+    {
+      "title": "Solving DCOPs in Self-optimising Multi-Agent Systems by Extending the Local Objective Functions",
+      "authors": [
+        "Sebastian Niemann",
+        "Christian M&uuml;ller-Schloer"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/NiemannM13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/NiemannM13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/esos13/workshop-program/presentation/niemann"
+      ]
+    },
+    {
+      "title": "TABLEFS: Enhancing Metadata Efficiency in the Local File System",
+      "authors": [
+        "Kai Ren 0001",
+        "Garth A. Gibson"
+      ],
+      "pages": "145-156",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RenG13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RenG13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/ren"
+      ]
+    },
+    {
+      "title": "TAO: Facebook's Distributed Data Store for the Social Graph",
+      "authors": [
+        "Nathan Bronson",
+        "Zach Amsden",
+        "George Cabrera",
+        "Prasad Chakka",
+        "Peter Dimov",
+        "Hui Ding",
+        "Jack Ferris",
+        "Anthony Giardullo",
+        "Sachin Kulkarni",
+        "Harry C. Li",
+        "Mark Marchukov",
+        "Dmitri Petrov",
+        "Lovro Puzar",
+        "Yee Jiun Song",
+        "Venkateshwaran Venkataramani"
+      ],
+      "pages": "49-60",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BronsonACCDDFGKLMPPSV13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BronsonACCDDFGKLMPPSV13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/bronson"
+      ]
+    },
+    {
+      "title": "The Harey Tortoise: Managing Heterogeneous Write Performance in SSDs",
+      "authors": [
+        "Laura M. Grupp",
+        "John D. Davis",
+        "Steven Swanson"
+      ],
+      "pages": "79-90",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GruppDS13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GruppDS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/grupp"
+      ]
+    },
+    {
+      "title": "Using a Neural Network for Forecasting in an Organic Traffic Control Management System",
+      "authors": [
+        "Matthias Sommer",
+        "Sven Tomforde",
+        "J&ouml;rg H&auml;hner"
+      ],
+      "pages": null,
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SommerTH13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SommerTH13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/esos13/workshop-program/presentation/sommer"
+      ]
+    },
+    {
+      "title": "Using One-Sided RDMA Reads to Build a Fast, CPU-Efficient Key-Value Store",
+      "authors": [
+        "Christopher Mitchell",
+        "Yifeng Geng",
+        "Jinyang Li 0001"
+      ],
+      "pages": "103-114",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MitchellGL13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MitchellGL13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/mitchell"
+      ]
+    },
+    {
+      "title": "vTurbo: Accelerating Virtual Machine I/O Processing Using Designated Turbo-Sliced Core",
+      "authors": [
+        "Cong Xu 0010",
+        "Sahan Gamage",
+        "Hui Lu 0001",
+        "Ramana Rao Kompella",
+        "Dongyan Xu"
+      ],
+      "pages": "243-254",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XuGLKX13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XuGLKX13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/xu"
+      ]
+    },
+    {
+      "title": "When Slower Is Faster: On Heterogeneous Multicores for Reliable Systems",
+      "authors": [
+        "Tom&aacute;s Hrub&yacute;",
+        "Herbert Bos",
+        "Andrew S. Tanenbaum"
+      ],
+      "pages": "255-266",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HrubyBT13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HrubyBT13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/hruby"
+      ]
+    },
+    {
+      "title": "XLH: More Effective Memory Deduplication Scanners Through Cross-layer Hints",
+      "authors": [
+        "Konrad Miller",
+        "Fabian Franz",
+        "Marc Rittinghaus",
+        "Marius Hillenbrand",
+        "Frank Bellosa"
+      ],
+      "pages": "279-290",
+      "year": "2013",
+      "venue": "USENIX ATC 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MillerFRHB13",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MillerFRHB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc13/technical-sessions/presentation/miller"
+      ]
+    }
+  ]
+}

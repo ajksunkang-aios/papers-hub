@@ -1,0 +1,986 @@
+{
+  "id": "fast-2026",
+  "venue": "fast",
+  "year": 2026,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2026.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2026.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2026",
+    "conf/fast/2026-1",
+    "conf/fast/2026-2",
+    "conf/fast/2026-3",
+    "conf/fast/2026-4",
+    "conf/fast/2026-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 44,
+  "display_count": 44,
+  "papers": [
+    {
+      "title": "\"Range as a Key\" is the Key! Fast and Compact Cloud Block Store Index with RASK",
+      "authors": [
+        "Haoru Zhao",
+        "Mingkai Dong 0002",
+        "Erci Xu",
+        "Zhongyu Wang",
+        "Haibo Chen 0001"
+      ],
+      "pages": "183-201",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Zhao0XW026",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Zhao0XW026.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/zhao"
+      ]
+    },
+    {
+      "title": "Accelerating Model Loading in LLM Inference by Programmable Page Cache",
+      "authors": [
+        "Yubo Liu",
+        "Hongbo Li 0007",
+        "Xiaojia Huang",
+        "Yongfeng Wang",
+        "Hanjun Guo",
+        "Hui Chen",
+        "Yuxin Ren 0001",
+        "Ning Jia 0004"
+      ],
+      "pages": "117-132",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Liu0HWGC0026",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Liu0HWGC0026.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/liu-yubo"
+      ]
+    },
+    {
+      "title": "ACOS: Apple's Geo-Distributed Object Store at Exabyte Scale",
+      "authors": [
+        "Benjamin Baron",
+        "Aline Bousquet",
+        "Eric Metens",
+        "Swapnil Pimpale",
+        "Nick Puz",
+        "Marc de Saint Sauveur",
+        "Varsha Muzumdar",
+        "Vinay Ari"
+      ],
+      "pages": "53-66",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BaronBMPPSMA26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BaronBMPPSMA26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/baron"
+      ]
+    },
+    {
+      "title": "AdaCheck: An Adaptive Checkpointing System for Efficient LLM Training with Redundancy Utilization",
+      "authors": [
+        "Weijie Liu",
+        "Shengwei Li",
+        "Zhiquan Lai",
+        "Keshi Ge",
+        "Qiaoling Chen",
+        "Peng Sun",
+        "Dongsheng Li 0001",
+        "Kai Lu 0001"
+      ],
+      "pages": "271-289",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuLLGCS0026",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuLLGCS0026.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/liu-weijie"
+      ]
+    },
+    {
+      "title": "Advancing Data Integrity in Linux",
+      "authors": [
+        "Anuj Gupta",
+        "Christoph Hellwig",
+        "Kanchan Joshi",
+        "Vikash Kumar",
+        "Javier Gonz&aacute;lez 0006",
+        "Roshan R. Nair",
+        "Jinyoung Choi"
+      ],
+      "pages": "643-657",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GuptaHJK0NC26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GuptaHJK0NC26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/gupta"
+      ]
+    },
+    {
+      "title": "An Efficient Cloud Storage Model with Compacted Metadata Management for Performance Monitoring Timeseries Systems",
+      "authors": [
+        "Kai Zhang",
+        "Tianyu Wang 0009",
+        "Zili Shao"
+      ],
+      "pages": "167-181",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Zhang0S26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Zhang0S26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/zhang-kai"
+      ]
+    },
+    {
+      "title": "Bidaw: Enhancing Key-Value Caching for Interactive LLM Serving via Bidirectional Computation-Storage Awareness",
+      "authors": [
+        "Shipeng Hu",
+        "Guangyan Zhang",
+        "Yuqi Zhou",
+        "Yaya Wei",
+        "Ziyan Zhong",
+        "Jike Chen"
+      ],
+      "pages": "101-116",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HuZZWZC26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HuZZWZC26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/hu-shipeng"
+      ]
+    },
+    {
+      "title": "Cache-Centric Multi-Resource Allocation for Storage Services",
+      "authors": [
+        "Chenhao Ye",
+        "Shawn Zhong",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "675-690",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YeZAA26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YeZAA26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/ye"
+      ]
+    },
+    {
+      "title": "CacheSlide: Unlocking Cross Position-Aware KV Cache Reuse for Accelerating LLM Serving",
+      "authors": [
+        "Yang Liu",
+        "Yunfei Gu",
+        "Liqiang Zhang 0010",
+        "Chentao Wu",
+        "Guangtao Xue",
+        "Jie Li 0002",
+        "Minyi Guo",
+        "Junhao Hu",
+        "Jie Meng"
+      ],
+      "pages": "83-99",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuG0WX0GHM26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuG0WX0GHM26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/liu-yang"
+      ]
+    },
+    {
+      "title": "CETOFS: A High-Performance File System with Host-Server Collaboration for Remote Storage",
+      "authors": [
+        "Wenqing Jia",
+        "Dejun Jiang 0001",
+        "Jin Xiong"
+      ],
+      "pages": "659-674",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Jia0X26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Jia0X26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/jia"
+      ]
+    },
+    {
+      "title": "Characterizing and Emulating FDP SSDs with WARP",
+      "authors": [
+        "Inho Song",
+        "Shoaib Asif Qazi",
+        "Javier Gonz&aacute;lez 0006",
+        "Matias Bj&oslash;rling",
+        "Sam H. Noh",
+        "Huaicheng Li"
+      ],
+      "pages": "347-362",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SongQ0BNL26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SongQ0BNL26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/song"
+      ]
+    },
+    {
+      "title": "CoFS: A Filesystem for Fast Container Startup",
+      "authors": [
+        "Li Wang",
+        "Jinxu Du",
+        "Yang Yang",
+        "Qingbo Wu",
+        "Tao Liu",
+        "Haoze Wu"
+      ],
+      "pages": "415-423",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangDYWLW26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangDYWLW26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/wang-li"
+      ]
+    },
+    {
+      "title": "Cost-efficient Archive Cloud Storage with Tape: Design and Deployment",
+      "authors": [
+        "Qing Wang 0031",
+        "Fan Yang 0134",
+        "Qiang Liu 0011",
+        "Geng Xiao",
+        "Yongpeng Chen",
+        "Hao Lan",
+        "Leiming Chen",
+        "Bangzhu Chen",
+        "Chenrui Liu",
+        "Pingchang Bai",
+        "Bin Huang",
+        "Zigan Luo",
+        "Mingyu Xie",
+        "Yu Wang 0002",
+        "Youyou Lu",
+        "Huatao Wu",
+        "Jiwu Shu"
+      ],
+      "pages": "19-34",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangYLXCLCCLBHL26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangYLXCLCCLBHL26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/wang"
+      ]
+    },
+    {
+      "title": "Cylon: Fast and Accurate Full-System Emulation of CXL-SSDs",
+      "authors": [
+        "Dongha Yoon",
+        "Hansen Idden",
+        "Jinshu Liu",
+        "Berkay Inceisci",
+        "Sam H. Noh",
+        "Huaicheng Li"
+      ],
+      "pages": "313-327",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YoonILINL26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YoonILINL26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/yoon"
+      ]
+    },
+    {
+      "title": "Discard-Based Garbage Collection for Distributed Log-Structured Storage Systems in ByteDance",
+      "authors": [
+        "Runhua Bian",
+        "Liqiang Zhang",
+        "Jinxin Liu",
+        "Jiacheng Zhang",
+        "Jianong Zhong",
+        "Jiahao Gu",
+        "Hao Guo",
+        "Zhihong Guo",
+        "Yunhao Li",
+        "Fenghao Zhang",
+        "Jiangkun Zhao",
+        "Yangming Chen",
+        "Guojun Li",
+        "Ruwen Fan",
+        "Haijia Shen",
+        "Chengyu Dong",
+        "Yao Wang 0022",
+        "Rui Shi",
+        "Jiwu Shu",
+        "Youyou Lu"
+      ],
+      "pages": "493-507",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BianZLZZGGGLZZC26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BianZLZZGGGLZZC26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/bian"
+      ]
+    },
+    {
+      "title": "DMTree: Towards Efficient Tree Indexing on Disaggregated Memory via Compute-side Collaborative Design",
+      "authors": [
+        "Guoli Wei",
+        "Yongkun Li 0001",
+        "Haoze Song",
+        "Tao Li",
+        "Lulu Yao",
+        "Yinlong Xu 0001",
+        "Heming Cui"
+      ],
+      "pages": "149-165",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Wei0SLY0C26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Wei0SLY0C26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/wei"
+      ]
+    },
+    {
+      "title": "DOGI: Data Placement with Oracle-Guided Insights for Log-Structured Systems",
+      "authors": [
+        "Jeeyun Kim",
+        "Seonggyun Oh",
+        "Jungwoo Kim",
+        "Jisung Park 0001",
+        "Jaeho Kim",
+        "Sungjin Lee 0001",
+        "Sam H. Noh"
+      ],
+      "pages": "543-559",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimOK0K0N26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimOK0K0N26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/kim-jeeyun"
+      ]
+    },
+    {
+      "title": "DPAS: A Prompt, Accurate and Safe I/O Completion Method for SSDs",
+      "authors": [
+        "Dongjoo Seo",
+        "Jihyeon Jung",
+        "Yeohwan Yoon",
+        "Ping-Xiang Chen",
+        "Yongsoo Joo",
+        "Sung-Soo Lim",
+        "Nikil D. Dutt"
+      ],
+      "pages": "381-397",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SeoJYCJLD26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SeoJYCJLD26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/seo"
+      ]
+    },
+    {
+      "title": "DRBoost: Boosting Degraded Read Performance in MSR-Coded Storage Clusters",
+      "authors": [
+        "Xiao Niu",
+        "Guangyan Zhang",
+        "Zhiyue Li",
+        "Sijie Cai"
+      ],
+      "pages": "613-629",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/NiuZLC26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/NiuZLC26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/niu"
+      ]
+    },
+    {
+      "title": "FailureMiner: A Joint Key Decision Mining Scheme for Practical SSD Failure Prediction and Analysis",
+      "authors": [
+        "Shuyang Wang",
+        "Yuqi Zhang",
+        "Haonan Luo",
+        "Kangkang Liu",
+        "Gil Kim",
+        "Jongsung Na",
+        "Claude Kim",
+        "Geunrok Oh",
+        "Kyle Choi",
+        "Ni Xue",
+        "Xing He"
+      ],
+      "pages": "597-611",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangZLLKNKOCXH26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangZLLKNKOCXH26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/wang-shuyang"
+      ]
+    },
+    {
+      "title": "Fast Cloud Storage for AI Jobs via Grouped I/O API with Transparent Read/Write Optimizations",
+      "authors": [
+        "Yingyi Hao",
+        "Ting Yao 0001",
+        "Xingda Wei",
+        "Dingyan Zhang",
+        "Tianle Sun",
+        "Yiwen Zhang",
+        "Zhiyong Fu",
+        "Huatao Wu",
+        "Rong Chen 0001"
+      ],
+      "pages": "255-270",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Hao0WZSZFW026",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Hao0WZSZFW026.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/hao"
+      ]
+    },
+    {
+      "title": "Getting the MOST out of your Storage Hierarchy with Mirror-Optimized Storage Tiering",
+      "authors": [
+        "Kaiwei Tu",
+        "Kan Wu",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "561-578",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TuWAA26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TuWAA26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/tu"
+      ]
+    },
+    {
+      "title": "GPU Checkpoint/Restore Made Fast and Lightweight",
+      "authors": [
+        "Shaoxun Zeng",
+        "Tingxu Ren",
+        "Jiwu Shu",
+        "Youyou Lu"
+      ],
+      "pages": "239-254",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZengRSL26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZengRSL26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/zeng"
+      ]
+    },
+    {
+      "title": "Here, There and Everywhere: The Past, the Present and the Future of Local Storage in Cloud",
+      "authors": [
+        "Leping Yang",
+        "Yanbo Zhou",
+        "Gong Zeng",
+        "Li Zhang",
+        "Saisai Zhang",
+        "Ruilin Wu",
+        "Chaoyang Sun",
+        "Shiyi Luo",
+        "Wenrui Li",
+        "Keqiang Niu",
+        "Xiaolu Zhang",
+        "Junping Wu",
+        "Jiaji Zhu",
+        "Jiesheng Wu",
+        "Mariusz Barczak",
+        "Wayne Gao",
+        "Ruiming Lu",
+        "Erci Xu",
+        "Guangtao Xue"
+      ],
+      "pages": "1-17",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YangZZZZWSLLNZW26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YangZZZZWSLLNZW26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/yang"
+      ]
+    },
+    {
+      "title": "Holistic and Automated Task Scheduling for Distributed LSM-tree-based Storage",
+      "authors": [
+        "Yuanming Ren",
+        "Siyuan Sheng",
+        "Zhang Cao 0005",
+        "Yongkun Li 0001",
+        "Patrick P. C. Lee"
+      ],
+      "pages": "203-219",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RenS00L26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RenS00L26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/ren"
+      ]
+    },
+    {
+      "title": "How Soon is Now? Preloading Images for Virtual Disks with ThinkAhead",
+      "authors": [
+        "Xinqi Chen",
+        "Yu Zhang",
+        "Erci Xu",
+        "Changhong Wang",
+        "Jifei Yi",
+        "Qiuping Wang",
+        "Shizhuo Sun",
+        "Zhongyu Wang",
+        "Haonan Wu",
+        "Junping Wu",
+        "Hailin Peng",
+        "Rong Liu",
+        "Yinhu Wang",
+        "Jiaji Zhu",
+        "Jiesheng Wu",
+        "Guangtao Xue",
+        "Patrick P. C. Lee"
+      ],
+      "pages": "399-414",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChenZXWYWSWWWPL26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChenZXWYWSWWWPL26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/chen"
+      ]
+    },
+    {
+      "title": "LESS is More for I/O-Efficient Repairs in Erasure-Coded Storage",
+      "authors": [
+        "Keyun Cheng",
+        "Guodong Li",
+        "Xiaolu Li 0002",
+        "Sihuang Hu",
+        "Patrick P. C. Lee"
+      ],
+      "pages": "631-641",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChengL0HL26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChengL0HL26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/cheng"
+      ]
+    },
+    {
+      "title": "Lockify: Understanding Linux Distributed Lock Management Overheads in Shared Storage",
+      "authors": [
+        "Taeyoung Park",
+        "Yunjae Jo",
+        "Daegyu Han",
+        "Beomseok Nam",
+        "Jaehyun Hwang"
+      ],
+      "pages": "691-700",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ParkJHNH26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ParkJHNH26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/park"
+      ]
+    },
+    {
+      "title": "MlsDisk: Trusted Block Storage for TEEs Based on Layered Secure Logging",
+      "authors": [
+        "Erci Xu",
+        "Xinyi Yu",
+        "Lujia Yin",
+        "Xinyuan Luo",
+        "Shaowei Song",
+        "Qingsong Chen",
+        "Shoumeng Yan",
+        "Jiwu Shu",
+        "Hongliang Tian",
+        "Yiming Zhang 0003"
+      ],
+      "pages": "443-459",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/XuYYLSCYST026",
+      "dblp_url": "https://dblp.org/rec/conf/fast/XuYYLSCYST026.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/xu"
+      ]
+    },
+    {
+      "title": "OdinANN: Direct Insert for Consistently Stable Performance in Billion-Scale Graph-Based Vector Search",
+      "authors": [
+        "Hao Guo",
+        "Youyou Lu"
+      ],
+      "pages": "133-147",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GuoL26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GuoL26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/guo"
+      ]
+    },
+    {
+      "title": "ParaSync: Exploiting Fine-Grained Parallelism for Efficient File Synchronization",
+      "authors": [
+        "Zhihao Zhang",
+        "Lu Tang 0004",
+        "Huiba Li",
+        "Yue Yu 0001",
+        "Guangtao Xue",
+        "Jiwu Shu",
+        "Yiming Zhang 0003"
+      ],
+      "pages": "477-492",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Zhang0LYXS026",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Zhang0LYXS026.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/zhang-zhihao-parasync"
+      ]
+    },
+    {
+      "title": "PolarStore: High-Performance Data Compression for Large-Scale Cloud-Native Databases",
+      "authors": [
+        "Qingda Hu",
+        "Xinjun Yang",
+        "Feifei Li 0001",
+        "Junru Li",
+        "Ya Lin",
+        "Yuqi Zhou",
+        "Yicong Zhu",
+        "Junwei Zhang",
+        "Rongbiao Xie",
+        "Ling Zhou",
+        "Bin Wu 0003",
+        "Wenchao Zhou"
+      ],
+      "pages": "509-525",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HuY0LLZZZXZWZ26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HuY0LLZZZXZWZ26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/hu"
+      ]
+    },
+    {
+      "title": "Preparation Meets Opportunity: Enhancing Data Preprocessing for ML Training With Seneca",
+      "authors": [
+        "Omkar Desai",
+        "Ziyang Jiao",
+        "Shuyi Pei",
+        "Janki Bhimani",
+        "Bryan S. Kim"
+      ],
+      "pages": "221-238",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DesaiJPBK26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DesaiJPBK26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/desai"
+      ]
+    },
+    {
+      "title": "Rearchitecting Buffered I/O in the Era of High-Bandwidth SSDs",
+      "authors": [
+        "Yekang Zhan",
+        "Tianze Wang",
+        "Zheng Peng 0017",
+        "Haichuan Hu",
+        "Jiahao Wu",
+        "Xiangrui Yang 0001",
+        "Qiang Cao 0001",
+        "Hong Jiang 0001",
+        "Jie Yao 0001"
+      ],
+      "pages": "579-595",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhanWPHW000026",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhanWPHW000026.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/zhan"
+      ]
+    },
+    {
+      "title": "RosenBridge: A Framework for Enabling Express I/O Paths Across the Virtualization Boundary",
+      "authors": [
+        "Shi Qiu",
+        "Li Wang",
+        "Jianqin Yan",
+        "Ruofan Xiong",
+        "Leping Yang",
+        "Xin Yao",
+        "Renhai Chen",
+        "Gong Zhang 0001",
+        "Dongsheng Li 0001",
+        "Jiwu Shu",
+        "Yiming Zhang"
+      ],
+      "pages": "425-441",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/QiuWYXYYC00SZ26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/QiuWYXYYC00SZ26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/qiu"
+      ]
+    },
+    {
+      "title": "ScaleSwap: A Scalable OS Swap System for All-Flash Swap Arrays",
+      "authors": [
+        "Taehwan Ahn",
+        "Chanhyeong Yu",
+        "Sangjin Lee 0003",
+        "Yongseok Son"
+      ],
+      "pages": "363-379",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AhnY0S26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AhnY0S26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/ahn"
+      ]
+    },
+    {
+      "title": "Sharpen the Spec, Cut the Code: A Case for Generative File System with SYSSPEC",
+      "authors": [
+        "Qingyuan Liu",
+        "Mo Zou",
+        "Hengbin Zhang",
+        "Dong Du 0003",
+        "Yubin Xia",
+        "Haibo Chen 0001"
+      ],
+      "pages": "291-311",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuZZ0X026",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuZZ0X026.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/liu-qingyuan"
+      ]
+    },
+    {
+      "title": "SkySync: Accelerating File Synchronization with Collaborative Delta Generation",
+      "authors": [
+        "Zhihao Zhang",
+        "Huiba Li",
+        "Lu Tang 0004",
+        "Guangtao Xue",
+        "Jiwu Shu",
+        "Yiming Zhang 0003"
+      ],
+      "pages": "461-476",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangL0XS026",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangL0XS026.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/zhang-zhihao"
+      ]
+    },
+    {
+      "title": "SolidAttention: Low-Latency SSD-based Serving on Memory-Constrained PCs",
+      "authors": [
+        "Xinrui Zheng",
+        "Dongliang Wei",
+        "Jianxiang Gao",
+        "Yixin Song",
+        "Zeyu Mi",
+        "Haibo Chen 0001"
+      ],
+      "pages": "67-82",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhengWGSM026",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhengWGSM026.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/zheng"
+      ]
+    },
+    {
+      "title": "Towards Condensed and Efficient Read-Only File System via Sort-Enhanced Compression",
+      "authors": [
+        "Hao Huang",
+        "Yifeng Zhang",
+        "Yanqi Pan",
+        "Wen Xia",
+        "Xiangyu Zou",
+        "Darong Yang",
+        "Jubin Zhong",
+        "Hua Liao"
+      ],
+      "pages": "35-51",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HuangZPXZYZL26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HuangZPXZYZL26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/huang"
+      ]
+    },
+    {
+      "title": "uCache: A Customizable Unikernel-based IO Cache",
+      "authors": [
+        "Ilya Meignan-Masson",
+        "Masanori Misono",
+        "Viktor Leis",
+        "Pramod Bhatotia"
+      ],
+      "pages": "701-720",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Meignan-MassonM26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Meignan-MassonM26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/meignan-masson"
+      ]
+    },
+    {
+      "title": "UnICom: A Universally High-Performant I/O Completion Mechanism for Modern Computer Systems",
+      "authors": [
+        "Riwei Pan",
+        "Yu Liang 0004",
+        "Sam H. Noh",
+        "Lei Li 0067",
+        "Nan Guan",
+        "Tei-Wei Kuo",
+        "Chun Jason Xue"
+      ],
+      "pages": "721-736",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Pan0NLGKX26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Pan0NLGKX26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/pan"
+      ]
+    },
+    {
+      "title": "Unleashing Zoned UFS: Cross-Layer Optimizations for Next-Generation Mobile Storage",
+      "authors": [
+        "Jungae Kim",
+        "Jaegeuk Kim",
+        "Kyu-Jin Cho",
+        "Sungjin Park",
+        "Jinwoo Kim",
+        "Jieun Kim",
+        "Iksung Oh",
+        "Chul Lee",
+        "Bart Van Assche",
+        "Daeho Jeong",
+        "Konstantin Vyshetsky",
+        "Jin-Soo Kim"
+      ],
+      "pages": "527-541",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimKCPKKOLAJVK26",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimKCPKKOLAJVK26.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/kim-jungae"
+      ]
+    },
+    {
+      "title": "Xerxes: Extensive Exploration of Scalable Hardware Systems with CXL-Based Simulation Framework",
+      "authors": [
+        "Yuda An",
+        "Shushu Yi",
+        "Bo Mao 0003",
+        "Qiao Li 0001",
+        "Mingzhe Zhang 0005",
+        "Diyu Zhou",
+        "Ke Zhou 0001",
+        "Nong Xiao 0001",
+        "Guangyu Sun 0003",
+        "Yingwei Luo",
+        "Jie Zhang 0048"
+      ],
+      "pages": "329-345",
+      "year": "2026",
+      "venue": "FAST 2026",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AnY00ZZ000L026",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AnY00ZZ000L026.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast26/presentation/an"
+      ]
+    }
+  ]
+}

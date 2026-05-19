@@ -1,0 +1,2122 @@
+{
+  "id": "usenix-2025",
+  "venue": "usenix",
+  "year": 2025,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2025.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2025.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2025",
+    "conf/usenix/2025-1",
+    "conf/usenix/2025-2",
+    "conf/usenix/2025-3",
+    "conf/usenix/2025-4",
+    "conf/usenix/2025-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 100,
+  "display_count": 100,
+  "papers": [
+    {
+      "title": "Accelerating Distributed Graph Learning by Using Collaborative In-Network Multicast and Aggregation",
+      "authors": [
+        "Zhaoyi Li",
+        "Jiawei Huang 0001",
+        "Yijun Li 0002",
+        "Jingling Liu",
+        "Junxue Zhang 0001",
+        "Hui Li 0120",
+        "Xiaojun Zhu",
+        "Shengwen Zhou",
+        "Jing Shao",
+        "Xiaojuan Lu",
+        "Qichen Su",
+        "Jianxin Wang 0001",
+        "Chee Wei Tan 0001",
+        "Yong Cui 0001",
+        "Kai Chen 0005"
+      ],
+      "pages": "233-247",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Li00L0LZZSLS00025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Li00L0LZZSLS00025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/li-zhaoyi"
+      ]
+    },
+    {
+      "title": "Accelerating Model Training on Ascend Chips: An Industrial System for Profiling, Analysis and Optimization",
+      "authors": [
+        "Yuhang Zhou",
+        "Zibo Wang",
+        "Zhibin Wang 0002",
+        "Ruyi Zhang 0005",
+        "Chen Tian 0001",
+        "Xiaoliang Wang 0001",
+        "Wanchun Dou",
+        "Guihai Chen",
+        "Bingqiang Wang",
+        "Yonghong Tian 0001",
+        "Yan Zhang 0002",
+        "Hui Wang 0030",
+        "Fuchun Wei",
+        "Boquan Sun",
+        "Jingyi Zhang",
+        "Bin She",
+        "Teng Su",
+        "Yifan Yao",
+        "Chunsheng Li",
+        "Ziyang Zhang",
+        "Yaoyuan Wang",
+        "Bin Zhou",
+        "Guyue Liu"
+      ],
+      "pages": "1387-1408",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhouWW000DCW0ZW25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhouWW000DCW0ZW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zhou"
+      ]
+    },
+    {
+      "title": "Accelerating Nested Virtualization with HyperTurtle",
+      "authors": [
+        "Ori Ben Zur",
+        "Jakob Krebs",
+        "Shai Aviram Bergman",
+        "Mark Silberstein"
+      ],
+      "pages": "987-1002",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZurKBS25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZurKBS25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zur"
+      ]
+    },
+    {
+      "title": "AnchorNet: Bridging Live and Collaborative Streaming with a Unified Architecture",
+      "authors": [
+        "Tong Meng",
+        "Wei Zhang",
+        "Dong Chen",
+        "Zhen Wang",
+        "Quanqing Li",
+        "Changqing Yan",
+        "Wei Yang",
+        "Chao Yuan",
+        "Le Zhang",
+        "Jianxin Kuang",
+        "Jianlin Xu"
+      ],
+      "pages": "1021-1036",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MengZCWLYYYZKX25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MengZCWLYYYZKX25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/meng"
+      ]
+    },
+    {
+      "title": "AssyLLM: Efficient Federated Fine-tuning of LLMs via Assembling Pre-trained Blocks",
+      "authors": [
+        "Shichen Zhan",
+        "Li Li 0064",
+        "Chengzhong Xu 0001"
+      ],
+      "pages": "1677-1691",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Zhan0025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Zhan0025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zhan"
+      ]
+    },
+    {
+      "title": "ASTERINAS: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB",
+      "authors": [
+        "Yuke Peng",
+        "Hongliang Tian",
+        "Junyang Zhang",
+        "Ruihan Li",
+        "Chengjun Chen",
+        "Jianfeng Jiang",
+        "Jinyi Xian",
+        "Xiaolin Wang 0001",
+        "Chenren Xu",
+        "Diyu Zhou",
+        "Yingwei Luo",
+        "Shoumeng Yan",
+        "Yinqian Zhang"
+      ],
+      "pages": "307-323",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PengTZLCJXWXZLY25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PengTZLCJXWXZLY25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/peng-yuke"
+      ]
+    },
+    {
+      "title": "Barre: Empowering Simplified and Versatile Programmable Congestion Control in High-Speed AI Clusters",
+      "authors": [
+        "Yajuan Peng",
+        "Haoran Wei",
+        "Xiaolong Zhong",
+        "Junkai Huang",
+        "Haohan Xu",
+        "Zicheng Wang",
+        "Yang Bai",
+        "Zhuo Jiang",
+        "Jianxi Ye",
+        "Xiaoliang Wang 0001",
+        "Xiaoming Fu 0001",
+        "Huichen Dai"
+      ],
+      "pages": "343-363",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PengWZHXWBJY00D25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PengWZHXWBJY00D25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/peng-yajuan"
+      ]
+    },
+    {
+      "title": "Bin2Wrong: a Unified Fuzzing Framework for Uncovering Semantic Errors in Binary-to-C Decompilers",
+      "authors": [
+        "Zao Yang",
+        "Stefan Nagy"
+      ],
+      "pages": "1161-1179",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YangN25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YangN25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/yang-zao"
+      ]
+    },
+    {
+      "title": "Bluetooth Low Energy Security Testing with Combinatorial Methods",
+      "authors": [
+        "Dominik-Philip Schreiber",
+        "Manuel Leithner",
+        "Jovan Zivanovic",
+        "Dimitris E. Simos"
+      ],
+      "pages": "1625-1638",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SchreiberLZS25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SchreiberLZS25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/schreiber"
+      ]
+    },
+    {
+      "title": "Burst Computing: Quick, Sudden, Massively Parallel Processing on Serverless Resources",
+      "authors": [
+        "Daniel Barcelona Pons",
+        "Aitor Arjona",
+        "Pedro Garc&iacute;a L&oacute;pez",
+        "Enrique Molina-Gim&eacute;nez",
+        "Stepan Klymonchuk"
+      ],
+      "pages": "39-56",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PonsALMK25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PonsALMK25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/barcelona-pons"
+      ]
+    },
+    {
+      "title": "CAFault: Enhance Fault Injection Technique in Practical Distributed Systems via Abundant Fault-Dependent Configurations",
+      "authors": [
+        "Yuanliang Chen",
+        "Fuchen Ma",
+        "Yuanhang Zhou",
+        "Zhen Yan",
+        "Yu Jiang 0001"
+      ],
+      "pages": "1409-1424",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChenMZY025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChenMZY025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/chen-yuanliang"
+      ]
+    },
+    {
+      "title": "Chitu: Avoiding Unnecessary Fallback in Byzantine Consensus",
+      "authors": [
+        "Rongji Huang",
+        "Xiangzhe Wang",
+        "Xiaofeng Yan",
+        "Lei Fan 0002",
+        "Guangtao Xue",
+        "Shengyun Liu"
+      ],
+      "pages": "923-942",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuangWY0XL25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuangWY0XL25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/huang-rongji"
+      ]
+    },
+    {
+      "title": "CLONE: Customizing LLMs for Efficient Latency-Aware Inference at the Edge",
+      "authors": [
+        "Chunlin Tian",
+        "Xinpeng Qin",
+        "Kahou Tam",
+        "Li Li 0064",
+        "Zijian Wang",
+        "Yuanzhe Zhao",
+        "Minglei Zhang",
+        "Chengzhong Xu 0001"
+      ],
+      "pages": "563-585",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TianQT0WZZ025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TianQT0WZZ025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/tian"
+      ]
+    },
+    {
+      "title": "Colocating ML Inference and Training with Fast GPU Memory Handover",
+      "authors": [
+        "Jiali Wang",
+        "Yankui Wang",
+        "Mingcong Han",
+        "Rong Chen 0001"
+      ],
+      "pages": "1657-1675",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangWH025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangWH025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wang-jiali"
+      ]
+    },
+    {
+      "title": "Converos: Practical Model Checking for Verifying Rust OS Kernel Concurrency",
+      "authors": [
+        "Ruize Tang",
+        "Minghua Wang",
+        "Xudong Sun 0013",
+        "Lin Huang 0005",
+        "Yu Huang 0002",
+        "Xiaoxing Ma"
+      ],
+      "pages": "1143-1159",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TangW0H0M25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TangW0H0M25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/tang"
+      ]
+    },
+    {
+      "title": "Cosmic: Cost-Effective Support for Cloud-Assisted 3D Printing",
+      "authors": [
+        "Yuan Yao",
+        "Chuan He",
+        "Chinedum Emmanuel Okwudire",
+        "Harsha V. Madhyastha"
+      ],
+      "pages": "73-88",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YaoHOM25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YaoHOM25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/yao"
+      ]
+    },
+    {
+      "title": "Crash Consistency in Block-Level Caching Systems: An Open CAS Case Study",
+      "authors": [
+        "Shaohua Duan",
+        "Youmin Chen"
+      ],
+      "pages": "749-764",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DuanC25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DuanC25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/duan-shaohua"
+      ]
+    },
+    {
+      "title": "CrossPipe: Towards Optimal Pipeline Schedules for Cross-Datacenter Training",
+      "authors": [
+        "Tiancheng Chen",
+        "Ales Kubicek",
+        "Langwen Huang",
+        "Torsten Hoefler"
+      ],
+      "pages": "1089-1108",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChenKHH25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChenKHH25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/chen-tiancheng"
+      ]
+    },
+    {
+      "title": "Cuckoo for Clients: Disaggregated Cuckoo Hashing",
+      "authors": [
+        "Stewart Grant",
+        "Alex C. Snoeren"
+      ],
+      "pages": "959-972",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GrantS25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GrantS25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/grant"
+      ]
+    },
+    {
+      "title": "DDLumos: Understanding and Detecting Atomic DDL Bugs in DBMSs",
+      "authors": [
+        "Zhiyong Wu 0010",
+        "Jie Liang 0006",
+        "Jingzhou Fu",
+        "Wenqian Deng",
+        "Yu Jiang 0001"
+      ],
+      "pages": "1327-1341",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/00100FD025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/00100FD025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wu-zhiyong"
+      ]
+    },
+    {
+      "title": "DEEPSERVE: Serverless Large Language Model Serving at Scale",
+      "authors": [
+        "Junhao Hu",
+        "Jiang Xu",
+        "Zhixia Liu",
+        "Yulong He",
+        "Yuetao Chen",
+        "Hao Xu",
+        "Jiang Liu",
+        "Jie Meng",
+        "Baoquan Zhang",
+        "Shining Wan",
+        "Gengyuan Dan",
+        "Zhiyu Dong",
+        "Zhihao Ren",
+        "Changhong Liu",
+        "Tao Xie",
+        "Dayun Lin",
+        "Qin Zhang",
+        "Yue Yu",
+        "Hao Feng",
+        "Xusheng Chen",
+        "Yizhou Shan"
+      ],
+      "pages": "57-72",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuXLHCXLMZWDDRL25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuXLHCXLMZWDDRL25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/hu-junhao"
+      ]
+    },
+    {
+      "title": "DRack: A CXL-Disaggregated Rack Architecture to Boost Inter-Rack Communication",
+      "authors": [
+        "Xu Zhang 0033",
+        "Ke Liu 0004",
+        "Yuan Hui 0001",
+        "Xiaolong Zheng",
+        "Yisong Chang",
+        "Yizhou Shan",
+        "Guanghui Zhang",
+        "Ke Zhang 0017",
+        "Yungang Bao",
+        "Mingyu Chen 0001",
+        "Chenxi Wang 0005"
+      ],
+      "pages": "1261-1279",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Zhang0HZCSZ0B0W25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Zhang0HZCSZ0B0W25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zhang-xu"
+      ]
+    },
+    {
+      "title": "DSA-2LM: A CPU-Free Tiered Memory Architecture with Intel DSA",
+      "authors": [
+        "Ruili Liu",
+        "Teng Ma 0006",
+        "Mingxing Zhang",
+        "Jialiang Huang",
+        "Yingdi Shan",
+        "Zheng Liu",
+        "Lingfeng Xiang",
+        "Zhen Lin",
+        "Hui Lu 0001",
+        "Jia Rao",
+        "Kang Chen",
+        "Yongwei Wu 0001"
+      ],
+      "pages": "1213-1222",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiuMZHSLXL0RC025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiuMZHSLXL0RC025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/liu-ruili"
+      ]
+    },
+    {
+      "title": "DShuffle: DPU-Optimized Shuffle Framework for Large-scale Data Processing",
+      "authors": [
+        "Chen Ding 0012",
+        "Sicen Li",
+        "Kai Lu 0002",
+        "Ting Yao 0001",
+        "Daohui Wang",
+        "Huatao Wu",
+        "Jiguang Wan 0001",
+        "Zhihu Tan",
+        "Changsheng Xie 0001"
+      ],
+      "pages": "1371-1386",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DingLLYWWWTX25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DingLLYWWWTX25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/ding"
+      ]
+    },
+    {
+      "title": "Efficient Performance-Aware GPU Sharing with Compatibility and Isolation through Kernel Space Interception",
+      "authors": [
+        "Shulai Zhang",
+        "Ao Xu",
+        "Quan Chen 0002",
+        "Han Zhao 0005",
+        "Weihao Cui",
+        "Zhen Wang",
+        "Yan Li",
+        "Limin Xiao 0001",
+        "Minyi Guo"
+      ],
+      "pages": "1003-1019",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangX00CWLXG25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangX00CWLXG25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zhang-shulai"
+      ]
+    },
+    {
+      "title": "Emulating Space Computing Networks with RHONE",
+      "authors": [
+        "Liying Wang 0011",
+        "Qing Li 0028",
+        "Yuhan Zhou",
+        "Zhaofeng Luo",
+        "Donghao Zhang",
+        "Shangguang Wang",
+        "Xuanzhe Liu",
+        "Chenren Xu"
+      ],
+      "pages": "815-831",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Wang0ZLZWLX25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Wang0ZLZWLX25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wang-liying"
+      ]
+    },
+    {
+      "title": "Fast ACS: Low-Latency File-Based Ordered Message Delivery at Scale",
+      "authors": [
+        "Sushant Kumar Gupta",
+        "Anil Raghunath Iyer",
+        "Chang Yu",
+        "Neel Bagora",
+        "Olivier Pomerleau",
+        "Vivek Kumar",
+        "Prunthaban Kanthakumar"
+      ],
+      "pages": "1-17",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuptaIYBPKK25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuptaIYBPKK25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/gupta"
+      ]
+    },
+    {
+      "title": "Fast Distributed Transactions for RDMA-based Disaggregated Memory",
+      "authors": [
+        "Haodi Lu",
+        "Haikun Liu",
+        "Yujian Zhang",
+        "Zhuohui Duan",
+        "Xiaofei Liao",
+        "Hai Jin 0001",
+        "Yu Zhang 0027"
+      ],
+      "pages": "943-958",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LuLZDL0025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LuLZDL0025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/lu"
+      ]
+    },
+    {
+      "title": "FiDe: Reliable and Fast Crash Failure Detection to Boost Datacenter Coordination",
+      "authors": [
+        "Davide Rovelli",
+        "Pavel Chuprikov",
+        "Philipp Berdesinski",
+        "Ali Pahlevan",
+        "Patrick Jahnke",
+        "Patrick Eugster"
+      ],
+      "pages": "765-788",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RovelliCBPJE25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RovelliCBPJE25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/rovelli"
+      ]
+    },
+    {
+      "title": "FLB: Fine-grained Load Balancing for Lossless Datacenter Networks",
+      "authors": [
+        "Jinbin Hu 0001",
+        "Wenxue Li 0004",
+        "Xiangzhou Liu",
+        "Junfeng Wang",
+        "Bowen Liu 0002",
+        "Ping Yin",
+        "Jianxin Wang 0001",
+        "Jiawei Huang 0001",
+        "Kai Chen 0005"
+      ],
+      "pages": "365-380",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuLLWLY00025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuLLWLY00025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/hu-jinbin"
+      ]
+    },
+    {
+      "title": "FlexPipe: Maximizing Training Efficiency for Transformer-based Models with Variable-Length Inputs",
+      "authors": [
+        "Hairui Zhao 0002",
+        "Qi Tian",
+        "Hongliang Li 0003",
+        "Zizhong Chen"
+      ],
+      "pages": "143-159",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhaoT0C25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhaoT0C25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zhao-hairui"
+      ]
+    },
+    {
+      "title": "GeneralSparse: Bridging the Gap in SpMM for Pruned Large Language Model Inference on GPUs",
+      "authors": [
+        "Yaoyu Wang",
+        "Xiao Guo",
+        "Junmin Xiao",
+        "De Chen",
+        "Guangming Tan"
+      ],
+      "pages": "417-432",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangGXCT25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangGXCT25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wang-yaoyu"
+      ]
+    },
+    {
+      "title": "GMI-DRL: Empowering Multi-GPU DRL with Adaptive-Grained Parallelism",
+      "authors": [
+        "Yuke Wang",
+        "Boyuan Feng",
+        "Zheng Wang 0075",
+        "Guyue Huang",
+        "Tony Tong Geng",
+        "Ang Li 0006",
+        "Yufei Ding 0001"
+      ],
+      "pages": "89-103",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangF0HG0025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangF0HG0025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wang-yuke"
+      ]
+    },
+    {
+      "title": "GPREEMPT: GPU Preemptive Scheduling Made General and Efficient",
+      "authors": [
+        "Ruwen Fan",
+        "Tingxu Ren",
+        "Minhui Xie",
+        "Shiwei Gao",
+        "Jiwu Shu",
+        "Youyou Lu"
+      ],
+      "pages": "263-272",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FanRXGSL25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FanRXGSL25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/fan"
+      ]
+    },
+    {
+      "title": "GREYHOUND: Hunting Fail-Slows in Hybrid-Parallel Training at Scale",
+      "authors": [
+        "Tianyuan Wu",
+        "Wei Wang 0030",
+        "Yinghao Yu",
+        "Siran Yang",
+        "Wenchao Wu",
+        "Qinkai Duan",
+        "Guodong Yang",
+        "Jiamang Wang",
+        "Lin Qu",
+        "Liping Zhang 0013"
+      ],
+      "pages": "731-747",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Wu0YYWDYWQZ25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Wu0YYWDYWQZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wu-tianyuan"
+      ]
+    },
+    {
+      "title": "HEC: Equivalence Verification Checking for Code Transformation via Equality Saturation",
+      "authors": [
+        "Jiaqi Yin",
+        "Zhan Song",
+        "Nicolas Bohm Agostini",
+        "Antonino Tumeo",
+        "Cunxi Yu"
+      ],
+      "pages": "1181-1196",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YinSATY25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YinSATY25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/yin"
+      ]
+    },
+    {
+      "title": "HotRAP: Hot Record Retention and Promotion for LSM-trees with Tiered Storage",
+      "authors": [
+        "Jiansheng Qiu",
+        "Fangzhou Yuan",
+        "Mingyu Gao 0001",
+        "Huanchen Zhang"
+      ],
+      "pages": "497-511",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/QiuYGZ25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/QiuYGZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/qiu"
+      ]
+    },
+    {
+      "title": "HyCache: Hybrid Caching for Accelerating DNN Input Preprocessing Pipelines",
+      "authors": [
+        "Keshav Vinayak Jha",
+        "Shweta Pandey 0001",
+        "Murali Annavaram",
+        "Arkaprava Basu"
+      ],
+      "pages": "433-448",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JhaPAB25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JhaPAB25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/jha"
+      ]
+    },
+    {
+      "title": "HypeReca: Distributed Heterogeneous In-Memory Embedding Database for Training Recommender Models",
+      "authors": [
+        "Jiaao He",
+        "Shengqi Chen 0001",
+        "Kezhao Huang",
+        "Jidong Zhai"
+      ],
+      "pages": "1071-1087",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/He0HZ25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/He0HZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/he-jiaao"
+      ]
+    },
+    {
+      "title": "Identifying and Analyzing Pitfalls in GNN Systems",
+      "authors": [
+        "Yidong Gong",
+        "Arnab Kanti Tarafder",
+        "Saima Afrin",
+        "Pradeep Kumar"
+      ],
+      "pages": "1605-1624",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GongTAK25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GongTAK25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/gong"
+      ]
+    },
+    {
+      "title": "Inferring Likely Counting-related Atomicity Program Properties for Persistent Memory",
+      "authors": [
+        "Yunmo Zhang",
+        "Junqiao Qiu",
+        "Hong Xu 0001",
+        "Chun Jason Xue"
+      ],
+      "pages": "1441-1450",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangQ0X25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangQ0X25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zhang-yunmo"
+      ]
+    },
+    {
+      "title": "Internet Connection Splitting: What's Old is New Again",
+      "authors": [
+        "Gina Yuan",
+        "Thea Rossman",
+        "Keith Winstein"
+      ],
+      "pages": "867-887",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YuanRW25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YuanRW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/yuan"
+      ]
+    },
+    {
+      "title": "IRHash: Efficient Multi-Language Compiler Caching by IR-Level Hashing",
+      "authors": [
+        "Tobias Landsberg",
+        "Johannes Grunenberg",
+        "Christian Dietrich 0001",
+        "Daniel Lohmann"
+      ],
+      "pages": "1467-1479",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LandsbergG0L25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LandsbergG0L25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/landsberg"
+      ]
+    },
+    {
+      "title": "JENGA: Enhancing LLM Long-Context Fine-tuning with Contextual Token Sparsity",
+      "authors": [
+        "Tuowei Wang",
+        "Xingyu Chen",
+        "Kun Li 0016",
+        "Ting Cao 0003",
+        "Ju Ren 0001",
+        "Yaoxue Zhang"
+      ],
+      "pages": "123-141",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangCLC0Z25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangCLC0Z25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wang-tuowei"
+      ]
+    },
+    {
+      "title": "Katz: Efficient Workflow Serving for Diffusion Models with Many Adapters",
+      "authors": [
+        "Suyi Li 0002",
+        "Lingyun Yang",
+        "Xiaoxiao Jiang",
+        "Hanfeng Lu",
+        "Dakai An",
+        "Zhipeng Di",
+        "Weiyi Lu",
+        "Jiawei Chen",
+        "Kan Liu",
+        "Yinghao Yu",
+        "Tao Lan",
+        "Guodong Yang",
+        "Lin Qu",
+        "Liping Zhang 0013",
+        "Wei Wang 0030"
+      ],
+      "pages": "1037-1052",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0002YJLADLCLYLY25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0002YJLADLCLYLY25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/li-suyi-katz"
+      ]
+    },
+    {
+      "title": "KVCache Cache in the Wild: Characterizing and Optimizing KVCache Cache at a Large Cloud Provider",
+      "authors": [
+        "Jiahao Wang",
+        "Jinbo Han",
+        "Xingda Wei",
+        "Sijie Shen",
+        "Dingyan Zhang",
+        "Chenguang Fang",
+        "Rong Chen 0001",
+        "Wenyuan Yu",
+        "Haibo Chen 0001"
+      ],
+      "pages": "465-482",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangHWSZF0Y025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangHWSZF0Y025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wang-jiahao"
+      ]
+    },
+    {
+      "title": "Learning-Enhanced High-Throughput Pattern Matching Based on Programmable Data Plane",
+      "authors": [
+        "Guanglin Duan",
+        "Yucheng Huang",
+        "Zhengxin Zhang",
+        "Qing Li 0006",
+        "Dan Zhao 0003",
+        "Zili Meng",
+        "Dirk Kutscher",
+        "Ruoyu Li 0003",
+        "Yong Jiang 0001",
+        "Mingwei Xu 0001"
+      ],
+      "pages": "1693-1712",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DuanHZ00MK00X25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DuanHZ00MK00X25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/duan-guanglin"
+      ]
+    },
+    {
+      "title": "LEOCraft: Towards Designing Performant LEO Networks",
+      "authors": [
+        "Suvam Basak",
+        "Amitangshu Pal",
+        "Debopam Bhattacherjee"
+      ],
+      "pages": "789-813",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BasakPB25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BasakPB25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/basak"
+      ]
+    },
+    {
+      "title": "LITESHIELD: Secure Containers via Lightweight, Composable Userspace μKernel Services",
+      "authors": [
+        "Kaesi Manakkal",
+        "Nathan Daughety",
+        "Marcus Pendleton",
+        "Hui Lu 0001"
+      ],
+      "pages": "973-985",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ManakkalDP025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ManakkalDP025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/manakkal"
+      ]
+    },
+    {
+      "title": "LogCrisp: Fast Aggregated Analysis on Large-scale Compressed Logs by Enabling Two-Phase Pattern Extraction and Vectorized Queries",
+      "authors": [
+        "Junyu Wei",
+        "Guangyan Zhang",
+        "Junchao Chen 0005",
+        "Qi Zhou 0001"
+      ],
+      "pages": "483-496",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WeiZ0025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WeiZ0025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wei"
+      ]
+    },
+    {
+      "title": "MARC: Motion-Aware Rate Control for Mobile E-commerce Cloud Rendering",
+      "authors": [
+        "Yuankang Zhao",
+        "Furong Yang",
+        "Gerui Lv",
+        "Qinghua Wu 0004",
+        "Yanmei Liu",
+        "Jiuhai Zhang",
+        "Yutang Peng",
+        "Feng Peng",
+        "Hongyu Guo",
+        "Ying Chen 0011",
+        "Zhenyu Li 0001",
+        "Gaogang Xie"
+      ],
+      "pages": "217-232",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhaoYL0LZPPG00X25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhaoYL0LZPPG00X25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zhao-yuankang"
+      ]
+    },
+    {
+      "title": "MemoryTrap: Booby Trapping Memory to Counter Memory Disclosure Attacks with Hardware Support",
+      "authors": [
+        "Chenke Luo",
+        "Jiang Ming 0002",
+        "Dongpeng Xu 0001",
+        "Guojun Peng",
+        "Jianming Fu"
+      ],
+      "pages": "1297-1318",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Luo00PF25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Luo00PF25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/luo"
+      ]
+    },
+    {
+      "title": "Minos : A Lightweight and Dynamic Defense against Traffic Analysis in Programmable Data Planes",
+      "authors": [
+        "Zihao Wang",
+        "Qing Li 0006",
+        "Guorui Xie",
+        "Dan Zhao 0003",
+        "Kejun Li",
+        "Zhuochen Fan",
+        "Lianbo Ma",
+        "Yong Jiang 0001"
+      ],
+      "pages": "399-415",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Wang0X0LFM025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Wang0X0LFM025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wang-zihao"
+      ]
+    },
+    {
+      "title": "Mitigating Resource Usage Dependency in Sorting-based KV Stores on Hybrid Storage Devices via Operation Decoupling",
+      "authors": [
+        "Qingyang Zhang",
+        "Yongkun Li 0001",
+        "Yubiao Pan",
+        "Haoting Tang",
+        "Yinlong Xu 0001"
+      ],
+      "pages": "513-529",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Zhang0PTX25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Zhang0PTX25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zhang-qingyang"
+      ]
+    },
+    {
+      "title": "mTuner: Accelerating Parameter-Efficient Fine-Tuning on Multi-GPU Servers with Elastic Tensor",
+      "authors": [
+        "Kezhao Huang",
+        "Siqi Zhu",
+        "Mingshu Zhai",
+        "Liyan Zheng 0001",
+        "Kinman Lei",
+        "Jiaao He",
+        "Yuyang Jin 0001",
+        "Jidong Zhai"
+      ],
+      "pages": "105-121",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuangZZ0LH0Z25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuangZZ0LH0Z25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/huang-kezhao"
+      ]
+    },
+    {
+      "title": "NetKeeper: Enhancing Network Resilience with Autonomous Network Configuration Update on Traffic Patterns and Anomalies",
+      "authors": [
+        "Zhaoyang Wan",
+        "Rongxin Han",
+        "Haifeng Sun 0001",
+        "Qi Qi 0001",
+        "Zirui Zhuang",
+        "Bo He 0003",
+        "Liang Zhang",
+        "Jianxin Liao",
+        "Jingyu Wang 0001"
+      ],
+      "pages": "715-730",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WanH00Z0ZL025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WanH00Z0ZL025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wan"
+      ]
+    },
+    {
+      "title": "Obscura: Concealing Recomputation Overhead in Training of Large Language Models with Bubble-filling Pipeline Transformation",
+      "authors": [
+        "Yuzhou Huang",
+        "Yapeng Jiang",
+        "Zicong Hong",
+        "Wuhui Chen",
+        "Bin Wang 0034",
+        "Weixi Zhu",
+        "Yue Yu 0001",
+        "Zibin Zheng"
+      ],
+      "pages": "665-678",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuangJHC0Z0Z25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuangJHC0Z0Z25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/huang-yuzhou"
+      ]
+    },
+    {
+      "title": "On-Demand Container Partitioning for Distributed ML",
+      "authors": [
+        "Giovanni Bartolomeo",
+        "Navidreza Asadi",
+        "Wolfgang Kellerer",
+        "J&ouml;rg Ott",
+        "Nitinder Mohan"
+      ],
+      "pages": "1481-1500",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BartolomeoAKOM25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BartolomeoAKOM25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/bartolomeo"
+      ]
+    },
+    {
+      "title": "Opening Up Kernel-Bypass TCP Stacks",
+      "authors": [
+        "Shinichi Awamoto",
+        "Michio Honda"
+      ],
+      "pages": "249-262",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AwamotoH25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AwamotoH25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/awamoto"
+      ]
+    },
+    {
+      "title": "Optimizing Input Minimization in Kernel Fuzzing",
+      "authors": [
+        "Hui Guo",
+        "Hao Sun 0021",
+        "Shan Huang",
+        "Ting Su 0001",
+        "Geguang Pu",
+        "Shaohua Li 0002"
+      ],
+      "pages": "1451-1465",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuoSH0P025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuoSH0P025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/guo"
+      ]
+    },
+    {
+      "title": "Optimus: Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation",
+      "authors": [
+        "Weiqi Feng",
+        "Yangrui Chen",
+        "Shaoyu Wang",
+        "Yanghua Peng",
+        "Haibin Lin",
+        "Minlan Yu"
+      ],
+      "pages": "161-177",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FengCWPLY25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FengCWPLY25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/feng"
+      ]
+    },
+    {
+      "title": "PageFlex: Flexible and Efficient User-space Delegation of Linux Paging Policies with eBPF",
+      "authors": [
+        "Anil Yelam",
+        "Kan Wu",
+        "Zhiyuan Guo",
+        "Suli Yang",
+        "Rajath Shashidhara",
+        "Wei Xu",
+        "Stanko Novakovic",
+        "Alex C. Snoeren",
+        "Kimberly Keeton"
+      ],
+      "pages": "291-306",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YelamWGYSXNSK25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YelamWGYSXNSK25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/yelam"
+      ]
+    },
+    {
+      "title": "Para-ksm: Parallelized Memory Deduplication with Data Streaming Accelerator",
+      "authors": [
+        "Houxiang Ji",
+        "Minho Kim",
+        "Seonmu Oh",
+        "Daehoon Kim 0001",
+        "Nam Sung Kim"
+      ],
+      "pages": "1197-1212",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JiKOKK25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JiKOKK25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/ji"
+      ]
+    },
+    {
+      "title": "PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search",
+      "authors": [
+        "Sukjin Kim",
+        "Seongyeon Park",
+        "Si Ung Noh",
+        "Junguk Hong",
+        "Taehee Kwon 0002",
+        "Hunseong Lim",
+        "Jinho Lee 0001"
+      ],
+      "pages": "1501-1517",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KimPNHKLL25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KimPNHKLL25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/kim"
+      ]
+    },
+    {
+      "title": "PluS: Highly Efficient and Expandable ML Compiler with Pluggable Graph Schedules",
+      "authors": [
+        "Ruofan Wu",
+        "Zhen Zheng",
+        "Feng Zhang 0007",
+        "Chuanjie Liu",
+        "Zaifeng Pan",
+        "Jidong Zhai",
+        "Xiaoyong Du 0001"
+      ],
+      "pages": "647-663",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WuZ0LPZ025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WuZ0LPZ025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wu-ruofan"
+      ]
+    },
+    {
+      "title": "PMR: Fast Application Response via Parallel Memory Reclaim on Mobile Devices",
+      "authors": [
+        "Wentong Li 0002",
+        "Li-Pin Chang",
+        "Yu Mao",
+        "Liang Shi 0001"
+      ],
+      "pages": "1569-1584",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0002CM025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0002CM025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/li-wentong"
+      ]
+    },
+    {
+      "title": "Poby: SmartNIC-accelerated Image Provisioning for Coldstart in Clouds",
+      "authors": [
+        "Zihao Chang",
+        "Jiaqi Zhu",
+        "Haifeng Sun 0004",
+        "Yunlong Xie",
+        "Kan Shi",
+        "Ninghui Sun",
+        "Yungang Bao",
+        "Sa Wang"
+      ],
+      "pages": "19-37",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChangZ0XSSBW25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChangZ0XSSBW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/chang"
+      ]
+    },
+    {
+      "title": "PopFetcher: Towards Accelerated Mixture-of-Experts Training Via Popularity Based Expert-Wise Prefetch",
+      "authors": [
+        "Junyi Zhang",
+        "Chuanhu Ma",
+        "Xiong Wang 0006",
+        "Yuntao Nie",
+        "Yuqing Li 0001",
+        "Yuedong Xu 0001",
+        "Xiaofei Liao",
+        "Bo Li 0001",
+        "Hai Jin 0001"
+      ],
+      "pages": "1053-1069",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangMWNL0L0025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangMWNL0L0025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zhang-junyi"
+      ]
+    },
+    {
+      "title": "PPipe: Efficient Video Analytics Serving on Heterogeneous GPU Clusters via Pool-Based Pipeline Parallelism",
+      "authors": [
+        "Z. Jonny Kong",
+        "Qiang Xu 0006",
+        "Y. Charlie Hu"
+      ],
+      "pages": "679-698",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Kong0H25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Kong0H25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/kong"
+      ]
+    },
+    {
+      "title": "Primus: Unified Training System for Large-Scale Deep Learning Recommendation Models",
+      "authors": [
+        "Jixi Shan",
+        "Xiuqi Huang",
+        "Yang Guo",
+        "Hongyue Mao",
+        "Ho-Pang Hsu",
+        "Hang Cheng",
+        "Can Wang",
+        "Jun Song",
+        "Rui Shi",
+        "Xiaofeng Gao 0001",
+        "Jingwei Xu",
+        "Shiru Ren",
+        "Jiaxiao Zheng",
+        "Hua Huang",
+        "Lele Yu",
+        "Peng Xu",
+        "Guihai Chen"
+      ],
+      "pages": "905-922",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShanHGMHCWSS0XR25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShanHGMHCWSS0XR25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/shan-jixi"
+      ]
+    },
+    {
+      "title": "QFactory: Accelerating Quantized Large Language Model Serving with Qtile Graphs",
+      "authors": [
+        "Qihao Zhang",
+        "Mingshu Zhai",
+        "Rui Sun",
+        "Jidong Zhai"
+      ],
+      "pages": "631-646",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangZSZ25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangZSZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zhang-qihao"
+      ]
+    },
+    {
+      "title": "Resource Multiplexing in Tuning and Serving Large Language Models",
+      "authors": [
+        "Yongjun He 0004",
+        "Haofeng Yang",
+        "Yao Lu 0028",
+        "Ana Klimovic",
+        "Gustavo Alonso"
+      ],
+      "pages": "1639-1655",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0004YLKA25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0004YLKA25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/he-yongjun"
+      ]
+    },
+    {
+      "title": "Revealing Floating-Point Accumulation Orders in Software/Hardware Implementations",
+      "authors": [
+        "Peichen Xie",
+        "Yanjie Gao",
+        "Yang Wang",
+        "Jilong Xue"
+      ],
+      "pages": "1425-1440",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XieGWX25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XieGWX25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/xie"
+      ]
+    },
+    {
+      "title": "Rex: Closing the language-verifier gap with safe and usable kernel extensions",
+      "authors": [
+        "Jinghao Jia",
+        "Ruowen Qin",
+        "Milo Craun",
+        "Egor Lukiyanov",
+        "Ayush Bansal",
+        "Minh Phan",
+        "Michael V. Le",
+        "Hubertus Franke",
+        "Hani Jamjoom",
+        "Tianyin Xu",
+        "Dan Williams 0001"
+      ],
+      "pages": "325-342",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JiaQCLBPLFJX025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JiaQCLBPLFJX025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/jia"
+      ]
+    },
+    {
+      "title": "Roaming Free in the VR World with MP2",
+      "authors": [
+        "Yifei Xu",
+        "Xumiao Zhang",
+        "Yuning Chen",
+        "Pan Hu",
+        "Xuan Zeng 0002",
+        "Zhilong Zheng",
+        "Xianshang Lin",
+        "Yanmei Liu",
+        "Songwu Lu",
+        "Z. Morley Mao",
+        "Wan Du",
+        "Dennis Cai",
+        "Ennan Zhai",
+        "Yunfei Ma"
+      ],
+      "pages": "833-850",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XuZCHZZLLLMDCZM25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XuZCHZZLLLMDCZM25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/xu"
+      ]
+    },
+    {
+      "title": "SAVE: Software-Implemented Fault Tolerance for Model Inference against GPU Memory Bit Flips",
+      "authors": [
+        "Wenxin Zheng",
+        "Bin Xu",
+        "Jinyu Gu 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "1585-1604",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhengX0025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhengX0025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zheng"
+      ]
+    },
+    {
+      "title": "Separate but Together: Integrating Remote Attestation into TLS",
+      "authors": [
+        "Carsten Weinhold",
+        "Muhammad Usama Sardar",
+        "Ionut Mihalcea",
+        "Yogesh Deshpande",
+        "Hannes Tschofenig",
+        "Yaron Sheffer",
+        "Thomas Fossati",
+        "Michael Roitzsch"
+      ],
+      "pages": "1319-1326",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WeinholdSMDTSFR25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WeinholdSMDTSFR25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/weinhold"
+      ]
+    },
+    {
+      "title": "ShieldReduce: Fine-Grained Shielded Data Reduction",
+      "authors": [
+        "Jingyuan Yang 0018",
+        "Jun Wu 0001",
+        "Ruilin Wu",
+        "Jingwei Li 0001",
+        "Patrick P. C. Lee",
+        "Xiong Li 0002",
+        "Xiaosong Zhang 0001"
+      ],
+      "pages": "1281-1296",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YangWW0L0025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YangWW0L0025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/yang-jingyuan"
+      ]
+    },
+    {
+      "title": "SNARY: A High-Performance and Generic SmartNIC-accelerated Retrieval System",
+      "authors": [
+        "Qiaoyin Gan",
+        "Heng Pan",
+        "Luyang Li",
+        "Kai Lv",
+        "Hongtao Guan",
+        "Zhaohua Wang",
+        "Zhenyu Li 0001",
+        "Gaogang Xie"
+      ],
+      "pages": "381-398",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GanPLLGW0X25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GanPLLGW0X25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/gan"
+      ]
+    },
+    {
+      "title": "SolFS: An Operation-Log Versioning File System for Hash-free Efficient Mobile Cloud Backup",
+      "authors": [
+        "Riwei Pan",
+        "Yu Liang 0004",
+        "Lei Li 0067",
+        "Hongchao Du",
+        "Tei-Wei Kuo",
+        "Chun Jason Xue"
+      ],
+      "pages": "531-545",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Pan0LDKX25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Pan0LDKX25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/pan"
+      ]
+    },
+    {
+      "title": "SpaceExit: Enabling Efficient Adaptive Computing in Space with Early Exits",
+      "authors": [
+        "Jiacheng Liu 0001",
+        "Xiaozhi Zhu",
+        "Tongqiao Xu",
+        "Xiaofeng Hou",
+        "Chao Li 0009"
+      ],
+      "pages": "1343-1358",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0001ZXH025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0001ZXH025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/liu-jiacheng"
+      ]
+    },
+    {
+      "title": "STORM: a Multipath QUIC Scheduler for Quick Streaming Media Transport under Unstable Mobile Networks",
+      "authors": [
+        "Liekun Hu",
+        "Changlong Li"
+      ],
+      "pages": "851-866",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuL25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuL25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/hu-liekun"
+      ]
+    },
+    {
+      "title": "SwCC: Software-Programmable and Per-Packet Congestion Control in RDMA Engine",
+      "authors": [
+        "Hongjing Huang",
+        "Jie Zhang 0081",
+        "Xuzheng Chen",
+        "Ziyu Song",
+        "Jiajun Qin",
+        "Zeke Wang"
+      ],
+      "pages": "1243-1260",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Huang0CSQW25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Huang0CSQW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/huang-hongjing"
+      ]
+    },
+    {
+      "title": "Swift: Fast Performance Tuning with GAN-Generated Configurations",
+      "authors": [
+        "Chao Chen 0022",
+        "Shixin Huang",
+        "Xuehai Qian",
+        "Zhibin Yu 0001"
+      ],
+      "pages": "1553-1568",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0022HQ025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0022HQ025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/chen-chao"
+      ]
+    },
+    {
+      "title": "TGW: Operating an Efficient and Resilient Cloud Gateway at Scale",
+      "authors": [
+        "Yifan Yang 0009",
+        "Lin He 0004",
+        "Jiasheng Zhou",
+        "Xiaoyi Shi",
+        "Yichi Xu",
+        "Shicheng Wang",
+        "Jinlong E",
+        "Ying Liu 0024",
+        "Junwei Zhang",
+        "Zhuang Yuan",
+        "Hengyang Xu"
+      ],
+      "pages": "199-215",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/00090ZSXWE0ZYX25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/00090ZSXWE0ZYX25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/yang-yifan"
+      ]
+    },
+    {
+      "title": "The Koala Benchmarks for the Shell: Characterization and Implications",
+      "authors": [
+        "Evangelos Lamprou",
+        "Ethan Williams",
+        "Georgios Kaoukis",
+        "Zhuoxuan Zhang",
+        "Michael Greenberg 0002",
+        "Konstantinos Kallas",
+        "Lukas Lazarek",
+        "Nikos Vasilakis"
+      ],
+      "pages": "449-464",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LamprouWKZ0KLV25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LamprouWKZ0KLV25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/lamprou"
+      ]
+    },
+    {
+      "title": "Toppings: CPU-Assisted, Rank-Aware Adapter Serving for LLM Inference",
+      "authors": [
+        "Suyi Li 0002",
+        "Hanfeng Lu",
+        "Tianyuan Wu",
+        "Minchen Yu",
+        "Qizhen Weng 0001",
+        "Xusheng Chen",
+        "Yizhou Shan",
+        "Binhang Yuan",
+        "Wei Wang 0030"
+      ],
+      "pages": "613-629",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0002LWYWCSY025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0002LWYWCSY025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/li-suyi-toppings"
+      ]
+    },
+    {
+      "title": "Torpor: GPU-Enabled Serverless Computing for Low-Latency, Resource-Efficient Inference",
+      "authors": [
+        "Minchen Yu",
+        "Ao Wang",
+        "Dong Chen",
+        "Haoxuan Yu",
+        "Xiaonan Luo",
+        "Zhuohao Li",
+        "Wei Wang 0030",
+        "Ruichuan Chen",
+        "Dapeng Nie",
+        "Haoran Yang",
+        "Yu Ding"
+      ],
+      "pages": "597-612",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YuWCYLL0CNYD25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YuWCYLL0CNYD25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/yu"
+      ]
+    },
+    {
+      "title": "Towards High-Performance Transactional Stateful Serverless Workflows with Affinity-Aware Leasing",
+      "authors": [
+        "Jianjun Zhao 0003",
+        "Haikun Liu",
+        "Shuhao Zhang 0001",
+        "Haodi Lu",
+        "Yancan Mao",
+        "Zhuohui Duan",
+        "Xiaofei Liao",
+        "Hai Jin 0001"
+      ],
+      "pages": "1535-1551",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0003L0LMDL025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0003L0LMDL025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zhao-jianjun"
+      ]
+    },
+    {
+      "title": "Towards Optimal Rack-scale μs-level CPU Scheduling through In-Network Workload Shaping",
+      "authors": [
+        "Xudong Liao",
+        "Han Tian",
+        "Xinchen Wan",
+        "Chaoliang Zeng",
+        "Hao Wang 0116",
+        "Junxue Zhang 0001",
+        "Mengyu Ma",
+        "Guyue Liu",
+        "Kai Chen 0005"
+      ],
+      "pages": "179-198",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiaoTWZ00ML025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiaoTWZ00ML025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/liao"
+      ]
+    },
+    {
+      "title": "Turbocharge ANNS on Real Processing-in-Memory by Enabling Fine-Grained Per-PIM-Core Scheduling",
+      "authors": [
+        "Puqing Wu",
+        "Minhui Xie",
+        "Enrui Zhao",
+        "Dafang Zhang",
+        "Jing Wang",
+        "Xiao Liang",
+        "Kai Ren",
+        "Yunpeng Chai"
+      ],
+      "pages": "1223-1241",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WuXZZWLRC25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WuXZZWLRC25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wu-puqing"
+      ]
+    },
+    {
+      "title": "Understanding and Detecting Fail-Slow Hardware Failure Bugs in Cloud Systems",
+      "authors": [
+        "Gen Dong",
+        "Yu Hua 0001",
+        "Yongle Zhang",
+        "Zhangyu Chen",
+        "Menglei Chen"
+      ],
+      "pages": "1127-1142",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Dong0ZCC25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Dong0ZCC25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/dong"
+      ]
+    },
+    {
+      "title": "Universal Checkpointing: A Flexible and Efficient Distributed Checkpointing System for Large-Scale DNN Training with Reconfigurable Parallelism",
+      "authors": [
+        "Xinyu Lian",
+        "Sam Ade Jacobs",
+        "Lev Kurilenko",
+        "Masahiro Tanaka",
+        "Stas Bekman",
+        "Olatunji Ruwase",
+        "Minjia Zhang"
+      ],
+      "pages": "1519-1534",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LianJKTBRZ25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LianJKTBRZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/lian"
+      ]
+    },
+    {
+      "title": "Unveiling Compiler Faults via Attribute-Guided Compilation Space Exploration",
+      "authors": [
+        "Jiangchang Wu",
+        "Yibiao Yang",
+        "Maolin Sun",
+        "Yuming Zhou"
+      ],
+      "pages": "1109-1125",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WuYSZ25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WuYSZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/wu-jiangchang"
+      ]
+    },
+    {
+      "title": "Voltrix: Sparse Matrix-Matrix Multiplication on Tensor Cores with Asynchronous and Balanced Kernel Optimization",
+      "authors": [
+        "Yaqi Xia",
+        "Weihu Wang",
+        "Donglin Yang",
+        "Xiaobo Zhou 0002",
+        "Dazhao Cheng"
+      ],
+      "pages": "699-714",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XiaWY0C25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XiaWY0C25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/xia"
+      ]
+    },
+    {
+      "title": "Weaver: Efficient Multi-LLM Serving with Attention Offloading",
+      "authors": [
+        "Shiwei Gao",
+        "Qing Wang 0031",
+        "Shaoxun Zeng",
+        "Youyou Lu",
+        "Jiwu Shu"
+      ],
+      "pages": "587-595",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Gao0ZLS25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Gao0ZLS25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/gao"
+      ]
+    },
+    {
+      "title": "WIC: Hiding Producer-Consumer Synchronization Delays with Warp-Level Interrupt-based GPU Communications",
+      "authors": [
+        "Jiajian Zhang",
+        "Fangyu Wu 0001",
+        "Hai Jiang 0003",
+        "Qiufeng Wang 0001",
+        "Genlang Chen",
+        "Chaoyi Pang"
+      ],
+      "pages": "889-904",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Zhang000CP25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Zhang000CP25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/zhang-jiajian"
+      ]
+    },
+    {
+      "title": "XRT: An Accelerator-Aware Runtime for Accelerated Chip Multiprocessors",
+      "authors": [
+        "Neel Patel",
+        "Mohammad Alian"
+      ],
+      "pages": "1359-1369",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PatelA25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PatelA25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/patel"
+      ]
+    },
+    {
+      "title": "Z-LFS: A Zoned Namespace-tailored Log-structured File System for Commodity Small-zone ZNS SSDs",
+      "authors": [
+        "Inhwi Hwang",
+        "Sangjin Lee 0003",
+        "Sunggon Kim",
+        "Hyeonsang Eom",
+        "Yongseok Son"
+      ],
+      "pages": "547-562",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Hwang0KES25",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Hwang0KES25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/hwang"
+      ]
+    },
+    {
+      "title": "μEFI: A Microkernel-Style UEFI with Isolation and Transparency",
+      "authors": [
+        "Le Chen",
+        "Yiyang Wu",
+        "Jinyu Gu 0001",
+        "Yubin Xia",
+        "Haibo Chen 0001"
+      ],
+      "pages": "273-289",
+      "year": "2025",
+      "venue": "USENIX ATC 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChenW0X025",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChenW0X025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc25/presentation/chen-le"
+      ]
+    }
+  ]
+}

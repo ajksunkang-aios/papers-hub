@@ -1,0 +1,947 @@
+{
+  "id": "usenix-2000",
+  "venue": "usenix",
+  "year": 2000,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2000.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2000.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2000",
+    "conf/usenix/2000-1",
+    "conf/usenix/2000-2",
+    "conf/usenix/2000-3",
+    "conf/usenix/2000-4",
+    "conf/usenix/2000-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 56,
+  "display_count": 56,
+  "papers": [
+    {
+      "title": "A 3-Tier RAID Storage System with RAID1, RAID5, and Compressed RAID5 for Linux",
+      "authors": [
+        "K. Gopinath",
+        "Nitin Muppalaneni",
+        "N. Suresh Kumar",
+        "Pankaj Risbood"
+      ],
+      "pages": "21-34",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GopinathMKR00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GopinathMKR00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/gopinath.html"
+      ]
+    },
+    {
+      "title": "A Comparison of File System Workloads",
+      "authors": [
+        "Drew S. Roselli",
+        "Jacob R. Lorch",
+        "Thomas E. Anderson"
+      ],
+      "pages": "41-54",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RoselliLA00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RoselliLA00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/roselli.html"
+      ]
+    },
+    {
+      "title": "A New Rendering Model for X",
+      "authors": [
+        "Keith Packard"
+      ],
+      "pages": "279-284",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Packard00a",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Packard00a.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/packardrender.html"
+      ]
+    },
+    {
+      "title": "Accept() Scalability in Linux",
+      "authors": [
+        "Stephen Molloy",
+        "Chuck Lever"
+      ],
+      "pages": "121-128",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MolloyL00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MolloyL00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/molloy.html"
+      ]
+    },
+    {
+      "title": "An Operating System in Java for the Lego Mindstorms RCX Microcontroller",
+      "authors": [
+        "Pekka Nikander"
+      ],
+      "pages": "235-249",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Nikander00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Nikander00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/nikander.html"
+      ]
+    },
+    {
+      "title": "Auto-Diagnosis of Field Problems in an Appliance Operating System",
+      "authors": [
+        "Gaurav Banga"
+      ],
+      "pages": "293-306",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Banga00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Banga00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/banga.html"
+      ]
+    },
+    {
+      "title": "Distributed Computing: Moving from CGI to CORBA",
+      "authors": [
+        "James FitzGibbon",
+        "Tim Strike"
+      ],
+      "pages": "139-148",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FitzGibbonS00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FitzGibbonS00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/fitzgibbon.html"
+      ]
+    },
+    {
+      "title": "DITools: Application-level Support for Dynamic Extension and Flexible Composition",
+      "authors": [
+        "Albert Serra",
+        "Nacho Navarro",
+        "Toni Cortes"
+      ],
+      "pages": "225-238",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SerraNC00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SerraNC00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/serra.html"
+      ]
+    },
+    {
+      "title": "DMFS-A Data Migration File System for NetBSD",
+      "authors": [
+        "William Studenmund"
+      ],
+      "pages": "11-20",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Studenmund00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Studenmund00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/studenmund.html"
+      ]
+    },
+    {
+      "title": "Dynamic Function Placement for Data-Intensive Cluster Computing",
+      "authors": [
+        "Khalil Amiri",
+        "David Petrou",
+        "Gregory R. Ganger",
+        "Garth A. Gibson"
+      ],
+      "pages": "307-322",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AmiriPGG00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AmiriPGG00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/amiri.html"
+      ]
+    },
+    {
+      "title": "Efficiently Scheduling X Clients",
+      "authors": [
+        "Keith Packard"
+      ],
+      "pages": "175-186",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Packard00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Packard00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/packardefficient.html"
+      ]
+    },
+    {
+      "title": "Extended Data Formatting Using Sfio",
+      "authors": [
+        "Glenn S. Fowler",
+        "David G. Korn",
+        "Kiem-Phong Vo"
+      ],
+      "pages": "107-116",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FowlerKV00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FowlerKV00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/fowler.html"
+      ]
+    },
+    {
+      "title": "Extending Internet Services via LDAP",
+      "authors": [
+        "James E. Dutton"
+      ],
+      "pages": "35-48",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Dutton00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Dutton00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/dutton.html"
+      ]
+    },
+    {
+      "title": "FiST: A Language for Stackable File Systems",
+      "authors": [
+        "Erez Zadok",
+        "Jason Nieh"
+      ],
+      "pages": "55-70",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZadokN00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZadokN00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/zadok.html"
+      ]
+    },
+    {
+      "title": "Gecko: Tracking a Very Large Billing System",
+      "authors": [
+        "Andrew Hume",
+        "Scott Daniels",
+        "Angus MacLellan"
+      ],
+      "pages": "93-106",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HumeDM00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HumeDM00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/hume.html"
+      ]
+    },
+    {
+      "title": "Implementing Internet Key Exchange (IKE)",
+      "authors": [
+        "Niklas Hallqvist",
+        "Angelos D. Keromytis"
+      ],
+      "pages": "201-214",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HallqvistK00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HallqvistK00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/hallqvist.html"
+      ]
+    },
+    {
+      "title": "Integrating a Command Shell into a Web Browser",
+      "authors": [
+        "Robert C. Miller",
+        "Brad A. Myers"
+      ],
+      "pages": "171-182",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MillerM00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MillerM00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/miller.html"
+      ]
+    },
+    {
+      "title": "Isolation with Flexibility: A Resource Management Framework for Central Servers",
+      "authors": [
+        "David G. Sullivan",
+        "Margo I. Seltzer"
+      ],
+      "pages": "337-350",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SullivanS00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SullivanS00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/sullivan.html"
+      ]
+    },
+    {
+      "title": "JEmacs-The Java/Scheme-based Emacs",
+      "authors": [
+        "Per Bothner"
+      ],
+      "pages": "271-278",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Bothner00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Bothner00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/bothner.html"
+      ]
+    },
+    {
+      "title": "Journaling Versus Soft Updates: Asynchronous Meta-data Protection in File Systems",
+      "authors": [
+        "Margo I. Seltzer",
+        "Gregory R. Ganger",
+        "Marshall K. McKusick",
+        "Keith A. Smith",
+        "Craig A. N. Soules",
+        "Christopher A. Stein"
+      ],
+      "pages": "71-84",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SeltzerGMSSS00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SeltzerGMSSS00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/seltzer.html"
+      ]
+    },
+    {
+      "title": "LAP: A Little Language for OS Emulation",
+      "authors": [
+        "Donn Seeley"
+      ],
+      "pages": "249-263",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Seeley00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Seeley00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/seeley.html"
+      ]
+    },
+    {
+      "title": "Lexical File Names in Plan 9, or, Getting Dot-Dot Right",
+      "authors": [
+        "Rob Pike"
+      ],
+      "pages": "85-92",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Pike00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Pike00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/pikelex.html"
+      ]
+    },
+    {
+      "title": "LinLogFS - A Log-Structured File System for Linux",
+      "authors": [
+        "Christian Czezatke",
+        "M. Anton Ertl"
+      ],
+      "pages": "77-88",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CzezatkeE00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CzezatkeE00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/czezatke.html"
+      ]
+    },
+    {
+      "title": "Location-Aware Scheduling with Minimal Infrastructure",
+      "authors": [
+        "John S. Heidemann",
+        "Dhaval Shah"
+      ],
+      "pages": "131-138",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HeidemannS00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HeidemannS00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/heidemann.html"
+      ]
+    },
+    {
+      "title": "Malloc() Performance in a Multithreaded Linux Environment",
+      "authors": [
+        "Chuck Lever",
+        "David Boreham"
+      ],
+      "pages": "301-311",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LeverB00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LeverB00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/lever.html"
+      ]
+    },
+    {
+      "title": "Mapping and Visualizing the Internet",
+      "authors": [
+        "Bill Cheswick",
+        "Hal Burch",
+        "Steve Branigan"
+      ],
+      "pages": "1-12",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CheswickBB00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CheswickBB00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/cheswick.html"
+      ]
+    },
+    {
+      "title": "Mbuf Issues in 4.4BSD IPv6 Support-Experiences from KAME IPv6/IPsec Implementation",
+      "authors": [
+        "Jun-ichiro itojun Hagino"
+      ],
+      "pages": "291-300",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Hagino00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Hagino00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/hagino.html"
+      ]
+    },
+    {
+      "title": "Measuring and Characterizing System Behavior Using Kernel-Level Event Logging",
+      "authors": [
+        "Karim Yaghmour",
+        "Michel R. Dagenais"
+      ],
+      "pages": "13-26",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YaghmourD00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YaghmourD00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/yaghmour.html"
+      ]
+    },
+    {
+      "title": "MOSIX: How Linux Clusters Solve Real-World Problems",
+      "authors": [
+        "Steve McClure",
+        "Richard Wheeler"
+      ],
+      "pages": "49-56",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/McClureW00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/McClureW00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/mcclure.html"
+      ]
+    },
+    {
+      "title": "Open Information Pools",
+      "authors": [
+        "Johan A. Pouwelse"
+      ],
+      "pages": "153-164",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Pouwelse00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Pouwelse00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/pouwelse.html"
+      ]
+    },
+    {
+      "title": "Operating System Support for Multi-User, Remote, Graphical Interaction",
+      "authors": [
+        "Alexander Ya-li Wong",
+        "Margo I. Seltzer"
+      ],
+      "pages": "183-197",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WongS00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WongS00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/wong.html"
+      ]
+    },
+    {
+      "title": "Outwit: UNIX Tool-Based Programming Meets the Windows World",
+      "authors": [
+        "Diomidis Spinellis"
+      ],
+      "pages": "149-158",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Spinellis00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Spinellis00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/spinellis.html"
+      ]
+    },
+    {
+      "title": "Pandora: A Flexible Network Monitoring Platform",
+      "authors": [
+        "Simon Patarin",
+        "Mesaac Makpangou"
+      ],
+      "pages": "27-40",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PatarinM00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PatarinM00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/patarin.html"
+      ]
+    },
+    {
+      "title": "Performing Replacement in Modem Pools",
+      "authors": [
+        "Yannis Smaragdakis",
+        "Paul R. Wilson 0001"
+      ],
+      "pages": "277-292",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SmaragdakisW00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SmaragdakisW00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/smaragdakis.html"
+      ]
+    },
+    {
+      "title": "Permanent Web Publishing",
+      "authors": [
+        "David S. H. Rosenthal",
+        "Vicky Reich"
+      ],
+      "pages": "129-140",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RosenthalR00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RosenthalR00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/rosenthal.html"
+      ]
+    },
+    {
+      "title": "Plumbing and Other Utilities",
+      "authors": [
+        "Rob Pike"
+      ],
+      "pages": "159-170",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Pike00a",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Pike00a.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/pikeplumb.html"
+      ]
+    },
+    {
+      "title": "Portable Multithreading-The Signal Stack Trick for User-Space Thread Creation",
+      "authors": [
+        "Ralf Sascha Engelschall"
+      ],
+      "pages": "239-250",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Engelschall00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Engelschall00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/engelschall.html"
+      ]
+    },
+    {
+      "title": "Porting the SGI XFS File System to Linux",
+      "authors": [
+        "Jim Mostek",
+        "Bill Earl",
+        "Steven Levine",
+        "Steve Lord",
+        "Russell Cattelan",
+        "Ken McDonell",
+        "Ted Kline",
+        "Brian Gaffey",
+        "Rajagopal Ananthanarayanan"
+      ],
+      "pages": null,
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MostekELLCMKGA00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MostekELLCMKGA00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/mostek.html"
+      ]
+    },
+    {
+      "title": "Protocol Independence Using the Sockets API",
+      "authors": [
+        "Craig Metz"
+      ],
+      "pages": "99-108",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Metz00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Metz00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/metzprotocol.html"
+      ]
+    },
+    {
+      "title": "Safety Checking of Kernel Extensions",
+      "authors": [
+        "Craig Metz"
+      ],
+      "pages": "227-234",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Metz00a",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Metz00a.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/metzsafety.html"
+      ]
+    },
+    {
+      "title": "Scalable Content-aware Request Distribution in Cluster-based Network Servers",
+      "authors": [
+        "Mohit Aron",
+        "Darren Sanders",
+        "Peter Druschel",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "323-336",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AronSDZ00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AronSDZ00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/aron.html"
+      ]
+    },
+    {
+      "title": "Scalable Network I/O in Linux",
+      "authors": [
+        "Niels Provos",
+        "Chuck Lever"
+      ],
+      "pages": "109-120",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ProvosL00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ProvosL00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/provos.html"
+      ]
+    },
+    {
+      "title": "Signaled Receiver Processing",
+      "authors": [
+        "Jos&eacute; Carlos Brustoloni",
+        "Eran Gabber",
+        "Abraham Silberschatz",
+        "Amit Singh"
+      ],
+      "pages": "211-224",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BrustoloniGSS00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BrustoloniGSS00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/brustoloni.html"
+      ]
+    },
+    {
+      "title": "Swarm: A Log-Structured Storage System for Linux",
+      "authors": [
+        "Ian Murdock",
+        "John H. Hartman"
+      ],
+      "pages": "1-10",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MurdockH00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MurdockH00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/murdock.html"
+      ]
+    },
+    {
+      "title": "Techniques for the Design of Java Operating Systems",
+      "authors": [
+        "Godmar Back",
+        "Patrick Tullmann",
+        "Leigh Stoller",
+        "Wilson C. Hsieh",
+        "Jay Lepreau"
+      ],
+      "pages": "197-210",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BackTSHL00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BackTSHL00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/back.html"
+      ]
+    },
+    {
+      "title": "The AT&T AST OpenSource Software Collection",
+      "authors": [
+        "Glenn S. Fowler",
+        "David G. Korn",
+        "Stephen C. North",
+        "Kiem-Phong Vo"
+      ],
+      "pages": "187-200",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FowlerKNV00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FowlerKNV00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/fowler.html"
+      ]
+    },
+    {
+      "title": "The Globe Distribution Network",
+      "authors": [
+        "Arno Bakker",
+        "E. Amade",
+        "Gerco Ballintijn",
+        "Ihor Kuz",
+        "Patrick Verkaik",
+        "I. van der Wijk",
+        "Maarten van Steen",
+        "Andrew S. Tanenbaum"
+      ],
+      "pages": "141-152",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BakkerABKVWST00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BakkerABKVWST00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/bakker.html"
+      ]
+    },
+    {
+      "title": "The GNOME Canvas: A Generic Engine for Structured Graphics",
+      "authors": [
+        "Federico Mena-Quintero",
+        "Raph Levien"
+      ],
+      "pages": "165-174",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Mena-QuinteroL00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Mena-QuinteroL00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/quintero.html"
+      ]
+    },
+    {
+      "title": "Towards Availability Benchmarks: A Case Study of Software RAID Systems",
+      "authors": [
+        "Aaron B. Brown",
+        "David A. Patterson 0001"
+      ],
+      "pages": "263-276",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BrownP00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BrownP00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/brown.html"
+      ]
+    },
+    {
+      "title": "Traffic Data Repository at the WIDE Project",
+      "authors": [
+        "Kenjiro Cho",
+        "Koushirou Mitsuya",
+        "Akira Kato"
+      ],
+      "pages": "263-270",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChoMK00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChoMK00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/cho.html"
+      ]
+    },
+    {
+      "title": "Transparent Network Security Policy Enforcement",
+      "authors": [
+        "Angelos D. Keromytis",
+        "Jason L. Wright"
+      ],
+      "pages": "215-226",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KeromytisW00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KeromytisW00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/keromytis.html"
+      ]
+    },
+    {
+      "title": "Transparent Run-Time Defense Against Stack-Smashing Attacks",
+      "authors": [
+        "Arash Baratloo",
+        "Navjot Singh 0001",
+        "Timothy K. Tsai"
+      ],
+      "pages": "251-262",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BaratlooST00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BaratlooST00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/baratloo.html"
+      ]
+    },
+    {
+      "title": "UBC: An Efficient Unified I/O and Memory Caching Subsystem for NetBSD",
+      "authors": [
+        "Chuck Silvers"
+      ],
+      "pages": "285-290",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Silvers00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Silvers00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/silvers.html"
+      ]
+    },
+    {
+      "title": "UNIX File System Extensions in the GNOME Environment",
+      "authors": [
+        "Ettore Perazzoli"
+      ],
+      "pages": "89-98",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Perazzoli00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Perazzoli00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/perazzoli.html"
+      ]
+    },
+    {
+      "title": "Virtual Services: A New Abstraction for Server Consolidation",
+      "authors": [
+        "John Reumann",
+        "Ashish Mehra",
+        "Kang G. Shin",
+        "Dilip D. Kandlur"
+      ],
+      "pages": "117-130",
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ReumannMSK00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ReumannMSK00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/general/reumann.html"
+      ]
+    },
+    {
+      "title": "Webmin: A Web-Based System Administration Tool for UNIX",
+      "authors": [
+        "Jamie Cameron"
+      ],
+      "pages": null,
+      "year": "2000",
+      "venue": "USENIX ATC 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Cameron00",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Cameron00.html",
+      "ee_links": [
+        "http://www.usenix.org/publications/library/proceedings/usenix2000/freenix/cameron.html"
+      ]
+    }
+  ]
+}

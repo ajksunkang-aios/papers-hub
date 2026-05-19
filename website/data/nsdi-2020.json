@@ -1,0 +1,1298 @@
+{
+  "id": "nsdi-2020",
+  "venue": "nsdi",
+  "year": 2020,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2020.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2020.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2020",
+    "conf/nsdi/2020-1",
+    "conf/nsdi/2020-2",
+    "conf/nsdi/2020-3",
+    "conf/nsdi/2020-4",
+    "conf/nsdi/2020-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 65,
+  "display_count": 65,
+  "papers": [
+    {
+      "title": "A High-Speed Load-Balancer Design with Guaranteed Per-Connection-Consistency",
+      "authors": [
+        "Tom Barbette",
+        "Chen Tang",
+        "Haoran Yao",
+        "Dejan Kostic",
+        "Gerald Q. Maguire Jr.",
+        "Panagiotis Papadimitratos",
+        "Marco Chiesa"
+      ],
+      "pages": "667-683",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BarbetteTYKMPC20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BarbetteTYKMPC20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/barbette"
+      ]
+    },
+    {
+      "title": "ABC: A Simple Explicit Congestion Controller for Wireless Networks",
+      "authors": [
+        "Prateesh Goyal",
+        "Anup Agarwal",
+        "Ravi Netravali",
+        "Mohammad Alizadeh",
+        "Hari Balakrishnan"
+      ],
+      "pages": "353-372",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GoyalA0AB20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GoyalA0AB20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/goyal"
+      ]
+    },
+    {
+      "title": "AccelTCP: Accelerating Network Applications with Stateful TCP Offloading",
+      "authors": [
+        "YoungGyoun Moon",
+        "SeungEon Lee 0001",
+        "Muhammad Asim Jamshed",
+        "KyoungSoo Park"
+      ],
+      "pages": "77-92",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MoonLJP20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MoonLJP20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/moon"
+      ]
+    },
+    {
+      "title": "Adapting TCP for Reconfigurable Datacenter Networks",
+      "authors": [
+        "Matthew K. Mukerjee",
+        "Christopher Canel",
+        "Weiyang Wang",
+        "Daehyeok Kim",
+        "Srinivasan Seshan",
+        "Alex C. Snoeren"
+      ],
+      "pages": "651-666",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MukerjeeCWKSS20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MukerjeeCWKSS20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/mukerjee"
+      ]
+    },
+    {
+      "title": "AmphiLight: Direct Air-Water Communication with Laser Light",
+      "authors": [
+        "Charles J. Carver",
+        "Tian Zhao 0003",
+        "Hongyong Zhang",
+        "Kofi M. Odame",
+        "Alberto Quattrini Li",
+        "Xia Zhou"
+      ],
+      "pages": "373-388",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CarverTZOLZ20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CarverTZOLZ20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/carver"
+      ]
+    },
+    {
+      "title": "APKeep: Realtime Verification for Real Networks",
+      "authors": [
+        "Peng Zhang 0011",
+        "Xu Liu 0013",
+        "Hongkun Yang",
+        "Ning Kang 0003",
+        "Zhengchang Gu",
+        "Hao Li 0011"
+      ],
+      "pages": "241-255",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangLYKGL20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangLYKGL20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/zhang-peng"
+      ]
+    },
+    {
+      "title": "Automated Verification of Customizable Middlebox Properties with Gravel",
+      "authors": [
+        "Kaiyuan Zhang 0001",
+        "Danyang Zhuo",
+        "Aditya Akella",
+        "Arvind Krishnamurthy",
+        "Xi Wang 0005"
+      ],
+      "pages": "221-239",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangZAK020",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangZAK020.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/zhang-kaiyuan"
+      ]
+    },
+    {
+      "title": "Batchy: Batch-scheduling Data Flow Graphs with Service-level Objectives",
+      "authors": [
+        "Tam&aacute;s L&eacute;vai",
+        "Felici&aacute;n N&eacute;meth",
+        "Barath Raghavan",
+        "G&aacute;bor R&eacute;tv&aacute;ri"
+      ],
+      "pages": "633-649",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LevaiNRR20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LevaiNRR20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/levai"
+      ]
+    },
+    {
+      "title": "Building An Elastic Query Engine on Disaggregated Storage",
+      "authors": [
+        "Midhul Vuppalapati",
+        "Justin Miron",
+        "Rachit Agarwal 0001",
+        "Dan Truong",
+        "Ashish Motivala",
+        "Thierry Cruanes"
+      ],
+      "pages": "449-462",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/VuppalapatiMATM20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/VuppalapatiMATM20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/vuppalapati"
+      ]
+    },
+    {
+      "title": "CableMon: Improving the Reliability of Cable Broadband Networks via Proactive Network Maintenance",
+      "authors": [
+        "Jiyao Hu",
+        "Zhenyu Zhou",
+        "Xiaowei Yang 0001",
+        "Jacob Malone",
+        "Jonathan W. Williams"
+      ],
+      "pages": "619-632",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HuZYMW20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HuZYMW20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/hu-jiyao"
+      ]
+    },
+    {
+      "title": "CarMap: Fast 3D Feature Map Updates for Automobiles",
+      "authors": [
+        "Fawad Ahmad 0002",
+        "Hang Qiu 0001",
+        "Ray Eells",
+        "Fan Bai 0002",
+        "Ramesh Govindan"
+      ],
+      "pages": "1063-1081",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AhmadQEBG20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AhmadQEBG20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/ahmad"
+      ]
+    },
+    {
+      "title": "Check before You Change: Preventing Correlated Failures in Service Updates",
+      "authors": [
+        "Ennan Zhai",
+        "Ang Chen 0001",
+        "Ruzica Piskac",
+        "Mahesh Balakrishnan 0001",
+        "Bingchuan Tian",
+        "Bo Song",
+        "Haoliang Zhang"
+      ],
+      "pages": "575-589",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhaiCPBTSZ20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhaiCPBTSZ20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/zhai"
+      ]
+    },
+    {
+      "title": "Comb Decoding towards Collision-Free WiFi",
+      "authors": [
+        "Shangqing Zhao",
+        "Zhe Qu",
+        "Zhengping Luo 0001",
+        "Zhuo Lu",
+        "Yao Liu 0007"
+      ],
+      "pages": "933-951",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhaoQLL020",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhaoQLL020.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/zhao"
+      ]
+    },
+    {
+      "title": "Config2Spec: Mining Network Specifications from Network Configurations",
+      "authors": [
+        "R&uuml;diger Birkner",
+        "Dana Drachsler-Cohen",
+        "Laurent Vanbever",
+        "Martin T. Vechev"
+      ],
+      "pages": "969-984",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BirknerDVV20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BirknerDVV20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/birkner"
+      ]
+    },
+    {
+      "title": "Contra: A Programmable System for Performance-aware Routing",
+      "authors": [
+        "Kuo-Feng Hsu",
+        "Ryan Beckett",
+        "Ang Chen 0001",
+        "Jennifer Rexford",
+        "David Walker 0001"
+      ],
+      "pages": "701-721",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HsuBCRW20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HsuBCRW20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/hsu"
+      ]
+    },
+    {
+      "title": "Diamond-Miner: Comprehensive Discovery of the Internet's Topology Diamonds",
+      "authors": [
+        "Kevin Vermeulen",
+        "Justin P. Rohrer",
+        "Robert Beverly",
+        "Olivier Fourmaux",
+        "Timur Friedman"
+      ],
+      "pages": "479-493",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/VermeulenRBFF20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/VermeulenRBFF20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/vermeulen"
+      ]
+    },
+    {
+      "title": "Eingerprint: Robust Energy-related Fingerprinting for Passive RFID Tags",
+      "authors": [
+        "Xingyu Chen",
+        "Jia Liu 0008",
+        "Xia Wang 0004",
+        "Haisong Liu",
+        "Dong Jiang",
+        "Lijun Chen 0006"
+      ],
+      "pages": "1101-1113",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Chen0WLJC20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Chen0WLJC20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/chen"
+      ]
+    },
+    {
+      "title": "Enabling Programmable Transport Protocols in High-Speed NICs",
+      "authors": [
+        "Mina Tahmasbi Arashloo",
+        "Alexey Lavrov",
+        "Manya Ghobadi",
+        "Jennifer Rexford",
+        "David Walker 0001",
+        "David Wentzlaff"
+      ],
+      "pages": "93-109",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ArashlooLGRWW20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ArashlooLGRWW20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/arashloo"
+      ]
+    },
+    {
+      "title": "Expanding across time to deliver bandwidth efficiency and low latency",
+      "authors": [
+        "William M. Mellette",
+        "Rajdeep Das",
+        "Yibo Guo",
+        "Rob McGuinness",
+        "Alex C. Snoeren",
+        "George Porter"
+      ],
+      "pages": "1-18",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MelletteDGMSP20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MelletteDGMSP20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/mellette"
+      ]
+    },
+    {
+      "title": "Experiences with Modeling Network Topologies at Multiple Levels of Abstraction",
+      "authors": [
+        "Jeffrey C. Mogul",
+        "Drago Goricanec",
+        "Martin Pool",
+        "Anees Shaikh",
+        "Douglas Turk",
+        "Bikash Koley",
+        "Xiaoxue Zhao"
+      ],
+      "pages": "403-418",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MogulGPSTKZ20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MogulGPSTKZ20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/mogul"
+      ]
+    },
+    {
+      "title": "Fawkes: Faster Mobile Page Loads via App-Inspired Static Templating",
+      "authors": [
+        "Shaghayegh Mardani",
+        "Mayank Singh 0009",
+        "Ravi Netravali"
+      ],
+      "pages": "879-894",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MardaniS020",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MardaniS020.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/mardani"
+      ]
+    },
+    {
+      "title": "FileMR: Rethinking RDMA Networking for Scalable Persistent Memory",
+      "authors": [
+        "Jian Yang",
+        "Joseph Izraelevitz",
+        "Steven Swanson"
+      ],
+      "pages": "111-125",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YangIS20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YangIS20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/yang"
+      ]
+    },
+    {
+      "title": "Finding Network Misconfigurations by Automatic Template Inference",
+      "authors": [
+        "Siva Kesava Reddy K.",
+        "Alan Tang",
+        "Ryan Beckett",
+        "Karthick Jayaraman",
+        "Todd D. Millstein",
+        "Yuval Tamir",
+        "George Varghese"
+      ],
+      "pages": "999-1013",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KTBJMTV20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KTBJMTV20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/kakarla"
+      ]
+    },
+    {
+      "title": "Fine-Grained Replicated State Machines for a Cluster Storage System",
+      "authors": [
+        "Ming Liu 0027",
+        "Arvind Krishnamurthy",
+        "Harsha V. Madhyastha",
+        "Rishi Bhardwaj",
+        "Karan Gupta",
+        "Chinmay Kamat",
+        "Huapeng Yuan",
+        "Aditya Jaltade",
+        "Roger Liao",
+        "Pavan Konka",
+        "Anoop Jawahar"
+      ],
+      "pages": "305-323",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiuKMBGKYJLKJ20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiuKMBGKYJLKJ20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/liu-ming"
+      ]
+    },
+    {
+      "title": "Firecracker: Lightweight Virtualization for Serverless Applications",
+      "authors": [
+        "Alexandru Agache",
+        "Marc Brooker",
+        "Alexandra Iordache",
+        "Anthony Liguori",
+        "Rolf Neugebauer",
+        "Phil Piwonka",
+        "Diana-Maria Popa"
+      ],
+      "pages": "419-434",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AgacheBILNPP20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AgacheBILNPP20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/agache"
+      ]
+    },
+    {
+      "title": "FLAIR: Accelerating Reads with Consistency-Aware Network Routing",
+      "authors": [
+        "Hatem Takruri",
+        "Ibrahim Kettaneh",
+        "Ahmed Alquraan",
+        "Samer Al-Kiswany"
+      ],
+      "pages": "723-737",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/TakruriKAA20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/TakruriKAA20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/takruri"
+      ]
+    },
+    {
+      "title": "Food and Liquid Sensing in Practical Environments using RFIDs",
+      "authors": [
+        "Unsoo Ha",
+        "Junshan Leng",
+        "Alaa Khaddaj",
+        "Fadel Adib"
+      ],
+      "pages": "1083-1100",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HaLKA20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HaLKA20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/ha"
+      ]
+    },
+    {
+      "title": "Frequency Configuration for Low-Power Wide-Area Networks in a Heartbeat",
+      "authors": [
+        "Akshay Gadre",
+        "Revathy Narayanan",
+        "Anh Luong",
+        "Anthony G. Rowe",
+        "Bob Iannucci",
+        "Swarun Kumar"
+      ],
+      "pages": "339-352",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GadreNLRIK20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GadreNLRIK20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/gadre"
+      ]
+    },
+    {
+      "title": "Gandalf: An Intelligent, End-To-End Analytics Service for Safe Deployment in Large-Scale Cloud Infrastructure",
+      "authors": [
+        "Ze Li 0005",
+        "Qian Cheng",
+        "Ken Hsieh",
+        "Yingnong Dang",
+        "Peng Huang 0005",
+        "Pankaj Singh",
+        "Xinsheng Yang",
+        "Qingwei Lin",
+        "Youjiang Wu",
+        "Sebastien Levy",
+        "Murali Chintalapati"
+      ],
+      "pages": "389-402",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiCHDHSYLWLC20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiCHDHSYLWLC20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/li"
+      ]
+    },
+    {
+      "title": "Ghostor: Toward a Secure Data-Sharing System from Decentralized Trust",
+      "authors": [
+        "Yuncong Hu",
+        "Sam Kumar",
+        "Raluca Ada Popa"
+      ],
+      "pages": "851-877",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HuKP20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HuKP20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/hu-yuncong"
+      ]
+    },
+    {
+      "title": "Gryff: Unifying Consensus and Shared Registers",
+      "authors": [
+        "Matthew Burke 0001",
+        "Audrey Cheng",
+        "Wyatt Lloyd"
+      ],
+      "pages": "591-617",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0001CL20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0001CL20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/burke"
+      ]
+    },
+    {
+      "title": "High Throughput Cryptocurrency Routing in Payment Channel Networks",
+      "authors": [
+        "Vibhaalakshmi Sivaraman",
+        "Shaileshh Bojja Venkatakrishnan",
+        "Kathleen Ruan",
+        "Parimarjan Negi",
+        "Lei Yang 0031",
+        "Radhika Mittal",
+        "Giulia Fanti",
+        "Mohammad Alizadeh"
+      ],
+      "pages": "777-796",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SivaramanVRNYMF20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SivaramanVRNYMF20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/sivaraman"
+      ]
+    },
+    {
+      "title": "Is Big Data Performance Reproducible in Modern Cloud Networks?",
+      "authors": [
+        "Alexandru Uta",
+        "Alexandru Custura",
+        "Dmitry Duplyakin",
+        "Ivo Jimenez",
+        "Jan S. Rellermeyer",
+        "Carlos Maltzahn",
+        "Robert Ricci",
+        "Alexandru Iosup"
+      ],
+      "pages": "513-527",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/UtaCDJRMRI20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/UtaCDJRMRI20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/uta"
+      ]
+    },
+    {
+      "title": "Learning in situ: a randomized experiment in video streaming",
+      "authors": [
+        "Francis Y. Yan",
+        "Hudson Ayers",
+        "Chenzhi Zhu",
+        "Sadjad Fouladi",
+        "James Hong",
+        "Keyi Zhang",
+        "Philip Alexander Levis",
+        "Keith Winstein"
+      ],
+      "pages": "495-511",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YanAZFHZLW20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YanAZFHZLW20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/yan"
+      ]
+    },
+    {
+      "title": "Learning Relaxed Belady for Content Distribution Network Caching",
+      "authors": [
+        "Zhenyu Song",
+        "Daniel S. Berger",
+        "Kai Li 0001",
+        "Wyatt Lloyd"
+      ],
+      "pages": "529-544",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SongBLL20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SongBLL20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/song"
+      ]
+    },
+    {
+      "title": "Liveness Verification of Stateful Network Functions",
+      "authors": [
+        "Farnaz Yousefi",
+        "Anubhavnidhi Abhashkumar",
+        "Kausik Subramanian",
+        "Kartik Hans",
+        "Soudeh Ghorbani",
+        "Aditya Akella"
+      ],
+      "pages": "257-272",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YousefiASHGA20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YousefiASHGA20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/yousefi"
+      ]
+    },
+    {
+      "title": "LocAP: Autonomous Millimeter Accurate Mapping of WiFi Infrastructure",
+      "authors": [
+        "Roshan Sai Ayyalasomayajula",
+        "Aditya Arun 0002",
+        "Chenfeng Wu",
+        "Shrivatsan Rajagopalan",
+        "Shreya Ganesaraman",
+        "Aravind Seetharaman",
+        "Ish Kumar Jain",
+        "Dinesh Bharadia"
+      ],
+      "pages": "1115-1129",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Ayyalasomayajula20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Ayyalasomayajula20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/ayyalasomayajula"
+      ]
+    },
+    {
+      "title": "Meaningful Availability",
+      "authors": [
+        "Tamas Hauer",
+        "Philipp Hoffmann",
+        "John Lunney",
+        "Dan Ardelean",
+        "Amer Diwan"
+      ],
+      "pages": "545-557",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HauerHLAD20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HauerHLAD20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/hauer"
+      ]
+    },
+    {
+      "title": "Measuring Congestion in High-Performance Datacenter Interconnects",
+      "authors": [
+        "Saurabh Jha",
+        "Archit Patke",
+        "Jim M. Brandt",
+        "Ann C. Gentile",
+        "Benjamin Lim",
+        "Mike Showerman",
+        "Greg Bauer 0001",
+        "Larry Kaplan",
+        "Zbigniew Kalbarczyk",
+        "William Kramer 0001",
+        "Ravi K. Iyer"
+      ],
+      "pages": "37-57",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JhaPBGLS0KK0I20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JhaPBGLS0KK0I20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/jha"
+      ]
+    },
+    {
+      "title": "Millions of Tiny Databases",
+      "authors": [
+        "Marc Brooker",
+        "Tao Chen",
+        "Fan Ping"
+      ],
+      "pages": "463-478",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BrookerCP20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BrookerCP20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/brooker"
+      ]
+    },
+    {
+      "title": "Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage",
+      "authors": [
+        "Muhammed Uluyol",
+        "Anthony Huang",
+        "Ayush Goel",
+        "Mosharaf Chowdhury",
+        "Harsha V. Madhyastha"
+      ],
+      "pages": "157-180",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/UluyolHGCM20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/UluyolHGCM20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/uluyol"
+      ]
+    },
+    {
+      "title": "NetSMC: A Custom Symbolic Model Checker for Stateful Network Verification",
+      "authors": [
+        "Yifei Yuan",
+        "Soo-Jin Moon",
+        "Sahil Uppal",
+        "Limin Jia 0001",
+        "Vyas Sekar"
+      ],
+      "pages": "181-200",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YuanMUJS20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YuanMUJS20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/yuan"
+      ]
+    },
+    {
+      "title": "NetTLP: A Development Platform for PCIe devices in Software Interacting with Hardware",
+      "authors": [
+        "Yohei Kuga",
+        "Ryo Nakamura",
+        "Takeshi Matsuya",
+        "Yuji Sekiya"
+      ],
+      "pages": "141-155",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KugaNMS20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KugaNMS20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/kuga"
+      ]
+    },
+    {
+      "title": "Network Error Logging: Client-side measurement of end-to-end web service reliability",
+      "authors": [
+        "Sam Burnett",
+        "Lily Chen",
+        "Douglas A. Creager",
+        "Misha Efimov",
+        "Ilya Grigorik",
+        "Ben Jones",
+        "Harsha V. Madhyastha",
+        "Pavlos Papageorge",
+        "Brian Rogan",
+        "Charles Stahl",
+        "Julia Tuttle"
+      ],
+      "pages": "985-998",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BurnettCCEGJMPR20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BurnettCCEGJMPR20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/burnett"
+      ]
+    },
+    {
+      "title": "Performant TCP for Low-Power Wireless Networks",
+      "authors": [
+        "Sam Kumar",
+        "Michael P. Andersen",
+        "Hyung-Sin Kim",
+        "David E. Culler"
+      ],
+      "pages": "911-932",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KumarAKC20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KumarAKC20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/kumar"
+      ]
+    },
+    {
+      "title": "Plankton: Scalable network configuration verification through model checking",
+      "authors": [
+        "Santhosh Prabhu",
+        "Kuan-Yen Chou",
+        "Ali Kheradmand",
+        "Brighten Godfrey",
+        "Matthew Caesar 0001"
+      ],
+      "pages": "953-967",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PrabhuCKGC20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PrabhuCKGC20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/prabhu"
+      ]
+    },
+    {
+      "title": "PrivateEye: Scalable and Privacy-Preserving Compromise Detection in the Cloud",
+      "authors": [
+        "Behnaz Arzani",
+        "Selim Ciraci",
+        "Stefan Saroiu",
+        "Alec Wolman",
+        "Jack W. Stokes",
+        "Geoff Outhred",
+        "Lechao Diwu"
+      ],
+      "pages": "797-815",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ArzaniCSWSOD20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ArzaniCSWSOD20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/arzani"
+      ]
+    },
+    {
+      "title": "Programmable Calendar Queues for High-speed Packet Scheduling",
+      "authors": [
+        "Naveen Kr. Sharma",
+        "Chenxingyu Zhao",
+        "Ming Liu 0027",
+        "Pravein G. Kannan",
+        "Changhoon Kim",
+        "Arvind Krishnamurthy",
+        "Anirudh Sivaraman"
+      ],
+      "pages": "685-699",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SharmaZLKKKS20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SharmaZLKKKS20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/sharma"
+      ]
+    },
+    {
+      "title": "Re-architecting Congestion Management in Lossless Ethernet",
+      "authors": [
+        "Wenxue Cheng",
+        "Kun Qian 0017",
+        "Wanchun Jiang",
+        "Tong Zhang 0018",
+        "Fengyuan Ren"
+      ],
+      "pages": "19-36",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Cheng0J0R20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Cheng0J0R20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/cheng"
+      ]
+    },
+    {
+      "title": "Rex: Preventing Bugs and Misconfiguration in Large Services Using Correlated Change Analysis",
+      "authors": [
+        "Sonu Mehta",
+        "Ranjita Bhagwan",
+        "Rahul Kumar 0002",
+        "Chetan Bansal",
+        "Chandra Shekhar Maddila",
+        "Balasubramanyan Ashok",
+        "Sumit Asthana",
+        "Christian Bird",
+        "Aditya Kumar"
+      ],
+      "pages": "435-448",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MehtaB0BMAABK20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MehtaB0BMAABK20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/mehta"
+      ]
+    },
+    {
+      "title": "RFocus: Beamforming Using Thousands of Passive Antennas",
+      "authors": [
+        "Venkat Arun",
+        "Hari Balakrishnan"
+      ],
+      "pages": "1047-1061",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ArunB20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ArunB20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/arun"
+      ]
+    },
+    {
+      "title": "Scalog: Seamless Reconfiguration and Total Order in a Scalable Shared Log",
+      "authors": [
+        "Cong Ding 0001",
+        "David Chu",
+        "Evan Zhao",
+        "Xiang Li",
+        "Lorenzo Alvisi",
+        "Robbert van Renesse"
+      ],
+      "pages": "325-338",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0001CZLAR20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0001CZLAR20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/ding"
+      ]
+    },
+    {
+      "title": "Sol: Fast Distributed Computation Over Slow Networks",
+      "authors": [
+        "Fan Lai 0001",
+        "Jie You",
+        "Xiangfeng Zhu",
+        "Harsha V. Madhyastha",
+        "Mosharaf Chowdhury"
+      ],
+      "pages": "273-288",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LaiYZMC20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LaiYZMC20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/lai"
+      ]
+    },
+    {
+      "title": "SP-PIFO: Approximating Push-In First-Out Behaviors using Strict-Priority Queues",
+      "authors": [
+        "Albert Gran Alcoz",
+        "Alexander Dietm&uuml;ller",
+        "Laurent Vanbever"
+      ],
+      "pages": "59-76",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AlcozDV20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AlcozDV20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/alcoz"
+      ]
+    },
+    {
+      "title": "TCP ≈ RDMA: CPU-efficient Remote Storage Access with i10",
+      "authors": [
+        "Jaehyun Hwang",
+        "Qizhe Cai",
+        "Ao Tang",
+        "Rachit Agarwal 0001"
+      ],
+      "pages": "127-140",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HwangCTA20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HwangCTA20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/hwang"
+      ]
+    },
+    {
+      "title": "Telekine: Secure Computing with Cloud GPUs",
+      "authors": [
+        "Tyler Hunt",
+        "Zhipeng Jia",
+        "Vance Miller",
+        "Ariel Szekely",
+        "Yige Hu",
+        "Christopher J. Rossbach",
+        "Emmett Witchel"
+      ],
+      "pages": "817-833",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HuntJMSHRW20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HuntJMSHRW20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/hunt"
+      ]
+    },
+    {
+      "title": "Themis: Fair and Efficient GPU Cluster Scheduling",
+      "authors": [
+        "Kshiteej Mahajan",
+        "Arjun Balasubramanian",
+        "Arjun Singhvi",
+        "Shivaram Venkataraman",
+        "Aditya Akella",
+        "Amar Phanishayee",
+        "Shuchi Chawla 0001"
+      ],
+      "pages": "289-304",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MahajanBSVAP020",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MahajanBSVAP020.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/mahajan"
+      ]
+    },
+    {
+      "title": "TimeCrypt: Encrypted Data Stream Processing at Scale with Cryptographic Access Control",
+      "authors": [
+        "Lukas Burkhalter",
+        "Anwar Hithnawi",
+        "Alexander Viand",
+        "Hossein Shafagh",
+        "Sylvia Ratnasamy"
+      ],
+      "pages": "835-850",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BurkhalterHVSR20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BurkhalterHVSR20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/burkhalter"
+      ]
+    },
+    {
+      "title": "TinySDR: Low-Power SDR Platform for Over-the-Air Programmable IoT Testbeds",
+      "authors": [
+        "Mehrdad Hessar",
+        "Ali Najafi",
+        "Vikram Iyer",
+        "Shyamnath Gollakota"
+      ],
+      "pages": "1031-1046",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HessarNIG20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HessarNIG20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/hessar"
+      ]
+    },
+    {
+      "title": "Tiramisu: Fast Multilayer Network Verification",
+      "authors": [
+        "Anubhavnidhi Abhashkumar",
+        "Aaron Gember-Jacobson",
+        "Aditya Akella"
+      ],
+      "pages": "201-219",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AbhashkumarGA20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AbhashkumarGA20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/abhashkumar"
+      ]
+    },
+    {
+      "title": "Towards Logically Centralized Interdomain Routing",
+      "authors": [
+        "Shahrooz Pouryousef",
+        "Lixin Gao 0001",
+        "Arun Venkataramani"
+      ],
+      "pages": "739-757",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Pouryousef0V20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Pouryousef0V20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/pouryousef"
+      ]
+    },
+    {
+      "title": "tpprof: A Network Traffic Pattern Profiler",
+      "authors": [
+        "Nofel Yaseen",
+        "John Sonchack",
+        "Vincent Liu 0001"
+      ],
+      "pages": "1015-1030",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YaseenSL20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YaseenSL20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/yaseen"
+      ]
+    },
+    {
+      "title": "Understanding, Detecting and Localizing Partial Failures in Large System Software",
+      "authors": [
+        "Chang Lou",
+        "Peng Huang 0005",
+        "Scott Smith"
+      ],
+      "pages": "559-574",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LouHS20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LouHS20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/lou"
+      ]
+    },
+    {
+      "title": "VMscatter: A Versatile MIMO Backscatter",
+      "authors": [
+        "Xin Liu 0045",
+        "Zicheng Chi",
+        "Wei Wang 0190",
+        "Yao Yao 0009",
+        "Ting Zhu 0001"
+      ],
+      "pages": "895-909",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0045C0YZ20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0045C0YZ20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/liu-xin"
+      ]
+    },
+    {
+      "title": "XRD: Scalable Messaging System with Cryptographic Privacy",
+      "authors": [
+        "Albert Kwon",
+        "David Lu",
+        "Srinivas Devadas"
+      ],
+      "pages": "759-776",
+      "year": "2020",
+      "venue": "NSDI 2020",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KwonLD20",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KwonLD20.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi20/presentation/kwon"
+      ]
+    }
+  ]
+}

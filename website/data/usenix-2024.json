@@ -1,0 +1,1636 @@
+{
+  "id": "usenix-2024",
+  "venue": "usenix",
+  "year": 2024,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2024.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2024.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2024",
+    "conf/usenix/2024-1",
+    "conf/usenix/2024-2",
+    "conf/usenix/2024-3",
+    "conf/usenix/2024-4",
+    "conf/usenix/2024-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 77,
+  "display_count": 77,
+  "papers": [
+    {
+      "title": "A Difference World: High-performance, NVM-invariant, Software-only Intermittent Computation",
+      "authors": [
+        "Harrison Williams",
+        "Saim Ahmad",
+        "Matthew Hicks"
+      ],
+      "pages": "1223-1238",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WilliamsAH24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WilliamsAH24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/williams"
+      ]
+    },
+    {
+      "title": "A Secure, Fast, and Resource-Efficient Serverless Platform with Function REWIND",
+      "authors": [
+        "Jaehyun Song",
+        "Bumsuk Kim",
+        "Minwoo Kwak",
+        "Byoungyoung Lee",
+        "Euiseong Seo",
+        "Jinkyu Jeong"
+      ],
+      "pages": "597-613",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SongKKLSJ24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SongKKLSJ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/song"
+      ]
+    },
+    {
+      "title": "Accelerating the Training of Large Language Models using Efficient Activation Rematerialization and Optimal Hybrid Parallelism",
+      "authors": [
+        "Tailing Yuan",
+        "Yuliang Liu",
+        "Xucheng Ye",
+        "Shenglong Zhang",
+        "Jianchao Tan",
+        "Bin Chen",
+        "Chengru Song",
+        "Di Zhang"
+      ],
+      "pages": "545-561",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YuanLYZTCSZ24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YuanLYZTCSZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/yuan"
+      ]
+    },
+    {
+      "title": "ALPS: An Adaptive Learning, Priority OS Scheduler for Serverless Functions",
+      "authors": [
+        "Yuqi Fu",
+        "Ruizhe Shi",
+        "Haoliang Wang",
+        "Songqing Chen",
+        "Yue Cheng 0001"
+      ],
+      "pages": "19-36",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FuSWC024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FuSWC024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/fu"
+      ]
+    },
+    {
+      "title": "An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise",
+      "authors": [
+        "Hongyu Li",
+        "Liwei Guo",
+        "Yexuan Yang",
+        "Shangguang Wang",
+        "Mengwei Xu 0001"
+      ],
+      "pages": "425-443",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiGYWX24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiGYWX24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/li-hongyu"
+      ]
+    },
+    {
+      "title": "Balancing Analysis Time and Bug Detection: Daily Development-friendly Bug Detection in Linux",
+      "authors": [
+        "Keita Suzuki",
+        "Kenta Ishiguro",
+        "Kenji Kono"
+      ],
+      "pages": "493-508",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SuzukiIK24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SuzukiIK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/suzuki"
+      ]
+    },
+    {
+      "title": "Centimani: Enabling Fast AI Accelerator Selection for DNN Training with a Novel Performance Predictor",
+      "authors": [
+        "Zhen Xie",
+        "Murali Emani",
+        "Xiaodong Yu 0001",
+        "Dingwen Tao",
+        "Xin He",
+        "Pengfei Su 0001",
+        "Keren Zhou 0001",
+        "Venkatram Vishwanath"
+      ],
+      "pages": "1203-1221",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XieE0TH00V24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XieE0TH00V24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/xie"
+      ]
+    },
+    {
+      "title": "Config-Snob: Tuning for the Best Configurations of Networking Protocol Stack",
+      "authors": [
+        "Manaf Bin-Yahya",
+        "Yifei Zhao",
+        "Hossein Shafieirad",
+        "Anthony Ho",
+        "Shijun Yin",
+        "Fanzhao Wang",
+        "Geng Li"
+      ],
+      "pages": "749-765",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Bin-YahyaZSHYWL24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Bin-YahyaZSHYWL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/bin-yahya"
+      ]
+    },
+    {
+      "title": "Conspirator: SmartNIC-Aided Control Plane for Distributed ML Workloads",
+      "authors": [
+        "Yunming Xiao",
+        "Diman Zad Tootaghaj",
+        "Aditya Dhakal",
+        "Lianjie Cao",
+        "Puneet Sharma 0001",
+        "Aleksandar Kuzmanovic"
+      ],
+      "pages": "767-784",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XiaoTDCSK24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XiaoTDCSK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/xiao"
+      ]
+    },
+    {
+      "title": "Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention",
+      "authors": [
+        "Bin Gao",
+        "Zhuomin He",
+        "Puru Sharma",
+        "Qingxuan Kang",
+        "Djordje Jevdjic",
+        "Junbo Deng",
+        "Xingkun Yang",
+        "Zhou Yu",
+        "Pengfei Zuo"
+      ],
+      "pages": "111-126",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GaoHSKJDYYZ24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GaoHSKJDYYZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/gao-bin-cost"
+      ]
+    },
+    {
+      "title": "CPC: Flexible, Secure, and Efficient CVM Maintenance with Confidential Procedure Calls",
+      "authors": [
+        "Jiahao Chen",
+        "Zeyu Mi",
+        "Yubin Xia",
+        "Haibing Guan",
+        "Haibo Chen 0001"
+      ],
+      "pages": "1065-1082",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChenMXG024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChenMXG024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/chen-jiahao"
+      ]
+    },
+    {
+      "title": "CrossMapping: Harmonizing Memory Consistency in Cross-ISA Binary Translation",
+      "authors": [
+        "Chen Gao",
+        "Xiangwei Meng",
+        "Wei Li 0262",
+        "Jinhui Lai",
+        "Yiran Zhang",
+        "Fengyuan Ren"
+      ],
+      "pages": "1013-1028",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GaoMLLZR24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GaoMLLZR24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/gao-chen"
+      ]
+    },
+    {
+      "title": "CyberStar: Simple, Elastic and Cost-Effective Network Functions Management in Cloud Network at Scale",
+      "authors": [
+        "Tingting Xu",
+        "Bengbeng Xue",
+        "Yang Song 0031",
+        "Xiaomin Wu",
+        "Xiaoxin Peng",
+        "Yilong Lyu",
+        "Xiaoliang Wang 0001",
+        "Chen Tian 0001",
+        "Baoliu Ye",
+        "Cam-Tu Nguyen",
+        "Biao Lyu",
+        "Rong Wen",
+        "Zhigang Zong",
+        "Shunmin Zhu"
+      ],
+      "pages": "227-246",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XuXSWPL00YNLWZZ24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XuXSWPL00YNLWZZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/xu-tingting"
+      ]
+    },
+    {
+      "title": "Data Caching for Enterprise-Grade Petabyte-Scale OLAP",
+      "authors": [
+        "Chunxu Tang",
+        "Bin Fan",
+        "Jing Zhao",
+        "Chen Liang",
+        "Yi Wang",
+        "Beinan Wang",
+        "Ziyue Qiu",
+        "Lu Qiu",
+        "Bowen Ding",
+        "Shouzhuo Sun",
+        "Saiguang Che",
+        "Jiaming Mai",
+        "Shouwei Chen",
+        "Yu Zhu",
+        "Jianjian Xie",
+        "Yutian Sun",
+        "Yao Li",
+        "Yangjun Zhang",
+        "Ke Wang",
+        "Mingmin Chen"
+      ],
+      "pages": "901-915",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TangFZLWWQQDSCM24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TangFZLWWQQDSCM24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/tang"
+      ]
+    },
+    {
+      "title": "Diagnosing Application-network Anomalies for Millions of IPs in Production Clouds",
+      "authors": [
+        "Zhe Wang 0015",
+        "Huanwu Hu",
+        "Linghe Kong",
+        "Xinlei Kang",
+        "Qiao Xiang",
+        "Jingxuan Li",
+        "Yang Lu",
+        "Zhuo Song",
+        "Peihao Yang",
+        "Jiejian Wu",
+        "Yong Yang 0013",
+        "Tao Ma 0006",
+        "Zheng Liu",
+        "Xianlong Zeng",
+        "Dennis Cai",
+        "Guihai Chen"
+      ],
+      "pages": "885-899",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0015HKKXLLSYWYM24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0015HKKXLLSYWYM24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/wang-zhe"
+      ]
+    },
+    {
+      "title": "Efficient Decentralized Federated Singular Vector Decomposition",
+      "authors": [
+        "Di Chai",
+        "Junxue Zhang 0001",
+        "Liu Yang 0008",
+        "Yilun Jin",
+        "Leye Wang",
+        "Kai Chen 0005",
+        "Qiang Yang 0001"
+      ],
+      "pages": "1029-1047",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Chai00JW0024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Chai00JW0024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/chai"
+      ]
+    },
+    {
+      "title": "Efficient Large Graph Processing with Chunk-Based Graph Representation Model",
+      "authors": [
+        "Rui Wang 0076",
+        "Weixu Zong",
+        "Shuibing He",
+        "Xinyu Chen",
+        "Zhenxin Li",
+        "Zheng Dang"
+      ],
+      "pages": "1239-1255",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0076ZHCLD24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0076ZHCLD24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/wang-rui"
+      ]
+    },
+    {
+      "title": "Enhancing Resource Management of the World's Largest PCDN System for On-Demand Video Streaming",
+      "authors": [
+        "Ruixiao Zhang",
+        "Haiping Wang 0002",
+        "Shu Shi",
+        "Xiaofei Pang",
+        "Yajie Peng",
+        "Zhichen Xue",
+        "Jiangchuan Liu"
+      ],
+      "pages": "951-965",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Zhang0SPPXL24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Zhang0SPPXL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/zhang-rui-xiao"
+      ]
+    },
+    {
+      "title": "ETC: An Elastic Transmission Control Using End-to-End Available Bandwidth Perception",
+      "authors": [
+        "Feixue Han",
+        "Qing Li 0006",
+        "Peng Zhang 0104",
+        "Gareth Tyson",
+        "Yong Jiang 0001",
+        "Mingwei Xu 0001",
+        "Yulong Lan",
+        "Zhicheng Li"
+      ],
+      "pages": "265-284",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Han0ZT0XLL24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Han0ZT0XLL24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/han"
+      ]
+    },
+    {
+      "title": "Ethane: An Asymmetric File System for Disaggregated Persistent Memory",
+      "authors": [
+        "Miao Cai 0001",
+        "Junru Shen",
+        "Baoliu Ye"
+      ],
+      "pages": "191-207",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CaiSY24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CaiSY24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/cai"
+      ]
+    },
+    {
+      "title": "Evaluating Chiplet-based Large-Scale Interconnection Networks via Cycle-Accurate Packet-Parallel Simulation",
+      "authors": [
+        "Yinxiao Feng",
+        "Yuchen Wei",
+        "Dong Xiang",
+        "Kaisheng Ma"
+      ],
+      "pages": "731-747",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FengWXM24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FengWXM24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/feng-yinxiao"
+      ]
+    },
+    {
+      "title": "Every Mapping Counts in Large Amounts: Folio Accounting",
+      "authors": [
+        "David Hildenbrand",
+        "Martin Schulz 0001",
+        "Nadav Amit"
+      ],
+      "pages": "1273-1282",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Hildenbrand0A24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Hildenbrand0A24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/hildenbrand"
+      ]
+    },
+    {
+      "title": "Expeditious High-Concurrency MicroVM SnapStart in Persistent Memory with an Augmented Hypervisor",
+      "authors": [
+        "Xingguo Pang",
+        "Yanze Zhang",
+        "Liu Liu",
+        "Dazhao Cheng",
+        "Chengzhong Xu 0001",
+        "Xiaobo Zhou 0002"
+      ],
+      "pages": "985-998",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PangZLC0024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PangZLC0024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/pang"
+      ]
+    },
+    {
+      "title": "Exploit both SMART Attributes and NAND Flash Wear Characteristics to Effectively Forecast SSD-based Storage Failures in Clusters",
+      "authors": [
+        "Yunfei Gu",
+        "Chentao Wu",
+        "Xubin He"
+      ],
+      "pages": "1101-1117",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuWH24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuWH24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/gu-yunfei"
+      ]
+    },
+    {
+      "title": "ExtMem: Enabling Application-Aware Virtual Memory Management for Data-Intensive Applications",
+      "authors": [
+        "Sepehr Jalalian",
+        "Shaurya Patel",
+        "Milad Rezaei Hajidehi",
+        "Margo I. Seltzer",
+        "Alexandra Fedorova"
+      ],
+      "pages": "397-408",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JalalianPHSF24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JalalianPHSF24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/jalalian"
+      ]
+    },
+    {
+      "title": "Fast (Trapless) Kernel Probes Everywhere",
+      "authors": [
+        "Jinghao Jia",
+        "Michael V. Le",
+        "Salman Ahmed 0001",
+        "Dan Williams 0001",
+        "Hani Jamjoom",
+        "Tianyin Xu"
+      ],
+      "pages": "379-386",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JiaL00JX24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JiaL00JX24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/jia"
+      ]
+    },
+    {
+      "title": "Fast Inference for Probabilistic Graphical Models",
+      "authors": [
+        "Jiantong Jiang",
+        "Zeyi Wen",
+        "Atif Bin Mansoor",
+        "Ajmal Mian"
+      ],
+      "pages": "95-110",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JiangWMM24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JiangWMM24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/jiang"
+      ]
+    },
+    {
+      "title": "FastCommit: resource-efficient, performant and cost-effective file system journaling",
+      "authors": [
+        "Harshad Shirwadkar",
+        "Saurabh Kadekodi",
+        "Theodore Y. Ts'o"
+      ],
+      "pages": "157-171",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShirwadkarKT24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShirwadkarKT24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/shirwadkar"
+      ]
+    },
+    {
+      "title": "FBMM: Making Memory Management Extensible With Filesystems",
+      "authors": [
+        "Bijan Tabatabai",
+        "James Christopher Sorenson III",
+        "Michael M. Swift"
+      ],
+      "pages": "785-798",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TabatabaiSS24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TabatabaiSS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/tabatabai"
+      ]
+    },
+    {
+      "title": "FetchBPF: Customizable Prefetching Policies in Linux with eBPF",
+      "authors": [
+        "Xuechun Cao",
+        "Shaurya Patel",
+        "Soo-Yee Lim",
+        "Xueyuan Han",
+        "Thomas Pasquier"
+      ],
+      "pages": "369-378",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CaoPLHP24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CaoPLHP24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/cao"
+      ]
+    },
+    {
+      "title": "FlexMem: Adaptive Page Profiling and Migration for Tiered Memory",
+      "authors": [
+        "Dong Xu 0024",
+        "Junhee Ryu",
+        "Kwangsik Shin",
+        "Pengfei Su",
+        "Dong Li 0001"
+      ],
+      "pages": "817-833",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XuRSS024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XuRSS024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/xu-dong"
+      ]
+    },
+    {
+      "title": "Full Lifecycle Data Analysis on a Large-scale and Leadership Supercomputer: What Can We Learn from It?",
+      "authors": [
+        "Bin Yang 0043",
+        "Hao Wei",
+        "Wenhao Zhu",
+        "Yuhao Zhang",
+        "Weiguo Liu",
+        "Wei Xue 0003"
+      ],
+      "pages": "917-933",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YangWZZLX24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YangWZZLX24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/yang"
+      ]
+    },
+    {
+      "title": "FwdLLM: Efficient Federated Finetuning of Large Language Models with Perturbed Inferences",
+      "authors": [
+        "Mengwei Xu 0001",
+        "Dongqi Cai 0001",
+        "Yaozong Wu",
+        "Xiang Li 0067",
+        "Shangguang Wang"
+      ],
+      "pages": "579-596",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XuCWLW24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XuCWLW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/xu-mengwei"
+      ]
+    },
+    {
+      "title": "gVulkan: Scalable GPU Pooling for Pixel-Grained Rendering in Ray Tracing",
+      "authors": [
+        "Yicheng Gu",
+        "Yun Wang 0039",
+        "Yunfan Sun",
+        "Yuxin Xiang",
+        "Xuyan Hu",
+        "Zhengwei Qi",
+        "Haibing Guan"
+      ],
+      "pages": "1151-1165",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuWSXHQG24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuWSXHQG24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/gu-yicheng"
+      ]
+    },
+    {
+      "title": "Harmonizing Efficiency and Practicability: Optimizing Resource Utilization in Serverless Computing with Jiagu",
+      "authors": [
+        "Qingyuan Liu",
+        "Yanning Yang",
+        "Dong Du 0003",
+        "Yubin Xia",
+        "Ping Zhang",
+        "Jia Feng",
+        "James R. Larus",
+        "Haibo Chen 0001"
+      ],
+      "pages": "1-17",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiuY0XZFL024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiuY0XZFL024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/liu-qingyuan"
+      ]
+    },
+    {
+      "title": "High-density Mobile Cloud Gaming on Edge SoC Clusters",
+      "authors": [
+        "Li Zhang 0133",
+        "Shangguang Wang",
+        "Mengwei Xu 0001"
+      ],
+      "pages": "339-347",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangWX24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangWX24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/zhang-li-gaming"
+      ]
+    },
+    {
+      "title": "HiP4-UPF: Towards High-Performance Comprehensive 5G User Plane Function on P4 Programmable Switches",
+      "authors": [
+        "Zhixin Wen",
+        "Guanhua Yan"
+      ],
+      "pages": "303-320",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WenY24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WenY24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/wen"
+      ]
+    },
+    {
+      "title": "HydraRPC: RPC in the CXL Era",
+      "authors": [
+        "Teng Ma 0006",
+        "Zheng Liu",
+        "Chengkun Wei",
+        "Jialiang Huang",
+        "Youwei Zhuo",
+        "Haoyu Li",
+        "Ning Zhang",
+        "Yijin Guan",
+        "Dimin Niu",
+        "Mingxing Zhang",
+        "Tao Ma 0006"
+      ],
+      "pages": "387-395",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MaLWHZLZGNZM24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MaLWHZLZGNZM24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/ma"
+      ]
+    },
+    {
+      "title": "KEPC-Push: A Knowledge-Enhanced Proactive Content Push Strategy for Edge-Assisted Video Feed Streaming",
+      "authors": [
+        "Ziwen Ye",
+        "Qing Li 0006",
+        "Chunyu Qiao",
+        "Xiaoteng Ma",
+        "Yong Jiang 0001",
+        "Qian Ma",
+        "Shengbin Meng",
+        "Zhenhui Yuan",
+        "Zili Meng"
+      ],
+      "pages": "321-338",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Ye0QM0MMYM24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Ye0QM0MMYM24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/ye-ziwen"
+      ]
+    },
+    {
+      "title": "Kivi: Verification for Cluster Management",
+      "authors": [
+        "Bingzhe Liu",
+        "Gangmuk Lim",
+        "Ryan Beckett",
+        "Philip Brighten Godfrey"
+      ],
+      "pages": "509-527",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiuLBG24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiuLBG24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/liu-bingzhe"
+      ]
+    },
+    {
+      "title": "Limitations and Opportunities of Modern Hardware Isolation Mechanisms",
+      "authors": [
+        "Xiangdong Chen",
+        "Zhaofeng Li 0004",
+        "Tirth Jain",
+        "Vikram Narayanan",
+        "Anton Burtsev"
+      ],
+      "pages": "349-368",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Chen0JNB24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Chen0JNB24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/chen-xiangdong"
+      ]
+    },
+    {
+      "title": "MAGPY: Compiling Eager Mode DNN Programs by Monitoring Execution States",
+      "authors": [
+        "Chen Zhang 0001",
+        "Rongchao Dong",
+        "Haojie Wang 0004",
+        "Runxin Zhong",
+        "Jike Chen",
+        "Jidong Zhai"
+      ],
+      "pages": "683-698",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangDWZCZ24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangDWZCZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/zhang-chen"
+      ]
+    },
+    {
+      "title": "Mangosteen: Fast Transparent Durability for Linearizable Applications using NVM",
+      "authors": [
+        "Sergey Egorov",
+        "Gregory V. Chockler",
+        "Brijesh Dongol",
+        "Dan O'Keeffe",
+        "Sadegh Keshavarzi"
+      ],
+      "pages": "799-815",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/EgorovCDOK24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/EgorovCDOK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/egorov"
+      ]
+    },
+    {
+      "title": "Metis: Fast Automatic Distributed Training on Heterogeneous GPUs",
+      "authors": [
+        "Taegeon Um",
+        "Byungsoo Oh",
+        "Minyoung Kang",
+        "Woo-Yeon Lee",
+        "Goeun Kim",
+        "Dongseob Kim",
+        "Youngtaek Kim",
+        "Mohd Muzzammil",
+        "Myeongjae Jeon"
+      ],
+      "pages": "563-578",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/UmOKLKKKMJ24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/UmOKLKKKMJ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/um"
+      ]
+    },
+    {
+      "title": "mmTLS: Scaling the Performance of Encrypted Network Traffic Inspection",
+      "authors": [
+        "Junghan Yoon",
+        "Seunghyun Do",
+        "Duckwoo Kim",
+        "Taejoong Chung",
+        "KyoungSoo Park"
+      ],
+      "pages": "631-647",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YoonDKCP24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YoonDKCP24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/yoon"
+      ]
+    },
+    {
+      "title": "Models on the Move: Towards Feasible Embedded AI for Intrusion Detection on Vehicular CAN Bus",
+      "authors": [
+        "He Xu",
+        "Di Wu 0002",
+        "Yufeng Lu",
+        "Jiwu Lu",
+        "Haibo Zeng 0001"
+      ],
+      "pages": "1049-1063",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Xu0LL024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Xu0LL024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/xu-he"
+      ]
+    },
+    {
+      "title": "Monarch: A Fuzzing Framework for Distributed File Systems",
+      "authors": [
+        "Tao Lyu 0004",
+        "Liyi Zhang",
+        "Zhiyao Feng",
+        "Yueyang Pan",
+        "Yujie Ren",
+        "Meng Xu 0001",
+        "Mathias Payer",
+        "Sanidhya Kashyap"
+      ],
+      "pages": "529-543",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0004ZFPR0PK24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0004ZFPR0PK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/lyu"
+      ]
+    },
+    {
+      "title": "More is Different: Prototyping and Analyzing a New Form of Edge Server with Massive Mobile SoCs",
+      "authors": [
+        "Li Zhang 0133",
+        "Zhe Fu 0005",
+        "Boqing Shi",
+        "Xiang Li 0067",
+        "Rujin Lai",
+        "Chenyang Yang 0004",
+        "Ao Zhou 0001",
+        "Xiao Ma 0009",
+        "Shangguang Wang",
+        "Mengwei Xu 0001"
+      ],
+      "pages": "285-302",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangFSLLY00WX24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangFSLLY00WX24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/zhang-li-prototyping"
+      ]
+    },
+    {
+      "title": "MSFRD: Mutation Similarity based SSD Failure Rating and Diagnosis for Complex and Volatile Production Environments",
+      "authors": [
+        "Yuqi Zhang",
+        "Tianyi Zhang",
+        "Wenwen Hao",
+        "Shuyang Wang",
+        "Na Liu",
+        "Xing He",
+        "Yang Zhang",
+        "Weixin Wang",
+        "Yongguang Cheng",
+        "Huan Wang",
+        "Jie Xu",
+        "Feng Wang",
+        "Bo Jiang",
+        "Yongwong Gwon",
+        "Jongsung Na",
+        "Zoe Kim",
+        "Geunrok Oh"
+      ],
+      "pages": "869-884",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangZHWLHZWCWX24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangZHWLHZWCWX24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/zhang-yuqi"
+      ]
+    },
+    {
+      "title": "OPER: Optimality-Guided Embedding Table Parallelization for Large-scale Recommendation Model",
+      "authors": [
+        "Zheng Wang 0075",
+        "Yuke Wang",
+        "Boyuan Feng",
+        "Guyue Huang",
+        "Dheevatsa Mudigere",
+        "Bharath Muthiah",
+        "Ang Li 0006",
+        "Yufei Ding 0001"
+      ],
+      "pages": "667-682",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangWFHMM0D24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangWFHMM0D24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/wang"
+      ]
+    },
+    {
+      "title": "OSMOSIS: Enabling Multi-Tenancy in Datacenter SmartNICs",
+      "authors": [
+        "Mikhail Khalilov",
+        "Marcin Chrapek",
+        "Siyuan Shen",
+        "Alessandro Vezzu",
+        "Thomas Benz",
+        "Salvatore Di Girolamo",
+        "Timo Schneider",
+        "Daniele De Sensi",
+        "Luca Benini",
+        "Torsten Hoefler"
+      ],
+      "pages": "247-263",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KhalilovCSVBGSS24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KhalilovCSVBGSS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/khalilov"
+      ]
+    },
+    {
+      "title": "Panorama: Optimizing Internet-scale Users' Routes from End to End",
+      "authors": [
+        "Geng Li",
+        "Shuihai Hu",
+        "Kun Tan"
+      ],
+      "pages": "935-949",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiHT24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiHT24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/li-geng"
+      ]
+    },
+    {
+      "title": "Pecan: Cost-Efficient ML Data Preprocessing with Automatic Transformation Ordering and Hybrid Placement",
+      "authors": [
+        "Dan Graur",
+        "Oto Mraz",
+        "Muyu Li",
+        "Mohammad Sepehr Pourghannad",
+        "Chandramohan A. Thekkath",
+        "Ana Klimovic"
+      ],
+      "pages": "649-665",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GraurMLPTK24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GraurMLPTK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/graur"
+      ]
+    },
+    {
+      "title": "PeRF: Preemption-enabled RDMA Framework",
+      "authors": [
+        "Sugi Lee",
+        "Mingyu Choi",
+        "Ikjun Yeom",
+        "Younghoon Kim"
+      ],
+      "pages": "209-225",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LeeCYK24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LeeCYK24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/lee"
+      ]
+    },
+    {
+      "title": "Power-aware Deep Learning Model Serving with μ-Serve",
+      "authors": [
+        "Haoran Qiu",
+        "Weichao Mao",
+        "Archit Patke",
+        "Shengkun Cui",
+        "Saurabh Jha",
+        "Chen Wang 0039",
+        "Hubertus Franke",
+        "Zbigniew Kalbarczyk",
+        "Tamer Basar",
+        "Ravishankar K. Iyer"
+      ],
+      "pages": "75-93",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/QiuMPCJ0FKBI24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/QiuMPCJ0FKBI24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/qiu"
+      ]
+    },
+    {
+      "title": "PUZZLE: Efficiently Aligning Large Language Models through Light-Weight Context Switch",
+      "authors": [
+        "Kinman Lei",
+        "Yuyang Jin 0001",
+        "Mingshu Zhai",
+        "Kezhao Huang",
+        "Haoxing Ye",
+        "Jidong Zhai"
+      ],
+      "pages": "127-140",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LeiJZHYZ24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LeiJZHYZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/lei"
+      ]
+    },
+    {
+      "title": "QDSR: Accelerating Layer-7 Load Balancing by Direct Server Return with QUIC",
+      "authors": [
+        "Ziqi Wei 0004",
+        "Zhiqiang Wang",
+        "Qing Li 0006",
+        "Yuan Yang 0001",
+        "Cheng Luo",
+        "Fuyu Wang",
+        "Yong Jiang 0001",
+        "Sijie Yang",
+        "Zhenhui Yuan"
+      ],
+      "pages": "715-730",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WeiW00LW0YY24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WeiW00LW0YY24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/wei"
+      ]
+    },
+    {
+      "title": "Quant-LLM: Accelerating the Serving of Large Language Models via FP6-Centric Algorithm-System Co-Design on Modern GPUs",
+      "authors": [
+        "Haojun Xia",
+        "Zhen Zheng",
+        "Xiaoxia Wu",
+        "Shiyang Chen 0004",
+        "Zhewei Yao",
+        "Stephen Youn",
+        "Arash Bakhtiari",
+        "Michael Wyatt",
+        "Donglin Zhuang",
+        "Zhongzhu Zhou",
+        "Olatunji Ruwase",
+        "Yuxiong He",
+        "Shuaiwen Leon Song"
+      ],
+      "pages": "699-713",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XiaZWCYYBWZZRHS24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XiaZWCYYBWZZRHS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/xia"
+      ]
+    },
+    {
+      "title": "Removing Obstacles before Breaking Through the Memory Wall: A Close Look at HBM Errors in the Field",
+      "authors": [
+        "Ronglong Wu",
+        "Shuyue Zhou",
+        "Jiahao Lu 0003",
+        "Zhirong Shen",
+        "Zikang Xu",
+        "Jiwu Shu",
+        "Kunlin Yang",
+        "Feilong Lin",
+        "Yiming Zhang 0003"
+      ],
+      "pages": "851-867",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WuZLSXSYLZ24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WuZLSXSYLZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/wu-ronglong"
+      ]
+    },
+    {
+      "title": "RL-Watchdog: A Fast and Predictable SSD Liveness Watchdog on Storage Systems",
+      "authors": [
+        "Jinyong Ha 0001",
+        "Sangjin Lee 0003",
+        "Heon Young Yeom",
+        "Yongseok Son"
+      ],
+      "pages": "1083-1100",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0001LYS24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0001LYS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/ha"
+      ]
+    },
+    {
+      "title": "ScalaAFA: Constructing User-Space All-Flash Array Engine with Holistic Designs",
+      "authors": [
+        "Shushu Yi",
+        "Xiurui Pan",
+        "Qiao Li 0001",
+        "Qiang Li",
+        "Chenxi Wang 0005",
+        "Bo Mao 0003",
+        "Myoungsoo Jung",
+        "Jie Zhang 0048"
+      ],
+      "pages": "141-156",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YiPLLWMJ024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YiPLLWMJ024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/yi-shushu"
+      ]
+    },
+    {
+      "title": "Scalable and Effective Page-table and TLB management on NUMA Systems",
+      "authors": [
+        "Bin Gao",
+        "Qingxuan Kang",
+        "Hao-Wei Tee",
+        "Kyle Timothy Ng Chu",
+        "Alireza Sanaee",
+        "Djordje Jevdjic"
+      ],
+      "pages": "445-461",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GaoKTCSJ24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GaoKTCSJ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/gao-bin-scalable"
+      ]
+    },
+    {
+      "title": "Scalable Billion-point Approximate Nearest Neighbor Search Using SmartSSDs",
+      "authors": [
+        "Bing Tian",
+        "Haikun Liu",
+        "Zhuohui Duan",
+        "Xiaofei Liao",
+        "Hai Jin 0001",
+        "Yu Zhang 0027"
+      ],
+      "pages": "1135-1150",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TianLDL0024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TianLDL0024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/tian"
+      ]
+    },
+    {
+      "title": "ScalaCache: Scalable User-Space Page Cache Management with Software-Hardware Coordination",
+      "authors": [
+        "Li Peng",
+        "Yuda An",
+        "You Zhou",
+        "Chenxi Wang 0005",
+        "Qiao Li 0001",
+        "Chuanning Cheng",
+        "Jie Zhang 0048"
+      ],
+      "pages": "1185-1202",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PengAZWLC024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PengAZWLC024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/peng"
+      ]
+    },
+    {
+      "title": "SimEnc: A High-Performance Similarity-Preserving Encryption Approach for Deduplication of Encrypted Docker Images",
+      "authors": [
+        "Tong Sun 0006",
+        "Bowen Jiang",
+        "Borui Li 0001",
+        "Jiamei Lv",
+        "Yi Gao 0001",
+        "Wei Dong 0001"
+      ],
+      "pages": "615-630",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SunJ0L0024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SunJ0L0024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/sun"
+      ]
+    },
+    {
+      "title": "SlimArchive: A Lightweight Architecture for Ethereum Archive Nodes",
+      "authors": [
+        "Hang Feng",
+        "Yufeng Hu",
+        "Yinghan Kou",
+        "Runhuai Li",
+        "Jianfeng Zhu",
+        "Lei Wu 0012",
+        "Yajin Zhou"
+      ],
+      "pages": "1257-1272",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FengHKLZ0Z24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FengHKLZ0Z24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/feng-hang"
+      ]
+    },
+    {
+      "title": "Starburst: A Cost-aware Scheduler for Hybrid Cloud",
+      "authors": [
+        "Michael Luo",
+        "Siyuan Zhuang",
+        "Suryaprakash Vengadesan",
+        "Romil Bhardwaj",
+        "Justin Chang",
+        "Eric J. Friedman",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": "37-57",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LuoZVBCFSS24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LuoZVBCFSS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/luo"
+      ]
+    },
+    {
+      "title": "StreamBox: A Lightweight GPU SandBox for Serverless Inference Workflow",
+      "authors": [
+        "Hao Wu 0010",
+        "Yue Yu",
+        "Junxiao Deng",
+        "Shadi Ibrahim",
+        "Song Wu 0001",
+        "Hao Fan 0006",
+        "Ziyue Cheng",
+        "Hai Jin 0001"
+      ],
+      "pages": "59-73",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0010YDI0FC024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0010YDI0FC024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/wu-hao"
+      ]
+    },
+    {
+      "title": "StreamCache: Revisiting Page Cache for File Scanning on Fast Storage Devices",
+      "authors": [
+        "Zhiyue Li",
+        "Guangyan Zhang"
+      ],
+      "pages": "1119-1134",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiZ24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/li-zhiyue"
+      ]
+    },
+    {
+      "title": "SuperBench: Improving Cloud AI Infrastructure Reliability with Proactive Validation",
+      "authors": [
+        "Yifan Xiong 0001",
+        "Yuting Jiang",
+        "Ziyue Yang",
+        "Lei Qu",
+        "Guoshuai Zhao",
+        "Shuguang Liu",
+        "Dong Zhong",
+        "Boris Pinzur",
+        "Jie Zhang 0048",
+        "Yang Wang 0053",
+        "Jithin Jose",
+        "Hossein Pourreza",
+        "Jeff Baxter",
+        "Kushal Datta",
+        "Prabhat Ram",
+        "Luke Melton",
+        "Joe Chau",
+        "Peng Cheng 0005",
+        "Yongqiang Xiong",
+        "Lidong Zhou"
+      ],
+      "pages": "835-850",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0001JYQZLZPZWJP24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0001JYQZLZPZWJP24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/xiong"
+      ]
+    },
+    {
+      "title": "Taming Hot Bloat Under Virtualization with HUGESCOPE",
+      "authors": [
+        "Chuandong Li 0004",
+        "Sai Sha",
+        "Yangqing Zeng",
+        "Xiran Yang",
+        "Yingwei Luo",
+        "Xiaolin Wang 0001",
+        "Zhenlin Wang 0003",
+        "Diyu Zhou"
+      ],
+      "pages": "999-1012",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0004SZYL0WZ24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0004SZYL0WZ24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/li-chuandong"
+      ]
+    },
+    {
+      "title": "Telescope: Telemetry for Gargantuan Memory Footprint Applications",
+      "authors": [
+        "Alan Nair",
+        "Sandeep Kumar",
+        "Aravinda Prasad",
+        "Ying Huang",
+        "Andy Rudoff",
+        "Sreenivas Subramoney"
+      ],
+      "pages": "409-424",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/NairKPHRS24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/NairKPHRS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/nair"
+      ]
+    },
+    {
+      "title": "TileClipper: Lightweight Selection of Regions of Interest from Videos for Traffic Surveillance",
+      "authors": [
+        "Shubham Chaudhary 0006",
+        "Aryan Taneja",
+        "Anjali Singh",
+        "Purbasha Roy",
+        "Sohum Sikdar",
+        "Mukulika Maity",
+        "Arani Bhattacharya"
+      ],
+      "pages": "967-984",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0006TSRSMB24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0006TSRSMB24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/chaudhary"
+      ]
+    },
+    {
+      "title": "UniMem: Redesigning Disaggregated Memory within A Unified Local-Remote Memory Hierarchy",
+      "authors": [
+        "Yijie Zhong",
+        "Minqiang Zhou",
+        "Zhirong Shen",
+        "Jiwu Shu"
+      ],
+      "pages": "463-477",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhongZSS24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhongZSS24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/zhong"
+      ]
+    },
+    {
+      "title": "vFPIO: A Virtual I/O Abstraction for FPGA-accelerated I/O Devices",
+      "authors": [
+        "Jiyang Chen",
+        "Harshavardhan Unnibhavi",
+        "Atsushi Koshiba",
+        "Pramod Bhatotia"
+      ],
+      "pages": "1167-1184",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChenUKB24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChenUKB24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/chen-jiyang"
+      ]
+    },
+    {
+      "title": "WingFuzz: Implementing Continuous Fuzzing for DBMSs",
+      "authors": [
+        "Jie Liang 0006",
+        "Zhiyong Wu 0010",
+        "Jingzhou Fu",
+        "Yiyuan Bai",
+        "Qiang Zhang",
+        "Yu Jiang 0001"
+      ],
+      "pages": "479-492",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0006WFBZ024",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0006WFBZ024.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/liang"
+      ]
+    },
+    {
+      "title": "ZMS: Zone Abstraction for Mobile Flash Storage",
+      "authors": [
+        "Joo Young Hwang",
+        "Seokhwan Kim",
+        "Daejun Park 0002",
+        "Yong-Gil Song",
+        "Junyoung Han",
+        "Seunghyun Choi",
+        "Sangyeun Cho",
+        "Youjip Won"
+      ],
+      "pages": "173-189",
+      "year": "2024",
+      "venue": "USENIX ATC 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HwangK0SHCCW24",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HwangK0SHCCW24.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc24/presentation/hwang"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "id": "asplos-1991",
+  "venue": "asplos",
+  "year": 1991,
+  "short_name": "ASPLOS",
+  "full_name": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "source_url": "https://dblp.org/db/conf/asplos/asplos1991.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/asplos/asplos1991.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/asplos/1991",
+    "conf/asplos/1991-1",
+    "conf/asplos/1991-2",
+    "conf/asplos/1991-3",
+    "conf/asplos/1991-4",
+    "conf/asplos/1991-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) ACM International Conference on Architectural Support"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 28,
+  "display_count": 28,
+  "papers": [
+    {
+      "title": "A Portable Interface for On-the-Fly Instruction Space Modifiction",
+      "authors": [
+        "David Keppel"
+      ],
+      "pages": "86-95",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Keppel91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Keppel91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106983",
+        "https://doi.org/10.1145/106973.106983",
+        "https://doi.org/10.1145/106974.106983",
+        "https://doi.org/10.1145/106975.106983"
+      ]
+    },
+    {
+      "title": "A Variable Instruction Stream Extension to the VLIW Architecture",
+      "authors": [
+        "Andrew Wolfe",
+        "John Paul Shen"
+      ],
+      "pages": "2-14",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WolfeS91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WolfeS91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106976",
+        "https://doi.org/10.1145/106973.106976",
+        "https://doi.org/10.1145/106974.106976",
+        "https://doi.org/10.1145/106975.106976"
+      ]
+    },
+    {
+      "title": "An Analysis of SPARC and MIPS Instruction Set Utilization on the SPEC Benchmarks",
+      "authors": [
+        "Robert F. Cmelik",
+        "Shing I. Kong",
+        "David R. Ditzel",
+        "Edmund J. Kelly"
+      ],
+      "pages": "290-302",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CmelikKDK91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CmelikKDK91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.107001",
+        "https://doi.org/10.1145/106973.107001",
+        "https://doi.org/10.1145/106974.107001",
+        "https://doi.org/10.1145/106975.107001"
+      ]
+    },
+    {
+      "title": "An Efficient Cache-Based Access Anomaly Detection Scheme",
+      "authors": [
+        "Sang Lyul Min",
+        "Jong-Deok Choi"
+      ],
+      "pages": "235-244",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MinC91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MinC91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106996",
+        "https://doi.org/10.1145/106973.106996",
+        "https://doi.org/10.1145/106974.106996",
+        "https://doi.org/10.1145/106975.106996"
+      ]
+    },
+    {
+      "title": "Code Generation for Streaming: An Access/Execute Mechanism",
+      "authors": [
+        "Manuel E. Benitez",
+        "Jack W. Davidson"
+      ],
+      "pages": "132-141",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BenitezD91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BenitezD91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106987",
+        "https://doi.org/10.1145/106973.106987",
+        "https://doi.org/10.1145/106974.106987",
+        "https://doi.org/10.1145/106975.106987"
+      ]
+    },
+    {
+      "title": "Efficient Implementation of High Level Parallel Programs",
+      "authors": [
+        "Rajive L. Bagrodia",
+        "Sharad Mathur"
+      ],
+      "pages": "142-151",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BagrodiaM91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BagrodiaM91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.376053",
+        "https://doi.org/10.1145/106973.376053",
+        "https://doi.org/10.1145/106974.376053",
+        "https://doi.org/10.1145/106975.376053"
+      ]
+    },
+    {
+      "title": "Fine-Grain Parallelism with Minimal Hardware Support: A Compiler-Controlled Threaded Abstract Machine",
+      "authors": [
+        "David E. Culler",
+        "Anurag Sah",
+        "Klaus E. Schauser",
+        "Thorsten von Eicken",
+        "John Wawrzynek"
+      ],
+      "pages": "164-175",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CullerSSEW91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CullerSSEW91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106990",
+        "https://doi.org/10.1145/106973.106990",
+        "https://doi.org/10.1145/106974.106990",
+        "https://doi.org/10.1145/106975.106990",
+        "https://www.wikidata.org/entity/Q121149714"
+      ]
+    },
+    {
+      "title": "High-Bandwidth Data Memory Systems for Superscalar Processors",
+      "authors": [
+        "Gurindar S. Sohi",
+        "Manoj Franklin"
+      ],
+      "pages": "53-62",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SohiF91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SohiF91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106980",
+        "https://doi.org/10.1145/106973.106980",
+        "https://doi.org/10.1145/106974.106980",
+        "https://doi.org/10.1145/106975.106980"
+      ]
+    },
+    {
+      "title": "Integrating Register Allocation and Instruction Scheduling for RISCs",
+      "authors": [
+        "David G. Bradlee",
+        "Susan J. Eggers",
+        "Robert R. Henry"
+      ],
+      "pages": "122-131",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BradleeEH91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BradleeEH91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106986",
+        "https://doi.org/10.1145/106973.106986",
+        "https://doi.org/10.1145/106974.106986",
+        "https://doi.org/10.1145/106975.106986"
+      ]
+    },
+    {
+      "title": "Integration of Compression and Caching for a Two-Level File System",
+      "authors": [
+        "Vincent Cate",
+        "Thomas R. Gross"
+      ],
+      "pages": "200-211",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CateG91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CateG91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106993",
+        "https://doi.org/10.1145/106973.106993",
+        "https://doi.org/10.1145/106974.106993",
+        "https://doi.org/10.1145/106975.106993"
+      ]
+    },
+    {
+      "title": "LimitLESS Directories: A Scalable Cache Coherence Scheme",
+      "authors": [
+        "David Chaiken",
+        "John Kubiatowicz",
+        "Anant Agarwal"
+      ],
+      "pages": "224-234",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChaikenKA91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChaikenKA91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106995",
+        "https://doi.org/10.1145/106973.106995",
+        "https://doi.org/10.1145/106974.106995",
+        "https://doi.org/10.1145/106975.106995"
+      ]
+    },
+    {
+      "title": "Limits of Instruction-Level Parallelism",
+      "authors": [
+        "David W. Wall"
+      ],
+      "pages": "176-188",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Wall91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Wall91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106991",
+        "https://doi.org/10.1145/106973.106991",
+        "https://doi.org/10.1145/106974.106991",
+        "https://doi.org/10.1145/106975.106991"
+      ]
+    },
+    {
+      "title": "NUMA Policies and Their Relation to Memory Architecture",
+      "authors": [
+        "William J. Bolosky",
+        "Michael L. Scott",
+        "Robert P. Fitzgerald",
+        "Robert J. Fowler",
+        "Alan L. Cox"
+      ],
+      "pages": "212-221",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BoloskySFFC91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BoloskySFFC91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106994",
+        "https://doi.org/10.1145/106973.106994",
+        "https://doi.org/10.1145/106974.106994",
+        "https://doi.org/10.1145/106975.106994"
+      ]
+    },
+    {
+      "title": "Performance Characteristics of Architectural Features of the IBM RISC System/6000",
+      "authors": [
+        "C. Brian Hall",
+        "Kevin O'Brien"
+      ],
+      "pages": "303-309",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HallO91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HallO91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.107002",
+        "https://doi.org/10.1145/106973.107002",
+        "https://doi.org/10.1145/106974.107002",
+        "https://doi.org/10.1145/106975.107002"
+      ]
+    },
+    {
+      "title": "Performance Consequences of Parity Placement in Disk Arrays",
+      "authors": [
+        "Edward K. Lee 0001",
+        "Randy H. Katz"
+      ],
+      "pages": "190-199",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LeeK91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LeeK91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106992",
+        "https://doi.org/10.1145/106973.106992",
+        "https://doi.org/10.1145/106974.106992",
+        "https://doi.org/10.1145/106975.106992"
+      ]
+    },
+    {
+      "title": "Performance Evaluation of Memory Consistency Models for Shared Memory Multiprocessors",
+      "authors": [
+        "Kourosh Gharachorloo",
+        "Anoop Gupta",
+        "John L. Hennessy"
+      ],
+      "pages": "245-257",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GharachorlooGH91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GharachorlooGH91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106997",
+        "https://doi.org/10.1145/106973.106997",
+        "https://doi.org/10.1145/106974.106997",
+        "https://doi.org/10.1145/106975.106997"
+      ]
+    },
+    {
+      "title": "Performance From Architecture: Comparing a RISC and CISC with Similar Hardware Organization",
+      "authors": [
+        "Dileep Bhandarkar",
+        "Douglas W. Clark"
+      ],
+      "pages": "310-319",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BhandarkarC91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BhandarkarC91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.107003",
+        "https://doi.org/10.1145/106973.107003",
+        "https://doi.org/10.1145/106974.107003",
+        "https://doi.org/10.1145/106975.107003",
+        "https://www.wikidata.org/entity/Q59444985"
+      ]
+    },
+    {
+      "title": "Process Coordination with Fetch-and-Increment",
+      "authors": [
+        "Eric Freudenthal",
+        "Allan Gottlieb"
+      ],
+      "pages": "260-268",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/FreudenthalG91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/FreudenthalG91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106998",
+        "https://doi.org/10.1145/106973.106998",
+        "https://doi.org/10.1145/106974.106998",
+        "https://doi.org/10.1145/106975.106998"
+      ]
+    },
+    {
+      "title": "Reducing the Branch Penalty by Rearranging Instructions in Double-Width Memory",
+      "authors": [
+        "Manolis Katevenis",
+        "Nestoras Tzartzanis"
+      ],
+      "pages": "15-27",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KatevenisT91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KatevenisT91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106977",
+        "https://doi.org/10.1145/106973.106977",
+        "https://doi.org/10.1145/106974.106977",
+        "https://doi.org/10.1145/106975.106977"
+      ]
+    },
+    {
+      "title": "Software Prefetching",
+      "authors": [
+        "David Callahan",
+        "Ken Kennedy",
+        "Allan Porterfield"
+      ],
+      "pages": "40-52",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CallahanKP91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CallahanKP91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106979",
+        "https://doi.org/10.1145/106973.106979",
+        "https://doi.org/10.1145/106974.106979",
+        "https://doi.org/10.1145/106975.106979",
+        "https://www.wikidata.org/entity/Q56565129"
+      ]
+    },
+    {
+      "title": "Synchronization without Contention",
+      "authors": [
+        "John M. Mellor-Crummey",
+        "Michael L. Scott"
+      ],
+      "pages": "269-278",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Mellor-CrummeyS91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Mellor-CrummeyS91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106999",
+        "https://doi.org/10.1145/106973.106999",
+        "https://doi.org/10.1145/106974.106999",
+        "https://doi.org/10.1145/106975.106999"
+      ]
+    },
+    {
+      "title": "The Cache Performance and Optimizations of Blocked Algorithms",
+      "authors": [
+        "Monica S. Lam",
+        "Edward E. Rothberg",
+        "Michael E. Wolf"
+      ],
+      "pages": "63-74",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LamRW91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LamRW91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106981",
+        "https://doi.org/10.1145/106973.106981",
+        "https://doi.org/10.1145/106974.106981",
+        "https://doi.org/10.1145/106975.106981"
+      ]
+    },
+    {
+      "title": "The Case for a Read Barrier",
+      "authors": [
+        "Douglas Johnson"
+      ],
+      "pages": "279-287",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Johnson91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Johnson91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.107000",
+        "https://doi.org/10.1145/106973.107000",
+        "https://doi.org/10.1145/106974.107000",
+        "https://doi.org/10.1145/106975.107000"
+      ]
+    },
+    {
+      "title": "The Effect of Context Switches on Cache Performance",
+      "authors": [
+        "Jeffrey C. Mogul",
+        "Anita Borg"
+      ],
+      "pages": "75-84",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MogulB91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MogulB91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106982",
+        "https://doi.org/10.1145/106973.106982",
+        "https://doi.org/10.1145/106974.106982",
+        "https://doi.org/10.1145/106975.106982"
+      ]
+    },
+    {
+      "title": "The Floating-Point Performance of a Superscalar SPARC Processor",
+      "authors": [
+        "Roland L. Lee",
+        "Alex Y. Kwok",
+        "Faye A. Briggs"
+      ],
+      "pages": "28-37",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LeeKB91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LeeKB91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106978",
+        "https://doi.org/10.1145/106973.106978",
+        "https://doi.org/10.1145/106974.106978",
+        "https://doi.org/10.1145/106975.106978"
+      ]
+    },
+    {
+      "title": "The Interaction of Architecture and Operating System Design",
+      "authors": [
+        "Thomas E. Anderson",
+        "Henry M. Levy",
+        "Brian N. Bershad",
+        "Edward D. Lazowska"
+      ],
+      "pages": "108-120",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/AndersonLBL91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/AndersonLBL91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106985",
+        "https://doi.org/10.1145/106973.106985",
+        "https://doi.org/10.1145/106974.106985",
+        "https://doi.org/10.1145/106975.106985"
+      ]
+    },
+    {
+      "title": "Vector Register Design for Polycyclic Vector Scheduling",
+      "authors": [
+        "William H. Mangione-Smith",
+        "Santosh G. Abraham",
+        "Edward S. Davidson"
+      ],
+      "pages": "154-163",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Mangione-SmithAD91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Mangione-SmithAD91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.328664",
+        "https://doi.org/10.1145/106973.328664",
+        "https://doi.org/10.1145/106974.328664",
+        "https://doi.org/10.1145/106975.328664"
+      ]
+    },
+    {
+      "title": "Virtual Memory Primitives for User Programs",
+      "authors": [
+        "Andrew W. Appel",
+        "Kai Li 0001"
+      ],
+      "pages": "96-107",
+      "year": "1991",
+      "venue": "ASPLOS 1991",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/AppelL91",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/AppelL91.html",
+      "ee_links": [
+        "https://doi.org/10.1145/106972.106984",
+        "https://doi.org/10.1145/106973.106984",
+        "https://doi.org/10.1145/106974.106984",
+        "https://doi.org/10.1145/106975.106984"
+      ]
+    }
+  ]
+}

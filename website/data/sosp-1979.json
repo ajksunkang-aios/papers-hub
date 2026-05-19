@@ -1,0 +1,407 @@
+{
+  "id": "sosp-1979",
+  "venue": "sosp",
+  "year": 1979,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp1979.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp1979.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/1979",
+    "conf/sosp/1979-1",
+    "conf/sosp/1979-2",
+    "conf/sosp/1979-3",
+    "conf/sosp/1979-4",
+    "conf/sosp/1979-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 23,
+  "display_count": 23,
+  "papers": [
+    {
+      "title": "A Client-Based Transaction System to Maintain Data Integrity",
+      "authors": [
+        "William H. Paxton"
+      ],
+      "pages": "18-23",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Paxton79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Paxton79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806565"
+      ]
+    },
+    {
+      "title": "A Mechanism for Information Control in Parallel Systems",
+      "authors": [
+        "Richard P. Reitman"
+      ],
+      "pages": "55-63",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Reitman79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Reitman79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806570"
+      ]
+    },
+    {
+      "title": "A Virtual Machine Emulator for Performance Evaluation (Summary)",
+      "authors": [
+        "M. D. Canon",
+        "D. H. Fritz",
+        "John H. Howard",
+        "T. D. Howell",
+        "Michael F. Mitoma",
+        "Juan Rodriguez-Rossel"
+      ],
+      "pages": "1",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CanonFHHMR79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CanonFHHMR79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806562"
+      ]
+    },
+    {
+      "title": "An Open Operating System for a Single-User Machine",
+      "authors": [
+        "Butler W. Lampson",
+        "Robert F. Sproull"
+      ],
+      "pages": "98-105",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LampsonS79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LampsonS79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806575"
+      ]
+    },
+    {
+      "title": "Evaluating Synchronization Mechanisms",
+      "authors": [
+        "Toby Bloom"
+      ],
+      "pages": "24-32",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Bloom79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Bloom79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806566"
+      ]
+    },
+    {
+      "title": "Experience with Processes and Monitors in Mesa (Summary)",
+      "authors": [
+        "Butler W. Lampson",
+        "David D. Redell"
+      ],
+      "pages": "43-44",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LampsonR79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LampsonR79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806568"
+      ]
+    },
+    {
+      "title": "Implementing Atomic Actions on Decentralized Data",
+      "authors": [
+        "David P. Reed 0001"
+      ],
+      "pages": "163",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Reed79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Reed79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806584"
+      ]
+    },
+    {
+      "title": "In Support of Domain Structure for Operating Systems",
+      "authors": [
+        "Douglas Cook"
+      ],
+      "pages": "128-130",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Cook79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Cook79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806580"
+      ]
+    },
+    {
+      "title": "Medusa: An Experiment in Distributed Operating System Structure (Summary)",
+      "authors": [
+        "John K. Ousterhout",
+        "Donald A. Scelza",
+        "Pradeep S. Sindhu"
+      ],
+      "pages": "115-116",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/OusterhoutSS79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/OusterhoutSS79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806578"
+      ]
+    },
+    {
+      "title": "Modelling and Analysis of Distributed Software Systems",
+      "authors": [
+        "B. Kumar",
+        "Timothy A. Gonsalves"
+      ],
+      "pages": "2-8",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KumarG79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KumarG79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806563"
+      ]
+    },
+    {
+      "title": "Pilot: An Operating System for a Personal Computer (Summary)",
+      "authors": [
+        "David D. Redell",
+        "Yogen K. Dalal",
+        "Thomas R. Horsley",
+        "Hugh C. Lauer",
+        "William C. Lynch",
+        "Paul R. McJones",
+        "Hal G. Murray",
+        "Stephen C. Purcell"
+      ],
+      "pages": "106-107",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RedellDHLLMMP79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RedellDHLLMMP79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806576"
+      ]
+    },
+    {
+      "title": "Polyvalues: A Tool for Implementing Atomic Updates to Distributed Data",
+      "authors": [
+        "Warren A. Montgomery"
+      ],
+      "pages": "143-149",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Montgomery79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Montgomery79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806582"
+      ]
+    },
+    {
+      "title": "Primitives for Distributed Computing",
+      "authors": [
+        "Barbara H. Liskov"
+      ],
+      "pages": "33-42",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Liskov79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Liskov79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806567"
+      ]
+    },
+    {
+      "title": "Specification and Verification of the UCLA Unix Security Kernel (Extended Abstract)",
+      "authors": [
+        "Bruce J. Walker",
+        "Richard A. Kemmerer",
+        "Gerald J. Popek"
+      ],
+      "pages": "64-65",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WalkerKP79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WalkerKP79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806571"
+      ]
+    },
+    {
+      "title": "StarOS, a Multiprocessor Operating System for the Support of Task Forces",
+      "authors": [
+        "Anita K. Jones",
+        "Robert J. Chansler Jr.",
+        "Ivor Durham",
+        "Karsten Schwan",
+        "Steven R. Vegdahl"
+      ],
+      "pages": "117-127",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JonesCDSV79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JonesCDSV79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806579"
+      ]
+    },
+    {
+      "title": "Systems Aspects of the Cambridge Ring",
+      "authors": [
+        "Roger M. Needham"
+      ],
+      "pages": "82-85",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Needham79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Needham79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806573"
+      ]
+    },
+    {
+      "title": "The Behavior of Ethernet-Like Computer Communication Networks",
+      "authors": [
+        "Guy T. Almes",
+        "Edward D. Lazowska"
+      ],
+      "pages": "66-81",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AimesL79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AimesL79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806572",
+        "https://www.wikidata.org/entity/Q130952584"
+      ]
+    },
+    {
+      "title": "The ROSCOE Distributed Operating System",
+      "authors": [
+        "Marvin H. Solomon",
+        "Raphael A. Finkel"
+      ],
+      "pages": "108-114",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SolomonF79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SolomonF79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806577"
+      ]
+    },
+    {
+      "title": "The Transfer of Information and Authority in a Protection System",
+      "authors": [
+        "Matt Bishop",
+        "Lawrence Snyder 0001"
+      ],
+      "pages": "45-54",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BishopS79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BishopS79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806569"
+      ]
+    },
+    {
+      "title": "Variable-Length Capabilities as a Solution to the Small-Object Problem",
+      "authors": [
+        "Edward F. Gehringer"
+      ],
+      "pages": "131-142",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Gehringer79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Gehringer79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806581"
+      ]
+    },
+    {
+      "title": "Virtual Terminal Management in a Multiple Process Environment",
+      "authors": [
+        "Keith A. Lantz",
+        "Richard F. Rashid"
+      ],
+      "pages": "86-97",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LantzR79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LantzR79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806574"
+      ]
+    },
+    {
+      "title": "Weighted Voting for Replicated Data",
+      "authors": [
+        "David K. Gifford"
+      ],
+      "pages": "150-162",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Gifford79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Gifford79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806583",
+        "https://www.wikidata.org/entity/Q56600595"
+      ]
+    },
+    {
+      "title": "WFS: A Simple Shared File System for a Distributed Environment",
+      "authors": [
+        "Daniel C. Swinehart",
+        "Gene McDaniel",
+        "David R. Boggs"
+      ],
+      "pages": "9-17",
+      "year": "1979",
+      "venue": "SOSP 1979",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SwinehartMB79",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SwinehartMB79.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800215.806564"
+      ]
+    }
+  ]
+}

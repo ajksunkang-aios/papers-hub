@@ -1,0 +1,1344 @@
+{
+  "id": "usenix-2022",
+  "venue": "usenix",
+  "year": 2022,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2022.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2022.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2022",
+    "conf/usenix/2022-1",
+    "conf/usenix/2022-2",
+    "conf/usenix/2022-3",
+    "conf/usenix/2022-4",
+    "conf/usenix/2022-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 67,
+  "display_count": 67,
+  "papers": [
+    {
+      "title": "AddrMiner: A Comprehensive Global Active IPv6 Address Discovery System",
+      "authors": [
+        "Guanglei Song",
+        "Jiahai Yang 0001",
+        "Lin He 0004",
+        "Zhiliang Wang",
+        "Guo Li",
+        "Chenxin Duan",
+        "Yaozhong Liu",
+        "Zhongxiang Sun"
+      ],
+      "pages": "309-326",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SongY0WLDLS22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SongY0WLDLS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/song"
+      ]
+    },
+    {
+      "title": "AlNiCo: SmartNIC-accelerated Contention-aware Request Scheduling for Transaction Processing",
+      "authors": [
+        "Junru Li",
+        "Youyou Lu",
+        "Qing Wang 0031",
+        "Jiazhen Lin",
+        "Zhe Yang 0012",
+        "Jiwu Shu"
+      ],
+      "pages": "951-966",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiLWLYS22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiLWLYS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/li-junru"
+      ]
+    },
+    {
+      "title": "Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service",
+      "authors": [
+        "Mostafa Elhemali",
+        "Niall Gallagher",
+        "Nick Gordon",
+        "Joseph Idziorek",
+        "Richard Krog",
+        "Colin Lazier",
+        "Erben Mo",
+        "Akhilesh Mritunjai",
+        "Somasundaram Perianayagam",
+        "Tim Rath",
+        "Swami Sivasubramanian",
+        "James Christopher Sorenson III",
+        "Sroaj Sosothikul",
+        "Doug Terry",
+        "Akshat Vig"
+      ],
+      "pages": "1037-1048",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ElhemaliGGIKLMM22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ElhemaliGGIKLMM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/elhemali"
+      ]
+    },
+    {
+      "title": "Automatic Recovery of Fine-grained Compiler Artifacts at the Binary Level",
+      "authors": [
+        "Yufei Du",
+        "Ryan Court",
+        "Kevin Z. Snow",
+        "Fabian Monrose"
+      ],
+      "pages": "853-868",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DuCSM22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DuCSM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/du"
+      ]
+    },
+    {
+      "title": "BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling",
+      "authors": [
+        "Jiawei Wang",
+        "Diogo Behrens",
+        "Ming Fu",
+        "Lilith Oberhauser",
+        "Jonas Oberhauser",
+        "Jitang Lei",
+        "Geng Chen",
+        "Hermann H&auml;rtig",
+        "Haibo Chen 0001"
+      ],
+      "pages": "249-262",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangBFOOLCH022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangBFOOLCH022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/wang-jiawei"
+      ]
+    },
+    {
+      "title": "Building a High-performance Fine-grained Deduplication Framework for Backup Storage with High Deduplication Ratio",
+      "authors": [
+        "Xiangyu Zou",
+        "Wen Xia",
+        "Philip Shilane",
+        "Haijun Zhang 0002",
+        "Xuan Wang 0002"
+      ],
+      "pages": "19-36",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZouXS0022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZouXS0022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/zou"
+      ]
+    },
+    {
+      "title": "CacheSack: Admission Optimization for Google Datacenter Flash Caches",
+      "authors": [
+        "Tzu-Wei Yang",
+        "Seth Pollen",
+        "Mustafa Uysal",
+        "Arif Merchant",
+        "Homer Wolfmeister"
+      ],
+      "pages": "1021-1036",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YangPUMW22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YangPUMW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/yang-tzu-wei"
+      ]
+    },
+    {
+      "title": "Cachew: Machine Learning Input Data Processing as a Service",
+      "authors": [
+        "Dan Graur",
+        "Damien Aymon",
+        "Dan Kluser",
+        "Tanguy Albrici",
+        "Chandramohan A. Thekkath",
+        "Ana Klimovic"
+      ],
+      "pages": "689-706",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GraurAKATK22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GraurAKATK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/graur"
+      ]
+    },
+    {
+      "title": "Campo: Cost-Aware Performance Optimization for Mixed-Precision Neural Network Training",
+      "authors": [
+        "Xin He",
+        "Jianhua Sun 0002",
+        "Hao Chen 0002",
+        "Dong Li 0001"
+      ],
+      "pages": "505-518",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/He00022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/He00022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/he"
+      ]
+    },
+    {
+      "title": "CBMM: Financial Advice for Kernel Memory Managers",
+      "authors": [
+        "Mark Mansi",
+        "Bijan Tabatabai",
+        "Michael M. Swift"
+      ],
+      "pages": "593-608",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MansiTS22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MansiTS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/mansi"
+      ]
+    },
+    {
+      "title": "Co-opting Linux Processes for High-Performance Network Simulation",
+      "authors": [
+        "Rob Jansen",
+        "James Newsome",
+        "Ryan Wails"
+      ],
+      "pages": "327-350",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JansenNW22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JansenNW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/jansen"
+      ]
+    },
+    {
+      "title": "CoVA: Exploiting Compressed-Domain Analysis to Accelerate Video Analytics",
+      "authors": [
+        "Jinwoo Hwang",
+        "Minsu Kim 0004",
+        "Daeun Kim",
+        "Seungho Nam",
+        "Yoonsung Kim",
+        "Dohee Kim",
+        "Hardik Sharma",
+        "Jongse Park"
+      ],
+      "pages": "707-722",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HwangKKNKKSP22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HwangKKNKKSP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/hwang"
+      ]
+    },
+    {
+      "title": "CRISP: Critical Path Analysis of Large-Scale Microservice Architectures",
+      "authors": [
+        "Zhizhou Zhang 0002",
+        "Murali Krishna Ramanathan",
+        "Prithvi Raj",
+        "Abhishek Parwal",
+        "Timothy Sherwood",
+        "Milind Chabbi"
+      ],
+      "pages": "655-672",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0002RRPSC22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0002RRPSC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/zhang-zhizhou"
+      ]
+    },
+    {
+      "title": "DepFast: Orchestrating Code of Quorum Systems",
+      "authors": [
+        "Xuhao Luo",
+        "Weihai Shen",
+        "Shuai Mu 0001",
+        "Tianyin Xu"
+      ],
+      "pages": "557-574",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LuoS0X22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LuoS0X22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/luo"
+      ]
+    },
+    {
+      "title": "Direct Access, High-Performance Memory Disaggregation with DirectCXL",
+      "authors": [
+        "Donghyun Gouk",
+        "Sangwon Lee 0014",
+        "Miryeong Kwon",
+        "Myoungsoo Jung"
+      ],
+      "pages": "287-294",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GoukLKJ22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GoukLKJ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/gouk"
+      ]
+    },
+    {
+      "title": "DLOS: Effective Static Detection of Deadlocks in OS Kernels",
+      "authors": [
+        "Jia-Ju Bai",
+        "Tuo Li",
+        "Shi-Min Hu 0001"
+      ],
+      "pages": "367-382",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BaiL022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BaiL022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/bai"
+      ]
+    },
+    {
+      "title": "DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs",
+      "authors": [
+        "Weihao Cui",
+        "Han Zhao 0005",
+        "Quan Chen 0002",
+        "Hao Wei",
+        "Zirui Li",
+        "Deze Zeng",
+        "Chao Li 0009",
+        "Minyi Guo"
+      ],
+      "pages": "183-198",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Cui00WLZ0G22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Cui00WLZ0G22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/cui"
+      ]
+    },
+    {
+      "title": "EPK: Scalable and Efficient Memory Protection Keys",
+      "authors": [
+        "Jinyu Gu 0001",
+        "Hao Li",
+        "Wentai Li",
+        "Yubin Xia",
+        "Haibo Chen 0001"
+      ],
+      "pages": "609-624",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0001LLX022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0001LLX022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/gu-jinyu"
+      ]
+    },
+    {
+      "title": "Eric Brewer, VP Infrastructure, Google Fellow and Professor Emeritus, UC Berkeley",
+      "authors": [
+        "Eric A. Brewer"
+      ],
+      "pages": null,
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Brewer22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Brewer22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/tues-keynote"
+      ]
+    },
+    {
+      "title": "Faith: An Efficient Framework for Transformer Verification on GPUs",
+      "authors": [
+        "Boyuan Feng",
+        "Tianqi Tang 0001",
+        "Yuke Wang",
+        "Zhaodong Chen 0001",
+        "Zheng Wang 0075",
+        "Shu Yang",
+        "Yuan Xie 0001",
+        "Yufei Ding 0001"
+      ],
+      "pages": "167-182",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Feng0WCWY0D22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Feng0WCWY0D22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/feng"
+      ]
+    },
+    {
+      "title": "Faster Software Packet Processing on FPGA NICs with eBPF Program Warping",
+      "authors": [
+        "Marco Bonola",
+        "Giacomo Belocchi",
+        "Angelo Tulumello",
+        "Marco Spaziani Brunella",
+        "Giuseppe Siracusano",
+        "Giuseppe Bianchi 0001",
+        "Roberto Bifulco"
+      ],
+      "pages": "987-1004",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BonolaBTBS0B22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BonolaBTBS0B22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/bonola"
+      ]
+    },
+    {
+      "title": "Firebolt: Finding Bugs in Programmable Data Plane Generators",
+      "authors": [
+        "Jiamin Cao",
+        "Yu Zhou 0008",
+        "Chen Sun 0005",
+        "Lin He 0004",
+        "Zhaowei Xi",
+        "Ying Liu 0024"
+      ],
+      "pages": "819-834",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Cao000X022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Cao000X022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/cao"
+      ]
+    },
+    {
+      "title": "FlatFS: Flatten Hierarchical File System Namespace on Non-volatile Memories",
+      "authors": [
+        "Miao Cai 0001",
+        "Junru Shen",
+        "Bin Tang 0002",
+        "Hao Huang 0011",
+        "Baoliu Ye"
+      ],
+      "pages": "899-914",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CaiSTHY22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CaiSTHY22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/cai"
+      ]
+    },
+    {
+      "title": "FpgaNIC: An FPGA-based Versatile 100Gb SmartNIC for GPUs",
+      "authors": [
+        "Zeke Wang",
+        "Hongjing Huang",
+        "Jie Zhang 0081",
+        "Fei Wu 0001",
+        "Gustavo Alonso"
+      ],
+      "pages": "967-986",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangH00A22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangH00A22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/wang-zeke"
+      ]
+    },
+    {
+      "title": "Hardening Hypervisors with Ombro",
+      "authors": [
+        "Ethan Johnson",
+        "Colin Pronovost",
+        "John Criswell"
+      ],
+      "pages": "415-436",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JohnsonPC22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JohnsonPC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/johnson"
+      ]
+    },
+    {
+      "title": "Hashing Design in Modern Networks: Challenges and Mitigation Techniques",
+      "authors": [
+        "Yunhong Xu",
+        "Keqiang He",
+        "Rui Wang 0025",
+        "Minlan Yu",
+        "Nick Duffield",
+        "Hassan M. G. Wassel",
+        "Shidong Zhang",
+        "Leon Poutievski",
+        "Junlan Zhou",
+        "Amin Vahdat"
+      ],
+      "pages": "805-818",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XuH0YDWZPZV22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XuH0YDWZPZV22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/xu"
+      ]
+    },
+    {
+      "title": "Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing",
+      "authors": [
+        "Zijun Li 0001",
+        "Linsong Guo",
+        "Quan Chen 0002",
+        "Jiagan Cheng",
+        "Chuhao Xu",
+        "Deze Zeng",
+        "Zhuo Song",
+        "Tao Ma 0006",
+        "Yong Yang 0013",
+        "Chao Li 0009",
+        "Minyi Guo"
+      ],
+      "pages": "69-84",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiG0CXZSMY0G22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiG0CXZSMY0G22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/li-zijun-help"
+      ]
+    },
+    {
+      "title": "High Throughput Replication with Integrated Membership Management",
+      "authors": [
+        "Pedro Fouto",
+        "Nuno M. Pregui&ccedil;a",
+        "Jo&atilde;o Leit&atilde;o 0001"
+      ],
+      "pages": "575-592",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FoutoP022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FoutoP022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/fouto"
+      ]
+    },
+    {
+      "title": "HyperEnclave: An Open and Cross-platform Trusted Execution Environment",
+      "authors": [
+        "Yuekai Jia",
+        "Shuang Liu",
+        "Wenhao Wang 0001",
+        "Yu Chen 0004",
+        "Zhengde Zhai",
+        "Shoumeng Yan",
+        "Zhengyu He"
+      ],
+      "pages": "437-454",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JiaLWCZYH22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JiaLWCZYH22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/jia-yuekai"
+      ]
+    },
+    {
+      "title": "Investigating Managed Language Runtime Performance: Why JavaScript and Python are 8x and 29x slower than C++, yet Java and Go can be Faster?",
+      "authors": [
+        "David Lion",
+        "Adrian Chiu",
+        "Michael Stumm",
+        "Ding Yuan 0004"
+      ],
+      "pages": "835-852",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LionCSY22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LionCSY22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/lion"
+      ]
+    },
+    {
+      "title": "IPLFS: Log-Structured File System without Garbage Collection",
+      "authors": [
+        "Juwon Kim",
+        "Minsu Kim",
+        "Muhammad Danish Tehseen",
+        "Joontaek Oh",
+        "Youjip Won"
+      ],
+      "pages": "739-754",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KimKTOW22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KimKTOW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/kim-juwon"
+      ]
+    },
+    {
+      "title": "JITServer: Disaggregated Caching JIT Compiler for the JVM in the Cloud",
+      "authors": [
+        "Alexey Khrabrov 0002",
+        "Marius Pirvu",
+        "Vijay Sundaresan",
+        "Eyal de Lara"
+      ],
+      "pages": "869-884",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KhrabrovPSL22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KhrabrovPSL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/khrabrov"
+      ]
+    },
+    {
+      "title": "KRCORE: A Microsecond-scale RDMA Control Plane for Elastic Computing",
+      "authors": [
+        "Xingda Wei",
+        "Fangming Lu",
+        "Rong Chen 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "121-136",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WeiL0022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WeiL0022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/wei"
+      ]
+    },
+    {
+      "title": "KSG: Augmenting Kernel Fuzzing with System Call Specification Generation",
+      "authors": [
+        "Hao Sun 0021",
+        "Yuheng Shen",
+        "Jianzhong Liu",
+        "Yiru Xu",
+        "Yu Jiang 0001"
+      ],
+      "pages": "351-366",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SunSLXJ22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SunSLXJ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/sun"
+      ]
+    },
+    {
+      "title": "Margaret Martonosi, National Science Foundation",
+      "authors": [
+        "Margaret Martonosi"
+      ],
+      "pages": null,
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Martonosi22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Martonosi22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/wed-keynote"
+      ]
+    },
+    {
+      "title": "Meces: Latency-efficient Rescaling via Prioritized State Migration for Stateful Distributed Stream Processing Systems",
+      "authors": [
+        "Rong Gu 0001",
+        "Han Yin",
+        "Weichang Zhong",
+        "Chunfeng Yuan",
+        "Yihua Huang 0001"
+      ],
+      "pages": "539-556",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuYZYH22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuYZYH22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/gu-rong"
+      ]
+    },
+    {
+      "title": "Memory Harvesting in Multi-GPU Systems with Hierarchical Unified Virtual Memory",
+      "authors": [
+        "Sangjin Choi",
+        "Taeksoo Kim",
+        "Jinwoo Jeong",
+        "Rachata Ausavarungnirun",
+        "Myeongjae Jeon",
+        "Youngjin Kwon",
+        "Jeongseob Ahn"
+      ],
+      "pages": "625-638",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChoiKJAJKA22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChoiKJAJKA22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/choi-sangjin"
+      ]
+    },
+    {
+      "title": "Modulo: Finding Convergence Failure Bugs in Distributed Systems with Divergence Resync Models",
+      "authors": [
+        "Beom Heyn Kim",
+        "Taesoo Kim",
+        "David Lie"
+      ],
+      "pages": "383-398",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KimKL22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KimKL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/kim-beom-heyn"
+      ]
+    },
+    {
+      "title": "Not that Simple: Email Delivery in the 21st Century",
+      "authors": [
+        "Florian Holzbauer",
+        "Johanna Ullrich",
+        "Martina Lindorfer",
+        "Tobias Fiebig"
+      ],
+      "pages": "295-308",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HolzbauerULF22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HolzbauerULF22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/holzbauer"
+      ]
+    },
+    {
+      "title": "NVMe SSD Failures in the Field: the Fail-Stop and the Fail-Slow",
+      "authors": [
+        "Ruiming Lu",
+        "Erci Xu",
+        "Yiming Zhang 0003",
+        "Zhaosheng Zhu",
+        "Mengtian Wang",
+        "Zongpeng Zhu",
+        "Guangtao Xue",
+        "Minglu Li 0001",
+        "Jiesheng Wu"
+      ],
+      "pages": "1005-1020",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LuX0ZWZX0W22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LuX0ZWZX0W22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/lu"
+      ]
+    },
+    {
+      "title": "Pacman: An Efficient Compaction Approach for Log-Structured Key-Value Store on Persistent Memory",
+      "authors": [
+        "Jing Wang 0158",
+        "Youyou Lu",
+        "Qing Wang 0031",
+        "Minhui Xie",
+        "Keji Huang",
+        "Jiwu Shu"
+      ],
+      "pages": "773-788",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangLWXHS22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangLWXHS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/wang-jing"
+      ]
+    },
+    {
+      "title": "PetS: A Unified Framework for Parameter-Efficient Transformers Serving",
+      "authors": [
+        "Zhe Zhou 0002",
+        "Xuechao Wei",
+        "Jiejing Zhang",
+        "Guangyu Sun 0003"
+      ],
+      "pages": "489-504",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhouWZS22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhouWZS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/zhou-zhe"
+      ]
+    },
+    {
+      "title": "PilotFish: Harvesting Free Cycles of Cloud Gaming with Deep Learning Training",
+      "authors": [
+        "Wei Zhang 0149",
+        "Binghao Chen",
+        "Zhenhua Han",
+        "Quan Chen 0002",
+        "Peng Cheng 0005",
+        "Fan Yang 0024",
+        "Ran Shu 0001",
+        "Yuqing Yang 0001",
+        "Minyi Guo"
+      ],
+      "pages": "217-232",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0149CH000SYG22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0149CH000SYG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/zhang-wei"
+      ]
+    },
+    {
+      "title": "PRIDWEN: Universally Hardening SGX Programs via Load-Time Synthesis",
+      "authors": [
+        "Fan Sang",
+        "Ming-Wei Shih",
+        "Sangho Lee 0001",
+        "Xiaokuan Zhang",
+        "Michael Steiner 0001",
+        "Mona Vij",
+        "Taesoo Kim"
+      ],
+      "pages": "455-472",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SangS0Z0VK22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SangS0Z0VK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/sang"
+      ]
+    },
+    {
+      "title": "Primo: Practical Learning-Augmented Systems with Interpretable Models",
+      "authors": [
+        "Qinghao Hu 0004",
+        "Harsha Nori",
+        "Peng Sun 0006",
+        "Yonggang Wen 0001",
+        "Tianwei Zhang 0004"
+      ],
+      "pages": "519-538",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuN00022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuN00022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/hu"
+      ]
+    },
+    {
+      "title": "Privbox: Faster System Calls Through Sandboxed Privileged Execution",
+      "authors": [
+        "Dmitry Kuznetsov",
+        "Adam Morrison 0001"
+      ],
+      "pages": null,
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Kuznetsov022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Kuznetsov022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/kuznetsov"
+      ]
+    },
+    {
+      "title": "Riker: Always-Correct and Fast Incremental Builds from Simple Specifications",
+      "authors": [
+        "Charlie Curtsinger",
+        "Daniel W. Barowy"
+      ],
+      "pages": "885-898",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/CurtsingerB22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/CurtsingerB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/curtsinger"
+      ]
+    },
+    {
+      "title": "RRC: Responsive Replicated Containers",
+      "authors": [
+        "Diyu Zhou",
+        "Yuval Tamir"
+      ],
+      "pages": "85-100",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhouT22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhouT22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/zhou-diyu"
+      ]
+    },
+    {
+      "title": "RunD: A Lightweight Secure Container Runtime for High-density Deployment and High-concurrency Startup in Serverless Computing",
+      "authors": [
+        "Zijun Li 0001",
+        "Jiagan Cheng",
+        "Quan Chen 0002",
+        "Eryu Guan",
+        "Zizheng Bian",
+        "Yi Tao",
+        "Bin Zha",
+        "Qiang Wang",
+        "Weidong Han 0003",
+        "Minyi Guo"
+      ],
+      "pages": "53-68",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiC0GBTZWHG22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiC0GBTZWHG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/li-zijun-rund"
+      ]
+    },
+    {
+      "title": "Secure and Lightweight Deduplicated Storage via Shielded Deduplication-Before-Encryption",
+      "authors": [
+        "Zuoru Yang",
+        "Jingwei Li 0001",
+        "Patrick P. C. Lee"
+      ],
+      "pages": "37-52",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Yang0L22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Yang0L22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/yang-zuoru"
+      ]
+    },
+    {
+      "title": "Serving Heterogeneous Machine Learning Models on Multi-GPU Servers with Spatio-Temporal Sharing",
+      "authors": [
+        "Seungbeom Choi",
+        "Sunho Lee 0003",
+        "Yeonjae Kim",
+        "Jongse Park",
+        "Youngjin Kwon",
+        "Jaehyuk Huh 0001"
+      ],
+      "pages": "199-216",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChoiLKPKH22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChoiLKPKH22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/choi-seungbeom"
+      ]
+    },
+    {
+      "title": "Sibylla: To Retry or Not To Retry on Deep Learning Job Failure",
+      "authors": [
+        "Taeyoon Kim",
+        "Suyeon Jeong",
+        "Jongseop Lee",
+        "Soobee Lee",
+        "Myeongjae Jeon"
+      ],
+      "pages": "263-270",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KimJLLJ22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KimJLLJ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/kim-taeyoon"
+      ]
+    },
+    {
+      "title": "Sift: Using Refinement-guided Automation to Verify Complex Distributed Systems",
+      "authors": [
+        "Haojun Ma",
+        "Hammad Ahmad",
+        "Aman Goel",
+        "Eli Goldweber",
+        "Jean-Baptiste Jeannin",
+        "Manos Kapritsos",
+        "Baris Kasikci"
+      ],
+      "pages": "151-166",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MaAGGJKK22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MaAGGJKK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/ma"
+      ]
+    },
+    {
+      "title": "SoftTRR: Protect Page Tables against Rowhammer Attacks using Software-only Target Row Refresh",
+      "authors": [
+        "Zhi Zhang 0001",
+        "Yueqiang Cheng",
+        "Minghua Wang",
+        "Wei He",
+        "Wenhao Wang 0001",
+        "Surya Nepal",
+        "Yansong Gao 0001",
+        "Kang Li",
+        "Zhe Wang 0017",
+        "Chenggang Wu 0002"
+      ],
+      "pages": "399-414",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0001CWHWNGL0022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0001CWHWNGL0022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/zhang-zhi"
+      ]
+    },
+    {
+      "title": "SOTER: Guarding Black-box Inference for General Neural Networks at the Edge",
+      "authors": [
+        "Tianxiang Shen",
+        "Ji Qi 0002",
+        "Jianyu Jiang",
+        "Xian Wang",
+        "Siyuan Wen",
+        "Xusheng Chen",
+        "Shixiong Zhao",
+        "Sen Wang 0004",
+        "Li Chen 0008",
+        "Xiapu Luo",
+        "Fengwei Zhang",
+        "Heming Cui"
+      ],
+      "pages": "723-738",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShenQJWWCZWCLZC22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShenQJWWCZWCLZC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/shen"
+      ]
+    },
+    {
+      "title": "Speculative Recovery: Cheap, Highly Available Fault Tolerance with Disaggregated Storage",
+      "authors": [
+        "Nanqinqin Li",
+        "Anja Kalaba",
+        "Michael J. Freedman",
+        "Wyatt Lloyd",
+        "Amit Levy 0001"
+      ],
+      "pages": "271-286",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiKFLL22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiKFLL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/li-nanqinqin"
+      ]
+    },
+    {
+      "title": "StRAID: Stripe-threaded Architecture for Parity-based RAIDs with Ultra-fast SSDs",
+      "authors": [
+        "Shucheng Wang",
+        "Qiang Cao 0001",
+        "Ziyi Lu",
+        "Hong Jiang 0001",
+        "Jie Yao 0001",
+        "Yuanyuan Dong"
+      ],
+      "pages": "915-932",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Wang0L0YD22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Wang0L0YD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/wang-shucheng"
+      ]
+    },
+    {
+      "title": "Surprise-Inspired Networking",
+      "authors": [
+        "David L. Tennenhouse"
+      ],
+      "pages": null,
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Tennenhouse22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Tennenhouse22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/mon-keynote"
+      ]
+    },
+    {
+      "title": "Tetris: Memory-efficient Serverless Inference through Tensor Sharing",
+      "authors": [
+        "Jie Li",
+        "Laiping Zhao",
+        "Yanan Yang",
+        "Kunlin Zhan",
+        "Keqiu Li"
+      ],
+      "pages": null,
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiZYZL22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiZYZL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/li-jie"
+      ]
+    },
+    {
+      "title": "Towards Latency Awareness for Content Delivery Network Caching",
+      "authors": [
+        "Gang Yan 0002",
+        "Jian Li 0008"
+      ],
+      "pages": "789-804",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Yan022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Yan022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/yan-gang"
+      ]
+    },
+    {
+      "title": "uKharon: A Membership Service for Microsecond Applications",
+      "authors": [
+        "Rachid Guerraoui",
+        "Antoine Murat",
+        "Javier Picorel",
+        "Athanasios Xygkis",
+        "Huabing Yan",
+        "Pengfei Zuo"
+      ],
+      "pages": "101-120",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuerraouiMPXYZ22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuerraouiMPXYZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/guerraoui"
+      ]
+    },
+    {
+      "title": "Vigil-KV: Hardware-Software Co-Design to Integrate Strong Latency Determinism into Log-Structured Merge Key-Value Stores",
+      "authors": [
+        "Miryeong Kwon",
+        "Seungjun Lee",
+        "Hyunkyu Choi",
+        "Jooyoung Hwang",
+        "Myoungsoo Jung"
+      ],
+      "pages": "755-772",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KwonLCHJ22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KwonLCHJ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/kwon"
+      ]
+    },
+    {
+      "title": "Vinter: Automatic Non-Volatile Memory Crash Consistency Testing for Full Systems",
+      "authors": [
+        "Samuel Kalbfleisch",
+        "Lukas Werling",
+        "Frank Bellosa"
+      ],
+      "pages": "933-950",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KalbfleischWB22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KalbfleischWB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/werling"
+      ]
+    },
+    {
+      "title": "Whale: Efficient Giant Model Training over Heterogeneous GPUs",
+      "authors": [
+        "Xianyan Jia",
+        "Le Jiang",
+        "Ang Wang",
+        "Wencong Xiao",
+        "Ziji Shi",
+        "Jie Zhang 0135",
+        "Xinyuan Li",
+        "Langshi Chen",
+        "Yong Li 0045",
+        "Zhen Zheng",
+        "Xiaoyong Liu",
+        "Wei Lin 0016"
+      ],
+      "pages": "673-688",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JiaJWXS0LCLZL022",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JiaJWXS0LCLZL022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/jia-xianyan"
+      ]
+    },
+    {
+      "title": "Zero Overhead Monitoring for Cloud-native Infrastructure using RDMA",
+      "authors": [
+        "Zhe Wang 0015",
+        "Teng Ma 0006",
+        "Linghe Kong",
+        "Zhenzao Wen",
+        "Jingxuan Li",
+        "Zhuo Song",
+        "Yang Lu",
+        "Guihai Chen",
+        "Wei Cao 0006"
+      ],
+      "pages": "639-654",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangMKWLSLCC22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangMKWLSLCC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/wang-zhe"
+      ]
+    },
+    {
+      "title": "Zero-Change Object Transmission for Distributed Big Data Analytics",
+      "authors": [
+        "Mingyu Wu 0001",
+        "Shuaiwei Wang",
+        "Haibo Chen 0001",
+        "Binyu Zang"
+      ],
+      "pages": "137-150",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/0001W0Z22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/0001W0Z22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/wu"
+      ]
+    },
+    {
+      "title": "ZNSwap: un-Block your Swap",
+      "authors": [
+        "Shai Bergman",
+        "Niklas Cassel",
+        "Matias Bj&oslash;rling",
+        "Mark Silberstein"
+      ],
+      "pages": "1-18",
+      "year": "2022",
+      "venue": "USENIX ATC 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BergmanCBS22",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BergmanCBS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc22/presentation/bergman"
+      ]
+    }
+  ]
+}

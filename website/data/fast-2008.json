@@ -1,0 +1,411 @@
+{
+  "id": "fast-2008",
+  "venue": "fast",
+  "year": 2008,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2008.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2008.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2008",
+    "conf/fast/2008-1",
+    "conf/fast/2008-2",
+    "conf/fast/2008-3",
+    "conf/fast/2008-4",
+    "conf/fast/2008-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 21,
+  "display_count": 21,
+  "papers": [
+    {
+      "title": "An Analysis of Data Corruption in the Storage Stack",
+      "authors": [
+        "Lakshmi N. Bairavasundaram",
+        "Garth R. Goodson",
+        "Bianca Schroeder",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "223-238",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BairavasundaramGSAA08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BairavasundaramGSAA08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/bairavasundaram.html"
+      ]
+    },
+    {
+      "title": "Are Disks the Dominant Contributor for Storage Failures? A Comprehensive Study of Storage Subsystem Failure Characteristics",
+      "authors": [
+        "Weihang Jiang",
+        "Chongfeng Hu",
+        "Yuanyuan Zhou 0001",
+        "Arkady Kanevsky"
+      ],
+      "pages": "111-125",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JiangHZK08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JiangHZK08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/jiang.html"
+      ]
+    },
+    {
+      "title": "Avoiding the Disk Bottleneck in the Data Domain Deduplication File System",
+      "authors": [
+        "Benjamin Zhu",
+        "Kai Li 0001",
+        "R. Hugo Patterson"
+      ],
+      "pages": "269-282",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhuLP08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhuLP08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/zhu.html"
+      ]
+    },
+    {
+      "title": "AWOL: An Adaptive Write Optimizations Layer",
+      "authors": [
+        "Alexandros Batsakis",
+        "Randal C. Burns",
+        "Arkady Kanevsky",
+        "James Lentini",
+        "Thomas Talpey"
+      ],
+      "pages": "67-80",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BatsakisBKLT08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BatsakisBKLT08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/batsakis.html"
+      ]
+    },
+    {
+      "title": "BPLRU: A Buffer Management Scheme for Improving Random Writes in Flash Storage",
+      "authors": [
+        "Hyojun Kim",
+        "Seongjun Ahn"
+      ],
+      "pages": "239-252",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimA08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimA08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/kim.html"
+      ]
+    },
+    {
+      "title": "EIO: Error Handling is Occasionally Correct",
+      "authors": [
+        "Haryadi S. Gunawi",
+        "Cindy Rubio-Gonz&aacute;lez",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Ben Liblit"
+      ],
+      "pages": "207-222",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GunawiRAAL08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GunawiRAAL08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/gunawi.html"
+      ]
+    },
+    {
+      "title": "Enhancing Storage System Availability on Multi-Core Architectures with Recovery-Conscious Scheduling",
+      "authors": [
+        "Sangeetha Seshadri",
+        "Lawrence Chiu",
+        "Cornel Constantinescu",
+        "Subashini Balachandran",
+        "Clem Dickey",
+        "Ling Liu 0001",
+        "Paul Muench"
+      ],
+      "pages": "143-158",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SeshadriCCBDLM08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SeshadriCCBDLM08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/seshadri.html"
+      ]
+    },
+    {
+      "title": "Improving I/O Performance of Applications through Compiler-Directed Code Restructuring",
+      "authors": [
+        "Mahmut T. Kandemir",
+        "Seung Woo Son 0001",
+        "Mustafa Karak&ouml;y"
+      ],
+      "pages": "159-174",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KandemirSK08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KandemirSK08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/kandemir.html"
+      ]
+    },
+    {
+      "title": "Measurement and Analysis of TCP Throughput Collapse in Cluster-based Storage Systems",
+      "authors": [
+        "Amar Phanishayee",
+        "Elie Krevat",
+        "Vijay Vasudevan",
+        "David G. Andersen",
+        "Gregory R. Ganger",
+        "Garth A. Gibson",
+        "Srinivasan Seshan"
+      ],
+      "pages": "175-188",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PhanishayeeKVAGGS08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PhanishayeeKVAGGS08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/phanishayee.html"
+      ]
+    },
+    {
+      "title": "On Multi-level Exclusive Caching: Offline Optimality and Why Promotions Are Better Than Demotions",
+      "authors": [
+        "Binny S. Gill"
+      ],
+      "pages": "49-65",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Gill08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Gill08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/gill.html"
+      ]
+    },
+    {
+      "title": "Parity Lost and Parity Regained",
+      "authors": [
+        "Andrew Krioukov",
+        "Lakshmi N. Bairavasundaram",
+        "Garth R. Goodson",
+        "Kiran Srinivasan",
+        "Randy Thelen",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "127-141",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KrioukovBGSTAA08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KrioukovBGSTAA08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/krioukov.html"
+      ]
+    },
+    {
+      "title": "Pergamum: Replacing Tape with Energy Efficient, Reliable, Disk-Based Archival Storage",
+      "authors": [
+        "Mark W. Storer",
+        "Kevin M. Greenan",
+        "Ethan L. Miller",
+        "Kaladhar Voruganti"
+      ],
+      "pages": "1-16",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/StorerGMV08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/StorerGMV08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/storer.html"
+      ]
+    },
+    {
+      "title": "Portably Solving File TOCTTOU Races with Hardness Amplification",
+      "authors": [
+        "Dan Tsafrir",
+        "Tomer Hertz",
+        "David A. Wagner 0001",
+        "Dilma Da Silva"
+      ],
+      "pages": "189-206",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TsafrirHWS08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TsafrirHWS08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/tsafrir.html"
+      ]
+    },
+    {
+      "title": "Scalable Performance of the Panasas Parallel File System",
+      "authors": [
+        "Brent Welch",
+        "Marc Unangst",
+        "Zainul Abbasi",
+        "Garth A. Gibson",
+        "Brian Mueller",
+        "Jason Small",
+        "Jim Zelenka",
+        "Bin Zhou"
+      ],
+      "pages": "17-33",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WelchUAGMSZZ08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WelchUAGMSZZ08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/welch.html"
+      ]
+    },
+    {
+      "title": "SWEEPER: An Efficient Disaster Recovery Point Identification Mechanism",
+      "authors": [
+        "Akshat Verma",
+        "Kaladhar Voruganti",
+        "Ramani Routray",
+        "Rohit Jain"
+      ],
+      "pages": "297-312",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/VermaVRJ08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/VermaVRJ08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/verma.html"
+      ]
+    },
+    {
+      "title": "TaP: Table-based Prefetching for Storage Caches",
+      "authors": [
+        "Mingju Li",
+        "Elizabeth Varki",
+        "Swapnil Bhatia",
+        "Arif Merchant"
+      ],
+      "pages": "81-96",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiVBM08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiVBM08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/li.html"
+      ]
+    },
+    {
+      "title": "The RAID-6 Liberation Codes",
+      "authors": [
+        "James S. Plank"
+      ],
+      "pages": "97-110",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Plank08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Plank08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/plank.html"
+      ]
+    },
+    {
+      "title": "TierStore: A Distributed Filesystem for Challenged Networks in Developing Regions",
+      "authors": [
+        "Michael J. Demmer",
+        "Bowei Du",
+        "Eric A. Brewer"
+      ],
+      "pages": "35-48",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DemmerDB08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DemmerDB08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/demmer.html"
+      ]
+    },
+    {
+      "title": "Towards Tamper-evident Storage on Patterned Media",
+      "authors": [
+        "Pieter H. Hartel",
+        "Leon Abelmann",
+        "Mohammed G. Khatib"
+      ],
+      "pages": "283-296",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HartelAK08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HartelAK08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/hartel.html"
+      ]
+    },
+    {
+      "title": "Using Utility to Provision Storage Systems",
+      "authors": [
+        "John D. Strunk",
+        "Eno Thereska",
+        "Christos Faloutsos",
+        "Gregory R. Ganger"
+      ],
+      "pages": "313-328",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/StrunkTFG08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/StrunkTFG08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/strunk.html"
+      ]
+    },
+    {
+      "title": "Write Off-Loading: Practical Power Management for Enterprise Storage",
+      "authors": [
+        "Dushyanth Narayanan",
+        "Austin Donnelly",
+        "Antony I. T. Rowstron"
+      ],
+      "pages": "253-267",
+      "year": "2008",
+      "venue": "FAST 2008",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/NarayananDR08",
+      "dblp_url": "https://dblp.org/rec/conf/fast/NarayananDR08.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast08/tech/narayanan.html"
+      ]
+    }
+  ]
+}

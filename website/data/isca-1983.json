@@ -1,0 +1,962 @@
+{
+  "id": "isca-1983",
+  "venue": "isca",
+  "year": 1983,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca1983.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca1983.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/1983",
+    "conf/isca/1983-1",
+    "conf/isca/1983-2",
+    "conf/isca/1983-3",
+    "conf/isca/1983-4",
+    "conf/isca/1983-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 54,
+  "display_count": 54,
+  "papers": [
+    {
+      "title": "(SM)2: Sparse Matrix Solving Machine",
+      "authors": [
+        "Hideharu Amano",
+        "Takaichi Yoshida",
+        "Hideo Aiso"
+      ],
+      "pages": "213-220",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AmanoYA83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AmanoYA83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801658",
+        "https://doi.org/10.1145/1067651.801658"
+      ]
+    },
+    {
+      "title": "A Communication Structure for a Multiprocessor Computer with Distributed Global Memory",
+      "authors": [
+        "Lars H. Philipson",
+        "Bo Nilsson",
+        "Bjorn Breidegard"
+      ],
+      "pages": "334-340",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PhilipsonNB83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PhilipsonNB83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801671",
+        "https://doi.org/10.1145/1067651.801671"
+      ]
+    },
+    {
+      "title": "A Comparative Study of Distributed Resource Sharing on Multiprocessors",
+      "authors": [
+        "Benjamin W. Wah"
+      ],
+      "pages": "301-308",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Wah83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Wah83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801667",
+        "https://doi.org/10.1145/1067651.801667"
+      ]
+    },
+    {
+      "title": "A Critique of Multiprocessing von Neumann Style",
+      "authors": [
+        "Arvind 0001",
+        "Robert A. Iannucci"
+      ],
+      "pages": "426-436",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ArvindI83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ArvindI83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801684",
+        "https://doi.org/10.1145/1067651.801684"
+      ]
+    },
+    {
+      "title": "A Data Driven System Based on a Microprogrammed Processor Module",
+      "authors": [
+        "R. W. Marczynski",
+        "J. Milewski"
+      ],
+      "pages": "98-106",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MarczynskiM83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MarczynskiM83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801644",
+        "https://doi.org/10.1145/1067651.801644"
+      ]
+    },
+    {
+      "title": "A Data Flow Processor Array System: Design and Analysis",
+      "authors": [
+        "Naohisa Takahashi",
+        "Makoto Amamiya"
+      ],
+      "pages": "243-250",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TakahashiA83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TakahashiA83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801662",
+        "https://doi.org/10.1145/1067651.801662"
+      ]
+    },
+    {
+      "title": "A Parallel Execution Model of Logic Programs",
+      "authors": [
+        "Shinji Umeyama",
+        "Koichiro Tamura"
+      ],
+      "pages": "349-355",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/UmeyamaT83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/UmeyamaT83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801673",
+        "https://doi.org/10.1145/1067651.801673"
+      ]
+    },
+    {
+      "title": "A Performance Evaluation of a Lisp-Based Data-Driven Machine (EM-3)",
+      "authors": [
+        "Yoshinori Yamaguchi",
+        "Kenji Toda",
+        "Toshitsugu Yuba"
+      ],
+      "pages": "363-369",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YamaguchiTY83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YamaguchiTY83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801675",
+        "https://doi.org/10.1145/1067651.801675"
+      ]
+    },
+    {
+      "title": "A Pyramidal Approach to Parallel Processing",
+      "authors": [
+        "Steven L. Tanimoto"
+      ],
+      "pages": "372-378",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Tanimoto83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Tanimoto83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801676",
+        "https://doi.org/10.1145/1067651.801676"
+      ]
+    },
+    {
+      "title": "A Relational Data Base Machine: First Step to Knowledge Base Machine",
+      "authors": [
+        "Kunio Murakami",
+        "Takeo Kakuta",
+        "Nobuyoshi Miyazaki",
+        "Shigeki Shibayama",
+        "Haruo Yokota"
+      ],
+      "pages": "423-425",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MurakamiKMSY83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MurakamiKMSY83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801683",
+        "https://doi.org/10.1145/1067651.801683"
+      ]
+    },
+    {
+      "title": "A Retrospective on the Dorado, A High-Performance Personal Computer",
+      "authors": [
+        "Kenneth A. Pier"
+      ],
+      "pages": "252-269",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Pier83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Pier83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801663",
+        "https://doi.org/10.1145/1067651.801663"
+      ]
+    },
+    {
+      "title": "A Study of Instruction Cache Organizations and Replacement Policies",
+      "authors": [
+        "James E. Smith 0001",
+        "James R. Goodman"
+      ],
+      "pages": "132-137",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SmithG83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SmithG83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801648",
+        "https://doi.org/10.1145/1067651.801648"
+      ]
+    },
+    {
+      "title": "A System Architecture for the Concurrent Evaluation of Applicative Program Expressions",
+      "authors": [
+        "Claudia Schmittgen",
+        "Werner E. Kluge"
+      ],
+      "pages": "356-362",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SchmittgenK83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SchmittgenK83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801674",
+        "https://doi.org/10.1145/1067651.801674"
+      ]
+    },
+    {
+      "title": "A User-Microprogrammable, Local Host Computer With Low-Level Parallelism",
+      "authors": [
+        "Shinji Tomita",
+        "Kiyoshi Shibayama",
+        "Toshiaki Kitamura",
+        "Toshiyuki Nakata 0001",
+        "Hiroshi Hagiwara"
+      ],
+      "pages": "151-157",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TomitaSKNH83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TomitaSKNH83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801650",
+        "https://doi.org/10.1145/1067651.801650"
+      ]
+    },
+    {
+      "title": "A VLSI Tree Machine for Relational Data Bases",
+      "authors": [
+        "Maurizio A. Bonuccelli",
+        "Elena Lodi",
+        "Fabrizio Luccio",
+        "Piero Maestrini",
+        "Linda Pagli"
+      ],
+      "pages": "67-73",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BonuccelliLLMP83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BonuccelliLLMP83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801640",
+        "https://doi.org/10.1145/1067651.801640"
+      ]
+    },
+    {
+      "title": "Adaptive Interpretation as a Means of Exploiting Complex Instruction Sets",
+      "authors": [
+        "Richard L. Norton",
+        "Jacob A. Abraham"
+      ],
+      "pages": "277-282",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NortonA83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NortonA83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801665",
+        "https://doi.org/10.1145/1067651.801665"
+      ]
+    },
+    {
+      "title": "ALPHA: A High-Performance LISP Machine Equipped with a New Stack Structure and Garbage Collection System",
+      "authors": [
+        "Hiromu Hayashi",
+        "Akira Hattori",
+        "Haruo Akimoto"
+      ],
+      "pages": "342-348",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HayashiHA83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HayashiHA83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801672",
+        "https://doi.org/10.1145/1067651.801672"
+      ]
+    },
+    {
+      "title": "An Experimental System for Computer Science Instruction",
+      "authors": [
+        "R. Kalyana Krishnan",
+        "A. K. Rajasekar",
+        "C. S. Moghe"
+      ],
+      "pages": "222-227",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KrishnanRM83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KrishnanRM83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801659",
+        "https://doi.org/10.1145/1067651.801659"
+      ]
+    },
+    {
+      "title": "Analysis of Cray-1S Architecture",
+      "authors": [
+        "Vason P. Srini",
+        "Jorge F. Asenjo"
+      ],
+      "pages": "194-206",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SriniA83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SriniA83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801656",
+        "https://doi.org/10.1145/1067651.801656"
+      ]
+    },
+    {
+      "title": "Architecture of a VLSI Instruction Cache for a RISC",
+      "authors": [
+        "David A. Patterson 0001",
+        "Phil Garrison",
+        "Mark D. Hill",
+        "Dimitris Lioupis",
+        "Chris Nyberg",
+        "Tim Sippel",
+        "Korbin S. Van Dyke"
+      ],
+      "pages": "108-116",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PattersonGHLNSD83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PattersonGHLNSD83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801645",
+        "https://doi.org/10.1145/1067651.801645"
+      ]
+    },
+    {
+      "title": "Architecture of the PSC: A Programmable Systolic Chip",
+      "authors": [
+        "Allan L. Fisher",
+        "H. T. Kung 0001",
+        "Louis Monier",
+        "Yasunori Dohi"
+      ],
+      "pages": "48-53",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FisherKMD83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FisherKMD83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801637",
+        "https://doi.org/10.1145/1067651.801637"
+      ]
+    },
+    {
+      "title": "Caddie - An Interactive Design Environment",
+      "authors": [
+        "Bj&ouml;rn Pehrson",
+        "Joachim Parrow"
+      ],
+      "pages": "24-31",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PehrsonP83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PehrsonP83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801634",
+        "https://doi.org/10.1145/1067651.801634"
+      ]
+    },
+    {
+      "title": "Combining Tags With Error Codes",
+      "authors": [
+        "Richard H. Gumpertz"
+      ],
+      "pages": "160-165",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Gumpertz83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Gumpertz83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801651",
+        "https://doi.org/10.1145/1067651.801651"
+      ]
+    },
+    {
+      "title": "Concurrent Error Detection in VLSI Interconnection Networks",
+      "authors": [
+        "W. Kent Fuchs",
+        "Jacob A. Abraham",
+        "Kuang-Hua Huang"
+      ],
+      "pages": "309-315",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FuchsAH83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FuchsAH83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801668",
+        "https://doi.org/10.1145/1067651.801668"
+      ]
+    },
+    {
+      "title": "DDDP: A Distributed Data Driven Processor",
+      "authors": [
+        "Masasuke Kishi",
+        "Hiroshi Yasuhara",
+        "Yasusuke Kawamura"
+      ],
+      "pages": "236-242",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KishiYK83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KishiYK83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801661",
+        "https://doi.org/10.1145/1067651.801661"
+      ]
+    },
+    {
+      "title": "EMMA: An Industrial Experience on Large Multiprocessing Architectures",
+      "authors": [
+        "Luigi Stringa"
+      ],
+      "pages": "326-333",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Stringa83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Stringa83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801670",
+        "https://doi.org/10.1145/1067651.801670"
+      ]
+    },
+    {
+      "title": "Execution Control and Memory Management of a Data Flow Signal Processor",
+      "authors": [
+        "Klaus Kronl&ouml;f"
+      ],
+      "pages": "230-235",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Kronlof83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Kronlof83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801660",
+        "https://doi.org/10.1145/1067651.801660"
+      ]
+    },
+    {
+      "title": "Fault Diagnosis of Bit-Slice Processor",
+      "authors": [
+        "Young Gil Park",
+        "Jung Wan Cho"
+      ],
+      "pages": "166-172",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ParkC83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ParkC83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801652",
+        "https://doi.org/10.1145/1067651.801652"
+      ]
+    },
+    {
+      "title": "Frameworks for a Taxonomy of Fault-Tolerance Attributes in Computer Systems",
+      "authors": [
+        "Algirdas Avizienis"
+      ],
+      "pages": "16-21",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Avizienis83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Avizienis83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801633",
+        "https://doi.org/10.1145/1067651.801633"
+      ]
+    },
+    {
+      "title": "Hierarchical Function Distribution - A Design Principle for Advanced Multicomputer Architectures",
+      "authors": [
+        "Wolfgang K. Giloi",
+        "Peter M. Behr"
+      ],
+      "pages": "318-325",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GiloiB83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GiloiB83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801669",
+        "https://doi.org/10.1145/1067651.801669"
+      ]
+    },
+    {
+      "title": "Implementing Streams on a Data Flow Computer System With Paged Memory",
+      "authors": [
+        "L. J. Caluwaerts",
+        "J. Debacker",
+        "J. A. Peperstraete"
+      ],
+      "pages": "76-83",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CaluwaertsDP83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CaluwaertsDP83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801641",
+        "https://doi.org/10.1145/1067651.801641"
+      ]
+    },
+    {
+      "title": "Inference Machine: From Sequential to Paralle",
+      "authors": [
+        "Shunichi Uchida"
+      ],
+      "pages": "410-416",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Uchida83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Uchida83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801681",
+        "https://doi.org/10.1145/1067651.801681"
+      ]
+    },
+    {
+      "title": "Line Digraph Iterations and the (d,k) Problem for Directed Graphs",
+      "authors": [
+        "Miguel Angel Fiol",
+        "Ignacio Alegre",
+        "J. Luis A. Yebra"
+      ],
+      "pages": "174-177",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FiolAY83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FiolAY83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801653",
+        "https://doi.org/10.1145/1067651.801653"
+      ]
+    },
+    {
+      "title": "LINKS-1: A Parallel Pipelined Multimicrocomputer System for Image Creation",
+      "authors": [
+        "Hitoshi Nishimura",
+        "Hiroshi Ohno",
+        "Toru Kawata",
+        "Isao Shirakawa",
+        "Koichi Omura"
+      ],
+      "pages": "387-394",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NishimuraOKSO83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NishimuraOKSO83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801678",
+        "https://doi.org/10.1145/1067651.801678"
+      ]
+    },
+    {
+      "title": "LIPP-A SIMD Multiprocessor Architecture for Image Processing",
+      "authors": [
+        "T. Ericsson",
+        "Per-Erik Danielsson"
+      ],
+      "pages": "395-400",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/EricssonD83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/EricssonD83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801679",
+        "https://doi.org/10.1145/1067651.801679"
+      ]
+    },
+    {
+      "title": "On the Verification of Computer Architectures Using an Architecture Description Language",
+      "authors": [
+        "Subrata Dasgupta"
+      ],
+      "pages": "32-38",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Dasgupta83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Dasgupta83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801635",
+        "https://doi.org/10.1145/1067651.801635"
+      ]
+    },
+    {
+      "title": "On the Working Set Concept for Data-Flow Machines",
+      "authors": [
+        "Mario Tokoro",
+        "J. R. Jagannathan",
+        "Hideki Sunahara"
+      ],
+      "pages": "90-97",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TokoroJS83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TokoroJS83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801643",
+        "https://doi.org/10.1145/1067651.801643"
+      ]
+    },
+    {
+      "title": "Overview to the Fifth Generation Computer System Project",
+      "authors": [
+        "Tohru Moto-Oka"
+      ],
+      "pages": "417-422",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Moto-Oka83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Moto-Oka83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801682",
+        "https://doi.org/10.1145/1067651.801682"
+      ]
+    },
+    {
+      "title": "Performance Measurements on HEP - A Pipelined MIMD Computer",
+      "authors": [
+        "Harry F. Jordan"
+      ],
+      "pages": "207-212",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Jordan83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Jordan83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801657",
+        "https://doi.org/10.1145/1067651.801657"
+      ]
+    },
+    {
+      "title": "Performance of Shared Cache for Parallel-Pipelined Computer Systems",
+      "authors": [
+        "Phil C. C. Yeh",
+        "Janak H. Patel",
+        "Edward S. Davidson"
+      ],
+      "pages": "117-123",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YehPD83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YehPD83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801646",
+        "https://doi.org/10.1145/1067651.801646"
+      ]
+    },
+    {
+      "title": "Research on Synthesis of Concurrent Computing Systems",
+      "authors": [
+        "Richard M. King"
+      ],
+      "pages": "39-46",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/King83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/King83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801636",
+        "https://doi.org/10.1145/1067651.801636"
+      ]
+    },
+    {
+      "title": "Resource Allocation in Rectangular CC-Banyans",
+      "authors": [
+        "Eli Opper",
+        "Miroslaw Malek",
+        "G. Jack Lipovski"
+      ],
+      "pages": "178-184",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/OpperML83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/OpperML83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801654",
+        "https://doi.org/10.1145/1067651.801654"
+      ]
+    },
+    {
+      "title": "Size, Power, and Speed",
+      "authors": [
+        "Maurice V. Wilkes"
+      ],
+      "pages": "2-4",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Wilkes83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Wilkes83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801631",
+        "https://doi.org/10.1145/1067651.801631"
+      ]
+    },
+    {
+      "title": "Switching Strategies in a Class of Packet Switching Networks",
+      "authors": [
+        "Manoj Kumar",
+        "Daniel M. Dias",
+        "J. Robert Jump"
+      ],
+      "pages": "284-300",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KumarDJ83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KumarDJ83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801666",
+        "https://doi.org/10.1145/1067651.801666"
+      ]
+    },
+    {
+      "title": "Synchronizing Large VLSI Processor Arrays",
+      "authors": [
+        "Allan L. Fisher",
+        "H. T. Kung 0001"
+      ],
+      "pages": "54-58",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FisherK83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FisherK83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801638",
+        "https://doi.org/10.1145/1067651.801638"
+      ]
+    },
+    {
+      "title": "System/370 Extended Architecture: A Program View of the Channel Subsystem",
+      "authors": [
+        "Robert J. Dugan"
+      ],
+      "pages": "270-276",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Dugan83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Dugan83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801664",
+        "https://doi.org/10.1145/1067651.801664"
+      ]
+    },
+    {
+      "title": "The Boolean Vector Machine [BVM]",
+      "authors": [
+        "Robert A. Wagner"
+      ],
+      "pages": "59-66",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Wagner83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Wagner83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801639",
+        "https://doi.org/10.1145/1067651.801639"
+      ]
+    },
+    {
+      "title": "The Design of a Parallel Processor for Image Processing On-Board Satellites: An Application Oriented Approach",
+      "authors": [
+        "Gerard Gaillat"
+      ],
+      "pages": "372-386",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Gaillat83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Gaillat83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801677",
+        "https://doi.org/10.1145/1067651.801677"
+      ]
+    },
+    {
+      "title": "The New Generation of Computer Architecture",
+      "authors": [
+        "Philip C. Treleaven"
+      ],
+      "pages": "402-409",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Treleaven83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Treleaven83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801680",
+        "https://doi.org/10.1145/1067651.801680"
+      ]
+    },
+    {
+      "title": "The Piecewise Data Flow Architecture Control Flow and Register Management",
+      "authors": [
+        "Joseph E. Requa"
+      ],
+      "pages": "84-89",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Requa83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Requa83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801642",
+        "https://doi.org/10.1145/1067651.801642"
+      ]
+    },
+    {
+      "title": "Towards a Taxonomy of Computer Architecture Based on the Machine Data Type View",
+      "authors": [
+        "Wolfgang K. Giloi"
+      ],
+      "pages": "6-15",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Giloi83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Giloi83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801632",
+        "https://doi.org/10.1145/1067651.801632"
+      ]
+    },
+    {
+      "title": "Uniform Theory of the Shuffle-Exchange Type Permutation Networks",
+      "authors": [
+        "Frantisek Sovis"
+      ],
+      "pages": "185-191",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Sovis83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Sovis83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801655",
+        "https://doi.org/10.1145/1067651.801655"
+      ]
+    },
+    {
+      "title": "Using Cache Memory to Reduce Processor-Memory Traffic",
+      "authors": [
+        "James R. Goodman"
+      ],
+      "pages": "124-131",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Goodman83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Goodman83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801647",
+        "https://doi.org/10.1145/1067651.801647",
+        "https://www.wikidata.org/entity/Q56531266"
+      ]
+    },
+    {
+      "title": "Very Long Instruction Word Architectures and the ELI-512",
+      "authors": [
+        "Joseph A. Fisher"
+      ],
+      "pages": "140-150",
+      "year": "1983",
+      "venue": "ISCA 1983",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Fisher83",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Fisher83.html",
+      "ee_links": [
+        "https://doi.org/10.1145/800046.801649",
+        "https://doi.org/10.1145/1067651.801649",
+        "https://www.wikidata.org/entity/Q55933512"
+      ]
+    }
+  ]
+}

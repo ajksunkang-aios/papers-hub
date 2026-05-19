@@ -1,0 +1,388 @@
+{
+  "id": "osdi-1996",
+  "venue": "osdi",
+  "year": 1996,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi1996.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi1996.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/1996",
+    "conf/osdi/1996-1",
+    "conf/osdi/1996-2",
+    "conf/osdi/1996-3",
+    "conf/osdi/1996-4",
+    "conf/osdi/1996-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 21,
+  "display_count": 21,
+  "papers": [
+    {
+      "title": "A Hierarchical CPU Scheduler for Multimedia Operating Systems",
+      "authors": [
+        "Pawan Goyal 0001",
+        "Xingang Guo",
+        "Harrick M. Vin"
+      ],
+      "pages": "107-121",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GoyalGV96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GoyalGV96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238766"
+      ]
+    },
+    {
+      "title": "A Trace-Driven Comparison of Algorithms for Parallel Prefetching and Caching",
+      "authors": [
+        "Tracy Kimbrel",
+        "Andrew Tomkins",
+        "R. Hugo Patterson",
+        "Brian N. Bershad",
+        "Pei Cao",
+        "Edward W. Felten",
+        "Garth A. Gibson",
+        "Anna R. Karlin",
+        "Kai Li 0001"
+      ],
+      "pages": "19-34",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KimbrelTPBCFGKL96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KimbrelTPBCFGKL96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238737"
+      ]
+    },
+    {
+      "title": "Active Networks (Abstract)",
+      "authors": [
+        "David L. Tennenhouse"
+      ],
+      "pages": "89",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Tennenhouse96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Tennenhouse96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238764"
+      ]
+    },
+    {
+      "title": "An Implementation of the Hamlyn Sender-Managed Interface Architecture",
+      "authors": [
+        "Gregory D. Buzzard",
+        "David Jacobson",
+        "Milon Mackey",
+        "Scott Marovich",
+        "John Wilkes"
+      ],
+      "pages": "245-259",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BuzzardJMMW96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BuzzardJMMW96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238784"
+      ]
+    },
+    {
+      "title": "Automatic Compiler-Inserted I/O Prefetching for Out-of-Core Applications",
+      "authors": [
+        "Todd C. Mowry",
+        "Angela K. Demke",
+        "Orran Krieger"
+      ],
+      "pages": "3-17",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MowryDK96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MowryDK96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238734"
+      ]
+    },
+    {
+      "title": "CPU Inheritance Scheduling",
+      "authors": [
+        "Bryan Ford",
+        "Sai Susarla"
+      ],
+      "pages": "91-105",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FordS96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FordS96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238765"
+      ]
+    },
+    {
+      "title": "Dealing with Disaster: Surviving Misbehaved Kernel Extensions",
+      "authors": [
+        "Margo I. Seltzer",
+        "Yasuhiro Endo",
+        "Christopher Small 0001",
+        "Keith A. Smith"
+      ],
+      "pages": "213-227",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SeltzerESS96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SeltzerESS96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238779"
+      ]
+    },
+    {
+      "title": "Dynamic Binding for an Extensible System",
+      "authors": [
+        "Przemyslaw Pardyak",
+        "Brian N. Bershad"
+      ],
+      "pages": "201-212",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PardyakB96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PardyakB96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238777"
+      ]
+    },
+    {
+      "title": "Effects of Buffering Semantics on I/O Performance",
+      "authors": [
+        "Jos&eacute; Carlos Brustoloni",
+        "Peter Steenkiste"
+      ],
+      "pages": "277-291",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BrustoloniS96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BrustoloniS96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238787"
+      ]
+    },
+    {
+      "title": "Efficient Cooperative Caching Using Hints",
+      "authors": [
+        "Prasenjit Sarkar",
+        "John H. Hartman"
+      ],
+      "pages": "35-46",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SarkarH96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SarkarH96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238741"
+      ]
+    },
+    {
+      "title": "JavaOS: Back to the Future (Abstract)",
+      "authors": [
+        "James G. Mitchell"
+      ],
+      "pages": "1",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Mitchell96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Mitchell96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238731"
+      ]
+    },
+    {
+      "title": "Lazy Receiver Processing (LRP): A Network Subsystem Architecture for Server Systems",
+      "authors": [
+        "Peter Druschel",
+        "Gaurav Banga"
+      ],
+      "pages": "261-275",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DruschelB96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DruschelB96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238786"
+      ]
+    },
+    {
+      "title": "Lightweight Logging for Lazy Release Consistent Distributed Shared Memory",
+      "authors": [
+        "Manuel Costa",
+        "Paulo Guedes",
+        "Manuel Sequeira",
+        "Nuno Neves 0001",
+        "Miguel Castro 0001"
+      ],
+      "pages": "59-73",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CostaGSNC96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CostaGSNC96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238762"
+      ]
+    },
+    {
+      "title": "Making Paths Explicit in the Scout Operating System",
+      "authors": [
+        "David Mosberger",
+        "Larry L. Peterson"
+      ],
+      "pages": "153-167",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MosbergerP96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MosbergerP96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238771"
+      ]
+    },
+    {
+      "title": "Microkernels Meet Recursive Virtual Machines",
+      "authors": [
+        "Bryan Ford",
+        "Mike Hibler",
+        "Jay Lepreau",
+        "Patrick Tullmann",
+        "Godmar Back",
+        "Stephen Clawson"
+      ],
+      "pages": "137-151",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FordHLTBC96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FordHLTBC96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238769"
+      ]
+    },
+    {
+      "title": "Online Data-Race Detection via Coherency Guarantees",
+      "authors": [
+        "Dejan Perkovic",
+        "Peter J. Keleher"
+      ],
+      "pages": "47-57",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PerkovicK96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PerkovicK96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238760"
+      ]
+    },
+    {
+      "title": "Performance Evaluation of Two Home-Based Lazy Release Consistency Protocols for Shared Virtual Memory Systems",
+      "authors": [
+        "Yuanyuan Zhou 0001",
+        "Liviu Iftode",
+        "Kai Li 0001"
+      ],
+      "pages": "75-88",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhouIL96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhouIL96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238763"
+      ]
+    },
+    {
+      "title": "Safe Kernel Extensions Without Run-Time Checking",
+      "authors": [
+        "George C. Necula",
+        "Peter Lee 0001"
+      ],
+      "pages": "229-243",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/NeculaL96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/NeculaL96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238781"
+      ]
+    },
+    {
+      "title": "Studies of Windows NT Performance Using Dynamic Execution Traces",
+      "authors": [
+        "Sharon E. Perl",
+        "Richard L. Sites"
+      ],
+      "pages": "169-183",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PerlS96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PerlS96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238773"
+      ]
+    },
+    {
+      "title": "The Synergy Between Non-Blocking Synchronization and Operating System Structure",
+      "authors": [
+        "Michael Greenwald",
+        "David R. Cheriton"
+      ],
+      "pages": "123-136",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GreenwaldC96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GreenwaldC96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238767"
+      ]
+    },
+    {
+      "title": "Using Latency to Evaluate Interactive System Performance",
+      "authors": [
+        "Yasuhiro Endo",
+        "Zheng Wang",
+        "J. Bradley Chen",
+        "Margo I. Seltzer"
+      ],
+      "pages": "185-199",
+      "year": "1996",
+      "venue": "OSDI 1996",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/EndoWCS96",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/EndoWCS96.html",
+      "ee_links": [
+        "https://doi.org/10.1145/238721.238775"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,813 @@
+{
+  "id": "isca-2011",
+  "venue": "isca",
+  "year": 2011,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2011.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2011.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2011",
+    "conf/isca/2011-1",
+    "conf/isca/2011-2",
+    "conf/isca/2011-3",
+    "conf/isca/2011-4",
+    "conf/isca/2011-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 40,
+  "display_count": 40,
+  "papers": [
+    {
+      "title": "A case for globally shared-medium on-chip interconnect",
+      "authors": [
+        "Aaron Carpenter",
+        "Jianyun Hu",
+        "Jie Xu",
+        "Michael C. Huang 0001",
+        "Hui Wu 0007"
+      ],
+      "pages": "271-282",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CarpenterHXHW11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CarpenterHXHW11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000097",
+        "https://ieeexplore.ieee.org/document/6307764/"
+      ]
+    },
+    {
+      "title": "A case for heterogeneous on-chip interconnects for CMPs",
+      "authors": [
+        "Asit K. Mishra",
+        "Narayanan Vijaykrishnan",
+        "Chita R. Das"
+      ],
+      "pages": "389-400",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MishraVD11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MishraVD11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000111",
+        "https://ieeexplore.ieee.org/document/6307774/"
+      ]
+    },
+    {
+      "title": "Adaptive granularity memory systems: a tradeoff between storage efficiency and throughput",
+      "authors": [
+        "Doe Hyun Yoon",
+        "Min Kyu Jeong",
+        "Mattan Erez"
+      ],
+      "pages": "295-306",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YoonJE11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YoonJE11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000100",
+        "https://ieeexplore.ieee.org/document/6307766/"
+      ]
+    },
+    {
+      "title": "An abacus turn model for time/space-efficient reconfigurable routing",
+      "authors": [
+        "Binzhang Fu",
+        "Yinhe Han 0001",
+        "Jun Ma",
+        "Huawei Li 0001",
+        "Xiaowei Li 0001"
+      ],
+      "pages": "259-270",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FuHMLL11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FuHMLL11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000096",
+        "https://ieeexplore.ieee.org/document/6307293/"
+      ]
+    },
+    {
+      "title": "Architecting on-chip interconnects for stacked 3D STT-RAM caches in CMPs",
+      "authors": [
+        "Asit K. Mishra",
+        "Xiangyu Dong 0001",
+        "Guangyu Sun 0003",
+        "Yuan Xie 0001",
+        "Narayanan Vijaykrishnan",
+        "Chita R. Das"
+      ],
+      "pages": "69-80",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MishraDSXVD11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MishraDSXVD11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000074",
+        "https://ieeexplore.ieee.org/document/6307781/"
+      ]
+    },
+    {
+      "title": "Automatic abstraction and fault tolerance in cortical microachitectures",
+      "authors": [
+        "Atif Hashmi",
+        "Hugues Berry",
+        "Olivier Temam",
+        "Mikko H. Lipasti"
+      ],
+      "pages": "1-10",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HashmiBTL11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HashmiBTL11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000066",
+        "https://ieeexplore.ieee.org/document/6307758/"
+      ]
+    },
+    {
+      "title": "Benefits and limitations of tapping into stored energy for datacenters",
+      "authors": [
+        "Sriram Govindan",
+        "Anand Sivasubramaniam",
+        "Bhuvan Urgaonkar"
+      ],
+      "pages": "341-352",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GovindanSU11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GovindanSU11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000105",
+        "https://ieeexplore.ieee.org/document/6307771/"
+      ]
+    },
+    {
+      "title": "Bypass and insertion algorithms for exclusive last-level caches",
+      "authors": [
+        "Jayesh Gaur",
+        "Mainak Chaudhuri",
+        "Sreenivas Subramoney"
+      ],
+      "pages": "81-92",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GaurCS11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GaurCS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000075",
+        "https://ieeexplore.ieee.org/document/6307782/"
+      ]
+    },
+    {
+      "title": "Combining memory and a controller with photonics through 3D-stacking to enable scalable and energy-efficient systems",
+      "authors": [
+        "Aniruddha N. Udipi",
+        "Naveen Muralimanohar",
+        "Rajeev Balasubramonian",
+        "Al Davis",
+        "Norman P. Jouppi"
+      ],
+      "pages": "425-436",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/UdipiMBDJ11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/UdipiMBDJ11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000115",
+        "https://ieeexplore.ieee.org/document/6307776/"
+      ]
+    },
+    {
+      "title": "CPPC: correctable parity protected cache",
+      "authors": [
+        "Mehrtash Manoochehri",
+        "Murali Annavaram",
+        "Michel Dubois 0001"
+      ],
+      "pages": "223-234",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ManoochehriAD11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ManoochehriAD11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000091",
+        "https://ieeexplore.ieee.org/document/6307761/"
+      ]
+    },
+    {
+      "title": "Crafting a usable microkernel, processor, and I/O system with strict and provable information flow security",
+      "authors": [
+        "Mohit Tiwari",
+        "Jason Oberg",
+        "Xun Li 0001",
+        "Jonathan Valamehr",
+        "Timothy E. Levin",
+        "Ben Hardekopf",
+        "Ryan Kastner",
+        "Frederic T. Chong",
+        "Timothy Sherwood"
+      ],
+      "pages": "189-200",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TiwariOLVLHKCS11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TiwariOLVLHKCS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000087",
+        "https://ieeexplore.ieee.org/document/6307757/"
+      ]
+    },
+    {
+      "title": "CRIB: consolidated rename, issue, and bypass",
+      "authors": [
+        "Erika Gunadi",
+        "Mikko H. Lipasti"
+      ],
+      "pages": "23-32",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GunadiL11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GunadiL11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000068",
+        "https://ieeexplore.ieee.org/document/6307763/"
+      ]
+    },
+    {
+      "title": "Dark silicon and the end of multicore scaling",
+      "authors": [
+        "Hadi Esmaeilzadeh",
+        "Emily R. Blem",
+        "Ren&eacute;e St. Amant",
+        "Karthikeyan Sankaralingam",
+        "Doug Burger"
+      ],
+      "pages": "365-376",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/EsmaeilzadehBASB11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/EsmaeilzadehBASB11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000108",
+        "https://ieeexplore.ieee.org/document/6307773/"
+      ]
+    },
+    {
+      "title": "DBAR: an efficient routing algorithm to support multiple concurrent applications in networks-on-chip",
+      "authors": [
+        "Sheng Ma",
+        "Natalie D. Enright Jerger",
+        "Zhiying Wang 0003"
+      ],
+      "pages": "413-424",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MaJW11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MaJW11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000113",
+        "https://ieeexplore.ieee.org/document/6307521/"
+      ]
+    },
+    {
+      "title": "Demand-driven software race detection using hardware performance counters",
+      "authors": [
+        "Joseph L. Greathouse",
+        "Zhiqiang Ma",
+        "Matthew I. Frank",
+        "Ramesh Peri",
+        "Todd M. Austin"
+      ],
+      "pages": "165-176",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GreathouseMFPA11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GreathouseMFPA11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000084",
+        "https://ieeexplore.ieee.org/document/6307755/"
+      ]
+    },
+    {
+      "title": "Energy-efficient cache design using variable-strength error-correcting codes",
+      "authors": [
+        "Alaa R. Alameldeen",
+        "Ilya Wagner",
+        "Zeshan Chishti",
+        "Wei Wu 0024",
+        "Chris Wilkerson",
+        "Shih-Lien Lu"
+      ],
+      "pages": "461-472",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AlameldeenWCWWL11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AlameldeenWCWWL11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000118",
+        "https://ieeexplore.ieee.org/document/6307779/",
+        "https://www.wikidata.org/entity/Q130982266"
+      ]
+    },
+    {
+      "title": "Energy-efficient mechanisms for managing thread context in throughput processors",
+      "authors": [
+        "Mark Gebhart",
+        "Daniel R. Johnson",
+        "David Tarjan",
+        "Stephen W. Keckler",
+        "William J. Dally",
+        "Erik Lindholm",
+        "Kevin Skadron"
+      ],
+      "pages": "235-246",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GebhartJTKDLS11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GebhartJTKDLS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000093",
+        "https://ieeexplore.ieee.org/document/6307762/"
+      ]
+    },
+    {
+      "title": "Exploring the tradeoffs between programmability and efficiency in data-parallel accelerators",
+      "authors": [
+        "Yunsup Lee",
+        "Rimas Avizienis",
+        "Alex Bishara",
+        "Richard Xia",
+        "Derek Lockhart",
+        "Christopher Batten",
+        "Krste Asanovic"
+      ],
+      "pages": "129-140",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeABXLBA11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeABXLBA11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000080",
+        "https://ieeexplore.ieee.org/document/6307065/"
+      ]
+    },
+    {
+      "title": "FabScalar: composing synthesizable RTL designs of arbitrary cores within a canonical superscalar template",
+      "authors": [
+        "Niket Kumar Choudhary",
+        "Salil V. Wadhavkar",
+        "Tanmay A. Shah",
+        "Hiran Mayukh",
+        "Jayneel Gandhi",
+        "Brandon H. Dwiel",
+        "Sandeep Navada",
+        "Hashem Hashemi Najaf-abadi",
+        "Eric Rotenberg"
+      ],
+      "pages": "11-22",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChoudharyWSMGDNNR11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChoudharyWSMGDNNR11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000067",
+        "https://ieeexplore.ieee.org/document/6307752/"
+      ]
+    },
+    {
+      "title": "Fighting fire with fire: modeling the datacenter-scale effects of targeted superlattice thermal management",
+      "authors": [
+        "Susmit Biswas",
+        "Mohit Tiwari",
+        "Timothy Sherwood",
+        "Luke Theogarajan",
+        "Frederic T. Chong"
+      ],
+      "pages": "331-340",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BiswasTSTC11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BiswasTSTC11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000104",
+        "https://ieeexplore.ieee.org/document/6307769/"
+      ]
+    },
+    {
+      "title": "FlexBulk: intelligently forming atomic blocks in blocked-execution multiprocessors to minimize squashes",
+      "authors": [
+        "Rishi Agarwal",
+        "Josep Torrellas"
+      ],
+      "pages": "33-44",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AgarwalT11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AgarwalT11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000070",
+        "https://ieeexplore.ieee.org/document/6307770/"
+      ]
+    },
+    {
+      "title": "i-NVMM: a secure non-volatile main memory system with incremental encryption",
+      "authors": [
+        "Siddhartha Chhabra",
+        "Yan Solihin"
+      ],
+      "pages": "177-188",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChhabraS11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChhabraS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000086",
+        "https://ieeexplore.ieee.org/document/6307756/",
+        "https://www.wikidata.org/entity/Q130870243"
+      ]
+    },
+    {
+      "title": "Increasing the effectiveness of directory caches by deactivating coherence for private memory blocks",
+      "authors": [
+        "Blas Cuesta",
+        "Alberto Ros 0001",
+        "Mar&iacute;a Engracia G&oacute;mez",
+        "Antonio Robles",
+        "Jos&eacute; Duato"
+      ],
+      "pages": "93-104",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CuestaRGRD11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CuestaRGRD11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000076",
+        "https://ieeexplore.ieee.org/document/6307783/"
+      ]
+    },
+    {
+      "title": "Kilo-NOC: a heterogeneous network-on-chip architecture for scalability and service guarantees",
+      "authors": [
+        "Boris Grot",
+        "Joel Hestness",
+        "Stephen W. Keckler",
+        "Onur Mutlu"
+      ],
+      "pages": "401-412",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GrotHKM11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GrotHKM11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000112",
+        "https://ieeexplore.ieee.org/document/6307775/"
+      ]
+    },
+    {
+      "title": "Moguls: a model to explore the memory hierarchy for bandwidth improvements",
+      "authors": [
+        "Guangyu Sun 0003",
+        "Christopher J. Hughes",
+        "Changkyu Kim",
+        "Jishen Zhao",
+        "Cong Xu 0002",
+        "Yuan Xie 0001",
+        "Yen-Kuang Chen"
+      ],
+      "pages": "377-388",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SunHKZXXC11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SunHKZXXC11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000109",
+        "https://ieeexplore.ieee.org/document/6307407/"
+      ]
+    },
+    {
+      "title": "OUTRIDER: efficient memory latency tolerance with decoupled strands",
+      "authors": [
+        "Neal Clayton Crago",
+        "Sanjay J. Patel"
+      ],
+      "pages": "117-128",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CragoP11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CragoP11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000079",
+        "https://ieeexplore.ieee.org/document/6307751/"
+      ]
+    },
+    {
+      "title": "Power management of online data-intensive services",
+      "authors": [
+        "David Meisner",
+        "Christopher M. Sadler",
+        "Luiz Andr&eacute; Barroso",
+        "Wolf-Dietrich Weber",
+        "Thomas F. Wenisch"
+      ],
+      "pages": "319-330",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MeisnerSBWW11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MeisnerSBWW11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000103",
+        "https://ieeexplore.ieee.org/document/6307768/"
+      ]
+    },
+    {
+      "title": "Prefetch-aware shared resource management for multi-core systems",
+      "authors": [
+        "Eiman Ebrahimi",
+        "Chang Joo Lee",
+        "Onur Mutlu",
+        "Yale N. Patt"
+      ],
+      "pages": "141-152",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/EbrahimiLMP11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/EbrahimiLMP11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000081",
+        "https://ieeexplore.ieee.org/document/6307753/"
+      ]
+    },
+    {
+      "title": "Rapid identification of architectural bottlenecks via precise event counting",
+      "authors": [
+        "John Demme",
+        "Simha Sethumadhavan"
+      ],
+      "pages": "353-364",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DemmeS11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DemmeS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000107",
+        "https://ieeexplore.ieee.org/document/6307772/"
+      ]
+    },
+    {
+      "title": "Rebound: scalable checkpointing for coherent shared memory",
+      "authors": [
+        "Rishi Agarwal",
+        "Pranav Garg 0001",
+        "Josep Torrellas"
+      ],
+      "pages": "153-164",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AgarwalGT11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AgarwalGT11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000083",
+        "https://ieeexplore.ieee.org/document/6307754/"
+      ]
+    },
+    {
+      "title": "Releasing efficient beta cores to market early",
+      "authors": [
+        "Sangeetha Sudhakrishnan",
+        "Rigo Dicochea",
+        "Jose Renau"
+      ],
+      "pages": "213-222",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SudhakrishnanDR11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SudhakrishnanDR11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000090",
+        "https://ieeexplore.ieee.org/document/6307760/"
+      ]
+    },
+    {
+      "title": "Sampling + DMR: practical and low-overhead permanent fault detection",
+      "authors": [
+        "Shuou Nomura",
+        "Matthew D. Sinclair",
+        "Chen-Han Ho",
+        "Venkatraman Govindaraju",
+        "Marc de Kruijf",
+        "Karthikeyan Sankaralingam"
+      ],
+      "pages": "201-212",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NomuraSHGKS11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NomuraSHGKS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000089",
+        "https://ieeexplore.ieee.org/document/6307759/"
+      ]
+    },
+    {
+      "title": "Scalable power control for many-core architectures running multi-threaded applications",
+      "authors": [
+        "Kai Ma",
+        "Xue Li",
+        "Ming Chen 0002",
+        "Xiaorui Wang"
+      ],
+      "pages": "449-460",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MaLCW11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MaLCW11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000117",
+        "https://ieeexplore.ieee.org/document/6307635/",
+        "https://www.wikidata.org/entity/Q130969060"
+      ]
+    },
+    {
+      "title": "SpecTLB: a mechanism for speculative address translation",
+      "authors": [
+        "Thomas W. Barr",
+        "Alan L. Cox",
+        "Scott Rixner"
+      ],
+      "pages": "307-318",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BarrCR11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BarrCR11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000101",
+        "https://ieeexplore.ieee.org/document/6307767/"
+      ]
+    },
+    {
+      "title": "SRAM-DRAM hybrid memory with applications to efficient register files in fine-grained multi-threading",
+      "authors": [
+        "Wing-Kei S. Yu",
+        "Ruirui C. Huang",
+        "Sarah Q. Xu",
+        "Sung-En Wang",
+        "Edwin Kan",
+        "G. Edward Suh"
+      ],
+      "pages": "247-258",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YuHXWKS11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YuHXWKS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000094",
+        "https://ieeexplore.ieee.org/document/6307179/"
+      ]
+    },
+    {
+      "title": "The impact of memory subsystem resource sharing on datacenter applications",
+      "authors": [
+        "Lingjia Tang",
+        "Jason Mars",
+        "Neil Vachharajani",
+        "Robert Hundt",
+        "Mary Lou Soffa"
+      ],
+      "pages": "283-294",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TangMVHS11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TangMVHS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000099",
+        "https://ieeexplore.ieee.org/document/6307765/"
+      ]
+    },
+    {
+      "title": "The role of optics in future high radix switch design",
+      "authors": [
+        "Nathan L. Binkert",
+        "Al Davis",
+        "Norman P. Jouppi",
+        "Moray McLaren",
+        "Naveen Muralimanohar",
+        "Robert Schreiber",
+        "Jung Ho Ahn"
+      ],
+      "pages": "437-448",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BinkertDJMMSA11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BinkertDJMMSA11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000116",
+        "https://ieeexplore.ieee.org/document/6307777/",
+        "https://www.wikidata.org/entity/Q130965537"
+      ]
+    },
+    {
+      "title": "TLSync: support for multiple fast barriers using on-chip transmission lines",
+      "authors": [
+        "Jungju Oh",
+        "Milos Prvulovic",
+        "Alenka G. Zajic"
+      ],
+      "pages": "105-116",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/OhPZ11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/OhPZ11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000078",
+        "https://ieeexplore.ieee.org/document/6306757/"
+      ]
+    },
+    {
+      "title": "Vantage: scalable and efficient fine-grain cache partitioning",
+      "authors": [
+        "Daniel S&aacute;nchez 0003",
+        "Christos Kozyrakis"
+      ],
+      "pages": "57-68",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SanchezK11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SanchezK11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000073",
+        "https://ieeexplore.ieee.org/document/6307780/"
+      ]
+    },
+    {
+      "title": "Virtualizing performance asymmetric multi-core systems",
+      "authors": [
+        "Youngjin Kwon",
+        "Changdae Kim",
+        "Seungryoul Maeng",
+        "Jaehyuk Huh 0001"
+      ],
+      "pages": "45-56",
+      "year": "2011",
+      "venue": "ISCA 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KwonKMH11",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KwonKMH11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2000064.2000071",
+        "https://ieeexplore.ieee.org/document/6307778/"
+      ]
+    }
+  ]
+}

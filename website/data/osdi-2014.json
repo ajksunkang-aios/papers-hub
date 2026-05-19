@@ -1,0 +1,1169 @@
+{
+  "id": "osdi-2014",
+  "venue": "osdi",
+  "year": 2014,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi2014.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi2014.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/2014",
+    "conf/osdi/2014-1",
+    "conf/osdi/2014-2",
+    "conf/osdi/2014-3",
+    "conf/osdi/2014-4",
+    "conf/osdi/2014-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 59,
+  "display_count": 59,
+  "papers": [
+    {
+      "title": "A Self-Configurable Geo-Replicated Cloud Storage System",
+      "authors": [
+        "Masoud Saeida Ardekani",
+        "Douglas B. Terry"
+      ],
+      "pages": "367-381",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ArdekaniT14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ArdekaniT14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/ardekani"
+      ]
+    },
+    {
+      "title": "All File Systems Are Not Created Equal: On the Complexity of Crafting Crash-Consistent Applications",
+      "authors": [
+        "Thanumalayan Sankaranarayana Pillai",
+        "Vijay Chidambaram",
+        "Ramnatthan Alagappan",
+        "Samer Al-Kiswany",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "433-448",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PillaiCAAAA14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PillaiCAAAA14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/pillai"
+      ]
+    },
+    {
+      "title": "Apollo: Scalable and Coordinated Scheduling for Cloud-Scale Computing",
+      "authors": [
+        "Eric Boutin",
+        "Jaliya Ekanayake",
+        "Wei Lin 0016",
+        "Bing Shi",
+        "Jingren Zhou 0001",
+        "Zhengping Qian",
+        "Ming Wu 0007",
+        "Lidong Zhou"
+      ],
+      "pages": "285-300",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BoutinELSZQWZ14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BoutinELSZQWZ14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/boutin"
+      ]
+    },
+    {
+      "title": "Arrakis: The Operating System is the Control Plane",
+      "authors": [
+        "Simon Peter 0001",
+        "Jialin Li 0001",
+        "Irene Zhang",
+        "Dan R. K. Ports",
+        "Doug Woos",
+        "Arvind Krishnamurthy",
+        "Thomas E. Anderson",
+        "Timothy Roscoe"
+      ],
+      "pages": "1-16",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PeterLZPWKAR14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PeterLZPWKAR14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/peter"
+      ]
+    },
+    {
+      "title": "Characterizing Storage Workloads with Counter Stacks",
+      "authors": [
+        "Jake Wires",
+        "Stephen Ingram",
+        "Zachary Drudi",
+        "Nicholas J. A. Harvey",
+        "Andrew Warfield"
+      ],
+      "pages": "335-349",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WiresIDHW14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WiresIDHW14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/wires"
+      ]
+    },
+    {
+      "title": "Code-Pointer Integrity",
+      "authors": [
+        "Volodymyr Kuznetsov",
+        "Laszlo Szekeres",
+        "Mathias Payer",
+        "George Candea",
+        "R. Sekar 0001",
+        "Dawn Song"
+      ],
+      "pages": "147-163",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KuznetsovSPCSS14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KuznetsovSPCSS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/kuznetsov"
+      ]
+    },
+    {
+      "title": "Compression and SSDs: Where and How?",
+      "authors": [
+        "Aviad Zuck",
+        "Sivan Toledo",
+        "Dmitry Sotnikov",
+        "Danny Harnik"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZuckTSH14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZuckTSH14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inflow14/workshop-program/presentation/zuck"
+      ]
+    },
+    {
+      "title": "Cosh: Clear OS Data Sharing In An Incoherent World",
+      "authors": [
+        "Andrew Baumann",
+        "Chris Hawblitzel",
+        "Kornilios Kourtis",
+        "Tim Harris 0001",
+        "Timothy Roscoe"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BaumannHKHR14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BaumannHKHR14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/trios14/technical-sessions/presentation/baumann"
+      ]
+    },
+    {
+      "title": "Customizable and Extensible Deployment for Mobile/Cloud Applications",
+      "authors": [
+        "Irene Zhang",
+        "Adriana Szekeres",
+        "Dana Van Aken",
+        "Isaac Ackerman",
+        "Steven D. Gribble",
+        "Arvind Krishnamurthy",
+        "Henry M. Levy"
+      ],
+      "pages": "97-112",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhangSAAGKL14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhangSAAGKL14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/zhang"
+      ]
+    },
+    {
+      "title": "Custos: Increasing Security with Secret Storage as a Service",
+      "authors": [
+        "Andy Sayler",
+        "Dirk Grunwald"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SaylerG14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SaylerG14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/trios14/technical-sessions/presentation/sayler"
+      ]
+    },
+    {
+      "title": "Decoupling Cores, Kernels, and Operating Systems",
+      "authors": [
+        "Gerd Zellweger",
+        "Simon Gerber",
+        "Kornilios Kourtis",
+        "Timothy Roscoe"
+      ],
+      "pages": "17-31",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZellwegerGKR14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZellwegerGKR14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/zellweger"
+      ]
+    },
+    {
+      "title": "Detecting Covert Timing Channels with Time-Deterministic Replay",
+      "authors": [
+        "Ang Chen 0001",
+        "W. Brad Moore",
+        "Hanjun Xiao",
+        "Andreas Haeberlen",
+        "Linh Thi Xuan Phan",
+        "Micah Sherr",
+        "Wenchao Zhou"
+      ],
+      "pages": "541-554",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChenMXHPSZ14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChenMXHPSZ14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chen_ang"
+      ]
+    },
+    {
+      "title": "Don't Stack Your Log On My Log",
+      "authors": [
+        "Jingpei Yang",
+        "Ned Plasson",
+        "Greg Gillis",
+        "Nisha Talagala",
+        "Swaminathan Sundararaman"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YangPGTS14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YangPGTS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inflow14/workshop-program/presentation/yang"
+      ]
+    },
+    {
+      "title": "Eidetic Systems",
+      "authors": [
+        "David Devecsery",
+        "Michael Chow",
+        "Xianzheng Dou",
+        "Jason Flinn",
+        "Peter M. Chen"
+      ],
+      "pages": "525-540",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DevecseryCDFC14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DevecseryCDFC14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/devecsery"
+      ]
+    },
+    {
+      "title": "End-to-end Performance Isolation Through Virtual Datacenters",
+      "authors": [
+        "Sebastian Angel",
+        "Hitesh Ballani",
+        "Thomas Karagiannis",
+        "Greg O'Shea",
+        "Eno Thereska"
+      ],
+      "pages": "233-248",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AngelBKOT14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AngelBKOT14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/angel"
+      ]
+    },
+    {
+      "title": "EqualChance: Addressing Intra-set Write Variation to Increase Lifetime of Non-volatile Caches",
+      "authors": [
+        "Sparsh Mittal",
+        "Jeffrey S. Vetter"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MittalV14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MittalV14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inflow14/workshop-program/presentation/mittal"
+      ]
+    },
+    {
+      "title": "Erasure Coding & Read/Write Separation in Flash Storage",
+      "authors": [
+        "Dimitris Skourtis",
+        "Dimitris Achlioptas",
+        "Noah Watkins",
+        "Carlos Maltzahn",
+        "Scott A. Brandt"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SkourtisAWMB14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SkourtisAWMB14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inflow14/workshop-program/presentation/skourtis"
+      ]
+    },
+    {
+      "title": "Extracting More Concurrency from Distributed Transactions",
+      "authors": [
+        "Shuai Mu 0001",
+        "Yang Cui",
+        "Yang Zhang",
+        "Wyatt Lloyd",
+        "Jinyang Li 0001"
+      ],
+      "pages": "479-494",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MuCZLL14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MuCZLL14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/mu"
+      ]
+    },
+    {
+      "title": "f4: Facebook's Warm BLOB Storage System",
+      "authors": [
+        "Muralidhar Subramanian",
+        "Wyatt Lloyd",
+        "Sabyasachi Roy",
+        "Cory Hill",
+        "Ernest Lin",
+        "Weiwen Liu",
+        "Satadru Pan",
+        "Shiva Shankar",
+        "Sivakumar Viswanathan",
+        "Linpeng Tang",
+        "Sanjeev Kumar"
+      ],
+      "pages": "383-398",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SubramanianLRHLLPSVTK14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SubramanianLRHLLPSVTK14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/muralidhar"
+      ]
+    },
+    {
+      "title": "Fast Databases with Fast Durability and Recovery Through Multicore Parallelism",
+      "authors": [
+        "Wenting Zheng",
+        "Stephen Tu",
+        "Eddie Kohler",
+        "Barbara Liskov"
+      ],
+      "pages": "465-477",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhengTKL14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhengTKL14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/zheng_wenting"
+      ]
+    },
+    {
+      "title": "Fractured Processes: Adaptive, Fine-Grained Process Abstractions",
+      "authors": [
+        "Thanumalayan Sankaranarayana Pillai",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PillaiAA14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PillaiAA14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/trios14/technical-sessions/presentation/pillai"
+      ]
+    },
+    {
+      "title": "From Feast to Famine: Managing Mobile Network Resources Across Environments and Preferences",
+      "authors": [
+        "Robert Kiefer",
+        "Erik Nordstr&ouml;m",
+        "Michael J. Freedman"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KieferNF14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KieferNF14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/trios14/technical-sessions/presentation/kiefer"
+      ]
+    },
+    {
+      "title": "GPUnet: Networking Abstractions for GPU Programs",
+      "authors": [
+        "Sangman Kim",
+        "Seonggu Huh",
+        "Xinya Zhang",
+        "Yige Hu",
+        "Amir Wated",
+        "Emmett Witchel",
+        "Mark Silberstein"
+      ],
+      "pages": "201-216",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KimHZHWWS14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KimHZHWWS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/kim"
+      ]
+    },
+    {
+      "title": "GraphX: Graph Processing in a Distributed Dataflow Framework",
+      "authors": [
+        "Joseph E. Gonzalez",
+        "Reynold S. Xin",
+        "Ankur Dave",
+        "Daniel Crankshaw",
+        "Michael J. Franklin",
+        "Ion Stoica"
+      ],
+      "pages": "599-613",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GonzalezXDCFS14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GonzalezXDCFS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/gonzalez"
+      ]
+    },
+    {
+      "title": "Heading Off Correlated Failures through Independence-as-a-Service",
+      "authors": [
+        "Ennan Zhai",
+        "Ruichuan Chen",
+        "David Isaac Wolinsky",
+        "Bryan Ford"
+      ],
+      "pages": "317-334",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhaiCWF14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhaiCWF14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/zhai"
+      ]
+    },
+    {
+      "title": "How Could a Flash Cache Degrade Database Performance Rather Than Improve It? Lessons to be Learnt from Multi-Tiered Storage",
+      "authors": [
+        "Hyojun Kim",
+        "Ioannis Koltsidas",
+        "Nikolas Ioannou",
+        "Sangeetha Seshadri",
+        "Paul Muench",
+        "Clement L. Dickey",
+        "Lawrence Chiu"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KimKISMDC14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KimKISMDC14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inflow14/workshop-program/presentation/kim"
+      ]
+    },
+    {
+      "title": "Identifying Information Disclosure in Web Applications with Retroactive Auditing",
+      "authors": [
+        "Haogang Chen 0001",
+        "Taesoo Kim",
+        "Xi Wang 0005",
+        "Nickolai Zeldovich",
+        "M. Frans Kaashoek"
+      ],
+      "pages": "555-569",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChenKWZK14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChenKWZK14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chen_haogang"
+      ]
+    },
+    {
+      "title": "Ironclad Apps: End-to-End Security via Automated Full-System Verification",
+      "authors": [
+        "Chris Hawblitzel",
+        "Jon Howell",
+        "Jacob R. Lorch",
+        "Arjun Narayan",
+        "Bryan Parno",
+        "Danfeng Zhang",
+        "Brian Zill"
+      ],
+      "pages": "165-181",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HawblitzelHLNPZZ14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HawblitzelHLNPZZ14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/hawblitzel"
+      ]
+    },
+    {
+      "title": "IX: A Protected Dataplane Operating System for High Throughput and Low Latency",
+      "authors": [
+        "Adam Belay",
+        "George Prekas",
+        "Ana Klimovic",
+        "Samuel Grossman",
+        "Christos Kozyrakis",
+        "Edouard Bugnion"
+      ],
+      "pages": "49-65",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BelayPKGKB14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BelayPKGKB14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/belay"
+      ]
+    },
+    {
+      "title": "Jitk: A Trustworthy In-Kernel Interpreter Infrastructure",
+      "authors": [
+        "Xi Wang 0005",
+        "David Lazar",
+        "Nickolai Zeldovich",
+        "Adam Chlipala",
+        "Zachary Tatlock"
+      ],
+      "pages": "33-47",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangLZCT14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangLZCT14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/wang_xi"
+      ]
+    },
+    {
+      "title": "Leo: A Profile-Driven Dynamic Optimization Framework for GPU Applications",
+      "authors": [
+        "Naila Farooqui",
+        "Christopher J. Rossbach",
+        "Yuan Yu",
+        "Karsten Schwan"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FarooquiRYS14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FarooquiRYS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/trios14/technical-sessions/presentation/farooqui"
+      ]
+    },
+    {
+      "title": "Lightning in the Cloud: A Study of Transient Bottlenecks on n-Tier Web Application Performance",
+      "authors": [
+        "Qingyang Wang 0001",
+        "Yasuhiko Kanemasa",
+        "Jack Li 0001",
+        "Chien-An Lai",
+        "Chien-An Cho",
+        "Yuji Nomura",
+        "Calton Pu"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangKLLCNP14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangKLLCNP14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/trios14/technical-sessions/presentation/wang"
+      ]
+    },
+    {
+      "title": "lprof: A Non-intrusive Request Flow Profiler for Distributed Systems",
+      "authors": [
+        "Xu Zhao 0004",
+        "Yongle Zhang 0007",
+        "David Lion",
+        "Muhammad Faizan Ullah",
+        "Yu Luo 0006",
+        "Ding Yuan 0004",
+        "Michael Stumm"
+      ],
+      "pages": "629-644",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhaoZLULYS14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhaoZLULYS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/zhao"
+      ]
+    },
+    {
+      "title": "Managing NymBoxes for Identity and Tracking Protection",
+      "authors": [
+        "David Isaac Wolinsky",
+        "Daniel Jackowitz",
+        "Bryan Ford"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WolinskyJF14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WolinskyJF14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/trios14/technical-sessions/presentation/wolinsky"
+      ]
+    },
+    {
+      "title": "MLB: A Memory-aware Load Balancing for Mitigating Memory Contention",
+      "authors": [
+        "Dongyou Seo",
+        "Hyeonsang Eom",
+        "Heon Y. Yeom"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SeoEY14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SeoEY14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/trios14/technical-sessions/presentation/seo"
+      ]
+    },
+    {
+      "title": "Nail: A Practical Tool for Parsing and Generating Data Formats",
+      "authors": [
+        "Julian Bangert",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "615-628",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BangertZ14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BangertZ14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/bangert"
+      ]
+    },
+    {
+      "title": "NVM Compression - Hybrid Flash-Aware Application Level Compression",
+      "authors": [
+        "Dhananjoy Das",
+        "Dulcardo Arteaga",
+        "Nisha Talagala",
+        "Torben Mathiasen",
+        "Jan Lindstr&ouml;m"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DasATML14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DasATML14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/inflow14/workshop-program/presentation/das"
+      ]
+    },
+    {
+      "title": "On Sockets and System Calls: Minimizing Context Switches for the Socket API",
+      "authors": [
+        "Tom&aacute;s Hrub&yacute;",
+        "Teodor Crivat",
+        "Herbert Bos",
+        "Andrew S. Tanenbaum"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HrubyCBT14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HrubyCBT14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/trios14/technical-sessions/presentation/hruby"
+      ]
+    },
+    {
+      "title": "Pebbles: Fine-Grained Data Management Abstractions for Modern Operating Systems",
+      "authors": [
+        "Riley Spahn",
+        "Jonathan Bell 0001",
+        "Michael Lee",
+        "Sravan Bhamidipati",
+        "Roxana Geambasu",
+        "Gail E. Kaiser"
+      ],
+      "pages": "113-129",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SpahnBLBGK14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SpahnBLBGK14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/spahn"
+      ]
+    },
+    {
+      "title": "Pelican: A Building Block for Exascale Cold Data Storage",
+      "authors": [
+        "Shobana Balakrishnan",
+        "Richard Black",
+        "Austin Donnelly",
+        "Paul England",
+        "Adam Glass",
+        "David Harper",
+        "Sergey Legtchenko",
+        "Aaron Ogus",
+        "Eric Peterson",
+        "Antony I. T. Rowstron"
+      ],
+      "pages": "351-365",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BalakrishnanBDEGHLOPR14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BalakrishnanBDEGHLOPR14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/balakrishnan"
+      ]
+    },
+    {
+      "title": "Phase Reconciliation for Contended In-Memory Transactions",
+      "authors": [
+        "Neha Narula",
+        "Cody Cutler",
+        "Eddie Kohler",
+        "Robert Morris 0005"
+      ],
+      "pages": "511-524",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/NarulaCKM14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/NarulaCKM14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/narula"
+      ]
+    },
+    {
+      "title": "Physical Disentanglement in a Container-Based File System",
+      "authors": [
+        "Lanyue Lu",
+        "Yupu Zhang",
+        "Thanh Do",
+        "Samer Al-Kiswany",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "81-96",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LuZDAAA14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LuZDAAA14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/lu"
+      ]
+    },
+    {
+      "title": "Proactive Energy-Aware Programming with PEEK",
+      "authors": [
+        "Timo H&ouml;nig",
+        "Heiko Janker",
+        "Christopher Eibel",
+        "Oliver Mihelic",
+        "R&uuml;diger Kapitza"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HonigJEMK14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HonigJEMK14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/trios14/technical-sessions/presentation/hoenig"
+      ]
+    },
+    {
+      "title": "Project Adam: Building an Efficient and Scalable Deep Learning Training System",
+      "authors": [
+        "Trishul M. Chilimbi",
+        "Yutaka Suzue",
+        "Johnson Apacible",
+        "Karthik Kalyanaraman"
+      ],
+      "pages": "571-582",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChilimbiSAK14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChilimbiSAK14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chilimbi"
+      ]
+    },
+    {
+      "title": "Protecting Users by Confining JavaScript with COWL",
+      "authors": [
+        "Deian Stefan",
+        "Edward Z. Yang",
+        "Petr Marchenko",
+        "Alejandro Russo",
+        "David Herman",
+        "Brad Karp",
+        "David Mazi&egrave;res"
+      ],
+      "pages": "131-146",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/StefanYMRHKM14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/StefanYMRHKM14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/stefan"
+      ]
+    },
+    {
+      "title": "Pydron: Semi-Automatic Parallelization for Multi-Core and the Cloud",
+      "authors": [
+        "Stefan C. M&uuml;ller",
+        "Gustavo Alonso",
+        "Adam Amara",
+        "Andr&eacute; Csillaghy"
+      ],
+      "pages": "645-659",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MullerAAC14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MullerAAC14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/muller"
+      ]
+    },
+    {
+      "title": "Salt: Combining ACID and BASE in a Distributed Database",
+      "authors": [
+        "Chao Xie",
+        "Chunzhi Su",
+        "Manos Kapritsos",
+        "Yang Wang 0009",
+        "Navid Yaghmazadeh",
+        "Lorenzo Alvisi",
+        "Prince Mahajan"
+      ],
+      "pages": "495-509",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/XieSK0YAM14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/XieSK0YAM14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/xie"
+      ]
+    },
+    {
+      "title": "SAMC: Semantic-Aware Model Checking for Fast Discovery of Deep Bugs in Cloud Systems",
+      "authors": [
+        "Tanakorn Leesatapornwongsa",
+        "Mingzhe Hao",
+        "Pallavi Joshi",
+        "Jeffrey F. Lukman",
+        "Haryadi S. Gunawi"
+      ],
+      "pages": "399-414",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LeesatapornwongsaHJLG14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LeesatapornwongsaHJLG14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/leesatapornwongsa"
+      ]
+    },
+    {
+      "title": "Scaling Distributed Machine Learning with the Parameter Server",
+      "authors": [
+        "Mu Li 0003",
+        "David G. Andersen",
+        "Jun Woo Park",
+        "Alexander J. Smola",
+        "Amr Ahmed 0001",
+        "Vanja Josifovski",
+        "James Long",
+        "Eugene J. Shekita",
+        "Bor-Yiing Su"
+      ],
+      "pages": "583-598",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiAPSAJLSS14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiAPSAJLSS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/li_mu"
+      ]
+    },
+    {
+      "title": "Shielding Applications from an Untrusted Cloud with Haven",
+      "authors": [
+        "Andrew Baumann",
+        "Marcus Peinado",
+        "Galen C. Hunt"
+      ],
+      "pages": "267-283",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BaumannPH14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BaumannPH14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/baumann"
+      ]
+    },
+    {
+      "title": "SHILL: A Secure Shell Scripting Language",
+      "authors": [
+        "Scott Moore 0001",
+        "Christos Dimoulas",
+        "Dan King",
+        "Stephen Chong"
+      ],
+      "pages": "183-199",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MooreDKC14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MooreDKC14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/moore"
+      ]
+    },
+    {
+      "title": "Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems",
+      "authors": [
+        "Ding Yuan 0004",
+        "Yu Luo 0006",
+        "Xin Zhuang",
+        "Guilherme Renna Rodrigues",
+        "Xu Zhao 0004",
+        "Yongle Zhang 0007",
+        "Pranay Jain",
+        "Michael Stumm"
+      ],
+      "pages": "249-265",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YuanLZRZZJS14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YuanLZRZZJS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan"
+      ]
+    },
+    {
+      "title": "SKI: Exposing Kernel Concurrency Bugs through Systematic Schedule Exploration",
+      "authors": [
+        "Pedro Fonseca 0001",
+        "Rodrigo Rodrigues 0001",
+        "Bj&ouml;rn B. Brandenburg"
+      ],
+      "pages": "415-431",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/0001RB14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/0001RB14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/fonseca"
+      ]
+    },
+    {
+      "title": "The Mystery Machine: End-to-end Performance Analysis of Large-scale Internet Services",
+      "authors": [
+        "Michael Chow",
+        "David Meisner",
+        "Jason Flinn",
+        "Daniel Peek",
+        "Thomas F. Wenisch"
+      ],
+      "pages": "217-231",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChowMFPW14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChowMFPW14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chow"
+      ]
+    },
+    {
+      "title": "The Power of Choice in Data-Aware Cluster Scheduling",
+      "authors": [
+        "Shivaram Venkataraman",
+        "Aurojit Panda",
+        "Ganesh Ananthanarayanan",
+        "Michael J. Franklin",
+        "Ion Stoica"
+      ],
+      "pages": "301-316",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/VenkataramanPAFS14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/VenkataramanPAFS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/venkataraman"
+      ]
+    },
+    {
+      "title": "Torturing Databases for Fun and Profit",
+      "authors": [
+        "Mai Zheng",
+        "Joseph A. Tucek",
+        "Dachuan Huang",
+        "Feng Qin",
+        "Mark Lillibridge",
+        "Elizabeth S. Yang",
+        "Bill W. Zhao",
+        "Shashank Singh 0003"
+      ],
+      "pages": "449-464",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhengTHQLYZS14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhengTHQLYZS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/zheng_mai"
+      ]
+    },
+    {
+      "title": "User-Guided Device Driver Synthesis",
+      "authors": [
+        "Leonid Ryzhyk",
+        "Adam Walker",
+        "John Keys",
+        "Alexander Legg",
+        "Arun Raghunath",
+        "Michael Stumm",
+        "Mona Vij"
+      ],
+      "pages": "661-676",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/RyzhykWKLRSV14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/RyzhykWKLRSV14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/ryzhyk"
+      ]
+    },
+    {
+      "title": "Willow: A User-Programmable SSD",
+      "authors": [
+        "Sudharsan Seshadri",
+        "Mark Gahagan",
+        "Meenakshi Sundaram Bhaskaran",
+        "Trevor Bunker",
+        "Arup De",
+        "Yanqin Jin",
+        "Yang Liu 0044",
+        "Steven Swanson"
+      ],
+      "pages": "67-80",
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SeshadriGBBDJLS14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SeshadriGBBDJLS14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi14/technical-sessions/presentation/seshadri"
+      ]
+    },
+    {
+      "title": "Working Set Model for Multithreaded Programs",
+      "authors": [
+        "Kishore Kumar Pusukuri"
+      ],
+      "pages": null,
+      "year": "2014",
+      "venue": "OSDI 2014",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Pusukuri14",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Pusukuri14.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/trios14/technical-sessions/presentation/pusukuri"
+      ]
+    }
+  ]
+}

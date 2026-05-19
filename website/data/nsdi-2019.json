@@ -1,0 +1,997 @@
+{
+  "id": "nsdi-2019",
+  "venue": "nsdi",
+  "year": 2019,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2019.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2019.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2019",
+    "conf/nsdi/2019-1",
+    "conf/nsdi/2019-2",
+    "conf/nsdi/2019-3",
+    "conf/nsdi/2019-4",
+    "conf/nsdi/2019-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 49,
+  "display_count": 49,
+  "papers": [
+    {
+      "title": "3D Backscatter Localization for Fine-Grained Robotics",
+      "authors": [
+        "Zhihong Luo",
+        "Qiping Zhang",
+        "Yunfei Ma",
+        "Manish Singh",
+        "Fadel Adib"
+      ],
+      "pages": "765-782",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LuoZMSA19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LuoZMSA19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/luo"
+      ]
+    },
+    {
+      "title": "Alembic: Automated Model Inference for Stateful Network Functions",
+      "authors": [
+        "Soo-Jin Moon",
+        "Jeffrey Helt",
+        "Yifei Yuan",
+        "Yves Bieri",
+        "Sujata Banerjee",
+        "Vyas Sekar",
+        "Wenfei Wu",
+        "Mihalis Yannakakis",
+        "Ying Zhang 0022"
+      ],
+      "pages": "699-718",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MoonHYBBSWYZ19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MoonHYBBSWYZ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/moon"
+      ]
+    },
+    {
+      "title": "BLAS-on-flash: An Efficient Alternative for Large Scale ML Training and Inference?",
+      "authors": [
+        "Suhas Jayaram Subramanya",
+        "Harsha Vardhan Simhadri",
+        "Srajan Garg",
+        "Anil Kag",
+        "Venkatesh Balasubramanian"
+      ],
+      "pages": "469-484",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SubramanyaSGKB19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SubramanyaSGKB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/subramanya"
+      ]
+    },
+    {
+      "title": "Blink: Fast Connectivity Recovery Entirely in the Data Plane",
+      "authors": [
+        "Thomas Holterbach",
+        "Edgar Costa Molero",
+        "Maria Apostolaki",
+        "Alberto Dainotti",
+        "Stefano Vissicchio",
+        "Laurent Vanbever"
+      ],
+      "pages": "161-176",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HolterbachMADVV19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HolterbachMADVV19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/holterbach"
+      ]
+    },
+    {
+      "title": "CAUDIT: Continuous Auditing of SSH Servers To Mitigate Brute-Force Attacks",
+      "authors": [
+        "Phuong Cao",
+        "Yuming Wu",
+        "Subho S. Banerjee",
+        "Justin Azoff",
+        "Alexander Withers",
+        "Zbigniew T. Kalbarczyk",
+        "Ravishankar K. Iyer"
+      ],
+      "pages": "667-682",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CaoWBAWKI19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CaoWBAWKI19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/cao"
+      ]
+    },
+    {
+      "title": "Confluo: Distributed Monitoring and Diagnosis Stack for High-speed Networks",
+      "authors": [
+        "Anurag Khandelwal",
+        "Rachit Agarwal 0001",
+        "Ion Stoica"
+      ],
+      "pages": "421-436",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Khandelwal0S19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Khandelwal0S19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/khandelwal"
+      ]
+    },
+    {
+      "title": "Correctness and Performance for Stateful Chained Network Functions",
+      "authors": [
+        "Junaid Khalid",
+        "Aditya Akella"
+      ],
+      "pages": "501-516",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KhalidA19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KhalidA19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/khalid"
+      ]
+    },
+    {
+      "title": "Datacenter RPCs can be General and Fast",
+      "authors": [
+        "Anuj Kalia",
+        "Michael Kaminsky",
+        "David G. Andersen"
+      ],
+      "pages": "1-16",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KaliaKA19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KaliaKA19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/kalia"
+      ]
+    },
+    {
+      "title": "Dataplane equivalence and its applications",
+      "authors": [
+        "Dragos Dumitrescu",
+        "Radu Stoenescu",
+        "Matei Popovici",
+        "Lorina Negreanu",
+        "Costin Raiciu"
+      ],
+      "pages": "683-698",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DumitrescuSPNR19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DumitrescuSPNR19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/dumitrescu"
+      ]
+    },
+    {
+      "title": "Deniable Upload and Download via Passive Participation",
+      "authors": [
+        "David M. Sommer 0001",
+        "Aritra Dhar",
+        "Luka Malisa",
+        "Esfandiar Mohammadi",
+        "Daniel Ronzani",
+        "Srdjan Capkun"
+      ],
+      "pages": "649-666",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SommerDMMRC19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SommerDMMRC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/sommer"
+      ]
+    },
+    {
+      "title": "DETER: Deterministic TCP Replay for Performance Diagnosis",
+      "authors": [
+        "Yuliang Li",
+        "Rui Miao 0001",
+        "Mohammad Alizadeh",
+        "Minlan Yu"
+      ],
+      "pages": "437-452",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiMAY19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiMAY19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/li-yuliang"
+      ]
+    },
+    {
+      "title": "Direct Universal Access: Making Data Center Resources Available to FPGA",
+      "authors": [
+        "Ran Shu 0001",
+        "Peng Cheng 0005",
+        "Guo Chen 0001",
+        "Zhiyuan Guo",
+        "Lei Qu",
+        "Yongqiang Xiong",
+        "Derek Chiou",
+        "Thomas Moscibroda"
+      ],
+      "pages": "127-140",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Shu0CGQXCM19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Shu0CGQXCM19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/shu"
+      ]
+    },
+    {
+      "title": "dShark: A General, Easy to Program and Scalable Framework for Analyzing In-network Packet Traces",
+      "authors": [
+        "Da Yu",
+        "Yibo Zhu",
+        "Behnaz Arzani",
+        "Rodrigo Fonseca",
+        "Tianrong Zhang",
+        "Karl Deng",
+        "Lihua Yuan"
+      ],
+      "pages": "207-220",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YuZAFZDY19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YuZAFZDY19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/yu"
+      ]
+    },
+    {
+      "title": "Eiffel: Efficient and Flexible Software Packet Scheduling",
+      "authors": [
+        "Ahmed Saeed 0001",
+        "Yimeng Zhao",
+        "Nandita Dukkipati",
+        "Ellen W. Zegura",
+        "Mostafa H. Ammar",
+        "Khaled Harras",
+        "Amin Vahdat"
+      ],
+      "pages": "17-32",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0001ZDZAHV19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0001ZDZAHV19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/saeed"
+      ]
+    },
+    {
+      "title": "End-to-end I/O Monitoring on a Leading Supercomputer",
+      "authors": [
+        "Bin Yang 0043",
+        "Xu Ji",
+        "Xiaosong Ma",
+        "Xiyang Wang 0003",
+        "Tianyu Zhang",
+        "Xiupeng Zhu",
+        "Nosayba El-Sayed",
+        "Haidong Lan",
+        "Yibo Yang",
+        "Jidong Zhai",
+        "Weiguo Liu",
+        "Wei Xue 0003"
+      ],
+      "pages": "379-394",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YangJMWZZELYZLX19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YangJMWZZELYZLX19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/yang"
+      ]
+    },
+    {
+      "title": "Exploiting Commutativity For Practical Fast Replication",
+      "authors": [
+        "Seo Jin Park",
+        "John K. Ousterhout"
+      ],
+      "pages": "47-64",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ParkO19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ParkO19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/park"
+      ]
+    },
+    {
+      "title": "Flashield: a Hybrid Key-value Cache that Controls Flash Write Amplification",
+      "authors": [
+        "Assaf Eisenman",
+        "Asaf Cidon",
+        "Evgenya Pergament",
+        "Or Haimovich",
+        "Ryan Stutsman",
+        "Mohammad Alizadeh",
+        "Sachin Katti"
+      ],
+      "pages": "65-78",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/EisenmanCPHSAK19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/EisenmanCPHSAK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/eisenman"
+      ]
+    },
+    {
+      "title": "FlowBlaze: Stateful Packet Processing in Hardware",
+      "authors": [
+        "Salvatore Pontarelli",
+        "Roberto Bifulco",
+        "Marco Bonola",
+        "Carmelo Cascone",
+        "Marco Spaziani Brunella",
+        "Valerio Bruschi",
+        "Davide Sanvito",
+        "Giuseppe Siracusano",
+        "Antonio Capone",
+        "Michio Honda",
+        "Felipe Huici"
+      ],
+      "pages": "531-548",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PontarelliBBCSB19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PontarelliBBCSB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/pontarelli"
+      ]
+    },
+    {
+      "title": "FreeFlow: Software-based Virtual RDMA Networking for Containerized Clouds",
+      "authors": [
+        "Daehyeok Kim",
+        "Tianlong Yu",
+        "Hongqiang Harry Liu",
+        "Yibo Zhu 0001",
+        "Jitu Padhye",
+        "Shachar Raindel",
+        "Chuanxiong Guo",
+        "Vyas Sekar",
+        "Srinivasan Seshan"
+      ],
+      "pages": "113-126",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KimYLZPRGSS19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KimYLZPRGSS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/kim"
+      ]
+    },
+    {
+      "title": "Hydra: a federated resource manager for data-center scale analytics",
+      "authors": [
+        "Carlo Curino",
+        "Subru Krishnan",
+        "Konstantinos Karanasos",
+        "Sriram Rao",
+        "Giovanni Matteo Fumarola",
+        "Botong Huang",
+        "Kishore Chaliparambil",
+        "Arun Suresh",
+        "Young Chen",
+        "Solom Heddaya",
+        "Roni Burd",
+        "Sarvesh Sakalanaga",
+        "Chris Douglas",
+        "Bill Ramsey",
+        "Raghu Ramakrishnan 0001"
+      ],
+      "pages": "177-192",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CurinoKKRFHCSCH19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CurinoKKRFHCSCH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/curino"
+      ]
+    },
+    {
+      "title": "Hyperscan: A Fast Multi-pattern Regex Matcher for Modern CPUs",
+      "authors": [
+        "Xiang Wang",
+        "Yang Hong",
+        "Harry Chang",
+        "KyoungSoo Park",
+        "Geoff Langdale",
+        "Jiayu Hu",
+        "Heqing Zhu"
+      ],
+      "pages": "631-648",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangHCPLHZ19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangHCPLHZ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/wang-xiang"
+      ]
+    },
+    {
+      "title": "Is advance knowledge of flow sizes a plausible assumption?",
+      "authors": [
+        "Vojislav Dukic",
+        "Sangeetha Abdu Jyothi",
+        "Bojan Karlas",
+        "Muhsen Owaida",
+        "Ce Zhang 0001",
+        "Ankit Singla"
+      ],
+      "pages": "565-580",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DukicJKOZS19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DukicJKOZS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/dukic"
+      ]
+    },
+    {
+      "title": "JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs",
+      "authors": [
+        "Eunji Jeong",
+        "Sungwoo Cho",
+        "Gyeong-In Yu",
+        "Joo Seong Jeong",
+        "Dongjin Shin",
+        "Byung-Gon Chun"
+      ],
+      "pages": "453-468",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JeongCYJSC19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JeongCYJSC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/jeong"
+      ]
+    },
+    {
+      "title": "Loom: Flexible and Efficient NIC Packet Scheduling",
+      "authors": [
+        "Brent E. Stephens",
+        "Aditya Akella",
+        "Michael M. Swift"
+      ],
+      "pages": "33-46",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/StephensAS19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/StephensAS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/stephens"
+      ]
+    },
+    {
+      "title": "Many-to-Many Beam Alignment in Millimeter Wave Networks",
+      "authors": [
+        "Suraj Jog",
+        "Jiaming Wang 0003",
+        "Junfeng Guan",
+        "Thomas Moon",
+        "Haitham Hassanieh",
+        "Romit Roy Choudhury"
+      ],
+      "pages": "783-800",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JogWGMHC19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JogWGMHC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/jog"
+      ]
+    },
+    {
+      "title": "Minimal Rewiring: Efficient Live Expansion for Clos Data Center Networks",
+      "authors": [
+        "Shizhen Zhao",
+        "Rui Wang 0025",
+        "Junlan Zhou",
+        "Joon Ong",
+        "Jeffrey C. Mogul",
+        "Amin Vahdat"
+      ],
+      "pages": "221-234",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhaoWZOMV19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhaoWZOMV19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/zhao"
+      ]
+    },
+    {
+      "title": "Model-Agnostic and Efficient Exploration of Numerical State Space of Real-World TCP Congestion Control Implementations",
+      "authors": [
+        "Wei Sun 0044",
+        "Lisong Xu",
+        "Sebastian G. Elbaum",
+        "Di Zhao"
+      ],
+      "pages": "719-734",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SunXEZ19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SunXEZ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/sun"
+      ]
+    },
+    {
+      "title": "Monoxide: Scale out Blockchains with Asynchronous Consensus Zones",
+      "authors": [
+        "Jiaping Wang",
+        "Hao Wang"
+      ],
+      "pages": "95-112",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangW19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/wang-jiaping"
+      ]
+    },
+    {
+      "title": "NetBouncer: Active Device and Link Failure Localization in Data Center Networks",
+      "authors": [
+        "Cheng Tan 0005",
+        "Ze Jin",
+        "Chuanxiong Guo",
+        "Tianrong Zhang",
+        "Haitao Wu",
+        "Karl Deng",
+        "Dongming Bi",
+        "Dong Xiang"
+      ],
+      "pages": "599-614",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/TanJGZWDBX19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/TanJGZWDBX19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/tan"
+      ]
+    },
+    {
+      "title": "NetScatter: Enabling Large-Scale Backscatter Networks",
+      "authors": [
+        "Mehrdad Hessar",
+        "Ali Najafi",
+        "Shyamnath Gollakota"
+      ],
+      "pages": "271-284",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HessarNG19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HessarNG19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/hessar"
+      ]
+    },
+    {
+      "title": "Performance Contracts for Software Network Functions",
+      "authors": [
+        "Rishabh R. Iyer",
+        "Luis Pedrosa",
+        "Arseniy Zaostrovnykh",
+        "Solal Pirelli",
+        "Katerina J. Argyraki",
+        "George Candea"
+      ],
+      "pages": "517-530",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/IyerPZPAC19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/IyerPZPAC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/iyer"
+      ]
+    },
+    {
+      "title": "Pushing the Range Limits of Commercial Passive RFIDs",
+      "authors": [
+        "Jingxian Wang",
+        "Junbo Zhang 0001",
+        "Rajarshi Saha",
+        "Haojian Jin",
+        "Swarun Kumar"
+      ],
+      "pages": "301-316",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangZSJK19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangZSJK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/wangjingxian"
+      ]
+    },
+    {
+      "title": "Riverbed: Enforcing User-defined Privacy Constraints in Distributed Web Services",
+      "authors": [
+        "Frank Wang",
+        "Ronny Ko",
+        "James Mickens"
+      ],
+      "pages": "615-630",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangKM19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangKM19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/wang-frank"
+      ]
+    },
+    {
+      "title": "Scaling Community Cellular Networks with CommunityCellularManager",
+      "authors": [
+        "Shaddi Hasan",
+        "Mary Claire Barela",
+        "Matthew Johnson 0011",
+        "Eric A. Brewer",
+        "Kurtis Heimerl"
+      ],
+      "pages": "735-750",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HasanBJBH19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HasanBJBH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/hasan"
+      ]
+    },
+    {
+      "title": "Shenango: Achieving High CPU Efficiency for Latency-sensitive Datacenter Workloads",
+      "authors": [
+        "Amy Ousterhout",
+        "Joshua Fried",
+        "Jonathan Behrens",
+        "Adam Belay",
+        "Hari Balakrishnan"
+      ],
+      "pages": "361-378",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/OusterhoutFBBB19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/OusterhoutFBBB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/ousterhout"
+      ]
+    },
+    {
+      "title": "Shinjuku: Preemptive Scheduling for μsecond-scale Tail Latency",
+      "authors": [
+        "Kostis Kaffes",
+        "Timothy Chong",
+        "Jack Tigar Humphries",
+        "Adam Belay",
+        "David Mazi&egrave;res",
+        "Christos Kozyrakis"
+      ],
+      "pages": "345-360",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KaffesCHBMK19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KaffesCHBMK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/kaffes"
+      ]
+    },
+    {
+      "title": "Shoal: A Network Architecture for Disaggregated Racks",
+      "authors": [
+        "Vishal Shrivastav",
+        "Asaf Valadarsky",
+        "Hitesh Ballani",
+        "Paolo Costa",
+        "Ki Suh Lee",
+        "Han Wang 0009",
+        "Rachit Agarwal 0001",
+        "Hakim Weatherspoon"
+      ],
+      "pages": "255-270",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShrivastavVBCLW19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShrivastavVBCLW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/shrivastav"
+      ]
+    },
+    {
+      "title": "Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure",
+      "authors": [
+        "Qifan Pu",
+        "Shivaram Venkataraman",
+        "Ion Stoica"
+      ],
+      "pages": "193-206",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PuVS19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PuVS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/pu"
+      ]
+    },
+    {
+      "title": "SIMON: A Simple and Scalable Method for Sensing, Inference and Measurement in Data Center Networks",
+      "authors": [
+        "Yilong Geng",
+        "Shiyu Liu",
+        "Zi Yin",
+        "Ashish Naik",
+        "Balaji Prabhakar",
+        "Mendel Rosenblum",
+        "Amin Vahdat"
+      ],
+      "pages": "549-564",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GengLYNPRV19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GengLYNPRV19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/geng"
+      ]
+    },
+    {
+      "title": "Size-aware Sharding For Improving Tail Latencies in In-memory Key-value Stores",
+      "authors": [
+        "Diego Didona",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "79-94",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DidonaZ19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DidonaZ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/didona"
+      ]
+    },
+    {
+      "title": "Slim: OS Kernel Support for a Low-Overhead Container Overlay Network",
+      "authors": [
+        "Danyang Zhuo",
+        "Kaiyuan Zhang 0001",
+        "Yibo Zhu 0001",
+        "Hongqiang Harry Liu",
+        "Matthew Rockett",
+        "Arvind Krishnamurthy",
+        "Thomas E. Anderson"
+      ],
+      "pages": "331-344",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhuoZZLRKA19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhuoZZLRKA19.html",
+      "ee_links": [
+        "https://www.usenix.org/presentation/zhuo"
+      ]
+    },
+    {
+      "title": "Stable and Practical AS Relationship Inference with ProbLink",
+      "authors": [
+        "Yuchen Jin",
+        "Colin Scott",
+        "Amogh Dhamdhere",
+        "Vasileios Giotsas",
+        "Arvind Krishnamurthy",
+        "Scott Shenker"
+      ],
+      "pages": "581-598",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JinSDGKS19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JinSDGKS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/jin"
+      ]
+    },
+    {
+      "title": "Stardust: Divide and Conquer in the Data Center Network",
+      "authors": [
+        "Noa Zilberman",
+        "Gabi Bracha",
+        "Golan Schzukin"
+      ],
+      "pages": "141-160",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZilbermanBS19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZilbermanBS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/zilberman"
+      ]
+    },
+    {
+      "title": "SweepSense: Sensing 5 GHz in 5 Milliseconds with Low-cost Radios",
+      "authors": [
+        "Yeswanth Guddeti",
+        "Raghav Subbaraman",
+        "Moein Khazraee",
+        "Aaron Schulman",
+        "Dinesh Bharadia"
+      ],
+      "pages": "317-330",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuddetiSKSB19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuddetiSKSB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/guddeti"
+      ]
+    },
+    {
+      "title": "Tiresias: A GPU Cluster Manager for Distributed Deep Learning",
+      "authors": [
+        "Juncheng Gu",
+        "Mosharaf Chowdhury",
+        "Kang G. Shin",
+        "Yibo Zhu 0001",
+        "Myeongjae Jeon",
+        "Junjie Qian",
+        "Hongqiang Harry Liu",
+        "Chuanxiong Guo"
+      ],
+      "pages": "485-500",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuCSZJQLG19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuCSZJQLG19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/gu"
+      ]
+    },
+    {
+      "title": "Towards Programming the Radio Environment with Large Arrays of Inexpensive Antennas",
+      "authors": [
+        "Zhuqi Li",
+        "Yaxiong Xie",
+        "Longfei Shangguan",
+        "Rotman Ivan Zelaya",
+        "Jeremy Gummeson",
+        "Wenjun Hu",
+        "Kyle Jamieson"
+      ],
+      "pages": "285-300",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiXSZGHJ19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiXSZGHJ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/lizhuqi"
+      ]
+    },
+    {
+      "title": "TrackIO: Tracking First Responders Inside-Out",
+      "authors": [
+        "Ashutosh Dhekne",
+        "Ayon Chakraborty",
+        "Karthikeyan Sundaresan",
+        "Sampath Rangarajan"
+      ],
+      "pages": "751-764",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DhekneCSR19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DhekneCSR19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/dhekne"
+      ]
+    },
+    {
+      "title": "Understanding Lifecycle Management Complexity of Datacenter Topologies",
+      "authors": [
+        "Mingyang Zhang 0005",
+        "Radhika Niranjan Mysore",
+        "Sucha Supittayapornpong",
+        "Ramesh Govindan"
+      ],
+      "pages": "235-254",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangMSG19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangMSG19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/zhang"
+      ]
+    },
+    {
+      "title": "Zeno: Diagnosing Performance Problems with Temporal Provenance",
+      "authors": [
+        "Yang Wu",
+        "Ang Chen 0001",
+        "Linh Thi Xuan Phan"
+      ],
+      "pages": "395-420",
+      "year": "2019",
+      "venue": "NSDI 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WuCP19",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WuCP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi19/presentation/wu"
+      ]
+    }
+  ]
+}

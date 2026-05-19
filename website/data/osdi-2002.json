@@ -1,0 +1,520 @@
+{
+  "id": "osdi-2002",
+  "venue": "osdi",
+  "year": 2002,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi2002.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi2002.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/2002",
+    "conf/osdi/2002-1",
+    "conf/osdi/2002-2",
+    "conf/osdi/2002-3",
+    "conf/osdi/2002-4",
+    "conf/osdi/2002-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 27,
+  "display_count": 27,
+  "papers": [
+    {
+      "title": "An Analysis of Internet Content Delivery Systems",
+      "authors": [
+        "Stefan Saroiu",
+        "P. Krishna Gummadi",
+        "Richard J. Dunn",
+        "Steven D. Gribble",
+        "Henry M. Levy"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SaroiuGDGL02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SaroiuGDGL02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/saroiu.html"
+      ]
+    },
+    {
+      "title": "An Integrated Experimental Environment for Distributed Systems and Networks",
+      "authors": [
+        "Brian White",
+        "Jay Lepreau",
+        "Leigh Stoller",
+        "Robert Ricci",
+        "Shashi Guruprasad",
+        "Mac Newbold",
+        "Mike Hibler",
+        "Chad Barb",
+        "Abhijeet Joglekar"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WhiteLSRGNHBJ02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WhiteLSRGNHBJ02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/white.html"
+      ]
+    },
+    {
+      "title": "CMC: A Pragmatic Approach to Model Checking Real Code",
+      "authors": [
+        "Madanlal Musuvathi",
+        "David Y. W. Park",
+        "Andy Chou",
+        "Dawson R. Engler",
+        "David L. Dill"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MusuvathiPCED02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MusuvathiPCED02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/musuvathi.html"
+      ]
+    },
+    {
+      "title": "Cooperative I/O: A Novel I/O Semantics for Energy-Aware Applications",
+      "authors": [
+        "Andreas Weissel",
+        "Bj&oacute;rn Beutel",
+        "Frank Bellosa"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WeisselBB02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WeisselBB02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/weissel.html"
+      ]
+    },
+    {
+      "title": "Defensive Programming: Using an Annotation Toolkit to Build DoS-Resistant Software",
+      "authors": [
+        "Xiaohu Qie",
+        "Ruoming Pang",
+        "Larry L. Peterson"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/QiePP02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/QiePP02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/qie.html"
+      ]
+    },
+    {
+      "title": "FARSITE: Federated, Available, and Reliable Storage for an Incompletely Trusted Environment",
+      "authors": [
+        "Atul Adya",
+        "William J. Bolosky",
+        "Miguel Castro 0001",
+        "Gerald Cermak",
+        "Ronnie Chaiken",
+        "John R. Douceur",
+        "Jon Howell",
+        "Jacob R. Lorch",
+        "Marvin Theimer",
+        "Roger Wattenhofer"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AdyaBCCCDHLTW02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AdyaBCCCDHLTW02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/adya.html"
+      ]
+    },
+    {
+      "title": "Fine-Grained Network Time Synchronization Using Reference Broadcasts",
+      "authors": [
+        "Jeremy Elson",
+        "Lewis Girod",
+        "Deborah Estrin"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ElsonGE02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ElsonGE02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/elson.html"
+      ]
+    },
+    {
+      "title": "Integrated Resource Management for Cluster-based Internet Services",
+      "authors": [
+        "Kai Shen",
+        "Hong Tang 0004",
+        "Tao Yang 0009",
+        "Lingkun Chu"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ShenTYC02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ShenTYC02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/shen.html"
+      ]
+    },
+    {
+      "title": "Ivy: A Read/Write Peer-to-Peer File System",
+      "authors": [
+        "Athicha Muthitacharoen",
+        "Robert Morris 0005",
+        "Thomer M. Gil",
+        "Benjie Chen"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MuthitacharoenMGC02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MuthitacharoenMGC02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/muthitacharoen.html"
+      ]
+    },
+    {
+      "title": "Luna: A Flexible Java Protection System",
+      "authors": [
+        "Chris Hawblitzel",
+        "Thorsten von Eicken"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HawblitzelE02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HawblitzelE02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/hawblitzel.html"
+      ]
+    },
+    {
+      "title": "Memory Resource Management in VMware ESX Server",
+      "authors": [
+        "Carl A. Waldspurger"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Waldspurger02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Waldspurger02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/waldspurger.html"
+      ]
+    },
+    {
+      "title": "Optimizing the Migration of Virtual Computers",
+      "authors": [
+        "Constantine P. Sapuntzakis",
+        "Ramesh Chandra",
+        "Ben Pfaff",
+        "Jim Chow",
+        "Monica S. Lam",
+        "Mendel Rosenblum"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SapuntzakisCPCLR02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SapuntzakisCPCLR02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/sapuntzakis.html"
+      ]
+    },
+    {
+      "title": "Pastiche: Making Backup Cheap and Easy",
+      "authors": [
+        "Landon P. Cox",
+        "Christopher D. Murray",
+        "Brian D. Noble"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CoxMN02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CoxMN02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/cox.html"
+      ]
+    },
+    {
+      "title": "Practical, Transparent Operating System Support for Superpages",
+      "authors": [
+        "Juan Navarro",
+        "Sitaram Iyer",
+        "Peter Druschel",
+        "Alan L. Cox"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/NavarroIDC02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/NavarroIDC02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/navarro.html"
+      ]
+    },
+    {
+      "title": "Resource Overbooking and Application Profiling in Shared Hosting Platforms",
+      "authors": [
+        "Bhuvan Urgaonkar",
+        "Prashant J. Shenoy",
+        "Timothy Roscoe"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/UrgaonkarSR02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/UrgaonkarSR02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/urgaonkar.html"
+      ]
+    },
+    {
+      "title": "ReVirt: Enabling Intrusion Analysis Through Virtual-Machine Logging and Replay",
+      "authors": [
+        "George W. Dunlap",
+        "Samuel T. King",
+        "Sukru Cinar",
+        "Murtaza A. Basrai",
+        "Peter M. Chen"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DunlapKCBC02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DunlapKCBC02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/dunlap.html"
+      ]
+    },
+    {
+      "title": "Scalability and Accuracy in a Large-Scale Network Emulator",
+      "authors": [
+        "Amin Vahdat",
+        "Ken Yocum",
+        "Kevin Walsh 0001",
+        "Priya Mahadevan",
+        "Dejan Kostic",
+        "Jeffrey S. Chase",
+        "David Becker"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/VahdatYWMKCB02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/VahdatYWMKCB02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/vahdat.html"
+      ]
+    },
+    {
+      "title": "Scale and Performance in the Denali Isolation Kernel",
+      "authors": [
+        "Andrew Whitaker",
+        "Marianne Shaw",
+        "Steven D. Gribble"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WhitakerSG02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WhitakerSG02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/whitaker.html"
+      ]
+    },
+    {
+      "title": "Secure Routing for Structured Peer-to-Peer Overlay Networks",
+      "authors": [
+        "Miguel Castro 0001",
+        "Peter Druschel",
+        "Ayalvadi J. Ganesh",
+        "Antony I. T. Rowstron",
+        "Dan S. Wallach"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CastroDGRW02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CastroDGRW02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/castro.html"
+      ]
+    },
+    {
+      "title": "Supporting Time-Sensitive Applications on a Commodity OS",
+      "authors": [
+        "Ashvin Goel",
+        "Luca Abeni",
+        "Charles Krasic",
+        "Jim Snow",
+        "Jonathan Walpole"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GoelAKSW02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GoelAKSW02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/goel.html"
+      ]
+    },
+    {
+      "title": "TAG: A Tiny AGgregation Service for Ad-Hoc Sensor Networks",
+      "authors": [
+        "Samuel Madden 0001",
+        "Michael J. Franklin",
+        "Joseph M. Hellerstein",
+        "Wei Hong 0001"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MaddenFHH02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MaddenFHH02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/madden.html"
+      ]
+    },
+    {
+      "title": "Taming Aggressive Replication in the Pangaea Wide-Area File System",
+      "authors": [
+        "Yasushi Saito",
+        "Christos T. Karamanolis",
+        "Magnus Karlsson 0002",
+        "Mallik Mahalingam"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SaitoKKM02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SaitoKKM02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/saito.html"
+      ]
+    },
+    {
+      "title": "TCP Nice: A Mechanism for Background Transfers",
+      "authors": [
+        "Arun Venkataramani",
+        "Ravi Kokku",
+        "Michael Dahlin"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/VenkataramaniKD02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/VenkataramaniKD02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/venkataramani.html"
+      ]
+    },
+    {
+      "title": "The Design and Implementation of Zap: A System for Migrating Computing Environments",
+      "authors": [
+        "Steven Osman",
+        "Dinesh Subhraveti",
+        "Gong Su",
+        "Jason Nieh"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/OsmanSSN02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/OsmanSSN02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/osman.html"
+      ]
+    },
+    {
+      "title": "The Effectiveness of Request Redirection on CDN Robustness",
+      "authors": [
+        "Limin Wang 0010",
+        "Vivek S. Pai",
+        "Larry L. Peterson"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangPP02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangPP02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/wang.html"
+      ]
+    },
+    {
+      "title": "Using Model Checking to Debug Device Firmware",
+      "authors": [
+        "Sanjeev Kumar",
+        "Kai Li 0001"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KumarL02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KumarL02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/kumar.html"
+      ]
+    },
+    {
+      "title": "Vertigo: Automatic Performance-Setting for Linux",
+      "authors": [
+        "Kriszti&aacute;n Flautner",
+        "Trevor N. Mudge"
+      ],
+      "pages": null,
+      "year": "2002",
+      "venue": "OSDI 2002",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FlautnerM02",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FlautnerM02.html",
+      "ee_links": [
+        "http://www.usenix.org/events/osdi02/tech/flautner.html"
+      ]
+    }
+  ]
+}

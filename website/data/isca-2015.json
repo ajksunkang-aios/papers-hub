@@ -1,0 +1,1340 @@
+{
+  "id": "isca-2015",
+  "venue": "isca",
+  "year": 2015,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2015.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2015.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2015",
+    "conf/isca/2015-1",
+    "conf/isca/2015-2",
+    "conf/isca/2015-3",
+    "conf/isca/2015-4",
+    "conf/isca/2015-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 68,
+  "display_count": 68,
+  "papers": [
+    {
+      "title": "A case for core-assisted bottleneck acceleration in GPUs: enabling flexible data compression with assist warps",
+      "authors": [
+        "Nandita Vijaykumar",
+        "Gennady Pekhimenko",
+        "Adwait Jog",
+        "Abhishek Bhowmick 0002",
+        "Rachata Ausavarungnirun",
+        "Chita R. Das",
+        "Mahmut T. Kandemir",
+        "Todd C. Mowry",
+        "Onur Mutlu"
+      ],
+      "pages": "41-53",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/VijaykumarPJ0AD15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/VijaykumarPJ0AD15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750399"
+      ]
+    },
+    {
+      "title": "A fully associative, tagless DRAM cache",
+      "authors": [
+        "Yongjun Lee",
+        "Jongwon Kim",
+        "Hakbeom Jang",
+        "Hyunggyun Yang",
+        "Jangwoo Kim",
+        "Jinkyu Jeong",
+        "Jae W. Lee"
+      ],
+      "pages": "211-222",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeKJYKJL15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeKJYKJL15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750383"
+      ]
+    },
+    {
+      "title": "A scalable processing-in-memory accelerator for parallel graph processing",
+      "authors": [
+        "Junwhan Ahn",
+        "Sungpack Hong",
+        "Sungjoo Yoo",
+        "Onur Mutlu",
+        "Kiyoung Choi"
+      ],
+      "pages": "105-117",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AhnHYMC15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AhnHYMC15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750386"
+      ]
+    },
+    {
+      "title": "A variable warp size architecture",
+      "authors": [
+        "Timothy G. Rogers",
+        "Daniel R. Johnson",
+        "Mike O'Connor",
+        "Stephen W. Keckler"
+      ],
+      "pages": "489-501",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RogersJOK15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RogersJOK15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750410"
+      ]
+    },
+    {
+      "title": "Accelerating asynchronous programs through event sneak peek",
+      "authors": [
+        "Gaurav Chadha",
+        "Scott A. Mahlke",
+        "Satish Narayanasamy"
+      ],
+      "pages": "642-654",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChadhaMN15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChadhaMN15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750373"
+      ]
+    },
+    {
+      "title": "Architecting to achieve a billion requests per second throughput on a single key-value store server platform",
+      "authors": [
+        "Sheng Li 0007",
+        "Hyeontaek Lim",
+        "Victor W. Lee",
+        "Jung Ho Ahn",
+        "Anuj Kalia",
+        "Michael Kaminsky",
+        "David G. Andersen",
+        "Seongil O",
+        "Sukhan Lee 0002",
+        "Pradeep Dubey"
+      ],
+      "pages": "476-488",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiLLAKKASLD15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiLLAKKASLD15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750416"
+      ]
+    },
+    {
+      "title": "ArMOR: defending against memory consistency model mismatches in heterogeneous architectures",
+      "authors": [
+        "Daniel Lustig",
+        "Caroline Trippel",
+        "Michael Pellauer",
+        "Margaret Martonosi"
+      ],
+      "pages": "388-400",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LustigTPM15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LustigTPM15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750378"
+      ]
+    },
+    {
+      "title": "BEAR: techniques for mitigating bandwidth bloat in gigascale DRAM caches",
+      "authors": [
+        "Chia-Chen Chou",
+        "Aamer Jaleel",
+        "Moinuddin K. Qureshi"
+      ],
+      "pages": "198-210",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChouJQ15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChouJQ15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750387"
+      ]
+    },
+    {
+      "title": "BlueDBM: an appliance for big data analytics",
+      "authors": [
+        "Sang Woo Jun",
+        "Ming Liu",
+        "Sungjin Lee 0001",
+        "Jamey Hicks",
+        "John Ankcorn",
+        "Myron King",
+        "Shuotao Xu",
+        "Arvind 0001"
+      ],
+      "pages": "1-13",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JunLLHAKXA15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JunLLHAKXA15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750412"
+      ]
+    },
+    {
+      "title": "Branch vanguard: decomposing branch functionality into prediction and resolution instructions",
+      "authors": [
+        "Daniel S. McFarlin",
+        "Craig B. Zilles"
+      ],
+      "pages": "323-335",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/McFarlinZ15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/McFarlinZ15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750400"
+      ]
+    },
+    {
+      "title": "Callback: efficient synchronization without invalidation with a directory just for spin-waiting",
+      "authors": [
+        "Alberto Ros 0001",
+        "Stefanos Kaxiras"
+      ],
+      "pages": "427-438",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RosK15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RosK15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750405"
+      ]
+    },
+    {
+      "title": "Can randomized mapping secure instruction caches from side-channel attacks?",
+      "authors": [
+        "Fangfei Liu",
+        "Hao Wu",
+        "Ruby B. Lee"
+      ],
+      "pages": "4:1-4:8",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiuWL15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiuWL15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2768566.2768570"
+      ]
+    },
+    {
+      "title": "CAWA: coordinated warp scheduling and cache prioritization for critical warp acceleration of GPGPU workloads",
+      "authors": [
+        "Shin-Ying Lee",
+        "Akhil Arunkumar",
+        "Carole-Jean Wu"
+      ],
+      "pages": "515-527",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeAW15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeAW15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750418"
+      ]
+    },
+    {
+      "title": "Clean: a race detector with cleaner semantics",
+      "authors": [
+        "Cedomir Segulja",
+        "Tarek S. Abdelrahman"
+      ],
+      "pages": "401-413",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SeguljaA15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SeguljaA15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750395"
+      ]
+    },
+    {
+      "title": "CloudMonatt: an architecture for security health monitoring and attestation of virtual machines in cloud computing",
+      "authors": [
+        "Tianwei Zhang 0004",
+        "Ruby B. Lee"
+      ],
+      "pages": "362-374",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhangL15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhangL15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750422"
+      ]
+    },
+    {
+      "title": "Coherence protocol for transparent management of scratchpad memories in shared memory manycore architectures",
+      "authors": [
+        "Lluc Alvarez",
+        "Llu&iacute;s Vilanova",
+        "Miquel Moret&oacute;",
+        "Marc Casas",
+        "Marc Gonz&aacute;lez 0001",
+        "Xavier Martorell",
+        "Nacho Navarro",
+        "Eduard Ayguad&eacute;",
+        "Mateo Valero"
+      ],
+      "pages": "720-732",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AlvarezVMCGMNAV15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AlvarezVMCGMNAV15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750411",
+        "https://www.wikidata.org/entity/Q61730785"
+      ]
+    },
+    {
+      "title": "Computer performance microscopy with Shim",
+      "authors": [
+        "Xi Yang 0021",
+        "Stephen M. Blackburn",
+        "Kathryn S. McKinley"
+      ],
+      "pages": "170-184",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YangBM15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YangBM15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750401",
+        "https://www.wikidata.org/entity/Q58625645"
+      ]
+    },
+    {
+      "title": "COP: to compress and protect main memory",
+      "authors": [
+        "David J. Palframan",
+        "Nam Sung Kim",
+        "Mikko H. Lipasti"
+      ],
+      "pages": "682-693",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PalframanKL15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PalframanKL15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750377"
+      ]
+    },
+    {
+      "title": "Cost-effective speculative scheduling in high performance processors",
+      "authors": [
+        "Arthur Perais",
+        "Andr&eacute; Seznec",
+        "Pierre Michaud",
+        "Andreas Sembrant",
+        "Erik Hagersten"
+      ],
+      "pages": "247-259",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PeraisSMSH15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PeraisSMSH15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2749470"
+      ]
+    },
+    {
+      "title": "Covert channels through branch predictors: a feasibility study",
+      "authors": [
+        "Dmitry Evtyushkin",
+        "Dmitry V. Ponomarev",
+        "Nael B. Abu-Ghazaleh"
+      ],
+      "pages": "5:1-5:8",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/EvtyushkinPG15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/EvtyushkinPG15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2768566.2768571"
+      ]
+    },
+    {
+      "title": "Data reorganization in memory using 3D-stacked DRAM",
+      "authors": [
+        "Berkin Akin",
+        "Franz Franchetti",
+        "James C. Hoe"
+      ],
+      "pages": "131-143",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AkinFH15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AkinFH15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750397"
+      ]
+    },
+    {
+      "title": "DjiNN and Tonic: DNN as a service and its implications for future warehouse scale computers",
+      "authors": [
+        "Johann Hauswald",
+        "Yiping Kang",
+        "Michael A. Laurenzano",
+        "Quan Chen 0002",
+        "Cheng Li",
+        "Trevor N. Mudge",
+        "Ronald G. Dreslinski",
+        "Jason Mars",
+        "Lingjia Tang"
+      ],
+      "pages": "27-40",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HauswaldKLCLMDM15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HauswaldKLCLMDM15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2749472"
+      ]
+    },
+    {
+      "title": "Dynamic thread block launch: a lightweight execution mechanism to support irregular applications on GPUs",
+      "authors": [
+        "Jin Wang 0010",
+        "Norm Rubin",
+        "Albert Sidelnik",
+        "Sudhakar Yalamanchili"
+      ],
+      "pages": "528-540",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangRSY15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangRSY15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750393",
+        "https://www.wikidata.org/entity/Q131123027"
+      ]
+    },
+    {
+      "title": "DynaSpAM: dynamic spatial architecture mapping using out of order instruction schedules",
+      "authors": [
+        "Feng Liu",
+        "Heejin Ahn",
+        "Stephen R. Beard",
+        "Taewook Oh",
+        "David I. August"
+      ],
+      "pages": "541-553",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiuABOA15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiuABOA15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750414"
+      ]
+    },
+    {
+      "title": "Efficient execution of memory access phases using dataflow specialization",
+      "authors": [
+        "Chen-Han Ho",
+        "Sung Jin Kim",
+        "Karthikeyan Sankaralingam"
+      ],
+      "pages": "118-130",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HoKS15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HoKS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750390"
+      ]
+    },
+    {
+      "title": "Exploiting small leakages in masks to turn a second-order attack into a first-order attack",
+      "authors": [
+        "Alexander DeTrano",
+        "Sylvain Guilley",
+        "Xiaofei Guo",
+        "Naghmeh Karimi",
+        "Ramesh Karri"
+      ],
+      "pages": "7:1-7:5",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DeTranoGGKK15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DeTranoGGKK15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2768566.2768573"
+      ]
+    },
+    {
+      "title": "Exploring the performance implications of memory safety primitives in many-core processors executing multi-threaded workloads",
+      "authors": [
+        "Masab Ahmad",
+        "Syed Kamran Haider",
+        "Farrukh Hijaz",
+        "Marten van Dijk",
+        "Omer Khan"
+      ],
+      "pages": "6:1-6:8",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AhmadHHDK15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AhmadHHDK15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2768566.2768572",
+        "https://www.wikidata.org/entity/Q131121857"
+      ]
+    },
+    {
+      "title": "Exploring the potential of heterogeneous von neumann/dataflow execution models",
+      "authors": [
+        "Tony Nowatzki",
+        "Vinay Gangadhar",
+        "Karthikeyan Sankaralingam"
+      ],
+      "pages": "298-310",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NowatzkiGS15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NowatzkiGS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750380"
+      ]
+    },
+    {
+      "title": "FASE: finding amplitude-modulated side-channel emanations",
+      "authors": [
+        "Robert Locke Callan",
+        "Alenka G. Zajic",
+        "Milos Prvulovic"
+      ],
+      "pages": "592-603",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CallanZP15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CallanZP15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750394"
+      ]
+    },
+    {
+      "title": "FaultHound: value-locality-based soft-fault tolerance",
+      "authors": [
+        "Nitin 0002",
+        "Irith Pomeranz",
+        "T. N. Vijaykumar"
+      ],
+      "pages": "668-681",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NitinPV15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NitinPV15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750372"
+      ]
+    },
+    {
+      "title": "Flexible auto-refresh: enabling scalable and energy-efficient DRAM refresh reductions",
+      "authors": [
+        "Ishwar Bhati",
+        "Zeshan Chishti",
+        "Shih-Lien Lu",
+        "Bruce L. Jacob"
+      ],
+      "pages": "235-246",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BhatiCLJ15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BhatiCLJ15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750408"
+      ]
+    },
+    {
+      "title": "Flexible software profiling of GPU architectures",
+      "authors": [
+        "Mark Stephenson",
+        "Siva Kumar Sastry Hari",
+        "Yunsup Lee",
+        "Eiman Ebrahimi",
+        "Daniel R. Johnson",
+        "David W. Nellans",
+        "Mike O'Connor",
+        "Stephen W. Keckler"
+      ],
+      "pages": "185-197",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/StephensonHLEJN15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/StephensonHLEJN15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750375"
+      ]
+    },
+    {
+      "title": "Fusion: design tradeoffs in coherent cache hierarchies for accelerators",
+      "authors": [
+        "Snehasish Kumar",
+        "Arrvindh Shriraman",
+        "Naveen Vedula"
+      ],
+      "pages": "733-745",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KumarSV15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KumarSV15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750421"
+      ]
+    },
+    {
+      "title": "Hardware overhead analysis of programmability in ARX crypto processing",
+      "authors": [
+        "Mohamed El-Hadedy 0001",
+        "Kevin Skadron"
+      ],
+      "pages": "8:1-8:4",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/El-HadedyS15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/El-HadedyS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2768566.2768574",
+        "https://www.wikidata.org/entity/Q130876801"
+      ]
+    },
+    {
+      "title": "Harmonia: balancing compute and memory power in high-performance GPUs",
+      "authors": [
+        "Indrani Paul",
+        "Wei Huang 0004",
+        "Manish Arora",
+        "Sudhakar Yalamanchili"
+      ],
+      "pages": "54-65",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PaulHAY15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PaulHAY15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750404"
+      ]
+    },
+    {
+      "title": "HEB: deploying and managing hybrid energy buffers for improving datacenter efficiency and economy",
+      "authors": [
+        "Longjun Liu",
+        "Chao Li 0009",
+        "Hongbin Sun 0001",
+        "Yang Hu 0001",
+        "Juncheng Gu",
+        "Tao Li 0006",
+        "Jingmin Xin",
+        "Nanning Zheng 0001"
+      ],
+      "pages": "463-475",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiuLSHGLXZ15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiuLSHGLXZ15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750384"
+      ]
+    },
+    {
+      "title": "Heracles: improving resource efficiency at scale",
+      "authors": [
+        "David Lo 0003",
+        "Liqun Cheng",
+        "Rama K. Govindaraju",
+        "Parthasarathy Ranganathan",
+        "Christos Kozyrakis"
+      ],
+      "pages": "450-462",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LoCGRK15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LoCGRK15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2749475"
+      ]
+    },
+    {
+      "title": "Hi-fi playback: tolerating position errors in shift operations of racetrack memory",
+      "authors": [
+        "Chao Zhang 0007",
+        "Guangyu Sun 0003",
+        "Xian Zhang 0001",
+        "Weiqi Zhang",
+        "Weisheng Zhao 0001",
+        "Tao Wang 0004",
+        "Yun Liang 0001",
+        "Yongpan Liu",
+        "Yu Wang 0002",
+        "Jiwu Shu"
+      ],
+      "pages": "694-706",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhangSZZZWLLWS15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhangSZZZWLLWS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750388"
+      ]
+    },
+    {
+      "title": "LaZy superscalar",
+      "authors": [
+        "G&ouml;rkem Asilioglu",
+        "Zhaoxiang Jin",
+        "Murat K&ouml;ksal",
+        "Omkar Javeri",
+        "Soner &Ouml;nder"
+      ],
+      "pages": "260-271",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AsiliogluJKJO15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AsiliogluJKJO15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750409"
+      ]
+    },
+    {
+      "title": "Manycore network interfaces for in-memory rack-scale computing",
+      "authors": [
+        "Alexandros Daglis",
+        "Stanko Novakovic",
+        "Edouard Bugnion",
+        "Babak Falsafi",
+        "Boris Grot"
+      ],
+      "pages": "567-579",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DaglisNBFG15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DaglisNBFG15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750415"
+      ]
+    },
+    {
+      "title": "MBus: an ultra-low power interconnect bus for next generation nanopower systems",
+      "authors": [
+        "Pat Pannuto",
+        "Yoonmyung Lee",
+        "Ye-Sheng Kuo",
+        "Zhiyoong Foo",
+        "Benjamin P. Kempke",
+        "Gyouho Kim",
+        "Ronald G. Dreslinski",
+        "David T. Blaauw",
+        "Prabal Dutta"
+      ],
+      "pages": "629-641",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PannutoLKFKKDBD15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PannutoLKFKKDBD15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750376",
+        "https://www.wikidata.org/entity/Q36549900"
+      ]
+    },
+    {
+      "title": "MiSAR: minimalistic synchronization accelerator with resource overflow management",
+      "authors": [
+        "Ching-Kai Liang",
+        "Milos Prvulovic"
+      ],
+      "pages": "414-426",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiangP15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiangP15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750396",
+        "https://www.wikidata.org/entity/Q131114832"
+      ]
+    },
+    {
+      "title": "Multiple clone row DRAM: a low latency and area optimized DRAM",
+      "authors": [
+        "Jungwhan Choi",
+        "Wongyu Shin",
+        "Jaemin Jang",
+        "Jinwoong Suh",
+        "Yongkee Kwon",
+        "Youngsuk Moon",
+        "Lee-Sup Kim"
+      ],
+      "pages": "223-234",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChoiSJSKMK15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChoiSJSKMK15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750402"
+      ]
+    },
+    {
+      "title": "Page overlays: an enhanced virtual memory framework to enable fine-grained memory management",
+      "authors": [
+        "Vivek Seshadri",
+        "Gennady Pekhimenko",
+        "Olatunji Ruwase",
+        "Onur Mutlu",
+        "Phillip B. Gibbons",
+        "Michael A. Kozuch",
+        "Todd C. Mowry",
+        "Trishul M. Chilimbi"
+      ],
+      "pages": "79-91",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SeshadriPRMGKMC15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SeshadriPRMGKMC15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750379"
+      ]
+    },
+    {
+      "title": "Performance optimizations of integrity checking based on Merkle trees",
+      "authors": [
+        "Salaheddine Ouaarab",
+        "Guillaume Duc",
+        "Renaud Pacalet"
+      ],
+      "pages": "10:1-10:4",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/OuaarabDP15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/OuaarabDP15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2768566.2768576"
+      ]
+    },
+    {
+      "title": "PIM-enabled instructions: a low-overhead, locality-aware processing-in-memory architecture",
+      "authors": [
+        "Junwhan Ahn",
+        "Sungjoo Yoo",
+        "Onur Mutlu",
+        "Kiyoung Choi"
+      ],
+      "pages": "336-348",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AhnYMC15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AhnYMC15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750385"
+      ]
+    },
+    {
+      "title": "Predicting program phases and defending against side-channel attacks using hardware performance counters",
+      "authors": [
+        "Junaid Nomani",
+        "Jakub Szefer"
+      ],
+      "pages": "9:1-9:4",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NomaniS15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NomaniS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2768566.2768575"
+      ]
+    },
+    {
+      "title": "Probable cause: the deanonymizing effects of approximate DRAM",
+      "authors": [
+        "Amir Rahmati",
+        "Matthew Hicks",
+        "Daniel E. Holcomb",
+        "Kevin Fu"
+      ],
+      "pages": "604-615",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RahmatiHHF15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RahmatiHHF15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750419"
+      ]
+    },
+    {
+      "title": "Profiling a warehouse-scale computer",
+      "authors": [
+        "Svilen Kanev",
+        "Juan Pablo Darago",
+        "Kim M. Hazelwood",
+        "Parthasarathy Ranganathan",
+        "Tipp Moseley",
+        "Gu-Yeon Wei",
+        "David M. Brooks"
+      ],
+      "pages": "158-169",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KanevDHRMWB15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KanevDHRMWB15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750392"
+      ]
+    },
+    {
+      "title": "PrORAM: dynamic prefetcher for oblivious RAM",
+      "authors": [
+        "Xiangyao Yu",
+        "Syed Kamran Haider",
+        "Ling Ren 0001",
+        "Christopher W. Fletcher",
+        "Albert Kwon",
+        "Marten van Dijk",
+        "Srinivas Devadas"
+      ],
+      "pages": "616-628",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YuHRFKDD15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YuHRFKDD15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750413"
+      ]
+    },
+    {
+      "title": "Quantitative comparison of hardware transactional memory for Blue Gene/Q, zEnterprise EC12, Intel Core, and POWER8",
+      "authors": [
+        "Takuya Nakaike",
+        "Rei Odaira",
+        "Matthew Gaudet",
+        "Maged M. Michael",
+        "Hisanobu Tomari"
+      ],
+      "pages": "144-157",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NakaikeOGMT15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NakaikeOGMT15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750403"
+      ]
+    },
+    {
+      "title": "Reducing world switches in virtualized environment with flexible cross-world calls",
+      "authors": [
+        "Wenhao Li 0009",
+        "Yubin Xia",
+        "Haibo Chen 0001",
+        "Binyu Zang",
+        "Haibing Guan"
+      ],
+      "pages": "375-387",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiXCZG15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiXCZG15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750406",
+        "https://www.wikidata.org/entity/Q131123223"
+      ]
+    },
+    {
+      "title": "Redundant memory mappings for fast access to large memories",
+      "authors": [
+        "Vasileios Karakostas",
+        "Jayneel Gandhi",
+        "Furkan Ayar",
+        "Adri&aacute;n Cristal",
+        "Mark D. Hill",
+        "Kathryn S. McKinley",
+        "Mario Nemirovsky",
+        "Michael M. Swift",
+        "Osman S. Unsal"
+      ],
+      "pages": "66-78",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KarakostasGACHM15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KarakostasGACHM15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2749471"
+      ]
+    },
+    {
+      "title": "Rumba: an online quality management system for approximate computing",
+      "authors": [
+        "Daya Shanker Khudia",
+        "Babak Zamirai",
+        "Mehrzad Samadi",
+        "Scott A. Mahlke"
+      ],
+      "pages": "554-566",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KhudiaZSM15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KhudiaZSM15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750371"
+      ]
+    },
+    {
+      "title": "Semantic locality and context-based prefetching using reinforcement learning",
+      "authors": [
+        "Leeor Peled",
+        "Shie Mannor",
+        "Uri C. Weiser",
+        "Yoav Etsion"
+      ],
+      "pages": "285-297",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PeledMWE15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PeledMWE15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2749473"
+      ]
+    },
+    {
+      "title": "ShiDianNao: shifting vision processing closer to the sensor",
+      "authors": [
+        "Zidong Du",
+        "Robert Fasthuber",
+        "Tianshi Chen 0002",
+        "Paolo Ienne",
+        "Ling Li 0001",
+        "Tao Luo",
+        "Xiaobing Feng 0002",
+        "Yunji Chen",
+        "Olivier Temam"
+      ],
+      "pages": "92-104",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DuFCILLFCT15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DuFCILLFCT15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750389"
+      ]
+    },
+    {
+      "title": "SHRINK: reducing the ISA complexity via instruction recycling",
+      "authors": [
+        "Bruno Cardoso Lopes",
+        "Rafael Auler",
+        "Luiz Ramos",
+        "Edson Borin",
+        "Rodolfo Azevedo"
+      ],
+      "pages": "311-322",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LopesARBA15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LopesARBA15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750391",
+        "https://www.wikidata.org/entity/Q130967040"
+      ]
+    },
+    {
+      "title": "Side-channel analysis of MAC-Keccak hardware implementations",
+      "authors": [
+        "Pei Luo",
+        "Yunsi Fei",
+        "Xin Fang 0001",
+        "A. Adam Ding",
+        "David R. Kaeli",
+        "Miriam Leeser"
+      ],
+      "pages": "1:1-1:8",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LuoFFDKL15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LuoFFDKL15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2768566.2768567"
+      ]
+    },
+    {
+      "title": "SLIP: reducing wire energy in the memory hierarchy",
+      "authors": [
+        "Subhasis Das",
+        "Tor M. Aamodt",
+        "William J. Dally"
+      ],
+      "pages": "349-361",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DasAD15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DasAD15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750398"
+      ]
+    },
+    {
+      "title": "Stash: have your scratchpad and cache it too",
+      "authors": [
+        "Rakesh Komuravelli",
+        "Matthew D. Sinclair",
+        "Johnathan Alsop",
+        "Muhammad Huzaifa",
+        "Maria Kotsifakou",
+        "Prakalp Srivastava",
+        "Sarita V. Adve",
+        "Vikram S. Adve"
+      ],
+      "pages": "707-719",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KomuravelliSAHK15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KomuravelliSAHK15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750374"
+      ]
+    },
+    {
+      "title": "Support vector regression: exploiting machine learning techniques for leakage modeling",
+      "authors": [
+        "Dirmanto Jap",
+        "Marc St&ouml;ttinger",
+        "Shivam Bhasin"
+      ],
+      "pages": "2:1-2:8",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JapSB15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JapSB15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2768566.2768568"
+      ]
+    },
+    {
+      "title": "The load slice core microarchitecture",
+      "authors": [
+        "Trevor E. Carlson",
+        "Wim Heirman",
+        "Osman Allam",
+        "Stefanos Kaxiras",
+        "Lieven Eeckhout"
+      ],
+      "pages": "272-284",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CarlsonHAKE15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CarlsonHAKE15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750407",
+        "https://www.wikidata.org/entity/Q130971929"
+      ]
+    },
+    {
+      "title": "Thermal time shifting: leveraging phase change materials to reduce cooling costs in warehouse-scale computers",
+      "authors": [
+        "Matt Skach",
+        "Manish Arora",
+        "Chang-Hong Hsu",
+        "Qi Li",
+        "Dean M. Tullsen",
+        "Lingjia Tang",
+        "Jason Mars"
+      ],
+      "pages": "439-449",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SkachAHLTTM15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SkachAHLTTM15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2749474"
+      ]
+    },
+    {
+      "title": "Towards a practical solution to detect code reuse attacks on ARM mobile devices",
+      "authors": [
+        "Yongje Lee",
+        "Ingoo Heo",
+        "Dongil Hwang",
+        "Kyungmin Kim",
+        "Yunheung Paek"
+      ],
+      "pages": "3:1-3:8",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeHHKP15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeHHKP15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2768566.2768569",
+        "https://www.wikidata.org/entity/Q130976351"
+      ]
+    },
+    {
+      "title": "Towards sustainable in-situ server systems in the big data era",
+      "authors": [
+        "Chao Li 0009",
+        "Yang Hu 0001",
+        "Longjun Liu",
+        "Juncheng Gu",
+        "Mingcong Song",
+        "Xiaoyao Liang",
+        "Jingling Yuan",
+        "Tao Li 0006"
+      ],
+      "pages": "14-26",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiHLGSLYL15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiHLGSLYL15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750381"
+      ]
+    },
+    {
+      "title": "Unified address translation for memory-mapped SSDs with FlashMap",
+      "authors": [
+        "Jian Huang 0006",
+        "Anirudh Badam",
+        "Moinuddin K. Qureshi",
+        "Karsten Schwan"
+      ],
+      "pages": "580-591",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HuangBQS15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HuangBQS15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750420",
+        "https://www.wikidata.org/entity/Q130957190"
+      ]
+    },
+    {
+      "title": "VIP: virtualizing IP chains on handheld platforms",
+      "authors": [
+        "Nachiappan Chidambaram Nachiappan",
+        "Haibo Zhang 0005",
+        "Jihyun Ryoo",
+        "Niranjan Soundararajan",
+        "Anand Sivasubramaniam",
+        "Mahmut T. Kandemir",
+        "Ravishankar R. Iyer 0001",
+        "Chita R. Das"
+      ],
+      "pages": "655-667",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NachiappanZRSSK15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NachiappanZRSSK15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750382"
+      ]
+    },
+    {
+      "title": "Warped-compression: enabling power efficient GPUs through register compression",
+      "authors": [
+        "Sangpil Lee",
+        "Keunsoo Kim",
+        "Gunjae Koo",
+        "Hyeran Jeon",
+        "Won Woo Ro",
+        "Murali Annavaram"
+      ],
+      "pages": "502-514",
+      "year": "2015",
+      "venue": "ISCA 2015",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeKKJRA15",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeKKJRA15.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2749469.2750417"
+      ]
+    }
+  ]
+}

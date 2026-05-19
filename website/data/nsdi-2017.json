@@ -1,0 +1,913 @@
+{
+  "id": "nsdi-2017",
+  "venue": "nsdi",
+  "year": 2017,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2017.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2017.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2017",
+    "conf/nsdi/2017-1",
+    "conf/nsdi/2017-2",
+    "conf/nsdi/2017-3",
+    "conf/nsdi/2017-4",
+    "conf/nsdi/2017-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 46,
+  "display_count": 46,
+  "papers": [
+    {
+      "title": "A System to Verify Network Behavior of Known Cryptographic Clients",
+      "authors": [
+        "Andrew Chi",
+        "Robert A. Cochran",
+        "Marie Nesfield",
+        "Michael K. Reiter",
+        "Cynthia Sturton"
+      ],
+      "pages": "177-195",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChiCNRS17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChiCNRS17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/chi"
+      ]
+    },
+    {
+      "title": "AdaptSize: Orchestrating the Hot Object Memory Cache in a Content Delivery Network",
+      "authors": [
+        "Daniel S. Berger",
+        "Ramesh K. Sitaraman",
+        "Mor Harchol-Balter"
+      ],
+      "pages": "483-498",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BergerSH17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BergerSH17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/berger"
+      ]
+    },
+    {
+      "title": "APUNet: Revitalizing GPU as Packet Processing Accelerator",
+      "authors": [
+        "Younghwan Go",
+        "Muhammad Asim Jamshed",
+        "YoungGyoun Moon",
+        "Changho Hwang",
+        "KyoungSoo Park"
+      ],
+      "pages": "83-96",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GoJMHP17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GoJMHP17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/go"
+      ]
+    },
+    {
+      "title": "Automated Bug Removal for Software-Defined Networks",
+      "authors": [
+        "Yang Wu",
+        "Ang Chen 0001",
+        "Andreas Haeberlen",
+        "Wenchao Zhou",
+        "Boon Thau Loo"
+      ],
+      "pages": "719-733",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WuCHZL17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WuCHZL17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/wu"
+      ]
+    },
+    {
+      "title": "Bringing IoT to Sports Analytics",
+      "authors": [
+        "Mahanth Gowda",
+        "Ashutosh Dhekne",
+        "Sheng Shen 0002",
+        "Romit Roy Choudhury",
+        "Lei Yang",
+        "Suresh Golwalkar",
+        "Alexander Essanian"
+      ],
+      "pages": "499-513",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GowdaDSCYGE17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GowdaDSCYGE17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/gowda"
+      ]
+    },
+    {
+      "title": "CherryPick: Adaptively Unearthing the Best Cloud Configurations for Big Data Analytics",
+      "authors": [
+        "Omid Alipourfard",
+        "Hongqiang Harry Liu",
+        "Jianshu Chen",
+        "Shivaram Venkataraman",
+        "Minlan Yu",
+        "Ming Zhang 0005"
+      ],
+      "pages": "469-482",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AlipourfardLCVY17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AlipourfardLCVY17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/alipourfard"
+      ]
+    },
+    {
+      "title": "Clipper: A Low-Latency Online Prediction Serving System",
+      "authors": [
+        "Daniel Crankshaw",
+        "Xin Wang 0066",
+        "Giulio Zhou",
+        "Michael J. Franklin",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "pages": "613-627",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CrankshawWZFGS17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CrankshawWZFGS17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/crankshaw"
+      ]
+    },
+    {
+      "title": "Correct by Construction Networks Using Stepwise Refinement",
+      "authors": [
+        "Leonid Ryzhyk",
+        "Nikolaj S. Bj&oslash;rner",
+        "Marco Canini",
+        "Jean-Baptiste Jeannin",
+        "Cole Schlesinger",
+        "Douglas B. Terry",
+        "George Varghese"
+      ],
+      "pages": "683-698",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RyzhykBCJSTV17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RyzhykBCJSTV17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/ryzhyk"
+      ]
+    },
+    {
+      "title": "Curator: Self-Managing Storage for Enterprise Clusters",
+      "authors": [
+        "Ignacio Cano 0001",
+        "Srinivas Aiyar",
+        "Varun Arora",
+        "Manosiz Bhattacharyya",
+        "Akhilesh Chaganti",
+        "Chern Cheah",
+        "Brent N. Chun",
+        "Karan Gupta",
+        "Vinayak Khot",
+        "Arvind Krishnamurthy"
+      ],
+      "pages": "51-66",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CanoAABCCCGKK17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CanoAABCCCGKK17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/cano"
+      ]
+    },
+    {
+      "title": "Decibel: Isolation and Sharing in Disaggregated Rack-Scale Storage",
+      "authors": [
+        "Mihir Nanavati",
+        "Jake Wires",
+        "Andrew Warfield"
+      ],
+      "pages": "17-33",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NanavatiWW17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NanavatiWW17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/nanavati"
+      ]
+    },
+    {
+      "title": "Delta-net: Real-time Network Verification Using Atoms",
+      "authors": [
+        "Alex Horn",
+        "Ali Kheradmand",
+        "Mukul R. Prasad"
+      ],
+      "pages": "735-749",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HornKP17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HornKP17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/horn-alex"
+      ]
+    },
+    {
+      "title": "Efficient Memory Disaggregation with Infiniswap",
+      "authors": [
+        "Juncheng Gu",
+        "Youngmoon Lee",
+        "Yiwen Zhang 0008",
+        "Mosharaf Chowdhury",
+        "Kang G. Shin"
+      ],
+      "pages": "649-667",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuLZCS17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuLZCS17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/gu"
+      ]
+    },
+    {
+      "title": "Enabling High-Quality Untethered Virtual Reality",
+      "authors": [
+        "Omid Abari",
+        "Dinesh Bharadia",
+        "Austin Duffield",
+        "Dina Katabi"
+      ],
+      "pages": "531-544",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AbariBDK17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AbariBDK17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/abari"
+      ]
+    },
+    {
+      "title": "Enabling Wide-Spread Communications on Optical Fabric with MegaSwitch",
+      "authors": [
+        "Li Chen 0008",
+        "Kai Chen 0005",
+        "Zhonghua Zhu",
+        "Minlan Yu",
+        "George Porter",
+        "Chunming Qiao",
+        "Shan Zhong"
+      ],
+      "pages": "577-593",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Chen0ZYPQZ17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Chen0ZYPQZ17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/chen"
+      ]
+    },
+    {
+      "title": "Encoding, Fast and Slow: Low-Latency Video Processing Using Thousands of Tiny Threads",
+      "authors": [
+        "Sadjad Fouladi",
+        "Riad S. Wahby",
+        "Brennan Shacklett",
+        "Karthikeyan Balasubramaniam",
+        "William Zeng",
+        "Rahul Bhalerao",
+        "Anirudh Sivaraman",
+        "George Porter",
+        "Keith Winstein"
+      ],
+      "pages": "363-376",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FouladiWSBZBSPW17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FouladiWSBZBSPW17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/fouladi"
+      ]
+    },
+    {
+      "title": "Enhancing Security and Privacy of Tor's Ecosystem by Using Trusted Execution Environments",
+      "authors": [
+        "Seong-Min Kim",
+        "Juhyeng Han",
+        "Jaehyeong Ha",
+        "Taesoo Kim",
+        "Dongsu Han"
+      ],
+      "pages": "145-161",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KimHHKH17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KimHHKH17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/kim-seongmin"
+      ]
+    },
+    {
+      "title": "Evaluating the Power of Flexible Packet Processing for Network Resource Allocation",
+      "authors": [
+        "Naveen Kr. Sharma",
+        "Antoine Kaufmann",
+        "Thomas E. Anderson",
+        "Arvind Krishnamurthy",
+        "Jacob Nelson 0001",
+        "Simon Peter 0001"
+      ],
+      "pages": "67-82",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SharmaKAKNP17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SharmaKAKNP17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/sharma"
+      ]
+    },
+    {
+      "title": "Facilitating Robust 60 GHz Network Deployment By Sensing Ambient Reflectors",
+      "authors": [
+        "Teng Wei",
+        "Anfu Zhou",
+        "Xinyu Zhang 0003"
+      ],
+      "pages": "213-226",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WeiZZ17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WeiZZ17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/wei-teng"
+      ]
+    },
+    {
+      "title": "FarmBeats: An IoT Platform for Data-Driven Agriculture",
+      "authors": [
+        "Deepak Vasisht",
+        "Zerina Kapetanovic",
+        "Jongho Won",
+        "Xinxin Jin",
+        "Ranveer Chandra",
+        "Sudipta N. Sinha",
+        "Ashish Kapoor",
+        "Madhusudhan Sudarshan",
+        "Sean Stratman"
+      ],
+      "pages": "515-529",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/VasishtKWJCSKSS17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/VasishtKWJCSKSS17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/vasisht"
+      ]
+    },
+    {
+      "title": "FlexCore: Massively Parallel and Flexible Processing for Large MIMO Access Points",
+      "authors": [
+        "Christopher Husmann",
+        "Georgios Georgis",
+        "Konstantinos Nikitopoulos",
+        "Kyle Jamieson"
+      ],
+      "pages": "197-211",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HusmannGNJ17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HusmannGNJ17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/husmann"
+      ]
+    },
+    {
+      "title": "Flexplane: An Experimentation Platform for Resource Management in Datacenters",
+      "authors": [
+        "Amy Ousterhout",
+        "Jonathan Perry 0001",
+        "Hari Balakrishnan",
+        "Petr Lapukhov"
+      ],
+      "pages": "438-451",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/OusterhoutPBL17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/OusterhoutPBL17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/ousterhout"
+      ]
+    },
+    {
+      "title": "Flowtune: Flowlet Control for Datacenter Networks",
+      "authors": [
+        "Jonathan Perry 0001",
+        "Hari Balakrishnan",
+        "Devavrat Shah"
+      ],
+      "pages": "421-435",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PerryBS17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PerryBS17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/perry"
+      ]
+    },
+    {
+      "title": "FM Backscatter: Enabling Connected Cities and Smart Fabrics",
+      "authors": [
+        "Anran Wang 0004",
+        "Vikram Iyer",
+        "Vamsi Talla",
+        "Joshua R. Smith 0001",
+        "Shyamnath Gollakota"
+      ],
+      "pages": "243-258",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangITSG17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangITSG17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/wang-anran"
+      ]
+    },
+    {
+      "title": "Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds",
+      "authors": [
+        "Kevin Hsieh",
+        "Aaron Harlap",
+        "Nandita Vijaykumar",
+        "Dimitris Konomis",
+        "Gregory R. Ganger",
+        "Phillip B. Gibbons",
+        "Onur Mutlu"
+      ],
+      "pages": "629-647",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HsiehHVKGGM17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HsiehHVKGGM17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/hsieh"
+      ]
+    },
+    {
+      "title": "I Can't Believe It's Not Causal! Scalable Causal Consistency with No Slowdown Cascades",
+      "authors": [
+        "Syed Akbar Mehdi",
+        "Cody Littley",
+        "Natacha Crooks",
+        "Lorenzo Alvisi",
+        "Nathan Bronson",
+        "Wyatt Lloyd"
+      ],
+      "pages": "453-468",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MehdiLCABL17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MehdiLCABL17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/mehdi"
+      ]
+    },
+    {
+      "title": "Improving User Perceived Page Load Times Using Gaze",
+      "authors": [
+        "Conor Kelton",
+        "Jihoon Ryoo",
+        "Aruna Balasubramanian",
+        "Samir R. Das"
+      ],
+      "pages": "545-559",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KeltonRBD17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KeltonRBD17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/kelton"
+      ]
+    },
+    {
+      "title": "Let It Flow: Resilient Asymmetric Load Balancing with Flowlet Switching",
+      "authors": [
+        "Erico Vanini",
+        "Rong Pan",
+        "Mohammad Alizadeh",
+        "Parvin Taheri",
+        "Tom Edsall"
+      ],
+      "pages": "407-420",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/VaniniPATE17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/VaniniPATE17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/vanini"
+      ]
+    },
+    {
+      "title": "Live Video Analytics at Scale with Approximation and Delay-Tolerance",
+      "authors": [
+        "Haoyu Zhang",
+        "Ganesh Ananthanarayanan",
+        "Peter Bod&iacute;k",
+        "Matthai Philipose",
+        "Paramvir Bahl",
+        "Michael J. Freedman"
+      ],
+      "pages": "377-392",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangABPBF17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangABPBF17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zhang"
+      ]
+    },
+    {
+      "title": "mOS: A Reusable Networking Stack for Flow Monitoring Middleboxes",
+      "authors": [
+        "Muhammad Asim Jamshed",
+        "YoungGyoun Moon",
+        "Donghwi Kim",
+        "Dongsu Han",
+        "KyoungSoo Park"
+      ],
+      "pages": "113-129",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JamshedMKHP17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JamshedMKHP17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/jamshed"
+      ]
+    },
+    {
+      "title": "One Key to Sign Them All Considered Vulnerable: Evaluation of DNSSEC in the Internet",
+      "authors": [
+        "Haya Schulmann",
+        "Michael Waidner"
+      ],
+      "pages": "131-144",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShulmanW17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShulmanW17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/shulman"
+      ]
+    },
+    {
+      "title": "Opaque: An Oblivious and Encrypted Distributed Analytics Platform",
+      "authors": [
+        "Wenting Zheng",
+        "Ankur Dave",
+        "Jethro G. Beekman",
+        "Raluca Ada Popa",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "pages": "283-298",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhengDBPGS17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhengDBPGS17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zheng"
+      ]
+    },
+    {
+      "title": "Passive Realtime Datacenter Fault Detection and Localization",
+      "authors": [
+        "Arjun Roy",
+        "Hongyi Zeng",
+        "Jasmeet Bagga",
+        "Alex C. Snoeren"
+      ],
+      "pages": "595-612",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RoyZBS17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RoyZBS17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/roy"
+      ]
+    },
+    {
+      "title": "Prio: Private, Robust, and Scalable Computation of Aggregate Statistics",
+      "authors": [
+        "Henry Corrigan-Gibbs",
+        "Dan Boneh"
+      ],
+      "pages": "259-282",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Corrigan-GibbsB17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Corrigan-GibbsB17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/corrigan-gibbs"
+      ]
+    },
+    {
+      "title": "Pytheas: Enabling Data-Driven Quality of Experience Optimization Using Group-Based Exploration-Exploitation",
+      "authors": [
+        "Junchen Jiang",
+        "Shijie Sun",
+        "Vyas Sekar",
+        "Hui Zhang 0001"
+      ],
+      "pages": "393-406",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JiangSS017",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JiangSS017.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/jiang"
+      ]
+    },
+    {
+      "title": "RAIL: A Case for Redundant Arrays of Inexpensive Links in Data Center Networks",
+      "authors": [
+        "Danyang Zhuo",
+        "Monia Ghobadi",
+        "Ratul Mahajan",
+        "Amar Phanishayee",
+        "Xuan Kelvin Zou",
+        "Hang Guan",
+        "Arvind Krishnamurthy",
+        "Thomas E. Anderson"
+      ],
+      "pages": "561-576",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhuoGMPZGKA17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhuoGMPZGKA17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zhuo"
+      ]
+    },
+    {
+      "title": "Robust Validation of Network Designs under Uncertain Demands and Failures",
+      "authors": [
+        "Yiyang Chang",
+        "Sanjay G. Rao",
+        "Mohit Tawarmalani"
+      ],
+      "pages": "347-362",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChangRT17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChangRT17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/chang"
+      ]
+    },
+    {
+      "title": "SCL: Simplifying Distributed SDN Control Planes",
+      "authors": [
+        "Aurojit Panda",
+        "Wenting Zheng",
+        "Xiaohe Hu",
+        "Arvind Krishnamurthy",
+        "Scott Shenker"
+      ],
+      "pages": "329-345",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PandaZHKS17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PandaZHKS17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/panda-aurojit-scl"
+      ]
+    },
+    {
+      "title": "Skip-Correlation for Multi-Power Wireless Carrier Sensing",
+      "authors": [
+        "Romil Bhardwaj",
+        "Krishna Chintalapudi",
+        "Ramachandran Ramjee"
+      ],
+      "pages": "227-242",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BhardwajCR17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BhardwajCR17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/bhardwaj"
+      ]
+    },
+    {
+      "title": "Splinter: Practical Private Queries on Public Data",
+      "authors": [
+        "Frank Wang",
+        "Catherine Yun",
+        "Shafi Goldwasser",
+        "Vinod Vaikuntanathan",
+        "Matei Zaharia"
+      ],
+      "pages": "299-313",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangYGVZ17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangYGVZ17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/wang-frank"
+      ]
+    },
+    {
+      "title": "Stateless Network Functions: Breaking the Tight Coupling of State and Processing",
+      "authors": [
+        "Murad Kablan",
+        "Azzam Alsudais",
+        "Eric Keller",
+        "Franck Le"
+      ],
+      "pages": "97-112",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KablanAKL17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KablanAKL17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/kablan"
+      ]
+    },
+    {
+      "title": "The Design, Implementation, and Deployment of a System to Transparently Compress Hundreds of Petabytes of Image Files for a File-Storage Service",
+      "authors": [
+        "Daniel Reiter Horn",
+        "Ken Elkabany",
+        "Chris Lesniewski-Laas",
+        "Keith Winstein"
+      ],
+      "pages": "1-15",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HornELW17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HornELW17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/horn"
+      ]
+    },
+    {
+      "title": "Tux2: Distributed Graph Computation for Machine Learning",
+      "authors": [
+        "Wencong Xiao",
+        "Jilong Xue",
+        "Youshan Miao",
+        "Zhen Li",
+        "Cheng Chen",
+        "Ming Wu 0007",
+        "Wei Li 0022",
+        "Lidong Zhou"
+      ],
+      "pages": "669-682",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XiaoXMLCWLZ17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XiaoXMLCWLZ17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/xiao"
+      ]
+    },
+    {
+      "title": "vCorfu: A Cloud-Scale Object Store on a Shared Log",
+      "authors": [
+        "Michael Wei",
+        "Amy Tai",
+        "Christopher J. Rossbach",
+        "Ittai Abraham",
+        "Maithem Munshed",
+        "Medhavi Dhawan",
+        "Jim Stabile",
+        "Udi Wieder",
+        "Scott Fritchie",
+        "Steven Swanson",
+        "Michael J. Freedman",
+        "Dahlia Malkhi"
+      ],
+      "pages": "35-49",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WeiTRAMDSWFSFM17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WeiTRAMDSWFSFM17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/wei-michael"
+      ]
+    },
+    {
+      "title": "Verifying Reachability in Networks with Mutable Datapaths",
+      "authors": [
+        "Aurojit Panda",
+        "Ori Lahav 0001",
+        "Katerina J. Argyraki",
+        "Mooly Sagiv",
+        "Scott Shenker"
+      ],
+      "pages": "699-718",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PandaLASS17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PandaLASS17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/panda-mutable-datapaths"
+      ]
+    },
+    {
+      "title": "VFP: A Virtual Switch Platform for Host SDN in the Public Cloud",
+      "authors": [
+        "Daniel Firestone"
+      ],
+      "pages": "315-328",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Firestone17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Firestone17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/firestone"
+      ]
+    },
+    {
+      "title": "ViewMap: Sharing Private In-Vehicle Dashcam Videos",
+      "authors": [
+        "Minho Kim",
+        "Jaemin Lim",
+        "Hyunwoo Yu",
+        "Kiyeon Kim",
+        "Younghoon Kim",
+        "Suk-Bok Lee"
+      ],
+      "pages": "163-176",
+      "year": "2017",
+      "venue": "NSDI 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KimLYKKL17",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KimLYKKL17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/kim-minho"
+      ]
+    }
+  ]
+}

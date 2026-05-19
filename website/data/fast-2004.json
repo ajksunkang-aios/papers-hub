@@ -1,0 +1,379 @@
+{
+  "id": "fast-2004",
+  "venue": "fast",
+  "year": 2004,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2004.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2004.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2004",
+    "conf/fast/2004-1",
+    "conf/fast/2004-2",
+    "conf/fast/2004-3",
+    "conf/fast/2004-4",
+    "conf/fast/2004-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 19,
+  "display_count": 19,
+  "papers": [
+    {
+      "title": "A Framework for Building Unobtrusive Disk Maintenance Applications (Awarded Best Student Paper!)",
+      "authors": [
+        "Eno Thereska",
+        "Jiri Schindler",
+        "John S. Bucy",
+        "Brandon Salmon",
+        "Christopher R. Lumb",
+        "Gregory R. Ganger"
+      ],
+      "pages": "213-226",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ThereskaSBSLG04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ThereskaSBSLG04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/thereska.html"
+      ]
+    },
+    {
+      "title": "A Performance Comparison of NFS and iSCSI for IP-Networked Storage",
+      "authors": [
+        "Peter Radkov",
+        "Li Yin",
+        "Pawan Goyal 0001",
+        "Prasenjit Sarkar",
+        "Prashant J. Shenoy"
+      ],
+      "pages": "101-114",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RadkovYGSS04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RadkovYGSS04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/radkov.html"
+      ]
+    },
+    {
+      "title": "A Versatile and User-Oriented Versioning File System",
+      "authors": [
+        "Kiran-Kumar Muniswamy-Reddy",
+        "Charles P. Wright",
+        "Andrew Himmer",
+        "Erez Zadok"
+      ],
+      "pages": "115-128",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Muniswamy-ReddyWHZ04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Muniswamy-ReddyWHZ04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/muniswamy.html"
+      ]
+    },
+    {
+      "title": "Atropos: A Disk Array Volume Manager for Orchestrated Use of Disks",
+      "authors": [
+        "Jiri Schindler",
+        "Steven W. Schlosser",
+        "Minglong Shao",
+        "Anastassia Ailamaki",
+        "Gregory R. Ganger"
+      ],
+      "pages": "159-172",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SchindlerSSAG04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SchindlerSSAG04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/schindler.html"
+      ]
+    },
+    {
+      "title": "Buttress: A Toolkit for Flexible and High Fidelity I/O Benchmarking",
+      "authors": [
+        "Eric Anderson 0003",
+        "Mahesh Kallahalla",
+        "Mustafa Uysal",
+        "Ram Swaminathan"
+      ],
+      "pages": "45-58",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AndersonKUS04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AndersonKUS04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/anderson.html"
+      ]
+    },
+    {
+      "title": "C-Miner: Mining Block Correlations in Storage Systems",
+      "authors": [
+        "Zhenmin Li",
+        "Zhifeng Chen",
+        "Sudarshan M. Srinivasan",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "173-186",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiCSZ04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiCSZ04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/li.html"
+      ]
+    },
+    {
+      "title": "CAR: Clock with Adaptive Replacement",
+      "authors": [
+        "Sorav Bansal",
+        "Dharmendra S. Modha"
+      ],
+      "pages": "187-200",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BansalM04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BansalM04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/bansal.html"
+      ]
+    },
+    {
+      "title": "Circus: Opportunistic Block Reordering for Scalable Content Servers",
+      "authors": [
+        "Stergios V. Anastasiadis",
+        "Rajiv Wickremesinghe",
+        "Jeffrey S. Chase"
+      ],
+      "pages": "201-212",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AnastasiadisWC04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AnastasiadisWC04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/anastasiadis.html"
+      ]
+    },
+    {
+      "title": "Designing for Disasters",
+      "authors": [
+        "Kimberly Keeton",
+        "Cipriano A. Santos",
+        "Dirk Beyer 0002",
+        "Jeffrey S. Chase",
+        "John Wilkes"
+      ],
+      "pages": "59-72",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KeetonSBCW04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KeetonSBCW04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/keeton.html"
+      ]
+    },
+    {
+      "title": "Diamond: A Storage Architecture for Early Discard in Interactive Search",
+      "authors": [
+        "Larry Huston",
+        "Rahul Sukthankar",
+        "Rajiv Wickremesinghe",
+        "Mahadev Satyanarayanan",
+        "Gregory R. Ganger",
+        "Erik Riedel",
+        "Anastassia Ailamaki"
+      ],
+      "pages": "73-86",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HustonSWSGRA04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HustonSWSGRA04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/huston.html"
+      ]
+    },
+    {
+      "title": "HyLog: A High Performance Approach to Managing Disk Layout",
+      "authors": [
+        "Wenguang Wang",
+        "Yanping Zhao",
+        "Rick Bunt"
+      ],
+      "pages": "145-158",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangZB04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangZB04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/wang.html"
+      ]
+    },
+    {
+      "title": "Improving Storage System Availability with D-GRAID (Awarded Best Student Paper!)",
+      "authors": [
+        "Muthian Sivathanu",
+        "Vijayan Prabhakaran",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "15-30",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SivathanuPAA04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SivathanuPAA04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/sivathanu.html"
+      ]
+    },
+    {
+      "title": "Integrating Portable and Distributed Storage",
+      "authors": [
+        "Niraj Tolia",
+        "Jan Harkes",
+        "Michael Kozuch",
+        "Mahadev Satyanarayanan"
+      ],
+      "pages": "227-238",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ToliaHKS04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ToliaHKS04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/tolia.html"
+      ]
+    },
+    {
+      "title": "MEMS-based Storage Devices and Standard Disk Interfaces: A Square Peg in a Round Hole?",
+      "authors": [
+        "Steven W. Schlosser",
+        "Gregory R. Ganger"
+      ],
+      "pages": "87-100",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SchlosserG04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SchlosserG04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/schlosser.html"
+      ]
+    },
+    {
+      "title": "Polus: Growing Storage QoS Management Beyond a \"4-Year Old Kid\"",
+      "authors": [
+        "Sandeep Uttamchandani",
+        "Kaladhar Voruganti",
+        "Sudarshan M. Srinivasan",
+        "John Palmer",
+        "David Pease"
+      ],
+      "pages": "31-44",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/UttamchandaniVSPP04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/UttamchandaniVSPP04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/uttamchandani.html"
+      ]
+    },
+    {
+      "title": "Row-Diagonal Parity for Double Disk Failure Correction (Awarded Best Paper!)",
+      "authors": [
+        "Peter F. Corbett",
+        "Robert English",
+        "Atul Goel",
+        "Tomislav Grcanac",
+        "Steven Kleiman",
+        "James Leong",
+        "Sunitha Sankar"
+      ],
+      "pages": "1-14",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CorbettEGGKLS04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CorbettEGGKLS04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/corbett.html"
+      ]
+    },
+    {
+      "title": "Scaling File Service Up and Out",
+      "authors": [
+        "Garth A. Gibson"
+      ],
+      "pages": null,
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Gibson04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Gibson04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/gibson.pdf"
+      ]
+    },
+    {
+      "title": "Segank: A Distributed Mobile Storage System",
+      "authors": [
+        "Sumeet Sobti",
+        "Nitin Garg",
+        "Fengzhou Zheng",
+        "Junwen Lai",
+        "Yilei Shao",
+        "Chi Zhang 0070",
+        "Elisha Ziskind",
+        "Arvind Krishnamurthy",
+        "Randolph Y. Wang"
+      ],
+      "pages": "239-252",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SobtiGZLSZZKW04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SobtiGZLSZZKW04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/sobti.html"
+      ]
+    },
+    {
+      "title": "Tracefs: A File System to Trace Them All",
+      "authors": [
+        "Akshat Aranya",
+        "Charles P. Wright",
+        "Erez Zadok"
+      ],
+      "pages": "129-145",
+      "year": "2004",
+      "venue": "FAST 2004",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AranyaWZ04",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AranyaWZ04.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast04/tech/aranya.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "id": "sosp-1985",
+  "venue": "sosp",
+  "year": 1985,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp1985.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp1985.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/1985",
+    "conf/sosp/1985-1",
+    "conf/sosp/1985-2",
+    "conf/sosp/1985-3",
+    "conf/sosp/1985-4",
+    "conf/sosp/1985-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 19,
+  "display_count": 19,
+  "papers": [
+    {
+      "title": "A Caching File System For a Programmer's Workstation",
+      "authors": [
+        "Michael D. Schroeder",
+        "David K. Gifford",
+        "Roger M. Needham"
+      ],
+      "pages": "25-34",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SchroederGN85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SchroederGN85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323632"
+      ]
+    },
+    {
+      "title": "A Data-Flow Approach to Multitasking ob CRAY X-MP Compputers",
+      "authors": [
+        "Steven P. Reinhardt"
+      ],
+      "pages": "107-114",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Reinhardt85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Reinhardt85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323639"
+      ]
+    },
+    {
+      "title": "A Distributed File Service Based on Optimistic Concurrency Control",
+      "authors": [
+        "Sape J. Mullender",
+        "Andrew S. Tanenbaum"
+      ],
+      "pages": "51-62",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MullenderT85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MullenderT85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323634"
+      ]
+    },
+    {
+      "title": "A Trace-Driven Analysis of the UNIX 4.2 BSD File System",
+      "authors": [
+        "John K. Ousterhout",
+        "Herv&eacute; Da Costa",
+        "David Harrison",
+        "John A. Kunze",
+        "Michael D. Kupfer",
+        "James G. Thompson"
+      ],
+      "pages": "15-24",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/OusterhoutCHKKT85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/OusterhoutCHKKT85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323631"
+      ]
+    },
+    {
+      "title": "An Architecture for Large Scale Information Systems",
+      "authors": [
+        "David K. Gifford",
+        "Robert W. Baldwin",
+        "Stephen T. Berlin",
+        "John M. Lucassen"
+      ],
+      "pages": "161-170",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GiffordBBL85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GiffordBBL85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323644"
+      ]
+    },
+    {
+      "title": "Compiler Directed Memory Management Policy For Numerical Programs",
+      "authors": [
+        "Mohammad Malkawi",
+        "Janak H. Patel"
+      ],
+      "pages": "97-106",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MalkawiP85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MalkawiP85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323638",
+        "https://www.wikidata.org/entity/Q130984546"
+      ]
+    },
+    {
+      "title": "Consistency and Recovery Control for Replicated Files",
+      "authors": [
+        "Danco Davcev",
+        "Walter A. Burkhard"
+      ],
+      "pages": "87-96",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DavcevB85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DavcevB85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323637"
+      ]
+    },
+    {
+      "title": "Distributed Transactions for Reliable Systems",
+      "authors": [
+        "Alfred Z. Spector",
+        "Dean S. Daniels",
+        "Dan Duchamp",
+        "Jeffrey L. Eppinger",
+        "Randy F. Pausch"
+      ],
+      "pages": "127-146",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SpectorDDEP85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SpectorDDEP85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323641"
+      ]
+    },
+    {
+      "title": "Preemptable Remote Execution Facilities for the V-System",
+      "authors": [
+        "Marvin Theimer",
+        "Keith A. Lantz",
+        "David R. Cheriton"
+      ],
+      "pages": "2-12",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TheimerLC85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TheimerLC85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323629"
+      ]
+    },
+    {
+      "title": "Reliable Object Storage to Support Atomic Actions",
+      "authors": [
+        "Brian M. Oki",
+        "Barbara Liskov",
+        "Robert Scheifler"
+      ],
+      "pages": "147-159",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/OkiLS85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/OkiLS85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323642"
+      ]
+    },
+    {
+      "title": "Replicated Distributed Programs",
+      "authors": [
+        "Eric C. Cooper"
+      ],
+      "pages": "63-78",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Cooper85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Cooper85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323635"
+      ]
+    },
+    {
+      "title": "Replication and Fault-Tolerance in the ISIS System",
+      "authors": [
+        "Kenneth P. Birman"
+      ],
+      "pages": "79-86",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Birman85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Birman85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323636"
+      ]
+    },
+    {
+      "title": "Supporting Distributed Applications: Experience with Eden",
+      "authors": [
+        "Andrew P. Black"
+      ],
+      "pages": "181-193",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Black85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Black85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323646"
+      ]
+    },
+    {
+      "title": "The Integration of Virtual Memory Management and Interprocess Communication in Accent (Abstract)",
+      "authors": [
+        "Robert P. Fitzgerald",
+        "Richard F. Rashid"
+      ],
+      "pages": "13-14",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FitzgeraldR85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FitzgeraldR85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323630"
+      ]
+    },
+    {
+      "title": "The ITC Distributed File System: Principles and Design",
+      "authors": [
+        "Mahadev Satyanarayanan",
+        "John H. Howard",
+        "David A. Nichols",
+        "Robert N. Sidebotham",
+        "Alfred Z. Spector",
+        "Michael J. West"
+      ],
+      "pages": "35-50",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SatyanarayananHNSSW85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SatyanarayananHNSSW85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323633"
+      ]
+    },
+    {
+      "title": "The S/Net's Linda Kernel (extended abstract)",
+      "authors": [
+        "Nicholas Carriero",
+        "David Gelernter"
+      ],
+      "pages": "160",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CarrieroG85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CarrieroG85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323643",
+        "https://www.wikidata.org/entity/Q56031767"
+      ]
+    },
+    {
+      "title": "The Structuring of Systems Using Upcalls",
+      "authors": [
+        "David D. Clark"
+      ],
+      "pages": "171-180",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Clark85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Clark85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323645"
+      ]
+    },
+    {
+      "title": "Transactions and Synchronization in a Distributed Operating System",
+      "authors": [
+        "Matthew J. Weinstein",
+        "Thomas W. Page Jr.",
+        "Brian Livezey",
+        "Gerald J. Popek"
+      ],
+      "pages": "115-126",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WeinsteinPLP85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WeinsteinPLP85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323640"
+      ]
+    },
+    {
+      "title": "VAXclusters: A Closely-Coupled Distributed System (Abstract)",
+      "authors": [
+        "Nancy P. Kronenberg",
+        "Henry M. Levy",
+        "William D. Strecker"
+      ],
+      "pages": "1",
+      "year": "1985",
+      "venue": "SOSP 1985",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KronenbergLS85",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KronenbergLS85.html",
+      "ee_links": [
+        "https://doi.org/10.1145/323647.323628"
+      ]
+    }
+  ]
+}

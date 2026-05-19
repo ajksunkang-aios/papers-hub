@@ -1,0 +1,1876 @@
+{
+  "id": "isca-2024",
+  "venue": "isca",
+  "year": 2024,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2024.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2024.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2024",
+    "conf/isca/2024-1",
+    "conf/isca/2024-2",
+    "conf/isca/2024-3",
+    "conf/isca/2024-4",
+    "conf/isca/2024-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 87,
+  "display_count": 87,
+  "papers": [
+    {
+      "title": "(MC)2: Lazy MemCopy at the Memory Controller",
+      "authors": [
+        "Aditya K. Kamath",
+        "Simon Peter 0001"
+      ],
+      "pages": "1112-1128",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KamathP24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KamathP24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00084"
+      ]
+    },
+    {
+      "title": "A New Formulation of Neural Data Prefetching",
+      "authors": [
+        "Quang Duong 0002",
+        "Akanksha Jain",
+        "Calvin Lin"
+      ],
+      "pages": "1173-1187",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DuongJL24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DuongJL24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00088"
+      ]
+    },
+    {
+      "title": "A SAT Scalpel for Lattice Surgery: Representation and Synthesis of Subroutines for Surface-Code Fault-Tolerant Quantum Computing",
+      "authors": [
+        "Daniel Bochen Tan",
+        "Murphy Yuezhen Niu",
+        "Craig Gidney"
+      ],
+      "pages": "325-339",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TanNG24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TanNG24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00032"
+      ]
+    },
+    {
+      "title": "A Tale of Two Domains: Exploring Efficient Architecture Design for Truly Autonomous Things",
+      "authors": [
+        "Xiaofeng Hou",
+        "Tongqiao Xu",
+        "Chao Li 0009",
+        "Cheng Xu",
+        "Jiacheng Liu 0001",
+        "Yang Hu 0001",
+        "Jieru Zhao",
+        "Jingwen Leng",
+        "Kwang-Ting Cheng",
+        "Minyi Guo"
+      ],
+      "pages": "167-181",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HouXLXLHZLCG24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HouXLXLHZLCG24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00022"
+      ]
+    },
+    {
+      "title": "AIO: An Abstraction for Performance Analysis Across Diverse Accelerator Architectures",
+      "authors": [
+        "Joseph Rogers",
+        "Taha Soliman",
+        "Magnus Jahre"
+      ],
+      "pages": "487-500",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RogersSJ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RogersSJ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00043"
+      ]
+    },
+    {
+      "title": "ALISA: Accelerating Large Language Model Inference via Sparsity-Aware KV Caching",
+      "authors": [
+        "Youpeng Zhao 0002",
+        "Di Wu 0016",
+        "Jun Wang 0001"
+      ],
+      "pages": "1005-1017",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhaoWW24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhaoWW24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00077"
+      ]
+    },
+    {
+      "title": "Alternate Path Fetch",
+      "authors": [
+        "Aniket Deshmukh 0002",
+        "Lingzhe Chester Cai",
+        "Yale N. Patt"
+      ],
+      "pages": "1217-1229",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DeshmukhCP24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DeshmukhCP24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00091"
+      ]
+    },
+    {
+      "title": "Alternate Path μ-op Cache Prefetching",
+      "authors": [
+        "Sawan Singh",
+        "Arthur Perais",
+        "Alexandra Jimborean",
+        "Alberto Ros 0001"
+      ],
+      "pages": "1230-1245",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SinghPJR24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SinghPJR24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00092"
+      ]
+    },
+    {
+      "title": "Atomique: A Quantum Compiler for Reconfigurable Neutral Atom Arrays",
+      "authors": [
+        "Hanrui Wang 0002",
+        "Pengyu Liu",
+        "Daniel Bochen Tan",
+        "Yilian Liu",
+        "Jiaqi Gu 0002",
+        "David Z. Pan",
+        "Jason Cong",
+        "Umut A. Acar",
+        "Song Han 0003"
+      ],
+      "pages": "293-309",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangLTLGPCAH24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangLTLGPCAH24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00030"
+      ]
+    },
+    {
+      "title": "AVM-BTB: Adaptive and Virtualized Multi-level Branch Target Buffer",
+      "authors": [
+        "Yunzhe Liu 0005",
+        "Xinyu Li 0010",
+        "Tingting Zhang",
+        "Tianyi Liu",
+        "Qi Guo 0001",
+        "Fuxin Zhang",
+        "Jian Wang"
+      ],
+      "pages": "17-31",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiuLZLGZW24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiuLZLGZW24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00012"
+      ]
+    },
+    {
+      "title": "Barre Chord: Efficient Virtual Memory Translation for Multi-Chip-Module GPUs",
+      "authors": [
+        "Yuan Feng",
+        "Seonjin Na",
+        "Hyesoon Kim",
+        "Hyeran Jeon"
+      ],
+      "pages": "834-847",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FengNKJ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FengNKJ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00065"
+      ]
+    },
+    {
+      "title": "BitNN: A Bit-Serial Accelerator for K-Nearest Neighbor Search in Point Clouds",
+      "authors": [
+        "Meng Han",
+        "Liang Wang 0020",
+        "Limin Xiao 0001",
+        "Hao Zhang 0205",
+        "Tianhao Cai",
+        "Jiale Xu",
+        "Yibo Wu",
+        "Chenhao Zhang",
+        "Xiangrong Xu 0002"
+      ],
+      "pages": "1278-1292",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HanWXZCXWZX24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HanWXZCXWZX24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00095"
+      ]
+    },
+    {
+      "title": "BLESS: Bandwidth and Locality Enhanced SMEM Seeding Acceleration for DNA Sequencing",
+      "authors": [
+        "Seunghee Han",
+        "Seungjae Moon",
+        "Teokkyu Suh",
+        "Jaehoon Heo",
+        "Joo-Young Kim 0001"
+      ],
+      "pages": "582-596",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HanMSHK24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HanMSHK24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00049"
+      ]
+    },
+    {
+      "title": "BlissCam: Boosting Eye Tracking Efficiency with Learned In-Sensor Sparse Sampling",
+      "authors": [
+        "Yu Feng 0007",
+        "Tianrui Ma",
+        "Yuhao Zhu 0001",
+        "Xuan Zhang 0001"
+      ],
+      "pages": "1262-1277",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FengMZZ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FengMZZ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00094"
+      ]
+    },
+    {
+      "title": "BlitzCoin: Fully Decentralized Hardware Power Management for Accelerator-Rich SoCs",
+      "authors": [
+        "Martin Cochet",
+        "Karthik Swaminathan",
+        "Erik Jens Loscalzo",
+        "Joseph Zuckerman",
+        "Maico Cassel dos Santos",
+        "Davide Giri",
+        "Alper Buyuktosunoglu",
+        "Tianyu Jia",
+        "David Brooks 0001",
+        "Gu-Yeon Wei",
+        "Kenneth L. Shepard",
+        "Luca P. Carloni",
+        "Pradip Bose"
+      ],
+      "pages": "801-817",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CochetSLZSGBJBWSCB24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CochetSLZSGBJBWSCB24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00063"
+      ]
+    },
+    {
+      "title": "Bosehedral: Compiler Optimization for Bosonic Quantum Computing",
+      "authors": [
+        "Junyu Zhou 0005",
+        "Yuhao Liu 0017",
+        "Yunong Shi",
+        "Ali Javadi-Abhari",
+        "Gushu Li"
+      ],
+      "pages": "261-276",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhouLSJL24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhouLSJL24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00028"
+      ]
+    },
+    {
+      "title": "Cambricon-D: Full-Network Differential Acceleration for Diffusion Models",
+      "authors": [
+        "Weihao Kong",
+        "Yifan Hao 0001",
+        "Qi Guo 0001",
+        "Yongwei Zhao 0001",
+        "Xinkai Song",
+        "Xiaqing Li",
+        "Mo Zou",
+        "Zidong Du",
+        "Rui Zhang 0040",
+        "Chang Liu 0021",
+        "Yuanbo Wen 0001",
+        "Pengwei Jin",
+        "Xing Hu 0001",
+        "Wei Li 0008",
+        "Zhiwei Xu 0002",
+        "Tianshi Chen 0002"
+      ],
+      "pages": "903-914",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KongHGZSLZDZLWJHLXC24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KongHGZSLZDZLWJHLXC24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00070"
+      ]
+    },
+    {
+      "title": "Cicero: Addressing Algorithmic and Architectural Bottlenecks in Neural Rendering by Radiance Warping and Memory Optimizations",
+      "authors": [
+        "Yu Feng 0007",
+        "Zihan Liu 0002",
+        "Jingwen Leng",
+        "Minyi Guo",
+        "Yuhao Zhu 0001"
+      ],
+      "pages": "1293-1308",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FengLLGZ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FengLLGZ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00096"
+      ]
+    },
+    {
+      "title": "Circular Reconfigurable Parallel Processor for Edge Computing : Industrial Product ✶",
+      "authors": [
+        "Yuan Li",
+        "Jianbin Zhu",
+        "Yao Fu",
+        "Yu Lei",
+        "Toshio Nagata",
+        "Ryan Braidwood",
+        "Haohuan Fu",
+        "Juepeng Zheng",
+        "Wayne Luk",
+        "Hongxiang Fan"
+      ],
+      "pages": "863-875",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiZFLNBFZLF24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiZFLNBFZLF24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00067"
+      ]
+    },
+    {
+      "title": "Collision Prediction for Robotics Accelerators",
+      "authors": [
+        "Deval Shah",
+        "Tor M. Aamodt"
+      ],
+      "pages": "566-581",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShahA24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShahA24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00048"
+      ]
+    },
+    {
+      "title": "Compiler-Directed Whole-System Persistence",
+      "authors": [
+        "Jianping Zeng 0001",
+        "Tong Zhang",
+        "Changhee Jung"
+      ],
+      "pages": "961-977",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZengZJ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZengZJ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00074"
+      ]
+    },
+    {
+      "title": "Constable: Improving Performance and Power Efficiency by Safely Eliminating Load Instruction Execution",
+      "authors": [
+        "Rahul Bera",
+        "Adithya Ranganathan",
+        "Joydeep Rakshit",
+        "Sujit Mahto",
+        "Anant V. Nori",
+        "Jayesh Gaur",
+        "Ataberk Olgun",
+        "Konstantinos Kanellopoulos",
+        "Mohammad Sadrosadati",
+        "Sreenivas Subramoney",
+        "Onur Mutlu"
+      ],
+      "pages": "88-102",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BeraRRMNGOKSSM24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BeraRRMNGOKSSM24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00017"
+      ]
+    },
+    {
+      "title": "Counter-light Memory Encryption",
+      "authors": [
+        "Xin Wang",
+        "Jagadish Kotra",
+        "Alex Jones 0002",
+        "Wenjie Xiong 0001",
+        "Xun Jian 0002"
+      ],
+      "pages": "724-738",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangKJXJ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangKJXJ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00058"
+      ]
+    },
+    {
+      "title": "DACAPO: Accelerating Continuous Learning in Autonomous Systems for Video Analytics",
+      "authors": [
+        "Yoonsung Kim",
+        "Changhun Oh",
+        "Jinwoo Hwang",
+        "Wonung Kim",
+        "Seongryong Oh",
+        "Yubin Lee 0002",
+        "Hardik Sharma",
+        "Amir Yazdanbakhsh",
+        "Jongse Park"
+      ],
+      "pages": "1246-1261",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimOHKOLSYP24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimOHKOLSYP24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00093"
+      ]
+    },
+    {
+      "title": "Derm: SLA-aware Resource Management for Highly Dynamic Microservices",
+      "authors": [
+        "Liao Chen",
+        "Shutian Luo",
+        "Chenyu Lin",
+        "Zizhao Mo",
+        "Huanle Xu",
+        "Kejiang Ye",
+        "ChengZhong Xu 0001"
+      ],
+      "pages": "424-436",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChenLLMXYX24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChenLLMXYX24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00039"
+      ]
+    },
+    {
+      "title": "Designing Cloud Servers for Lower Carbon",
+      "authors": [
+        "Jaylen Wang",
+        "Daniel S. Berger",
+        "Fiodar Kazhamiaka",
+        "Celine Irvene",
+        "Chaojie Zhang 0001",
+        "Esha Choukse",
+        "Kali Frost",
+        "Rodrigo Fonseca",
+        "Brijesh Warrier",
+        "Chetan Bansal",
+        "Jonathan Stern",
+        "Ricardo Bianchini",
+        "Akshitha Sriraman"
+      ],
+      "pages": "452-470",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangBKIZCFFWBSBS24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangBKIZCFFWBSBS24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00041"
+      ]
+    },
+    {
+      "title": "Determining the Minimum Number of Virtual Networks for Different Coherence Protocols",
+      "authors": [
+        "Weihang Li",
+        "Andr&eacute;s Goens",
+        "Nicolai Oswald",
+        "Vijay Nagarajan",
+        "Daniel J. Sorin"
+      ],
+      "pages": "182-197",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiGONS24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiGONS24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00023"
+      ]
+    },
+    {
+      "title": "DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands",
+      "authors": [
+        "Hwayong Nam",
+        "Seungmin Baek",
+        "Minbok Wi",
+        "Michael Jaemin Kim",
+        "Jaehyun Park 0006",
+        "Chihun Song",
+        "Nam Sung Kim",
+        "Jung Ho Ahn"
+      ],
+      "pages": "1097-1111",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NamBWKPSKA24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NamBWKPSKA24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00083"
+      ]
+    },
+    {
+      "title": "DS-GL: Advancing Graph Learning via Harnessing Nature's Power within Scalable Dynamical Systems",
+      "authors": [
+        "Ruibing Song",
+        "Chunshu Wu",
+        "Chuan Liu 0001",
+        "Ang Li 0006",
+        "Michael C. Huang 0001",
+        "Tong Geng"
+      ],
+      "pages": "45-57",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SongWLLHG24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SongWLLHG24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00014"
+      ]
+    },
+    {
+      "title": "DyLeCT: Achieving Huge-page-like Translation Performance for Hardware-compressed Memory",
+      "authors": [
+        "Gagandeep Panwar",
+        "Muhammad Laghari",
+        "Esha Choukse",
+        "Xun Jian 0002"
+      ],
+      "pages": "1129-1143",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PanwarLCJ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PanwarLCJ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00085"
+      ]
+    },
+    {
+      "title": "EcoFaaS: Rethinking the Design of Serverless Environments for Energy Efficiency",
+      "authors": [
+        "Jovan Stojkovic",
+        "Nikoleta Iliakopoulou",
+        "Tianyin Xu",
+        "Hubertus Franke",
+        "Josep Torrellas"
+      ],
+      "pages": "471-486",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/StojkovicIXFT24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/StojkovicIXFT24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00042"
+      ]
+    },
+    {
+      "title": "ElasticRec: A Microservice-based Model Serving Architecture Enabling Elastic Resource Scaling for Recommendation Models",
+      "authors": [
+        "Yujeong Choi",
+        "Jiin Kim",
+        "Minsoo Rhu"
+      ],
+      "pages": "410-423",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChoiKR24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChoiKR24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00038"
+      ]
+    },
+    {
+      "title": "Enabling Efficient Large Recommendation Model Training with Near CXL Memory Processing",
+      "authors": [
+        "Haifeng Liu 0003",
+        "Long Zheng 0003",
+        "Yu Huang 0013",
+        "Jingyi Zhou",
+        "Chaoqiang Liu",
+        "Runze Wang",
+        "Xiaofei Liao",
+        "Hai Jin 0001",
+        "Jingling Xue"
+      ],
+      "pages": "382-395",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiuZHZLWLJX24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiuZHZLWLJX24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00036"
+      ]
+    },
+    {
+      "title": "Exploiting Similarity Opportunities of Emerging Vision AI Models on Hybrid Bonding Architecture",
+      "authors": [
+        "Zhiheng Yue",
+        "Huizheng Wang",
+        "Jiahao Fang",
+        "Jinyi Deng",
+        "Guangyang Lu",
+        "Fengbin Tu",
+        "Ruiqi Guo",
+        "Yuxuan Li",
+        "Yubin Qin",
+        "Yang Wang 0089",
+        "Chao Li 0009",
+        "Huiming Han",
+        "Shaojun Wei",
+        "Yang Hu 0001",
+        "Shouyi Yin"
+      ],
+      "pages": "396-409",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YueWFDLTGLQWLHWHY24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YueWFDLTGLQWLHWHY24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00037"
+      ]
+    },
+    {
+      "title": "FEATHER: A Reconfigurable Accelerator with Data Reordering Support for Low-Cost On-Chip Dataflow Switching",
+      "authors": [
+        "Jianming Tong",
+        "Anirudh Itagi",
+        "Prasanth Chatarasi",
+        "Tushar Krishna"
+      ],
+      "pages": "198-214",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TongICK24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TongICK24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00024"
+      ]
+    },
+    {
+      "title": "FireAxe: Partitioned FPGA-Accelerated Simulation of Large-Scale RTL Designs",
+      "authors": [
+        "Joonho Whangbo",
+        "Edwin Lim",
+        "Chengyi Lux Zhang",
+        "Kevin Anderson",
+        "Abraham Gonzalez",
+        "Raghav Gupta 0001",
+        "Nivedha Krishnakumar",
+        "Sagar Karandikar",
+        "Borivoje Nikolic",
+        "Yakun Sophia Shao",
+        "Krste Asanovic"
+      ],
+      "pages": "501-515",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WhangboLZAGGKKNSA24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WhangboLZAGGKKNSA24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00044"
+      ]
+    },
+    {
+      "title": "Flagger: Cooperative Acceleration for Large-Scale Cross-Silo Federated Learning Aggregation",
+      "authors": [
+        "Xiurui Pan",
+        "Yuda An",
+        "Shengwen Liang",
+        "Bo Mao 0003",
+        "Mingzhe Zhang 0005",
+        "Qiao Li 0001",
+        "Myoungsoo Jung",
+        "Jie Zhang 0048"
+      ],
+      "pages": "915-930",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PanALMZLJZ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PanALMZLJZ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00071"
+      ]
+    },
+    {
+      "title": "GameStreamSR: Enabling Neural-Augmented Game Streaming on Commodity Mobile Platforms",
+      "authors": [
+        "Sandeepa Bhuyan",
+        "Ziyu Ying 0001",
+        "Mahmut T. Kandemir",
+        "Mahanth Gowda",
+        "Chita R. Das"
+      ],
+      "pages": "1309-1322",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BhuyanYKGD24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BhuyanYKGD24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00097"
+      ]
+    },
+    {
+      "title": "GhOST: a GPU Out-of-Order Scheduling Technique for Stall Reduction",
+      "authors": [
+        "Ishita Chaturvedi",
+        "Bhargav Reddy Godala",
+        "Yucan Wu",
+        "Ziyang Xu",
+        "Konstantinos Iliakis",
+        "Panagiotis-Eleftherios Eleftherakis",
+        "Sotirios Xydis",
+        "Dimitrios Soudris",
+        "Tyler Sorensen 0001",
+        "Simone Campanoni",
+        "Tor M. Aamodt",
+        "David I. August"
+      ],
+      "pages": "1-16",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChaturvediGWXIEXSSCAA24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChaturvediGWXIEXSSCAA24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00011"
+      ]
+    },
+    {
+      "title": "HADES: Hardware-Assisted Distributed Transactions in the Age of Fast Networks and SmartNICs",
+      "authors": [
+        "Apostolos Kokolis",
+        "Antonis Psistakis",
+        "Benjamin Reidys",
+        "Jian Huang 0006",
+        "Josep Torrellas"
+      ],
+      "pages": "785-800",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KokolisPRHT24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KokolisPRHT24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00062"
+      ]
+    },
+    {
+      "title": "HAL: Hardware-assisted Load Balancing for Energy-efficient SNIC-Host Cooperative Computing",
+      "authors": [
+        "Jinghan Huang 0001",
+        "Jiaqi Lou",
+        "Srikar Vanavasam",
+        "Xinhao Kong",
+        "Houxiang Ji",
+        "Ipoom Jeong",
+        "Danyang Zhuo",
+        "Eun Kyung Lee",
+        "Nam Sung Kim"
+      ],
+      "pages": "613-627",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HuangLVKJJZLK24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HuangLVKJJZLK24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00051"
+      ]
+    },
+    {
+      "title": "Harpocrates: Breaking the Silence of CPU Faults through Hardware-in-the-Loop Program Generation",
+      "authors": [
+        "Nikos Karystinos",
+        "Odysseas Chatzopoulos",
+        "George-Marios Fragkoulis",
+        "George Papadimitriou 0001",
+        "Dimitris Gizopoulos",
+        "Sudhanva Gurumurthi"
+      ],
+      "pages": "516-531",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KarystinosCFPGG24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KarystinosCFPGG24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00045"
+      ]
+    },
+    {
+      "title": "HEAP: A Fully Homomorphic Encryption Accelerator with Parallelized Bootstrapping",
+      "authors": [
+        "Rashmi S. Agrawal 0001",
+        "Anantha P. Chandrakasan",
+        "Ajay Joshi"
+      ],
+      "pages": "756-769",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AgrawalCJ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AgrawalCJ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00060"
+      ]
+    },
+    {
+      "title": "Heterogeneous Acceleration Pipeline for Recommendation System Training",
+      "authors": [
+        "Muhammad Adnan",
+        "Yassaman Ebrahimzadeh Maboud",
+        "Divya Mahajan 0001",
+        "Prashant J. Nair"
+      ],
+      "pages": "1063-1079",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AdnanMMN24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AdnanMMN24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00081"
+      ]
+    },
+    {
+      "title": "HiFi-DRAM: Enabling High-fidelity DRAM Research by Uncovering Sense Amplifiers with IC Imaging",
+      "authors": [
+        "Michele Marazzi",
+        "Tristan Sachsenweger",
+        "Flavien Solt",
+        "Peng Zeng",
+        "Kubo Takashi",
+        "Maksym Yarema",
+        "Kaveh Razavi"
+      ],
+      "pages": "133-149",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MarazziSSZTYR24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MarazziSSZTYR24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00020"
+      ]
+    },
+    {
+      "title": "Intel Accelerators Ecosystem: An SoC-Oriented Perspective : Industry Product",
+      "authors": [
+        "Yifan Yuan",
+        "Ren Wang 0001",
+        "Narayan Ranganathan",
+        "Nikhil Rao",
+        "Sanjay Kumar",
+        "Philip Lantz",
+        "Vivekananthan Sanjeepan",
+        "Jorge Cabrera 0003",
+        "Atul Kwatra",
+        "Rajesh Sankaran",
+        "Ipoom Jeong",
+        "Nam Sung Kim"
+      ],
+      "pages": "848-862",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YuanWRRKLSCKSJK24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YuanWRRKLSCKSJK24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00066"
+      ]
+    },
+    {
+      "title": "LLMCompass: Enabling Efficient Hardware Design for Large Language Model Inference",
+      "authors": [
+        "Hengrui Zhang",
+        "August Ning",
+        "Rohan Baskar Prabhakar",
+        "David Wentzlaff"
+      ],
+      "pages": "1080-1096",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhangNPW24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhangNPW24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00082"
+      ]
+    },
+    {
+      "title": "MAD-Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration on Distributed Systems",
+      "authors": [
+        "Samuel Hsia",
+        "Alicia Golden",
+        "Bilge Acun",
+        "Newsha Ardalani",
+        "Zachary DeVito",
+        "Gu-Yeon Wei",
+        "David Brooks 0001",
+        "Carole-Jean Wu"
+      ],
+      "pages": "818-833",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HsiaGAADWBW24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HsiaGAADWBW24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00064"
+      ]
+    },
+    {
+      "title": "MECLA: Memory-Compute-Efficient LLM Accelerator with Scaling Sub-matrix Partition",
+      "authors": [
+        "Yubin Qin",
+        "Yang Wang 0089",
+        "Zhiren Zhao",
+        "Xiaolong Yang",
+        "Yang Zhou",
+        "Shaojun Wei",
+        "Yang Hu 0001",
+        "Shouyi Yin"
+      ],
+      "pages": "1032-1047",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/QinWZYZWHY24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/QinWZYZWHY24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00079"
+      ]
+    },
+    {
+      "title": "MegIS: High-Performance, Energy-Efficient, and Low-Cost Metagenomic Analysis with In-Storage Processing",
+      "authors": [
+        "Nika Mansouri-Ghiasi",
+        "Mohammad Sadrosadati",
+        "Harun Mustafa",
+        "Arvid Gollwitzer",
+        "Can Firtina",
+        "Julien Eudine",
+        "Haiyu Mao",
+        "Jo&euml;l Lindegger",
+        "Meryem Banu Cavlak",
+        "Mohammed Alser",
+        "Jisung Park 0001",
+        "Onur Mutlu"
+      ],
+      "pages": "660-677",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MansouriGhiasiSMGFEMLCA24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MansouriGhiasiSMGFEMLCA24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00054"
+      ]
+    },
+    {
+      "title": "Memento: An Adaptive, Compiler-Assisted Register File Cache for GPUs",
+      "authors": [
+        "Mojtaba Abaie Shoushtary",
+        "Jos&eacute;-Mar&iacute;a Arnau",
+        "Jordi Tubella Murgadas",
+        "Antonio Gonz&aacute;lez 0001"
+      ],
+      "pages": "978-990",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShoushtaryAMG24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShoushtaryAMG24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00075"
+      ]
+    },
+    {
+      "title": "MetaLeak: Uncovering Side Channels in Secure Processor Architectures Exploiting Metadata",
+      "authors": [
+        "Md Hafizul Islam Chowdhuryy",
+        "Hao Zheng 0005",
+        "Fan Yao 0001"
+      ],
+      "pages": "693-707",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChowdhuryyZY24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChowdhuryyZY24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00056"
+      ]
+    },
+    {
+      "title": "Mind the Gap: Attainable Data Movement and Operational Intensity Bounds for Tensor Algorithms",
+      "authors": [
+        "Qijing Huang 0001",
+        "Po-An Tsai",
+        "Joel S. Emer",
+        "Angshuman Parashar"
+      ],
+      "pages": "150-166",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HuangTEP24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HuangTEP24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00021"
+      ]
+    },
+    {
+      "title": "Mirage: An RNS-Based Photonic Accelerator for DNN Training",
+      "authors": [
+        "Cansu Demirkiran",
+        "Guowei Yang 0005",
+        "Darius Bunandar",
+        "Ajay Joshi"
+      ],
+      "pages": "73-87",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DemirkiranYBJ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DemirkiranYBJ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00016"
+      ]
+    },
+    {
+      "title": "Native DRAM Cache: Re-architecting DRAM as a Large-Scale Cache for Data Centers",
+      "authors": [
+        "Yesin Ryu",
+        "Yoojin Kim",
+        "Giyong Jung",
+        "Jung Ho Ahn",
+        "Jungrae Kim"
+      ],
+      "pages": "1144-1156",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RyuKJAK24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RyuKJAK24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00086"
+      ]
+    },
+    {
+      "title": "NDPBridge: Enabling Cross-Bank Coordination in Near-DRAM-Bank Processing Architectures",
+      "authors": [
+        "Boyu Tian",
+        "Yiwei Li 0004",
+        "Li Jiang 0002",
+        "Shuangyu Cai",
+        "Mingyu Gao 0001"
+      ],
+      "pages": "628-643",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TianLJCG24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TianLJCG24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00052"
+      ]
+    },
+    {
+      "title": "NDSEARCH: Accelerating Graph-Traversal-Based Approximate Nearest Neighbor Search through Near Data Processing",
+      "authors": [
+        "Yitu Wang",
+        "Shiyu Li 0001",
+        "Qilin Zheng",
+        "Linghao Song",
+        "Zongwang Li",
+        "Andrew Chang",
+        "Hai Li 0001",
+        "Yiran Chen 0001"
+      ],
+      "pages": "368-381",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangLZSLCLC24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangLZSLCLC24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00035"
+      ]
+    },
+    {
+      "title": "NeuraChip: Accelerating GNN Computations with a Hash-based Decoupled Spatial Accelerator",
+      "authors": [
+        "Kaustubh Shivdikar",
+        "Nicolas Bohm Agostini",
+        "Malith Jayaweera",
+        "Gilbert Jonatan",
+        "Jos&eacute; L. Abell&aacute;n",
+        "Ajay Joshi",
+        "John Kim 0001",
+        "David R. Kaeli"
+      ],
+      "pages": "946-960",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShivdikarAJJAJKK24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShivdikarAJJAJKK24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00073"
+      ]
+    },
+    {
+      "title": "On Error Correction for Nonvolatile Processing-In-Memory",
+      "authors": [
+        "H&uuml;srev Cilasun",
+        "Salonik Resch",
+        "Zamshed I. Chowdhury",
+        "Masoud Zabihi",
+        "Yang Lv 0003",
+        "Brandon Zink",
+        "Jianping Wang 0006",
+        "Sachin S. Sapatnekar",
+        "Ulya R. Karpuzcu"
+      ],
+      "pages": "678-692",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CilasunRCZLZWSK24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CilasunRCZLZWSK24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00055"
+      ]
+    },
+    {
+      "title": "Perspective: A Principled Framework for Pliable and Secure Speculation in Operating Systems",
+      "authors": [
+        "Tae Hoon Kim",
+        "David Rudo",
+        "Kaiyang Zhao 0002",
+        "Zirui Neil Zhao",
+        "Dimitrios Skarlatos 0002"
+      ],
+      "pages": "739-755",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimRZZS24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimRZZS24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00059"
+      ]
+    },
+    {
+      "title": "PID-Comm: A Fast and Flexible Collective Communication Framework for Commodity Processing-in-DIMM Devices",
+      "authors": [
+        "Si Ung Noh",
+        "Junguk Hong",
+        "Chaemin Lim",
+        "Seongyeon Park",
+        "Jeehyun Kim",
+        "Hanjun Kim 0001",
+        "Youngsok Kim",
+        "Jinho Lee 0001"
+      ],
+      "pages": "245-260",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NohHLPKKKL24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NohHLPKKKL24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00027"
+      ]
+    },
+    {
+      "title": "Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference",
+      "authors": [
+        "Ranggi Hwang",
+        "Jianyu Wei",
+        "Shijie Cao",
+        "Changho Hwang",
+        "Xiaohu Tang 0003",
+        "Ting Cao 0003",
+        "Mao Yang 0004"
+      ],
+      "pages": "1018-1031",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HwangWCHTCY24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HwangWCHTCY24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00078"
+      ]
+    },
+    {
+      "title": "PreSto: An In-Storage Data Preprocessing System for Training Recommendation Models",
+      "authors": [
+        "Yunjae Lee",
+        "Hyeseong Kim",
+        "Minsoo Rhu"
+      ],
+      "pages": "340-353",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeKR24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeKR24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00033"
+      ]
+    },
+    {
+      "title": "PrIDE: Achieving Secure Rowhammer Mitigation with Low-Cost In-DRAM Trackers",
+      "authors": [
+        "Aamer Jaleel",
+        "Gururaj Saileshwar",
+        "Stephen W. Keckler",
+        "Moinuddin K. Qureshi"
+      ],
+      "pages": "1157-1172",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JaleelSKQ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JaleelSKQ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00087"
+      ]
+    },
+    {
+      "title": "pSyncPIM: Partially Synchronous Execution of Sparse Matrix Operations for All-Bank PIM Architectures",
+      "authors": [
+        "Daehyeon Baek",
+        "Soojin Hwang",
+        "Jaehyuk Huh 0001"
+      ],
+      "pages": "354-367",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BaekHH24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BaekHH24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00034"
+      ]
+    },
+    {
+      "title": "QUETZAL: Vector Acceleration Framework for Modern Genome Sequence Analysis Algorithms",
+      "authors": [
+        "Julian Pavon",
+        "Iv&aacute;n Vargas Valdivieso",
+        "Carlos Rojas",
+        "C&eacute;sar Hern&aacute;ndez",
+        "Mehmet Aslan",
+        "Roger Figueras",
+        "Yichao Yuan",
+        "Jo&euml;l Lindegger",
+        "Mohammed Alser",
+        "Francesc Moll",
+        "Santiago Marco-Sola",
+        "Oguz Ergin",
+        "Nishil Talati",
+        "Onur Mutlu",
+        "Osman S. Unsal",
+        "Mateo Valero",
+        "Adri&aacute;n Cristal"
+      ],
+      "pages": "597-612",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PavonVRHAFYLAMMETMUVC24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PavonVRHAFYLAMMETMUVC24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00050"
+      ]
+    },
+    {
+      "title": "QuTracer: Mitigating Quantum Gate and Measurement Errors by Tracing Subsets of Qubits",
+      "authors": [
+        "Peiyi Li 0002",
+        "Ji Liu 0007",
+        "Alvin Gonzales",
+        "Zain H. Saleem",
+        "Huiyang Zhou",
+        "Paul D. Hovland"
+      ],
+      "pages": "103-117",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiLGSZH24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiLGSZH24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00018"
+      ]
+    },
+    {
+      "title": "ReAIM: A ReRAM-based Adaptive Ising Machine for Solving Combinatorial Optimization Problems",
+      "authors": [
+        "Hao-Wei Chiang",
+        "Chin-Fu Nien",
+        "Hsiang-Yun Cheng",
+        "Kuei-Po Huang"
+      ],
+      "pages": "58-72",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChiangNCH24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChiangNCH24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00015"
+      ]
+    },
+    {
+      "title": "Realizing the AMD Exascale Heterogeneous Processor Vision : Industry Product",
+      "authors": [
+        "Alan Smith 0003",
+        "Gabriel H. Loh",
+        "Michael J. Schulte",
+        "Mike Ignatowski",
+        "Samuel Naffziger",
+        "Mike Mantor",
+        "Nathan Kalyanasundharam",
+        "Vamsi Alla",
+        "Nicholas Malaya",
+        "Joseph L. Greathouse",
+        "Eric Chapman",
+        "Raja Swaminathan"
+      ],
+      "pages": "876-889",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SmithLSINMKAMGCS24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SmithLSINMKAMGCS24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00068"
+      ]
+    },
+    {
+      "title": "Scalable, Programmable and Dense: The HammerBlade Open-Source RISC-V Manycore",
+      "authors": [
+        "Dai Cheol Jung",
+        "Max Ruttenberg",
+        "Paul Gao 0001",
+        "Scott Davidson 0004",
+        "Daniel Petrisko",
+        "Kangli Li",
+        "Aditya K. Kamath",
+        "Lin Cheng",
+        "Shaolin Xie",
+        "Peitian Pan",
+        "Zhongyuan Zhao 0004",
+        "Zichao Yue",
+        "Bandhav Veluri",
+        "Sripathi Muralitharan",
+        "Adrian Sampson",
+        "Andrew Lumsdaine",
+        "Zhiru Zhang",
+        "Christopher Batten",
+        "Mark Oskin",
+        "Dustin Richmond",
+        "Michael Bedford Taylor"
+      ],
+      "pages": "770-784",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JungRGDPLKCXPZYVMSLZBOR24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JungRGDPLKCXPZYVMSLZBOR24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00061"
+      ]
+    },
+    {
+      "title": "SmartOClock: Workload- and Risk-Aware Overclocking in the Cloud",
+      "authors": [
+        "Jovan Stojkovic",
+        "Pulkit A. Misra",
+        "&Iacute;&ntilde;igo Goiri",
+        "Sam Whitlock",
+        "Esha Choukse",
+        "Mayukh Das",
+        "Chetan Bansal",
+        "Jason Lee",
+        "Zoey Sun",
+        "Haoran Qiu",
+        "Reed Zimmermann",
+        "Savyasachi Samal",
+        "Brijesh Warrier",
+        "Ashish Raniwala",
+        "Ricardo Bianchini"
+      ],
+      "pages": "437-451",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/StojkovicMGWCDBLSQZSWRB24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/StojkovicMGWCDBLSQZSWRB24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00040"
+      ]
+    },
+    {
+      "title": "sNPU: Trusted Execution Environments on Integrated NPUs",
+      "authors": [
+        "Erhu Feng",
+        "Dahu Feng",
+        "Dong Du 0003",
+        "Yubin Xia",
+        "Haibo Chen 0001"
+      ],
+      "pages": "708-723",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FengFDXC24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FengFDXC24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00057"
+      ]
+    },
+    {
+      "title": "Soter: Analytical Tensor-Architecture Modeling and Automatic Tensor Program Tuning for Spatial Accelerators",
+      "authors": [
+        "Fuyu Wang",
+        "Minghua Shen",
+        "Yufei Ding 0001",
+        "Nong Xiao 0001"
+      ],
+      "pages": "991-1004",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangSDX24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangSDX24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00076"
+      ]
+    },
+    {
+      "title": "Splitwise: Efficient Generative LLM Inference Using Phase Splitting",
+      "authors": [
+        "Pratyush Patel",
+        "Esha Choukse",
+        "Chaojie Zhang 0001",
+        "Aashaka Shah",
+        "&Iacute;&ntilde;igo Goiri",
+        "Saeed Maleki",
+        "Ricardo Bianchini"
+      ],
+      "pages": "118-132",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PatelCZSGMB24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PatelCZSGMB24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00019"
+      ]
+    },
+    {
+      "title": "Suppressing Correlated Noise in Quantum Computers via Context-Aware Compiling",
+      "authors": [
+        "Alireza Seif",
+        "Haoran Liao",
+        "Vinay Tripathi",
+        "Kevin Krsulich",
+        "Moein Malekakhlagh",
+        "Mirko Amico",
+        "Petar Jurcevic",
+        "Ali Javadi-Abhari"
+      ],
+      "pages": "310-324",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SeifLTKMAJJ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SeifLTKMAJJ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00031"
+      ]
+    },
+    {
+      "title": "Tartan: Microarchitecting a Robotic Processor",
+      "authors": [
+        "Mohammad Bakhshalipour",
+        "Phillip B. Gibbons"
+      ],
+      "pages": "548-565",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BakhshalipourG24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BakhshalipourG24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00047"
+      ]
+    },
+    {
+      "title": "TCP: A Tensor Contraction Processor for AI Workloads Industrial Product",
+      "authors": [
+        "Hanjoon Kim",
+        "Younggeun Choi",
+        "Junyoung Park",
+        "Byeongwook Bae",
+        "Hyunmin Jeong",
+        "Sang Min Lee 0014",
+        "Jeseung Yeon",
+        "Minho Kim",
+        "Changjae Park",
+        "Boncheol Gu",
+        "Changman Lee",
+        "Jaeick Bae",
+        "SungGyeong Bae",
+        "Yojung Cha",
+        "Wooyoung Choe",
+        "Jonguk Choi",
+        "Juho Ha",
+        "Hyuck Han",
+        "Namoh Hwang",
+        "Seokha Hwang",
+        "Kiseok Jang",
+        "Haechan Je",
+        "Hojin Jeon",
+        "Jaewoo Jeon",
+        "Hyunjun Jeong",
+        "Yeonsu Jung",
+        "Dongok Kang",
+        "Hyewon Kim",
+        "Minjae Kim",
+        "Muhwan Kim",
+        "Sewon Kim",
+        "Suhyung Kim",
+        "Won Kim",
+        "Yong Kim",
+        "Youngsik Kim",
+        "Younki Ku",
+        "Jeong Ki Lee",
+        "Juyun Lee",
+        "Kyungjae Lee",
+        "Seokho Lee",
+        "Minwoo Noh",
+        "Hyuntaek Oh",
+        "Gyunghee Park",
+        "Sanguk Park",
+        "Jimin Seo",
+        "Jungyoung Seong",
+        "June Paik",
+        "Nuno P. Lopes",
+        "Sungjoo Yoo"
+      ],
+      "pages": "890-902",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimCPBJLYKPGLBBCCCHHHHJ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimCPBJLYKPGLBBCCCHHHHJ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00069"
+      ]
+    },
+    {
+      "title": "Tender: Accelerating Large Language Models via Tensor Decomposition and Runtime Requantization",
+      "authors": [
+        "Jungi Lee",
+        "Wonbeom Lee",
+        "Jaewoong Sim"
+      ],
+      "pages": "1048-1062",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeLS24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeLS24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00080"
+      ]
+    },
+    {
+      "title": "Tetris: A Compilation Framework for VQA Applications in Quantum Computing",
+      "authors": [
+        "Yuwei Jin",
+        "Zirui Li",
+        "Fei Hua",
+        "Tianyi Hao 0003",
+        "Huiyang Zhou",
+        "Yipeng Huang 0001",
+        "Eddy Z. Zhang"
+      ],
+      "pages": "277-292",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JinLHHZHZ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JinLHHZHZ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00029"
+      ]
+    },
+    {
+      "title": "The Case For Data Centre Hyperloops",
+      "authors": [
+        "Guillem L&oacute;pez-Parad&iacute;s",
+        "Isaac M. Hair",
+        "Sid Kannan",
+        "Roman Rabbat",
+        "Parker Murray",
+        "Alex Lopes",
+        "Rory Zahedi",
+        "Winston Zuo",
+        "Jonathan Balkind"
+      ],
+      "pages": "230-244",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LopezParadisHKRMLZZB24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LopezParadisHKRMLZZB24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00026"
+      ]
+    },
+    {
+      "title": "The Dataflow Abstract Machine Simulator Framework",
+      "authors": [
+        "Nathan Zhang",
+        "Rubens Lacouture",
+        "Gina Sohn",
+        "Paul Mure",
+        "Qizheng Zhang",
+        "Fredrik Kjolstad",
+        "Kunle Olukotun"
+      ],
+      "pages": "532-547",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhangLSMZKO24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhangLSMZKO24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00046"
+      ]
+    },
+    {
+      "title": "The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache",
+      "authors": [
+        "Anubhav Bhatla",
+        "Navneet",
+        "Biswabandan Panda"
+      ],
+      "pages": "32-44",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BhatlaNP24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BhatlaNP24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00013"
+      ]
+    },
+    {
+      "title": "Trapezoid: A Versatile Accelerator for Dense and Sparse Matrix Multiplications",
+      "authors": [
+        "Yifan Yang",
+        "Joel S. Emer",
+        "Daniel S&aacute;nchez 0003"
+      ],
+      "pages": "931-945",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YangES24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YangES24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00072"
+      ]
+    },
+    {
+      "title": "Triangel: A High-Performance, Accurate, Timely On-Chip Temporal Prefetcher",
+      "authors": [
+        "Sam Ainsworth 0001",
+        "Lev Mukhanov"
+      ],
+      "pages": "1202-1216",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AinsworthM24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AinsworthM24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00090"
+      ]
+    },
+    {
+      "title": "UDP: Utility-Driven Fetch Directed Instruction Prefetching",
+      "authors": [
+        "Surim Oh",
+        "Mingsheng Xu",
+        "Tanvir Ahmed Khan",
+        "Baris Kasikci",
+        "Heiner Litz"
+      ],
+      "pages": "1188-1201",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/OhXKKL24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/OhXKKL24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00089"
+      ]
+    },
+    {
+      "title": "UM-PIM: DRAM-based PIM with Uniform & Shared Memory Space",
+      "authors": [
+        "Yilong Zhao 0004",
+        "Mingyu Gao 0001",
+        "Fangxin Liu",
+        "Yiwei Hu",
+        "Zongwu Wang",
+        "Han Lin",
+        "Jin Li 0002",
+        "He Xian",
+        "Hanlin Dong",
+        "Tao Yang 0031",
+        "Naifeng Jing",
+        "Xiaoyao Liang",
+        "Li Jiang 0002"
+      ],
+      "pages": "644-659",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhaoGLHWLLXDYJLJ24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhaoGLHWLLXDYJLJ24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00053"
+      ]
+    },
+    {
+      "title": "Waferscale Network Switches",
+      "authors": [
+        "Shuangliang Chen",
+        "Saptadeep Pal",
+        "Rakesh Kumar 0002"
+      ],
+      "pages": "215-229",
+      "year": "2024",
+      "venue": "ISCA 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChenPK24",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChenPK24.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA59077.2024.00025"
+      ]
+    }
+  ]
+}

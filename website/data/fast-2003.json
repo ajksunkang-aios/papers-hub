@@ -1,0 +1,390 @@
+{
+  "id": "fast-2003",
+  "venue": "fast",
+  "year": 2003,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2003.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2003.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2003",
+    "conf/fast/2003-1",
+    "conf/fast/2003-2",
+    "conf/fast/2003-3",
+    "conf/fast/2003-4",
+    "conf/fast/2003-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 20,
+  "display_count": 20,
+  "papers": [
+    {
+      "title": "ARC: A Self-Tuning, Low Overhead Replacement Cache",
+      "authors": [
+        "Nimrod Megiddo",
+        "Dharmendra S. Modha"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MegiddoM03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MegiddoM03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/megiddo.html"
+      ]
+    },
+    {
+      "title": "Block-Level Security for Network-Attached Disks",
+      "authors": [
+        "Marcos Kawazoe Aguilera",
+        "Minwen Ji",
+        "Mark Lillibridge",
+        "John MacCormick",
+        "Erwin Oertli",
+        "David G. Andersen",
+        "Michael Burrows",
+        "Timothy P. Mann",
+        "Chandramohan A. Thekkath"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AguileraJLMOABMT03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AguileraJLMOABMT03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/aguilera.html"
+      ]
+    },
+    {
+      "title": "Data Services - From Data to Containers",
+      "authors": [
+        "John Wilkes"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Wilkes03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Wilkes03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/fast03_keynote.pdf"
+      ]
+    },
+    {
+      "title": "Data Staging on Untrusted Surrogates",
+      "authors": [
+        "Jason Flinn",
+        "Shafeeq Sinnamohideen",
+        "Niraj Tolia",
+        "Mahadev Satyanarayanan"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/FlinnSTS03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/FlinnSTS03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/flinn.html"
+      ]
+    },
+    {
+      "title": "Design and Implementation of Semi-preemptible IO",
+      "authors": [
+        "Zoran Dimitrijevic",
+        "Raju Rangaswami",
+        "Edward Y. Chang"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DimitrijevicRC03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DimitrijevicRC03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/dimitrijevic.html"
+      ]
+    },
+    {
+      "title": "Fa&ccedil;ade: Virtual Storage Devices with Performance Guarantees",
+      "authors": [
+        "Christopher R. Lumb",
+        "Arif Merchant",
+        "Guillermo A. Alvarez"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LumbMA03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LumbMA03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/lumb.html"
+      ]
+    },
+    {
+      "title": "Making the Most Out of Direct-Access Network Attached Storage",
+      "authors": [
+        "Kostas Magoutis",
+        "Salimah Addetia",
+        "Alexandra Fedorova",
+        "Margo I. Seltzer"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MagoutisAFS03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MagoutisAFS03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/magoutis.html"
+      ]
+    },
+    {
+      "title": "Metadata Efficiency in Versioning File Systems",
+      "authors": [
+        "Craig A. N. Soules",
+        "Garth R. Goodson",
+        "John D. Strunk",
+        "Gregory R. Ganger"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SoulesGSG03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SoulesGSG03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/soules.html"
+      ]
+    },
+    {
+      "title": "Modeling Hard-Disk Power Consumption",
+      "authors": [
+        "John Zedlewski",
+        "Sumeet Sobti",
+        "Nitin Garg",
+        "Fengzhou Zheng",
+        "Arvind Krishnamurthy",
+        "Randolph Y. Wang"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZedlewskiSGZKW03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZedlewskiSGZKW03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/zedlewski.html"
+      ]
+    },
+    {
+      "title": "More Than an Interface - SCSI vs. ATA",
+      "authors": [
+        "Dave Anderson",
+        "Jim Dykes",
+        "Erik Riedel"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AndersonDR03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AndersonDR03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/anderson.html"
+      ]
+    },
+    {
+      "title": "Optimizing Probe-Based Storage",
+      "authors": [
+        "Ivan Dramaliev",
+        "Tara M. Madhyastha"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DramalievM03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DramalievM03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/dramaliev.html"
+      ]
+    },
+    {
+      "title": "Passive NFS Tracing of Email and Research Workloads",
+      "authors": [
+        "Daniel Ellard",
+        "Jonathan Ledlie",
+        "Pia Malkani",
+        "Margo I. Seltzer"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/EllardLMS03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/EllardLMS03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/ellard.html"
+      ]
+    },
+    {
+      "title": "Petabytes and Beyond",
+      "authors": [
+        "Reagan W. Moore",
+        "Dave Belanger",
+        "Thomas Ruwart"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MooreBR03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MooreBR03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/ruwart/index.html"
+      ]
+    },
+    {
+      "title": "Plutus: Scalable Secure File Sharing on Untrusted Storage",
+      "authors": [
+        "Mahesh Kallahalla",
+        "Erik Riedel",
+        "Ram Swaminathan",
+        "Qian Wang 0029",
+        "Kevin Fu"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KallahallaRSWF03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KallahallaRSWF03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/kallahalla.html"
+      ]
+    },
+    {
+      "title": "Pond: The OceanStore Prototype",
+      "authors": [
+        "Sean C. Rhea",
+        "Patrick R. Eaton",
+        "Dennis Geels",
+        "Hakim Weatherspoon",
+        "Ben Y. Zhao",
+        "John Kubiatowicz"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RheaEGWZK03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RheaEGWZK03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/rhea.html"
+      ]
+    },
+    {
+      "title": "Semantically-Smart Disk Systems",
+      "authors": [
+        "Muthian Sivathanu",
+        "Vijayan Prabhakaran",
+        "Florentina I. Popovici",
+        "Timothy E. Denehy",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SivathanuPPDAA03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SivathanuPPDAA03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/sivathanu.html"
+      ]
+    },
+    {
+      "title": "Storage Over IP: When Does Hardware Support Help?",
+      "authors": [
+        "Prasenjit Sarkar",
+        "Sandeep Uttamchandani",
+        "Kaladhar Voruganti"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SarkarUV03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SarkarUV03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/sarkar.html"
+      ]
+    },
+    {
+      "title": "The Direct Access File System",
+      "authors": [
+        "Matt DeBergalis",
+        "Peter F. Corbett",
+        "Steven Kleiman",
+        "Arthur Lent",
+        "Dave Noveck",
+        "Thomas Talpey",
+        "Mark Wittle"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DeBergalisCKLNTW03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DeBergalisCKLNTW03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/debergalis.html"
+      ]
+    },
+    {
+      "title": "Using MEMS-Based Storage in Disk Arrays",
+      "authors": [
+        "Mustafa Uysal",
+        "Arif Merchant",
+        "Guillermo A. Alvarez"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/UysalMA03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/UysalMA03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/uysal.html"
+      ]
+    },
+    {
+      "title": "yFS: A Journaling File System Design for Handling Large Data Sets with Reduced Seeking",
+      "authors": [
+        "Zhihui Zhang",
+        "Kanad Ghose"
+      ],
+      "pages": null,
+      "year": "2003",
+      "venue": "FAST 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhangG03",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhangG03.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast03/tech/zhang.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1539 @@
+{
+  "id": "usenix-2019",
+  "venue": "usenix",
+  "year": 2019,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2019.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2019.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2019",
+    "conf/usenix/2019-1",
+    "conf/usenix/2019-2",
+    "conf/usenix/2019-3",
+    "conf/usenix/2019-4",
+    "conf/usenix/2019-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 78,
+  "display_count": 78,
+  "papers": [
+    {
+      "title": "A Retargetable System-Level DBT Hypervisor",
+      "authors": [
+        "Tom Spink",
+        "Harry Wagstaff",
+        "Bj&ouml;rn Franke"
+      ],
+      "pages": "505-520",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SpinkWF19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SpinkWF19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/spink"
+      ]
+    },
+    {
+      "title": "Accelerating Rule-matching Systems with Learned Rankers",
+      "authors": [
+        "Zhao Lucis Li",
+        "Chieh-Jan Mike Liang",
+        "Wei Bai 0001",
+        "Qiming Zheng",
+        "Yongqiang Xiong",
+        "Guangzhong Sun"
+      ],
+      "pages": "1041-1048",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiL0ZXS19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiL0ZXS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/li-zhao"
+      ]
+    },
+    {
+      "title": "Alleviating Garbage Collection Interference Through Spatial Separation in All Flash Arrays",
+      "authors": [
+        "Jaeho Kim",
+        "Kwanghyun Lim",
+        "Youngdon Jung",
+        "Sungjin Lee 0001",
+        "Changwoo Min",
+        "Sam H. Noh"
+      ],
+      "pages": "799-812",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KimLJLMN19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KimLJLMN19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/kim-jaeho"
+      ]
+    },
+    {
+      "title": "Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads",
+      "authors": [
+        "Myeongjae Jeon",
+        "Shivaram Venkataraman",
+        "Amar Phanishayee",
+        "Junjie Qian",
+        "Wencong Xiao",
+        "Fan Yang 0024"
+      ],
+      "pages": "947-960",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JeonVPQXY19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JeonVPQXY19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/jeon"
+      ]
+    },
+    {
+      "title": "Apache Nemo: A Framework for Building Distributed Dataflow Optimization Policies",
+      "authors": [
+        "Youngseok Yang",
+        "Jeongyoon Eo",
+        "Geon-Woo Kim",
+        "Jooyeon Kim",
+        "Sanha Lee",
+        "Jangho Seo",
+        "Won Wook Song",
+        "Byung-Gon Chun"
+      ],
+      "pages": "177-190",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YangEKKLSSC19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YangEKKLSSC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/yang-youngseok"
+      ]
+    },
+    {
+      "title": "Asynchronous I/O Stack: A Low-latency Kernel I/O Stack for Ultra-Low Latency SSDs",
+      "authors": [
+        "Gyusun Lee",
+        "Seokha Shin",
+        "Wonsuk Song",
+        "Tae Jun Ham",
+        "Jae W. Lee",
+        "Jinkyu Jeong"
+      ],
+      "pages": "603-616",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LeeSSHLJ19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LeeSSHLJ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/lee-gyusun"
+      ]
+    },
+    {
+      "title": "BRAVO - Biased Locking for Reader-Writer Locks",
+      "authors": [
+        "Dave Dice",
+        "Alex Kogan"
+      ],
+      "pages": "315-328",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DiceK19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DiceK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/dice"
+      ]
+    },
+    {
+      "title": "Cognitive SSD: A Deep Learning Engine for In-Storage Data Retrieval",
+      "authors": [
+        "Shengwen Liang",
+        "Ying Wang 0001",
+        "Youyou Lu",
+        "Zhe Yang 0012",
+        "Huawei Li 0001",
+        "Xiaowei Li 0001"
+      ],
+      "pages": "395-410",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiangWLYLL19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiangWLYLL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/liang"
+      ]
+    },
+    {
+      "title": "CoSMIX: A Compiler-based System for Secure Memory Instrumentation and Execution in Enclaves",
+      "authors": [
+        "Meni Orenbach",
+        "Yan Michalevsky",
+        "Christof Fetzer",
+        "Mark Silberstein"
+      ],
+      "pages": "555-570",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/OrenbachMFS19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/OrenbachMFS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/orenbach"
+      ]
+    },
+    {
+      "title": "Cross-dataset Time Series Anomaly Detection for Cloud Systems",
+      "authors": [
+        "Xu Zhang 0024",
+        "Qingwei Lin",
+        "Yong Xu 0010",
+        "Si Qin",
+        "Hongyu Zhang 0002",
+        "Bo Qiao 0001",
+        "Yingnong Dang",
+        "Xinsheng Yang",
+        "Qian Cheng",
+        "Murali Chintalapati",
+        "Youjiang Wu",
+        "Ken Hsieh",
+        "Kaixin Sui",
+        "Xin Meng",
+        "Yaohai Xu",
+        "Wenchi Zhang",
+        "Furao Shen",
+        "Dongmei Zhang 0001"
+      ],
+      "pages": "1063-1076",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangLXQ0QDYCCW19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangLXQ0QDYCCW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/zhang-xu"
+      ]
+    },
+    {
+      "title": "Darwin: A Genomics Co-processor Provides up to 15, 000X Acceleration on Long Read Assembly",
+      "authors": [
+        "Yatish Turakhia",
+        "Gill Bejerano",
+        "William J. Dally"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TurakhiaBD19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TurakhiaBD19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/turakhia"
+      ]
+    },
+    {
+      "title": "Data Domain Cloud Tier: Backup here, backup there, deduplicated everywhere!",
+      "authors": [
+        "Abhinav Duggal",
+        "Fani Jenkins",
+        "Philip Shilane",
+        "Ramprasad Chinthekindi",
+        "Ritesh Shah",
+        "Mahesh Kamat"
+      ],
+      "pages": "647-660",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DuggalJSCSK19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DuggalJSCSK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/duggal"
+      ]
+    },
+    {
+      "title": "Dayu: Fast and Low-interference Data Recovery in Very-large Storage Systems",
+      "authors": [
+        "Zhufan Wang",
+        "Guangyan Zhang",
+        "Yang Wang 0009",
+        "Qinglin Yang",
+        "Jiaji Zhu"
+      ],
+      "pages": "993-1008",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangZWYZ19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangZWYZ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/wang-zhufan"
+      ]
+    },
+    {
+      "title": "Detecting Asymmetric Application-layer Denial-of-Service Attacks In-Flight with Finelame",
+      "authors": [
+        "Henri Maxime Demoulin",
+        "Isaac Pedisich",
+        "Nikos Vasilakis",
+        "Vincent Liu 0001",
+        "Boon Thau Loo",
+        "Linh Thi Xuan Phan"
+      ],
+      "pages": "693-708",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DemoulinPVLLP19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DemoulinPVLLP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/demoulin"
+      ]
+    },
+    {
+      "title": "DistCache: Provable Load Balancing for Large-Scale Storage Systems with Distributed Caching",
+      "authors": [
+        "Zaoxing Liu",
+        "Zhihao Bai",
+        "Zhenming Liu",
+        "Xiaozhou Li",
+        "Changhoon Kim",
+        "Vladimir Braverman",
+        "Xin Jin 0008",
+        "Ion Stoica"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiuBLLKB0S19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiuBLLKB0S19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/liu"
+      ]
+    },
+    {
+      "title": "E3: Energy-Efficient Microservices on SmartNIC-Accelerated Servers",
+      "authors": [
+        "Ming Liu 0027",
+        "Simon Peter 0001",
+        "Arvind Krishnamurthy",
+        "Phitchaya Mangpo Phothilimthana"
+      ],
+      "pages": "363-378",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiuPKP19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiuPKP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/liu-ming"
+      ]
+    },
+    {
+      "title": "EdgeWise: A Better Stream Processing Engine for the Edge",
+      "authors": [
+        "Xinwei Fu",
+        "Talha Ghaffar",
+        "James C. Davis 0001",
+        "Dongyoon Lee"
+      ],
+      "pages": "929-946",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FuGDL19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FuGDL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/fu"
+      ]
+    },
+    {
+      "title": "Effective Static Analysis of Concurrency Use-After-Free Bugs in Linux Device Drivers",
+      "authors": [
+        "Jia-Ju Bai",
+        "Julia Lawall",
+        "Qiu-Liang Chen",
+        "Shi-Min Hu 0001"
+      ],
+      "pages": "255-268",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BaiLCH19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BaiLCH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/bai"
+      ]
+    },
+    {
+      "title": "ElasticBF: Elastic Bloom Filter with Hotness Awareness for Boosting Read Performance in Large Key-Value Stores",
+      "authors": [
+        "Yongkun Li 0001",
+        "Chengjin Tian",
+        "Fan Guo 0003",
+        "Cheng Li 0001",
+        "Yinlong Xu 0001"
+      ],
+      "pages": "739-752",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiTGLX19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiTGLX19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/li-yongkun"
+      ]
+    },
+    {
+      "title": "EROFS: A Compression-friendly Readonly File System for Resource-scarce Devices",
+      "authors": [
+        "Xiang Gao 0012",
+        "Mingkai Dong 0002",
+        "Xie Miao",
+        "Wei Du",
+        "Chao Yu",
+        "Haibo Chen 0001"
+      ],
+      "pages": "149-162",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GaoDMDYC19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GaoDMDYC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/gao"
+      ]
+    },
+    {
+      "title": "Evaluating File System Reliability on Solid State Drives",
+      "authors": [
+        "Shehbaz Jaffer",
+        "Stathis Maneas",
+        "Andy A. Hwang",
+        "Bianca Schroeder"
+      ],
+      "pages": "783-798",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JafferMHS19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JafferMHS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/jaffer"
+      ]
+    },
+    {
+      "title": "Everyone Loves File: File Storage Service (FSS) in Oracle Cloud Infrastructure",
+      "authors": [
+        "Bradley C. Kuszmaul",
+        "Matteo Frigo",
+        "Justin Mazzola Paluska",
+        "Alexander (Sasha) Sandler"
+      ],
+      "pages": "15-32",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KuszmaulFPS19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KuszmaulFPS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/kuszmaul"
+      ]
+    },
+    {
+      "title": "Extension Framework for File Systems in User space",
+      "authors": [
+        "Ashish Bijlani",
+        "Umakishore Ramachandran"
+      ],
+      "pages": "121-134",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BijlaniR19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BijlaniR19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/bijlani"
+      ]
+    },
+    {
+      "title": "FlexGroup Volumes: A Distributed WAFL File System",
+      "authors": [
+        "Ram Kesavan",
+        "Jason Hennessey",
+        "Richard Jernigan",
+        "Peter Macko",
+        "Keith A. Smith",
+        "Daniel Tennant",
+        "Bharadwaj V. R."
+      ],
+      "pages": "135-148",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KesavanHJMSTR19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KesavanHJMSTR19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/kesavan"
+      ]
+    },
+    {
+      "title": "From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers",
+      "authors": [
+        "Sadjad Fouladi",
+        "Francisco Romero",
+        "Dan Iter",
+        "Qian Li 0027",
+        "Shuvo Chatterjee",
+        "Christos Kozyrakis",
+        "Matei Zaharia",
+        "Keith Winstein"
+      ],
+      "pages": "475-488",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FouladiRILCKZW19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FouladiRILCKZW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/fouladi"
+      ]
+    },
+    {
+      "title": "GAIA: An OS Page Cache for Heterogeneous Systems",
+      "authors": [
+        "Tanya Brokhman",
+        "Pavel Lifshits",
+        "Mark Silberstein"
+      ],
+      "pages": "661-674",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BrokhmanLS19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BrokhmanLS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/brokhman"
+      ]
+    },
+    {
+      "title": "Hodor: Intra-Process Isolation for High-Throughput Data Plane Libraries",
+      "authors": [
+        "Mohammad Hedayati",
+        "Spyridoula Gravani",
+        "Ethan Johnson",
+        "John Criswell",
+        "Michael L. Scott",
+        "Kai Shen",
+        "Mike Marty"
+      ],
+      "pages": "489-504",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HedayatiGJCSSM19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HedayatiGJCSSM19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/hedayati-hodor"
+      ]
+    },
+    {
+      "title": "IASO: A Fail-Slow Detection and Mitigation Framework for Distributed Storage Services",
+      "authors": [
+        "Biswaranjan Panda",
+        "Deepthi Srinivasan",
+        "Huan Ke",
+        "Karan Gupta",
+        "Vinayak Khot",
+        "Haryadi S. Gunawi"
+      ],
+      "pages": "47-62",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PandaSKGKG19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PandaSKGKG19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/panda"
+      ]
+    },
+    {
+      "title": "INSIDER: Designing In-Storage Computing System for Emerging High-Performance Drive",
+      "authors": [
+        "Zhenyuan Ruan",
+        "Tong He",
+        "Jason Cong"
+      ],
+      "pages": "379-394",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RuanHC19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RuanHC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/ruan"
+      ]
+    },
+    {
+      "title": "JumpSwitches: Restoring the Performance of Indirect Branches In the Era of Spectre",
+      "authors": [
+        "Nadav Amit",
+        "Fred Jacobs",
+        "Michael Wei"
+      ],
+      "pages": "285-300",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AmitJW19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AmitJW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/amit"
+      ]
+    },
+    {
+      "title": "Lancet: A self-correcting Latency Measuring Tool",
+      "authors": [
+        "Marios Kogias",
+        "Stephen Mallon",
+        "Edouard Bugnion"
+      ],
+      "pages": "881-896",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KogiasMB19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KogiasMB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/kogias-lancet"
+      ]
+    },
+    {
+      "title": "LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation",
+      "authors": [
+        "Yizhou Shan",
+        "Yutong Huang",
+        "Yilun Chen",
+        "Yiying Zhang 0005"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShanHCZ19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShanHCZ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/shan"
+      ]
+    },
+    {
+      "title": "Lessons and Actions: What We Learned from 10K SSD-Related Storage System Failures",
+      "authors": [
+        "Erci Xu",
+        "Mai Zheng",
+        "Feng Qin",
+        "Yikang Xu",
+        "Jiesheng Wu"
+      ],
+      "pages": "961-976",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XuZQXW19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XuZQXW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/xu"
+      ]
+    },
+    {
+      "title": "libmpk: Software Abstraction for Intel Memory Protection Keys (Intel MPK)",
+      "authors": [
+        "Soyeon Park",
+        "Sangho Lee 0001",
+        "Wen Xu 0002",
+        "Hyungon Moon",
+        "Taesoo Kim"
+      ],
+      "pages": "241-254",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ParkLXMK19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ParkLXMK19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/park-soyeon"
+      ]
+    },
+    {
+      "title": "LUMOS: Dependency-Driven Disk-based Graph Processing",
+      "authors": [
+        "Keval Vora"
+      ],
+      "pages": "429-442",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Vora19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Vora19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/vora"
+      ]
+    },
+    {
+      "title": "LXDs: Towards Isolation of Kernel Subsystems",
+      "authors": [
+        "Vikram Narayanan",
+        "Abhiram Balasubramanian",
+        "Charlie Jacobsen",
+        "Sarah Spall",
+        "Scotty Bauer",
+        "Michael Quigley",
+        "Aftab Hussain 0001",
+        "Abdullah Younis",
+        "Junjie Shen 0001",
+        "Moinak Bhattacharyya",
+        "Anton Burtsev"
+      ],
+      "pages": "269-284",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/NarayananBJSBQH19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/NarayananBJSBQH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/narayanan"
+      ]
+    },
+    {
+      "title": "MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving",
+      "authors": [
+        "Chengliang Zhang",
+        "Minchen Yu",
+        "Wei Wang 0030",
+        "Feng Yan 0001"
+      ],
+      "pages": "1049-1062",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangYWY19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangYWY19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/zhang-chengliang"
+      ]
+    },
+    {
+      "title": "Mitigating Asymmetric Read and Write Costs in Cuckoo Hashing for Storage Systems",
+      "authors": [
+        "Yuanyuan Sun",
+        "Yu Hua 0001",
+        "Zhangyu Chen",
+        "Yuncheng Guo"
+      ],
+      "pages": "329-344",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Sun0CG19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Sun0CG19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/sun"
+      ]
+    },
+    {
+      "title": "MTS: Bringing Multi-Tenancy to Virtual Networking",
+      "authors": [
+        "Kashyap Thimmaraju",
+        "Saad Hermak",
+        "G&aacute;bor R&eacute;tv&aacute;ri",
+        "Stefan Schmid 0001"
+      ],
+      "pages": "521-536",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ThimmarajuHR019",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ThimmarajuHR019.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/thimmaraju"
+      ]
+    },
+    {
+      "title": "Multi-Queue Fair Queuing",
+      "authors": [
+        "Mohammad Hedayati",
+        "Kai Shen",
+        "Michael L. Scott",
+        "Mike Marty"
+      ],
+      "pages": "301-314",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HedayatiSSM19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HedayatiSSM19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/hedayati-queue"
+      ]
+    },
+    {
+      "title": "M³x: Autonomous Accelerators via Context-Enabled Fast-Path Communication",
+      "authors": [
+        "Nils Asmussen",
+        "Michael Roitzsch",
+        "Hermann H&auml;rtig"
+      ],
+      "pages": "617-632",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AsmussenRH19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AsmussenRH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/asmussen"
+      ]
+    },
+    {
+      "title": "NeuGraph: Parallel Deep Neural Network Computation on Large Graphs",
+      "authors": [
+        "Lingxiao Ma",
+        "Zhi Yang 0001",
+        "Youshan Miao",
+        "Jilong Xue",
+        "Ming Wu 0007",
+        "Lidong Zhou",
+        "Yafei Dai"
+      ],
+      "pages": "443-458",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MaYMXWZD19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MaYMXWZD19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/ma"
+      ]
+    },
+    {
+      "title": "NICA: An Infrastructure for Inline Acceleration of Network Applications",
+      "authors": [
+        "Haggai Eran",
+        "Lior Zeno",
+        "Maroun Tork",
+        "Gabi Malka",
+        "Mark Silberstein"
+      ],
+      "pages": "345-362",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/EranZTMS19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/EranZTMS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/eran"
+      ]
+    },
+    {
+      "title": "Not So Fast: Analyzing the Performance of WebAssembly vs. Native Code",
+      "authors": [
+        "Abhinav Jangda",
+        "Bobby Powers",
+        "Emery D. Berger",
+        "Arjun Guha"
+      ],
+      "pages": "107-120",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JangdaPBG19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JangdaPBG19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/jangda"
+      ]
+    },
+    {
+      "title": "Optimizing CNN Model Inference on CPUs",
+      "authors": [
+        "Yizhi Liu",
+        "Yao Wang",
+        "Ruofei Yu",
+        "Mu Li 0003",
+        "Vin Sharma",
+        "Yida Wang 0003"
+      ],
+      "pages": "1025-1040",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiuWYLSW19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiuWYLSW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/liu-yizhi"
+      ]
+    },
+    {
+      "title": "OPTR: Order-Preserving Translation and Recovery Design for SSDs with a Standard Block Device Interface",
+      "authors": [
+        "Yun-Sheng Chang",
+        "Ren-Shuo Liu"
+      ],
+      "pages": "1009-1024",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChangL19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChangL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/chang"
+      ]
+    },
+    {
+      "title": "Orca: Differential Bug Localization in Large-Scale Services",
+      "authors": [
+        "Ranjita Bhagwan",
+        "Rahul Kumar 0002",
+        "Chandra Shekhar Maddila",
+        "Adithya Abraham Philip"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BhagwanKMP19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BhagwanKMP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/bhagwan"
+      ]
+    },
+    {
+      "title": "Pangolin: A Fault-Tolerant Persistent Memory Programming Library",
+      "authors": [
+        "Lu Zhang 0064",
+        "Steven Swanson"
+      ],
+      "pages": "897-912",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangS19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/zhang-lu"
+      ]
+    },
+    {
+      "title": "PARTISAN: Scaling the Distributed Actor Runtime",
+      "authors": [
+        "Christopher S. Meiklejohn",
+        "Heather Miller",
+        "Peter Alvaro"
+      ],
+      "pages": "63-76",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MeiklejohnMA19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MeiklejohnMA19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/meiklejohn"
+      ]
+    },
+    {
+      "title": "Pisces: A Scalable and Efficient Persistent Transactional Memory",
+      "authors": [
+        "Jinyu Gu 0001",
+        "Qianqian Yu",
+        "Xiayang Wang",
+        "Zhaoguo Wang",
+        "Binyu Zang",
+        "Haibing Guan",
+        "Haibo Chen 0001"
+      ],
+      "pages": "913-928",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuYWWZGC19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuYWWZGC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/gu"
+      ]
+    },
+    {
+      "title": "PostMan: Rapidly Mitigating Bursty Traffic by Offloading Packet Processing",
+      "authors": [
+        "Panpan Jin",
+        "Jian Guo",
+        "Yikai Xiao",
+        "Rong Shi",
+        "Yipei Niu",
+        "Fangming Liu",
+        "Chen Qian 0001",
+        "Yang Wang 0009"
+      ],
+      "pages": "849-862",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JinGXSNLQW19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JinGXSNLQW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/jin"
+      ]
+    },
+    {
+      "title": "Practical Erase Suspension for Modern Low-latency SSDs",
+      "authors": [
+        "Shine Kim",
+        "Jonghyun Bae",
+        "Hakbeom Jang",
+        "Wenjing Jin 0001",
+        "Jeonghun Gong",
+        "SeungYeon Lee",
+        "Tae Jun Ham",
+        "Jae W. Lee"
+      ],
+      "pages": "813-820",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KimBJJGLHL19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KimBJJGLHL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/kim-shine"
+      ]
+    },
+    {
+      "title": "Pragh: Locality-preserving Graph Traversal with Split Live Migration",
+      "authors": [
+        "Xiating Xie",
+        "Xingda Wei",
+        "Rong Chen 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "723-738",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/XieW0C19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/XieW0C19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/xie"
+      ]
+    },
+    {
+      "title": "Pre-Select Static Caching and Neighborhood Ordering for BFS-like Algorithms on Disk-based Graph Engines",
+      "authors": [
+        "Eunjae Lee",
+        "Junghyun Kim",
+        "Keunhak Lim",
+        "Sam H. Noh",
+        "Jiwon Seo 0002"
+      ],
+      "pages": "459-474",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LeeKLNS19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LeeKLNS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/lee-eunjae"
+      ]
+    },
+    {
+      "title": "Protocol-Aware Recovery for Consensus-Based Storage",
+      "authors": [
+        "Ramnatthan Alagappan",
+        "Aishwarya Ganesan",
+        "Eric Lee",
+        "Aws Albarghouthi",
+        "Vijay Chidambaram",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/AlagappanGLACAA19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/AlagappanGLACAA19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/alagappan"
+      ]
+    },
+    {
+      "title": "QZFS: QAT Accelerated Compression in File System for Application Agnostic and Cost Efficient Data Storage",
+      "authors": [
+        "Xiaokang Hu",
+        "Fuzong Wang",
+        "Weigang Li 0002",
+        "Jian Li 0021",
+        "Haibing Guan"
+      ],
+      "pages": "163-176",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuWL0G19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuWL0G19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/hu-xiaokang"
+      ]
+    },
+    {
+      "title": "R2P2: Making RPCs first-class datacenter citizens",
+      "authors": [
+        "Marios Kogias",
+        "George Prekas",
+        "Adrien Ghosn",
+        "Jonas Fietz",
+        "Edouard Bugnion"
+      ],
+      "pages": "863-880",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KogiasPGFB19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KogiasPGFB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/kogias-r2p2"
+      ]
+    },
+    {
+      "title": "Secured Routines: Language-based Construction of Trusted Execution Environments",
+      "authors": [
+        "Adrien Ghosn",
+        "James R. Larus",
+        "Edouard Bugnion"
+      ],
+      "pages": "571-586",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GhosnLB19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GhosnLB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/ghosn"
+      ]
+    },
+    {
+      "title": "SemperOS: A Distributed Capability System",
+      "authors": [
+        "Matthias Hille",
+        "Nils Asmussen",
+        "Pramod Bhatotia",
+        "Hermann H&auml;rtig"
+      ],
+      "pages": "709-722",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HilleABH19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HilleABH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/hille"
+      ]
+    },
+    {
+      "title": "SILK: Preventing Latency Spikes in Log-Structured Merge Key-Value Stores",
+      "authors": [
+        "Oana Balmau",
+        "Florin Dinu",
+        "Willy Zwaenepoel",
+        "Karan Gupta",
+        "Ravishankar Chandhiramoorthi",
+        "Diego Didona"
+      ],
+      "pages": "753-766",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BalmauDZGCD19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BalmauDZGCD19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/balmau"
+      ]
+    },
+    {
+      "title": "SIMD-X: Programming and Processing of Graph Algorithms on GPUs",
+      "authors": [
+        "Hang Liu 0001",
+        "H. Howie Huang"
+      ],
+      "pages": "411-428",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiuH19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiuH19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/liu-hang"
+      ]
+    },
+    {
+      "title": "SmartDedup: Optimizing Deduplication for Resource-constrained Devices",
+      "authors": [
+        "Qirui Yang",
+        "Runyu Jin",
+        "Ming Zhao 0002"
+      ],
+      "pages": "633-646",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YangJZ19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YangJZ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/yang-qirui"
+      ]
+    },
+    {
+      "title": "SOPHIA: Online Reconfiguration of Clustered NoSQL Databases for Time-Varying Workloads",
+      "authors": [
+        "Ashraf Mahgoub",
+        "Paul Wood",
+        "Alexander Medoff",
+        "Subrata Mitra",
+        "Folker Meyer",
+        "Somali Chaterji",
+        "Saurabh Bagchi"
+      ],
+      "pages": "223-240",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MahgoubWMMMCB19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MahgoubWMMMCB19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/mahgoub"
+      ]
+    },
+    {
+      "title": "STRADS-AP: Simplifying Distributed Machine Learning Programming without Introducing a New Programming Model",
+      "authors": [
+        "Jin Kyu Kim",
+        "Abutalib Aghayev",
+        "Garth A. Gibson",
+        "Eric P. Xing"
+      ],
+      "pages": "207-222",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KimAGX19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KimAGX19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/kim-jin"
+      ]
+    },
+    {
+      "title": "StreamBox-TZ: Secure Stream Analytics at the Edge with TrustZone",
+      "authors": [
+        "Heejin Park",
+        "Shuang Zhai",
+        "Long Lu",
+        "Felix Xiaozhu Lin"
+      ],
+      "pages": "537-554",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ParkZLL19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ParkZLL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/park-heejin"
+      ]
+    },
+    {
+      "title": "Supporting Security Sensitive Tenants in a Bare-Metal Cloud",
+      "authors": [
+        "Amin Mosayyebzadeh",
+        "Apoorve Mohan",
+        "Sahil Tikale",
+        "Mania Abdi",
+        "Nabil Schear",
+        "Trammell Hudson",
+        "Charles Munson",
+        "Larry Rudolph",
+        "Gene Cooperman",
+        "Peter Desnoyers",
+        "Orran Krieger"
+      ],
+      "pages": "587-602",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MosayyebzadehMT19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MosayyebzadehMT19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/mosayyebzadeh"
+      ]
+    },
+    {
+      "title": "Tangram: Bridging Immutable and Mutable Abstractions for Distributed Data Analytics",
+      "authors": [
+        "Yuzhen Huang",
+        "Xiao Yan 0002",
+        "Guanxian Jiang",
+        "Tatiana Jin",
+        "James Cheng",
+        "An Xu",
+        "Zhanhao Liu",
+        "Shuo Tu"
+      ],
+      "pages": "191-206",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuangYJJCXLT19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuangYJJCXLT19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/huang"
+      ]
+    },
+    {
+      "title": "The Design and Operation of CloudLab",
+      "authors": [
+        "Dmitry Duplyakin",
+        "Robert Ricci",
+        "Aleksander Maricq",
+        "Gary Wong",
+        "Jonathon Duerig",
+        "Eric Eide",
+        "Leigh Stoller",
+        "Mike Hibler",
+        "David Johnson 0004",
+        "Kirk Webb",
+        "Aditya Akella",
+        "Kuang-Ching Wang",
+        "Glenn Ricart",
+        "Larry Landweber",
+        "Chip Elliott",
+        "Michael Zink",
+        "Emmanuel Cecchet",
+        "Snigdhaswin Kar",
+        "Prabodh Mishra"
+      ],
+      "pages": "1-14",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DuplyakinRMWDES19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DuplyakinRMWDES19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/duplyakin"
+      ]
+    },
+    {
+      "title": "The Semantics of Transactions and Weak Memory in x86, Power, ARM, and C++",
+      "authors": [
+        "Nathan Chong",
+        "Tyler Sorensen 0001",
+        "John Wickerson"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChongSW19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChongSW19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/chong"
+      ]
+    },
+    {
+      "title": "Track-based Translation Layers for Interlaced Magnetic Recording",
+      "authors": [
+        "Mohammad Hossein Hajkazemi",
+        "Ajay Narayan Kulkarni",
+        "Peter Desnoyers",
+        "Timothy R. Feldman"
+      ],
+      "pages": "821-832",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HajkazemiKDF19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HajkazemiKDF19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/hajkazemi"
+      ]
+    },
+    {
+      "title": "Transactuations: Where Transactions Meet the Physical World",
+      "authors": [
+        "Aritra Sengupta",
+        "Tanakorn Leesatapornwongsa",
+        "Masoud Saeida Ardekani",
+        "Cesar A. Stuardo"
+      ],
+      "pages": "91-106",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SenguptaLAS19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SenguptaLAS19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/sengupta"
+      ]
+    },
+    {
+      "title": "Transkernel: Bridging Monolithic Kernels to Peripheral Cores",
+      "authors": [
+        "Liwei Guo",
+        "Shuang Zhai",
+        "Yi Qiao",
+        "Felix Xiaozhu Lin"
+      ],
+      "pages": "675-692",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuoZQL19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuoZQL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/guo"
+      ]
+    },
+    {
+      "title": "Unification of Temporary Storage in the NodeKernel Architecture",
+      "authors": [
+        "Patrick Stuedi",
+        "Animesh Trivedi",
+        "Jonas Pfefferle",
+        "Ana Klimovic",
+        "Adrian Sch&uuml;pbach",
+        "Bernard Metzler"
+      ],
+      "pages": "767-782",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/StuediTPKSM19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/StuediTPKSM19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/stuedi"
+      ]
+    },
+    {
+      "title": "Unleashing the Power of Learning: An Enhanced Learning-Based Approach for Dynamic Binary Translation",
+      "authors": [
+        "Changheng Song",
+        "Wenwen Wang 0001",
+        "Pen-Chung Yew",
+        "Antonia Zhai",
+        "Weihua Zhang"
+      ],
+      "pages": "77-90",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SongWYZZ19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SongWYZZ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/song"
+      ]
+    },
+    {
+      "title": "Who Left Open the Cookie Jar? A Comprehensive Evaluation of Third-Party Cookie Policies",
+      "authors": [
+        "Gertjan Franken",
+        "Tom van Goethem",
+        "Wouter Joosen"
+      ],
+      "pages": null,
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/FrankenGJ19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/FrankenGJ19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/franken"
+      ]
+    },
+    {
+      "title": "Who's Afraid of Uncorrectable Bit Errors? Online Recovery of Flash Errors with Distributed Redundancy",
+      "authors": [
+        "Amy Tai",
+        "Andrew Kryczka",
+        "Shobhit O. Kanaujia",
+        "Kyle Jamieson",
+        "Michael J. Freedman",
+        "Asaf Cidon"
+      ],
+      "pages": "977-992",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/TaiKKJFC19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/TaiKKJFC19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/tai"
+      ]
+    },
+    {
+      "title": "Your Coflow has Many Flows: Sampling them for Fun and Speed",
+      "authors": [
+        "Akshay Jajoo",
+        "Y. Charlie Hu",
+        "Xiaojun Lin 0001"
+      ],
+      "pages": "833-848",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JajooHL19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JajooHL19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/jajoo"
+      ]
+    },
+    {
+      "title": "Zanzibar: Google's Consistent, Global Authorization System",
+      "authors": [
+        "Ruoming Pang",
+        "Ram&oacute;n C&aacute;ceres",
+        "Mike Burrows",
+        "Zhifeng Chen",
+        "Pratik Dave",
+        "Nathan Germer",
+        "Alexander Golynski",
+        "Kevin Graney",
+        "Nina Kang",
+        "Lea Kissner",
+        "Jeffrey L. Korn",
+        "Abhishek Parmar",
+        "Christopher D. Richards",
+        "Mengzhi Wang"
+      ],
+      "pages": "33-46",
+      "year": "2019",
+      "venue": "USENIX ATC 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PangCBCDGGGKKKP19",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PangCBCDGGGKKKP19.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc19/presentation/pang"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OS Kernel Papers Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header site-header-compact">
+      <div class="wrap wrap-wide">
+        <h1>OS Kernel Papers Hub</h1>
+        <p class="lede lede-compact">
+          Browse proceedings from top systems venues (dblp). Full historical data for
+          SOSP, OSDI, NSDI, ASPLOS, EuroSys, ISCA, FAST, USENIX Security, USENIX ATC, and ICSE.
+        </p>
+      </div>
+    </header>
+
+    <main class="wrap wrap-wide hub-main">
+      <section
+        class="hub-section timeline-hub"
+        id="timeline-section"
+        aria-labelledby="timeline-heading"
+      >
+        <header class="hub-section-head">
+          <div>
+            <h2 id="timeline-heading">2026 conference timeline</h2>
+            <p class="hub-section-meta" id="timeline-meta">Loading...</p>
+          </div>
+        </header>
+        <div class="timeline-rail-wrap" id="timeline-rail-wrap"></div>
+        <ol id="timeline-events" class="timeline-events" aria-label="2026 conference dates"></ol>
+        <p class="panel-note timeline-note" id="timeline-note"></p>
+      </section>
+
+      <section
+        class="hub-section broadcast-hub"
+        id="broadcast-section"
+        aria-labelledby="broadcast-heading"
+      >
+        <header class="broadcast-head">
+          <h2 id="broadcast-heading" class="sr-only">Yesterday's kernel and systems LLM papers</h2>
+          <p class="broadcast-tagline">Yesterday's top kernel &amp; systems LLM papers <span class="broadcast-utc">(UTC)</span></p>
+          <p class="hub-section-meta broadcast-meta" id="broadcast-meta">Loading...</p>
+        </header>
+        <ul id="broadcast-list" class="broadcast-grid" aria-live="polite" aria-label="Yesterday's top kernel and systems LLM papers"></ul>
+        <p class="panel-note broadcast-note" id="broadcast-note"></p>
+      </section>
+
+      <section
+        class="hub-section top-hub"
+        id="top-monthly-section"
+        aria-labelledby="top-heading"
+      >
+        <header class="hub-section-head">
+          <div>
+            <h2 id="top-heading">OS Kernel &amp; LLM picks by areas</h2>
+            <p class="hub-section-meta" id="top-meta">Loading...</p>
+          </div>
+        </header>
+        <p class="panel-note top-note" id="top-note"></p>
+        <div id="top-categories" class="top-categories" aria-label="Categorized recommendations"></div>
+      </section>
+
+      <section class="hub-section conf-hub" aria-labelledby="conf-hub-heading">
+        <header class="hub-section-head">
+          <div>
+            <h2 id="conf-hub-heading">Conference proceedings</h2>
+            <p class="hub-section-meta" id="conference-meta">Loading...</p>
+          </div>
+          <label class="search hub-search">
+            <span class="sr-only">Filter venues or years</span>
+            <input
+              id="conf-search"
+              type="search"
+              placeholder="Filter by venue or year (e.g. SOSP 2024)..."
+              autocomplete="off"
+            />
+          </label>
+        </header>
+
+        <div class="latest-block" aria-labelledby="latest-heading">
+          <h3 id="latest-heading" class="block-label">Latest edition per venue</h3>
+          <div id="latest-grid" class="latest-grid"></div>
+        </div>
+
+        <div class="venue-browser" aria-labelledby="browse-heading">
+          <h3 id="browse-heading" class="block-label">Browse by venue</h3>
+          <div id="venue-list" class="venue-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap wrap-wide">
+      <p>Data: <a href="https://dblp.org/">dblp</a> (CC0) &middot; <a href="https://arxiv.org/">arXiv</a></p>
+    </footer>
+
+    <script src="hub.js?v=30" type="module"></script>
+  </body>
+</html>

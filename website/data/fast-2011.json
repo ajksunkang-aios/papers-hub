@@ -1,0 +1,387 @@
+{
+  "id": "fast-2011",
+  "venue": "fast",
+  "year": 2011,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2011.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2011.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2011",
+    "conf/fast/2011-1",
+    "conf/fast/2011-2",
+    "conf/fast/2011-3",
+    "conf/fast/2011-4",
+    "conf/fast/2011-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 20,
+  "display_count": 20,
+  "papers": [
+    {
+      "title": "A Scheduling Framework That Makes Any Disk Schedulers Non-Work-Conserving Solely Based on Request Characteristics",
+      "authors": [
+        "Yuehai Xu",
+        "Song Jiang 0001"
+      ],
+      "pages": "119-132",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/XuJ11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/XuJ11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Xu"
+      ]
+    },
+    {
+      "title": "A Study of Practical Deduplication",
+      "authors": [
+        "Dutch T. Meyer",
+        "William J. Bolosky"
+      ],
+      "pages": "1-13",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MeyerB11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MeyerB11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Meyer"
+      ]
+    },
+    {
+      "title": "AONT-RS: Blending Security and Performance in Dispersed Storage Systems",
+      "authors": [
+        "Jason K. Resch",
+        "James S. Plank"
+      ],
+      "pages": "191-202",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ReschP11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ReschP11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Resch"
+      ]
+    },
+    {
+      "title": "CAFTL: A Content-Aware Flash Translation Layer Enhancing the Lifespan of Flash Memory based Solid State Drives",
+      "authors": [
+        "Feng Chen 0005",
+        "Tian Luo",
+        "Xiaodong Zhang 0001"
+      ],
+      "pages": "77-90",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChenLZ11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChenLZ11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Chen"
+      ]
+    },
+    {
+      "title": "Capo: Recapitulating Storage for Virtual Desktops",
+      "authors": [
+        "Mohammad Shamma",
+        "Dutch T. Meyer",
+        "Jake Wires",
+        "Maria Ivanova",
+        "Norman C. Hutchinson",
+        "Andrew Warfield"
+      ],
+      "pages": "31-45",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ShammaMWIHW11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ShammaMWIHW11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Shamma"
+      ]
+    },
+    {
+      "title": "Consistent and Durable Data Structures for Non-Volatile Byte-Addressable Memory",
+      "authors": [
+        "Shivaram Venkataraman",
+        "Niraj Tolia",
+        "Parthasarathy Ranganathan",
+        "Roy H. Campbell"
+      ],
+      "pages": "61-75",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/VenkataramanTRC11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/VenkataramanTRC11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Venkataraman"
+      ]
+    },
+    {
+      "title": "Cost Effective Storage using Extent Based Dynamic Tiering",
+      "authors": [
+        "Jorge Guerra",
+        "Himabindu Pucha",
+        "Joseph S. Glider",
+        "Wendy Belluomini",
+        "Raju Rangaswami"
+      ],
+      "pages": "273-286",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GuerraPGBR11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GuerraPGBR11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Guerra"
+      ]
+    },
+    {
+      "title": "Emulating Goliath Storage Systems with David",
+      "authors": [
+        "Nitin Agrawal 0001",
+        "Leo Prasath Arulraj",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "203-216",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AgrawalAAA11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AgrawalAAA11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Agrawal"
+      ]
+    },
+    {
+      "title": "Exploiting Half-Wits: Smarter Storage for Low-Power Devices",
+      "authors": [
+        "Mastooreh Salajegheh",
+        "Yue Wang",
+        "Kevin Fu",
+        "Anxiao Jiang",
+        "Erik G. Learned-Miller"
+      ],
+      "pages": "47-60",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SalajeghehWFJL11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SalajeghehWFJL11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Salajegheh"
+      ]
+    },
+    {
+      "title": "Exploiting Memory Device Wear-Out Dynamics to Improve NAND Flash Memory System Performance",
+      "authors": [
+        "Yangyang Pan",
+        "Guiqiang Dong",
+        "Tong Zhang 0002"
+      ],
+      "pages": "245-258",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PanDZ11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PanDZ11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Pan"
+      ]
+    },
+    {
+      "title": "FAST: Quick Application Launch on Solid-State Drives",
+      "authors": [
+        "Yongsoo Joo",
+        "Junhee Ryu",
+        "Sangsoo Park",
+        "Kang G. Shin"
+      ],
+      "pages": "259-272",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/JooRPS11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/JooRPS11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Joo"
+      ]
+    },
+    {
+      "title": "FastScale: Accelerate RAID Scaling by Minimizing Data Migration",
+      "authors": [
+        "Weimin Zheng",
+        "Guangyan Zhang"
+      ],
+      "pages": "149-161",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ZhengZ11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ZhengZ11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Zheng"
+      ]
+    },
+    {
+      "title": "Improving Throughput for Small Disk Requests with Proximal I/O",
+      "authors": [
+        "Jiri Schindler",
+        "Sandip Shete",
+        "Keith A. Smith"
+      ],
+      "pages": "133-147",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SchindlerSS11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SchindlerSS11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Schindler"
+      ]
+    },
+    {
+      "title": "Just-in-Time Analytics on Large File Systems",
+      "authors": [
+        "H. Howie Huang",
+        "Nan Zhang 0004",
+        "Wei Wang 0082",
+        "Gautam Das 0001",
+        "Alexander S. Szalay"
+      ],
+      "pages": "217-230",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HuangZWDS11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HuangZWDS11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Huang"
+      ]
+    },
+    {
+      "title": "Leveraging Value Locality in Optimizing NAND Flash-based SSDs",
+      "authors": [
+        "Aayush Gupta",
+        "Raghav Pisolkar",
+        "Bhuvan Urgaonkar",
+        "Anand Sivasubramaniam"
+      ],
+      "pages": "91-103",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GuptaPUS11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GuptaPUS11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Gupta"
+      ]
+    },
+    {
+      "title": "Making the Common Case the Only Case with Anticipatory Memory Allocation",
+      "authors": [
+        "Swaminathan Sundararaman",
+        "Yupu Zhang",
+        "Sriram Subramanian",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "231-244",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SundararamanZSAA11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SundararamanZSAA11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Sundararaman"
+      ]
+    },
+    {
+      "title": "Reliably Erasing Data from Flash-Based Solid State Drives",
+      "authors": [
+        "Michael Yung Chung Wei",
+        "Laura M. Grupp",
+        "Frederick E. Spada",
+        "Steven Swanson"
+      ],
+      "pages": "105-117",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WeiGSS11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WeiGSS11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Wei"
+      ]
+    },
+    {
+      "title": "Scale and Concurrency of GIGA+: File System Directories with Millions of Files",
+      "authors": [
+        "Swapnil Patil 0001",
+        "Garth A. Gibson"
+      ],
+      "pages": "177-190",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PatilG11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PatilG11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Patil"
+      ]
+    },
+    {
+      "title": "The SCADS Director: Scaling a Distributed Storage System Under Stringent Performance Requirements",
+      "authors": [
+        "Beth Trushkowsky",
+        "Peter Bod&iacute;k",
+        "Armando Fox",
+        "Michael J. Franklin",
+        "Michael I. Jordan",
+        "David A. Patterson 0001"
+      ],
+      "pages": "163-176",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TrushkowskyBFFJP11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TrushkowskyBFFJP11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Trushkowsky"
+      ]
+    },
+    {
+      "title": "Tradeoffs in Scalable Data Routing for Deduplication Clusters",
+      "authors": [
+        "Wei Dong 0003",
+        "Fred Douglis",
+        "Kai Li 0001",
+        "R. Hugo Patterson",
+        "Sazzala Reddy",
+        "Philip Shilane"
+      ],
+      "pages": "15-29",
+      "year": "2011",
+      "venue": "FAST 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DongDLPRS11",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DongDLPRS11.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast11/tech/techAbstracts.html#Dong"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1403 @@
+{
+  "id": "usenix-2023",
+  "venue": "usenix",
+  "year": 2023,
+  "short_name": "USENIX ATC",
+  "full_name": "USENIX Annual Technical Conference",
+  "source_url": "https://dblp.org/db/conf/usenix/usenix2023.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/usenix/usenix2023.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/usenix/2023",
+    "conf/usenix/2023-1",
+    "conf/usenix/2023-2",
+    "conf/usenix/2023-3",
+    "conf/usenix/2023-4",
+    "conf/usenix/2023-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) USENIX Annual Technical Conference",
+    "^USENIX Annual Technical Conference \\d+"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 65,
+  "display_count": 65,
+  "papers": [
+    {
+      "title": "AAsclepius: Monitoring, Diagnosing, and Detouring at the Internet Peering Edge",
+      "authors": [
+        "Kaicheng Yang 0001",
+        "Yuanpeng Li 0002",
+        "Sheng Long",
+        "Tong Yang 0003",
+        "Ruijie Miao",
+        "Yikai Zhao 0001",
+        "Chaoyang Ji",
+        "Penghui Mi",
+        "Guodong Yang",
+        "Qiong Xie",
+        "Hao Wang 0005",
+        "Yinhua Wang",
+        "Bo Deng",
+        "Zhiqiang Liao",
+        "Chengqiang Huang",
+        "Yongqiang Yang",
+        "Xiang Huang",
+        "Wei Sun",
+        "Xiaoping Zhu"
+      ],
+      "pages": "655-671",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YangLL0MZJMYXWW23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YangLL0MZJMYXWW23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/yang-kaicheng"
+      ]
+    },
+    {
+      "title": "Accelerating Distributed MoE Training and Inference with Lina",
+      "authors": [
+        "Jiamin Li 0002",
+        "Yimin Jiang",
+        "Yibo Zhu 0001",
+        "Cong Wang 0001",
+        "Hong Xu 0001"
+      ],
+      "pages": "945-959",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiJZ0X23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiJZ0X23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/li-jiamin"
+      ]
+    },
+    {
+      "title": "Adaptive Online Cache Capacity Optimization via Lightweight Working Set Size Estimation at Scale",
+      "authors": [
+        "Rong Gu 0001",
+        "Simian Li",
+        "Haipeng Dai 0001",
+        "Hancheng Wang",
+        "Yili Luo",
+        "Bin Fan",
+        "Ran Ben Basat",
+        "Ke Wang",
+        "Zhenyu Song",
+        "Shouwei Chen",
+        "Beinan Wang",
+        "Yihua Huang 0001",
+        "Guihai Chen"
+      ],
+      "pages": "467-484",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuLDWLFBWSCW0C23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuLDWLFBWSCW0C23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/gu"
+      ]
+    },
+    {
+      "title": "APRON: Authenticated and Progressive System Image Renovation",
+      "authors": [
+        "Sangho Lee 0001"
+      ],
+      "pages": "275-292",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/000123",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/000123.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/lee"
+      ]
+    },
+    {
+      "title": "Arbitor: A Numerically Accurate Hardware Emulation Tool for DNN Accelerators",
+      "authors": [
+        "Chenhao Jiang",
+        "Anand Jayarajan",
+        "Hao Lu",
+        "Gennady Pekhimenko"
+      ],
+      "pages": "519-536",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JiangJLP23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JiangJLP23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/jiang-chenhao"
+      ]
+    },
+    {
+      "title": "AutoARTS: Taxonomy, Insights and Tools for Root Cause Labelling of Incidents in Microsoft Azure",
+      "authors": [
+        "Pradeep Dogga",
+        "Chetan Bansal",
+        "Richard Costleigh",
+        "Gopinath Jayagopal",
+        "Suman Nath",
+        "Xuchao Zhang"
+      ],
+      "pages": "359-372",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DoggaBCJNZ23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DoggaBCJNZ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/dogga"
+      ]
+    },
+    {
+      "title": "Avoiding the Ordering Trap in Systems Performance Measurement",
+      "authors": [
+        "Dmitry Duplyakin",
+        "Nikhil Ramesh",
+        "Carina Imburgia",
+        "Hamza Fathallah Al Sheikh",
+        "Semil Jain",
+        "Prikshit Tekta",
+        "Aleksander Maricq",
+        "Gary Wong",
+        "Robert Ricci"
+      ],
+      "pages": "373-386",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/DuplyakinRISJTM23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/DuplyakinRISJTM23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/duplyakin"
+      ]
+    },
+    {
+      "title": "AWARE: Automate Workload Autoscaling with Reinforcement Learning in Production Cloud Systems",
+      "authors": [
+        "Haoran Qiu",
+        "Weichao Mao",
+        "Chen Wang 0039",
+        "Hubertus Franke",
+        "Alaa Youssef",
+        "Zbigniew T. Kalbarczyk",
+        "Tamer Basar",
+        "Ravishankar K. Iyer"
+      ],
+      "pages": "387-402",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/QiuM0FYKBI23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/QiuM0FYKBI23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/qiu-haoran"
+      ]
+    },
+    {
+      "title": "Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation Gradient Descent",
+      "authors": [
+        "Qizhen Weng 0001",
+        "Lingyun Yang",
+        "Yinghao Yu",
+        "Wei Wang 0030",
+        "Xiaochuan Tang",
+        "Guodong Yang",
+        "Liping Zhang 0013"
+      ],
+      "pages": "995-1008",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WengYY0TYZ23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WengYY0TYZ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/weng"
+      ]
+    },
+    {
+      "title": "Bifrost: Analysis and Optimization of Network I/O Tax in Confidential Virtual Machines",
+      "authors": [
+        "Dingji Li",
+        "Zeyu Mi",
+        "Chenhui Ji",
+        "Yifan Tan",
+        "Binyu Zang",
+        "Haibing Guan",
+        "Haibo Chen 0001"
+      ],
+      "pages": "1-15",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiMJTZG023",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiMJTZG023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/li-dingji"
+      ]
+    },
+    {
+      "title": "Bridging the Gap between QoE and QoS in Congestion Control: A Large-scale Mobile Web Service Perspective",
+      "authors": [
+        "Jia Zhang 0010",
+        "Yixuan Zhang",
+        "Enhuan Dong",
+        "Yan Zhang 0002",
+        "Shaorui Ren",
+        "Zili Meng",
+        "Mingwei Xu 0001",
+        "Xiaotian Li",
+        "Zongzhi Hou",
+        "Zhicheng Yang",
+        "Xiaoming Fu 0001"
+      ],
+      "pages": "553-569",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhangZDZRMXLHY023",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhangZDZRMXLHY023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/zhang-jia"
+      ]
+    },
+    {
+      "title": "Bridging the Gap between Relational OLTP and Graph-based OLAP",
+      "authors": [
+        "Sijie Shen",
+        "Zihang Yao",
+        "Lin Shi",
+        "Lei Wang 0004",
+        "Longbin Lai",
+        "Qian Tao",
+        "Li Su 0005",
+        "Rong Chen 0001",
+        "Wenyuan Yu",
+        "Haibo Chen 0001",
+        "Binyu Zang",
+        "Jingren Zhou 0001"
+      ],
+      "pages": "181-196",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShenYSWLTS0Y0ZZ23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShenYSWLTS0Y0ZZ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/shen"
+      ]
+    },
+    {
+      "title": "Calcspar: A Contract-Aware LSM Store for Cloud Storage with Low Latency Spikes",
+      "authors": [
+        "Yuanhui Zhou",
+        "Jian Zhou 0004",
+        "Shuning Chen",
+        "Peng Xu",
+        "Peng Wu",
+        "Yanguang Wang",
+        "Xian Liu",
+        "Ling Zhan",
+        "Jiguang Wan 0001"
+      ],
+      "pages": "451-465",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhouZCXWWLZW23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhouZCXWWLZW23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/zhou"
+      ]
+    },
+    {
+      "title": "Change Management in Physical Network Lifecycle Automation",
+      "authors": [
+        "Mohammad Al-Fares",
+        "Virginia Beauregard",
+        "Kevin Grant",
+        "Angus Griffith",
+        "Jahangir Hasan",
+        "Chen Huang",
+        "Quan Leng",
+        "Jiayao Li",
+        "Alexander Lin",
+        "Zhuotao Liu",
+        "Ahmed Mansy",
+        "Bill Martinusen",
+        "Nikil Mehta",
+        "Jeffrey C. Mogul",
+        "Andrew Narver",
+        "Anshul Nigham",
+        "Melanie Obenberger",
+        "Sean Smith",
+        "Kurt Steinkraus",
+        "Sheng Sun",
+        "Edward Thiele",
+        "Amin Vahdat"
+      ],
+      "pages": "635-653",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Al-FaresBGGHHLL23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Al-FaresBGGHHLL23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/al-fares"
+      ]
+    },
+    {
+      "title": "Comosum: An Extensible, Reconfigurable, and Fault-Tolerant IoT Platform for Digital Agriculture",
+      "authors": [
+        "Gloire Rubambiza",
+        "Shiang-Wan Chin",
+        "Mueed Rehman",
+        "Sachille Atapattu",
+        "Jos&eacute; F. Mart&iacute;nez",
+        "Hakim Weatherspoon"
+      ],
+      "pages": "197-214",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/RubambizaCRAMW23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/RubambizaCRAMW23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/rubambiza"
+      ]
+    },
+    {
+      "title": "Confidential Computing within an AI Accelerator",
+      "authors": [
+        "Kapil Vaswani",
+        "Stavros Volos",
+        "C&eacute;dric Fournet",
+        "Antonio Nino Diaz",
+        "Ken Gordon",
+        "Balaji Vembu",
+        "Sam Webster",
+        "David Chisnall",
+        "Saurabh Kulkarni",
+        "Graham Cunningham",
+        "Richard Osborne",
+        "Dan Wilkinson"
+      ],
+      "pages": "501-518",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/VaswaniVFDGVWCK23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/VaswaniVFDGVWCK23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/vaswani"
+      ]
+    },
+    {
+      "title": "CXL-ANNS: Software-Hardware Collaborative Memory Disaggregation and Computation for Billion-Scale Approximate Nearest Neighbor Search",
+      "authors": [
+        "Junhyeok Jang",
+        "Hanjin Choi",
+        "Hanyeoreum Bae",
+        "Seungjun Lee",
+        "Miryeong Kwon",
+        "Myoungsoo Jung"
+      ],
+      "pages": "585-600",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JangCBLKJ23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JangCBLKJ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/jang"
+      ]
+    },
+    {
+      "title": "Cyclosa: Redundancy-Free Graph Pattern Mining via Set Dataflow",
+      "authors": [
+        "Chuangyi Gui",
+        "Xiaofei Liao",
+        "Long Zheng 0003",
+        "Hai Jin 0001"
+      ],
+      "pages": "71-85",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuiL0023",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuiL0023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/gui"
+      ]
+    },
+    {
+      "title": "Decentralized and Stateful Serverless Computing on the Internet Computer Blockchain",
+      "authors": [
+        "Maksym Arutyunyan",
+        "Andriy Berestovskyy",
+        "Adam Bratschi-Kaye",
+        "Ulan Degenbaev",
+        "Manu Drijvers",
+        "Islam El-Ashi",
+        "Stefan Kaestle",
+        "Roman Kashitsyn",
+        "Maciej Kot",
+        "Yvonne-Anne Pignolet",
+        "Rostislav Rumenov",
+        "Dimitris Sarlis",
+        "Alin Sinpalean",
+        "Alexandru Uta",
+        "Bogdan Warinschi",
+        "Alexandra Zapuc"
+      ],
+      "pages": "329-343",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ArutyunyanBBDDE23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ArutyunyanBBDDE23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/arutyunyan"
+      ]
+    },
+    {
+      "title": "Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices",
+      "authors": [
+        "Hsin-Hsuan Sung",
+        "Jou-An Chen",
+        "Wei Niu 0002",
+        "Jiexiong Guan",
+        "Bin Ren 0002",
+        "Xipeng Shen"
+      ],
+      "pages": "865-877",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SungCNGRS23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SungCNGRS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/sung"
+      ]
+    },
+    {
+      "title": "Deploying User-space TCP at Cloud Scale with LUNA",
+      "authors": [
+        "Lingjun Zhu",
+        "Yifan Shen",
+        "Erci Xu",
+        "Bo Shi",
+        "Ting Fu",
+        "Shu Ma",
+        "Shuguang Chen",
+        "Zhongyu Wang",
+        "Haonan Wu",
+        "Xingyu Liao",
+        "Zhendan Yang",
+        "Zhongqing Chen",
+        "Wei Lin",
+        "Yijun Hou",
+        "Rong Liu",
+        "Chao Shi",
+        "Jiaji Zhu",
+        "Jiesheng Wu"
+      ],
+      "pages": "673-687",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhuSXSFMCWWLYCL23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhuSXSFMCWWLYCL23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/zhu-lingjun"
+      ]
+    },
+    {
+      "title": "Distributed Transactions at Scale in Amazon DynamoDB",
+      "authors": [
+        "Joseph Idziorek",
+        "Alex Keyes",
+        "Colin Lazier",
+        "Somu Perianayagam",
+        "Prithvi Ramanathan",
+        "James Christopher Sorenson III",
+        "Doug Terry",
+        "Akshat Vig"
+      ],
+      "pages": "705-717",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/IdziorekKLPRSTV23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/IdziorekKLPRSTV23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/idziorek"
+      ]
+    },
+    {
+      "title": "Efficient Memory Overcommitment for I/O Passthrough Enabled VMs via Fine-grained Page Meta-data Management",
+      "authors": [
+        "Yaohui Wang",
+        "Ben Luo",
+        "Yibin Shen"
+      ],
+      "pages": "769-783",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangLS23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangLS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/wang-yaohui"
+      ]
+    },
+    {
+      "title": "EnvPipe: Performance-preserving DNN Training Framework for Saving Energy",
+      "authors": [
+        "Sangjin Choi",
+        "Inhoe Koo",
+        "Jeongseob Ahn",
+        "Myeongjae Jeon",
+        "Youngjin Kwon"
+      ],
+      "pages": "851-864",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ChoiKAJK23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ChoiKAJK23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/choi"
+      ]
+    },
+    {
+      "title": "EPF: Evil Packet Filter",
+      "authors": [
+        "Di Jin",
+        "Vaggelis Atlidakis",
+        "Vasileios P. Kemerlis"
+      ],
+      "pages": "735-751",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JinAK23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JinAK23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/jin"
+      ]
+    },
+    {
+      "title": "Explore Data Placement Algorithm for Balanced Recovery Load Distribution",
+      "authors": [
+        "Yingdi Shan",
+        "Kang Chen",
+        "Yongwei Wu 0001"
+      ],
+      "pages": "233-240",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShanCW23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShanCW23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/shan"
+      ]
+    },
+    {
+      "title": "FarReach: Write-back Caching in Programmable Switches",
+      "authors": [
+        "Siyuan Sheng",
+        "Huancheng Puyang",
+        "Qun Huang 0001",
+        "Lu Tang 0004",
+        "Patrick P. C. Lee"
+      ],
+      "pages": "571-584",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShengP00L23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShengP00L23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/sheng"
+      ]
+    },
+    {
+      "title": "GLogS: Interactive Graph Pattern Matching Query At Large Scale",
+      "authors": [
+        "Longbin Lai",
+        "Yufan Yang",
+        "Zhibin Wang 0002",
+        "Yuxuan Liu",
+        "Haotian Ma",
+        "Sijie Shen",
+        "Bingqing Lyu",
+        "Xiaoli Zhou",
+        "Wenyuan Yu",
+        "Zhengping Qian",
+        "Chen Tian 0001",
+        "Sheng Zhong 0002",
+        "Yeh-Ching Chung",
+        "Jingren Zhou 0001"
+      ],
+      "pages": "53-69",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LaiYWLMSLZYQ00C23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LaiYWLMSLZYQ00C23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/lai"
+      ]
+    },
+    {
+      "title": "Legion: Automatically Pushing the Envelope of Multi-GPU System for Billion-Scale GNN Training",
+      "authors": [
+        "Jie Sun 0017",
+        "Li Su 0005",
+        "Zuocheng Shi",
+        "Wenting Shen",
+        "Zeke Wang",
+        "Lei Wang 0004",
+        "Jie Zhang 0081",
+        "Yong Li 0020",
+        "Wenyuan Yu",
+        "Jingren Zhou 0001",
+        "Fei Wu 0001"
+      ],
+      "pages": "165-179",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SunSSSWWZLYZW23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SunSSSWWZLYZW23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/sun"
+      ]
+    },
+    {
+      "title": "Lifting the veil on Meta's microservice architecture: Analyses of topology and request workflows",
+      "authors": [
+        "Darby Huye",
+        "Yuri Shkuro",
+        "Raja R. Sambasivan"
+      ],
+      "pages": "419-432",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HuyeSS23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HuyeSS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/huye"
+      ]
+    },
+    {
+      "title": "Light-Dedup: A Light-weight Inline Deduplication Framework for Non-Volatile Memory File Systems",
+      "authors": [
+        "Jiansheng Qiu",
+        "Yanqi Pan",
+        "Wen Xia",
+        "Xiaojia Huang",
+        "Wenjun Wu",
+        "Xiangyu Zou",
+        "Shiyi Li",
+        "Yu Hua 0001"
+      ],
+      "pages": "101-116",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/QiuPXHWZL023",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/QiuPXHWZL023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/qiu-jiansheng"
+      ]
+    },
+    {
+      "title": "LLFree: Scalable and Optionally-Persistent Page-Frame Allocation",
+      "authors": [
+        "Lars Wrenger",
+        "Florian Rommel",
+        "Alexander Halbuer",
+        "Christian Dietrich 0001",
+        "Daniel Lohmann"
+      ],
+      "pages": "897-914",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WrengerRHDL23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WrengerRHDL23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/wrenger"
+      ]
+    },
+    {
+      "title": "LoopDelta: Embedding Locality-aware Opportunistic Delta Compression in Inline Deduplication for Highly Efficient Data Reduction",
+      "authors": [
+        "Yucheng Zhang",
+        "Hong Jiang 0001",
+        "Dan Feng 0001",
+        "Nan Jiang 0013",
+        "Taorong Qiu",
+        "Wei Huang 0013"
+      ],
+      "pages": "133-148",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Zhang00JQ023",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Zhang00JQ023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/zhang-yucheng"
+      ]
+    },
+    {
+      "title": "LPNS: Scalable and Latency-Predictable Local Storage Virtualization for Unpredictable NVMe SSDs in Clouds",
+      "authors": [
+        "Bo Peng 0043",
+        "Cheng Guo",
+        "Jianguo Yao 0002",
+        "Haibing Guan"
+      ],
+      "pages": "785-800",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/PengGYG23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/PengGYG23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/peng"
+      ]
+    },
+    {
+      "title": "Luci: Loader-based Dynamic Software Updates for Off-the-shelf Shared Objects",
+      "authors": [
+        "Bernhard Heinloth",
+        "Peter W&auml;gemann",
+        "Wolfgang Schr&ouml;der-Preikschat"
+      ],
+      "pages": "241-256",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HeinlothWS23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HeinlothWS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/heinloth"
+      ]
+    },
+    {
+      "title": "MELF: Multivariant Executables for a Heterogeneous World",
+      "authors": [
+        "Dominik T&ouml;llner",
+        "Christian Dietrich 0001",
+        "Illia Ostapyshyn",
+        "Florian Rommel",
+        "Daniel Lohmann"
+      ],
+      "pages": "257-273",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Tollner0ORL23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Tollner0ORL23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/tollner"
+      ]
+    },
+    {
+      "title": "MSRL: Distributed Reinforcement Learning with Dataflow Fragments",
+      "authors": [
+        "Huanzhou Zhu",
+        "Bo Zhao 0019",
+        "Gang Chen",
+        "Weifeng Chen",
+        "Yijie Chen",
+        "Liang Shi",
+        "Yaodong Yang 0001",
+        "Peter R. Pietzuch",
+        "Lei Chen"
+      ],
+      "pages": "977-993",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/Zhu0CCCS0PC23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/Zhu0CCCS0PC23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/zhu-huanzhou"
+      ]
+    },
+    {
+      "title": "Nodens: Enabling Resource Efficient and Fast QoS Recovery of Dynamic Microservice Applications in Datacenters",
+      "authors": [
+        "Jiuchen Shi",
+        "Hang Zhang",
+        "Zhixin Tong",
+        "Quan Chen 0002",
+        "Kaihua Fu",
+        "Minyi Guo"
+      ],
+      "pages": "403-417",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShiZT0FG23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShiZT0FG23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/shi"
+      ]
+    },
+    {
+      "title": "Oakestra: A Lightweight Hierarchical Orchestration Framework for Edge Computing",
+      "authors": [
+        "Giovanni Bartolomeo",
+        "Mehdi Yosofie",
+        "Simon B&auml;urle",
+        "Oliver Haluszczynski",
+        "Nitinder Mohan",
+        "J&ouml;rg Ott"
+      ],
+      "pages": "215-231",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BartolomeoYBHMO23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BartolomeoYBHMO23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/bartolomeo"
+      ]
+    },
+    {
+      "title": "oBBR: Optimize Retransmissions of BBR Flows on the Internet",
+      "authors": [
+        "Pengqiang Bi",
+        "Mengbai Xiao",
+        "Dongxiao Yu",
+        "Guanghui Zhang"
+      ],
+      "pages": "537-551",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BiXYZ23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BiXYZ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/bi"
+      ]
+    },
+    {
+      "title": "On-demand Container Loading in AWS Lambda",
+      "authors": [
+        "Marc Brooker",
+        "Mike Danilov",
+        "Chris Greenwood",
+        "Phil Piwonka"
+      ],
+      "pages": "315-328",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BrookerDGP23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BrookerDGP23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/brooker"
+      ]
+    },
+    {
+      "title": "Overcoming the Memory Wall with CXL-Enabled SSDs",
+      "authors": [
+        "Shao-Peng Yang 0001",
+        "Minjae Kim 0015",
+        "Sanghyun Nam",
+        "Juhyung Park",
+        "Jin-Yong Choi",
+        "Eyee Hyun Nam",
+        "Eunji Lee",
+        "Sungjin Lee 0001",
+        "Bryan S. Kim"
+      ],
+      "pages": "601-617",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YangKNPCNLLK23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YangKNPCNLLK23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/yang-shao-peng"
+      ]
+    },
+    {
+      "title": "P2CACHE: Exploring Tiered Memory for In-Kernel File Systems Caching",
+      "authors": [
+        "Zhen Lin",
+        "Lingfeng Xiang",
+        "Jia Rao",
+        "Hui Lu 0001"
+      ],
+      "pages": "801-815",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LinXR023",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LinXR023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/lin"
+      ]
+    },
+    {
+      "title": "Pinolo: Detecting Logical Bugs in Database Management Systems with Approximate Query Synthesis",
+      "authors": [
+        "Zongyin Hao",
+        "Quanfeng Huang",
+        "Chengpeng Wang 0001",
+        "Jianfeng Wang",
+        "Yushan Zhang",
+        "Rongxin Wu",
+        "Charles Zhang 0001"
+      ],
+      "pages": "345-358",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HaoHWWZWZ23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HaoHWWZWZ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/hao"
+      ]
+    },
+    {
+      "title": "Portunus: Re-imagining Access Control in Distributed Systems",
+      "authors": [
+        "Watson Ladd",
+        "Tanya Verma",
+        "Marloes Venema",
+        "Armando Faz-Hern&aacute;ndez",
+        "Brendan McMillion",
+        "Avani Wildani",
+        "Nick Sullivan"
+      ],
+      "pages": "35-52",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LaddVVFMWS23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LaddVVFMWS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/ladd"
+      ]
+    },
+    {
+      "title": "Prefix Siphoning: Exploiting LSM-Tree Range Filters For Information Disclosure",
+      "authors": [
+        "Adi Kaufman",
+        "Moshik Hershcovitch",
+        "Adam Morrison 0001"
+      ],
+      "pages": "719-733",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/KaufmanH023",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/KaufmanH023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/kaufman"
+      ]
+    },
+    {
+      "title": "Revisiting Secondary Indexing in LSM-based Storage Systems with Persistent Memory",
+      "authors": [
+        "Jing Wang 0158",
+        "Youyou Lu",
+        "Qing Wang 0031",
+        "Yuhao Zhang 0006",
+        "Jiwu Shu"
+      ],
+      "pages": "817-832",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangL0ZS23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangL0ZS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/wang-jing"
+      ]
+    },
+    {
+      "title": "RubbleDB: CPU-Efficient Replication with NVMe-oF",
+      "authors": [
+        "Haoyu Li",
+        "Sheng Jiang",
+        "Chen Chen",
+        "Ashwini Raina",
+        "Xingyu Zhu 0015",
+        "Changxu Luo",
+        "Asaf Cidon"
+      ],
+      "pages": "689-703",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/LiJCRZLC23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/LiJCRZLC23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/li-haoyu"
+      ]
+    },
+    {
+      "title": "SAGE: Software-based Attestation for GPU Execution",
+      "authors": [
+        "Andrei Ivanov",
+        "Benjamin Rothenberger",
+        "Arnaud Dethise",
+        "Marco Canini",
+        "Torsten Hoefler",
+        "Adrian Perrig"
+      ],
+      "pages": "485-499",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/IvanovRDCHP23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/IvanovRDCHP23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/ivanov"
+      ]
+    },
+    {
+      "title": "SecretFlow-SPU: A Performant and User-Friendly Framework for Privacy-Preserving Machine Learning",
+      "authors": [
+        "Junming Ma",
+        "Yancheng Zheng",
+        "Jun Feng",
+        "Derun Zhao",
+        "Haoqi Wu",
+        "Wenjing Fang",
+        "Jin Tan",
+        "Chaofan Yu",
+        "Benyu Zhang",
+        "Lei Wang 0152"
+      ],
+      "pages": "17-33",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/MaZFZWFTYZW23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/MaZFZWFTYZW23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/ma"
+      ]
+    },
+    {
+      "title": "SingularFS: A Billion-Scale Distributed File System Using a Single Metadata Server",
+      "authors": [
+        "Hao Guo",
+        "Youyou Lu",
+        "Wenhao Lv",
+        "Xiaojian Liao",
+        "Shaoxun Zeng",
+        "Jiwu Shu"
+      ],
+      "pages": "915-928",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GuoLLLZS23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GuoLLLZS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/guo"
+      ]
+    },
+    {
+      "title": "SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization",
+      "authors": [
+        "Mingshu Zhai",
+        "Jiaao He",
+        "Zixuan Ma",
+        "Zan Zong",
+        "Runqing Zhang",
+        "Jidong Zhai"
+      ],
+      "pages": "961-975",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhaiHMZZZ23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhaiHMZZZ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/zhai"
+      ]
+    },
+    {
+      "title": "SOWalker: An I/O-Optimized Out-of-Core Graph Processing System for Second-Order Random Walks",
+      "authors": [
+        "Yutong Wu 0013",
+        "Zhan Shi 0001",
+        "Shicai Huang",
+        "Zhipeng Tian",
+        "Pengwei Zuo",
+        "Peng Fang 0002",
+        "Dan Feng 0001"
+      ],
+      "pages": "87-100",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/00130HTZF023",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/00130HTZF023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/wu"
+      ]
+    },
+    {
+      "title": "Sponge: Fast Reactive Scaling for Stream Processing with Serverless Frameworks",
+      "authors": [
+        "Won Wook Song",
+        "Taegeon Um",
+        "Sameh Elnikety",
+        "Myeongjae Jeon",
+        "Byung-Gon Chun"
+      ],
+      "pages": "301-314",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SongUEJC23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SongUEJC23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/song"
+      ]
+    },
+    {
+      "title": "STYX: Exploiting SmartNIC Capability to Reduce Datacenter Memory Tax",
+      "authors": [
+        "Houxiang Ji",
+        "Mark Mansi",
+        "Yan Sun",
+        "Yifan Yuan",
+        "Jinghan Huang 0001",
+        "Reese Kuper",
+        "Michael M. Swift",
+        "Nam Sung Kim"
+      ],
+      "pages": "619-633",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/JiMSYHKSK23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/JiMSYHKSK23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/ji"
+      ]
+    },
+    {
+      "title": "TC-GNN: Bridging Sparse GNN Computation and Dense Tensor Cores on GPUs",
+      "authors": [
+        "Yuke Wang",
+        "Boyuan Feng",
+        "Zheng Wang 0075",
+        "Guyue Huang",
+        "Yufei Ding 0001"
+      ],
+      "pages": "149-164",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/WangFWHD23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/WangFWHD23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/wang-yuke"
+      ]
+    },
+    {
+      "title": "Tectonic-Shift: A Composite Storage Fabric for Large-Scale ML Training",
+      "authors": [
+        "Mark Zhao",
+        "Satadru Pan",
+        "Niket Agarwal",
+        "Zhaoduo Wen",
+        "David Xu 0010",
+        "Anand Natarajan",
+        "Pavan Kumar",
+        "Shiva Shankar P.",
+        "Ritesh Tijoriwala",
+        "Karan Asher",
+        "Hao Wu",
+        "Aarti Basant",
+        "Daniel Ford",
+        "Delia David",
+        "Nezih Yigitbasi",
+        "Pratap Singh",
+        "Carole-Jean Wu"
+      ],
+      "pages": "433-449",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ZhaoPAWXNKPTAWB23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ZhaoPAWXNKPTAWB23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/zhao"
+      ]
+    },
+    {
+      "title": "The Hitchhiker's Guide to Operating Systems",
+      "authors": [
+        "Yanyan Jiang 0001"
+      ],
+      "pages": "929-943",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/000123a",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/000123a.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/jiang-yanyan"
+      ]
+    },
+    {
+      "title": "TiDedup: A New Distributed Deduplication Architecture for Ceph",
+      "authors": [
+        "Myoungwon Oh",
+        "Sungmin Lee",
+        "Samuel Just",
+        "Youngjin Yu",
+        "Duck-Ho Bae",
+        "Sage A. Weil",
+        "Sangyeun Cho",
+        "Heon Y. Yeom"
+      ],
+      "pages": "117-131",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/OhLJYBWCY23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/OhLJYBWCY23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/oh"
+      ]
+    },
+    {
+      "title": "Towards Iterative Relational Algebra on the GPU",
+      "authors": [
+        "Ahmedur Rahman Shovon",
+        "Thomas Gilray",
+        "Kristopher K. Micinski",
+        "Sidharth Kumar"
+      ],
+      "pages": "1009-1016",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/ShovonGMK23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/ShovonGMK23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/shovon"
+      ]
+    },
+    {
+      "title": "Translation Pass-Through for Near-Native Paging Performance in VMs",
+      "authors": [
+        "Shai Bergman",
+        "Mark Silberstein",
+        "Takahiro Shinagawa",
+        "Peter R. Pietzuch",
+        "Llu&iacute;s Vilanova"
+      ],
+      "pages": "753-768",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/BergmanSSPV23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/BergmanSSPV23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/bergman"
+      ]
+    },
+    {
+      "title": "UnFaaSener: Latency and Cost Aware Offloading of Functions from Serverless Platforms",
+      "authors": [
+        "Ghazal Sadeghian",
+        "Mohamed Elsakhawy",
+        "Mohanna Shahrad",
+        "Joe Hattori",
+        "Mohammad Shahrad"
+      ],
+      "pages": "879-896",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/SadeghianESHS23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/SadeghianESHS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/sadeghian"
+      ]
+    },
+    {
+      "title": "VectorVisor: A Binary Translation Scheme for Throughput-Oriented GPU Acceleration",
+      "authors": [
+        "Samuel Ginzburg",
+        "Mohammad Shahrad",
+        "Michael J. Freedman"
+      ],
+      "pages": "1017-1037",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/GinzburgSF23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/GinzburgSF23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/ginzburg"
+      ]
+    },
+    {
+      "title": "Zhuque: Failure is Not an Option, it's an Exception",
+      "authors": [
+        "George Hodgkins",
+        "Yi Xu 0017",
+        "Steven Swanson",
+        "Joseph Izraelevitz"
+      ],
+      "pages": "833-849",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/HodgkinsXSI23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/HodgkinsXSI23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/hodgkins"
+      ]
+    },
+    {
+      "title": "zpoline: a system call hook mechanism based on binary rewriting",
+      "authors": [
+        "Kenichi Yasukata",
+        "Hajime Tazaki",
+        "Pierre-Louis Aublin",
+        "Kenta Ishiguro"
+      ],
+      "pages": "293-300",
+      "year": "2023",
+      "venue": "USENIX ATC 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/usenix/YasukataTAI23",
+      "dblp_url": "https://dblp.org/rec/conf/usenix/YasukataTAI23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/atc23/presentation/yasukata"
+      ]
+    }
+  ]
+}

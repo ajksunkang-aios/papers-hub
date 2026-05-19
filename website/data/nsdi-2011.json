@@ -1,0 +1,792 @@
+{
+  "id": "nsdi-2011",
+  "venue": "nsdi",
+  "year": 2011,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2011.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2011.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2011",
+    "conf/nsdi/2011-1",
+    "conf/nsdi/2011-2",
+    "conf/nsdi/2011-3",
+    "conf/nsdi/2011-4",
+    "conf/nsdi/2011-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 41,
+  "display_count": 41,
+  "papers": [
+    {
+      "title": "A Semantic Framework for Data Analysis in Networked Systems",
+      "authors": [
+        "Arun Viswanathan",
+        "Alefiya Hussain",
+        "Jelena Mirkovic",
+        "Stephen Schwab",
+        "John Wroclawski"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ViswanathanHMSW10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ViswanathanHMSW10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/semantic-framework-data-analysis-networked-systems"
+      ]
+    },
+    {
+      "title": "Accurate, Low-Energy Trajectory Mapping for Mobile Devices",
+      "authors": [
+        "Arvind Thiagarajan",
+        "Lenin Ravindranath",
+        "Hari Balakrishnan",
+        "Samuel Madden 0001",
+        "Lewis Girod"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ThiagarajanRBMG10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ThiagarajanRBMG10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/accurate-low-energy-trajectory-mapping-mobile-devices"
+      ]
+    },
+    {
+      "title": "Automated Incident Management for a Platform-as-a-Service Cloud",
+      "authors": [
+        "Soumitra Sarkar",
+        "Ruchi Mahindru",
+        "Rafah Hosn",
+        "Norbert G. Vogl",
+        "HariGovind V. Ramasamy"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SarkarMHVR11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SarkarMHVR11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/automated-incident-management-platform-service-cloud"
+      ]
+    },
+    {
+      "title": "Bazaar: Strengthening User Reputations in Online Marketplaces",
+      "authors": [
+        "Ansley Post",
+        "Vijit Shah",
+        "Alan Mislove"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PostSM10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PostSM10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/bazaar-strengthening-user-reputations-online-marketplaces"
+      ]
+    },
+    {
+      "title": "Bootstrapping Accountability in the Internet We Have",
+      "authors": [
+        "Ang Li 0002",
+        "Xin Liu 0059",
+        "Xiaowei Yang 0001"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiLY10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiLY10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/bootstrapping-accountability-internet-we-have"
+      ]
+    },
+    {
+      "title": "CIEL: A Universal Execution Engine for Distributed Data-Flow Computing",
+      "authors": [
+        "Derek Gordon Murray",
+        "Malte Schwarzkopf",
+        "Christopher Smowton",
+        "Steven Smith",
+        "Anil Madhavapeddy",
+        "Steven Hand 0001"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MurraySSSMH10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MurraySSSMH10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/ciel-universal-execution-engine-distributed-data-flow-computing"
+      ]
+    },
+    {
+      "title": "Cost-Aware Live Migration of Services in the Cloud",
+      "authors": [
+        "David Breitgand",
+        "Gilad Kutiel",
+        "Danny Raz"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BreitgandKR11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BreitgandKR11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/cost-aware-live-migration-services-cloud"
+      ]
+    },
+    {
+      "title": "Design, Implementation and Evaluation of Congestion Control for Multipath TCP",
+      "authors": [
+        "Damon Wischik",
+        "Costin Raiciu",
+        "Adam Greenhalgh",
+        "Mark Handley"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WischikRGH10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WischikRGH10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/design-implementation-and-evaluation-congestion-control-multipath-tcp"
+      ]
+    },
+    {
+      "title": "Dewdrop: An Energy-Aware Runtime for Computational RFID",
+      "authors": [
+        "Michael Buettner",
+        "Benjamin Greenstein",
+        "David Wetherall"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BuettnerGW10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BuettnerGW10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/dewdrop-energy-aware-runtime-computational-rfid"
+      ]
+    },
+    {
+      "title": "Diagnosing Performance Changes by Comparing Request Flows",
+      "authors": [
+        "Raja R. Sambasivan",
+        "Alice X. Zheng",
+        "Michael De Rosa",
+        "Elie Krevat",
+        "Spencer Whitman",
+        "Michael Stroucken",
+        "William Wang",
+        "Lianghong Xu",
+        "Gregory R. Ganger"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SambasivanZRKWSWXG10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SambasivanZRKWSWXG10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/diagnosing-performance-changes-comparing-request-flows"
+      ]
+    },
+    {
+      "title": "Dominant Resource Fairness: Fair Allocation of Multiple Resource Types",
+      "authors": [
+        "Ali Ghodsi 0002",
+        "Matei Zaharia",
+        "Benjamin Hindman",
+        "Andy Konwinski",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GhodsiZHKSS10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GhodsiZHKSS10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/dominant-resource-fairness-fair-allocation-multiple-resource-types"
+      ]
+    },
+    {
+      "title": "Dynamic Resource Allocation for Spot Markets in Clouds",
+      "authors": [
+        "Qi Zhang 0008",
+        "Eren G&uuml;rses",
+        "Raouf Boutaba",
+        "Jin Xiao 0005"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangGBX11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangGBX11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/dynamic-resource-allocation-spot-markets-clouds"
+      ]
+    },
+    {
+      "title": "Efficiently Measuring Bandwidth at All Time Scales",
+      "authors": [
+        "Frank C. Uyeda",
+        "Luca Foschini 0002",
+        "Fred Baker",
+        "Subhash Suri",
+        "George Varghese"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/UyedaFBSV10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/UyedaFBSV10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/efficiently-measuring-bandwidth-all-time-scales"
+      ]
+    },
+    {
+      "title": "Enabling Flow-level Latency Measurements across Routers in Data Centers",
+      "authors": [
+        "Parmjeet Singh",
+        "Myungjin Lee",
+        "Sagar Kumar",
+        "Ramana Rao Kompella"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SinghLKK11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SinghLKK11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/enabling-flow-level-latency-measurements-across-routers-data-centers"
+      ]
+    },
+    {
+      "title": "ETTM: A Scalable Fault Tolerant Network Manager",
+      "authors": [
+        "Colin Dixon",
+        "Hardeep Uppal",
+        "Vjekoslav Brajkovic",
+        "Dane Brandon",
+        "Thomas E. Anderson",
+        "Arvind Krishnamurthy"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DixonUBBAK10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DixonUBBAK10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/ettm-scalable-fault-tolerant-network-manager"
+      ]
+    },
+    {
+      "title": "FATE and DESTINI: A Framework for Cloud Recovery Testing",
+      "authors": [
+        "Haryadi S. Gunawi",
+        "Thanh Do",
+        "Pallavi Joshi",
+        "Peter Alvaro",
+        "Joseph M. Hellerstein",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Koushik Sen",
+        "Dhruba Borthakur"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GunawiDJAHAASB10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GunawiDJAHAASB10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/fate-and-destini-framework-cloud-recovery-testing"
+      ]
+    },
+    {
+      "title": "Improving Wireless Network Performance Using Sensor Hints",
+      "authors": [
+        "Calvin C. Newport"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Newport10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Newport10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/improving-wireless-network-performance-using-sensor-hints"
+      ]
+    },
+    {
+      "title": "KnowOps: Towards an Embedded Knowledge Base for Network Management and Operations",
+      "authors": [
+        "Xu Chen 0028",
+        "Yun Mao",
+        "Zhuoqing Morley Mao",
+        "Jacobus E. van der Merwe"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChenMMM11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChenMMM11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/knowops-towards-embedded-knowledge-base-network-management-and-operations"
+      ]
+    },
+    {
+      "title": "Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center",
+      "authors": [
+        "Benjamin Hindman",
+        "Andy Konwinski",
+        "Matei Zaharia",
+        "Ali Ghodsi 0002",
+        "Anthony D. Joseph",
+        "Randy H. Katz",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HindmanKZGJKSS10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HindmanKZGJKSS10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/mesos-platform-fine-grained-resource-sharing-data-center"
+      ]
+    },
+    {
+      "title": "Model Checking a Networked System Without the Network",
+      "authors": [
+        "Rachid Guerraoui",
+        "Maysam Yabandeh"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuerraouiY10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuerraouiY10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/model-checking-networked-system-without-network"
+      ]
+    },
+    {
+      "title": "On the Benefit of Virtualization: Strategies for Flexible Server Allocation",
+      "authors": [
+        "Dushyant Arora",
+        "Anja Feldmann",
+        "Gregor Schaffrath",
+        "Stefan Schmid 0001"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AroraFSS11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AroraFSS11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/benefit-virtualization-strategies-flexible-server-allocation"
+      ]
+    },
+    {
+      "title": "Online Measurement of Large Traffic Aggregates on Commodity Switches",
+      "authors": [
+        "Lavanya Jose",
+        "Minlan Yu"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JoseY11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JoseY11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/online-measurement-large-traffic-aggregates-commodity-switches"
+      ]
+    },
+    {
+      "title": "OpenFlow-Based Server Load Balancing Gone Wild",
+      "authors": [
+        "Richard Wang",
+        "Dana Butnariu",
+        "Jennifer Rexford"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangBR11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangBR11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/openflow-based-server-load-balancing-gone-wild"
+      ]
+    },
+    {
+      "title": "Paxos Replicated State Machines as the Basis of a High-Performance Data Store",
+      "authors": [
+        "William J. Bolosky",
+        "Dexter Bradshaw",
+        "Randolph B. Haagens",
+        "Norbert P. Kusters",
+        "Peng Li"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BoloskyBHKL10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BoloskyBHKL10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/paxos-replicated-state-machines-basis-high-performance-data-store"
+      ]
+    },
+    {
+      "title": "PIE in the Sky: Online Passive Interference Estimation for Enterprise WLANs",
+      "authors": [
+        "Vivek Shrivastava",
+        "Shravan K. Rayanchu",
+        "Suman Banerjee 0001",
+        "Konstantina Papagiannaki"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShrivastavaRBP10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShrivastavaRBP10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/pie-sky-online-passive-interference-estimation-enterprise-wlans"
+      ]
+    },
+    {
+      "title": "Privad: Practical Privacy in Online Advertising",
+      "authors": [
+        "Saikat Guha 0002",
+        "Bin Cheng",
+        "Paul Francis"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuhaCF10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuhaCF10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/privad-practical-privacy-online-advertising"
+      ]
+    },
+    {
+      "title": "Profiling Network Performance for Multi-tier Data Center Applications",
+      "authors": [
+        "Minlan Yu",
+        "Albert G. Greenberg",
+        "David A. Maltz",
+        "Jennifer Rexford",
+        "Lihua Yuan",
+        "Srikanth Kandula",
+        "Changhoon Kim"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YuGMRYKK10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YuGMRYKK10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/profiling-network-performance-multi-tier-data-center-applications"
+      ]
+    },
+    {
+      "title": "QoSaaS: Quality of Service as a Service",
+      "authors": [
+        "Ye Wang",
+        "Cheng Huang 0002",
+        "Jin Li 0001",
+        "Philip A. Chou",
+        "Yang Richard Yang"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangH0CY11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangH0CY11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/qosaas-quality-service-service"
+      ]
+    },
+    {
+      "title": "Server Operational Cost Optimization for Cloud Computing Service Providers over a Time Horizon",
+      "authors": [
+        "Haiyang Qian 0001",
+        "Deep Medhi"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/QianM11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/QianM11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/server-operational-cost-optimization-cloud-computing-service-providers-over"
+      ]
+    },
+    {
+      "title": "ServerSwitch: A Programmable and High Performance Platform for Data Center Networks",
+      "authors": [
+        "Guohan Lu",
+        "Chuanxiong Guo",
+        "Yulong Li",
+        "Zhiqiang Zhou",
+        "Tong Yuan",
+        "Haitao Wu",
+        "Yongqiang Xiong",
+        "Rui Gao",
+        "Yongguang Zhang"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LuGLZYWXGZ10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LuGLZYWXGZ10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/serverswitch-programmable-and-high-performance-platform-data-center-networks"
+      ]
+    },
+    {
+      "title": "Sharing the Data Center Network",
+      "authors": [
+        "Alan Shieh",
+        "Srikanth Kandula",
+        "Albert G. Greenberg",
+        "Changhoon Kim",
+        "Bikas Saha"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShiehKGKS10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShiehKGKS10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/sharing-data-center-network"
+      ]
+    },
+    {
+      "title": "Simplifying Manageability, Scalability and Host Mobility in Large-Scale Enterprise Networks using VEIL-click",
+      "authors": [
+        "Sourabh Jain",
+        "Zhi-Li Zhang"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JainZ11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JainZ11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/simplifying-manageability-scalability-and-host-mobility-large-scale-enterprise"
+      ]
+    },
+    {
+      "title": "SliceTime: A Platform for Scalable and Accurate Network Emulation",
+      "authors": [
+        "Elias Weing&auml;rtner",
+        "Florian Schmidt 0002",
+        "Hendrik vom Lehn",
+        "Tobias Heer",
+        "Klaus Wehrle"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WeingartnerSLHW10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WeingartnerSLHW10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/slicetime-platform-scalable-and-accurate-network-emulation"
+      ]
+    },
+    {
+      "title": "SpecNet: Spectrum Sensing Sans Fronti&egrave;res",
+      "authors": [
+        "Krishna Chintalapudi",
+        "Vishnu Navda",
+        "Ramachandran Ramjee",
+        "Venkata N. Padmanabhan",
+        "Chandra R. Murthy"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChintalapudiNRPM10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChintalapudiNRPM10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/specnet-spectrum-sensing-sans-fronti%C3%A8res"
+      ]
+    },
+    {
+      "title": "SSDAlloc: Hybrid SSD/RAM Memory Management Made Easy",
+      "authors": [
+        "Anirudh Badam",
+        "Vivek S. Pai"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BadamP10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BadamP10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/ssdalloc-hybrid-ssdram-memory-management-made-easy"
+      ]
+    },
+    {
+      "title": "SSLShader: Cheap SSL Acceleration with Commodity Processors",
+      "authors": [
+        "Keon Jang",
+        "Sangjin Han",
+        "Seungyeop Han",
+        "Sue B. Moon",
+        "KyoungSoo Park"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JangHHMP10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JangHHMP10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/sslshader-cheap-ssl-acceleration-commodity-processors"
+      ]
+    },
+    {
+      "title": "Topology Switching for Data Center Networks",
+      "authors": [
+        "Kevin C. Webb 0001",
+        "Alex C. Snoeren",
+        "Kenneth Yocum"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WebbSY11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WebbSY11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/topology-switching-data-center-networks"
+      ]
+    },
+    {
+      "title": "Towards Automated Identification of Security Zone Classification in Enterprise Networks",
+      "authors": [
+        "HariGovind V. Ramasamy",
+        "Cheng-Lin Tsao",
+        "Birgit Pfitzmann",
+        "Nikolai Joukov",
+        "James W. Murray"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RamasamyTPJM11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RamasamyTPJM11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/towards-automated-identification-security-zone-classification-enterprise"
+      ]
+    },
+    {
+      "title": "Towards Street-Level Client-Independent IP Geolocation",
+      "authors": [
+        "Yong Wang",
+        "Daniel Burgener",
+        "Marcel Flores",
+        "Aleksandar Kuzmanovic",
+        "Cheng Huang 0002"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangBFKH10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangBFKH10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/towards-street-level-client-independent-ip-geolocation"
+      ]
+    },
+    {
+      "title": "TritonSort: A Balanced Large-Scale Sorting System",
+      "authors": [
+        "Alexander Rasmussen",
+        "George Porter",
+        "Michael Conley",
+        "Harsha V. Madhyastha",
+        "Radhika Niranjan Mysore",
+        "Alexander Pucher",
+        "Amin Vahdat"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RasmussenPCMMPV10",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RasmussenPCMMPV10.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi11/tritonsort-balanced-large-scale-sorting-system"
+      ]
+    },
+    {
+      "title": "Using Hierarchical Change Mining to Manage Network Security Policy Evolution",
+      "authors": [
+        "Gabriel A. Weaver",
+        "Nicholas J. Foti",
+        "Sergey Bratus",
+        "Daniel N. Rockmore",
+        "Sean W. Smith"
+      ],
+      "pages": null,
+      "year": "2011",
+      "venue": "NSDI 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WeaverFBRS11",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WeaverFBRS11.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice11/using-hierarchical-change-mining-manage-network-security-policy-evolution"
+      ]
+    }
+  ]
+}

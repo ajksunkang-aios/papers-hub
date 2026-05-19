@@ -1,0 +1,5223 @@
+{
+  "id": "uss-2022",
+  "venue": "uss",
+  "year": 2022,
+  "short_name": "USENIX Security",
+  "full_name": "USENIX Security Symposium",
+  "source_url": "https://dblp.org/db/conf/uss/uss2022.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/uss/uss2022.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/uss/2022",
+    "conf/uss/2022-1",
+    "conf/uss/2022-2",
+    "conf/uss/2022-3",
+    "conf/uss/2022-4",
+    "conf/uss/2022-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Security Symposium"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 274,
+  "display_count": 274,
+  "papers": [
+    {
+      "title": "\"How Do You Not Lose Friends?\": Synthesizing a Design Space of Social Controls for Securing Shared Digital Resources Via Participatory Design Jams",
+      "authors": [
+        "Eyitemi Moju-Igbene",
+        "Hanan Abdi",
+        "Alan Lu",
+        "Sauvik Das"
+      ],
+      "pages": "881-898",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Moju-IgbeneALD22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Moju-IgbeneALD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/moju-igbene"
+      ]
+    },
+    {
+      "title": "\"I feel invaded, annoyed, anxious and I may protect myself\": Individuals' Feelings about Online Tracking and their Protective Behaviour across Gender and Country",
+      "authors": [
+        "Kovila P. L. Coopamootoo",
+        "Maryam Mehrnezhad",
+        "Ehsan Toreini"
+      ],
+      "pages": "287-304",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CoopamootooMT22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CoopamootooMT22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/coopamootoo"
+      ]
+    },
+    {
+      "title": "\"Like Lesbians Walking the Perimeter\": Experiences of U.S. LGBTQ+ Folks With Online Security, Safety, and Privacy Advice",
+      "authors": [
+        "Christine Geeng",
+        "Mike Harris",
+        "Elissa M. Redmiles",
+        "Franziska Roesner"
+      ],
+      "pages": "305-322",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GeengHRR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GeengHRR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/geeng"
+      ]
+    },
+    {
+      "title": "\"OK, Siri\" or \"Hey, Google\": Evaluating Voiceprint Distinctiveness via Content-based PROLE Score",
+      "authors": [
+        "Ruiwen He",
+        "Xiaoyu Ji 0001",
+        "Xinfeng Li",
+        "Yushi Cheng",
+        "Wenyuan Xu 0001"
+      ],
+      "pages": "1131-1148",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/He0LCX22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/He0LCX22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/he-ruiwen"
+      ]
+    },
+    {
+      "title": "\"The Same PIN, Just Longer\": On the (In)Security of Upgrading PINs from 4 to 6 Digits",
+      "authors": [
+        "Collins W. Munyendo",
+        "Philipp Markert",
+        "Alexandra Nisenoff",
+        "Miles Grant",
+        "Elena Korkes",
+        "Blase Ur",
+        "Adam J. Aviv"
+      ],
+      "pages": "4023-4040",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MunyendoMNGKUA22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MunyendoMNGKUA22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/munyendo"
+      ]
+    },
+    {
+      "title": "\"They Look at Vulnerability and Use That to Abuse You\": Participatory Threat Modelling with Migrant Domestic Workers",
+      "authors": [
+        "Julia Slupska",
+        "Selina Y. Cho",
+        "Marissa Begonia",
+        "Ruba Abu-Salma",
+        "Nayanatara Prakash",
+        "Mallika Balakrishnan"
+      ],
+      "pages": "323-340",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SlupskaCBAPB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SlupskaCBAPB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/slupska-vulnerability"
+      ]
+    },
+    {
+      "title": "&AElig;PIC Leak: Architecturally Leaking Uninitialized Data from the Microarchitecture",
+      "authors": [
+        "Pietro Borrello",
+        "Andreas Kogler",
+        "Martin Schwarzl",
+        "Moritz Lipp",
+        "Daniel Gruss",
+        "Michael Schwarz 0001"
+      ],
+      "pages": "3917-3934",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BorrelloKSLG022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BorrelloKSLG022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/borrello"
+      ]
+    },
+    {
+      "title": "99% False Positives: A Qualitative Study of SOC Analysts' Perspectives on Security Alarms",
+      "authors": [
+        "Bushra A. AlAhmadi",
+        "Louise Axon",
+        "Ivan Martinovic"
+      ],
+      "pages": "2783-2800",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AlAhmadiAM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AlAhmadiAM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/alahmadi"
+      ]
+    },
+    {
+      "title": "A Broad Comparative Evaluation of x86-64 Binary Rewriters",
+      "authors": [
+        "Eric Schulte",
+        "Michael D. Brown",
+        "Vlad Folts"
+      ],
+      "pages": "129-144",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SchulteBF22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SchulteBF22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546112"
+      ]
+    },
+    {
+      "title": "A Hardware-Software Co-design for Efficient Intra-Enclave Isolation",
+      "authors": [
+        "Jinyu Gu 0001",
+        "Bojun Zhu",
+        "Mingyu Li",
+        "Wentai Li",
+        "Yubin Xia",
+        "Haibo Chen 0001"
+      ],
+      "pages": "3129-3145",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0001ZLLX022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0001ZLLX022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/gu-jinyu"
+      ]
+    },
+    {
+      "title": "A Large-scale and Longitudinal Measurement Study of DKIM Deployment",
+      "authors": [
+        "Chuhan Wang 0001",
+        "Kaiwen Shen",
+        "Minglei Guo",
+        "Yuxuan Zhao",
+        "Mingming Zhang 0010",
+        "Jianjun Chen 0005",
+        "Baojun Liu 0002",
+        "Xiaofeng Zheng",
+        "Haixin Duan",
+        "Yanzhong Lin",
+        "Qingfeng Pan"
+      ],
+      "pages": "1185-1201",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WangSGZZ0LZDLP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WangSGZZ0LZDLP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/wang-chuhan"
+      ]
+    },
+    {
+      "title": "A Large-scale Investigation into Geodifferences in Mobile Apps",
+      "authors": [
+        "Renuka Kumar",
+        "Apurva Virkud",
+        "Ram Sundara Raman",
+        "Atul Prakash 0001",
+        "Roya Ensafi"
+      ],
+      "pages": "1203-1220",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KumarVR0E22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KumarVR0E22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kumar"
+      ]
+    },
+    {
+      "title": "A Large-scale Temporal Measurement of Android Malicious Apps: Persistence, Migration, and Lessons Learned",
+      "authors": [
+        "Yun Shen",
+        "Pierre-Antoine Vervier",
+        "Gianluca Stringhini"
+      ],
+      "pages": "1167-1184",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ShenVS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ShenVS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/shen-yun"
+      ]
+    },
+    {
+      "title": "Aardvark: An Asynchronous Authenticated Dictionary with Applications to Account-based Cryptocurrencies",
+      "authors": [
+        "Derek Leung",
+        "Yossi Gilad",
+        "Sergey Gorbunov 0001",
+        "Leonid Reyzin",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "4237-4254",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LeungG0RZ22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LeungG0RZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/leung"
+      ]
+    },
+    {
+      "title": "Adversarial Detection Avoidance Attacks: Evaluating the robustness of perceptual hashing-based client-side scanning",
+      "authors": [
+        "Shubham Jain 0006",
+        "Ana-Maria Cretu 0002",
+        "Yves-Alexandre de Montjoye"
+      ],
+      "pages": "2317-2334",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Jain0M22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Jain0M22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/jain"
+      ]
+    },
+    {
+      "title": "ALASTOR: Reconstructing the Provenance of Serverless Intrusions",
+      "authors": [
+        "Pubali Datta",
+        "Isaac Polinsky",
+        "Muhammad Adil Inam",
+        "Adam Bates 0001",
+        "William Enck"
+      ],
+      "pages": "2443-2460",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DattaPI0E22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DattaPI0E22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/datta"
+      ]
+    },
+    {
+      "title": "AMD Prefetch Attacks through Power and Time",
+      "authors": [
+        "Moritz Lipp",
+        "Daniel Gruss",
+        "Michael Schwarz 0001"
+      ],
+      "pages": "643-660",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LippG022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LippG022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/lipp"
+      ]
+    },
+    {
+      "title": "AmpFuzz: Fuzzing for Amplification DDoS Vulnerabilities",
+      "authors": [
+        "Johannes Krupp",
+        "Ilya Grishchenko",
+        "Christian Rossow"
+      ],
+      "pages": "1043-1060",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KruppGR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KruppGR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/krupp"
+      ]
+    },
+    {
+      "title": "An Audit of Facebook's Political Ad Policy Enforcement",
+      "authors": [
+        "Victor Le Pochat",
+        "Laura Edelson",
+        "Tom van Goethem",
+        "Wouter Joosen",
+        "Damon McCoy",
+        "Tobias Lauinger"
+      ],
+      "pages": "607-624",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PochatEGJML22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PochatEGJML22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/lepochat"
+      ]
+    },
+    {
+      "title": "An Experimental Study of GPS Spoofing and Takeover Attacks on UAVs",
+      "authors": [
+        "Harshad Sathaye",
+        "Martin Strohmeier",
+        "Vincent Lenders",
+        "Aanjhan Ranganathan"
+      ],
+      "pages": "3503-3520",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SathayeSLR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SathayeSLR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/sathaye"
+      ]
+    },
+    {
+      "title": "Anycast Agility: Network Playbooks to Fight DDoS",
+      "authors": [
+        "A. S. M. Rizvi",
+        "Leandro M. Bertholdo",
+        "Jo&atilde;o M. Ceron",
+        "John S. Heidemann"
+      ],
+      "pages": "4201-4218",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/RizviBCH22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/RizviBCH22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/rizvi"
+      ]
+    },
+    {
+      "title": "Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs",
+      "authors": [
+        "Jayakrishna Vadayath",
+        "Moritz Eckert",
+        "Kyle Zeng",
+        "Nicolaas Weideman",
+        "Gokulkrishna Praveen Menon",
+        "Yanick Fratantonio",
+        "Davide Balzarotti",
+        "Adam Doup&eacute;",
+        "Tiffany Bao",
+        "Ruoyu Wang 0001",
+        "Christophe Hauser",
+        "Yan Shoshitaishvili"
+      ],
+      "pages": "413-430",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/VadayathEZWMFBD22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/VadayathEZWMFBD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/vadayath"
+      ]
+    },
+    {
+      "title": "Are Your Sensitive Attributes Private? Novel Model Inversion Attribute Inference Attacks on Classification Models",
+      "authors": [
+        "Shagufta Mehnaz",
+        "Sayanton V. Dibbo",
+        "Ehsanul Kabir",
+        "Ninghui Li 0001",
+        "Elisa Bertino"
+      ],
+      "pages": "4579-4596",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MehnazDKLB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MehnazDKLB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/mehnaz"
+      ]
+    },
+    {
+      "title": "Attacks on Deidentification's Defenses",
+      "authors": [
+        "Aloni Cohen"
+      ],
+      "pages": "1469-1486",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Cohen22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Cohen22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/cohen"
+      ]
+    },
+    {
+      "title": "Augmenting Decompiler Output with Learned Variable Names and Types",
+      "authors": [
+        "Qibin Chen",
+        "Jeremy Lacomis",
+        "Edward J. Schwartz",
+        "Claire Le Goues",
+        "Graham Neubig",
+        "Bogdan Vasilescu"
+      ],
+      "pages": "4327-4343",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChenLSGNV22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChenLSGNV22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-qibin"
+      ]
+    },
+    {
+      "title": "AutoDA: Automated Decision-based Iterative Adversarial Attacks",
+      "authors": [
+        "Qi-An Fu",
+        "Yinpeng Dong",
+        "Hang Su 0006",
+        "Jun Zhu 0001",
+        "Chao Zhang 0008"
+      ],
+      "pages": "3557-3574",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/FuD00022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/FuD00022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/fu-qi"
+      ]
+    },
+    {
+      "title": "Automated Detection of Automated Traffic",
+      "authors": [
+        "Cormac Herley"
+      ],
+      "pages": "1615-1632",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Herley22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Herley22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/herley"
+      ]
+    },
+    {
+      "title": "Automated Side Channel Analysis of Media Software with Manifold Learning",
+      "authors": [
+        "Yuanyuan Yuan 0001",
+        "Qi Pang",
+        "Shuai Wang 0011"
+      ],
+      "pages": "4419-4436",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/YuanP022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/YuanP022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/yuan-yuanyuan"
+      ]
+    },
+    {
+      "title": "Automating Cookie Consent and GDPR Violation Detection",
+      "authors": [
+        "Dino Bollinger",
+        "Karel Kubicek 0001",
+        "Carlos Cotrini",
+        "David A. Basin"
+      ],
+      "pages": "2893-2910",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BollingerKCB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BollingerKCB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/bollinger"
+      ]
+    },
+    {
+      "title": "Back-Propagating System Dependency Impact for Attack Investigation",
+      "authors": [
+        "Pengcheng Fang",
+        "Peng Gao 0008",
+        "Changlin Liu",
+        "Erman Ayday",
+        "Kangkook Jee",
+        "Ting Wang 0006",
+        "Yanfang (Fanny) Ye",
+        "Zhuotao Liu",
+        "Xusheng Xiao"
+      ],
+      "pages": "2461-2478",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Fang0LAJ0YLX22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Fang0LAJ0YLX22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/fang"
+      ]
+    },
+    {
+      "title": "Backporting Security Patches of Web Applications: A Prototype Design and Implementation on Injection Vulnerability Patches",
+      "authors": [
+        "Youkun Shi",
+        "Yuan Zhang 0009",
+        "Tianhan Luo",
+        "Xiangyu Mao",
+        "Yinzhi Cao",
+        "Ziwen Wang",
+        "Yudi Zhao",
+        "Zongan Huang",
+        "Min Yang 0002"
+      ],
+      "pages": "1993-2010",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Shi0LMCWZH022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Shi0LMCWZH022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/shi"
+      ]
+    },
+    {
+      "title": "Batched Differentially Private Information Retrieval",
+      "authors": [
+        "Kinan Dak Albab",
+        "Rawane Issa",
+        "Mayank Varia",
+        "Kalman Graffi"
+      ],
+      "pages": "3327-3344",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AlbabIVG22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AlbabIVG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/albab"
+      ]
+    },
+    {
+      "title": "Bedrock: Programmable Network Support for Secure RDMA Systems",
+      "authors": [
+        "Jiarong Xing",
+        "Kuo-Feng Hsu",
+        "Yiming Qiu 0001",
+        "Ziyang Yang",
+        "Hongyi Liu",
+        "Ang Chen 0001"
+      ],
+      "pages": "2585-2600",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/XingHQYLC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/XingHQYLC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/xing"
+      ]
+    },
+    {
+      "title": "Behind the Tube: Exploitative Monetization of Content on YouTube",
+      "authors": [
+        "Andrew Chu",
+        "Arjun Arunasalam",
+        "Muslum Ozgur Ozmen",
+        "Z. Berkay Celik"
+      ],
+      "pages": "2171-2188",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChuAOC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChuAOC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chu"
+      ]
+    },
+    {
+      "title": "Binoculars: Contention-Based Side-Channel Attacks Exploiting the Page Walker",
+      "authors": [
+        "Zirui Neil Zhao",
+        "Adam Morrison 0001",
+        "Christopher W. Fletcher",
+        "Josep Torrellas"
+      ],
+      "pages": "699-716",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Zhao0FT22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Zhao0FT22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zhao-zirui"
+      ]
+    },
+    {
+      "title": "Birds of a Feather Flock Together: How Set Bias Helps to Deanonymize You via Revealed Intersection Sizes",
+      "authors": [
+        "Xiaojie Guo 0004",
+        "Ye Han",
+        "Zheli Liu",
+        "Ding Wang 0002",
+        "Yan Jia 0009",
+        "Jin Li 0002"
+      ],
+      "pages": "1487-1504",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0004HLWJ022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0004HLWJ022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/guo"
+      ]
+    },
+    {
+      "title": "Blacklight: Scalable Defense for Neural Networks against Query-Based Black-Box Attacks",
+      "authors": [
+        "Huiying Li 0001",
+        "Shawn Shan",
+        "Emily Wenger",
+        "Jiayun Zhang",
+        "Haitao Zheng 0001",
+        "Ben Y. Zhao"
+      ],
+      "pages": "2117-2134",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiSWZ0Z22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiSWZ0Z22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/li-huiying"
+      ]
+    },
+    {
+      "title": "BrakTooth: Causing Havoc on Bluetooth Link Manager via Directed Fuzzing",
+      "authors": [
+        "Matheus E. Garbelini",
+        "Vaibhav Bedi",
+        "Sudipta Chattopadhyay 0001",
+        "Sumei Sun",
+        "Ernest Kurniawan"
+      ],
+      "pages": "1025-1042",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GarbeliniB0SK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GarbeliniB0SK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/garbelini"
+      ]
+    },
+    {
+      "title": "Branch History Injection: On the Effectiveness of Hardware Mitigations Against Cross-Privilege Spectre-v2 Attacks",
+      "authors": [
+        "Enrico Barberis",
+        "Pietro Frigo",
+        "Marius Muench",
+        "Herbert Bos",
+        "Cristiano Giuffrida"
+      ],
+      "pages": "971-988",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BarberisFMBG22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BarberisFMBG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/barberis"
+      ]
+    },
+    {
+      "title": "Breaking Bridgefy, again: Adopting libsignal is not enough",
+      "authors": [
+        "Martin R. Albrecht",
+        "Raphael Eikenberg",
+        "Kenneth G. Paterson"
+      ],
+      "pages": "269-286",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AlbrechtEP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AlbrechtEP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/albrecht"
+      ]
+    },
+    {
+      "title": "Building an Avionics Laboratory for Cybersecurity Testing",
+      "authors": [
+        "Martin Strohmeier",
+        "Giorgio Tresoldi",
+        "Leeloo Granger",
+        "Vincent Lenders"
+      ],
+      "pages": "10-18",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/StrohmeierTGL22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/StrohmeierTGL22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546101"
+      ]
+    },
+    {
+      "title": "Building an Open, Robust, and Stable Voting-Based Domain Top List",
+      "authors": [
+        "Qinge Xie",
+        "Shujun Tang",
+        "Xiaofeng Zheng",
+        "Qingran Lin",
+        "Baojun Liu 0002",
+        "Haixin Duan",
+        "Frank Li 0001"
+      ],
+      "pages": "625-642",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/XieTZLLD022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/XieTZLLD022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/xie"
+      ]
+    },
+    {
+      "title": "CamShield: Securing Smart Cameras through Physical Replication and Isolation",
+      "authors": [
+        "Zhiwei Wang",
+        "Yihui Yan",
+        "Yueli Yan",
+        "Huangxun Chen",
+        "Zhice Yang"
+      ],
+      "pages": "3467-3484",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WangYYCY22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WangYYCY22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/wang-zhiwei"
+      ]
+    },
+    {
+      "title": "Can one hear the shape of a neural network?: Snooping the GPU via Magnetic Side Channel",
+      "authors": [
+        "Henrique Teles Maia",
+        "Chang Xiao 0003",
+        "Dingzeyu Li",
+        "Eitan Grinspun",
+        "Changxi Zheng"
+      ],
+      "pages": "4383-4400",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MaiaXLGZ22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MaiaXLGZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/maia"
+      ]
+    },
+    {
+      "title": "Caring about Sharing: User Perceptions of Multiparty Data Sharing",
+      "authors": [
+        "Bailey Kacsmar",
+        "Kyle Tilbury",
+        "Miti Mazmudar",
+        "Florian Kerschbaum"
+      ],
+      "pages": "899-916",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KacsmarTMK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KacsmarTMK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kacsmar"
+      ]
+    },
+    {
+      "title": "CellIFT: Leveraging Cells for Scalable and Precise Dynamic Information Flow Tracking in RTL",
+      "authors": [
+        "Flavien Solt",
+        "Ben Gras",
+        "Kaveh Razavi"
+      ],
+      "pages": "2549-2566",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SoltGR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SoltGR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/solt"
+      ]
+    },
+    {
+      "title": "Characterizing the Security of Github CI Workflows",
+      "authors": [
+        "Igibek Koishybayev",
+        "Aleksandr Nahapetyan",
+        "Raima Zachariah",
+        "Siddharth Muralee",
+        "Bradley Reaves",
+        "Alexandros Kapravelos",
+        "Aravind Machiry"
+      ],
+      "pages": "2747-2763",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KoishybayevNZMR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KoishybayevNZMR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/koishybayev"
+      ]
+    },
+    {
+      "title": "Cheetah: Lean and Fast Secure Two-Party Deep Neural Network Inference",
+      "authors": [
+        "Zhicong Huang",
+        "Wen-jie Lu",
+        "Cheng Hong 0001",
+        "Jiansheng Ding"
+      ],
+      "pages": "809-826",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HuangLHD22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HuangLHD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/huang-zhicong"
+      ]
+    },
+    {
+      "title": "Communication-Efficient Triangle Counting under Local Differential Privacy",
+      "authors": [
+        "Jacob Imola",
+        "Takao Murakami",
+        "Kamalika Chaudhuri"
+      ],
+      "pages": "537-554",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ImolaMC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ImolaMC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/imola"
+      ]
+    },
+    {
+      "title": "Composable Cachelets: Protecting Enclaves from Cache Side-Channel Attacks",
+      "authors": [
+        "Daniel Townley",
+        "Kerem Arikan",
+        "Yu David Liu",
+        "Dmitry Ponomarev 0001",
+        "Oguz Ergin"
+      ],
+      "pages": "2839-2856",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TownleyAL0E22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TownleyAL0E22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/townley"
+      ]
+    },
+    {
+      "title": "COMRace: Detecting Data Race Vulnerabilities in COM Objects",
+      "authors": [
+        "Fangming Gu",
+        "Qingli Guo",
+        "Lian Li",
+        "Zhiniang Peng",
+        "Wei Lin",
+        "Xiaobo Yang",
+        "Xiaorui Gong"
+      ],
+      "pages": "3019-3036",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GuGLPLYG22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GuGLPLYG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/gu-fangming"
+      ]
+    },
+    {
+      "title": "Constant-weight PIR: Single-round Keyword PIR via Constant-weight Equality Operators",
+      "authors": [
+        "Rasoul Akhavan Mahdavi",
+        "Florian Kerschbaum"
+      ],
+      "pages": "1723-1740",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MahdaviK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MahdaviK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/mahdavi"
+      ]
+    },
+    {
+      "title": "Context Matters: Accurately Measuring the Efficacy of Denial-of-Service Mitigations",
+      "authors": [
+        "Samuel DeLaughter",
+        "Karen R. Sollins"
+      ],
+      "pages": "91-99",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DeLaughterS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DeLaughterS22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546109"
+      ]
+    },
+    {
+      "title": "Counting in Regexes Considered Harmful: Exposing ReDoS Vulnerability of Nonbacktracking Matchers",
+      "authors": [
+        "Lenka Turonov&aacute;",
+        "Luk&aacute;s Hol&iacute;k",
+        "Ivan Homoliak",
+        "Ondrej Leng&aacute;l",
+        "Margus Veanes",
+        "Tom&aacute;s Vojnar"
+      ],
+      "pages": "4165-4182",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TuronovaHHLVV22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TuronovaHHLVV22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/turonova"
+      ]
+    },
+    {
+      "title": "Courses as Code: The Aquinas Learning System",
+      "authors": [
+        "W. Michael Petullo"
+      ],
+      "pages": "30-38",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Petullo22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Petullo22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546099",
+        "https://www.wikidata.org/entity/Q130888786"
+      ]
+    },
+    {
+      "title": "Creating a Secure Underlay for the Internet",
+      "authors": [
+        "Henry Birge-Lee",
+        "Joel Wanner",
+        "Grace H. Cimaszewski",
+        "Jonghoon Kwon",
+        "Liang Wang 0054",
+        "Fran&ccedil;ois Wirz",
+        "Prateek Mittal",
+        "Adrian Perrig",
+        "Yixin Sun"
+      ],
+      "pages": "2601-2618",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Birge-LeeWCK0WM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Birge-LeeWCK0WM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/birge-lee"
+      ]
+    },
+    {
+      "title": "Dataflow-based Control Process Identification for ICS Dataset Development",
+      "authors": [
+        "Seungoh Choi",
+        "Hyeok-Ki Shin",
+        "Woomyo Lee",
+        "Jeong-Han Yun",
+        "Byung-Gil Min"
+      ],
+      "pages": "54-58",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChoiSLYM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChoiSLYM22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546113"
+      ]
+    },
+    {
+      "title": "Debloating Address Sanitizer",
+      "authors": [
+        "Yuchen Zhang 0006",
+        "Chengbin Pang",
+        "Georgios Portokalidis",
+        "Nikos Triandopoulos",
+        "Jun Xu 0024"
+      ],
+      "pages": "4345-4363",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZhangPPT022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZhangPPT022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-yuchen"
+      ]
+    },
+    {
+      "title": "Decomperson: How Humans Decompile and What We Can Learn From It",
+      "authors": [
+        "Kevin Burk",
+        "Fabio Pagani",
+        "Christopher Kruegel",
+        "Giovanni Vigna"
+      ],
+      "pages": "2765-2782",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BurkPKV22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BurkPKV22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/burk"
+      ]
+    },
+    {
+      "title": "DeepDi: Learning a Relational Graph Convolutional Network Model on Instructions for Fast and Accurate Disassembly",
+      "authors": [
+        "Sheng Yu",
+        "Yu Qu",
+        "Xunchao Hu",
+        "Heng Yin 0001"
+      ],
+      "pages": "2709-2725",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/YuQHY22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/YuQHY22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/yu-sheng"
+      ]
+    },
+    {
+      "title": "DeepPhish: Understanding User Trust Towards Artificially Generated Profiles in Online Social Networks",
+      "authors": [
+        "Jaron Mink",
+        "Licheng Luo",
+        "Nat&atilde; M. Barbosa",
+        "Olivia Figueira",
+        "Yang Wang 0005",
+        "Gang Wang 0011"
+      ],
+      "pages": "1669-1686",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MinkLBF0022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MinkLBF0022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/mink"
+      ]
+    },
+    {
+      "title": "Detecting Logical Bugs of DBMS with Coverage-based Guidance",
+      "authors": [
+        "Yu Liang 0002",
+        "Song Liu",
+        "Hong Hu 0004"
+      ],
+      "pages": "4309-4326",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiangL022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiangL022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/liang"
+      ]
+    },
+    {
+      "title": "DnD: A Cross-Architecture Deep Neural Network Decompiler",
+      "authors": [
+        "Ruoyu Wu",
+        "Taegyu Kim",
+        "Dave (Jing) Tian",
+        "Antonio Bianchi",
+        "Dongyan Xu"
+      ],
+      "pages": "2135-2152",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WuKTBX22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WuKTBX22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/wu-ruoyu"
+      ]
+    },
+    {
+      "title": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+      "authors": [
+        "CheolJun Park",
+        "Sangwook Bae",
+        "Beomseok Oh",
+        "Jiho Lee",
+        "Eunkyu Lee",
+        "Insu Yun",
+        "Yongdae Kim"
+      ],
+      "pages": "1325-1342",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ParkBOLLYK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ParkBOLLYK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/park-cheoljun"
+      ]
+    },
+    {
+      "title": "Don't Mesh Around: Side-Channel Attacks and Mitigations on Mesh Interconnects",
+      "authors": [
+        "Miles Dai",
+        "Riccardo Paccagnella",
+        "Miguel Gomez-Garcia",
+        "John D. McCalpin",
+        "Mengjia Yan 0001"
+      ],
+      "pages": "2857-2874",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DaiPGMY22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DaiPGMY22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/dai"
+      ]
+    },
+    {
+      "title": "Dos and Don'ts of Machine Learning in Computer Security",
+      "authors": [
+        "Daniel Arp",
+        "Erwin Quiring",
+        "Feargus Pendlebury",
+        "Alexander Warnecke",
+        "Fabio Pierazzi",
+        "Christian Wressnegger",
+        "Lorenzo Cavallaro",
+        "Konrad Rieck"
+      ],
+      "pages": "3971-3988",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ArpQPWPWCR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ArpQPWPWCR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/arp"
+      ]
+    },
+    {
+      "title": "Double Trouble: Combined Heterogeneous Attacks on Non-Inclusive Cache Hierarchies",
+      "authors": [
+        "Antoon Purnal",
+        "Furkan Turan",
+        "Ingrid Verbauwhede"
+      ],
+      "pages": "3647-3664",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PurnalTV22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PurnalTV22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/purnal"
+      ]
+    },
+    {
+      "title": "DoubleStar: Long-Range Attack Towards Depth Estimation based Obstacle Avoidance in Autonomous Systems",
+      "authors": [
+        "Ce Zhou",
+        "Qiben Yan 0001",
+        "Yan Shi",
+        "Lichao Sun 0001"
+      ],
+      "pages": "1885-1902",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZhouYSS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZhouYSS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zhou-ce"
+      ]
+    },
+    {
+      "title": "Drifuzz: Harvesting Bugs in Device Drivers from Golden Seeds",
+      "authors": [
+        "Zekun Shen",
+        "Ritik Roongta",
+        "Brendan Dolan-Gavitt"
+      ],
+      "pages": "1275-1290",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ShenRD22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ShenRD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/shen-zekun"
+      ]
+    },
+    {
+      "title": "Dynamic Searchable Encryption with Optimal Search in the Presence of Deletions",
+      "authors": [
+        "Javad Ghareh Chamani",
+        "Dimitrios Papadopoulos 0001",
+        "Mohammadamin Karbasforushan",
+        "Ioannis Demertzis"
+      ],
+      "pages": "2425-2442",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Chamani0KD22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Chamani0KD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chamani"
+      ]
+    },
+    {
+      "title": "Efficient Differentially Private Secure Aggregation for Federated Learning via Hardness of Learning with Errors",
+      "authors": [
+        "Timothy Stevens",
+        "Christian Skalka",
+        "Christelle Vincent",
+        "John H. Ring",
+        "Samuel Clark",
+        "Joseph P. Near"
+      ],
+      "pages": "1379-1395",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/StevensSVRCN22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/StevensSVRCN22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/stevens"
+      ]
+    },
+    {
+      "title": "Efficient Representation of Numerical Optimization Problems for SNARKs",
+      "authors": [
+        "Sebastian Angel",
+        "Andrew J. Blumberg",
+        "Eleftherios Ioannidis",
+        "Jess Woods"
+      ],
+      "pages": "4273-4290",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AngelBIW22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AngelBIW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/angel"
+      ]
+    },
+    {
+      "title": "Elasticlave: An Efficient Memory Model for Enclaves",
+      "authors": [
+        "Jason Zhijingcheng Yu",
+        "Shweta Shinde",
+        "Trevor E. Carlson",
+        "Prateek Saxena"
+      ],
+      "pages": "4111-4128",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/YuSCS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/YuSCS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/yu-jason"
+      ]
+    },
+    {
+      "title": "Electronic Monitoring Smartphone Apps: An Analysis of Risks from Technical, Human-Centered, and Legal Perspectives",
+      "authors": [
+        "Kentrell Owens",
+        "Anita Alem",
+        "Franziska Roesner",
+        "Tadayoshi Kohno"
+      ],
+      "pages": "4077-4094",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/OwensARK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/OwensARK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/owens"
+      ]
+    },
+    {
+      "title": "Empirical Understanding of Deletion Privacy: Experiences, Expectations, and Measures",
+      "authors": [
+        "Mohsen Minaei",
+        "Mainack Mondal",
+        "Aniket Kate"
+      ],
+      "pages": "3415-3432",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MinaeiMK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MinaeiMK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/minaei"
+      ]
+    },
+    {
+      "title": "End-to-Same-End Encryption: Modularly Augmenting an App with an Efficient, Portable, and Blind Cloud Storage",
+      "authors": [
+        "Long Chen 0018",
+        "Ya-Nan Li 0007",
+        "Qiang Tang 0005",
+        "Moti Yung"
+      ],
+      "pages": "2353-2370",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/001800Y22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/001800Y22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-long"
+      ]
+    },
+    {
+      "title": "Estimating Incidental Collection in Foreign Intelligence Surveillance: Large-Scale Multiparty Private Set Intersection with Union and Sum",
+      "authors": [
+        "Anunay Kulshrestha",
+        "Jonathan R. Mayer"
+      ],
+      "pages": "1705-1722",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KulshresthaM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KulshresthaM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kulshrestha"
+      ]
+    },
+    {
+      "title": "Expected Exploitability: Predicting the Development of Functional Vulnerability Exploits",
+      "authors": [
+        "Octavian Suciu",
+        "Connor Nelson",
+        "Zhuoer Lyu",
+        "Tiffany Bao",
+        "Tudor Dumitras"
+      ],
+      "pages": "377-394",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SuciuNLBD22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SuciuNLBD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/suciu"
+      ]
+    },
+    {
+      "title": "Experimental Security Analysis of the App Model in Business Collaboration Platforms",
+      "authors": [
+        "Yunang Chen",
+        "Yue Gao 0011",
+        "Nick Ceccio",
+        "Rahul Chatterjee 0001",
+        "Kassem Fawaz",
+        "Earlence Fernandes"
+      ],
+      "pages": "2011-2028",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Chen0C0FF22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Chen0C0FF22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-yunang-experimental"
+      ]
+    },
+    {
+      "title": "Experimenting with Collaborative zk-SNARKs: Zero-Knowledge Proofs for Distributed Secrets",
+      "authors": [
+        "Alex Ozdemir",
+        "Dan Boneh"
+      ],
+      "pages": "4291-4308",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/OzdemirB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/OzdemirB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/ozdemir"
+      ]
+    },
+    {
+      "title": "Exploring the Propagation of Vulnerabilities from GitHub Repositories Hosted by Major Technology Organizations",
+      "authors": [
+        "Ben Lazarine",
+        "Zhong Zhang",
+        "Agrim Sachdeva",
+        "Sagar Samtani",
+        "Hongyi Zhu 0001"
+      ],
+      "pages": "145-150",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LazarineZSSZ22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LazarineZSSZ22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546114",
+        "https://www.wikidata.org/entity/Q130911753"
+      ]
+    },
+    {
+      "title": "Exploring the Security Boundary of Data Reconstruction via Neuron Exclusivity Analysis",
+      "authors": [
+        "Xudong Pan",
+        "Mi Zhang 0001",
+        "Yifan Yan",
+        "Jiaming Zhu",
+        "Zhemin Yang"
+      ],
+      "pages": "3989-4006",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PanZYZY22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PanZYZY22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/pan-exploring"
+      ]
+    },
+    {
+      "title": "Exploring the Unchartered Space of Container Registry Typosquatting",
+      "authors": [
+        "Guannan Liu 0003",
+        "Xing Gao 0001",
+        "Haining Wang 0001",
+        "Kun Sun 0001"
+      ],
+      "pages": "35-51",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Liu0W022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Liu0W022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/liu-guannan"
+      ]
+    },
+    {
+      "title": "Faster Yet Safer: Logging System Via Fixed-Key Blockcipher",
+      "authors": [
+        "Viet Tung Hoang",
+        "Cong Wu",
+        "Xin Yuan 0001"
+      ],
+      "pages": "2389-2406",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HoangW022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HoangW022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/hoang"
+      ]
+    },
+    {
+      "title": "Ferry: State-Aware Symbolic Execution for Exploring State-Dependent Program Paths",
+      "authors": [
+        "Shunfan Zhou",
+        "Zhemin Yang",
+        "Dan Qiao",
+        "Peng Liu 0005",
+        "Min Yang 0002",
+        "Zhe Wang 0017",
+        "Chenggang Wu 0002"
+      ],
+      "pages": "4365-4382",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZhouYQ000022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZhouYQ000022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zhou-shunfan"
+      ]
+    },
+    {
+      "title": "FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing",
+      "authors": [
+        "Zenong Zhang",
+        "Zach Patterson",
+        "Michael Hicks 0001",
+        "Shiyi Wei"
+      ],
+      "pages": "3699-3715",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZhangP0W22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZhangP0W22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-zenong"
+      ]
+    },
+    {
+      "title": "FLAME: Taming Backdoors in Federated Learning",
+      "authors": [
+        "Thien Duc Nguyen",
+        "Phillip Rieger",
+        "Huili Chen",
+        "Hossein Yalame",
+        "Helen M&ouml;llering",
+        "Hossein Fereidooni",
+        "Samuel Marchal",
+        "Markus Miettinen",
+        "Azalia Mirhoseini",
+        "Shaza Zeitouni",
+        "Farinaz Koushanfar",
+        "Ahmad-Reza Sadeghi",
+        "Thomas Schneider 0003"
+      ],
+      "pages": "1415-1432",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/NguyenRCYMFMMMZ22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/NguyenRCYMFMMMZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/nguyen"
+      ]
+    },
+    {
+      "title": "FlowMatrix: GPU-Assisted Information-Flow Analysis through Matrix-Based Representation",
+      "authors": [
+        "Kaihang Ji",
+        "Jun Zeng 0006",
+        "Yuancheng Jiang",
+        "Zhenkai Liang",
+        "Zheng Leong Chua",
+        "Prateek Saxena",
+        "Abhik Roychoudhury"
+      ],
+      "pages": "2567-2584",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/JiZJLCSR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/JiZJLCSR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/ji"
+      ]
+    },
+    {
+      "title": "FOAP: Fine-Grained Open-World Android App Fingerprinting",
+      "authors": [
+        "Jianfeng Li 0006",
+        "Hao Zhou 0043",
+        "Shuohan Wu",
+        "Xiapu Luo",
+        "Ting Wang 0006",
+        "Xian Zhan",
+        "Xiaobo Ma"
+      ],
+      "pages": "1579-1596",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiZWL0ZM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiZWL0ZM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/li-jianfeng"
+      ]
+    },
+    {
+      "title": "FRAMESHIFTER: Security Implications of HTTP/2-to-HTTP/1 Conversion Anomalies",
+      "authors": [
+        "Bahruz Jabiyev",
+        "Steven Sprecher",
+        "Anthony Gavazzi",
+        "Tommaso Innocenti",
+        "Kaan Onarlioglu",
+        "Engin Kirda"
+      ],
+      "pages": "1061-1075",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/JabiyevSGIOK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/JabiyevSGIOK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/jabiyev"
+      ]
+    },
+    {
+      "title": "FReD: Identifying File Re-Delegation in Android System Services",
+      "authors": [
+        "Sigmund Albert Gorski III",
+        "Seaver Thorn",
+        "William Enck",
+        "Haining Chen"
+      ],
+      "pages": "1525-1542",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GorskiTEC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GorskiTEC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/gorski"
+      ]
+    },
+    {
+      "title": "FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries",
+      "authors": [
+        "Liang He 0011",
+        "Hong Hu 0004",
+        "Purui Su",
+        "Yan Cai 0001",
+        "Zhenkai Liang"
+      ],
+      "pages": "2497-2512",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/He0S0L22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/He0S0L22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/he-liang"
+      ]
+    },
+    {
+      "title": "FUGIO: Automatic Exploit Generation for PHP Object Injection Vulnerabilities",
+      "authors": [
+        "Sunnyeo Park",
+        "Daejun Kim",
+        "Suman Jana",
+        "Sooel Son"
+      ],
+      "pages": "197-214",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ParkKJS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ParkKJS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/park-sunnyeo"
+      ]
+    },
+    {
+      "title": "Fuzzing Hardware Like Software",
+      "authors": [
+        "Timothy Trippel",
+        "Kang G. Shin",
+        "Alex Chernyakhovsky",
+        "Garret Kelly",
+        "Dominic Rizzo",
+        "Matthew Hicks"
+      ],
+      "pages": "3237-3254",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TrippelSCKRH22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TrippelSCKRH22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/trippel"
+      ]
+    },
+    {
+      "title": "FuzzOrigin: Detecting UXSS vulnerabilities in Browsers through Origin Fuzzing",
+      "authors": [
+        "Sunwoo Kim",
+        "Young Min Kim",
+        "Jaewon Hur",
+        "Suhwan Song",
+        "Gwangmu Lee",
+        "Byoungyoung Lee"
+      ],
+      "pages": "1008-1023",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KimKHSLL22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KimKHSLL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kim"
+      ]
+    },
+    {
+      "title": "Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing",
+      "authors": [
+        "Tobias Scharnowski",
+        "Nils Bars",
+        "Moritz Schloegel",
+        "Eric Gustafson",
+        "Marius Muench",
+        "Giovanni Vigna",
+        "Christopher Kruegel",
+        "Thorsten Holz",
+        "Ali Abbasi 0002"
+      ],
+      "pages": "1239-1256",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ScharnowskiBSGM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ScharnowskiBSGM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/scharnowski"
+      ]
+    },
+    {
+      "title": "GAROTA: Generalized Active Root-Of-Trust Architecture (for Tiny Embedded Devices)",
+      "authors": [
+        "Esmerald Aliaj",
+        "Ivan De Oliveira Nunes",
+        "Gene Tsudik"
+      ],
+      "pages": "2243-2260",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AliajNT22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AliajNT22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/aliaj"
+      ]
+    },
+    {
+      "title": "Generating Representative Video Teleconferencing Traffic",
+      "authors": [
+        "David DeAngelis",
+        "Alefiya Hussain",
+        "Brian Kocoloski",
+        "Calvin Ardi",
+        "Stephen Schwab"
+      ],
+      "pages": "100-104",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DeAngelisHKAS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DeAngelisHKAS22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546107"
+      ]
+    },
+    {
+      "title": "GET /out: Automated Discovery of Application-Layer Censorship Evasion Strategies",
+      "authors": [
+        "Michael Harrity",
+        "Kevin Bock 0001",
+        "Frederick Sell",
+        "Dave Levin"
+      ],
+      "pages": "465-483",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Harrity0SL22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Harrity0SL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/harrity"
+      ]
+    },
+    {
+      "title": "Ghost Peak: Practical Distance Reduction Attacks Against HRP UWB Ranging",
+      "authors": [
+        "Patrick Leu",
+        "Giovanni Camurati",
+        "Alexander Heinrich",
+        "Marc Roeschlin",
+        "Claudio Anliker",
+        "Matthias Hollick",
+        "Srdjan Capkun",
+        "Jiska Classen"
+      ],
+      "pages": "1343-1359",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LeuCHRAHCC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LeuCHRAHCC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/leu"
+      ]
+    },
+    {
+      "title": "GhostTouch: Targeted Attacks on Touchscreens without Physical Touch",
+      "authors": [
+        "Kai Wang 0073",
+        "Richard Mitev",
+        "Chen Yan 0001",
+        "Xiaoyu Ji 0001",
+        "Ahmad-Reza Sadeghi",
+        "Wenyuan Xu 0001"
+      ],
+      "pages": "1543-1559",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WangMY0SX22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WangMY0SX22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/wang-kai"
+      ]
+    },
+    {
+      "title": "Gossamer: Securely Measuring Password-based Logins",
+      "authors": [
+        "Marina Sanusi Bohuk",
+        "Mazharul Islam 0002",
+        "Suleman Ahmad",
+        "Michael M. Swift",
+        "Thomas Ristenpart",
+        "Rahul Chatterjee 0001"
+      ],
+      "pages": "1867-1884",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BohukIASR022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BohukIASR022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/sanusi-bohuk"
+      ]
+    },
+    {
+      "title": "GPU-accelerated PIR with Client-Independent Preprocessing for Large-Scale Applications",
+      "authors": [
+        "Daniel G&uuml;nther 0004",
+        "Maurice Heymann",
+        "Benny Pinkas",
+        "Thomas Schneider 0003"
+      ],
+      "pages": "1759-1776",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0004HP022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0004HP022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/gunther"
+      ]
+    },
+    {
+      "title": "Ground Truth for Binary Disassembly is Not Easy",
+      "authors": [
+        "Chengbin Pang",
+        "Tiantai Zhang",
+        "Ruotong Yu",
+        "Bing Mao 0001",
+        "Jun Xu 0024"
+      ],
+      "pages": "2479-2495",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PangZYM022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PangZYM022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/pang-chengbin"
+      ]
+    },
+    {
+      "title": "Half-Double: Hammering From the Next Row Over",
+      "authors": [
+        "Andreas Kogler",
+        "Jonas Juffinger",
+        "Salman Qazi",
+        "Yoongu Kim",
+        "Moritz Lipp",
+        "Nicolas Boichat",
+        "Eric Shiu",
+        "Mattias Nissler",
+        "Daniel Gruss"
+      ],
+      "pages": "3807-3824",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KoglerJQKLBSNG22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KoglerJQKLBSNG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kogler-half-double"
+      ]
+    },
+    {
+      "title": "Hand Me Your PIN! Inferring ATM PINs of Users Typing with a Covered Hand",
+      "authors": [
+        "Matteo Cardaioli",
+        "Stefano Cecconello",
+        "Mauro Conti",
+        "Simone Milani",
+        "Stjepan Picek",
+        "Eugen Saraci"
+      ],
+      "pages": "1687-1704",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CardaioliCCMPS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CardaioliCCMPS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/cardaioli"
+      ]
+    },
+    {
+      "title": "Hecate: Abuse Reporting in Secure Messengers with Sealed Sender",
+      "authors": [
+        "Rawane Issa",
+        "Nicolas Alhaddad",
+        "Mayank Varia"
+      ],
+      "pages": "2335-2352",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/IssaAV22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/IssaAV22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/issa"
+      ]
+    },
+    {
+      "title": "Helping hands: Measuring the impact of a large threat intelligence sharing community",
+      "authors": [
+        "Xander Bouwman",
+        "Victor Le Pochat",
+        "Pawel Foremski",
+        "Tom van Goethem",
+        "Carlos Hernandez Ga&ntilde;&aacute;n",
+        "Giovane C. M. Moura",
+        "Samaneh Tajalizadehkhoob",
+        "Wouter Joosen",
+        "Michel van Eeten"
+      ],
+      "pages": "1149-1165",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BouwmanPFGGMTJE22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BouwmanPFGGMTJE22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/bouwman"
+      ]
+    },
+    {
+      "title": "Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86",
+      "authors": [
+        "Yingchen Wang",
+        "Riccardo Paccagnella",
+        "Elizabeth Tang He",
+        "Hovav Shacham",
+        "Christopher W. Fletcher",
+        "David Kohlbrenner"
+      ],
+      "pages": "679-697",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WangPHSFK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WangPHSFK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/wang-yingchen"
+      ]
+    },
+    {
+      "title": "Hidden Trigger Backdoor Attack on NLP Models via Linguistic Style Manipulation",
+      "authors": [
+        "Xudong Pan",
+        "Mi Zhang 0001",
+        "Beina Sheng",
+        "Jiaming Zhu",
+        "Min Yang 0002"
+      ],
+      "pages": "3611-3628",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PanZSZ022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PanZSZ022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/pan-hidden"
+      ]
+    },
+    {
+      "title": "Hiding in Plain Sight? On the Efficacy of Power Side Channel-Based Control Flow Monitoring",
+      "authors": [
+        "Yi Han",
+        "Matthew Chan",
+        "Zahra Aref",
+        "Nils Ole Tippenhauer",
+        "Saman A. Zonouz"
+      ],
+      "pages": "661-678",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HanCATZ22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HanCATZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/han"
+      ]
+    },
+    {
+      "title": "Holistic Control-Flow Protection on Real-Time Embedded Systems with Kage",
+      "authors": [
+        "Yufei Du",
+        "Zhuojia Shen",
+        "Komail Dharsee",
+        "Jie Zhou 0022",
+        "Robert J. Walls",
+        "John Criswell"
+      ],
+      "pages": "2281-2298",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DuSD0WC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DuSD0WC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/du"
+      ]
+    },
+    {
+      "title": "How and Why People Use Virtual Private Networks",
+      "authors": [
+        "Agnieszka Dutkowska-Zuk",
+        "Austin Hounsel",
+        "Amy Morrill",
+        "Andre Xiong",
+        "Marshini Chetty",
+        "Nick Feamster"
+      ],
+      "pages": "3451-3465",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Dutkowska-ZukHM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Dutkowska-ZukHM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/dutkowska-zuk"
+      ]
+    },
+    {
+      "title": "How Are Your Zombie Accounts? Understanding Users' Practices and Expectations on Mobile App Account Deletion",
+      "authors": [
+        "Yijing Liu",
+        "Yan Jia 0009",
+        "Qingyin Tan",
+        "Zheli Liu",
+        "Luyi Xing"
+      ],
+      "pages": "863-880",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiuJTLX22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiuJTLX22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/liu-yijing"
+      ]
+    },
+    {
+      "title": "How Long Do Vulnerabilities Live in the Code? A Large-Scale Empirical Measurement Study on FOSS Vulnerability Lifetimes",
+      "authors": [
+        "Nikolaos Alexopoulos",
+        "Manuel Brack",
+        "Jan Philipp Wagner",
+        "Tim Grube",
+        "Max M&uuml;hlh&auml;user"
+      ],
+      "pages": "359-376",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AlexopoulosBWGM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AlexopoulosBWGM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/alexopoulos"
+      ]
+    },
+    {
+      "title": "How Machine Learning Is Solving the Binary Function Similarity Problem",
+      "authors": [
+        "Andrea Marcelli",
+        "Mariano Graziano",
+        "Xabier Ugarte-Pedrero",
+        "Yanick Fratantonio",
+        "Mohamad Mansouri",
+        "Davide Balzarotti"
+      ],
+      "pages": "2099-2116",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MarcelliGUFMB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MarcelliGUFMB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/marcelli"
+      ]
+    },
+    {
+      "title": "How to Abuse and Fix Authenticated Encryption Without Key Commitment",
+      "authors": [
+        "Ange Albertini",
+        "Thai Duong",
+        "Shay Gueron",
+        "Stefan K&ouml;lbl",
+        "Atul Luykx",
+        "Sophie Schmieg"
+      ],
+      "pages": "3291-3308",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AlbertiniDGKLS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AlbertiniDGKLS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/albertini"
+      ]
+    },
+    {
+      "title": "How to Peel a Million: Validating and Expanding Bitcoin Clusters",
+      "authors": [
+        "George Kappos",
+        "Haaroon Yousaf",
+        "Rainer St&uuml;tz",
+        "Sofia Rollet",
+        "Bernhard Haslhofer",
+        "Sarah Meiklejohn"
+      ],
+      "pages": "2207-2223",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KapposYSRHM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KapposYSRHM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kappos"
+      ]
+    },
+    {
+      "title": "HyperDegrade: From GHz to MHz Effective CPU Frequencies",
+      "authors": [
+        "Alejandro Cabrera Aldaya",
+        "Billy Bob Brumley"
+      ],
+      "pages": "2801-2818",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AldayaB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AldayaB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/aldaya"
+      ]
+    },
+    {
+      "title": "Hyperproofs: Aggregating and Maintaining Proofs in Vector Commitments",
+      "authors": [
+        "Shravan Srinivasan",
+        "Alexander Chepurnoy",
+        "Charalampos Papamanthou",
+        "Alin Tomescu",
+        "Yupeng Zhang 0001"
+      ],
+      "pages": "3001-3018",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SrinivasanCPT022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SrinivasanCPT022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/srinivasan"
+      ]
+    },
+    {
+      "title": "Identity Confusion in WebView-based Mobile App-in-app Ecosystems",
+      "authors": [
+        "Lei Zhang 0096",
+        "Zhibo Zhang 0006",
+        "Ancong Liu",
+        "Yinzhi Cao",
+        "Xiaohan Zhang 0001",
+        "Yanjun Chen",
+        "Yuan Zhang 0009",
+        "Guangliang Yang 0001",
+        "Min Yang 0002"
+      ],
+      "pages": "1597-1613",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0096ZLC0C0Y022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0096ZLC0C0Y022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-lei"
+      ]
+    },
+    {
+      "title": "IHOP: Improved Statistical Query Recovery against Searchable Symmetric Encryption through Quadratic Optimization",
+      "authors": [
+        "Simon Oya",
+        "Florian Kerschbaum"
+      ],
+      "pages": "2407-2424",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/OyaK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/OyaK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/oya"
+      ]
+    },
+    {
+      "title": "In-Kernel Control-Flow Integrity on Commodity OSes using ARM Pointer Authentication",
+      "authors": [
+        "Sungbae Yoo",
+        "Jinbum Park",
+        "Seolheui Kim",
+        "Yeji Kim",
+        "Taesoo Kim"
+      ],
+      "pages": "89-106",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/YooPKKK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/YooPKKK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/yoo"
+      ]
+    },
+    {
+      "title": "Increasing Adversarial Uncertainty to Scale Private Similarity Testing",
+      "authors": [
+        "Yiqing Hua",
+        "Armin Namavari",
+        "Kaishuo Cheng",
+        "Mor Naaman",
+        "Thomas Ristenpart"
+      ],
+      "pages": "1777-1794",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HuaNCNR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HuaNCNR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/hua"
+      ]
+    },
+    {
+      "title": "Incremental Offline/Online PIR",
+      "authors": [
+        "Yiping Ma 0001",
+        "Ke Zhong",
+        "Tal Rabin",
+        "Sebastian Angel"
+      ],
+      "pages": "1741-1758",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0001ZRA22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0001ZRA22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/ma"
+      ]
+    },
+    {
+      "title": "Inference Attacks Against Graph Neural Networks",
+      "authors": [
+        "Zhikun Zhang 0001",
+        "Min Chen 0032",
+        "Michael Backes 0001",
+        "Yun Shen",
+        "Yang Zhang 0016"
+      ],
+      "pages": "4543-4560",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/000100S022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/000100S022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-zhikun"
+      ]
+    },
+    {
+      "title": "Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision Based Approach",
+      "authors": [
+        "Ruofan Liu",
+        "Yun Lin 0001",
+        "Xianglin Yang",
+        "Siang Hwee Ng",
+        "Dinil Mon Divakaran",
+        "Jin Song Dong 0001"
+      ],
+      "pages": "1633-1650",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Liu0YNDD22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Liu0YNDD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/liu-ruofan"
+      ]
+    },
+    {
+      "title": "Investigating State-of-the-Art Practices for Fostering Subjective Trust in Online Voting through Interviews",
+      "authors": [
+        "Karola Marky",
+        "Paul Gerber",
+        "Sebastian G&uuml;nther 0001",
+        "Mohamed Khamis",
+        "Maximilian Fries",
+        "Max M&uuml;hlh&auml;user"
+      ],
+      "pages": "4059-4076",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MarkyG0KFM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MarkyG0KFM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/marky"
+      ]
+    },
+    {
+      "title": "Jenny: Securing Syscalls for PKU-based Memory Isolation Systems",
+      "authors": [
+        "David Schrammel",
+        "Samuel Weiser",
+        "Richard Sadek",
+        "Stefan Mangard"
+      ],
+      "pages": "936-952",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SchrammelWSM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SchrammelWSM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/schrammel"
+      ]
+    },
+    {
+      "title": "JUGAAD: Comprehensive Malware Behavior-as-a-Service",
+      "authors": [
+        "Sareena Karapoola",
+        "Nikhilesh Singh",
+        "Chester Rebeiro",
+        "Kamakoti Veezhinathan"
+      ],
+      "pages": "39-48",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KarapoolaSRV22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KarapoolaSRV22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546108",
+        "https://www.wikidata.org/entity/Q130973128"
+      ]
+    },
+    {
+      "title": "Khaleesi: Breaker of Advertising and Tracking Request Chains",
+      "authors": [
+        "Umar Iqbal 0002",
+        "Charlie Wolfe",
+        "Charles Nguyen",
+        "Steven Englehardt",
+        "Zubair Shafiq"
+      ],
+      "pages": "2911-2928",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/IqbalWNES22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/IqbalWNES22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/iqbal"
+      ]
+    },
+    {
+      "title": "Label Inference Attacks Against Vertical Federated Learning",
+      "authors": [
+        "Chong Fu 0002",
+        "Xuhong Zhang 0002",
+        "Shouling Ji",
+        "Jinyin Chen",
+        "Jingzheng Wu",
+        "Shanqing Guo",
+        "Jun Zhou 0011",
+        "Alex X. Liu",
+        "Ting Wang 0006"
+      ],
+      "pages": "1397-1414",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Fu0JCWG0L022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Fu0JCWG0L022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/fu-chong"
+      ]
+    },
+    {
+      "title": "Lamphone: Passive Sound Recovery from a Desk Lamp's Light Bulb Vibrations",
+      "authors": [
+        "Ben Nassi",
+        "Yaron Pirutin",
+        "Raz Swisa",
+        "Adi Shamir",
+        "Yuval Elovici",
+        "Boris Zadov"
+      ],
+      "pages": "4401-4417",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/NassiPSSEZ22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/NassiPSSEZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/nassi"
+      ]
+    },
+    {
+      "title": "Leaky Forms: A Study of Email and Password Exfiltration Before Form Submission",
+      "authors": [
+        "Asuman Senol",
+        "Gunes Acar",
+        "Mathias Humbert",
+        "Frederik J. Zuiderveen Borgesius"
+      ],
+      "pages": "1813-1830",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SenolAHB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SenolAHB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/senol"
+      ]
+    },
+    {
+      "title": "Lend Me Your Ear: Passive Remote Physical Side Channels on PCs",
+      "authors": [
+        "Daniel Genkin",
+        "Noam Nissan",
+        "Roei Schuster",
+        "Eran Tromer"
+      ],
+      "pages": "4437-4454",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GenkinNST22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GenkinNST22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/genkin"
+      ]
+    },
+    {
+      "title": "LinKRID: Vetting Imbalance Reference Counting in Linux kernel with Symbolic Execution",
+      "authors": [
+        "Jian Liu 0008",
+        "Lin Yi",
+        "Weiteng Chen",
+        "Chengyu Song",
+        "Zhiyun Qian",
+        "Qiuping Yi"
+      ],
+      "pages": "125-142",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiuYCSQY22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiuYCSQY22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/liu-jian"
+      ]
+    },
+    {
+      "title": "Loki: Hardening Code Obfuscation Against Automated Attacks",
+      "authors": [
+        "Moritz Schloegel",
+        "Tim Blazytko",
+        "Moritz Contag",
+        "Cornelius Aschermann",
+        "Julius Basler",
+        "Thorsten Holz",
+        "Ali Abbasi 0002"
+      ],
+      "pages": "3055-3073",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SchlogelBCABH022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SchlogelBCABH022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/schloegel"
+      ]
+    },
+    {
+      "title": "LTrack: Stealthy Tracking of Mobile Phones in LTE",
+      "authors": [
+        "Martin Kotuliak",
+        "Simon Erni",
+        "Patrick Leu",
+        "Marc R&ouml;schlin",
+        "Srdjan Capkun"
+      ],
+      "pages": "1291-1306",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KotuliakELRC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KotuliakELRC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kotuliak"
+      ]
+    },
+    {
+      "title": "Lumos: Identifying and Localizing Diverse Hidden IoT Devices in an Unfamiliar Environment",
+      "authors": [
+        "Rahul Anand Sharma",
+        "Elahe Soltanaghaei",
+        "Anthony Rowe 0001",
+        "Vyas Sekar"
+      ],
+      "pages": "1095-1112",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SharmaSRS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SharmaSRS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/sharma-rahul"
+      ]
+    },
+    {
+      "title": "MaDIoT 2.0: Modern High-Wattage IoT Botnet Attacks and Defenses",
+      "authors": [
+        "Tohid Shekari",
+        "Alvaro A. C&aacute;rdenas",
+        "Raheem Beyah"
+      ],
+      "pages": "3539-3556",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ShekariCB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ShekariCB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/shekari"
+      ]
+    },
+    {
+      "title": "MAGE: Mutual Attestation for a Group of Enclaves without Trusted Third Parties",
+      "authors": [
+        "Guoxing Chen",
+        "Yinqian Zhang"
+      ],
+      "pages": "4095-4110",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChenZ22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChenZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-guoxing"
+      ]
+    },
+    {
+      "title": "Many Roads Lead To Rome: How Packet Headers Influence DNS Censorship Measurement",
+      "authors": [
+        "Abhishek Bhaskar",
+        "Paul Pearce"
+      ],
+      "pages": "449-464",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BhaskarP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BhaskarP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/bhaskar"
+      ]
+    },
+    {
+      "title": "Measurement by Proxy: On the Accuracy of Online Marketplace Measurements",
+      "authors": [
+        "Alejandro Cuevas Villalba",
+        "Fieke Miedema",
+        "Kyle Soska",
+        "Nicolas Christin",
+        "Rolf van Wegberg"
+      ],
+      "pages": "2153-2170",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CuevasMSCW22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CuevasMSCW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/cuevas"
+      ]
+    },
+    {
+      "title": "Measuring and Analyzing DoS Flooding Experiments",
+      "authors": [
+        "Amir Farhat",
+        "Samuel DeLaughter",
+        "Karen R. Sollins"
+      ],
+      "pages": "81-90",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/FarhatDS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/FarhatDS22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546105"
+      ]
+    },
+    {
+      "title": "Membership Inference Attacks and Defenses in Neural Network Pruning",
+      "authors": [
+        "Xiaoyong Yuan",
+        "Lan Zhang 0005"
+      ],
+      "pages": "4561-4578",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Yuan022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Yuan022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/yuan-xiaoyong"
+      ]
+    },
+    {
+      "title": "Midas: Systematic Kernel TOCTTOU Protection",
+      "authors": [
+        "Atri Bhattacharyya",
+        "Uros Tesic",
+        "Mathias Payer"
+      ],
+      "pages": "107-124",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BhattacharyyaTP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BhattacharyyaTP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/bhattacharyya"
+      ]
+    },
+    {
+      "title": "Might I Get Pwned: A Second Generation Compromised Credential Checking Service",
+      "authors": [
+        "Bijeeta Pal",
+        "Mazharul Islam 0002",
+        "Marina Sanusi Bohuk",
+        "Nick Sullivan",
+        "Luke Valenta",
+        "Tara Whalen",
+        "Christopher A. Wood",
+        "Thomas Ristenpart",
+        "Rahul Chatterjee 0001"
+      ],
+      "pages": "1831-1848",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PalIBSVWWR022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PalIBSVWWR022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/pal"
+      ]
+    },
+    {
+      "title": "Minefield: A Software-only Protection for SGX Enclaves against DVFS Attacks",
+      "authors": [
+        "Andreas Kogler",
+        "Daniel Gruss",
+        "Michael Schwarz 0001"
+      ],
+      "pages": "4147-4164",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KoglerG022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KoglerG022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kogler-minefield"
+      ]
+    },
+    {
+      "title": "Mining Node.js Vulnerabilities via Object Dependence Graph and Query",
+      "authors": [
+        "Song Li 0006",
+        "Mingqing Kang",
+        "Jianwei Hou",
+        "Yinzhi Cao"
+      ],
+      "pages": "143-160",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiKHC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiKHC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/li-song"
+      ]
+    },
+    {
+      "title": "Mistrust Plugins You Must: A Large-Scale Study Of Malicious Plugins In WordPress Marketplaces",
+      "authors": [
+        "Ranjita Pai Kasturi",
+        "Jonathan Fuller",
+        "Yiting Sun",
+        "Omar Chabklo",
+        "Andres Rodriguez 0005",
+        "Jeman Park 0001",
+        "Brendan Saltaformaggio"
+      ],
+      "pages": "161-178",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KasturiFSCR0S22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KasturiFSCR0S22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kasturi"
+      ]
+    },
+    {
+      "title": "Mitigating Membership Inference Attacks by Self-Distillation Through a Novel Ensemble Architecture",
+      "authors": [
+        "Xinyu Tang 0003",
+        "Saeed Mahloujifar",
+        "Liwei Song",
+        "Virat Shejwalkar",
+        "Milad Nasr",
+        "Amir Houmansadr",
+        "Prateek Mittal"
+      ],
+      "pages": "1433-1450",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TangMSSNHM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TangMSSNHM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/tang"
+      ]
+    },
+    {
+      "title": "ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models",
+      "authors": [
+        "Yugeng Liu",
+        "Rui Wen 0002",
+        "Xinlei He 0001",
+        "Ahmed Salem 0001",
+        "Zhikun Zhang 0001",
+        "Michael Backes 0001",
+        "Emiliano De Cristofaro",
+        "Mario Fritz",
+        "Yang Zhang 0016"
+      ],
+      "pages": "4525-4542",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiuWH000CF022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiuWH000CF022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/liu-yugeng"
+      ]
+    },
+    {
+      "title": "Morphuzz: Bending (Input) Space to Fuzz Virtual Devices",
+      "authors": [
+        "Alexander Bulekov",
+        "Bandan Das",
+        "Stefan Hajnoczi",
+        "Manuel Egele"
+      ],
+      "pages": "1221-1238",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BulekovDHE22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BulekovDHE22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/bulekov"
+      ]
+    },
+    {
+      "title": "MOVERY: A Precise Approach for Modified Vulnerable Code Clone Discovery from Modified Open-Source Software Components",
+      "authors": [
+        "Seunghoon Woo",
+        "Hyunji Hong",
+        "Eunjin Choi",
+        "Heejo Lee"
+      ],
+      "pages": "3037-3053",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WooHCL22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WooHCL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/woo"
+      ]
+    },
+    {
+      "title": "MundoFuzz: Hypervisor Fuzzing with Statistical Coverage Testing and Grammar Inference",
+      "authors": [
+        "Cheolwoo Myung",
+        "Gwangmu Lee",
+        "Byoungyoung Lee"
+      ],
+      "pages": "1257-1274",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MyungLL22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MyungLL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/myung"
+      ]
+    },
+    {
+      "title": "Neither Access nor Control: A Longitudinal Investigation of the Efficacy of User Access-Control Solutions on Smartphones",
+      "authors": [
+        "Masoud Mehrabi Koushki",
+        "Yue Huang",
+        "Julia Rubin",
+        "Konstantin Beznosov"
+      ],
+      "pages": "917-935",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KoushkiHRB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KoushkiHRB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/koushki"
+      ]
+    },
+    {
+      "title": "Networks of Care: Tech Abuse Advocates' Digital Security Practices",
+      "authors": [
+        "Julia Slupska",
+        "Angelika Strohmayer"
+      ],
+      "pages": "341-358",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SlupskaS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SlupskaS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/slupska-networks"
+      ]
+    },
+    {
+      "title": "Off-Path Network Traffic Manipulation via Revitalized ICMP Redirect Attacks",
+      "authors": [
+        "Xuewei Feng",
+        "Qi Li 0002",
+        "Kun Sun 0001",
+        "Zhiyun Qian",
+        "Gang Zhao",
+        "Xiaohui Kuang",
+        "Chuanpu Fu",
+        "Ke Xu 0002"
+      ],
+      "pages": "2619-2636",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Feng00QZKF022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Feng00QZKF022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/feng"
+      ]
+    },
+    {
+      "title": "Old MacDonald had a smart farm: Building a testbed to study cybersecurity in smart dairy farming",
+      "authors": [
+        "Sharad Agarwal",
+        "Awais Rashid",
+        "Joseph Gardiner"
+      ],
+      "pages": "1-9",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AgarwalRG22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AgarwalRG22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546097",
+        "https://www.wikidata.org/entity/Q130972124"
+      ]
+    },
+    {
+      "title": "Omnes pro uno: Practical Multi-Writer Encrypted Database",
+      "authors": [
+        "Jiafan Wang 0001",
+        "Sherman S. M. Chow"
+      ],
+      "pages": "2371-2388",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0001C22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0001C22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/wang-jiafan"
+      ]
+    },
+    {
+      "title": "On the Necessity of Auditable Algorithmic Definitions for Machine Unlearning",
+      "authors": [
+        "Anvith Thudi",
+        "Hengrui Jia 0001",
+        "Ilia Shumailov",
+        "Nicolas Papernot"
+      ],
+      "pages": "4007-4022",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ThudiJSP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ThudiJSP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/thudi"
+      ]
+    },
+    {
+      "title": "On the Security Risks of AutoML",
+      "authors": [
+        "Ren Pang",
+        "Zhaohan Xi",
+        "Shouling Ji",
+        "Xiapu Luo",
+        "Ting Wang 0006"
+      ],
+      "pages": "3953-3970",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PangXJL022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PangXJL022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/pang-ren"
+      ]
+    },
+    {
+      "title": "One-off Disclosure Control by Heterogeneous Generalization",
+      "authors": [
+        "Olga Gkountouna",
+        "Katerina Doka",
+        "Mingqiang Xue",
+        "Jianneng Cao",
+        "Panagiotis Karras"
+      ],
+      "pages": "3363-3377",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GkountounaDXCK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GkountounaDXCK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/gkountouna"
+      ]
+    },
+    {
+      "title": "Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World",
+      "authors": [
+        "Giovanni Cherubin",
+        "Rob Jansen",
+        "Carmela Troncoso"
+      ],
+      "pages": "753-770",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CherubinJT22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CherubinJT22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/cherubin"
+      ]
+    },
+    {
+      "title": "Oops... Code Execution and Content Spoofing: The First Comprehensive Analysis of OpenDocument Signatures",
+      "authors": [
+        "Simon Rohlmann",
+        "Christian Mainka",
+        "Vladislav Mladenov",
+        "J&ouml;rg Schwenk"
+      ],
+      "pages": "3075-3092",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/RohlmannMMS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/RohlmannMMS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/rohlmann"
+      ]
+    },
+    {
+      "title": "Open to a fault: On the passive compromise of TLS keys via transient errors",
+      "authors": [
+        "George Arnold Sullivan",
+        "Jackson Sippe",
+        "Nadia Heninger",
+        "Eric Wustrow"
+      ],
+      "pages": "233-250",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SullivanSHW22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SullivanSHW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/sullivan"
+      ]
+    },
+    {
+      "title": "OpenSSLNTRU: Faster post-quantum TLS key exchange",
+      "authors": [
+        "Daniel J. Bernstein",
+        "Billy Bob Brumley",
+        "Ming-Shing Chen",
+        "Nicola Tuveri"
+      ],
+      "pages": "845-862",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BernsteinBCT22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BernsteinBCT22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/bernstein"
+      ]
+    },
+    {
+      "title": "OpenVPN is Open to VPN Fingerprinting",
+      "authors": [
+        "Diwen Xue",
+        "Reethika Ramesh",
+        "Arham Jain",
+        "Michalis Kallitsis 0001",
+        "J. Alex Halderman",
+        "Jedidiah R. Crandall",
+        "Roya Ensafi"
+      ],
+      "pages": "483-500",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/XueRJ0HCE22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/XueRJ0HCE22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/xue-diwen"
+      ]
+    },
+    {
+      "title": "Orca: Blocklisting in Sender-Anonymous Messaging",
+      "authors": [
+        "Nirvan Tyagi",
+        "Julia Len",
+        "Ian Miers",
+        "Thomas Ristenpart"
+      ],
+      "pages": "2299-2316",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TyagiLMR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TyagiLMR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/tyagi"
+      ]
+    },
+    {
+      "title": "OS-Aware Vulnerability Prioritization via Differential Severity Analysis",
+      "authors": [
+        "Qiushi Wu",
+        "Yue Xiao 0007",
+        "Xiaojing Liao",
+        "Kangjie Lu"
+      ],
+      "pages": "395-412",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WuXLL22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WuXLL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/wu-qiushi"
+      ]
+    },
+    {
+      "title": "OVRseen: Auditing Network Traffic and Privacy Policies in Oculus VR",
+      "authors": [
+        "Rahmadi Trimananda",
+        "Hieu Le 0003",
+        "Hao Cui",
+        "Janice Tran Ho",
+        "Anastasia Shuba",
+        "Athina Markopoulou"
+      ],
+      "pages": "3789-3806",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TrimanandaLCHSM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TrimanandaLCHSM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/trimananda"
+      ]
+    },
+    {
+      "title": "Pacer: Comprehensive Network Side-Channel Mitigation in the Cloud",
+      "authors": [
+        "Aastha Mehta",
+        "Mohamed Alzayat",
+        "Roberta De Viti",
+        "Bj&ouml;rn B. Brandenburg",
+        "Peter Druschel",
+        "Deepak Garg 0001"
+      ],
+      "pages": "2819-2838",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MehtaAVBD022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MehtaAVBD022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/mehta"
+      ]
+    },
+    {
+      "title": "PatchCleanser: Certifiably Robust Defense against Adversarial Patches for Any Image Classifier",
+      "authors": [
+        "Chong Xiang 0001",
+        "Saeed Mahloujifar",
+        "Prateek Mittal"
+      ],
+      "pages": "2065-2082",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0001MM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0001MM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/xiang"
+      ]
+    },
+    {
+      "title": "Phish in Sheep's Clothing: Exploring the Authentication Pitfalls of Browser Fingerprinting",
+      "authors": [
+        "Xu Lin 0003",
+        "Panagiotis Ilia",
+        "Saumya Solanki",
+        "Jason Polakis"
+      ],
+      "pages": "1651-1668",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LinISP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LinISP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/lin-xu"
+      ]
+    },
+    {
+      "title": "Physical-Layer Attacks Against Pulse Width Modulation-Controlled Actuators",
+      "authors": [
+        "G&ouml;k&ccedil;en Yilmaz Dayanikli",
+        "Sourav Sinha",
+        "Devaprakash Muniraj",
+        "Ryan M. Gerdes",
+        "Mazen Farhood",
+        "Mani Mina"
+      ],
+      "pages": "953-970",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DayanikliSMGFM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DayanikliSMGFM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/dayanikli"
+      ]
+    },
+    {
+      "title": "Piranha: A GPU Platform for Secure Computation",
+      "authors": [
+        "Jean-Luc Watson",
+        "Sameer Wagh",
+        "Raluca Ada Popa"
+      ],
+      "pages": "827-844",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WatsonWP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WatsonWP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/watson"
+      ]
+    },
+    {
+      "title": "PISTIS: Trusted Computing Architecture for Low-end Embedded Systems",
+      "authors": [
+        "Michele Grisafi",
+        "Mahmoud Ammar",
+        "Marco Roveri",
+        "Bruno Crispo"
+      ],
+      "pages": "3843-3860",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GrisafiARC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GrisafiARC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/grisafi"
+      ]
+    },
+    {
+      "title": "Playing for K(H)eaps: Understanding and Improving Linux Kernel Exploit Reliability",
+      "authors": [
+        "Kyle Zeng",
+        "Yueqi Chen 0001",
+        "Haehyun Cho",
+        "Xinyu Xing 0001",
+        "Adam Doup&eacute;",
+        "Yan Shoshitaishvili",
+        "Tiffany Bao"
+      ],
+      "pages": "71-88",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZengCCXDSB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZengCCXDSB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zeng"
+      ]
+    },
+    {
+      "title": "Playing Without Paying: Detecting Vulnerable Payment Verification in Native Binaries of Unity Mobile Games",
+      "authors": [
+        "Chaoshun Zuo",
+        "Zhiqiang Lin 0001"
+      ],
+      "pages": "3093-3110",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZuoL22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZuoL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zuo"
+      ]
+    },
+    {
+      "title": "Poison Forensics: Traceback of Data Poisoning Attacks in Neural Networks",
+      "authors": [
+        "Shawn Shan",
+        "Arjun Nitin Bhagoji",
+        "Haitao Zheng 0001",
+        "Ben Y. Zhao"
+      ],
+      "pages": "3575-3592",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ShanB0Z22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ShanB0Z22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/shan"
+      ]
+    },
+    {
+      "title": "PoisonedEncoder: Poisoning the Unlabeled Pre-training Data in Contrastive Learning",
+      "authors": [
+        "Hongbin Liu 0005",
+        "Jinyuan Jia 0001",
+        "Neil Zhenqiang Gong"
+      ],
+      "pages": "3629-3645",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0005JG22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0005JG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/liu-hongbin"
+      ]
+    },
+    {
+      "title": "Poisoning Attacks to Local Differential Privacy Protocols for Key-Value Data",
+      "authors": [
+        "Yongji Wu",
+        "Xiaoyu Cao",
+        "Jinyuan Jia 0001",
+        "Neil Zhenqiang Gong"
+      ],
+      "pages": "519-536",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WuCJG22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WuCJG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/wu-yongji"
+      ]
+    },
+    {
+      "title": "PolyCruise: A Cross-Language Dynamic Information Flow Analysis",
+      "authors": [
+        "Wen Li 0007",
+        "Jiang Ming 0002",
+        "Xiapu Luo",
+        "Haipeng Cai"
+      ],
+      "pages": "2513-2530",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Li0LC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Li0LC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/li-wen"
+      ]
+    },
+    {
+      "title": "Polynomial Commitment with a One-to-Many Prover and Applications",
+      "authors": [
+        "Jiaheng Zhang",
+        "Tiancheng Xie",
+        "Thang Hoang",
+        "Elaine Shi",
+        "Yupeng Zhang 0001"
+      ],
+      "pages": "2965-2982",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZhangXHSZ22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZhangXHSZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-jiaheng"
+      ]
+    },
+    {
+      "title": "Pool Inference Attacks on Local Differential Privacy: Quantifying the Privacy Guarantees of Apple's Count Mean Sketch in Practice",
+      "authors": [
+        "Andrea Gadotti",
+        "Florimond Houssiau",
+        "Meenatchi Sundaram Muthu Selva Annamalai",
+        "Yves-Alexandre de Montjoye"
+      ],
+      "pages": "501-518",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GadottiHAM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GadottiHAM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/gadotti"
+      ]
+    },
+    {
+      "title": "Position Paper: Certificate Root Stores - An Area of Unity or Disparity?",
+      "authors": [
+        "Jegan Purushothaman",
+        "Ethan Thompson",
+        "AbdelRahman Abdou"
+      ],
+      "pages": "105-110",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PurushothamanTA22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PurushothamanTA22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546110"
+      ]
+    },
+    {
+      "title": "Post-Quantum Cryptography with Contemporary Co-Processors: Beyond Kronecker, Sch&ouml;nhage-Strassen & Nussbaumer",
+      "authors": [
+        "Joppe W. Bos",
+        "Joost Renes",
+        "Christine van Vredendaal"
+      ],
+      "pages": "3683-3697",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BosRV22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BosRV22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/bos"
+      ]
+    },
+    {
+      "title": "PowerDuck: A GOOSE Data Set of Cyberattacks in Substations",
+      "authors": [
+        "Sven Zemanek",
+        "Immanuel Hacker",
+        "Konrad Wolsing",
+        "Eric Wagner 0003",
+        "Martin Henze",
+        "Martin Serror"
+      ],
+      "pages": "49-53",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZemanekHW0HS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZemanekHW0HS22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546102"
+      ]
+    },
+    {
+      "title": "ppSAT: Towards Two-Party Private SAT Solving",
+      "authors": [
+        "Ning Luo 0002",
+        "Samuel Judson",
+        "Timos Antonopoulos",
+        "Ruzica Piskac",
+        "Xiao Wang 0012"
+      ],
+      "pages": "2983-3000",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LuoJAPW22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LuoJAPW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/luo"
+      ]
+    },
+    {
+      "title": "Practical Data Access Minimization in Trigger-Action Platforms",
+      "authors": [
+        "Yunang Chen",
+        "Mohannad Alhanahnah",
+        "Andrei Sabelfeld",
+        "Rahul Chatterjee 0001",
+        "Earlence Fernandes"
+      ],
+      "pages": "2929-2945",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChenAS0F22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChenAS0F22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-yunang-practical"
+      ]
+    },
+    {
+      "title": "Practical Privacy-Preserving Authentication for SSH",
+      "authors": [
+        "Lawrence Roy",
+        "Stanislav Lyakhov",
+        "Yeongjin Jang",
+        "Mike Rosulek"
+      ],
+      "pages": "3345-3362",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/RoyLJR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/RoyLJR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/roy"
+      ]
+    },
+    {
+      "title": "Pre-hijacked accounts: An Empirical Study of Security Failures in User Account Creation on the Web",
+      "authors": [
+        "Avinash Sudhodanan",
+        "Andrew Paverd"
+      ],
+      "pages": "1795-1812",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SudhodananP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SudhodananP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/sudhodanan"
+      ]
+    },
+    {
+      "title": "Private Signaling",
+      "authors": [
+        "Varun Madathil",
+        "Alessandra Scafuro",
+        "Istv&aacute;n Andr&aacute;s Seres",
+        "Omer Shlomovits",
+        "Denis Varlakov"
+      ],
+      "pages": "3309-3326",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MadathilSSSV22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MadathilSSSV22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/madathil"
+      ]
+    },
+    {
+      "title": "PrivGuard: Privacy Regulation Compliance Made Easier",
+      "authors": [
+        "Lun Wang 0001",
+        "Usmann Khan",
+        "Joseph P. Near",
+        "Qi Pang",
+        "Jithendaraa Subramanian",
+        "Neel Somani",
+        "Peng Gao 0008",
+        "Andrew Low",
+        "Dawn Song"
+      ],
+      "pages": "3753-3770",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WangKNPSS0LS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WangKNPSS0LS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/wang-lun"
+      ]
+    },
+    {
+      "title": "ProFactory: Improving IoT Security via Formalized Protocol Customization",
+      "authors": [
+        "Fei Wang 0046",
+        "Jianliang Wu 0002",
+        "Yuhong Nan",
+        "Yousra Aafer",
+        "Xiangyu Zhang 0001",
+        "Dongyan Xu",
+        "Mathias Payer"
+      ],
+      "pages": "3879-3896",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0046WNA0XP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0046WNA0XP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/wang-fei"
+      ]
+    },
+    {
+      "title": "Provably-Safe Multilingual Software Sandboxing using WebAssembly",
+      "authors": [
+        "Jay Bosamiya",
+        "Wen Shih Lim",
+        "Bryan Parno"
+      ],
+      "pages": "1975-1992",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BosamiyaLP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BosamiyaLP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/bosamiya"
+      ]
+    },
+    {
+      "title": "QCSD: A QUIC Client-Side Website-Fingerprinting Defence Framework",
+      "authors": [
+        "Jean-Pierre Smith",
+        "Luca Dolfi",
+        "Prateek Mittal",
+        "Adrian Perrig"
+      ],
+      "pages": "771-789",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SmithDMP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SmithDMP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/smith"
+      ]
+    },
+    {
+      "title": "QuORAM: A Quorum-Replicated Fault Tolerant ORAM Datastore",
+      "authors": [
+        "Sujaya Maiyya",
+        "Seif Ibrahim",
+        "Caitlin Scarberry",
+        "Divyakant Agrawal",
+        "Amr El Abbadi",
+        "Huijia Lin",
+        "Stefano Tessaro",
+        "Victor Zakhary"
+      ],
+      "pages": "3665-3682",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MaiyyaISAALTZ22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MaiyyaISAALTZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/maiyya"
+      ]
+    },
+    {
+      "title": "Rapid Prototyping for Microarchitectural Attacks",
+      "authors": [
+        "Catherine Easdon",
+        "Michael Schwarz 0001",
+        "Martin Schwarzl",
+        "Daniel Gruss"
+      ],
+      "pages": "3861-3877",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Easdon0SG22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Easdon0SG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/easdon"
+      ]
+    },
+    {
+      "title": "RapidPatch: Firmware Hotpatching for Real-Time Embedded Devices",
+      "authors": [
+        "Yi He 0020",
+        "Zhenhua Zou",
+        "Kun Sun 0001",
+        "Zhuotao Liu",
+        "Ke Xu 0002",
+        "Qian Wang 0002",
+        "Chao Shen 0001",
+        "Zhi Wang 0004",
+        "Qi Li 0002"
+      ],
+      "pages": "2225-2242",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HeZ0L0000022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HeZ0L0000022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/he-yi"
+      ]
+    },
+    {
+      "title": "RE-Mind: a First Look Inside the Mind of a Reverse Engineer",
+      "authors": [
+        "Alessandro Mantovani",
+        "Simone Aonzo",
+        "Yanick Fratantonio",
+        "Davide Balzarotti"
+      ],
+      "pages": "2727-2745",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MantovaniAFB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MantovaniAFB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/mantovani"
+      ]
+    },
+    {
+      "title": "RegexScalpel: Regular Expression Denial of Service (ReDoS) Defense by Localize-and-Fix",
+      "authors": [
+        "Yeting Li",
+        "Yecheng Sun",
+        "Zhiwu Xu 0001",
+        "Jialun Cao",
+        "Yuekang Li",
+        "Rongchen Li",
+        "Haiming Chen 0001",
+        "Shing-Chi Cheung",
+        "Yang Liu 0003",
+        "Yang Xiao 0011"
+      ],
+      "pages": "4183-4200",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiS0CLLCC0X22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiS0CLLCC0X22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/li-yeting"
+      ]
+    },
+    {
+      "title": "Regulator: Dynamic Analysis to Detect ReDoS",
+      "authors": [
+        "Robert McLaughlin",
+        "Fabio Pagani",
+        "Noah Spahn",
+        "Christopher Kruegel",
+        "Giovanni Vigna"
+      ],
+      "pages": "4219-4235",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/McLaughlinPSKV22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/McLaughlinPSKV22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/mclaughlin"
+      ]
+    },
+    {
+      "title": "Rendering Contention Channel Made Practical in Web Browsers",
+      "authors": [
+        "Shujiang Wu",
+        "Jianjia Yu",
+        "Min Yang 0002",
+        "Yinzhi Cao"
+      ],
+      "pages": "3183-3199",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WuY0C22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WuY0C22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/wu-shujiang"
+      ]
+    },
+    {
+      "title": "Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX",
+      "authors": [
+        "Lukas Giner",
+        "Andreas Kogler",
+        "Claudio Canella",
+        "Michael Schwarz 0001",
+        "Daniel Gruss"
+      ],
+      "pages": "3111-3127",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GinerKC0G22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GinerKC0G22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/giner"
+      ]
+    },
+    {
+      "title": "RETBLEED: Arbitrary Speculative Code Execution with Return Instructions",
+      "authors": [
+        "Johannes Wikner",
+        "Kaveh Razavi"
+      ],
+      "pages": "3825-3842",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WiknerR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WiknerR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/wikner"
+      ]
+    },
+    {
+      "title": "ReZone: Disarming TrustZone with TEE Privilege Reduction",
+      "authors": [
+        "David Cerdeira",
+        "Jos&eacute; Martins",
+        "Nuno Santos 0001",
+        "Sandro Pinto 0001"
+      ],
+      "pages": "2261-2279",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CerdeiraM0022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CerdeiraM0022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/cerdeira"
+      ]
+    },
+    {
+      "title": "Rolling Colors: Adversarial Laser Exploits against Traffic Light Recognition",
+      "authors": [
+        "Chen Yan 0001",
+        "Zhijian Xu",
+        "Zhanyuan Yin",
+        "Xiaoyu Ji 0001",
+        "Wenyuan Xu 0001"
+      ],
+      "pages": "1957-1974",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/YanXY0X22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/YanXY0X22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/yan"
+      ]
+    },
+    {
+      "title": "SAID: State-aware Defense Against Injection Attacks on In-vehicle Network",
+      "authors": [
+        "Lei Xue 0001",
+        "Yangyang Liu",
+        "Tianqi Li",
+        "Kaifa Zhao",
+        "Jianfeng Li 0006",
+        "Le Yu 0002",
+        "Xiapu Luo",
+        "Yajin Zhou",
+        "Guofei Gu"
+      ],
+      "pages": "1921-1938",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/0001LLZLYLZG22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/0001LLZLYLZG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/xue-lei"
+      ]
+    },
+    {
+      "title": "SAPIC+: protocol verifiers of the world, unite!",
+      "authors": [
+        "Vincent Cheval",
+        "Charlie Jacomme",
+        "Steve Kremer",
+        "Robert K&uuml;nnemann"
+      ],
+      "pages": "3935-3952",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChevalJKK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChevalJKK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/cheval"
+      ]
+    },
+    {
+      "title": "SARA: Secure Android Remote Authorization",
+      "authors": [
+        "Abdullah Imran",
+        "Habiba Farrukh",
+        "Muhammad Ibrahim 0004",
+        "Z. Berkay Celik",
+        "Antonio Bianchi"
+      ],
+      "pages": "1561-1578",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ImranFICB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ImranFICB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/imran"
+      ]
+    },
+    {
+      "title": "SCRAPS: Scalable Collective Remote Attestation for Pub-Sub IoT Networks with Untrusted Proxy Verifier",
+      "authors": [
+        "Lukas Petzi",
+        "Ala Eddine Ben Yahya",
+        "Alexandra Dmitrienko",
+        "Gene Tsudik",
+        "Thomas Prantl",
+        "Samuel Kounev"
+      ],
+      "pages": "3485-3501",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PetziYDTPK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PetziYDTPK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/petzi"
+      ]
+    },
+    {
+      "title": "SecSMT: Securing SMT Processors against Contention-Based Covert Channels",
+      "authors": [
+        "Mohammadkazem Taram",
+        "Xida Ren",
+        "Ashish Venkat",
+        "Dean M. Tullsen"
+      ],
+      "pages": "3165-3182",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TaramRVT22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TaramRVT22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/taram"
+      ]
+    },
+    {
+      "title": "Secure Poisson Regression",
+      "authors": [
+        "Mahimna Kelkar",
+        "Phi Hung Le",
+        "Mariana Raykova 0001",
+        "Karn Seth"
+      ],
+      "pages": "791-808",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KelkarL0S22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KelkarL0S22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kelkar"
+      ]
+    },
+    {
+      "title": "Security Analysis of Camera-LiDAR Fusion Against Black-Box Attacks on Autonomous Vehicles",
+      "authors": [
+        "R. Spencer Hallyburton",
+        "Yupei Liu",
+        "Yulong Cao",
+        "Z. Morley Mao",
+        "Miroslav Pajic"
+      ],
+      "pages": "1903-1920",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HallyburtonLCMP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HallyburtonLCMP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/hallyburton"
+      ]
+    },
+    {
+      "title": "Security and Privacy Perceptions of Third-Party Application Access for Google Accounts",
+      "authors": [
+        "David G. Balash",
+        "Xiaoyuan Wu",
+        "Miles Grant",
+        "Irwin Reyes",
+        "Adam J. Aviv"
+      ],
+      "pages": "3397-3414",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BalashWGRA22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BalashWGRA22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/balash"
+      ]
+    },
+    {
+      "title": "Security at the End of the Tunnel: The Anatomy of VPN Mental Models Among Experts and Non-Experts in a Corporate Context",
+      "authors": [
+        "Veroniek Binkhorst",
+        "Tobias Fiebig",
+        "Katharina Krombholz",
+        "Wolter Pieters",
+        "Katsiaryna Labunets"
+      ],
+      "pages": "3433-3450",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BinkhorstFKPL22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BinkhorstFKPL22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/binkhorst"
+      ]
+    },
+    {
+      "title": "Seeing is Living? Rethinking the Security of Facial Liveness Verification in the Deepfake Era",
+      "authors": [
+        "Changjiang Li",
+        "Li Wang 0120",
+        "Shouling Ji",
+        "Xuhong Zhang 0002",
+        "Zhaohan Xi",
+        "Shanqing Guo",
+        "Ting Wang 0006"
+      ],
+      "pages": "2673-2690",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LiWJ0XG022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LiWJ0XG022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/li-changjiang"
+      ]
+    },
+    {
+      "title": "Seeing the Forest for the Trees: Understanding Security Hazards in the 3GPP Ecosystem through Intelligent Analysis on Change Requests",
+      "authors": [
+        "Yi Chen 0024",
+        "Di Tang 0001",
+        "Yepeng Yao",
+        "Mingming Zha 0001",
+        "XiaoFeng Wang 0001",
+        "Xiaozhong Liu 0001",
+        "Haixu Tang",
+        "Dongfang Zhao 0010"
+      ],
+      "pages": "17-34",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChenTYZ0LT022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChenTYZ0LT022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-yi"
+      ]
+    },
+    {
+      "title": "SGXFuzz: Efficiently Synthesizing Nested Structures for SGX Enclave Fuzzing",
+      "authors": [
+        "Tobias Cloosters",
+        "Johannes Willbold",
+        "Thorsten Holz",
+        "Lucas Davi"
+      ],
+      "pages": "3147-3164",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/CloostersWHD22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/CloostersWHD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/cloosters"
+      ]
+    },
+    {
+      "title": "SGXLock: Towards Efficiently Establishing Mutual Distrust Between Host Application and Enclave for SGX",
+      "authors": [
+        "Yuan Chen",
+        "Jiaqi Li 0023",
+        "Guorui Xu",
+        "Yajin Zhou",
+        "Zhi Wang 0004",
+        "Cong Wang 0001",
+        "Kui Ren 0001"
+      ],
+      "pages": "4129-4146",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChenLXZ00022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChenLXZ00022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-yuan"
+      ]
+    },
+    {
+      "title": "Shuffle-based Private Set Union: Faster and More Secure",
+      "authors": [
+        "Yanxue Jia",
+        "Shifeng Sun 0001",
+        "Hong-Sheng Zhou",
+        "Jiajun Du",
+        "Dawu Gu"
+      ],
+      "pages": "2947-2964",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/JiaSZDG22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/JiaSZDG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/jia"
+      ]
+    },
+    {
+      "title": "SIMC: ML Inference Secure Against Malicious Clients at Semi-Honest Cost",
+      "authors": [
+        "Nishanth Chandran",
+        "Divya Gupta 0001",
+        "Sai Lakshmi Bhavana Obbattu",
+        "Akash Shah"
+      ],
+      "pages": "1361-1378",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Chandran0OS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Chandran0OS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chandran"
+      ]
+    },
+    {
+      "title": "SkillDetective: Automated Policy-Violation Detection of Voice Assistant Applications in the Wild",
+      "authors": [
+        "Jeffrey Young",
+        "Song Liao",
+        "Long Cheng 0005",
+        "Hongxin Hu",
+        "Huixing Deng"
+      ],
+      "pages": "1113-1130",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/YoungL0HD22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/YoungL0HD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/young"
+      ]
+    },
+    {
+      "title": "Smart Home Privacy Policies Demystified: A Study of Availability, Content, and Coverage",
+      "authors": [
+        "Sunil Manandhar",
+        "Kaushal Kafle",
+        "Benjamin Andow",
+        "Kapil Singh",
+        "Adwait Nadkarni"
+      ],
+      "pages": "3521-3538",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ManandharKASN22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ManandharKASN22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/manandhar"
+      ]
+    },
+    {
+      "title": "Spoki: Unveiling a New Wave of Scanners through a Reactive Network Telescope",
+      "authors": [
+        "Raphael Hiesgen",
+        "Marcin Nawrocki",
+        "Alistair King",
+        "Alberto Dainotti",
+        "Thomas C. Schmidt",
+        "Matthias W&auml;hlisch"
+      ],
+      "pages": "431-448",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HiesgenNKDSW22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HiesgenNKDSW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/hiesgen"
+      ]
+    },
+    {
+      "title": "Stalloris: RPKI Downgrade Attack",
+      "authors": [
+        "Tomas Hlavacek",
+        "Philipp Jeitner",
+        "Donika Mirdita",
+        "Haya Schulmann",
+        "Michael Waidner"
+      ],
+      "pages": "4455-4471",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/HlavacekJMSW22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/HlavacekJMSW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/hlavacek"
+      ]
+    },
+    {
+      "title": "Stateful Greybox Fuzzing",
+      "authors": [
+        "Jinsheng Ba",
+        "Marcel B&ouml;hme",
+        "Zahra Mirzamomen",
+        "Abhik Roychoudhury"
+      ],
+      "pages": "3255-3272",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BaBMR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BaBMR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/ba"
+      ]
+    },
+    {
+      "title": "StateFuzz: System Call-Based State-Aware Linux Driver Fuzzing",
+      "authors": [
+        "Bodong Zhao",
+        "Zheming Li",
+        "Shisong Qin",
+        "Zheyu Ma",
+        "Ming Yuan 0003",
+        "Wenyu Zhu",
+        "Zhihong Tian",
+        "Chao Zhang 0008"
+      ],
+      "pages": "3273-3289",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZhaoLQMYZT022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZhaoLQMYZT022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zhao-bodong"
+      ]
+    },
+    {
+      "title": "Stick It to The Man: Correcting for Non-Cooperative Behavior of Subjects in Experiments on Social Networks",
+      "authors": [
+        "Kaleigh Clary",
+        "Emma Tosch",
+        "Jeremiah Onaolapo",
+        "David D. Jensen"
+      ],
+      "pages": "3771-3788",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ClaryTOJ22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ClaryTOJ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/clary"
+      ]
+    },
+    {
+      "title": "SWAPP: A New Programmable Playground for Web Application Security",
+      "authors": [
+        "Phakpoom Chinprutthiwong",
+        "Jianwei Huang",
+        "Guofei Gu"
+      ],
+      "pages": "2029-2046",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Chinprutthiwong22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Chinprutthiwong22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chinprutthiwong"
+      ]
+    },
+    {
+      "title": "SYMSAN: Time and Space Efficient Concolic Execution via Dynamic Data-flow Analysis",
+      "authors": [
+        "Ju Chen",
+        "Wookhyun Han",
+        "Mingjun Yin",
+        "Haochen Zeng",
+        "Chengyu Song",
+        "Byoungyoung Lee",
+        "Heng Yin 0001",
+        "Insik Shin"
+      ],
+      "pages": "2531-2548",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ChenHYZSLYS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ChenHYZSLYS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-ju"
+      ]
+    },
+    {
+      "title": "Synthetic Data - Anonymisation Groundhog Day",
+      "authors": [
+        "Theresa Stadler",
+        "Bristena Oprisanu",
+        "Carmela Troncoso"
+      ],
+      "pages": "1451-1468",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/StadlerOT22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/StadlerOT22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/stadler"
+      ]
+    },
+    {
+      "title": "SyzScope: Revealing High-Risk Security Impacts of Fuzzer-Exposed Bugs in Linux kernel",
+      "authors": [
+        "Xiaochen Zou",
+        "Guoren Li",
+        "Weiteng Chen",
+        "Hang Zhang 0012",
+        "Zhiyun Qian"
+      ],
+      "pages": "3201-3217",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZouLCZQ22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZouLCZQ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zou"
+      ]
+    },
+    {
+      "title": "Targeted Deanonymization via the Cache Side Channel: Attacks and Defenses",
+      "authors": [
+        "Mojtaba Zaheri",
+        "Yossi Oren",
+        "Reza Curtmola"
+      ],
+      "pages": "1505-1523",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ZaheriOC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ZaheriOC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/zaheri"
+      ]
+    },
+    {
+      "title": "Teacher Model Fingerprinting Attacks Against Transfer Learning",
+      "authors": [
+        "Yufei Chen 0001",
+        "Chao Shen 0001",
+        "Cong Wang 0001",
+        "Yang Zhang 0016"
+      ],
+      "pages": "3593-3610",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/000100022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/000100022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-yufei"
+      ]
+    },
+    {
+      "title": "The Antrim County 2020 Election Incident: An Independent Forensic Investigation",
+      "authors": [
+        "J. Alex Halderman"
+      ],
+      "pages": "589-605",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/Halderman22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/Halderman22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/halderman"
+      ]
+    },
+    {
+      "title": "The Dangers of Human Touch: Fingerprinting Browser Extensions through User Actions",
+      "authors": [
+        "Konstantinos Solomos",
+        "Panagiotis Ilia",
+        "Soroush Karami",
+        "Nick Nikiforakis",
+        "Jason Polakis"
+      ],
+      "pages": "717-733",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SolomosIKNP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SolomosIKNP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/solomos"
+      ]
+    },
+    {
+      "title": "The DARPA SEARCHLIGHT Dataset of Application Network Traffic",
+      "authors": [
+        "Calvin Ardi",
+        "Connor Aubry",
+        "Brian Kocoloski",
+        "Dave DeAngelis",
+        "Alefiya Hussain",
+        "Matthew Troglia",
+        "Stephen Schwab"
+      ],
+      "pages": "59-64",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ArdiAKDHTS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ArdiAKDHTS22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546103",
+        "https://www.wikidata.org/entity/Q131119146"
+      ]
+    },
+    {
+      "title": "The Distributed Digital Body Farm: Enabling the Analysis of Deleted File Decay Patterns",
+      "authors": [
+        "Omoche Cheche Agada",
+        "James H. Jones Jr.",
+        "Kevin D. Fairbanks"
+      ],
+      "pages": "111-119",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AgadaJF22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AgadaJF22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546100",
+        "https://www.wikidata.org/entity/Q130852459"
+      ]
+    },
+    {
+      "title": "The Security Lottery: Measuring Client-Side Web Security Inconsistencies",
+      "authors": [
+        "Sebastian Roth",
+        "Stefano Calzavara",
+        "Moritz Wilhelm",
+        "Alvise Rabitti",
+        "Ben Stock"
+      ],
+      "pages": "2047-2064",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/RothCWRS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/RothCWRS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/roth"
+      ]
+    },
+    {
+      "title": "TheHuzz: Instruction Fuzzing of Processors Using Golden-Reference Models for Finding Software-Exploitable Vulnerabilities",
+      "authors": [
+        "Rahul Kande",
+        "Addison Crump",
+        "Garrett Persyn",
+        "Patrick Jauernig",
+        "Ahmad-Reza Sadeghi",
+        "Aakash Tyagi",
+        "Jeyavijayan Rajendran"
+      ],
+      "pages": "3219-3236",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KandeCPJSTR22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KandeCPJSTR22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kande"
+      ]
+    },
+    {
+      "title": "Themis: Accelerating the Detection of Route Origin Hijacking by Distinguishing Legitimate and Illegitimate MOAS",
+      "authors": [
+        "Lancheng Qin",
+        "Dan Li 0001",
+        "Ruifeng Li",
+        "Kang Wang"
+      ],
+      "pages": "4509-4524",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/QinLLW22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/QinLLW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/qin"
+      ]
+    },
+    {
+      "title": "Tightly Seal Your Sensitive Pointers with PACTight",
+      "authors": [
+        "Mohannad Ismail",
+        "Andrew Quach",
+        "Christopher Jelesnianski",
+        "Yeongjin Jang",
+        "Changwoo Min"
+      ],
+      "pages": "3717-3734",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/IsmailQJJM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/IsmailQJJM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/ismail"
+      ]
+    },
+    {
+      "title": "TLB;DR: Enhancing TLB-based Attacks with TLB Desynchronized Reverse Engineering",
+      "authors": [
+        "Andrei Tatar",
+        "Dani&euml;l Trujillo",
+        "Cristiano Giuffrida",
+        "Herbert Bos"
+      ],
+      "pages": "989-1007",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/TatarTGB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/TatarTGB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/tatar"
+      ]
+    },
+    {
+      "title": "TLS-Anvil: Adapting Combinatorial Testing for TLS Libraries",
+      "authors": [
+        "Marcel Maehren",
+        "Philipp Nieting",
+        "Sven Hebrok",
+        "Robert Merget",
+        "Juraj Somorovsky",
+        "J&ouml;rg Schwenk"
+      ],
+      "pages": "215-232",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MaehrenNHMSS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MaehrenNHMSS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/maehren"
+      ]
+    },
+    {
+      "title": "Total Eclipse of the Heart - Disrupting the InterPlanetary File System",
+      "authors": [
+        "Bernd Pr&uuml;nster",
+        "Alexander Marsalek",
+        "Thomas Zefferer"
+      ],
+      "pages": "3735-3752",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PrunsterMZ22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PrunsterMZ22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/prunster"
+      ]
+    },
+    {
+      "title": "Toward Findable, Accessible, Interoperable, and Reusable Cybersecurity Artifacts",
+      "authors": [
+        "David M. Balenson",
+        "Terry Benzel",
+        "Eric Eide",
+        "David Emmerich",
+        "David Johnson 0004",
+        "Jelena Mirkovic",
+        "Laura Tinnel"
+      ],
+      "pages": "65-70",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BalensonBEE0MT22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BalensonBEE0MT22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546104"
+      ]
+    },
+    {
+      "title": "Toward the Detection of Polyglot Files",
+      "authors": [
+        "Luke Koch",
+        "Sean Oesch",
+        "Amul Chaulagain",
+        "Mary Adkisson",
+        "Samantha Erwin",
+        "Brian Weber"
+      ],
+      "pages": "120-128",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KochOCAEW22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KochOCAEW22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546106"
+      ]
+    },
+    {
+      "title": "Towards Automatically Reverse Engineering Vehicle Diagnostic Protocols",
+      "authors": [
+        "Le Yu 0002",
+        "Yangyang Liu",
+        "Pengfei Jing",
+        "Xiapu Luo",
+        "Lei Xue 0001",
+        "Kaifa Zhao",
+        "Yajin Zhou",
+        "Ting Wang 0006",
+        "Guofei Gu",
+        "Sen Nie",
+        "Shi Wu"
+      ],
+      "pages": "1939-1956",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/YuLJL0ZZ0GNW22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/YuLJL0ZZ0GNW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/yu-le"
+      ]
+    },
+    {
+      "title": "Towards More Robust Keyword Spotting for Voice Assistants",
+      "authors": [
+        "Shimaa Ahmed",
+        "Ilia Shumailov",
+        "Nicolas Papernot",
+        "Kassem Fawaz"
+      ],
+      "pages": "2655-2672",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/AhmedSPF22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/AhmedSPF22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/ahmed"
+      ]
+    },
+    {
+      "title": "Transferring Adversarial Robustness Through Robust Representation Matching",
+      "authors": [
+        "Pratik Vaishnavi",
+        "Kevin Eykholt",
+        "Amir Rahmati"
+      ],
+      "pages": "2083-2098",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/VaishnaviER22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/VaishnaviER22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/vaishnavi"
+      ]
+    },
+    {
+      "title": "Trust Dies in Darkness: Shedding Light on Samsung's TrustZone Keymaster Design",
+      "authors": [
+        "Alon Shakevsky",
+        "Eyal Ronen",
+        "Avishai Wool"
+      ],
+      "pages": "251-268",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ShakevskyRW22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ShakevskyRW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/shakevsky"
+      ]
+    },
+    {
+      "title": "Twilight: A Differentially Private Payment Channel Network",
+      "authors": [
+        "Maya Dotan",
+        "Saar Tochner",
+        "Aviv Zohar",
+        "Yossi Gilad"
+      ],
+      "pages": "555-570",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DotanTZG22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DotanTZG22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/dotan"
+      ]
+    },
+    {
+      "title": "Under the Hood of DANE Mismanagement in SMTP",
+      "authors": [
+        "Hyeonmin Lee",
+        "Md. Ishtiaq Ashiq",
+        "Moritz M&uuml;ller",
+        "Roland van Rijswijk-Deij",
+        "Ted Taekyoung Kwon",
+        "Taejoong Chung"
+      ],
+      "pages": "1-16",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/LeeAMRKC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/LeeAMRKC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/lee"
+      ]
+    },
+    {
+      "title": "Understanding and Improving Usability of Data Dashboards for Simplified Privacy Control of Voice Assistant Data",
+      "authors": [
+        "Vandit Sharma",
+        "Mainack Mondal"
+      ],
+      "pages": "3379-3395",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SharmaM22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SharmaM22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/sharma-vandit"
+      ]
+    },
+    {
+      "title": "Uninvited Guests: Analyzing the Identity and Behavior of Certificate Transparency Bots",
+      "authors": [
+        "Brian Kondracki",
+        "Johnny So",
+        "Nick Nikiforakis"
+      ],
+      "pages": "53-70",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KondrackiSN22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KondrackiSN22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kondracki"
+      ]
+    },
+    {
+      "title": "Unleash the Simulacrum: Shifting Browser Realities for Robust Extension-Fingerprinting Prevention",
+      "authors": [
+        "Soroush Karami",
+        "Faezeh Kalantari",
+        "Mehrnoosh Zaeifi",
+        "Xavier J. Maso",
+        "Erik Trickel",
+        "Panagiotis Ilia",
+        "Yan Shoshitaishvili",
+        "Adam Doup&eacute;",
+        "Jason Polakis"
+      ],
+      "pages": "735-752",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KaramiKZMTISDP22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KaramiKZMTISDP22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/karami"
+      ]
+    },
+    {
+      "title": "Using Trātṛ to tame Adversarial Synchronization",
+      "authors": [
+        "Yuvraj Patel",
+        "Chenhao Ye",
+        "Akshat Sinha",
+        "Abigail Matthews",
+        "Andrea C. Arpaci-Dusseau",
+        "Michael M. Swift"
+      ],
+      "pages": "3897-3916",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/PatelYSMAS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/PatelYSMAS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/patel"
+      ]
+    },
+    {
+      "title": "V'CER: Efficient Certificate Validation in Constrained Networks",
+      "authors": [
+        "David Koisser",
+        "Patrick Jauernig",
+        "Gene Tsudik",
+        "Ahmad-Reza Sadeghi"
+      ],
+      "pages": "4491-4508",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KoisserJTS22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KoisserJTS22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/koisser"
+      ]
+    },
+    {
+      "title": "Verification of Cyber Emulation Experiments Through Virtual Machine and Host Metrics",
+      "authors": [
+        "Jamie Thorpe",
+        "Laura P. Swiler",
+        "Seth Hanson",
+        "Gerardo Cruz",
+        "Thomas D. Tarman",
+        "Trevor Rollins",
+        "Bert J. Debusschere"
+      ],
+      "pages": "71-80",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/ThorpeSHCTRD22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/ThorpeSHCTRD22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546115"
+      ]
+    },
+    {
+      "title": "VerLoc: Verifiable Localization in Decentralized Systems",
+      "authors": [
+        "Katharina Kohls",
+        "Claudia D&iacute;az"
+      ],
+      "pages": "2637-2654",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KohlsD22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KohlsD22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kohls"
+      ]
+    },
+    {
+      "title": "VET5G: A Virtual End-to-End Testbed for 5G Network Security Experimentation",
+      "authors": [
+        "Zhixin Wen",
+        "Harsh Sanjay Pacherkar",
+        "Guanhua Yan"
+      ],
+      "pages": "19-29",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/WenPY22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/WenPY22.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3546096.3546111"
+      ]
+    },
+    {
+      "title": "Watching the watchers: bias and vulnerability in remote proctoring software",
+      "authors": [
+        "Ben Burgess",
+        "Avi Ginsberg",
+        "Edward W. Felten",
+        "Shaanan Cohney"
+      ],
+      "pages": "571-588",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BurgessGFC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BurgessGFC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/burgess"
+      ]
+    },
+    {
+      "title": "Watching the Watchers: Practical Video Identification Attack in LTE Networks",
+      "authors": [
+        "Sangwook Bae",
+        "Mincheol Son",
+        "Dongkwan Kim 0001",
+        "CheolJun Park",
+        "Jiho Lee",
+        "Sooel Son",
+        "Yongdae Kim"
+      ],
+      "pages": "1307-1324",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BaeSKPLSK22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BaeSKPLSK22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/bae"
+      ]
+    },
+    {
+      "title": "Web Cache Deception Escalates!",
+      "authors": [
+        "Seyed Ali Mirheidari",
+        "Matteo Golinelli",
+        "Kaan Onarlioglu",
+        "Engin Kirda",
+        "Bruno Crispo"
+      ],
+      "pages": "179-196",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MirheidariGOKC22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MirheidariGOKC22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/mirheidari"
+      ]
+    },
+    {
+      "title": "WebGraph: Capturing Advertising and Tracking Information Flows for Robust Blocking",
+      "authors": [
+        "Sandra Deepthy Siby",
+        "Umar Iqbal 0002",
+        "Steven Englehardt",
+        "Zubair Shafiq",
+        "Carmela Troncoso"
+      ],
+      "pages": "2875-2892",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/SibyIEST22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/SibyIEST22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/siby"
+      ]
+    },
+    {
+      "title": "When Sally Met Trackers: Web Tracking From the Users' Perspective",
+      "authors": [
+        "Savino Dambra",
+        "Iskander S&aacute;nchez-Rola",
+        "Leyla Bilge",
+        "Davide Balzarotti"
+      ],
+      "pages": "2189-2206",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/DambraSBB22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/DambraSBB22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/dambra"
+      ]
+    },
+    {
+      "title": "Where to Recruit for Security Development Studies: Comparing Six Software Developer Samples",
+      "authors": [
+        "Harjot Kaur",
+        "Sabrina Amft",
+        "Daniel Votipka",
+        "Yasemin Acar",
+        "Sascha Fahl"
+      ],
+      "pages": "4041-4058",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/KaurAVAF22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/KaurAVAF22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/kaur"
+      ]
+    },
+    {
+      "title": "Who Are You (I Really Wanna Know)? Detecting Audio DeepFakes Through Vocal Tract Reconstruction",
+      "authors": [
+        "Logan Blue",
+        "Kevin Warren",
+        "Hadi Abdullah",
+        "Cassidy Gibson",
+        "Luis Vargas",
+        "Jessica O'Dell",
+        "Kevin R. B. Butler",
+        "Patrick Traynor"
+      ],
+      "pages": "2691-2708",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/BlueWAGVOBT22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/BlueWAGVOBT22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/blue"
+      ]
+    },
+    {
+      "title": "Why Users (Don't) Use Password Managers at a Large Educational Institution",
+      "authors": [
+        "Peter Mayer 0001",
+        "Collins W. Munyendo",
+        "Michelle L. Mazurek",
+        "Adam J. Aviv"
+      ],
+      "pages": "1849-1866",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MayerMMA22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MayerMMA22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/mayer"
+      ]
+    },
+    {
+      "title": "XDRI Attacks - and - How to Enhance Resilience of Residential Routers",
+      "authors": [
+        "Philipp Jeitner",
+        "Haya Schulmann",
+        "Lucas Teichmann",
+        "Michael Waidner"
+      ],
+      "pages": "4473-4490",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/JeitnerSTW22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/JeitnerSTW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/jeitner"
+      ]
+    },
+    {
+      "title": "Your Microphone Array Retains Your Identity: A Robust Voice Liveness Detection System for Smart Speakers",
+      "authors": [
+        "Yan Meng 0001",
+        "Jiachun Li 0001",
+        "Matthew Pillari",
+        "Arjun Deopujari",
+        "Liam Brennan",
+        "Hafsah Shamsie",
+        "Haojin Zhu",
+        "Yuan Tian 0001"
+      ],
+      "pages": "1077-1094",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/MengLPDBSZ022",
+      "dblp_url": "https://dblp.org/rec/conf/uss/MengLPDBSZ022.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/meng"
+      ]
+    },
+    {
+      "title": "Zero-Knowledge Middleboxes",
+      "authors": [
+        "Paul Grubbs",
+        "Arasu Arun",
+        "Ye Zhang",
+        "Joseph Bonneau",
+        "Michael Walfish"
+      ],
+      "pages": "4255-4272",
+      "year": "2022",
+      "venue": "USENIX Security 2022",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/uss/GrubbsAZBW22",
+      "dblp_url": "https://dblp.org/rec/conf/uss/GrubbsAZBW22.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/grubbs"
+      ]
+    }
+  ]
+}

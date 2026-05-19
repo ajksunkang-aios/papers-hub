@@ -1,0 +1,556 @@
+{
+  "id": "asplos-1987",
+  "venue": "asplos",
+  "year": 1987,
+  "short_name": "ASPLOS",
+  "full_name": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "source_url": "https://dblp.org/db/conf/asplos/asplos1987.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/asplos/asplos1987.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/asplos/1987",
+    "conf/asplos/1987-1",
+    "conf/asplos/1987-2",
+    "conf/asplos/1987-3",
+    "conf/asplos/1987-4",
+    "conf/asplos/1987-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) ACM International Conference on Architectural Support"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 26,
+  "display_count": 26,
+  "papers": [
+    {
+      "title": "A RISC Architecture for Symbolic Computation",
+      "authors": [
+        "Richard B. Kieburtz"
+      ],
+      "pages": "146-155",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Kieburtz87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Kieburtz87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36197",
+        "https://doi.org/10.1145/36205.36197",
+        "https://doi.org/10.1145/36204.36197",
+        "https://doi.org/10.1145/36177.36197"
+      ]
+    },
+    {
+      "title": "A Study of Scalar Compilation Techniques for Pipelined Supercomputers",
+      "authors": [
+        "Shlomo Weiss",
+        "James E. Smith 0001"
+      ],
+      "pages": "105-109",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WeissS87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WeissS87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36191",
+        "https://doi.org/10.1145/36205.36191",
+        "https://doi.org/10.1145/36204.36191",
+        "https://doi.org/10.1145/36177.36191"
+      ]
+    },
+    {
+      "title": "A VLIW Architecture for a Trace Scheduling Compiler",
+      "authors": [
+        "Robert P. Colwell",
+        "Robert P. Nix",
+        "John J. O'Donnell",
+        "David B. Papworth",
+        "Paul K. Rodman"
+      ],
+      "pages": "180-192",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ColwellNOPR87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ColwellNOPR87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36201",
+        "https://doi.org/10.1145/36205.36201",
+        "https://doi.org/10.1145/36204.36201",
+        "https://doi.org/10.1145/36177.36201",
+        "https://www.wikidata.org/entity/Q121734886"
+      ]
+    },
+    {
+      "title": "An Architecture for the Direct Execution of the Forth Programming Language",
+      "authors": [
+        "John R. Hayes",
+        "Martin E. Fraeman",
+        "Robert L. Williams",
+        "Thomas Zaremba"
+      ],
+      "pages": "42-49",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HayesFWZ87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HayesFWZ87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36182",
+        "https://doi.org/10.1145/36205.36182",
+        "https://doi.org/10.1145/36204.36182",
+        "https://doi.org/10.1145/36177.36182"
+      ]
+    },
+    {
+      "title": "An Experimental Coprocessor for Implementing Persistant Objects on an IBM 4381",
+      "authors": [
+        "Christos J. Georgiou",
+        "S. L. Palmer",
+        "Philip L. Rosenfeld"
+      ],
+      "pages": "84-87",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GeorgiouPR87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GeorgiouPR87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36188",
+        "https://doi.org/10.1145/36205.36188",
+        "https://doi.org/10.1145/36204.36188",
+        "https://doi.org/10.1145/36177.36188"
+      ]
+    },
+    {
+      "title": "Architectural Support for Multilanguage Parallel Programming on Heterogeneous Systems",
+      "authors": [
+        "Roberto Bisiani",
+        "Alessandro Forin"
+      ],
+      "pages": "21-30",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BisianiF87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BisianiF87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36180",
+        "https://doi.org/10.1145/36205.36180",
+        "https://doi.org/10.1145/36204.36180",
+        "https://doi.org/10.1145/36177.36180"
+      ]
+    },
+    {
+      "title": "Cheap Hardware Support for Software Debugging and Profiling",
+      "authors": [
+        "Thomas A. Cargill",
+        "Bart N. Locanthi"
+      ],
+      "pages": "82-83",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CargillL87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CargillL87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36187",
+        "https://doi.org/10.1145/36205.36187",
+        "https://doi.org/10.1145/36204.36187",
+        "https://doi.org/10.1145/36177.36187"
+      ]
+    },
+    {
+      "title": "Coherency for Multiprocessor Virtual Address Caches",
+      "authors": [
+        "James R. Goodman"
+      ],
+      "pages": "72-81",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Goodman87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Goodman87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36186",
+        "https://doi.org/10.1145/36205.36186",
+        "https://doi.org/10.1145/36204.36186",
+        "https://doi.org/10.1145/36177.36186"
+      ]
+    },
+    {
+      "title": "Compiling Smalltalk-80 to a RISC",
+      "authors": [
+        "William R. Bush",
+        "A. Dain Samples",
+        "David M. Ungar",
+        "Paul N. Hilfinger"
+      ],
+      "pages": "112-116",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BushSUH87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BushSUH87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36192",
+        "https://doi.org/10.1145/36205.36192",
+        "https://doi.org/10.1145/36204.36192",
+        "https://doi.org/10.1145/36177.36192"
+      ]
+    },
+    {
+      "title": "Design Tradeoffs to Support the C Programming Language in the CRISP Microprocessor",
+      "authors": [
+        "David R. Ditzel",
+        "Hubert R. McLellan"
+      ],
+      "pages": "158-163",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DitzelM87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DitzelM87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36198",
+        "https://doi.org/10.1145/36205.36198",
+        "https://doi.org/10.1145/36204.36198",
+        "https://doi.org/10.1145/36177.36198",
+        "https://www.wikidata.org/entity/Q130957908"
+      ]
+    },
+    {
+      "title": "Firefly: A Multiprocessor Workstation",
+      "authors": [
+        "Charles P. Thacker",
+        "Lawrence C. Stewart"
+      ],
+      "pages": "164-172",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ThackerS87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ThackerS87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36199",
+        "https://doi.org/10.1145/36205.36199",
+        "https://doi.org/10.1145/36204.36199",
+        "https://doi.org/10.1145/36177.36199"
+      ]
+    },
+    {
+      "title": "Hardware Architectures for Programming Languages and Programming Languages for Hardware Architectures",
+      "authors": [
+        "Niklaus Wirth"
+      ],
+      "pages": "2-8",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Wirth87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Wirth87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36178",
+        "https://doi.org/10.1145/36205.36178",
+        "https://doi.org/10.1145/36204.36178",
+        "https://doi.org/10.1145/36177.36178"
+      ]
+    },
+    {
+      "title": "How Many Addressing Modes are Enough?",
+      "authors": [
+        "Fred C. Chow",
+        "Steven Correll",
+        "Mark I. Himelstein",
+        "Earl Killian",
+        "Larry Weber"
+      ],
+      "pages": "117-121",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChowCHKW87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChowCHKW87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36193",
+        "https://doi.org/10.1145/36205.36193",
+        "https://doi.org/10.1145/36204.36193",
+        "https://doi.org/10.1145/36177.36193"
+      ]
+    },
+    {
+      "title": "Integer Multiplication and Division on the HP Precision Architecture",
+      "authors": [
+        "Daniel J. Magenheimer",
+        "Liz Peters",
+        "Karl Pettis",
+        "Dan Zuras"
+      ],
+      "pages": "90-99",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MagenheimerPPZ87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MagenheimerPPZ87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36189",
+        "https://doi.org/10.1145/36205.36189",
+        "https://doi.org/10.1145/36204.36189",
+        "https://doi.org/10.1145/36177.36189"
+      ]
+    },
+    {
+      "title": "Machine-Independent Virtual Memory Management for Paged Uniprocessor and Multiprocessor Architectures",
+      "authors": [
+        "Richard F. Rashid",
+        "Avadis Tevanian",
+        "Michael Young",
+        "David B. Golub",
+        "Robert V. Baron",
+        "David L. Black 0001",
+        "William J. Bolosky",
+        "Jonathan Chew"
+      ],
+      "pages": "31-39",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RashidTYGBBBC87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RashidTYGBBBC87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36181",
+        "https://doi.org/10.1145/36205.36181",
+        "https://doi.org/10.1145/36204.36181",
+        "https://doi.org/10.1145/36177.36181"
+      ]
+    },
+    {
+      "title": "Parallel Computers for Graphics Applications",
+      "authors": [
+        "Adam Levinthal",
+        "Pat Hanrahan",
+        "Mike Paquette",
+        "Jim Lawson"
+      ],
+      "pages": "193-198",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LevinthalHPL87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LevinthalHPL87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36202",
+        "https://doi.org/10.1145/36205.36202",
+        "https://doi.org/10.1145/36204.36202",
+        "https://doi.org/10.1145/36177.36202"
+      ]
+    },
+    {
+      "title": "Performance and Architectural Evaluation of the PSI Machine",
+      "authors": [
+        "Kazuo Taki",
+        "Katsuto Nakajima",
+        "Hiroshi Nakashima",
+        "Morihiro Ikeda"
+      ],
+      "pages": "128-135",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TakiNNI87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TakiNNI87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36195",
+        "https://doi.org/10.1145/36205.36195",
+        "https://doi.org/10.1145/36204.36195",
+        "https://doi.org/10.1145/36177.36195",
+        "https://www.wikidata.org/entity/Q56059063"
+      ]
+    },
+    {
+      "title": "Pipelining and Performance in the VAX 8800 Processor",
+      "authors": [
+        "Douglas W. Clark"
+      ],
+      "pages": "173-177",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Clark87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Clark87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36200",
+        "https://doi.org/10.1145/36205.36200",
+        "https://doi.org/10.1145/36204.36200",
+        "https://doi.org/10.1145/36177.36200"
+      ]
+    },
+    {
+      "title": "RISCs versus CISCs for Prolog: A Case Study",
+      "authors": [
+        "Gaetano Borriello",
+        "Andrew R. Cherenson",
+        "Peter B. Danzig",
+        "Michael N. Nelson"
+      ],
+      "pages": "136-145",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BorrielloCDN87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BorrielloCDN87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36196",
+        "https://doi.org/10.1145/36205.36196",
+        "https://doi.org/10.1145/36204.36196",
+        "https://doi.org/10.1145/36177.36196"
+      ]
+    },
+    {
+      "title": "Superoptimizer - A Look at the Smallest Program",
+      "authors": [
+        "Henry Massalin"
+      ],
+      "pages": "122-126",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Massalin87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Massalin87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36194",
+        "https://doi.org/10.1145/36205.36194",
+        "https://doi.org/10.1145/36204.36194",
+        "https://doi.org/10.1145/36177.36194",
+        "https://www.wikidata.org/entity/Q29395327"
+      ]
+    },
+    {
+      "title": "Tags and Type Checking in Lisp: Hardware and Software Approaches",
+      "authors": [
+        "Peter Steenkiste",
+        "John L. Hennessy"
+      ],
+      "pages": "50-59",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SteenkisteH87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SteenkisteH87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36183",
+        "https://doi.org/10.1145/36205.36183",
+        "https://doi.org/10.1145/36204.36183",
+        "https://doi.org/10.1145/36177.36183"
+      ]
+    },
+    {
+      "title": "The Dragon Processor",
+      "authors": [
+        "Russell R. Atkinson",
+        "Edward M. McCreight"
+      ],
+      "pages": "65-69",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/AtkinsonM87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/AtkinsonM87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36185",
+        "https://doi.org/10.1145/36205.36185",
+        "https://doi.org/10.1145/36204.36185",
+        "https://doi.org/10.1145/36177.36185"
+      ]
+    },
+    {
+      "title": "The Effect of Instruction Set Complexity on Program Size and Memory Performance",
+      "authors": [
+        "Jack W. Davidson",
+        "Richard A. Vaughan"
+      ],
+      "pages": "60-64",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DavidsonV87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DavidsonV87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36184",
+        "https://doi.org/10.1145/36205.36184",
+        "https://doi.org/10.1145/36204.36184",
+        "https://doi.org/10.1145/36177.36184"
+      ]
+    },
+    {
+      "title": "The Mahler Experience: Using and Intermediate Language as the Machine Description",
+      "authors": [
+        "David W. Wall",
+        "Michael L. Powell"
+      ],
+      "pages": "100-104",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WallP87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WallP87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36190",
+        "https://doi.org/10.1145/36205.36190",
+        "https://doi.org/10.1145/36204.36190",
+        "https://doi.org/10.1145/36177.36190"
+      ]
+    },
+    {
+      "title": "The ZS-1 Central Processor",
+      "authors": [
+        "James E. Smith 0001",
+        "Gregory E. Dermer",
+        "B. D. Vanderwarn",
+        "S. D. Klinger",
+        "C. M. Rozewski",
+        "D. L. Fowler",
+        "K. R. Scidmore",
+        "James Laudon"
+      ],
+      "pages": "199-204",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SmithDVKRFSL87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SmithDVKRFSL87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36203",
+        "https://doi.org/10.1145/36205.36203",
+        "https://doi.org/10.1145/36204.36203",
+        "https://doi.org/10.1145/36177.36203"
+      ]
+    },
+    {
+      "title": "VLSI Assist For a Multiprocessor",
+      "authors": [
+        "Bob Beck",
+        "Bob Kasten",
+        "Shreekant S. Thakkar"
+      ],
+      "pages": "10-20",
+      "year": "1987",
+      "venue": "ASPLOS 1987",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BeckKT87",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BeckKT87.html",
+      "ee_links": [
+        "https://doi.org/10.1145/36206.36179",
+        "https://doi.org/10.1145/36205.36179",
+        "https://doi.org/10.1145/36204.36179",
+        "https://doi.org/10.1145/36177.36179"
+      ]
+    }
+  ]
+}

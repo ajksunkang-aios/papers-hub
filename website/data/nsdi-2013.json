@@ -1,0 +1,747 @@
+{
+  "id": "nsdi-2013",
+  "venue": "nsdi",
+  "year": 2013,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2013.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2013.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2013",
+    "conf/nsdi/2013-1",
+    "conf/nsdi/2013-2",
+    "conf/nsdi/2013-3",
+    "conf/nsdi/2013-4",
+    "conf/nsdi/2013-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 38,
+  "display_count": 38,
+  "papers": [
+    {
+      "title": "ArrayTrack: A Fine-Grained Indoor Location System",
+      "authors": [
+        "Jie Xiong 0001",
+        "Kyle Jamieson"
+      ],
+      "pages": "71-84",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XiongJ13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XiongJ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/xiong"
+      ]
+    },
+    {
+      "title": "Bobtail: Avoiding Long Tails in the Cloud",
+      "authors": [
+        "Yunjing Xu",
+        "Zachary Musgrave",
+        "Brian Noble",
+        "Michael D. Bailey"
+      ],
+      "pages": "329-341",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XuMNB13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XuMNB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/xu_yunjing"
+      ]
+    },
+    {
+      "title": "BOSS: Building Operating System Services",
+      "authors": [
+        "Stephen Dawson-Haggerty",
+        "Andrew Krioukov",
+        "Jay Taneja",
+        "Sagar Karandikar",
+        "Gabe Fierro",
+        "Nikita Kitaev",
+        "David E. Culler"
+      ],
+      "pages": "443-457",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Dawson-HaggertyKTKFKC13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Dawson-HaggertyKTKFKC13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/dawson-haggerty"
+      ]
+    },
+    {
+      "title": "Chatty Tenants and the Cloud Network Sharing Problem",
+      "authors": [
+        "Hitesh Ballani",
+        "Keon Jang",
+        "Thomas Karagiannis",
+        "Changhoon Kim",
+        "Dinan Gunawardena",
+        "Greg O'Shea"
+      ],
+      "pages": "171-184",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BallaniJKKGO13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BallaniJKKGO13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/ballani"
+      ]
+    },
+    {
+      "title": "Composing Software Defined Networks",
+      "authors": [
+        "Christopher Monsanto",
+        "Joshua Reich",
+        "Nate Foster",
+        "Jennifer Rexford",
+        "David Walker 0001"
+      ],
+      "pages": "1-13",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MonsantoRFRW13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MonsantoRFRW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/monsanto"
+      ]
+    },
+    {
+      "title": "Dasu: Pushing Experiments to the Internet's Edge",
+      "authors": [
+        "Mario A. S&aacute;nchez",
+        "John S. Otto",
+        "Zachary S. Bischof",
+        "David R. Choffnes",
+        "Fabi&aacute;n E. Bustamante",
+        "Balachander Krishnamurthy",
+        "Walter Willinger"
+      ],
+      "pages": "487-499",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SanchezOBCBKW13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SanchezOBCBKW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/sanchez"
+      ]
+    },
+    {
+      "title": "Demystifying Page Load Performance with WProf",
+      "authors": [
+        "Xiao Sophia Wang",
+        "Aruna Balasubramanian",
+        "Arvind Krishnamurthy",
+        "David Wetherall"
+      ],
+      "pages": "473-485",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangBKW13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangBKW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/wang_xiao"
+      ]
+    },
+    {
+      "title": "eDoctor: Automatically Diagnosing Abnormal Battery Drain Issues on Smartphones",
+      "authors": [
+        "Xiao Ma 0014",
+        "Peng Huang 0005",
+        "Xinxin Jin",
+        "Pei Wang",
+        "Soyeon Park",
+        "Dongcai Shen",
+        "Yuanyuan Zhou 0001",
+        "Lawrence K. Saul",
+        "Geoffrey M. Voelker"
+      ],
+      "pages": "57-70",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MaHJWPSZSV13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MaHJWPSZSV13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/ma"
+      ]
+    },
+    {
+      "title": "Effective Straggler Mitigation: Attack of the Clones",
+      "authors": [
+        "Ganesh Ananthanarayanan",
+        "Ali Ghodsi 0002",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": "185-198",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AnanthanarayananGSS13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AnanthanarayananGSS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/ananthanarayanan"
+      ]
+    },
+    {
+      "title": "Embassies: Radically Refactoring the Web",
+      "authors": [
+        "Jon Howell",
+        "Bryan Parno",
+        "John R. Douceur"
+      ],
+      "pages": "529-545",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HowellPD13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HowellPD13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/howell"
+      ]
+    },
+    {
+      "title": "Ensuring Connectivity via Data Plane Mechanisms",
+      "authors": [
+        "Junda Liu",
+        "Aurojit Panda",
+        "Ankit Singla",
+        "Brighten Godfrey",
+        "Michael Schapira",
+        "Scott Shenker"
+      ],
+      "pages": "113-126",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiuPSGSS13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiuPSGSS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/liu_junda"
+      ]
+    },
+    {
+      "title": "Expanding Rural Cellular Networks with Virtual Coverage",
+      "authors": [
+        "Kurtis Heimerl",
+        "Kashif Ali",
+        "Joshua Evan Blumenstock",
+        "Brian Gawalt",
+        "Eric A. Brewer"
+      ],
+      "pages": "283-296",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HeimerlABGB13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HeimerlABGB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/heimurl"
+      ]
+    },
+    {
+      "title": "EyeQ: Practical Network Performance Isolation at the Edge",
+      "authors": [
+        "Vimalkumar Jeyakumar",
+        "Mohammad Alizadeh",
+        "David Mazi&egrave;res",
+        "Balaji Prabhakar",
+        "Albert G. Greenberg",
+        "Changhoon Kim"
+      ],
+      "pages": "297-311",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JeyakumarAMPGK13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JeyakumarAMPGK13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/jeyakumar"
+      ]
+    },
+    {
+      "title": "F10: A Fault-Tolerant Engineered Network",
+      "authors": [
+        "Vincent Liu 0001",
+        "Daniel Halperin",
+        "Arvind Krishnamurthy",
+        "Thomas E. Anderson"
+      ],
+      "pages": "399-412",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiuHKA13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiuHKA13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/liu_vincent"
+      ]
+    },
+    {
+      "title": "Improving Availability in Distributed Systems with Failure Informers",
+      "authors": [
+        "Trinabh Gupta",
+        "Joshua B. Leners",
+        "Marcos K. Aguilera",
+        "Michael Walfish"
+      ],
+      "pages": "427-441",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuptaLAW13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuptaLAW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/leners"
+      ]
+    },
+    {
+      "title": "Juggling the Jigsaw: Towards Automated Problem Inference from Network Trouble Tickets",
+      "authors": [
+        "Rahul Potharaju",
+        "Navendu Jain",
+        "Cristina Nita-Rotaru"
+      ],
+      "pages": "127-141",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PotharajuJN13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PotharajuJN13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/potharaju"
+      ]
+    },
+    {
+      "title": "LOUP: The Principles and Practice of Intra-Domain Route Dissemination",
+      "authors": [
+        "Nikola Gvozdiev",
+        "Brad Karp",
+        "Mark Handley"
+      ],
+      "pages": "413-426",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GvozdievKH13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GvozdievKH13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/gvozdiev"
+      ]
+    },
+    {
+      "title": "MemC3: Compact and Concurrent MemCache with Dumber Caching and Smarter Hashing",
+      "authors": [
+        "Bin Fan",
+        "David G. Andersen",
+        "Michael Kaminsky"
+      ],
+      "pages": "371-384",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FanAK13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FanAK13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/fan"
+      ]
+    },
+    {
+      "title": "P3: Toward Privacy-Preserving Photo Sharing",
+      "authors": [
+        "Moo-Ryong Ra",
+        "Ramesh Govindan",
+        "Antonio Ortega"
+      ],
+      "pages": "515-528",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RaGO13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RaGO13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/ra"
+      ]
+    },
+    {
+      "title": "PinPoint: Localizing Interfering Radios",
+      "authors": [
+        "Kiran Raj Joshi",
+        "Steven Siying Hong",
+        "Sachin Katti"
+      ],
+      "pages": "241-253",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JoshiHK13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JoshiHK13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/joshi"
+      ]
+    },
+    {
+      "title": "Real Time Network Policy Checking Using Header Space Analysis",
+      "authors": [
+        "Peyman Kazemian",
+        "Michael Chan",
+        "Hongyi Zeng",
+        "George Varghese",
+        "Nick McKeown",
+        "Scott Whyte"
+      ],
+      "pages": "99-111",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KazemianCZVMW13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KazemianCZVMW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/kazemian"
+      ]
+    },
+    {
+      "title": "Rhea: Automatic Filtering for Unstructured Cloud Storage",
+      "authors": [
+        "Christos Gkantsidis",
+        "Dimitrios Vytiniotis",
+        "Orion Hodson",
+        "Dushyanth Narayanan",
+        "Florin Dinu",
+        "Antony I. T. Rowstron"
+      ],
+      "pages": "343-355",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GkantsidisVHNDR13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GkantsidisVHNDR13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/gkantsidis"
+      ]
+    },
+    {
+      "title": "Robustness in the Salus Scalable Block Store",
+      "authors": [
+        "Yang Wang 0009",
+        "Manos Kapritsos",
+        "Zuocheng Ren",
+        "Prince Mahajan",
+        "Jeevitha Kirubanandam",
+        "Lorenzo Alvisi",
+        "Mike Dahlin"
+      ],
+      "pages": "357-370",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0009KRMKAD13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0009KRMKAD13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/wang_yang"
+      ]
+    },
+    {
+      "title": "Scalable Rule Management for Data Centers",
+      "authors": [
+        "Masoud Moshref",
+        "Minlan Yu",
+        "Abhishek B. Sharma",
+        "Ramesh Govindan"
+      ],
+      "pages": "157-170",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MoshrefYSG13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MoshrefYSG13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/moshref"
+      ]
+    },
+    {
+      "title": "Scaling Memcache at Facebook",
+      "authors": [
+        "Rajesh Nishtala",
+        "Hans Fugal",
+        "Steven Grimm",
+        "Marc Kwiatkowski",
+        "Herman Lee",
+        "Harry C. Li",
+        "Ryan McElroy",
+        "Mike Paleczny",
+        "Daniel Peek",
+        "Paul Saab",
+        "David Stafford",
+        "Tony Tung",
+        "Venkateshwaran Venkataramani"
+      ],
+      "pages": "385-398",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NishtalaFGKLLMPPSSTV13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NishtalaFGKLLMPPSSTV13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala"
+      ]
+    },
+    {
+      "title": "SloMo: Downclocking WiFi Communication",
+      "authors": [
+        "Feng Lu",
+        "Geoffrey M. Voelker",
+        "Alex C. Snoeren"
+      ],
+      "pages": "255-268",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LuVS13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LuVS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/lu"
+      ]
+    },
+    {
+      "title": "Software Defined Traffic Measurement with OpenSketch",
+      "authors": [
+        "Minlan Yu",
+        "Lavanya Jose",
+        "Rui Miao 0001"
+      ],
+      "pages": "29-42",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YuJM13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YuJM13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/yu"
+      ]
+    },
+    {
+      "title": "SoNIC: Precise Realtime Software Access and Control of Wired Networks",
+      "authors": [
+        "Ki Suh Lee",
+        "Han Wang 0009",
+        "Hakim Weatherspoon"
+      ],
+      "pages": "213-225",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LeeWW13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LeeWW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/lee_ki"
+      ]
+    },
+    {
+      "title": "Splash: Fast Data Dissemination with Constructive Interference in Wireless Sensor Networks",
+      "authors": [
+        "Manjunath Doddavenkatappa",
+        "Mun Choon Chan",
+        "Ben Leong"
+      ],
+      "pages": "269-282",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DoddavenkatappaCL13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DoddavenkatappaCL13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/doddavenkatappa"
+      ]
+    },
+    {
+      "title": "Split/Merge: System Support for Elastic Execution in Virtual Middleboxes",
+      "authors": [
+        "Shriram Rajagopalan",
+        "Dan Williams 0001",
+        "Hani Jamjoom",
+        "Andrew Warfield"
+      ],
+      "pages": "227-240",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RajagopalanWJW13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RajagopalanWJW13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/rajagopalan"
+      ]
+    },
+    {
+      "title": "Stochastic Forecasts Achieve High Throughput and Low Delay over Cellular Networks",
+      "authors": [
+        "Keith Winstein",
+        "Anirudh Sivaraman",
+        "Hari Balakrishnan"
+      ],
+      "pages": "459-471",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WinsteinSB13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WinsteinSB13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/winstein"
+      ]
+    },
+    {
+      "title": "Stronger Semantics for Low-Latency Geo-Replicated Storage",
+      "authors": [
+        "Wyatt Lloyd",
+        "Michael J. Freedman",
+        "Michael Kaminsky",
+        "David G. Andersen"
+      ],
+      "pages": "313-328",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LloydFKA13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LloydFKA13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/lloyd"
+      ]
+    },
+    {
+      "title": "V-edge: Fast Self-constructive Power Modeling of Smartphones Based on Battery Voltage Dynamics",
+      "authors": [
+        "Fengyuan Xu",
+        "Yunxin Liu 0001",
+        "Qun Li 0001",
+        "Yongguang Zhang"
+      ],
+      "pages": "43-55",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XuLLZ13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XuLLZ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/xu_fengyuan"
+      ]
+    },
+    {
+      "title": "VeriFlow: Verifying Network-Wide Invariants in Real Time",
+      "authors": [
+        "Ahmed Khurshid",
+        "Xuan Zou",
+        "Wenxuan Zhou 0003",
+        "Matthew Caesar 0001",
+        "Philip Brighten Godfrey"
+      ],
+      "pages": "15-27",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KhurshidZZCG13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KhurshidZZCG13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/khurshid"
+      ]
+    },
+    {
+      "title": "Walkie-Markie: Indoor Pathway Mapping Made Easy",
+      "authors": [
+        "Guobin Shen",
+        "Zhuo Chen",
+        "Peichao Zhang",
+        "Thomas Moscibroda",
+        "Yongguang Zhang"
+      ],
+      "pages": "85-98",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShenCZMZ13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShenCZMZ13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/shen"
+      ]
+    },
+    {
+      "title": "Wire Speed Name Lookup: A GPU-based Approach",
+      "authors": [
+        "Yi Wang 0004",
+        "Yuan Zu",
+        "Ting Zhang 0010",
+        "Kunyang Peng",
+        "Qunfeng Dong",
+        "Bin Liu 0001",
+        "Wei Meng 0001",
+        "Huichen Dai",
+        "Xin Tian 0007",
+        "Zhonghu Xu",
+        "Hao Wu 0023",
+        "Di Yang"
+      ],
+      "pages": "199-212",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0004ZZPD0MD0XWY13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0004ZZPD0MD0XWY13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/wang_yi"
+      ]
+    },
+    {
+      "title": "Yank: Enabling Green Data Centers to Pull the Plug",
+      "authors": [
+        "Rahul Singh",
+        "David Irwin 0001",
+        "Prashant J. Shenoy",
+        "Kadangode K. Ramakrishnan"
+      ],
+      "pages": "143-155",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SinghISR13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SinghISR13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/singh"
+      ]
+    },
+    {
+      "title": "πBox: A Platform for Privacy-Preserving Apps",
+      "authors": [
+        "Sangmin Lee",
+        "Edmund L. Wong",
+        "Deepak Goel",
+        "Mike Dahlin",
+        "Vitaly Shmatikov"
+      ],
+      "pages": "501-514",
+      "year": "2013",
+      "venue": "NSDI 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LeeWGDS13",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LeeWGDS13.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/lee_sangmin"
+      ]
+    }
+  ]
+}

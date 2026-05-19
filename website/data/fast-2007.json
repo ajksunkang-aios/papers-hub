@@ -1,0 +1,588 @@
+{
+  "id": "fast-2007",
+  "venue": "fast",
+  "year": 2007,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2007.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2007.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2007",
+    "conf/fast/2007-1",
+    "conf/fast/2007-2",
+    "conf/fast/2007-3",
+    "conf/fast/2007-4",
+    "conf/fast/2007-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 33,
+  "display_count": 33,
+  "papers": [
+    {
+      "title": "//TRACE: Parallel Trace Replay with Approximate Causal Events",
+      "authors": [
+        "Michael P. Mesnier",
+        "Matthew Wachs",
+        "Raja R. Sambasivan",
+        "Julio L&oacute;pez 0002",
+        "James Hendricks",
+        "Gregory R. Ganger",
+        "David R. O'Hallaron"
+      ],
+      "pages": "153-167",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/MesnierWSLHGO07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/MesnierWSLHGO07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/mesnier.html"
+      ]
+    },
+    {
+      "title": "A Five-Year Study of File-System Metadata",
+      "authors": [
+        "Nitin Agrawal 0001",
+        "William J. Bolosky",
+        "John R. Douceur",
+        "Jacob R. Lorch"
+      ],
+      "pages": "31-45",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AgrawalBDL07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AgrawalBDL07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/agrawal.html"
+      ]
+    },
+    {
+      "title": "A System's Hackers Crash Course: Techniques that Find Lots of Bugs in Real (Storage) System Code",
+      "authors": [
+        "Dawson R. Engler"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Engler07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Engler07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/slides/engler.pdf"
+      ]
+    },
+    {
+      "title": "AMP: Adaptive Multi-stream Prefetching in a Shared Cache",
+      "authors": [
+        "Binny S. Gill",
+        "Luis Angel D. Bathen"
+      ],
+      "pages": "185-198",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GillB07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GillB07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/gill.html"
+      ]
+    },
+    {
+      "title": "Architectures for Controller Based CDP",
+      "authors": [
+        "Guy Laden",
+        "Paula Ta-Shma",
+        "Eitan Yaffe",
+        "Michael Factor",
+        "Shachar Fienblit"
+      ],
+      "pages": "107-121",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LadenTYFF07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LadenTYFF07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/laden.html"
+      ]
+    },
+    {
+      "title": "Argon: Performance Insulation for Shared Storage Servers",
+      "authors": [
+        "Matthew Wachs",
+        "Michael Abd-El-Malek",
+        "Eno Thereska",
+        "Gregory R. Ganger"
+      ],
+      "pages": "61-76",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WachsATG07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WachsATG07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/wachs.html"
+      ]
+    },
+    {
+      "title": "B-trees, Shadowing, and Clones",
+      "authors": [
+        "Ohad Rodeh"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Rodeh07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Rodeh07.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/2007-linux-storage-filesystem-workshop/b-trees-shadowing-and-clones"
+      ]
+    },
+    {
+      "title": "Changes to Storage Standards",
+      "authors": [
+        "Douglas Gilbert"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Gilbert07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Gilbert07.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/2007-linux-storage-filesystem-workshop/changes-storage-standards"
+      ]
+    },
+    {
+      "title": "Cobalt: Separating Content Distribution from Authorization in Distributed File Systems",
+      "authors": [
+        "Kaushik Veeraraghavan",
+        "Andrew Myrick",
+        "Jason Flinn"
+      ],
+      "pages": "231-244",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/VeeraraghavanMF07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/VeeraraghavanMF07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/veeraraghavan.html"
+      ]
+    },
+    {
+      "title": "Data ONTAP GX: A Scalable Storage Cluster",
+      "authors": [
+        "Michael Eisler",
+        "Peter Corbett",
+        "Michael Kazar",
+        "Daniel S. Nydick",
+        "J. Christopher Wagner"
+      ],
+      "pages": "139-152",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/EislerCKNW07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/EislerCKNW07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/eisler.html"
+      ]
+    },
+    {
+      "title": "Design and Implementation of Verifiable Audit Trails for a Versioning File System",
+      "authors": [
+        "Zachary N. J. Peterson",
+        "Randal C. Burns",
+        "Giuseppe Ateniese",
+        "Stephen Bono"
+      ],
+      "pages": "93-106",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PetersonBAB07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PetersonBAB07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/peterson.html"
+      ]
+    },
+    {
+      "title": "Disk Failures in the Real World: What Does an MTTF of 1, 000, 000 Hours Mean to You?",
+      "authors": [
+        "Bianca Schroeder",
+        "Garth A. Gibson"
+      ],
+      "pages": "1-16",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/SchroederG07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/SchroederG07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/schroeder.html"
+      ]
+    },
+    {
+      "title": "DualFS: A New Journaling File System for Linux",
+      "authors": [
+        "Juan Piernas",
+        "Sorin Faibish"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PiernasF07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PiernasF07.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/2007-linux-storage-filesystem-workshop/dualfs-new-journaling-file-system-linux"
+      ]
+    },
+    {
+      "title": "Ext4: The Next Generation of Ext2/3 Filesystem",
+      "authors": [
+        "Mingming Cao",
+        "Suparna Bhattacharya",
+        "Ted Ts'o"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CaoBT07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CaoBT07.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/2007-linux-storage-filesystem-workshop/ext4-next-generation-ext23-filesystem"
+      ]
+    },
+    {
+      "title": "Failure Trends in a Large Disk Drive Population",
+      "authors": [
+        "Eduardo Pinheiro",
+        "Wolf-Dietrich Weber",
+        "Luiz Andr&eacute; Barroso"
+      ],
+      "pages": "17-28",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PinheiroWB07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PinheiroWB07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/pinheiro.html"
+      ]
+    },
+    {
+      "title": "Jumbo Store: Providing Efficient Incremental Upload and Versioning for a Utility Rendering Service",
+      "authors": [
+        "Kave Eshghi",
+        "Mark Lillibridge",
+        "Lawrence Wilcock",
+        "Guillaume Belrose",
+        "Rycharde Hawkes"
+      ],
+      "pages": "123-138",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/EshghiLWBH07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/EshghiLWBH07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/eshghi.html"
+      ]
+    },
+    {
+      "title": "Karma: Know-It-All Replacement for a Multilevel Cache",
+      "authors": [
+        "Gala Yadgar",
+        "Michael Factor",
+        "Assaf Schuster"
+      ],
+      "pages": "169-184",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YadgarFS07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YadgarFS07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/yadgar.html"
+      ]
+    },
+    {
+      "title": "Libata: Past, Present, and Future",
+      "authors": [
+        "Jeff Garzik",
+        "Tejun Heo"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GarzikH07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GarzikH07.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/2007-linux-storage-filesystem-workshop/libata-past-present-and-future"
+      ]
+    },
+    {
+      "title": "Modifications to the Storage Stack to Better Support tgt, sg, st and bsg",
+      "authors": [
+        "Fujita Tomonori"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Tomonori07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Tomonori07.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/2007-linux-storage-filesystem-workshop/modifications-storage-stack-better-support-tgt-sg"
+      ]
+    },
+    {
+      "title": "Nache: Design and Implementation of a Caching Proxy for NFSv4",
+      "authors": [
+        "Ajay Gulati",
+        "Manoj Naik",
+        "Renu Tewari"
+      ],
+      "pages": "199-214",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GulatiNT07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GulatiNT07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/gulati.html"
+      ]
+    },
+    {
+      "title": "NFS topics in Linux",
+      "authors": [
+        "Chuck Lever",
+        "James Fields",
+        "Sai Susarla",
+        "Trond Myklebust"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LeverFSM07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LeverFSM07.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/2007-linux-storage-filesystem-workshop/nfs-topics-linux"
+      ]
+    },
+    {
+      "title": "Object Storage and Applications",
+      "authors": [
+        "Erik Riedel",
+        "Sami Iren"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/RiedelI07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/RiedelI07.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/2007-linux-storage-filesystem-workshop/object-storage-and-applications"
+      ]
+    },
+    {
+      "title": "PARAID: A Gear-Shifting Power-Aware RAID",
+      "authors": [
+        "Charles Weddle",
+        "Mathew Oldham",
+        "Jin Qian",
+        "An-I Andy Wang",
+        "Peter L. Reiher",
+        "Geoff Kuenning"
+      ],
+      "pages": "245-260",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WeddleOQWRK07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WeddleOQWRK07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/weddle.html"
+      ]
+    },
+    {
+      "title": "pNFS Over OSD",
+      "authors": [
+        "Benny Halevy"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Halevy07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Halevy07.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/2007-linux-storage-filesystem-workshop/pnfs-over-osd"
+      ]
+    },
+    {
+      "title": "PRO: A Popularity-based Multi-threaded Reconstruction Optimization for RAID-Structured Storage Systems",
+      "authors": [
+        "Lei Tian 0001",
+        "Dan Feng 0001",
+        "Hong Jiang 0001",
+        "Ke Zhou 0001",
+        "Lingfang Zeng",
+        "Jianxi Chen",
+        "Zhikun Wang",
+        "Zhenlei Song"
+      ],
+      "pages": "277-290",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TianFJZZCWS07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TianFJZZCWS07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/tian.html"
+      ]
+    },
+    {
+      "title": "Proportional-Share Scheduling for Distributed Storage Systems",
+      "authors": [
+        "Yin Wang 0001",
+        "Arif Merchant"
+      ],
+      "pages": "47-60",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WangM07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WangM07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/wang.html"
+      ]
+    },
+    {
+      "title": "Reinitialization of Devices After a Soft-Reboot",
+      "authors": [
+        "Fernando Luis V&aacute;zquez Cao"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Cao07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Cao07.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/2007-linux-storage-filesystem-workshop/reinitialization-devices-after-soft-reboot"
+      ]
+    },
+    {
+      "title": "REO: A Generic RAID Engine and Optimizer",
+      "authors": [
+        "Deepak R. Kenchammana-Hosekote",
+        "Dingshan He",
+        "James Lee Hafner"
+      ],
+      "pages": "261-276",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Kenchammana-HosekoteHH07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Kenchammana-HosekoteHH07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/kenchammana.html"
+      ]
+    },
+    {
+      "title": "Storage & FS Challenges",
+      "authors": [
+        "Ric Wheeler"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Wheeler07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Wheeler07.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/2007-linux-storage-filesystem-workshop/storage-fs-challenges"
+      ]
+    },
+    {
+      "title": "Strong Accountability for Network Storage",
+      "authors": [
+        "Aydan R. Yumerefendi",
+        "Jeffrey S. Chase"
+      ],
+      "pages": "77-92",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YumerefendiC07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YumerefendiC07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/yumerefendi.html"
+      ]
+    },
+    {
+      "title": "T10 Data Integrity Feature (Logical Block Guarding)",
+      "authors": [
+        "Martin K. Petersen"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Petersen07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Petersen07.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/2007-linux-storage-filesystem-workshop/t10-data-integrity-feature-logical-block-guarding"
+      ]
+    },
+    {
+      "title": "TFS: A Transparent File System for Contributory Storage",
+      "authors": [
+        "James Cipar",
+        "Mark D. Corner",
+        "Emery D. Berger"
+      ],
+      "pages": "215-229",
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CiparCB07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CiparCB07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/cipar.html"
+      ]
+    },
+    {
+      "title": "Trends in Managing Data at the Petabyte Scale",
+      "authors": [
+        "Steve Kleiman"
+      ],
+      "pages": null,
+      "year": "2007",
+      "venue": "FAST 2007",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Kleiman07",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Kleiman07.html",
+      "ee_links": [
+        "http://www.usenix.org/events/fast07/tech/slides/kleiman.pdf"
+      ]
+    }
+  ]
+}

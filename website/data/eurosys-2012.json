@@ -1,0 +1,934 @@
+{
+  "id": "eurosys-2012",
+  "venue": "eurosys",
+  "year": 2012,
+  "short_name": "EuroSys",
+  "full_name": "European Conference on Computer Systems",
+  "source_url": "https://dblp.org/db/conf/eurosys/eurosys2012.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/eurosys/eurosys2012.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/eurosys/2012",
+    "conf/eurosys/2012-1",
+    "conf/eurosys/2012-2",
+    "conf/eurosys/2012-3",
+    "conf/eurosys/2012-4",
+    "conf/eurosys/2012-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) European Conference on Computer Systems"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 50,
+  "display_count": 50,
+  "papers": [
+    {
+      "title": "A critique of snapshot isolation",
+      "authors": [
+        "Maysam Yabandeh",
+        "Daniel G&oacute;mez Ferro"
+      ],
+      "pages": "155-168",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/YabandehF12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/YabandehF12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168853"
+      ]
+    },
+    {
+      "title": "A down-to-earth look at the cloud host OS",
+      "authors": [
+        "Malte Schwarzkopf",
+        "Steven Hand 0001"
+      ],
+      "pages": "3:1-3:5",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SchwarzkopfH12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SchwarzkopfH12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2169090.2169093"
+      ]
+    },
+    {
+      "title": "A genetic algorithm for workload scheduling in cloud based e-learning",
+      "authors": [
+        "Octavian Morariu",
+        "Cristina Morariu",
+        "Theodor Borangiu"
+      ],
+      "pages": "5:1-5:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MorariuMB12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MorariuMB12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168697.2168702"
+      ]
+    },
+    {
+      "title": "A model of information flow control to determine whether malfunctions cause the privacy invasion",
+      "authors": [
+        "David Evans 0002",
+        "David M. Eyers",
+        "Jean Bacon"
+      ],
+      "pages": "2:1-2:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/0002EB12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/0002EB12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2181196.2181198"
+      ]
+    },
+    {
+      "title": "A performance evaluation of Azure and Nimbus clouds for scientific applications",
+      "authors": [
+        "Radu Tudoran",
+        "Alexandru Costan",
+        "Gabriel Antoniu",
+        "Luc Boug&eacute;"
+      ],
+      "pages": "4:1-4:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/TudoranCAB12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/TudoranCAB12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168697.2168701"
+      ]
+    },
+    {
+      "title": "An empirical study on IMDb and its communities based on the network of co-reviewers",
+      "authors": [
+        "Maryam Fatemi",
+        "Laurissa N. Tokarchuk"
+      ],
+      "pages": "7:1-7:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/FatemiT12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/FatemiT12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2181196.2181203"
+      ]
+    },
+    {
+      "title": "ANOSIP: anonymizing the SIP protocol",
+      "authors": [
+        "Iraklis Leontiadis",
+        "Constantinos Delakouridis",
+        "Leonidas Kazatzopoulos",
+        "Giannis F. Marias"
+      ],
+      "pages": "4:1-4:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LeontiadisDKM12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LeontiadisDKM12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2181196.2181200"
+      ]
+    },
+    {
+      "title": "BWS: balanced work stealing for time-sharing multicores",
+      "authors": [
+        "Xiaoning Ding",
+        "Kaibo Wang",
+        "Phillip B. Gibbons",
+        "Xiaodong Zhang 0001"
+      ],
+      "pages": "365-378",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/DingWGZ12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/DingWGZ12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168873"
+      ]
+    },
+    {
+      "title": "Cache craftiness for fast multicore key-value storage",
+      "authors": [
+        "Yandong Mao",
+        "Eddie Kohler",
+        "Robert Tappan Morris"
+      ],
+      "pages": "183-196",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MaoKM12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MaoKM12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168855"
+      ]
+    },
+    {
+      "title": "Canal: scaling social network-based Sybil tolerance schemes",
+      "authors": [
+        "Bimal Viswanath",
+        "Mainack Mondal",
+        "P. Krishna Gummadi",
+        "Alan Mislove",
+        "Ansley Post"
+      ],
+      "pages": "309-322",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ViswanathMGMP12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ViswanathMGMP12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168867"
+      ]
+    },
+    {
+      "title": "CheapBFT: resource-efficient byzantine fault tolerance",
+      "authors": [
+        "R&uuml;diger Kapitza",
+        "Johannes Behl",
+        "Christian Cachin",
+        "Tobias Distler",
+        "Simon Kuhnle",
+        "Seyed Vahid Mohammadi",
+        "Wolfgang Schr&ouml;der-Preikschat",
+        "Klaus Stengel"
+      ],
+      "pages": "295-308",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KapitzaBCDKMSS12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KapitzaBCDKMSS12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168866"
+      ]
+    },
+    {
+      "title": "Confidential carbon commuting: exploring a privacy-sensitive architecture for incentivising 'greener' commuting",
+      "authors": [
+        "Chris Elsmore",
+        "Anil Madhavapeddy",
+        "Ian M. Leslie",
+        "Amir Chaudhry"
+      ],
+      "pages": "5:1-5:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ElsmoreMLC12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ElsmoreMLC12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2181196.2181201"
+      ]
+    },
+    {
+      "title": "Delta-FTL: improving SSD lifetime via exploiting content locality",
+      "authors": [
+        "Guanying Wu",
+        "Xubin He"
+      ],
+      "pages": "253-266",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/WuH12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/WuH12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168862",
+        "https://www.wikidata.org/entity/Q130955666"
+      ]
+    },
+    {
+      "title": "Delusional boot: securing hypervisors without massive re-engineering",
+      "authors": [
+        "Anh Nguyen",
+        "Himanshu Raj",
+        "Shravan K. Rayanchu",
+        "Stefan Saroiu",
+        "Alec Wolman"
+      ],
+      "pages": "141-154",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/NguyenRRSW12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/NguyenRRSW12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168851"
+      ]
+    },
+    {
+      "title": "Energy efficiency for large-scale MapReduce workloads with significant interactive analysis",
+      "authors": [
+        "Yanpei Chen",
+        "Sara Alspaugh",
+        "Dhruba Borthakur",
+        "Randy H. Katz"
+      ],
+      "pages": "43-56",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ChenABK12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ChenABK12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168842"
+      ]
+    },
+    {
+      "title": "Energy packet networks: adaptive energy management for the cloud",
+      "authors": [
+        "Erol Gelenbe"
+      ],
+      "pages": "1:1-1:5",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Gelenbe12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Gelenbe12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168697.2168698"
+      ]
+    },
+    {
+      "title": "Fast black-box testing of system recovery code",
+      "authors": [
+        "Radu Banabic",
+        "George Candea"
+      ],
+      "pages": "281-294",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BanabicC12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BanabicC12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168865"
+      ]
+    },
+    {
+      "title": "File routing middleware for cloud deduplication",
+      "authors": [
+        "Petros Efstathopoulos"
+      ],
+      "pages": "10:1-10:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Efstathopoulos12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Efstathopoulos12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168697.2168707"
+      ]
+    },
+    {
+      "title": "FlashTier: a lightweight, consistent and durable storage cache",
+      "authors": [
+        "Mohit Saxena",
+        "Michael M. Swift",
+        "Yiying Zhang 0005"
+      ],
+      "pages": "267-280",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SaxenaSZ12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SaxenaSZ12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168863",
+        "https://www.wikidata.org/entity/Q130971625"
+      ]
+    },
+    {
+      "title": "Frugal storage for cloud file systems",
+      "authors": [
+        "Krishna P. N. Puttaswamy",
+        "Thyaga Nandagopal",
+        "Murali S. Kodialam"
+      ],
+      "pages": "71-84",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PuttaswamyNK12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PuttaswamyNK12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168845"
+      ]
+    },
+    {
+      "title": "GreenHadoop: leveraging green energy in data-processing frameworks",
+      "authors": [
+        "I&ntilde;igo Goiri",
+        "Kien Le",
+        "Thu D. Nguyen",
+        "Jordi Guitart",
+        "Jordi Torres",
+        "Ricardo Bianchini"
+      ],
+      "pages": "57-70",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GoiriLNGTB12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GoiriLNGTB12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168843",
+        "https://www.wikidata.org/entity/Q61732521"
+      ]
+    },
+    {
+      "title": "Improving interrupt response time in a verifiable protected microkernel",
+      "authors": [
+        "Bernard Blackham",
+        "Yao Shi",
+        "Gernot Heiser"
+      ],
+      "pages": "323-336",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BlackhamSH12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BlackhamSH12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168869"
+      ]
+    },
+    {
+      "title": "Improving network connection locality on multicore systems",
+      "authors": [
+        "Aleksey Pesterev",
+        "Jacob Strauss",
+        "Nickolai Zeldovich",
+        "Robert T. Morris"
+      ],
+      "pages": "337-350",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PesterevSZM12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PesterevSZM12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168870"
+      ]
+    },
+    {
+      "title": "Improving server applications with system transactions",
+      "authors": [
+        "Sangman Kim",
+        "Michael Z. Lee",
+        "Alan M. Dunn",
+        "Owen S. Hofmann",
+        "Xuan Wang",
+        "Emmett Witchel",
+        "Donald E. Porter"
+      ],
+      "pages": "15-28",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KimLDHWWP12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KimLDHWWP12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168839"
+      ]
+    },
+    {
+      "title": "Isolating commodity hosted hypervisors with HyperLock",
+      "authors": [
+        "Zhi Wang 0004",
+        "Chiachih Wu",
+        "Michael C. Grace",
+        "Xuxian Jiang"
+      ],
+      "pages": "127-140",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/WangWGJ12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/WangWGJ12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168850",
+        "https://www.wikidata.org/entity/Q131114111"
+      ]
+    },
+    {
+      "title": "Jettison: efficient idle desktop consolidation with partial VM migration",
+      "authors": [
+        "Nilton Bila",
+        "Eyal de Lara",
+        "Kaustubh R. Joshi",
+        "H. Andr&eacute;s Lagar-Cavilla",
+        "Matti A. Hiltunen",
+        "Mahadev Satyanarayanan"
+      ],
+      "pages": "211-224",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BilaLJLHS12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BilaLJLHS12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168858",
+        "https://www.wikidata.org/entity/Q57392791"
+      ]
+    },
+    {
+      "title": "Jockey: guaranteed job latency in data parallel clusters",
+      "authors": [
+        "Andrew D. Ferguson",
+        "Peter Bod&iacute;k",
+        "Srikanth Kandula",
+        "Eric Boutin",
+        "Rodrigo Fonseca"
+      ],
+      "pages": "99-112",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/FergusonBKBF12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/FergusonBKBF12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168847"
+      ]
+    },
+    {
+      "title": "Kineograph: taking the pulse of a fast-changing and connected world",
+      "authors": [
+        "Raymond Cheng 0001",
+        "Ji Hong",
+        "Aapo Kyrola",
+        "Youshan Miao",
+        "Xuetian Weng",
+        "Ming Wu 0007",
+        "Fan Yang 0024",
+        "Lidong Zhou",
+        "Feng Zhao 0001",
+        "Enhong Chen"
+      ],
+      "pages": "85-98",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ChengHKMWWYZZC12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ChengHKMWWYZZC12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168846"
+      ]
+    },
+    {
+      "title": "LazyBase: trading freshness for performance in a scalable database",
+      "authors": [
+        "James Cipar",
+        "Gregory R. Ganger",
+        "Kimberly Keeton",
+        "Charles B. Morrey III",
+        "Craig A. N. Soules",
+        "Alistair C. Veitch"
+      ],
+      "pages": "169-182",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/CiparGKMSV12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/CiparGKMSV12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168854"
+      ]
+    },
+    {
+      "title": "Leveraging feature models to configure virtual appliances",
+      "authors": [
+        "Cl&eacute;ment Quinton",
+        "Romain Rouvoy",
+        "Laurence Duchien"
+      ],
+      "pages": "2:1-2:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/QuintonRD12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/QuintonRD12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168697.2168699"
+      ]
+    },
+    {
+      "title": "Living in the present: on-the-fly information processing in scalable web architectures",
+      "authors": [
+        "David M. Eyers",
+        "Tobias Freudenreich",
+        "Alessandro Margara",
+        "Sebastian Frischbier",
+        "Peter R. Pietzuch",
+        "Patrick Eugster"
+      ],
+      "pages": "6:1-6:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/EyersFMFPE12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/EyersFMFPE12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168697.2168703"
+      ]
+    },
+    {
+      "title": "MadLINQ: large-scale distributed matrix computation for the cloud",
+      "authors": [
+        "Zhengping Qian",
+        "Xiuwei Chen",
+        "Nanxi Kang",
+        "Mingcheng Chen",
+        "Yuan Yu",
+        "Thomas Moscibroda",
+        "Zheng Zhang 0001"
+      ],
+      "pages": "197-210",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/QianCKCYMZ12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/QianCKCYMZ12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168857"
+      ]
+    },
+    {
+      "title": "Managing parallelism for stream processing in the cloud",
+      "authors": [
+        "Nathan Backman",
+        "Rodrigo Fonseca",
+        "Ugur &Ccedil;etintemel"
+      ],
+      "pages": "1:1-1:5",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BackmanFC12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BackmanFC12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2169090.2169091"
+      ]
+    },
+    {
+      "title": "Meeting service level objectives of Pig programs",
+      "authors": [
+        "Zhuoyao Zhang",
+        "Ludmila Cherkasova",
+        "Abhishek Verma",
+        "Boon Thau Loo"
+      ],
+      "pages": "8:1-8:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ZhangCVL12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ZhangCVL12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168697.2168705",
+        "https://www.wikidata.org/entity/Q131125189"
+      ]
+    },
+    {
+      "title": "Next place prediction using mobility Markov chains",
+      "authors": [
+        "S&eacute;bastien Gambs",
+        "Marc-Olivier Killijian",
+        "Miguel N&uacute;&ntilde;ez del Prado Cortez"
+      ],
+      "pages": "3:1-3:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GambsKC12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GambsKC12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2181196.2181199"
+      ]
+    },
+    {
+      "title": "Nobody ever got fired for using Hadoop on a cluster",
+      "authors": [
+        "Antony I. T. Rowstron",
+        "Dushyanth Narayanan",
+        "Austin Donnelly",
+        "Greg O'Shea",
+        "Andrew Douglas"
+      ],
+      "pages": "2:1-2:5",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RowstronNDOD12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RowstronNDOD12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2169090.2169092",
+        "https://www.wikidata.org/entity/Q131112619"
+      ]
+    },
+    {
+      "title": "Practical TDMA for datacenter ethernet",
+      "authors": [
+        "Bhanu Chandra Vattikonda",
+        "George Porter",
+        "Amin Vahdat",
+        "Alex C. Snoeren"
+      ],
+      "pages": "225-238",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/VattikondaPVS12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/VattikondaPVS12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168859",
+        "https://www.wikidata.org/entity/Q130947257"
+      ]
+    },
+    {
+      "title": "Providing fault-tolerant execution of web-service-based workflows within clouds",
+      "authors": [
+        "Johannes Behl",
+        "Tobias Distler",
+        "Florian Heisig",
+        "R&uuml;diger Kapitza",
+        "Matthias Schunter"
+      ],
+      "pages": "7:1-7:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BehlDHKS12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BehlDHKS12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168697.2168704"
+      ]
+    },
+    {
+      "title": "Providing secure and accountable privacy to roaming 802.11 mobile devices",
+      "authors": [
+        "Panagiotis Georgopoulos",
+        "Ben McCarthy",
+        "Christopher Edwards"
+      ],
+      "pages": "8:1-8:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GeorgopoulosME12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GeorgopoulosME12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2181196.2181204"
+      ]
+    },
+    {
+      "title": "Public vs private cloud usage costs: the StratusLab case",
+      "authors": [
+        "Ioannis Konstantinou",
+        "Evangelos Floros",
+        "Nectarios Koziris"
+      ],
+      "pages": "3:1-3:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KonstantinouFK12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KonstantinouFK12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168697.2168700"
+      ]
+    },
+    {
+      "title": "Scalable testing of file system checkers",
+      "authors": [
+        "Jo&atilde;o Carlos Menezes Carreira",
+        "Rodrigo Rodrigues 0001",
+        "George Candea",
+        "Rupak Majumdar"
+      ],
+      "pages": "239-252",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/CarreiraRCM12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/CarreiraRCM12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168861"
+      ]
+    },
+    {
+      "title": "SecureSafe: a highly secure online data safe industrial use case",
+      "authors": [
+        "Marc Rennhard",
+        "Michael Tschannen",
+        "Tobias Christen"
+      ],
+      "pages": "1:1-1:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RennhardTC12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RennhardTC12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2181196.2181197"
+      ]
+    },
+    {
+      "title": "STM in the small: trading generality for performance in software transactional memory",
+      "authors": [
+        "Aleksandar Dragojevic",
+        "Tim Harris 0001"
+      ],
+      "pages": "1-14",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/DragojevicH12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/DragojevicH12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168838"
+      ]
+    },
+    {
+      "title": "The impact of trace and adversary models on location privacy provided by K-anonymity",
+      "authors": [
+        "Volkan Cambazoglu",
+        "Christian Rohner",
+        "Bj&ouml;rn Victor"
+      ],
+      "pages": "6:1-6:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/CambazogluRV12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/CambazogluRV12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2181196.2181202"
+      ]
+    },
+    {
+      "title": "The space complexity of transactional interactive reads",
+      "authors": [
+        "Masoud Saeida Ardekani",
+        "Marek Zawirski",
+        "Pierre Sutra",
+        "Marc Shapiro 0001"
+      ],
+      "pages": "4:1-4:5",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ArdekaniZS012",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ArdekaniZS012.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2169090.2169094"
+      ]
+    },
+    {
+      "title": "The Xen-Blanket: virtualize once, run everywhere",
+      "authors": [
+        "Dan Williams 0001",
+        "Hani Jamjoom",
+        "Hakim Weatherspoon"
+      ],
+      "pages": "113-126",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/WilliamsJW12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/WilliamsJW12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168849"
+      ]
+    },
+    {
+      "title": "TM2C: a software transactional memory for many-cores",
+      "authors": [
+        "Vincent Gramoli",
+        "Rachid Guerraoui",
+        "Vasileios Trigonakis"
+      ],
+      "pages": "351-364",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GramoliGT12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GramoliGT12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168872"
+      ]
+    },
+    {
+      "title": "Virtual InfiniBand clusters for HPC clouds",
+      "authors": [
+        "Marius Hillenbrand",
+        "Viktor Mauch",
+        "Jan Stoess",
+        "Konrad Miller",
+        "Frank Bellosa"
+      ],
+      "pages": "9:1-9:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/HillenbrandMSMB12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/HillenbrandMSMB12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168697.2168706"
+      ]
+    },
+    {
+      "title": "When browsing leaves footprints: automatically detect privacy violations",
+      "authors": [
+        "Hans Hofinger",
+        "Alexander Kiening",
+        "Peter Schoo"
+      ],
+      "pages": "9:1-9:6",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/HofingerKS12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/HofingerKS12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2181196.2181205"
+      ]
+    },
+    {
+      "title": "Where is the energy spent inside my app?: fine grained energy accounting on smartphones with Eprof",
+      "authors": [
+        "Abhinav Pathak",
+        "Y. Charlie Hu",
+        "Ming Zhang 0005"
+      ],
+      "pages": "29-42",
+      "year": "2012",
+      "venue": "EuroSys 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PathakHZ12",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PathakHZ12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2168836.2168841"
+      ]
+    }
+  ]
+}

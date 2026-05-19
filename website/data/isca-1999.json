@@ -1,0 +1,542 @@
+{
+  "id": "isca-1999",
+  "venue": "isca",
+  "year": 1999,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca1999.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca1999.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/1999",
+    "conf/isca/1999-1",
+    "conf/isca/1999-2",
+    "conf/isca/1999-3",
+    "conf/isca/1999-4",
+    "conf/isca/1999-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 26,
+  "display_count": 26,
+  "papers": [
+    {
+      "title": "A Hardware-Driven Profiling Scheme for Identifying Program Hot Spots to Support Runtime Optimization",
+      "authors": [
+        "Matthew C. Merten",
+        "Andrew R. Trick",
+        "Christopher N. George",
+        "John C. Gyllenhaal",
+        "Wen-mei W. Hwu"
+      ],
+      "pages": "136-147",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MertenTGGH99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MertenTGGH99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765946",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765946",
+        "https://dl.acm.org/citation.cfm?id=300991"
+      ]
+    },
+    {
+      "title": "A Performance Comparison of Contemporary DRAM Architectures",
+      "authors": [
+        "Vinodh Cuppu",
+        "Bruce L. Jacob",
+        "Brian Davis",
+        "Trevor N. Mudge"
+      ],
+      "pages": "222-233",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CuppuJDM99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CuppuJDM99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765953",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765953",
+        "https://dl.acm.org/citation.cfm?id=300998"
+      ]
+    },
+    {
+      "title": "A Scalable Front-End Architecture for Fast Instruction Delivery",
+      "authors": [
+        "Glenn Reinman",
+        "Todd M. Austin",
+        "Brad Calder"
+      ],
+      "pages": "234-245",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ReinmanAC99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ReinmanAC99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765954",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765954",
+        "https://dl.acm.org/citation.cfm?id=300999"
+      ]
+    },
+    {
+      "title": "Area Efficient Architectures for Information Integrity in Cache Memories",
+      "authors": [
+        "Seongwoo Kim",
+        "Arun K. Somani"
+      ],
+      "pages": "246-255",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimS99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimS99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765955",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765955",
+        "https://dl.acm.org/citation.cfm?id=301000"
+      ]
+    },
+    {
+      "title": "Commit-Reconcile & Fences (CRF): A New Memory Model for Architects and Compiler Writers",
+      "authors": [
+        "Xiaowei Shen",
+        "Arvind 0001",
+        "Larry Rudolph"
+      ],
+      "pages": "150-161",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShenAR99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShenAR99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765947",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765947",
+        "https://dl.acm.org/citation.cfm?id=300992"
+      ]
+    },
+    {
+      "title": "Correlated Load-Address Predictors",
+      "authors": [
+        "Michael Bekerman",
+        "St&eacute;phan Jourdan",
+        "Ronny Ronen",
+        "Gilad Kirshenboim",
+        "Lihu Rappoport",
+        "Adi Yoaz",
+        "Uri C. Weiser"
+      ],
+      "pages": "54-63",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BekermanJRKRYW99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BekermanJRKRYW99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765939",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765939",
+        "https://dl.acm.org/citation.cfm?id=300984"
+      ]
+    },
+    {
+      "title": "Decoupling Local Variable Accesses in a Wide-Issue Superscalar Processor",
+      "authors": [
+        "Sangyeun Cho",
+        "Pen-Chung Yew",
+        "Gyungho Lee"
+      ],
+      "pages": "100-110",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChoYL99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChoYL99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765943",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765943",
+        "https://dl.acm.org/citation.cfm?id=300988"
+      ]
+    },
+    {
+      "title": "Dynamic Vectorization: A Mechanism for Exploiting Far-Flung ILP in Ordinary Programs",
+      "authors": [
+        "Sriram Vajapeyam",
+        "P. J. Joseph",
+        "Tulika Mitra"
+      ],
+      "pages": "16-27",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/VajapeyamJM99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/VajapeyamJM99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765936",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765936",
+        "https://dl.acm.org/citation.cfm?id=300981"
+      ]
+    },
+    {
+      "title": "Effective Jump-Pointer Prefetching for Linked Data Structures",
+      "authors": [
+        "Amir Roth",
+        "Gurindar S. Sohi"
+      ],
+      "pages": "111-121",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RothS99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RothS99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765944",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765944",
+        "https://dl.acm.org/citation.cfm?id=300989"
+      ]
+    },
+    {
+      "title": "Is SC + ILP=RC?",
+      "authors": [
+        "Chris Gniady",
+        "Babak Falsafi",
+        "T. N. Vijaykumar"
+      ],
+      "pages": "162-171",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GniadyFV99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GniadyFV99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765948",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765948",
+        "https://dl.acm.org/citation.cfm?id=300993"
+      ]
+    },
+    {
+      "title": "Maps: A Compiler-Managed Memory System for Raw Machines",
+      "authors": [
+        "Rajeev Barua",
+        "Walter Lee",
+        "Saman P. Amarasinghe",
+        "Anant Agarwal"
+      ],
+      "pages": "4-15",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BaruaLAA99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BaruaLAA99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765935",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765935",
+        "https://dl.acm.org/citation.cfm?id=300980"
+      ]
+    },
+    {
+      "title": "Memory Forwarding: Enabling Aggressive Layout Optimizations by Guaranteeing the Safety of Data Relocation",
+      "authors": [
+        "Chi-Keung Luk",
+        "Todd C. Mowry"
+      ],
+      "pages": "88-99",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LukM99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LukM99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765942",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765942",
+        "https://dl.acm.org/citation.cfm?id=300987"
+      ]
+    },
+    {
+      "title": "Memory Sharing Predictor: The Key to a Speculative Coherent DSM",
+      "authors": [
+        "An-Chow Lai",
+        "Babak Falsafi"
+      ],
+      "pages": "172-183",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LaiF99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LaiF99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765949",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765949",
+        "https://dl.acm.org/citation.cfm?id=300994"
+      ]
+    },
+    {
+      "title": "Multicast Snooping: A New Coherence Method Using a Multicast Address Network",
+      "authors": [
+        "E. Ender Bilir",
+        "Ross M. Dickson",
+        "Ying Hu",
+        "Manoj Plakal",
+        "Daniel J. Sorin",
+        "Mark D. Hill",
+        "David A. Wood 0001"
+      ],
+      "pages": "294-304",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BilirDHPSHW99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BilirDHPSHW99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765959",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765959",
+        "https://dl.acm.org/citation.cfm?id=301004"
+      ]
+    },
+    {
+      "title": "Performance of Image and Video Processing with General-Purpose Processors and Media ISA Extensions",
+      "authors": [
+        "Parthasarathy Ranganathan",
+        "Sarita V. Adve",
+        "Norman P. Jouppi"
+      ],
+      "pages": "124-135",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RanganathanAJ99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RanganathanAJ99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765945",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765945",
+        "https://dl.acm.org/citation.cfm?id=300990"
+      ]
+    },
+    {
+      "title": "PipeRench: A Coprocessor for Streaming multimedia Acceleration",
+      "authors": [
+        "Seth Copen Goldstein",
+        "Herman Schmit",
+        "Matthew Moe",
+        "Mihai Budiu",
+        "Srihari Cadambi",
+        "R. Reed Taylor",
+        "Ronald Laufer"
+      ],
+      "pages": "28-39",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GoldsteinSMBCTL99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GoldsteinSMBCTL99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765937",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765937",
+        "https://dl.acm.org/citation.cfm?id=300982"
+      ]
+    },
+    {
+      "title": "Scaling Application Performance on a Cache-Coherent Multiprocessors",
+      "authors": [
+        "Dongming Jiang",
+        "Jaswinder Pal Singh"
+      ],
+      "pages": "305-316",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JiangS99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JiangS99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765960",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765960",
+        "https://dl.acm.org/citation.cfm?id=301005"
+      ]
+    },
+    {
+      "title": "Selective Value Prediction",
+      "authors": [
+        "Brad Calder",
+        "Glenn Reinman",
+        "Dean M. Tullsen"
+      ],
+      "pages": "64-74",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CalderRT99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CalderRT99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765940",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765940",
+        "https://dl.acm.org/citation.cfm?id=300985"
+      ]
+    },
+    {
+      "title": "Simultaneous Subordinate Microthreading (SSMT)",
+      "authors": [
+        "Robert S. Chappell",
+        "Jared Stark",
+        "Sangwook P. Kim",
+        "Steven K. Reinhardt",
+        "Yale N. Patt"
+      ],
+      "pages": "186-195",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChappellSKRP99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChappellSKRP99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765950",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765950",
+        "https://dl.acm.org/citation.cfm?id=300995"
+      ]
+    },
+    {
+      "title": "Speculation Techniques for Improving Load Related Instruction Scheduling",
+      "authors": [
+        "Adi Yoaz",
+        "Mattan Erez",
+        "Ronny Ronen",
+        "St&eacute;phan Jourdan"
+      ],
+      "pages": "42-53",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YoazERJ99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YoazERJ99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765938",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765938",
+        "https://dl.acm.org/citation.cfm?id=300983"
+      ]
+    },
+    {
+      "title": "Storageless Value Prediction Using Prior Register Values",
+      "authors": [
+        "Dean M. Tullsen",
+        "John S. Seng"
+      ],
+      "pages": "270-279",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TullsenS99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TullsenS99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765957",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765957",
+        "https://dl.acm.org/citation.cfm?id=301002"
+      ]
+    },
+    {
+      "title": "The Block-Based Trace Cache",
+      "authors": [
+        "Bryan Black",
+        "Bohuslav Rychlik",
+        "John Paul Shen"
+      ],
+      "pages": "196-207",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BlackRS99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BlackRS99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765951",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765951",
+        "https://dl.acm.org/citation.cfm?id=300996"
+      ]
+    },
+    {
+      "title": "The Program Decision Logic Approach to Predicated Execution",
+      "authors": [
+        "David I. August",
+        "John W. Sias",
+        "Jean-Michel Puiatti",
+        "Scott A. Mahlke",
+        "Daniel A. Connors",
+        "Kevin M. Crozier",
+        "Wen-mei W. Hwu"
+      ],
+      "pages": "208-219",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AugustSPMCCH99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AugustSPMCCH99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765952",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765952",
+        "https://dl.acm.org/citation.cfm?id=300997"
+      ]
+    },
+    {
+      "title": "Tolerating Late Memory Traps in ILP Processors",
+      "authors": [
+        "Xiaogang Qiu",
+        "Michel Dubois 0001"
+      ],
+      "pages": "76-87",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/QiuD99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/QiuD99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765941",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765941",
+        "https://dl.acm.org/citation.cfm?id=300986"
+      ]
+    },
+    {
+      "title": "Using Network Interface Support to Avoid Asynchronous Protocol Processing in Shared Virtual Memory Systems",
+      "authors": [
+        "Angelos Bilas",
+        "Cheng Liao",
+        "Jaswinder Pal Singh"
+      ],
+      "pages": "282-293",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BilasLS99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BilasLS99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765958",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765958",
+        "https://dl.acm.org/citation.cfm?id=301003"
+      ]
+    },
+    {
+      "title": "Value Prediction in VLIW Machines",
+      "authors": [
+        "Tarun Nakra",
+        "Rajiv Gupta 0001",
+        "Mary Lou Soffa"
+      ],
+      "pages": "258-269",
+      "year": "1999",
+      "venue": "ISCA 1999",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NakraGS99",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NakraGS99.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1999.765956",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1999.765956",
+        "https://dl.acm.org/citation.cfm?id=301001"
+      ]
+    }
+  ]
+}

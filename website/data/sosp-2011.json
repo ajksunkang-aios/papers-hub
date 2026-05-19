@@ -1,0 +1,1115 @@
+{
+  "id": "sosp-2011",
+  "venue": "sosp",
+  "year": 2011,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp2011.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp2011.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/2011",
+    "conf/sosp/2011-1",
+    "conf/sosp/2011-2",
+    "conf/sosp/2011-3",
+    "conf/sosp/2011-4",
+    "conf/sosp/2011-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 57,
+  "display_count": 57,
+  "papers": [
+    {
+      "title": "A file is not a file: understanding the I/O behavior of Apple desktop applications",
+      "authors": [
+        "Tyler Harter",
+        "Chris Dragga",
+        "Michael Vaughn",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "71-83",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HarterDVAA11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HarterDVAA11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043564"
+      ]
+    },
+    {
+      "title": "An empirical study on configuration errors in commercial and open source systems",
+      "authors": [
+        "Zuoning Yin",
+        "Xiao Ma 0014",
+        "Jing Zheng",
+        "Yuanyuan Zhou 0001",
+        "Lakshmi N. Bairavasundaram",
+        "Shankar Pasupathy"
+      ],
+      "pages": "159-172",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YinMZZBP11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YinMZZBP11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043572"
+      ]
+    },
+    {
+      "title": "Assessing the scalability of garbage collectors on many cores",
+      "authors": [
+        "Lokesh Gidra",
+        "Ga&euml;l Thomas 0001",
+        "Julien Sopena",
+        "Marc Shapiro 0001"
+      ],
+      "pages": "7:1-7:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Gidra0S011",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Gidra0S011.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039239.2039249"
+      ]
+    },
+    {
+      "title": "Atlantis: robust, extensible execution environments for web applications",
+      "authors": [
+        "James W. Mickens",
+        "Mohan Dhawan"
+      ],
+      "pages": "217-231",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MickensD11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MickensD11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043577"
+      ]
+    },
+    {
+      "title": "Avoiding nostril-cam and postage-stamp people in mobile video conferences",
+      "authors": [
+        "Mary Baker",
+        "Ramin Samadani",
+        "Ian Robinson",
+        "Mehmet Yilmaz",
+        "Kean Wong",
+        "Matthew Hornyak"
+      ],
+      "pages": "4:1-4:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BakerSRYWH11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BakerSRYWH11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043106.2043110"
+      ]
+    },
+    {
+      "title": "Breaking up is hard to do: security and functionality in a commodity hypervisor",
+      "authors": [
+        "Patrick Colp",
+        "Mihir Nanavati",
+        "Jun Zhu",
+        "William Aiello",
+        "George Coker",
+        "Tim Deegan",
+        "Peter A. Loscocco",
+        "Andrew Warfield"
+      ],
+      "pages": "189-202",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ColpNZACDLW11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ColpNZACDLW11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043575",
+        "https://www.wikidata.org/entity/Q131128732"
+      ]
+    },
+    {
+      "title": "Cells: a virtual mobile smartphone architecture",
+      "authors": [
+        "Jeremy Andrus",
+        "Christoffer Dall",
+        "Alexander Van't Hof",
+        "Oren Laadan",
+        "Jason Nieh"
+      ],
+      "pages": "173-187",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AndrusDHLN11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AndrusDHLN11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043574"
+      ]
+    },
+    {
+      "title": "CloudVisor: retrofitting protection of virtual machines in multi-tenant cloud with nested virtualization",
+      "authors": [
+        "Fengzhe Zhang",
+        "Jin Chen",
+        "Haibo Chen 0001",
+        "Binyu Zang"
+      ],
+      "pages": "203-216",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangCCZ11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangCCZ11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043576",
+        "https://www.wikidata.org/entity/Q131135846"
+      ]
+    },
+    {
+      "title": "Configuration coverage in the analysis of large-scale system software",
+      "authors": [
+        "Reinhard Tartler",
+        "Daniel Lohmann",
+        "Christian Dietrich 0001",
+        "Christoph Egger 0001",
+        "Julio Sincero"
+      ],
+      "pages": "2:1-2:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TartlerL00S11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TartlerL00S11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039239.2039242"
+      ]
+    },
+    {
+      "title": "Context-aware apps with the Zonezz platform",
+      "authors": [
+        "J&ouml;rg Roth"
+      ],
+      "pages": "10:1-10:6",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Roth11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Roth11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043106.2043116"
+      ]
+    },
+    {
+      "title": "CryptDB: protecting confidentiality with encrypted query processing",
+      "authors": [
+        "Raluca A. Popa",
+        "Catherine M. S. Redfield",
+        "Nickolai Zeldovich",
+        "Hari Balakrishnan"
+      ],
+      "pages": "85-100",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PopaRZB11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PopaRZB11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043566",
+        "https://www.wikidata.org/entity/Q61661646"
+      ]
+    },
+    {
+      "title": "Design implications for enterprise storage systems via multi-dimensional trace analysis",
+      "authors": [
+        "Yanpei Chen",
+        "Kiran Srinivasan",
+        "Garth R. Goodson",
+        "Randy H. Katz"
+      ],
+      "pages": "43-56",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenSGK11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenSGK11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043562"
+      ]
+    },
+    {
+      "title": "Designing real-time multimedia applications on mobile devices",
+      "authors": [
+        "Jiang Gao"
+      ],
+      "pages": "3:1-3:6",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Gao11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Gao11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043106.2043109"
+      ]
+    },
+    {
+      "title": "Detecting and surviving data races using complementary schedules",
+      "authors": [
+        "Kaushik Veeraraghavan",
+        "Peter M. Chen",
+        "Jason Flinn",
+        "Satish Narayanasamy"
+      ],
+      "pages": "369-384",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/VeeraraghavanCFN11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/VeeraraghavanCFN11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043590"
+      ]
+    },
+    {
+      "title": "Detecting failures in distributed systems with the Falcon spy network",
+      "authors": [
+        "Joshua B. Leners",
+        "Hao Wu",
+        "Wei-Lun Hung",
+        "Marcos Kawazoe Aguilera",
+        "Michael Walfish"
+      ],
+      "pages": "279-294",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LenersWHAW11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LenersWHAW11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043583",
+        "https://www.wikidata.org/entity/Q131127038"
+      ]
+    },
+    {
+      "title": "Differentiated storage services",
+      "authors": [
+        "Michael P. Mesnier",
+        "Feng Chen 0005",
+        "Tian Luo",
+        "Jason B. Akers"
+      ],
+      "pages": "57-70",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MesnierCLA11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MesnierCLA11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043563"
+      ]
+    },
+    {
+      "title": "Don't settle for eventual: scalable causal consistency for wide-area storage with COPS",
+      "authors": [
+        "Wyatt Lloyd",
+        "Michael J. Freedman",
+        "Michael Kaminsky",
+        "David G. Andersen"
+      ],
+      "pages": "401-416",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LloydFKA11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LloydFKA11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043593"
+      ]
+    },
+    {
+      "title": "Dthreads: efficient deterministic multithreading",
+      "authors": [
+        "Tongping Liu",
+        "Charlie Curtsinger",
+        "Emery D. Berger"
+      ],
+      "pages": "327-336",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiuCB11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiuCB11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043587"
+      ]
+    },
+    {
+      "title": "Dynamic deadlock avoidance in systems code using statically inferred effects",
+      "authors": [
+        "Prodromos Gerakios",
+        "Nikolaos Papaspyrou",
+        "Konstantinos Sagonas",
+        "Panagiotis Vekris"
+      ],
+      "pages": "5:1-5:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GerakiosPSV11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GerakiosPSV11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039239.2039247",
+        "https://www.wikidata.org/entity/Q58967754"
+      ]
+    },
+    {
+      "title": "Efficient deterministic multithreading through schedule relaxation",
+      "authors": [
+        "Heming Cui",
+        "Jingyue Wu",
+        "John Gallagher",
+        "Huayang Guo",
+        "Junfeng Yang"
+      ],
+      "pages": "337-351",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CuiWGGY11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CuiWGGY11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043588"
+      ]
+    },
+    {
+      "title": "Ekho: bridging the gap between simulation and reality in tiny energy-harvesting sensors",
+      "authors": [
+        "Hong Zhang",
+        "Mastooreh Salajegheh",
+        "Kevin Fu",
+        "Jacob Sorber"
+      ],
+      "pages": "9:1-9:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangSFS11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangSFS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039252.2039261"
+      ]
+    },
+    {
+      "title": "Energy-aware writes to non-volatile main memory",
+      "authors": [
+        "Jie Chen 0020",
+        "Ron Chi-Lung Chiang",
+        "H. Howie Huang",
+        "Guru Venkataramani"
+      ],
+      "pages": "6:1-6:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenCHV11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenCHV11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039252.2039258"
+      ]
+    },
+    {
+      "title": "Examining storage performance on mobile devices",
+      "authors": [
+        "Hyojun Kim",
+        "Nitin Agrawal 0001",
+        "Cristian Ungureanu"
+      ],
+      "pages": "6:1-6:6",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Kim0U11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Kim0U11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043106.2043112"
+      ]
+    },
+    {
+      "title": "Fast crash recovery in RAMCloud",
+      "authors": [
+        "Diego Ongaro",
+        "Stephen M. Rumble",
+        "Ryan Stutsman",
+        "John K. Ousterhout",
+        "Mendel Rosenblum"
+      ],
+      "pages": "29-41",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/OngaroRSOR11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/OngaroRSOR11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043560"
+      ]
+    },
+    {
+      "title": "Fay: extensible distributed tracing from kernels to clusters",
+      "authors": [
+        "&Uacute;lfar Erlingsson",
+        "Marcus Peinado",
+        "Simon Peter 0001",
+        "Mihai Budiu"
+      ],
+      "pages": "311-326",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ErlingssonPPB11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ErlingssonPPB11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043585"
+      ]
+    },
+    {
+      "title": "Finding resource-release omission faults in Linux",
+      "authors": [
+        "Suman Saha 0002",
+        "Julia Lawall",
+        "Gilles Muller"
+      ],
+      "pages": "1:1-1:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SahaLM11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SahaLM11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039239.2039241"
+      ]
+    },
+    {
+      "title": "Intrusion recovery for database-backed web applications",
+      "authors": [
+        "Ramesh Chandra",
+        "Taesoo Kim",
+        "Meelap Shah",
+        "Neha Narula",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "101-114",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChandraKSNZ11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChandraKSNZ11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043567",
+        "https://www.wikidata.org/entity/Q66711285"
+      ]
+    },
+    {
+      "title": "Jupiter: transparent augmentation of smartphone capabilities through cloud computing",
+      "authors": [
+        "Yao Guo 0001",
+        "Lin Zhang",
+        "Junjun Kong",
+        "Jian Sun",
+        "Tao Feng",
+        "Xiangqun Chen"
+      ],
+      "pages": "2:1-2:6",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GuoZKSFC11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GuoZKSFC11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043106.2043108"
+      ]
+    },
+    {
+      "title": "Leveraging thermal storage to cut the electricity bill for datacenter cooling",
+      "authors": [
+        "Yefu Wang",
+        "Xiaorui Wang",
+        "Yanwei Zhang"
+      ],
+      "pages": "8:1-8:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WangWZ11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WangWZ11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039252.2039260"
+      ]
+    },
+    {
+      "title": "Logical attestation: an authorization architecture for trustworthy computing",
+      "authors": [
+        "Emin G&uuml;n Sirer",
+        "Willem de Bruijn",
+        "Patrick Reynolds",
+        "Alan Shieh",
+        "Kevin Walsh 0001",
+        "Dan Williams 0001",
+        "Fred B. Schneider"
+      ],
+      "pages": "249-264",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SirerBRSWWS11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SirerBRSWWS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043580"
+      ]
+    },
+    {
+      "title": "MARS: adaptive remote execution for multi-threaded mobile devices",
+      "authors": [
+        "Asaf Cidon",
+        "Tomer M. London",
+        "Sachin Katti",
+        "Christos Kozyrakis",
+        "Mendel Rosenblum"
+      ],
+      "pages": "1:1-1:6",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CidonLKKR11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CidonLKKR11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043106.2043107"
+      ]
+    },
+    {
+      "title": "Pervasive detection of process races in deployed systems",
+      "authors": [
+        "Oren Laadan",
+        "Nicolas Viennot",
+        "Chia-Che Tsai",
+        "Chris Blinn",
+        "Junfeng Yang",
+        "Jason Nieh"
+      ],
+      "pages": "353-367",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LaadanVTBYN11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LaadanVTBYN11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043589"
+      ]
+    },
+    {
+      "title": "Power-efficient networking for balanced system designs: early experiences with PCIe",
+      "authors": [
+        "John L. Byrne",
+        "Jichuan Chang",
+        "Kevin T. Lim",
+        "Laura L. Ramirez",
+        "Parthasarathy Ranganathan"
+      ],
+      "pages": "3:1-3:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ByrneCLRR11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ByrneCLRR11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039252.2039255",
+        "https://www.wikidata.org/entity/Q130959892"
+      ]
+    },
+    {
+      "title": "Practical software model checking via dynamic interface reduction",
+      "authors": [
+        "Huayang Guo",
+        "Ming Wu 0007",
+        "Lidong Zhou",
+        "Gang Hu",
+        "Junfeng Yang",
+        "Lintao Zhang"
+      ],
+      "pages": "265-278",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GuoWZHYZ11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GuoWZHYZ11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043582"
+      ]
+    },
+    {
+      "title": "Predicting handoffs in 3G networks",
+      "authors": [
+        "Umar Javed",
+        "Dongsu Han",
+        "Ram&oacute;n C&aacute;ceres",
+        "Jeffrey Pang",
+        "Srinivasan Seshan",
+        "Alexander Varshavsky"
+      ],
+      "pages": "8:1-8:6",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JavedHCPSV11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JavedHCPSV11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043106.2043114"
+      ]
+    },
+    {
+      "title": "Preliminary design of the SAFE platform",
+      "authors": [
+        "Andr&eacute; DeHon",
+        "Ben Karel",
+        "Thomas F. Knight Jr.",
+        "Gregory Malecha",
+        "Beno&icirc;t Montagu",
+        "Robin Morisset",
+        "Greg Morrisett",
+        "Benjamin C. Pierce",
+        "Randy Pollack",
+        "Sumit Ray",
+        "Olin Shivers",
+        "Jonathan M. Smith",
+        "Gregory Sullivan"
+      ],
+      "pages": "4:1-4:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DeHonKKMMMMPPRS11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DeHonKKMMMMPPRS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039239.2039245"
+      ]
+    },
+    {
+      "title": "PTask: operating system abstractions to manage GPUs as compute devices",
+      "authors": [
+        "Christopher J. Rossbach",
+        "Jon Currey",
+        "Mark Silberstein",
+        "Baishakhi Ray",
+        "Emmett Witchel"
+      ],
+      "pages": "233-248",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RossbachCSRW11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RossbachCSRW11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043579"
+      ]
+    },
+    {
+      "title": "Rounding pointers: type safe capabilities with C++ meta programming",
+      "authors": [
+        "Alexander Warg",
+        "Adam Lackorzynski"
+      ],
+      "pages": "3:1-3:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WargL11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WargL11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039239.2039244"
+      ]
+    },
+    {
+      "title": "Scalable consistency in Scatter",
+      "authors": [
+        "Lisa Glendenning",
+        "Ivan Beschastnikh",
+        "Arvind Krishnamurthy",
+        "Thomas E. Anderson"
+      ],
+      "pages": "15-28",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GlendenningBKA11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GlendenningBKA11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043559"
+      ]
+    },
+    {
+      "title": "Searchlight: helping mobile devices find their neighbors",
+      "authors": [
+        "Mehedi Bakht",
+        "Matt Trower",
+        "Robin Kravets"
+      ],
+      "pages": "9:1-9:6",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BakhtTK11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BakhtTK11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043106.2043115"
+      ]
+    },
+    {
+      "title": "Secure network provenance",
+      "authors": [
+        "Wenchao Zhou",
+        "Qiong Fei",
+        "Arjun Narayan",
+        "Andreas Haeberlen",
+        "Boon Thau Loo",
+        "Micah Sherr"
+      ],
+      "pages": "295-310",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhouFNHLS11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhouFNHLS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043584",
+        "https://www.wikidata.org/entity/Q131125207"
+      ]
+    },
+    {
+      "title": "SEEP: exploiting symbolic execution for energy-aware programming",
+      "authors": [
+        "Timo H&ouml;nig",
+        "Christopher Eibel",
+        "R&uuml;diger Kapitza",
+        "Wolfgang Schr&ouml;der-Preikschat"
+      ],
+      "pages": "4:1-4:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HonigEKS11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HonigEKS11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039252.2039256",
+        "https://www.wikidata.org/entity/Q131127682"
+      ]
+    },
+    {
+      "title": "SILT: a memory-efficient, high-performance key-value store",
+      "authors": [
+        "Hyeontaek Lim",
+        "Bin Fan",
+        "David G. Andersen",
+        "Michael Kaminsky"
+      ],
+      "pages": "1-13",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LimFAK11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LimFAK11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043558"
+      ]
+    },
+    {
+      "title": "Simultaneous multithreading on x86_64 systems: an energy efficiency evaluation",
+      "authors": [
+        "Robert Sch&ouml;ne",
+        "Daniel Hackenberg",
+        "Daniel Molka"
+      ],
+      "pages": "10:1-10:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SchoneHM11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SchoneHM11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039252.2039262"
+      ]
+    },
+    {
+      "title": "Software fault isolation with API integrity and multi-principal modules",
+      "authors": [
+        "Yandong Mao",
+        "Haogang Chen 0001",
+        "Dong Zhou 0006",
+        "Xi Wang 0005",
+        "Nickolai Zeldovich",
+        "M. Frans Kaashoek"
+      ],
+      "pages": "115-128",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MaoCZWZK11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MaoCZWZK11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043568"
+      ]
+    },
+    {
+      "title": "The case for sleep states in servers",
+      "authors": [
+        "Anshul Gandhi",
+        "Mor Harchol-Balter",
+        "Michael A. Kozuch"
+      ],
+      "pages": "2:1-2:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GandhiHK11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GandhiHK11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039252.2039254"
+      ]
+    },
+    {
+      "title": "The interplay of software bloat, hardware energy proportionality and system bottlenecks",
+      "authors": [
+        "Suparna Bhattacharya",
+        "Karthick Rajamani",
+        "K. Gopinath",
+        "Manish Gupta"
+      ],
+      "pages": "1:1-1:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BhattacharyaRGG11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BhattacharyaRGG11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039252.2039253"
+      ]
+    },
+    {
+      "title": "The modeling and comparison of wireless network denial of service attacks",
+      "authors": [
+        "Martin Eian",
+        "Stig Fr. Mj&oslash;lsnes"
+      ],
+      "pages": "7:1-7:6",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/EianM11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/EianM11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043106.2043113"
+      ]
+    },
+    {
+      "title": "The Swiss Army smartphone: cloud-based delivery of USB services",
+      "authors": [
+        "Adiseshu Hari",
+        "Manoj Jaitly",
+        "Yuh-Jye Chang",
+        "Andrea Francini"
+      ],
+      "pages": "5:1-5:6",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HariJCF11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HariJCF11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043106.2043111"
+      ]
+    },
+    {
+      "title": "Thialfi: a client notification service for internet-scale applications",
+      "authors": [
+        "Atul Adya",
+        "Gregory Cooper",
+        "Daniel Myers",
+        "Michael Piatek"
+      ],
+      "pages": "129-142",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AdyaCMP11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AdyaCMP11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043570"
+      ]
+    },
+    {
+      "title": "Towards realizing a low cost and highly available datacenter power infrastructure",
+      "authors": [
+        "Sriram Govindan",
+        "Di Wang 0003",
+        "Lydia Y. Chen",
+        "Anand Sivasubramaniam",
+        "Bhuvan Urgaonkar"
+      ],
+      "pages": "7:1-7:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Govindan0CSU11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Govindan0CSU11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039252.2039259"
+      ]
+    },
+    {
+      "title": "Traffic backfilling: subsidizing lunch for delay-tolerant applications in UMTS networks",
+      "authors": [
+        "H. Andr&eacute;s Lagar-Cavilla",
+        "Kaustubh Joshi 0001",
+        "Alexander Varshavsky",
+        "Jeffrey Bickford",
+        "Darwin Parra"
+      ],
+      "pages": "11:1-11:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Lagar-CavillaJV11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Lagar-CavillaJV11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043106.2043117"
+      ]
+    },
+    {
+      "title": "Transactional storage for geo-replicated systems",
+      "authors": [
+        "Yair Sovran",
+        "Russell Power",
+        "Marcos K. Aguilera",
+        "Jinyang Li 0001"
+      ],
+      "pages": "385-400",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SovranPAL11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SovranPAL11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043592"
+      ]
+    },
+    {
+      "title": "URDB: a universal reversible debugger based on decomposing debugging histories",
+      "authors": [
+        "Ana Maria Visan",
+        "Kapil Arya",
+        "Gene Cooperman",
+        "Tyler Denniston"
+      ],
+      "pages": "8:1-8:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/VisanACD11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/VisanACD11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039239.2039251",
+        "https://www.wikidata.org/entity/Q130973036"
+      ]
+    },
+    {
+      "title": "Using declarative invariants for protecting file-system integrity",
+      "authors": [
+        "Jack Sun",
+        "Daniel Fryer",
+        "Ashvin Goel",
+        "Angela Demke Brown"
+      ],
+      "pages": "6:1-6:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SunFGB11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SunFGB11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039239.2039248"
+      ]
+    },
+    {
+      "title": "Utilizing green energy prediction to schedule mixed batch and service jobs in data centers",
+      "authors": [
+        "Baris Aksanli",
+        "Jagannathan Venkatesh",
+        "Liuyi Eric Zhang",
+        "Tajana Rosing"
+      ],
+      "pages": "5:1-5:5",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AksanliVZR11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AksanliVZR11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2039252.2039257"
+      ]
+    },
+    {
+      "title": "Windows Azure Storage: a highly available cloud storage service with strong consistency",
+      "authors": [
+        "Brad Calder",
+        "Ju Wang 0010",
+        "Aaron Ogus",
+        "Niranjan Nilakantan",
+        "Arild Skjolsvold",
+        "Sam McKelvie",
+        "Yikang Xu",
+        "Shashwat Srivastav",
+        "Jiesheng Wu",
+        "Huseyin Simitci",
+        "Jaidev Haridas",
+        "Chakravarthy Uddaraju",
+        "Hemal Khatri",
+        "Andrew Edwards",
+        "Vaman Bedekar",
+        "Shane Mainali",
+        "Rafay Abbasi",
+        "Arpit Agarwal",
+        "Mian Fahim ul Haq",
+        "Muhammad Ikram ul Haq",
+        "Deepali Bhardwaj",
+        "Sowmya Dayanand",
+        "Anitha Adusumilli",
+        "Marvin McNett",
+        "Sriram Sankaran",
+        "Kavitha Manivannan",
+        "Leonidas Rigas"
+      ],
+      "pages": "143-157",
+      "year": "2011",
+      "venue": "SOSP 2011",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CalderWONSMXSWSHUKEBMAAHHBDAMSMR11",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CalderWONSMXSWSHUKEBMAAHHBDAMSMR11.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2043556.2043571"
+      ]
+    }
+  ]
+}

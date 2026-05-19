@@ -1,0 +1,472 @@
+{
+  "id": "osdi-1994",
+  "venue": "osdi",
+  "year": 1994,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi1994.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi1994.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/1994",
+    "conf/osdi/1994-1",
+    "conf/osdi/1994-2",
+    "conf/osdi/1994-3",
+    "conf/osdi/1994-4",
+    "conf/osdi/1994-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 27,
+  "display_count": 27,
+  "papers": [
+    {
+      "title": "A Caching Model of Operating System Kernel Functionality",
+      "authors": [
+        "David R. Cheriton",
+        "Kenneth J. Duda"
+      ],
+      "pages": "179-193",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CheritonD94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CheritonD94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267652"
+      ]
+    },
+    {
+      "title": "Cooperative Caching: Using Remote Client Memory to Improve File System Performance",
+      "authors": [
+        "Michael Dahlin",
+        "Randolph Y. Wang",
+        "Thomas E. Anderson",
+        "David A. Patterson 0001"
+      ],
+      "pages": "267-280",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DahlinWAP94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DahlinWAP94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267657"
+      ]
+    },
+    {
+      "title": "Disk-directed I/O for MIMD Multiprocessors",
+      "authors": [
+        "David Kotz"
+      ],
+      "pages": "61-74",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Kotz94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Kotz94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267644"
+      ]
+    },
+    {
+      "title": "Distributed Filaments: Efficient Fine-Grain Parallelism on a Cluster of Workstations",
+      "authors": [
+        "Vincent W. Freeh",
+        "David K. Lowenthal",
+        "Gregory R. Andrews"
+      ],
+      "pages": "201-213",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FreehLA94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FreehLA94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267653"
+      ]
+    },
+    {
+      "title": "Dynamic Page Mapping Policies for Cache Conflict Resolution on Standard Hardware",
+      "authors": [
+        "Theodore H. Romer",
+        "Dennis Lee 0001",
+        "Brian N. Bershad",
+        "J. Bradley Chen"
+      ],
+      "pages": "255-266",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/RomerLBC94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/RomerLBC94.html",
+      "ee_links": []
+    },
+    {
+      "title": "Experiences with Locking in a NUMA Multiprocessor Operating System Kernel",
+      "authors": [
+        "Ronald C. Unrau",
+        "Orran Krieger",
+        "Benjamin Gamsa",
+        "Michael Stumm"
+      ],
+      "pages": "139-152",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/UnrauKGS94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/UnrauKGS94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267649"
+      ]
+    },
+    {
+      "title": "Garbage Collection and DSM Consistency",
+      "authors": [
+        "Paulo Ferreira 0001",
+        "Marc Shapiro 0001"
+      ],
+      "pages": "229-241",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FerreiraS94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FerreiraS94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267655"
+      ]
+    },
+    {
+      "title": "High-Performance Microkernel Systems (Panel Statement)",
+      "authors": [
+        "Steven Lucco"
+      ],
+      "pages": "199",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Lucco94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Lucco94.html",
+      "ee_links": []
+    },
+    {
+      "title": "HiPEC: High Performance External Virtual Memory Caching",
+      "authors": [
+        "Chao-Hsien Lee",
+        "Meng Chang Chen",
+        "Ruei-Chuan Chang"
+      ],
+      "pages": "153-164",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LeeCC94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LeeCC94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267650"
+      ]
+    },
+    {
+      "title": "Implementation and Performance of Application-Controlled File Caching",
+      "authors": [
+        "Pei Cao",
+        "Edward W. Felten",
+        "Kai Li 0001"
+      ],
+      "pages": "165-177",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CaoFL94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CaoFL94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267651"
+      ]
+    },
+    {
+      "title": "Integrating Coherency and Recoverability in Distributed Systems",
+      "authors": [
+        "Michael J. Feeley",
+        "Jeffrey S. Chase",
+        "Vivek R. Narasayya",
+        "Henry M. Levy"
+      ],
+      "pages": "215-227",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/FeeleyCNL94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/FeeleyCNL94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267654"
+      ]
+    },
+    {
+      "title": "Lottery Scheduling: Flexible Proportional-Share Resource Management",
+      "authors": [
+        "Carl A. Waldspurger",
+        "William E. Weihl"
+      ],
+      "pages": "1-11",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WaldspurgerW94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WaldspurgerW94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267639"
+      ]
+    },
+    {
+      "title": "Low and High Risk Operating System Architectures (Panel Statement)",
+      "authors": [
+        "David R. Cheriton"
+      ],
+      "pages": "197",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Cheriton94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Cheriton94.html",
+      "ee_links": []
+    },
+    {
+      "title": "Message-Driven Relaxed Consistency in a Software Distributed Shared Memory",
+      "authors": [
+        "Povl T. Koch",
+        "Robert J. Fowler",
+        "Eric Jul"
+      ],
+      "pages": "75-85",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KochFJ94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KochFJ94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267645"
+      ]
+    },
+    {
+      "title": "Metadata Update Performance in File Systems",
+      "authors": [
+        "Gregory R. Ganger",
+        "Yale N. Patt"
+      ],
+      "pages": "49-60",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GangerP94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GangerP94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267643"
+      ]
+    },
+    {
+      "title": "Opportunistic Log: Efficient Installation Reads in a Reliable Storage Server",
+      "authors": [
+        "James W. O'Toole Jr.",
+        "Liuba Shrira"
+      ],
+      "pages": "39-48",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/OTooleS94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/OTooleS94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267642"
+      ]
+    },
+    {
+      "title": "Panel: Radical Operating Systems Structures for Extensibility",
+      "authors": [
+        "Paul J. Leach"
+      ],
+      "pages": "195",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Leach94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Leach94.html",
+      "ee_links": []
+    },
+    {
+      "title": "PathFinder: A Pattern-Based Packet Classifier",
+      "authors": [
+        "Mary L. Bailey",
+        "Burra Gopal",
+        "Michael A. Pagels",
+        "Larry L. Peterson",
+        "Prasenjit Sarkar"
+      ],
+      "pages": "115-123",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BaileyGPPS94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BaileyGPPS94.html",
+      "ee_links": []
+    },
+    {
+      "title": "Performance Issues in Parallelized Network Protocols",
+      "authors": [
+        "Erich M. Nahum",
+        "David J. Yates",
+        "James F. Kurose",
+        "Donald F. Towsley"
+      ],
+      "pages": "125-137",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/NahumYKT94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/NahumYKT94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267648"
+      ]
+    },
+    {
+      "title": "Scheduling for Reduced CPU Energy",
+      "authors": [
+        "Mark D. Weiser",
+        "Brent B. Welch",
+        "Alan J. Demers",
+        "Scott Shenker"
+      ],
+      "pages": "13-23",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WeiserWDS94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WeiserWDS94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267640"
+      ]
+    },
+    {
+      "title": "Scout: A Communications-Oriented Operating System (Abstract)",
+      "authors": [
+        "Allen Brady Montz",
+        "David Mosberger",
+        "Sean W. O'Malley",
+        "Larry L. Peterson",
+        "Todd A. Proebsting",
+        "John H. Hartman"
+      ],
+      "pages": "200",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MontzMOPPH94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MontzMOPPH94.html",
+      "ee_links": []
+    },
+    {
+      "title": "Software Prefetching and Caching for Translation Lookaside Buffers",
+      "authors": [
+        "Kavita Bala",
+        "M. Frans Kaashoek",
+        "William E. Weihl"
+      ],
+      "pages": "243-253",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BalaKW94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BalaKW94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267656"
+      ]
+    },
+    {
+      "title": "Software Write Detection for a Distributed Shared Memory",
+      "authors": [
+        "Matthew J. Zekauskas",
+        "Wayne Sawdon",
+        "Brian N. Bershad"
+      ],
+      "pages": "87-100",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZekauskasSB94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZekauskasSB94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267646"
+      ]
+    },
+    {
+      "title": "Some Issues in the Design of an Extensible Operating System (Panel Statement)",
+      "authors": [
+        "Stefan Savage",
+        "Brian N. Bershad"
+      ],
+      "pages": "196",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SavageB94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SavageB94.html",
+      "ee_links": []
+    },
+    {
+      "title": "Storage Alternatives for Mobile Computers",
+      "authors": [
+        "Fred Douglis",
+        "Ram&oacute;n C&aacute;ceres",
+        "M. Frans Kaashoek",
+        "Kai Li 0001",
+        "Brian Marsh",
+        "Joshua A. Tauber"
+      ],
+      "pages": "25-37",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DouglisCKLMT94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DouglisCKLMT94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267641"
+      ]
+    },
+    {
+      "title": "The Design and Evaluation of a Shared Object System for Distributed Memory Machines",
+      "authors": [
+        "Daniel J. Scales",
+        "Monica S. Lam"
+      ],
+      "pages": "101-114",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ScalesL94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ScalesL94.html",
+      "ee_links": [
+        "http://dl.acm.org/citation.cfm?id=1267647"
+      ]
+    },
+    {
+      "title": "The Exokernel Approach to Operating System Extensibility (Panel Statement)",
+      "authors": [
+        "Dawson R. Engler",
+        "M. Frans Kaashoek",
+        "James W. O'Toole Jr."
+      ],
+      "pages": "198",
+      "year": "1994",
+      "venue": "OSDI 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/EnglerKO94",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/EnglerKO94.html",
+      "ee_links": []
+    }
+  ]
+}

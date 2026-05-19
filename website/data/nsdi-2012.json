@@ -1,0 +1,797 @@
+{
+  "id": "nsdi-2012",
+  "venue": "nsdi",
+  "year": 2012,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2012.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2012.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2012",
+    "conf/nsdi/2012-1",
+    "conf/nsdi/2012-2",
+    "conf/nsdi/2012-3",
+    "conf/nsdi/2012-4",
+    "conf/nsdi/2012-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 40,
+  "display_count": 40,
+  "papers": [
+    {
+      "title": "A NICE Way to Test OpenFlow Applications",
+      "authors": [
+        "Marco Canini",
+        "Daniele Venzano",
+        "Peter Peres&iacute;ni",
+        "Dejan Kostic",
+        "Jennifer Rexford"
+      ],
+      "pages": "127-140",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CaniniVPKR12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CaniniVPKR12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/canini"
+      ]
+    },
+    {
+      "title": "Aiding the Detection of Fake Accounts in Large Scale Social Online Services",
+      "authors": [
+        "Qiang Cao 0005",
+        "Michael Sirivianos",
+        "Xiaowei Yang 0001",
+        "Tiago Pregueiro"
+      ],
+      "pages": "197-210",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CaoSYP12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CaoSYP12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/cao"
+      ]
+    },
+    {
+      "title": "An Operating System for the Home",
+      "authors": [
+        "Colin Dixon",
+        "Ratul Mahajan",
+        "Sharad Agarwal",
+        "A. J. Bernheim Brush",
+        "Bongshin Lee",
+        "Stefan Saroiu",
+        "Paramvir Bahl"
+      ],
+      "pages": "337-352",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DixonMABLSB12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DixonMABLSB12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/dixon"
+      ]
+    },
+    {
+      "title": "Building Access Oblivious Storage Cloud for Enterprise",
+      "authors": [
+        "Hyunseok Chang",
+        "Murali S. Kodialam",
+        "T. V. Lakshman",
+        "Sarit Mukherjee",
+        "Limin Wang 0010"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChangKLMW12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChangKLMW12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice12/workshop-program/presentation/chang"
+      ]
+    },
+    {
+      "title": "Camdoop: Exploiting In-network Aggregation for Big Data Applications",
+      "authors": [
+        "Paolo Costa",
+        "Austin Donnelly",
+        "Antony I. T. Rowstron",
+        "Greg O'Shea"
+      ],
+      "pages": "29-42",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CostaDRO12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CostaDRO12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/costa"
+      ]
+    },
+    {
+      "title": "Catching Whales and Minnows Using WiFiNet: Deconstructing Non-WiFi Interference Using WiFi Hardware",
+      "authors": [
+        "Shravan K. Rayanchu",
+        "Ashish Patro",
+        "Suman Banerjee 0001"
+      ],
+      "pages": "57-70",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RayanchuPB12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RayanchuPB12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/rayanchu"
+      ]
+    },
+    {
+      "title": "CORFU: A Shared Log Design for Flash Clusters",
+      "authors": [
+        "Mahesh Balakrishnan 0001",
+        "Dahlia Malkhi",
+        "Vijayan Prabhakaran",
+        "Ted Wobber",
+        "Michael Wei",
+        "John D. Davis"
+      ],
+      "pages": "1-14",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BalakrishnanMPWWD12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BalakrishnanMPWWD12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/balakrishnan"
+      ]
+    },
+    {
+      "title": "DAPA: Diagnosing Application Performance Anomalies for Virtualized Infrastructures",
+      "authors": [
+        "Hui Kang",
+        "Xiaoyun Zhu",
+        "Jennifer L. Wong"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KangZW12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KangZW12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice12/workshop-program/presentation/kang"
+      ]
+    },
+    {
+      "title": "Design and Implementation of a Consolidated Middlebox Architecture",
+      "authors": [
+        "Vyas Sekar",
+        "Norbert Egi",
+        "Sylvia Ratnasamy",
+        "Michael K. Reiter",
+        "Guangyu Shi"
+      ],
+      "pages": "323-336",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SekarERRS12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SekarERRS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/sekar"
+      ]
+    },
+    {
+      "title": "Detecting and Defending Against Third-Party Tracking on the Web",
+      "authors": [
+        "Franziska Roesner",
+        "Tadayoshi Kohno",
+        "David Wetherall"
+      ],
+      "pages": "155-168",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RoesnerKW12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RoesnerKW12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/roesner"
+      ]
+    },
+    {
+      "title": "Don't Lose Sleep Over Availability: The GreenUp Decentralized Wakeup Service",
+      "authors": [
+        "Siddhartha Sen 0001",
+        "Jacob R. Lorch",
+        "Richard Hughes",
+        "Carlos Garcia Jurado Suarez",
+        "Brian Zill",
+        "Weverton Cordeiro",
+        "Jitendra Padhye"
+      ],
+      "pages": "211-224",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SenLHSZCP12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SenLHSZCP12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/sen"
+      ]
+    },
+    {
+      "title": "ECOS: Practical Mobile Application Offloading for Enterprises",
+      "authors": [
+        "Aaron Gember",
+        "Chris Dragga",
+        "Aditya Akella"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GemberDA12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GemberDA12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice12/workshop-program/presentation/gember"
+      ]
+    },
+    {
+      "title": "Fitting Square Pegs Through Round Pipes: Unordered Delivery Wire-Compatible with TCP and TLS",
+      "authors": [
+        "Michael F. Nowlan",
+        "Nabin Tiwari",
+        "Janardhan R. Iyengar",
+        "Syed Obaid Amin",
+        "Bryan Ford"
+      ],
+      "pages": "383-398",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NowlanTIAF12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NowlanTIAF12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/nowlan"
+      ]
+    },
+    {
+      "title": "Header Space Analysis: Static Checking for Networks",
+      "authors": [
+        "Peyman Kazemian",
+        "George Varghese",
+        "Nick McKeown"
+      ],
+      "pages": "113-126",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KazemianVM12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KazemianVM12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/kazemian"
+      ]
+    },
+    {
+      "title": "How Hard Can It Be? Designing and Implementing a Deployable Multipath TCP",
+      "authors": [
+        "Costin Raiciu",
+        "Christoph Paasch",
+        "S&eacute;bastien Barr&eacute;",
+        "Alan Ford",
+        "Michio Honda",
+        "Fabien Duchene 0001",
+        "Olivier Bonaventure",
+        "Mark Handley"
+      ],
+      "pages": "399-412",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RaiciuPBFHDBH12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RaiciuPBFHDBH12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/raiciu"
+      ]
+    },
+    {
+      "title": "Jellyfish: Networking Data Centers Randomly",
+      "authors": [
+        "Ankit Singla",
+        "Chi-Yao Hong",
+        "Lucian Popa 0002",
+        "Philip Brighten Godfrey"
+      ],
+      "pages": "225-238",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SinglaHPG12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SinglaHPG12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/singla"
+      ]
+    },
+    {
+      "title": "Koi: A Location-Privacy Platform for Smartphone Apps",
+      "authors": [
+        "Saikat Guha 0002",
+        "Mudit Jain",
+        "Venkata N. Padmanabhan"
+      ],
+      "pages": "183-196",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuhaJP12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuhaJP12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/guha"
+      ]
+    },
+    {
+      "title": "Less Is More: Trading a Little Bandwidth for Ultra-Low Latency in the Data Center",
+      "authors": [
+        "Mohammad Alizadeh",
+        "Abdul Kabbani",
+        "Tom Edsall",
+        "Balaji Prabhakar",
+        "Amin Vahdat",
+        "Masato Yasuda"
+      ],
+      "pages": "253-266",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AlizadehKEPVY12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AlizadehKEPVY12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/alizadeh"
+      ]
+    },
+    {
+      "title": "NaaS: Network-as-a-Service in the Cloud",
+      "authors": [
+        "Paolo Costa",
+        "Matteo Migliavacca",
+        "Peter R. Pietzuch",
+        "Alexander L. Wolf"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CostaMPW12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CostaMPW12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice12/workshop-program/presentation/costa"
+      ]
+    },
+    {
+      "title": "On Controller Performance in Software-Defined Networks",
+      "authors": [
+        "Amin Tootoonchian",
+        "Sergey Gorbunov 0001",
+        "Yashar Ganjali",
+        "Mart&iacute;n Casado",
+        "Rob Sherwood"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/TootoonchianGGCS12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/TootoonchianGGCS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice12/workshop-program/presentation/tootoonchian"
+      ]
+    },
+    {
+      "title": "Optimizing Data Shuffling in Data-Parallel Computation by Understanding User-Defined Functions",
+      "authors": [
+        "Jiaxing Zhang",
+        "Hucheng Zhou",
+        "Rishan Chen",
+        "Xuepeng Fan",
+        "Zhenyu Guo",
+        "Haoxiang Lin",
+        "Jack Li 0001",
+        "Wei Lin 0016",
+        "Jingren Zhou 0001",
+        "Lidong Zhou"
+      ],
+      "pages": "295-308",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangZCFGLLLZZ12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangZCFGLLLZZ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zhang"
+      ]
+    },
+    {
+      "title": "Orchestrating the Deployment of Computations in the Cloud with Conductor",
+      "authors": [
+        "Alexander Wieder",
+        "Pramod Bhatotia",
+        "Ansley Post",
+        "Rodrigo Rodrigues 0001"
+      ],
+      "pages": "367-381",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WiederBPR12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WiederBPR12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/wieder"
+      ]
+    },
+    {
+      "title": "OSA: An Optical Switching Architecture for Data Center Networks with Unprecedented Flexibility",
+      "authors": [
+        "Kai Chen 0005",
+        "Ankit Singla",
+        "Atul Singh",
+        "Kishore Ramachandran",
+        "Lei Xu 0017",
+        "Yueping Zhang",
+        "Xitao Wen",
+        "Yan Chen 0004"
+      ],
+      "pages": "239-252",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SinglaSC12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SinglaSC12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/chen_kai"
+      ]
+    },
+    {
+      "title": "PACMan: Coordinated Memory Caching for Parallel Jobs",
+      "authors": [
+        "Ganesh Ananthanarayanan",
+        "Ali Ghodsi 0002",
+        "Andrew Warfield",
+        "Dhruba Borthakur",
+        "Srikanth Kandula",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": "267-280",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AnanthanarayananGWBKSS12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AnanthanarayananGWBKSS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/ananthanarayanan"
+      ]
+    },
+    {
+      "title": "Participatory Networking",
+      "authors": [
+        "Andrew D. Ferguson",
+        "Arjun Guha",
+        "Jordan Place",
+        "Rodrigo Fonseca",
+        "Shriram Krishnamurthi"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FergusonGPFK12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FergusonGPFK12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice12/workshop-program/presentation/ferguson"
+      ]
+    },
+    {
+      "title": "Reliable Client Accounting for P2P-Infrastructure Hybrids",
+      "authors": [
+        "Paarijaat Aditya",
+        "Mingchen Zhao",
+        "Yin Lin",
+        "Andreas Haeberlen",
+        "Peter Druschel",
+        "Bruce M. Maggs",
+        "Bill Wishon"
+      ],
+      "pages": "99-112",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AdityaZLHDMW12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AdityaZLHDMW12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/aditya"
+      ]
+    },
+    {
+      "title": "Reoptimizing Data Parallel Computing",
+      "authors": [
+        "Sameer Agarwal 0002",
+        "Srikanth Kandula",
+        "Nicolas Bruno",
+        "Ming-Chuan Wu",
+        "Ion Stoica",
+        "Jingren Zhou 0001"
+      ],
+      "pages": "281-294",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AgarwalKBWSZ12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AgarwalKBWSZ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/agarwal"
+      ]
+    },
+    {
+      "title": "Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing",
+      "authors": [
+        "Matei Zaharia",
+        "Mosharaf Chowdhury",
+        "Tathagata Das",
+        "Ankur Dave",
+        "Justin Ma",
+        "Murphy McCauly",
+        "Michael J. Franklin",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": "15-28",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZahariaCDDMMFSS12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZahariaCDDMMFSS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zaharia"
+      ]
+    },
+    {
+      "title": "RPT: Re-architecting Loss Protection for Content-Aware Networks",
+      "authors": [
+        "Dongsu Han",
+        "Ashok Anand",
+        "Aditya Akella",
+        "Srinivasan Seshan"
+      ],
+      "pages": "71-84",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HanAAS12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HanAAS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/han"
+      ]
+    },
+    {
+      "title": "Serval: An End-Host Stack for Service-Centric Networking",
+      "authors": [
+        "Erik Nordstr&ouml;m",
+        "David Shue",
+        "Prem Gopalan",
+        "Robert Kiefer",
+        "Matvey Arye",
+        "Steven Y. Ko",
+        "Jennifer Rexford",
+        "Michael J. Freedman"
+      ],
+      "pages": "85-98",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NordstromSGKAKRF12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NordstromSGKAKRF12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/nordstrom"
+      ]
+    },
+    {
+      "title": "Structured Comparative Analysis of Systems Logs to Diagnose Performance Problems",
+      "authors": [
+        "Karthik Nagaraj",
+        "Charles Killian",
+        "Jennifer Neville"
+      ],
+      "pages": "353-366",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NagarajKN12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NagarajKN12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/nagaraj"
+      ]
+    },
+    {
+      "title": "Synergy2Cloud: Introducing Cross-Sharing of Application Experiences Into the Cloud Management Cycle",
+      "authors": [
+        "Florin Dinu",
+        "T. S. Eugene Ng"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DinuN12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DinuN12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice12/workshop-program/presentation/dinu"
+      ]
+    },
+    {
+      "title": "The Personal Cloud - Design, Architecture and Matchmaking Algorithms for Resource Management",
+      "authors": [
+        "Adiseshu Hari",
+        "Ramesh Viswanathan",
+        "T. V. Lakshman",
+        "Y. J. Chang"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HariVLC12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HariVLC12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice12/workshop-program/presentation/hari"
+      ]
+    },
+    {
+      "title": "The TCP Outcast Problem: Exposing Unfairness in Data Center Networks",
+      "authors": [
+        "Pawan Prakash",
+        "Advait Abhay Dixit",
+        "Y. Charlie Hu",
+        "Ramana Rao Kompella"
+      ],
+      "pages": "413-426",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PrakashDHK12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PrakashDHK12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/prakash"
+      ]
+    },
+    {
+      "title": "Toward Predictable Performance in Software Packet-Processing Platforms",
+      "authors": [
+        "Mihai Dobrescu",
+        "Katerina J. Argyraki",
+        "Sylvia Ratnasamy"
+      ],
+      "pages": "141-154",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DobrescuAR12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DobrescuAR12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/dobrescu"
+      ]
+    },
+    {
+      "title": "Towards an Understanding of Oversubscription in Cloud",
+      "authors": [
+        "Salman Abdul Baset",
+        "Long Wang 0003",
+        "Chunqiang Tang"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BasetWT12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BasetWT12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice12/workshop-program/presentation/baset"
+      ]
+    },
+    {
+      "title": "Towards Statistical Queries over Distributed Private User Data",
+      "authors": [
+        "Ruichuan Chen",
+        "Alexey Reznichenko",
+        "Paul Francis",
+        "Johannes Gehrke"
+      ],
+      "pages": "169-182",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChenRFG12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChenRFG12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/chen_ruichuan"
+      ]
+    },
+    {
+      "title": "Virtual Switching Without a Hypervisor for a More Secure Cloud",
+      "authors": [
+        "Xin Jin 0008",
+        "Eric Keller",
+        "Jennifer Rexford"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JinKR12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JinKR12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hot-ice12/workshop-program/presentation/jin"
+      ]
+    },
+    {
+      "title": "WiFi-NC : WiFi Over Narrow Channels",
+      "authors": [
+        "Krishna Chintalapudi",
+        "Bozidar Radunovic",
+        "Horia Vlad Balan",
+        "Michael Buettener",
+        "Srinivas Yerramalli",
+        "Vishnu Navda",
+        "Ramachandran Ramjee"
+      ],
+      "pages": "43-56",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChintalapudiRBBYNR12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChintalapudiRBBYNR12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/chintalapudi"
+      ]
+    },
+    {
+      "title": "XIA: Efficient Support for Evolvable Internetworking",
+      "authors": [
+        "Dongsu Han",
+        "Ashok Anand",
+        "Fahad R. Dogar",
+        "Boyan Li",
+        "Hyeontaek Lim",
+        "Michel Machado",
+        "Arvind Mukundan",
+        "Wenfei Wu",
+        "Aditya Akella",
+        "David G. Andersen",
+        "John W. Byers",
+        "Srinivasan Seshan",
+        "Peter Steenkiste"
+      ],
+      "pages": "309-322",
+      "year": "2012",
+      "venue": "NSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HanADLLMMWAABSS12",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HanADLLMMWAABSS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/han_dongsu_xia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,916 @@
+{
+  "id": "isca-2005",
+  "venue": "isca",
+  "year": 2005,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2005.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2005.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2005",
+    "conf/isca/2005-1",
+    "conf/isca/2005-2",
+    "conf/isca/2005-3",
+    "conf/isca/2005-4",
+    "conf/isca/2005-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 45,
+  "display_count": 45,
+  "papers": [
+    {
+      "title": "A High Throughput String Matching Architecture for Intrusion Detection and Prevention",
+      "authors": [
+        "Lin Tan 0001",
+        "Timothy Sherwood"
+      ],
+      "pages": "112-122",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TanS05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TanS05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.5",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.5",
+        "http://dl.acm.org/citation.cfm?id=1069981"
+      ]
+    },
+    {
+      "title": "A Robust Main-Memory Compression Scheme",
+      "authors": [
+        "Magnus Ekman",
+        "Per Stenstr&ouml;m"
+      ],
+      "pages": "74-85",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/X05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/X05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.6",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.6",
+        "http://dl.acm.org/citation.cfm?id=1069978"
+      ]
+    },
+    {
+      "title": "A Tree Based Router Search Engine Architecture with Single Port Memories",
+      "authors": [
+        "Florin Baboescu",
+        "Dean M. Tullsen",
+        "Grigore Rosu",
+        "Sumeet Singh"
+      ],
+      "pages": "123-133",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BaboescuTRS05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BaboescuTRS05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.7",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.7",
+        "http://dl.acm.org/citation.cfm?id=1069979"
+      ]
+    },
+    {
+      "title": "Adaptive Mechanisms and Policies for Managing Cache Hierarchies in Chip Multiprocessors",
+      "authors": [
+        "Evan Speight",
+        "Hazim Shafi",
+        "Lixin Zhang 0002",
+        "Ramakrishnan Rajamony"
+      ],
+      "pages": "346-356",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SpeightSZR05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SpeightSZR05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.8",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.8",
+        "http://dl.acm.org/citation.cfm?id=1069999"
+      ]
+    },
+    {
+      "title": "An Architecture Framework for Transparent Instruction Set Customization in Embedded Processors",
+      "authors": [
+        "Nathan Clark",
+        "Jason A. Blome",
+        "Michael L. Chu",
+        "Scott A. Mahlke",
+        "Stuart Biles",
+        "Kriszti&aacute;n Flautner"
+      ],
+      "pages": "272-283",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ClarkBCMBF05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ClarkBCMBF05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.9",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.9",
+        "http://dl.acm.org/citation.cfm?id=1069993"
+      ]
+    },
+    {
+      "title": "An Evaluation Framework and Instruction Set Architecture for Ion-Trap Based Quantum Micro-Architectures",
+      "authors": [
+        "Steven Balensiefer",
+        "Lucas Kreger-Stickles",
+        "Mark Oskin"
+      ],
+      "pages": "186-196",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BalensieferKO05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BalensieferKO05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.10",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.10",
+        "http://dl.acm.org/citation.cfm?id=1069986",
+        "https://www.wikidata.org/entity/Q130926852"
+      ]
+    },
+    {
+      "title": "An Integrated Memory Array Processor Architecture for Embedded Image Recognition Systems",
+      "authors": [
+        "Shorin Kyo",
+        "Shin'ichiro Okazaki",
+        "Tamio Arai"
+      ],
+      "pages": "134-145",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KyoOA05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KyoOA05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.11",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.11",
+        "http://dl.acm.org/citation.cfm?id=1069982"
+      ]
+    },
+    {
+      "title": "An Ultra Low Power System Architecture for Sensor Network Applications",
+      "authors": [
+        "Mark Hempstead",
+        "Nikhil Tripathi",
+        "Patrick Mauro",
+        "Gu-Yeon Wei",
+        "David M. Brooks"
+      ],
+      "pages": "208-219",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HempsteadTMWB05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HempsteadTMWB05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.12",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.12",
+        "http://dl.acm.org/citation.cfm?id=1069988"
+      ]
+    },
+    {
+      "title": "Analysis of the O-GEometric History Length Branch Predictor",
+      "authors": [
+        "Andr&eacute; Seznec"
+      ],
+      "pages": "394-405",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Seznec05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Seznec05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.13",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.13",
+        "http://dl.acm.org/citation.cfm?id=1070003"
+      ]
+    },
+    {
+      "title": "Architecture for Protecting Critical Secrets in Microprocessors",
+      "authors": [
+        "Ruby B. Lee",
+        "Peter C. S. Kwan",
+        "John Patrick McGregor",
+        "Jeffrey S. Dwoskin",
+        "Zhenghong Wang"
+      ],
+      "pages": "2-13",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeKMDW05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeKMDW05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.14",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.14",
+        "http://dl.acm.org/citation.cfm?id=1069971",
+        "https://www.wikidata.org/entity/Q130956481"
+      ]
+    },
+    {
+      "title": "BugNet: Continuously Recording Program Execution for Deterministic Replay Debugging",
+      "authors": [
+        "Satish Narayanasamy",
+        "Gilles Pokam",
+        "Brad Calder"
+      ],
+      "pages": "284-295",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NarayanasamyPC05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NarayanasamyPC05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.16",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.16",
+        "http://dl.acm.org/citation.cfm?id=1069994"
+      ]
+    },
+    {
+      "title": "Computing Architectural Vulnerability Factors for Address-Based Structures",
+      "authors": [
+        "Arijit Biswas",
+        "Paul Racunas",
+        "Razvan Cheveresan",
+        "Joel S. Emer",
+        "Shubhendu S. Mukherjee",
+        "Ram Rangan"
+      ],
+      "pages": "532-543",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BiswasRCEMR05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BiswasRCEMR05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.18",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.18",
+        "http://dl.acm.org/citation.cfm?id=1070014",
+        "https://www.wikidata.org/entity/Q130920130"
+      ]
+    },
+    {
+      "title": "Continuous Optimization",
+      "authors": [
+        "Brian Fahs",
+        "Todd M. Rafacz",
+        "Sanjay J. Patel",
+        "Steven S. Lumetta"
+      ],
+      "pages": "86-97",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/X05a",
+      "dblp_url": "https://dblp.org/rec/conf/isca/X05a.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.19",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.19",
+        "http://dl.acm.org/citation.cfm?id=1069967"
+      ]
+    },
+    {
+      "title": "Deconstructing Commodity Storage Clusters",
+      "authors": [
+        "Haryadi S. Gunawi",
+        "Nitin Agrawal 0001",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Jiri Schindler"
+      ],
+      "pages": "60-71",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GunawiAAAS05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GunawiAAAS05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.20",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.20",
+        "http://dl.acm.org/citation.cfm?id=1069977"
+      ]
+    },
+    {
+      "title": "Design and Evaluation of Hybrid Fault-Detection Systems",
+      "authors": [
+        "George A. Reis",
+        "Jonathan Chang",
+        "Neil Vachharajani",
+        "Ram Rangan",
+        "David I. August",
+        "Shubhendu S. Mukherjee"
+      ],
+      "pages": "148-159",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ReisCVRAM05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ReisCVRAM05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.21",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.21",
+        "http://dl.acm.org/citation.cfm?id=1069983"
+      ]
+    },
+    {
+      "title": "Design and Implementation of the AEGIS Single-Chip Secure Processor Using Physical Random Functions",
+      "authors": [
+        "G. Edward Suh",
+        "Charles W. O'Donnell",
+        "Ishan Sachdev",
+        "Srinivas Devadas"
+      ],
+      "pages": "25-36",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SuhOSD05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SuhOSD05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.22",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.22",
+        "http://dl.acm.org/citation.cfm?id=1069974"
+      ]
+    },
+    {
+      "title": "Direct Cache Access for High Bandwidth Network I/O",
+      "authors": [
+        "Ram Huggahalli",
+        "Ravi R. Iyer 0001",
+        "Scott Tetrick"
+      ],
+      "pages": "50-59",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HuggahalliIT05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HuggahalliIT05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.23",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.23",
+        "http://dl.acm.org/citation.cfm?id=1069976",
+        "https://www.wikidata.org/entity/Q130972126"
+      ]
+    },
+    {
+      "title": "Disk Drive Roadmap from the Thermal Perspective: A Case for Dynamic Thermal Management",
+      "authors": [
+        "Sudhanva Gurumurthi",
+        "Anand Sivasubramaniam",
+        "Vivek K. Natarajan"
+      ],
+      "pages": "38-49",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GurumurthiSN05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GurumurthiSN05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.24",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.24",
+        "http://dl.acm.org/citation.cfm?id=1069975"
+      ]
+    },
+    {
+      "title": "Dynamic Verification of Sequential Consistency",
+      "authors": [
+        "Albert Meixner",
+        "Daniel J. Sorin"
+      ],
+      "pages": "482-493",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MeixnerS05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MeixnerS05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.25",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.25",
+        "http://dl.acm.org/citation.cfm?id=1070010"
+      ]
+    },
+    {
+      "title": "Energy Optimization of Subthreshold-Voltage Sensor Network Processors",
+      "authors": [
+        "Leyla Nazhandali",
+        "Bo Zhai",
+        "Javin Olson",
+        "Anna Reeves",
+        "Michael Minuth",
+        "Ryan Helfand",
+        "Sanjay Pant",
+        "Todd M. Austin",
+        "David T. Blaauw"
+      ],
+      "pages": "197-207",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NazhandaliZORMHPAB05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NazhandaliZORMHPAB05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.26",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.26",
+        "http://dl.acm.org/citation.cfm?id=1069987"
+      ]
+    },
+    {
+      "title": "Energy-Effectiveness of Pre-Execution and Energy-Aware P-Thread Selection",
+      "authors": [
+        "Vlad Petric",
+        "Amir Roth"
+      ],
+      "pages": "322-333",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PetricR05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PetricR05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.27",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.27",
+        "http://dl.acm.org/citation.cfm?id=1069997"
+      ]
+    },
+    {
+      "title": "Exploiting Structural Duplication for Lifetime Reliability Enhancement",
+      "authors": [
+        "Jayanth Srinivasan",
+        "Sarita V. Adve",
+        "Pradip Bose",
+        "Jude A. Rivers"
+      ],
+      "pages": "520-531",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SrinivasanABR05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SrinivasanABR05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.28",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.28",
+        "http://dl.acm.org/citation.cfm?id=1070013"
+      ]
+    },
+    {
+      "title": "High Efficiency Counter Mode Security Architecture via Prediction and Precomputation",
+      "authors": [
+        "Weidong Shi",
+        "Hsien-Hsin S. Lee",
+        "Mrinmoy Ghosh",
+        "Chenghuai Lu",
+        "Alexandra Boldyreva"
+      ],
+      "pages": "14-24",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShiLGLB05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShiLGLB05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.30",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.30",
+        "http://dl.acm.org/citation.cfm?id=1069972"
+      ]
+    },
+    {
+      "title": "Improving Multiprocessor Performance with Coarse-Grain Coherence Tracking",
+      "authors": [
+        "Jason F. Cantin",
+        "Mikko H. Lipasti",
+        "James E. Smith 0001"
+      ],
+      "pages": "246-257",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CantinLS05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CantinLS05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.31",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.31",
+        "http://dl.acm.org/citation.cfm?id=1069991"
+      ]
+    },
+    {
+      "title": "Improving Program Efficiency by Packing Instructions into Registers",
+      "authors": [
+        "Stephen Hines",
+        "Joshua Green",
+        "Gary S. Tyson",
+        "David B. Whalley"
+      ],
+      "pages": "260-271",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HinesGTW05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HinesGTW05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.32",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.32",
+        "http://dl.acm.org/citation.cfm?id=1069992"
+      ]
+    },
+    {
+      "title": "Increased Scalability and Power Efficiency by Using Multiple Speed Pipelines",
+      "authors": [
+        "Emil Talpes",
+        "Diana Marculescu"
+      ],
+      "pages": "310-321",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TalpesM05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TalpesM05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.33",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.33",
+        "http://dl.acm.org/citation.cfm?id=1069996"
+      ]
+    },
+    {
+      "title": "Interconnections in Multi-Core Architectures: Understanding Mechanisms, Overheads and Scaling",
+      "authors": [
+        "Rakesh Kumar 0002",
+        "Victor V. Zyuban",
+        "Dean M. Tullsen"
+      ],
+      "pages": "408-419",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KumarZT05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KumarZT05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.34",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.34",
+        "http://dl.acm.org/citation.cfm?id=1070004"
+      ]
+    },
+    {
+      "title": "Microarchitecture of a High-Radix Router",
+      "authors": [
+        "John Kim 0001",
+        "William J. Dally",
+        "Brian Towles",
+        "Amit K. Gupta"
+      ],
+      "pages": "420-431",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimDTG05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimDTG05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.35",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.35",
+        "http://dl.acm.org/citation.cfm?id=1070005"
+      ]
+    },
+    {
+      "title": "Mitigating Amdahl's Law through EPI Throttling",
+      "authors": [
+        "Murali Annavaram",
+        "Ed Grochowski",
+        "John Paul Shen"
+      ],
+      "pages": "298-309",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AnnavaramGS05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AnnavaramGS05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.36",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.36",
+        "http://dl.acm.org/citation.cfm?id=1069995"
+      ]
+    },
+    {
+      "title": "Near-Optimal Worst-Case Throughput Routing for Two-Dimensional Mesh Networks",
+      "authors": [
+        "Daeho Seo",
+        "Akif Ali",
+        "Won-Taek Lim",
+        "Nauman Rafique",
+        "Mithuna Thottethodi"
+      ],
+      "pages": "432-443",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SeoALRT05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SeoALRT05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.37",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.37",
+        "http://dl.acm.org/citation.cfm?id=1070006"
+      ]
+    },
+    {
+      "title": "Opportunistic Transient-Fault Detection",
+      "authors": [
+        "Mohamed A. Gomaa",
+        "T. N. Vijaykumar"
+      ],
+      "pages": "172-183",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GomaaV05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GomaaV05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.38",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.38",
+        "http://dl.acm.org/citation.cfm?id=1069985"
+      ]
+    },
+    {
+      "title": "Optimizing Replication, Communication, and Capacity Allocation in CMPs",
+      "authors": [
+        "Zeshan Chishti",
+        "Michael D. Powell",
+        "T. N. Vijaykumar"
+      ],
+      "pages": "357-368",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChishtiPV05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChishtiPV05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.39",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.39",
+        "http://dl.acm.org/citation.cfm?id=1070001"
+      ]
+    },
+    {
+      "title": "Piecewise Linear Branch Prediction",
+      "authors": [
+        "Daniel A. Jim&eacute;nez"
+      ],
+      "pages": "382-393",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Jimenez05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Jimenez05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.40",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.40",
+        "http://dl.acm.org/citation.cfm?id=1070002"
+      ]
+    },
+    {
+      "title": "RegionScout: Exploiting Coarse Grain Sharing in Snoop-Based Coherence",
+      "authors": [
+        "Andreas Moshovos"
+      ],
+      "pages": "234-245",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Moshovos05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Moshovos05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.42",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.42",
+        "http://dl.acm.org/citation.cfm?id=1069990"
+      ]
+    },
+    {
+      "title": "RENO - A Rename-Based Instruction Optimizer",
+      "authors": [
+        "Vlad Petric",
+        "Tingting Sha",
+        "Amir Roth"
+      ],
+      "pages": "98-109",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/X05b",
+      "dblp_url": "https://dblp.org/rec/conf/isca/X05b.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.43",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.43",
+        "http://dl.acm.org/citation.cfm?id=1069980"
+      ]
+    },
+    {
+      "title": "Rescue: A Microarchitecture for Testability and Defect Tolerance",
+      "authors": [
+        "Ethan Schuchman",
+        "T. N. Vijaykumar"
+      ],
+      "pages": "160-171",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SchuchmanV05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SchuchmanV05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.44",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.44",
+        "http://dl.acm.org/citation.cfm?id=1069984"
+      ]
+    },
+    {
+      "title": "Scalable Load and Store Processing in Latency Tolerant Processors",
+      "authors": [
+        "Amit Gandhi",
+        "Haitham Akkary",
+        "Ravi Rajwar",
+        "Srikanth T. Srinivasan",
+        "Konrad K. Lai"
+      ],
+      "pages": "446-457",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GandhiARSL05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GandhiARSL05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.46",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.46",
+        "http://dl.acm.org/citation.cfm?id=1070007"
+      ]
+    },
+    {
+      "title": "Store Buffer Design in First-Level Multibanked Data Caches",
+      "authors": [
+        "Enrique F. Torres",
+        "Pablo Ib&aacute;&ntilde;ez 0001",
+        "V&iacute;ctor Vi&ntilde;als",
+        "Jos&eacute; Mar&iacute;a Llaber&iacute;a"
+      ],
+      "pages": "469-480",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TorresIVL05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TorresIVL05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.47",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.47",
+        "http://dl.acm.org/citation.cfm?id=1070009",
+        "https://www.wikidata.org/entity/Q61678063"
+      ]
+    },
+    {
+      "title": "Store Vulnerability Window (SVW): Re-Execution Filtering for Enhanced Load Optimization",
+      "authors": [
+        "Amir Roth"
+      ],
+      "pages": "458-468",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Roth05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Roth05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.48",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.48",
+        "http://dl.acm.org/citation.cfm?id=1070008",
+        "https://www.wikidata.org/entity/Q130920174"
+      ]
+    },
+    {
+      "title": "Techniques for Efficient Processing in Runahead Execution Engines",
+      "authors": [
+        "Onur Mutlu",
+        "Hyesoon Kim",
+        "Yale N. Patt"
+      ],
+      "pages": "370-381",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MutluKP05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MutluKP05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.49",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.49",
+        "http://dl.acm.org/citation.cfm?id=1070000"
+      ]
+    },
+    {
+      "title": "Temporal Streaming of Shared Memory",
+      "authors": [
+        "Thomas F. Wenisch",
+        "Stephen Somogyi",
+        "Nikolaos Hardavellas",
+        "Jangwoo Kim",
+        "Anastassia Ailamaki",
+        "Babak Falsafi"
+      ],
+      "pages": "222-233",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WenischSHKAF05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WenischSHKAF05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.50",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.50",
+        "http://dl.acm.org/citation.cfm?id=1069989"
+      ]
+    },
+    {
+      "title": "The Impact of Performance Asymmetry in Emerging Multicore Architectures",
+      "authors": [
+        "Saisanthosh Balakrishnan",
+        "Ravi Rajwar",
+        "Michael Upton",
+        "Konrad K. Lai"
+      ],
+      "pages": "506-517",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BalakrishnanRUL05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BalakrishnanRUL05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.51",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.51",
+        "http://dl.acm.org/citation.cfm?id=1070012"
+      ]
+    },
+    {
+      "title": "The V-Way Cache: Demand Based Associativity via Global Replacement",
+      "authors": [
+        "Moinuddin K. Qureshi",
+        "David Thompson",
+        "Yale N. Patt"
+      ],
+      "pages": "544-555",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/QureshiTP05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/QureshiTP05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.52",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.52",
+        "http://dl.acm.org/citation.cfm?id=1070015"
+      ]
+    },
+    {
+      "title": "Victim Replication: Maximizing Capacity while Hiding Wire Delay in Tiled Chip Multiprocessors",
+      "authors": [
+        "Michael Zhang",
+        "Krste Asanovic"
+      ],
+      "pages": "336-345",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhangA05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhangA05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.53",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.53",
+        "http://dl.acm.org/citation.cfm?id=1069998"
+      ]
+    },
+    {
+      "title": "Virtualizing Transactional Memory",
+      "authors": [
+        "Ravi Rajwar",
+        "Maurice Herlihy",
+        "Konrad K. Lai"
+      ],
+      "pages": "494-505",
+      "year": "2005",
+      "venue": "ISCA 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RajwarHL05",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RajwarHL05.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2005.54",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2005.54",
+        "http://dl.acm.org/citation.cfm?id=1070011"
+      ]
+    }
+  ]
+}

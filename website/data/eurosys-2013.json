@@ -1,0 +1,671 @@
+{
+  "id": "eurosys-2013",
+  "venue": "eurosys",
+  "year": 2013,
+  "short_name": "EuroSys",
+  "full_name": "European Conference on Computer Systems",
+  "source_url": "https://dblp.org/db/conf/eurosys/eurosys2013.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/eurosys/eurosys2013.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/eurosys/2013",
+    "conf/eurosys/2013-1",
+    "conf/eurosys/2013-2",
+    "conf/eurosys/2013-3",
+    "conf/eurosys/2013-4",
+    "conf/eurosys/2013-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) European Conference on Computer Systems"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 34,
+  "display_count": 34,
+  "papers": [
+    {
+      "title": "A compiler-level intermediate representation based binary analysis and rewriting system",
+      "authors": [
+        "Kapil Anand",
+        "Matthew Smithson",
+        "Khaled Elwazeer",
+        "Aparna Kotha",
+        "Jim Gruen",
+        "Nathan Giles",
+        "Rajeev Barua"
+      ],
+      "pages": "295-308",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/AnandSEKGGB13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/AnandSEKGGB13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465380",
+        "https://www.wikidata.org/entity/Q130862014"
+      ]
+    },
+    {
+      "title": "Adaptive parallelism for web search",
+      "authors": [
+        "Myeongjae Jeon",
+        "Yuxiong He",
+        "Sameh Elnikety",
+        "Alan L. Cox",
+        "Scott Rixner"
+      ],
+      "pages": "155-168",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/JeonHECR13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/JeonHECR13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465367"
+      ]
+    },
+    {
+      "title": "Application level ballooning for efficient server consolidation",
+      "authors": [
+        "Tudor-Ioan Salomie",
+        "Gustavo Alonso",
+        "Timothy Roscoe",
+        "Kevin Elphinstone"
+      ],
+      "pages": "337-350",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SalomieARE13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SalomieARE13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465384"
+      ]
+    },
+    {
+      "title": "Augustus: scalable and robust storage for cloud applications",
+      "authors": [
+        "Ricardo Padilha",
+        "Fernando Pedone"
+      ],
+      "pages": "99-112",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PadilhaP13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PadilhaP13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465362"
+      ]
+    },
+    {
+      "title": "BlinkDB: queries with bounded errors and bounded response times on very large data",
+      "authors": [
+        "Sameer Agarwal 0002",
+        "Barzan Mozafari",
+        "Aurojit Panda",
+        "Henry Milner",
+        "Samuel Madden 0001",
+        "Ion Stoica"
+      ],
+      "pages": "29-42",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/AgarwalMPMMS13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/AgarwalMPMMS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465355"
+      ]
+    },
+    {
+      "title": "ChainReaction: a causal+ consistent datastore based on chain replication",
+      "authors": [
+        "S&eacute;rgio Almeida 0004",
+        "Jo&atilde;o Leit&atilde;o 0001",
+        "Lu&iacute;s E. T. Rodrigues"
+      ],
+      "pages": "85-98",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/AlmeidaLR13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/AlmeidaLR13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465361",
+        "https://www.wikidata.org/entity/Q62701076"
+      ]
+    },
+    {
+      "title": "Choosy: max-min fair sharing for datacenter jobs with constraints",
+      "authors": [
+        "Ali Ghodsi 0002",
+        "Matei Zaharia",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": "365-378",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GhodsiZSS13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GhodsiZSS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465387"
+      ]
+    },
+    {
+      "title": "Component-based scalability for cloud applications",
+      "authors": [
+        "Steffen K&auml;chele",
+        "Franz J. Hauck"
+      ],
+      "pages": "19-24",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KacheleH13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KacheleH13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2460756.2460760"
+      ]
+    },
+    {
+      "title": "Composing OS extensions safely and efficiently with Bascule",
+      "authors": [
+        "Andrew Baumann",
+        "Dongyoon Lee",
+        "Pedro Fonseca 0001",
+        "Lisa Glendenning",
+        "Jacob R. Lorch",
+        "Barry Bond",
+        "Reuben Olinsky",
+        "Galen C. Hunt"
+      ],
+      "pages": "239-252",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BaumannLFGLBOH13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BaumannLFGLBOH13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465375"
+      ]
+    },
+    {
+      "title": "Conversion: multi-version concurrency control for main memory segments",
+      "authors": [
+        "Timothy Merrifield",
+        "Jakob Eriksson"
+      ],
+      "pages": "127-139",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MerrifieldE13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MerrifieldE13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465365"
+      ]
+    },
+    {
+      "title": "CPI2: CPU performance isolation for shared compute clusters",
+      "authors": [
+        "Xiao Zhang",
+        "Eric Tune",
+        "Robert Hagmann",
+        "Rohit Jnagal",
+        "Vrigo Gokhale",
+        "John Wilkes"
+      ],
+      "pages": "379-391",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ZhangTHJGW13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ZhangTHJGW13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465388"
+      ]
+    },
+    {
+      "title": "Evaluating Cassandra as a manager of large file sets",
+      "authors": [
+        "Leander Beernaert",
+        "Pedro Gomes",
+        "Miguel Matos",
+        "Ricardo Vila&ccedil;a",
+        "Rui Oliveira 0001"
+      ],
+      "pages": "25-30",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BeernaertGMVO13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BeernaertGMVO13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2460756.2460761",
+        "https://www.wikidata.org/entity/Q58845704"
+      ]
+    },
+    {
+      "title": "Experiences of using a hybrid cloud to construct an environmental virtual observatory",
+      "authors": [
+        "Yehia El-khatib",
+        "Gordon S. Blair",
+        "Bholanathsingh Surajbali"
+      ],
+      "pages": "13-18",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/El-khatibBS13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/El-khatibBS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2460756.2460759"
+      ]
+    },
+    {
+      "title": "Failure-atomic msync(): a simple and efficient mechanism for preserving the integrity of durable data",
+      "authors": [
+        "Stan Park",
+        "Terence Kelly",
+        "Kai Shen"
+      ],
+      "pages": "225-238",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ParkKS13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ParkKS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465374",
+        "https://www.wikidata.org/entity/Q130973410"
+      ]
+    },
+    {
+      "title": "hClock: hierarchical QoS for packet scheduling in a hypervisor",
+      "authors": [
+        "Jean-Pascal Billaud",
+        "Ajay Gulati"
+      ],
+      "pages": "309-322",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BillaudG13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BillaudG13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465382",
+        "https://www.wikidata.org/entity/Q130973409"
+      ]
+    },
+    {
+      "title": "Hypnos: understanding and treating sleep conflicts in smartphones",
+      "authors": [
+        "Abhilash Jindal",
+        "Abhinav Pathak",
+        "Y. Charlie Hu",
+        "Samuel P. Midkiff"
+      ],
+      "pages": "253-266",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/JindalPHM13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/JindalPHM13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465377"
+      ]
+    },
+    {
+      "title": "IFDB: decentralized information flow control for databases",
+      "authors": [
+        "David A. Schultz",
+        "Barbara Liskov"
+      ],
+      "pages": "43-56",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SchultzL13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SchultzL13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465357"
+      ]
+    },
+    {
+      "title": "Incremental stream processing using computational conflict-free replicated data types",
+      "authors": [
+        "David Navalho",
+        "S&eacute;rgio Duarte",
+        "Nuno M. Pregui&ccedil;a",
+        "Marc Shapiro 0001"
+      ],
+      "pages": "31-36",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/NavalhoDPS13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/NavalhoDPS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2460756.2460762"
+      ]
+    },
+    {
+      "title": "Maygh: building a CDN from client web browsers",
+      "authors": [
+        "Liang Zhang 0022",
+        "Fangfei Zhou",
+        "Alan Mislove",
+        "Ravi Sundaram"
+      ],
+      "pages": "281-294",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ZhangZMS13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ZhangZMS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465379",
+        "https://www.wikidata.org/entity/Q131120463"
+      ]
+    },
+    {
+      "title": "MDCC: multi-data center consistency",
+      "authors": [
+        "Tim Kraska",
+        "Gene Pang",
+        "Michael J. Franklin",
+        "Samuel Madden 0001",
+        "Alan D. Fekete"
+      ],
+      "pages": "113-126",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KraskaPFMF13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KraskaPFMF13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465363"
+      ]
+    },
+    {
+      "title": "MeT: workload aware elasticity for NoSQL",
+      "authors": [
+        "Francisco Cruz 0001",
+        "Francisco Maia 0001",
+        "Miguel Matos",
+        "Rui Oliveira 0001",
+        "Jo&atilde;o Paulo 0001",
+        "Jos&eacute; Pereira 0001",
+        "Ricardo Vila&ccedil;a"
+      ],
+      "pages": "183-196",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/CruzMMOPPV13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/CruzMMOPPV13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465370",
+        "https://www.wikidata.org/entity/Q58023662"
+      ]
+    },
+    {
+      "title": "Mizan: a system for dynamic load balancing in large-scale graph processing",
+      "authors": [
+        "Zuhair Khayyat",
+        "Karim Awara",
+        "Amani AlOnazi",
+        "Hani Jamjoom",
+        "Dan Williams 0001",
+        "Panos Kalnis"
+      ],
+      "pages": "169-182",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KhayyatAAJWK13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KhayyatAAJWK13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465369",
+        "https://www.wikidata.org/entity/Q59509312"
+      ]
+    },
+    {
+      "title": "Omega: flexible, scalable schedulers for large compute clusters",
+      "authors": [
+        "Malte Schwarzkopf",
+        "Andy Konwinski",
+        "Michael Abd-El-Malek",
+        "John Wilkes"
+      ],
+      "pages": "351-364",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SchwarzkopfKAW13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SchwarzkopfKAW13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465386"
+      ]
+    },
+    {
+      "title": "Optimus: a dynamic rewriting framework for data-parallel execution plans",
+      "authors": [
+        "Qifa Ke",
+        "Michael Isard",
+        "Yuan Yu"
+      ],
+      "pages": "15-28",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KeIY13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KeIY13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465354"
+      ]
+    },
+    {
+      "title": "Prefetching mobile ads: can advertising systems afford it?",
+      "authors": [
+        "Prashanth Mohan",
+        "Suman Nath",
+        "Oriana Riva"
+      ],
+      "pages": "267-280",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MohanNR13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MohanNR13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465378"
+      ]
+    },
+    {
+      "title": "Presto: distributed machine learning and graph processing with sparse matrices",
+      "authors": [
+        "Shivaram Venkataraman",
+        "Erik Bodzsar",
+        "Indrajit Roy 0001",
+        "Alvin AuYoung",
+        "Robert S. Schreiber"
+      ],
+      "pages": "197-210",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/VenkataramanBRAS13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/VenkataramanBRAS13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465371",
+        "https://www.wikidata.org/entity/Q131123982"
+      ]
+    },
+    {
+      "title": "Process firewalls: protecting processes during resource access",
+      "authors": [
+        "Hayawardh Vijayakumar",
+        "Joshua Schiffman",
+        "Trent Jaeger"
+      ],
+      "pages": "57-70",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/VijayakumarSJ13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/VijayakumarSJ13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465358",
+        "https://www.wikidata.org/entity/Q131129216"
+      ]
+    },
+    {
+      "title": "RadixVM: scalable address spaces for multithreaded applications",
+      "authors": [
+        "Austin T. Clements",
+        "M. Frans Kaashoek",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "211-224",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ClementsKZ13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ClementsKZ13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465373"
+      ]
+    },
+    {
+      "title": "RapiLog: reducing system complexity through verification",
+      "authors": [
+        "Gernot Heiser",
+        "Etienne Le Sueur",
+        "Adrian Danis",
+        "Aleksander Budzynowski",
+        "Tudor-Ioan Salomie",
+        "Gustavo Alonso"
+      ],
+      "pages": "323-336",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/HeiserSDBSA13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/HeiserSDBSA13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465383"
+      ]
+    },
+    {
+      "title": "Resolving the conflict between generality and plausibility in verified computation",
+      "authors": [
+        "Srinath T. V. Setty",
+        "Benjamin Braun",
+        "Victor Vu",
+        "Andrew J. Blumberg",
+        "Bryan Parno",
+        "Michael Walfish"
+      ],
+      "pages": "71-84",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SettyBVBPW13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SettyBVBPW13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465359"
+      ]
+    },
+    {
+      "title": "Storage and performance optimization of long tail key access in a social network",
+      "authors": [
+        "John Liang",
+        "James Luo",
+        "Mark Drayton",
+        "Rajesh Nishtala",
+        "Richard Liu",
+        "Nick Hammer",
+        "Jason Taylor",
+        "Bill Jia"
+      ],
+      "pages": "1-6",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LiangLDNLHTJ13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LiangLDNLHTJ13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2460756.2460757"
+      ]
+    },
+    {
+      "title": "TimeStream: reliable stream computation in the cloud",
+      "authors": [
+        "Zhengping Qian",
+        "Yong He",
+        "Chunzhi Su",
+        "Zhuojie Wu",
+        "Hongyu Zhu 0003",
+        "Taizhi Zhang",
+        "Lidong Zhou",
+        "Yuan Yu",
+        "Zheng Zhang 0001"
+      ],
+      "pages": "1-14",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/QianHSWZZZYZ13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/QianHSWZZZYZ13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465353"
+      ]
+    },
+    {
+      "title": "Transforming reactive auto-scaling into proactive auto-scaling",
+      "authors": [
+        "Laura R. Moore",
+        "Kathryn Bean",
+        "Tariq Ellahi"
+      ],
+      "pages": "7-12",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MooreBE13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MooreBE13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2460756.2460758"
+      ]
+    },
+    {
+      "title": "Whose cache line is it anyway?: operating system support for live detection and repair of false sharing",
+      "authors": [
+        "Mihir Nanavati",
+        "Mark Spear",
+        "Nathan Taylor",
+        "Shriram Rajagopalan",
+        "Dutch T. Meyer",
+        "William Aiello",
+        "Andrew Warfield"
+      ],
+      "pages": "141-154",
+      "year": "2013",
+      "venue": "EuroSys 2013",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/NanavatiSTRMAW13",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/NanavatiSTRMAW13.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2465351.2465366"
+      ]
+    }
+  ]
+}

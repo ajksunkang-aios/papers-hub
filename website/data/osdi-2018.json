@@ -1,0 +1,1003 @@
+{
+  "id": "osdi-2018",
+  "venue": "osdi",
+  "year": 2018,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi2018.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi2018.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/2018",
+    "conf/osdi/2018-1",
+    "conf/osdi/2018-2",
+    "conf/osdi/2018-3",
+    "conf/osdi/2018-4",
+    "conf/osdi/2018-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 47,
+  "display_count": 47,
+  "papers": [
+    {
+      "title": "&micro;Tune: Auto-Tuned Threading for OLDI Microservices",
+      "authors": [
+        "Akshitha Sriraman",
+        "Thomas F. Wenisch"
+      ],
+      "pages": "177-194",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SriramanW18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SriramanW18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/sriraman",
+        "https://dl.acm.org/citation.cfm?id=3291182"
+      ]
+    },
+    {
+      "title": "Adaptive Dynamic Checkpointing for Safe Efficient Intermittent Computing",
+      "authors": [
+        "Kiwan Maeng",
+        "Brandon Lucia"
+      ],
+      "pages": "129-144",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MaengL18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MaengL18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/maeng",
+        "https://dl.acm.org/citation.cfm?id=3291178"
+      ]
+    },
+    {
+      "title": "An Analysis of Network-Partitioning Failures in Cloud Systems",
+      "authors": [
+        "Ahmed Alquraan",
+        "Hatem Takruri",
+        "Mohammed Alfatafta",
+        "Samer Al-Kiswany"
+      ],
+      "pages": "51-68",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AlquraanTAA18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AlquraanTAA18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/alquraan",
+        "https://dl.acm.org/citation.cfm?id=3291173"
+      ]
+    },
+    {
+      "title": "Arachne: Core-Aware Thread Management",
+      "authors": [
+        "Henry Qin",
+        "Qian Li 0027",
+        "Jacqueline Speiser",
+        "Peter Kraft",
+        "John K. Ousterhout"
+      ],
+      "pages": "145-160",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/QinLSKO18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/QinLSKO18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/qin",
+        "https://dl.acm.org/citation.cfm?id=3291180"
+      ]
+    },
+    {
+      "title": "ASAP: Fast, Approximate Graph Pattern Mining at Scale",
+      "authors": [
+        "Anand Padmanabha Iyer",
+        "Zaoxing Liu",
+        "Xin Jin 0008",
+        "Shivaram Venkataraman",
+        "Vladimir Braverman",
+        "Ion Stoica"
+      ],
+      "pages": "745-761",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/IyerL0VBS18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/IyerL0VBS18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/iyer",
+        "https://dl.acm.org/citation.cfm?id=3291224"
+      ]
+    },
+    {
+      "title": "Capturing and Enhancing In Situ System Observability for Failure Detection",
+      "authors": [
+        "Peng Huang 0005",
+        "Chuanxiong Guo",
+        "Jacob R. Lorch",
+        "Lidong Zhou",
+        "Yingnong Dang"
+      ],
+      "pages": "1-16",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HuangGLZD18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HuangGLZD18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/huang",
+        "https://dl.acm.org/citation.cfm?id=3291170"
+      ]
+    },
+    {
+      "title": "Deconstructing RDMA-enabled Distributed Transactions: Hybrid is Better!",
+      "authors": [
+        "Xingda Wei",
+        "Zhiyuan Dong",
+        "Rong Chen 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "233-251",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WeiD0C18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WeiD0C18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/wei",
+        "https://dl.acm.org/citation.cfm?id=3291186"
+      ]
+    },
+    {
+      "title": "Differential Energy Profiling: Energy Optimization via Diffing Similar Apps",
+      "authors": [
+        "Abhilash Jindal",
+        "Y. Charlie Hu"
+      ],
+      "pages": null,
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/X18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/X18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/jindal",
+        "https://dl.acm.org/citation.cfm?id=3291206"
+      ]
+    },
+    {
+      "title": "Dynamic Query Re-Planning using QOOP",
+      "authors": [
+        "Kshiteej Mahajan",
+        "Mosharaf Chowdhury",
+        "Aditya Akella",
+        "Shuchi Chawla 0001"
+      ],
+      "pages": "253-267",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MahajanCA018",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MahajanCA018.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/mahajan",
+        "https://dl.acm.org/citation.cfm?id=3291187"
+      ]
+    },
+    {
+      "title": "Fault-Tolerance, Fast and Slow: Exploiting Failure Asynchrony in Distributed Systems",
+      "authors": [
+        "Ramnatthan Alagappan",
+        "Aishwarya Ganesan",
+        "Jing Liu 0074",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "390-408",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AlagappanGLAA18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AlagappanGLAA18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/alagappan",
+        "https://dl.acm.org/citation.cfm?id=3291197"
+      ]
+    },
+    {
+      "title": "Finding Crash-Consistency Bugs with Bounded Black-Box Crash Testing",
+      "authors": [
+        "Jayashree Mohan",
+        "Ashlie Martinez",
+        "Soujanya Ponnapalli",
+        "Pandian Raju",
+        "Vijay Chidambaram"
+      ],
+      "pages": "33-50",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MohanMPRC18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MohanMPRC18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/mohan",
+        "https://dl.acm.org/citation.cfm?id=3291172"
+      ]
+    },
+    {
+      "title": "Flare: Optimizing Apache Spark with Native Compilation for Scale-Up Architectures and Medium-Size Data",
+      "authors": [
+        "Gr&eacute;gory M. Essertel",
+        "Ruby Y. Tahboub",
+        "James M. Decker",
+        "Kevin J. Brown",
+        "Kunle Olukotun",
+        "Tiark Rompf"
+      ],
+      "pages": "799-815",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/EssertelTDBOR18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/EssertelTDBOR18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/essertel",
+        "https://dl.acm.org/citation.cfm?id=3291227"
+      ]
+    },
+    {
+      "title": "FlashShare: Punching Through Server Storage Stack from Kernel to Firmware for Ultra-Low Latency SSDs",
+      "authors": [
+        "Jie Zhang 0048",
+        "Miryeong Kwon",
+        "Donghyun Gouk",
+        "Sungjoon Koh",
+        "Changlim Lee",
+        "Mohammad Alian",
+        "Myoungjun Chun",
+        "Mahmut Taylan Kandemir",
+        "Nam Sung Kim",
+        "Jihong Kim 0001",
+        "Myoungsoo Jung"
+      ],
+      "pages": "477-492",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/0048KGKLACKKKJ18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/0048KGKLACKKKJ18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/zhang",
+        "https://dl.acm.org/citation.cfm?id=3291203"
+      ]
+    },
+    {
+      "title": "Floem: A Programming System for NIC-Accelerated Network Applications",
+      "authors": [
+        "Phitchaya Mangpo Phothilimthana",
+        "Ming Liu 0027",
+        "Antoine Kaufmann",
+        "Simon Peter 0001",
+        "Rastislav Bod&iacute;k",
+        "Thomas E. Anderson"
+      ],
+      "pages": "663-679",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PhothilimthanaL18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PhothilimthanaL18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/phothilimthana",
+        "https://dl.acm.org/citation.cfm?id=3291217"
+      ]
+    },
+    {
+      "title": "Focus: Querying Large Video Datasets with Low Latency and Low Cost",
+      "authors": [
+        "Kevin Hsieh",
+        "Ganesh Ananthanarayanan",
+        "Peter Bod&iacute;k",
+        "Shivaram Venkataraman",
+        "Paramvir Bahl",
+        "Matthai Philipose",
+        "Phillip B. Gibbons",
+        "Onur Mutlu"
+      ],
+      "pages": "269-286",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HsiehABVBPGM18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HsiehABVBPGM18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/hsieh",
+        "https://dl.acm.org/citation.cfm?id=3291188"
+      ]
+    },
+    {
+      "title": "Gandiva: Introspective Cluster Scheduling for Deep Learning",
+      "authors": [
+        "Wencong Xiao",
+        "Romil Bhardwaj",
+        "Ramachandran Ramjee",
+        "Muthian Sivathanu",
+        "Nipun Kwatra",
+        "Zhenhua Han",
+        "Pratyush Patel",
+        "Xuan Peng",
+        "Hanyu Zhao",
+        "Quanlu Zhang",
+        "Fan Yang 0024",
+        "Lidong Zhou"
+      ],
+      "pages": "595-610",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/XiaoBRSKHPPZZYZ18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/XiaoBRSKHPPZZYZ18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/xiao",
+        "https://dl.acm.org/citation.cfm?id=3291212"
+      ]
+    },
+    {
+      "title": "Graviton: Trusted Execution Environments on GPUs",
+      "authors": [
+        "Stavros Volos",
+        "Kapil Vaswani",
+        "Rodrigo Bruno"
+      ],
+      "pages": "681-696",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/VolosVB18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/VolosVB18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/volos",
+        "https://dl.acm.org/citation.cfm?id=3291219"
+      ]
+    },
+    {
+      "title": "Karaoke: Distributed Private Messaging Immune to Passive Traffic Analysis",
+      "authors": [
+        "David Lazar",
+        "Yossi Gilad",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "711-725",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LazarGZ18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LazarGZ18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/lazar",
+        "https://dl.acm.org/citation.cfm?id=3291221"
+      ]
+    },
+    {
+      "title": "LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation",
+      "authors": [
+        "Yizhou Shan",
+        "Yutong Huang",
+        "Yilun Chen",
+        "Yiying Zhang 0005"
+      ],
+      "pages": "69-87",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ShanHCZ18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ShanHCZ18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/shan",
+        "https://dl.acm.org/citation.cfm?id=3291175"
+      ]
+    },
+    {
+      "title": "Maelstrom: Mitigating Datacenter-level Disasters by Draining Interdependent Traffic Safely and Efficiently",
+      "authors": [
+        "Kaushik Veeraraghavan",
+        "Justin Meza",
+        "Scott Michelson",
+        "Sankaralingam Panneerselvam",
+        "Alex Gyori",
+        "David Chou",
+        "Sonia Margulis",
+        "Daniel Obenshain",
+        "Shruti Padmanabha",
+        "Ashish Shah",
+        "Yee Jiun Song",
+        "Tianyin Xu"
+      ],
+      "pages": "373-389",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/VeeraraghavanMM18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/VeeraraghavanMM18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/veeraraghavan",
+        "https://dl.acm.org/citation.cfm?id=3291196"
+      ]
+    },
+    {
+      "title": "Neural Adaptive Content-aware Internet Video Delivery",
+      "authors": [
+        "Hyunho Yeo",
+        "Youngmok Jung",
+        "Jaehong Kim 0002",
+        "Jinwoo Shin",
+        "Dongsu Han"
+      ],
+      "pages": "645-661",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YeoJKSH18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YeoJKSH18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/yeo",
+        "https://dl.acm.org/citation.cfm?id=3291216"
+      ]
+    },
+    {
+      "title": "Nickel: A Framework for Design and Verification of Information Flow Control Systems",
+      "authors": [
+        "Helgi Sigurbjarnarson",
+        "Luke Nelson",
+        "Bruno Castro-Karney",
+        "James Bornholt",
+        "Emina Torlak",
+        "Xi Wang 0005"
+      ],
+      "pages": "287-305",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Sigurbjarnarson18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Sigurbjarnarson18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/sigurbjarnarson",
+        "https://dl.acm.org/citation.cfm?id=3291190"
+      ]
+    },
+    {
+      "title": "Noria: dynamic, partially-stateful data-flow for high-performance web applications",
+      "authors": [
+        "Jon Gjengset",
+        "Malte Schwarzkopf",
+        "Jonathan Behrens",
+        "Lara Timb&oacute; Ara&uacute;jo",
+        "Martin Ek",
+        "Eddie Kohler",
+        "M. Frans Kaashoek",
+        "Robert Morris 0005"
+      ],
+      "pages": "213-231",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GjengsetSBAEKKM18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GjengsetSBAEKKM18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/gjengset",
+        "https://dl.acm.org/citation.cfm?id=3291185"
+      ]
+    },
+    {
+      "title": "Obladi: Oblivious Serializable Transactions in the Cloud",
+      "authors": [
+        "Natacha Crooks",
+        "Matthew Burke 0001",
+        "Ethan Cecchetti",
+        "Sitar Harel",
+        "Rachit Agarwal 0001",
+        "Lorenzo Alvisi"
+      ],
+      "pages": "727-743",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Crooks0CHAA18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Crooks0CHAA18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/crooks",
+        "https://dl.acm.org/citation.cfm?id=3291222"
+      ]
+    },
+    {
+      "title": "Orca: Differential Bug Localization in Large-Scale Services",
+      "authors": [
+        "Ranjita Bhagwan",
+        "Rahul Kumar 0002",
+        "Chandra Shekhar Maddila",
+        "Adithya Abraham Philip"
+      ],
+      "pages": "493-509",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BhagwanKMP18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BhagwanKMP18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/bhagwan",
+        "https://dl.acm.org/citation.cfm?id=3291205"
+      ]
+    },
+    {
+      "title": "Pocket: Elastic Ephemeral Storage for Serverless Analytics",
+      "authors": [
+        "Ana Klimovic",
+        "Yawen Wang",
+        "Patrick Stuedi",
+        "Animesh Trivedi",
+        "Jonas Pfefferle",
+        "Christos Kozyrakis"
+      ],
+      "pages": "427-444",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KlimovicWSTPK18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KlimovicWSTPK18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/klimovic",
+        "https://dl.acm.org/citation.cfm?id=3291200"
+      ]
+    },
+    {
+      "title": "PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems",
+      "authors": [
+        "Yunseong Lee",
+        "Alberto Scolari",
+        "Byung-Gon Chun",
+        "Marco Domenico Santambrogio",
+        "Markus Weimer",
+        "Matteo Interlandi"
+      ],
+      "pages": "611-626",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LeeSCSWI18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LeeSCSWI18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/lee",
+        "https://dl.acm.org/citation.cfm?id=3291213"
+      ]
+    },
+    {
+      "title": "Principled Schedulability Analysis for Distributed Storage Systems using Thread Architecture Models",
+      "authors": [
+        "Suli Yang",
+        "Jing Liu 0074",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "161-176",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YangLAA18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YangLAA18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/yang",
+        "https://dl.acm.org/citation.cfm?id=3291181"
+      ]
+    },
+    {
+      "title": "Proving confidentiality in a file system using DiskSec",
+      "authors": [
+        "Atalay Mert Ileri",
+        "Tej Chajed",
+        "Adam Chlipala",
+        "M. Frans Kaashoek",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "323-338",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/IleriCCKZ18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/IleriCCKZ18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/ileri",
+        "https://dl.acm.org/citation.cfm?id=3291192"
+      ]
+    },
+    {
+      "title": "Proving the correct execution of concurrent services in zero-knowledge",
+      "authors": [
+        "Srinath T. V. Setty",
+        "Sebastian Angel",
+        "Trinabh Gupta",
+        "Jonathan Lee 0003"
+      ],
+      "pages": "339-356",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SettyAGL18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SettyAGL18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/setty",
+        "https://dl.acm.org/citation.cfm?id=3291193"
+      ]
+    },
+    {
+      "title": "Ray: A Distributed Framework for Emerging AI Applications",
+      "authors": [
+        "Philipp Moritz",
+        "Robert Nishihara",
+        "Stephanie Wang",
+        "Alexey Tumanov",
+        "Richard Liaw",
+        "Eric Liang",
+        "Melih Elibol",
+        "Zongheng Yang",
+        "William Paul",
+        "Michael I. Jordan",
+        "Ion Stoica"
+      ],
+      "pages": "561-577",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MoritzNWTLLEYPJ18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MoritzNWTLLEYPJ18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/nishihara",
+        "https://dl.acm.org/citation.cfm?id=3291210"
+      ]
+    },
+    {
+      "title": "REPT: Reverse Debugging of Failures in Deployed Software",
+      "authors": [
+        "Weidong Cui",
+        "Xinyang Ge",
+        "Baris Kasikci",
+        "Ben Niu 0007",
+        "Upamanyu Sharma",
+        "Ruoyu Wang 0001",
+        "Insu Yun"
+      ],
+      "pages": "17-32",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CuiGKNSWY18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CuiGKNSWY18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/weidong",
+        "https://dl.acm.org/citation.cfm?id=3291171"
+      ]
+    },
+    {
+      "title": "RobinHood: Tail Latency Aware Caching - Dynamic Reallocation from Cache-Rich to Cache-Poor",
+      "authors": [
+        "Daniel S. Berger",
+        "Benjamin Berg",
+        "Timothy Zhu",
+        "Siddhartha Sen 0001",
+        "Mor Harchol-Balter"
+      ],
+      "pages": "195-212",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BergerBZ0H18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BergerBZ0H18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/berger",
+        "https://dl.acm.org/citation.cfm?id=3291183"
+      ]
+    },
+    {
+      "title": "RStream: Marrying Relational Algebra with Streaming for Efficient Graph Mining on A Single Machine",
+      "authors": [
+        "Kai Wang 0029",
+        "Zhiqiang Zuo 0002",
+        "John Thorpe",
+        "Tien Quang Nguyen",
+        "Guoqing Harry Xu"
+      ],
+      "pages": "763-782",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangZTNX18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangZTNX18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/wang",
+        "https://dl.acm.org/citation.cfm?id=3291225"
+      ]
+    },
+    {
+      "title": "Sharding the Shards: Managing Datastore Locality at Scale with Akkio",
+      "authors": [
+        "Muthukaruppan Annamalai",
+        "Kaushik Ravichandran 0003",
+        "Harish Srinivas",
+        "Igor Zinkovsky",
+        "Luning Pan",
+        "Tony Savor",
+        "David Nagle",
+        "Michael Stumm"
+      ],
+      "pages": "445-460",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AnnamalaiRSZPSN18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AnnamalaiRSZPSN18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/annamalai",
+        "https://dl.acm.org/citation.cfm?id=3291201"
+      ]
+    },
+    {
+      "title": "Sharing, Protection, and Compatibility for Reconfigurable Fabric with AmorphOS",
+      "authors": [
+        "Ahmed Khawaja",
+        "Joshua Landgraf",
+        "Rohith Prakash",
+        "Michael Wei",
+        "Eric Schkufza",
+        "Christopher J. Rossbach"
+      ],
+      "pages": "107-127",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KhawajaLPWSR18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KhawajaLPWSR18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/khawaja",
+        "https://dl.acm.org/citation.cfm?id=3291177"
+      ]
+    },
+    {
+      "title": "Sledgehammer: Cluster-Fueled Debugging",
+      "authors": [
+        "Andrew Quinn 0001",
+        "Jason Flinn",
+        "Michael J. Cafarella"
+      ],
+      "pages": "545-560",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/QuinnFC18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/QuinnFC18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/quinn",
+        "https://dl.acm.org/citation.cfm?id=3291208"
+      ]
+    },
+    {
+      "title": "Splinter: Bare-Metal Extensions for Multi-Tenant Low-Latency Storage",
+      "authors": [
+        "Chinmay Kulkarni 0002",
+        "Sara Moore",
+        "Mazhar Naqvi",
+        "Tian Zhang 0005",
+        "Robert Ricci",
+        "Ryan Stutsman"
+      ],
+      "pages": "627-643",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KulkarniMNZRS18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KulkarniMNZRS18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/kulkarni",
+        "https://dl.acm.org/citation.cfm?id=3291215"
+      ]
+    },
+    {
+      "title": "Taming Performance Variability",
+      "authors": [
+        "Aleksander Maricq",
+        "Dmitry Duplyakin",
+        "Ivo Jimenez",
+        "Carlos Maltzahn",
+        "Ryan Stutsman",
+        "Robert Ricci",
+        "Ana Klimovic"
+      ],
+      "pages": "409-425",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MaricqDJMSRK18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MaricqDJMSRK18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/maricq",
+        "https://dl.acm.org/citation.cfm?id=3291198"
+      ]
+    },
+    {
+      "title": "The benefits and costs of writing a POSIX kernel in a high-level language",
+      "authors": [
+        "Cody Cutler",
+        "M. Frans Kaashoek",
+        "Robert T. Morris"
+      ],
+      "pages": "89-105",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CutlerKM18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CutlerKM18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/cutler",
+        "https://dl.acm.org/citation.cfm?id=3291176"
+      ]
+    },
+    {
+      "title": "The FuzzyLog: A Partially Ordered Shared Log",
+      "authors": [
+        "Joshua Lockerman",
+        "Jose M. Faleiro",
+        "Juno Kim",
+        "Soham Sankaran",
+        "Daniel J. Abadi",
+        "James Aspnes",
+        "Siddhartha Sen 0001",
+        "Mahesh Balakrishnan 0001"
+      ],
+      "pages": "357-372",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LockermanFKSAA018",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LockermanFKSAA018.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/lockerman",
+        "https://dl.acm.org/citation.cfm?id=3291195"
+      ]
+    },
+    {
+      "title": "Three steps is all you need: fast, accurate, automatic scaling decisions for distributed streaming dataflows",
+      "authors": [
+        "Vasiliki Kalavri",
+        "John Liagouris",
+        "Moritz Hoffmann 0001",
+        "Desislava C. Dimitrova",
+        "Matthew Forshaw",
+        "Timothy Roscoe"
+      ],
+      "pages": "783-798",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KalavriLHDFR18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KalavriLHDFR18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/kalavri",
+        "https://dl.acm.org/citation.cfm?id=3291226"
+      ]
+    },
+    {
+      "title": "TVM: An Automated End-to-End Optimizing Compiler for Deep Learning",
+      "authors": [
+        "Tianqi Chen 0001",
+        "Thierry Moreau",
+        "Ziheng Jiang",
+        "Lianmin Zheng",
+        "Eddie Q. Yan",
+        "Haichen Shen",
+        "Meghan Cowan",
+        "Leyuan Wang",
+        "Yuwei Hu",
+        "Luis Ceze",
+        "Carlos Guestrin",
+        "Arvind Krishnamurthy"
+      ],
+      "pages": "578-594",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChenMJZYSCWHCGK18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChenMJZYSCWHCGK18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/chen",
+        "https://dl.acm.org/citation.cfm?id=3291211"
+      ]
+    },
+    {
+      "title": "Verifying concurrent software using movers in CSPEC",
+      "authors": [
+        "Tej Chajed",
+        "M. Frans Kaashoek",
+        "Butler W. Lampson",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "306-322",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChajedKLZ18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChajedKLZ18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/chajed",
+        "https://dl.acm.org/citation.cfm?id=3291191"
+      ]
+    },
+    {
+      "title": "wPerf: Generic Off-CPU Analysis to Identify Bottleneck Waiting Events",
+      "authors": [
+        "Fang Zhou",
+        "Yifan Gan",
+        "Sixiang Ma",
+        "Yang Wang 0009"
+      ],
+      "pages": "527-543",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhouGMW18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhouGMW18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/zhou",
+        "https://dl.acm.org/citation.cfm?id=3291207"
+      ]
+    },
+    {
+      "title": "Write-Optimized and High-Performance Hashing Index Scheme for Persistent Memory",
+      "authors": [
+        "Pengfei Zuo",
+        "Yu Hua 0001",
+        "Jie Wu 0022"
+      ],
+      "pages": "461-476",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Zuo0W18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Zuo0W18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/zuo",
+        "https://dl.acm.org/citation.cfm?id=3291202"
+      ]
+    },
+    {
+      "title": "ZebRAM: Comprehensive and Compatible Software Protection Against Rowhammer Attacks",
+      "authors": [
+        "Radhesh Krishnan Konoth",
+        "Marco Oliverio",
+        "Andrei Tatar",
+        "Dennis Andriesse",
+        "Herbert Bos",
+        "Cristiano Giuffrida",
+        "Kaveh Razavi"
+      ],
+      "pages": "697-710",
+      "year": "2018",
+      "venue": "OSDI 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KonothOTABGR18",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KonothOTABGR18.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi18/presentation/konoth",
+        "https://dl.acm.org/citation.cfm?id=3291220"
+      ]
+    }
+  ]
+}

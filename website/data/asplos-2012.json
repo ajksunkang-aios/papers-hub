@@ -1,0 +1,1040 @@
+{
+  "id": "asplos-2012",
+  "venue": "asplos",
+  "year": 2012,
+  "short_name": "ASPLOS",
+  "full_name": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "source_url": "https://dblp.org/db/conf/asplos/asplos2012.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/asplos/asplos2012.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/asplos/2012",
+    "conf/asplos/2012-1",
+    "conf/asplos/2012-2",
+    "conf/asplos/2012-3",
+    "conf/asplos/2012-4",
+    "conf/asplos/2012-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) ACM International Conference on Architectural Support"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 50,
+  "display_count": 50,
+  "papers": [
+    {
+      "title": "A case for unlimited watchpoints",
+      "authors": [
+        "Joseph L. Greathouse",
+        "Hongyi Xin",
+        "Yixin Luo",
+        "Todd M. Austin"
+      ],
+      "pages": "159-172",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GreathouseXLA12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GreathouseXLA12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150994",
+        "https://doi.org/10.1145/2248487.2150994",
+        "https://doi.org/10.1145/2189750.2150994",
+        "https://www.wikidata.org/entity/Q128375700"
+      ]
+    },
+    {
+      "title": "A distributed data-parallel framework for analysis and visualization algorithm development",
+      "authors": [
+        "Jeremy S. Meredith",
+        "Robert Sisneros",
+        "David Pugmire",
+        "Sean Ahern"
+      ],
+      "pages": "11-19",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MeredithSPA12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MeredithSPA12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159432"
+      ]
+    },
+    {
+      "title": "A GPU-based high-throughput image retrieval algorithm",
+      "authors": [
+        "Feiwen Zhu",
+        "Peng Chen",
+        "Donglei Yang",
+        "Weihua Zhang",
+        "Haibo Chen 0001",
+        "Binyu Zang"
+      ],
+      "pages": "30-37",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZhuCYZCZ12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZhuCYZCZ12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159434",
+        "https://www.wikidata.org/entity/Q131128066"
+      ]
+    },
+    {
+      "title": "Aikido: accelerating shared data dynamic analyses",
+      "authors": [
+        "Marek Olszewski",
+        "Qin Zhao",
+        "David Koh",
+        "Jason Ansel",
+        "Saman P. Amarasinghe"
+      ],
+      "pages": "173-184",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/OlszewskiZKAA12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/OlszewskiZKAA12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150995",
+        "https://doi.org/10.1145/2248487.2150995",
+        "https://doi.org/10.1145/2189750.2150995"
+      ]
+    },
+    {
+      "title": "An update-aware storage system for low-locality update-intensive workloads",
+      "authors": [
+        "Dilip Nijagal Simha",
+        "Maohua Lu",
+        "Tzi-cker Chiueh"
+      ],
+      "pages": "375-386",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SimhaLC12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SimhaLC12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151016",
+        "https://doi.org/10.1145/2248487.2151016",
+        "https://doi.org/10.1145/2189750.2151016",
+        "https://www.wikidata.org/entity/Q128372703"
+      ]
+    },
+    {
+      "title": "Applying transactional memory to concurrency bugs",
+      "authors": [
+        "Haris Volos 0001",
+        "Andres Jaan Tack",
+        "Michael M. Swift",
+        "Shan Lu 0001"
+      ],
+      "pages": "211-222",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/VolosTSL12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/VolosTSL12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150999",
+        "https://doi.org/10.1145/2248487.2150999",
+        "https://doi.org/10.1145/2189750.2150999",
+        "https://www.wikidata.org/entity/Q128375694"
+      ]
+    },
+    {
+      "title": "Architectural support for hypervisor-secure virtualization",
+      "authors": [
+        "Jakub Szefer",
+        "Ruby B. Lee"
+      ],
+      "pages": "437-450",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SzeferL12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SzeferL12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151022",
+        "https://doi.org/10.1145/2248487.2151022",
+        "https://doi.org/10.1145/2189750.2151022",
+        "https://www.wikidata.org/entity/Q128373544"
+      ]
+    },
+    {
+      "title": "Architecture support for disciplined approximate programming",
+      "authors": [
+        "Hadi Esmaeilzadeh",
+        "Adrian Sampson",
+        "Luis Ceze",
+        "Doug Burger"
+      ],
+      "pages": "301-312",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/EsmaeilzadehSCB12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/EsmaeilzadehSCB12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151008",
+        "https://doi.org/10.1145/2248487.2151008",
+        "https://doi.org/10.1145/2189750.2151008",
+        "https://www.wikidata.org/entity/Q128373511"
+      ]
+    },
+    {
+      "title": "Auto-tuning interactive ray tracing using an analytical GPU architecture model",
+      "authors": [
+        "Per Ganestam",
+        "Michael C. Doggett"
+      ],
+      "pages": "94-100",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GanestamD12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GanestamD12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159441"
+      ]
+    },
+    {
+      "title": "Automatic generation of hardware/software interfaces",
+      "authors": [
+        "Myron King",
+        "Nirav Dave",
+        "Arvind 0001"
+      ],
+      "pages": "325-336",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KingDA12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KingDA12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151011",
+        "https://doi.org/10.1145/2248487.2151011",
+        "https://doi.org/10.1145/2189750.2151011",
+        "https://www.wikidata.org/entity/Q128375697"
+      ]
+    },
+    {
+      "title": "Bottleneck identification and scheduling in multithreaded applications",
+      "authors": [
+        "Jos&eacute; A. Joao",
+        "M. Aater Suleman",
+        "Onur Mutlu",
+        "Yale N. Patt"
+      ],
+      "pages": "223-234",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JoaoSMP12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JoaoSMP12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151001",
+        "https://doi.org/10.1145/2248487.2151001",
+        "https://doi.org/10.1145/2189750.2151001",
+        "https://www.wikidata.org/entity/Q128371913"
+      ]
+    },
+    {
+      "title": "Chameleon: operating system support for dynamic processors",
+      "authors": [
+        "Sankaralingam Panneerselvam",
+        "Michael M. Swift"
+      ],
+      "pages": "99-110",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/PanneerselvamS12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/PanneerselvamS12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150988",
+        "https://doi.org/10.1145/2248487.2150988",
+        "https://doi.org/10.1145/2189750.2150988"
+      ]
+    },
+    {
+      "title": "Clearing the clouds: a study of emerging scale-out workloads on modern hardware",
+      "authors": [
+        "Michael Ferdman",
+        "Almutaz Adileh",
+        "Yusuf Onur Ko&ccedil;berber",
+        "Stavros Volos",
+        "Mohammad Alisafaee",
+        "Djordje Jevdjic",
+        "Cansu Kaynak",
+        "Adrian Daniel Popescu",
+        "Anastasia Ailamaki",
+        "Babak Falsafi"
+      ],
+      "pages": "37-48",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/FerdmanAKVAJKPAF12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/FerdmanAKVAJKPAF12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150982",
+        "https://doi.org/10.1145/2248487.2150982",
+        "https://doi.org/10.1145/2189750.2150982",
+        "https://www.wikidata.org/entity/Q125058907"
+      ]
+    },
+    {
+      "title": "Comprehensive kernel instrumentation via dynamic binary translation",
+      "authors": [
+        "Peter Feiner",
+        "Angela Demke Brown",
+        "Ashvin Goel"
+      ],
+      "pages": "135-146",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/FeinerBG12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/FeinerBG12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150992",
+        "https://doi.org/10.1145/2248487.2150992",
+        "https://doi.org/10.1145/2189750.2150992",
+        "https://www.wikidata.org/entity/Q128371897"
+      ]
+    },
+    {
+      "title": "Continuous object access profiling and optimizations to overcome the memory wall and bloat",
+      "authors": [
+        "Rei Odaira",
+        "Toshio Nakatani"
+      ],
+      "pages": "147-158",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/OdairaN12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/OdairaN12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150993",
+        "https://doi.org/10.1145/2248487.2150993",
+        "https://doi.org/10.1145/2189750.2150993",
+        "https://www.wikidata.org/entity/Q128375698"
+      ]
+    },
+    {
+      "title": "Cosmic rays don't strike twice: understanding the nature of DRAM errors and the implications for system design",
+      "authors": [
+        "Andy A. Hwang",
+        "Ioan A. Stefanovici",
+        "Bianca Schroeder"
+      ],
+      "pages": "111-122",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HwangSS12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HwangSS12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150989",
+        "https://doi.org/10.1145/2248487.2150989",
+        "https://doi.org/10.1145/2189750.2150989",
+        "https://www.wikidata.org/entity/Q128394473"
+      ]
+    },
+    {
+      "title": "CRUISE: cache replacement and utility-aware scheduling",
+      "authors": [
+        "Aamer Jaleel",
+        "Hashem Hashemi Najaf-abadi",
+        "Samantika Subramaniam",
+        "Simon C. Steely Jr.",
+        "Joel S. Emer"
+      ],
+      "pages": "249-260",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JaleelNSSE12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JaleelNSSE12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151003",
+        "https://doi.org/10.1145/2248487.2151003",
+        "https://doi.org/10.1145/2189750.2151003"
+      ]
+    },
+    {
+      "title": "Data races vs. data race bugs: telling the difference with portend",
+      "authors": [
+        "Baris Kasikci",
+        "Cristian Zamfir",
+        "George Candea"
+      ],
+      "pages": "185-198",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KasikciZC12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KasikciZC12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150997",
+        "https://doi.org/10.1145/2248487.2150997",
+        "https://doi.org/10.1145/2189750.2150997",
+        "https://www.wikidata.org/entity/Q128372973"
+      ]
+    },
+    {
+      "title": "DejaVu: accelerating resource allocation in virtualized environments",
+      "authors": [
+        "Nedeljko Vasic",
+        "Dejan M. Novakovic",
+        "Svetozar Miucin",
+        "Dejan Kostic",
+        "Ricardo Bianchini"
+      ],
+      "pages": "423-436",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/VasicNMKB12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/VasicNMKB12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151021",
+        "https://doi.org/10.1145/2248487.2151021",
+        "https://doi.org/10.1145/2189750.2151021"
+      ]
+    },
+    {
+      "title": "DreamWeaver: architectural support for deep sleep",
+      "authors": [
+        "David Meisner",
+        "Thomas F. Wenisch"
+      ],
+      "pages": "313-324",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MeisnerW12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MeisnerW12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151009",
+        "https://doi.org/10.1145/2248487.2151009",
+        "https://doi.org/10.1145/2189750.2151009"
+      ]
+    },
+    {
+      "title": "Dynamic particle system for mesh extraction on the GPU",
+      "authors": [
+        "Mark Kim",
+        "Guoning Chen",
+        "Charles D. Hansen"
+      ],
+      "pages": "38-46",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KimCH12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KimCH12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159435",
+        "https://www.wikidata.org/entity/Q131116628"
+      ]
+    },
+    {
+      "title": "Efficient sequential consistency via conflict ordering",
+      "authors": [
+        "Changhui Lin",
+        "Vijay Nagarajan",
+        "Rajiv Gupta 0001",
+        "Bharghava Rajaram"
+      ],
+      "pages": "273-286",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LinNGR12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LinNGR12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151006",
+        "https://doi.org/10.1145/2248487.2151006",
+        "https://doi.org/10.1145/2189750.2151006",
+        "https://www.wikidata.org/entity/Q128372702"
+      ]
+    },
+    {
+      "title": "ELI: bare-metal performance for I/O virtualization",
+      "authors": [
+        "Abel Gordon",
+        "Nadav Amit",
+        "Nadav Har'El",
+        "Muli Ben-Yehuda",
+        "Alex Landau",
+        "Assaf Schuster",
+        "Dan Tsafrir"
+      ],
+      "pages": "411-422",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GordonAHBLST12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GordonAHBLST12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151020",
+        "https://doi.org/10.1145/2248487.2151020",
+        "https://doi.org/10.1145/2189750.2151020",
+        "https://www.wikidata.org/entity/Q131135863"
+      ]
+    },
+    {
+      "title": "Enabling task-level scheduling on heterogeneous platforms",
+      "authors": [
+        "Enqiang Sun",
+        "Dana Schaa",
+        "Richard Bagley",
+        "Norman Rubin",
+        "David R. Kaeli"
+      ],
+      "pages": "84-93",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SunSBRK12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SunSBRK12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159440"
+      ]
+    },
+    {
+      "title": "Execution migration in a heterogeneous-ISA chip multiprocessor",
+      "authors": [
+        "Matthew DeVuyst",
+        "Ashish Venkat",
+        "Dean M. Tullsen"
+      ],
+      "pages": "261-272",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DeVuystVT12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DeVuystVT12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151004",
+        "https://doi.org/10.1145/2248487.2151004",
+        "https://doi.org/10.1145/2189750.2151004",
+        "https://www.wikidata.org/entity/Q131132339"
+      ]
+    },
+    {
+      "title": "FLAT: a GPU programming framework to provide embedded MPI",
+      "authors": [
+        "Takefumi Miyoshi",
+        "Hidetsugu Irie",
+        "Keigo Shima",
+        "Hiroki Honda",
+        "Masaaki Kondo",
+        "Tsutomu Yoshinaga"
+      ],
+      "pages": "20-29",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MiyoshiISHKY12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MiyoshiISHKY12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159433"
+      ]
+    },
+    {
+      "title": "Full system simulation of many-core heterogeneous SoCs using GPU and QEMU semihosting",
+      "authors": [
+        "Shivani Raghav",
+        "Andrea Marongiu",
+        "Christian Pinto",
+        "David Atienza 0001",
+        "Martino Ruggiero",
+        "Luca Benini"
+      ],
+      "pages": "101-109",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RaghavMPARB12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RaghavMPARB12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159442",
+        "https://www.wikidata.org/entity/Q131111052"
+      ]
+    },
+    {
+      "title": "Green-Marl: a DSL for easy and efficient graph analysis",
+      "authors": [
+        "Sungpack Hong",
+        "Hassan Chafi",
+        "Eric Sedlar",
+        "Kunle Olukotun"
+      ],
+      "pages": "349-362",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HongCSO12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HongCSO12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151013",
+        "https://doi.org/10.1145/2248487.2151013",
+        "https://doi.org/10.1145/2189750.2151013"
+      ]
+    },
+    {
+      "title": "HICAMP: architectural support for efficient concurrency-safe shared structured data access",
+      "authors": [
+        "David R. Cheriton",
+        "Amin Firoozshahian",
+        "Alex Solomatnikov",
+        "John P. Stevenson",
+        "Omid Azizi"
+      ],
+      "pages": "287-300",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CheritonFSSA12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CheritonFSSA12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151007",
+        "https://doi.org/10.1145/2248487.2151007",
+        "https://doi.org/10.1145/2189750.2151007",
+        "https://www.wikidata.org/entity/Q114614152"
+      ]
+    },
+    {
+      "title": "High performance 3-D FFT using multiple CUDA GPUs",
+      "authors": [
+        "Akira Nukada",
+        "Yutaka Maruyama",
+        "Satoshi Matsuoka"
+      ],
+      "pages": "57-63",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/NukadaMM12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/NukadaMM12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159437",
+        "https://www.wikidata.org/entity/Q131113588"
+      ]
+    },
+    {
+      "title": "High-performance sparse matrix-vector multiplication on GPUs for structured grid computations",
+      "authors": [
+        "Jeswin Godwin",
+        "Justin Holewinski",
+        "P. Sadayappan"
+      ],
+      "pages": "47-56",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GodwinHS12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GodwinHS12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159436",
+        "https://www.wikidata.org/entity/Q131127497"
+      ]
+    },
+    {
+      "title": "Introducing 'Bones': a parallelizing source-to-source compiler based on algorithmic skeletons",
+      "authors": [
+        "Cedric Nugteren",
+        "Henk Corporaal"
+      ],
+      "pages": "1-10",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/NugterenC12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/NugterenC12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159431",
+        "https://www.wikidata.org/entity/Q131123949"
+      ]
+    },
+    {
+      "title": "Iterative optimization for the data center",
+      "authors": [
+        "Yang Chen",
+        "Shuangde Fang",
+        "Lieven Eeckhout",
+        "Olivier Temam",
+        "Chengyong Wu"
+      ],
+      "pages": "49-60",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChenFETW12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChenFETW12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150983",
+        "https://doi.org/10.1145/2248487.2150983",
+        "https://doi.org/10.1145/2189750.2150983"
+      ]
+    },
+    {
+      "title": "JaBEE: framework for object-oriented Java bytecode compilation and execution on graphics processor units",
+      "authors": [
+        "Wojciech Zaremba",
+        "Yuan Lin",
+        "Vinod Grover"
+      ],
+      "pages": "74-83",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZarembaLG12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZarembaLG12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159439",
+        "https://www.wikidata.org/entity/Q131111698"
+      ]
+    },
+    {
+      "title": "Leveraging stored energy for handling power emergencies in aggressively provisioned datacenters",
+      "authors": [
+        "Sriram Govindan",
+        "Di Wang 0003",
+        "Anand Sivasubramaniam",
+        "Bhuvan Urgaonkar"
+      ],
+      "pages": "75-86",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GovindanWSU12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GovindanWSU12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150985",
+        "https://doi.org/10.1145/2248487.2150985",
+        "https://doi.org/10.1145/2189750.2150985",
+        "https://www.wikidata.org/entity/Q128369180"
+      ]
+    },
+    {
+      "title": "Optimal task assignment in multithreaded processors: a statistical approach",
+      "authors": [
+        "Petar Radojkovic",
+        "Vladimir Cakarevic",
+        "Miquel Moret&oacute;",
+        "Javier Verd&uacute;",
+        "Alex Pajuelo",
+        "Francisco J. Cazorla",
+        "Mario Nemirovsky",
+        "Mateo Valero"
+      ],
+      "pages": "235-248",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RadojkovicCMVPCNV12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RadojkovicCMVPCNV12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151002",
+        "https://doi.org/10.1145/2248487.2151002",
+        "https://doi.org/10.1145/2189750.2151002",
+        "https://www.wikidata.org/entity/Q61730864"
+      ]
+    },
+    {
+      "title": "Paragon: collaborative speculative loop execution on GPU and CPU",
+      "authors": [
+        "Mehrzad Samadi",
+        "Amir Hormati",
+        "Janghaeng Lee",
+        "Scott A. Mahlke"
+      ],
+      "pages": "64-73",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SamadiHLM12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SamadiHLM12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159438",
+        "https://www.wikidata.org/entity/Q131125097"
+      ]
+    },
+    {
+      "title": "Path-exploration lifting: hi-fi tests for lo-fi emulators",
+      "authors": [
+        "Lorenzo Martignoni",
+        "Stephen McCamant",
+        "Pongsin Poosankam",
+        "Dawn Song",
+        "Petros Maniatis"
+      ],
+      "pages": "337-348",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MartignoniMPSM12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MartignoniMPSM12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151012",
+        "https://doi.org/10.1145/2248487.2151012",
+        "https://doi.org/10.1145/2189750.2151012",
+        "https://www.wikidata.org/entity/Q128312145"
+      ]
+    },
+    {
+      "title": "PocketWeb: instant web browsing for mobile devices",
+      "authors": [
+        "Dimitrios Lymberopoulos",
+        "Oriana Riva",
+        "Karin Strauss",
+        "Akshay Mittal",
+        "Alexandros Ntoulas"
+      ],
+      "pages": "1-12",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LymberopoulosRSMN12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LymberopoulosRSMN12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150978",
+        "https://doi.org/10.1145/2248487.2150978",
+        "https://doi.org/10.1145/2189750.2150978"
+      ]
+    },
+    {
+      "title": "Providing safe, user space access to fast, solid state disks",
+      "authors": [
+        "Adrian M. Caulfield",
+        "Todor I. Mollov",
+        "Louis Alex Eisner",
+        "Arup De",
+        "Joel Coburn",
+        "Steven Swanson"
+      ],
+      "pages": "387-400",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CaulfieldMEDCS12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CaulfieldMEDCS12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151017",
+        "https://doi.org/10.1145/2248487.2151017",
+        "https://doi.org/10.1145/2189750.2151017",
+        "https://www.wikidata.org/entity/Q128382124"
+      ]
+    },
+    {
+      "title": "Reducing off-chip memory traffic by selective cache management scheme in GPGPUs",
+      "authors": [
+        "Hyojin Choi",
+        "Jae-Woo Ahn",
+        "Wonyong Sung"
+      ],
+      "pages": "110-119",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChoiAS12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChoiAS12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2159430.2159443"
+      ]
+    },
+    {
+      "title": "Reflex: using low-power processors in smartphones without knowing them",
+      "authors": [
+        "Felix Xiaozhu Lin",
+        "Zhen Wang 0006",
+        "Robert LiKamWa",
+        "Lin Zhong 0001"
+      ],
+      "pages": "13-24",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LinWLZ12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LinWLZ12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150979",
+        "https://doi.org/10.1145/2248487.2150979",
+        "https://doi.org/10.1145/2189750.2150979"
+      ]
+    },
+    {
+      "title": "Region scheduling: efficiently using the cache architectures via page-level affinity",
+      "authors": [
+        "Min Lee",
+        "Karsten Schwan"
+      ],
+      "pages": "451-462",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LeeS12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LeeS12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151023",
+        "https://doi.org/10.1145/2248487.2151023",
+        "https://doi.org/10.1145/2189750.2151023"
+      ]
+    },
+    {
+      "title": "Relyzer: exploiting application-level fault equivalence to analyze application resiliency to transient faults",
+      "authors": [
+        "Siva Kumar Sastry Hari",
+        "Sarita V. Adve",
+        "Helia Naeimi",
+        "Pradeep Ramachandran"
+      ],
+      "pages": "123-134",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HariANR12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HariANR12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150990",
+        "https://doi.org/10.1145/2248487.2150990",
+        "https://doi.org/10.1145/2189750.2150990"
+      ]
+    },
+    {
+      "title": "Scalable address spaces using RCU balanced trees",
+      "authors": [
+        "Austin T. Clements",
+        "M. Frans Kaashoek",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "199-210",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ClementsKZ12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ClementsKZ12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150998",
+        "https://doi.org/10.1145/2248487.2150998",
+        "https://doi.org/10.1145/2189750.2150998",
+        "https://www.wikidata.org/entity/Q131135878"
+      ]
+    },
+    {
+      "title": "SIMD defragmenter: efficient ILP realization on data-parallel architectures",
+      "authors": [
+        "Yongjun Park 0001",
+        "Sangwon Seo",
+        "Hyunchul Park 0001",
+        "Hyoun Kyu Cho",
+        "Scott A. Mahlke"
+      ],
+      "pages": "363-374",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ParkSPCM12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ParkSPCM12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151014",
+        "https://doi.org/10.1145/2248487.2151014",
+        "https://doi.org/10.1145/2189750.2151014",
+        "https://www.wikidata.org/entity/Q128382125"
+      ]
+    },
+    {
+      "title": "Tarazu: optimizing MapReduce on heterogeneous clusters",
+      "authors": [
+        "Faraz Ahmad",
+        "Srimat T. Chakradhar",
+        "Anand Raghunathan",
+        "T. N. Vijaykumar"
+      ],
+      "pages": "61-74",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/AhmadCRV12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/AhmadCRV12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150984",
+        "https://doi.org/10.1145/2248487.2150984",
+        "https://doi.org/10.1145/2189750.2150984",
+        "https://www.wikidata.org/entity/Q131123597"
+      ]
+    },
+    {
+      "title": "Totally green: evaluating and designing servers for lifecycle environmental impact",
+      "authors": [
+        "Jichuan Chang",
+        "Justin Meza",
+        "Parthasarathy Ranganathan",
+        "Amip Shah",
+        "Rocky Shih",
+        "Cullen E. Bash"
+      ],
+      "pages": "25-36",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChangMRSSB12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChangMRSSB12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150980",
+        "https://doi.org/10.1145/2248487.2150980",
+        "https://doi.org/10.1145/2189750.2150980"
+      ]
+    },
+    {
+      "title": "Understanding modern device drivers",
+      "authors": [
+        "Asim Kadav",
+        "Michael M. Swift"
+      ],
+      "pages": "87-98",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KadavS12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KadavS12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2150987",
+        "https://doi.org/10.1145/2248487.2150987",
+        "https://doi.org/10.1145/2189750.2150987",
+        "https://www.wikidata.org/entity/Q125888561"
+      ]
+    },
+    {
+      "title": "Whole-system persistence",
+      "authors": [
+        "Dushyanth Narayanan",
+        "Orion Hodson"
+      ],
+      "pages": "401-410",
+      "year": "2012",
+      "venue": "ASPLOS 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/NarayananH12",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/NarayananH12.html",
+      "ee_links": [
+        "https://doi.org/10.1145/2150976.2151018",
+        "https://doi.org/10.1145/2248487.2151018",
+        "https://doi.org/10.1145/2189750.2151018",
+        "https://www.wikidata.org/entity/Q128371795"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1136 @@
+{
+  "id": "sosp-2017",
+  "venue": "sosp",
+  "year": 2017,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp2017.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp2017.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/2017",
+    "conf/sosp/2017-1",
+    "conf/sosp/2017-2",
+    "conf/sosp/2017-3",
+    "conf/sosp/2017-4",
+    "conf/sosp/2017-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 57,
+  "display_count": 57,
+  "papers": [
+    {
+      "title": "Adaptable Actors: Just What The World Needs",
+      "authors": [
+        "Paul Harvey 0002",
+        "Joseph S. Sventek"
+      ],
+      "pages": "22-28",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HarveyS17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HarveyS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3144555.3144559"
+      ]
+    },
+    {
+      "title": "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+      "authors": [
+        "Yossi Gilad",
+        "Rotem Hemo",
+        "Silvio Micali",
+        "Georgios Vlachos",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "51-68",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GiladHMVZ17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GiladHMVZ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132757"
+      ]
+    },
+    {
+      "title": "Annotations in Operating Systems with Custom AspectC++ Attributes",
+      "authors": [
+        "Birte Friesel",
+        "Markus Buschhoff",
+        "Olaf Spinczyk"
+      ],
+      "pages": "36-42",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FrieselBS17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FrieselBS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3144555.3144561"
+      ]
+    },
+    {
+      "title": "Architectures for Enhancing Authentication Privacy and Security using Trusted Computing",
+      "authors": [
+        "Ranjbar A. Balisane",
+        "Ravishankar Borgaonkar",
+        "Ahmad Atamli-Reineh",
+        "Andrew Martin 0002"
+      ],
+      "pages": "10:1-10:7",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BalisaneBAM17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BalisaneBAM17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3152701.3152713"
+      ]
+    },
+    {
+      "title": "Atom: Horizontally Scaling Strong Anonymity",
+      "authors": [
+        "Albert Kwon",
+        "Henry Corrigan-Gibbs",
+        "Srinivas Devadas",
+        "Bryan Ford"
+      ],
+      "pages": "406-422",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KwonCDF17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KwonCDF17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132755"
+      ]
+    },
+    {
+      "title": "Automatically Repairing Network Control Planes Using an Abstract Representation",
+      "authors": [
+        "Aaron Gember-Jacobson",
+        "Aditya Akella",
+        "Ratul Mahajan",
+        "Hongqiang Harry Liu"
+      ],
+      "pages": "359-373",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Gember-Jacobson17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Gember-Jacobson17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132753"
+      ]
+    },
+    {
+      "title": "Canopy: An End-to-End Performance Tracing And Analysis System",
+      "authors": [
+        "Jonathan Kaldor",
+        "Jonathan Mace",
+        "Michal Bejda",
+        "Edison Gao",
+        "Wiktor Kuropatwa",
+        "Joe O'Neill",
+        "Kian Win Ong",
+        "Bill Schaller",
+        "Pingjia Shan",
+        "Brendan Viscomi",
+        "Vinod Venkataraman",
+        "Kaushik Veeraraghavan",
+        "Yee Jiun Song"
+      ],
+      "pages": "34-50",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KaldorMBGKOOSSV17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KaldorMBGKOOSSV17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132749"
+      ]
+    },
+    {
+      "title": "Challenges For Scaling Applications Across Enclaves",
+      "authors": [
+        "Jethro G. Beekman",
+        "Donald E. Porter"
+      ],
+      "pages": "8:1-8:2",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BeekmanP17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BeekmanP17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3152701.3152710"
+      ]
+    },
+    {
+      "title": "Cobweb: Practical Remote Attestation Using Contextual Graphs",
+      "authors": [
+        "Frank Wang",
+        "Yuna Joung",
+        "James Mickens"
+      ],
+      "pages": "3:1-3:7",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WangJM17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WangJM17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3152701.3152705",
+        "https://www.wikidata.org/entity/Q131128030"
+      ]
+    },
+    {
+      "title": "CrystalNet: Faithfully Emulating Large Production Networks",
+      "authors": [
+        "Hongqiang Harry Liu",
+        "Yibo Zhu 0001",
+        "Jitu Padhye",
+        "Jiaxin Cao",
+        "Sri Tallapragada",
+        "Nuno P. Lopes",
+        "Andrey Rybalchenko",
+        "Guohan Lu",
+        "Lihua Yuan"
+      ],
+      "pages": "599-613",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiuZPCTLRLY17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiuZPCTLRLY17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132759",
+        "https://www.wikidata.org/entity/Q131119342"
+      ]
+    },
+    {
+      "title": "DeepXplore: Automated Whitebox Testing of Deep Learning Systems",
+      "authors": [
+        "Kexin Pei",
+        "Yinzhi Cao",
+        "Junfeng Yang",
+        "Suman Jana"
+      ],
+      "pages": "1-18",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PeiCYJ17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PeiCYJ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132785"
+      ]
+    },
+    {
+      "title": "Drizzle: Fast and Adaptable Stream Processing at Scale",
+      "authors": [
+        "Shivaram Venkataraman",
+        "Aurojit Panda",
+        "Kay Ousterhout",
+        "Michael Armbrust",
+        "Ali Ghodsi 0002",
+        "Michael J. Franklin",
+        "Benjamin Recht",
+        "Ion Stoica"
+      ],
+      "pages": "374-389",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/VenkataramanPOA17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/VenkataramanPOA17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132750",
+        "https://www.wikidata.org/entity/Q131121748"
+      ]
+    },
+    {
+      "title": "Enclave-Based Privacy-Preserving Alignment of Raw Genomic Information: Information Leakage and Countermeasures",
+      "authors": [
+        "Marcus V&ouml;lp",
+        "J&eacute;r&eacute;mie Decouchant",
+        "Christoph Lambert",
+        "Maria Fernandes",
+        "Paulo Jorge Esteves Ver&iacute;ssimo"
+      ],
+      "pages": "7:1-7:6",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/VolpDLFV17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/VolpDLFV17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3152701.3152707"
+      ]
+    },
+    {
+      "title": "Eris: Coordination-Free Consistent Transactions Using In-Network Concurrency Control",
+      "authors": [
+        "Jialin Li 0001",
+        "Ellis Michael",
+        "Dan R. K. Ports"
+      ],
+      "pages": "104-120",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiMP17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiMP17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132751"
+      ]
+    },
+    {
+      "title": "ffwd: delegation is (much) faster than you think",
+      "authors": [
+        "Sepideh Roghanchi",
+        "Jakob Eriksson",
+        "Nilanjana Basu"
+      ],
+      "pages": "342-358",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RoghanchiEB17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RoghanchiEB17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132771"
+      ]
+    },
+    {
+      "title": "Hardening Intel SGX Applications: Balancing Concerns",
+      "authors": [
+        "Kobe Vrancken",
+        "Frank Piessens",
+        "Raoul Strackx"
+      ],
+      "pages": "2:1-2:2",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/VranckenPS17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/VranckenPS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3152701.3152711"
+      ]
+    },
+    {
+      "title": "Hyperkernel: Push-Button Verification of an OS Kernel",
+      "authors": [
+        "Luke Nelson",
+        "Helgi Sigurbjarnarson",
+        "Kaiyuan Zhang 0001",
+        "Dylan Johnson",
+        "James Bornholt",
+        "Emina Torlak",
+        "Xi Wang 0005"
+      ],
+      "pages": "252-269",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/NelsonSZJBTW17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/NelsonSZJBTW17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132748"
+      ]
+    },
+    {
+      "title": "Komodo: Using verification to disentangle secure-enclave hardware from software",
+      "authors": [
+        "Andrew Ferraiuolo",
+        "Andrew Baumann",
+        "Chris Hawblitzel",
+        "Bryan Parno"
+      ],
+      "pages": "287-305",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FerraiuoloBHP17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FerraiuoloBHP17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132782"
+      ]
+    },
+    {
+      "title": "KV-Direct: High-Performance In-Memory Key-Value Store with Programmable NIC",
+      "authors": [
+        "Bojie Li",
+        "Zhenyuan Ruan",
+        "Wencong Xiao",
+        "Yuanwei Lu",
+        "Yongqiang Xiong",
+        "Andrew Putnam",
+        "Enhong Chen",
+        "Lintao Zhang"
+      ],
+      "pages": "137-152",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiRXLXPCZ17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiRXLXPCZ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132756"
+      ]
+    },
+    {
+      "title": "Lazy Diagnosis of In-Production Concurrency Bugs",
+      "authors": [
+        "Baris Kasikci",
+        "Weidong Cui",
+        "Xinyang Ge",
+        "Ben Niu 0007"
+      ],
+      "pages": "582-598",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KasikciCGN17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KasikciCGN17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132767"
+      ]
+    },
+    {
+      "title": "LITE Kernel RDMA Support for Datacenter Applications",
+      "authors": [
+        "Shin-Yeh Tsai",
+        "Yiying Zhang 0005"
+      ],
+      "pages": "306-324",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TsaiZ17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TsaiZ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132762",
+        "https://www.wikidata.org/entity/Q130856234"
+      ]
+    },
+    {
+      "title": "Log20: Fully Automated Optimal Placement of Log Printing Statements under Specified Overhead Threshold",
+      "authors": [
+        "Xu Zhao 0004",
+        "Kirk Rodrigues",
+        "Yu Luo 0006",
+        "Michael Stumm",
+        "Ding Yuan 0004",
+        "Yuanyuan Zhou 0001"
+      ],
+      "pages": "565-581",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhaoRLSYZ17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhaoRLSYZ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132778"
+      ]
+    },
+    {
+      "title": "Low-Latency Analytics on Colossal Data Streams with SummaryStore",
+      "authors": [
+        "Nitin Agrawal 0001",
+        "Ashish Vulimiri"
+      ],
+      "pages": "647-664",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AgrawalV17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AgrawalV17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132758"
+      ]
+    },
+    {
+      "title": "MittOS: Supporting Millisecond Tail Tolerance with Fast Rejecting SLO-Aware OS Interface",
+      "authors": [
+        "Mingzhe Hao",
+        "Huaicheng Li",
+        "Michael Hao Tong",
+        "Chrisma Pakha",
+        "Riza O. Suminto",
+        "Cesar A. Stuardo",
+        "Andrew A. Chien",
+        "Haryadi S. Gunawi"
+      ],
+      "pages": "168-183",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HaoLTPSSCG17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HaoLTPSSCG17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132774",
+        "https://www.wikidata.org/entity/Q130968041"
+      ]
+    },
+    {
+      "title": "Monotasks: Architecting for Performance Clarity in Data Analytics Frameworks",
+      "authors": [
+        "Kay Ousterhout",
+        "Christopher Canel",
+        "Sylvia Ratnasamy",
+        "Scott Shenker"
+      ],
+      "pages": "184-200",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/OusterhoutCRS17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/OusterhoutCRS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132766",
+        "https://www.wikidata.org/entity/Q131123485"
+      ]
+    },
+    {
+      "title": "Multiprogramming a 64kB Computer Safely and Efficiently",
+      "authors": [
+        "Amit Levy 0001",
+        "Bradford Campbell",
+        "Branden Ghena",
+        "Daniel B. Giffin",
+        "Pat Pannuto",
+        "Prabal Dutta",
+        "Philip Alexander Levis"
+      ],
+      "pages": "234-251",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LevyCGGPDL17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LevyCGGPDL17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132786"
+      ]
+    },
+    {
+      "title": "My VM is Lighter (and Safer) than your Container",
+      "authors": [
+        "Filipe Manco",
+        "Costin Lupu",
+        "Florian Schmidt 0002",
+        "Jose Mendes",
+        "Simon Kuenzer",
+        "Sumit Sati",
+        "Kenichi Yasukata",
+        "Costin Raiciu",
+        "Felipe Huici"
+      ],
+      "pages": "218-233",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MancoLSMKSYRH17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MancoLSMKSYRH17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132763",
+        "https://www.wikidata.org/entity/Q131129680"
+      ]
+    },
+    {
+      "title": "NetCache: Balancing Key-Value Stores with Fast In-Network Caching",
+      "authors": [
+        "Xin Jin 0008",
+        "Xiaozhou Li",
+        "Haoyu Zhang",
+        "Robert Soul&eacute;",
+        "Jeongkeun Lee",
+        "Nate Foster",
+        "Changhoon Kim",
+        "Ion Stoica"
+      ],
+      "pages": "121-136",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JinLZSLFKS17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JinLZSLFKS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132764"
+      ]
+    },
+    {
+      "title": "NEVE: Nested Virtualization Extensions for ARM",
+      "authors": [
+        "Jin Tack Lim",
+        "Christoffer Dall",
+        "Shih-Wei Li",
+        "Jason Nieh",
+        "Marc Zyngier"
+      ],
+      "pages": "201-217",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LimDLNZ17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LimDLNZ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132754",
+        "https://www.wikidata.org/entity/Q131129883"
+      ]
+    },
+    {
+      "title": "NOVA-Fortis: A Fault-Tolerant Non-Volatile Main Memory File System",
+      "authors": [
+        "Jian Xu 0012",
+        "Lu Zhang 0064",
+        "Amir Saman Memaripour",
+        "Akshatha Gangadharaiah",
+        "Amit Borase",
+        "Tamires Brito Da Silva",
+        "Steven Swanson",
+        "Andy Rudoff"
+      ],
+      "pages": "478-496",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/XuZMGBSSR17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/XuZMGBSSR17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132761"
+      ]
+    },
+    {
+      "title": "Optimizing Big-Data Queries Using Program Synthesis",
+      "authors": [
+        "Matthias Schlaipfer",
+        "Kaushik Rajan",
+        "Akash Lal",
+        "Malavika Samak"
+      ],
+      "pages": "631-646",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SchlaipferRLS17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SchlaipferRLS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132773"
+      ]
+    },
+    {
+      "title": "PebblesDB: Building Key-Value Stores using Fragmented Log-Structured Merge Trees",
+      "authors": [
+        "Pandian Raju",
+        "Rohan Kadekodi",
+        "Vijay Chidambaram",
+        "Ittai Abraham"
+      ],
+      "pages": "497-514",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RajuKCA17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RajuKCA17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132765"
+      ]
+    },
+    {
+      "title": "Pensieve: Non-Intrusive Failure Reproduction for Distributed Systems using the Event Chaining Approach",
+      "authors": [
+        "Yongle Zhang 0007",
+        "Serguei Makarov",
+        "Xiang Ren 0003",
+        "David Lion",
+        "Ding Yuan 0004"
+      ],
+      "pages": "19-33",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangMRLY17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangMRLY17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132768",
+        "https://www.wikidata.org/entity/Q131117550"
+      ]
+    },
+    {
+      "title": "Prochlo: Strong Privacy for Analytics in the Crowd",
+      "authors": [
+        "Andrea Bittau",
+        "&Uacute;lfar Erlingsson",
+        "Petros Maniatis",
+        "Ilya Mironov",
+        "Ananth Raghunathan",
+        "David Lie",
+        "Mitch Rudominer",
+        "Ushasree Kode",
+        "Julien Tinn&eacute;s",
+        "Bernhard Seefeld"
+      ],
+      "pages": "441-459",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BittauEMMRLRKTS17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BittauEMMRLRKTS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132769"
+      ]
+    },
+    {
+      "title": "Programmable Elasticity for Actor-based Cloud Applications",
+      "authors": [
+        "Bo Sang",
+        "Srivatsan Ravi",
+        "Gustavo Petri",
+        "Mahsa Najafzadeh",
+        "Masoud Saeida Ardekani",
+        "Patrick Eugster"
+      ],
+      "pages": "15-21",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SangRPNAE17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SangRPNAE17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3144555.3144558"
+      ]
+    },
+    {
+      "title": "Resource Central: Understanding and Predicting Workloads for Improved Resource Management in Large Cloud Platforms",
+      "authors": [
+        "Eli Cortez",
+        "Anand Bonde",
+        "Alexandre Muzio",
+        "Mark Russinovich",
+        "Marcus Fontoura",
+        "Ricardo Bianchini"
+      ],
+      "pages": "153-167",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CortezBMRFB17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CortezBMRFB17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132772"
+      ]
+    },
+    {
+      "title": "Rocksteady: Fast Migration for Low-latency In-memory Storage",
+      "authors": [
+        "Chinmay Kulkarni 0002",
+        "Aniraj Kesavan",
+        "Tian Zhang 0005",
+        "Robert Ricci",
+        "Ryan Stutsman"
+      ],
+      "pages": "390-405",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KulkarniKZRS17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KulkarniKZRS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132784"
+      ]
+    },
+    {
+      "title": "Sandcrust: Automatic Sandboxing of Unsafe Components in Rust",
+      "authors": [
+        "Benjamin Lamowski",
+        "Carsten Weinhold",
+        "Adam Lackorzynski",
+        "Hermann H&auml;rtig"
+      ],
+      "pages": "51-57",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LamowskiWLH17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LamowskiWLH17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3144555.3144562",
+        "https://www.wikidata.org/entity/Q131112433"
+      ]
+    },
+    {
+      "title": "Scaling a file system to many cores using an operation log",
+      "authors": [
+        "Srivatsa S. Bhat",
+        "Rasha Eqbal",
+        "Austin T. Clements",
+        "M. Frans Kaashoek",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "69-86",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BhatECKZ17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BhatECKZ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132779"
+      ]
+    },
+    {
+      "title": "Scaling Databases through Trusted Hardware Proxies",
+      "authors": [
+        "Kai Mast",
+        "Lequn Chen 0001",
+        "Emin G&uuml;n Sirer"
+      ],
+      "pages": "9:1-9:6",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MastCS17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MastCS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3152701.3152712"
+      ]
+    },
+    {
+      "title": "Secure Page Fusion with VUsion: https: //www.vusec.net/projects/VUsion",
+      "authors": [
+        "Marco Oliverio",
+        "Kaveh Razavi",
+        "Herbert Bos",
+        "Cristiano Giuffrida"
+      ],
+      "pages": "531-545",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/OliverioRBG17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/OliverioRBG17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132781"
+      ]
+    },
+    {
+      "title": "SGX-Bomb: Locking Down the Processor via Rowhammer Attack",
+      "authors": [
+        "Yeongjin Jang",
+        "Jae-Hyuk Lee",
+        "Sangho Lee 0001",
+        "Taesoo Kim"
+      ],
+      "pages": "5:1-5:6",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JangLLK17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JangLLK17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3152701.3152709"
+      ]
+    },
+    {
+      "title": "SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control",
+      "authors": [
+        "Jo Van Bulck",
+        "Frank Piessens",
+        "Raoul Strackx"
+      ],
+      "pages": "4:1-4:6",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BulckPS17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BulckPS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3152701.3152706"
+      ]
+    },
+    {
+      "title": "Stadium: A Distributed Metadata-Private Messaging System",
+      "authors": [
+        "Nirvan Tyagi",
+        "Yossi Gilad",
+        "Derek Leung",
+        "Matei Zaharia",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "423-440",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TyagiGLZZ17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TyagiGLZZ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132783"
+      ]
+    },
+    {
+      "title": "Strata: A Cross Media File System",
+      "authors": [
+        "Youngjin Kwon",
+        "Henrique Fingler",
+        "Tyler Hunt",
+        "Simon Peter 0001",
+        "Emmett Witchel",
+        "Thomas E. Anderson"
+      ],
+      "pages": "460-477",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KwonFHPWA17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KwonFHPWA17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132770",
+        "https://www.wikidata.org/entity/Q130968444"
+      ]
+    },
+    {
+      "title": "Strongly Secure and Efficient Data Shuffle on Hardware Enclaves",
+      "authors": [
+        "Ju Chen",
+        "Yuzhe Richard Tang",
+        "Hao Zhou 0043"
+      ],
+      "pages": "1:1-1:6",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenTZ17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenTZ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3152701.3152708"
+      ]
+    },
+    {
+      "title": "Sub-millisecond Stateful Stream Querying over Fast-evolving Linked Data",
+      "authors": [
+        "Yunhao Zhang",
+        "Rong Chen 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "614-630",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ZhangCC17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ZhangCC17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132777",
+        "https://www.wikidata.org/entity/Q130910929"
+      ]
+    },
+    {
+      "title": "SVE: Distributed Video Processing at Facebook Scale",
+      "authors": [
+        "Qi Huang",
+        "Petchean Ang",
+        "Peter Knowles",
+        "Tomasz Nykiel",
+        "Iaroslav Tverdokhlib",
+        "Amit Yajurvedi",
+        "Paul Dapolito IV",
+        "Xifan Yan",
+        "Maxim Bykov",
+        "Chuen Liang",
+        "Mohit Talwar",
+        "Abhishek Mathur",
+        "Sachin Kulkarni",
+        "Matthew Burke 0001",
+        "Wyatt Lloyd"
+      ],
+      "pages": "87-103",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HuangAKNTYDYBLT17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HuangAKNTYDYBLT17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132775"
+      ]
+    },
+    {
+      "title": "The Cogent Case for Property-Based Testing",
+      "authors": [
+        "Zilin Chen",
+        "Liam O'Connor",
+        "Gabriele Keller",
+        "Gerwin Klein",
+        "Gernot Heiser"
+      ],
+      "pages": "1-7",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenOKKH17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenOKKH17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3144555.3144556"
+      ]
+    },
+    {
+      "title": "The Efficient Server Audit Problem, Deduplicated Re-execution, and the Web",
+      "authors": [
+        "Cheng Tan 0005",
+        "Lingfan Yu",
+        "Joshua B. Leners",
+        "Michael Walfish"
+      ],
+      "pages": "546-564",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TanYLW17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TanYLW17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132760"
+      ]
+    },
+    {
+      "title": "Theseus: a State Spill-free Operating System",
+      "authors": [
+        "Kevin Boos",
+        "Lin Zhong 0001"
+      ],
+      "pages": "29-35",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BoosZ17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BoosZ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3144555.3144560"
+      ]
+    },
+    {
+      "title": "Towards Correct-by-Construction Interrupt Routing on Real Hardware",
+      "authors": [
+        "Lukas Humbel",
+        "Reto Achermann",
+        "David A. Cock",
+        "Timothy Roscoe"
+      ],
+      "pages": "8-14",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HumbelACR17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HumbelACR17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3144555.3144557"
+      ]
+    },
+    {
+      "title": "Towards Fine-grained, Automated Application Compartmentalization",
+      "authors": [
+        "Nikos Vasilakis",
+        "Ben Karel",
+        "Nick Roessler",
+        "Nathan Dautenhahn",
+        "Andr&eacute; DeHon",
+        "Jonathan M. Smith"
+      ],
+      "pages": "43-50",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/VasilakisKRDDS17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/VasilakisKRDDS17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3144555.3144563",
+        "https://www.wikidata.org/entity/Q131126843"
+      ]
+    },
+    {
+      "title": "vCFI: Visible Control Flow Integrity for Cloud Tenants",
+      "authors": [
+        "Yuan Li 0061",
+        "Chao Zhang 0008",
+        "Xiapu Luo"
+      ],
+      "pages": "6:1-6:2",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiZL17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiZL17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3152701.3152703"
+      ]
+    },
+    {
+      "title": "Verifying a high-performance crash-safe file system using a tree specification",
+      "authors": [
+        "Haogang Chen 0001",
+        "Tej Chajed",
+        "Alex Konradi",
+        "Stephanie Wang",
+        "Atalay Mert Ileri",
+        "Adam Chlipala",
+        "M. Frans Kaashoek",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "270-286",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChenCKWICKZ17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChenCKWICKZ17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132776",
+        "https://www.wikidata.org/entity/Q130970164"
+      ]
+    },
+    {
+      "title": "WatchIT: Who Watches Your IT Guy?",
+      "authors": [
+        "Noam Shalev",
+        "Idit Keidar",
+        "Yaron Weinsberg",
+        "Yosef Moatti",
+        "Elad Ben-Yehuda"
+      ],
+      "pages": "515-530",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ShalevKWMB17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ShalevKWMB17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132752",
+        "https://www.wikidata.org/entity/Q131134604"
+      ]
+    },
+    {
+      "title": "ZygOS: Achieving Low Tail Latency for Microsecond-scale Networked Tasks",
+      "authors": [
+        "George Prekas",
+        "Marios Kogias",
+        "Edouard Bugnion"
+      ],
+      "pages": "325-341",
+      "year": "2017",
+      "venue": "SOSP 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PrekasKB17",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PrekasKB17.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3132747.3132780"
+      ]
+    }
+  ]
+}

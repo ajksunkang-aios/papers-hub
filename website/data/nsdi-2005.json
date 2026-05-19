@@ -1,0 +1,490 @@
+{
+  "id": "nsdi-2005",
+  "venue": "nsdi",
+  "year": 2005,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2005.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2005.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2005",
+    "conf/nsdi/2005-1",
+    "conf/nsdi/2005-2",
+    "conf/nsdi/2005-3",
+    "conf/nsdi/2005-4",
+    "conf/nsdi/2005-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 26,
+  "display_count": 26,
+  "papers": [
+    {
+      "title": "ACMS: The Akamai Configuration Management System",
+      "authors": [
+        "Alex Sherman",
+        "Philip A. Lisiecki",
+        "Andy Berkheimer",
+        "Joel Wein"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShermanLBW05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShermanLBW05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/sherman.html"
+      ]
+    },
+    {
+      "title": "Active Sensor Networks",
+      "authors": [
+        "Philip Alexander Levis",
+        "David Gay",
+        "David E. Culler"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LevisGC05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LevisGC05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/levis.html"
+      ]
+    },
+    {
+      "title": "Bandwidth-efficient Management of DHT Routing Tables",
+      "authors": [
+        "Jinyang Li 0001",
+        "Jeremy Stribling",
+        "Robert Morris 0005",
+        "M. Frans Kaashoek"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiSMK05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiSMK05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/li.html"
+      ]
+    },
+    {
+      "title": "Beacon Vector Routing: Scalable Point-to-Point Routing in Wireless Sensornets",
+      "authors": [
+        "Rodrigo Fonseca",
+        "Sylvia Ratnasamy",
+        "Jerry Zhao",
+        "Cheng Tien Ee",
+        "David E. Culler",
+        "Scott Shenker",
+        "Ion Stoica"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FonsecaRZECSS05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FonsecaRZECSS05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/fonseca.html"
+      ]
+    },
+    {
+      "title": "Botz-4-Sale: Surviving Organized DDoS Attacks That Mimic Flash Crowds (Awarded Best Student Paper)",
+      "authors": [
+        "Srikanth Kandula",
+        "Dina Katabi",
+        "Matthias Jacob",
+        "Arthur W. Berger"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KandulaKJB05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KandulaKJB05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/kandula.html"
+      ]
+    },
+    {
+      "title": "Cashmere: Resilient Anonymous Routing",
+      "authors": [
+        "Li Zhuang",
+        "Feng Zhou",
+        "Ben Y. Zhao",
+        "Antony I. T. Rowstron"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhuangZZR05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhuangZZR05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/zhuang.html"
+      ]
+    },
+    {
+      "title": "Debunking Some Myths About Structured and Unstructured Overlays",
+      "authors": [
+        "Miguel Castro 0001",
+        "Manuel Costa",
+        "Antony I. T. Rowstron"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CastroCR05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CastroCR05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/castro.html"
+      ]
+    },
+    {
+      "title": "Decentralized, Adaptive Resource Allocation for Sensor Networks",
+      "authors": [
+        "Geoffrey Mainland",
+        "David C. Parkes",
+        "Matt Welsh"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MainlandPW05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MainlandPW05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/mainland.html"
+      ]
+    },
+    {
+      "title": "Design and Implementation of a Routing Control Platform",
+      "authors": [
+        "Matthew Caesar 0001",
+        "Donald F. Caldwell",
+        "Nick Feamster",
+        "Jennifer Rexford",
+        "Aman Shaikh",
+        "Jacobus E. van der Merwe"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CaesarCFRSM05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CaesarCFRSM05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/caesar.html"
+      ]
+    },
+    {
+      "title": "Designing Extensible IP Router Software",
+      "authors": [
+        "Mark Handley",
+        "Eddie Kohler",
+        "Atanu Ghosh",
+        "Orion Hodson",
+        "Pavlin Radoslavov"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HandleyKGHR05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HandleyKGHR05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/handley.html"
+      ]
+    },
+    {
+      "title": "Detecting BGP Configuration Faults with Static Analysis (Awarded Best Paper)",
+      "authors": [
+        "Nick Feamster",
+        "Hari Balakrishnan"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FeamsterB05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FeamsterB05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/feamster.html"
+      ]
+    },
+    {
+      "title": "Finding a Needle in a Haystack: Pinpointing Significant BGP Routing Changes in an IP Network",
+      "authors": [
+        "Jian Wu 0028",
+        "Zhuoqing Morley Mao",
+        "Jennifer Rexford",
+        "Jia Wang 0001"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WuMRW05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WuMRW05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/wu.html"
+      ]
+    },
+    {
+      "title": "Geographic Routing Made Practical",
+      "authors": [
+        "Young-Jin Kim 0001",
+        "Ramesh Govindan",
+        "Brad Karp",
+        "Scott Shenker"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KimGKS05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KimGKS05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/kim.html"
+      ]
+    },
+    {
+      "title": "Glacier: Highly Durable, Decentralized Storage Despite Massive Correlated Failures",
+      "authors": [
+        "Andreas Haeberlen",
+        "Alan Mislove",
+        "Peter Druschel"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HaeberlenMD05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HaeberlenMD05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/haeberlen.html"
+      ]
+    },
+    {
+      "title": "Improving Web Availability for Clients with MONET",
+      "authors": [
+        "David G. Andersen",
+        "Hari Balakrishnan",
+        "M. Frans Kaashoek",
+        "Rohit N. Rao"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AndersenBKR05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AndersenBKR05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/andersen.html"
+      ]
+    },
+    {
+      "title": "IP Fault Localization Via Risk Modeling",
+      "authors": [
+        "Ramana Rao Kompella",
+        "Jennifer Yates",
+        "Albert G. Greenberg",
+        "Alex C. Snoeren"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KompellaYGS05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KompellaYGS05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/kompella.html"
+      ]
+    },
+    {
+      "title": "Live Migration of Virtual Machines",
+      "authors": [
+        "Christopher Clark",
+        "Keir Fraser",
+        "Steven Hand 0001",
+        "Jacob Gorm Hansen",
+        "Eric Jul",
+        "Christian Limpach",
+        "Ian Pratt 0001",
+        "Andrew Warfield"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ClarkFHHJLPW05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ClarkFHHJLPW05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/clark.html"
+      ]
+    },
+    {
+      "title": "Negotiation-Based Routing Between Neighboring ISPs",
+      "authors": [
+        "Ratul Mahajan",
+        "David Wetherall",
+        "Thomas E. Anderson"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MahajanWA05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MahajanWA05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/mahajan_negotiation.html"
+      ]
+    },
+    {
+      "title": "Performance Modeling and System Management for Multi-component Online Services",
+      "authors": [
+        "Christopher Stewart",
+        "Kai Shen"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/StewartS05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/StewartS05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/stewart.html"
+      ]
+    },
+    {
+      "title": "Quorum: Flexible Quality of Service for Internet Services",
+      "authors": [
+        "Josep M. Blanquer",
+        "Antoni Batchelli",
+        "Klaus E. Schauser",
+        "Richard Wolski"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BlanquerBSW05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BlanquerBSW05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/blanquer.html"
+      ]
+    },
+    {
+      "title": "Shark: Scaling File Servers via Cooperative Caching",
+      "authors": [
+        "Siddhartha Annapureddy",
+        "Michael J. Freedman",
+        "David Mazi&egrave;res"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AnnapureddyFM05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AnnapureddyFM05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/annapureddy.html"
+      ]
+    },
+    {
+      "title": "Sustaining Cooperation in Multi-hop Wireless Networks",
+      "authors": [
+        "Ratul Mahajan",
+        "Maya Rodrig",
+        "David Wetherall",
+        "John Zahorjan"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MahajanRWZ05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MahajanRWZ05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/mahajan_sustaining.html"
+      ]
+    },
+    {
+      "title": "The Challenges of Delivering Content and Applications on the Internet",
+      "authors": [
+        "Frank Thomson Leighton"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Leighton05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Leighton05.html",
+      "ee_links": []
+    },
+    {
+      "title": "The Collective: A Cache-Based System Management Architecture",
+      "authors": [
+        "Ramesh Chandra",
+        "Nickolai Zeldovich",
+        "Constantine P. Sapuntzakis",
+        "Monica S. Lam"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChandraZSL05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChandraZSL05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/chandra.html"
+      ]
+    },
+    {
+      "title": "Trickles: A Stateless Network Stack for Improved Scalability, Resilience, and Flexibility",
+      "authors": [
+        "Alan Shieh",
+        "Andrew C. Myers",
+        "Emin G&uuml;n Sirer"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ShiehMS05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ShiehMS05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/shieh.html"
+      ]
+    },
+    {
+      "title": "Using Emulation to Understand and Improve Wireless Networks and Applications",
+      "authors": [
+        "Glenn Judd",
+        "Peter Steenkiste"
+      ],
+      "pages": null,
+      "year": "2005",
+      "venue": "NSDI 2005",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JuddS05",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JuddS05.html",
+      "ee_links": [
+        "http://www.usenix.org/events/nsdi05/tech/judd.html"
+      ]
+    }
+  ]
+}

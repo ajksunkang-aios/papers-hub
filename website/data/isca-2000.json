@@ -1,0 +1,584 @@
+{
+  "id": "isca-2000",
+  "venue": "isca",
+  "year": 2000,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2000.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2000.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2000",
+    "conf/isca/2000-1",
+    "conf/isca/2000-2",
+    "conf/isca/2000-3",
+    "conf/isca/2000-4",
+    "conf/isca/2000-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 29,
+  "display_count": 29,
+  "papers": [
+    {
+      "title": "A fully associative software-managed cache design",
+      "authors": [
+        "Erik G. Hallnor",
+        "Steven K. Reinhardt"
+      ],
+      "pages": "107-116",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HallnorR00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HallnorR00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854382",
+        "https://doi.org/10.1145/339647.339660"
+      ]
+    },
+    {
+      "title": "A hardware mechanism for dynamic extraction and relayout of program hot spots",
+      "authors": [
+        "Matthew C. Merten",
+        "Andrew R. Trick",
+        "Erik M. Nystrom",
+        "Ronald D. Barnes",
+        "Wen-mei W. Hwu"
+      ],
+      "pages": "59-70",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MertenTNBH00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MertenTNBH00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854378",
+        "https://doi.org/10.1145/339647.339655"
+      ]
+    },
+    {
+      "title": "A scalable approach to thread-level speculation",
+      "authors": [
+        "J. Gregory Steffan",
+        "Christopher B. Colohan",
+        "Antonia Zhai",
+        "Todd C. Mowry"
+      ],
+      "pages": "1-12",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SteffanCZM00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SteffanCZM00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854372",
+        "https://doi.org/10.1145/339647.339650"
+      ]
+    },
+    {
+      "title": "Allowing for ILP in an embedded Java processor",
+      "authors": [
+        "Ramesh Radhakrishnan",
+        "Deependra Talla",
+        "Lizy Kurian John"
+      ],
+      "pages": "294-305",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RadhakrishnanTJ00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RadhakrishnanTJ00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854399",
+        "https://doi.org/10.1145/339647.339702",
+        "https://www.wikidata.org/entity/Q131123048"
+      ]
+    },
+    {
+      "title": "An embedded DRAM architecture for large-scale spatial-lattice computations",
+      "authors": [
+        "Norman Margolus"
+      ],
+      "pages": "149-160",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Margolus00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Margolus00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854386",
+        "https://doi.org/10.1145/339647.339672"
+      ]
+    },
+    {
+      "title": "Architectural support for scalable speculative parallelization in shared-memory multiprocessors",
+      "authors": [
+        "Marcelo H. Cintra",
+        "Jos&eacute; F. Mart&iacute;nez",
+        "Josep Torrellas"
+      ],
+      "pages": "13-24",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CintraMT00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CintraMT00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854373",
+        "https://doi.org/10.1145/339647.363382"
+      ]
+    },
+    {
+      "title": "CHIMAERA: a high-performance architecture with a tightly-coupled reconfigurable functional unit",
+      "authors": [
+        "Zhi Alex Ye",
+        "Andreas Moshovos",
+        "Scott Hauck",
+        "Prithviraj Banerjee"
+      ],
+      "pages": "225-235",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YeMHB00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YeMHB00.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2000.854393",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854393",
+        "https://doi.org/10.1145/339647.339687"
+      ]
+    },
+    {
+      "title": "Circuits for wide-window superscalar processors",
+      "authors": [
+        "Dana S. Henry",
+        "Bradley C. Kuszmaul",
+        "Gabriel H. Loh",
+        "Rahul Sami"
+      ],
+      "pages": "236-247",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HenryKLS00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HenryKLS00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854394",
+        "https://doi.org/10.1145/339647.339689"
+      ]
+    },
+    {
+      "title": "Clock rate versus IPC: the end of the road for conventional microarchitectures",
+      "authors": [
+        "Vikas Agarwal",
+        "M. S. Hrishikesh",
+        "Stephen W. Keckler",
+        "Doug Burger"
+      ],
+      "pages": "248-259",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AgarwalHKB00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AgarwalHKB00.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2000.854395",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854395",
+        "https://doi.org/10.1145/339647.339691",
+        "https://www.wikidata.org/entity/Q130994539"
+      ]
+    },
+    {
+      "title": "Completion time multiple branch prediction for enhancing trace cache performance",
+      "authors": [
+        "Ryan N. Rakvic",
+        "Bryan Black",
+        "John Paul Shen"
+      ],
+      "pages": "47-58",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RakvicBS00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RakvicBS00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854377",
+        "https://doi.org/10.1145/339647.339654"
+      ]
+    },
+    {
+      "title": "Early load address resolution via register tracking",
+      "authors": [
+        "Michael Bekerman",
+        "Adi Yoaz",
+        "Freddy Gabbay",
+        "St&eacute;phan Jourdan",
+        "Maxim Kalaev",
+        "Ronny Ronen"
+      ],
+      "pages": "306-315",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BekermanYGJKR00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BekermanYGJKR00.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2000.854400",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854400",
+        "https://doi.org/10.1145/339647.339705"
+      ]
+    },
+    {
+      "title": "Energy-driven integrated hardware-software optimizations using SimplePower",
+      "authors": [
+        "Narayanan Vijaykrishnan",
+        "Mahmut T. Kandemir",
+        "Mary Jane Irwin",
+        "Hyun Suk Kim",
+        "Wu Ye"
+      ],
+      "pages": "95-106",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/VijaykrishnanKIKY00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/VijaykrishnanKIKY00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854381",
+        "https://doi.org/10.1145/339647.339659"
+      ]
+    },
+    {
+      "title": "HLS: combining statistical and symbolic simulation to guide microprocessor designs",
+      "authors": [
+        "Mark Oskin",
+        "Frederic T. Chong",
+        "Matthew K. Farrens"
+      ],
+      "pages": "71-82",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/OskinCF00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/OskinCF00.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2000.854379",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854379",
+        "https://doi.org/10.1145/339647.339656",
+        "https://www.wikidata.org/entity/Q130959036"
+      ]
+    },
+    {
+      "title": "Instruction path coprocessors",
+      "authors": [
+        "Yuan C. Chou",
+        "John Paul Shen"
+      ],
+      "pages": "270-281",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChouS00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChouS00.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2000.854397",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854397",
+        "https://doi.org/10.1145/339647.339694"
+      ]
+    },
+    {
+      "title": "Lx: a technology platform for customizable VLIW embedded processing",
+      "authors": [
+        "Paolo Faraboschi",
+        "Geoffrey Brown",
+        "Joseph A. Fisher",
+        "Giuseppe Desoli",
+        "Fred Homewood"
+      ],
+      "pages": "203-213",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FaraboschiBFDH00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FaraboschiBFDH00.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2000.854391",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854391",
+        "https://doi.org/10.1145/339647.339682"
+      ]
+    },
+    {
+      "title": "Memory access scheduling",
+      "authors": [
+        "Scott Rixner",
+        "William J. Dally",
+        "Ujval J. Kapasi",
+        "Peter R. Mattson",
+        "John D. Owens"
+      ],
+      "pages": "128-138",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RixnerDKMO00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RixnerDKMO00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854384",
+        "https://doi.org/10.1145/339647.339668"
+      ]
+    },
+    {
+      "title": "Multiple-banked register file architectures",
+      "authors": [
+        "Jos&eacute;-Lorenzo Cruz",
+        "Antonio Gonz&aacute;lez 0001",
+        "Mateo Valero",
+        "Nigel P. Topham"
+      ],
+      "pages": "316-325",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CruzGVT00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CruzGVT00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854401",
+        "https://doi.org/10.1145/339647.339708"
+      ]
+    },
+    {
+      "title": "On the value locality of store instructions",
+      "authors": [
+        "Kevin M. Lepak",
+        "Mikko H. Lipasti"
+      ],
+      "pages": "182-191",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LepakL00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LepakL00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854389",
+        "https://doi.org/10.1145/339647.339678"
+      ]
+    },
+    {
+      "title": "Performance analysis of the Alpha 21264-based Compaq ES40 system",
+      "authors": [
+        "Zarka Cvetanovic",
+        "Richard E. Kessler"
+      ],
+      "pages": "192-202",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CvetanovicK00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CvetanovicK00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854390",
+        "https://doi.org/10.1145/339647.339680",
+        "https://www.wikidata.org/entity/Q130985272"
+      ]
+    },
+    {
+      "title": "Piranha: a scalable architecture based on single-chip multiprocessing",
+      "authors": [
+        "Luiz Andr&eacute; Barroso",
+        "Kourosh Gharachorloo",
+        "Robert McNamara",
+        "Andreas Nowatzyk",
+        "Shaz Qadeer",
+        "Barton Sano",
+        "Scott Smith",
+        "Robert Stets",
+        "Ben Verghese"
+      ],
+      "pages": "282-293",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BarrosoGMNQSSSV00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BarrosoGMNQSSSV00.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2000.854398",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854398",
+        "https://doi.org/10.1145/339647.339696",
+        "https://www.wikidata.org/entity/Q130991881"
+      ]
+    },
+    {
+      "title": "Recency-based TLB preloading",
+      "authors": [
+        "Ashley Saulsbury",
+        "Fredrik Dahlgren",
+        "Per Stenstr&ouml;m"
+      ],
+      "pages": "117-127",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SaulsburyDS00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SaulsburyDS00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854383",
+        "https://doi.org/10.1145/339647.339666"
+      ]
+    },
+    {
+      "title": "Reconfigurable caches and their application to media processing",
+      "authors": [
+        "Parthasarathy Ranganathan",
+        "Sarita V. Adve",
+        "Norman P. Jouppi"
+      ],
+      "pages": "214-224",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/RanganathanAJ00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/RanganathanAJ00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854392",
+        "https://doi.org/10.1145/339647.339685"
+      ]
+    },
+    {
+      "title": "Selective, accurate, and timely self-invalidation using last-touch prediction",
+      "authors": [
+        "An-Chow Lai",
+        "Babak Falsafi"
+      ],
+      "pages": "139-148",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LaiF00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LaiF00.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2000.854385",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854385",
+        "https://doi.org/10.1145/339647.339669"
+      ]
+    },
+    {
+      "title": "Smart Memories: a modular reconfigurable architecture",
+      "authors": [
+        "Ken Mai",
+        "Tim Paaske",
+        "Nuwan Jayasena",
+        "Ron Ho",
+        "William J. Dally",
+        "Mark Horowitz"
+      ],
+      "pages": "161-171",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MaiPJHDH00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MaiPJHDH00.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2000.854387",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854387",
+        "https://doi.org/10.1145/339647.339673"
+      ]
+    },
+    {
+      "title": "Trace preconstruction",
+      "authors": [
+        "Quinn Jacobson",
+        "James E. Smith 0001"
+      ],
+      "pages": "37-46",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JacobsonS00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JacobsonS00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854376",
+        "https://doi.org/10.1145/339647.339653"
+      ]
+    },
+    {
+      "title": "Transient fault detection via simultaneous multithreading",
+      "authors": [
+        "Steven K. Reinhardt",
+        "Shubhendu S. Mukherjee"
+      ],
+      "pages": "25-36",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ReinhardtM00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ReinhardtM00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854375",
+        "https://doi.org/10.1145/339647.339652"
+      ]
+    },
+    {
+      "title": "Understanding the backward slices of performance degrading instructions",
+      "authors": [
+        "Craig B. Zilles",
+        "Gurindar S. Sohi"
+      ],
+      "pages": "172-181",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZillesS00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZillesS00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854388",
+        "https://doi.org/10.1145/339647.339676"
+      ]
+    },
+    {
+      "title": "Vector instruction set support for conditional operations",
+      "authors": [
+        "James E. Smith 0001",
+        "Greg Faanes",
+        "Rabin A. Sugumar"
+      ],
+      "pages": "260-269",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SmithFS00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SmithFS00.html",
+      "ee_links": [
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854396",
+        "https://doi.org/10.1145/339647.339693"
+      ]
+    },
+    {
+      "title": "Wattch: a framework for architectural-level power analysis and optimizations",
+      "authors": [
+        "David M. Brooks",
+        "Vivek Tiwari",
+        "Margaret Martonosi"
+      ],
+      "pages": "83-94",
+      "year": "2000",
+      "venue": "ISCA 2000",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BrooksTM00",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BrooksTM00.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.2000.854380",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.2000.854380",
+        "https://doi.org/10.1145/339647.339657"
+      ]
+    }
+  ]
+}

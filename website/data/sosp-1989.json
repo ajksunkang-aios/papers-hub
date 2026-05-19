@@ -1,0 +1,363 @@
+{
+  "id": "sosp-1989",
+  "venue": "sosp",
+  "year": 1989,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp1989.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp1989.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/1989",
+    "conf/sosp/1989-1",
+    "conf/sosp/1989-2",
+    "conf/sosp/1989-3",
+    "conf/sosp/1989-4",
+    "conf/sosp/1989-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 20,
+  "display_count": 20,
+  "papers": [
+    {
+      "title": "A Lazy Buddy System Bounded by Two Coalescing Delays per Class",
+      "authors": [
+        "Ronald E. Barkley",
+        "T. Paul Lee"
+      ],
+      "pages": "167-176",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BarkleyL89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BarkleyL89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74867"
+      ]
+    },
+    {
+      "title": "A Logic of Authentication",
+      "authors": [
+        "Michael Burrows",
+        "Mart&iacute;n Abadi",
+        "Roger M. Needham"
+      ],
+      "pages": "1-13",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BurrowsAN89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BurrowsAN89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74852"
+      ]
+    },
+    {
+      "title": "Analysis of Transaction Management Performance",
+      "authors": [
+        "Dan Duchamp"
+      ],
+      "pages": "177-190",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Duchamp89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Duchamp89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74868"
+      ]
+    },
+    {
+      "title": "Exploiting Read-Mostly Workloads in The FileNet File System",
+      "authors": [
+        "David A. Edwards",
+        "Martin S. McKendry"
+      ],
+      "pages": "58-70",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/EdwardsM89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/EdwardsM89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74857"
+      ]
+    },
+    {
+      "title": "Generic Virtual Memory Management for Operating System Kernels",
+      "authors": [
+        "Vadim Abrossimov",
+        "Marc Rozier",
+        "Marc Shapiro 0001"
+      ],
+      "pages": "123-136",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AbrossimovR89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AbrossimovR89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74863"
+      ]
+    },
+    {
+      "title": "Improving the Efficiency of UNIX File Buffer Caches",
+      "authors": [
+        "Andrew Braunstein",
+        "Mark Riley",
+        "John Wilkes"
+      ],
+      "pages": "71-82",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BraunsteinRW89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BraunsteinRW89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74858"
+      ]
+    },
+    {
+      "title": "Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency",
+      "authors": [
+        "Cary G. Gray",
+        "David R. Cheriton"
+      ],
+      "pages": "202-210",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GrayC89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GrayC89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74870"
+      ]
+    },
+    {
+      "title": "Lightweight Remote Procedure Call",
+      "authors": [
+        "Brian N. Bershad",
+        "Thomas E. Anderson",
+        "Edward D. Lazowska",
+        "Henry M. Levy"
+      ],
+      "pages": "102-113",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BershadALL89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BershadALL89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74861"
+      ]
+    },
+    {
+      "title": "Low-Synchronization Translation Lookaside Buffer Consistency in Large-Scale Shared-Memory Multiprocessors",
+      "authors": [
+        "Bryan S. Rosenburg"
+      ],
+      "pages": "137-146",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Rosenburg89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Rosenburg89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74864"
+      ]
+    },
+    {
+      "title": "Mirage: A Coherent Distributed Shared Memory Design",
+      "authors": [
+        "Brett D. Fleisch",
+        "Gerald J. Popek"
+      ],
+      "pages": "211-223",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FleischP89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FleischP89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74871"
+      ]
+    },
+    {
+      "title": "Performance of Firefly RPC",
+      "authors": [
+        "Michael D. Schroeder",
+        "Michael Burrows"
+      ],
+      "pages": "83-90",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SchroederB89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SchroederB89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74859"
+      ]
+    },
+    {
+      "title": "Process Control and Scheduling Issues for Multiprogrammed Shared-Memory Multiprocessors",
+      "authors": [
+        "Andrew Tucker",
+        "Anoop Gupta"
+      ],
+      "pages": "159-166",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TuckerG89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TuckerG89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74866"
+      ]
+    },
+    {
+      "title": "Reducing Risks from Poorly Chosen Keys",
+      "authors": [
+        "T. Mark A. Lomas",
+        "Li Gong",
+        "Jerome H. Saltzer",
+        "Roger M. Needham"
+      ],
+      "pages": "14-18",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LomasGSN89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LomasGSN89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74853"
+      ]
+    },
+    {
+      "title": "RPC in the x-Kernel: Evaluating New Design Techniques",
+      "authors": [
+        "Norman C. Hutchinson",
+        "Larry L. Peterson",
+        "Mark B. Abbott",
+        "Sean W. O'Malley"
+      ],
+      "pages": "91-101",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HutchinsonPAO89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HutchinsonPAO89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74860"
+      ]
+    },
+    {
+      "title": "Simple But Effective Techniques for NUMA Memory Management",
+      "authors": [
+        "William J. Bolosky",
+        "Robert P. Fitzgerald",
+        "Michael L. Scott"
+      ],
+      "pages": "19-31",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BoloskyFS89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BoloskyFS89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74854"
+      ]
+    },
+    {
+      "title": "Spritely NFS: Experiments with Cache-Consistency Protocols",
+      "authors": [
+        "V. Srinivasan",
+        "Jeffrey C. Mogul"
+      ],
+      "pages": "45-57",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SrinivasanM89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SrinivasanM89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74856"
+      ]
+    },
+    {
+      "title": "The Amber System: Parallel Programming on a Network of Multiprocessors",
+      "authors": [
+        "Jeffrey S. Chase",
+        "Franz G. Amador",
+        "Edward D. Lazowska",
+        "Henry M. Levy",
+        "Richard J. Littlefield"
+      ],
+      "pages": "147-158",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChaseALLL89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChaseALLL89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74865"
+      ]
+    },
+    {
+      "title": "The Implementation of a Coherent Memory Abstraction on a NUMA Multiprocessor: Experiences with PLATINUM",
+      "authors": [
+        "Alan L. Cox",
+        "Robert J. Fowler"
+      ],
+      "pages": "32-44",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CoxF89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CoxF89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74855"
+      ]
+    },
+    {
+      "title": "The Portable Common Runtime Approach to Interoperability",
+      "authors": [
+        "Mark D. Weiser",
+        "Alan J. Demers",
+        "Carl Hauser"
+      ],
+      "pages": "114-122",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WeiserDH89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WeiserDH89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74862"
+      ]
+    },
+    {
+      "title": "Threads and Input/Output in the Synthesis Kernel",
+      "authors": [
+        "Henry Massalin",
+        "Calton Pu"
+      ],
+      "pages": "191-201",
+      "year": "1989",
+      "venue": "SOSP 1989",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MassalinP89",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MassalinP89.html",
+      "ee_links": [
+        "https://doi.org/10.1145/74850.74869"
+      ]
+    }
+  ]
+}

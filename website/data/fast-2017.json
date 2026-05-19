@@ -1,0 +1,552 @@
+{
+  "id": "fast-2017",
+  "venue": "fast",
+  "year": 2017,
+  "short_name": "FAST",
+  "full_name": "USENIX Conference on File and Storage Technologies",
+  "source_url": "https://dblp.org/db/conf/fast/fast2017.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/fast/fast2017.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/fast/2017",
+    "conf/fast/2017-1",
+    "conf/fast/2017-2",
+    "conf/fast/2017-3",
+    "conf/fast/2017-4",
+    "conf/fast/2017-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Conference on File and Storage Technologies"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 28,
+  "display_count": 28,
+  "papers": [
+    {
+      "title": "Algorithms and Data Structures for Efficient Free Space Reclamation in WAFL",
+      "authors": [
+        "Ram Kesavan",
+        "Rohit Singh",
+        "Travis Grusecki",
+        "Yuvraj Patel"
+      ],
+      "pages": "1-14",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KesavanSGP17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KesavanSGP17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/kesavan"
+      ]
+    },
+    {
+      "title": "Application Crash Consistency and Performance with CCFS",
+      "authors": [
+        "Thanumalayan Sankaranarayana Pillai",
+        "Ramnatthan Alagappan",
+        "Lanyue Lu",
+        "Vijay Chidambaram",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "181-196",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/PillaiALCAA17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/PillaiALCAA17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/pillai"
+      ]
+    },
+    {
+      "title": "Chronix: Long Term Storage and Retrieval Technology for Anomaly Detection in Operational Data",
+      "authors": [
+        "Florian Lautenschlager 0001",
+        "Michael Philippsen",
+        "Andreas Kumlehn",
+        "Josef Adersberger"
+      ],
+      "pages": "229-242",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LautenschlagerP17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LautenschlagerP17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/lautenschlager"
+      ]
+    },
+    {
+      "title": "Crystal: Software-Defined Storage for Multi-Tenant Object Stores",
+      "authors": [
+        "Ra&uacute;l Gracia Tinedo",
+        "Josep Samp&eacute;",
+        "Edgar Zamora-G&oacute;mez",
+        "Marc S&aacute;nchez Artigas",
+        "Pedro Garc&iacute;a L&oacute;pez",
+        "Yosef Moatti",
+        "Eran Rom"
+      ],
+      "pages": "243-256",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/TinedoSZALMR17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/TinedoSZALMR17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/gracia-tinedo"
+      ]
+    },
+    {
+      "title": "DIDACache: A Deep Integration of Device and Application for Flash Based Key-Value Caching",
+      "authors": [
+        "Zhaoyan Shen",
+        "Feng Chen 0005",
+        "Yichen Jia",
+        "Zili Shao"
+      ],
+      "pages": "391-405",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ShenCJS17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ShenCJS17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/shen"
+      ]
+    },
+    {
+      "title": "Enlightening the I/O Path: A Holistic Approach for Application Performance",
+      "authors": [
+        "Sangwook Kim",
+        "Hwanju Kim",
+        "Joonwon Lee",
+        "Jinkyu Jeong"
+      ],
+      "pages": "345-358",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimKLJ17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimKLJ17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/kim-sangwook"
+      ]
+    },
+    {
+      "title": "Evolving Ext4 for Shingled Disks",
+      "authors": [
+        "Abutalib Aghayev",
+        "Theodore Y. Ts'o",
+        "Garth Gibson",
+        "Peter Desnoyers"
+      ],
+      "pages": "105-120",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/AghayevTGD17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/AghayevTGD17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/aghayev"
+      ]
+    },
+    {
+      "title": "Facilitating Magnetic Recording Technology Scaling for Data Center Hard Disk Drives through Filesystem-Level Transparent Local Erasure Coding",
+      "authors": [
+        "Yin Li",
+        "Hao Wang 0042",
+        "Xuebin Zhang",
+        "Ning Zheng",
+        "Shafa Dahandeh",
+        "Tong Zhang 0002"
+      ],
+      "pages": "135-148",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiWZZD017",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiWZZD017.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/li"
+      ]
+    },
+    {
+      "title": "File Systems Fated for Senescence? Nonsense, Says Science!",
+      "authors": [
+        "Alexander Conway 0001",
+        "Ainesh Bakshi",
+        "Yizheng Jiao",
+        "William Jannen",
+        "Yang Zhan 0001",
+        "Jun Yuan 0006",
+        "Michael A. Bender",
+        "Rob Johnson 0001",
+        "Bradley C. Kuszmaul",
+        "Donald E. Porter",
+        "Martin Farach-Colton"
+      ],
+      "pages": "45-58",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ConwayBJJZYBJKP17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ConwayBJJZYBJKP17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/conway"
+      ]
+    },
+    {
+      "title": "FlashBlox: Achieving Both Performance Isolation and Uniform Lifetime for Virtualized SSDs",
+      "authors": [
+        "Jian Huang 0006",
+        "Anirudh Badam",
+        "Laura Caulfield",
+        "Suman Nath",
+        "Sudipta Sengupta",
+        "Bikash Sharma",
+        "Moinuddin K. Qureshi"
+      ],
+      "pages": "375-390",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HuangBCNSSQ17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HuangBCNSSQ17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/huang"
+      ]
+    },
+    {
+      "title": "Graphene: Fine-Grained IO Management for Graph Computing",
+      "authors": [
+        "Hang Liu 0001",
+        "H. Howie Huang"
+      ],
+      "pages": "285-300",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LiuH17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LiuH17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/liu"
+      ]
+    },
+    {
+      "title": "High Performance Metadata Integrity Protection in the WAFL Copy-on-Write File System",
+      "authors": [
+        "Harendra Kumar",
+        "Yuvraj Patel",
+        "Ram Kesavan",
+        "Sumith Makam"
+      ],
+      "pages": "197-212",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KumarPKM17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KumarPKM17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/kumar"
+      ]
+    },
+    {
+      "title": "HopsFS: Scaling Hierarchical File System Metadata Using NewSQL Databases",
+      "authors": [
+        "Salman Niazi",
+        "Mahmoud Ismail",
+        "Seif Haridi",
+        "Jim Dowling",
+        "Steffen Grohsschmiedt",
+        "Mikael Ronstr&ouml;m"
+      ],
+      "pages": "89-104",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/NiaziIHDGR17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/NiaziIHDGR17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/niazi"
+      ]
+    },
+    {
+      "title": "Knockoff: Cheap Versions in the Cloud",
+      "authors": [
+        "Xianzheng Dou",
+        "Peter M. Chen",
+        "Jason Flinn"
+      ],
+      "pages": "73-88",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DouCF17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DouCF17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/dou"
+      ]
+    },
+    {
+      "title": "LightNVM: The Linux Open-Channel SSD Subsystem",
+      "authors": [
+        "Matias Bj&oslash;rling",
+        "Javier Gonz&aacute;lez 0006",
+        "Philippe Bonnet"
+      ],
+      "pages": "359-374",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BjorlingGB17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BjorlingGB17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/bjorling"
+      ]
+    },
+    {
+      "title": "Memory-Driven Computing",
+      "authors": [
+        "Kimberly Keeton"
+      ],
+      "pages": null,
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/Keeton17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/Keeton17.html",
+      "ee_links": []
+    },
+    {
+      "title": "Mirador: An Active Control Plane for Datacenter Storage",
+      "authors": [
+        "Jake Wires",
+        "Andrew Warfield"
+      ],
+      "pages": "213-228",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/WiresW17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/WiresW17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/wires"
+      ]
+    },
+    {
+      "title": "Omid, Reloaded: Scalable and Highly-Available Transaction Processing",
+      "authors": [
+        "Edward Bortnikov",
+        "Eshcar Hillel",
+        "Idit Keidar",
+        "Ivan Kelly",
+        "Matthieu Morel",
+        "Sameer Paranjpye",
+        "Francisco Perez-Sorrosal",
+        "Ohad Shacham"
+      ],
+      "pages": "167-180",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/BortnikovHKKMPP17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/BortnikovHKKMPP17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/shacham"
+      ]
+    },
+    {
+      "title": "On the Accuracy and Scalability of Intensive I/O Workload Replay",
+      "authors": [
+        "Alireza Haghdoost",
+        "Weiping He",
+        "Jerry Fredin",
+        "David H. C. Du"
+      ],
+      "pages": "315-328",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HaghdoostHFD17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HaghdoostHFD17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/haghdoost"
+      ]
+    },
+    {
+      "title": "On the Performance Variation in Modern Storage Stacks",
+      "authors": [
+        "Zhen Cao",
+        "Vasily Tarasov",
+        "Hari Prasath Raman",
+        "Dean Hildebrand",
+        "Erez Zadok"
+      ],
+      "pages": "329-344",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/CaoTRHZ17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/CaoTRHZ17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/cao"
+      ]
+    },
+    {
+      "title": "Redundancy Does Not Imply Fault Tolerance: Analysis of Distributed Storage Reactions to Single Errors and Corruptions",
+      "authors": [
+        "Aishwarya Ganesan",
+        "Ramnatthan Alagappan",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau"
+      ],
+      "pages": "149-166",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/GanesanAAA17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/GanesanAAA17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/ganesan"
+      ]
+    },
+    {
+      "title": "SHRD: Improving Spatial Locality in Flash Storage Accesses by Sequentializing in Host and Randomizing in Device",
+      "authors": [
+        "Hyukjoong Kim",
+        "Dongkun Shin",
+        "Yunho Jeong",
+        "Kyung Ho Kim"
+      ],
+      "pages": "271-284",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/KimSJK17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/KimSJK17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/kim"
+      ]
+    },
+    {
+      "title": "SMaRT: An Approach to Shingled Magnetic Recording Translation",
+      "authors": [
+        "Weiping He",
+        "David H. C. Du"
+      ],
+      "pages": "121-134",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/HeD17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/HeD17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/he"
+      ]
+    },
+    {
+      "title": "The Logic of Physical Garbage Collection in Deduplicating Storage",
+      "authors": [
+        "Fred Douglis",
+        "Abhinav Duggal",
+        "Philip Shilane",
+        "Tony Wong",
+        "Shiqin Yan",
+        "Fabiano C. Botelho"
+      ],
+      "pages": "29-44",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/DouglisDSWYB17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/DouglisDSWYB17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/douglis"
+      ]
+    },
+    {
+      "title": "Tiny-Tail Flash: Near-Perfect Elimination of Garbage Collection Tail Latencies in NAND SSDs",
+      "authors": [
+        "Shiqin Yan",
+        "Huaicheng Li",
+        "Mingzhe Hao",
+        "Michael Hao Tong",
+        "Swaminathan Sundararaman",
+        "Andrew A. Chien",
+        "Haryadi S. Gunawi"
+      ],
+      "pages": "15-28",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/YanLHTSCG17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/YanLHTSCG17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/yan"
+      ]
+    },
+    {
+      "title": "To FUSE or Not to FUSE: Performance of User-Space File Systems",
+      "authors": [
+        "Bharath Kumar Reddy Vangoor",
+        "Vasily Tarasov",
+        "Erez Zadok"
+      ],
+      "pages": "59-72",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/VangoorTZ17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/VangoorTZ17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/vangoor"
+      ]
+    },
+    {
+      "title": "vNFS: Maximizing NFS Performance with Compounds and Vectorized I/O",
+      "authors": [
+        "Ming Chen 0013",
+        "Dean Hildebrand",
+        "Henry Nelson",
+        "Jasmit Saluja",
+        "Ashok Sankar Harihara Subramony",
+        "Erez Zadok"
+      ],
+      "pages": "301-314",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/ChenHNSSZ17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/ChenHNSSZ17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/chen"
+      ]
+    },
+    {
+      "title": "WORT: Write Optimal Radix Tree for Persistent Memory Storage Systems",
+      "authors": [
+        "Se Kwon Lee",
+        "K. Hyun Lim",
+        "Hyunsub Song",
+        "Beomseok Nam",
+        "Sam H. Noh"
+      ],
+      "pages": "257-270",
+      "year": "2017",
+      "venue": "FAST 2017",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/fast/LeeLSNN17",
+      "dblp_url": "https://dblp.org/rec/conf/fast/LeeLSNN17.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/fast17/technical-sessions/presentation/lee-se-kwon"
+      ]
+    }
+  ]
+}

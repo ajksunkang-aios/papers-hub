@@ -1,0 +1,911 @@
+{
+  "id": "sosp-2024",
+  "venue": "sosp",
+  "year": 2024,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp2024.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp2024.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/2024",
+    "conf/sosp/2024-1",
+    "conf/sosp/2024-2",
+    "conf/sosp/2024-3",
+    "conf/sosp/2024-4",
+    "conf/sosp/2024-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 43,
+  "display_count": 43,
+  "papers": [
+    {
+      "title": "Aceso: Achieving Efficient Fault Tolerance in Memory-Disaggregated Key-Value Stores",
+      "authors": [
+        "Zhisheng Hu",
+        "Pengfei Zuo",
+        "Yizou Chen",
+        "Chao Wang 0125",
+        "Junliang Hu",
+        "Ming-Chang Yang"
+      ],
+      "pages": "127-143",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HuZCWHY24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HuZCWHY24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695951"
+      ]
+    },
+    {
+      "title": "Apparate: Rethinking Early Exits to Tame Latency-Throughput Tensions in ML Serving",
+      "authors": [
+        "Yinwei Dai",
+        "Rui Pan 0003",
+        "Anand P. Iyer",
+        "Kai Li 0001",
+        "Ravi Netravali"
+      ],
+      "pages": "607-623",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DaiPILN24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DaiPILN24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695963"
+      ]
+    },
+    {
+      "title": "Autobahn: Seamless high speed BFT",
+      "authors": [
+        "Neil Giridharan",
+        "Florian Suri-Payer",
+        "Ittai Abraham",
+        "Lorenzo Alvisi",
+        "Natacha Crooks"
+      ],
+      "pages": "1-23",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GiridharanSAAC24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GiridharanSAAC24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695942"
+      ]
+    },
+    {
+      "title": "BIZA: Design of Self-Governing Block-Interface ZNS AFA for Endurance and Performance",
+      "authors": [
+        "Shushu Yi",
+        "Shaocong Sun",
+        "Li Peng",
+        "Yingbo Sun",
+        "Ming-Chang Yang",
+        "Zhichao Cao 0002",
+        "Qiao Li 0001",
+        "Myoungsoo Jung",
+        "Ke Zhou 0001",
+        "Jie Zhang 0048"
+      ],
+      "pages": "313-329",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YiSPSYCLJZ024",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YiSPSYCLJZ024.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695953"
+      ]
+    },
+    {
+      "title": "Caribou: Fine-Grained Geospatial Shifting of Serverless Applications for Sustainability",
+      "authors": [
+        "Viktor Urban Gsteiger",
+        "Pin Hong (Daniel) Long",
+        "Yiran (Jerry) Sun",
+        "Parshan Javanrood",
+        "Mohammad Shahrad"
+      ],
+      "pages": "403-420",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GsteigerLSJS24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GsteigerLSJS24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695954"
+      ]
+    },
+    {
+      "title": "CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory",
+      "authors": [
+        "Xuchuan Luo",
+        "Jiacheng Shen",
+        "Pengfei Zuo",
+        "Xin Wang 0002",
+        "Michael R. Lyu",
+        "Yangfan Zhou 0002"
+      ],
+      "pages": "110-126",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LuoSZ0LZ24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LuoSZ0LZ24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695959"
+      ]
+    },
+    {
+      "title": "Cookie Monster: Efficient On-Device Budgeting for Differentially-Private Ad-Measurement Systems",
+      "authors": [
+        "Pierre Tholoniat",
+        "Kelly Kostopoulou",
+        "Peter McNeely",
+        "Prabhpreet Singh Sodhi",
+        "Anirudh Varanasi",
+        "Benjamin Case",
+        "Asaf Cidon",
+        "Roxana Geambasu",
+        "Mathias L&eacute;cuyer"
+      ],
+      "pages": "693-708",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/TholoniatKMSVCC24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/TholoniatKMSVCC24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695965"
+      ]
+    },
+    {
+      "title": "Dirigent: Lightweight Serverless Orchestration",
+      "authors": [
+        "Lazar Cvetkovic",
+        "Fran&ccedil;ois Costa",
+        "Mihajlo Djokic",
+        "Michal Friedman 0001",
+        "Ana Klimovic"
+      ],
+      "pages": "369-384",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CvetkovicCD0K24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CvetkovicCD0K24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695966"
+      ]
+    },
+    {
+      "title": "DNS Congestion Control in Adversarial Settings",
+      "authors": [
+        "Huayi Duan",
+        "Jihye Kim 0008",
+        "Marc Wyss",
+        "Adrian Perrig"
+      ],
+      "pages": "726-747",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DuanKWP24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DuanKWP24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695982"
+      ]
+    },
+    {
+      "title": "Efficient Reproduction of Fault-Induced Failures in Distributed Systems with Feedback-Driven Fault Injection",
+      "authors": [
+        "Jia Pan",
+        "Haoze Wu",
+        "Tanakorn Leesatapornwongsa",
+        "Suman Nath",
+        "Peng Huang 0005"
+      ],
+      "pages": "46-62",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PanWLN024",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PanWLN024.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695979"
+      ]
+    },
+    {
+      "title": "Enabling Parallelism Hot Switching for Efficient Training of Large Language Models",
+      "authors": [
+        "Hao Ge",
+        "Fangcheng Fu",
+        "Haoyang Li 0017",
+        "Xuanyu Wang",
+        "Sheng Lin",
+        "Yujie Wang",
+        "Xiaonan Nie",
+        "Hailin Zhang 0004",
+        "Xupeng Miao",
+        "Bin Cui 0001"
+      ],
+      "pages": "178-194",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GeFLWLWN0M024",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GeFLWLWN0M024.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695969"
+      ]
+    },
+    {
+      "title": "Fast & Safe IO Memory Protection",
+      "authors": [
+        "Benny Rubin",
+        "Saksham Agarwal",
+        "Qizhe Cai",
+        "Rachit Agarwal 0001"
+      ],
+      "pages": "95-109",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/RubinAC024",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/RubinAC024.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695943"
+      ]
+    },
+    {
+      "title": "Fast Core Scheduling with Userspace Process Abstraction",
+      "authors": [
+        "Jiazhen Lin",
+        "Youmin Chen",
+        "Shiwei Gao",
+        "Youyou Lu"
+      ],
+      "pages": "280-295",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LinCGL24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LinCGL24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695976"
+      ]
+    },
+    {
+      "title": "Fast, Flexible, and Practical Kernel Extensions",
+      "authors": [
+        "Kumar Kartikeya Dwivedi",
+        "Rishabh R. Iyer",
+        "Sanidhya Kashyap"
+      ],
+      "pages": "249-264",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DwivediIK24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DwivediIK24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695950"
+      ]
+    },
+    {
+      "title": "FBDetect: Catching Tiny Performance Regressions at Hyperscale through In-Production Monitoring",
+      "authors": [
+        "Dong Young Yoon",
+        "Yang Wang 0009",
+        "Miao Yu 0023",
+        "Elvis Huang",
+        "Juan Ignacio Jones",
+        "Abhinay Kukkadapu",
+        "Osman Kocas",
+        "Jonathan Wiepert",
+        "Kapil Goenka",
+        "Sherry Chen",
+        "Yanjun Lin",
+        "Zhihui Huang",
+        "Jocelyn Kong",
+        "Michael Chow",
+        "Chunqiang Tang"
+      ],
+      "pages": "522-540",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Yoon0YHJKKWGCLH24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Yoon0YHJKKWGCLH24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695977"
+      ]
+    },
+    {
+      "title": "Icarus: Trustworthy Just-In-Time Compilers with Symbolic Meta-Execution",
+      "authors": [
+        "Naomi Smith",
+        "Abhishek Sharma 0017",
+        "John Renner",
+        "David Thien",
+        "Fraser Brown",
+        "Hovav Shacham",
+        "Ranjit Jhala",
+        "Deian Stefan"
+      ],
+      "pages": "473-487",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SmithSRTBSJS24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SmithSRTBSJS24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695949"
+      ]
+    },
+    {
+      "title": "If At First You Don't Succeed, Try, Try, Again...? Insights and LLM-informed Tooling for Detecting Retry Bugs in Software Systems",
+      "authors": [
+        "Bogdan Alexandru Stoica",
+        "Utsav Sethi",
+        "Yiming Su",
+        "Cyrus Zhou",
+        "Shan Lu 0001",
+        "Jonathan Mace",
+        "Madanlal Musuvathi",
+        "Suman Nath"
+      ],
+      "pages": "63-78",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/StoicaSSZ0MMN24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/StoicaSSZ0MMN24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695971"
+      ]
+    },
+    {
+      "title": "Improving DNN Inference Throughput Using Practical, Per-Input Compute Adaptation",
+      "authors": [
+        "Anand Padmanabha Iyer",
+        "Mingyu Guan",
+        "Yinwei Dai",
+        "Rui Pan 0003",
+        "Swapnil Gandhi",
+        "Ravi Netravali"
+      ],
+      "pages": "624-639",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/IyerGDPGN24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/IyerGDPGN24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695978"
+      ]
+    },
+    {
+      "title": "LazyLog: A New Shared Log Abstraction for Low-Latency Applications",
+      "authors": [
+        "Xuhao Luo",
+        "Shreesha G. Bhat",
+        "Jiyu Hu",
+        "Ramnatthan Alagappan",
+        "Aishwarya Ganesan"
+      ],
+      "pages": "296-312",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LuoBHAG24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LuoBHAG24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695983"
+      ]
+    },
+    {
+      "title": "LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism",
+      "authors": [
+        "Bingyang Wu",
+        "Shengyu Liu",
+        "Yinmin Zhong",
+        "Peng Sun 0006",
+        "Xuanzhe Liu",
+        "Xin Jin 0008"
+      ],
+      "pages": "640-654",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WuLZ0L024",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WuLZ0L024.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695948"
+      ]
+    },
+    {
+      "title": "Modular Verification of Secure and Leakage-Free Systems: From Application Specification to Circuit-Level Implementation",
+      "authors": [
+        "Anish Athalye",
+        "Henry Corrigan-Gibbs",
+        "M. Frans Kaashoek",
+        "Joseph Tassarotti",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "655-672",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AthalyeCKTZ24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AthalyeCKTZ24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695956"
+      ]
+    },
+    {
+      "title": "Morph: Efficient File-Lifetime Redundancy Management for Cluster File Systems",
+      "authors": [
+        "Timothy Kim",
+        "Sanjith Athlur",
+        "Saurabh Kadekodi",
+        "Francisco Maturana",
+        "Dax Delvira",
+        "Arif Merchant",
+        "Gregory R. Ganger",
+        "K. V. Rashmi"
+      ],
+      "pages": "330-346",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KimAKMDMGR24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KimAKMDMGR24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695981"
+      ]
+    },
+    {
+      "title": "NOPE: Strengthening domain authentication with succinct proofs",
+      "authors": [
+        "Zachary DeStefano",
+        "Jeff J. Ma",
+        "Joseph Bonneau",
+        "Michael Walfish"
+      ],
+      "pages": "673-692",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/DeStefanoMBW24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/DeStefanoMBW24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695962"
+      ]
+    },
+    {
+      "title": "OZZ: Identifying Kernel Out-of-Order Concurrency Bugs with In-Vivo Memory Access Reordering",
+      "authors": [
+        "Dae R. Jeong",
+        "Yewon Choi",
+        "Byoungyoung Lee",
+        "Insik Shin",
+        "Youngjin Kwon"
+      ],
+      "pages": "229-248",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JeongCLSK24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JeongCLSK24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695944"
+      ]
+    },
+    {
+      "title": "PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU",
+      "authors": [
+        "Yixin Song",
+        "Zeyu Mi",
+        "Haotong Xie",
+        "Haibo Chen 0001"
+      ],
+      "pages": "590-606",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SongMX024",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SongMX024.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695964"
+      ]
+    },
+    {
+      "title": "Practical Verification of System-Software Components Written in Standard C",
+      "authors": [
+        "Can Cebeci",
+        "Yonghao Zou",
+        "Diyu Zhou",
+        "George Candea",
+        "Cl&eacute;ment Pit-Claudel"
+      ],
+      "pages": "455-472",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CebeciZZCP24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CebeciZZCP24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695980"
+      ]
+    },
+    {
+      "title": "ReCycle: Resilient Training of Large DNNs using Pipeline Adaptation",
+      "authors": [
+        "Swapnil Gandhi",
+        "Mark Zhao",
+        "Athinagoras Skiadopoulos",
+        "Christos Kozyrakis"
+      ],
+      "pages": "211-228",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GandhiZSK24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GandhiZSK24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695960"
+      ]
+    },
+    {
+      "title": "Reducing Cross-Cloud/Region Costs with the Auto-Configuring MACARON Cache",
+      "authors": [
+        "Hojin Park",
+        "Ziyue Qiu",
+        "Gregory R. Ganger",
+        "George Amvrosiadis"
+      ],
+      "pages": "347-368",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ParkQGA24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ParkQGA24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695972"
+      ]
+    },
+    {
+      "title": "Reducing Energy Bloat in Large Model Training",
+      "authors": [
+        "Jae-Won Chung",
+        "Yile Gu",
+        "Insu Jang",
+        "Luoxi Meng",
+        "Nikhil Bansal 0001",
+        "Mosharaf Chowdhury"
+      ],
+      "pages": "144-159",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ChungGJM0C24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ChungGJM0C24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695970"
+      ]
+    },
+    {
+      "title": "Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor with T10",
+      "authors": [
+        "Yiqi Liu",
+        "Yuqi Xue",
+        "Yu Cheng",
+        "Lingxiao Ma",
+        "Ziming Miao",
+        "Jilong Xue",
+        "Jian Huang 0006"
+      ],
+      "pages": "505-521",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiuXCMMX024",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiuXCMMX024.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695955"
+      ]
+    },
+    {
+      "title": "Sesame: Practical End-to-End Privacy Compliance with Policy Containers and Privacy Regions",
+      "authors": [
+        "Kinan Dak Albab",
+        "Artem Agvanian",
+        "Allen Aby",
+        "Corinn Tiffany",
+        "Alexander Portland",
+        "Sarah Ridley",
+        "Malte Schwarzkopf"
+      ],
+      "pages": "709-725",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AlbabAATPRS24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AlbabAATPRS24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695984"
+      ]
+    },
+    {
+      "title": "SilvanForge: A Schedule-Guided Retargetable Compiler for Decision Tree Inference",
+      "authors": [
+        "Ashwin Prasad",
+        "Sampath Rajendra",
+        "Kaushik Rajan",
+        "R. Govindarajan",
+        "Uday Bondhugula"
+      ],
+      "pages": "488-504",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PrasadRRGB24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PrasadRRGB24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695958"
+      ]
+    },
+    {
+      "title": "Skyloft: A General High-Efficient Scheduling Framework in User Space",
+      "authors": [
+        "Yuekai Jia",
+        "Kaifu Tian",
+        "Yuyang You",
+        "Yu Chen 0004",
+        "Kang Chen"
+      ],
+      "pages": "265-279",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/JiaTY0C24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/JiaTY0C24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695973"
+      ]
+    },
+    {
+      "title": "SWARM: Replicating Shared Disaggregated-Memory Data in No Time",
+      "authors": [
+        "Antoine Murat",
+        "Cl&eacute;ment Burgelin",
+        "Athanasios Xygkis",
+        "Igor Zablotchi",
+        "Marcos Kawazoe Aguilera",
+        "Rachid Guerraoui"
+      ],
+      "pages": "24-45",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MuratBXZAG24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MuratBXZAG24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695945"
+      ]
+    },
+    {
+      "title": "Tenplex: Dynamic Parallelism for Deep Learning using Parallelizable Tensor Collections",
+      "authors": [
+        "Marcel Wagenl&auml;nder",
+        "Guo Li",
+        "Bo Zhao 0019",
+        "Luo Mai",
+        "Peter R. Pietzuch"
+      ],
+      "pages": "195-210",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/WagenlanderL0MP24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/WagenlanderL0MP24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695975"
+      ]
+    },
+    {
+      "title": "Tiered Memory Management: Access Latency is the Key!",
+      "authors": [
+        "Midhul Vuppalapati",
+        "Rachit Agarwal 0001"
+      ],
+      "pages": "79-94",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Vuppalapati024",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Vuppalapati024.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695968"
+      ]
+    },
+    {
+      "title": "TrEnv: Transparently Share Serverless Execution Environments Across Different Functions and Nodes",
+      "authors": [
+        "Jialiang Huang",
+        "Mingxing Zhang",
+        "Teng Ma 0006",
+        "Zheng Liu",
+        "Sixing Lin",
+        "Kang Chen",
+        "Jinlei Jiang",
+        "Xia Liao",
+        "Yingdi Shan",
+        "Ning Zhang",
+        "Mengting Lu",
+        "Tao Ma 0006",
+        "Haifeng Gong",
+        "YongWei Wu 0001"
+      ],
+      "pages": "421-437",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/HuangZMLLCJLSZL24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/HuangZMLLCJLSZL24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695967"
+      ]
+    },
+    {
+      "title": "Uncovering Nested Data Parallelism and Data Reuse in DNN Computation with FractalTensor",
+      "authors": [
+        "Siran Liu",
+        "Chengxiang Qi",
+        "Ying Cao",
+        "Chao Yang 0002",
+        "Weifang Hu",
+        "Xuanhua Shi",
+        "Fan Yang 0024",
+        "Mao Yang 0004"
+      ],
+      "pages": "160-177",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LiuQC0HS0Y24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LiuQC0HS0Y24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695961"
+      ]
+    },
+    {
+      "title": "Unearthing Semantic Checks for Cloud Infrastructure-as-Code Programs",
+      "authors": [
+        "Yiming Qiu 0001",
+        "Patrick Tser Jern Kon",
+        "Ryan Beckett",
+        "Ang Chen 0001"
+      ],
+      "pages": "574-589",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/QiuKB024",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/QiuKB024.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695974"
+      ]
+    },
+    {
+      "title": "Unifying serverless and microservice workloads with SigmaOS",
+      "authors": [
+        "Ariel Szekely",
+        "Adam Belay",
+        "Robert Morris 0005",
+        "M. Frans Kaashoek"
+      ],
+      "pages": "385-402",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SzekelyBMK24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SzekelyBMK24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695947"
+      ]
+    },
+    {
+      "title": "Verus: A Practical Foundation for Systems Verification",
+      "authors": [
+        "Andrea Lattuada 0001",
+        "Travis Hance",
+        "Jay Bosamiya",
+        "Matthias Brun 0002",
+        "Chanhee Cho",
+        "Hayley LeBlanc",
+        "Pranav Srinivasan",
+        "Reto Achermann",
+        "Tej Chajed",
+        "Chris Hawblitzel",
+        "Jon Howell",
+        "Jacob R. Lorch",
+        "Oded Padon",
+        "Bryan Parno"
+      ],
+      "pages": "438-454",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/0001HB0CLSACHHL24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/0001HB0CLSACHHL24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695952"
+      ]
+    },
+    {
+      "title": "VPRI: Efficient I/O Page Fault Handling via Software-Hardware Co-Design for IaaS Clouds",
+      "authors": [
+        "Kaijie Guo",
+        "Dingji Li",
+        "Ben Luo",
+        "Yibin Shen",
+        "Kaihuan Peng",
+        "Ning Luo 0003",
+        "Shengdong Dai",
+        "Chen Liang",
+        "Jianming Song",
+        "Hang Yang",
+        "Xiantao Zhang",
+        "Zeyu Mi"
+      ],
+      "pages": "541-557",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GuoLLSPLDLSYZM24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GuoLLSPLDLSYZM24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695957"
+      ]
+    },
+    {
+      "title": "vSoC: Efficient Virtual System-on-Chip on Heterogeneous Hardware",
+      "authors": [
+        "Jiaxing Qiu",
+        "Zijie Zhou",
+        "Yang Li 0092",
+        "Zhenhua Li 0001",
+        "Feng Qian 0001",
+        "Hao Lin 0005",
+        "Di Gao",
+        "Haitao Su",
+        "Xin Miao",
+        "Yunhao Liu 0001",
+        "Tianyin Xu"
+      ],
+      "pages": "558-573",
+      "year": "2024",
+      "venue": "SOSP 2024",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/QiuZL00LGSMLX24",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/QiuZL00LGSMLX24.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3694715.3695946"
+      ]
+    }
+  ]
+}

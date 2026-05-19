@@ -1,0 +1,1435 @@
+{
+  "id": "isca-2019",
+  "venue": "isca",
+  "year": 2019,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca2019.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca2019.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/2019",
+    "conf/isca/2019-1",
+    "conf/isca/2019-2",
+    "conf/isca/2019-3",
+    "conf/isca/2019-4",
+    "conf/isca/2019-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 70,
+  "display_count": 70,
+  "papers": [
+    {
+      "title": "3D-based video recognition acceleration by leveraging temporal locality",
+      "authors": [],
+      "pages": "79-90",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChenSZDL19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChenSZDL19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322260",
+        "https://ieeexplore.ieee.org/document/8980364"
+      ]
+    },
+    {
+      "title": "A quantum computational compiler and design tool for technology-specific targets",
+      "authors": [
+        "Kaitlin N. Smith",
+        "Mitchell A. Thornton"
+      ],
+      "pages": "579-588",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SmithT19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SmithT19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322262",
+        "https://ieeexplore.ieee.org/document/8980363",
+        "https://www.wikidata.org/entity/Q130840850"
+      ]
+    },
+    {
+      "title": "A stochastic-computing based deep learning framework using adiabatic quantum-flux-parametron superconducting technology",
+      "authors": [
+        "Ruizhe Cai",
+        "Ao Ren",
+        "Olivia Chen",
+        "Ning Liu 0007",
+        "Caiwen Ding",
+        "Xuehai Qian",
+        "Jie Han 0001",
+        "Wenhui Luo",
+        "Nobuyuki Yoshikawa",
+        "Yanzhi Wang 0001"
+      ],
+      "pages": "567-578",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CaiRCLDQ0LYW19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CaiRCLDQ0LYW19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322270",
+        "https://ieeexplore.ieee.org/document/8980314",
+        "https://www.wikidata.org/entity/Q130920955"
+      ]
+    },
+    {
+      "title": "Accelerating distributed reinforcement learning with in-switch computing",
+      "authors": [
+        "Youjie Li",
+        "Iou-Jen Liu",
+        "Yifan Yuan",
+        "Deming Chen",
+        "Alexander G. Schwing",
+        "Jian Huang 0006"
+      ],
+      "pages": "279-291",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiLYCSH19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiLYCSH19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322259",
+        "https://ieeexplore.ieee.org/document/8980345",
+        "https://www.wikidata.org/entity/Q130879663"
+      ]
+    },
+    {
+      "title": "Adaptive memory-side last-level GPU caching",
+      "authors": [
+        "Xia Zhao 0004",
+        "Almutaz Adileh",
+        "Zhibin Yu 0001",
+        "Zhiying Wang 0003",
+        "Aamer Jaleel",
+        "Lieven Eeckhout"
+      ],
+      "pages": "411-423",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhaoA0WJE19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhaoA0WJE19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322235",
+        "https://ieeexplore.ieee.org/document/8980335"
+      ]
+    },
+    {
+      "title": "Anubis: ultra-low overhead and recovery time for secure non-volatile memories",
+      "authors": [
+        "Kazi Abu Zubair",
+        "Amro Awad"
+      ],
+      "pages": "157-168",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZubairA19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZubairA19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322252",
+        "https://ieeexplore.ieee.org/document/8980323"
+      ]
+    },
+    {
+      "title": "AsmDB: understanding and mitigating front-end stalls in warehouse-scale computers",
+      "authors": [
+        "Grant Ayers",
+        "Nayana Prasad Nagendra",
+        "David I. August",
+        "Hyoun Kyu Cho",
+        "Svilen Kanev",
+        "Christos Kozyrakis",
+        "Trivikram Krishnamurthy",
+        "Heiner Litz",
+        "Tipp Moseley",
+        "Parthasarathy Ranganathan"
+      ],
+      "pages": "462-473",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AyersNACKKKLMR19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AyersNACKKKLMR19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322234",
+        "https://ieeexplore.ieee.org/document/8980365"
+      ]
+    },
+    {
+      "title": "Asymptotic improvements to quantum circuits via qutrits",
+      "authors": [
+        "Pranav Gokhale",
+        "Jonathan M. Baker",
+        "Casey Duckering",
+        "Natalie C. Brown",
+        "Kenneth R. Brown",
+        "Frederic T. Chong"
+      ],
+      "pages": "554-566",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GokhaleBDBBC19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GokhaleBDBBC19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322253",
+        "https://ieeexplore.ieee.org/document/8980315",
+        "https://www.wikidata.org/entity/Q130916961"
+      ]
+    },
+    {
+      "title": "AxMemo: hardware-compiler co-design for approximate code memoization",
+      "authors": [
+        "Zhenhong Liu",
+        "Amir Yazdanbakhsh",
+        "Dong Kai Wang",
+        "Hadi Esmaeilzadeh",
+        "Nam Sung Kim"
+      ],
+      "pages": "685-697",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LiuYWEK19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LiuYWEK19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322215",
+        "https://ieeexplore.ieee.org/document/8980340",
+        "https://www.wikidata.org/entity/Q130879598"
+      ]
+    },
+    {
+      "title": "Bit-level perceptron prediction for indirect branches",
+      "authors": [
+        "Elba Garza",
+        "Samira Mirbagher Ajorpaz",
+        "Tahsin Ahmad Khan",
+        "Daniel A. Jim&eacute;nez"
+      ],
+      "pages": "27-38",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GarzaAKJ19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GarzaAKJ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322217",
+        "https://ieeexplore.ieee.org/document/8980337"
+      ]
+    },
+    {
+      "title": "Bouncer: static program analysis in hardware",
+      "authors": [
+        "Joseph McMahan",
+        "Michael Christensen 0001",
+        "Kyle Dewey",
+        "Ben Hardekopf",
+        "Timothy Sherwood"
+      ],
+      "pages": "711-722",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/McMahanCDHS19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/McMahanCDHS19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322256",
+        "https://ieeexplore.ieee.org/document/8980367",
+        "https://www.wikidata.org/entity/Q130962761"
+      ]
+    },
+    {
+      "title": "Cambricon-F: machine learning computers with fractal von neumann architecture",
+      "authors": [
+        "Yongwei Zhao 0001",
+        "Zidong Du",
+        "Qi Guo 0001",
+        "Shaoli Liu",
+        "Ling Li 0001",
+        "Zhiwei Xu 0002",
+        "Tianshi Chen 0002",
+        "Yunji Chen"
+      ],
+      "pages": "788-801",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhaoDGL0XCC19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhaoDGL0XCC19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322226",
+        "https://ieeexplore.ieee.org/document/8980346"
+      ]
+    },
+    {
+      "title": "CoNDA: efficient cache coherence support for near-data accelerators",
+      "authors": [
+        "Amirali Boroumand",
+        "Saugata Ghose",
+        "Minesh Patel",
+        "Hasan Hassan",
+        "Brandon Lucia",
+        "Rachata Ausavarungnirun",
+        "Kevin Hsieh",
+        "Nastaran Hajinazar",
+        "Krishna T. Malladi",
+        "Hongzhong Zheng",
+        "Onur Mutlu"
+      ],
+      "pages": "629-642",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BoroumandGPHLAH19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BoroumandGPHLAH19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322266",
+        "https://ieeexplore.ieee.org/document/8980366"
+      ]
+    },
+    {
+      "title": "CoWLight: Hardware Assisted Copy-on-Write Fault Handling for Secure Deduplication",
+      "authors": [
+        "Santhosh Kumar T",
+        "Debadatta Mishra",
+        "Biswabandan Panda",
+        "Nayan Deshmukh"
+      ],
+      "pages": "3:1-3:8",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TMPD19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TMPD19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3337167.3337170"
+      ]
+    },
+    {
+      "title": "Cracking Randomized Coalescing Techniques with An Efficient Profiling-Based Side-Channel Attack to GPU",
+      "authors": [
+        "Xin Wang 0056",
+        "Wei Zhang 0002"
+      ],
+      "pages": "2:1-2:8",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/0056019",
+      "dblp_url": "https://dblp.org/rec/conf/isca/0056019.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3337167.3337169"
+      ]
+    },
+    {
+      "title": "CROW: a low-cost substrate for improving DRAM performance, energy efficiency, and reliability",
+      "authors": [
+        "Hasan Hassan",
+        "Minesh Patel",
+        "Jeremie S. Kim",
+        "Abdullah Giray Yaglik&ccedil;i",
+        "Nandita Vijaykumar",
+        "Nika Mansouri-Ghiasi",
+        "Saugata Ghose",
+        "Onur Mutlu"
+      ],
+      "pages": "129-142",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HassanPKYVMGM19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HassanPKYVMGM19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322231",
+        "https://ieeexplore.ieee.org/document/8980368"
+      ]
+    },
+    {
+      "title": "Cryogenic computer architecture modeling with memory-side case studies",
+      "authors": [
+        "Gyu-hyeon Lee",
+        "Dongmoon Min",
+        "Ilkwon Byun",
+        "Jangwoo Kim"
+      ],
+      "pages": "774-787",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeMBK19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeMBK19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322219",
+        "https://ieeexplore.ieee.org/document/8980358",
+        "https://www.wikidata.org/entity/Q130965194"
+      ]
+    },
+    {
+      "title": "DeepAttest: an end-to-end attestation framework for deep neural networks",
+      "authors": [
+        "Huili Chen",
+        "Cheng Fu 0002",
+        "Bita Darvish Rouhani",
+        "Jishen Zhao",
+        "Farinaz Koushanfar"
+      ],
+      "pages": "487-498",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChenFRZK19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChenFRZK19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322251",
+        "https://ieeexplore.ieee.org/document/8980316"
+      ]
+    },
+    {
+      "title": "Designing vertical processors in monolithic 3D",
+      "authors": [
+        "Bhargava Gopireddy",
+        "Josep Torrellas"
+      ],
+      "pages": "643-656",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GopireddyT19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GopireddyT19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322233",
+        "https://ieeexplore.ieee.org/document/8980321"
+      ]
+    },
+    {
+      "title": "Detecting Non-Control-Flow Hijacking Attacks Using Contextual Execution Information",
+      "authors": [
+        "Gildo Torres",
+        "Zhiliu Yang",
+        "Zander Blasingame",
+        "James Bruska",
+        "Chen Liu 0001"
+      ],
+      "pages": "1:1-1:8",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TorresYBBL19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TorresYBBL19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3337167.3337168"
+      ]
+    },
+    {
+      "title": "Duality cache for data parallel acceleration",
+      "authors": [
+        "Daichi Fujiki",
+        "Scott A. Mahlke",
+        "Reetuparna Das"
+      ],
+      "pages": "397-410",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FujikiMD19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FujikiMD19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322257",
+        "https://ieeexplore.ieee.org/document/8980308",
+        "https://www.wikidata.org/entity/Q130961290"
+      ]
+    },
+    {
+      "title": "EA-PLRU: Enclave-Aware Cache Replacement",
+      "authors": [
+        "Atsuko Shimizu",
+        "Daniel Townley",
+        "Mohit Joshi",
+        "Dmitry Ponomarev 0001"
+      ],
+      "pages": "5:1-5:8",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShimizuTJP19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShimizuTJP19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3337167.3337172"
+      ]
+    },
+    {
+      "title": "Eager pruning: algorithm and architecture support for fast training of deep neural networks",
+      "authors": [
+        "Jiaqi Zhang 0002",
+        "Xiangru Chen",
+        "Mingcong Song",
+        "Tao Li 0006"
+      ],
+      "pages": "292-303",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhangCSL19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhangCSL19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322263",
+        "https://ieeexplore.ieee.org/document/8980296"
+      ]
+    },
+    {
+      "title": "Efficient invisible speculative execution through selective delay and value prediction",
+      "authors": [
+        "Christos Sakalis",
+        "Stefanos Kaxiras",
+        "Alberto Ros 0001",
+        "Alexandra Jimborean",
+        "Magnus Sj&auml;lander"
+      ],
+      "pages": "723-735",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SakalisKRJS19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SakalisKRJS19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322216",
+        "https://ieeexplore.ieee.org/document/8980347"
+      ]
+    },
+    {
+      "title": "Efficient metadata management for irregular data prefetching",
+      "authors": [
+        "Hao Wu",
+        "Krishnendra Nathella",
+        "Dam Sunwoo",
+        "Akanksha Jain",
+        "Calvin Lin"
+      ],
+      "pages": "449-461",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WuNSJL19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WuNSJL19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322225",
+        "https://ieeexplore.ieee.org/document/8980330"
+      ]
+    },
+    {
+      "title": "Emerald: graphics modeling for SoC systems",
+      "authors": [
+        "Ayub A. Gubran",
+        "Tor M. Aamodt"
+      ],
+      "pages": "169-182",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GubranA19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GubranA19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322221",
+        "https://ieeexplore.ieee.org/document/8980297"
+      ]
+    },
+    {
+      "title": "Energy-efficient video processing for virtual reality",
+      "authors": [
+        "Yue Leng",
+        "Chi-Chun Chen",
+        "Qiuyue Sun",
+        "Jian Huang 0006",
+        "Yuhao Zhu 0001"
+      ],
+      "pages": "91-103",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LengCSHZ19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LengCSHZ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322264",
+        "https://ieeexplore.ieee.org/document/8980304"
+      ]
+    },
+    {
+      "title": "Filter caching for free: the untapped potential of the store-buffer",
+      "authors": [
+        "Ricardo Alves 0001",
+        "Alberto Ros 0001",
+        "David Black-Schaffer",
+        "Stefanos Kaxiras"
+      ],
+      "pages": "436-448",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AlvesRBK19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AlvesRBK19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322269",
+        "https://ieeexplore.ieee.org/document/8980329"
+      ]
+    },
+    {
+      "title": "Fine-grained warm water cooling for improving datacenter economy",
+      "authors": [
+        "Weixiang Jiang",
+        "Ziyang Jia",
+        "Sirui Feng",
+        "Fangming Liu",
+        "Hai Jin 0001"
+      ],
+      "pages": "474-486",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JiangJFL019",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JiangJFL019.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322236",
+        "https://ieeexplore.ieee.org/document/8980295"
+      ]
+    },
+    {
+      "title": "FloatPIM: in-memory acceleration of deep neural network training with high precision",
+      "authors": [
+        "Mohsen Imani",
+        "Saransh Gupta",
+        "Yeseong Kim",
+        "Tajana Rosing"
+      ],
+      "pages": "802-815",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ImaniGKR19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ImaniGKR19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322237",
+        "https://ieeexplore.ieee.org/document/8980299"
+      ]
+    },
+    {
+      "title": "Full-stack, real-system quantum computer studies: architectural comparisons and design insights",
+      "authors": [
+        "Prakash Murali",
+        "Norbert Matthias Linke",
+        "Margaret Martonosi",
+        "Ali Javadi-Abhari",
+        "Nhung Hong Nguyen",
+        "Cinthia Huerta Alderete"
+      ],
+      "pages": "527-540",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MuraliLMJNA19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MuraliLMJNA19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322273",
+        "https://ieeexplore.ieee.org/document/8980312"
+      ]
+    },
+    {
+      "title": "Generative and multi-phase learning for computer systems optimization",
+      "authors": [
+        "Yi Ding 0006",
+        "Nikita Mishra",
+        "Henry Hoffmann"
+      ],
+      "pages": "39-52",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DingMH19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DingMH19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3326633",
+        "https://ieeexplore.ieee.org/document/8980291",
+        "https://www.wikidata.org/entity/Q131163773"
+      ]
+    },
+    {
+      "title": "GraphSSD: graph semantics aware SSD",
+      "authors": [
+        "Kiran Kumar Matam",
+        "Gunjae Koo",
+        "Haipeng Zha 0001",
+        "Hung-Wei Tseng 0001",
+        "Murali Annavaram"
+      ],
+      "pages": "116-128",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/MatamKZTA19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/MatamKZTA19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322275",
+        "https://ieeexplore.ieee.org/document/8980325",
+        "https://www.wikidata.org/entity/Q130950283"
+      ]
+    },
+    {
+      "title": "HALO: accelerating flow classification for scalable packet processing in NFV",
+      "authors": [
+        "Yifan Yuan",
+        "Yipeng Wang 0002",
+        "Ren Wang 0001",
+        "Jian Huang 0006"
+      ],
+      "pages": "601-614",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YuanWWH19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YuanWWH19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322272",
+        "https://ieeexplore.ieee.org/document/8980332"
+      ]
+    },
+    {
+      "title": "IntelliNoC: a holistic design framework for energy-efficient and reliable on-chip communication for manycores",
+      "authors": [
+        "Ke Wang 0030",
+        "Ahmed Louri",
+        "Avinash Karanth",
+        "Razvan C. Bunescu"
+      ],
+      "pages": "589-600",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangLKB19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangLKB19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322274",
+        "https://ieeexplore.ieee.org/document/8980354"
+      ]
+    },
+    {
+      "title": "Interplay between hardware prefetcher and page eviction policy in CPU-GPU unified virtual memory",
+      "authors": [
+        "Debashis Ganguly",
+        "Ziyu Zhang",
+        "Jun Yang 0002",
+        "Rami G. Melhem"
+      ],
+      "pages": "224-235",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/GangulyZYM19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/GangulyZYM19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322224",
+        "https://ieeexplore.ieee.org/document/8980317"
+      ]
+    },
+    {
+      "title": "InvisiPage: oblivious demand paging for secure enclaves",
+      "authors": [
+        "Shaizeen Aga",
+        "Satish Narayanasamy"
+      ],
+      "pages": "372-384",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AgaN19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AgaN19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322265",
+        "https://ieeexplore.ieee.org/document/8980318"
+      ]
+    },
+    {
+      "title": "Janus: optimizing memory and storage support for non-volatile memory systems",
+      "authors": [
+        "Sihang Liu 0001",
+        "Korakit Seemakhupt",
+        "Gennady Pekhimenko",
+        "Aasheesh Kolli",
+        "Samira Manabi Khan"
+      ],
+      "pages": "143-156",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/0001SPKK19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/0001SPKK19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322206",
+        "https://ieeexplore.ieee.org/document/8980309"
+      ]
+    },
+    {
+      "title": "Laconic deep learning inference acceleration",
+      "authors": [
+        "Sayeh Sharify",
+        "Alberto Delmas Lascorz",
+        "Mostafa Mahmoud",
+        "Milos Nikolic 0002",
+        "Kevin Siu",
+        "Dylan Malone Stuart",
+        "Zissis Poulos",
+        "Andreas Moshovos"
+      ],
+      "pages": "304-317",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SharifyLMNSSPM19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SharifyLMNSSPM19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322255",
+        "https://ieeexplore.ieee.org/document/8980351"
+      ]
+    },
+    {
+      "title": "Linebacker: preserving victim cache lines in idle register files of GPUs",
+      "authors": [
+        "Yunho Oh",
+        "Gunjae Koo",
+        "Murali Annavaram",
+        "Won Woo Ro"
+      ],
+      "pages": "183-196",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/OhKAR19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/OhKAR19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322222",
+        "https://ieeexplore.ieee.org/document/8980310"
+      ]
+    },
+    {
+      "title": "Master of none acceleration: a comparison of accelerator architectures for analytical query processing",
+      "authors": [
+        "Andrea Lottarini",
+        "Jo&atilde;o Pedro Cerqueira",
+        "Thomas J. Repetti",
+        "Stephen A. Edwards",
+        "Kenneth A. Ross",
+        "Mingoo Seok",
+        "Martha A. Kim"
+      ],
+      "pages": "762-773",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LottariniCRERSK19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LottariniCRERSK19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322220",
+        "https://ieeexplore.ieee.org/document/8980357"
+      ]
+    },
+    {
+      "title": "MGPUSim: enabling multi-GPU performance modeling and optimization",
+      "authors": [
+        "Yifan Sun 0002",
+        "Trinayan Baruah",
+        "Saiful A. Mojumder",
+        "Shi Dong 0002",
+        "Xiang Gong",
+        "Shane Treadway",
+        "Yuhui Bao",
+        "Spencer Hance",
+        "Carter McCardwell",
+        "Vincent Zhao",
+        "Harrison Barclay",
+        "Amir Kavyan Ziabari",
+        "Zhongliang Chen",
+        "Rafael Ubal",
+        "Jos&eacute; L. Abell&aacute;n",
+        "John Kim 0001",
+        "Ajay Joshi",
+        "David R. Kaeli"
+      ],
+      "pages": "197-209",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SunBMDGTBHMZBZC19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SunBMDGTBHMZBZC19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322230",
+        "https://ieeexplore.ieee.org/document/8980359"
+      ]
+    },
+    {
+      "title": "MicroScope: enabling microarchitectural replay attacks",
+      "authors": [
+        "Dimitrios Skarlatos 0002",
+        "Mengjia Yan 0001",
+        "Bhargava Gopireddy",
+        "Read Sprabery",
+        "Josep Torrellas",
+        "Christopher W. Fletcher"
+      ],
+      "pages": "318-331",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SkarlatosYGSTF19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SkarlatosYGSTF19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322228",
+        "https://ieeexplore.ieee.org/document/8980361"
+      ]
+    },
+    {
+      "title": "MnnFast: a fast and scalable system architecture for memory-augmented neural networks",
+      "authors": [
+        "Hanhwi Jang",
+        "Joonsung Kim 0001",
+        "Jae-Eon Jo",
+        "Jaewon Lee",
+        "Jangwoo Kim"
+      ],
+      "pages": "250-263",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JangKJLK19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JangKJLK19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322214",
+        "https://ieeexplore.ieee.org/document/8980322"
+      ]
+    },
+    {
+      "title": "New attacks and defense for encrypted-address cache",
+      "authors": [
+        "Moinuddin K. Qureshi"
+      ],
+      "pages": "360-371",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Qureshi19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Qureshi19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322246",
+        "https://ieeexplore.ieee.org/document/8980326",
+        "https://www.wikidata.org/entity/Q130870293"
+      ]
+    },
+    {
+      "title": "OO-VR: NUMA friendly object-oriented VR rendering framework for future NUMA-based multi-GPU systems",
+      "authors": [
+        "Chenhao Xie 0001",
+        "Xin Fu 0001",
+        "Mingsong Chen 0001",
+        "Shuaiwen Leon Song"
+      ],
+      "pages": "53-65",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/XieFCS19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/XieFCS19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322247",
+        "https://ieeexplore.ieee.org/document/8980302"
+      ]
+    },
+    {
+      "title": "Opportunistic computing in GPU architectures",
+      "authors": [
+        "Ashutosh Pattnaik",
+        "Xulong Tang",
+        "Onur Kayiran",
+        "Adwait Jog",
+        "Asit K. Mishra",
+        "Mahmut T. Kandemir",
+        "Anand Sivasubramaniam",
+        "Chita R. Das"
+      ],
+      "pages": "210-223",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PattnaikTKJMKSD19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PattnaikTKJMKSD19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322212",
+        "https://ieeexplore.ieee.org/document/8980334"
+      ]
+    },
+    {
+      "title": "Perceptron-based prefetch filtering",
+      "authors": [
+        "Eshan Bhatia",
+        "Gino Chacon",
+        "Seth H. Pugsley",
+        "Elvira Teran",
+        "Paul V. Gratz",
+        "Daniel A. Jim&eacute;nez"
+      ],
+      "pages": "1-13",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BhatiaCPTGJ19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BhatiaCPTGJ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322207",
+        "https://ieeexplore.ieee.org/document/8980306"
+      ]
+    },
+    {
+      "title": "PES: proactive event scheduling for responsive and energy-efficient mobile web computing",
+      "authors": [
+        "Yu Feng 0007",
+        "Yuhao Zhu 0001"
+      ],
+      "pages": "66-78",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FengZ19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FengZ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322248",
+        "https://ieeexplore.ieee.org/document/8980360"
+      ]
+    },
+    {
+      "title": "Position Paper: Progressive Memory Safety for WebAssembly",
+      "authors": [
+        "Craig Disselkoen",
+        "John Renner",
+        "Conrad Watt",
+        "Tal Garfinkel",
+        "Amit Levy 0001",
+        "Deian Stefan"
+      ],
+      "pages": "4:1-4:8",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DisselkoenRWGLS19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DisselkoenRWGLS19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3337167.3337171",
+        "https://www.wikidata.org/entity/Q131109256"
+      ]
+    },
+    {
+      "title": "Post-silicon CPU adaptation made practical using machine learning",
+      "authors": [
+        "Stephen J. Tarsa",
+        "Rangeen Basu Roy Chowdhury",
+        "Julien Sebot",
+        "Gautham N. Chinya",
+        "Jayesh Gaur",
+        "Karthik Sankaranarayanan",
+        "Chit-Kwan Lin",
+        "Robert Chappell",
+        "Ronak Singhal",
+        "Hong Wang"
+      ],
+      "pages": "14-26",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TarsaCSCGSLCSW19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TarsaCSCGSLCSW19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322267",
+        "https://ieeexplore.ieee.org/document/8980339",
+        "https://www.wikidata.org/entity/Q131116760"
+      ]
+    },
+    {
+      "title": "Scalable interconnects for reconfigurable spatial architectures",
+      "authors": [
+        "Yaqi Zhang 0001",
+        "Alexander Rucker",
+        "Matthew Vilim",
+        "Raghu Prabhakar",
+        "William Hwang",
+        "Kunle Olukotun"
+      ],
+      "pages": "615-628",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ZhangRVPHO19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ZhangRVPHO19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322249",
+        "https://ieeexplore.ieee.org/document/8980344"
+      ]
+    },
+    {
+      "title": "Scaling Intel&reg; Software Guard Extensions Applications with Intel&reg; SGX Card",
+      "authors": [
+        "Somnath Chakrabarti",
+        "Matthew Hoekstra",
+        "Dmitrii Kuvaiskii",
+        "Mona Vij"
+      ],
+      "pages": "6:1-6:9",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChakrabartiHKV19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChakrabartiHKV19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3337167.3337173"
+      ]
+    },
+    {
+      "title": "SCU: a GPU stream compaction unit for graph processing",
+      "authors": [
+        "Albert Segura",
+        "Jos&eacute;-Mar&iacute;a Arnau",
+        "Antonio Gonz&aacute;lez 0001"
+      ],
+      "pages": "424-435",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SeguraA019",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SeguraA019.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322254",
+        "https://ieeexplore.ieee.org/document/8980355"
+      ]
+    },
+    {
+      "title": "SecChisel Framework for Security Verification of Secure Processor Architectures",
+      "authors": [
+        "Shuwen Deng",
+        "Doguhan G&uuml;m&uuml;soglu",
+        "Wenjie Xiong 0001",
+        "Sercan Sari",
+        "Y. Serhan Gener",
+        "Corine Lu",
+        "Onur Demir",
+        "Jakub Szefer"
+      ],
+      "pages": "7:1-7:8",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DengG0SGLDS19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DengG0SGLDS19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3337167.3337174"
+      ]
+    },
+    {
+      "title": "SecDir: a secure directory to defeat directory side-channel attacks",
+      "authors": [
+        "Mengjia Yan 0001",
+        "Jen-Yang Wen",
+        "Christopher W. Fletcher",
+        "Josep Torrellas"
+      ],
+      "pages": "332-345",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YanWFT19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YanWFT19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3326635",
+        "https://ieeexplore.ieee.org/document/8980313"
+      ]
+    },
+    {
+      "title": "Secure TLBs",
+      "authors": [
+        "Shuwen Deng",
+        "Wenjie Xiong 0001",
+        "Jakub Szefer"
+      ],
+      "pages": "346-359",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Deng0S19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Deng0S19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322238",
+        "https://ieeexplore.ieee.org/document/8980293"
+      ]
+    },
+    {
+      "title": "Security Analysis of Processor Instruction Set Architecture for Enforcing Control-Flow Integrity",
+      "authors": [
+        "Vedvyas Shanbhogue",
+        "Deepak Gupta",
+        "Ravi Sahita"
+      ],
+      "pages": "8:1-8:11",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ShanbhogueGS19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ShanbhogueGS19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3337167.3337175"
+      ]
+    },
+    {
+      "title": "SoftSKU: optimizing server architectures for microservice diversity @scale",
+      "authors": [
+        "Akshitha Sriraman",
+        "Abhishek Dhanotia",
+        "Thomas F. Wenisch"
+      ],
+      "pages": "513-526",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SriramanDW19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SriramanDW19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322227",
+        "https://ieeexplore.ieee.org/document/8980331"
+      ]
+    },
+    {
+      "title": "Sparse ReRAM engine: joint exploration of activation and weight sparsity in compressed neural networks",
+      "authors": [
+        "Tzu-Hsien Yang",
+        "Hsiang-Yun Cheng",
+        "Chia-Lin Yang",
+        "I-Ching Tseng",
+        "Han-Wen Hu",
+        "Hung-Sheng Chang",
+        "Hsiang-Pang Li"
+      ],
+      "pages": "236-249",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YangCYTHCL19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YangCYTHCL19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322271",
+        "https://ieeexplore.ieee.org/document/8980300"
+      ]
+    },
+    {
+      "title": "Statistical assertions for validating patterns and finding bugs in quantum programs",
+      "authors": [
+        "Yipeng Huang 0001",
+        "Margaret Martonosi"
+      ],
+      "pages": "541-553",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/0001M19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/0001M19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322213",
+        "https://ieeexplore.ieee.org/document/8980343",
+        "https://www.wikidata.org/entity/Q130917142"
+      ]
+    },
+    {
+      "title": "Stream-based memory access specialization for general purpose processors",
+      "authors": [
+        "Zhengrong Wang",
+        "Tony Nowatzki"
+      ],
+      "pages": "736-749",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangN19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangN19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322229",
+        "https://ieeexplore.ieee.org/document/8980305"
+      ]
+    },
+    {
+      "title": "TIE: energy-efficient tensor train-based inference engine for deep neural network",
+      "authors": [
+        "Chunhua Deng",
+        "Fangxuan Sun",
+        "Xuehai Qian",
+        "Jun Lin 0001",
+        "Zhongfeng Wang 0001",
+        "Bo Yuan 0001"
+      ],
+      "pages": "264-278",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DengSQLWY19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DengSQLWY19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322258",
+        "https://ieeexplore.ieee.org/document/8980328"
+      ]
+    },
+    {
+      "title": "Time squeezing for tiny devices",
+      "authors": [
+        "Yuanbo Fan",
+        "Simone Campanoni",
+        "Russ Joseph"
+      ],
+      "pages": "657-670",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FanCJ19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FanCJ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322268",
+        "https://ieeexplore.ieee.org/document/8980324"
+      ]
+    },
+    {
+      "title": "TPShare: a time-space sharing scheduling abstraction for shared cloud via vertical labels",
+      "authors": [
+        "Yuzhao Wang",
+        "Lele Li",
+        "You Wu 0006",
+        "Junqing Yu",
+        "Zhibin Yu 0001",
+        "Xuehai Qian"
+      ],
+      "pages": "499-512",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/WangLWYYQ19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/WangLWYYQ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3326634",
+        "https://ieeexplore.ieee.org/document/8980319"
+      ]
+    },
+    {
+      "title": "Translation ranger: operating system support for contiguity-aware TLBs",
+      "authors": [
+        "Zi Yan",
+        "Daniel Lustig",
+        "David W. Nellans",
+        "Abhishek Bhattacharjee"
+      ],
+      "pages": "698-710",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/YanLNB19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/YanLNB19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322223",
+        "https://ieeexplore.ieee.org/document/8980362"
+      ]
+    },
+    {
+      "title": "Triad-NVM: persistency for integrity-protected and encrypted non-volatile memories",
+      "authors": [
+        "Amro Awad",
+        "Mao Ye 0008",
+        "Yan Solihin",
+        "Laurent Njilla",
+        "Kazi Abu Zubair"
+      ],
+      "pages": "104-115",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AwadYSNZ19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AwadYSNZ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322250",
+        "https://ieeexplore.ieee.org/document/8980320",
+        "https://www.wikidata.org/entity/Q130885571"
+      ]
+    },
+    {
+      "title": "TWiCe: preventing row-hammering by exploiting time window counters",
+      "authors": [
+        "Eojin Lee",
+        "Ingab Kang",
+        "Sukhan Lee 0002",
+        "G. Edward Suh",
+        "Jung Ho Ahn"
+      ],
+      "pages": "385-396",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/LeeK0SA19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/LeeK0SA19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322232",
+        "https://ieeexplore.ieee.org/document/8980327"
+      ]
+    },
+    {
+      "title": "Using SMT to accelerate nested virtualization",
+      "authors": [
+        "Llu&iacute;s Vilanova",
+        "Nadav Amit",
+        "Yoav Etsion"
+      ],
+      "pages": "750-761",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/VilanovaAE19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/VilanovaAE19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322261",
+        "https://ieeexplore.ieee.org/document/8980298",
+        "https://www.wikidata.org/entity/Q131119903"
+      ]
+    },
+    {
+      "title": "XPC: architectural support for secure and efficient cross process call",
+      "authors": [
+        "Dong Du 0003",
+        "Zhichao Hua 0001",
+        "Yubin Xia",
+        "Binyu Zang",
+        "Haibo Chen 0001"
+      ],
+      "pages": "671-684",
+      "year": "2019",
+      "venue": "ISCA 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DuHXZC19",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DuHXZC19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3307650.3322218",
+        "https://ieeexplore.ieee.org/document/8980352"
+      ]
+    }
+  ]
+}

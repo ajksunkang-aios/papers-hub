@@ -1,0 +1,691 @@
+{
+  "id": "isca-1994",
+  "venue": "isca",
+  "year": 1994,
+  "short_name": "ISCA",
+  "full_name": "ACM/IEEE International Symposium on Computer Architecture",
+  "source_url": "https://dblp.org/db/conf/isca/isca1994.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/isca/isca1994.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/isca/1994",
+    "conf/isca/1994-1",
+    "conf/isca/1994-2",
+    "conf/isca/1994-3",
+    "conf/isca/1994-4",
+    "conf/isca/1994-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) (Annual )?ACM/IEEE International Symposium on Computer Architecture"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org",
+    "ieee.org"
+  ],
+  "count": 34,
+  "display_count": 34,
+  "papers": [
+    {
+      "title": "A Comparison of Message Passing and Shared Memory Architectures for Data Parallel Programs",
+      "authors": [
+        "Alexander C. Klaiber",
+        "Henry M. Levy"
+      ],
+      "pages": "94-105",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KlaiberL94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KlaiberL94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288158",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288158",
+        "https://dl.acm.org/citation.cfm?id=192020"
+      ]
+    },
+    {
+      "title": "A Performance Study of Software and Hardware Data Prefetching Schemes",
+      "authors": [
+        "Tien-Fu Chen",
+        "Jean-Loup Baer"
+      ],
+      "pages": "223-232",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChenB94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChenB94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288147",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288147",
+        "https://dl.acm.org/citation.cfm?id=192030"
+      ]
+    },
+    {
+      "title": "A Study of Single-Chip Processor/Cache Organizations for Large Numbers of Transistors",
+      "authors": [
+        "Matthew K. Farrens",
+        "Gary S. Tyson",
+        "Andrew R. Pleszkun"
+      ],
+      "pages": "338-347",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FarrensTP94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FarrensTP94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288137",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288137",
+        "https://dl.acm.org/citation.cfm?id=192066"
+      ]
+    },
+    {
+      "title": "A Unified Architectural Tradeoff Methodology",
+      "authors": [
+        "Chung-Ho Chen",
+        "Arun K. Somani"
+      ],
+      "pages": "348-357",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChenS94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChenS94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288136",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288136",
+        "https://dl.acm.org/citation.cfm?id=192068"
+      ]
+    },
+    {
+      "title": "Architectural Support for Performance Tuning: A Case Study on the SPARCcenter2000",
+      "authors": [
+        "Ashok Singhal",
+        "Aaron J. Goldberg"
+      ],
+      "pages": "48-59",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SinghalG94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SinghalG94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288162",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288162",
+        "https://dl.acm.org/citation.cfm?id=192016"
+      ]
+    },
+    {
+      "title": "Architecture and Evaluation of High-Speed Networking Subsystem for Distributed-Memory Systems",
+      "authors": [
+        "Peter Steenkiste",
+        "Michael Hemy",
+        "Todd W. Mummert",
+        "Brian Zill"
+      ],
+      "pages": "154-163",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SteenkisteHMZ94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SteenkisteHMZ94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288153",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288153",
+        "https://dl.acm.org/citation.cfm?id=192025"
+      ]
+    },
+    {
+      "title": "Ariadne - An Adaptive Router for Fault-Tolerant Multicomputers",
+      "authors": [
+        "James D. Allen",
+        "Patrick T. Gaughan",
+        "David E. Schimmel",
+        "Sudhakar Yalamanchili"
+      ],
+      "pages": "278-288",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/AllenGSY94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/AllenGSY94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288142",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288142",
+        "https://dl.acm.org/citation.cfm?id=192040"
+      ]
+    },
+    {
+      "title": "Branch with Masked Squashing in Superpipelined Processors",
+      "authors": [
+        "Ching-Long Su",
+        "Alvin M. Despain"
+      ],
+      "pages": "130-140",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/SuD94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/SuD94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288155",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288155",
+        "https://dl.acm.org/citation.cfm?id=192023"
+      ]
+    },
+    {
+      "title": "Characterization of Alpha AXP Performance Using TP and SPEC Workloads",
+      "authors": [
+        "Zarka Cvetanovic",
+        "Dileep Bhandarkar"
+      ],
+      "pages": "60-70",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CvetanovicB94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CvetanovicB94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288161",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288161",
+        "https://dl.acm.org/citation.cfm?id=192017"
+      ]
+    },
+    {
+      "title": "Combined Performance Gains of Simple Cache Protocol Extensions",
+      "authors": [
+        "Fredrik Dahlgren",
+        "Michel Dubois 0001",
+        "Per Stenstr&ouml;m"
+      ],
+      "pages": "187-197",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DahlgrenDS94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DahlgrenDS94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288150",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288150",
+        "https://dl.acm.org/citation.cfm?id=192028"
+      ]
+    },
+    {
+      "title": "Complexity/Performance Tradeoffs with Non-Blocking Loads",
+      "authors": [
+        "Keith I. Farkas",
+        "Norman P. Jouppi"
+      ],
+      "pages": "211-222",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/FarkasJ94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/FarkasJ94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288148",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288148",
+        "https://dl.acm.org/citation.cfm?id=192029"
+      ]
+    },
+    {
+      "title": "Compressionless Routing: A Framework for Adaptive and Fault-Tolerant Routing",
+      "authors": [
+        "Jae H. Kim",
+        "Ziqiang Liu",
+        "Andrew A. Chien"
+      ],
+      "pages": "289-300",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KimLC94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KimLC94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288141",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288141",
+        "https://dl.acm.org/citation.cfm?id=192050"
+      ]
+    },
+    {
+      "title": "Crosshatch Disk Array for Improved Reliability and Performance",
+      "authors": [
+        "Spencer W. Ng"
+      ],
+      "pages": "255-264",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Ng94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Ng94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288144",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288144",
+        "https://dl.acm.org/citation.cfm?id=192036"
+      ]
+    },
+    {
+      "title": "Decoupled Sectored Caches: Conciliating Low Tag Implementation Cost and Low Miss Ratio",
+      "authors": [
+        "Andr&eacute; Seznec"
+      ],
+      "pages": "384-393",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Seznec94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Seznec94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288133",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288133",
+        "https://dl.acm.org/citation.cfm?id=192072"
+      ]
+    },
+    {
+      "title": "Evaluating Stream Buffers as a Secondary Cache Replacement",
+      "authors": [
+        "Subbarao Palacharla",
+        "Richard E. Kessler"
+      ],
+      "pages": "24-33",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PalacharlaK94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PalacharlaK94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288164",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288164",
+        "https://dl.acm.org/citation.cfm?id=192014"
+      ]
+    },
+    {
+      "title": "Evaluating the Memory Overhead Required for COMA Architectures",
+      "authors": [
+        "Truman Joe",
+        "John L. Hennessy"
+      ],
+      "pages": "82-93",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JoeH94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JoeH94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288159",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288159",
+        "https://dl.acm.org/citation.cfm?id=192019"
+      ]
+    },
+    {
+      "title": "EVENODD: An Optimal Scheme for Tolerating Double Disk Failures in RAID Architectures",
+      "authors": [
+        "Mario Blaum",
+        "Jim Brady",
+        "Jehoshua Bruck",
+        "Jai Menon 0001"
+      ],
+      "pages": "245-254",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BlaumBBM94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BlaumBBM94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288145",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288145",
+        "https://dl.acm.org/citation.cfm?id=192033"
+      ]
+    },
+    {
+      "title": "Expected I-Cache Miss Rates via the Gap Model",
+      "authors": [
+        "Russell W. Quong"
+      ],
+      "pages": "372-383",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/Quong94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/Quong94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288134",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288134",
+        "https://dl.acm.org/citation.cfm?id=192071"
+      ]
+    },
+    {
+      "title": "Exploring the Design Space for a Shared-Cache Multiprocessor",
+      "authors": [
+        "Basem A. Nayfeh",
+        "Kunle Olukotun"
+      ],
+      "pages": "166-175",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NayfehO94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NayfehO94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288152",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288152",
+        "https://dl.acm.org/citation.cfm?id=192026"
+      ]
+    },
+    {
+      "title": "Fast and Accurate Instruction Fetch and Branch Prediction",
+      "authors": [
+        "Brad Calder",
+        "Dirk Grunwald"
+      ],
+      "pages": "2-11",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CalderG94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CalderG94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288166",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288166",
+        "https://dl.acm.org/citation.cfm?id=192011"
+      ]
+    },
+    {
+      "title": "Guarded Executing and Branch Prediction in Dynamic ILP Processors",
+      "authors": [
+        "Dionisios N. Pnevmatikatos",
+        "Gurindar S. Sohi"
+      ],
+      "pages": "120-129",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/PnevmatikatosS94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/PnevmatikatosS94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288156",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288156",
+        "https://dl.acm.org/citation.cfm?id=192022"
+      ]
+    },
+    {
+      "title": "Impact of Sharing-Based Thread Placement on Multithreaded Architectures",
+      "authors": [
+        "Radhika Thekkath",
+        "Susan J. Eggers"
+      ],
+      "pages": "176-186",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ThekkathE94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ThekkathE94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288151",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288151",
+        "https://dl.acm.org/citation.cfm?id=192027"
+      ]
+    },
+    {
+      "title": "Measurement-Based Characterization of Global Memory and Network Contention, Operating System and Parallelization Overheads: A Case Study on Shared-Memory Multiprocessor",
+      "authors": [
+        "Chitra Natarajan",
+        "Sanjay Sharma",
+        "Ravishankar K. Iyer"
+      ],
+      "pages": "71-80",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NatarajanSI94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NatarajanSI94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288160",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288160",
+        "https://dl.acm.org/citation.cfm?id=192018"
+      ]
+    },
+    {
+      "title": "METRO: A Router Architecture for High-Performance, Short-Haul Routing Networks",
+      "authors": [
+        "Frederic T. Chong",
+        "Henry Minsky",
+        "Andr&eacute; DeHon",
+        "Matthew E. Becker",
+        "Samuel Peretz",
+        "Eran Egozy",
+        "Thomas F. Knight Jr."
+      ],
+      "pages": "266-277",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChongMDBPEK94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChongMDBPEK94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288143",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288143",
+        "https://dl.acm.org/citation.cfm?id=192038"
+      ]
+    },
+    {
+      "title": "Optimal Allocation of On-Chip Memory for Multiple-API Operating Systems",
+      "authors": [
+        "David Nagle",
+        "Richard Uhlig",
+        "Trevor N. Mudge",
+        "Stuart Sechrest"
+      ],
+      "pages": "358-369",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/NagleUMS94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/NagleUMS94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288135",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288135",
+        "https://dl.acm.org/citation.cfm?id=192070"
+      ]
+    },
+    {
+      "title": "RAID-II: A High-Bandwidth Network File Server",
+      "authors": [
+        "Ann L. Drapeau",
+        "Ken Shirriff",
+        "John H. Hartman",
+        "Ethan L. Miller",
+        "Srinivasan Seshan",
+        "Randy H. Katz",
+        "Ken Lutz",
+        "David A. Patterson 0001",
+        "Edward K. Lee 0001",
+        "Peter M. Chen",
+        "Garth A. Gibson"
+      ],
+      "pages": "234-244",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/DrapeauSHMSKLPLCG94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/DrapeauSHMSKLPLCG94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288146",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288146",
+        "https://dl.acm.org/citation.cfm?id=192031"
+      ]
+    },
+    {
+      "title": "Software Versus Hardware Shared-Memory Implementation: A Case Study",
+      "authors": [
+        "Alan L. Cox",
+        "Sandhya Dwarkadas",
+        "Peter J. Keleher",
+        "Honghui Lu",
+        "Ramakrishnan Rajamony",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "106-117",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/CoxDKLRZ94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/CoxDKLRZ94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288157",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288157",
+        "https://dl.acm.org/citation.cfm?id=192021"
+      ]
+    },
+    {
+      "title": "Software-Extended Coherent Shared Memory: Performance and Cost",
+      "authors": [
+        "David Chaiken",
+        "Anant Agarwal"
+      ],
+      "pages": "314-324",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ChikenA94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ChikenA94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288139",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288139",
+        "https://dl.acm.org/citation.cfm?id=192060"
+      ]
+    },
+    {
+      "title": "Speculative Disambiguation: A Compilation Technique for Dynamic Memory Disambiguation",
+      "authors": [
+        "Andrew S. Huang",
+        "Gert Slavenburg",
+        "John Paul Shen"
+      ],
+      "pages": "200-210",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/HuangSS94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/HuangSS94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288149",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288149",
+        "https://dl.acm.org/citation.cfm?id=192012"
+      ]
+    },
+    {
+      "title": "Tempest and Typhoon: User-Level Shared Memory",
+      "authors": [
+        "Steven K. Reinhardt",
+        "James R. Larus",
+        "David A. Wood 0001"
+      ],
+      "pages": "325-336",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/ReinhardtLW94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/ReinhardtLW94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288138",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288138",
+        "https://dl.acm.org/citation.cfm?id=192062"
+      ]
+    },
+    {
+      "title": "The Impact of Unresolved Branches on Branch Prediction Scheme Performance",
+      "authors": [
+        "Adam R. Talcott",
+        "Wayne Yamamoto",
+        "Mauricio J. Serrano",
+        "Roger C. Wood",
+        "Mario Nemirovsky"
+      ],
+      "pages": "12-21",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/TalcottYSWN94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/TalcottYSWN94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288165",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288165",
+        "https://dl.acm.org/citation.cfm?id=192013"
+      ]
+    },
+    {
+      "title": "The Stanford FLASH Multiprocessor",
+      "authors": [
+        "Jeffrey Kuskin",
+        "David Ofelt",
+        "Mark A. Heinrich",
+        "John Heinlein",
+        "Richard Simoni",
+        "Kourosh Gharachorloo",
+        "John Chapin",
+        "David Nakahira",
+        "Joel Baxter",
+        "Mark Horowitz",
+        "Anoop Gupta",
+        "Mendel Rosenblum",
+        "John L. Hennessy"
+      ],
+      "pages": "302-313",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/KuskinOHHSGCNBHGRH94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/KuskinOHHSGCNBHGRH94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288140",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288140",
+        "https://dl.acm.org/citation.cfm?id=192056"
+      ]
+    },
+    {
+      "title": "Tradeoffs in Two-Level On-Chip Caching",
+      "authors": [
+        "Norman P. Jouppi",
+        "Steven J. E. Wilton"
+      ],
+      "pages": "34-45",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/JouppiW94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/JouppiW94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288163",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288163",
+        "https://dl.acm.org/citation.cfm?id=192015"
+      ]
+    },
+    {
+      "title": "Virtual Memory Mapped Network Interface for the SHRIMP Multicomputer",
+      "authors": [
+        "Matthias A. Blumrich",
+        "Kai Li 0001",
+        "Richard Alpert",
+        "Cezary Dubnicki",
+        "Edward W. Felten",
+        "Jonathan Sandberg"
+      ],
+      "pages": "142-153",
+      "year": "1994",
+      "venue": "ISCA 1994",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/isca/BlumrichLADFS94",
+      "dblp_url": "https://dblp.org/rec/conf/isca/BlumrichLADFS94.html",
+      "ee_links": [
+        "https://doi.org/10.1109/ISCA.1994.288154",
+        "https://doi.ieeecomputersociety.org/10.1109/ISCA.1994.288154",
+        "https://dl.acm.org/citation.cfm?id=192024"
+      ]
+    }
+  ]
+}

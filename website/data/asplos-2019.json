@@ -1,0 +1,1644 @@
+{
+  "id": "asplos-2019",
+  "venue": "asplos",
+  "year": 2019,
+  "short_name": "ASPLOS",
+  "full_name": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "source_url": "https://dblp.org/db/conf/asplos/asplos2019.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/asplos/asplos2019.html",
+    "https://dblp.org/db/conf/asplos/asplos2019-1.html",
+    "https://dblp.org/db/conf/asplos/asplos2019-2.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/asplos/2019",
+    "conf/asplos/2019-1",
+    "conf/asplos/2019-2",
+    "conf/asplos/2019-3",
+    "conf/asplos/2019-4",
+    "conf/asplos/2019-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) ACM International Conference on Architectural Support"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 82,
+  "display_count": 82,
+  "papers": [
+    {
+      "title": "A Case for Lease-Based, Utilitarian Resource Management on Mobile Devices",
+      "authors": [
+        "Yigong Hu",
+        "Suyi Liu",
+        "Peng Huang 0005"
+      ],
+      "pages": "301-315",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/HuLH19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/HuLH19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304057"
+      ]
+    },
+    {
+      "title": "A Formal Analysis of the NVIDIA PTX Memory Consistency Model",
+      "authors": [
+        "Daniel Lustig",
+        "Sameer D. Sahasrabuddhe",
+        "Olivier Giroux"
+      ],
+      "pages": "257-270",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LustigSG19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LustigSG19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304043",
+        "https://www.wikidata.org/entity/Q131122480"
+      ]
+    },
+    {
+      "title": "A Framework for Memory Oversubscription Management in Graphics Processing Units",
+      "authors": [
+        "Chen Li 0015",
+        "Rachata Ausavarungnirun",
+        "Christopher J. Rossbach",
+        "Youtao Zhang",
+        "Onur Mutlu",
+        "Yang Guo 0003",
+        "Jun Yang 0002"
+      ],
+      "pages": "49-63",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0015ARZMGY19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0015ARZMGY19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304044",
+        "https://www.wikidata.org/entity/Q130991291"
+      ]
+    },
+    {
+      "title": "AcMC 2 : Accelerating Markov Chain Monte Carlo Algorithms for Probabilistic Models",
+      "authors": [
+        "Subho S. Banerjee",
+        "Zbigniew T. Kalbarczyk",
+        "Ravishankar K. Iyer"
+      ],
+      "pages": "515-528",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BanerjeeKI19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BanerjeeKI19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304019"
+      ]
+    },
+    {
+      "title": "ADMM-NN: An Algorithm-Hardware Co-Design Framework of DNNs Using Alternating Direction Methods of Multipliers",
+      "authors": [
+        "Ao Ren",
+        "Tianyun Zhang",
+        "Shaokai Ye",
+        "Jiayu Li",
+        "Wenyao Xu",
+        "Xuehai Qian",
+        "Xue Lin 0001",
+        "Yanzhi Wang 0001"
+      ],
+      "pages": "925-938",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RenZYLXQLW19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RenZYLXQLW19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304076"
+      ]
+    },
+    {
+      "title": "An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud & Edge Systems",
+      "authors": [
+        "Yu Gan 0002",
+        "Yanqi Zhang",
+        "Dailun Cheng",
+        "Ankitha Shetty",
+        "Priyal Rathi",
+        "Nayan Katarki",
+        "Ariana Bruno",
+        "Justin Hu",
+        "Brian Ritchken",
+        "Brendon Jackson",
+        "Kelvin Hu",
+        "Meghna Pancholi",
+        "Yuan He 0015",
+        "Brett Clancy",
+        "Chris Colen",
+        "Fukang Wen",
+        "Catherine Leung",
+        "Siyuan Wang",
+        "Leon Zaruvinsky",
+        "Mateo Espinosa",
+        "Rick Lin",
+        "Zhongling Liu",
+        "Jake Padilla",
+        "Christina Delimitrou"
+      ],
+      "pages": "3-18",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GanZCSRKBHRJHPH19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GanZCSRKBHRJHPH19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304013"
+      ]
+    },
+    {
+      "title": "Architectural Support for Containment-based Security",
+      "authors": [
+        "Hansen Zhang",
+        "Soumyadeep Ghosh",
+        "Jordan Fix",
+        "Sotiris Apostolakis",
+        "Stephen R. Beard",
+        "Nayana P. Nagendra",
+        "Taewook Oh",
+        "David I. August"
+      ],
+      "pages": "361-377",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZhangGFABNOA19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZhangGFABNOA19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304020"
+      ]
+    },
+    {
+      "title": "Astra: Exploiting Predictability to Optimize Deep Learning",
+      "authors": [
+        "Muthian Sivathanu",
+        "Tapan Chugh",
+        "Sanjay Sri Vallabh Singapuram",
+        "Lidong Zhou"
+      ],
+      "pages": "909-923",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SivathanuCSZ19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SivathanuCSZ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304072"
+      ]
+    },
+    {
+      "title": "Beating OPT with Statistical Clairvoyance and Variable Size Caching",
+      "authors": [
+        "Pengcheng Li 0001",
+        "Colin Pronovost",
+        "William Wilson",
+        "Benjamin Tait",
+        "Jie Zhou 0022",
+        "Chen Ding 0001",
+        "John Criswell"
+      ],
+      "pages": "243-256",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LiPWTZDC19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LiPWTZDC19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304067"
+      ]
+    },
+    {
+      "title": "Bit-Tactical: A Software/Hardware Approach to Exploiting Value and Bit Sparsity in Neural Networks",
+      "authors": [
+        "Alberto Delmas Lascorz",
+        "Patrick Judd",
+        "Dylan Malone Stuart",
+        "Zissis Poulos",
+        "Mostafa Mahmoud",
+        "Sayeh Sharify",
+        "Milos Nikolic 0002",
+        "Kevin Siu",
+        "Andreas Moshovos"
+      ],
+      "pages": "749-763",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LascorzJSPMSNSM19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LascorzJSPMSNSM19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304041"
+      ]
+    },
+    {
+      "title": "BOGO: Buy Spatial Memory Safety, Get Temporal Memory Safety (Almost) Free",
+      "authors": [
+        "Tong Zhang",
+        "Dongyoon Lee",
+        "Changhee Jung"
+      ],
+      "pages": "631-644",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZhangLJ19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZhangLJ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304017"
+      ]
+    },
+    {
+      "title": "Boosted Race Trees for Low Energy Classification",
+      "authors": [
+        "Georgios Tzimpragos",
+        "Advait Madhavan",
+        "Dilip Vasudevan",
+        "Dmitri B. Strukov",
+        "Timothy Sherwood"
+      ],
+      "pages": "215-228",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TzimpragosMVSS19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TzimpragosMVSS19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304036"
+      ]
+    },
+    {
+      "title": "Bootstrapping: Using SMT Hardware to Improve Single-Thread Performance",
+      "authors": [
+        "Sushant Kondguli",
+        "Michael C. Huang 0001"
+      ],
+      "pages": "687-700",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KondguliH19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KondguliH19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304052"
+      ]
+    },
+    {
+      "title": "Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data Orchestration",
+      "authors": [
+        "Michael Pellauer",
+        "Yakun Sophia Shao",
+        "Jason Clemons",
+        "Neal Clayton Crago",
+        "Kartik Hegde",
+        "Rangharajan Venkatesan",
+        "Stephen W. Keckler",
+        "Christopher W. Fletcher",
+        "Joel S. Emer"
+      ],
+      "pages": "137-151",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/PellauerSCCHVKF19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/PellauerSCCHVKF19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304025"
+      ]
+    },
+    {
+      "title": "Characterizing CUDA Unified Memory (UM)-Aware MPI Designs on Modern GPU Architectures",
+      "authors": [
+        "Karthik Vadambacheri Manian",
+        "A. A. Ammar",
+        "Amit Ruhela",
+        "Ching-Hsiang Chu",
+        "Hari Subramoni",
+        "Dhabaleswar K. Panda 0001"
+      ],
+      "pages": "43-52",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ManianARCSP19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ManianARCSP19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3300053.3319419",
+        "https://www.wikidata.org/entity/Q131111354"
+      ]
+    },
+    {
+      "title": "CheriABI: Enforcing Valid Pointer Provenance and Minimizing Pointer Privilege in the POSIX C Run-time Environment",
+      "authors": [
+        "Brooks Davis",
+        "Robert N. M. Watson",
+        "Alexander Richardson 0001",
+        "Peter G. Neumann",
+        "Simon W. Moore",
+        "John Baldwin",
+        "David Chisnall",
+        "Jessica Clarke 0001",
+        "Nathaniel Wesley Filardo",
+        "Khilan Gudka",
+        "Alexandre Joannou",
+        "Ben Laurie",
+        "A. Theodore Markettos",
+        "J. Edward Maste",
+        "Alfredo Mazzinghi",
+        "Edward Tomasz Napierala",
+        "Robert M. Norton",
+        "Michael Roe",
+        "Peter Sewell",
+        "Stacey D. Son",
+        "Jonathan Woodruff"
+      ],
+      "pages": "379-393",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DavisWRNMBCCFGJ19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DavisWRNMBCCFGJ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304042",
+        "https://www.wikidata.org/entity/Q131119998"
+      ]
+    },
+    {
+      "title": "Compress Objects, Not Cache Lines: An Object-Based Compressed Memory Hierarchy",
+      "authors": [
+        "Po-An Tsai",
+        "Daniel S&aacute;nchez 0003"
+      ],
+      "pages": "229-242",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Tsai019",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Tsai019.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304006"
+      ]
+    },
+    {
+      "title": "Context-Sensitive Fencing: Securing Speculative Execution via Microcode Customization",
+      "authors": [
+        "Mohammadkazem Taram",
+        "Ashish Venkat",
+        "Dean M. Tullsen"
+      ],
+      "pages": "395-410",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TaramVT19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TaramVT19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304060"
+      ]
+    },
+    {
+      "title": "CORF: Coalescing Operand Register File for GPUs",
+      "authors": [
+        "Hodjat Asghari Esfeden",
+        "Farzad Khorasani",
+        "Hyeran Jeon",
+        "Daniel Wong 0001",
+        "Nael B. Abu-Ghazaleh"
+      ],
+      "pages": "701-714",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/EsfedenKJWA19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/EsfedenKJWA19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304026",
+        "https://www.wikidata.org/entity/Q130883869"
+      ]
+    },
+    {
+      "title": "DCNS: Automated Detection Of Conservative Non-Sleep Defects in the Linux Kernel",
+      "authors": [
+        "Jia-Ju Bai",
+        "Julia Lawall",
+        "Wende Tan",
+        "Shi-Min Hu 0001"
+      ],
+      "pages": "287-299",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BaiLTH19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BaiLTH19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304065",
+        "https://www.wikidata.org/entity/Q131133576"
+      ]
+    },
+    {
+      "title": "Debugging Support for Pattern-Matching Languages and Accelerators",
+      "authors": [
+        "Matthew Casias",
+        "Kevin Angstadt",
+        "Tommy Tracy II",
+        "Kevin Skadron",
+        "Westley Weimer"
+      ],
+      "pages": "1073-1086",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CasiasATSW19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CasiasATSW19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304066"
+      ]
+    },
+    {
+      "title": "DeepSigns: An End-to-End Watermarking Framework for Ownership Protection of Deep Neural Networks",
+      "authors": [
+        "Bita Darvish Rouhani",
+        "Huili Chen",
+        "Farinaz Koushanfar"
+      ],
+      "pages": "485-497",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/RouhaniCK19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/RouhaniCK19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304051"
+      ]
+    },
+    {
+      "title": "Detailed Characterization of Deep Neural Networks on GPUs and FPGAs",
+      "authors": [
+        "Aajna Karki",
+        "Chethan Palangotu Keshava",
+        "Spoorthi Mysore Shivakumar",
+        "Joshua Skow",
+        "Goutam Madhukeshwar Hegde",
+        "Hyeran Jeon"
+      ],
+      "pages": "12-21",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KarkiKSSHJ19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KarkiKSSHJ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3300053.3319418",
+        "https://www.wikidata.org/entity/Q131115172"
+      ]
+    },
+    {
+      "title": "DiGraph: An Efficient Path-based Iterative Directed Graph Processing System on Multiple GPUs",
+      "authors": [
+        "Yu Zhang 0027",
+        "Xiaofei Liao",
+        "Hai Jin 0001",
+        "Bingsheng He",
+        "Haikun Liu",
+        "Lin Gu 0002"
+      ],
+      "pages": "601-614",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZhangL0HLG19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZhangL0HLG19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304029"
+      ]
+    },
+    {
+      "title": "FA3C: FPGA-Accelerated Deep Reinforcement Learning",
+      "authors": [
+        "Hyungmin Cho",
+        "Pyeongseok Oh",
+        "Jiyoung Park",
+        "Wookeun Jung",
+        "Jaejin Lee"
+      ],
+      "pages": "499-513",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChoOPJL19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChoOPJL19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304058",
+        "https://www.wikidata.org/entity/Q130861144"
+      ]
+    },
+    {
+      "title": "Fast and Scalable VMM Live Upgrade in Large Cloud Infrastructure",
+      "authors": [
+        "Xiantao Zhang",
+        "Xiao Zheng",
+        "Zhi Wang 0004",
+        "Qi Li 0002",
+        "Junkang Fu",
+        "Yang Zhang 0016",
+        "Yibin Shen"
+      ],
+      "pages": "93-105",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZhangZWLFZS19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZhangZWLFZS19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304034",
+        "https://www.wikidata.org/entity/Q131112758"
+      ]
+    },
+    {
+      "title": "Fast Fine-Grained Global Synchronization on GPUs",
+      "authors": [
+        "Kai Wang",
+        "Don Fussell",
+        "Calvin Lin"
+      ],
+      "pages": "793-806",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WangFL19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WangFL19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304055"
+      ]
+    },
+    {
+      "title": "Finding and Fixing Performance Pathologies in Persistent Memory Software Stacks",
+      "authors": [
+        "Jian Xu 0012",
+        "Juno Kim",
+        "Amir Saman Memaripour",
+        "Steven Swanson"
+      ],
+      "pages": "427-439",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/XuKMS19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/XuKMS19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304077",
+        "https://www.wikidata.org/entity/Q130986220"
+      ]
+    },
+    {
+      "title": "Fine-Grain Checkpointing with In-Cache-Line Logging",
+      "authors": [
+        "Nachshon Cohen",
+        "David T. Aksun",
+        "Hillel Avni",
+        "James R. Larus"
+      ],
+      "pages": "441-454",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/CohenAAL19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/CohenAAL19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304046",
+        "https://www.wikidata.org/entity/Q131024159"
+      ]
+    },
+    {
+      "title": "FlatFlash: Exploiting the Byte-Accessibility of SSDs within a Unified Memory-Storage Hierarchy",
+      "authors": [
+        "Ahmed H. M. O. Abulila",
+        "Vikram Sharma Mailthody",
+        "Zaid Qureshi",
+        "Jian Huang 0006",
+        "Nam Sung Kim",
+        "Jinjun Xiong",
+        "Wen-Mei W. Hwu"
+      ],
+      "pages": "971-985",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/AbulilaMQHKXH19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/AbulilaMQHKXH19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304061",
+        "https://www.wikidata.org/entity/Q130955657"
+      ]
+    },
+    {
+      "title": "FPSA: A Full System Stack Solution for Reconfigurable ReRAM-based NN Accelerator Architecture",
+      "authors": [
+        "Yu Ji 0002",
+        "Youyang Zhang",
+        "Xinfeng Xie",
+        "Shuangchen Li",
+        "Peiqi Wang 0001",
+        "Xing Hu 0001",
+        "Youhui Zhang",
+        "Yuan Xie 0001"
+      ],
+      "pages": "733-747",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JiZXLWHZX19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JiZXLWHZX19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304048"
+      ]
+    },
+    {
+      "title": "HawkEye: Efficient Fine-grained OS Support for Huge Pages",
+      "authors": [
+        "Ashish Panwar",
+        "Sorav Bansal",
+        "K. Gopinath"
+      ],
+      "pages": "347-360",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/PanwarBG19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/PanwarBG19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304064"
+      ]
+    },
+    {
+      "title": "Heterogeneous Isolated Execution for Commodity GPUs",
+      "authors": [
+        "Insu Jang",
+        "Adrian Tang",
+        "Taehoon Kim 0001",
+        "Simha Sethumadhavan",
+        "Jaehyuk Huh 0001"
+      ],
+      "pages": "455-468",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JangTKSH19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JangTKSH19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304021",
+        "https://www.wikidata.org/entity/Q131112750"
+      ]
+    },
+    {
+      "title": "HiWayLib: A Software Framework for Enabling High Performance Communications for Heterogeneous Pipeline Computations",
+      "authors": [
+        "Zhen Zheng",
+        "Chanyoung Oh",
+        "Jidong Zhai",
+        "Xipeng Shen",
+        "Youngmin Yi",
+        "Wenguang Chen"
+      ],
+      "pages": "153-166",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ZhengOZSYC19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ZhengOZSYC19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304032"
+      ]
+    },
+    {
+      "title": "Hop: Heterogeneity-aware Decentralized Training",
+      "authors": [
+        "Qinyi Luo",
+        "Jinkun Lin",
+        "Youwei Zhuo",
+        "Xuehai Qian"
+      ],
+      "pages": "893-907",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LuoLZQ19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LuoLZQ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304009"
+      ]
+    },
+    {
+      "title": "Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems",
+      "authors": [
+        "Graham Gobieski",
+        "Brandon Lucia",
+        "Nathan Beckmann"
+      ],
+      "pages": "199-213",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GobieskiLB19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GobieskiLB19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304011"
+      ]
+    },
+    {
+      "title": "Just-In-Time Compilation for Verilog: A New Technique for Improving the FPGA Programming Experience",
+      "authors": [
+        "Eric Schkufza",
+        "Michael Wei",
+        "Christopher J. Rossbach"
+      ],
+      "pages": "271-286",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/SchkufzaWR19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/SchkufzaWR19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304010",
+        "https://www.wikidata.org/entity/Q130846211"
+      ]
+    },
+    {
+      "title": "Keynote: Developing our Quantum Future",
+      "authors": [
+        "Krysta M. Svore"
+      ],
+      "pages": "2",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Svore19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Svore19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3320434",
+        "https://www.wikidata.org/entity/Q130924851"
+      ]
+    },
+    {
+      "title": "Keynote: Multicore Programming",
+      "authors": [
+        "Barbara Liskov"
+      ],
+      "pages": "1",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Liskov19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Liskov19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304078"
+      ]
+    },
+    {
+      "title": "kMVX: Detecting Kernel Information Leaks with Multi-variant Execution",
+      "authors": [
+        "Sebastian &Ouml;sterlund",
+        "Koen Koning",
+        "Pierre Olivier",
+        "Antonio Barbalace",
+        "Herbert Bos",
+        "Cristiano Giuffrida"
+      ],
+      "pages": "559-572",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/OsterlundKOBBG19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/OsterlundKOBBG19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304054"
+      ]
+    },
+    {
+      "title": "KNN-Joins Using a Hybrid Approach: Exploiting CPU/GPU Workload Characteristics",
+      "authors": [
+        "Michael Gowanlock"
+      ],
+      "pages": "33-42",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Gowanlock19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Gowanlock19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3300053.3319417"
+      ]
+    },
+    {
+      "title": "Lazy Determinism for Faster Deterministic Multithreading",
+      "authors": [
+        "Timothy Merrifield",
+        "Sepideh Roghanchi",
+        "Joseph Devietti",
+        "Jakob Eriksson"
+      ],
+      "pages": "879-891",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MerrifieldRDE19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MerrifieldRDE19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304047"
+      ]
+    },
+    {
+      "title": "LightStore: Software-defined Network-attached Key-value Drives",
+      "authors": [
+        "Chanwoo Chung",
+        "Jinhyung Koo",
+        "Junsu Im",
+        "Arvind 0001",
+        "Sungjin Lee 0001"
+      ],
+      "pages": "939-953",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChungKIAL19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChungKIAL19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304022",
+        "https://www.wikidata.org/entity/Q130966255"
+      ]
+    },
+    {
+      "title": "Minotaur: Adapting Software Testing Techniques for Hardware Errors",
+      "authors": [
+        "Abdulrahman Mahmoud",
+        "Radha Venkatagiri",
+        "Khalique Ahmed",
+        "Sasa Misailovic",
+        "Darko Marinov",
+        "Christopher W. Fletcher",
+        "Sarita V. Adve"
+      ],
+      "pages": "1087-1103",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MahmoudVAMMFA19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MahmoudVAMMFA19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304050"
+      ]
+    },
+    {
+      "title": "Morpheus: A Vulnerability-Tolerant Secure Architecture Based on Ensembles of Moving Target Defenses with Churn",
+      "authors": [
+        "Mark Gallagher 0003",
+        "Lauren Biernacki",
+        "Shibo Chen 0001",
+        "Zelalem Birhanu Aweke",
+        "Salessawi Ferede Yitbarek",
+        "Misiker Tadesse Aga",
+        "Austin Harris 0001",
+        "Zhixing Xu",
+        "Baris Kasikci",
+        "Valeria Bertacco",
+        "Sharad Malik",
+        "Mohit Tiwari",
+        "Todd M. Austin"
+      ],
+      "pages": "469-484",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GallagherBCAYAH19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GallagherBCAYAH19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304037",
+        "https://www.wikidata.org/entity/Q130920197"
+      ]
+    },
+    {
+      "title": "MV-RLU: Scaling Read-Log-Update with Multi-Versioning",
+      "authors": [
+        "Jaeho Kim",
+        "Ajit Mathew",
+        "Sanidhya Kashyap",
+        "Madhava Krishnan Ramanathan",
+        "Changwoo Min"
+      ],
+      "pages": "779-792",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KimMKRM19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KimMKRM19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304040"
+      ]
+    },
+    {
+      "title": "MVEDSUA: Higher Availability Dynamic Software Updates via Multi-Version Execution",
+      "authors": [
+        "Lu&iacute;s Pina",
+        "Anastasios Andronidis",
+        "Michael Hicks 0001",
+        "Cristian Cadar"
+      ],
+      "pages": "573-585",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/PinaA0C19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/PinaA0C19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304063"
+      ]
+    },
+    {
+      "title": "Nimble Page Management for Tiered Memory Systems",
+      "authors": [
+        "Zi Yan",
+        "Daniel Lustig",
+        "David W. Nellans",
+        "Abhishek Bhattacharjee"
+      ],
+      "pages": "331-345",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/YanLNB19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/YanLNB19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304024",
+        "https://www.wikidata.org/entity/Q130981709"
+      ]
+    },
+    {
+      "title": "Noise-Adaptive Compiler Mappings for Noisy Intermediate-Scale Quantum Computers",
+      "authors": [
+        "Prakash Murali",
+        "Jonathan M. Baker",
+        "Ali Javadi-Abhari",
+        "Frederic T. Chong",
+        "Margaret Martonosi"
+      ],
+      "pages": "1015-1029",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MuraliBJCM19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MuraliBJCM19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304075",
+        "https://www.wikidata.org/entity/Q130837673"
+      ]
+    },
+    {
+      "title": "Not All Qubits Are Created Equal: A Case for Variability-Aware Policies for NISQ-Era Quantum Computers",
+      "authors": [
+        "Swamit S. Tannu",
+        "Moinuddin K. Qureshi"
+      ],
+      "pages": "987-999",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TannuQ19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TannuQ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304007",
+        "https://www.wikidata.org/entity/Q130922064"
+      ]
+    },
+    {
+      "title": "Optimized Compilation of Aggregated Instructions for Realistic Quantum Computers",
+      "authors": [
+        "Yunong Shi",
+        "Nelson Leung 0002",
+        "Pranav Gokhale",
+        "Zane M. Rossi",
+        "David I. Schuster",
+        "Henry Hoffmann",
+        "Frederic T. Chong"
+      ],
+      "pages": "1031-1044",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ShiLGRSHC19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ShiLGRSHC19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304018",
+        "https://www.wikidata.org/entity/Q130860007"
+      ]
+    },
+    {
+      "title": "Packing Sparse Convolutional Neural Networks for Efficient Systolic Array Implementations: Column Combining Under Joint Optimization",
+      "authors": [
+        "H. T. Kung 0001",
+        "Bradley McDanel",
+        "Sai Qian Zhang"
+      ],
+      "pages": "821-834",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/KungMZ19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/KungMZ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304028"
+      ]
+    },
+    {
+      "title": "PARTIES: QoS-Aware Resource Partitioning for Multiple Interactive Services",
+      "authors": [
+        "Shuang Chen 0002",
+        "Christina Delimitrou",
+        "Jos&eacute; F. Mart&iacute;nez"
+      ],
+      "pages": "107-120",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ChenDM19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ChenDM19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304005"
+      ]
+    },
+    {
+      "title": "Phoenix: A Substrate for Resilient Distributed Graph Analytics",
+      "authors": [
+        "Roshan Dathathri",
+        "Gurbinder Gill",
+        "Loc Hoang",
+        "Keshav Pingali"
+      ],
+      "pages": "615-630",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DathathriGHP19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DathathriGHP19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304056",
+        "https://www.wikidata.org/entity/Q131124260"
+      ]
+    },
+    {
+      "title": "pLock: A Fast Lock for Architectures with Explicit Inter-core Message Passing",
+      "authors": [
+        "Xiongchao Tang",
+        "Jidong Zhai",
+        "Xuehai Qian",
+        "Wenguang Chen"
+      ],
+      "pages": "765-778",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TangZQC19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TangZQC19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304030"
+      ]
+    },
+    {
+      "title": "PMTest: A Fast and Flexible Testing Framework for Persistent Memory Programs",
+      "authors": [
+        "Sihang Liu 0001",
+        "Yizhou Wei",
+        "Jishen Zhao",
+        "Aasheesh Kolli",
+        "Samira Manabi Khan"
+      ],
+      "pages": "411-425",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0001WZKK19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0001WZKK19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304015"
+      ]
+    },
+    {
+      "title": "PnP: Pruning and Prediction for Point-To-Point Iterative Graph Analytics",
+      "authors": [
+        "Chengshuo Xu",
+        "Keval Vora",
+        "Rajiv Gupta 0001"
+      ],
+      "pages": "587-600",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/XuV019",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/XuV019.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304012"
+      ]
+    },
+    {
+      "title": "ProbeGuard: Mitigating Probing Attacks Through Reactive Program Transformations",
+      "authors": [
+        "Koustubha Bhat",
+        "Erik van der Kouwe",
+        "Herbert Bos",
+        "Cristiano Giuffrida"
+      ],
+      "pages": "545-558",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BhatKBG19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BhatKBG19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304073"
+      ]
+    },
+    {
+      "title": "Protecting Page Tables from RowHammer Attacks using Monotonic Pointers in DRAM True-Cells",
+      "authors": [
+        "Xin-Chuan Wu",
+        "Timothy Sherwood",
+        "Frederic T. Chong",
+        "Yanjing Li"
+      ],
+      "pages": "645-657",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WuSCL19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WuSCL19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304039"
+      ]
+    },
+    {
+      "title": "Puddle: A Dynamic, Error-Correcting, Full-Stack Microfluidics Platform",
+      "authors": [
+        "Max Willsey",
+        "Ashley P. Stephenson",
+        "Chris Takahashi",
+        "Pranav Vaid",
+        "Bichlien H. Nguyen",
+        "Michal Piszczek",
+        "Christine Betts",
+        "Sharon Newman",
+        "Sarang Joshi",
+        "Karin Strauss",
+        "Luis Ceze"
+      ],
+      "pages": "183-197",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/WillseySTVNPBNJ19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/WillseySTVNPBNJ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304027",
+        "https://www.wikidata.org/entity/Q130986768"
+      ]
+    },
+    {
+      "title": "PUMA: A Programmable Ultra-efficient Memristor-based Accelerator for Machine Learning Inference",
+      "authors": [
+        "Aayush Ankit",
+        "Izzat El Hajj",
+        "Sai Rahul Chalamalasetti",
+        "Geoffrey Ndu",
+        "Martin Foltin",
+        "R. Stanley Williams",
+        "Paolo Faraboschi",
+        "Wen-mei W. Hwu",
+        "John Paul Strachan",
+        "Kaushik Roy 0001",
+        "Dejan S. Milojicic"
+      ],
+      "pages": "715-731",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/AnkitHCNFWFHS0M19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/AnkitHCNFWFHS0M19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304049"
+      ]
+    },
+    {
+      "title": "Quantifying the NUMA Behavior of Partitioned GPGPU Applications",
+      "authors": [
+        "Alexander Matz",
+        "Holger Fr&ouml;ning"
+      ],
+      "pages": "53-62",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MatzF19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MatzF19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3300053.3319420",
+        "https://www.wikidata.org/entity/Q131115158"
+      ]
+    },
+    {
+      "title": "Replica: A Wireless Manycore for Communication-Intensive and Approximate Data",
+      "authors": [
+        "Vimuth Fernando",
+        "Antonio Franques",
+        "Sergi Abadal",
+        "Sasa Misailovic",
+        "Josep Torrellas"
+      ],
+      "pages": "849-863",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/FernandoFAMT19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/FernandoFAMT19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304033"
+      ]
+    },
+    {
+      "title": "RPCValet: NI-Driven Tail-Aware Balancing of &micro;s-Scale RPCs",
+      "authors": [
+        "Alexandros Daglis",
+        "Mark Sutherland",
+        "Babak Falsafi"
+      ],
+      "pages": "35-48",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DaglisSF19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DaglisSF19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304070"
+      ]
+    },
+    {
+      "title": "Safer Program Behavior Sharing Through Trace Wringing",
+      "authors": [
+        "Deeksha Dangwal",
+        "Weilong Cui",
+        "Joseph McMahan",
+        "Timothy Sherwood"
+      ],
+      "pages": "1059-1072",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/DangwalCMS19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/DangwalCMS19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304074"
+      ]
+    },
+    {
+      "title": "Scalable Processing of Contemporary Semi-Structured Data on Commodity Parallel Processors - A Compilation-based Approach",
+      "authors": [
+        "Lin Jiang 0005",
+        "Xiaofan Sun",
+        "Umar Farooq 0002",
+        "Zhijia Zhao 0001"
+      ],
+      "pages": "79-92",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JiangSF019",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JiangSF019.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304008",
+        "https://www.wikidata.org/entity/Q130880606"
+      ]
+    },
+    {
+      "title": "Scatter-and-Gather Revisited: High-Performance Side-Channel-Resistant AES on GPUs",
+      "authors": [
+        "Zhen Lin",
+        "Utkarsh Mathur",
+        "Huiyang Zhou"
+      ],
+      "pages": "2-11",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LinMZ19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LinMZ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3300053.3319415"
+      ]
+    },
+    {
+      "title": "Seer: Leveraging Big Data to Navigate the Complexity of Performance Debugging in Cloud Microservices",
+      "authors": [
+        "Yu Gan 0002",
+        "Yanqi Zhang",
+        "Kelvin Hu",
+        "Dailun Cheng",
+        "Yuan He 0015",
+        "Meghna Pancholi",
+        "Christina Delimitrou"
+      ],
+      "pages": "19-33",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GanZHCHPD19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GanZHCHPD19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304004"
+      ]
+    },
+    {
+      "title": "Software-Defined Far Memory in Warehouse-Scale Computers",
+      "authors": [
+        "H. Andr&eacute;s Lagar-Cavilla",
+        "Junwhan Ahn",
+        "Suleiman Souhlal",
+        "Neha Agarwal",
+        "Radoslaw Burny",
+        "Shakeel Butt",
+        "Jichuan Chang",
+        "Ashwin Chaugule",
+        "Nan Deng",
+        "Junaid Shahid",
+        "Greg Thelen",
+        "Kamil Adam Yurtsever",
+        "Yu Zhao",
+        "Parthasarathy Ranganathan"
+      ],
+      "pages": "317-330",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Lagar-CavillaAS19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Lagar-CavillaAS19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304053",
+        "https://www.wikidata.org/entity/Q130968483"
+      ]
+    },
+    {
+      "title": "SOML Read: Rethinking the Read Operation Granularity of 3D NAND SSDs",
+      "authors": [
+        "Chun-Yi Liu 0002",
+        "Jagadish B. Kotra",
+        "Myoungsoo Jung",
+        "Mahmut T. Kandemir",
+        "Chita R. Das"
+      ],
+      "pages": "955-969",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LiuKJKD19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LiuKJKD19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304035",
+        "https://www.wikidata.org/entity/Q130952601"
+      ]
+    },
+    {
+      "title": "Split-CNN: Splitting Window-based Operations in Convolutional Neural Networks for Memory System Optimization",
+      "authors": [
+        "Tian Jin",
+        "Seokin Hong"
+      ],
+      "pages": "835-847",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/JinH19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/JinH19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304038",
+        "https://www.wikidata.org/entity/Q130962934"
+      ]
+    },
+    {
+      "title": "StreamBox-HBM: Stream Analytics on High Bandwidth Hybrid Memory",
+      "authors": [
+        "Hongyu Miao 0002",
+        "Myeongjae Jeon",
+        "Gennady Pekhimenko",
+        "Kathryn S. McKinley",
+        "Felix Xiaozhu Lin"
+      ],
+      "pages": "167-181",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/MiaoJPML19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/MiaoJPML19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304031"
+      ]
+    },
+    {
+      "title": "Swizzle Inventor: Data Movement Synthesis for GPU Kernels",
+      "authors": [
+        "Phitchaya Mangpo Phothilimthana",
+        "Archibald Samuel Elliott",
+        "An Wang 0003",
+        "Abhinav Jangda",
+        "Bastian Hagedorn",
+        "Henrik Barthels",
+        "Samuel J. Kaufman",
+        "Vinod Grover",
+        "Emina Torlak",
+        "Rastislav Bod&iacute;k"
+      ],
+      "pages": "65-78",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/PhothilimthanaE19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/PhothilimthanaE19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304059",
+        "https://www.wikidata.org/entity/Q131121607"
+      ]
+    },
+    {
+      "title": "Tackling the Qubit Mapping Problem for NISQ-Era Quantum Devices",
+      "authors": [
+        "Gushu Li",
+        "Yufei Ding 0001",
+        "Yuan Xie 0001"
+      ],
+      "pages": "1001-1014",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LiDX19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LiDX19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304023",
+        "https://www.wikidata.org/entity/Q130917095"
+      ]
+    },
+    {
+      "title": "TANGRAM: Optimized Coarse-Grained Dataflow for Scalable NN Accelerators",
+      "authors": [
+        "Mingyu Gao 0001",
+        "Xuan Yang",
+        "Jing Pu",
+        "Mark Horowitz",
+        "Christos Kozyrakis"
+      ],
+      "pages": "807-820",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/GaoYPHK19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/GaoYPHK19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304014"
+      ]
+    },
+    {
+      "title": "Targeting Classical Code to a Quantum Annealer",
+      "authors": [
+        "Scott Pakin"
+      ],
+      "pages": "529-543",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/Pakin19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/Pakin19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304071",
+        "https://www.wikidata.org/entity/Q130916990"
+      ]
+    },
+    {
+      "title": "Understanding Real-World Concurrency Bugs in Go",
+      "authors": [
+        "Tengfei Tu",
+        "Xiaoyu Liu",
+        "Linhai Song",
+        "Yiying Zhang 0005"
+      ],
+      "pages": "865-878",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/TuLSZ19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/TuLSZ19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304069"
+      ]
+    },
+    {
+      "title": "uops.info: Characterizing Latency, Throughput, and Port Usage of Instructions on Intel Microarchitectures",
+      "authors": [
+        "Andreas Abel 0002",
+        "Jan Reineke 0001"
+      ],
+      "pages": "673-686",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/0002R19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/0002R19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304062"
+      ]
+    },
+    {
+      "title": "Wasabi: A Framework for Dynamically Analyzing WebAssembly",
+      "authors": [
+        "Daniel Lehmann 0002",
+        "Michael Pradel"
+      ],
+      "pages": "1045-1058",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/LehmannP19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/LehmannP19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304068",
+        "https://www.wikidata.org/entity/Q131109253"
+      ]
+    },
+    {
+      "title": "Which Graph Representation to Select for Static Graph-Algorithms on a CUDA-capable GPU",
+      "authors": [
+        "Thorsten Bla&szlig;",
+        "Michael Philippsen"
+      ],
+      "pages": "22-31",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/BlassP19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/BlassP19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3300053.3319416",
+        "https://www.wikidata.org/entity/Q131111906"
+      ]
+    },
+    {
+      "title": "X-Containers: Breaking Down Barriers to Improve Performance and Isolation of Cloud-Native Containers",
+      "authors": [
+        "Zhiming Shen",
+        "Zhen Sun",
+        "Gur-Eyal Sela",
+        "Eugene Bagdasaryan",
+        "Christina Delimitrou",
+        "Robbert van Renesse",
+        "Hakim Weatherspoon"
+      ],
+      "pages": "121-135",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/ShenSSBDRW19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/ShenSSBDRW19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304016",
+        "https://www.wikidata.org/entity/Q131121626"
+      ]
+    },
+    {
+      "title": "ρ: Relaxed Hierarchical ORAM",
+      "authors": [
+        "Chandrasekhar Nagarajan",
+        "Ali Shafiee",
+        "Rajeev Balasubramonian",
+        "Mohit Tiwari"
+      ],
+      "pages": "659-671",
+      "year": "2019",
+      "venue": "ASPLOS 2019",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/asplos/NagarajanSBT19",
+      "dblp_url": "https://dblp.org/rec/conf/asplos/NagarajanSBT19.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3297858.3304045"
+      ]
+    }
+  ]
+}

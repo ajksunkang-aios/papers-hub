@@ -1,0 +1,441 @@
+{
+  "id": "sosp-2003",
+  "venue": "sosp",
+  "year": 2003,
+  "short_name": "SOSP",
+  "full_name": "ACM Symposium on Operating Systems Principles",
+  "source_url": "https://dblp.org/db/conf/sosp/sosp2003.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/sosp/sosp2003.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/sosp/2003",
+    "conf/sosp/2003-1",
+    "conf/sosp/2003-2",
+    "conf/sosp/2003-3",
+    "conf/sosp/2003-4",
+    "conf/sosp/2003-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the ACM SIGOPS \\d+(st|nd|rd|th) Symposium on Operating Systems Principles"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 22,
+  "display_count": 22,
+  "papers": [
+    {
+      "title": "Backtracking intrusions",
+      "authors": [
+        "Samuel T. King",
+        "Peter M. Chen"
+      ],
+      "pages": "223-236",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KingC03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KingC03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945467"
+      ]
+    },
+    {
+      "title": "Bullet: high bandwidth data dissemination using an overlay mesh",
+      "authors": [
+        "Dejan Kostic",
+        "Adolfo Rodriguez",
+        "Jeannie R. Albrecht",
+        "Amin Vahdat"
+      ],
+      "pages": "282-297",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KosticRAV03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KosticRAV03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945473"
+      ]
+    },
+    {
+      "title": "Capriccio: scalable threads for internet services",
+      "authors": [
+        "J. Robert von Behren",
+        "Jeremy Condit",
+        "Feng Zhou",
+        "George C. Necula",
+        "Eric A. Brewer"
+      ],
+      "pages": "268-281",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BehrenCZNB03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BehrenCZNB03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945471"
+      ]
+    },
+    {
+      "title": "Decentralized user authentication in a global file system",
+      "authors": [
+        "Michael Kaminsky",
+        "George Savvides",
+        "David Mazi&egrave;res",
+        "M. Frans Kaashoek"
+      ],
+      "pages": "60-73",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/KaminskySMK03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/KaminskySMK03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945452"
+      ]
+    },
+    {
+      "title": "Energy-efficient soft real-time CPU scheduling for mobile multimedia systems",
+      "authors": [
+        "Wanghong Yuan",
+        "Klara Nahrstedt"
+      ],
+      "pages": "149-163",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YuanN03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YuanN03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945460"
+      ]
+    },
+    {
+      "title": "Implementing an untrusted operating system on trusted hardware",
+      "authors": [
+        "David Lie",
+        "Chandramohan A. Thekkath",
+        "Mark Horowitz"
+      ],
+      "pages": "178-192",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/LieTH03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/LieTH03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945463"
+      ]
+    },
+    {
+      "title": "Improving the reliability of commodity operating systems",
+      "authors": [
+        "Michael M. Swift",
+        "Brian N. Bershad",
+        "Henry M. Levy"
+      ],
+      "pages": "207-222",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SwiftBL03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SwiftBL03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945466"
+      ]
+    },
+    {
+      "title": "Measurement, modeling, and analysis of a peer-to-peer file-sharing workload",
+      "authors": [
+        "P. Krishna Gummadi",
+        "Richard J. Dunn",
+        "Stefan Saroiu",
+        "Steven D. Gribble",
+        "Henry M. Levy",
+        "John Zahorjan"
+      ],
+      "pages": "314-329",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GummadiDSGLZ03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GummadiDSGLZ03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945475"
+      ]
+    },
+    {
+      "title": "Model-carrying code: a practical approach for safe execution of untrusted applications",
+      "authors": [
+        "R. Sekar 0001",
+        "V. N. Venkatakrishnan",
+        "Samik Basu 0001",
+        "Sandeep Bhatkar",
+        "Daniel C. DuVarney"
+      ],
+      "pages": "15-28",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/SekarVBBD03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/SekarVBBD03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945448"
+      ]
+    },
+    {
+      "title": "Performance debugging for distributed systems of black boxes",
+      "authors": [
+        "Marcos Kawazoe Aguilera",
+        "Jeffrey C. Mogul",
+        "Janet L. Wiener",
+        "Patrick Reynolds",
+        "Athicha Muthitacharoen"
+      ],
+      "pages": "74-89",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/AguileraMWRM03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/AguileraMWRM03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945454"
+      ]
+    },
+    {
+      "title": "Preserving peer replicas by rate-limited sampled voting",
+      "authors": [
+        "Petros Maniatis",
+        "David S. H. Rosenthal",
+        "Mema Roussopoulos",
+        "Mary Baker",
+        "Thomas J. Giuli",
+        "Yanto Muliadi"
+      ],
+      "pages": "44-59",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/ManiatisRRBGM03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/ManiatisRRBGM03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945451",
+        "https://www.wikidata.org/entity/Q56688317"
+      ]
+    },
+    {
+      "title": "RacerX: effective, static detection of race conditions and deadlocks",
+      "authors": [
+        "Dawson R. Engler",
+        "Ken Ashcraft"
+      ],
+      "pages": "237-252",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/EnglerA03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/EnglerA03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945468"
+      ]
+    },
+    {
+      "title": "Samsara: honor among thieves in peer-to-peer storage",
+      "authors": [
+        "Landon P. Cox",
+        "Brian D. Noble"
+      ],
+      "pages": "120-132",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CoxN03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CoxN03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945458"
+      ]
+    },
+    {
+      "title": "Separating agreement from execution for byzantine fault tolerant services",
+      "authors": [
+        "Jian Yin 0002",
+        "Jean-Philippe Martin",
+        "Arun Venkataramani",
+        "Lorenzo Alvisi",
+        "Michael Dahlin"
+      ],
+      "pages": "253-267",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/YinMVAD03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/YinMVAD03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945470",
+        "https://www.wikidata.org/entity/Q130989868"
+      ]
+    },
+    {
+      "title": "SHARP: an architecture for secure resource peering",
+      "authors": [
+        "Yun Fu 0003",
+        "Jeffrey S. Chase",
+        "Brent N. Chun",
+        "Stephen Schwab",
+        "Amin Vahdat"
+      ],
+      "pages": "133-148",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/FuCCSV03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/FuCCSV03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945459"
+      ]
+    },
+    {
+      "title": "SplitStream: high-bandwidth multicast in cooperative environments",
+      "authors": [
+        "Miguel Castro 0001",
+        "Peter Druschel",
+        "Anne-Marie Kermarrec",
+        "Animesh Nandi",
+        "Antony I. T. Rowstron",
+        "Atul Singh"
+      ],
+      "pages": "298-313",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/CastroDKNRS03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/CastroDKNRS03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945474"
+      ]
+    },
+    {
+      "title": "Terra: a virtual machine-based platform for trusted computing",
+      "authors": [
+        "Tal Garfinkel",
+        "Ben Pfaff",
+        "Jim Chow",
+        "Mendel Rosenblum",
+        "Dan Boneh"
+      ],
+      "pages": "193-206",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GarfinkelPCRB03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GarfinkelPCRB03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945464"
+      ]
+    },
+    {
+      "title": "The Google file system",
+      "authors": [
+        "Sanjay Ghemawat",
+        "Howard Gobioff",
+        "Shun-Tak Leung"
+      ],
+      "pages": "29-43",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/GhemawatGL03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/GhemawatGL03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945450",
+        "https://www.wikidata.org/entity/Q56503748"
+      ]
+    },
+    {
+      "title": "Transforming policies into mechanisms with infokernel",
+      "authors": [
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Nathan C. Burnett",
+        "Timothy E. Denehy",
+        "Thomas J. Engle",
+        "Haryadi S. Gunawi",
+        "James A. Nugent",
+        "Florentina I. Popovici"
+      ],
+      "pages": "90-105",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/Arpaci-DusseauABDEGNP03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/Arpaci-DusseauABDEGNP03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945455"
+      ]
+    },
+    {
+      "title": "Upgrading transport protocols using untrusted mobile code",
+      "authors": [
+        "Parveen Patel",
+        "Andrew Whitaker",
+        "David Wetherall",
+        "Jay Lepreau",
+        "Tim Stack"
+      ],
+      "pages": "1-14",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/PatelWWLS03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/PatelWWLS03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945447"
+      ]
+    },
+    {
+      "title": "User-level internet path diagnosis",
+      "authors": [
+        "Ratul Mahajan",
+        "Neil T. Spring",
+        "David Wetherall",
+        "Thomas E. Anderson"
+      ],
+      "pages": "106-119",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/MahajanSWA03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/MahajanSWA03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945456"
+      ]
+    },
+    {
+      "title": "Xen and the art of virtualization",
+      "authors": [
+        "Paul Barham 0001",
+        "Boris Dragovic",
+        "Keir Fraser",
+        "Steven Hand 0001",
+        "Tim Harris 0001",
+        "Alex Ho",
+        "Rolf Neugebauer",
+        "Ian Pratt 0001",
+        "Andrew Warfield"
+      ],
+      "pages": "164-177",
+      "year": "2003",
+      "venue": "SOSP 2003",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/sosp/BarhamDFHHHN03",
+      "dblp_url": "https://dblp.org/rec/conf/sosp/BarhamDFHHHN03.html",
+      "ee_links": [
+        "https://doi.org/10.1145/945445.945462"
+      ]
+    }
+  ]
+}

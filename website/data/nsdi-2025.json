@@ -1,0 +1,1812 @@
+{
+  "id": "nsdi-2025",
+  "venue": "nsdi",
+  "year": 2025,
+  "short_name": "NSDI",
+  "full_name": "USENIX Symposium on Networked Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/nsdi/nsdi2025.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/nsdi/nsdi2025.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/nsdi/2025",
+    "conf/nsdi/2025-1",
+    "conf/nsdi/2025-2",
+    "conf/nsdi/2025-3",
+    "conf/nsdi/2025-4",
+    "conf/nsdi/2025-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Networked Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 83,
+  "display_count": 83,
+  "papers": [
+    {
+      "title": "A Layered Formal Methods Approach to Answering Queue-related Queries",
+      "authors": [
+        "Divya Raghunathan",
+        "Maria Apostolaki",
+        "Aarti Gupta"
+      ],
+      "pages": "1289-1304",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RaghunathanAG25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RaghunathanAG25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/raghunathan"
+      ]
+    },
+    {
+      "title": "Accelerating Design Space Exploration for LLM Training Systems with Multi-experiment Parallel Simulation",
+      "authors": [
+        "Fei Gui",
+        "Kaihui Gao",
+        "Li Chen 0008",
+        "Dan Li 0001",
+        "Vincent Liu 0001",
+        "Ran Zhang",
+        "Hongbing Yang",
+        "Dian Xiong"
+      ],
+      "pages": "473-488",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuiG000ZYX25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuiG000ZYX25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/gui"
+      ]
+    },
+    {
+      "title": "Achieving Wire-Latency Storage Systems by Exploiting Hardware ACKs",
+      "authors": [
+        "Qing Wang 0031",
+        "Jiwu Shu",
+        "Jing Wang 0158",
+        "Yuhao Zhang 0006"
+      ],
+      "pages": "1085-1100",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0031SW025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0031SW025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/wang-qing"
+      ]
+    },
+    {
+      "title": "AsTree: An Audio Subscription Architecture Enabling Massive-Scale Multi-Party Conferencing",
+      "authors": [
+        "Tong Meng",
+        "Wenfeng Li",
+        "Chao Yuan",
+        "Changqing Yan",
+        "Le Zhang"
+      ],
+      "pages": "653-666",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/MengLYYZ25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/MengLYYZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/meng"
+      ]
+    },
+    {
+      "title": "AutoCCL: Automated Collective Communication Tuning for Accelerating Distributed and Parallel DNN Training",
+      "authors": [
+        "Guanbin Xu",
+        "Zhihao Le",
+        "Yinhe Chen",
+        "Zhiqi Lin",
+        "Zewen Jin",
+        "Youshan Miao",
+        "Cheng Li"
+      ],
+      "pages": "667-683",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XuLCLJML25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XuLCLJML25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/xu-guanbin"
+      ]
+    },
+    {
+      "title": "Beehive: A Scalable Disaggregated Memory Runtime Exploiting Asynchrony of Multithreaded Programs",
+      "authors": [
+        "Quanxi Li",
+        "Hong Huang",
+        "Ying Liu 0055",
+        "Yanwen Xia",
+        "Jie Zhang 0048",
+        "Mosong Zhou",
+        "Xiaobing Feng 0002",
+        "Huimin Cui",
+        "Quan Chen",
+        "Yizhou Shan",
+        "Chenxi Wang 0005"
+      ],
+      "pages": "167-187",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiHLXZZ0CCSW25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiHLXZZ0CCSW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/li-quanxi"
+      ]
+    },
+    {
+      "title": "BFTBrain: Adaptive BFT Consensus with Reinforcement Learning",
+      "authors": [
+        "Chenyuan Wu",
+        "Haoyun Qin",
+        "Mohammad Javad Amiri",
+        "Boon Thau Loo",
+        "Dahlia Malkhi",
+        "Ryan Marcus"
+      ],
+      "pages": "1563-1583",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WuQALMM25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WuQALMM25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/wu-chenyuan"
+      ]
+    },
+    {
+      "title": "Building an Elastic Block Storage over EBOFs Using Shadow Views",
+      "authors": [
+        "Sheng Jiang",
+        "Ming Liu 0027"
+      ],
+      "pages": "1137-1153",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Jiang025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Jiang025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/jiang"
+      ]
+    },
+    {
+      "title": "Building Massive MIMO Baseband Processing on a Single-Node Supercomputer",
+      "authors": [
+        "Xincheng Xie",
+        "Wentao Hou",
+        "Zerui Guo",
+        "Ming Liu 0027"
+      ],
+      "pages": "1221-1242",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XieHG025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XieHG025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/xie"
+      ]
+    },
+    {
+      "title": "ByteCheckpoint: A Unified Checkpointing System for Large Foundation Model Development",
+      "authors": [
+        "Borui Wan",
+        "Mingji Han",
+        "Yiyao Sheng",
+        "Yanghua Peng",
+        "Haibin Lin",
+        "Mofan Zhang",
+        "Zhichao Lai",
+        "Menghan Yu",
+        "Junda Zhang",
+        "Zuquan Song",
+        "Xin Liu 0086",
+        "Chuan Wu 0001"
+      ],
+      "pages": "559-578",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WanHSPLZLYZSL025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WanHSPLZLYZSL025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/wan-borui"
+      ]
+    },
+    {
+      "title": "CATO: End-to-End Optimization of ML-Based Traffic Analysis Pipelines",
+      "authors": [
+        "Gerry Wan",
+        "Shinan Liu",
+        "Francesco Bronzino",
+        "Nick Feamster",
+        "Zakir Durumeric"
+      ],
+      "pages": "1523-1540",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WanLBFD25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WanLBFD25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/wan-gerry"
+      ]
+    },
+    {
+      "title": "CEGS: Configuration Example Generalizing Synthesizer",
+      "authors": [
+        "Jianmin Liu",
+        "Li Chen 0008",
+        "Dan Li 0001",
+        "Yukai Miao"
+      ],
+      "pages": "1327-1347",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiuC0M25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiuC0M25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/liu-jianmin"
+      ]
+    },
+    {
+      "title": "CellReplay: Towards accurate record-and-replay for cellular networks",
+      "authors": [
+        "William Sentosa",
+        "Balakrishnan Chandrasekaran 0002",
+        "Philip Brighten Godfrey",
+        "Haitham Hassanieh"
+      ],
+      "pages": "1169-1186",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Sentosa0GH25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Sentosa0GH25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/sentosa"
+      ]
+    },
+    {
+      "title": "ClubHeap: A High-Speed and Scalable Priority Queue for Programmable Packet Scheduling",
+      "authors": [
+        "Zhikang Chen",
+        "Haoyu Song 0001",
+        "Zhiyu Zhang 0012",
+        "Yang Xu 0010",
+        "Bin Liu 0001"
+      ],
+      "pages": "1421-1436",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Chen0Z0025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Chen0Z0025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/chen-zhikang"
+      ]
+    },
+    {
+      "title": "DISC: Backpressure Mitigation In Multi-tier Applications With Distributed Shared Connection",
+      "authors": [
+        "Brice Ekane",
+        "Djob Mvondo",
+        "Renaud Lachaize",
+        "Y&eacute;rom-David Bromberg",
+        "Alain Tchana",
+        "Daniel Hagimont"
+      ],
+      "pages": "55-70",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/EkaneMLBTH25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/EkaneMLBTH25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/ekane"
+      ]
+    },
+    {
+      "title": "Dissecting and Streamlining the Interactive Loop of Mobile Cloud Gaming",
+      "authors": [
+        "Yang Li 0092",
+        "Jiaxing Qiu",
+        "Hongyi Wang 0009",
+        "Zhenhua Li 0001",
+        "Feng Qian 0001",
+        "Jing Yang 0052",
+        "Hao Lin 0005",
+        "Yunhao Liu 0001",
+        "Bo Xiao",
+        "Xiaokang Qin",
+        "Tianyin Xu"
+      ],
+      "pages": "595-611",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiQ000Y00XQX25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiQ000Y00XQX25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/li-yang"
+      ]
+    },
+    {
+      "title": "Eden: Developer-Friendly Application-Integrated Far Memory",
+      "authors": [
+        "Anil Yelam",
+        "Stewart Grant",
+        "Saarth Deshpande",
+        "Nadav Amit",
+        "Radhika Niranjan Mysore",
+        "Amy Ousterhout",
+        "Marcos K. Aguilera",
+        "Alex C. Snoeren"
+      ],
+      "pages": "1067-1083",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YelamGDAMOAS25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YelamGDAMOAS25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/yelam"
+      ]
+    },
+    {
+      "title": "Efficient Direct-Connect Topologies for Collective Communications",
+      "authors": [
+        "Liangyu Zhao",
+        "Siddharth Pal",
+        "Tapan Chugh",
+        "Weiyang Wang",
+        "Jason Fantl",
+        "Prithwish Basu",
+        "Joud Khoury",
+        "Arvind Krishnamurthy"
+      ],
+      "pages": "705-737",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhaoPCWFBKK25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhaoPCWFBKK25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/zhao-liangyu"
+      ]
+    },
+    {
+      "title": "Efficient Multi-WAN Transport for 5G with OTTER",
+      "authors": [
+        "Mary Hogan",
+        "Gerry Wan",
+        "Yiming Qiu",
+        "Sharad Agarwal",
+        "Ryan Beckett",
+        "Rachee Singh",
+        "Paramvir Bahl"
+      ],
+      "pages": "1243-1267",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HoganWQABSB25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HoganWQABSB25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/hogan"
+      ]
+    },
+    {
+      "title": "Enabling Portable and High-Performance SmartNIC Programs with Alkali",
+      "authors": [
+        "Jiaxin Lin",
+        "Zhiyuan Guo",
+        "Mihir Shah",
+        "Tao Ji",
+        "Yiying Zhang 0005",
+        "Daehyeok Kim",
+        "Aditya Akella"
+      ],
+      "pages": "107-126",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LinGSJ0KA25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LinGSJ0KA25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/lin-jiaxin"
+      ]
+    },
+    {
+      "title": "Enabling Silent Telemetry Data Transmission with InvisiFlow",
+      "authors": [
+        "Yinda Zhang 0002",
+        "Liangcheng Yu",
+        "Gianni Antichi",
+        "Ran Ben Basat",
+        "Vincent Liu 0001"
+      ],
+      "pages": "71-86",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0002YAB025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0002YAB025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/zhang-yinda"
+      ]
+    },
+    {
+      "title": "Enhancing Network Failure Mitigation with Performance-Aware Ranking",
+      "authors": [
+        "Pooria Namyar",
+        "Arvin Ghavidel",
+        "Daniel Crankshaw",
+        "Daniel S. Berger",
+        "Kevin Hsieh",
+        "Srikanth Kandula",
+        "Ramesh Govindan",
+        "Behnaz Arzani"
+      ],
+      "pages": "335-357",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NamyarGCBHKGA25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NamyarGCBHKGA25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/namyar"
+      ]
+    },
+    {
+      "title": "eTran: Extensible Kernel Transport with eBPF",
+      "authors": [
+        "Zhongjie Chen",
+        "Qingkai Meng 0001",
+        "ChonLam Lao",
+        "Yifan Liu",
+        "Fengyuan Ren",
+        "Minlan Yu",
+        "Yang Zhou 0008"
+      ],
+      "pages": "407-425",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChenMLLRYZ25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChenMLLRYZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/chen-zhongjie"
+      ]
+    },
+    {
+      "title": "Everything Matters in Programmable Packet Scheduling",
+      "authors": [
+        "Albert Gran Alcoz",
+        "Bal&aacute;zs Vass",
+        "Pooria Namyar",
+        "Behnaz Arzani",
+        "G&aacute;bor R&eacute;tv&aacute;ri",
+        "Laurent Vanbever"
+      ],
+      "pages": "1467-1485",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AlcozVNARV25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AlcozVNARV25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/alcoz"
+      ]
+    },
+    {
+      "title": "Evolution of Aegis: Fault Diagnosis for AI Model Training Service in Production",
+      "authors": [
+        "Jianbo Dong",
+        "Kun Qian 0004",
+        "Pengcheng Zhang",
+        "Zhilong Zheng",
+        "Liang Chen 0001",
+        "Fei Feng",
+        "Yichi Xu",
+        "Yikai Zhu",
+        "Gang Lu",
+        "Xue Li 0024",
+        "Zhihui Ren",
+        "Zhicheng Wang",
+        "Bin Luo",
+        "Peng Zhang",
+        "Yang Liu 0245",
+        "Yanqing Chen",
+        "Yu Guan 0005",
+        "Weicheng Wang",
+        "Chaojie Yang",
+        "Yang Zhang 0102",
+        "Man Yuan",
+        "Hanyu Zhao",
+        "Yong Li 0008",
+        "Zihan Zhao",
+        "Shan Li",
+        "Xianlong Zeng",
+        "Zhiping Yao",
+        "Binzhang Fu",
+        "Ennan Zhai",
+        "Wei Lin 0016",
+        "Chao Wang",
+        "Dennis Cai"
+      ],
+      "pages": "865-881",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DongQZZCFXZLLRW25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DongQZZCFXZLLRW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/dong"
+      ]
+    },
+    {
+      "title": "From Address Blocks to Authorized Prefixes: Redesigning RPKI ROV with a Hierarchical Hashing Scheme for Fast and Memory-Efficient Validation",
+      "authors": [
+        "Zedong Ni",
+        "Yinbo Xu",
+        "Hui Zou",
+        "Yanbiao Li 0001",
+        "Guang Cheng",
+        "Gaogang Xie"
+      ],
+      "pages": "1381-1397",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/NiXZLCX25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/NiXZLCX25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/ni"
+      ]
+    },
+    {
+      "title": "GPU-Disaggregated Serving for Deep Learning Recommendation Models at Scale",
+      "authors": [
+        "Lingyun Yang",
+        "Yongchen Wang",
+        "Yinghao Yu",
+        "Qizhen Weng 0001",
+        "Jianbo Dong",
+        "Kan Liu",
+        "Chi Zhang 0005",
+        "Yanyi Zi",
+        "Hao Li",
+        "Zechao Zhang",
+        "Nan Wang",
+        "Yu Dong",
+        "Menglei Zheng",
+        "Lanlan Xi",
+        "Xiaowei Lu",
+        "Liang Ye",
+        "Guodong Yang",
+        "Binzhang Fu",
+        "Tao Lan",
+        "Liping Zhang 0013",
+        "Lin Qu",
+        "Wei Wang 0030"
+      ],
+      "pages": "847-863",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YangWYWDLZZLZWD25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YangWYWDLZZLZWD25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/yang"
+      ]
+    },
+    {
+      "title": "GRANNY: Granular Management of Compute-Intensive Applications in the Cloud",
+      "authors": [
+        "Carlos Segarra",
+        "Simon Shillaker",
+        "Guo Li",
+        "Eleftheria Mappoura",
+        "Rodrigo Bruno",
+        "Llu&iacute;s Vilanova",
+        "Peter R. Pietzuch"
+      ],
+      "pages": "205-218",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SegarraSLMBVP25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SegarraSLMBVP25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/segarra"
+      ]
+    },
+    {
+      "title": "GREEN: Carbon-efficient Resource Scheduling for Machine Learning Clusters",
+      "authors": [
+        "Kaiqiang Xu",
+        "Decang Sun",
+        "Han Tian",
+        "Junxue Zhang 0001",
+        "Kai Chen 0005"
+      ],
+      "pages": "999-1014",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XuST0025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XuST0025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/xu-kaiqiang"
+      ]
+    },
+    {
+      "title": "HA/TCP: A Reliable and Scalable Framework for TCP Network Functions",
+      "authors": [
+        "Haoyu Gu",
+        "Ali Jos&eacute; Mashtizadeh",
+        "Bernard Wong 0001"
+      ],
+      "pages": "899-914",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuM025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuM025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/gu"
+      ]
+    },
+    {
+      "title": "High-level Programming for Application Networks",
+      "authors": [
+        "Xiangfeng Zhu",
+        "Yuyao Wang",
+        "Banruo Liu",
+        "Yongtong Wu",
+        "Nikola Bojanic",
+        "Jingrong Chen 0002",
+        "Gilbert Louis Bernstein",
+        "Arvind Krishnamurthy",
+        "Sam Kumar",
+        "Ratul Mahajan",
+        "Danyang Zhuo"
+      ],
+      "pages": "915-935",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhuWLWB0BKKMZ25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhuWLWB0BKKMZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/zhu"
+      ]
+    },
+    {
+      "title": "Holmes: Localizing Irregularities in LLM Training with Mega-scale GPU Clusters",
+      "authors": [
+        "Zhiyi Yao",
+        "Pengbo Hu",
+        "Congcong Miao",
+        "Xuya Jia",
+        "Zuning Liang",
+        "Yuedong Xu 0001",
+        "Chunzhi He",
+        "Hao Lu",
+        "Mingzhuo Chen",
+        "Xiang Li 0010",
+        "Zekun He",
+        "Yachen Wang",
+        "Xianneng Zou",
+        "Junchen Jiang"
+      ],
+      "pages": "523-540",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/YaoHMJLXHLCLHWZ25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/YaoHMJLXHLCLHWZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/yao"
+      ]
+    },
+    {
+      "title": "Ladder: A Convergence-based Structured DAG Blockchain for High Throughput and Low Latency",
+      "authors": [
+        "Dengcheng Hu",
+        "Jianrong Wang",
+        "Xiulong Liu 0001",
+        "Hao Xu 0025",
+        "Xujing Wu",
+        "Muhammad Shahzad 0001",
+        "Guyue Liu",
+        "Keqiu Li"
+      ],
+      "pages": "779-794",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HuWLXW0LL25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HuWLXW0LL25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/hu"
+      ]
+    },
+    {
+      "title": "Large Network UWB Localization: Algorithms and Implementation",
+      "authors": [
+        "Nakul Garg",
+        "Irtaza Shahid",
+        "Ramanujan K. Sheshadri",
+        "Karthikeyan Sundaresan",
+        "Nirupam Roy"
+      ],
+      "pages": "1187-1203",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GargSSSR25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GargSSSR25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/garg"
+      ]
+    },
+    {
+      "title": "Learning Production-Optimized Congestion Control Selection for Alibaba Cloud CDN",
+      "authors": [
+        "Xuan Zeng 0002",
+        "Haoran Xu",
+        "Chen Chen",
+        "Xumiao Zhang",
+        "Xiaoxi Zhang 0001",
+        "Xu Chen 0004",
+        "Guihai Chen",
+        "Yubing Qiu",
+        "Yiping Zhang",
+        "Chong Hao",
+        "Ennan Zhai"
+      ],
+      "pages": "827-845",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZengXCZ00CQZHZ25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZengXCZ00CQZHZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/zeng"
+      ]
+    },
+    {
+      "title": "Learnings from Deploying Network QoS Alignment to Application Priorities for Storage Services",
+      "authors": [
+        "Matthew Buckley",
+        "Parsa Pazhooheshy",
+        "Z. Morley Mao",
+        "Nandita Dukkipati",
+        "Hamid Hajabdolali Bazzaz",
+        "Priyaranjan Jha",
+        "Yingjie Bi",
+        "Steve Middlekauff",
+        "Yashar Ganjali"
+      ],
+      "pages": "37-53",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BuckleyPMDBJBMG25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BuckleyPMDBJBMG25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/buckley"
+      ]
+    },
+    {
+      "title": "Making Serverless Pay-For-Use a Reality with Leopard",
+      "authors": [
+        "Tingjia Cao",
+        "Andrea C. Arpaci-Dusseau",
+        "Remzi H. Arpaci-Dusseau",
+        "Tyler Caraza-Harter"
+      ],
+      "pages": "189-204",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/CaoAAC25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/CaoAAC25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/cao"
+      ]
+    },
+    {
+      "title": "MeshTest: End-to-End Testing for Service Mesh Traffic Management",
+      "authors": [
+        "Naiqian Zheng",
+        "Tianshuo Qiao",
+        "Xuanzhe Liu",
+        "Xin Jin 0008"
+      ],
+      "pages": "301-316",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhengQL025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhengQL025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/zheng-naiqian"
+      ]
+    },
+    {
+      "title": "Minder: Faulty Machine Detection for Large-scale Distributed Model Training",
+      "authors": [
+        "Yangtao Deng",
+        "Xiang Shi",
+        "Zhuo Jiang",
+        "Xingjian Zhang 0009",
+        "Lei Zhang",
+        "Zhang Zhang 0003",
+        "Bo Li",
+        "Zuquan Song",
+        "Hang Zhu",
+        "Gaohong Liu",
+        "Fuliang Li",
+        "Shuguang Wang",
+        "Haibin Lin",
+        "Jianxi Ye",
+        "Minlan Yu"
+      ],
+      "pages": "505-521",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DengSJZZ0LSZLLW25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DengSJZZ0LSZLLW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/deng"
+      ]
+    },
+    {
+      "title": "Mitigating Scalability Walls of RDMA-based Container Networks",
+      "authors": [
+        "Wei Liu 0148",
+        "Kun Qian 0004",
+        "Zhenhua Li 0001",
+        "Feng Qian 0001",
+        "Tianyin Xu",
+        "Yunhao Liu 0001",
+        "Yu Guan 0005",
+        "Shuhong Zhu",
+        "Hongfei Xu",
+        "Lanlan Xi",
+        "Chao Qin",
+        "Ennan Zhai"
+      ],
+      "pages": "1049-1065",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/0148Q00X0GZXXQZ25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/0148Q00X0GZXXQZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/liu-wei"
+      ]
+    },
+    {
+      "title": "Mowgli: Passively Learned Rate Control for Real-Time Video",
+      "authors": [
+        "Neil Agarwal",
+        "Rui Pan 0003",
+        "Francis Y. Yan",
+        "Ravi Netravali"
+      ],
+      "pages": "579-594",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Agarwal0YN25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Agarwal0YN25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/agarwal"
+      ]
+    },
+    {
+      "title": "MTP: Transport for In-Network Computing",
+      "authors": [
+        "Tao Ji",
+        "Rohan Vardekar",
+        "Balajee Vamanan",
+        "Brent E. Stephens",
+        "Aditya Akella"
+      ],
+      "pages": "959-977",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/JiVVSA25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/JiVVSA25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/ji"
+      ]
+    },
+    {
+      "title": "Mutant: Learning Congestion Control from Existing Protocols via Online Reinforcement Learning",
+      "authors": [
+        "Lorenzo Pappone",
+        "Alessio Sacco",
+        "Flavio Esposito"
+      ],
+      "pages": "1507-1522",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PapponeSE25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PapponeSE25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/pappone"
+      ]
+    },
+    {
+      "title": "NDD: A Decision Diagram for Network Verification",
+      "authors": [
+        "Zechun Li",
+        "Peng Zhang 0011",
+        "Yichi Zhang",
+        "Hongkun Yang"
+      ],
+      "pages": "237-258",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiZZY25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiZZY25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/li-zechun"
+      ]
+    },
+    {
+      "title": "ODRP: On-Demand Remote Paging with Programmable RDMA",
+      "authors": [
+        "Zixuan Wang",
+        "Xingda Wei",
+        "Jinyu Gu 0001",
+        "Hongrui Xie",
+        "Rong Chen 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "1101-1115",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangW0X0025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangW0X0025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/wang-zixuan"
+      ]
+    },
+    {
+      "title": "On Temporal Verification of Stateful P4 Programs",
+      "authors": [
+        "Delong Zhang",
+        "Chong Ye",
+        "Fei He 0001"
+      ],
+      "pages": "219-235",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhangY025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangY025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/zhang-delong"
+      ]
+    },
+    {
+      "title": "ONCache: A Cache-Based Low-Overhead Container Overlay Network",
+      "authors": [
+        "Shengkai Lin",
+        "Shizhen Zhao",
+        "Peirui Cao",
+        "Xinchi Han",
+        "Quan Tian",
+        "Wenfeng Liu",
+        "Qi Wu",
+        "Donghai Han",
+        "Xinbing Wang"
+      ],
+      "pages": "979-998",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LinZCHTLWHW25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LinZCHTLWHW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/lin-shengkai"
+      ]
+    },
+    {
+      "title": "One-Size-Fits-None: Understanding and Enhancing Slow-Fault Tolerance in Modern Distributed Systems",
+      "authors": [
+        "Ruiming Lu",
+        "Yunchi Lu",
+        "Yuxuan Jiang 0016",
+        "Guangtao Xue",
+        "Peng Huang 0005"
+      ],
+      "pages": "359-378",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LuLJXH25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LuLJXH25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/lu"
+      ]
+    },
+    {
+      "title": "Optimizing RLHF Training for Large Language Models with Stage Fusion",
+      "authors": [
+        "Yinmin Zhong",
+        "Zili Zhang",
+        "Bingyang Wu",
+        "Shengyu Liu",
+        "Yukun Chen",
+        "Changyi Wan",
+        "Hanpeng Hu",
+        "Lei Xia",
+        "Ranchen Ming",
+        "Yibo Zhu 0001",
+        "Xin Jin 0008"
+      ],
+      "pages": "489-503",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhongZWLCWHXMZ025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhongZWLCWHXMZ025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/zhong"
+      ]
+    },
+    {
+      "title": "OptiReduce: Resilient and Tail-Optimal AllReduce for Distributed Deep Learning in the Cloud",
+      "authors": [
+        "Ertza Warraich",
+        "Omer Shabtai",
+        "Khalid Manaa",
+        "Shay Vargaftik",
+        "Yonatan Piasetzky",
+        "Matty Kadosh",
+        "Lalith Suresh 0001",
+        "Muhammad Shahbaz 0001"
+      ],
+      "pages": "685-703",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WarraichSMVPKS025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WarraichSMVPKS025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/warraich"
+      ]
+    },
+    {
+      "title": "PAPAYA Federated Analytics Stack: Engineering Privacy, Scalability and Practicality",
+      "authors": [
+        "Harish Srinivas",
+        "Graham Cormode",
+        "Mehrdad Honarkhah",
+        "Samuel Lurye",
+        "Jonathan Hehir",
+        "Lunwen He",
+        "George Hong",
+        "Ahmed Magdy",
+        "Dzmitry Huba",
+        "Kaikai Wang",
+        "Shen Guo",
+        "Shoubhik Bhattacharya"
+      ],
+      "pages": "883-898",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SrinivasCHLHHHM25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SrinivasCHLHHHM25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/srinivas"
+      ]
+    },
+    {
+      "title": "Pineapple: Unifying Multi-Paxos and Atomic Shared Registers",
+      "authors": [
+        "Tigran Bantikyan",
+        "Jonathan Zarnstorff",
+        "Te-Yen Chou",
+        "Lewis Tseng",
+        "Roberto Palmieri"
+      ],
+      "pages": "759-778",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BantikyanZCTP25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BantikyanZCTP25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/bantikyan"
+      ]
+    },
+    {
+      "title": "PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks",
+      "authors": [
+        "Shihan Lin",
+        "Suting Chen",
+        "Yunming Xiao",
+        "Yanqi Gu",
+        "Aleksandar Kuzmanovic",
+        "Xiaowei Yang 0001"
+      ],
+      "pages": "1399-1419",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LinCXGK025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LinCXGK025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/lin-shihan"
+      ]
+    },
+    {
+      "title": "PRED: Performance-oriented Random Early Detection for Consistently Stable Performance in Datacenters",
+      "authors": [
+        "Xinle Du",
+        "Tong Li 0014",
+        "Guangmeng Zhou",
+        "Zhuotao Liu",
+        "Hanlin Huang",
+        "Xiangyu Gao",
+        "Mowei Wang",
+        "Kun Tan 0002",
+        "Ke Xu 0002"
+      ],
+      "pages": "1-20",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Du0ZLHGWT025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Du0ZLHGWT025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/du"
+      ]
+    },
+    {
+      "title": "Preventing Network Bottlenecks: Accelerating Datacenter Services with Hotspot-Aware Placement for Compute and Storage",
+      "authors": [
+        "Hamid Hajabdolali Bazzaz",
+        "Yingjie Bi",
+        "Weiwu Pang",
+        "Minlan Yu",
+        "Ramesh Govindan",
+        "Neal Cardwell",
+        "Nandita Dukkipati",
+        "Meng-Jung Tsai",
+        "Chris DeForeest",
+        "Yuxue Jin",
+        "Charles J. Carver",
+        "Jan Kopanski",
+        "Liqun Cheng",
+        "Amin Vahdat"
+      ],
+      "pages": "317-333",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/BazzazBPYGCDTDJ25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/BazzazBPYGCDTDJ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/bazzaz"
+      ]
+    },
+    {
+      "title": "Pushing the Limits of In-Network Caching for Key-Value Stores",
+      "authors": [
+        "Gyuyeong Kim"
+      ],
+      "pages": "1155-1168",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Kim25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Kim25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/kim"
+      ]
+    },
+    {
+      "title": "Pyrrha: Congestion-Root-Based Flow Control to Eliminate Head-of-Line Blocking in Datacenter",
+      "authors": [
+        "Kexin Liu",
+        "Zhaochen Zhang",
+        "Chang Liu 0001",
+        "Yizhi Wang",
+        "Vamsi Addanki",
+        "Stefan Schmid 0001",
+        "Qingyue Wang",
+        "Wei Chen",
+        "Xiaoliang Wang 0001",
+        "Jiaqi Zheng 0001",
+        "Wenhao Sun",
+        "Tao Wu",
+        "Ke Meng",
+        "Fei Chen",
+        "Weiguang Wang",
+        "Bingyang Liu",
+        "Wanchun Dou",
+        "Guihai Chen",
+        "Chen Tian 0001"
+      ],
+      "pages": "379-405",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiuZLWA0WC00SWM25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiuZLWA0WC00SWM25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/liu-kexin"
+      ]
+    },
+    {
+      "title": "Quicksand: Harnessing Stranded Datacenter Resources with Granular Computing",
+      "authors": [
+        "Zhenyuan Ruan",
+        "Shihang Li",
+        "Kaiyan Fan",
+        "Seo Jin Park",
+        "Marcos K. Aguilera",
+        "Adam Belay",
+        "Malte Schwarzkopf"
+      ],
+      "pages": "147-165",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/RuanLFPABS25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/RuanLFPABS25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/ruan"
+      ]
+    },
+    {
+      "title": "Rajomon: Decentralized and Coordinated Overload Control for Latency-Sensitive Microservices",
+      "authors": [
+        "Jiali Xing",
+        "Akis Giannoukos",
+        "Paul Loh",
+        "Shuyue Wang",
+        "Justin Qiu",
+        "Henri Maxime Demoulin",
+        "Konstantinos Kallas",
+        "Benjamin C. Lee"
+      ],
+      "pages": "21-36",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XingGLWQDKL25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XingGLWQDKL25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/xing"
+      ]
+    },
+    {
+      "title": "Region-based Content Enhancement for Efficient Video Analytics at the Edge",
+      "authors": [
+        "Weijun Wang 0001",
+        "Liang Mi",
+        "Shaowei Cen",
+        "Haipeng Dai 0001",
+        "Yuanchun Li 0003",
+        "Xiaoming Fu 0001",
+        "Yunxin Liu 0001"
+      ],
+      "pages": "613-633",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangMC0L0L25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangMC0L0L25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/wang-weijun"
+      ]
+    },
+    {
+      "title": "Resolving Packets from Counters: Enabling Multi-scale Network Traffic Super Resolution via Composable Large Traffic Model",
+      "authors": [
+        "Xizheng Wang",
+        "Libin Liu 0001",
+        "Li Chen 0008",
+        "Dan Li 0001",
+        "Yukai Miao",
+        "Yu Bai 0021"
+      ],
+      "pages": "1541-1561",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangL00M025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangL00M025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/wang-xizheng-resolving"
+      ]
+    },
+    {
+      "title": "Runtime Protocol Refinement Checking for Distributed Protocol Implementations",
+      "authors": [
+        "Ding Ding",
+        "Zhanghan Wang",
+        "Jinyang Li 0001",
+        "Aurojit Panda"
+      ],
+      "pages": "1305-1326",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/DingW0P25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/DingW0P25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/ding"
+      ]
+    },
+    {
+      "title": "Scaling IP Lookup to Large Databases using the CRAM Lens",
+      "authors": [
+        "Robert Chang",
+        "Pradeep Dogga",
+        "Andy Fingerhut",
+        "Victor Rios",
+        "George Varghese"
+      ],
+      "pages": "127-146",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ChangDFRV25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ChangDFRV25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/chang"
+      ]
+    },
+    {
+      "title": "Securing Public Cloud Networks with Efficient Role-based Micro-Segmentation",
+      "authors": [
+        "Sathiya Kumaran Mani",
+        "Kevin Hsieh",
+        "Santiago Segarra",
+        "Ranveer Chandra",
+        "Yajie Zhou",
+        "Srikanth Kandula"
+      ],
+      "pages": "1033-1048",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ManiHSCZK25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ManiHSCZK25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/mani"
+      ]
+    },
+    {
+      "title": "Self-Clocked Round-Robin Packet Scheduling",
+      "authors": [
+        "Erfan Sharafzadeh",
+        "Raymond Matson",
+        "Jean Tourrilhes",
+        "Puneet Sharma 0001",
+        "Soudeh Ghorbani"
+      ],
+      "pages": "1437-1465",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SharafzadehMTSG25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SharafzadehMTSG25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/sharafzadeh"
+      ]
+    },
+    {
+      "title": "Shoal++: High Throughput DAG BFT Can Be Fast and Robust!",
+      "authors": [
+        "Balaji Arun",
+        "Zekun Li 0009",
+        "Florian Suri-Payer",
+        "Sourav Das 0001",
+        "Alexander Spiegelman"
+      ],
+      "pages": "813-826",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Arun0S0S25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Arun0S0S25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/arun"
+      ]
+    },
+    {
+      "title": "SimAI: Unifying Architecture Design and Performance Tuning for Large-Scale Large Language Model Training with Scalability and Precision",
+      "authors": [
+        "Xizheng Wang",
+        "Qingxu Li",
+        "Yichi Xu",
+        "Gang Lu",
+        "Dan Li 0001",
+        "Li Chen 0008",
+        "Heyang Zhou",
+        "Linkang Zheng",
+        "Sen Zhang",
+        "Yikai Zhu",
+        "Yang Liu 0245",
+        "Pengcheng Zhang",
+        "Kun Qian 0004",
+        "Kunling He",
+        "Jiaqi Gao",
+        "Ennan Zhai",
+        "Dennis Cai",
+        "Binzhang Fu"
+      ],
+      "pages": "541-558",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WangLXL0CZZZZLZ25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WangLXL0CZZZZLZ25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/wang-xizheng-simai"
+      ]
+    },
+    {
+      "title": "SIRD: A Sender-Informed, Receiver-Driven Datacenter Transport Protocol",
+      "authors": [
+        "Konstantinos Prasopoulos",
+        "Ryan Kosta",
+        "Edouard Bugnion",
+        "Marios Kogias"
+      ],
+      "pages": "451-471",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/PrasopoulosKBK25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/PrasopoulosKBK25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/prasopoulos"
+      ]
+    },
+    {
+      "title": "Smart Casual Verification of the Confidential Consortium Framework",
+      "authors": [
+        "Heidi Howard",
+        "Markus A. Kuppe",
+        "Edward Ashton",
+        "Amaury Chamayou",
+        "Natacha Crooks"
+      ],
+      "pages": "259-276",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/HowardKACC25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/HowardKACC25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/howard"
+      ]
+    },
+    {
+      "title": "State-Compute Replication: Parallelizing High-Speed Stateful Packet Processing",
+      "authors": [
+        "Qiongwen Xu",
+        "Sebastiano Miano",
+        "Xiangyu Gao",
+        "Tao Wang 0088",
+        "Adithya Murugadass",
+        "Songyuan Zhang",
+        "Anirudh Sivaraman",
+        "Gianni Antichi",
+        "Srinivas Narayana"
+      ],
+      "pages": "937-957",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XuMG0MZSAN25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XuMG0MZSAN25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/xu-qiongwen"
+      ]
+    },
+    {
+      "title": "SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads",
+      "authors": [
+        "Alind Khare",
+        "Dhruv Garg",
+        "Sukrit Kalra",
+        "Snigdha Grandhi",
+        "Ion Stoica",
+        "Alexey Tumanov"
+      ],
+      "pages": "739-758",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KhareGKGST25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KhareGKGST25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/khare"
+      ]
+    },
+    {
+      "title": "Suppressing BGP Zombies with Route Status Transparency",
+      "authors": [
+        "Yosef Edery Anahory",
+        "Jie Kong",
+        "Nicholas Scaglione",
+        "Justin Furuness",
+        "Hemi Leibowitz",
+        "Amir Herzberg",
+        "Bing Wang 0001",
+        "Yossi Gilad"
+      ],
+      "pages": "1349-1366",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AnahoryKSFLH0G25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AnahoryKSFLH0G25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/anahory"
+      ]
+    },
+    {
+      "title": "The Benefits and Limitations of User Interrupts for Preemptive Userspace Scheduling",
+      "authors": [
+        "Linsong Guo",
+        "Danial Zuberi",
+        "Tal Garfinkel",
+        "Amy Ousterhout"
+      ],
+      "pages": "1015-1032",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/GuoZGO25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/GuoZGO25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/guo"
+      ]
+    },
+    {
+      "title": "Tooth: Toward Optimal Balance of Video QoE and Redundancy Cost by Fine-Grained FEC in Cloud Gaming Streaming",
+      "authors": [
+        "Congkai An",
+        "Huanhuan Zhang",
+        "Shibo Wang",
+        "Jingyang Kang",
+        "Anfu Zhou",
+        "Liang Liu 0001",
+        "Huadong Ma",
+        "Zili Meng",
+        "Delei Ma",
+        "Yusheng Dong",
+        "Xiaogang Lei"
+      ],
+      "pages": "635-651",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/AnZWKZ0MMMDL25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/AnZWKZ0MMMDL25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/an"
+      ]
+    },
+    {
+      "title": "Towards Energy Efficient 5G vRAN Servers",
+      "authors": [
+        "Anuj Kalia",
+        "Nikita Lazarev",
+        "Leyang Xue",
+        "Xenofon Foukas",
+        "Bozidar Radunovic",
+        "Francis Y. Yan"
+      ],
+      "pages": "1205-1219",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/KaliaLXFRY25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/KaliaLXFRY25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/kalia"
+      ]
+    },
+    {
+      "title": "Understanding and Profiling NVMe-over-TCP Using ntprof",
+      "authors": [
+        "Yuyuan Kang",
+        "Ming Liu 0027"
+      ],
+      "pages": "1117-1136",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/Kang025",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/Kang025.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/kang"
+      ]
+    },
+    {
+      "title": "Unlocking ECMP Programmability for Precise Traffic Control",
+      "authors": [
+        "Yadong Liu",
+        "Yunming Xiao",
+        "Xuan Zhang",
+        "Weizhen Dang",
+        "Huihui Liu",
+        "Xiang Li 0223",
+        "Zekun He",
+        "Jilong Wang 0001",
+        "Aleksandar Kuzmanovic",
+        "Ang Chen 0001",
+        "Congcong Miao"
+      ],
+      "pages": "87-106",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/LiuXZDLLH0K0M25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/LiuXZDLLH0K0M25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/liu-yadong"
+      ]
+    },
+    {
+      "title": "ValidaTor: Domain Validation over Tor",
+      "authors": [
+        "Jens Frie&szlig;",
+        "Haya Schulmann",
+        "Michael Waidner"
+      ],
+      "pages": "1367-1380",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/FriessSW25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/FriessSW25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/friess"
+      ]
+    },
+    {
+      "title": "Vegeta: Enabling Parallel Smart Contract Execution in Leaderless Blockchains",
+      "authors": [
+        "Tianjing Xu",
+        "Yongqi Zhong",
+        "Yiming Zhang 0003",
+        "Ruofan Xiong",
+        "Jingjing Zhang 0002",
+        "Guangtao Xue",
+        "Shengyun Liu"
+      ],
+      "pages": "795-811",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/XuZ0X0XL25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/XuZ0X0XL25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/xu-tianjing"
+      ]
+    },
+    {
+      "title": "VEP: A Two-stage Verification Toolchain for Full eBPF Programmability",
+      "authors": [
+        "Xiwei Wu",
+        "Yueyang Feng",
+        "Tianyi Huang",
+        "Xiaoyang Lu",
+        "Shengkai Lin",
+        "Lihan Xie",
+        "Shizhen Zhao",
+        "Qinxiang Cao"
+      ],
+      "pages": "277-299",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/WuFHLLXZC25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/WuFHLLXZC25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/wu-xiwei"
+      ]
+    },
+    {
+      "title": "Verifying maximum link loads in a changing world",
+      "authors": [
+        "Tibor Schneider",
+        "Stefano Vissicchio",
+        "Laurent Vanbever"
+      ],
+      "pages": "1269-1287",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/SchneiderVV25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/SchneiderVV25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/schneider"
+      ]
+    },
+    {
+      "title": "When P4 Meets Run-to-completion Architecture",
+      "authors": [
+        "Hao Zheng",
+        "Xin Yan",
+        "Wenbo Li",
+        "Jiaqi Zheng 0001",
+        "Xiaoliang Wang 0001",
+        "Qingqing Zhao",
+        "Luyou He",
+        "Xiaofei Lai",
+        "Feng Gao",
+        "Fuguang Huang",
+        "Wanchun Dou",
+        "Guihai Chen",
+        "Chen Tian 0001"
+      ],
+      "pages": "1487-1505",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhengYL00ZHLGHD25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhengYL00ZHLGHD25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/zheng-hao"
+      ]
+    },
+    {
+      "title": "White-Boxing RDMA with Packet-Granular Software Control",
+      "authors": [
+        "Chenxingyu Zhao",
+        "Jaehong Min",
+        "Ming Liu 0027",
+        "Arvind Krishnamurthy"
+      ],
+      "pages": "427-449",
+      "year": "2025",
+      "venue": "NSDI 2025",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/nsdi/ZhaoM0K25",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhaoM0K25.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/nsdi25/presentation/zhao-chenxingyu"
+      ]
+    }
+  ]
+}

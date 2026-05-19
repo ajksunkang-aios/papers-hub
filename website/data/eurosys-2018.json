@@ -1,0 +1,1368 @@
+{
+  "id": "eurosys-2018",
+  "venue": "eurosys",
+  "year": 2018,
+  "short_name": "EuroSys",
+  "full_name": "European Conference on Computer Systems",
+  "source_url": "https://dblp.org/db/conf/eurosys/eurosys2018.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/eurosys/eurosys2018.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/eurosys/2018",
+    "conf/eurosys/2018-1",
+    "conf/eurosys/2018-2",
+    "conf/eurosys/2018-3",
+    "conf/eurosys/2018-4",
+    "conf/eurosys/2018-5"
+  ],
+  "skip_title_patterns": [
+    "^Proceedings of the \\d+(st|nd|rd|th) European Conference on Computer Systems"
+  ],
+  "link_priority": [
+    "doi.acm.org",
+    "dl.acm.org",
+    "dblp.org"
+  ],
+  "count": 69,
+  "display_count": 69,
+  "papers": [
+    {
+      "title": "&Oslash;pass: Zero-storage Password Management Based on Password Reminders",
+      "authors": [
+        "Giannis Tzagarakis",
+        "Panagiotis Papadopoulos",
+        "Antonios A. Chariton",
+        "Elias Athanasopoulos",
+        "Evangelos P. Markatos"
+      ],
+      "pages": "2:1-2:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/TzagarakisPCAM18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/TzagarakisPCAM18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3193111.3193113"
+      ]
+    },
+    {
+      "title": "3Sigma: distribution-based cluster scheduling for runtime uncertainty",
+      "authors": [
+        "Jun Woo Park",
+        "Alexey Tumanov",
+        "Angela H. Jiang",
+        "Michael A. Kozuch",
+        "Gregory R. Ganger"
+      ],
+      "pages": "2:1-2:17",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ParkTJKG18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ParkTJKG18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190515"
+      ]
+    },
+    {
+      "title": "A frugal approach to reduce RCU grace period overhead",
+      "authors": [
+        "Aravinda Prasad",
+        "K. Gopinath"
+      ],
+      "pages": "41:1-41:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PrasadG18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PrasadG18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190522"
+      ]
+    },
+    {
+      "title": "A modular design for geo-distributed querying: work in progress report",
+      "authors": [
+        "Dimitrios Vasilas",
+        "Marc Shapiro 0001",
+        "Bradley King"
+      ],
+      "pages": "4:1-4:4",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Vasilas0K18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Vasilas0K18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3194261.3194265",
+        "https://www.wikidata.org/entity/Q130880253"
+      ]
+    },
+    {
+      "title": "A scalable ordering primitive for multicore machines",
+      "authors": [
+        "Sanidhya Kashyap",
+        "Changwoo Min",
+        "Kangnyeon Kim",
+        "Taesoo Kim"
+      ],
+      "pages": "34:1-34:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KashyapMKK18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KashyapMKK18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190510"
+      ]
+    },
+    {
+      "title": "Accelerating critical OS services in virtualized systems with flexible micro-sliced cores",
+      "authors": [
+        "Jeongseob Ahn",
+        "Chang Hyun Park 0001",
+        "Taekyung Heo",
+        "Jaehyuk Huh 0001"
+      ],
+      "pages": "29:1-29:14",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/AhnPHH18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/AhnPHH18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190521"
+      ]
+    },
+    {
+      "title": "An Experimental Performance Analysis of the Cryptographic Database ZeroDB",
+      "authors": [
+        "Michael Mitterer",
+        "Heiko Niedermayer",
+        "Marcel von Maltitz",
+        "Georg Carle"
+      ],
+      "pages": "6:1-6:5",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MittererNMC18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MittererNMC18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3195258.3195264"
+      ]
+    },
+    {
+      "title": "An Information-Theoretic Approach to Time-Series Data Privacy",
+      "authors": [
+        "Yousef Amar",
+        "Hamed Haddadi 0001",
+        "Richard Mortier"
+      ],
+      "pages": "3:1-3:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/AmarHM18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/AmarHM18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3195258.3195261"
+      ]
+    },
+    {
+      "title": "Analytics with smart arrays: adaptive and efficient language-independent data",
+      "authors": [
+        "Iraklis Psaroudakis",
+        "Stefan Kaestle",
+        "Matthias Grimmer",
+        "Daniel Goodman",
+        "Jean-Pierre Lozi",
+        "Tim Harris 0001"
+      ],
+      "pages": "17:1-17:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PsaroudakisKGGL18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PsaroudakisKGGL18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190514"
+      ]
+    },
+    {
+      "title": "BDS: a centralized near-optimal overlay network for inter-datacenter data replication",
+      "authors": [
+        "Yuchao Zhang 0004",
+        "Junchen Jiang",
+        "Ke Xu 0002",
+        "Xiaohui Nie",
+        "Martin J. Reed",
+        "Haiyang Wang",
+        "Guang Yao",
+        "Miao Zhang",
+        "Kai Chen 0005"
+      ],
+      "pages": "10:1-10:14",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ZhangJ0NRWYZC18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ZhangJ0NRWYZC18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190519",
+        "https://www.wikidata.org/entity/Q131014865"
+      ]
+    },
+    {
+      "title": "Bring the Missing Jigsaw Back: TrustedClock for SGX Enclaves",
+      "authors": [
+        "Hongliang Liang",
+        "Mingyu Li"
+      ],
+      "pages": "8:1-8:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LiangL18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LiangL18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3193111.3193119",
+        "https://www.wikidata.org/entity/Q131122324"
+      ]
+    },
+    {
+      "title": "Challenges for the design of a privacy-preserving, multi-domain telemetry system for widely-spread network security appliances",
+      "authors": [
+        "Christophe Bacara",
+        "Damien Deville",
+        "Micha&euml;l Hauspie",
+        "Gilles Grimaud"
+      ],
+      "pages": "4:1-4:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BacaraDHG18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BacaraDHG18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3195258.3195262"
+      ]
+    },
+    {
+      "title": "Characterizing and optimizing hotspot parallel garbage collection on multicore systems",
+      "authors": [
+        "Kun Suo",
+        "Jia Rao",
+        "Hong Jiang 0001",
+        "Witawas Srisa-an"
+      ],
+      "pages": "35:1-35:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SuoRJS18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SuoRJS18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190512"
+      ]
+    },
+    {
+      "title": "Constraining the eventual in eventual consistency",
+      "authors": [
+        "Jim Bauwens",
+        "Florian Myter",
+        "Elisa Gonzalez Boix"
+      ],
+      "pages": "2:1-2:3",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BauwensMB18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BauwensMB18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3194261.3194263"
+      ]
+    },
+    {
+      "title": "DCAPS: dynamic cache allocation with partial sharing",
+      "authors": [
+        "Yaocheng Xiang",
+        "Xiaolin Wang 0001",
+        "Zihui Huang",
+        "Zeyu Wang",
+        "Yingwei Luo",
+        "Zhenlin Wang 0003"
+      ],
+      "pages": "13:1-13:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/XiangWHWLW18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/XiangWHWLW18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190511"
+      ]
+    },
+    {
+      "title": "dCat: dynamic cache management for efficient, performance-sensitive infrastructure-as-a-service",
+      "authors": [
+        "Cong Xu",
+        "Karthick Rajamani",
+        "Alexandre Ferreira",
+        "Wesley M. Felter",
+        "Juan Rubio 0001",
+        "Yang Li 0183"
+      ],
+      "pages": "14:1-14:13",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/XuRFFRL18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/XuRFFRL18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190555",
+        "https://www.wikidata.org/entity/Q131112243"
+      ]
+    },
+    {
+      "title": "Decoupling the control plane from program control flow for flexibility and performance in cloud computing",
+      "authors": [
+        "Hang Qu",
+        "Omid Mashayekhi",
+        "Chinmayee Shah",
+        "Philip Alexander Levis"
+      ],
+      "pages": "1:1-1:13",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/QuMSL18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/QuMSL18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190516"
+      ]
+    },
+    {
+      "title": "Delta pointers: buffer overflow checks without the checks",
+      "authors": [
+        "Taddeus Kroes",
+        "Koen Koning",
+        "Erik van der Kouwe",
+        "Herbert Bos",
+        "Cristiano Giuffrida"
+      ],
+      "pages": "22:1-22:14",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KroesKKBG18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KroesKKBG18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190553"
+      ]
+    },
+    {
+      "title": "DumbNet: a smart data center network fabric with dumb switches",
+      "authors": [
+        "Yiran Li",
+        "Da Wei",
+        "Xiaoqi Chen",
+        "Ziheng Song",
+        "Ruihan Wu",
+        "Yuxing Li",
+        "Xin Jin 0008",
+        "Wei Xu 0005"
+      ],
+      "pages": "9:1-9:13",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LiWCSWLJX18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LiWCSWLJX18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190531"
+      ]
+    },
+    {
+      "title": "Dynamic control flow in large-scale machine learning",
+      "authors": [
+        "Yuan Yu",
+        "Mart&iacute;n Abadi",
+        "Paul Barham 0001",
+        "Eugene Brevdo",
+        "Mike Burrows",
+        "Andy Davis",
+        "Jeff Dean",
+        "Sanjay Ghemawat",
+        "Tim Harley",
+        "Peter Hawkins",
+        "Michael Isard",
+        "Manjunath Kudlur",
+        "Rajat Monga",
+        "Derek Gordon Murray",
+        "Xiaoqiang Zheng"
+      ],
+      "pages": "18:1-18:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/YuABBBDDGHHIKMM18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/YuABBBDDGHHIKMM18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190551"
+      ]
+    },
+    {
+      "title": "Ensuring referential integrity under causal consistency",
+      "authors": [
+        "Marc Shapiro 0001",
+        "Annette Bieniusa",
+        "Peter Zeller 0001",
+        "Gustavo Petri"
+      ],
+      "pages": "1:1-1:5",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/0001BZP18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/0001BZP18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3194261.3194262"
+      ]
+    },
+    {
+      "title": "Exclusive: How the (synced) Cookie Monster breached my encrypted VPN session",
+      "authors": [
+        "Panagiotis Papadopoulos",
+        "Nicolas Kourtellis",
+        "Evangelos P. Markatos"
+      ],
+      "pages": "6:1-6:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PapadopoulosKM18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PapadopoulosKM18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3193111.3193117"
+      ]
+    },
+    {
+      "title": "Fair non-monetary scheduling in federated clouds",
+      "authors": [
+        "Milosz Pacholczyk",
+        "Krzysztof Rzadca"
+      ],
+      "pages": "3:1-3:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PacholczykR18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PacholczykR18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3195870.3195873"
+      ]
+    },
+    {
+      "title": "Fast and strongly-consistent per-item resilience in key-value stores",
+      "authors": [
+        "Konstantin Taranov",
+        "Gustavo Alonso",
+        "Torsten Hoefler"
+      ],
+      "pages": "39:1-39:14",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/TaranovAH18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/TaranovAH18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190536"
+      ]
+    },
+    {
+      "title": "Fine-grained distributed consistency guarantees with effect orchestration",
+      "authors": [
+        "Kia Rahmani",
+        "Gowtham Kaki",
+        "Suresh Jagannathan"
+      ],
+      "pages": "6:1-6:5",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RahmaniKJ18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RahmaniKJ18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3194261.3194267",
+        "https://www.wikidata.org/entity/Q130898109"
+      ]
+    },
+    {
+      "title": "Flashabacus: a self-governing flash-based accelerator for low-power systems",
+      "authors": [
+        "Jie Zhang 0048",
+        "Myoungsoo Jung"
+      ],
+      "pages": "15:1-15:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ZhangJ18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ZhangJ18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190544",
+        "https://www.wikidata.org/entity/Q131115668"
+      ]
+    },
+    {
+      "title": "G-Miner: an efficient task-oriented graph mining system",
+      "authors": [
+        "Hongzhi Chen",
+        "Miao Liu 0006",
+        "Yunjian Zhao",
+        "Xiao Yan 0002",
+        "Da Yan 0001",
+        "James Cheng"
+      ],
+      "pages": "32:1-32:12",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ChenLZYYC18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ChenLZYYC18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190545"
+      ]
+    },
+    {
+      "title": "Hang doctor: runtime detection and diagnosis of soft hangs for smartphone apps",
+      "authors": [
+        "Marco Brocanelli",
+        "Xiaorui Wang"
+      ],
+      "pages": "6:1-6:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BrocanelliW18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BrocanelliW18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190525"
+      ]
+    },
+    {
+      "title": "Hardening Hypervisors against Vulnerabilities in Instruction Emulators",
+      "authors": [
+        "Kenta Ishiguro",
+        "Kenji Kono"
+      ],
+      "pages": "7:1-7:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/IshiguroK18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/IshiguroK18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3193111.3193118",
+        "https://www.wikidata.org/entity/Q130918697"
+      ]
+    },
+    {
+      "title": "Hyperledger fabric: a distributed operating system for permissioned blockchains",
+      "authors": [
+        "Elli Androulaki",
+        "Artem Barger",
+        "Vita Bortnikov",
+        "Christian Cachin",
+        "Konstantinos Christidis",
+        "Angelo De Caro",
+        "David Enyeart",
+        "Christopher Ferris",
+        "Gennady Laventman",
+        "Yacov Manevich",
+        "Srinivasan Muralidharan",
+        "Chet Murthy",
+        "Binh Nguyen",
+        "Manish Sethi",
+        "Gari Singh",
+        "Keith Smith",
+        "Alessandro Sorniotti",
+        "Chrysoula Stathakopoulou",
+        "Marko Vukolic",
+        "Sharon Weed Cocco",
+        "Jason Yellick"
+      ],
+      "pages": "30:1-30:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/AndroulakiBBCCC18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/AndroulakiBBCCC18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190538",
+        "https://www.wikidata.org/entity/Q55950616"
+      ]
+    },
+    {
+      "title": "Improving the expressiveness of deep learning frameworks with recursion",
+      "authors": [
+        "Eunji Jeong",
+        "Joo Seong Jeong",
+        "Soojeong Kim",
+        "Gyeong-In Yu",
+        "Byung-Gon Chun"
+      ],
+      "pages": "19:1-19:13",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/JeongJKYC18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/JeongJKYC18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190530"
+      ]
+    },
+    {
+      "title": "LibSEAL: revealing service integrity violations using trusted execution",
+      "authors": [
+        "Pierre-Louis Aublin",
+        "Florian Kelbert",
+        "Dan O'Keeffe",
+        "Divya Muthukumaran",
+        "Christian Priebe",
+        "Joshua Lind",
+        "Robert Krahn",
+        "Christof Fetzer",
+        "David M. Eyers",
+        "Peter R. Pietzuch"
+      ],
+      "pages": "24:1-24:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/AublinKOMPLKFEP18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/AublinKOMPLKFEP18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190547"
+      ]
+    },
+    {
+      "title": "Low latency RNN inference with cellular batching",
+      "authors": [
+        "Pin Gao",
+        "Lingfan Yu",
+        "Yongwei Wu 0001",
+        "Jinyang Li 0001"
+      ],
+      "pages": "31:1-31:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GaoYWL18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GaoYWL18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190541"
+      ]
+    },
+    {
+      "title": "Making consistency more consistent: a unified model for coherence, consistency and isolation",
+      "authors": [
+        "Adriana Szekeres",
+        "Irene Zhang"
+      ],
+      "pages": "7:1-7:8",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SzekeresZ18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SzekeresZ18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3194261.3194268"
+      ]
+    },
+    {
+      "title": "Medea: scheduling of long running applications in shared production clusters",
+      "authors": [
+        "Panagiotis Garefalakis",
+        "Konstantinos Karanasos",
+        "Peter R. Pietzuch",
+        "Arun Suresh",
+        "Sriram Rao"
+      ],
+      "pages": "4:1-4:13",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GarefalakisKPSR18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GarefalakisKPSR18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190549",
+        "https://www.wikidata.org/entity/Q131120560"
+      ]
+    },
+    {
+      "title": "Model-driven computational sprinting",
+      "authors": [
+        "Nathaniel Morris",
+        "Christopher Stewart",
+        "Lydia Y. Chen",
+        "Robert Birke",
+        "Jaimie Kelley"
+      ],
+      "pages": "38:1-38:13",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MorrisSCBK18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MorrisSCBK18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190543"
+      ]
+    },
+    {
+      "title": "MultiNyx: a multi-level abstraction framework for systematic analysis of hypervisors",
+      "authors": [
+        "Pedro Fonseca 0001",
+        "Xi Wang 0005",
+        "Arvind Krishnamurthy"
+      ],
+      "pages": "23:1-23:12",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/0001WK18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/0001WK18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190529",
+        "https://www.wikidata.org/entity/Q131121142"
+      ]
+    },
+    {
+      "title": "MUTE: MUlti-Tier Edge networks",
+      "authors": [
+        "Alessio Silvestro",
+        "Nitinder Mohan",
+        "Jussi Kangasharju",
+        "Fabian Schneider 0001",
+        "Xiaoming Fu 0001"
+      ],
+      "pages": "1:1-1:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SilvestroMKSF18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SilvestroMKSF18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3195870.3195871"
+      ]
+    },
+    {
+      "title": "Optimus: an efficient dynamic resource scheduler for deep learning clusters",
+      "authors": [
+        "Yanghua Peng",
+        "Yixin Bao",
+        "Yangrui Chen",
+        "Chuan Wu 0001",
+        "Chuanxiong Guo"
+      ],
+      "pages": "3:1-3:14",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PengBCWG18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PengBCWG18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190517",
+        "https://www.wikidata.org/entity/Q131013526"
+      ]
+    },
+    {
+      "title": "Pcatch: automatically detecting performance cascading bugs in cloud systems",
+      "authors": [
+        "Jiaxin Li",
+        "Yuxi Chen",
+        "Haopeng Liu",
+        "Shan Lu 0001",
+        "Yiming Zhang 0003",
+        "Haryadi S. Gunawi",
+        "Xiaohui Gu",
+        "Xicheng Lu",
+        "Dongsheng Li 0001"
+      ],
+      "pages": "7:1-7:14",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LiCLLZGGLL18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LiCLLZGGLL18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190552",
+        "https://www.wikidata.org/entity/Q131119950"
+      ]
+    },
+    {
+      "title": "Pesos: policy enhanced secure object store",
+      "authors": [
+        "Robert Krahn",
+        "Bohdan Trach",
+        "Anjo Vahldiek-Oberwagner",
+        "Thomas Knauth",
+        "Pramod Bhatotia",
+        "Christof Fetzer"
+      ],
+      "pages": "25:1-25:17",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KrahnTVKBF18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KrahnTVKBF18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190518"
+      ]
+    },
+    {
+      "title": "PIITracker: Automatic Tracking of Personally Identifiable Information in Windows",
+      "authors": [
+        "Meisam Navaki Arefi",
+        "Geoffrey Alexander",
+        "Jedidiah R. Crandall"
+      ],
+      "pages": "3:1-3:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ArefiAC18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ArefiAC18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3193111.3193114",
+        "https://www.wikidata.org/entity/Q131024994"
+      ]
+    },
+    {
+      "title": "Popular is cheaper: curtailing memory costs in interactive analytics engines",
+      "authors": [],
+      "pages": "40:1-40:14",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/X18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/X18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190542"
+      ]
+    },
+    {
+      "title": "Power sandbox: power awareness redefined",
+      "authors": [
+        "Liwei Guo",
+        "Tiantu Xu",
+        "Mengwei Xu 0001",
+        "Xuanzhe Liu",
+        "Felix Xiaozhu Lin"
+      ],
+      "pages": "37:1-37:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GuoXXLL18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GuoXXLL18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190533",
+        "https://www.wikidata.org/entity/Q131111075"
+      ]
+    },
+    {
+      "title": "Protecting Sensory Data against Sensitive Inferences",
+      "authors": [
+        "Mohammad Malekzadeh",
+        "Richard G. Clegg",
+        "Andrea Cavallaro",
+        "Hamed Haddadi 0001"
+      ],
+      "pages": "2:1-2:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MalekzadehCCH18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MalekzadehCCH18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3195258.3195260"
+      ]
+    },
+    {
+      "title": "Reducing DRAM footprint with NVM in facebook",
+      "authors": [
+        "Assaf Eisenman",
+        "Darryl Gardner",
+        "Islam AbdelRahman",
+        "Jens Axboe",
+        "Siying Dong",
+        "Kim M. Hazelwood",
+        "Chris Petersen 0002",
+        "Asaf Cidon",
+        "Sachin Katti"
+      ],
+      "pages": "42:1-42:13",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/EisenmanGAADHPC18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/EisenmanGAADHPC18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190524",
+        "https://www.wikidata.org/entity/Q130968441"
+      ]
+    },
+    {
+      "title": "Riffle: optimized shuffle service for large-scale data analytics",
+      "authors": [
+        "Haoyu Zhang",
+        "Brian Cho",
+        "Ergin Seyfe",
+        "Avery Ching",
+        "Michael J. Freedman"
+      ],
+      "pages": "43:1-43:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/ZhangCSCF18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/ZhangCSCF18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190534",
+        "https://www.wikidata.org/entity/Q131123484"
+      ]
+    },
+    {
+      "title": "Rock you like a hurricane: taming skew in large scale analytics",
+      "authors": [
+        "Laurent Bindschaedler",
+        "Jasmina Malicevic",
+        "Nicolas Schiper",
+        "Ashvin Goel",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "20:1-20:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BindschaedlerMS18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BindschaedlerMS18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190532"
+      ]
+    },
+    {
+      "title": "RTVirt: enabling time-sensitive computing on virtualized systems through cross-layer CPU scheduling",
+      "authors": [
+        "Ming Zhao 0002",
+        "Jorge Cabrera 0002"
+      ],
+      "pages": "27:1-27:13",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/0002C18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/0002C18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190527"
+      ]
+    },
+    {
+      "title": "Scale-out ccNUMA: exploiting skew with strongly consistent caching",
+      "authors": [
+        "Vasilis Gavrielatos",
+        "Antonios Katsarakis",
+        "Arpit Joshi",
+        "Nicolai Oswald",
+        "Boris Grot",
+        "Vijay Nagarajan"
+      ],
+      "pages": "21:1-21:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/GavrielatosKJOG18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/GavrielatosKJOG18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190550"
+      ]
+    },
+    {
+      "title": "Scheduling-context capabilities: a principled, light-weight operating-system mechanism for managing time",
+      "authors": [
+        "Anna Lyons",
+        "Kent McLeod",
+        "Hesham Almatary",
+        "Gernot Heiser"
+      ],
+      "pages": "26:1-26:16",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/LyonsMAH18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/LyonsMAH18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190539"
+      ]
+    },
+    {
+      "title": "Scrub: online troubleshooting for large mission-critical applications",
+      "authors": [
+        "Arjun Satish",
+        "Thomas Shiou",
+        "Chuck Zhang",
+        "Khaled Elmeleegy",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "5:1-5:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SatishSZEZ18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SatishSZEZ18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190513"
+      ]
+    },
+    {
+      "title": "Securing Electronic Health Records in the Cloud",
+      "authors": [
+        "David R. Matos",
+        "Miguel L. Pardal",
+        "Pedro Ad&atilde;o",
+        "Ant&oacute;nio Rito Silva",
+        "Miguel Correia 0001"
+      ],
+      "pages": "1:1-1:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MatosPASC18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MatosPASC18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3195258.3195259"
+      ]
+    },
+    {
+      "title": "Securing Smart Metering applications in Untrusted Clouds with the SecureCloud Platform",
+      "authors": [
+        "Rodrigo Jardim Riella",
+        "Luciana Michelotto Iantorno",
+        "Laerte C. R. Junior",
+        "Dilmari Seidel",
+        "Keiko V. O. Fonseca",
+        "Luiz C. Gomes-Jr",
+        "Marcelo de Oliveira Rosa"
+      ],
+      "pages": "5:1-5:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/RiellaIJSFGR18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/RiellaIJSFGR18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3195258.3195263"
+      ]
+    },
+    {
+      "title": "Service fabric: a distributed platform for building microservices in the cloud",
+      "authors": [
+        "Gopal Kakivaya",
+        "Lu Xun",
+        "Richard Hasha",
+        "Shegufta Bakht Ahsan",
+        "Todd Pfleiger",
+        "Rishi Sinha",
+        "Anurag Gupta",
+        "Mihail Tarta",
+        "Mark Fussell",
+        "Vipul Modi",
+        "Mansoor Mohsin",
+        "Ray Kong",
+        "Anmol Ahuja",
+        "Oana Platon",
+        "Alex Wun",
+        "Matthew Snider",
+        "Chacko Daniel",
+        "Dan Mastrian",
+        "Yang Li",
+        "Aprameya Rao",
+        "Vaishnav Kidambi",
+        "Randy Wang",
+        "Abhishek Ram",
+        "Sumukh Shivaprakash",
+        "Rajeet Nair",
+        "Alan Warwick",
+        "Bharat S. Narasimman",
+        "Meng Lin",
+        "Jeffrey Chen",
+        "Abhay Balkrishna Mhatre",
+        "Preetha Subbarayalu",
+        "Mert Coskun",
+        "Indranil Gupta"
+      ],
+      "pages": "33:1-33:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/KakivayaXHAPSGT18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/KakivayaXHAPSGT18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190546"
+      ]
+    },
+    {
+      "title": "SEVered: Subverting AMD's Virtual Machine Encryption",
+      "authors": [
+        "Mathias Morbitzer",
+        "Manuel Huber 0001",
+        "Julian Horsch",
+        "Sascha Wessel"
+      ],
+      "pages": "1:1-1:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/Morbitzer0HW18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/Morbitzer0HW18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3193111.3193112",
+        "https://www.wikidata.org/entity/Q55950617"
+      ]
+    },
+    {
+      "title": "Simplified Cloud Instance Selection",
+      "authors": [
+        "Chalee Boonprasop",
+        "Adam Barker"
+      ],
+      "pages": "5:1-5:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BoonprasopB18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BoonprasopB18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3195870.3195875"
+      ]
+    },
+    {
+      "title": "Solros: a data-centric operating system architecture for heterogeneous computing",
+      "authors": [
+        "Changwoo Min",
+        "Woon-Hak Kang",
+        "Mohan Kumar",
+        "Sanidhya Kashyap",
+        "Steffen Maass",
+        "Heeseung Jo",
+        "Taesoo Kim"
+      ],
+      "pages": "36:1-36:15",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MinKKKMJK18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MinKKKMJK18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190523"
+      ]
+    },
+    {
+      "title": "Tableau: a high-throughput and predictable VM scheduler for high-density workloads",
+      "authors": [
+        "Manohar Vanga",
+        "Arpan Gujarati",
+        "Bj&ouml;rn B. Brandenburg"
+      ],
+      "pages": "28:1-28:16",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/VangaGB18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/VangaGB18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190557"
+      ]
+    },
+    {
+      "title": "Towards affordable externally consistent guarantees for geo-replicated systems",
+      "authors": [
+        "Manuel Bravo",
+        "Lu&iacute;s E. T. Rodrigues"
+      ],
+      "pages": "3:1-3:4",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/BravoR18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/BravoR18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3194261.3194264"
+      ]
+    },
+    {
+      "title": "Towards Automated Vulnerability Scanning of Network Servers",
+      "authors": [
+        "Nathan Schagen",
+        "Koen Koning",
+        "Herbert Bos",
+        "Cristiano Giuffrida"
+      ],
+      "pages": "5:1-5:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SchagenKBG18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SchagenKBG18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3193111.3193116",
+        "https://www.wikidata.org/entity/Q130910389"
+      ]
+    },
+    {
+      "title": "Towards causal datacenter networks",
+      "authors": [
+        "Ellis Michael",
+        "Dan R. K. Ports"
+      ],
+      "pages": "8:1-8:4",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MichaelP18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MichaelP18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3194261.3194269"
+      ]
+    },
+    {
+      "title": "Towards Model-Driven Application Security across Clouds",
+      "authors": [
+        "Manos Papoutsakis",
+        "Kyriakos Kritikos",
+        "Kostas Magoutis",
+        "Sotiris Ioannidis"
+      ],
+      "pages": "2:1-2:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PapoutsakisKMI18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PapoutsakisKMI18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3195870.3195872"
+      ]
+    },
+    {
+      "title": "Towards Secure Cloud Orchestration for Multi-Cloud Deployments",
+      "authors": [
+        "Nicolae Paladi",
+        "Antonis Michalas",
+        "Hai-Van Dang"
+      ],
+      "pages": "4:1-4:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/PaladiMD18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/PaladiMD18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3195870.3195874"
+      ]
+    },
+    {
+      "title": "Turboflow: information rich flow record generation on commodity switches",
+      "authors": [
+        "John Sonchack",
+        "Adam J. Aviv",
+        "Eric Keller",
+        "Jonathan M. Smith"
+      ],
+      "pages": "11:1-11:16",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/SonchackAKS18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/SonchackAKS18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190558"
+      ]
+    },
+    {
+      "title": "Universal context propagation for distributed system instrumentation",
+      "authors": [
+        "Jonathan Mace",
+        "Rodrigo Fonseca"
+      ],
+      "pages": "8:1-8:18",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/MaceF18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/MaceF18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190526"
+      ]
+    },
+    {
+      "title": "Using Differential Privacy to Efficiently Mitigate Side Channels in Distributed Analytics",
+      "authors": [
+        "Min Xu",
+        "Antonis Papadimitriou",
+        "Ariel Feldman",
+        "Andreas Haeberlen"
+      ],
+      "pages": "4:1-4:6",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/XuPFH18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/XuPFH18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3193111.3193115"
+      ]
+    },
+    {
+      "title": "Welcome to zombieland: practical and energy-efficient memory disaggregation in a datacenter",
+      "authors": [
+        "Vlad Nitu",
+        "Boris Teabe",
+        "Alain Tchana",
+        "Canturk Isci",
+        "Daniel Hagimont"
+      ],
+      "pages": "16:1-16:12",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/NituTTIH18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/NituTTIH18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190537",
+        "https://www.wikidata.org/entity/Q131122225"
+      ]
+    },
+    {
+      "title": "Wide-area analytics with multiple resources",
+      "authors": [
+        "Chien-Chun Hung",
+        "Ganesh Ananthanarayanan",
+        "Leana Golubchik",
+        "Minlan Yu",
+        "Mingyang Zhang 0005"
+      ],
+      "pages": "12:1-12:16",
+      "year": "2018",
+      "venue": "EuroSys 2018",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/eurosys/HungAGYZ18",
+      "dblp_url": "https://dblp.org/rec/conf/eurosys/HungAGYZ18.html",
+      "ee_links": [
+        "https://doi.org/10.1145/3190508.3190528"
+      ]
+    }
+  ]
+}

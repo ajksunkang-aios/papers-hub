@@ -1,0 +1,1241 @@
+{
+  "id": "osdi-2023",
+  "venue": "osdi",
+  "year": 2023,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi2023.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi2023.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/2023",
+    "conf/osdi/2023-1",
+    "conf/osdi/2023-2",
+    "conf/osdi/2023-3",
+    "conf/osdi/2023-4",
+    "conf/osdi/2023-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 55,
+  "display_count": 55,
+  "papers": [
+    {
+      "title": "Accountable authentication with privacy protection: The Larch system for universal login",
+      "authors": [
+        "Emma Dauterman",
+        "Danny Lin",
+        "Henry Corrigan-Gibbs",
+        "David Mazi&egrave;res"
+      ],
+      "pages": "81-98",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DautermanLCM23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DautermanLCM23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/dauterman"
+      ]
+    },
+    {
+      "title": "AdaEmbed: Adaptive Embedding for Large-Scale Recommendation Models",
+      "authors": [
+        "Fan Lai 0001",
+        "Wei Zhang 0044",
+        "Rui Liu",
+        "William Tsai",
+        "Xiaohan Wei",
+        "Yuxi Hu 0001",
+        "Sabin Devkota",
+        "Jianyu Huang",
+        "Jongsoo Park",
+        "Xing Liu",
+        "Zeliang Chen",
+        "Ellie Wen",
+        "Paul Rivera",
+        "Jie You",
+        "Chun-cheng Jason Chen",
+        "Mosharaf Chowdhury"
+      ],
+      "pages": "817-831",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LaiZLTWHDHPLCWR23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LaiZLTWHDHPLCWR23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/lai"
+      ]
+    },
+    {
+      "title": "AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving",
+      "authors": [
+        "Zhuohan Li 0001",
+        "Lianmin Zheng",
+        "Yinmin Zhong",
+        "Vincent Liu 0001",
+        "Ying Sheng 0007",
+        "Xin Jin 0008",
+        "Yanping Huang",
+        "Zhifeng Chen",
+        "Hao Zhang 0025",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "pages": "663-679",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiZZL00HCZGS23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiZZL00HCZGS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/li-zhouhan"
+      ]
+    },
+    {
+      "title": "An Extensible Orchestration and Protection Framework for Confidential Cloud Computing",
+      "authors": [
+        "Adil Ahmad",
+        "Alex Schultz",
+        "Byoungyoung Lee",
+        "Pedro Fonseca 0001"
+      ],
+      "pages": "173-191",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AhmadSL023",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AhmadSL023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/ahmad"
+      ]
+    },
+    {
+      "title": "Automated Verification of Idempotence for Stateful Serverless Applications",
+      "authors": [
+        "Haoran Ding",
+        "Zhaoguo Wang",
+        "Zhuohao Shen",
+        "Rong Chen 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "887-910",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DingWS0023",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DingWS0023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/ding"
+      ]
+    },
+    {
+      "title": "BWoS: Formally Verified Block-based Work Stealing for Parallel Processing",
+      "authors": [
+        "Jiawei Wang",
+        "Bohdan Trach",
+        "Ming Fu",
+        "Diogo Behrens",
+        "Jonathan Schwender",
+        "Yutao Liu",
+        "Jitang Lei",
+        "Viktor Vafeiadis",
+        "Hermann H&auml;rtig",
+        "Haibo Chen 0001"
+      ],
+      "pages": "833-850",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangTFBSLLVH023",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangTFBSLLVH023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/wang-jiawei"
+      ]
+    },
+    {
+      "title": "Characterizing Off-path SmartNIC for Accelerating Distributed Systems",
+      "authors": [
+        "Xingda Wei",
+        "Rongxin Cheng 0001",
+        "Yuhan Yang",
+        "Rong Chen 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "987-1004",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WeiCY0023",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WeiCY0023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/wei-smartnic"
+      ]
+    },
+    {
+      "title": "Chardonnay: Fast and General Datacenter Transactions for On-Disk Databases",
+      "authors": [
+        "Tamer Eldeeb",
+        "Xincheng Xie",
+        "Philip A. Bernstein",
+        "Asaf Cidon",
+        "Junfeng Yang"
+      ],
+      "pages": "343-360",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/EldeebXBCY23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/EldeebXBCY23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/eldeeb"
+      ]
+    },
+    {
+      "title": "Cilantro: Performance-Aware Resource Allocation for General Objectives via Online Feedback",
+      "authors": [
+        "Romil Bhardwaj",
+        "Kirthevasan Kandasamy",
+        "Asim Biswal",
+        "Wenshuo Guo",
+        "Benjamin Hindman",
+        "Joseph Gonzalez 0001",
+        "Michael I. Jordan",
+        "Ion Stoica"
+      ],
+      "pages": "623-643",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BhardwajKBGH0JS23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BhardwajKBGH0JS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/bhardwaj"
+      ]
+    },
+    {
+      "title": "Cocktailer: Analyzing and Optimizing Dynamic Control Flow in Deep Learning",
+      "authors": [
+        "Chen Zhang 0001",
+        "Lingxiao Ma",
+        "Jilong Xue",
+        "Yining Shi 0001",
+        "Ziming Miao",
+        "Fan Yang 0024",
+        "Jidong Zhai",
+        "Zhi Yang 0001",
+        "Mao Yang 0004"
+      ],
+      "pages": "681-699",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhangMXSM0Z0Y23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhangMXSM0Z0Y23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/zhang-chen"
+      ]
+    },
+    {
+      "title": "Conveyor: One-Tool-Fits-All Continuous Software Deployment at Meta",
+      "authors": [
+        "Boris Grubic",
+        "Yang Wang 0009",
+        "Tyler Petrochko",
+        "Ran Yaniv",
+        "Brad Jones",
+        "David Callies",
+        "Matt Clarke-Lauer",
+        "Dan Kelley",
+        "Soteris Demetriou",
+        "Kenny Yu",
+        "Chunqiang Tang"
+      ],
+      "pages": "325-342",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GrubicWPYJCCKDY23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GrubicWPYJCCKDY23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/grubic"
+      ]
+    },
+    {
+      "title": "Core slicing: closing the gap between leaky confidential VMs and bare-metal cloud",
+      "authors": [
+        "Ziqiao Zhou",
+        "Yizhou Shan",
+        "Weidong Cui",
+        "Xinyang Ge",
+        "Marcus Peinado",
+        "Andrew Baumann"
+      ],
+      "pages": "247-267",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhouSCGPB23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhouSCGPB23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/zhou-ziqiao"
+      ]
+    },
+    {
+      "title": "Defcon: Preventing Overload with Graceful Feature Degradation",
+      "authors": [
+        "Justin Meza",
+        "Thote Gowda",
+        "Ahmed Eid",
+        "Tomiwa Ijaware",
+        "Dmitry Chernyshev",
+        "Yi Yu",
+        "Md Nazim Uddin",
+        "Rohan Das",
+        "Chad Nachiappan",
+        "Sari Tran",
+        "Shuyang Shi",
+        "Tina Luo",
+        "David Ke Hong",
+        "Sankaralingam Panneerselvam",
+        "Hans Ragas",
+        "Svetlin Manavski",
+        "Weidong Wang",
+        "Francois Richard"
+      ],
+      "pages": "607-622",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MezaGEICYUDNTSL23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MezaGEICYUDNTSL23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/meza"
+      ]
+    },
+    {
+      "title": "Detecting Transactional Bugs in Database Engines via Graph-Based Oracle Construction",
+      "authors": [
+        "Zu-Ming Jiang",
+        "Si Liu",
+        "Manuel Rigger",
+        "Zhendong Su 0001"
+      ],
+      "pages": "397-417",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/JiangLR023",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/JiangLR023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/jiang"
+      ]
+    },
+    {
+      "title": "Effectively Scheduling Computational Graphs of Deep Neural Networks toward Their Domain-Specific Accelerators",
+      "authors": [
+        "Jie Zhao 0002",
+        "Siyuan Feng 0007",
+        "Xiaoqiang Dan",
+        "Fei Liu",
+        "Chengke Wang",
+        "Sheng Yuan",
+        "Wenyuan Lv",
+        "Qikai Xie"
+      ],
+      "pages": "719-737",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhaoFDLWYLX23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhaoFDLWYLX23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/zhao"
+      ]
+    },
+    {
+      "title": "EINNET: Optimizing Tensor Programs with Derivation-Based Transformations",
+      "authors": [
+        "Liyan Zheng 0001",
+        "Haojie Wang 0004",
+        "Jidong Zhai",
+        "Muyan Hu",
+        "Zixuan Ma",
+        "Tuowei Wang",
+        "Shuhong Huang",
+        "Xupeng Miao",
+        "Shizhi Tang",
+        "Kezhao Huang",
+        "Zhihao Jia"
+      ],
+      "pages": "739-755",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhengWZHMWHMTHJ23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhengWZHMWHMTHJ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/zheng"
+      ]
+    },
+    {
+      "title": "Encrypted Databases Made Secure Yet Maintainable",
+      "authors": [
+        "Mingyu Li",
+        "Xuyang Zhao",
+        "Le Chen",
+        "Cheng Tan 0005",
+        "Huorong Li",
+        "Sheng Wang 0011",
+        "Zeyu Mi",
+        "Yubin Xia",
+        "Feifei Li 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "117-133",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiZC0L0MX0023",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiZC0L0MX0023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/li-mingyu"
+      ]
+    },
+    {
+      "title": "Ensō: A Streaming Interface for NIC-Application Communication",
+      "authors": [
+        "Hugo Sadok",
+        "Nirav Atre",
+        "Zhipeng Zhao",
+        "Daniel S. Berger",
+        "James C. Hoe",
+        "Aurojit Panda",
+        "Justine Sherry",
+        "Ren Wang"
+      ],
+      "pages": "1005-1025",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SadokAZBHPSW23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SadokAZBHPSW23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/sadok"
+      ]
+    },
+    {
+      "title": "ExoFlow: A Universal Workflow System for Exactly-Once DAGs",
+      "authors": [
+        "Siyuan Zhuang",
+        "Stephanie Wang",
+        "Eric Liang",
+        "Yi Cheng",
+        "Ion Stoica"
+      ],
+      "pages": "269-286",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhuangWLCS23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhuangWLCS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/zhuang"
+      ]
+    },
+    {
+      "title": "eZNS: An Elastic Zoned Namespace for Commodity ZNS SSDs",
+      "authors": [
+        "Jaehong Min",
+        "Chenxingyu Zhao",
+        "Ming Liu 0027",
+        "Arvind Krishnamurthy"
+      ],
+      "pages": "461-477",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MinZ0K23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MinZ0K23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/min"
+      ]
+    },
+    {
+      "title": "Flor: An Open High Performance RDMA Framework Over Heterogeneous RNICs",
+      "authors": [
+        "Qiang Li 0045",
+        "Yixiao Gao",
+        "Xiaoliang Wang 0001",
+        "Haonan Qiu",
+        "Yanfang Le",
+        "Derui Liu",
+        "Qiao Xiang",
+        "Fei Feng",
+        "Peng Zhang",
+        "Bo Li 0061",
+        "Jianbo Dong",
+        "Lingbo Tang",
+        "Hongqiang Harry Liu",
+        "Shaozong Liu",
+        "Weijie Li",
+        "Rui Miao 0001",
+        "Yaohui Wu",
+        "Zhiwu Wu",
+        "Chao Han",
+        "Lei Yan",
+        "Zheng Cao 0003",
+        "Zhongjie Wu",
+        "Chen Tian 0001",
+        "Guihai Chen",
+        "Dennis Cai",
+        "Jinbo Wu",
+        "Jiaji Zhu",
+        "Jiesheng Wu",
+        "Jiwu Shu"
+      ],
+      "pages": "931-948",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiG0QLLXFZLDTLL23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiG0QLLXFZLDTLL23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/li-qiang"
+      ]
+    },
+    {
+      "title": "Global Capacity Management With Flux",
+      "authors": [
+        "Marius Eriksen",
+        "Kaushik Veeraraghavan",
+        "Yusuf Abdulghani",
+        "Andrew Birchall",
+        "Po-Yen Chou",
+        "Richard Cornew",
+        "Adela Kabiljo",
+        "Ranjith Kumar S.",
+        "Maroo Lieuw",
+        "Justin Meza",
+        "Scott Michelson",
+        "Thomas Rohloff",
+        "Hayley Russell",
+        "Jeff Qin",
+        "Chunqiang Tang"
+      ],
+      "pages": "589-606",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/EriksenVABCCKSL23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/EriksenVABCCKSL23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/eriksen"
+      ]
+    },
+    {
+      "title": "Honeycomb: Secure and Efficient GPU Executions via Static Validation",
+      "authors": [
+        "Haohui Mai",
+        "Jiacheng Zhao",
+        "Hongren Zheng",
+        "Yiyang Zhao",
+        "Zibin Liu",
+        "Mingyu Gao 0001",
+        "Cong Wang",
+        "Huimin Cui",
+        "Xiaobing Feng 0002",
+        "Christos Kozyrakis"
+      ],
+      "pages": "155-172",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MaiZZZL0WC0K23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MaiZZZL0WC0K23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/mai"
+      ]
+    },
+    {
+      "title": "Hydro: Surrogate-Based Hyperparameter Tuning Service in Datacenters",
+      "authors": [
+        "Qinghao Hu 0004",
+        "Zhisheng Ye 0002",
+        "Meng Zhang 0045",
+        "Qiaoling Chen",
+        "Peng Sun 0006",
+        "Yonggang Wen 0001",
+        "Tianwei Zhang 0004"
+      ],
+      "pages": "757-777",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Hu0ZC00023",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Hu0ZC00023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/hu"
+      ]
+    },
+    {
+      "title": "Hyrax: Fail-in-Place Server Operation in Cloud Platforms",
+      "authors": [
+        "Jialun Lyu",
+        "Marisa You",
+        "Celine Irvene",
+        "Mark Jung",
+        "Tyler Narmore",
+        "Jacob Shapiro",
+        "Luke Marshall",
+        "Savyasachi Samal",
+        "Ioannis Manousakis",
+        "Lisa Hsu",
+        "Preetha Subbarayalu",
+        "Ashish Raniwala",
+        "Brijesh Warrier",
+        "Ricardo Bianchini",
+        "Bianca Schroeder",
+        "Daniel S. Berger"
+      ],
+      "pages": "287-304",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LyuYIJNSMSMHSRW23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LyuYIJNSMSMHSRW23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/lyu"
+      ]
+    },
+    {
+      "title": "Johnny Cache: the End of DRAM Cache Conflicts (in Tiered Main Memory Systems)",
+      "authors": [
+        "Baptiste Lepers",
+        "Willy Zwaenepoel"
+      ],
+      "pages": "519-534",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LepersZ23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LepersZ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/lepers"
+      ]
+    },
+    {
+      "title": "K9db: Privacy-Compliant Storage For Web Applications By Construction",
+      "authors": [
+        "Kinan Dak Albab",
+        "Ishan Sharma",
+        "Justus Adam",
+        "Benjamin Kilimnik",
+        "Aaron R. Jeyaraj",
+        "Raj Paul",
+        "Artem Agvanian",
+        "Leonhard F. Spiegelberg",
+        "Malte Schwarzkopf"
+      ],
+      "pages": "99-116",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AlbabSAKJPASS23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AlbabSAKJPASS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/albab"
+      ]
+    },
+    {
+      "title": "Karma: Resource Allocation for Dynamic Demands",
+      "authors": [
+        "Midhul Vuppalapati",
+        "Giannis Fikioris",
+        "Rachit Agarwal 0001",
+        "Asaf Cidon",
+        "Anurag Khandelwal",
+        "&Eacute;va Tardos"
+      ],
+      "pages": "645-662",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/VuppalapatiF0CK23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/VuppalapatiF0CK23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/vuppalapati"
+      ]
+    },
+    {
+      "title": "Kerveros: Efficient and Scalable Cloud Admission Control",
+      "authors": [
+        "Sultan Mahmud Sajal",
+        "Luke Marshall",
+        "Beibin Li",
+        "Shandan Zhou",
+        "Abhisek Pan",
+        "Konstantina Mellou",
+        "Deepak Narayanan",
+        "Timothy Zhu",
+        "David Dion",
+        "Thomas Moscibroda",
+        "Ishai Menache"
+      ],
+      "pages": "227-245",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SajalMLZPMNZDMM23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SajalMLZPMNZDMM23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/sajal"
+      ]
+    },
+    {
+      "title": "LVMT: An Efficient Authenticated Storage for Blockchain",
+      "authors": [
+        "Chenxing Li",
+        "Sidi Mohamed Beillahi",
+        "Guang Yang 0020",
+        "Ming Wu 0007",
+        "Wei Xu 0005",
+        "Fan Long"
+      ],
+      "pages": "135-153",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiB00XL23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiB00XL23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/li-chenxing"
+      ]
+    },
+    {
+      "title": "MGG: Accelerating Graph Neural Networks with Fine-Grained Intra-Kernel Communication-Computation Pipelining on Multi-GPU Platforms",
+      "authors": [
+        "Yuke Wang",
+        "Boyuan Feng",
+        "Zheng Wang 0075",
+        "Tong Geng",
+        "Kevin J. Barker",
+        "Ang Li 0006",
+        "Yufei Ding 0001"
+      ],
+      "pages": "779-795",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangFWGB0D23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangFWGB0D23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/wang-yuke"
+      ]
+    },
+    {
+      "title": "NCC: Natural Concurrency Control for Strictly Serializable Datastores by Avoiding the Timestamp-Inversion Pitfall",
+      "authors": [
+        "Haonan Lu",
+        "Shuai Mu 0001",
+        "Siddhartha Sen 0001",
+        "Wyatt Lloyd"
+      ],
+      "pages": "305-323",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Lu00L23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Lu00L23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/lu"
+      ]
+    },
+    {
+      "title": "Nimble: Rollback Protection for Confidential Cloud Services",
+      "authors": [
+        "Sebastian Angel",
+        "Aditya Basu",
+        "Weidong Cui",
+        "Trent Jaeger",
+        "Stella Lau",
+        "Srinath T. V. Setty",
+        "Sudheesh Singanamalla"
+      ],
+      "pages": "193-208",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AngelBCJLSS23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AngelBCJLSS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/angel"
+      ]
+    },
+    {
+      "title": "No Provisioned Concurrency: Fast RDMA-codesigned Remote Fork for Serverless Computing",
+      "authors": [
+        "Xingda Wei",
+        "Fangming Lu",
+        "Tianxia Wang",
+        "Jinyu Gu 0001",
+        "Yuhan Yang",
+        "Rong Chen 0001",
+        "Haibo Chen 0001"
+      ],
+      "pages": "497-517",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WeiLW0Y0023",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WeiLW0Y0023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/wei-rdma"
+      ]
+    },
+    {
+      "title": "Optimizing Dynamic Neural Networks with Brainstorm",
+      "authors": [
+        "Weihao Cui",
+        "Zhenhua Han",
+        "Lingji Ouyang",
+        "Yichuan Wang 0002",
+        "Ningxin Zheng",
+        "Lingxiao Ma",
+        "Yuqing Yang 0001",
+        "Fan Yang 0024",
+        "Jilong Xue",
+        "Lili Qiu",
+        "Lidong Zhou",
+        "Quan Chen 0002",
+        "Haisheng Tan",
+        "Minyi Guo"
+      ],
+      "pages": "797-815",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CuiHOWZM00XQZ0T23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CuiHOWZM00XQZ0T23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/cui"
+      ]
+    },
+    {
+      "title": "ORC: Increasing Cloud Memory Density via Object Reuse with Capabilities",
+      "authors": [
+        "Vasily A. Sartakov",
+        "Llu&iacute;s Vilanova",
+        "Munir Geden",
+        "David M. Eyers",
+        "Takahiro Shinagawa",
+        "Peter R. Pietzuch"
+      ],
+      "pages": "573-587",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SartakovVGESP23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SartakovVGESP23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/sartakov"
+      ]
+    },
+    {
+      "title": "Relational Debugging - Pinpointing Root Causes of Performance Problems",
+      "authors": [
+        "Xiang (Jenny) Ren",
+        "Sitao Wang",
+        "Zhuqi Jin",
+        "David Lion",
+        "Adrian Chiu",
+        "Tianyin Xu",
+        "Ding Yuan 0004"
+      ],
+      "pages": "65-80",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/RenWJLCX023",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/RenWJLCX023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/ren"
+      ]
+    },
+    {
+      "title": "Replicating Persistent Memory Key-Value Stores with Efficient RDMA Abstraction",
+      "authors": [
+        "Qing Wang 0031",
+        "Youyou Lu",
+        "Jing Wang 0158",
+        "Jiwu Shu"
+      ],
+      "pages": "441-459",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/0031LWS23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/0031LWS23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/wang-qing"
+      ]
+    },
+    {
+      "title": "RON: One-Way Circular Shortest Routing to Achieve Efficient and Bounded-waiting Spinlocks",
+      "authors": [
+        "Shiwu Lo",
+        "Han-Ting Lin",
+        "Yao-Hung Hsieh",
+        "Chao-Ting Lin",
+        "Yu-Hsueh Fang",
+        "Ching-Shen Lin",
+        "Ching-Chun (Jim) Huang",
+        "Kam-Yiu Lam",
+        "Yuan-Hao Chang 0001"
+      ],
+      "pages": "17-31",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LoLHLFLHL023",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LoLHLFLHL023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/lo"
+      ]
+    },
+    {
+      "title": "ScaleDB: A Scalable, Asynchronous In-Memory Database",
+      "authors": [
+        "Syed Akbar Mehdi",
+        "Deukyeon Hwang",
+        "Simon Peter 0001",
+        "Lorenzo Alvisi"
+      ],
+      "pages": "361-376",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/MehdiH0A23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/MehdiH0A23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/mehdi"
+      ]
+    },
+    {
+      "title": "Security and Performance in the Delegated User-level Virtualization",
+      "authors": [
+        "Jiahao Chen",
+        "Dingji Li",
+        "Zeyu Mi",
+        "Yuxuan Liu 0019",
+        "Binyu Zang",
+        "Haibing Guan",
+        "Haibo Chen 0001"
+      ],
+      "pages": "209-226",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChenLMLZG023",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChenLMLZG023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/chen"
+      ]
+    },
+    {
+      "title": "SEPH: Scalable, Efficient, and Predictable Hashing on Persistent Memory",
+      "authors": [
+        "Chao Wang",
+        "Junliang Hu",
+        "Tsun-Yu Yang",
+        "Yuhong Liang",
+        "Ming-Chang Yang"
+      ],
+      "pages": "479-495",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangHYLY23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangHYLY23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/wang-chao"
+      ]
+    },
+    {
+      "title": "ServiceRouter: Hyperscale and Minimal Cost Service Mesh at Meta",
+      "authors": [
+        "Harshit Saokar",
+        "Soteris Demetriou",
+        "Nick Magerko",
+        "Max Kontorovich",
+        "Josh Kirstein",
+        "Margot Leibold",
+        "Dimitrios Skarlatos 0002",
+        "Hitesh Khandelwal",
+        "Chunqiang Tang"
+      ],
+      "pages": "969-985",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SaokarDMKKL0KT23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SaokarDMKKL0KT23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/saokar"
+      ]
+    },
+    {
+      "title": "Sharding the State Machine: Automated Modular Reasoning for Complex Concurrent Systems",
+      "authors": [
+        "Travis Hance",
+        "Yi Zhou 0025",
+        "Andrea Lattuada 0001",
+        "Reto Achermann",
+        "Alex Conway 0001",
+        "Ryan Stutsman",
+        "Gerd Zellweger",
+        "Chris Hawblitzel",
+        "Jon Howell",
+        "Bryan Parno"
+      ],
+      "pages": "911-929",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HanceZLACSZHHP23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HanceZLACSZHHP23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/hance"
+      ]
+    },
+    {
+      "title": "Ship your Critical Section, Not Your Data: Enabling Transparent Delegation with TCLOCKS",
+      "authors": [
+        "Vishal Gupta 0006",
+        "Kumar Kartikeya Dwivedi",
+        "Yugesh Kothari",
+        "Yueyang Pan",
+        "Diyu Zhou",
+        "Sanidhya Kashyap"
+      ],
+      "pages": "1-16",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GuptaDKPZK23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GuptaDKPZK23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/gupta"
+      ]
+    },
+    {
+      "title": "ShRing: Networking with Shared Receive Rings",
+      "authors": [
+        "Boris Pismenny",
+        "Adam Morrison 0001",
+        "Dan Tsafrir"
+      ],
+      "pages": "949-968",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Pismenny0T23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Pismenny0T23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/pismenny"
+      ]
+    },
+    {
+      "title": "SMART: A High-Performance Adaptive Radix Tree for Disaggregated Memory",
+      "authors": [
+        "Xuchuan Luo",
+        "Pengfei Zuo",
+        "Jiacheng Shen",
+        "Jiazhen Gu",
+        "Xin Wang 0002",
+        "Michael R. Lyu",
+        "Yangfan Zhou 0002"
+      ],
+      "pages": "553-571",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LuoZSG0LZ23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LuoZSG0LZ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/luo"
+      ]
+    },
+    {
+      "title": "Spoq: Scaling Machine-Checkable Systems Verification in Coq",
+      "authors": [
+        "Xupeng Li",
+        "Xuheng Li",
+        "Wei Qiang",
+        "Ronghui Gu",
+        "Jason Nieh"
+      ],
+      "pages": "851-869",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiLQGN23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiLQGN23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/li-xupeng"
+      ]
+    },
+    {
+      "title": "TAILCHECK: A Lightweight Heap Overflow Detection Mechanism with Page Protection and Tagged Pointers",
+      "authors": [
+        "Amogha Udupa Shankaranarayana Gopal",
+        "Raveendra Soori",
+        "Michael Ferdman",
+        "Dongyoon Lee"
+      ],
+      "pages": "535-552",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GopalSFL23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GopalSFL23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/gopal"
+      ]
+    },
+    {
+      "title": "Take Out the TraChe: Maximizing (Tra)nsactional Ca(che) Hit Rate",
+      "authors": [
+        "Audrey Cheng",
+        "David C. Y. Chu",
+        "Terrance Li",
+        "Jason Chan",
+        "Natacha Crooks",
+        "Joseph M. Hellerstein",
+        "Ion Stoica",
+        "Xiangyao Yu"
+      ],
+      "pages": "419-439",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ChengCLCCHSY23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ChengCLCCHSY23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/cheng"
+      ]
+    },
+    {
+      "title": "Triangulating Python Performance Issues with SCALENE",
+      "authors": [
+        "Emery D. Berger",
+        "Sam Stern",
+        "Juan Altmayer Pizzorno"
+      ],
+      "pages": "51-64",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BergerSP23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BergerSP23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/berger"
+      ]
+    },
+    {
+      "title": "Userspace Bypass: Accelerating Syscall-intensive Applications",
+      "authors": [
+        "Zhe Zhou 0001",
+        "Yanxiang Bi",
+        "Junpeng Wan",
+        "Yangfan Zhou",
+        "Zhou Li 0001"
+      ],
+      "pages": "33-49",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/0001BWZ023",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/0001BWZ023.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/zhou-zhe"
+      ]
+    },
+    {
+      "title": "VBASE: Unifying Online Vector Similarity Search and Relational Queries via Relaxed Monotonicity",
+      "authors": [
+        "Qianxi Zhang",
+        "Shuotao Xu",
+        "Qi Chen 0009",
+        "Guoxin Sui",
+        "Jiadong Xie 0002",
+        "Zhizhen Cai",
+        "Yaoqi Chen",
+        "Yinxuan He",
+        "Yuqing Yang 0001",
+        "Fan Yang 0024",
+        "Mao Yang 0004",
+        "Lidong Zhou"
+      ],
+      "pages": "377-395",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ZhangXCSXCCH00Y23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ZhangXCSXCCH00Y23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/zhang-qianxi"
+      ]
+    },
+    {
+      "title": "Verifying vMVCC, a high-performance transaction library using multi-version concurrency control",
+      "authors": [
+        "Yun-Sheng Chang",
+        "Ralf Jung 0002",
+        "Upamanyu Sharma",
+        "Joseph Tassarotti",
+        "M. Frans Kaashoek",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "871-886",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Chang0STKZ23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Chang0STKZ23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/chang"
+      ]
+    },
+    {
+      "title": "Welder: Scheduling Deep Learning Memory Access via Tile-graph",
+      "authors": [
+        "Yining Shi 0001",
+        "Zhi Yang 0001",
+        "Jilong Xue",
+        "Lingxiao Ma",
+        "Yuqing Xia",
+        "Ziming Miao",
+        "Yuxiao Guo 0001",
+        "Fan Yang 0024",
+        "Lidong Zhou"
+      ],
+      "pages": "701-718",
+      "year": "2023",
+      "venue": "OSDI 2023",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/00010XMXMG0Z23",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/00010XMXMG0Z23.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi23/presentation/shi"
+      ]
+    }
+  ]
+}

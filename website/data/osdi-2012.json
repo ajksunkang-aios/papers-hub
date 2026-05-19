@@ -1,0 +1,846 @@
+{
+  "id": "osdi-2012",
+  "venue": "osdi",
+  "year": 2012,
+  "short_name": "OSDI",
+  "full_name": "USENIX Symposium on Operating Systems Design and Implementation",
+  "source_url": "https://dblp.org/db/conf/osdi/osdi2012.html",
+  "source_urls": [
+    "https://dblp.org/db/conf/osdi/osdi2012.html"
+  ],
+  "skip_dblp_keys": [
+    "conf/osdi/2012",
+    "conf/osdi/2012-1",
+    "conf/osdi/2012-2",
+    "conf/osdi/2012-3",
+    "conf/osdi/2012-4",
+    "conf/osdi/2012-5"
+  ],
+  "skip_title_patterns": [
+    "^\\d+(st|nd|rd|th) USENIX Symposium on Operating Systems Design and Implementation"
+  ],
+  "link_priority": [
+    "usenix.org",
+    "dblp.org"
+  ],
+  "count": 43,
+  "display_count": 43,
+  "papers": [
+    {
+      "title": "A Framework for Thermal and Performance Management",
+      "authors": [
+        "Davide B. Bartolini",
+        "Filippo Sironi",
+        "Martina Maggio",
+        "Riccardo Cattaneo",
+        "Donatella Sciuto",
+        "Marco Domenico Santambrogio"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BartoliniSMCSS12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BartoliniSMCSS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/mad12/workshop-program/presentation/bartolini"
+      ]
+    },
+    {
+      "title": "A State-Machine Approach to Disambiguating Supercomputer Event Logs",
+      "authors": [
+        "Jon Stearley",
+        "Robert Ballance",
+        "Lara Bauman"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/StearleyBB12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/StearleyBB12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/mad12/workshop-program/presentation/stearley"
+      ]
+    },
+    {
+      "title": "Accurate Characterization of the Variability in Power Consumption in Modern Mobile Processors",
+      "authors": [
+        "Bharathan Balaji",
+        "John McCullough",
+        "Rajesh K. Gupta 0001",
+        "Yuvraj Agarwal"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BalajiMGA12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BalajiMGA12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hotpower12/workshop-program/presentation/balaji"
+      ]
+    },
+    {
+      "title": "All about Eve: Execute-Verify Replication for Multi-Core Servers",
+      "authors": [
+        "Manos Kapritsos",
+        "Yang Wang 0009",
+        "Vivien Qu&eacute;ma",
+        "Allen Clement",
+        "Lorenzo Alvisi",
+        "Mike Dahlin"
+      ],
+      "pages": "237-250",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Kapritsos0QCAD12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Kapritsos0QCAD12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/kapritsos"
+      ]
+    },
+    {
+      "title": "AppInsight: Mobile App Performance Monitoring in the Wild",
+      "authors": [
+        "Lenin Ravindranath",
+        "Jitendra Padhye",
+        "Sharad Agarwal",
+        "Ratul Mahajan",
+        "Ian Obermiller",
+        "Shahin Shayandeh"
+      ],
+      "pages": "107-120",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/RavindranathPAMOS12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/RavindranathPAMOS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/ravindranath"
+      ]
+    },
+    {
+      "title": "Automated Concurrency-Bug Fixing",
+      "authors": [
+        "Guoliang Jin",
+        "Wei Zhang 0022",
+        "Dongdong Deng"
+      ],
+      "pages": "221-236",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Jin0D12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Jin0D12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/jin"
+      ]
+    },
+    {
+      "title": "Be Conservative: Enhancing Failure Diagnosis with Proactive Logging",
+      "authors": [
+        "Ding Yuan 0004",
+        "Soyeon Park",
+        "Peng Huang 0005",
+        "Yang Liu 0044",
+        "Michael Mihn-Jong Lee",
+        "Xiaoming Tang",
+        "Yuanyuan Zhou 0001",
+        "Stefan Savage"
+      ],
+      "pages": "293-306",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YuanPHLLTZS12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YuanPHLLTZS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/yuan"
+      ]
+    },
+    {
+      "title": "CleanOS: Limiting Mobile Data Exposure with Idle Eviction",
+      "authors": [
+        "Yang Tang",
+        "Phillip Ames",
+        "Sravan Bhamidipati",
+        "Ashish Bijlani",
+        "Roxana Geambasu",
+        "Nikhil Sarda"
+      ],
+      "pages": "77-91",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/TangABBGS12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/TangABBGS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/tang"
+      ]
+    },
+    {
+      "title": "COMET: Code Offload by Migrating Execution Transparently",
+      "authors": [
+        "Mark S. Gordon",
+        "Davoud Anoushe Jamshidi",
+        "Scott A. Mahlke",
+        "Zhuoqing Morley Mao",
+        "Xu Chen 0028"
+      ],
+      "pages": "93-106",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GordonJMMC12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GordonJMMC12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/gordon"
+      ]
+    },
+    {
+      "title": "Dissent in Numbers: Making Strong Anonymity Scale",
+      "authors": [
+        "David Isaac Wolinsky",
+        "Henry Corrigan-Gibbs",
+        "Bryan Ford",
+        "Aaron Johnson 0001"
+      ],
+      "pages": "179-182",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WolinskyCFJ12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WolinskyCFJ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/wolinsky"
+      ]
+    },
+    {
+      "title": "DJoin: Differentially Private Join Queries over Distributed Databases",
+      "authors": [
+        "Arjun Narayan",
+        "Andreas Haeberlen"
+      ],
+      "pages": "149-162",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/NarayanH12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/NarayanH12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/narayan"
+      ]
+    },
+    {
+      "title": "Dune: Safe User-level Access to Privileged CPU Features",
+      "authors": [
+        "Adam Belay",
+        "Andrea Bittau",
+        "Ali Jos&eacute; Mashtizadeh",
+        "David Terei",
+        "David Mazi&egrave;res",
+        "Christos Kozyrakis"
+      ],
+      "pages": "335-348",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BelayBMTMK12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BelayBMTMK12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/belay"
+      ]
+    },
+    {
+      "title": "Efficient Patch-based Auditing for Web Application Vulnerabilities",
+      "authors": [
+        "Taesoo Kim",
+        "Ramesh Chandra",
+        "Nickolai Zeldovich"
+      ],
+      "pages": "193-206",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KimCZ12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KimCZ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/kim"
+      ]
+    },
+    {
+      "title": "Eternal Sunshine of the Spotless Machine: Protecting Privacy with Ephemeral Channels",
+      "authors": [
+        "Alan M. Dunn",
+        "Michael Z. Lee",
+        "Suman Jana",
+        "Sangman Kim",
+        "Mark Silberstein",
+        "Yuanzhong Xu",
+        "Vitaly Shmatikov",
+        "Emmett Witchel"
+      ],
+      "pages": "61-75",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/DunnLJKSXSW12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/DunnLJKSXSW12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/dunn"
+      ]
+    },
+    {
+      "title": "Experiences from a Decade of TinyOS Development",
+      "authors": [
+        "Philip Alexander Levis"
+      ],
+      "pages": "207-220",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/Levis12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/Levis12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/levis"
+      ]
+    },
+    {
+      "title": "Flat Datacenter Storage",
+      "authors": [
+        "Edmund B. Nightingale",
+        "Jeremy Elson",
+        "Jinliang Fan",
+        "Owen S. Hofmann",
+        "Jon Howell",
+        "Yutaka Suzue"
+      ],
+      "pages": "1-15",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/NightingaleEFHHS12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/NightingaleEFHHS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/nightingale"
+      ]
+    },
+    {
+      "title": "GraphChi: Large-Scale Graph Computation on Just a PC",
+      "authors": [
+        "Aapo Kyrola",
+        "Guy E. Blelloch",
+        "Carlos Guestrin"
+      ],
+      "pages": "31-46",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KyrolaBG12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KyrolaBG12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/kyrola"
+      ]
+    },
+    {
+      "title": "Hails: Protecting Data Privacy in Untrusted Web Applications",
+      "authors": [
+        "Daniel B. Giffin",
+        "Amit Levy 0001",
+        "Deian Stefan",
+        "David Terei",
+        "David Mazi&egrave;res",
+        "John C. Mitchell",
+        "Alejandro Russo"
+      ],
+      "pages": "47-60",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GiffinLSTMMR12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GiffinLSTMMR12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/giffin"
+      ]
+    },
+    {
+      "title": "Improving Integer Security for Systems with KINT",
+      "authors": [
+        "Xi Wang 0005",
+        "Haogang Chen 0001",
+        "Zhihao Jia",
+        "Nickolai Zeldovich",
+        "M. Frans Kaashoek"
+      ],
+      "pages": "163-177",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/WangCJZK12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/WangCJZK12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/wang"
+      ]
+    },
+    {
+      "title": "Lucky Scheduling for Energy-Efficient Heterogeneous Multi-Core Systems",
+      "authors": [
+        "Vinicius Petrucci",
+        "Orlando Loques",
+        "Daniel Moss&eacute;"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/PetrucciLM12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/PetrucciLM12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hotpower12/workshop-program/presentation/petrucci"
+      ]
+    },
+    {
+      "title": "Making Geo-Replicated Systems Fast as Possible, Consistent when Necessary",
+      "authors": [
+        "Cheng Li 0001",
+        "Daniel Porto 0002",
+        "Allen Clement",
+        "Johannes Gehrke",
+        "Nuno M. Pregui&ccedil;a",
+        "Rodrigo Rodrigues 0001"
+      ],
+      "pages": "265-278",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LiPCGPR12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LiPCGPR12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/li"
+      ]
+    },
+    {
+      "title": "MegaPipe: A New Programming Interface for Scalable Network I/O",
+      "authors": [
+        "Sangjin Han",
+        "Scott Marshall",
+        "Byung-Gon Chun",
+        "Sylvia Ratnasamy"
+      ],
+      "pages": "135-148",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/HanMCR12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/HanMCR12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/han"
+      ]
+    },
+    {
+      "title": "Memory Performance at Reduced CPU Clock Speeds: An Analysis of Current x86_64 Processors",
+      "authors": [
+        "Robert Sch&ouml;ne",
+        "Daniel Hackenberg",
+        "Daniel Molka"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/SchoneHM12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/SchoneHM12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hotpower12/workshop-program/presentation/sch%C3%B6ne"
+      ]
+    },
+    {
+      "title": "Mojave: A Recommendation System for Software Upgrades",
+      "authors": [
+        "Rekha Bachwani",
+        "Olivier Crameri",
+        "Ricardo Bianchini"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/BachwaniCB12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/BachwaniCB12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/mad12/workshop-program/presentation/bachwani"
+      ]
+    },
+    {
+      "title": "Monitoring the Dynamics of Network Traffic by Recursive Multi-Dimensional Aggregation",
+      "authors": [
+        "Midori Kato",
+        "Kenjiro Cho",
+        "Michio Honda",
+        "Hideyuki Tokuda"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KatoCHT12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KatoCHT12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/mad12/workshop-program/presentation/kato"
+      ]
+    },
+    {
+      "title": "Pasture: Secure Offline Data Access Using Commodity Trusted Hardware",
+      "authors": [
+        "Ramakrishna Kotla",
+        "Tom Rodeheffer",
+        "Indrajit Roy 0001",
+        "Patrick Stuedi",
+        "Benjamin Wester"
+      ],
+      "pages": "321-334",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KotlaRRSW12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KotlaRRSW12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/kotla"
+      ]
+    },
+    {
+      "title": "Performance Isolation and Fairness for Multi-Tenant Cloud Storage",
+      "authors": [
+        "David Shue",
+        "Michael J. Freedman",
+        "Anees Shaikh"
+      ],
+      "pages": "349-362",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/ShueFS12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/ShueFS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/shue"
+      ]
+    },
+    {
+      "title": "Personalized Diapause: Reducing Radio Energy Consumption of Smartphones by Network-Context Aware Dormancy Predictions",
+      "authors": [
+        "Yeseong Kim",
+        "Jihong Kim 0001"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KimK12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KimK12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hotpower12/workshop-program/presentation/kim"
+      ]
+    },
+    {
+      "title": "Power and Performance Analysis of GPU-Accelerated Systems",
+      "authors": [
+        "Yuki Abe 0001",
+        "Hiroshi Sasaki 0001",
+        "Martin Peres",
+        "Koji Inoue",
+        "Kazuaki J. Murakami",
+        "Shinpei Kato"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AbeSPIMK12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AbeSPIMK12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hotpower12/workshop-program/presentation/abe"
+      ]
+    },
+    {
+      "title": "PowerGraph: Distributed Graph-Parallel Computation on Natural Graphs",
+      "authors": [
+        "Joseph E. Gonzalez",
+        "Yucheng Low",
+        "Haijie Gu",
+        "Danny Bickson",
+        "Carlos Guestrin"
+      ],
+      "pages": "17-30",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GonzalezLGBG12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GonzalezLGBG12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/gonzalez"
+      ]
+    },
+    {
+      "title": "Quantitative Estimation of the Performance Delay with Propagation Effects in Disk Power Savings",
+      "authors": [
+        "Feng Yan 0001",
+        "Xenia Mountrouidou",
+        "Evgenia Smirni"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/YanMS12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/YanMS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hotpower12/workshop-program/presentation/yan"
+      ]
+    },
+    {
+      "title": "Reducing Data Movement Costs Using Energy-Efficient, Active Computation on SSD",
+      "authors": [
+        "Devesh Tiwari",
+        "Sudharshan S. Vazhkudai",
+        "Youngjae Kim 0001",
+        "Xiaosong Ma",
+        "Simona Boboila",
+        "Peter Desnoyers"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/TiwariVKMBD12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/TiwariVKMBD12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hotpower12/workshop-program/presentation/tiwari"
+      ]
+    },
+    {
+      "title": "Spanner: Google's Globally-Distributed Database",
+      "authors": [
+        "James C. Corbett",
+        "Jeffrey Dean",
+        "Michael Epstein",
+        "Andrew Fikes",
+        "Christopher Frost 0001",
+        "J. J. Furman",
+        "Sanjay Ghemawat",
+        "Andrey Gubarev",
+        "Christopher Heiser",
+        "Peter Hochschild",
+        "Wilson C. Hsieh",
+        "Sebastian Kanthak",
+        "Eugene Kogan",
+        "Hongyi Li",
+        "Alexander Lloyd",
+        "Sergey Melnik 0001",
+        "David Mwaura",
+        "David Nagle",
+        "Sean Quinlan",
+        "Rajesh Rao",
+        "Lindsay Rolig",
+        "Yasushi Saito",
+        "Michal Szymaniak",
+        "Christopher Taylor",
+        "Ruth Wang",
+        "Dale Woodford"
+      ],
+      "pages": "251-264",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CorbettDEFFFGGHHHKKLLMMNQRRSSTWW12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CorbettDEFFFGGHHHKKLLMMNQRRSSTWW12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/corbett"
+      ]
+    },
+    {
+      "title": "Spotting Code Optimizations in Data-Parallel Pipelines through PeriSCOPE",
+      "authors": [
+        "Zhenyu Guo",
+        "Xuepeng Fan",
+        "Rishan Chen",
+        "Jiaxing Zhang",
+        "Hucheng Zhou",
+        "Sean McDirmid",
+        "Chang Liu 0021",
+        "Wei Lin 0016",
+        "Jingren Zhou 0001",
+        "Lidong Zhou"
+      ],
+      "pages": "121-133",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GuoFCZZMLLZZ12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GuoFCZZMLLZZ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/guo"
+      ]
+    },
+    {
+      "title": "Supporting Distributed Execution of Smartphone Workloads on Loosely Coupled Heterogeneous Processors",
+      "authors": [
+        "Felix Xiaozhu Lin",
+        "Zhen Wang 0006",
+        "Lin Zhong 0001"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/LinWZ12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/LinWZ12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hotpower12/workshop-program/presentation/lin"
+      ]
+    },
+    {
+      "title": "SymDrive: Testing Drivers without Devices",
+      "authors": [
+        "Matthew J. Renzelmann",
+        "Asim Kadav",
+        "Michael M. Swift"
+      ],
+      "pages": "279-292",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/RenzelmannKS12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/RenzelmannKS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/renzelmann"
+      ]
+    },
+    {
+      "title": "The Implications of Shared Data Synchronization Techniques on Multi-Core Energy Efficiency",
+      "authors": [
+        "Ashok Gautham",
+        "Kunal Korgaonkar",
+        "Patanjali SLPSK",
+        "Shankar Balachandran",
+        "Kamakoti Veezhinathan"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/GauthamKSBV12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/GauthamKSBV12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hotpower12/workshop-program/presentation/gautham"
+      ]
+    },
+    {
+      "title": "Towards a Data Analysis Recommendation System",
+      "authors": [
+        "Sara Alspaugh",
+        "Archana Ganapathi"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AlspaughG12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AlspaughG12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/mad12/workshop-program/presentation/alspaugh"
+      ]
+    },
+    {
+      "title": "Towards Verifying Android Apps for the Absence of No-Sleep Energy Bugs",
+      "authors": [
+        "Panagiotis Vekris",
+        "Ranjit Jhala",
+        "Sorin Lerner",
+        "Yuvraj Agarwal"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/VekrisJLA12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/VekrisJLA12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/hotpower12/workshop-program/presentation/vekris"
+      ]
+    },
+    {
+      "title": "Transparent System Call Based Performance Debugging for Cloud Computing",
+      "authors": [
+        "Nikhil Khadke",
+        "Michael P. Kasick",
+        "Soila Kavulya",
+        "Jiaqi Tan 0001",
+        "Priya Narasimhan"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/KhadkeKKTN12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/KhadkeKKTN12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/mad12/workshop-program/presentation/khadke"
+      ]
+    },
+    {
+      "title": "Uncertainty in Aggregate Estimates from Sampled Distributed Traces",
+      "authors": [
+        "Nate Coehlo",
+        "Arif Merchant",
+        "Murray Stokely"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CoehloMS12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CoehloMS12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/mad12/workshop-program/presentation/coehlo"
+      ]
+    },
+    {
+      "title": "Vayu: Learning to Control the Cloud",
+      "authors": [
+        "Ira Cohen",
+        "Ohad Assulin",
+        "Eli Mordechai",
+        "Yaniv Sayers",
+        "Ruth Bernstein"
+      ],
+      "pages": null,
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/CohenAMSB12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/CohenAMSB12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/mad12/workshop-program/presentation/cohen"
+      ]
+    },
+    {
+      "title": "X-ray: Automating Root-Cause Diagnosis of Performance Anomalies in Production Software",
+      "authors": [
+        "Mona Attariyan",
+        "Michael Chow",
+        "Jason Flinn"
+      ],
+      "pages": "307-320",
+      "year": "2012",
+      "venue": "OSDI 2012",
+      "paper_type": "inproceedings",
+      "dblp_key": "conf/osdi/AttariyanCF12",
+      "dblp_url": "https://dblp.org/rec/conf/osdi/AttariyanCF12.html",
+      "ee_links": [
+        "https://www.usenix.org/conference/osdi12/technical-sessions/presentation/attariyan"
+      ]
+    }
+  ]
+}
