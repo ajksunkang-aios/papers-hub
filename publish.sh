@@ -5,6 +5,8 @@ HUB="${HUB:-os-kernel}"
 HUB_FLAG=(--hub "$HUB")
 PICK_YEARS="${PICK_YEARS:-2023,2024,2025,2026}"
 ARXIV_PICK_YEARS="${ARXIV_PICK_YEARS:-2025,2026}"
+# Abstract enrichment is slow on first run; default to recent proceedings only.
+ABSTRACT_ENRICH_YEARS="${ABSTRACT_ENRICH_YEARS:-2025,2026}"
 
 if [[ ! -f "$ROOT/data/dblp.xml.gz" ]]; then
   echo "Downloading dblp.xml.gz (first run)..."
@@ -24,10 +26,16 @@ python3 "$ROOT/crawl_arxiv_recent.py" "${HUB_FLAG[@]}" \
   --os-max 120 --cl-max 180 \
   --if-stale-hours 24
 
-echo "Enriching conference paper abstracts (skip if fresh 7d)..."
-python3 "$ROOT/enrich_conference_abstracts.py" "${HUB_FLAG[@]}" \
-  --years "$PICK_YEARS" \
-  --if-stale-hours 168
+if [[ "${ABSTRACT_SKIP:-0}" == "1" ]]; then
+  echo "Skipping abstract enrichment (ABSTRACT_SKIP=1)"
+else
+  echo "Enriching conference abstracts for ${ABSTRACT_ENRICH_YEARS} (skip if fresh 7d; may take a while on first run)..."
+  echo "  Full backfill: ABSTRACT_ENRICH_YEARS=${PICK_YEARS} ./publish.sh"
+  echo "  Skip entirely: ABSTRACT_SKIP=1 ./publish.sh"
+  python3 -u "$ROOT/enrich_conference_abstracts.py" "${HUB_FLAG[@]}" \
+    --years "$ABSTRACT_ENRICH_YEARS" \
+    --if-stale-hours 168
+fi
 
 echo "Building top picks (arXiv ${ARXIV_PICK_YEARS}, published ${PICK_YEARS})..."
 python3 "$ROOT/build_top_monthly.py" "${HUB_FLAG[@]}" --years "$PICK_YEARS" --arxiv-years "$ARXIV_PICK_YEARS"

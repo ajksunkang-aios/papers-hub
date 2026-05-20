@@ -18,7 +18,7 @@ JATS_TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"\s+")
 
 USER_AGENT = "os-kernel-papers-hub/1.0 (research; abstract-enrichment)"
-REQUEST_TIMEOUT = 25
+REQUEST_TIMEOUT = 12
 MIN_ABSTRACT_LEN = 40
 REQUEST_DELAY_SEC = 0.12
 
@@ -67,10 +67,25 @@ class AbstractCache:
 
     def get(self, key: str) -> str | None:
         entry = self._data["entries"].get(key)
-        if not entry:
+        if not entry or entry.get("miss"):
             return None
         abstract = (entry.get("abstract") or "").strip()
         return abstract if len(abstract) >= MIN_ABSTRACT_LEN else None
+
+    def is_miss(self, key: str) -> bool:
+        entry = self._data["entries"].get(key)
+        return bool(entry and entry.get("miss"))
+
+    def set_miss(self, keys: list[str]) -> None:
+        ts = datetime.now(timezone.utc).isoformat()
+        for key in keys:
+            if not key:
+                continue
+            self._data["entries"][key] = {
+                "abstract": "",
+                "miss": True,
+                "fetched_at": ts,
+            }
 
     def set(self, key: str, abstract: str, source: str, *, doi: str | None = None) -> None:
         abstract = abstract.strip()
@@ -89,6 +104,24 @@ class AbstractCache:
             json.dumps(self._data, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
+
+
+def lookup_cache_keys(
+    *,
+    title: str,
+    ee_links: list[str] | None,
+    dblp_key: str | None,
+) -> list[str]:
+    keys: list[str] = []
+    doi = extract_doi(ee_links)
+    if doi:
+        keys.append(f"doi:{doi}")
+    if dblp_key:
+        keys.append(f"dblp:{dblp_key}")
+    title_key = normalize_title_key(title)
+    if title_key:
+        keys.append(f"title:{title_key}")
+    return keys
 
 
 def build_arxiv_title_index(arxiv_json_path: Path) -> dict[str, str]:
@@ -112,9 +145,16 @@ def build_arxiv_title_index(arxiv_json_path: Path) -> dict[str, str]:
 
 
 class AbstractFetcher:
-    def __init__(self, *, cache: AbstractCache, arxiv_by_title: dict[str, str] | None = None) -> None:
+    def __init__(
+        self,
+        *,
+        cache: AbstractCache,
+        arxiv_by_title: dict[str, str] | None = None,
+        allow_arxiv_api: bool = False,
+    ) -> None:
         self.cache = cache
         self.arxiv_by_title = arxiv_by_title or {}
+        self.allow_arxiv_api = allow_arxiv_api
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": USER_AGENT, "Accept": "application/json"})
         self._last_request = 0.0
@@ -209,21 +249,19 @@ class AbstractFetcher:
         Lookup order: disk cache -> local arXiv index -> OpenAlex -> Semantic Scholar
         -> Crossref -> arXiv API title search.
         """
-        doi = extract_doi(ee_links)
-        cache_keys: list[str] = []
-        if doi:
-            cache_keys.append(f"doi:{doi}")
-        if dblp_key:
-            cache_keys.append(f"dblp:{dblp_key}")
+        cache_keys = lookup_cache_keys(
+            title=title, ee_links=ee_links, dblp_key=dblp_key
+        )
         title_key = normalize_title_key(title)
-        if title_key:
-            cache_keys.append(f"title:{title_key}")
+        doi = extract_doi(ee_links)
 
         if not force:
             for key in cache_keys:
                 hit = self.cache.get(key)
                 if hit:
                     return hit, "cache"
+            if cache_keys and all(self.cache.is_miss(key) for key in cache_keys):
+                return "", "cache-miss"
 
         if title_key and title_key in self.arxiv_by_title:
             abstract = self.arxiv_by_title[title_key]
@@ -241,12 +279,14 @@ class AbstractFetcher:
                     self._store(cache_keys, abstract, source, doi=doi)
                     return abstract, source
 
-        if title:
+        if title and self.allow_arxiv_api:
             abstract = self.fetch_arxiv_api(title)
             if abstract:
                 self._store(cache_keys, abstract, "arxiv-api", doi=doi)
                 return abstract, "arxiv-api"
 
+        if cache_keys:
+            self.cache.set_miss(cache_keys)
         return "", ""
 
     def _store(self, keys: list[str], abstract: str, source: str, *, doi: str | None) -> None:
