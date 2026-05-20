@@ -46,6 +46,13 @@ class Hub:
         return [int(y) for y in self.meta.get("pick_years", [])]
 
     @property
+    def arxiv_pick_years(self) -> list[int]:
+        from_cats = self.categories.get("arxiv_pick_years")
+        if from_cats:
+            return [int(y) for y in from_cats]
+        return [int(y) for y in self.meta.get("arxiv_pick_years", [])]
+
+    @property
     def sections(self) -> dict[str, Any]:
         return dict(self.meta.get("sections", {}))
 
@@ -118,10 +125,13 @@ class Hub:
             "lede": self.meta.get("lede", ""),
             "venue_order": self.venue_order,
             "pick_years": self.pick_years,
+            "arxiv_pick_years": self.arxiv_pick_years,
             "timeline_year": self.meta.get("timeline_year"),
             "sections": self.sections,
             "categories": {
                 "section_heading": self.categories.get("section_heading", ""),
+                "arxiv_mode_label": self.categories.get("arxiv_mode_label", ""),
+                "published_mode_label": self.categories.get("published_mode_label", ""),
             },
             "arxiv": {
                 "filter_note": self.arxiv_policy.get("filter_note", ""),

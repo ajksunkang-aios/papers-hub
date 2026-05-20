@@ -2,11 +2,24 @@
   "min_category_score": 4,
   "per_category_limit": 5,
   "default_years": [
+    2023,
     2024,
     2025,
     2026
   ],
-  "section_heading": "OS Kernel & LLM picks by areas",
+  "arxiv_pick_years": [
+    2025,
+    2026
+  ],
+  "section_heading": "Top picks by area",
+  "arxiv_mode_label": "Recent arXiv picks by area",
+  "published_mode_label": "Published papers picks by area",
+  "ranking": {
+    "conference_score_boost": 12,
+    "min_conference_preview": 2,
+    "recency_boost_per_year": 2,
+    "recency_base_year": 2023
+  },
   "categories": [
     {
       "id": "llm-serving",

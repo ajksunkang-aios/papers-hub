@@ -1,13 +1,15 @@
 export const todayBroadcast = {
-  "generated_at": "2026-05-20T10:41:46.424903+08:00",
-  "date_label": "May 15–May 20, 2026 (UTC+8)",
-  "window_start_utc8": "2026-05-15",
+  "generated_at": "2026-05-20T14:26:41.123294+08:00",
+  "date_label": "May 18–May 20, 2026 (UTC+8)",
+  "window_start_utc8": "2026-05-18",
   "window_end_utc8": "2026-05-20",
   "pool_note": "",
-  "note": "Top arXiv papers from the last 7 days (UTC+8), preferring today and yesterday.",
+  "scoring": "area-keywords-title-abstract",
+  "min_score": 4,
+  "note": "Top arXiv papers from the last 7 days (UTC+8), ranked by area keyword score on title and abstract (same as Top picks by area).",
   "preview_limit": 3,
   "count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "picks": [
     {
       "rank": 1,
@@ -18,12 +20,14 @@ export const todayBroadcast = {
         "Rui Yang",
         "Mingye Zhang"
       ],
-      "score": 64,
+      "score": 47,
       "matched_tags": [
+        "serving system",
         "llm serving",
-        "kernel",
-        "llm"
+        "latency"
       ],
+      "category_id": "llm-serving",
+      "category_label": "LLM serving",
       "published": "2026-05-19T07:34:08Z",
       "abs_url": "https://arxiv.org/abs/2605.19481v1",
       "pdf_url": "https://arxiv.org/pdf/2605.19481v1",
@@ -39,10 +43,12 @@ export const todayBroadcast = {
         "Jiawen Liu",
         "Hua Wang"
       ],
-      "score": 4,
+      "score": 22,
       "matched_tags": [
-        "llm"
+        "block storage"
       ],
+      "category_id": "fs-storage",
+      "category_label": "File System and Storage",
       "published": "2026-05-18T08:49:16Z",
       "abs_url": "https://arxiv.org/abs/2605.18066v1",
       "pdf_url": "https://arxiv.org/pdf/2605.18066v1",
@@ -51,23 +57,23 @@ export const todayBroadcast = {
     },
     {
       "rank": 3,
-      "title": "SemaTune: Semantic-Aware Online OS Tuning with Large Language Models",
+      "title": "PipeANN-Filter: An Efficient Filtered Vector Search System on SSD",
       "authors": [
-        "Georgios Liargkovas",
-        "Mihir Nitin Joshi",
-        "Hubertus Franke",
-        "Kostis Kaffes"
+        "Hao Guo",
+        "Jiwu Shu",
+        "Youyou Lu"
       ],
-      "score": 4,
+      "score": 24,
       "matched_tags": [
-        "kernel",
-        "llm"
+        "ssd"
       ],
-      "published": "2026-05-14T16:25:32Z",
-      "abs_url": "https://arxiv.org/abs/2605.15026v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.15026v1",
+      "category_id": "fs-storage",
+      "category_label": "File System and Storage",
+      "published": "2026-05-18T07:48:53Z",
+      "abs_url": "https://arxiv.org/abs/2605.17992v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17992v1",
       "source_feed": "cs.OS",
-      "arxiv_id": "2605.15026v1"
+      "arxiv_id": "2605.17992v1"
     }
   ],
   "all_picks": [
@@ -80,12 +86,14 @@ export const todayBroadcast = {
         "Rui Yang",
         "Mingye Zhang"
       ],
-      "score": 64,
+      "score": 47,
       "matched_tags": [
+        "serving system",
         "llm serving",
-        "kernel",
-        "llm"
+        "latency"
       ],
+      "category_id": "llm-serving",
+      "category_label": "LLM serving",
       "published": "2026-05-19T07:34:08Z",
       "abs_url": "https://arxiv.org/abs/2605.19481v1",
       "pdf_url": "https://arxiv.org/pdf/2605.19481v1",
@@ -101,10 +109,12 @@ export const todayBroadcast = {
         "Jiawen Liu",
         "Hua Wang"
       ],
-      "score": 4,
+      "score": 22,
       "matched_tags": [
-        "llm"
+        "block storage"
       ],
+      "category_id": "fs-storage",
+      "category_label": "File System and Storage",
       "published": "2026-05-18T08:49:16Z",
       "abs_url": "https://arxiv.org/abs/2605.18066v1",
       "pdf_url": "https://arxiv.org/pdf/2605.18066v1",
@@ -113,6 +123,68 @@ export const todayBroadcast = {
     },
     {
       "rank": 3,
+      "title": "PipeANN-Filter: An Efficient Filtered Vector Search System on SSD",
+      "authors": [
+        "Hao Guo",
+        "Jiwu Shu",
+        "Youyou Lu"
+      ],
+      "score": 24,
+      "matched_tags": [
+        "ssd"
+      ],
+      "category_id": "fs-storage",
+      "category_label": "File System and Storage",
+      "published": "2026-05-18T07:48:53Z",
+      "abs_url": "https://arxiv.org/abs/2605.17992v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17992v1",
+      "source_feed": "cs.OS",
+      "arxiv_id": "2605.17992v1"
+    },
+    {
+      "rank": 4,
+      "title": "TClone: Low-Latency Forking of Live GUI Environments for Computer-Use Agents",
+      "authors": [
+        "Yutong Huang",
+        "Vikranth Srivatsa",
+        "Alex Asch",
+        "Hansin Tushar Patwa"
+      ],
+      "score": 38,
+      "matched_tags": [
+        "computer-use agent"
+      ],
+      "category_id": "kernel-agentic",
+      "category_label": "Kernel Agentic Engineering",
+      "published": "2026-05-17T08:24:01Z",
+      "abs_url": "https://arxiv.org/abs/2605.17320v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17320v1",
+      "source_feed": "cs.OS",
+      "arxiv_id": "2605.17320v1"
+    },
+    {
+      "rank": 5,
+      "title": "Skim: Speculative Execution for Fast and Efficient Web Agents",
+      "authors": [
+        "Mike Wong",
+        "Kevin Hsieh",
+        "Suman Nath",
+        "Ravi Netravali"
+      ],
+      "score": 6,
+      "matched_tags": [
+        "exploit"
+      ],
+      "category_id": "system-security",
+      "category_label": "System Security",
+      "published": "2026-05-15T19:12:43Z",
+      "abs_url": "https://arxiv.org/abs/2605.16565v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16565v1",
+      "source_feed": "cs.OS",
+      "arxiv_id": "2605.16565v1"
+    },
+    {
+      "rank": 6,
       "title": "SemaTune: Semantic-Aware Online OS Tuning with Large Language Models",
       "authors": [
         "Georgios Liargkovas",
@@ -120,11 +192,12 @@ export const todayBroadcast = {
         "Hubertus Franke",
         "Kostis Kaffes"
       ],
-      "score": 4,
+      "score": 6,
       "matched_tags": [
-        "kernel",
-        "llm"
+        "latency"
       ],
+      "category_id": "llm-serving",
+      "category_label": "LLM serving",
       "published": "2026-05-14T16:25:32Z",
       "abs_url": "https://arxiv.org/abs/2605.15026v1",
       "pdf_url": "https://arxiv.org/pdf/2605.15026v1",
@@ -132,7 +205,7 @@ export const todayBroadcast = {
       "arxiv_id": "2605.15026v1"
     },
     {
-      "rank": 4,
+      "rank": 7,
       "title": "PreFT: Prefill-only finetuning for efficient inference",
       "authors": [
         "Andrew Lanpouthakoun",
@@ -140,13 +213,13 @@ export const todayBroadcast = {
         "Zhengxuan Wu",
         "Dhruv Pai"
       ],
-      "score": 24,
+      "score": 29,
       "matched_tags": [
-        "memory management",
         "llm inference",
-        "kernel",
-        "llm"
+        "throughput"
       ],
+      "category_id": "llm-serving",
+      "category_label": "LLM serving",
       "published": "2026-05-14T00:19:41Z",
       "abs_url": "https://arxiv.org/abs/2605.14217v1",
       "pdf_url": "https://arxiv.org/pdf/2605.14217v1",

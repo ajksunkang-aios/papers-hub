@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area picks | OS Kernel Papers Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <p class="eyebrow"><a id="back-link" href="index.html">Top picks by area</a></p>
+        <h1 id="area-title">Area</h1>
+        <p class="lede" id="area-subtitle"></p>
+        <p class="hub-section-meta" id="area-meta"></p>
+      </div>
+    </header>
+
+    <main class="wrap area-picks-page">
+      <p class="panel-note" id="area-note"></p>
+
+      <section class="toolbar toolbar-sticky area-picks-toolbar" aria-label="Filters">
+        <div id="area-year-filters" class="top-year-filters area-year-filters" role="group" aria-label="Filter by year"></div>
+        <label class="search hub-search">
+          <span class="sr-only">Search papers</span>
+          <input
+            id="area-search"
+            type="search"
+            placeholder="Search title or author..."
+            autocomplete="off"
+          />
+        </label>
+        <p class="result-count" id="area-result-count" aria-live="polite"></p>
+      </section>
+
+      <ol id="area-picks-list" class="top-picks-list area-picks-list-full" aria-label="All picks in this area"></ol>
+    </main>
+
+    <footer class="site-footer wrap">
+      <p>Data: <a href="https://arxiv.org/">arXiv</a> &middot; <a href="https://dblp.org/">dblp</a></p>
+    </footer>
+
+    <script src="area-picks.js?v=1" type="module"></script>
+  </body>
+</html>

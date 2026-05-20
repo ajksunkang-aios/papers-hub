@@ -58,6 +58,7 @@ export function formatDateUtc8(iso) {
   return d.toLocaleDateString("en-US", {
     month: "short",
     day: "numeric",
+    year: "numeric",
     timeZone: TZ_UTC8,
   });
 }

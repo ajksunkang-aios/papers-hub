@@ -3,8 +3,14 @@ import {
   formatDateUtc8,
   formatGeneratedAt,
   formatGeneratedAtUtc8,
-  formatTopArxivBadge,
 } from "./shared.js";
+import {
+  areaPicksPageUrl,
+  filterPicksByYears,
+  renderPickRow,
+  sortedUniqueYears,
+  withDisplayRanks,
+} from "./picks-ui.js";
 import { todayBroadcast as bundledBroadcast } from "./today-broadcast-data.js";
 import { conferenceTimeline as bundledTimeline } from "./conference-timeline-data.js";
 
@@ -53,8 +59,21 @@ function applyHubBranding(hub) {
     if (el) el.textContent = title;
   };
   setHeading("timeline-heading", "timeline");
-  setHeading("top-heading", "top_picks");
+  setHeading("top-picks-heading", "top_picks");
   setHeading("conf-hub-heading", "conferences");
+
+  const arxivModeBtn = document.getElementById("top-picks-mode-arxiv");
+  const publishedModeBtn = document.getElementById("top-picks-mode-published");
+  const arxivLabel =
+    hub.categories?.arxiv_mode_label ||
+    sections.picks_arxiv?.title ||
+    "Recent arXiv picks by area";
+  const publishedLabel =
+    hub.categories?.published_mode_label ||
+    sections.picks_published?.title ||
+    "Published papers picks by area";
+  if (arxivModeBtn) arxivModeBtn.textContent = arxivLabel;
+  if (publishedModeBtn) publishedModeBtn.textContent = publishedLabel;
 
   const broadcastTagline = document.querySelector(".broadcast-tagline");
   if (broadcastTagline && hub.tagline) {
@@ -66,8 +85,8 @@ function applyHubBranding(hub) {
   if (timelineSection && sections.timeline?.enabled === false) timelineSection.hidden = true;
   const broadcastSection = document.getElementById("broadcast-section");
   if (broadcastSection && sections.broadcast?.enabled === false) broadcastSection.hidden = true;
-  const topSection = document.getElementById("top-monthly-section");
-  if (topSection && sections.top_picks?.enabled === false) topSection.hidden = true;
+  const picksSection = document.getElementById("top-picks-section");
+  if (picksSection && sections.top_picks?.enabled === false) picksSection.hidden = true;
   const confSection = document.querySelector(".conf-hub");
   if (confSection && sections.conferences?.enabled === false) confSection.hidden = true;
 }
@@ -206,15 +225,7 @@ function renderConferences(conferences, query) {
   renderVenueList(venues, q);
 }
 
-function tagBadges(tags, limit = 4) {
-  if (!tags?.length) return "";
-  return tags
-    .slice(0, limit)
-    .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
-    .join("");
-}
-
-function renderPickRow(pick) {
+function __REMOVE_RENDER_PICK_ROW_START(pick, { highlightConference = false } = {}) {
   const url = pick.paper_url || pick.abs_url || pick.dblp_url || "#";
   const authorList = pick.authors || [];
   const authors = escapeHtml(authorList.slice(0, 6).join(", "));
@@ -242,16 +253,30 @@ function renderPickRow(pick) {
     tags.length > 0
       ? `<p class="top-why"><span class="top-why-label">Signals</span>${tags.map((t) => escapeHtml(t)).join(" | ")}</p>`
       : "";
-  const scoreAside =
-    pick.category_score != null
-      ? `<aside class="top-pick-aside" aria-label="Relevance score ${pick.category_score}">
+  const rawScore = pick.category_score ?? 0;
+  const displayScore = pick.display_score ?? rawScore;
+  const boost = pick.score_boost ?? 0;
+  let scoreAside = "";
+  if (pick.category_score != null) {
+    if (highlightConference && pick.source === "conference" && boost > 0) {
+      scoreAside = `<aside class="top-pick-aside top-pick-aside--published" aria-label="Relevance score ${displayScore}, published paper boost">
           <span class="top-score-label">Score</span>
-          <span class="top-score">${pick.category_score}</span>
-        </aside>`
-      : "";
+          <span class="top-score top-score--published" title="Keyword ${rawScore} + ${boost} peer-reviewed boost">${displayScore}</span>
+          <span class="top-score-breakdown">${rawScore}+${boost}</span>
+        </aside>`;
+    } else {
+      scoreAside = `<aside class="top-pick-aside" aria-label="Relevance score ${rawScore}">
+          <span class="top-score-label">Score</span>
+          <span class="top-score">${rawScore}</span>
+        </aside>`;
+    }
+  }
+
+  const publishedClass =
+    highlightConference && pick.source === "conference" ? " top-pick--published" : "";
 
   return `
-    <li class="top-pick top-pick-rich">
+    <li class="top-pick top-pick-rich${publishedClass}">
       <span class="top-rank" aria-hidden="true">${pick.rank}</span>
       <div class="top-pick-main">
         <div class="top-pick-head">
@@ -286,57 +311,115 @@ function renderPickRow(pick) {
 
 const TOP_PREVIEW_DEFAULT = 5;
 const topPanelState = new Map();
-let topCategoriesCtx = null;
+const topCategoriesCtxByScope = new Map();
+const topPicksCache = { arxiv: null, published: null };
+let topPicksMode = "arxiv";
+let topPicksModeWired = false;
+
+function panelStateKey(scope, catId) {
+  return `${scope}:${catId}`;
+}
 
 function topPreviewLimit(data) {
   return data?.preview_limit ?? TOP_PREVIEW_DEFAULT;
 }
 
-let AREA_FILTER_YEARS = [2024, 2025, 2026];
+let AREA_FILTER_YEARS = [2023, 2024, 2025, 2026];
 
 function defaultFilterYears(data) {
-  const fromData = Array.isArray(data?.years) ? data.years.map(Number) : [];
-  const merged = sortedUniqueYears([...AREA_FILTER_YEARS, ...fromData]);
-  return merged.length ? merged : [...AREA_FILTER_YEARS];
-}
-
-function sortedUniqueYears(years) {
-  return [...new Set(years.filter((y) => Number.isFinite(y)))].sort((a, b) => a - b);
-}
-
-function pickCalendarYear(pick) {
-  if (pick?.year) return Number(pick.year);
-  if (pick?.published) {
-    const d = new Date(pick.published);
-    if (!Number.isNaN(d.getTime())) return d.getFullYear();
+  const fromData = Array.isArray(data?.years)
+    ? data.years.map(Number).filter((y) => Number.isFinite(y))
+    : [];
+  if (fromData.length) {
+    return sortedUniqueYears(fromData);
   }
-  return null;
+  return sortedUniqueYears([...AREA_FILTER_YEARS]);
 }
 
-function filterPicksByYears(picks, selectedYears) {
-  const years = selectedYears instanceof Set ? selectedYears : new Set(selectedYears);
-  return picks.filter((p) => {
-    const y = pickCalendarYear(p);
-    return y === null || years.has(y);
-  });
+function normalizePickTitle(title) {
+  return (title || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
 }
 
-function withDisplayRanks(picks) {
-  return picks.map((p, i) => ({ ...p, rank: i + 1 }));
+function effectivePickScore(pick, ranking) {
+  let score = pick.category_score ?? 0;
+  if (pick.source !== "conference") return score;
+  const boost = ranking?.conference_score_boost ?? 12;
+  const baseYear = ranking?.recency_base_year ?? 2023;
+  const perYear = ranking?.recency_boost_per_year ?? 2;
+  const year = pick.year ? Number(pick.year) : 0;
+  return score + boost + (year > baseYear ? (year - baseYear) * perYear : 0);
 }
 
-function initPanelState(catId, defaultYears) {
+/** Match server-side balanced preview: mix conference + arXiv in top-N. */
+function selectBalancedPreview(pool, limit, ranking) {
+  if (!pool.length) return [];
+  const minConf = Math.min(ranking?.min_conference_preview ?? 2, limit);
+
+  const sortKey = (a, b) => effectivePickScore(b, ranking) - effectivePickScore(a, ranking);
+  const conf = pool.filter((p) => p.source === "conference").sort(sortKey);
+  const arxiv = pool
+    .filter((p) => p.source === "arxiv")
+    .sort((a, b) => (b.category_score ?? 0) - (a.category_score ?? 0));
+
+  const nConf = Math.min(minConf, limit, conf.length);
+  const chosen = conf.slice(0, nConf);
+  const seen = new Set(chosen.map((p) => normalizePickTitle(p.title)).filter(Boolean));
+
+  const rest = [];
+  for (const item of arxiv) {
+    const key = normalizePickTitle(item.title);
+    if (key && seen.has(key)) continue;
+    rest.push(item);
+  }
+  for (const item of conf.slice(nConf)) {
+    const key = normalizePickTitle(item.title);
+    if (key && seen.has(key)) continue;
+    rest.push(item);
+  }
+  rest.sort(sortKey);
+
+  while (chosen.length < limit && rest.length) {
+    const item = rest.shift();
+    chosen.push(item);
+    const key = normalizePickTitle(item.title);
+    if (key) seen.add(key);
+  }
+
+  return chosen.sort(sortKey).slice(0, limit);
+}
+
+/** Preview list for homepage panels (full list lives on area-picks.html). */
+function picksForCategoryPanel(cat, state, previewLimit, ranking, mixedSources) {
+  const fullPool = filterPicksByYears(
+    cat.all_picks?.length ? cat.all_picks : cat.picks || [],
+    state.years
+  );
+  if (!mixedSources) {
+    return withDisplayRanks(fullPool.slice(0, previewLimit));
+  }
+  const serverPreview = filterPicksByYears(cat.picks || [], state.years);
+  if (serverPreview.length >= Math.min(previewLimit, fullPool.length)) {
+    return withDisplayRanks(serverPreview.slice(0, previewLimit));
+  }
+  return withDisplayRanks(selectBalancedPreview(fullPool, previewLimit, ranking));
+}
+
+function countConferencePicks(picks) {
+  return picks.filter((p) => p.source === "conference").length;
+}
+
+function initPanelState(scope, catId, defaultYears) {
   const years = sortedUniqueYears(defaultYears);
-  if (!topPanelState.has(catId)) {
-    topPanelState.set(catId, {
-      expanded: false,
+  const key = panelStateKey(scope, catId);
+  if (!topPanelState.has(key)) {
+    topPanelState.set(key, {
       years: new Set(years),
     });
   }
-  return topPanelState.get(catId);
+  return topPanelState.get(key);
 }
 
-function renderYearFilters(catId, availableYears, selectedYears) {
+function renderYearFilters(scope, catId, availableYears, selectedYears) {
   const years = sortedUniqueYears(availableYears);
   return `
     <div class="top-year-filters" role="group" aria-label="Filter by year">
@@ -344,30 +427,32 @@ function renderYearFilters(catId, availableYears, selectedYears) {
       ${years
         .map((year) => {
           const active = selectedYears.has(year);
-          return `<button type="button" class="top-year-btn${active ? " is-active" : ""}" data-cat-id="${escapeHtml(catId)}" data-year="${year}" aria-pressed="${active ? "true" : "false"}">${year}</button>`;
+          return `<button type="button" class="top-year-btn${active ? " is-active" : ""}" data-scope="${escapeHtml(scope)}" data-cat-id="${escapeHtml(catId)}" data-year="${year}" aria-pressed="${active ? "true" : "false"}">${year}</button>`;
         })
         .join("")}
     </div>
   `;
 }
 
-function renderCategoryPanel(cat, state, previewLimit, availableYears) {
+function renderCategoryPanel(cat, state, previewLimit, availableYears, ranking, scope, options) {
+  const { highlightConference = false, mixedSources = false } = options;
   const selectedYears = state.years;
-  const expanded = state.expanded;
-  const filtered = withDisplayRanks(
-    filterPicksByYears(cat.all_picks?.length ? cat.all_picks : cat.picks || [], selectedYears)
+  const fullPool = filterPicksByYears(
+    cat.all_picks?.length ? cat.all_picks : cat.picks || [],
+    selectedYears
   );
-  const picks = expanded ? filtered : filtered.slice(0, previewLimit);
-  const total = filtered.length;
+  const picks = picksForCategoryPanel(cat, state, previewLimit, ranking, mixedSources);
+  const total = fullPool.length;
+  const confInPool = countConferencePicks(fullPool);
 
   const list =
     picks.length === 0
       ? '<p class="empty empty-compact">No papers for the selected year(s).</p>'
-      : `<ol class="top-picks-list" data-expanded="${expanded ? "true" : "false"}">${picks.map((p) => renderPickRow(p)).join("")}</ol>`;
+      : `<ol class="top-picks-list">${picks.map((p) => renderPickRow(p, { highlightConference })).join("")}</ol>`;
 
-  const moreBtn =
+  const moreLink =
     total > previewLimit
-      ? `<button type="button" class="top-more-btn" data-cat-id="${escapeHtml(cat.id)}" aria-expanded="${expanded ? "true" : "false"}">${expanded ? "Show less" : `More (${total})`}</button>`
+      ? `<a class="top-more-btn top-more-link" href="${escapeHtml(areaPicksPageUrl(scope, cat.id, selectedYears))}">More (${total})</a>`
       : "";
 
   const yearLabel = [...selectedYears].sort((a, b) => a - b).join(", ");
@@ -376,42 +461,51 @@ function renderCategoryPanel(cat, state, previewLimit, availableYears) {
     <article class="top-category-panel" id="cat-${escapeHtml(cat.id)}" data-cat-id="${escapeHtml(cat.id)}">
       <header class="top-category-head">
         <h3 class="top-category-title">${escapeHtml(cat.label)}</h3>
-        <span class="top-category-count" title="Years: ${escapeHtml(yearLabel)}">${expanded ? total : Math.min(previewLimit, total)} / ${total}</span>
+        <span class="top-category-count" title="Years: ${escapeHtml(yearLabel)}">${picks.length} / ${total}${confInPool ? ` · ${confInPool} conference` : ""}</span>
       </header>
-      ${renderYearFilters(cat.id, availableYears, selectedYears)}
+      ${renderYearFilters(scope, cat.id, availableYears, selectedYears)}
       ${list}
-      ${moreBtn}
+      ${moreLink}
     </article>
   `;
 }
 
-function rerenderCategoryPanel(container, cat, previewLimit, availableYears) {
-  const state = topPanelState.get(cat.id);
+function rerenderCategoryPanel(container, cat, previewLimit, availableYears, ranking, scope, options) {
+  const state = topPanelState.get(panelStateKey(scope, cat.id));
   if (!state) return;
   const panel = container.querySelector(`[data-cat-id="${CSS.escape(cat.id)}"]`);
   if (!panel) return;
-  panel.outerHTML = renderCategoryPanel(cat, state, previewLimit, availableYears);
+  panel.outerHTML = renderCategoryPanel(
+    cat,
+    state,
+    previewLimit,
+    availableYears,
+    ranking,
+    scope,
+    options
+  );
 }
 
-function wireTopCategoryInteractions(container) {
-  if (container.dataset.topWired === "1") return;
-  container.dataset.topWired = "1";
+function wireTopCategoryInteractions(container, scope) {
+  const wireKey = `topWired:${scope}`;
+  if (container.dataset[wireKey] === "1") return;
+  container.dataset[wireKey] = "1";
 
   container.addEventListener("click", (e) => {
-    const ctx = topCategoriesCtx;
+    const ctx = topCategoriesCtxByScope.get(scope);
     if (!ctx) return;
-    const { categories, previewLimit, availableYears } = ctx;
+    const { categories, previewLimit, availableYears, ranking, options } = ctx;
     const yearList = sortedUniqueYears(availableYears);
 
     const yearBtn = e.target.closest(".top-year-btn");
-    if (yearBtn && container.contains(yearBtn)) {
+    if (yearBtn && container.contains(yearBtn) && yearBtn.dataset.scope === scope) {
       e.preventDefault();
       const catId = yearBtn.dataset.catId;
       const year = Number(yearBtn.dataset.year);
       const cat = categories.find((c) => c.id === catId);
       if (!cat || !yearList.includes(year)) return;
 
-      const state = topPanelState.get(catId);
+      const state = topPanelState.get(panelStateKey(scope, catId));
       if (!state) return;
 
       if (state.years.has(year)) {
@@ -420,81 +514,227 @@ function wireTopCategoryInteractions(container) {
       } else {
         state.years.add(year);
       }
-      rerenderCategoryPanel(container, cat, previewLimit, yearList);
-      return;
+      rerenderCategoryPanel(container, cat, previewLimit, yearList, ranking, scope, options);
     }
-
-    const moreBtn = e.target.closest(".top-more-btn");
-    if (!moreBtn || !container.contains(moreBtn)) return;
-    e.preventDefault();
-    const catId = moreBtn.dataset.catId;
-    const cat = categories.find((c) => c.id === catId);
-    if (!cat) return;
-    const state = topPanelState.get(catId);
-    if (!state) return;
-    state.expanded = !state.expanded;
-    rerenderCategoryPanel(container, cat, previewLimit, yearList);
   });
 }
 
-function renderTopMonthly(data) {
-  const section = document.getElementById("top-monthly-section");
-  const container = document.getElementById("top-categories");
-  const meta = document.getElementById("top-meta");
-  const note = document.getElementById("top-note");
+function renderTopPicksSection(data, config) {
+  const {
+    scope,
+    sectionId,
+    containerId,
+    metaId,
+    noteId,
+    headingId,
+    headingFallback,
+    mixedSources,
+    highlightConference,
+    dense = false,
+  } = config;
+
+  const section = document.getElementById(sectionId);
+  const container = document.getElementById(containerId);
+  const meta = document.getElementById(metaId);
+  const note = document.getElementById(noteId);
+  if (!section || !container || !meta) return;
 
   const categories = data?.categories || [];
   const hasPicks = categories.some((c) => (c.picks?.length || c.all_picks?.length));
 
   if (!hasPicks) {
-    section.hidden = true;
-    return;
+    container.innerHTML = '<p class="empty empty-compact">No papers for this source.</p>';
+    meta.textContent = "No matches";
+    if (note) note.textContent = "";
+    return false;
   }
 
   section.hidden = false;
   const period = data.period_label || data.month_label || "";
   const previewLimit = topPreviewLimit(data);
   const availableYears = sortedUniqueYears(defaultFilterYears(data));
-  topPanelState.clear();
+  const ranking = data.ranking || {};
+  const options = { highlightConference, mixedSources };
+  const defaultYears = new Set(availableYears);
 
   const matched = categories.reduce(
     (n, c) => n + (c.all_picks?.length ?? c.picks?.length ?? 0),
     0
   );
-  const shown = categories.reduce((n, c) => {
-    const all = c.all_picks?.length ? c.all_picks : c.picks || [];
-    const filtered = filterPicksByYears(all, new Set(availableYears));
-    return n + Math.min(previewLimit, filtered.length);
-  }, 0);
-
-  const built = data.generated_at ? ` | updated ${formatGeneratedAt(data.generated_at)}` : "";
-  meta.textContent = `${period} | ${categories.length} areas | ${shown} shown (${matched} total)${built}`;
-  note.textContent = data.note || "";
-
-  const heading = document.getElementById("top-heading");
-  if (heading && period) {
-    const base =
-      hubConfig?.categories?.section_heading ||
-      hubConfig?.sections?.top_picks?.title ||
-      "Top picks by areas";
-    heading.textContent = `${base} (${period})`;
+  let shown = 0;
+  let confShown = 0;
+  for (const cat of categories) {
+    const state = initPanelState(scope, cat.id, availableYears);
+    const visible = picksForCategoryPanel(cat, state, previewLimit, ranking, mixedSources);
+    shown += visible.length;
+    confShown += countConferencePicks(visible);
   }
 
-  container.className = "top-categories top-categories-dense";
+  const built = data.generated_at ? ` | updated ${formatGeneratedAt(data.generated_at)}` : "";
+  if (highlightConference) {
+    meta.textContent = `${period} | ${categories.length} areas | ${shown} published shown (${matched} total)${built}`;
+  } else if (mixedSources) {
+    meta.textContent = `${period} | ${categories.length} areas | ${shown} shown (${confShown} conference, ${matched} total)${built}`;
+  } else {
+    meta.textContent = `${period} | ${categories.length} areas | ${shown} arXiv shown (${matched} total)${built}`;
+  }
+  if (note) note.textContent = data.note || "";
+
+  container.className = dense
+    ? "top-categories top-categories-dense"
+    : "top-categories";
 
   container.innerHTML = categories
     .map((cat) => {
-      const state = initPanelState(cat.id, availableYears);
-      return renderCategoryPanel(cat, state, previewLimit, availableYears);
+      const state = initPanelState(scope, cat.id, availableYears);
+      return renderCategoryPanel(
+        cat,
+        state,
+        previewLimit,
+        availableYears,
+        ranking,
+        scope,
+        options
+      );
     })
     .join("");
-  topCategoriesCtx = { categories, previewLimit, availableYears };
-  wireTopCategoryInteractions(container);
+  topCategoriesCtxByScope.set(scope, {
+    categories,
+    previewLimit,
+    availableYears,
+    ranking,
+    options,
+  });
+  wireTopCategoryInteractions(container, scope);
+  return true;
+}
+
+function topPicksModeConfig(mode) {
+  if (mode === "published") {
+    return {
+      scope: "published",
+      sectionId: "top-picks-section",
+      containerId: "top-picks-categories",
+      metaId: "top-picks-meta",
+      noteId: "top-picks-note",
+      mixedSources: false,
+      highlightConference: true,
+      dense: true,
+    };
+  }
+  return {
+    scope: "arxiv",
+    sectionId: "top-picks-section",
+    containerId: "top-picks-categories",
+    metaId: "top-picks-meta",
+    noteId: "top-picks-note",
+    mixedSources: false,
+    highlightConference: false,
+    dense: true,
+  };
+}
+
+function updateTopPicksModeUi(mode) {
+  const section = document.getElementById("top-picks-section");
+  const panel = document.getElementById("top-picks-categories");
+  document.querySelectorAll(".top-picks-mode-btn").forEach((btn) => {
+    const active = btn.dataset.mode === mode;
+    btn.classList.toggle("is-active", active);
+    btn.setAttribute("aria-selected", active ? "true" : "false");
+  });
+  if (section) {
+    section.classList.toggle("top-hub--arxiv", mode === "arxiv");
+    section.classList.toggle("top-hub--published", mode === "published");
+  }
+  if (panel) {
+    panel.setAttribute(
+      "aria-labelledby",
+      mode === "published" ? "top-picks-mode-published" : "top-picks-mode-arxiv"
+    );
+  }
+}
+
+function setTopPicksMode(mode) {
+  if (!topPicksCache[mode]) return;
+  topPicksMode = mode;
+  updateTopPicksModeUi(mode);
+  renderTopPicksSection(topPicksCache[mode], topPicksModeConfig(mode));
+}
+
+function wireTopPicksModeSwitcher() {
+  if (topPicksModeWired) return;
+  const bar = document.getElementById("top-picks-mode");
+  if (!bar) return;
+  topPicksModeWired = true;
+  bar.addEventListener("click", (e) => {
+    const btn = e.target.closest(".top-picks-mode-btn");
+    if (!btn || !bar.contains(btn)) return;
+    const mode = btn.dataset.mode;
+    if (mode && topPicksCache[mode]) setTopPicksMode(mode);
+  });
+}
+
+function categoryHasPicks(data) {
+  return data?.categories?.some((c) => c.picks?.length || c.all_picks?.length);
+}
+
+function initTopPicks(arxivData, publishedData) {
+  const section = document.getElementById("top-picks-section");
+  const meta = document.getElementById("top-picks-meta");
+  const container = document.getElementById("top-picks-categories");
+  topPicksCache.arxiv = arxivData;
+  topPicksCache.published = publishedData;
+
+  const hasArxiv = categoryHasPicks(arxivData);
+  const hasPublished = categoryHasPicks(publishedData);
+
+  if (!hasArxiv && !hasPublished) {
+    if (section) section.hidden = false;
+    wireTopPicksModeSwitcher();
+    if (meta) {
+      meta.textContent = arxivData || publishedData ? "No papers matched" : "Could not load picks";
+    }
+    if (container) {
+      container.innerHTML =
+        '<p class="empty empty-compact">No arXiv or published picks for the selected years. Run <code>publish.sh</code> or <code>build_top_monthly.py</code> after refreshing <code>arxiv-recent.json</code>.</p>';
+    }
+    const arxivBtn = document.getElementById("top-picks-mode-arxiv");
+    const publishedBtn = document.getElementById("top-picks-mode-published");
+    if (arxivBtn) arxivBtn.disabled = true;
+    if (publishedBtn) publishedBtn.disabled = true;
+    return;
+  }
+
+  if (section) section.hidden = false;
+  wireTopPicksModeSwitcher();
+
+  const arxivBtn = document.getElementById("top-picks-mode-arxiv");
+  const publishedBtn = document.getElementById("top-picks-mode-published");
+  if (arxivBtn) {
+    arxivBtn.disabled = !hasArxiv;
+    arxivBtn.title = hasArxiv
+      ? ""
+      : "No arXiv picks in data/top-monthly.json — rebuild after crawl_arxiv_recent.py";
+  }
+  if (publishedBtn) publishedBtn.disabled = !hasPublished;
+
+  if (hasArxiv) setTopPicksMode("arxiv");
+  else if (hasPublished) setTopPicksMode("published");
 }
 
 async function loadTopMonthly() {
   try {
     const res = await fetch(`data/top-monthly.json?ts=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) return null;
+    return res.json();
+  } catch {
+    return null;
+  }
+}
+
+async function loadTopPublished() {
+  try {
+    const res = await fetch(`data/top-published.json?ts=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) return null;
     return res.json();
   } catch {
@@ -661,6 +901,9 @@ function renderBroadcastCard(pick) {
   const authors = escapeHtml((pick.authors || []).slice(0, 3).join(", "));
   const more = (pick.authors || []).length > 3 ? ` +${pick.authors.length - 3}` : "";
   const feed = escapeHtml(pick.source_feed || "arXiv");
+  const areaBadge = pick.category_label
+    ? `<span class="broadcast-area" title="Best-matching area">${escapeHtml(pick.category_label)}</span>`
+    : "";
   const tags = (pick.matched_tags || [])
     .slice(0, 3)
     .map((tag) => `<span class="broadcast-tag">${escapeHtml(tag)}</span>`)
@@ -678,6 +921,7 @@ function renderBroadcastCard(pick) {
       <div class="broadcast-card-body">
         <div class="broadcast-card-head">
           <span class="badge badge-arxiv">${feed}</span>
+          ${areaBadge}
           ${date}
         </div>
         <h3 class="broadcast-title">
@@ -796,16 +1040,20 @@ async function main() {
   const hub = await loadHubConfig();
   applyHubBranding(hub);
 
-  const [timelineRes, broadcastRes, topRes, confRes] = await Promise.allSettled([
+  const [timelineRes, broadcastRes, arxivRes, publishedRes, confRes] = await Promise.allSettled([
     loadConferenceTimeline(),
     loadTodayBroadcast(),
     loadTopMonthly(),
+    loadTopPublished(),
     loadConferences(),
   ]);
 
   if (timelineRes.status === "fulfilled") renderConferenceTimeline(timelineRes.value);
   if (broadcastRes.status === "fulfilled") renderTodayBroadcast(broadcastRes.value);
-  if (topRes.status === "fulfilled") renderTopMonthly(topRes.value);
+  initTopPicks(
+    arxivRes.status === "fulfilled" ? arxivRes.value : null,
+    publishedRes.status === "fulfilled" ? publishedRes.value : null
+  );
 
   if (confRes.status === "fulfilled") {
     const conferences = confRes.value;
@@ -822,9 +1070,9 @@ async function main() {
 }
 
 main().catch((err) => {
-  const topSection = document.getElementById("top-monthly-section");
-  if (topSection) topSection.hidden = true;
-  const topCat = document.getElementById("top-categories");
+  const picksSection = document.getElementById("top-picks-section");
+  if (picksSection) picksSection.hidden = true;
+  const topCat = document.getElementById("top-picks-categories");
   if (topCat) topCat.innerHTML = `<p class="empty empty-compact">${escapeHtml(String(err))}</p>`;
   document.getElementById("latest-grid").innerHTML =
     `<p class="empty empty-compact">${escapeHtml(String(err))}</p>`;

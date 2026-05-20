@@ -48,7 +48,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/JangSSN00026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790119"
-      ]
+      ],
+      "abstract": "The computational and memory demands of large language models for generative inference present significant challenges for practical deployment. One promising solution targeting offline inference is offloading-based batched inference, which extends the GPU's memory hierarchy with host memory and storage. However, it often suffers from substantial I/O overhead, primarily due to the large KV cache sizes that scale with batch size and context window length.",
+      "abstract_source": "openalex"
     },
     {
       "title": "A Data-Driven Dynamic Execution Orchestration Architecture",
@@ -69,7 +71,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/BaiDJ0YLM26.html",
       "ee_links": [
         "https://doi.org/10.1145/3760250.3762226"
-      ]
+      ],
+      "abstract": "Domain-specific accelerators deliver exceptional performance on their target workloads through fabrication-time orchestrated datapaths. However, such specialized architectures often exhibit performance fragility when exposed to new kernels or irregular input patterns. In contrast, programmable architectures like FPGAs, CGRAs, and GPUs rely on compile-time orchestration to support a broader range of applications; but they are typically less efficient under irregular or sparse data. Pushing the boundaries of programmable architectures requires designs that can achieve efficiency and high-performance on par with specialized accelerators while retaining the agility of general-purpose architectures.",
+      "abstract_source": "openalex"
     },
     {
       "title": "A Framework for Developing and Optimizing Fully Homomorphic Encryption Programs on GPUs",
@@ -90,7 +94,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/0004WF0Y0J26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790120"
-      ]
+      ],
+      "abstract": "In sensitive domains such as healthcare and finance, machine learning increasingly employs Fully Homomorphic Encryption (FHE) to secure both user data and models. Although FHE's intrinsic parallelism naturally aligns with GPU architectures, optimizing GPU kernels alone remains insufficient for efficient end-to-end FHE application development. The inherent complexity of FHE schemes and intricate GPU-specific details impede developers from focusing on high-level program logic. Additionally, FHE's high memory requirements, fine-grained memory operations, and redundant computations introduce further optimization challenges, resulting in inefficiencies even when GPU kernels are individually optimized. This paper introduces EasyFHE, a framework designed to simplify the development and optimization of GPU-accelerated FHE applications. Similar to PyTorch, EasyFHE provides high-level interfaces for defining computational logic while automatically handling low-level tasks, such as implementation selection and memory management. Furthermore, it incorporates an optimization framework that systematically addresses performance bottlenecks by applying tailored optimization passes during the lowering from high-level FHE programs to GPU kernels. Compared to state-of-the-art open-source GPU FHE libraries, EasyFHE uniquely supports FHE programs with memory requirements exceeding typical GPU capacities, achieving an average speedup of 2.88× with a peak of 4.39×.",
+      "abstract_source": "openalex"
     },
     {
       "title": "A Programming Model for Disaggregated Memory over CXL",
@@ -109,7 +115,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/AssaLB0026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790121"
-      ]
+      ],
+      "abstract": "CXL (Compute Express Link) is an emerging open industry-standard interconnect between processing and memory devices that is expected to revolutionize the way systems are designed. It enables cache-coherent, shared memory pools in a disaggregated fashion at unprecedented scales, allowing algorithms to interact with various storage devices using simple loads and stores. While CXL unleashes unique opportunities, it also introduces challenges of data management and crash consistency. For example, CXL currently lacks an adequate programming model, making it impossible to reason about the correctness and behavior of systems on top.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Accelerating Computation in Quantum LDPC Code",
@@ -129,7 +137,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/ChoJKCHK26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790122"
-      ]
+      ],
+      "abstract": "Fault-tolerant quantum computing (FTQC) uses quantum error correction (QEC) codes to execute large-scale quantum programs on noisy quantum computers. Quantum low-density parity-check (qLDPC) codes are promising as they use an order of magnitude fewer qubits than widely used surface codes. However, as qLDPC codes support only a limited set of operations, they require programs to be decomposed into many qLDPC-supported operations. This prohibitively increases the execution time of FTQC applications to tens of days, hindering the practical viability of qLDPC codes.",
+      "abstract_source": "openalex"
     },
     {
       "title": "AGS: Accelerating 3D Gaussian Splatting SLAM via CODEC-Assisted Frame Covisibility Detection",
@@ -148,7 +158,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/HeJ0LS26.html",
       "ee_links": [
         "https://doi.org/10.1145/3760250.3762229"
-      ]
+      ],
+      "abstract": "Simultaneous Localization and Mapping (SLAM) is a critical task that enables autonomous vehicles to construct maps and localize themselves in unknown environments. Recent breakthroughs combine SLAM with 3D Gaussian Splatting (3DGS) to achieve exceptional reconstruction fidelity. However, existing 3DGS-SLAM systems provide insufficient throughput due to the need for multiple training iterations per frame and the vast number of Gaussians.",
+      "abstract_source": "openalex"
     },
     {
       "title": "AlphaSyndrome: Tackling the Syndrome Measurement Circuit Scheduling Problem for QEC Codes",
@@ -173,7 +185,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/0017P0DKWCSJIL26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790123"
-      ]
+      ],
+      "abstract": "Quantum error correction (QEC) is essential for scalable quantum computing, yet repeated syndrome-measurement cycles dominate its spacetime and hardware cost. Although stabilizers commute and admit many valid execution orders, different schedules induce distinct error-propagation paths under realistic noise, leading to large variations in logical error rate. Outside of surface codes, effective syndrome-measurement scheduling remains largely unexplored. We present AlphaSyndrome, an automated synthesis framework for scheduling syndrome-measurement circuits in general commuting-stabilizer codes under minimal assumptions: mutually commuting stabilizers and a heuristic decoder. AlphaSyndrome formulates scheduling as an optimization problem that shapes error propagation to (i) avoid patterns close to logical operators and (ii) remain within the decoder's correctable region. The framework uses Monte Carlo Tree Search (MCTS) to explore ordering and parallelism, guided by code structure and decoder feedback. Across diverse code families, sizes, and decoders, AlphaSyndrome reduces logical error rates by 80.6% on average (up to 96.2%) relative to depth-optimal baselines, matches Google's hand-crafted surface-code schedules, and outperforms IBM's schedule for the Bivariate Bicycle code.",
+      "abstract_source": "openalex"
     },
     {
       "title": "An MLIR Lowering Pipeline for Stencils at Wafer-Scale",
@@ -194,7 +208,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/StawinogaKLZ0BG26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790124"
-      ]
+      ],
+      "abstract": "The Cerebras Wafer-Scale Engine (WSE) delivers performance at an unprecedented scale of over 900,000 compute units, all connected via a single-wafer on-chip interconnect. Initially designed for AI, the WSE architecture is also well-suited for High Performance Computing (HPC). However, its distributed asynchronous programming model diverges significantly from the simple sequential or bulk-synchronous programs that one would typically derive for a given mathematical program description. Targeting the WSE requires a bespoke re-implementation when porting existing code. The absence of WSE support in compilers such as MLIR, meant that there was little hope for automating this process.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Anvil: A General-Purpose Timing-Safe Hardware Description Language",
@@ -232,7 +248,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/Wu00X026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790126"
-      ]
+      ],
+      "abstract": "With exacerbated DRAM read disturbance, transparent in-DRAM defenses require space (to track the aggressor rows) and time (to perform more mitigations). To reduce storage overhead, recent works have developed probabilistic row-sampling techniques with several entries. To address the time issue, these techniques employ Refresh Management (RFM) commands introduced in DDR5. However, probabilistic defenses with RFM face two critical challenges: (i) fixed-probability sampling under dynamic activation patterns can cause row-sampling misses, allowing attacks to evade mitigation, and (ii) RFM causes timing variations that can be exploited for side and covert channels to leak sensitive information. The goal of this paper is to design a low-cost and secure in-DRAM defense that overcomes these challenges.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Arancini: A Hybrid Binary Translator for Weak Memory Model Architectures",
@@ -256,7 +274,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/ReimersS0AKRSG026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790127"
-      ]
+      ],
+      "abstract": "Binary translation is a powerful approach to support cross-architecture emulation of unmodified binaries in increasingly heterogeneous computing environments. However, binary translation systems face correctness issues, due to the strong-on-weak memory model mismatch (e.g., from x86-64 to Arm/RISC-V) for concurrent programs. Besides, the current landscape of binary translation systems is fundamentally limited in terms of completeness for static systems and performance for dynamic ones.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Architecting Scalable Trapped Ion Quantum Computers using Surface Codes",
@@ -272,7 +292,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/JonesM26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790128"
-      ]
+      ],
+      "abstract": "Trapped ion (TI) qubits are a leading quantum computing platform. Current TI systems have less than 60 qubits, but a modular architecture known as the Quantum Charge-Coupled Device (QCCD) is a promising path to scale up devices. There is a large gap between the error rates of near-term systems (10-3 to 10-4) and the requirements of practical applications (below 10-9). To bridge this gap, we require Quantum Error Correction (QEC) to build logical qubits that are composed of multiple physical qubits. While logical qubits have been demonstrated on TI qubits, these demonstrations are restricted to small codes and systems. There is no clarity on how QCCD systems should be designed to implement practical-scale QEC. This paper studies how surface codes, a standard QEC scheme, can be implemented efficiently on QCCD-based systems. To examine how architectural parameters of a QCCD system can be tuned for surface codes, we develop a near-optimal topology-aware compilation method that outperforms existing QCCD compilers by an average of 3.8X in terms of logical clock speed. We use this compiler to examine how hardware trap capacity, connectivity and electrode wiring choices can be optimised for surface code implementation. In particular, we demonstrate that small traps of two ions are surprisingly ideal from both a performance-optimal and hardware-efficiency standpoint. This result runs counter to prior intuition that larger traps (20-30 ions) would be preferable, and has the potential to inform design choices for upcoming systems.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Arm Weak Memory Consistency on Apple Silicon: What Is It Good For?",
@@ -288,7 +310,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/Khayet026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790129"
-      ]
+      ],
+      "abstract": "Weak memory models such as the Arm model are perceived as enabling higher performance than strong models such as TSO. We critically test this perception on Apple silicon CPUs, whose runtime-configurable TSO mode enables a direct comparison with native Arm mode. We find that Apple silicon TSO mode preserves Arm weak-memory optimizations, typically yielding execution times within 3% of Arm mode across modern applications and classic benchmarks. Although some applications experience higher TSO slowdowns, we trace these to artifacts of Apple's TSO implementation rather than inherent TSO ordering constraints. Our results challenge the perception that the Arm memory model offers a significant performance advantage over TSO in Apple silicon.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Asynchrony and GPUs: Bridging this Dichotomy for I/O with AGIO",
@@ -308,7 +332,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/HanSCMQH26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790130"
-      ]
+      ],
+      "abstract": "GPUs rely on a largely synchronous programming and execution model. With increasing need to access data residing on SSDs, GPU threads can incur significant latencies for such accesses when using blocking/synchronous I/O mechanisms. There is little hardware/systems support today to perform non-blocking/asynchronous operations from GPU threads directly to tolerate microsecond level latencies incurred in SSD accesses. To fix this dichotomy, this paper presents the design, implementation and evaluation of AGIO, which provides APIs and a runtime environment for GPU threads to directly perform asynchronous I/O operations (fully GPU-orchestrated without CPU involvement). AGIO decouples, both in time and space, the I/O initiation from its completion, to allow useful computation in-between, in order to hide much of the I/O latency. This is particularly useful in applications with access patterns known at compile time, where similar to prefetching, AGIO I/Os can be introduced ahead of need, to yield 65% better performance than its synchronous counterpart. A non-intuitive benefit of AGIO, particularly in applications with data dependent accesses, is the ability to allow threads to proceed beyond I/O initiation, towards initiating more I/O, even if there is little compute to overlap. Such pro-active I/O issuance increases the I/O parallelism to more fully utilize underlying bandwidths, yielding 32% better performance than the synchronous alternative in data dependent executions. Decoupling initiation from completion makes AGIO more adaptive to dataset characteristics, with the programmer not needing a priori knowledge of inputs for effective performance. We also show that AGIO can meet (or better) the performance using a GPU with fewer than half the compute engines of its synchronous counterparts.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Bat: Efficient Generative Recommender Serving with Bipartite Attention",
@@ -332,7 +358,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/0017WZLXSZH0W26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790131"
-      ]
+      ],
+      "abstract": "Generative Recommenders (GRs) have recently emerged as promising alternatives to traditional Deep Learning Recommendation Models (DLRMs). Despite their potential, GRs remain computationally expensive in inference, exhibiting compute-bound characteristics similar to the prefill stage of Large Language Model (LLM) inference. Prefix caching can reduce redundant computation by reusing previously constructed KV caches. However, the unique properties of GRs, i.e., highly personalized user profiles and real-time item retrieval, make cache reuse across queries challenging, resulting in limited computational savings.",
+      "abstract_source": "openalex"
     },
     {
       "title": "BitRed: Taming Non-Uniform Bit-Level Sparsity with a Programmable RISC-V ISA for DNN Acceleration",
@@ -358,7 +386,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/LiuLZLWW0WFYFA26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790132"
-      ]
+      ],
+      "abstract": "The non-uniform and dynamic nature of Bit-Level Sparsity (BLS) poses a critical load-imbalance challenge for parallel hardware accelerators. While the Bit-Interleaving paradigm, represented by state-of-the-art accelerators like Bitlet, shows promise, it is fundamentally constrained by a rigid datapath and severe inter-channel load imbalance. This paper introduces BitRed, an accelerator that embodies a new ''programmable adaptive bit-interleaving'' philosophy. Rather than a monolithic design, BitRed's core is an Adaptive-Sparse Processing Unit (ASPU) that deconstructs the acceleration process into a set of orthogonal RISC-V ISA extensions for pre-processing (cal.pre), adaptive distillation with dynamic load balancing (cal.adis), and PDP-optimal reduction (cal.red). By transforming a rigid hardware problem into a flexible scheduling problem, this ISA-based approach provides a fundamentally more adaptable and extensible solution. Empirical studies on a broad set of benchmarks highlight the following results (normalized to a SCNN baseline): (1) up to 9.4× speedup over the Bitlet, and 5.6× over the latest bit-serial SOTA BitWave; (2) up to 7.6× higher inference efficiency than Bitlet on representative models; (3) 5.072mm2 area and scalable power consumption from 550.43mW (float32) to 495.12mW (16b) and 457.90mW (8b) @28nm TSMC; and (4) high versatility across precisions, and up to 18.9×13.5× higher than NVIDIA A100 and Jetson Orin 32GB, demonstrating significant competitiveness against GPUs.",
+      "abstract_source": "openalex"
     },
     {
       "title": "BlendServe: Optimizing Offline Inference with Resource-Aware Batching",
@@ -381,7 +411,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/Zhao0ZZK00XS26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790133"
-      ]
+      ],
+      "abstract": "Offline batch inference is gaining popularity as a cost-effective solution for latency-insensitive tasks, such as model evaluation and data curation. As the latency objective is highly relaxed, maximizing throughput is the primary goal in offline inference. Previous studies focused solely on throughput optimization within a batch. However, the diverse resource demands (compute-intensive vs. memory-intensive) across a wide range of applications make these approaches less effective, as imbalanced resource demands between batches restrict optimization opportunities.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Borrowing Dirty Qubits in Quantum Programs",
@@ -399,7 +431,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/Su00Y26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790134"
-      ]
+      ],
+      "abstract": "Dirty qubits are ancillary qubits that can be borrowed from idle parts of a computation, enabling qubit reuse and reducing the demand for fresh, clean qubits---a resource that is typically scarce in practice. For such reuse to be valid, the initial states of the dirty qubits must not affect the functionality of the quantum circuits in which they are employed. Moreover, their original states, including any entanglement they possess, must be fully restored after use---a requirement commonly known as safe uncomputation.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration",
@@ -419,7 +453,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/0001XC0L026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790135"
-      ]
+      ],
+      "abstract": "Modern large language model (LLM) serving systems confront inefficient GPU utilization due to the fundamental mismatch between compute-intensive prefill phase and memory-bound decode phase. While current practices attempt to address this by organizing these phases into hybrid batches, such solutions create an inefficient tradeoff that sacrifices either throughput or latency, leaving substantial GPU resources underutilized. For this, we identify two key root causes: 1) the prefill phase suffers from suboptimal compute utilization due to wave quantization and attention bottlenecks, and 2) hybrid batching disproportionately prioritizes latency over throughput, wasting both compute resources and memory bandwidth. To mitigate the issues, we present Bullet, a novel spatial-temporal orchestration system that eliminates these inefficiencies through fine-grained phase coordination. Bullet enables concurrent execution of prefill and decode requests, while dynamically provisioning GPU resources based on real-time performance modeling. By integrating SLO-aware scheduling and adaptive resource allocation, Bullet maximizes GPU utilization without compromising latency targets. Experimental evaluations on real-world workloads demonstrate that Bullet delivers 1.26× average throughput gains (up to 1.55×) over state-of-the-arts, while consistently meeting latency constraints.",
+      "abstract_source": "openalex"
     },
     {
       "title": "CacheMind: From Miss Rates to Why - Natural-Language, Trace-Grounded Reasoning for Cache Replacement",
@@ -437,7 +473,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/MhapsekarGAA26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790136"
-      ]
+      ],
+      "abstract": "Cache replacement remains a challenging problem in CPU microarchitecture, often addressed using hand-crafted heuristics that limit cache performance. Cache data analysis requires parsing millions of trace entries with manual filtering, making the process slow and non-interactive.",
+      "abstract_source": "openalex"
     },
     {
       "title": "CEMU: Enabling Full-System Emulation of Computational Storage Beyond Hardware Limits",
@@ -459,7 +497,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/ZhangWZX0W0026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790137"
-      ]
+      ],
+      "abstract": "Computational storage drives (CSDs) present a promising approach to improve system performance through near data processing in SSDs. However, current research platforms are fragmented and inadequate to explore the full design space of CSD systems. Existing hardware and emulator platforms are constrained by physical compute resources, while simulators lack full-system fidelity. To address the problems, we introduce CEMU, a new software-based CSD emulation platform that enables full-system research. It consists of a CSD device emulator and a CSD-oriented software stack. Through a novel virtual machine freezing mechanism, CSD emulation achieves high configurability. While the CSD can utilize the host CPU to physically perform computation to preserve full-system behaviors, the computational delay can be modeled separately to emulate CSDs with CPU-unbounded high computing power. The software stack is designed with two principles, adhering to recent industry CSD standards and being compatible with the existing I/O stack, which is achieved via a newly developed file system FDMFS. We verify CEMU's emulation fidelity across a range of applications by benchmarking against actual CSD hardware, demonstrating average end-to-end performance accuracy of 95% or higher. We also use two case studies on large language model training and LevelDB to demonstrate that CEMU is effective in exploring CSD system research and can uncover insights that have not been discovered in previous research platforms.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Cheddar: A Swift Fully Homomorphic Encryption Library Designed for GPU Architectures",
@@ -476,7 +516,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/00150A26.html",
       "ee_links": [
         "https://doi.org/10.1145/3760250.3762223"
-      ]
+      ],
+      "abstract": "Fully homomorphic encryption (FHE) frees cloud computing from privacy concerns by enabling secure computation on encrypted data. However, its substantial computational and memory overhead results in significantly slower performance compared to unencrypted processing. To mitigate this overhead, we present Cheddar, a high-performance FHE library for GPUs, achieving substantial speedups over previous GPU implementations. We systematically enable 32-bit FHE execution, leveraging the 32-bit integer datapath within GPUs. We optimize GPU kernels using efficient low-level primitives and algorithms tailored to specific GPU architectures. Further, we alleviate the memory bandwidth burden by adjusting common FHE operational sequences and extensively applying kernel fusion. Cheddar delivers performance improvements of 2.18--4.45× for representative FHE workloads compared to state-of-the-art GPU implementations.",
+      "abstract_source": "openalex"
     },
     {
       "title": "CHEHAB RL: Learning to Optimize Fully Homomorphic Encryption Computations",
@@ -497,7 +539,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/SefsafDSMCMB26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790138"
-      ]
+      ],
+      "abstract": "Fully Homomorphic Encryption (FHE) enables computations directly on encrypted data, but its high computational cost remains a significant barrier. Writing efficient FHE code is a complex task requiring cryptographic expertise, and finding the optimal sequence of program transformations is often intractable. In this paper, we propose CHEHAB RL, a novel framework that leverages deep reinforcement learning (RL) to automate FHE code optimization. Instead of relying on predefined heuristics or combinatorial search, our method trains an RL agent to learn an effective policy for applying a sequence of rewriting rules to automatically vectorize scalar FHE code while reducing instruction latency and noise growth. The proposed approach supports the optimization of both structured and unstructured code. To train the agent, we synthesize a diverse dataset of computations using a large language model (LLM). We integrate our proposed approach into the CHEHAB FHE compiler and evaluate it on a suite of benchmarks, comparing its performance against Coyote, a state-of-the-art vectorizing FHE compiler. The results show that our approach generates code that is 5.3× faster in execution, accumulates 2.54× less noise, while the compilation process itself is 27.9× faster than Coyote (geometric means).",
+      "abstract_source": "openalex"
     },
     {
       "title": "CHERI-SIMT: Implementing Capability Memory Protection in GPUs",
@@ -517,7 +561,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/NaylorJMMM026.html",
       "ee_links": [
         "https://doi.org/10.1145/3760250.3762234"
-      ]
+      ],
+      "abstract": "Governments are increasingly advising software manufacturers to employ memory-safe languages and technologies to combat adversarial attacks on modern computing infrastructure. This introduces pressures across the entire computing industry, including GPU vendors who provide implementations of unsafe C/C++-based languages, such as CUDA and OpenCL, for programming the devices they produce. One of the memory-safety technologies being recommended is Capability Hardware Enhanced RISC Instructions (CHERI). CHERI builds strong and efficient memory safety into underlying instruction-set architectures allowing continued, but memory-safe, use of C/C++-based languages on top.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Chips Need DIP: Time-Proportional Per-Instruction Cycle Stacks at Dispatch",
@@ -558,7 +604,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/ZhaoMLG00X0P26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790140"
-      ]
+      ],
+      "abstract": "3D Gaussian Splatting (3DGS) is an increasingly popular novel view synthesis approach due to its fast rendering time, and high-quality output. However, scaling 3DGS to large (or intricate) scenes is challenging due to its substantial memory requirement, which exceeds the memory capacity of most GPUs. In this paper, we describe CLM, a system that allows 3DGS to render large scenes using a single consumer-grade GPU, e.g., RTX4090. It does so by offloading Gaussians to CPU memory, and loading them into GPU memory only when necessary. To improve performance and reduce communication overheads, CLM uses a novel offloading strategy based on insights into 3DGS's memory access patterns. This strategy enables efficient pipelining, which overlaps GPU-to-CPU communication, GPU computation and CPU computation. Furthermore, CLM exploits these access patterns to reduce communication volume. Our evaluation shows that the resulting implementation can render a large scene that requires 102 million Gaussians on a single RTX4090 and achieve state-of-the-art reconstruction quality. The code is open-sourced at: https://github.com/nyu-systems/CLM-GS",
+      "abstract_source": "openalex"
     },
     {
       "title": "Co-Exploration of RISC-V Processor Microarchitectures and FreeRTOS Extensions for Lower Context-Switch Latency",
@@ -575,7 +623,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/ScheckM026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790141"
-      ]
+      ],
+      "abstract": "Embedded real-time systems must respond to external events within tightly bounded timeframes to ensure safety, correctness, and reliability. While Real-Time Operating Systems (RTOSes) ease the development of complex applications by providing abstractions for multi-tasked execution, they introduce overheads in the form of task switching latency and jitter, which impact timing predictability. Minimizing these effects is essential for reducing response times and enabling robust worst-case timing analysis. We present RTOSUnit, a configurable hardware acceleration unit designed to reduce context-switch latency and jitter in embedded real-time systems. By integrating the RTOSUnit into three RISC-V cores of varying complexity, we demonstrate its portability. Through a range of configurations, from lightweight scheduling acceleration to full context-switch and -preloading support, RTOSUnit achieves up to 76% reduction in mean context-switch latency and can be configured to completely eliminate jitter on selected cores. Area overheads in 22nm ASIC implementations range from negligible (within EDA tool heuristics noise) to 44\\,%, with all configurations maintaining viable operating frequencies and power envelopes suitable for embedded systems. RTOSUnit offers a flexible and efficient, open-source. https://github.com/esa-tu-darmstadt/RTOSUnit_Integration foundation for hardware-assisted real-time scheduling, paving the way for broader integration into future embedded SoCs.",
+      "abstract_source": "openalex"
     },
     {
       "title": "CoGraf: Fully Accelerating Graph Applications with Fine-Grained PIM",
@@ -593,7 +643,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/YenimolN0B26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790142"
-      ]
+      ],
+      "abstract": "Processing-in-Memory (PIM) delivers enormous performance by taking advantage of internal DRAM bandwidth and parallelism. However, graph applications are difficult to adapt to PIM due to their irregular access patterns.We present the first Fine-Grained PIM (FGPIM) design that fully accelerates vertex-centric push-based graph applications by accelerating both their update (computing vertex updates) and apply (summing up the updates) phases. For the update phase, we design a tuple-based LLC that can coalesce at different granularities to group graph updates together and propose multi-DRAM column processing FGPIM instructions to match the cache coalescing to the row-level parallelism of the FGPIM. With this acceleration, the apply phase becomes the bottleneck, and we propose bank-parallel FGPIM instructions with predicates to allow FGPIM to accelerate the conditional updates as well. We achieve an average speedup in the region of interest of 1.8x/3x compared to naive FGPIM and 4.4x/9.8x compared to state-of-the-art non-PIM baseline (HBM2/DDR4), and DRAM energy reduction of 67%/86% and 88%/94%.These results show the importance of providing a complete solution that accelerates both the update and apply phases.",
+      "abstract_source": "openalex"
     },
     {
       "title": "COMPAS: A Distributed Multi-Party SWAP Test for Parallel Quantum Algorithms",
@@ -613,7 +665,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/Goldstein-GelbL26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790143"
-      ]
+      ],
+      "abstract": "The limited number of qubits per chip remains a critical bottleneck in quantum computing, motivating the use of distributed architectures that interconnect multiple quantum processing units (QPUs). However, executing quantum algorithms across distributed systems requires careful co-design of algorithmic primitives and hardware architectures to manage circuit depth and entanglement overhead. We identify multivariate trace estimation as a key subroutine that is naturally suited for distribution, and broadly useful in tasks such as estimating Rényi entropies, virtual cooling and distillation, and certain applications of quantum signal processing. In this work, we introduce COMPAS, an architecture that realizes multivariate trace estimation across a multi-party network of interconnected modular and distributed QPUs by leveraging pre-shared entangled Bell pairs as resources. COMPAS adds only a constant depth overhead and consumes Bell pairs at a rate linear in circuit width, making it suitable for near-term hardware. Unlike other schemes, which must choose between asymptotic optimality in circuit depth or GHZ width, COMPAS achieves both at once. Additionally, we analyze network-level errors and simulate the effects of circuit-level noise on the architecture.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Compass: Navigating the Design Space of Taint Schemes for RTL Security Verification",
@@ -632,7 +686,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/YangTBM026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790144"
-      ]
+      ],
+      "abstract": "Hardware information flow tracking (IFT) using taint analysis provides a methodology to check whether a hardware design satisfies certain security properties. Previous work has shown a broad trade-off space between precision and complexity when using different taint analysis schemes. A careful investigation of this space has led to the insight that applying different taint schemes to different components of a hardware design can improve overall efficiency.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Compositional AI Beyond LLMs: System Implications of Neuro-Symbolic-Probabilistic Architectures",
@@ -654,7 +710,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/WanYQRPWRK26.html",
       "ee_links": [
         "https://doi.org/10.1145/3760250.3762235"
-      ]
+      ],
+      "abstract": "Large Language Models (LLMs) have driven remarkable progress in artificial intelligence (AI), but their rapid growth faces challenges of unsustainable computation, limited robustness, and poor explainability. Compositional AI, which integrates LLMs with symbolic reasoning and probabilistic inference, has emerged as a promising paradigm to enable interpretability, robustness, trustworthiness, and data-efficient learning. Recent neuro-symbolic-probabilistic systems demonstrate strong potential in agentic applications, advancing reasoning and cognitive capabilities toward human-like intelligence.",
+      "abstract_source": "openalex"
     },
     {
       "title": "CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions",
@@ -672,7 +730,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/LindsayTKB26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790145"
-      ]
+      ],
+      "abstract": "Hardware event counters offer the potential to reveal not only performance bottlenecks but also detailed microarchitectural behavior. In practice, this promise is undermined by their vague specifications, opaque designs, and multiplexing noise, making event counter data hard to interpret. We introduce CounterPoint, a framework that tests user-specified microarchitectural models — expressed as ?path Decision Diagrams — for consistency with performance counter data. When mismatches occur, CounterPoint pinpoints plausible microarchitectural features that could explain them, using multi-dimensional counter confidence regions to mitigate multiplexing noise. We apply CounterPoint to the Haswell Memory Management Unit as a case study, shedding light on multiple undocumented and underdocumented microarchitectural behaviors. These include a load–store queue-side TLB prefetcher, merging page table walkers, abortable page table walks, and more. Overall, CounterPoint helps experts reconcile noisy hardware performance counter measurements with their mental model of the microarchitecture - uncovering subtle, previously hidden hardware features along the way.",
+      "abstract_source": "openalex"
     },
     {
       "title": "CPU-Oblivious Offloading of Failure-Atomic Transactions for Disaggregated Memory",
@@ -694,7 +754,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/Chen00SL00S26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790146"
-      ]
+      ],
+      "abstract": "Memory disaggregation introduces new challenges for application reliability, as compute server or interconnection failures can interrupt execution and lead to data inconsistency in the memory server. This paper presents Fanmem, a novel failure-atomic transaction system designed specifically for disaggregated memory architectures. Fanmem ensures data consistency in the presence of failures, drawing inspiration from persistent memory transactions while tailored for memory disaggregation. The key innovations of Fanmem include an asynchronous transaction model and the integration of a processing unit within the switch, enabling the offloading of time-consuming log persistency operations to the switch processing unit and significantly reducing the overhead on the compute servers. Evaluation confirms the effectiveness of Fanmem on two representative memory-disaggregated architectures. Compared to the state-of-the-art persistent memory transaction system, Fanmem achieves an average performance improvement of 1.2X and 1.7X on the respective architectures.",
+      "abstract_source": "openalex"
     },
     {
       "title": "CREATE: Cross-Layer Resilience Characterization and Optimization for Efficient yet Reliable Embodied AI Systems",
@@ -720,7 +782,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/XieQWWDWCLJWWL26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790147"
-      ]
+      ],
+      "abstract": "Embodied Artificial Intelligence (AI) has recently attracted significant attention as it bridges AI with the physical world. Modern embodied AI systems often combine a Large Language Model (LLM)-based planner for high-level task planning and a reinforcement learning (RL)-based controller for low-level action generation, enabling embodied agents to tackle complex tasks in real-world environments. However, deploying embodied agents remains challenging due to their high computation requirements, especially for battery-powered local devices. Although techniques like lowering operating voltage can improve energy efficiency, they can introduce bit errors and result in task failures. In this work, we propose CREATE, a general design principle that leverages heterogeneous resilience at different layers for synergistic energy-reliability co-optimization. For the first time, we conduct a comprehensive error injection study on modern embodied AI systems and observe an inherent but heterogeneous fault tolerance. Building upon these insights, we develop an anomaly detection and clearance mechanism at the circuit level to eliminate outlier errors. At the model level, we propose a weight-rotation-enhanced planning algorithm to improve the fault tolerance of the LLM-based planner. Furthermore, we introduce an application-level technique, autonomy-adaptive voltage scaling, to dynamically adjust the operating voltage of the controllers. The voltage scaling circuit is co-designed to enable online voltage adjustment. Extensive experiments demonstrate that without compromising task quality, CREATE achieves 40.6% computational energy savings on average over nominal-voltage baselines and 35.0% over prior-art techniques. This further leads to 29.5% to 37.3% chip-level energy savings and approximately a 15% to 30% improvement in battery life.",
+      "abstract_source": "openalex"
     },
     {
       "title": "CREST: High-Performance Contention Resolution for Disaggregated Transactions",
@@ -738,7 +802,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/Kang0LH26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790148"
-      ]
+      ],
+      "abstract": "Distributed transaction systems can leverage memory disaggregation for efficient resource scaling, yet they experience significant performance degradation under high-contention workloads. We present CREST, a disaggregated transaction system that efficiently manages high-contention transaction workloads in disaggregated memory architectures via three key techniques: (i) cell-level concurrency control, which achieves more fine-grained transaction concurrency than existing record-level approaches and reduces remote access latencies using a metadata-aggregated record structure; (ii) localized execution, which allows compute nodes to operate on local uncommitted results to reduce blocking time; and (iii) parallel commits, which parallelize commit operations under transaction dependencies. Evaluation shows that CREST achieves a throughput gain of up to 1.92× over state-of-the-art systems under high-contention workloads.",
+      "abstract_source": "openalex"
     },
     {
       "title": "cuJSON: A Highly Parallel JSON Parser for GPUs",
@@ -755,7 +821,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/GargaryL026.html",
       "ee_links": [
         "https://doi.org/10.1145/3760250.3762222"
-      ]
+      ],
+      "abstract": "JSON (JavaScript Object Notation) data is widely used in modern computing, yet its parsing performance can be a major bottleneck. Conventional wisdom suggests that GPUs are ill-suited for parsing due to the branch-heavy nature of parsing algorithms. This work challenges that notion by presenting cuJSON, a novel JSON parser built on a new parsing algorithm, specifically tailored for GPU architectures with minimal branching and maximal parallelism.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Cxlalloc: Safe and Efficient Memory Allocation for a CXL Pod",
@@ -773,7 +841,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/NiSZW26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790149"
-      ]
+      ],
+      "abstract": "A Compute Express Link (CXL) pod is a group of hosts that share CXL-attached memory. A memory allocator for a CXL pod faces novel challenges: (1) CXL devices may not fully support inter-host hardware cache coherence (HWcc), (2) the allocator may be concurrently accessed from different processes, and (3) with more hosts, failures become more likely.",
+      "abstract_source": "openalex"
     },
     {
       "title": "CXLMC: Model Checking CXL Shared Memory Programs",
@@ -790,7 +860,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/GuoTD26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790150"
-      ]
+      ],
+      "abstract": "Compute Express Link (CXL) shared memory is an emerging industry standard that will allow for cache coherent sharing of remote memory between many machines. Memory devices will contain large amounts of DRAM that can be shared by many machines in a CXL cluster. This will enable software running on clusters of computers to use shared memory to communicate more efficiently and to share important data between these machines.",
+      "abstract_source": "openalex"
     },
     {
       "title": "DARTH-PUM: A Hybrid Processing-Using-Memory Architecture",
@@ -807,7 +879,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/0001FG26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790151"
-      ]
+      ],
+      "abstract": "Analog processing-using-memory (PUM; a.k.a. in-memory computing) makes use of electrical interactions inside memory arrays to perform bulk matrix–vector multiplication (MVM) operations. However, many popular matrix-based kernels need to execute non-MVM operations, which analog PUM cannot directly perform. To retain its energy efficiency, analog PUM architectures augment memory arrays with CMOS-based domain-specific fixed-function hardware to provide complete kernel functionality, but the difficulty of integrating such specialized CMOS logic with memory arrays has largely limited analog PUM to being an accelerator for machine learning inference, or for closely related kernels. An opportunity exists to harness analog PUM for general-purpose computation: recent works have shown that memory arrays can also perform Boolean PUM operations, albeit with very different supporting hardware and electrical signals than analog PUM.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Detecting Inconsistencies in Arm CCA's Formally Verified Specification",
@@ -825,7 +899,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/ChoiCJK26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790152"
-      ]
+      ],
+      "abstract": "Formal verification offers strong guarantees of correctness, robustness, and security. However, these guarantees depend on specification correctness, and even minor flaws can invalidate proofs and introduce critical vulnerabilities. We present Scope, an automated system that identifies specification inconsistencies by combining formal modeling with rule-based consistency checking. Unlike traditional approaches that rely on implementations, Scope treats the specification as the sole ground truth. It translates the specification into a machine-verifiable model using Verus and SMT solvers, then detects inconsistencies in success/failure conditions, dependency rules, and state transitions. We apply Scope to the Realm Management Monitor (RMM) specifications for Arm's Confidential Compute Architecture (CCA), uncovering 35 previously unknown bugs—including security-critical flaws in ABI semantics and missing state transitions—all confirmed by Arm. Compared to modern LLM-based tools, Scope improves inconsistency-detection precision by 7x over GPT-o1 and up to 40× over leading chat models (LLaMA 3.1, GPT-4o, Claude 3.7).",
+      "abstract_source": "openalex"
     },
     {
       "title": "DFVG: A Heterogeneous Architecture for Speculative Decoding with Draft-on-FPGA and Verify-on-GPU",
@@ -849,7 +925,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/LuWQQGDWW0026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790153"
-      ]
+      ],
+      "abstract": "Speculative decoding is a promising paradigm that accelerates LLM inference by generating drafts and performing verification. However, such systems still face three major challenges: (1) The imbalance in resource requirements between draft and verification models result in low utilization and energy inefficiency when deployed together. (2) Fixed-pattern token trees produce many candidates but few valid paths, resulting in redundant drafts due to the lack of full leverage of the inherent confidence in dynamic generation. (3) Asynchronous execution with frequent alternation between the two stages suffers from idle waiting and rollback overhead. To address these issues, we propose DFVG, a heterogeneous speculative decoding architecture that offloads draft generation to FPGAs and verification to GPUs, exploiting their complementary strengths. We introduce three key contributions: (1) Heterogeneous architecture design that partitions speculative decoding into FPGA-based drafting and GPU-based verification, exploiting complementary hardware strengths with an overlap processor for high-throughput execution; (2) Hardware-aware dynamic draft generation that dynamically predicts speculative branches and token lengths based on model confidence while considering hardware parallelism limits; (3) Tightly-coupled heterogeneous pipeline with stagedecoupled scheduling that allocates execution windows between stages, combined with lightweight cross-device alignment and rollback prediction strategies. Comprehensive evaluation on mainstream models (OPT, LLaMA, Qwen) demonstrates DFVG achieves up to 3.26× speedup and 5.8× energy efficiency improvement over existing approaches. The source code at: https://github.com/ShaoqiangLu/DFVG",
+      "abstract_source": "semantic-scholar"
     },
     {
       "title": "DIP: Efficient Large Multimodal Model Training with Dynamic Interleaved Pipeline",
@@ -873,7 +951,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/XueH0JSM0JX026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790154"
-      ]
+      ],
+      "abstract": "Large multimodal models (LMMs) have demonstrated excellent capabilities in both understanding and generation tasks with various modalities. While these models can accept flexible combinations of input data, their training efficiency suffers from two major issues: pipeline stage imbalance caused by heterogeneous model architectures, and training data dynamicity stemming from the diversity of multimodal data.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Dynamic Sparsity in Large-Scale Video DiT Training",
@@ -896,7 +976,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/0004CJ00DZJ026.html",
       "ee_links": [
         "https://doi.org/10.1145/3760250.3762216"
-      ]
+      ],
+      "abstract": "Diffusion Transformers (DiTs) have shown remarkable performance in generating high-quality videos. However, the quadratic complexity of 3D full attention remains a bottleneck in scaling DiT training, especially with high-definition, lengthy videos, where it can consume up to 95% of processing time and demand specialized context parallelism.",
+      "abstract_source": "openalex"
     },
     {
       "title": "EARTH: An Efficient MoE Accelerator with Entropy-Aware Speculative Prefetch and Result Reuse",
@@ -918,7 +1000,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/LiuYYWG00G26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790155"
-      ]
+      ],
+      "abstract": "Mixture-of-Experts (MoE) models significantly reduce computation in large language models by activating only a subset of experts per input token, but they introduce severe memory bottlenecks due to the large number of expert parameters. Existing offloading and prefetching strategies either incur accuracy loss, prohibitively high memory traffic, or high decoding overhead, limiting deployment on resource-constrained hardware. In this work, we present EARTH, a hardware–software co-design that addresses these challenges through three key innovations. First, we propose a dual-entropy encoding scheme that decomposes each expert into a high-information base and a delta component, enabling compact storage while preserving accuracy via adaptive precision management. Second, we introduce a delta-aware speculative prefetching and reuse mechanism that preloads base components of predicted experts and selectively fetches deltas, reusing previously computed delta patterns to reduce memory traffic and redundant computation. Third, we design a hardware accelerator that is co-designed to efficiently support this encoding and prefetching strategy, optimizing execution order, parallelism, and memory utilization. Across representative MoE workloads, EARTH reduces data movement overhead, improves prefetch efficiency, and achieves up to 2.10× speedup compared to state-of-the-art baselines, while maintaining high model accuracy.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Efficient Remote Memory Ordering for Non-Coherent Systems",
@@ -937,7 +1021,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/LiewR0SN26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790156"
-      ]
+      ],
+      "abstract": "Software using non-coherent interconnects like PCI Express requires fine-grained memory ordering, but current hardware mandates the use of costly source-side serialization. We show that this architectural mismatch severely limits the performance of two critical applications: (1) the transmission of network packets from a CPU to a NIC (requiring write-to-write ordering) and (2) key-value store lookups by an RDMA-enabled NIC (requiring read-to-read ordering). We address this by proposing a new destination-based ordering model and the hardware-software co-design comprising PCIe extensions and ISA extensions that allow software to express ordering intent efficiently. Novel microarchitecture at the Root Complex enforces these expressed semantics, eliminating source-side stalls. Our approach significantly improves the throughput of these application kernels and enables new, simpler protocols that outperform the state-of-the-art.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Efficient Temporal Graph Network Training via Unified Redundancy Elimination",
@@ -962,7 +1048,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/Wang0MYW0S0L0026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790157"
-      ]
+      ],
+      "abstract": "Temporal Graph Network (TGN) is increasingly adopted to model evolving relationships in dynamic graphs. However, the training pipeline is plagued by pervasive redundancy in computation, storage, and data loading. These redundancies harm computational efficiency, exacerbate memory pressure, and induce excessive CPU-GPU data transfers. We present PULSE, an end-to-end TGN training framework that systematically eliminates redundancies guided by a unified minimal-unit principle. To realize such principle, PULSE defines three synergetic units: 1) the Minimal Input Unit (MIU) for component-wise deduplication and operator-level reconstruction of redundant computations, 2) the Minimal Storage Unit (MSU) for dependency-guided message reconstruction, only preserving irreproducible entries while enabling on-demand recovery of others, and 3) the Minimal Reuse Unit (MRU) for GPU memory management, combining a BlockPool-based buffer allocator with a bipartite temporal reuse strategy to mitigate fragmentation and exploit inter-batch locality. Experimental results on representative benchmarks demonstrate that PULSE improves training throughput by up to 6.67× over the state-of-the-art baselines.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Enabling Fast Networking in the Public Cloud",
@@ -983,7 +1071,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/SanaeeJMSSAK26.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790158"
-      ]
+      ],
+      "abstract": "Despite a decade of research, most high-performance userspace network stacks remain impractical for public cloud tenants developing their applications atop Virtual Machines (VMs). We identify two root causes: (1) reliance on specialized NIC features (e.g., flow steering, deep buffers) absent in commodity cloud vNICs, and (2) rigid execution models ill-suited to diverse application needs. We present Machnet, a highperformance and flexible userspace network stack designed for public cloud VMs. Machnet uses only a minimal set of vNIC features that any major cloud provider supports. It also relies on a microkernel architecture to enable flexible application execution. We evaluate Machnet across three major public clouds and on production-grade applications, including a key-value store, an HTTP server, and a statemachine replication system. We release Machnet at https: //github.com/microsoft/machnet.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Evaluating Compiler Optimization Impacts on zkVM Performance",
@@ -1001,7 +1091,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/GassmannCS026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790159"
-      ]
+      ],
+      "abstract": "Zero-knowledge proofs (ZKPs) are the cornerstone of programmable cryptography. They enable (1) privacy-preserving and verifiable computation across blockchains, and (2) an expanding range of off-chain applications such as credential schemes. Zero-knowledge virtual machines (zkVMs) lower the barrier by turning ZKPs into a drop-in backend for standard compilation pipelines. This lets developers write proof-generating programs in conventional languages (e.g., Rust or C++) instead of hand-crafting arithmetic circuits. However, these VMs inherit compiler infrastructures tuned for traditional architectures rather than for proof systems. In particular, standard compiler optimizations assume features that are absent in zkVMs, including cache locality, branch prediction, or instruction-level parallelism. Therefore, their impact on proof generation is questionable.",
+      "abstract_source": "openalex"
     },
     {
       "title": "Falcon: Algorithm-Hardware Co-Design for Efficient Fully Homomorphic Encryption Accelerator",
@@ -1025,7 +1117,9 @@
       "dblp_url": "https://dblp.org/rec/conf/asplos/0005DFFCZ0CY026.html",
       "ee_links": [
         "https://doi.org/10.1145/3779212.3790160"
-      ]
+      ],
+      "abstract": "Fully homomorphic encryption (FHE) enables computation on encrypted data without compromising privacy, positioning it as a promising solution for secure cloud computing. However, its substantial computational overhead impedes practical deployment, prompting the development of dedicated hardware accelerators. In practice, when deploying cryptographic algorithm optimizations on FHE accelerators, hardware constraints typically such as limited memory capacity, often lead to a disparity between theoretical algorithmic advantage and achievable hardware efficiency.",
+      "abstract_source": "openalex"
     },
     {
       "title": "FastTTS: Accelerating Test-Time Scaling for Edge LLM Reasoning",

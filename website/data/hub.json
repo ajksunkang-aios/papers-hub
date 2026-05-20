@@ -17,7 +17,12 @@
     "ICSE"
   ],
   "pick_years": [
+    2023,
     2024,
+    2025,
+    2026
+  ],
+  "arxiv_pick_years": [
     2025,
     2026
   ],
@@ -32,7 +37,15 @@
       "enabled": true
     },
     "top_picks": {
-      "title": "OS Kernel & LLM picks by areas",
+      "title": "Top picks by area",
+      "enabled": true
+    },
+    "picks_arxiv": {
+      "title": "Recent arXiv picks by area",
+      "enabled": true
+    },
+    "picks_published": {
+      "title": "Published papers picks by area",
       "enabled": true
     },
     "conferences": {
@@ -41,10 +54,12 @@
     }
   },
   "categories": {
-    "section_heading": "OS Kernel & LLM picks by areas"
+    "section_heading": "Top picks by area",
+    "arxiv_mode_label": "Recent arXiv picks by area",
+    "published_mode_label": "Published papers picks by area"
   },
   "arxiv": {
     "filter_note": "cs.CL: OS cross-list or system-software terms required; generic LLM/NLP or serving-only papers excluded.",
-    "broadcast_note": "Top arXiv papers from the last 7 days (UTC+8), preferring today and yesterday."
+    "broadcast_note": "Top arXiv papers from the last 7 days (UTC+8), ranked by area keyword score on title and abstract (same as Top picks by area)."
   }
 }

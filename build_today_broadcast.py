@@ -2,6 +2,7 @@
 """
 Pick recent top arXiv papers (prior calendar day in UTC+8) for kernel / systems LLM.
 
+Uses the same area keyword scoring as top picks (title + abstract via categories.json).
 Reads website/data/arxiv-recent.json, writes today-broadcast.json + today-broadcast-data.js
 """
 
@@ -13,69 +14,33 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from core.hub_config import Hub, add_hub_argument, load_hub
-from crawl_arxiv_recent import (
-    active_hub,
-    has_llm_systems_signal,
-    passes_systems_gate,
-    score_keywords,
-    set_active_hub,
-)
+from core.picks_scoring import AreaPickScoring
+from crawl_arxiv_recent import passes_top_arxiv_gate, set_active_hub
 
 ROOT = Path(__file__).resolve().parent
 WEB_DATA = ROOT / "website" / "data"
 LIMIT = 3
-MIN_BROADCAST_SCORE = 4
 RECENT_LOOKBACK_DAYS = 7
 _ACTIVE_WEB_DATA = WEB_DATA
 _ACTIVE_SITE_DIR = ROOT / "website"
+_AREA_SCORING: AreaPickScoring | None = None
 
 
 def configure_hub(hub: Hub) -> None:
-    global LIMIT, MIN_BROADCAST_SCORE, RECENT_LOOKBACK_DAYS, _ACTIVE_WEB_DATA, _ACTIVE_SITE_DIR
+    global LIMIT, RECENT_LOOKBACK_DAYS, _ACTIVE_WEB_DATA, _ACTIVE_SITE_DIR, _AREA_SCORING
     broadcast = hub.broadcast_policy
     LIMIT = int(broadcast.get("limit", LIMIT))
-    MIN_BROADCAST_SCORE = int(broadcast.get("min_score", MIN_BROADCAST_SCORE))
     RECENT_LOOKBACK_DAYS = int(broadcast.get("lookback_days", RECENT_LOOKBACK_DAYS))
     _ACTIVE_WEB_DATA = hub.web_data
     _ACTIVE_SITE_DIR = hub.site_dir
+    _AREA_SCORING = AreaPickScoring.from_hub(hub)
     set_active_hub(hub)
 
-# Strongest signals for the rolling news bar (longest phrases first via score_keywords).
-BROADCAST_KEYWORDS: list[tuple[str, int]] = [
-    ("linux kernel", 24),
-    ("os kernel", 24),
-    ("system software", 20),
-    ("kernel module", 16),
-    ("operating system", 12),
-    ("file system", 10),
-    ("memory management", 8),
-    ("ebpf", 10),
-    ("syscall", 8),
-    ("device driver", 8),
-    ("inference serving", 14),
-    ("model serving", 14),
-    ("llm serving", 14),
-    ("llm inference", 12),
-    ("kv cache", 10),
-    ("speculative decoding", 10),
-    ("training system", 8),
-    ("vllm", 8),
-    ("runtime system", 8),
-    ("storage system", 8),
-    ("kernel", 2),
-    ("llm", 2),
-]
 
-BROADCAST_STRONG = {
-    "linux kernel",
-    "os kernel",
-    "system software",
-    "kernel module",
-    "operating system",
-    "inference serving",
-    "model serving",
-    "llm serving",
-}
+def scoring() -> AreaPickScoring:
+    if _AREA_SCORING is None:
+        raise RuntimeError("configure_hub() must be called first")
+    return _AREA_SCORING
 
 
 @dataclass
@@ -85,6 +50,8 @@ class BroadcastPick:
     authors: list[str]
     score: int
     matched_tags: list[str] = field(default_factory=list)
+    category_id: str | None = None
+    category_label: str | None = None
     published: str = ""
     abs_url: str = ""
     pdf_url: str = ""
@@ -101,65 +68,48 @@ def parse_utc_date(iso_ts: str) -> datetime | None:
         return None
 
 
-def score_broadcast_paper(paper: dict) -> tuple[int, list[str]]:
-    hub = active_hub()
-    title = paper.get("title", "")
-    abstract = paper.get("abstract", "")
-    text = f"{title} {abstract}"
-    score, tags = score_keywords(
-        text, hub.broadcast_keywords, hub.broadcast_strong, max_tags=4
-    )
-    blob = text.lower()
-    if "linux kernel" in blob or "os kernel" in blob:
-        score += 8
-    if "system software" in blob and has_llm_systems_signal(title, abstract):
-        score += 6
-    return score, tags
+def score_broadcast_paper(paper: dict) -> tuple[int, list[str], str | None, str | None]:
+    """Same metrics as top picks: keyword score on title + abstract (+ feed id)."""
+    return scoring().score_paper(paper)
 
 
 def qualifies_for_broadcast(paper: dict, score: int) -> bool:
-    """Systems-relevant papers with a minimum keyword score."""
-    if score < MIN_BROADCAST_SCORE:
+    if score < scoring().min_score:
         return False
-    return passes_systems_gate(
-        title=paper.get("title", ""),
-        abstract=paper.get("abstract", ""),
-        categories=paper.get("categories") or [],
-        source_feed=paper.get("source_feed", ""),
-    )
+    return passes_top_arxiv_gate(paper)
 
 
-def load_scored_pool(path: Path) -> list[tuple[dict, int, list[str], datetime]]:
+def load_scored_pool(path: Path) -> list[tuple[dict, int, list[str], str | None, str | None, datetime]]:
     if not path.is_file():
         return []
     data = json.loads(path.read_text(encoding="utf-8"))
-    pool: list[tuple[dict, int, list[str], datetime]] = []
+    pool: list[tuple[dict, int, list[str], str | None, str | None, datetime]] = []
     for paper in data.get("papers", []):
         dt = parse_utc_date(paper.get("published", ""))
         if dt is None:
             continue
-        score, tags = score_broadcast_paper(paper)
+        score, tags, cat_id, cat_label = score_broadcast_paper(paper)
         if not qualifies_for_broadcast(paper, score):
             continue
-        pool.append((paper, score, tags, dt))
-    pool.sort(key=lambda x: (x[3], x[1]), reverse=True)
+        pool.append((paper, score, tags, cat_id, cat_label, dt))
+    pool.sort(key=lambda x: (x[5], x[1]), reverse=True)
     return pool
 
 
 def pick_for_day(
-    pool: list[tuple[dict, int, list[str], datetime]],
+    pool: list[tuple[dict, int, list[str], str | None, str | None, datetime]],
     day: datetime,
     *,
     limit: int,
     seen_ids: set[str],
-) -> list[tuple[dict, int, list[str], datetime]]:
+) -> list[tuple[dict, int, list[str], str | None, str | None, datetime]]:
     day_start = day.replace(hour=0, minute=0, second=0, microsecond=0)
     day_end = day_start + timedelta(days=1)
-    day_items = [item for item in pool if day_start <= paper_local_date(item[3]) < day_end]
+    day_items = [item for item in pool if day_start <= paper_local_date(item[5]) < day_end]
     day_items.sort(key=lambda x: x[1], reverse=True)
-    out: list[tuple[dict, int, list[str], datetime]] = []
+    out: list[tuple[dict, int, list[str], str | None, str | None, datetime]] = []
     for item in day_items:
-        paper, _score, _tags, _dt = item
+        paper, _score, _tags, _cid, _clab, _dt = item
         base_id = paper.get("arxiv_id", "").rsplit("v", 1)[0]
         if base_id in seen_ids:
             continue
@@ -171,13 +121,13 @@ def pick_for_day(
 
 
 def pick_recent_window(
-    pool: list[tuple[dict, int, list[str], datetime]],
+    pool: list[tuple[dict, int, list[str], str | None, str | None, datetime]],
     today: datetime,
     *,
     limit: int,
 ) -> tuple[
-    list[tuple[dict, int, list[str], datetime]],
-    list[tuple[dict, int, list[str], datetime]],
+    list[tuple[dict, int, list[str], str | None, str | None, datetime]],
+    list[tuple[dict, int, list[str], str | None, str | None, datetime]],
     datetime,
 ]:
     """Top `limit` papers plus all qualifying papers in the same UTC+8 window."""
@@ -187,8 +137,8 @@ def pick_recent_window(
 
     for lookback_days in range(2, RECENT_LOOKBACK_DAYS + 1):
         window_start = today - timedelta(days=lookback_days - 1)
-        items = [item for item in pool if window_start <= paper_local_date(item[3]) < window_end]
-        items.sort(key=lambda x: (x[3], x[1]), reverse=True)
+        items = [item for item in pool if window_start <= paper_local_date(item[5]) < window_end]
+        items.sort(key=lambda x: (x[5], x[1]), reverse=True)
         all_in_window = dedupe_pool_items(items)
         top = all_in_window[:limit]
         if len(top) >= limit or lookback_days == RECENT_LOOKBACK_DAYS:
@@ -206,10 +156,10 @@ def paper_local_date(dt: datetime) -> datetime:
 
 
 def dedupe_pool_items(
-    items: list[tuple[dict, int, list[str], datetime]],
-) -> list[tuple[dict, int, list[str], datetime]]:
+    items: list[tuple[dict, int, list[str], str | None, str | None, datetime]],
+) -> list[tuple[dict, int, list[str], str | None, str | None, datetime]]:
     seen_ids: set[str] = set()
-    out: list[tuple[dict, int, list[str], datetime]] = []
+    out: list[tuple[dict, int, list[str], str | None, str | None, datetime]] = []
     for item in items:
         paper = item[0]
         base_id = paper.get("arxiv_id", "").rsplit("v", 1)[0]
@@ -221,16 +171,16 @@ def dedupe_pool_items(
 
 
 def all_in_lookback(
-    pool: list[tuple[dict, int, list[str], datetime]],
+    pool: list[tuple[dict, int, list[str], str | None, str | None, datetime]],
     today: datetime,
     *,
     lookback_days: int,
-) -> list[tuple[dict, int, list[str], datetime]]:
+) -> list[tuple[dict, int, list[str], str | None, str | None, datetime]]:
     """All qualifying papers in the last N UTC+8 days."""
     window_end = today + timedelta(days=1)
     window_start = today - timedelta(days=lookback_days - 1)
-    items = [item for item in pool if window_start <= paper_local_date(item[3]) < window_end]
-    items.sort(key=lambda x: (x[3], x[1]), reverse=True)
+    items = [item for item in pool if window_start <= paper_local_date(item[5]) < window_end]
+    items.sort(key=lambda x: (x[5], x[1]), reverse=True)
     return dedupe_pool_items(items)
 
 
@@ -245,7 +195,6 @@ def main() -> int:
 
     now = datetime.now(TZ_UTC8)
     today = now.replace(hour=0, minute=0, second=0, microsecond=0)
-    yesterday = today - timedelta(days=1)
     path = _ACTIVE_WEB_DATA / "arxiv-recent.json"
     pool = load_scored_pool(path)
 
@@ -258,13 +207,22 @@ def main() -> int:
             f"({window_start.strftime('%b %d')}–{today.strftime('%b %d, %Y')}, UTC+8)."
         )
 
-    def to_pick(rank: int, paper: dict, score: int, tags: list[str]) -> BroadcastPick:
+    def to_pick(
+        rank: int,
+        paper: dict,
+        score: int,
+        tags: list[str],
+        cat_id: str | None,
+        cat_label: str | None,
+    ) -> BroadcastPick:
         return BroadcastPick(
             rank=rank,
             title=paper["title"],
             authors=paper.get("authors", [])[:4],
             score=score,
             matched_tags=tags,
+            category_id=cat_id,
+            category_label=cat_label,
             published=paper.get("published", ""),
             abs_url=paper.get("abs_url", ""),
             pdf_url=paper.get("pdf_url", ""),
@@ -274,12 +232,12 @@ def main() -> int:
 
     preview_items = selected[:LIMIT] if selected else all_in_window[:LIMIT]
     picks = [
-        to_pick(rank, paper, score, tags)
-        for rank, (paper, score, tags, _dt) in enumerate(preview_items, start=1)
+        to_pick(rank, paper, score, tags, cat_id, cat_label)
+        for rank, (paper, score, tags, cat_id, cat_label, _dt) in enumerate(preview_items, start=1)
     ]
     all_picks = [
-        to_pick(rank, paper, score, tags)
-        for rank, (paper, score, tags, _dt) in enumerate(all_in_window, start=1)
+        to_pick(rank, paper, score, tags, cat_id, cat_label)
+        for rank, (paper, score, tags, cat_id, cat_label, _dt) in enumerate(all_in_window, start=1)
     ]
 
     if selected:
@@ -288,19 +246,20 @@ def main() -> int:
         )
     else:
         date_label = f"{today.strftime('%B %d, %Y')} (UTC+8)"
+
+    default_note = (
+        f"Top {LIMIT} arXiv papers from the last {RECENT_LOOKBACK_DAYS} days (UTC+8), "
+        "ranked by area keyword score on title and abstract (same as Top picks by area)."
+    )
     payload = {
         "generated_at": now.isoformat(),
         "date_label": date_label,
         "window_start_utc8": window_start.date().isoformat(),
         "window_end_utc8": today.date().isoformat(),
         "pool_note": pool_note,
-        "note": hub.broadcast_policy.get(
-            "note",
-            (
-                f"Top {LIMIT} arXiv papers from the last {RECENT_LOOKBACK_DAYS} days (UTC+8), "
-                "preferring today and yesterday. Use More for all qualifying papers in that window."
-            ),
-        ),
+        "scoring": "area-keywords-title-abstract",
+        "min_score": scoring().min_score,
+        "note": hub.broadcast_policy.get("note", default_note),
         "preview_limit": LIMIT,
         "count": len(picks),
         "total_count": len(all_picks),
@@ -318,7 +277,8 @@ def main() -> int:
 
     print(f"Recent broadcast UTC+8 ({date_label}): {len(picks)} shown / {len(all_picks)} in window")
     for p in picks:
-        print(f"  #{p.rank} ({p.score}) {p.title[:60]}")
+        area = f" [{p.category_label}]" if p.category_label else ""
+        print(f"  #{p.rank} ({p.score}){area} {p.title[:55]}")
     if pool_note:
         print(f"  note: {pool_note}")
     print(f"Wrote {out_json}")

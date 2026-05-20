@@ -14,7 +14,7 @@
           Browse proceedings from top systems venues (dblp). Full historical data for
           SOSP, OSDI, NSDI, ASPLOS, EuroSys, ISCA, FAST, USENIX Security, USENIX ATC, and ICSE.
         </p>
-      </div>
+      </motion>
     </header>
 
     <main class="wrap wrap-wide hub-main">
@@ -50,17 +50,51 @@
 
       <section
         class="hub-section top-hub"
-        id="top-monthly-section"
-        aria-labelledby="top-heading"
+        id="top-picks-section"
+        aria-labelledby="top-picks-heading"
       >
-        <header class="hub-section-head">
+        <header class="hub-section-head top-picks-head">
           <div>
-            <h2 id="top-heading">OS Kernel &amp; LLM picks by areas</h2>
-            <p class="hub-section-meta" id="top-meta">Loading...</p>
+            <h2 id="top-picks-heading">Top picks by area</h2>
+            <div
+              class="top-picks-mode"
+              role="tablist"
+              aria-label="Pick source"
+              id="top-picks-mode"
+            >
+              <button
+                type="button"
+                class="top-picks-mode-btn is-active"
+                role="tab"
+                id="top-picks-mode-arxiv"
+                data-mode="arxiv"
+                aria-selected="true"
+                aria-controls="top-picks-categories"
+              >
+                Recent arXiv picks by area
+              </button>
+              <button
+                type="button"
+                class="top-picks-mode-btn"
+                role="tab"
+                id="top-picks-mode-published"
+                data-mode="published"
+                aria-selected="false"
+                aria-controls="top-picks-categories"
+              >
+                Published papers picks by area
+              </button>
+            </div>
+            <p class="hub-section-meta" id="top-picks-meta">Loading...</p>
           </div>
         </header>
-        <p class="panel-note top-note" id="top-note"></p>
-        <div id="top-categories" class="top-categories" aria-label="Categorized recommendations"></div>
+        <p class="panel-note top-note" id="top-picks-note"></p>
+        <div
+          id="top-picks-categories"
+          class="top-categories top-categories-dense"
+          role="tabpanel"
+          aria-labelledby="top-picks-mode-arxiv"
+        ></div>
       </section>
 
       <section class="hub-section conf-hub" aria-labelledby="conf-hub-heading">
@@ -96,6 +130,6 @@
       <p>Data: <a href="https://dblp.org/">dblp</a> (CC0) &middot; <a href="https://arxiv.org/">arXiv</a></p>
     </footer>
 
-    <script src="hub.js?v=35" type="module"></script>
+    <script src="hub.js?v=43" type="module"></script>
   </body>
 </html>

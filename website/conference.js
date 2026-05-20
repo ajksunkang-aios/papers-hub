@@ -25,9 +25,9 @@ function setSourceLinks(meta) {
 function renderLoadingSkeleton(listEl, rows = 8) {
   listEl.innerHTML = Array.from({ length: rows }, () => `
       <div class="paper-row paper-row-skeleton" aria-hidden="true">
-        <motion class="paper-row-body">
+        <div class="paper-row-body">
           <div class="skeleton-line skeleton-title"></div>
-          <motion class="skeleton-line skeleton-authors"></div>
+          <div class="skeleton-line skeleton-authors"></div>
         </div>
         <div class="skeleton-line skeleton-meta"></div>
       </div>

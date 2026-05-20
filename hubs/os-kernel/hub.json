@@ -17,7 +17,12 @@
     "ICSE"
   ],
   "pick_years": [
+    2023,
     2024,
+    2025,
+    2026
+  ],
+  "arxiv_pick_years": [
     2025,
     2026
   ],
@@ -33,7 +38,15 @@
       "enabled": true
     },
     "top_picks": {
-      "title": "OS Kernel & LLM picks by areas",
+      "title": "Top picks by area",
+      "enabled": true
+    },
+    "picks_arxiv": {
+      "title": "Recent arXiv picks by area",
+      "enabled": true
+    },
+    "picks_published": {
+      "title": "Published papers picks by area",
       "enabled": true
     },
     "conferences": {

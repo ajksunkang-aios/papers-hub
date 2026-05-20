@@ -12,7 +12,8 @@ PICK_YEARS="${PICK_YEARS:-2024,2025,2026}"
   echo "=== arXiv crawl $(date -Iseconds) ==="
   echo "PICK_YEARS=${PICK_YEARS}"
   cd "$ROOT"
-  python3 crawl_arxiv_recent.py --years "$PICK_YEARS" --os-max 200 --cl-max 500
-  python3 build_top_monthly.py --years "$PICK_YEARS"
-  python3 build_today_broadcast.py
+  HUB="${HUB:-os-kernel}"
+  python3 crawl_arxiv_recent.py --hub "$HUB" --years "$PICK_YEARS" --os-max 200 --cl-max 500
+  python3 build_top_monthly.py --hub "$HUB" --years "$PICK_YEARS"
+  python3 build_today_broadcast.py --hub "$HUB"
 } >>"$LOG" 2>&1

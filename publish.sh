@@ -3,6 +3,8 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 HUB="${HUB:-os-kernel}"
 HUB_FLAG=(--hub "$HUB")
+PICK_YEARS="${PICK_YEARS:-2023,2024,2025,2026}"
+ARXIV_PICK_YEARS="${ARXIV_PICK_YEARS:-2025,2026}"
 
 if [[ ! -f "$ROOT/data/dblp.xml.gz" ]]; then
   echo "Downloading dblp.xml.gz (first run)..."
@@ -16,12 +18,14 @@ python3 "$ROOT/parse_dblp_xml.py" "${HUB_FLAG[@]}" --build-website
 echo "Building conference timeline..."
 python3 "$ROOT/build_conference_timeline.py" "${HUB_FLAG[@]}"
 
-PICK_YEARS="${PICK_YEARS:-2024,2025,2026}"
-echo "Fetching arXiv papers for ${PICK_YEARS}..."
-python3 "$ROOT/crawl_arxiv_recent.py" "${HUB_FLAG[@]}" --years "$PICK_YEARS" --os-max 200 --cl-max 500
+echo "Fetching arXiv papers for ${ARXIV_PICK_YEARS}..."
+python3 "$ROOT/crawl_arxiv_recent.py" "${HUB_FLAG[@]}" --years "$ARXIV_PICK_YEARS" --os-max 200 --cl-max 500
 
-echo "Building top picks for ${PICK_YEARS}..."
-python3 "$ROOT/build_top_monthly.py" "${HUB_FLAG[@]}" --years "$PICK_YEARS"
+echo "Enriching conference paper abstracts..."
+python3 "$ROOT/enrich_conference_abstracts.py" "${HUB_FLAG[@]}" --years "$PICK_YEARS"
+
+echo "Building top picks (arXiv ${ARXIV_PICK_YEARS}, published ${PICK_YEARS})..."
+python3 "$ROOT/build_top_monthly.py" "${HUB_FLAG[@]}" --years "$PICK_YEARS" --arxiv-years "$ARXIV_PICK_YEARS"
 
 echo "Building recent broadcast ticker..."
 python3 "$ROOT/build_today_broadcast.py" "${HUB_FLAG[@]}"

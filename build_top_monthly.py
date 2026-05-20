@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Build categorized top-10 recommendations (arXiv + conference for a calendar year).
+Build categorized top picks for two homepage sections:
 
-Output: website/data/top-monthly.json
+  top-monthly.json    — arXiv preprints only
+  top-published.json  — peer-reviewed conference proceedings only
 """
 
 from __future__ import annotations
@@ -15,7 +16,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from core.hub_config import Hub, add_hub_argument, load_hub
-from crawl_arxiv_recent import passes_top_arxiv_gate, score_keywords
+from core.picks_scoring import AreaPickScoring
+from crawl_arxiv_recent import passes_top_arxiv_gate
 
 ROOT = Path(__file__).resolve().parent
 WEB_DATA = ROOT / "website" / "data"
@@ -190,16 +192,44 @@ CATEGORIES: list[dict] = [
 
 MIN_CATEGORY_SCORE = 4
 PER_CATEGORY_LIMIT = 5
-DEFAULT_YEARS = [2024, 2025, 2026]
+DEFAULT_YEARS = [2023, 2024, 2025, 2026]
+DEFAULT_ARXIV_YEARS = [2025, 2026]
+CONFERENCE_SCORE_BOOST = 12
+MIN_CONFERENCE_PREVIEW = 2
+RECENCY_BOOST_PER_YEAR = 2
+RECENCY_BASE_YEAR = 2023
 _ACTIVE_WEB_DATA = WEB_DATA
+
+# Fallback scoring context when no abstract was enriched for a proceedings paper.
+VENUE_SCORE_HINTS: dict[str, str] = {
+    "SOSP": "operating systems os kernel distributed systems storage",
+    "OSDI": "operating systems os kernel systems software",
+    "NSDI": "networked systems distributed systems operating systems",
+    "ASPLOS": "computer architecture operating systems compiler systems",
+    "EuroSys": "computer systems operating systems distributed systems",
+    "ISCA": "computer architecture systems memory",
+    "FAST": "file system storage systems operating systems",
+    "USENIX Security": "system security operating systems isolation",
+    "USENIX ATC": "operating systems systems software virtualization",
+    "ICSE": "software engineering systems tools",
+}
 
 
 def configure_hub(hub: Hub) -> None:
-    global CATEGORIES, MIN_CATEGORY_SCORE, PER_CATEGORY_LIMIT, DEFAULT_YEARS, _ACTIVE_WEB_DATA
+    global CATEGORIES, MIN_CATEGORY_SCORE, PER_CATEGORY_LIMIT, DEFAULT_YEARS, DEFAULT_ARXIV_YEARS
+    global CONFERENCE_SCORE_BOOST, MIN_CONFERENCE_PREVIEW, RECENCY_BOOST_PER_YEAR, RECENCY_BASE_YEAR
+    global _ACTIVE_WEB_DATA
     CATEGORIES = hub.category_rows
     MIN_CATEGORY_SCORE = int(hub.categories.get("min_category_score", MIN_CATEGORY_SCORE))
     PER_CATEGORY_LIMIT = int(hub.categories.get("per_category_limit", PER_CATEGORY_LIMIT))
     DEFAULT_YEARS = [int(y) for y in hub.categories.get("default_years", DEFAULT_YEARS)]
+    arxiv_years = hub.arxiv_pick_years or hub.categories.get("arxiv_pick_years")
+    DEFAULT_ARXIV_YEARS = [int(y) for y in (arxiv_years or DEFAULT_ARXIV_YEARS)]
+    ranking = hub.categories.get("ranking", {})
+    CONFERENCE_SCORE_BOOST = int(ranking.get("conference_score_boost", CONFERENCE_SCORE_BOOST))
+    MIN_CONFERENCE_PREVIEW = int(ranking.get("min_conference_preview", MIN_CONFERENCE_PREVIEW))
+    RECENCY_BOOST_PER_YEAR = int(ranking.get("recency_boost_per_year", RECENCY_BOOST_PER_YEAR))
+    RECENCY_BASE_YEAR = int(ranking.get("recency_base_year", RECENCY_BASE_YEAR))
     _ACTIVE_WEB_DATA = hub.web_data
 
 
@@ -219,6 +249,7 @@ class PaperCandidate:
     pdf_url: str | None = None
     dblp_url: str | None = None
     paper_url: str | None = None
+    abstract: str | None = None
 
 
 @dataclass
@@ -228,6 +259,8 @@ class CategoryPick:
     authors: list[str]
     category_score: int
     category_id: str
+    display_score: int | None = None
+    score_boost: int = 0
     matched_tags: list[str] = field(default_factory=list)
     source: str = ""
     published: str | None = None
@@ -240,6 +273,7 @@ class CategoryPick:
     pdf_url: str | None = None
     dblp_url: str | None = None
     paper_url: str | None = None
+    abstract: str | None = None
 
 
 def normalize_title(title: str) -> str:
@@ -256,27 +290,12 @@ def parse_year(iso_ts: str) -> int | None:
         return None
 
 
-def score_for_category(text: str, cat: dict) -> tuple[int, list[str]]:
-    keywords = cat["keywords"]
-    strong = {kw for kw, w in keywords if w >= 10}
-    return score_keywords(text, keywords, strong, max_tags=6)
+def _area_scoring() -> AreaPickScoring:
+    return AreaPickScoring(categories=CATEGORIES, min_score=MIN_CATEGORY_SCORE)
 
 
 def best_category(text: str) -> tuple[str, str, int, list[str]] | None:
-    best_id = ""
-    best_label = ""
-    best_score = 0
-    best_tags: list[str] = []
-    for cat in CATEGORIES:
-        s, tags = score_for_category(text, cat)
-        if s > best_score:
-            best_score = s
-            best_id = cat["id"]
-            best_label = cat["label"]
-            best_tags = tags
-    if best_score < MIN_CATEGORY_SCORE:
-        return None
-    return best_id, best_label, best_score, best_tags
+    return _area_scoring().best_match(text)
 
 
 def parse_years_list(raw: str | None) -> list[int]:
@@ -306,8 +325,7 @@ def load_arxiv_candidates(years: list[int]) -> list[PaperCandidate]:
             continue
         if not passes_top_arxiv_gate(p):
             continue
-        abstract = p.get("abstract", "")
-        text = f"{p['title']} {abstract} {p.get('source_feed', '')}"
+        text = AreaPickScoring.paper_text(p)
         out.append(
             PaperCandidate(
                 title=p["title"],
@@ -323,6 +341,75 @@ def load_arxiv_candidates(years: list[int]) -> list[PaperCandidate]:
             )
         )
     return out
+
+
+def conference_scoring_text(paper: dict, meta: dict, conf: dict) -> str:
+    """Keyword scoring text: title + abstract (when enriched) + bibliographic context."""
+    short = meta.get("short_name") or conf.get("short_name") or ""
+    abstract = (paper.get("abstract") or "").strip()
+    parts = [
+        paper.get("title", ""),
+        abstract,
+        " ".join(paper.get("authors", [])),
+        short,
+        meta.get("full_name") or conf.get("full_name") or "",
+        paper.get("venue") or "",
+    ]
+    if not abstract:
+        parts.append(VENUE_SCORE_HINTS.get(short, ""))
+    parts.append("peer-reviewed conference proceedings")
+    return " ".join(p for p in parts if p)
+
+
+def effective_category_score(paper: PaperCandidate, score: int) -> int:
+    if paper.source != "conference":
+        return score
+    boost = CONFERENCE_SCORE_BOOST
+    if paper.year:
+        boost += max(0, paper.year - RECENCY_BASE_YEAR) * RECENCY_BOOST_PER_YEAR
+    return score + boost
+
+
+def select_balanced_top_picks(
+    pool: list[tuple[PaperCandidate, int, list[str]]],
+    limit: int,
+) -> list[tuple[PaperCandidate, int, list[str]]]:
+    """Ensure top-N preview includes peer-reviewed conference papers, not only arXiv."""
+    if not pool:
+        return []
+
+    def sort_key(item: tuple[PaperCandidate, int, list[str]]) -> int:
+        return effective_category_score(item[0], item[1])
+
+    conf = sorted([x for x in pool if x[0].source == "conference"], key=sort_key, reverse=True)
+    arxiv = sorted([x for x in pool if x[0].source == "arxiv"], key=lambda x: x[1], reverse=True)
+
+    n_conf = min(MIN_CONFERENCE_PREVIEW, limit, len(conf))
+    chosen: list[tuple[PaperCandidate, int, list[str]]] = list(conf[:n_conf])
+    seen = {normalize_title(x[0].title) for x in chosen}
+
+    rest: list[tuple[PaperCandidate, int, list[str]]] = []
+    for item in arxiv:
+        key = normalize_title(item[0].title)
+        if key and key in seen:
+            continue
+        rest.append(item)
+    for item in conf[n_conf:]:
+        key = normalize_title(item[0].title)
+        if key and key in seen:
+            continue
+        rest.append(item)
+    rest.sort(key=sort_key, reverse=True)
+
+    while len(chosen) < limit and rest:
+        item = rest.pop(0)
+        chosen.append(item)
+        key = normalize_title(item[0].title)
+        if key:
+            seen.add(key)
+
+    chosen.sort(key=sort_key, reverse=True)
+    return chosen[:limit]
 
 
 def conference_paper_url(paper: dict, meta: dict) -> str | None:
@@ -347,9 +434,9 @@ def load_conference_candidates(years: list[int]) -> list[PaperCandidate]:
             continue
         data = json.loads(data_path.read_text(encoding="utf-8"))
         for paper in data.get("papers", []):
-            authors_str = " ".join(paper.get("authors", []))
-            text = f"{paper['title']} {authors_str}"
+            text = conference_scoring_text(paper, data, conf)
             url = conference_paper_url(paper, data)
+            abstract = (paper.get("abstract") or "").strip() or None
             out.append(
                 PaperCandidate(
                     title=paper["title"],
@@ -361,22 +448,34 @@ def load_conference_candidates(years: list[int]) -> list[PaperCandidate]:
                     conference_id=data.get("id") or conf.get("id"),
                     dblp_url=paper.get("dblp_url"),
                     paper_url=url or paper.get("dblp_url"),
+                    abstract=abstract,
                 )
             )
     return out
 
 
 def pool_to_picks(
-    cat_id: str, pool: list[tuple[PaperCandidate, int, list[str]]]
+    cat_id: str,
+    pool: list[tuple[PaperCandidate, int, list[str]]],
+    *,
+    highlight_conference_scores: bool = False,
 ) -> list[CategoryPick]:
     picks: list[CategoryPick] = []
-    for rank, (paper, cat_score, tags) in enumerate(pool, start=1):
+    for rank, (paper, raw_score, tags) in enumerate(pool, start=1):
+        boost = 0
+        if highlight_conference_scores and paper.source == "conference":
+            display = effective_category_score(paper, raw_score)
+            boost = display - raw_score
+        else:
+            display = raw_score
         picks.append(
             CategoryPick(
                 rank=rank,
                 title=paper.title,
                 authors=paper.authors,
-                category_score=cat_score,
+                category_score=raw_score,
+                display_score=display,
+                score_boost=boost,
                 category_id=cat_id,
                 matched_tags=tags,
                 source=paper.source,
@@ -390,12 +489,18 @@ def pool_to_picks(
                 pdf_url=paper.pdf_url,
                 dblp_url=paper.dblp_url,
                 paper_url=paper.paper_url,
+                abstract=paper.abstract,
             )
         )
     return picks
 
 
-def build_category_picks(candidates: list[PaperCandidate]) -> list[dict]:
+def build_category_picks(
+    candidates: list[PaperCandidate],
+    *,
+    mixed_sources: bool,
+    highlight_conference_scores: bool = False,
+) -> list[dict]:
     """Assign each paper to its best-scoring category; rank all matches per category."""
     by_cat: dict[str, list[tuple[PaperCandidate, int, list[str]]]] = {
         c["id"]: [] for c in CATEGORIES
@@ -413,12 +518,22 @@ def build_category_picks(candidates: list[PaperCandidate]) -> list[dict]:
         by_cat[cat_id].append((paper, score, tags))
         seen_global.add(key)
 
+    def sort_key(item: tuple[PaperCandidate, int, list[str]]) -> int:
+        if mixed_sources or highlight_conference_scores:
+            return effective_category_score(item[0], item[1])
+        return item[1]
+
     result: list[dict] = []
+    highlight = highlight_conference_scores or mixed_sources
     for cat in CATEGORIES:
         cat_id = cat["id"]
-        pool = sorted(by_cat[cat_id], key=lambda x: x[1], reverse=True)
-        all_picks = pool_to_picks(cat_id, pool)
-        top_picks = all_picks[:PER_CATEGORY_LIMIT]
+        pool = sorted(by_cat[cat_id], key=sort_key, reverse=True)
+        all_picks = pool_to_picks(cat_id, pool, highlight_conference_scores=highlight)
+        if mixed_sources:
+            top_pool = select_balanced_top_picks(pool, PER_CATEGORY_LIMIT)
+        else:
+            top_pool = pool[:PER_CATEGORY_LIMIT]
+        top_picks = pool_to_picks(cat_id, top_pool, highlight_conference_scores=highlight)
         result.append(
             {
                 "id": cat_id,
@@ -432,59 +547,142 @@ def build_category_picks(candidates: list[PaperCandidate]) -> list[dict]:
     return result
 
 
+def build_payload(
+    *,
+    kind: str,
+    years: list[int],
+    period: str,
+    categories: list[dict],
+    arxiv_pool: int,
+    conference_pool: int,
+    note: str,
+    mixed_sources: bool,
+) -> dict:
+    return {
+        "kind": kind,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "years": years,
+        "preview_limit": PER_CATEGORY_LIMIT,
+        "period_label": period,
+        "month_label": period,
+        "arxiv_pool": arxiv_pool,
+        "conference_pool": conference_pool,
+        "mixed_sources": mixed_sources,
+        "note": note,
+        "ranking": {
+            "conference_score_boost": CONFERENCE_SCORE_BOOST,
+            "min_conference_preview": MIN_CONFERENCE_PREVIEW,
+            "recency_boost_per_year": RECENCY_BOOST_PER_YEAR,
+            "recency_base_year": RECENCY_BASE_YEAR,
+        },
+        "categories": categories,
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build categorized top OS/LLM picks.")
     add_hub_argument(parser)
     parser.add_argument(
         "--years",
         default=",".join(str(y) for y in DEFAULT_YEARS),
-        help="comma-separated calendar years for arXiv + conference pools (default: 2024,2025,2026)",
+        help="comma-separated years for published conference pool (default: hub default_years)",
+    )
+    parser.add_argument(
+        "--arxiv-years",
+        default=None,
+        help="comma-separated years for arXiv pool (default: hub arxiv_pick_years, e.g. 2025,2026)",
     )
     parser.add_argument(
         "--year",
         type=int,
         default=None,
-        help="single year shorthand (overrides --years)",
+        help="single year shorthand (overrides both --years and --arxiv-years)",
     )
     args = parser.parse_args()
     hub = load_hub(args.hub)
     configure_hub(hub)
 
     now = datetime.now(timezone.utc)
-    years = [args.year] if args.year is not None else parse_years_list(args.years)
-    period = format_period_label(years)
+    if args.year is not None:
+        published_years = [args.year]
+        arxiv_years = [args.year]
+    else:
+        published_years = parse_years_list(args.years)
+        arxiv_raw = args.arxiv_years or ",".join(str(y) for y in DEFAULT_ARXIV_YEARS)
+        arxiv_years = parse_years_list(arxiv_raw)
+    published_period = format_period_label(published_years)
+    arxiv_period = format_period_label(arxiv_years)
 
-    arxiv = load_arxiv_candidates(years)
-    conf = load_conference_candidates(years)
-    all_candidates = arxiv + conf
-    categories = build_category_picks(all_candidates)
+    arxiv = load_arxiv_candidates(arxiv_years)
+    conf = load_conference_candidates(published_years)
 
-    payload = {
-        "generated_at": now.isoformat(),
-        "years": years,
-        "preview_limit": PER_CATEGORY_LIMIT,
-        "period_label": period,
-        "month_label": period,
-        "arxiv_pool": len(arxiv),
-        "conference_pool": len(conf),
-        "note": (
-            f"Top {PER_CATEGORY_LIMIT} per area (use More for full list): arXiv papers published "
-            f"in {period}, plus {period} conference proceedings from dblp. Each paper is placed "
-            "in its single best-matching category by keyword score."
+    if not arxiv:
+        arxiv_path = _ACTIVE_WEB_DATA / "arxiv-recent.json"
+        print(
+            f"WARNING: no arXiv candidates for years {arxiv_years}. "
+            f"Run crawl_arxiv_recent.py first (expected {arxiv_path}). "
+            "top-monthly.json will have empty categories."
+        )
+
+    arxiv_categories = build_category_picks(arxiv, mixed_sources=False)
+    published_categories = build_category_picks(
+        conf,
+        mixed_sources=False,
+        highlight_conference_scores=True,
+    )
+
+    arxiv_payload = build_payload(
+        kind="arxiv",
+        years=arxiv_years,
+        period=arxiv_period,
+        categories=arxiv_categories,
+        arxiv_pool=len(arxiv),
+        conference_pool=0,
+        mixed_sources=False,
+        note=(
+            f"Top {PER_CATEGORY_LIMIT} arXiv preprints per area (use More for full list), published "
+            f"in {arxiv_period}. Ranked by keyword score on title and abstract."
         ),
-        "categories": categories,
-    }
+    )
+    published_payload = build_payload(
+        kind="published",
+        years=published_years,
+        period=published_period,
+        categories=published_categories,
+        arxiv_pool=0,
+        conference_pool=len(conf),
+        mixed_sources=False,
+        note=(
+            f"Top {PER_CATEGORY_LIMIT} peer-reviewed papers per area from {published_period} proceedings "
+            f"(SOSP, OSDI, NSDI, ASPLOS, EuroSys, ISCA, FAST, USENIX Security, USENIX ATC, ICSE). "
+            f"Highlighted score = keyword match on title and abstract + {CONFERENCE_SCORE_BOOST} "
+            "published boost (abstracts from DOI/OpenAlex/Semantic Scholar/arXiv when available)."
+        ),
+    )
 
-    out_json = _ACTIVE_WEB_DATA / "top-monthly.json"
-    out_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    arxiv_path = _ACTIVE_WEB_DATA / "top-monthly.json"
+    published_path = _ACTIVE_WEB_DATA / "top-published.json"
+    arxiv_path.write_text(
+        json.dumps(arxiv_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    published_path.write_text(
+        json.dumps(published_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    # Legacy filename for older hub.js caches
+    (_ACTIVE_WEB_DATA / "top-areas.json").write_text(
+        json.dumps(published_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
 
-    print(f"Categorized top picks for {period}")
+    print(f"Categorized picks — arXiv {arxiv_period}, published {published_period}")
     print(f"  pools: arXiv={len(arxiv)}, conference={len(conf)}")
-    for cat in categories:
-        print(f"  {cat['label']}: top {cat['count']} / {cat['total_count']} matched")
-        for p in cat["picks"][:3]:
-            print(f"    #{p['rank']} ({p['category_score']}) {p['title'][:55]}")
-    print(f"Wrote {out_json}")
+    print("  [arxiv] Recent arXiv picks:")
+    for cat in arxiv_categories:
+        print(f"    {cat['label']}: top {cat['count']} / {cat['total_count']}")
+    print("  [published] Conference proceedings:")
+    for cat in published_categories:
+        print(f"    {cat['label']}: top {cat['count']} / {cat['total_count']}")
+    print(f"Wrote {arxiv_path}")
+    print(f"Wrote {published_path}")
     return 0
 
 

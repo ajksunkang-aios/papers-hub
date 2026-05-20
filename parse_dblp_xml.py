@@ -297,6 +297,8 @@ def write_website(
             "build-info.json",
             "conference-timeline.json",
             "top-monthly.json",
+            "top-published.json",
+            "top-areas.json",
             "today-broadcast.json",
             "hub.json",
         ):
