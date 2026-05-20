@@ -115,6 +115,7 @@ def enrich_conferences(
     limit: int | None = None,
     dry_run: bool = False,
     allow_arxiv_api: bool = False,
+    offline: bool = False,
     progress_every: int = PROGRESS_EVERY,
 ) -> dict[str, int]:
     cache = AbstractCache(cache_path)
@@ -124,7 +125,8 @@ def enrich_conferences(
     log(
         f"  {len(jobs)} conferences, {total_papers} papers, "
         f"{need_work} to process, {skipped_miss} skipped (cached miss)"
-        f"{', arXiv title API' if allow_arxiv_api else ', arXiv title API off'}"
+        f"{' [offline: cache + local arXiv only]' if offline else ''}"
+        f"{', arXiv title API on' if allow_arxiv_api else ', arXiv title API off'}"
     )
     if need_work == 0:
         log("  nothing to do (incremental complete for these years)")
@@ -138,7 +140,10 @@ def enrich_conferences(
         }
     arxiv_index = build_arxiv_title_index(web_data / "arxiv-recent.json")
     fetcher = AbstractFetcher(
-        cache=cache, arxiv_by_title=arxiv_index, allow_arxiv_api=allow_arxiv_api
+        cache=cache,
+        arxiv_by_title=arxiv_index,
+        allow_arxiv_api=allow_arxiv_api,
+        offline=offline,
     )
 
     stats = {
@@ -229,6 +234,11 @@ def enrich_conferences(
 
     if not dry_run:
         cache.save()
+    if fetcher._network_disabled and not offline:
+        log(
+            "  network disabled after repeated timeouts "
+            "(use --offline on restricted LANs; remaining papers used cache/local only)"
+        )
     return stats
 
 
@@ -256,14 +266,20 @@ def main() -> int:
         action="store_true",
         help="allow slow per-title arXiv API search when DOI lookup fails (off by default)",
     )
+    parser.add_argument(
+        "--offline",
+        action="store_true",
+        help="no HTTP: use abstract cache + arxiv-recent.json title index only (for restricted networks)",
+    )
     args = parser.parse_args()
 
     hub = load_hub(args.hub)
     default_years = hub.pick_years or [2023, 2024, 2025, 2026]
     years = parse_years(args.years, default_years)
     manifest_path = hub.root / "data" / f"abstract-enrich-{hub.id}.json"
+    offline = args.offline
     run_fp = policy_fingerprint(
-        {"hub": hub.id, "years": years, "arxiv_api": args.arxiv_api}
+        {"hub": hub.id, "years": years, "arxiv_api": args.arxiv_api, "offline": offline}
     )
     cache_path = hub.root / "data" / f"abstract-cache-{hub.id}.json"
     cache = AbstractCache(cache_path)
@@ -289,8 +305,10 @@ def main() -> int:
 
     log(f"Enriching abstracts for {hub.id} ({years}) -> {hub.web_data}")
     log(f"  incremental: {pending_work} papers still need work")
-    if not args.arxiv_api:
-        log("  (arXiv title API disabled; pass --arxiv-api for slower backfill)")
+    if offline:
+        log("  offline mode: no OpenAlex/Crossref/Semantic Scholar/arXiv API calls")
+    elif not args.arxiv_api:
+        log("  (arXiv title API disabled; pass --arxiv-api only if export.arxiv.org is reachable)")
     stats = enrich_conferences(
         hub.web_data,
         years,
@@ -299,6 +317,7 @@ def main() -> int:
         limit=args.limit,
         dry_run=args.dry_run,
         allow_arxiv_api=args.arxiv_api,
+        offline=offline,
     )
     log(
         f"Done: {stats['fetched']} new ({stats.get('cache_applied', 0)} from cache), "

@@ -32,9 +32,15 @@ else
   echo "Enriching conference abstracts for ${ABSTRACT_ENRICH_YEARS} (skip if fresh 7d; may take a while on first run)..."
   echo "  Full backfill: ABSTRACT_ENRICH_YEARS=${PICK_YEARS} ./publish.sh"
   echo "  Skip entirely: ABSTRACT_SKIP=1 ./publish.sh"
+  echo "  Restricted LAN (no external APIs): ABSTRACT_OFFLINE=1 ./publish.sh"
+  ABSTRACT_ENRICH_FLAGS=()
+  if [[ "${ABSTRACT_OFFLINE:-0}" == "1" ]]; then
+    ABSTRACT_ENRICH_FLAGS+=(--offline)
+  fi
   python3 -u "$ROOT/enrich_conference_abstracts.py" "${HUB_FLAG[@]}" \
     --years "$ABSTRACT_ENRICH_YEARS" \
-    --if-stale-hours 168
+    --if-stale-hours 168 \
+    "${ABSTRACT_ENRICH_FLAGS[@]}"
 fi
 
 echo "Building top picks (arXiv ${ARXIV_PICK_YEARS}, published ${PICK_YEARS})..."

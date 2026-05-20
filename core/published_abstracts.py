@@ -12,15 +12,19 @@ from typing import Any
 from urllib.parse import quote
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 DOI_RE = re.compile(r"(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", re.I)
 JATS_TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"\s+")
 
 USER_AGENT = "os-kernel-papers-hub/1.0 (research; abstract-enrichment)"
-REQUEST_TIMEOUT = 12
+# (connect_sec, read_sec)  short connect avoids hangs on blocked routes / proxies
+REQUEST_TIMEOUT = (4, 10)
 MIN_ABSTRACT_LEN = 40
 REQUEST_DELAY_SEC = 0.12
+CIRCUIT_BREAKER_FAILURES = 5
 
 
 def normalize_title_key(title: str) -> str:
@@ -151,13 +155,21 @@ class AbstractFetcher:
         cache: AbstractCache,
         arxiv_by_title: dict[str, str] | None = None,
         allow_arxiv_api: bool = False,
+        offline: bool = False,
     ) -> None:
         self.cache = cache
         self.arxiv_by_title = arxiv_by_title or {}
-        self.allow_arxiv_api = allow_arxiv_api
+        self.allow_arxiv_api = allow_arxiv_api and not offline
+        self.offline = offline
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": USER_AGENT, "Accept": "application/json"})
+        no_retry = Retry(total=0, connect=0, read=0, redirect=0)
+        adapter = HTTPAdapter(max_retries=no_retry)
+        self.session.mount("https://", adapter)
+        self.session.mount("http://", adapter)
         self._last_request = 0.0
+        self._consecutive_failures = 0
+        self._network_disabled = offline
 
     def _throttle(self) -> None:
         elapsed = time.monotonic() - self._last_request
@@ -165,15 +177,34 @@ class AbstractFetcher:
             time.sleep(REQUEST_DELAY_SEC - elapsed)
         self._last_request = time.monotonic()
 
+    def _note_failure(self) -> None:
+        self._consecutive_failures += 1
+        if self._consecutive_failures >= CIRCUIT_BREAKER_FAILURES:
+            self._network_disabled = True
+
+    def _note_success(self) -> None:
+        self._consecutive_failures = 0
+
+    def _network_ok(self) -> bool:
+        return not self.offline and not self._network_disabled
+
     def _get_json(self, url: str, *, params: dict | None = None) -> dict | None:
+        if not self._network_ok():
+            return None
         self._throttle()
         try:
             r = self.session.get(url, params=params, timeout=REQUEST_TIMEOUT)
             if r.status_code == 404:
+                self._note_success()
                 return None
             r.raise_for_status()
+            self._note_success()
             return r.json()
+        except (requests.Timeout, requests.ConnectionError):
+            self._note_failure()
+            return None
         except (requests.RequestException, json.JSONDecodeError):
+            self._note_failure()
             return None
 
     def fetch_openalex(self, doi: str) -> str:
@@ -207,6 +238,8 @@ class AbstractFetcher:
         return abstract if len(abstract) >= MIN_ABSTRACT_LEN else ""
 
     def fetch_arxiv_api(self, title: str) -> str:
+        if not self._network_ok():
+            return ""
         self._throttle()
         query = f'ti:"{title}"'
         try:
@@ -217,7 +250,12 @@ class AbstractFetcher:
                 headers={"User-Agent": USER_AGENT},
             )
             r.raise_for_status()
+            self._note_success()
+        except (requests.Timeout, requests.ConnectionError):
+            self._note_failure()
+            return ""
         except requests.RequestException:
+            self._note_failure()
             return ""
         try:
             root = ET.fromstring(r.text)
@@ -268,11 +306,11 @@ class AbstractFetcher:
             self._store(cache_keys, abstract, "arxiv-local", doi=doi)
             return abstract, "arxiv-local"
 
-        if doi:
+        if doi and self._network_ok():
             for source, fn in (
                 ("openalex", self.fetch_openalex),
-                ("semantic-scholar", self.fetch_semantic_scholar),
                 ("crossref", self.fetch_crossref),
+                ("semantic-scholar", self.fetch_semantic_scholar),
             ):
                 abstract = fn(doi)
                 if abstract:
