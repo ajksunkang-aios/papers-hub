@@ -1,0 +1,21 @@
+{
+  "id": "compiler",
+  "title": "Compiler Papers Hub",
+  "tagline": "Recent top compiler & PL papers",
+  "tagline_timezone": "UTC+8",
+  "lede": "Browse proceedings from top programming-languages and compiler venues (dblp). Example hub - run ./publish.sh with HUB=compiler after filling venues and building data.",
+  "venue_order": ["POPL", "PLDI", "OOPSLA", "CC", "CGO", "ECOOP"],
+  "pick_years": [2024, 2025, 2026],
+  "timeline_year": 2026,
+  "timezone": "Asia/Shanghai",
+  "sections": {
+    "timeline": { "title": "2026 conference timeline", "enabled": true },
+    "broadcast": { "title": "Recent top compiler papers", "enabled": true },
+    "top_picks": { "title": "Compiler picks by areas", "enabled": true },
+    "conferences": { "title": "Conference proceedings", "enabled": true }
+  },
+  "paths": {
+    "site_dir": "hubs/compiler/site",
+    "dblp_xml": "data/dblp.xml.gz"
+  }
+}

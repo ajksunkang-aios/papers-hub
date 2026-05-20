@@ -24,6 +24,9 @@ from typing import Iterable
 
 import requests
 
+from core.hub_config import Hub, add_hub_argument, load_hub
+from core.keywords import score_keywords
+
 ARXIV_API = "http://export.arxiv.org/api/query"
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
 USER_AGENT = "top-conference-arxiv/1.0 (research; +https://github.com/example/top-conference)"
@@ -150,6 +153,19 @@ NOISE_PRIMARY_CATEGORIES = frozenset(
     {"cs.AI", "cs.CV", "cs.HC", "cs.GR", "cs.CY", "cs.IR", "cs.CL"}
 )
 
+_ACTIVE_HUB: Hub | None = None
+
+
+def set_active_hub(hub: Hub) -> None:
+    global _ACTIVE_HUB
+    _ACTIVE_HUB = hub
+
+
+def active_hub() -> Hub:
+    if _ACTIVE_HUB is None:
+        return load_hub("os-kernel")
+    return _ACTIVE_HUB
+
 
 @dataclass
 class ArxivPaper:
@@ -246,49 +262,16 @@ def parse_entries(xml_text: str, *, source_feed: str) -> list[ArxivPaper]:
     return papers
 
 
-def score_keywords(
-    text: str,
-    keywords: list[tuple[str, int]],
-    strong_keywords: set[str],
-    *,
-    max_tags: int = 6,
-) -> tuple[int, list[str]]:
-    """Match longest phrases first so bare 'kernel' does not double-count OS phrases."""
-    text = text.lower()
-    score = 0
-    tags: list[str] = []
-    matched_ranges: list[tuple[int, int]] = []
-
-    def overlaps(start: int, end: int) -> bool:
-        return any(s < end and start < e for s, e in matched_ranges)
-
-    for keyword, weight in sorted(keywords, key=lambda x: -len(x[0])):
-        start = 0
-        while True:
-            idx = text.find(keyword, start)
-            if idx < 0:
-                break
-            end = idx + len(keyword)
-            if not overlaps(idx, end):
-                score += weight
-                if keyword not in tags:
-                    tags.append(keyword)
-                matched_ranges.append((idx, end))
-            start = idx + 1
-
-    if any(k in text for k in strong_keywords):
-        score += 2
-    return score, tags[:max_tags]
-
-
 def score_relevance(title: str, abstract: str) -> tuple[int, list[str]]:
+    hub = active_hub()
     text = f"{title} {abstract}"
-    return score_keywords(text, SYS_LLM_KEYWORDS, STRONG_KEYWORDS)
+    return score_keywords(text, hub.sys_keywords, hub.sys_strong)
 
 
 def score_relevance_cl(title: str, abstract: str) -> tuple[int, list[str]]:
+    hub = active_hub()
     text = f"{title} {abstract}"
-    score, tags = score_keywords(text, CL_SYS_KEYWORDS, CL_STRONG_KEYWORDS)
+    score, tags = score_keywords(text, hub.cl_keywords, hub.cl_strong)
     blob = text.lower()
     if "linux kernel" in blob:
         score += 10
@@ -303,7 +286,7 @@ def _text_blob(title: str, abstract: str) -> str:
 
 def has_os_signal(title: str, abstract: str) -> bool:
     text = _text_blob(title, abstract)
-    return any(k in text for k in OS_GATE_KEYWORDS)
+    return any(k in text for k in active_hub().os_gate_keywords)
 
 
 def has_linux_or_os_kernel(title: str, abstract: str) -> bool:
@@ -313,7 +296,7 @@ def has_linux_or_os_kernel(title: str, abstract: str) -> bool:
 
 def has_llm_systems_signal(title: str, abstract: str) -> bool:
     text = _text_blob(title, abstract)
-    return any(k in text for k in LLM_SYSTEMS_KEYWORDS)
+    return any(k in text for k in active_hub().llm_systems_keywords)
 
 
 def has_cs_os_category(categories: list[str]) -> bool:
@@ -328,7 +311,7 @@ def passes_systems_gate(
     source_feed: str,
 ) -> bool:
     """True if paper is OS / system-software relevant (not generic NLP/ML)."""
-    if source_feed == "cs.OS":
+    if source_feed != "cs.CL":
         return True
     # cs.CL: require OS cross-list or system-software terms (not LLM-serving keywords alone).
     if has_cs_os_category(categories):
@@ -344,7 +327,7 @@ def passes_top_arxiv_gate(paper: dict) -> bool:
     """Stricter gate for monthly top picks."""
     feed = paper.get("source_feed", "")
     if feed not in ("cs.OS", "cs.CL"):
-        return False
+        return True
 
     title = paper.get("title", "")
     abstract = paper.get("abstract", "")
@@ -363,7 +346,7 @@ def passes_top_arxiv_gate(paper: dict) -> bool:
         return True
 
     # cs.CL: always require OS / system-software (gate above); noisy primaries need cs.OS cross-list or OS terms.
-    if primary in NOISE_PRIMARY_CATEGORIES:
+    if primary in active_hub().noise_primary_categories:
         return has_cs_os_category(categories) or has_os_signal(title, abstract)
     return True
 
@@ -495,6 +478,7 @@ def dedupe_dicts(papers: list[dict]) -> list[dict]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Crawl recent arXiv OS/LLM papers.")
+    add_hub_argument(parser)
     parser.add_argument(
         "--refilter-json",
         action="store_true",
@@ -517,13 +501,20 @@ def main() -> int:
     )
     parser.add_argument(
         "--output-json",
-        default="website/data/arxiv-recent.json",
-        help="output JSON path",
+        default=None,
+        help="output JSON path (default: <hub site>/data/arxiv-recent.json)",
     )
     args = parser.parse_args()
 
-    root = Path(__file__).resolve().parent
-    out_json = root / args.output_json
+    hub = load_hub(args.hub)
+    set_active_hub(hub)
+    root = hub.root
+    out_json = Path(args.output_json) if args.output_json else hub.site_json_path("arxiv-recent.json")
+    policy = hub.arxiv_policy
+    if args.cl_min_score == 6:
+        args.cl_min_score = int(policy.get("cl_min_score_default", args.cl_min_score))
+    if args.days == 14:
+        args.days = int(policy.get("days_default", args.days))
 
     if args.refilter_json:
         before, after = refilter_json(out_json, args.cl_min_score)
@@ -543,8 +534,9 @@ def main() -> int:
     if filter_years is not None:
         min_year = min(filter_years)
         days = days_since_year_start(min_year)
-        args.os_max = max(args.os_max, 200)
-        args.cl_max = max(args.cl_max, 500)
+        boost = policy.get("years_fetch_boost", {})
+        args.os_max = max(args.os_max, int(boost.get("os_max", 200)))
+        args.cl_max = max(args.cl_max, int(boost.get("cl_max", 500)))
         label = ",".join(str(y) for y in sorted(filter_years))
         print(f"Year filter {label} (scanning ~{days} days, os_max={args.os_max}, cl_max={args.cl_max})")
 
@@ -554,32 +546,36 @@ def main() -> int:
         return within_days(iso_ts, days)
 
     all_papers: list[ArxivPaper] = []
+    feed_defs = policy.get("feeds", [{"id": "cs.OS"}, {"id": "cs.CL", "filter": "cl_systems"}])
+    max_by_feed = {
+        "cs.OS": args.os_max,
+        "cs.CL": args.cl_max,
+    }
 
-    print("Fetching cs.OS...")
-    os_xml = fetch_feed(session, "cs.OS", args.os_max)
-    time.sleep(3)
-    os_papers = parse_entries(os_xml, source_feed="cs.OS")
-    for p in os_papers:
-        if not passes_date_filter(p.published):
-            continue
-        score, tags = score_relevance(p.title, p.abstract)
-        p.relevance_score = max(score, 1)
-        p.relevance_tags = tags[:6] if tags else ["operating systems"]
-        all_papers.append(p)
-    print(f"  kept {len([p for p in all_papers if p.source_feed == 'cs.OS'])} cs.OS papers")
-
-    print("Fetching cs.CL (systems/LLM filter)...")
-    cl_xml = fetch_feed(session, "cs.CL", args.cl_max)
-    cl_papers = parse_entries(cl_xml, source_feed="cs.CL")
-    cl_kept = 0
-    for p in cl_papers:
-        if not passes_date_filter(p.published):
-            continue
-        filtered = filter_cl_paper(p, args.cl_min_score)
-        if filtered:
-            all_papers.append(filtered)
-            cl_kept += 1
-    print(f"  kept {cl_kept} cs.CL papers")
+    for i, feed in enumerate(feed_defs):
+        feed_id = feed["id"]
+        feed_max = int(max_by_feed.get(feed_id, feed.get("default_max", 40)))
+        if i > 0:
+            time.sleep(3)
+        print(f"Fetching {feed_id}...")
+        xml = fetch_feed(session, feed_id, feed_max)
+        entries = parse_entries(xml, source_feed=feed_id)
+        kept = 0
+        for p in entries:
+            if not passes_date_filter(p.published):
+                continue
+            if feed.get("filter") == "cl_systems":
+                filtered = filter_cl_paper(p, args.cl_min_score)
+                if not filtered:
+                    continue
+                all_papers.append(filtered)
+            else:
+                score, tags = score_relevance(p.title, p.abstract)
+                p.relevance_score = max(score, 1)
+                p.relevance_tags = tags[:6] if tags else [feed_id.lower()]
+                all_papers.append(p)
+            kept += 1
+        print(f"  kept {kept} {feed_id} papers")
 
     all_papers = dedupe(all_papers)
     all_papers.sort(key=lambda p: p.published, reverse=True)
@@ -587,14 +583,11 @@ def main() -> int:
     fetched_at = datetime.now(timezone.utc).isoformat()
     payload = {
         "fetched_at": fetched_at,
+        "hub_id": hub.id,
         "sources": [
-            {"id": "cs.OS", "url": "https://arxiv.org/list/cs.OS/recent"},
-            {"id": "cs.CL", "url": "https://arxiv.org/list/cs.CL/recent"},
+            {"id": f["id"], "url": f"https://arxiv.org/list/{f['id']}/recent"} for f in feed_defs
         ],
-        "filter_note": (
-            "cs.CL: OS cross-list or system-software terms required (linux/os kernel weighted "
-            "highest); generic LLM/NLP or serving-only papers excluded."
-        ),
+        "filter_note": policy.get("filter_note", ""),
         "count": len(all_papers),
         "papers": [asdict(p) for p in all_papers],
     }

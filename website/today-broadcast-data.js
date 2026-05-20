@@ -1,13 +1,37 @@
 export const todayBroadcast = {
-  "generated_at": "2026-05-19T12:29:37.815669+00:00",
-  "date_label": "May 18, 2026",
-  "yesterday_utc": "2026-05-18",
+  "generated_at": "2026-05-20T10:41:46.424903+08:00",
+  "date_label": "May 15–May 20, 2026 (UTC+8)",
+  "window_start_utc8": "2026-05-15",
+  "window_end_utc8": "2026-05-20",
   "pool_note": "",
-  "note": "Top 3 arXiv papers from yesterday (UTC) strongly related to Linux/OS kernel, system software, or systems LLM.",
-  "count": 1,
+  "note": "Top arXiv papers from the last 7 days (UTC+8), preferring today and yesterday.",
+  "preview_limit": 3,
+  "count": 3,
+  "total_count": 4,
   "picks": [
     {
       "rank": 1,
+      "title": "C2CServe: Leveraging NVLink-C2C for Elastic Serverless LLM Serving on MIG",
+      "authors": [
+        "Shutian Luo",
+        "Ali Zafar Sadiq",
+        "Rui Yang",
+        "Mingye Zhang"
+      ],
+      "score": 64,
+      "matched_tags": [
+        "llm serving",
+        "kernel",
+        "llm"
+      ],
+      "published": "2026-05-19T07:34:08Z",
+      "abs_url": "https://arxiv.org/abs/2605.19481v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19481v1",
+      "source_feed": "cs.OS",
+      "arxiv_id": "2605.19481v1"
+    },
+    {
+      "rank": 2,
       "title": "TIDAL: Recovering Temporal Phase for Cloud Block Storage Placement from LLM-Derived Semantics",
       "authors": [
         "Difan Tan",
@@ -24,6 +48,110 @@ export const todayBroadcast = {
       "pdf_url": "https://arxiv.org/pdf/2605.18066v1",
       "source_feed": "cs.OS",
       "arxiv_id": "2605.18066v1"
+    },
+    {
+      "rank": 3,
+      "title": "SemaTune: Semantic-Aware Online OS Tuning with Large Language Models",
+      "authors": [
+        "Georgios Liargkovas",
+        "Mihir Nitin Joshi",
+        "Hubertus Franke",
+        "Kostis Kaffes"
+      ],
+      "score": 4,
+      "matched_tags": [
+        "kernel",
+        "llm"
+      ],
+      "published": "2026-05-14T16:25:32Z",
+      "abs_url": "https://arxiv.org/abs/2605.15026v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.15026v1",
+      "source_feed": "cs.OS",
+      "arxiv_id": "2605.15026v1"
+    }
+  ],
+  "all_picks": [
+    {
+      "rank": 1,
+      "title": "C2CServe: Leveraging NVLink-C2C for Elastic Serverless LLM Serving on MIG",
+      "authors": [
+        "Shutian Luo",
+        "Ali Zafar Sadiq",
+        "Rui Yang",
+        "Mingye Zhang"
+      ],
+      "score": 64,
+      "matched_tags": [
+        "llm serving",
+        "kernel",
+        "llm"
+      ],
+      "published": "2026-05-19T07:34:08Z",
+      "abs_url": "https://arxiv.org/abs/2605.19481v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19481v1",
+      "source_feed": "cs.OS",
+      "arxiv_id": "2605.19481v1"
+    },
+    {
+      "rank": 2,
+      "title": "TIDAL: Recovering Temporal Phase for Cloud Block Storage Placement from LLM-Derived Semantics",
+      "authors": [
+        "Difan Tan",
+        "Changlin Wan",
+        "Jiawen Liu",
+        "Hua Wang"
+      ],
+      "score": 4,
+      "matched_tags": [
+        "llm"
+      ],
+      "published": "2026-05-18T08:49:16Z",
+      "abs_url": "https://arxiv.org/abs/2605.18066v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.18066v1",
+      "source_feed": "cs.OS",
+      "arxiv_id": "2605.18066v1"
+    },
+    {
+      "rank": 3,
+      "title": "SemaTune: Semantic-Aware Online OS Tuning with Large Language Models",
+      "authors": [
+        "Georgios Liargkovas",
+        "Mihir Nitin Joshi",
+        "Hubertus Franke",
+        "Kostis Kaffes"
+      ],
+      "score": 4,
+      "matched_tags": [
+        "kernel",
+        "llm"
+      ],
+      "published": "2026-05-14T16:25:32Z",
+      "abs_url": "https://arxiv.org/abs/2605.15026v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.15026v1",
+      "source_feed": "cs.OS",
+      "arxiv_id": "2605.15026v1"
+    },
+    {
+      "rank": 4,
+      "title": "PreFT: Prefill-only finetuning for efficient inference",
+      "authors": [
+        "Andrew Lanpouthakoun",
+        "Aryaman Arora",
+        "Zhengxuan Wu",
+        "Dhruv Pai"
+      ],
+      "score": 24,
+      "matched_tags": [
+        "memory management",
+        "llm inference",
+        "kernel",
+        "llm"
+      ],
+      "published": "2026-05-14T00:19:41Z",
+      "abs_url": "https://arxiv.org/abs/2605.14217v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.14217v1",
+      "source_feed": "cs.CL",
+      "arxiv_id": "2605.14217v1"
     }
   ]
 };

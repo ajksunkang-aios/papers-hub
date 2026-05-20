@@ -30,6 +30,8 @@ ROOT = Path(__file__).resolve().parent
 DEFAULT_XML = ROOT / "data" / "dblp.xml.gz"
 WEB_DATA = ROOT / "website" / "data"
 
+from core.hub_config import Hub, add_hub_argument, load_hub  # noqa: E402
+
 PROCEEDINGS_KEY = re.compile(r"^conf/[^/]+/\d{4}(-\d+)?$")
 
 
@@ -48,8 +50,8 @@ class VenueConfig:
         return keys
 
 
-def load_venues() -> dict[str, VenueConfig]:
-    raw = json.loads((ROOT / "venues.json").read_text(encoding="utf-8"))
+def load_venues(hub: Hub | None = None) -> dict[str, VenueConfig]:
+    raw = hub.venues_raw if hub else json.loads((ROOT / "venues.json").read_text(encoding="utf-8"))
     out: dict[str, VenueConfig] = {}
     for v in raw["venues"]:
         out[v["slug"]] = VenueConfig(
@@ -223,8 +225,13 @@ def source_urls_for(slug: str, year: int) -> list[str]:
     return urls
 
 
-def write_website(grouped: dict[tuple[str, int], list[dict]], venues: dict[str, VenueConfig]) -> int:
-    WEB_DATA.mkdir(parents=True, exist_ok=True)
+def write_website(
+    grouped: dict[tuple[str, int], list[dict]],
+    venues: dict[str, VenueConfig],
+    *,
+    web_data: Path = WEB_DATA,
+) -> int:
+    web_data.mkdir(parents=True, exist_ok=True)
     manifest_entries = []
 
     for (slug, year), papers in sorted(grouped.items(), key=lambda x: (-x[0][1], x[0][0])):
@@ -249,7 +256,7 @@ def write_website(grouped: dict[tuple[str, int], list[dict]], venues: dict[str, 
             "display_count": len(papers_sorted),
             "papers": papers_sorted,
         }
-        out = WEB_DATA / f"{conf_id}.json"
+        out = web_data / f"{conf_id}.json"
         out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         manifest_entries.append(
             {
@@ -266,10 +273,10 @@ def write_website(grouped: dict[tuple[str, int], list[dict]], venues: dict[str, 
 
     generated_at = datetime.now(timezone.utc).isoformat()
     manifest = {"conferences": manifest_entries, "generated_at": generated_at}
-    (WEB_DATA / "conferences.json").write_text(
+    (web_data / "conferences.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    (WEB_DATA / "build-info.json").write_text(
+    (web_data / "build-info.json").write_text(
         json.dumps(
             {
                 "generated_at": generated_at,
@@ -283,8 +290,16 @@ def write_website(grouped: dict[tuple[str, int], list[dict]], venues: dict[str, 
         encoding="utf-8",
     )
     valid_ids = {e["id"] for e in manifest_entries}
-    for stale in WEB_DATA.glob("*.json"):
-        if stale.name in ("conferences.json", "arxiv-recent.json"):
+    for stale in web_data.glob("*.json"):
+        if stale.name in (
+            "conferences.json",
+            "arxiv-recent.json",
+            "build-info.json",
+            "conference-timeline.json",
+            "top-monthly.json",
+            "today-broadcast.json",
+            "hub.json",
+        ):
             continue
         stem = stale.stem
         if stem not in valid_ids:
@@ -297,16 +312,18 @@ def write_website(grouped: dict[tuple[str, int], list[dict]], venues: dict[str, 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Parse dblp XML for top OS venues.")
+    add_hub_argument(parser)
     parser.add_argument("--download", action="store_true", help="download dblp.xml.gz")
     parser.add_argument("--build-website", action="store_true", help="parse XML and write website/data")
     parser.add_argument("--all", action="store_true", help="download + build")
-    parser.add_argument("--xml", type=Path, default=DEFAULT_XML, help="path to dblp.xml.gz")
+    parser.add_argument("--xml", type=Path, default=None, help="path to dblp.xml.gz")
     args = parser.parse_args()
+    hub = load_hub(args.hub)
+    xml_path = args.xml or hub.dblp_xml
 
     if not (args.download or args.build_website or args.all):
         args.all = True
 
-    xml_path = args.xml
     if args.download or args.all:
         download_xml(xml_path)
 
@@ -314,14 +331,14 @@ def main() -> int:
         if not xml_path.is_file():
             print(f"Missing {xml_path}; run with --download first", file=sys.stderr)
             return 1
-        venues = load_venues()
-        print("Streaming parse (this may take several minutes)...")
+        venues = load_venues(hub)
+        print(f"Streaming parse for hub {hub.id} (this may take several minutes)...")
         grouped = stream_parse(xml_path, venues)
         if not grouped:
             print("No papers matched; check venue slugs.", file=sys.stderr)
             return 2
-        print("Writing website data...")
-        write_website(grouped, venues)
+        print(f"Writing website data to {hub.web_data}...")
+        write_website(grouped, venues, web_data=hub.web_data)
 
     return 0
 

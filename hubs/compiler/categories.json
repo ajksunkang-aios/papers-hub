@@ -1,0 +1,61 @@
+{
+  "min_category_score": 4,
+  "per_category_limit": 5,
+  "default_years": [2024, 2025, 2026],
+  "section_heading": "Compiler picks by areas",
+  "categories": [
+    {
+      "id": "ir-optimization",
+      "label": "IR and Optimization",
+      "keywords": [
+        ["intermediate representation", 14],
+        ["llvm", 12],
+        ["ssa", 10],
+        ["dataflow", 8],
+        ["register allocation", 10],
+        ["loop optimization", 10],
+        ["alias analysis", 10],
+        ["dead code elimination", 8],
+        ["instruction selection", 8]
+      ]
+    },
+    {
+      "id": "jit-codegen",
+      "label": "JIT and Code Generation",
+      "keywords": [
+        ["just-in-time", 12],
+        ["jit compiler", 14],
+        ["code generation", 10],
+        ["backend", 6],
+        ["machine code", 8],
+        ["binary translation", 10],
+        ["tiered compilation", 10]
+      ]
+    },
+    {
+      "id": "static-analysis",
+      "label": "Static Analysis",
+      "keywords": [
+        ["static analysis", 14],
+        ["abstract interpretation", 12],
+        ["pointer analysis", 10],
+        ["type inference", 8],
+        ["control-flow analysis", 8],
+        ["program analysis", 8],
+        ["soundness", 6]
+      ]
+    },
+    {
+      "id": "verification",
+      "label": "Verification and Correctness",
+      "keywords": [
+        ["formal verification", 12],
+        ["proof assistant", 10],
+        ["refinement type", 10],
+        ["model checking", 8],
+        ["certified compilation", 12],
+        ["semantic preservation", 10]
+      ]
+    }
+  ]
+}

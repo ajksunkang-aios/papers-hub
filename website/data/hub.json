@@ -1,0 +1,50 @@
+{
+  "id": "os-kernel",
+  "title": "OS Kernel Papers Hub",
+  "tagline": "Recent top kernel & system LLM paper",
+  "tagline_timezone": "UTC+8",
+  "lede": "Browse proceedings from top systems venues (dblp). Full historical data for SOSP, OSDI, NSDI, ASPLOS, EuroSys, ISCA, FAST, USENIX Security, USENIX ATC, and ICSE.",
+  "venue_order": [
+    "SOSP",
+    "OSDI",
+    "NSDI",
+    "ASPLOS",
+    "EuroSys",
+    "ISCA",
+    "FAST",
+    "USENIX Security",
+    "USENIX ATC",
+    "ICSE"
+  ],
+  "pick_years": [
+    2024,
+    2025,
+    2026
+  ],
+  "timeline_year": 2026,
+  "sections": {
+    "timeline": {
+      "title": "2026 conference timeline",
+      "enabled": true
+    },
+    "broadcast": {
+      "title": "Recent top kernel & system LLM paper",
+      "enabled": true
+    },
+    "top_picks": {
+      "title": "OS Kernel & LLM picks by areas",
+      "enabled": true
+    },
+    "conferences": {
+      "title": "Conference proceedings",
+      "enabled": true
+    }
+  },
+  "categories": {
+    "section_heading": "OS Kernel & LLM picks by areas"
+  },
+  "arxiv": {
+    "filter_note": "cs.CL: OS cross-list or system-software terms required; generic LLM/NLP or serving-only papers excluded.",
+    "broadcast_note": "Top arXiv papers from the last 7 days (UTC+8), preferring today and yesterday."
+  }
+}

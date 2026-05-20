@@ -1,0 +1,41 @@
+{
+  "feeds": [
+    { "id": "cs.PL", "max_param": "os_max", "default_max": 80 }
+  ],
+  "sys_keywords": [
+    ["compiler", 10],
+    ["compilation", 8],
+    ["programming language", 8],
+    ["static analysis", 10],
+    ["llvm", 12],
+    ["intermediate representation", 12],
+    ["code generation", 10],
+    ["type system", 8],
+    ["optimization", 4]
+  ],
+  "sys_strong": ["compiler", "llvm", "static analysis", "intermediate representation"],
+  "cl_keywords": [],
+  "cl_strong": [],
+  "os_gate_keywords": ["compiler", "compilation", "programming language", "static analysis", "llvm"],
+  "llm_systems_keywords": [],
+  "noise_primary_categories": [],
+  "cl_min_score_default": 6,
+  "days_default": 14,
+  "years_fetch_boost": { "os_max": 300 },
+  "filter_note": "cs.PL recent feed; scored by compiler / PL keyword relevance.",
+  "broadcast": {
+    "limit": 3,
+    "min_score": 4,
+    "lookback_days": 7,
+    "keywords": [
+      ["compiler", 16],
+      ["llvm", 14],
+      ["static analysis", 14],
+      ["program synthesis", 10],
+      ["code generation", 10],
+      ["type system", 8]
+    ],
+    "strong": ["compiler", "llvm", "static analysis"],
+    "note": "Top arXiv cs.PL papers from the last 7 days (UTC+8), preferring today and yesterday."
+  }
+}

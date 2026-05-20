@@ -701,80 +701,24 @@ function renderTodayBroadcast(data) {
   const note = document.getElementById("broadcast-note");
   if (!section || !list) return;
 
-  const previewLimit = data?.preview_limit ?? data?.picks?.length ?? 3;
-  const allPicks =
-    data?.all_picks?.length > 0 ? data.all_picks : data?.picks?.length ? data.picks : [];
+  const picks = data?.picks || [];
   const dateLabel = data.date_label || "Recent";
-  const totalCount = data?.total_count ?? allPicks.length;
-  let expanded = false;
-
-  let actions = section.querySelector(".broadcast-actions");
-  if (!actions) {
-    actions = document.createElement("div");
-    actions.className = "broadcast-actions";
-    actions.innerHTML =
-      '<button type="button" class="broadcast-more-btn top-more-btn" id="broadcast-more-btn" hidden></button>';
-    list.after(actions);
-  }
-  const moreBtn = actions.querySelector("#broadcast-more-btn");
 
   section.hidden = false;
   const built = data?.generated_at ? ` | updated ${formatGeneratedAtUtc8(data.generated_at)}` : "";
+  meta.textContent =
+    picks.length > 0
+      ? `${dateLabel} | top ${picks.length} paper${picks.length === 1 ? "" : "s"}${built}`
+      : `No recent matches (UTC+8)${built}`;
 
-  function updateMeta(shownCount) {
-    if (!allPicks.length) {
-      meta.textContent = `No recent matches (UTC+8)${built}`;
-      return;
-    }
-    if (totalCount > previewLimit) {
-      meta.textContent = `${dateLabel} | showing ${shownCount} of ${totalCount} papers${built}`;
-    } else {
-      meta.textContent = `${dateLabel} | ${totalCount} paper${totalCount === 1 ? "" : "s"}${built}`;
-    }
-  }
-
-  function paintList() {
-    const shown = expanded ? allPicks : allPicks.slice(0, previewLimit);
-    list.innerHTML = shown.map((p) => renderBroadcastCard(p)).join("");
-    updateMeta(shown.length);
-
-    const hasMore = totalCount > previewLimit;
-    if (!moreBtn) return;
-    if (!hasMore) {
-      moreBtn.hidden = true;
-      return;
-    }
-    moreBtn.hidden = false;
-    moreBtn.textContent = expanded ? "Show less" : `More (${totalCount})`;
-    moreBtn.setAttribute("aria-expanded", expanded ? "true" : "false");
-  }
-
-  if (!allPicks.length) {
+  if (!picks.length) {
     list.innerHTML = '<p class="empty empty-compact">No strong papers for the recent day (UTC+8).</p>';
     note.textContent = data.pool_note || data.note || "";
-    if (moreBtn) moreBtn.hidden = true;
-    updateMeta(0);
     return;
   }
 
   note.textContent = data.note || "";
-  paintList();
-
-  if (moreBtn && !moreBtn.dataset.wired) {
-    moreBtn.dataset.wired = "1";
-    moreBtn.addEventListener("click", () => {
-      expanded = !expanded;
-      paintList();
-      if (expanded) {
-        moreBtn.scrollIntoView({
-          behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
-            ? "auto"
-            : "smooth",
-          block: "nearest",
-        });
-      }
-    });
-  }
+  list.innerHTML = picks.map((p) => renderBroadcastCard(p)).join("");
 }
 
 async function loadTodayBroadcast() {

@@ -1,0 +1,404 @@
+{
+  "feeds": [
+    {
+      "id": "cs.OS",
+      "max_param": "os_max",
+      "default_max": 40
+    },
+    {
+      "id": "cs.CL",
+      "max_param": "cl_max",
+      "default_max": 120,
+      "filter": "cl_systems"
+    }
+  ],
+  "sys_keywords": [
+    [
+      "linux kernel",
+      12
+    ],
+    [
+      "os kernel",
+      12
+    ],
+    [
+      "kernel module",
+      8
+    ],
+    [
+      "operating system",
+      4
+    ],
+    [
+      "file system",
+      4
+    ],
+    [
+      "system software",
+      4
+    ],
+    [
+      "runtime system",
+      3
+    ],
+    [
+      "storage system",
+      3
+    ],
+    [
+      "memory management",
+      3
+    ],
+    [
+      "inference serving",
+      3
+    ],
+    [
+      "model serving",
+      3
+    ],
+    [
+      "kv cache",
+      3
+    ],
+    [
+      "training system",
+      3
+    ],
+    [
+      "large language model",
+      2
+    ],
+    [
+      "llm",
+      1
+    ],
+    [
+      "distributed system",
+      2
+    ],
+    [
+      "scheduler",
+      2
+    ],
+    [
+      "virtualization",
+      2
+    ],
+    [
+      "ebpf",
+      3
+    ],
+    [
+      "rdma",
+      2
+    ],
+    [
+      "nvme",
+      2
+    ],
+    [
+      "kernel",
+      1
+    ],
+    [
+      "vllm",
+      2
+    ],
+    [
+      "deepspeed",
+      2
+    ]
+  ],
+  "sys_strong": [
+    "file system",
+    "kernel module",
+    "linux kernel",
+    "operating system",
+    "os kernel",
+    "runtime system",
+    "storage system",
+    "system software"
+  ],
+  "cl_keywords": [
+    [
+      "linux kernel",
+      20
+    ],
+    [
+      "os kernel",
+      20
+    ],
+    [
+      "kernel module",
+      12
+    ],
+    [
+      "operating system",
+      8
+    ],
+    [
+      "file system",
+      8
+    ],
+    [
+      "filesystem",
+      8
+    ],
+    [
+      "system software",
+      8
+    ],
+    [
+      "syscall",
+      7
+    ],
+    [
+      "device driver",
+      7
+    ],
+    [
+      "ebpf",
+      7
+    ],
+    [
+      "memory management",
+      6
+    ],
+    [
+      "virtual memory",
+      6
+    ],
+    [
+      "page cache",
+      6
+    ],
+    [
+      "runtime system",
+      6
+    ],
+    [
+      "storage system",
+      6
+    ],
+    [
+      "virtualization",
+      5
+    ],
+    [
+      "hypervisor",
+      5
+    ],
+    [
+      "container runtime",
+      5
+    ],
+    [
+      "distributed system",
+      4
+    ],
+    [
+      "rdma",
+      4
+    ],
+    [
+      "nvme",
+      4
+    ],
+    [
+      "scheduler",
+      4
+    ],
+    [
+      "inference serving",
+      4
+    ],
+    [
+      "model serving",
+      4
+    ],
+    [
+      "kv cache",
+      3
+    ],
+    [
+      "training system",
+      3
+    ],
+    [
+      "kernel",
+      1
+    ],
+    [
+      "large language model",
+      1
+    ],
+    [
+      "llm",
+      1
+    ]
+  ],
+  "cl_strong": [
+    "file system",
+    "kernel module",
+    "linux kernel",
+    "operating system",
+    "os kernel",
+    "system software"
+  ],
+  "os_gate_keywords": [
+    "operating system",
+    "linux kernel",
+    "os kernel",
+    "kernel module",
+    "file system",
+    "filesystem",
+    "memory management",
+    "virtual memory",
+    "page cache",
+    "system software",
+    "runtime system",
+    "storage system",
+    "device driver",
+    "syscall",
+    "ebpf",
+    "virtualization",
+    "hypervisor",
+    "container runtime"
+  ],
+  "llm_systems_keywords": [
+    "inference serving",
+    "model serving",
+    "llm serving",
+    "llm inference",
+    "kv cache",
+    "speculative decoding",
+    "training system",
+    "vllm",
+    "deepspeed",
+    "megatron",
+    "disaggregated"
+  ],
+  "noise_primary_categories": [
+    "cs.AI",
+    "cs.CL",
+    "cs.CV",
+    "cs.CY",
+    "cs.GR",
+    "cs.HC",
+    "cs.IR"
+  ],
+  "cl_min_score_default": 6,
+  "days_default": 14,
+  "years_fetch_boost": {
+    "os_max": 200,
+    "cl_max": 500
+  },
+  "filter_note": "cs.CL: OS cross-list or system-software terms required; generic LLM/NLP or serving-only papers excluded.",
+  "broadcast": {
+    "limit": 3,
+    "min_score": 4,
+    "lookback_days": 7,
+    "keywords": [
+      [
+        "linux kernel",
+        24
+      ],
+      [
+        "os kernel",
+        24
+      ],
+      [
+        "system software",
+        20
+      ],
+      [
+        "kernel module",
+        16
+      ],
+      [
+        "operating system",
+        12
+      ],
+      [
+        "file system",
+        10
+      ],
+      [
+        "memory management",
+        8
+      ],
+      [
+        "ebpf",
+        10
+      ],
+      [
+        "syscall",
+        8
+      ],
+      [
+        "device driver",
+        8
+      ],
+      [
+        "inference serving",
+        14
+      ],
+      [
+        "model serving",
+        14
+      ],
+      [
+        "llm serving",
+        14
+      ],
+      [
+        "llm inference",
+        12
+      ],
+      [
+        "kv cache",
+        10
+      ],
+      [
+        "speculative decoding",
+        10
+      ],
+      [
+        "training system",
+        8
+      ],
+      [
+        "vllm",
+        8
+      ],
+      [
+        "runtime system",
+        8
+      ],
+      [
+        "storage system",
+        8
+      ],
+      [
+        "kernel",
+        2
+      ],
+      [
+        "llm",
+        2
+      ]
+    ],
+    "strong": [
+      "inference serving",
+      "kernel module",
+      "linux kernel",
+      "llm serving",
+      "model serving",
+      "operating system",
+      "os kernel",
+      "system software"
+    ],
+    "note": "Top arXiv papers from the last 7 days (UTC+8), preferring today and yesterday."
+  }
+}

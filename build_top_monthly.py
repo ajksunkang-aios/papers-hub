@@ -14,12 +14,13 @@ from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 
+from core.hub_config import Hub, add_hub_argument, load_hub
 from crawl_arxiv_recent import passes_top_arxiv_gate, score_keywords
 
 ROOT = Path(__file__).resolve().parent
 WEB_DATA = ROOT / "website" / "data"
 
-# Category id, display label, (keyword, weight) — longest phrases first in scoring.
+# Default hub config (overridden by --hub via configure_hub()).
 CATEGORIES: list[dict] = [
     {
         "id": "llm-serving",
@@ -190,6 +191,16 @@ CATEGORIES: list[dict] = [
 MIN_CATEGORY_SCORE = 4
 PER_CATEGORY_LIMIT = 5
 DEFAULT_YEARS = [2024, 2025, 2026]
+_ACTIVE_WEB_DATA = WEB_DATA
+
+
+def configure_hub(hub: Hub) -> None:
+    global CATEGORIES, MIN_CATEGORY_SCORE, PER_CATEGORY_LIMIT, DEFAULT_YEARS, _ACTIVE_WEB_DATA
+    CATEGORIES = hub.category_rows
+    MIN_CATEGORY_SCORE = int(hub.categories.get("min_category_score", MIN_CATEGORY_SCORE))
+    PER_CATEGORY_LIMIT = int(hub.categories.get("per_category_limit", PER_CATEGORY_LIMIT))
+    DEFAULT_YEARS = [int(y) for y in hub.categories.get("default_years", DEFAULT_YEARS)]
+    _ACTIVE_WEB_DATA = hub.web_data
 
 
 @dataclass
@@ -284,7 +295,7 @@ def format_period_label(years: list[int]) -> str:
 
 def load_arxiv_candidates(years: list[int]) -> list[PaperCandidate]:
     year_set = set(years)
-    path = WEB_DATA / "arxiv-recent.json"
+    path = _ACTIVE_WEB_DATA / "arxiv-recent.json"
     if not path.is_file():
         return []
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -323,7 +334,7 @@ def conference_paper_url(paper: dict, meta: dict) -> str | None:
 
 def load_conference_candidates(years: list[int]) -> list[PaperCandidate]:
     year_set = set(years)
-    manifest_path = WEB_DATA / "conferences.json"
+    manifest_path = _ACTIVE_WEB_DATA / "conferences.json"
     if not manifest_path.is_file():
         return []
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -331,7 +342,7 @@ def load_conference_candidates(years: list[int]) -> list[PaperCandidate]:
     for conf in manifest.get("conferences", []):
         if conf.get("year") not in year_set:
             continue
-        data_path = WEB_DATA / f"{conf['id']}.json"
+        data_path = _ACTIVE_WEB_DATA / f"{conf['id']}.json"
         if not data_path.is_file():
             continue
         data = json.loads(data_path.read_text(encoding="utf-8"))
@@ -423,6 +434,7 @@ def build_category_picks(candidates: list[PaperCandidate]) -> list[dict]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build categorized top OS/LLM picks.")
+    add_hub_argument(parser)
     parser.add_argument(
         "--years",
         default=",".join(str(y) for y in DEFAULT_YEARS),
@@ -435,6 +447,8 @@ def main() -> int:
         help="single year shorthand (overrides --years)",
     )
     args = parser.parse_args()
+    hub = load_hub(args.hub)
+    configure_hub(hub)
 
     now = datetime.now(timezone.utc)
     years = [args.year] if args.year is not None else parse_years_list(args.years)
@@ -461,7 +475,7 @@ def main() -> int:
         "categories": categories,
     }
 
-    out_json = WEB_DATA / "top-monthly.json"
+    out_json = _ACTIVE_WEB_DATA / "top-monthly.json"
     out_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"Categorized top picks for {period}")

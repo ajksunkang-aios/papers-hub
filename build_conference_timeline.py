@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
-"""Build conference timeline JSON for the homepage (2026 editions + today)."""
+"""Build conference timeline JSON for the homepage."""
 
 from __future__ import annotations
 
+import argparse
 import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from core.hub_config import add_hub_argument, load_hub
+
 ROOT = Path(__file__).resolve().parent
-CURATED = ROOT / "conference_timeline_2026.json"
-WEB_DATA = ROOT / "website" / "data"
-OUT_JSON = WEB_DATA / "conference-timeline.json"
-OUT_JS = ROOT / "website" / "conference-timeline-data.js"
 
 
 def parse_day(iso: str) -> datetime:
@@ -19,9 +18,18 @@ def parse_day(iso: str) -> datetime:
 
 
 def main() -> int:
-    curated = json.loads(CURATED.read_text(encoding="utf-8"))
+    parser = argparse.ArgumentParser(description=__doc__)
+    add_hub_argument(parser)
+    args = parser.parse_args()
+    hub = load_hub(args.hub)
+
+    curated = hub.timeline
     year = curated["year"]
-    manifest_path = WEB_DATA / "conferences.json"
+    web_data = hub.web_data
+    out_json = web_data / "conference-timeline.json"
+    out_js = hub.site_dir / "conference-timeline-data.js"
+
+    manifest_path = web_data / "conferences.json"
     by_slug: dict[str, dict] = {}
     if manifest_path.is_file():
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -69,6 +77,7 @@ def main() -> int:
 
     payload = {
         "generated_at": now.isoformat(),
+        "hub_id": hub.id,
         "year": year,
         "today": today,
         "range_start": curated.get("range_start", f"{year}-01-01"),
@@ -77,19 +86,20 @@ def main() -> int:
         "events": events_out,
     }
 
-    OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    OUT_JS.write_text(
+    web_data.mkdir(parents=True, exist_ok=True)
+    out_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    out_js.write_text(
         "export const conferenceTimeline = "
         + json.dumps(payload, ensure_ascii=False, indent=2)
         + ";\n",
         encoding="utf-8",
     )
 
-    print(f"Timeline {year}: {len(events_out)} venues, today={today}")
+    print(f"Timeline {year} ({hub.id}): {len(events_out)} venues, today={today}")
     for e in events_out:
         flag = "dblp" if e["in_dblp"] else "pending"
         print(f"  {e['short_name']:16} {e['event_start']}  [{e['status']}] {flag}")
-    print(f"Wrote {OUT_JSON}")
+    print(f"Wrote {out_json}")
     return 0
 
 
