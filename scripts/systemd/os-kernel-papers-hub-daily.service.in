@@ -1,0 +1,14 @@
+[Unit]
+Description=OS Kernel Papers Hub daily refresh (dblp + arXiv + picks)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=@ROOT@
+Environment=HUB=@HUB@
+Environment=ABSTRACT_OFFLINE=1
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/bin/bash -lc '@ROOT@/scripts/daily_update.sh'
+StandardOutput=append:@ROOT@/logs/systemd-daily.out.log
+StandardError=append:@ROOT@/logs/systemd-daily.err.log

@@ -1,0 +1,34 @@
+=== daily_update start 2026-05-20T22:27:55+08:00 ===
+HUB=os-kernel ROOT=/Users/ajksunkang/workspace/os-kernel-papers-hub
+=== dblp build 2026-05-20T22:27:55+08:00 ===
+/Users/ajksunkang/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+dblp build up to date (xml size=1068011323:mtime=1779241958…); skip parse → /Users/ajksunkang/workspace/os-kernel-papers-hub/website/data
+=== conference timeline 2026-05-20T22:27:55+08:00 ===
+Timeline 2026 (os-kernel): 8 venues, today=2026-05-20
+  FAST             2026-02-24  [past] dblp
+  ASPLOS           2026-03-22  [past] dblp
+  EuroSys          2026-04-27  [past] dblp
+  NSDI             2026-05-04  [past] dblp
+  ISCA             2026-06-27  [upcoming] pending
+  OSDI             2026-07-13  [upcoming] pending
+  USENIX Security  2026-08-12  [upcoming] pending
+  SOSP             2026-09-29  [upcoming] pending
+Wrote /Users/ajksunkang/workspace/os-kernel-papers-hub/website/data/conference-timeline.json
+=== arxiv crawl 2026-05-20T22:27:55+08:00 ===
+/Users/ajksunkang/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Year filter 2025,2026 (date-bounded API, os_max=120, cl_max=180)
+Incremental since 2026-05-17 (overlap 2d)
+API date clause: submittedDate:[202605170734 TO 202605201427]
+Fetching cs.OS (max_results=120)...
+  query: cat:cs.OS AND submittedDate:[202605170734 TO 202605201427]
+  arXiv rate limit (cs.OS); waiting 14s...
+Traceback (most recent call last):
+  File "/Users/ajksunkang/workspace/os-kernel-papers-hub/crawl_arxiv_recent.py", line 922, in <module>
+    raise SystemExit(main())
+  File "/Users/ajksunkang/workspace/os-kernel-papers-hub/crawl_arxiv_recent.py", line 828, in main
+    xml, query_used = fetch_feed(
+  File "/Users/ajksunkang/workspace/os-kernel-papers-hub/crawl_arxiv_recent.py", line 399, in fetch_feed
+    time.sleep(wait)
+KeyboardInterrupt

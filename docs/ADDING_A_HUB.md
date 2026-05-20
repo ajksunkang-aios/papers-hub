@@ -14,7 +14,7 @@ paper-hub/
 ?   ??? os-kernel/
 ?   ?   ??? hub.json         # Branding, paths, section titles
 ?   ?   ??? venues.json      # dblp conference slugs
-?   ?   ??? categories.json  # ìTop picks by areaî keywords
+?   ?   ??? categories.json  # ùTop picks by areaù keywords
 ?   ?   ??? arxiv_policy.json  # Feeds, scoring, broadcast rules
 ?   ?   ??? conference_timeline.json
 ?   ??? compiler/            # Example second hub
@@ -32,19 +32,19 @@ paper-hub/
 
 2. **Edit `hubs/my-area/hub.json`**
    - `id`, `title`, `lede`, `venue_order`, `pick_years`
-   - `paths.site_dir` ó e.g. `hubs/my-area/site` (keep data separate from `website/`)
+   - `paths.site_dir` ù e.g. `hubs/my-area/site` (keep data separate from `website/`)
 
-3. **Edit `venues.json`** ó dblp slugs for proceedings you want (`slug` must match dblp `conf/<slug>/YYYY`).
+3. **Edit `venues.json`** ù dblp slugs for proceedings you want (`slug` must match dblp `conf/<slug>/YYYY`).
 
-4. **Edit `categories.json`** ó research sub-areas and `(phrase, weight)` keyword lists.
+4. **Edit `categories.json`** ù research sub-areas and `(phrase, weight)` keyword lists.
 
 5. **Edit `arxiv_policy.json`**
-   - `feeds`: arXiv categories (`cs.PL`, `cs.OS`, Ö)
+   - `feeds`: arXiv categories (`cs.PL`, `cs.OS`, ù)
    - `sys_keywords` / `sys_strong`: relevance scoring for the primary feed
    - `broadcast`: headline bar limits and keywords
    - For a **single primary feed** (e.g. only `cs.PL`), one feed entry is enough.
 
-6. **Edit `conference_timeline.json`** ó optional homepage timeline (event dates + slugs matching `venues.json`).
+6. **Edit `conference_timeline.json`** ù optional homepage timeline (event dates + slugs matching `venues.json`).
 
 7. **Bootstrap the static site** (once per hub):
 
@@ -81,7 +81,9 @@ python3 crawl_arxiv_recent.py --hub "$HUB" --years 2024,2025,2026
 python3 build_top_monthly.py --hub "$HUB" --years 2024,2025,2026
 python3 build_today_broadcast.py --hub "$HUB"
 python3 scripts/sync_hub_meta.py --hub "$HUB"
-cd "$(jq -r .paths.site_dir hubs/$HUB/hub.json)" && python3 -m http.server 8765
+./scripts/serve_site.sh "$HUB"
+# or: SITE_PORT=8080 ./scripts/serve_site.sh "$HUB"
+# port 80: sudo -E env SITE_PORT=80 SITE_BIND=0.0.0.0 ./scripts/serve_site.sh "$HUB"
 ```
 
 Or use `./publish.sh` with `HUB=...`.

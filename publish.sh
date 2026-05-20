@@ -52,8 +52,8 @@ python3 "$ROOT/build_today_broadcast.py" "${HUB_FLAG[@]}"
 echo "Syncing frontend hub metadata..."
 python3 "$ROOT/scripts/sync_hub_meta.py" "${HUB_FLAG[@]}"
 
-SITE_DIR="$(python3 "$ROOT/scripts/hub_site_dir.py" "$HUB")"
-SITE_DIR="$ROOT/$SITE_DIR"
-echo "Starting site at http://localhost:8765/ (${HUB})"
-cd "$SITE_DIR"
-exec python3 -m http.server 8765
+if [[ "${NO_SERVE:-0}" == "1" ]]; then
+  echo "Build complete (NO_SERVE=1; start server with ./scripts/serve_site.sh)"
+  exit 0
+fi
+exec "$ROOT/scripts/serve_site.sh" "$HUB"
