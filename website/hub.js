@@ -67,11 +67,11 @@ function applyHubBranding(hub) {
   const arxivLabel =
     hub.categories?.arxiv_mode_label ||
     sections.picks_arxiv?.title ||
-    "Recent arXiv picks by area";
+    "Recent arXiv picks by areas";
   const publishedLabel =
     hub.categories?.published_mode_label ||
     sections.picks_published?.title ||
-    "Published papers picks by area";
+    "Published paper picks by area";
   if (arxivModeBtn) arxivModeBtn.textContent = arxivLabel;
   if (publishedModeBtn) publishedModeBtn.textContent = publishedLabel;
 
@@ -225,95 +225,11 @@ function renderConferences(conferences, query) {
   renderVenueList(venues, q);
 }
 
-function __REMOVE_RENDER_PICK_ROW_START(pick, { highlightConference = false } = {}) {
-  const url = pick.paper_url || pick.abs_url || pick.dblp_url || "#";
-  const authorList = pick.authors || [];
-  const authors = escapeHtml(authorList.slice(0, 6).join(", "));
-  const more = authorList.length > 6 ? ` +${authorList.length - 6}` : "";
-  const sourceLabel =
-    pick.source === "conference"
-      ? `${pick.venue} ${pick.year}`
-      : formatTopArxivBadge(pick);
-  const confLink = pick.conference_id
-    ? `<a href="conference.html?id=${encodeURIComponent(pick.conference_id)}">Proceedings</a>`
-    : "";
-  const pdf = pick.pdf_url
-    ? `<a href="${escapeHtml(pick.pdf_url)}" target="_blank" rel="noopener">PDF</a>`
-    : "";
-  const dblp =
-    pick.dblp_url && pick.source === "conference"
-      ? `<a href="${escapeHtml(pick.dblp_url)}" target="_blank" rel="noopener">dblp</a>`
-      : "";
-  const tags = pick.matched_tags || pick.tags || [];
-  const feedMeta =
-    pick.source === "arxiv" && (pick.source_feed || pick.primary_category)
-      ? `<span class="top-feed">${escapeHtml(pick.source_feed || pick.primary_category)}</span>`
-      : "";
-  const signals =
-    tags.length > 0
-      ? `<p class="top-why"><span class="top-why-label">Signals</span>${tags.map((t) => escapeHtml(t)).join(" | ")}</p>`
-      : "";
-  const rawScore = pick.category_score ?? 0;
-  const displayScore = pick.display_score ?? rawScore;
-  const boost = pick.score_boost ?? 0;
-  let scoreAside = "";
-  if (pick.category_score != null) {
-    if (highlightConference && pick.source === "conference" && boost > 0) {
-      scoreAside = `<aside class="top-pick-aside top-pick-aside--published" aria-label="Relevance score ${displayScore}, published paper boost">
-          <span class="top-score-label">Score</span>
-          <span class="top-score top-score--published" title="Keyword ${rawScore} + ${boost} peer-reviewed boost">${displayScore}</span>
-          <span class="top-score-breakdown">${rawScore}+${boost}</span>
-        </aside>`;
-    } else {
-      scoreAside = `<aside class="top-pick-aside" aria-label="Relevance score ${rawScore}">
-          <span class="top-score-label">Score</span>
-          <span class="top-score">${rawScore}</span>
-        </aside>`;
-    }
-  }
-
-  const publishedClass =
-    highlightConference && pick.source === "conference" ? " top-pick--published" : "";
-
-  return `
-    <li class="top-pick top-pick-rich${publishedClass}">
-      <span class="top-rank" aria-hidden="true">${pick.rank}</span>
-      <div class="top-pick-main">
-        <div class="top-pick-head">
-          <span class="badge badge-${escapeHtml(pick.source)}">${escapeHtml(sourceLabel)}</span>
-          ${feedMeta}
-          ${
-            pick.published
-              ? `<time class="top-date" datetime="${escapeHtml(pick.published)}">${escapeHtml(formatDate(pick.published))}</time>`
-              : pick.year
-                ? `<span class="top-date top-date-conf">${escapeHtml(String(pick.year))} proceedings</span>`
-                : ""
-          }
-        </div>
-        <h3 class="top-title">
-          <a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(pick.title)}</a>
-        </h3>
-        <p class="top-authors">${authors}${more}</p>
-        <div class="top-tags">${tagBadges(tags, 6)}</div>
-        ${signals}
-        <div class="top-links meta meta-compact">
-          <a href="${escapeHtml(url)}" target="_blank" rel="noopener">Paper</a>
-          ${pdf}
-          ${dblp}
-          ${confLink}
-        </div>
-      </div>
-      ${scoreAside}
-    </li>
-  `;
-}
-
-
 const TOP_PREVIEW_DEFAULT = 5;
 const topPanelState = new Map();
 const topCategoriesCtxByScope = new Map();
 const topPicksCache = { arxiv: null, published: null };
-let topPicksMode = "arxiv";
+let topPicksMode = "published";
 let topPicksModeWired = false;
 
 function panelStateKey(scope, catId) {
@@ -654,11 +570,24 @@ function updateTopPicksModeUi(mode) {
   }
 }
 
+function topPicksHashMode() {
+  const raw = (location.hash || "").replace(/^#/, "");
+  if (raw === "top-picks-arxiv") return "arxiv";
+  if (raw === "top-picks-published" || raw === "top-picks-section") return "published";
+  return null;
+}
+
+function syncTopPicksHash(mode) {
+  const next = `#top-picks-${mode}`;
+  if (location.hash !== next) history.replaceState(null, "", next);
+}
+
 function setTopPicksMode(mode) {
   if (!topPicksCache[mode]) return;
   topPicksMode = mode;
   updateTopPicksModeUi(mode);
   renderTopPicksSection(topPicksCache[mode], topPicksModeConfig(mode));
+  syncTopPicksHash(mode);
 }
 
 function wireTopPicksModeSwitcher() {
@@ -718,8 +647,12 @@ function initTopPicks(arxivData, publishedData) {
   }
   if (publishedBtn) publishedBtn.disabled = !hasPublished;
 
-  if (hasArxiv) setTopPicksMode("arxiv");
-  else if (hasPublished) setTopPicksMode("published");
+  if (hasPublished) setTopPicksMode("published");
+  else if (hasArxiv) setTopPicksMode("arxiv");
+
+  const fromHash = topPicksHashMode();
+  if (fromHash === "arxiv" && hasArxiv) setTopPicksMode("arxiv");
+  else if (fromHash === "published" && hasPublished) setTopPicksMode("published");
 }
 
 async function loadTopMonthly() {

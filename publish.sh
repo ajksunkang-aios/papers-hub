@@ -12,17 +12,22 @@ if [[ ! -f "$ROOT/data/dblp.xml.gz" ]]; then
 fi
 
 echo "Building hub: ${HUB}"
-echo "Building conference data from dblp XML..."
-python3 "$ROOT/parse_dblp_xml.py" "${HUB_FLAG[@]}" --build-website
+echo "Building conference data from dblp XML (incremental)..."
+python3 "$ROOT/parse_dblp_xml.py" "${HUB_FLAG[@]}" --build-website --if-stale
 
 echo "Building conference timeline..."
 python3 "$ROOT/build_conference_timeline.py" "${HUB_FLAG[@]}"
 
-echo "Fetching arXiv papers for ${ARXIV_PICK_YEARS}..."
-python3 "$ROOT/crawl_arxiv_recent.py" "${HUB_FLAG[@]}" --years "$ARXIV_PICK_YEARS" --os-max 200 --cl-max 500
+echo "Fetching arXiv papers for ${ARXIV_PICK_YEARS} (incremental, skip if fresh 24h)..."
+python3 "$ROOT/crawl_arxiv_recent.py" "${HUB_FLAG[@]}" \
+  --years "$ARXIV_PICK_YEARS" \
+  --os-max 120 --cl-max 180 \
+  --if-stale-hours 24
 
-echo "Enriching conference paper abstracts..."
-python3 "$ROOT/enrich_conference_abstracts.py" "${HUB_FLAG[@]}" --years "$PICK_YEARS"
+echo "Enriching conference paper abstracts (skip if fresh 7d)..."
+python3 "$ROOT/enrich_conference_abstracts.py" "${HUB_FLAG[@]}" \
+  --years "$PICK_YEARS" \
+  --if-stale-hours 168
 
 echo "Building top picks (arXiv ${ARXIV_PICK_YEARS}, published ${PICK_YEARS})..."
 python3 "$ROOT/build_top_monthly.py" "${HUB_FLAG[@]}" --years "$PICK_YEARS" --arxiv-years "$ARXIV_PICK_YEARS"

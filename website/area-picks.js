@@ -30,7 +30,7 @@ function dataUrlForMode(mode) {
 }
 
 function modeLabel(mode) {
-  return mode === "published" ? "Published papers picks by area" : "Recent arXiv picks by area";
+  return mode === "published" ? "Published paper picks by area" : "Recent arXiv picks by areas";
 }
 
 async function loadPicksData(mode) {
@@ -92,7 +92,7 @@ async function main() {
 
   const back = document.getElementById("back-link");
   if (back) {
-    back.href = "index.html#top-picks-section";
+    back.href = `index.html#top-picks-${mode}`;
   }
 
   if (!area) {
@@ -105,7 +105,7 @@ async function main() {
     data = await loadPicksData(mode);
   } catch (err) {
     document.getElementById("area-title").textContent = "Failed to load";
-  document.getElementById("area-meta").textContent = `${period} · ${visible.length} papers · ${modeLabel(mode)}${built ? ` · ${built}` : ""}`;
+    document.getElementById("area-meta").textContent = String(err);
     return;
   }
 
@@ -134,7 +134,7 @@ async function main() {
   document.getElementById("area-subtitle").textContent = modeLabel(mode);
   const period = data.period_label || data.month_label || "";
   const built = data.generated_at ? `Updated ${formatGeneratedAt(data.generated_at)}` : "";
-  document.getElementById("area-meta").textContent = `${period}  ${visible.length} papers  ${modeLabel(mode)}${built ? `  ${built}` : ""}`;
+  document.getElementById("area-meta").textContent = `${period} � ${visible.length} papers � ${modeLabel(mode)}${built ? ` � ${built}` : ""}`;
   document.getElementById("area-note").textContent = data.note || "";
 
   renderYearFilterButtons(availableYears, selectedYears, area, mode);

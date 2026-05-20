@@ -31,6 +31,7 @@ DEFAULT_XML = ROOT / "data" / "dblp.xml.gz"
 WEB_DATA = ROOT / "website" / "data"
 
 from core.hub_config import Hub, add_hub_argument, load_hub  # noqa: E402
+from core.incremental import file_fingerprint, is_fresh, load_json, save_json, utc_now_iso  # noqa: E402
 
 PROCEEDINGS_KEY = re.compile(r"^conf/[^/]+/\d{4}(-\d+)?$")
 
@@ -225,6 +226,10 @@ def source_urls_for(slug: str, year: int) -> list[str]:
     return urls
 
 
+def dblp_manifest_path(hub: Hub) -> Path:
+    return hub.root / "data" / f"dblp-build-{hub.id}.json"
+
+
 def write_website(
     grouped: dict[tuple[str, int], list[dict]],
     venues: dict[str, VenueConfig],
@@ -319,6 +324,16 @@ def main() -> int:
     parser.add_argument("--build-website", action="store_true", help="parse XML and write website/data")
     parser.add_argument("--all", action="store_true", help="download + build")
     parser.add_argument("--xml", type=Path, default=None, help="path to dblp.xml.gz")
+    parser.add_argument(
+        "--if-stale",
+        action="store_true",
+        help="skip rebuild when dblp.xml.gz unchanged and conferences.json exists",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="always re-parse dblp XML and rewrite website/data",
+    )
     args = parser.parse_args()
     hub = load_hub(args.hub)
     xml_path = args.xml or hub.dblp_xml
@@ -333,6 +348,24 @@ def main() -> int:
         if not xml_path.is_file():
             print(f"Missing {xml_path}; run with --download first", file=sys.stderr)
             return 1
+
+        xml_fp = file_fingerprint(xml_path)
+        manifest_path = dblp_manifest_path(hub)
+        manifest = load_json(manifest_path)
+        conf_manifest = hub.web_data / "conferences.json"
+
+        if (
+            args.if_stale
+            and not args.force
+            and conf_manifest.is_file()
+            and is_fresh(manifest, fingerprint=xml_fp, max_age_hours=None)
+        ):
+            print(
+                f"dblp build up to date (xml {xml_fp[:40]}…); "
+                f"skip parse → {hub.web_data}"
+            )
+            return 0
+
         venues = load_venues(hub)
         print(f"Streaming parse for hub {hub.id} (this may take several minutes)...")
         grouped = stream_parse(xml_path, venues)
@@ -340,7 +373,19 @@ def main() -> int:
             print("No papers matched; check venue slugs.", file=sys.stderr)
             return 2
         print(f"Writing website data to {hub.web_data}...")
-        write_website(grouped, venues, web_data=hub.web_data)
+        n = write_website(grouped, venues, web_data=hub.web_data)
+        save_json(
+            manifest_path,
+            {
+                "hub_id": hub.id,
+                "source": "dblp",
+                "fingerprint": xml_fp,
+                "built_at": utc_now_iso(),
+                "xml_path": str(xml_path.relative_to(hub.root)),
+                "conference_count": n,
+                "web_data": str(hub.web_data.relative_to(hub.root)),
+            },
+        )
 
     return 0
 

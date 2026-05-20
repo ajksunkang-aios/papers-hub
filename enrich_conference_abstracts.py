@@ -12,6 +12,7 @@ import json
 from pathlib import Path
 
 from core.hub_config import add_hub_argument, load_hub
+from core.incremental import is_fresh, load_json, policy_fingerprint, save_json, utc_now_iso
 from core.published_abstracts import (
     AbstractCache,
     AbstractFetcher,
@@ -125,12 +126,34 @@ def main() -> int:
     parser.add_argument("--force", action="store_true", help="re-fetch even if abstract exists")
     parser.add_argument("--limit", type=int, default=None, help="max papers to process (testing)")
     parser.add_argument("--dry-run", action="store_true", help="do not write JSON or cache")
+    parser.add_argument(
+        "--if-stale-hours",
+        type=float,
+        default=None,
+        help="skip run when last enrichment for these years is newer than N hours",
+    )
     args = parser.parse_args()
 
     hub = load_hub(args.hub)
     default_years = hub.pick_years or [2023, 2024, 2025, 2026]
     years = parse_years(args.years, default_years)
     cache_path = hub.root / "data" / f"abstract-cache-{hub.id}.json"
+    manifest_path = hub.root / "data" / f"abstract-enrich-{hub.id}.json"
+    run_fp = policy_fingerprint({"hub": hub.id, "years": years})
+
+    if (
+        not args.force
+        and not args.dry_run
+        and args.if_stale_hours is not None
+        and is_fresh(
+            load_json(manifest_path),
+            fingerprint=run_fp,
+            max_age_hours=args.if_stale_hours,
+            extra_keys={"years": years},
+        )
+    ):
+        print(f"Abstract enrichment fresh ({years}); skip (manifest {manifest_path.name})")
+        return 0
 
     print(f"Enriching abstracts for {hub.id} ({years}) -> {hub.web_data}")
     stats = enrich_conferences(
@@ -147,6 +170,17 @@ def main() -> int:
     )
     if not args.dry_run:
         print(f"Cache: {cache_path}")
+        save_json(
+            manifest_path,
+            {
+                "hub_id": hub.id,
+                "source": "abstract-enrich",
+                "fingerprint": run_fp,
+                "years": years,
+                "built_at": utc_now_iso(),
+                "stats": stats,
+            },
+        )
     return 0
 
 

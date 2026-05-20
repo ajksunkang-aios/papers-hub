@@ -52,8 +52,11 @@ def export_os_kernel() -> None:
             {
                 "min_category_score": 4,
                 "per_category_limit": 5,
-                "default_years": [2024, 2025, 2026],
-                "section_heading": "OS Kernel & LLM picks by areas",
+                "default_years": [2023, 2024, 2025, 2026],
+                "arxiv_pick_years": [2025, 2026],
+                "section_heading": "Top picks by area",
+                "arxiv_mode_label": "Recent arXiv picks by areas",
+                "published_mode_label": "Published paper picks by area",
                 "categories": categories,
             },
             indent=2,
@@ -90,7 +93,10 @@ def export_os_kernel() -> None:
             "lookback_days": 7,
             "keywords": kw(load_ann_or_assign("BROADCAST_KEYWORDS", ROOT / "build_today_broadcast.py")),
             "strong": sorted(load_ann_or_assign("BROADCAST_STRONG", ROOT / "build_today_broadcast.py")),
-            "note": "Top arXiv papers from the last 7 days (UTC+8), preferring today and yesterday.",
+            "note": (
+                "Top arXiv papers from the last 7 days (UTC+8), ranked by area keyword score "
+                "on title and abstract (same as Top picks by area)."
+            ),
         },
     }
     (hub_dir / "arxiv_policy.json").write_text(json.dumps(arxiv_policy, indent=2) + "\n", encoding="utf-8")
