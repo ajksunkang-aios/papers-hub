@@ -1,8 +1,8 @@
 export const conferenceTimeline = {
-  "generated_at": "2026-05-20T14:27:55.638396+00:00",
+  "generated_at": "2026-05-23T14:37:22.905282+00:00",
   "hub_id": "os-kernel",
   "year": 2026,
-  "today": "2026-05-20",
+  "today": "2026-05-23",
   "range_start": "2026-01-01",
   "range_end": "2026-12-15",
   "note": "Conference dates are event schedules; dblp badge means proceedings are indexed in this hub.",

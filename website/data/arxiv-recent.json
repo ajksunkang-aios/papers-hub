@@ -1,5 +1,11 @@
 {
-  "fetched_at": "2026-05-20T02:00:05.785713+00:00",
+  "fetched_at": "2026-05-23T14:38:21.589332+00:00",
+  "hub_id": "os-kernel",
+  "incremental": true,
+  "years": [
+    2025,
+    2026
+  ],
   "sources": [
     {
       "id": "cs.OS",
@@ -10,9 +16,169 @@
       "url": "https://arxiv.org/list/cs.CL/recent"
     }
   ],
-  "filter_note": "cs.CL: OS cross-list or system-software terms required (linux/os kernel weighted highest); generic LLM/NLP or serving-only papers excluded.",
-  "count": 202,
+  "filter_note": "cs.CL: OS cross-list or system-software terms required; generic LLM/NLP or serving-only papers excluded.",
+  "count": 208,
   "papers": [
+    {
+      "arxiv_id": "2605.22781v1",
+      "title": "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback",
+      "authors": [
+        "Yunpeng Dong",
+        "Jingkai He",
+        "Yuze Hou",
+        "Dong Du",
+        "Zhonghu Xu",
+        "Si Yu",
+        "Yubin Xia",
+        "Haibo Chen"
+      ],
+      "abstract": "LLM-powered AI agents require high-frequency state exploration (e.g., test-time tree search and reinforcement learning), relying on rapid checkpoint and rollback (C/R) of the complete sandbox state, including files and process state (e.g., memory, contexts, etc.). Existing mechanisms duplicate the entire state, causing hundreds of milliseconds to seconds of latency per C/R, which severely bottlenecks deep search and large-scale fan-outs. This paper observes that subsequent checkpoints in AI agents are highly similar. Therefore, instead of full duplication, a sandbox should only duplicate the changes between consecutive checkpoints (Key Insight). However, it is non-trivial to realize the idea, mainly due to the missing OS supports. This paper proposes a new OS-level abstraction, DeltaState, to enable the change-based transactional C/R for AI agents with two co-designed OS mechanisms. First, DeltaFS enables change-based filesystem C/R by organizing the file states into layers and dynamically freezing the writable layer and inserting a new one during checkpoint, reducing file updates to copy-on-write, and making rollback a simple layer switch. Second, DeltaCR enables change-based process state C/R using incremental dumps, and accelerates rollback by bypassing traditional pipelines to directly fork() from a frozen template process. We then present DeltaBox, a novel agent sandbox achieving millisecond level C/R through the two new mechanisms. Evaluations on SWE-bench and RL micro-benchmarks show DeltaBox completes checkpoint and rollback in millisecond-level latency (14ms and 5ms, respectively), empowering agents to explore substantially more nodes under fixed time budgets.",
+      "published": "2026-05-21T17:36:17Z",
+      "updated": "2026-05-21T17:36:17Z",
+      "categories": [
+        "cs.OS",
+        "cs.AI"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.22781v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.22781v1",
+      "relevance_score": 1,
+      "relevance_tags": [
+        "llm"
+      ]
+    },
+    {
+      "arxiv_id": "2605.21384v1",
+      "title": "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents",
+      "authors": [
+        "Bingchen Zhao",
+        "Dhruv Srikanth",
+        "Yuxiang Wu",
+        "Zhengyao Jiang"
+      ],
+      "abstract": "As long-horizon coding agents produce more code than any developer can review, oversight collapses onto a single surface: the automated test suite. Reward hacking naturally arises in this setup, as the agent optimizes for passing tests while deviating from the users true goal. We study this reward hacking phenomenon by decompose software engineering tasks into three parts: (i) a natural language description of the specification (ii) visible validation tests that exercise specified features in isolation, and (iii) held-out tests that compose those same features to simulate real-world usage. Based on the specification and the visible validation test suites, a genuine agent would be able to generate a solution that can also pass all of the held-out tests. Therefore we use the gap in pass rates on these two suites to quantify reward hacking. Based on this methodology, we introduce SpecBench, a benchmark comprising 30 systems-level programming tasks ranging from short horizon tasks like building a JSON parser to ultra long horizon tasks like building an entire OS kernel from scratch. Large-scale experiments reveal a consistent pattern: while every frontier agent saturates the visible suite, reward hacking persists, with smaller models exhibiting larger gaps on holdout suites. The gap also scales sharply with task length: it grows by 28 percentage points for every tenfold increase in code size. Failures range from subtle feature isolation to deliberate exploits, including a 2,900-line hash-table \"compiler\" that memorizes test inputs. SpecBench offers a principled testbed for measuring whether coding agents build genuine working systems or merely game the test suites developers hand them.",
+      "published": "2026-05-20T16:41:51Z",
+      "updated": "2026-05-20T16:41:51Z",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.SE",
+      "source_feed": "cs.CL",
+      "abs_url": "https://arxiv.org/abs/2605.21384v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.21384v1",
+      "relevance_score": 32,
+      "relevance_tags": [
+        "os kernel"
+      ]
+    },
+    {
+      "arxiv_id": "2605.20906v1",
+      "title": "ParaCell: Paravirtualized Secure Containers with Lightweight Intra-Container Isolation and Intent-Driven Memory Management",
+      "authors": [
+        "Yiyang Wu",
+        "Xunjie Wang",
+        "Jinyu Gu",
+        "Haibo Chen"
+      ],
+      "abstract": "Secure containers isolate each container with its own kernel, mitigating shared-kernel attacks prevalent in traditional container systems. However, existing designs still face a fundamental isolation--performance trade-off. Nested-cloud deployments amplify the cost of VM exits and page-table management, while emerging agentic workloads expose bursty memory demand that requires fine-grained elasticity. We attribute this trade-off to two root causes. First, existing designs lack lightweight intra-container isolation primitives for frequent container user--kernel transitions. Second, the host treats container memory management as opaque, forcing reactive secondary faults and coarse-grained huge page mappings to amortize their cost. This paper presents ParaCell, a paravirtualized secure container runtime built on two insights. First, intra-address-space hardware protection primitives can provide lightweight intra-container isolation. ParaCell uses MPK-based XGates to isolate the container user and container kernel within a single address space, turning frequent user--kernel transitions into direct domain switches. Second, container kernel allocators already encode memory-management intent. ParaCell introduces Pager to interpose on allocation and free events, batch proactive GPA to HPA bindings and unbindings, and avoid reactive shadow page-table faults while preserving fine-grained memory elasticity. ParaCell is implemented as a drop-in replacement for RunV. Our experiments demonstrate that, across traditional cloud and emerging agent applications, ParaCell reduces latency by up to 57% and 79% over PVM, and by up to 33% and 88% over RunV, in bare-metal and nested setups, respectively. On agent workloads, ParaCell saves up to 35.6% memory compared with the state-of-the-art VM memory reclamation technique, HyperAlloc.",
+      "published": "2026-05-20T08:53:35Z",
+      "updated": "2026-05-20T08:53:35Z",
+      "categories": [
+        "cs.OS"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.20906v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20906v1",
+      "relevance_score": 12,
+      "relevance_tags": [
+        "memory management",
+        "kernel"
+      ]
+    },
+    {
+      "arxiv_id": "2605.20530v1",
+      "title": "AgentAtlas: Beyond Outcome Leaderboards for LLM Agents",
+      "authors": [
+        "Parsa Mazaheri",
+        "Kasra Mazaheri"
+      ],
+      "abstract": "Large language model agents now act on codebases, browsers, operating systems, calendars, files, and tool ecosystems, but the benchmarks used to evaluate them are fragmented: each emphasizes a different unit of measurement (final task success, tool-call validity, repeated-pass consistency, trajectory safety, or attack robustness). A line of 2024-2025 work has converged on the diagnosis that a single accuracy column is no longer the right unit of comparison for deployable agents. AgentAtlas extends this line of work with four components: (i) a six-state control-decision taxonomy (Act / Ask / Refuse / Stop / Confirm / Recover); (ii) a nine-category trajectory-failure taxonomy with two orthogonal hierarchical labels (primary_error_source, impact); (iii) a taxonomy-aware vs. taxonomy-blind methodology that measures how much of a model's apparent capability comes from the supervision in the prompt; and (iv) a benchmark-coverage audit mapping fifteen agent benchmarks against six behavioral axes. To demonstrate the methodology we run a small fixed eight-model set (1,342 generated items, four frontier closed and four open-weight) under both prompt modes. Removing the explicit label menu drops every model's trajectory accuracy by 14-40 pp to a tight 0.54-0.62 floor regardless of family, and no single model wins on all three of control accuracy, trajectory diagnosis, and tool-context utility retention. We treat the synthetic run as a measurement-protocol demonstration, not a benchmark release.",
+      "published": "2026-05-19T22:05:12Z",
+      "updated": "2026-05-19T22:05:12Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "primary_category": "cs.AI",
+      "source_feed": "cs.CL",
+      "abs_url": "https://arxiv.org/abs/2605.20530v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20530v1",
+      "relevance_score": 12,
+      "relevance_tags": [
+        "large language model",
+        "operating system",
+        "llm"
+      ]
+    },
+    {
+      "arxiv_id": "2605.20370v1",
+      "title": "Clove: Object-Level CXL Memory Management in Managed Runtimes",
+      "authors": [
+        "Sam Son",
+        "Zhihong Luo",
+        "Wen Zhang",
+        "Sylvia Ratnasamy",
+        "Scott Shenker"
+      ],
+      "abstract": "Object-level management of tiered memory has been studied to address the inefficiencies in page-based systems. However, object-level management for CXL-tiered memory remains underexplored due to CXL's tight performance budget and load/store interface. As a result, existing approaches remain limited in scope, primarily targeting unmanaged-language applications with bespoke runtimes or compiler support. This paper identifies and explores a new design point for object-level CXL management: managed languages and their runtimes. The key observation is that existing managed runtimes already provide highly optimized mechanisms for problems closely related to object-level management, including object relocation and dynamic code generation. However, they still lack the features needed for tiered memory management, such as hotness tracking and relocation policies, and thus must be carefully extended to fully realize this direction. We present Clove, a system that extends existing managed runtimes to support object-level CXL management for managed-language applications. Clove combines profile-guided object hotness tracking with object relocation techniques and policies. Our JVM prototype demonstrates that this extension enables high utilization of fast-tier memory while bounding runtime overhead, reducing application slowdown by 22-84% compared to page-based systems.",
+      "published": "2026-05-19T18:21:07Z",
+      "updated": "2026-05-19T18:21:07Z",
+      "categories": [
+        "cs.OS",
+        "cs.PL"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.20370v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20370v1",
+      "relevance_score": 6,
+      "relevance_tags": [
+        "memory management"
+      ]
+    },
+    {
+      "arxiv_id": "2605.19893v2",
+      "title": "SSV: Sparse Speculative Verification for Efficient LLM Inference",
+      "authors": [
+        "Zhibin Wang",
+        "Ziyu Zhong",
+        "Nuo Shen",
+        "Yuhang Zhou",
+        "Rong Gu",
+        "Sheng Zhong"
+      ],
+      "abstract": "Speculative decoding and dynamic sparse attention are two complementary approaches for accelerating long-context LLM inference: the former amortizes target-model execution across multiple verifier queries, while the latter reduces each query's KV-cache working set. Directly combining them, however, exposes a structural mismatch: speculative verification relies on cross-query commonality, whereas dynamic sparse attention assigns query-specific sparse layouts. This mismatch limits KV-block reuse, amplifies NSA's branch-wise overheads, and makes verification strategy selection input- and regime-dependent. We present SSV, a sparse speculative-verification framework that turns dynamic sparse attention into a verification-oriented workload. SSV combines overlap-aware grouped-query execution, refresh/reuse-based NSA kernel fusion, and profile-guided prompt-adaptive orchestration to improve cross-query reuse, reduce selected-index and branch-fusion overheads, and select effective draft-verification strategies under user-specified precision classes. Experiments on NVIDIA H100 GPUs show that SSV achieves up to 3.49x end-to-end throughput over autoregressive NSA decoding and up to 6.86x kernel speedups for sparse speculative verification.",
+      "published": "2026-05-19T14:24:27Z",
+      "updated": "2026-05-20T15:53:57Z",
+      "categories": [
+        "cs.OS"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.19893v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.19893v2",
+      "relevance_score": 4,
+      "relevance_tags": [
+        "kernel",
+        "llm"
+      ]
+    },
     {
       "arxiv_id": "2605.19481v1",
       "title": "C2CServe: Leveraging NVLink-C2C for Elastic Serverless LLM Serving on MIG",
@@ -89,7 +255,7 @@
       "pdf_url": "https://arxiv.org/pdf/2605.17992v1",
       "relevance_score": 1,
       "relevance_tags": [
-        "operating systems"
+        "cs.os"
       ]
     },
     {
@@ -115,7 +281,7 @@
       "pdf_url": "https://arxiv.org/pdf/2605.17320v1",
       "relevance_score": 1,
       "relevance_tags": [
-        "operating systems"
+        "cs.os"
       ]
     },
     {

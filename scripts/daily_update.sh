@@ -9,9 +9,14 @@
 # Schedule at 9:00 AM (GitHub): .github/workflows/deploy-pages.yml
 #
 set -euo pipefail
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:${PATH:-}"
-PYTHON="${PYTHON:-$(command -v python3 || echo python3)}"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+# shellcheck source=env_python.sh
+source "$ROOT/scripts/env_python.sh"
+papers_hub_setup_env
+if [[ "${CI:-}" == "true" ]]; then
+  echo "PYTHON=${PYTHON} ($("$PYTHON" --version 2>&1))"
+  "$PYTHON" -c "import sys, lxml; print('lxml', lxml.__version__, 'at', sys.executable)"
+fi
 LOG_DIR="$ROOT/logs"
 mkdir -p "$LOG_DIR"
 LOG="$LOG_DIR/daily-$(date +%Y%m%d).log"
@@ -43,10 +48,13 @@ run_daily() {
   fi
 
   if [[ "${DAILY_SKIP_ARXIV:-0}" != "1" ]]; then
-    run "arxiv crawl" "$PYTHON" crawl_arxiv_recent.py "${HUB_FLAG[@]}" \
-      --years "$ARXIV_PICK_YEARS" \
-      --os-max 120 --cl-max 180 \
-      --if-stale-hours 24
+    ARXIV_FLAGS=(--years "$ARXIV_PICK_YEARS" --os-max 120 --cl-max 180)
+    if [[ "${ARXIV_FORCE:-0}" == "1" ]]; then
+      ARXIV_FLAGS+=(--force)
+    else
+      ARXIV_FLAGS+=(--if-stale-hours 24)
+    fi
+    run "arxiv crawl" "$PYTHON" crawl_arxiv_recent.py "${HUB_FLAG[@]}" "${ARXIV_FLAGS[@]}"
   else
     echo "=== skip arxiv (DAILY_SKIP_ARXIV=1) ==="
   fi
@@ -67,13 +75,18 @@ run_daily() {
   run "top picks" "$PYTHON" build_top_monthly.py "${HUB_FLAG[@]}" \
     --years "$PICK_YEARS" --arxiv-years "$ARXIV_PICK_YEARS"
   run "broadcast" "$PYTHON" build_today_broadcast.py "${HUB_FLAG[@]}"
+  if [[ -f "$ROOT/website/data/today-broadcast.json" ]]; then
+    echo "  broadcast generated_at: $(grep -m1 '"generated_at"' "$ROOT/website/data/today-broadcast.json" || true)"
+  fi
   run "sync hub meta" "$PYTHON" scripts/sync_hub_meta.py "${HUB_FLAG[@]}"
 
   run "daily_update done" echo "log=${LOG}"
+  echo ""
+  echo "Browser: hard refresh (Ctrl+Shift+R). If still old, run: ./scripts/verify_site_data.sh"
 }
 
-if [[ "${CI:-}" == "true" ]]; then
-  run_daily 2>&1 | tee "$LOG"
-else
-  { run_daily; } >>"$LOG" 2>&1
-fi
+echo "papers-hub daily_update → also logging to ${LOG}"
+echo ""
+# Show progress on the terminal and append to the daily log.
+run_daily 2>&1 | tee -a "$LOG"
+exit "${PIPESTATUS[0]}"

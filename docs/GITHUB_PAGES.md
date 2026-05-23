@@ -30,6 +30,8 @@ Same as local daily update:
 
 CI defaults: `ABSTRACT_SKIP=1` (faster; enable in workflow env if you add abstract APIs later).
 
+To force a live arXiv API fetch in CI, set `ARXIV_FORCE: "1"` on the build step (removes the 24h skip).
+
 ## Caches
 
 Actions caches:

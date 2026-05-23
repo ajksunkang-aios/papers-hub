@@ -818,14 +818,17 @@ function renderConferenceTimeline(data) {
 }
 
 async function loadConferenceTimeline() {
-  if (bundledTimeline?.events?.length) return bundledTimeline;
   try {
     const res = await fetch(`data/conference-timeline.json?ts=${Date.now()}`, { cache: "no-store" });
-    if (!res.ok) return null;
-    return res.json();
+    if (res.ok) {
+      const live = await res.json();
+      if (live?.events?.length) return live;
+    }
   } catch {
-    return null;
+    /* use bundled fallback */
   }
+  if (bundledTimeline?.events?.length) return bundledTimeline;
+  return null;
 }
 
 
@@ -955,10 +958,25 @@ function renderTodayBroadcast(data) {
 }
 
 async function loadTodayBroadcast() {
-  if (bundledBroadcast?.picks?.length) return bundledBroadcast;
-  const res = await fetch(`data/today-broadcast.json?ts=${Date.now()}`, { cache: "no-store" });
-  if (!res.ok) return null;
-  return res.json();
+  try {
+    const res = await fetch(`data/today-broadcast.json?ts=${Date.now()}`, { cache: "no-store" });
+    if (res.ok) {
+      const live = await res.json();
+      if (live?.picks?.length || live?.all_picks?.length) {
+        console.info("[papers-hub] broadcast:", live.generated_at || live.date_label);
+        return live;
+      }
+    } else {
+      console.warn("[papers-hub] broadcast JSON HTTP", res.status, "— using bundled fallback");
+    }
+  } catch (err) {
+    console.warn("[papers-hub] broadcast fetch failed — using bundled fallback", err);
+  }
+  if (bundledBroadcast?.picks?.length || bundledBroadcast?.all_picks?.length) {
+    console.info("[papers-hub] broadcast bundled:", bundledBroadcast.generated_at);
+    return bundledBroadcast;
+  }
+  return null;
 }
 
 async function loadConferences() {

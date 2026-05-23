@@ -36,7 +36,13 @@ install_cron() {
     tz_prefix="CRON_TZ=${TZ_NAME}
 "
   fi
-  cron_line="${tz_prefix}${MINUTE} ${HOUR} * * * PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin cd ${ROOT} && HUB=${HUB} ABSTRACT_OFFLINE=1 /bin/bash ${JOB_SCRIPT} >> ${ROOT}/logs/cron-daily.log 2>&1"
+  local python_env=""
+  if [[ -x "${ROOT}/.venv/bin/python3" ]]; then
+    python_env="PYTHON=${ROOT}/.venv/bin/python3 "
+  elif [[ -x "${ROOT}/venv/bin/python3" ]]; then
+    python_env="PYTHON=${ROOT}/venv/bin/python3 "
+  fi
+  cron_line="${tz_prefix}${MINUTE} ${HOUR} * * * PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin cd ${ROOT} && ${python_env}HUB=${HUB} ABSTRACT_OFFLINE=1 /bin/bash ${JOB_SCRIPT} >> ${ROOT}/logs/cron-daily.log 2>&1"
   local tmp
   tmp="$(mktemp)"
   (crontab -l 2>/dev/null | grep -v "$CRON_TAG" | grep -v "$LEGACY_CRON_TAG" | grep -v "$JOB_SCRIPT" || true) >"$tmp"
