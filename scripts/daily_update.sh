@@ -5,8 +5,8 @@
 #   ./scripts/daily_update.sh
 #   HUB=os-kernel ABSTRACT_OFFLINE=1 ./scripts/daily_update.sh
 #
-# Schedule at 9:00 AM:
-#   ./scripts/install_daily_schedule.sh
+# Schedule at 9:00 AM (server): ./scripts/install_daily_schedule.sh
+# Schedule at 9:00 AM (GitHub): .github/workflows/deploy-pages.yml
 #
 set -euo pipefail
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:${PATH:-}"
@@ -28,7 +28,7 @@ run() {
   "$@"
 }
 
-{
+run_daily() {
   run "daily_update start" echo "HUB=${HUB} ROOT=${ROOT}"
   cd "$ROOT"
 
@@ -70,4 +70,10 @@ run() {
   run "sync hub meta" "$PYTHON" scripts/sync_hub_meta.py "${HUB_FLAG[@]}"
 
   run "daily_update done" echo "log=${LOG}"
-} >>"$LOG" 2>&1
+}
+
+if [[ "${CI:-}" == "true" ]]; then
+  run_daily 2>&1 | tee "$LOG"
+else
+  { run_daily; } >>"$LOG" 2>&1
+fi

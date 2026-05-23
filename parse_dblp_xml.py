@@ -25,7 +25,7 @@ from typing import Iterable
 import requests
 
 DBLP_XML_GZ = "https://dblp.org/xml/dblp.xml.gz"
-USER_AGENT = "top-conference-xml/1.0 (research)"
+USER_AGENT = "papers-hub/1.0 (dblp-xml; research)"
 ROOT = Path(__file__).resolve().parent
 DEFAULT_XML = ROOT / "data" / "dblp.xml.gz"
 WEB_DATA = ROOT / "website" / "data"

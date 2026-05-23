@@ -1,4 +1,4 @@
-"""Shared paper-hub build utilities."""
+"""Shared papers-hub build utilities."""
 
 from core.hub_config import Hub, add_hub_argument, load_hub, resolve_hub_from_args
 

@@ -17,8 +17,9 @@ MINUTE="${SCHEDULE_MINUTE:-0}"
 TZ_NAME="${SCHEDULE_TZ:-}"
 METHOD="${SCHEDULE_METHOD:-cron}"
 JOB_SCRIPT="$ROOT/scripts/daily_update.sh"
-LABEL="os-kernel-papers-hub-daily"
-CRON_TAG="# os-kernel-papers-hub daily (${HUB})"
+LABEL="papers-hub-daily"
+CRON_TAG="# papers-hub daily (${HUB})"
+LEGACY_CRON_TAG="os-kernel-papers-hub"
 SYSTEMD_DIR="${SYSTEMD_DIR:-$HOME/.config/systemd/user}"
 
 chmod +x "$ROOT/scripts/daily_update.sh" "$ROOT/scripts/arxiv_daily.sh"
@@ -38,7 +39,7 @@ install_cron() {
   cron_line="${tz_prefix}${MINUTE} ${HOUR} * * * PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin cd ${ROOT} && HUB=${HUB} ABSTRACT_OFFLINE=1 /bin/bash ${JOB_SCRIPT} >> ${ROOT}/logs/cron-daily.log 2>&1"
   local tmp
   tmp="$(mktemp)"
-  (crontab -l 2>/dev/null | grep -v "$CRON_TAG" | grep -v "$JOB_SCRIPT" || true) >"$tmp"
+  (crontab -l 2>/dev/null | grep -v "$CRON_TAG" | grep -v "$LEGACY_CRON_TAG" | grep -v "$JOB_SCRIPT" || true) >"$tmp"
   {
     cat "$tmp"
     echo "$CRON_TAG"
@@ -47,7 +48,7 @@ install_cron() {
   rm -f "$tmp"
   echo "Installed user crontab (Linux):"
   echo "  $cron_line"
-  echo "  crontab -l | grep os-kernel-papers-hub"
+  echo "  crontab -l | grep papers-hub"
 }
 
 install_systemd() {
@@ -64,9 +65,9 @@ install_systemd() {
   local svc="$SYSTEMD_DIR/${LABEL}.service"
   local tmr="$SYSTEMD_DIR/${LABEL}.timer"
   sed -e "s|@ROOT@|${ROOT}|g" -e "s|@HUB@|${HUB}|g" \
-    "$ROOT/scripts/systemd/os-kernel-papers-hub-daily.service.in" >"$svc"
+    "$ROOT/scripts/systemd/papers-hub-daily.service.in" >"$svc"
   sed -e "s|@ON_CALENDAR@|${on_calendar}|g" \
-    "$ROOT/scripts/systemd/os-kernel-papers-hub-daily.timer.in" >"$tmr"
+    "$ROOT/scripts/systemd/papers-hub-daily.timer.in" >"$tmr"
   systemctl --user daemon-reload
   systemctl --user enable --now "${LABEL}.timer"
   echo "Installed systemd user timer:"
@@ -81,7 +82,7 @@ install_systemd() {
 }
 
 install_launchd() {
-  local plist_dst="$HOME/Library/LaunchAgents/com.os-kernel-papers-hub.daily.plist"
+  local plist_dst="$HOME/Library/LaunchAgents/com.papers-hub.daily.plist"
   local tz_block=""
   if [[ -n "$TZ_NAME" ]]; then
     tz_block="    <key>TimeZone</key>
@@ -94,7 +95,7 @@ install_launchd() {
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>com.os-kernel-papers-hub.daily</string>
+  <string>com.papers-hub.daily</string>
   <key>ProgramArguments</key>
   <array>
     <string>/bin/bash</string>
@@ -121,7 +122,7 @@ ${tz_block}  <key>StandardOutPath</key>
 </dict>
 </plist>
 EOF
-  launchctl bootout "gui/$(id -u)/com.os-kernel-papers-hub.daily" 2>/dev/null || launchctl unload "$plist_dst" 2>/dev/null || true
+  launchctl bootout "gui/$(id -u)/com.papers-hub.daily" 2>/dev/null || launchctl unload "$plist_dst" 2>/dev/null || true
   launchctl bootstrap "gui/$(id -u)" "$plist_dst" 2>/dev/null || launchctl load "$plist_dst"
   echo "Installed launchd: $plist_dst"
 }

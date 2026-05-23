@@ -2,7 +2,7 @@
 
 End-to-end setup: build data once, run the website in the background, refresh dblp + arXiv every day at 9:00 AM.
 
-Replace `/opt/os-kernel-papers-hub` with your path.
+Replace `/opt/papers-hub` with your path.
 
 ---
 
@@ -28,8 +28,8 @@ python3 --version   # 3.9+ recommended
 sudo mkdir -p /opt
 sudo chown "$USER:$USER" /opt
 cd /opt
-git clone <your-repo-url> os-kernel-papers-hub
-cd os-kernel-papers-hub
+git clone <your-repo-url> papers-hub
+cd papers-hub
 ```
 
 Or copy the directory with `rsync` / `scp` if you do not use git on the server.
@@ -39,7 +39,7 @@ Or copy the directory with `rsync` / `scp` if you do not use git on the server.
 ## 3. Python dependencies
 
 ```bash
-cd /opt/os-kernel-papers-hub
+cd /opt/papers-hub
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 For cron/systemd, use the venv python explicitly:
 
 ```bash
-export PYTHON=/opt/os-kernel-papers-hub/.venv/bin/python3
+export PYTHON=/opt/papers-hub/.venv/bin/python3
 ```
 
 ---
@@ -58,7 +58,7 @@ export PYTHON=/opt/os-kernel-papers-hub/.venv/bin/python3
 **Recommended on first deploy** (faster, works on restricted networks):
 
 ```bash
-cd /opt/os-kernel-papers-hub
+cd /opt/papers-hub
 source .venv/bin/activate
 
 export ABSTRACT_SKIP=1          # skip slow abstract APIs on first run (optional)
@@ -92,7 +92,7 @@ ls website/data/conferences.json website/data/top-monthly.json website/data/arxi
 
 Default script port is **8765**, not 80.
 
-### Option A — Port 8080 (no root)
+### Option A ï¿½ Port 8080 (no root)
 
 ```bash
 SITE_PORT=8080 SITE_BIND=0.0.0.0 ./scripts/serve_site.sh
@@ -100,30 +100,30 @@ SITE_PORT=8080 SITE_BIND=0.0.0.0 ./scripts/serve_site.sh
 
 Open: `http://<server-ip>:8080/`
 
-### Option B — Port 80 (needs root)
+### Option B ï¿½ Port 80 (needs root)
 
 ```bash
 sudo -E env SITE_PORT=80 SITE_BIND=0.0.0.0 \
-  /opt/os-kernel-papers-hub/scripts/serve_site.sh
+  /opt/papers-hub/scripts/serve_site.sh
 ```
 
-### Option C — systemd user service (recommended)
+### Option C ï¿½ systemd user service (recommended)
 
-Create `~/.config/systemd/user/os-kernel-papers-hub-web.service`:
+Create `~/.config/systemd/user/papers-hub-web.service`:
 
 ```ini
 [Unit]
-Description=OS Kernel Papers Hub static site
+Description=Papers Hub static site
 After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/opt/os-kernel-papers-hub
-Environment=PYTHON=/opt/os-kernel-papers-hub/.venv/bin/python3
+WorkingDirectory=/opt/papers-hub
+Environment=PYTHON=/opt/papers-hub/.venv/bin/python3
 Environment=HUB=os-kernel
 Environment=SITE_PORT=8080
 Environment=SITE_BIND=0.0.0.0
-ExecStart=/opt/os-kernel-papers-hub/scripts/serve_site.sh
+ExecStart=/opt/papers-hub/scripts/serve_site.sh
 Restart=on-failure
 RestartSec=5
 
@@ -136,8 +136,8 @@ Enable:
 ```bash
 mkdir -p ~/.config/systemd/user
 systemctl --user daemon-reload
-systemctl --user enable --now os-kernel-papers-hub-web.service
-systemctl --user status os-kernel-papers-hub-web.service
+systemctl --user enable --now papers-hub-web.service
+systemctl --user status papers-hub-web.service
 sudo loginctl enable-linger "$USER"    # keep running after logout
 ```
 
@@ -150,11 +150,11 @@ For port 80, set `SITE_PORT=80` and run the service as root or put **nginx** in 
 Does **not** restart the web server; only refreshes `website/data/`.
 
 ```bash
-cd /opt/os-kernel-papers-hub
+cd /opt/papers-hub
 chmod +x scripts/*.sh
 
 # If using venv, bake PYTHON into cron:
-(crontab -l 2>/dev/null; echo "PYTHON=/opt/os-kernel-papers-hub/.venv/bin/python3") | crontab - 2>/dev/null || true
+(crontab -l 2>/dev/null; echo "PYTHON=/opt/papers-hub/.venv/bin/python3") | crontab - 2>/dev/null || true
 
 SCHEDULE_TZ=Asia/Shanghai ./scripts/install_daily_schedule.sh
 ```
@@ -169,10 +169,10 @@ tail -f logs/daily-$(date +%Y%m%d).log
 Verify cron:
 
 ```bash
-crontab -l | grep os-kernel-papers-hub
+crontab -l | grep papers-hub
 ```
 
-**Remove cron later:** `crontab -e` and delete the `os-kernel-papers-hub` lines.
+**Remove cron later:** `crontab -e` and delete the `papers-hub` lines.
 
 ---
 
@@ -194,7 +194,7 @@ server {
 ```
 
 ```bash
-sudo ln -s /etc/nginx/sites-available/os-kernel-papers-hub /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/papers-hub /etc/nginx/sites-enabled/
 sudo nginx -t && sudo systemctl reload nginx
 ```
 
@@ -218,7 +218,7 @@ sudo ufw allow 80/tcp
 |-------|---------|
 | Site responds | `curl -sI http://127.0.0.1:8080/ \| head -1` |
 | Data present | `ls website/data/*.json \| head` |
-| Web service | `systemctl --user status os-kernel-papers-hub-web` |
+| Web service | `systemctl --user status papers-hub-web` |
 | Cron installed | `crontab -l \| grep os-kernel` |
 | Daily log | `tail logs/daily-$(date +%Y%m%d).log` |
 
@@ -241,13 +241,13 @@ sudo ufw allow 80/tcp
 ## 11. Update after `git pull`
 
 ```bash
-cd /opt/os-kernel-papers-hub
+cd /opt/papers-hub
 git pull
 source .venv/bin/activate
 pip install -r requirements.txt
 NO_SERVE=1 ./publish.sh
 # web server picks up new files automatically; restart only if you changed serve scripts:
-systemctl --user restart os-kernel-papers-hub-web
+systemctl --user restart papers-hub-web
 ```
 
 Daily cron handles routine arXiv/dblp refresh; full `publish.sh` is for manual rebuilds after code or config changes.

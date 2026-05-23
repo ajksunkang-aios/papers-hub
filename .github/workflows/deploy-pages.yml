@@ -1,0 +1,103 @@
+# Build papers-hub data (dblp + arXiv + picks) and deploy website/ to GitHub Pages.
+#
+# Setup (once per repo):
+#   Settings ? Pages ? Build and deployment ? Source: GitHub Actions
+#
+# Schedule: 09:00 Asia/Shanghai (01:00 UTC). Adjust cron if you use another TZ.
+# Manual run: Actions ? Deploy Pages ? Run workflow
+
+name: Deploy Pages
+
+on:
+  schedule:
+    # 09:00 Asia/Shanghai (UTC+8) = 01:00 UTC
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - ".github/workflows/deploy-pages.yml"
+      - "core/**"
+      - "hubs/**"
+      - "scripts/**"
+      - "*.py"
+      - "requirements.txt"
+      - "website/*.html"
+      - "website/*.js"
+      - "website/*.css"
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cache dblp XML
+        uses: actions/cache@v4
+        with:
+          path: data/dblp.xml.gz
+          key: papers-hub-dblp-xml-v1
+          restore-keys: papers-hub-dblp-xml-
+
+      - name: Cache build artifacts
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/abstract-cache-os-kernel.json
+            data/arxiv-cache
+            data/abstract-enrich-os-kernel.json
+            data/dblp-build-os-kernel.json
+          key: papers-hub-build-${{ runner.os }}-${{ hashFiles('hubs/os-kernel/**', 'core/**', 'crawl_arxiv_recent.py', 'build_top_monthly.py') }}
+          restore-keys: |
+            papers-hub-build-${{ runner.os }}-
+
+      - name: Daily build (dblp + arXiv + picks)
+        env:
+          CI: "true"
+          HUB: os-kernel
+          ABSTRACT_SKIP: "1"
+        run: ./scripts/daily_update.sh
+
+      - name: Verify site output
+        run: |
+          test -f website/index.html
+          test -f website/data/conferences.json
+          test -f website/data/top-monthly.json
+          echo "Pages artifact: $(du -sh website | cut -f1)"
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: website
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

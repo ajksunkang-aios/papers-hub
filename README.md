@@ -1,6 +1,6 @@
-# OS Kernel Papers Hub
+# Papers Hub
 
-A static **research paper hub**: dblp conference proceedings, arXiv recent papers, categorized top picks, and a daily-style broadcast bar.
+Multi-area **research paper hub**: dblp conference proceedings, arXiv recent papers, categorized top picks, and a daily broadcast bar. The default site is the **OS kernel & systems** hub (`hubs/os-kernel` → `website/`).
 
 ## Run (default hub)
 
@@ -13,7 +13,7 @@ A static **research paper hub**: dblp conference proceedings, arXiv recent paper
 
 | Goal | Command |
 |------|---------|
-| Default local preview | `./publish.sh` ? **8765** |
+| Default local preview | `./publish.sh` → **8765** |
 | Custom port | `SITE_PORT=8080 ./publish.sh` |
 | Port 80 on a server | `NO_SERVE=1 ./publish.sh` then `sudo -E env SITE_PORT=80 SITE_BIND=0.0.0.0 ./scripts/serve_site.sh` |
 | Build only (no server) | `NO_SERVE=1 ./publish.sh` |
@@ -31,29 +31,29 @@ Requires `data/dblp.xml.gz` on first build (downloaded automatically).
 
 **Abstract enrichment** during `publish.sh` defaults to years `2025,2026` only. Full backfill: `ABSTRACT_ENRICH_YEARS=2023,2024,2025,2026 ./publish.sh`. Skip: `ABSTRACT_SKIP=1`.
 
-## Deploy on a Linux server (from scratch)
+## Deploy
 
-**[docs/DEPLOY.md](docs/DEPLOY.md)** — full steps: clone, venv, first build, HTTP server, cron 9:00 AM.
-**[docs/LINUX_SERVER.md](docs/LINUX_SERVER.md)** — short reference.
-
+| Target | Guide |
+|--------|--------|
+| **GitHub Pages** (scheduled build + hosting) | **[docs/GITHUB_PAGES.md](docs/GITHUB_PAGES.md)** — `.github/workflows/deploy-pages.yml` |
+| **Linux server** (cron + your HTTP server) | **[docs/DEPLOY.md](docs/DEPLOY.md)**, **[docs/LINUX_SERVER.md](docs/LINUX_SERVER.md)** |
 
 ## Daily automatic update (9:00 AM)
 
 Refreshes dblp + arXiv + picks (does **not** restart the HTTP server).
 
 ```bash
-./scripts/install_daily_schedule.sh          # Linux: cron
-SCHEDULE_TZ=Asia/Shanghai ./scripts/install_daily_schedule.sh
-./scripts/daily_update.sh                    # test once
+./scripts/install_daily_schedule.sh
+./scripts/daily_update.sh
 ```
 
-Remove cron: `crontab -e` and delete the `os-kernel-papers-hub` lines.
+Remove cron: `crontab -e` and delete lines containing `papers-hub`.
 
 ## Site features
 
-- **Top picks by area** � published proceedings (left, default) and recent arXiv (right). **More** opens `area-picks.html`.
-- **Broadcast bar** � top arXiv papers from the last 7 days.
-- **Conference proceedings** � browse and search dblp-backed venue JSON.
+- **Top picks by area** — published proceedings (left, default) and recent arXiv (right). **More** opens `area-picks.html`.
+- **Broadcast bar** — top arXiv papers from the last 7 days.
+- **Conference proceedings** — browse and search dblp-backed venue JSON.
 
 ## Multiple research areas
 
@@ -67,8 +67,8 @@ HUB=compiler ./publish.sh
 
 | Path | Role |
 |------|------|
-| `hubs/os-kernel/` | Hub config (venues, keywords, timeline) |
-| `website/` | Built site for os-kernel |
+| `hubs/os-kernel/` | Default hub config (venues, keywords, timeline) |
+| `website/` | Built static site for `os-kernel` |
 | `scripts/serve_site.sh` | Static HTTP server (`SITE_PORT`, default **8765**) |
 | `scripts/daily_update.sh` | Daily dblp + arXiv refresh |
 | `scripts/install_daily_schedule.sh` | Install 9:00 AM cron (Linux) |

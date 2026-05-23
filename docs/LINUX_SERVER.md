@@ -3,7 +3,7 @@
 ## 1. One-time build
 
 ```bash
-cd /path/to/os-kernel-papers-hub
+cd /path/to/papers-hub
 NO_SERVE=1 ./publish.sh
 ```
 
@@ -22,15 +22,15 @@ Use **systemd**, **screen**, or **tmux** so the server survives logout.
 Example systemd user service for the site (optional):
 
 ```ini
-# ~/.config/systemd/user/os-kernel-papers-hub-web.service
+# ~/.config/systemd/user/papers-hub-web.service
 [Unit]
-Description=OS Kernel Papers Hub static site
+Description=Papers Hub static site
 
 [Service]
-WorkingDirectory=/path/to/os-kernel-papers-hub
+WorkingDirectory=/path/to/papers-hub
 Environment=SITE_PORT=8080
 Environment=SITE_BIND=0.0.0.0
-ExecStart=/path/to/os-kernel-papers-hub/scripts/serve_site.sh
+ExecStart=/path/to/papers-hub/scripts/serve_site.sh
 Restart=on-failure
 
 [Install]
@@ -38,7 +38,7 @@ WantedBy=default.target
 ```
 
 ```bash
-systemctl --user enable --now os-kernel-papers-hub-web.service
+systemctl --user enable --now papers-hub-web.service
 ```
 
 ## 3. Daily refresh at 9:00 AM (cron, recommended)
@@ -56,7 +56,7 @@ SCHEDULE_TZ=Asia/Shanghai ./scripts/install_daily_schedule.sh
 Verify:
 
 ```bash
-crontab -l | grep os-kernel-papers-hub
+crontab -l | grep papers-hub
 ./scripts/daily_update.sh
 tail -f logs/daily-$(date +%Y%m%d).log
 ```

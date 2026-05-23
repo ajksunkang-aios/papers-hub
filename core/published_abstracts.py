@@ -19,7 +19,7 @@ DOI_RE = re.compile(r"(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", re.I)
 JATS_TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"\s+")
 
-USER_AGENT = "os-kernel-papers-hub/1.0 (research; abstract-enrichment)"
+USER_AGENT = "papers-hub/1.0 (research; abstract-enrichment)"
 # (connect_sec, read_sec) ù short connect avoids hangs on blocked routes / proxies
 REQUEST_TIMEOUT = (4, 10)
 MIN_ABSTRACT_LEN = 40

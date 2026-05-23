@@ -38,7 +38,7 @@ from core.keywords import score_keywords
 
 ARXIV_API = "https://export.arxiv.org/api/query"
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
-USER_AGENT = "os-kernel-papers-hub/1.0 (research; incremental arXiv crawl)"
+USER_AGENT = "papers-hub/1.0 (research; incremental arXiv crawl)"
 REQUEST_MIN_INTERVAL = 3.5
 INTER_FEED_SLEEP_SEC = 5.0
 _last_request_at = 0.0
