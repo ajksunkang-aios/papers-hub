@@ -38,6 +38,28 @@ export function escapeHtml(text) {
 
 const TZ_UTC8 = "Asia/Shanghai";
 
+/** Calendar date YYYY-MM-DD in UTC+8 (matches broadcast bar). */
+export function todayIsoUtc8(now = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: TZ_UTC8,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(now);
+  const y = parts.find((p) => p.type === "year")?.value;
+  const m = parts.find((p) => p.type === "month")?.value;
+  const d = parts.find((p) => p.type === "day")?.value;
+  return y && m && d ? `${y}-${m}-${d}` : now.toISOString().slice(0, 10);
+}
+
+/** past | in_progress | upcoming for YYYY-MM-DD event bounds. */
+export function eventStatusUtc8(start, end, today = todayIsoUtc8()) {
+  const endDay = end || start;
+  if (start <= today && today <= endDay) return "in_progress";
+  if (endDay < today) return "past";
+  return "upcoming";
+}
+
 export function formatGeneratedAt(iso) {
   if (!iso) return "";
   const d = new Date(iso);

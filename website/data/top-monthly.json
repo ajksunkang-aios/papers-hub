@@ -1,6 +1,6 @@
 {
   "kind": "arxiv",
-  "generated_at": "2026-05-20T06:32:31.468370+00:00",
+  "generated_at": "2026-06-03T08:15:15.819768+00:00",
   "years": [
     2025,
     2026
@@ -8,7 +8,7 @@
   "preview_limit": 5,
   "period_label": "2025–2026",
   "month_label": "2025–2026",
-  "arxiv_pool": 202,
+  "arxiv_pool": 221,
   "conference_pool": 0,
   "mixed_sources": false,
   "note": "Top 5 arXiv preprints per area (use More for full list), published in 2025–2026. Ranked by keyword score on title and abstract.",
@@ -22,7 +22,7 @@
     {
       "id": "llm-serving",
       "label": "LLM serving",
-      "total_count": 24,
+      "total_count": 28,
       "count": 5,
       "picks": [
         {
@@ -142,6 +142,65 @@
         },
         {
           "rank": 4,
+          "title": "RTP-LLM: High-Performance Alibaba LLM Inference Engine",
+          "authors": [
+            "Boyu Tan",
+            "Jiarui Guo",
+            "Zongwei Lv",
+            "Hanbo Sun",
+            "Tong Yang",
+            "Kan Liu",
+            "Xinfei Shi",
+            "Zetao Hu",
+            "Yaxin Yu",
+            "Chi Zhang",
+            "Jianning Zhang",
+            "Xi Yang",
+            "Wei Zhang",
+            "Bo Cai",
+            "Silu Zhou",
+            "Xiyu Wang",
+            "Na He",
+            "Yinghao Yu",
+            "Wending Bao",
+            "Guiyang Huang",
+            "Yuxing Yuan",
+            "Juncheng Yin",
+            "Nan Wang",
+            "Lin Yang",
+            "Zechao Zhang",
+            "Lu Chen",
+            "Guoding Li",
+            "Tao Lan",
+            "Lin Qu"
+          ],
+          "category_score": 67,
+          "category_id": "llm-serving",
+          "display_score": 67,
+          "score_boost": 0,
+          "matched_tags": [
+            "speculative decoding",
+            "llm inference",
+            "throughput",
+            "kv cache",
+            "latency",
+            "vllm"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-28T09:07:06Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.29639v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.29639v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.29639v1",
+          "abstract": null
+        },
+        {
+          "rank": 5,
           "title": "ContiguousKV: Accelerating LLM Prefill with Granularity-Aligned KV Cache Management",
           "authors": [
             "Jing Zou",
@@ -168,40 +227,6 @@
           "pdf_url": "https://arxiv.org/pdf/2601.13631v1",
           "dblp_url": null,
           "paper_url": "https://arxiv.org/abs/2601.13631v1",
-          "abstract": null
-        },
-        {
-          "rank": 5,
-          "title": "LatencyPrism: Online Non-intrusive Latency Sculpting for SLO-Guaranteed LLM Inference",
-          "authors": [
-            "Yin Du",
-            "Jiayi Ren",
-            "Xiayu Sun",
-            "Tianyao Zhou",
-            "Haizhu Zhou",
-            "Ruiyan Ma",
-            "Danyang Zhang"
-          ],
-          "category_score": 55,
-          "category_id": "llm-serving",
-          "display_score": 55,
-          "score_boost": 0,
-          "matched_tags": [
-            "llm inference",
-            "throughput",
-            "latency"
-          ],
-          "source": "arxiv",
-          "published": "2026-01-14T07:46:59Z",
-          "primary_category": "cs.DC",
-          "source_feed": "cs.OS",
-          "venue": null,
-          "year": null,
-          "conference_id": null,
-          "abs_url": "https://arxiv.org/abs/2601.09258v2",
-          "pdf_url": "https://arxiv.org/pdf/2601.09258v2",
-          "dblp_url": null,
-          "paper_url": "https://arxiv.org/abs/2601.09258v2",
           "abstract": null
         }
       ],
@@ -323,6 +348,65 @@
         },
         {
           "rank": 4,
+          "title": "RTP-LLM: High-Performance Alibaba LLM Inference Engine",
+          "authors": [
+            "Boyu Tan",
+            "Jiarui Guo",
+            "Zongwei Lv",
+            "Hanbo Sun",
+            "Tong Yang",
+            "Kan Liu",
+            "Xinfei Shi",
+            "Zetao Hu",
+            "Yaxin Yu",
+            "Chi Zhang",
+            "Jianning Zhang",
+            "Xi Yang",
+            "Wei Zhang",
+            "Bo Cai",
+            "Silu Zhou",
+            "Xiyu Wang",
+            "Na He",
+            "Yinghao Yu",
+            "Wending Bao",
+            "Guiyang Huang",
+            "Yuxing Yuan",
+            "Juncheng Yin",
+            "Nan Wang",
+            "Lin Yang",
+            "Zechao Zhang",
+            "Lu Chen",
+            "Guoding Li",
+            "Tao Lan",
+            "Lin Qu"
+          ],
+          "category_score": 67,
+          "category_id": "llm-serving",
+          "display_score": 67,
+          "score_boost": 0,
+          "matched_tags": [
+            "speculative decoding",
+            "llm inference",
+            "throughput",
+            "kv cache",
+            "latency",
+            "vllm"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-28T09:07:06Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.29639v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.29639v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.29639v1",
+          "abstract": null
+        },
+        {
+          "rank": 5,
           "title": "ContiguousKV: Accelerating LLM Prefill with Granularity-Aligned KV Cache Management",
           "authors": [
             "Jing Zou",
@@ -352,7 +436,7 @@
           "abstract": null
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "LatencyPrism: Online Non-intrusive Latency Sculpting for SLO-Guaranteed LLM Inference",
           "authors": [
             "Yin Du",
@@ -386,7 +470,42 @@
           "abstract": null
         },
         {
-          "rank": 6,
+          "rank": 7,
+          "title": "Idleness is Relative: Exploiting Tool-Call Idle Windows for Offloading in Agentic Systems with MORI",
+          "authors": [
+            "Tian Xia",
+            "Hanchen Li",
+            "Zhifei Li",
+            "Xiaokun Chen",
+            "Hao Kang",
+            "Yifan Qiao",
+            "Yi Xu",
+            "Ion Stoica"
+          ],
+          "category_score": 47,
+          "category_id": "llm-serving",
+          "display_score": 47,
+          "score_boost": 0,
+          "matched_tags": [
+            "serving system",
+            "throughput",
+            "kv cache"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-30T19:44:25Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2606.00866v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.00866v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2606.00866v1",
+          "abstract": null
+        },
+        {
+          "rank": 8,
           "title": "C2CServe: Leveraging NVLink-C2C for Elastic Serverless LLM Serving on MIG",
           "authors": [
             "Shutian Luo",
@@ -420,7 +539,7 @@
           "abstract": null
         },
         {
-          "rank": 7,
+          "rank": 9,
           "title": "ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation",
           "authors": [
             "Shihao Wang",
@@ -455,7 +574,7 @@
           "abstract": null
         },
         {
-          "rank": 8,
+          "rank": 10,
           "title": "KV-RM: Regularizing KV-Cache Movement for Static-Graph LLM Serving",
           "authors": [
             "Zhiqing Zhong",
@@ -488,7 +607,7 @@
           "abstract": null
         },
         {
-          "rank": 9,
+          "rank": 11,
           "title": "SAGA: Workflow-Atomic Scheduling for AI Agent Inference on GPU Clusters",
           "authors": [
             "Dongxin Guo",
@@ -519,7 +638,7 @@
           "abstract": null
         },
         {
-          "rank": 10,
+          "rank": 12,
           "title": "StepCache: Step-Level Reuse with Lightweight Verification and Selective Patching for LLM Serving",
           "authors": [
             "Azam Nouri"
@@ -546,7 +665,7 @@
           "abstract": null
         },
         {
-          "rank": 11,
+          "rank": 13,
           "title": "Nova: Real-Time Agentic Vision-Language Model Serving with Adaptive Cross-Stage Parallelization",
           "authors": [
             "Yuhang Xu",
@@ -579,7 +698,40 @@
           "abstract": null
         },
         {
-          "rank": 12,
+          "rank": 14,
+          "title": "SSV: Sparse Speculative Verification for Efficient LLM Inference",
+          "authors": [
+            "Zhibin Wang",
+            "Ziyu Zhong",
+            "Nuo Shen",
+            "Yuhang Zhou",
+            "Rong Gu",
+            "Sheng Zhong"
+          ],
+          "category_score": 31,
+          "category_id": "llm-serving",
+          "display_score": 31,
+          "score_boost": 0,
+          "matched_tags": [
+            "speculative decoding",
+            "llm inference",
+            "throughput"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-19T14:24:27Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.19893v2",
+          "pdf_url": "https://arxiv.org/pdf/2605.19893v2",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.19893v2",
+          "abstract": null
+        },
+        {
+          "rank": 15,
           "title": "PreFT: Prefill-only finetuning for efficient inference",
           "authors": [
             "Andrew Lanpouthakoun",
@@ -612,7 +764,7 @@
           "abstract": null
         },
         {
-          "rank": 13,
+          "rank": 16,
           "title": "Token Management in Multi-Tenant AI Inference Platforms",
           "authors": [
             "William J. Cunningham"
@@ -641,7 +793,7 @@
           "abstract": null
         },
         {
-          "rank": 14,
+          "rank": 17,
           "title": "Blink: CPU-Free LLM Inference by Delegating the Serving Stack to GPU and SmartNIC",
           "authors": [
             "Mohammad Siavashi",
@@ -673,7 +825,7 @@
           "abstract": null
         },
         {
-          "rank": 15,
+          "rank": 18,
           "title": "Valve: Production Online-Offline Inference Colocation with Jointly-Bounded Preemption Latency and Rate",
           "authors": [
             "Fangyue Liu",
@@ -710,7 +862,38 @@
           "abstract": null
         },
         {
-          "rank": 16,
+          "rank": 19,
+          "title": "Edge-Based QoS-Aware Adaptive Task Placement: A Closed-Loop Control in Multi-Robot Systems",
+          "authors": [
+            "Thien Tran",
+            "Jonathan Kua",
+            "Thuong Hoang",
+            "Minh Tran",
+            "Honghao Lyu",
+            "Jiong Jin"
+          ],
+          "category_score": 15,
+          "category_id": "llm-serving",
+          "display_score": 15,
+          "score_boost": 0,
+          "matched_tags": [
+            "latency"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-30T05:54:44Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2606.00552v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.00552v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2606.00552v1",
+          "abstract": null
+        },
+        {
+          "rank": 20,
           "title": "Rethinking Inter-Process Communication with Memory Operation Offloading",
           "authors": [
             "Misun Park",
@@ -741,7 +924,7 @@
           "abstract": null
         },
         {
-          "rank": 17,
+          "rank": 21,
           "title": "Proxics: an efficient programming model for far memory accelerators",
           "authors": [
             "Zikai Liu",
@@ -773,7 +956,7 @@
           "abstract": null
         },
         {
-          "rank": 18,
+          "rank": 22,
           "title": "Guidelines for Building Indexes on Partially Cache-Coherent CXL Shared Memory",
           "authors": [
             "Fangnuo Wu",
@@ -804,7 +987,7 @@
           "abstract": null
         },
         {
-          "rank": 19,
+          "rank": 23,
           "title": "MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU",
           "authors": [
             "Zhengqing Yuan",
@@ -834,7 +1017,7 @@
           "abstract": null
         },
         {
-          "rank": 20,
+          "rank": 24,
           "title": "Horizon-LM: A RAM-Centric Architecture for LLM Training",
           "authors": [
             "Zhengqing Yuan",
@@ -863,7 +1046,7 @@
           "abstract": null
         },
         {
-          "rank": 21,
+          "rank": 25,
           "title": "Meta-ROS: A Next-Generation Middleware Architecture for Adaptive and Scalable Robotic Systems",
           "authors": [
             "Anshul Ranjan",
@@ -895,7 +1078,7 @@
           "abstract": null
         },
         {
-          "rank": 22,
+          "rank": 26,
           "title": "SemaTune: Semantic-Aware Online OS Tuning with Large Language Models",
           "authors": [
             "Georgios Liargkovas",
@@ -924,7 +1107,7 @@
           "abstract": null
         },
         {
-          "rank": 23,
+          "rank": 27,
           "title": "TempoNet: Slack-Quantized Transformer-Guided Reinforcement Scheduler for Adaptive Deadline-Centric Real-Time Dispatchs",
           "authors": [
             "Rong Fu",
@@ -960,7 +1143,7 @@
           "abstract": null
         },
         {
-          "rank": 24,
+          "rank": 28,
           "title": "Reexamining Paradigms of End-to-End Data Movement",
           "authors": [
             "Chin Fang",
@@ -1397,7 +1580,7 @@
     {
       "id": "kernel-agentic",
       "label": "Kernel Agentic Engineering",
-      "total_count": 8,
+      "total_count": 9,
       "count": 5,
       "picks": [
         {
@@ -1779,6 +1962,33 @@
         },
         {
           "rank": 8,
+          "title": "AgentAtlas: Beyond Outcome Leaderboards for LLM Agents",
+          "authors": [
+            "Parsa Mazaheri",
+            "Kasra Mazaheri"
+          ],
+          "category_score": 8,
+          "category_id": "kernel-agentic",
+          "display_score": 8,
+          "score_boost": 0,
+          "matched_tags": [
+            "llm agent"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-19T22:05:12Z",
+          "primary_category": "cs.AI",
+          "source_feed": "cs.CL",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.20530v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20530v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.20530v1",
+          "abstract": null
+        },
+        {
+          "rank": 9,
           "title": "VeruSAGE: A Study of Agent-Based Verification for Rust Systems",
           "authors": [
             "Chenyuan Yang",
@@ -1812,7 +2022,7 @@
     {
       "id": "system-security",
       "label": "System Security",
-      "total_count": 30,
+      "total_count": 34,
       "count": 5,
       "picks": [
         {
@@ -1847,6 +2057,36 @@
         },
         {
           "rank": 2,
+          "title": "ParaCell: Paravirtualized Secure Containers with Lightweight Intra-Container Isolation and Intent-Driven Memory Management",
+          "authors": [
+            "Yiyang Wu",
+            "Xunjie Wang",
+            "Jinyu Gu",
+            "Haibo Chen"
+          ],
+          "category_score": 70,
+          "category_id": "system-security",
+          "display_score": 70,
+          "score_boost": 0,
+          "matched_tags": [
+            "secure container",
+            "isolation"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-20T08:53:35Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.20906v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20906v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.20906v1",
+          "abstract": null
+        },
+        {
+          "rank": 3,
           "title": "Sharing is caring: Attestable and Trusted Workflows out of Distrustful Components",
           "authors": [
             "Amir Al Sadi",
@@ -1878,7 +2118,7 @@
           "abstract": null
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "pokiSEC: A Multi-Architecture, Containerized Ephemeral Malware Detonation Sandbox",
           "authors": [
             "Alejandro Avina",
@@ -1907,7 +2147,7 @@
           "abstract": null
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "AgenTEE: Confidential LLM Agent Execution on Edge Devices",
           "authors": [
             "Sina Abdollahi",
@@ -1938,34 +2178,6 @@
           "pdf_url": "https://arxiv.org/pdf/2604.18231v2",
           "dblp_url": null,
           "paper_url": "https://arxiv.org/abs/2604.18231v2",
-          "abstract": null
-        },
-        {
-          "rank": 5,
-          "title": "Peformance Isolation for Inference Processes in Edge GPU Systems",
-          "authors": [
-            "Juan José Martín",
-            "José Flich",
-            "Carles Hernández"
-          ],
-          "category_score": 40,
-          "category_id": "system-security",
-          "display_score": 40,
-          "score_boost": 0,
-          "matched_tags": [
-            "isolation"
-          ],
-          "source": "arxiv",
-          "published": "2026-01-12T14:49:52Z",
-          "primary_category": "cs.OS",
-          "source_feed": "cs.OS",
-          "venue": null,
-          "year": null,
-          "conference_id": null,
-          "abs_url": "https://arxiv.org/abs/2601.07600v2",
-          "pdf_url": "https://arxiv.org/pdf/2601.07600v2",
-          "dblp_url": null,
-          "paper_url": "https://arxiv.org/abs/2601.07600v2",
           "abstract": null
         }
       ],
@@ -2002,6 +2214,36 @@
         },
         {
           "rank": 2,
+          "title": "ParaCell: Paravirtualized Secure Containers with Lightweight Intra-Container Isolation and Intent-Driven Memory Management",
+          "authors": [
+            "Yiyang Wu",
+            "Xunjie Wang",
+            "Jinyu Gu",
+            "Haibo Chen"
+          ],
+          "category_score": 70,
+          "category_id": "system-security",
+          "display_score": 70,
+          "score_boost": 0,
+          "matched_tags": [
+            "secure container",
+            "isolation"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-20T08:53:35Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.20906v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20906v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.20906v1",
+          "abstract": null
+        },
+        {
+          "rank": 3,
           "title": "Sharing is caring: Attestable and Trusted Workflows out of Distrustful Components",
           "authors": [
             "Amir Al Sadi",
@@ -2033,7 +2275,7 @@
           "abstract": null
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "pokiSEC: A Multi-Architecture, Containerized Ephemeral Malware Detonation Sandbox",
           "authors": [
             "Alejandro Avina",
@@ -2062,7 +2304,7 @@
           "abstract": null
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "AgenTEE: Confidential LLM Agent Execution on Edge Devices",
           "authors": [
             "Sina Abdollahi",
@@ -2096,7 +2338,7 @@
           "abstract": null
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "Peformance Isolation for Inference Processes in Edge GPU Systems",
           "authors": [
             "Juan José Martín",
@@ -2124,7 +2366,7 @@
           "abstract": null
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "Trustworthy and Controllable Professional Knowledge Utilization in Large Language Models with TEE-GPU Execution",
           "authors": [
             "Yifeng Cai",
@@ -2158,7 +2400,7 @@
           "abstract": null
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "WebAssembly Based Portable and Secure Sensor Interface for Internet of Things",
           "authors": [
             "Botong Ou",
@@ -2187,7 +2429,7 @@
           "abstract": null
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "SteelDB: Diagnosing Kernel-Space Bottlenecks in Cloud OLTP Databases",
           "authors": [
             "Mitsumasa Kondo"
@@ -2213,7 +2455,7 @@
           "abstract": null
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Performance Isolation and Semantic Determinism in Efficient GPU Spatial Sharing",
           "authors": [
             "Zhenyuan Yang",
@@ -2243,7 +2485,7 @@
           "abstract": null
         },
         {
-          "rank": 10,
+          "rank": 11,
           "title": "Ringmaster: How to juggle high-throughput host OS system calls from TrustZone TEEs",
           "authors": [
             "Richard Habeeb",
@@ -2274,7 +2516,7 @@
           "abstract": null
         },
         {
-          "rank": 11,
+          "rank": 12,
           "title": "Pomegranate: A Lightweight Compartmentalization Architecture using Virtualization Extensions",
           "authors": [
             "Shriram Raja",
@@ -2303,7 +2545,7 @@
           "abstract": null
         },
         {
-          "rank": 12,
+          "rank": 13,
           "title": "Sockeye: a language for analyzing hardware documentation",
           "authors": [
             "Ben Fiedler",
@@ -2332,7 +2574,7 @@
           "abstract": null
         },
         {
-          "rank": 13,
+          "rank": 14,
           "title": "An AI Agent Execution Environment to Safeguard User Data",
           "authors": [
             "Robert Stanley",
@@ -2363,7 +2605,7 @@
           "abstract": null
         },
         {
-          "rank": 14,
+          "rank": 15,
           "title": "Rethinking Provenance Completeness with a Learning-Based Linux Scheduler",
           "authors": [
             "Jinsong Mao",
@@ -2393,7 +2635,7 @@
           "abstract": null
         },
         {
-          "rank": 15,
+          "rank": 16,
           "title": "VUDA: Breaking CUDA-Vulkan Isolation for Spatial Sharing of Compute and Graphics on the Same GPU",
           "authors": [
             "Bin Xu",
@@ -2423,7 +2665,7 @@
           "abstract": null
         },
         {
-          "rank": 16,
+          "rank": 17,
           "title": "Nanvix: A Multikernel OS Design for High-Density Serverless Deployments",
           "authors": [
             "Carlos Segarra",
@@ -2456,7 +2698,7 @@
           "abstract": null
         },
         {
-          "rank": 17,
+          "rank": 18,
           "title": "Mitigating Timing-Based Attacks in Real-Time Cyber-Physical Systems",
           "authors": [
             "Arkaprava Sain",
@@ -2485,7 +2727,7 @@
           "abstract": null
         },
         {
-          "rank": 18,
+          "rank": 19,
           "title": "Towards Deterministic Sub-0.5 us Response on Linux through Interrupt Isolation",
           "authors": [
             "Zhouyi Zhou",
@@ -2519,7 +2761,37 @@
           "abstract": null
         },
         {
-          "rank": 19,
+          "rank": 20,
+          "title": "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents",
+          "authors": [
+            "Bingchen Zhao",
+            "Dhruv Srikanth",
+            "Yuxiang Wu",
+            "Zhengyao Jiang"
+          ],
+          "category_score": 22,
+          "category_id": "system-security",
+          "display_score": 22,
+          "score_boost": 0,
+          "matched_tags": [
+            "isolation",
+            "exploit"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-20T16:41:51Z",
+          "primary_category": "cs.SE",
+          "source_feed": "cs.CL",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.21384v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.21384v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.21384v1",
+          "abstract": null
+        },
+        {
+          "rank": 21,
           "title": "Exploiting Page Faults for Covert Communication",
           "authors": [
             "Sathvik Swaminathan"
@@ -2546,7 +2818,7 @@
           "abstract": null
         },
         {
-          "rank": 20,
+          "rank": 22,
           "title": "VCAO: Verifier-Centered Agentic Orchestration for Strategic OS Vulnerability Discovery",
           "authors": [
             "Suyash Mishra"
@@ -2572,7 +2844,7 @@
           "abstract": null
         },
         {
-          "rank": 21,
+          "rank": 23,
           "title": "Hardening the OSv Unikernel with Efficient Address Randomization: Design and Performance Evaluation",
           "authors": [
             "Alex Wollman",
@@ -2600,7 +2872,34 @@
           "abstract": null
         },
         {
-          "rank": 22,
+          "rank": 24,
+          "title": "Beyond Edge Coverage: Per-Task Data-Flow Extraction at Kernel Function Boundaries via LLVM",
+          "authors": [
+            "Yunseong Kim"
+          ],
+          "category_score": 14,
+          "category_id": "system-security",
+          "display_score": 14,
+          "score_boost": 0,
+          "matched_tags": [
+            "vulnerability",
+            "security"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-30T00:42:59Z",
+          "primary_category": "cs.CR",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2606.00455v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.00455v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2606.00455v1",
+          "abstract": null
+        },
+        {
+          "rank": 25,
           "title": "Structured Gossip: A Partition-Resilient DNS for Internet-Scale Dynamic Networks",
           "authors": [
             "Priyanka Sinha",
@@ -2628,7 +2927,7 @@
           "abstract": null
         },
         {
-          "rank": 23,
+          "rank": 26,
           "title": "DeLog: An Efficient Log Compression Framework with Pattern Signature Synthesis",
           "authors": [
             "Siyu Yu",
@@ -2665,7 +2964,7 @@
           "abstract": null
         },
         {
-          "rank": 24,
+          "rank": 27,
           "title": "Mitigating the Memory Bottleneck with Machine Learning-Driven and Data-Aware Microarchitectural Techniques",
           "authors": [
             "Rahul Bera"
@@ -2691,7 +2990,7 @@
           "abstract": null
         },
         {
-          "rank": 25,
+          "rank": 28,
           "title": "Supply Chain Exploitation of Secure ROS 2 Systems: A Proof-of-Concept on Autonomous Platform Compromise via Keystore Exfiltration",
           "authors": [
             "Tahmid Hasan Sakib",
@@ -2722,7 +3021,7 @@
           "abstract": null
         },
         {
-          "rank": 26,
+          "rank": 29,
           "title": "Generative Profiling for Soft Real-Time Systems and its Applications to Resource Allocation",
           "authors": [
             "Georgiy A. Bondar",
@@ -2754,7 +3053,7 @@
           "abstract": null
         },
         {
-          "rank": 27,
+          "rank": 30,
           "title": "Right to History: A Sovereignty Kernel for Verifiable AI Agent Execution",
           "authors": [
             "Jing Zhang"
@@ -2780,7 +3079,7 @@
           "abstract": null
         },
         {
-          "rank": 28,
+          "rank": 31,
           "title": "Skim: Speculative Execution for Fast and Efficient Web Agents",
           "authors": [
             "Mike Wong",
@@ -2809,7 +3108,7 @@
           "abstract": null
         },
         {
-          "rank": 29,
+          "rank": 32,
           "title": "Decoupling Vector Data and Index Storage for Space Efficiency",
           "authors": [
             "Yuanming Ren",
@@ -2840,7 +3139,7 @@
           "abstract": null
         },
         {
-          "rank": 30,
+          "rank": 33,
           "title": "VLCs: Managing Parallelism with Virtualized Libraries",
           "authors": [
             "Yineng Yan",
@@ -2876,6 +3175,33 @@
           "pdf_url": "https://arxiv.org/pdf/2512.04320v1",
           "dblp_url": null,
           "paper_url": "https://arxiv.org/abs/2512.04320v1",
+          "abstract": null
+        },
+        {
+          "rank": 34,
+          "title": "A Secure, Manifest-Based Framework for Delegated Privilege Promotion",
+          "authors": [
+            "Rajarshi Chowdhury",
+            "Akshay Shah"
+          ],
+          "category_score": 4,
+          "category_id": "system-security",
+          "display_score": 4,
+          "score_boost": 0,
+          "matched_tags": [
+            "security"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-27T18:48:47Z",
+          "primary_category": "cs.CR",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.28991v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.28991v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.28991v1",
           "abstract": null
         }
       ]
@@ -3995,7 +4321,7 @@
     {
       "id": "memory-resource",
       "label": "Memory and Resource Management",
-      "total_count": 39,
+      "total_count": 41,
       "count": 5,
       "picks": [
         {
@@ -4338,6 +4664,32 @@
         },
         {
           "rank": 6,
+          "title": "LearnedCache: An eBPF-Integrated Perceptron-Based Eviction Policy for the Linux Page Cache",
+          "authors": [
+            "Zejia Qi"
+          ],
+          "category_score": 50,
+          "category_id": "memory-resource",
+          "display_score": 50,
+          "score_boost": 0,
+          "matched_tags": [
+            "page cache"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-25T00:15:38Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.26168v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.26168v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.26168v1",
+          "abstract": null
+        },
+        {
+          "rank": 7,
           "title": "Preemption-Enhanced Benchmark Suite for FPGAs",
           "authors": [
             "Arsalan Ali Malik",
@@ -4365,7 +4717,7 @@
           "abstract": null
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "OBASE: Object-Based Address-Space Engineering to Improve Memory Tiering",
           "authors": [
             "Vinay Banakar",
@@ -4397,7 +4749,37 @@
           "abstract": null
         },
         {
-          "rank": 8,
+          "rank": 9,
+          "title": "Clove: Object-Level CXL Memory Management in Managed Runtimes",
+          "authors": [
+            "Sam Son",
+            "Zhihong Luo",
+            "Wen Zhang",
+            "Sylvia Ratnasamy",
+            "Scott Shenker"
+          ],
+          "category_score": 30,
+          "category_id": "memory-resource",
+          "display_score": 30,
+          "score_boost": 0,
+          "matched_tags": [
+            "memory management"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-19T18:21:07Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.20370v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.20370v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.20370v1",
+          "abstract": null
+        },
+        {
+          "rank": 10,
           "title": "Jenga: Responsive Tiered Memory Management without Thrashing",
           "authors": [
             "Rohan Kadekodi",
@@ -4428,7 +4810,7 @@
           "abstract": null
         },
         {
-          "rank": 9,
+          "rank": 11,
           "title": "ClawVM: Harness-Managed Virtual Memory for Stateful Tool-Using LLM Agents",
           "authors": [
             "Mofasshara Rafique",
@@ -4455,7 +4837,7 @@
           "abstract": null
         },
         {
-          "rank": 10,
+          "rank": 12,
           "title": "The Missing Memory Hierarchy: Demand Paging for LLM Context Windows",
           "authors": [
             "Tony Mason"
@@ -4481,7 +4863,7 @@
           "abstract": null
         },
         {
-          "rank": 11,
+          "rank": 13,
           "title": "Equinox: Decentralized Scheduling for Hardware-Aware Orbital Intelligence",
           "authors": [
             "Ansel Kaplan Erol",
@@ -4508,7 +4890,7 @@
           "abstract": null
         },
         {
-          "rank": 12,
+          "rank": 14,
           "title": "Rethinking Thread Scheduling under Oversubscription: A User-Space Framework for Coordinating Multi-runtime and Multi-process Workloads",
           "authors": [
             "Aleix Roca",
@@ -4535,7 +4917,7 @@
           "abstract": null
         },
         {
-          "rank": 13,
+          "rank": 15,
           "title": "Virtual-Memory Assisted Buffer Management In Tiered Memory",
           "authors": [
             "Yeasir Rayhan",
@@ -4563,7 +4945,7 @@
           "abstract": null
         },
         {
-          "rank": 14,
+          "rank": 16,
           "title": "A Flower-Inspired Solution for Computer Memory Wear-Leveling",
           "authors": [
             "Elizabeth Shen",
@@ -4591,7 +4973,7 @@
           "abstract": null
         },
         {
-          "rank": 15,
+          "rank": 17,
           "title": "A Target-Agnostic Protocol-Independent Interface for the Transport Layer",
           "authors": [
             "Pedro Mizuno",
@@ -4626,7 +5008,7 @@
           "abstract": null
         },
         {
-          "rank": 16,
+          "rank": 18,
           "title": "LMetric: Simple is Better - Multiplication May Be All You Need for LLM Request Scheduling",
           "authors": [
             "Dingyan Zhang",
@@ -4660,7 +5042,7 @@
           "abstract": null
         },
         {
-          "rank": 17,
+          "rank": 19,
           "title": "Fixed-Priority and EDF Schedules for ROS2 Graphs on Uniprocessor",
           "authors": [
             "Oren Bell",
@@ -4690,7 +5072,7 @@
           "abstract": null
         },
         {
-          "rank": 18,
+          "rank": 20,
           "title": "AgentRM: An OS-Inspired Resource Manager for LLM Agent Systems",
           "authors": [
             "Jianshu She"
@@ -4717,7 +5099,7 @@
           "abstract": null
         },
         {
-          "rank": 19,
+          "rank": 21,
           "title": "Vulcan: Instance-Optimal Systems Heuristics Through LLM-Driven Search",
           "authors": [
             "Rohit Dwivedula",
@@ -4748,7 +5130,7 @@
           "abstract": null
         },
         {
-          "rank": 20,
+          "rank": 22,
           "title": "CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions (Extended Version)",
           "authors": [
             "Nick Lindsay",
@@ -4777,7 +5159,7 @@
           "abstract": null
         },
         {
-          "rank": 21,
+          "rank": 23,
           "title": "Qurator: Scheduling Hybrid Quantum-Classical Workflows Across Heterogeneous Cloud Providers",
           "authors": [
             "Sinan Pehlivanoglu",
@@ -4806,7 +5188,7 @@
           "abstract": null
         },
         {
-          "rank": 22,
+          "rank": 24,
           "title": "Ensuring Data Freshness in Multi-Rate Task Chains Scheduling",
           "authors": [
             "José Luis Conradi Hoffmann",
@@ -4833,7 +5215,7 @@
           "abstract": null
         },
         {
-          "rank": 23,
+          "rank": 25,
           "title": "Exploiting Dependency and Parallelism: Real-Time Scheduling and Analysis for GPU Tasks",
           "authors": [
             "Yuanhai Zhang",
@@ -4865,7 +5247,7 @@
           "abstract": null
         },
         {
-          "rank": 24,
+          "rank": 26,
           "title": "Contextual Memory Virtualisation: DAG-Based State Management and Structurally Lossless Trimming for LLM Agents",
           "authors": [
             "Cosmo Santoni"
@@ -4891,7 +5273,7 @@
           "abstract": null
         },
         {
-          "rank": 25,
+          "rank": 27,
           "title": "Nixie: Efficient, Transparent Temporal Multiplexing for Consumer GPUs",
           "authors": [
             "Yechen Xu",
@@ -4921,7 +5303,7 @@
           "abstract": null
         },
         {
-          "rank": 26,
+          "rank": 28,
           "title": "SARA: A Stall-Aware Memory Allocation Strategy for Mixed-Criticality Systems",
           "authors": [
             "Meng-Chia Lee",
@@ -4950,7 +5332,7 @@
           "abstract": null
         },
         {
-          "rank": 27,
+          "rank": 29,
           "title": "CPU-Limits kill Performance: Time to rethink Resource Control",
           "authors": [
             "Chirag Shetty",
@@ -4982,7 +5364,7 @@
           "abstract": null
         },
         {
-          "rank": 28,
+          "rank": 30,
           "title": "TrEnv-X: Transparently Share Serverless Execution Environments Across Different Functions and Nodes",
           "authors": [
             "Jialiang Huang",
@@ -5021,7 +5403,7 @@
           "abstract": null
         },
         {
-          "rank": 29,
+          "rank": 31,
           "title": "Interferences within a certifiable design methodology for high-performance multi-core platforms",
           "authors": [
             "Mohamed Amine Khelassi",
@@ -5057,7 +5439,7 @@
           "abstract": null
         },
         {
-          "rank": 30,
+          "rank": 32,
           "title": "Equilibria: Fair Multi-Tenant CXL Memory Tiering At Scale",
           "authors": [
             "Kaiyang Zhao",
@@ -5092,7 +5474,7 @@
           "abstract": null
         },
         {
-          "rank": 31,
+          "rank": 33,
           "title": "Tidying Up the Address Space",
           "authors": [
             "Vinay Banakar",
@@ -5123,7 +5505,7 @@
           "abstract": null
         },
         {
-          "rank": 32,
+          "rank": 34,
           "title": "Affinity Tailor: Dynamic Locality-Aware Scheduling at Scale",
           "authors": [
             "Jin Xin Ng",
@@ -5158,7 +5540,7 @@
           "abstract": null
         },
         {
-          "rank": 33,
+          "rank": 35,
           "title": "Scheduling the Unschedulable: Taming Black-Box LLM Inference at Scale",
           "authors": [
             "Renzhong Yuan",
@@ -5189,7 +5571,7 @@
           "abstract": null
         },
         {
-          "rank": 34,
+          "rank": 36,
           "title": "Work-in-Progress: Function-as-Subtask API Replacing Publish/Subscribe for OS-Native DAG Scheduling",
           "authors": [
             "Takahiro Ishikawa-Aso",
@@ -5220,7 +5602,7 @@
           "abstract": null
         },
         {
-          "rank": 35,
+          "rank": 37,
           "title": "Modeling and Scheduling of Fusion Patterns in Autonomous Driving Systems (Extended Version)",
           "authors": [
             "Hoora Sobhani",
@@ -5247,7 +5629,7 @@
           "abstract": null
         },
         {
-          "rank": 36,
+          "rank": 38,
           "title": "A Task Equalization Allocation Algorithm Incorporating Blocking Estimation and Resource Similarity Analysis for Vehicle Control Real-Time Systems",
           "authors": [
             "Qianlong Duan",
@@ -5277,7 +5659,7 @@
           "abstract": null
         },
         {
-          "rank": 37,
+          "rank": 39,
           "title": "A Case for CATS: A Conductor-driven Asymmetric Transport Scheme for Semantic Prioritization",
           "authors": [
             "Syed Muhammad Aqdas Rizvi"
@@ -5303,7 +5685,7 @@
           "abstract": null
         },
         {
-          "rank": 38,
+          "rank": 40,
           "title": "Towards Fully-fledged GPU Multitasking via Proactive Memory Scheduling",
           "authors": [
             "Weihang Shen",
@@ -5332,7 +5714,7 @@
           "abstract": null
         },
         {
-          "rank": 39,
+          "rank": 41,
           "title": "Defending Event-Triggered Systems against Out-of-Envelope Environments",
           "authors": [
             "Marcus Völp",
@@ -5367,7 +5749,7 @@
     {
       "id": "fs-storage",
       "label": "File System and Storage",
-      "total_count": 20,
+      "total_count": 23,
       "count": 5,
       "picks": [
         {
@@ -5841,6 +6223,59 @@
         },
         {
           "rank": 11,
+          "title": "Agent libOS: A Library-OS-Inspired Runtime for Long-Running, Capability-Controlled LLM Agents",
+          "authors": [
+            "Yingqi Zhang"
+          ],
+          "category_score": 34,
+          "category_id": "fs-storage",
+          "display_score": 34,
+          "score_boost": 0,
+          "matched_tags": [
+            "filesystem"
+          ],
+          "source": "arxiv",
+          "published": "2026-06-02T16:53:24Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2606.03895v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.03895v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2606.03895v1",
+          "abstract": null
+        },
+        {
+          "rank": 12,
+          "title": "Sandlock: Confining AI Agent Code with Unprivileged Linux Primitives",
+          "authors": [
+            "Cong Wang",
+            "Yusheng Zheng"
+          ],
+          "category_score": 34,
+          "category_id": "fs-storage",
+          "display_score": 34,
+          "score_boost": 0,
+          "matched_tags": [
+            "filesystem"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-25T19:51:30Z",
+          "primary_category": "cs.CR",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.26298v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.26298v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.26298v1",
+          "abstract": null
+        },
+        {
+          "rank": 13,
           "title": "ConZone+: Practical Zoned Flash Storage Emulation for Consumer Devices",
           "authors": [
             "Dingcui Yu",
@@ -5873,7 +6308,7 @@
           "abstract": null
         },
         {
-          "rank": 12,
+          "rank": 14,
           "title": "PipeANN-Filter: An Efficient Filtered Vector Search System on SSD",
           "authors": [
             "Hao Guo",
@@ -5901,7 +6336,7 @@
           "abstract": null
         },
         {
-          "rank": 13,
+          "rank": 15,
           "title": "TIDAL: Recovering Temporal Phase for Cloud Block Storage Placement from LLM-Derived Semantics",
           "authors": [
             "Difan Tan",
@@ -5931,7 +6366,7 @@
           "abstract": null
         },
         {
-          "rank": 14,
+          "rank": 16,
           "title": "Proof-Carrying Certificates for LLM Pipelines: A Trust-Boundary Architecture",
           "authors": [
             "George Koomullil"
@@ -5957,7 +6392,7 @@
           "abstract": null
         },
         {
-          "rank": 15,
+          "rank": 17,
           "title": "Governed MCP: Kernel-Level Tool Governance for AI Agents via Logit-Based Safety Primitives",
           "authors": [
             "Daeyeon Son"
@@ -5983,7 +6418,7 @@
           "abstract": null
         },
         {
-          "rank": 16,
+          "rank": 18,
           "title": "Why iCloud Fails: The Category Mistake of Cloud Synchronization",
           "authors": [
             "Paul Borrill"
@@ -6009,7 +6444,38 @@
           "abstract": null
         },
         {
-          "rank": 17,
+          "rank": 19,
+          "title": "IORM: Hierarchical I/O Governance for Thousands of Consolidated Databases on Oracle Exadata",
+          "authors": [
+            "Rajarshi Chowdhury",
+            "Akshay Shah",
+            "Zakaria Alrmaih",
+            "Chenhao Guo",
+            "Anubhav Singh",
+            "Sue Lee"
+          ],
+          "category_score": 14,
+          "category_id": "fs-storage",
+          "display_score": 14,
+          "score_boost": 0,
+          "matched_tags": [
+            "storage system"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-27T19:02:45Z",
+          "primary_category": "cs.DB",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.29006v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.29006v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.29006v1",
+          "abstract": null
+        },
+        {
+          "rank": 20,
           "title": "\"Range as a Key\" is the Key! Fast and Compact Cloud Block Store Index with RASK",
           "authors": [
             "Haoru Zhao",
@@ -6039,7 +6505,7 @@
           "abstract": null
         },
         {
-          "rank": 18,
+          "rank": 21,
           "title": "ASIC-based Compression Accelerators for Storage Systems: Design, Placement, and Profiling Insights",
           "authors": [
             "Tao Lu",
@@ -6069,7 +6535,7 @@
           "abstract": null
         },
         {
-          "rank": 19,
+          "rank": 22,
           "title": "NetCAS: Dynamic Cache and Backend Device Management in Networked Environments",
           "authors": [
             "Joon Yong Hwang",
@@ -6097,7 +6563,7 @@
           "abstract": null
         },
         {
-          "rank": 20,
+          "rank": 23,
           "title": "Ratio1 -- AI meta-OS",
           "authors": [
             "Andrei Damian",
@@ -6563,7 +7029,7 @@
     {
       "id": "fault-tolerance",
       "label": "Fault Tolerance",
-      "total_count": 6,
+      "total_count": 8,
       "count": 5,
       "picks": [
         {
@@ -6630,6 +7096,39 @@
         },
         {
           "rank": 3,
+          "title": "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback",
+          "authors": [
+            "Yunpeng Dong",
+            "Jingkai He",
+            "Yuze Hou",
+            "Dong Du",
+            "Zhonghu Xu",
+            "Si Yu",
+            "Yubin Xia",
+            "Haibo Chen"
+          ],
+          "category_score": 48,
+          "category_id": "fault-tolerance",
+          "display_score": 48,
+          "score_boost": 0,
+          "matched_tags": [
+            "checkpoint"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-21T17:36:17Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.22781v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.22781v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.22781v1",
+          "abstract": null
+        },
+        {
+          "rank": 4,
           "title": "LEFT-RS: A Lock-Free Fault-Tolerant Resource Sharing Protocol for Multicore Real-Time Systems",
           "authors": [
             "Nan Chen",
@@ -6661,7 +7160,7 @@
           "abstract": null
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "Funky: Cloud-Native FPGA Virtualization and Orchestration",
           "authors": [
             "Atsushi Koshiba",
@@ -6687,32 +7186,6 @@
           "pdf_url": "https://arxiv.org/pdf/2510.15755v1",
           "dblp_url": null,
           "paper_url": "https://arxiv.org/abs/2510.15755v1",
-          "abstract": null
-        },
-        {
-          "rank": 5,
-          "title": "Crash-Consistent Checkpointing for AI Training on macOS/APFS",
-          "authors": [
-            "Juha Jeon"
-          ],
-          "category_score": 32,
-          "category_id": "fault-tolerance",
-          "display_score": 32,
-          "score_boost": 0,
-          "matched_tags": [
-            "checkpoint"
-          ],
-          "source": "arxiv",
-          "published": "2025-11-23T07:29:06Z",
-          "primary_category": "cs.OS",
-          "source_feed": "cs.OS",
-          "venue": null,
-          "year": null,
-          "conference_id": null,
-          "abs_url": "https://arxiv.org/abs/2511.18323v1",
-          "pdf_url": "https://arxiv.org/pdf/2511.18323v1",
-          "dblp_url": null,
-          "paper_url": "https://arxiv.org/abs/2511.18323v1",
           "abstract": null
         }
       ],
@@ -6781,6 +7254,39 @@
         },
         {
           "rank": 3,
+          "title": "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback",
+          "authors": [
+            "Yunpeng Dong",
+            "Jingkai He",
+            "Yuze Hou",
+            "Dong Du",
+            "Zhonghu Xu",
+            "Si Yu",
+            "Yubin Xia",
+            "Haibo Chen"
+          ],
+          "category_score": 48,
+          "category_id": "fault-tolerance",
+          "display_score": 48,
+          "score_boost": 0,
+          "matched_tags": [
+            "checkpoint"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-21T17:36:17Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2605.22781v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.22781v1",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2605.22781v1",
+          "abstract": null
+        },
+        {
+          "rank": 4,
           "title": "LEFT-RS: A Lock-Free Fault-Tolerant Resource Sharing Protocol for Multicore Real-Time Systems",
           "authors": [
             "Nan Chen",
@@ -6812,7 +7318,7 @@
           "abstract": null
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "Funky: Cloud-Native FPGA Virtualization and Orchestration",
           "authors": [
             "Atsushi Koshiba",
@@ -6841,7 +7347,7 @@
           "abstract": null
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "Crash-Consistent Checkpointing for AI Training on macOS/APFS",
           "authors": [
             "Juha Jeon"
@@ -6867,7 +7373,37 @@
           "abstract": null
         },
         {
-          "rank": 6,
+          "rank": 7,
+          "title": "Characterizing Metastable Faults and Failures",
+          "authors": [
+            "Ali Farahbakhsh",
+            "Qingjie Lu",
+            "Lorenzo Alvisi",
+            "Andreas Haeberlen",
+            "Robbert Van Renesse"
+          ],
+          "category_score": 16,
+          "category_id": "fault-tolerance",
+          "display_score": 16,
+          "score_boost": 0,
+          "matched_tags": [
+            "fault-tolerant"
+          ],
+          "source": "arxiv",
+          "published": "2026-05-31T01:04:27Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2606.00942v2",
+          "pdf_url": "https://arxiv.org/pdf/2606.00942v2",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2606.00942v2",
+          "abstract": null
+        },
+        {
+          "rank": 8,
           "title": "ipc_shared_ptr: A Publish/Subscribe-Aware Smart Pointer for Cross-Process Object Lifetime Management",
           "authors": [
             "Takahiro Ishikawa-Aso",

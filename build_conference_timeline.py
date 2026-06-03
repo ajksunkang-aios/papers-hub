@@ -5,12 +5,13 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from core.hub_config import add_hub_argument, load_hub
 
 ROOT = Path(__file__).resolve().parent
+TZ_UTC8 = timezone(timedelta(hours=8))
 
 
 def parse_day(iso: str) -> datetime:
@@ -39,7 +40,7 @@ def main() -> int:
             slug = conf.get("venue") or conf.get("id", "").rsplit("-", 1)[0]
             by_slug[slug] = conf
 
-    now = datetime.now(timezone.utc)
+    now = datetime.now(TZ_UTC8)
     today = now.date().isoformat()
 
     events_out: list[dict] = []
@@ -62,6 +63,7 @@ def main() -> int:
             {
                 "slug": slug,
                 "short_name": ev["short_name"],
+                "rail_label": ev.get("rail_label"),
                 "event_start": start,
                 "event_end": end,
                 "location": ev.get("location", ""),

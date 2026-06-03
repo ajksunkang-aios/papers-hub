@@ -253,7 +253,9 @@
       "dblp_url": "https://dblp.org/rec/conf/eurosys/LuWSZC26.html",
       "ee_links": [
         "https://doi.org/10.1145/3767295.3769384"
-      ]
+      ],
+      "abstract": "Lossless compression imposes significant computational over head on datacenters when performed on CPUs. Hardware compression and decompression processing units (CDPUs) can alleviate this overhead, but optimal algorithm selection, microarchitectural design, and system-level placement of CDPUs are still not well understood. We present the design of an ASIC-based in-storage CDPU and provide a comprehensive end-to-end evaluation against two leading ASIC accelerators, Intel QAT 8970 and QAT 4xxx. The evaluation spans three dominant CDPU placement regimes: peripheral, on-chip, and in-storage. Our results reveal: (i) acute sensitivity of throughput and latency to CDPU placement and interconnection, (ii) strong correlation between compression efficiency and data patterns/layouts, (iii) placement-driven divergences between microbenchmark gains and real-application speedups, (iv) discrepancies between module and system-level power efficiency, and (v) scalability and multi-tenant interference is sues of various CDPUs. These findings motivate a placement-aware, cross-layer rethinking of hardware (de)compression for hyperscale storage infrastructures.",
+      "abstract_source": "arxiv-local"
     },
     {
       "title": "Automated End-to-End Model Serving with Cooperative Compilation and Scheduling",
@@ -912,7 +914,9 @@
       "dblp_url": "https://dblp.org/rec/conf/eurosys/DengSICMVW26.html",
       "ee_links": [
         "https://doi.org/10.1145/3767295.3769387"
-      ]
+      ],
+      "abstract": "We describe a system for serverless computing where users, programs, and the underlying platform share a common representation of a computation: a deterministic procedure, run in an environment of well-specified data or the outputs of other computations. This representation externalizes I/O: data movement over the network is performed exclusively by the platform. Applications can describe the precise data needed at each stage, helping the provider schedule tasks and network transfers to reduce starvation. The design suggests an end-to-end argument for outsourced computing, shifting the service model from ``pay-for-effort'' to ``pay-for-results.''",
+      "abstract_source": "arxiv-local"
     },
     {
       "title": "FlashPS: Efficient Generative Image Editing with Mask-aware Caching and Scheduling",
@@ -1016,7 +1020,9 @@
       "dblp_url": "https://dblp.org/rec/conf/eurosys/WangLC26.html",
       "ee_links": [
         "https://doi.org/10.1145/3767295.3803576"
-      ]
+      ],
+      "abstract": "Computer-use agents (CUAs) powered by large language models (LLMs) have emerged as a promising approach to automating computer tasks, yet they struggle with the existing human-oriented OS interfaces - graphical user interfaces (GUIs). GUIs force LLMs to decompose high-level goals into lengthy, error-prone sequences of fine-grained actions, resulting in low success rates and an excessive number of LLM calls. We propose Declarative Model Interface (DMI), an abstraction that transforms existing GUIs into three declarative primitives: access, state, and observation, thereby providing novel OS interfaces tailored for LLM agents. Our key idea is policy-mechanism separation: LLMs focus on high-level semantic planning (policy) while DMI handles low-level navigation and interaction (mechanism). DMI does not require modifying the application source code or relying on application programming interfaces (APIs). We evaluate DMI with Microsoft Office Suite (Word, PowerPoint, Excel) on Windows. Integrating DMI into a leading GUI-based agent baseline improves task success rates by 67% and reduces interaction steps by 43.5%. Notably, DMI completes over 61% of successful tasks with a single LLM call.",
+      "abstract_source": "arxiv-local"
     },
     {
       "title": "FUR: Fast and Unlimited Reads on Persistent Memory Transactions",
@@ -1791,7 +1797,9 @@
       "dblp_url": "https://dblp.org/rec/conf/eurosys/IshiiFS26.html",
       "ee_links": [
         "https://doi.org/10.1145/3767295.3769347"
-      ]
+      ],
+      "abstract": "Nested virtualization is now widely supported by major cloud vendors, allowing users to leverage virtualization-based technologies in the cloud. However, supporting nested virtualization significantly increases host hypervisor complexity and introduces a new attack surface in cloud platforms. While many prior studies have explored hypervisor fuzzing, none has explicitly addressed nested virtualization due to the challenge of generating effective virtual machine (VM) instances with a vast state space as fuzzing inputs. We present NecoFuzz, the first fuzzing framework that systematically targets nested virtualization-specific logic in hypervisors. NecoFuzz synthesizes executable fuzz-harness VMs with internal states near the boundary between valid and invalid, guided by an approximate model of hardware-assisted virtualization specifications. Since vulnerabilities in nested virtualization often stem from incorrect handling of unexpected VM states, this specification-guided, boundary-oriented generation significantly improves coverage of security-critical code across different hypervisors. We implemented NecoFuzz on Intel VT-x and AMD-V by extending AFL++ to support fuzz-harness VMs. NecoFuzz achieved 84.7% and 74.2% code coverage for nested virtualization-specific code on Intel VT-x and AMD-V, respectively, and uncovered six previously unknown vulnerabilities across three hypervisors, including two assigned CVEs.",
+      "abstract_source": "arxiv-local"
     },
     {
       "title": "Neuro-C: Neural Inference Shaped by Hardware Limits",
@@ -2927,7 +2935,9 @@
       "dblp_url": "https://dblp.org/rec/conf/eurosys/JungCKLOHRO26.html",
       "ee_links": [
         "https://doi.org/10.1145/3767295.3803589"
-      ]
+      ],
+      "abstract": "Specializing an OS to optimize the performance of a particular application is typically a manual process that requires great expertise. Specialization through configuration lends itself well to automation; however, it is challenging due to the sheer size of the configuration space of modern OSes, the difficulty to quantify that space, the long time it takes to evaluate a configuration, and the large number of invalid configurations. Hence, existing attempts at specializing OSes automatically are limited to switching features on and off to minimize memory consumption or attack surface, and cannot target metrics such as performance. We present Wayfinder, a framework specializing the configuration of OSes completely automatically and without expert knowledge. It can specialize all aspects of an OS configuration (compile-/boot-/run-time) towards any quantifiable performance, resource consumption, or security metric, for an application processing a given workload on a given hardware setup. Wayfinder consists of an automated OS benchmarking platform, and a neural network-based search algorithm driving the specialization process. This is achieved by learning on the fly which configuration parameters and values impact performance the most, and which ones lead to runtime failures. Optionally, a model pre-trained on one application can be reused to accelerate the specialization of related applications. We evaluate Wayfinder on two OSes, four applications, and two target metrics: Wayfinder fully automatically identifies specialized configurations with up to 24% application performance improvement and 8.5% memory usage reduction compared to default configurations. We highlight the benefits of our neural network, reaching good solutions faster than competing approaches (random and Bayesian), and successfully transferring knowledge between related applications.",
+      "abstract_source": "arxiv-local"
     },
     {
       "title": "Yield Not Thy Core",

@@ -112,17 +112,21 @@ a {
 }
 
 .timeline-hub .hub-section-head h2 {
-  font-size: 1.5rem;
+  font-size: 1.32rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
 }
 
 .timeline-hub .hub-section-meta {
-  font-size: 1rem;
-  line-height: 1.45;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
 }
 
 .timeline-hub .timeline-note {
-  font-size: 0.92rem;
-  line-height: 1.45;
+  font-size: 0.86rem;
+  line-height: 1.4;
 }
 
 .timeline-rail-wrap {
@@ -133,8 +137,8 @@ a {
 
 .timeline-rail {
   position: relative;
-  min-width: 56rem;
-  height: 9.25rem;
+  min-width: 58rem;
+  height: 9.75rem;
   margin: 0 0.5rem;
 }
 
@@ -160,10 +164,16 @@ a {
   position: absolute;
   transform: translateX(-50%);
   font-family: var(--sans);
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   color: var(--muted);
   white-space: nowrap;
+}
+
+.timeline-month--current {
+  color: #c41e1e;
+  font-weight: 700;
 }
 
 .timeline-today {
@@ -211,14 +221,27 @@ a {
 
 .timeline-marker {
   position: absolute;
-  top: 0.35rem;
+  top: 0.2rem;
   transform: translateX(-50%);
   border: 0;
   background: transparent;
   padding: 0;
   cursor: pointer;
   text-align: center;
-  min-width: 3.25rem;
+  min-width: 2.5rem;
+  max-width: 4.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline-marker--row-1 {
+  top: 1.85rem;
+  flex-direction: column-reverse;
+}
+
+.timeline-marker--row-1 .timeline-marker-dot {
+  margin: 0.2rem auto 0;
 }
 
 .timeline-marker-dot {
@@ -252,10 +275,12 @@ a {
 .timeline-marker-label {
   display: block;
   font-family: var(--sans);
-  font-size: 0.88rem;
-  font-weight: 700;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
   color: #1b4332;
-  line-height: 1.2;
+  line-height: 1.15;
+  white-space: nowrap;
 }
 
 .timeline-marker:hover .timeline-marker-label,
@@ -300,8 +325,9 @@ a {
 
 .timeline-event-name {
   margin: 0;
-  font-size: 1.1rem;
-  line-height: 1.3;
+  font-size: 1.02rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
 }
 
 .timeline-event-name a {

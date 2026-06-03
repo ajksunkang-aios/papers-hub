@@ -43,7 +43,9 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/Zhao0XW026.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/zhao"
-      ]
+      ],
+      "abstract": "In cloud block store, indexing is on the critical path of I/O operations and typically resides in memory. With the scaling of users and the emergence of denser storage media, the index has become a primary memory consumer, causing memory strain. Our extensive analysis of production traces reveals that write requests exhibit a strong tendency to target continuous block ranges in cloud storage systems. Thus, compared to current per-block indexing, our insight is that we should directly index block ranges (i.e., range-as-a-key) to save memory. In this paper, we propose RASK, a memory-efficient and high-performance tree-structured index that natively indexes ranges. While range-as-a-key offers the potential to save memory and improve performance, realizing this idea is challenging due to the range overlap and range fragmentation issues. To handle range overlap efficiently, RASK introduces the log-structured leaf, combined with range-tailored search and garbage collection. To reduce range fragmentation, RASK employs range-aware split and merge mechanisms. Our evaluations on four production traces show that RASK reduces memory footprint by up to 98.9% and increases throughput by up to 31.0x compared to ten state-of-the-art indexes.",
+      "abstract_source": "arxiv-local"
     },
     {
       "title": "Accelerating Model Loading in LLM Inference by Programmable Page Cache",
@@ -497,7 +499,9 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/TuWAA26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/tu"
-      ]
+      ],
+      "abstract": "We present Mirror-Optimized Storage Tiering (MOST), a novel tiering-based approach optimized for modern storage hierarchies. The key idea of MOST is to combine the load balancing advantages of mirroring with the space-efficiency advantages of tiering. Specifically, MOST dynamically mirrors a small amount of hot data across storage tiers to efficiently balance load, avoiding costly migrations. As a result, MOST is as space-efficient as classic tiering while achieving better bandwidth utilization under I/O-intensive workloads. We implement MOST in Cerberus, a user-level storage management layer based on CacheLib. We show the efficacy of Cerberus through a comprehensive empirical study: across a range of static and dynamic workloads, Cerberus achieves better throughput than competing approaches on modern storage hierarchies especially under I/O-intensive and dynamic workloads.",
+      "abstract_source": "arxiv-local"
     },
     {
       "title": "GPU Checkpoint/Restore Made Fast and Lightweight",
@@ -742,7 +746,9 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/DesaiJPBK26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/desai"
-      ]
+      ],
+      "abstract": "Input data preprocessing is a common bottleneck when concurrently training multimedia machine learning (ML) models in modern systems. To alleviate these bottlenecks and reduce the training time for concurrent jobs, we present Seneca, a data loading system that optimizes cache partitioning and data sampling for the data storage and ingestion (DSI) pipeline. The design of Seneca contains two key techniques. First, Seneca uses a performance model for the data pipeline to optimally partition the cache for three different forms of data (encoded, decoded, and augmented). Second, Seneca opportunistically serves cached data over uncached ones during random batch sampling so that concurrent jobs benefit from each other. We implement Seneca by modifying PyTorch and demonstrate its effectiveness by comparing it against several state-of-the-art caching systems for DNN training. Seneca reduces the makespan by 45.23% compared to PyTorch and increases data processing throughput by up to 3.45x compared to the next best dataloader.",
+      "abstract_source": "arxiv-local"
     },
     {
       "title": "Rearchitecting Buffered I/O in the Era of High-Bandwidth SSDs",
@@ -828,7 +834,9 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/LiuZZ0X026.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/liu-qingyuan"
-      ]
+      ],
+      "abstract": "File systems are critical OS components that require constant evolution to support new hardware and emerging application needs. However, the traditional paradigm of developing features, fixing bugs, and maintaining the system incurs significant overhead, especially as systems grow in complexity. This paper proposes a new paradigm, generative file systems, which leverages Large Language Models (LLMs) to generate and evolve a file system from prompts, effectively addressing the need for robust evolution. Despite the widespread success of LLMs in code generation, attempts to create a functional file system have thus far been unsuccessful, mainly due to the ambiguity of natural language prompts. This paper introduces SYSSPEC, a framework for developing generative file systems. Its key insight is to replace ambiguous natural language with principles adapted from formal methods. Instead of imprecise prompts, SYSSPEC employs a multi-part specification that accurately describes a file system's functionality, modularity, and concurrency. The specification acts as an unambiguous blueprint, guiding LLMs to generate expected code flexibly. To manage evolution, we develop a DAG-structured patch that operates on the specification itself, enabling new features to be added without violating existing invariants. Moreover, the SYSSPEC toolchain features a set of LLM-based agents with mechanisms to mitigate hallucination during construction and evolution. We demonstrate our approach by generating SPECFS, a concurrent file system. SPECFS demonstrates equivalent level of correctness to that of a manually-coded baseline across hundreds of regression tests. We further confirm its evolvability by seamlessly integrating 10 real-world features from Ext4. Our work shows that a specification-guided approach makes generating and evolving complex systems not only feasible but also highly effective.",
+      "abstract_source": "arxiv-local"
     },
     {
       "title": "SkySync: Accelerating File Synchronization with Collaborative Delta Generation",

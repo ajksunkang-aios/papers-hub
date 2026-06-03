@@ -84,6 +84,17 @@ jobs:
           test -f website/index.html
           test -f website/data/conferences.json
           test -f website/data/top-monthly.json
+          test -f website/data/today-broadcast.json
+          test -f website/today-broadcast-data.js
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p = json.loads(Path("website/data/today-broadcast.json").read_text(encoding="utf-8"))
+          for key in ("generated_at", "date_label", "picks", "all_picks"):
+              if key not in p:
+                  raise SystemExit(f"today-broadcast.json missing {key!r}")
+          print(f"broadcast ok: {p['date_label']} ({len(p.get('picks', []))} preview / {len(p.get('all_picks', []))} total)")
+          PY
           echo "Pages artifact: $(du -sh website | cut -f1)"
 
       - name: Upload Pages artifact

@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "range_start": "2026-01-01",
-  "range_end": "2026-12-15",
+  "range_end": "2026-12-31",
   "events": [
     {
       "slug": "fast",
@@ -48,6 +48,7 @@
     {
       "slug": "uss",
       "short_name": "USENIX Security",
+      "rail_label": "Sec",
       "event_start": "2026-08-12",
       "event_end": "2026-08-14",
       "location": "Baltimore, MD"
@@ -58,6 +59,14 @@
       "event_start": "2026-09-29",
       "event_end": "2026-10-02",
       "location": "Prague, Czechia"
+    },
+    {
+      "slug": "usenix",
+      "short_name": "USENIX ATC",
+      "rail_label": "ATC",
+      "event_start": "2026-11-15",
+      "event_end": "2026-11-18",
+      "location": "Shatin, Hong Kong"
     }
   ]
 }

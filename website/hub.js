@@ -1,8 +1,10 @@
 import {
   escapeHtml,
+  eventStatusUtc8,
   formatDateUtc8,
   formatGeneratedAt,
   formatGeneratedAtUtc8,
+  todayIsoUtc8,
 } from "./shared.js";
 import {
   areaPicksPageUrl,
@@ -695,6 +697,39 @@ function timelinePercent(iso, rangeStart, rangeEnd) {
   return Math.max(0, Math.min(100, ((t - start) / (end - start)) * 100));
 }
 
+const TIMELINE_RAIL_LABELS = {
+  "USENIX Security": "Sec",
+  "USENIX ATC": "ATC",
+};
+
+function timelineRailLabel(ev) {
+  return ev.rail_label || TIMELINE_RAIL_LABELS[ev.short_name] || ev.short_name;
+}
+
+/** Stagger marker labels onto two rows when venues are close on the rail. */
+function layoutTimelineMarkers(events, rangeStart, rangeEnd) {
+  const MIN_GAP = 4.5;
+  const items = events
+    .map((ev) => ({
+      ev,
+      pct: timelinePercent(ev.event_start, rangeStart, rangeEnd),
+      label: timelineRailLabel(ev),
+      row: 0,
+    }))
+    .sort((a, b) => a.pct - b.pct);
+
+  let prevPct = -Infinity;
+  let prevRow = 0;
+  for (const item of items) {
+    if (item.pct - prevPct < MIN_GAP) {
+      item.row = prevRow === 0 ? 1 : 0;
+    }
+    prevPct = item.pct;
+    prevRow = item.row;
+  }
+  return items;
+}
+
 function formatEventRange(start, end) {
   const s = formatDate(start);
   if (!end || end === start) return s;
@@ -720,39 +755,42 @@ function renderConferenceTimeline(data) {
   const year = data.year || new Date().getFullYear();
   const rangeStart = data.range_start || `${year}-01-01`;
   const rangeEnd = data.range_end || `${year}-12-31`;
-  const today = data.today || new Date().toISOString().slice(0, 10);
+  const today = todayIsoUtc8();
+  const todayMonth = today.slice(5, 7);
   const todayPct = timelinePercent(today, rangeStart, rangeEnd);
 
   const inDblp = events.filter((e) => e.in_dblp).length;
   const built = data.generated_at ? ` | data ${formatGeneratedAt(data.generated_at)}` : "";
-  meta.textContent = `Today: ${formatDate(today)} | ${events.length} venues | ${inDblp} in hub${built}`;
+  meta.textContent = `Today: ${formatDateUtc8(`${today}T12:00:00Z`)} (UTC+8) | ${events.length} venues | ${inDblp} in hub${built}`;
   note.textContent = data.note || "";
 
   const monthLabels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
     .map((label, i) => {
-      const mid = `${year}-${String(i + 1).padStart(2, "0")}-15`;
-      const left = timelinePercent(mid, rangeStart, rangeEnd);
-      return `<span class="timeline-month" style="left:${left}%">${label}</span>`;
+      const monthNum = String(i + 1).padStart(2, "0");
+      const monthStart = `${year}-${monthNum}-01`;
+      const left = timelinePercent(monthStart, rangeStart, rangeEnd);
+      const currentClass = monthNum === todayMonth ? " timeline-month--current" : "";
+      return `<span class="timeline-month${currentClass}" style="left:${left}%">${label}</span>`;
     })
     .join("");
 
-  const markers = events
-    .map((ev) => {
-      const pct = timelinePercent(ev.event_start, rangeStart, rangeEnd);
-      const status = ev.status || "upcoming";
+  const markers = layoutTimelineMarkers(events, rangeStart, rangeEnd)
+    .map(({ ev, pct, label, row }) => {
+      const status = eventStatusUtc8(ev.event_start, ev.event_end, today);
       const dblp = ev.in_dblp ? "timeline-marker--dblp" : "";
+      const rowClass = row === 1 ? " timeline-marker--row-1" : "";
       const title = `${ev.short_name}: ${formatEventRange(ev.event_start, ev.event_end)}`;
       return `
         <button
           type="button"
-          class="timeline-marker timeline-marker--${escapeHtml(status)} ${dblp}"
+          class="timeline-marker timeline-marker--${escapeHtml(status)} ${dblp}${rowClass}"
           style="left:${pct}%"
           title="${escapeHtml(title)}"
           data-slug="${escapeHtml(ev.slug)}"
           aria-label="${escapeHtml(title)}"
         >
           <span class="timeline-marker-dot" aria-hidden="true"></span>
-          <span class="timeline-marker-label">${escapeHtml(ev.short_name)}</span>
+          <span class="timeline-marker-label">${escapeHtml(label)}</span>
         </button>
       `;
     })
@@ -772,7 +810,7 @@ function renderConferenceTimeline(data) {
 
   eventsEl.innerHTML = events
     .map((ev) => {
-      const status = ev.status || "upcoming";
+      const status = eventStatusUtc8(ev.event_start, ev.event_end, today);
       const statusLabel =
         status === "past" ? "Past" : status === "in_progress" ? "In progress" : "Upcoming";
       const href = ev.conference_id
@@ -881,11 +919,16 @@ function renderTodayBroadcast(data) {
   const note = document.getElementById("broadcast-note");
   if (!section || !list) return;
 
-  const previewLimit = data?.preview_limit ?? data?.picks?.length ?? 3;
+  const payload = data && typeof data === "object" ? data : {};
+  const previewLimit = payload.preview_limit ?? payload.picks?.length ?? 3;
   const allPicks =
-    data?.all_picks?.length > 0 ? data.all_picks : data?.picks?.length ? data.picks : [];
-  const dateLabel = data.date_label || "Recent";
-  const totalCount = data?.total_count ?? allPicks.length;
+    payload.all_picks?.length > 0
+      ? payload.all_picks
+      : payload.picks?.length
+        ? payload.picks
+        : [];
+  const dateLabel = payload.date_label || "Recent";
+  const totalCount = payload.total_count ?? allPicks.length;
   let expanded = false;
 
   let actions = section.querySelector(".broadcast-actions");
@@ -899,7 +942,7 @@ function renderTodayBroadcast(data) {
   const moreBtn = actions.querySelector("#broadcast-more-btn");
 
   section.hidden = false;
-  const built = data?.generated_at ? ` | updated ${formatGeneratedAtUtc8(data.generated_at)}` : "";
+  const built = payload.generated_at ? ` | updated ${formatGeneratedAtUtc8(payload.generated_at)}` : "";
 
   function updateMeta(shownCount) {
     if (!allPicks.length) {
@@ -931,13 +974,13 @@ function renderTodayBroadcast(data) {
 
   if (!allPicks.length) {
     list.innerHTML = '<p class="empty empty-compact">No strong papers for the recent day (UTC+8).</p>';
-    note.textContent = data.pool_note || data.note || "";
+    note.textContent = payload.pool_note || payload.note || "";
     if (moreBtn) moreBtn.hidden = true;
     updateMeta(0);
     return;
   }
 
-  note.textContent = data.note || "";
+  note.textContent = payload.note || "";
   paintList();
 
   if (moreBtn && !moreBtn.dataset.wired) {
@@ -962,8 +1005,8 @@ async function loadTodayBroadcast() {
     const res = await fetch(`data/today-broadcast.json?ts=${Date.now()}`, { cache: "no-store" });
     if (res.ok) {
       const live = await res.json();
-      if (live?.picks?.length || live?.all_picks?.length) {
-        console.info("[papers-hub] broadcast:", live.generated_at || live.date_label);
+      if (live && typeof live === "object") {
+        console.info("[papers-hub] broadcast:", live.generated_at || live.date_label || "(empty)");
         return live;
       }
     } else {
@@ -972,11 +1015,11 @@ async function loadTodayBroadcast() {
   } catch (err) {
     console.warn("[papers-hub] broadcast fetch failed — using bundled fallback", err);
   }
-  if (bundledBroadcast?.picks?.length || bundledBroadcast?.all_picks?.length) {
+  if (bundledBroadcast && typeof bundledBroadcast === "object") {
     console.info("[papers-hub] broadcast bundled:", bundledBroadcast.generated_at);
     return bundledBroadcast;
   }
-  return null;
+  return { date_label: "Recent", picks: [], all_picks: [], note: "" };
 }
 
 async function loadConferences() {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-23T14:38:21.589332+00:00",
+  "fetched_at": "2026-06-03T08:15:14.754474+00:00",
   "hub_id": "os-kernel",
   "incremental": true,
   "years": [
@@ -17,8 +17,341 @@
     }
   ],
   "filter_note": "cs.CL: OS cross-list or system-software terms required; generic LLM/NLP or serving-only papers excluded.",
-  "count": 208,
+  "count": 221,
   "papers": [
+    {
+      "arxiv_id": "2606.03895v1",
+      "title": "Agent libOS: A Library-OS-Inspired Runtime for Long-Running, Capability-Controlled LLM Agents",
+      "authors": [
+        "Yingqi Zhang"
+      ],
+      "abstract": "Large language model (LLM) agents are evolving from request-response assistants into long-running software actors: they maintain state across model calls, fork subtasks, wait for external events, request human authority, generate tools, and perform side effects that must be resumed and audited. This paper presents Agent libOS, a library-OS-inspired runtime substrate for LLM agents. Agent libOS runs above a conventional host operating system; it does not implement hardware drivers, kernel-mode isolation, or a POSIX-compatible operating system. Instead, it treats an agent as an AgentProcess: a schedulable execution subject with process identity, parent-child lineage, lifecycle state, a tool table derived from an AgentImage, typed Object Memory, explicit capabilities, human queues, checkpoints, events, and audit records. Its central design rule is tools are libc-like wrappers; runtime primitives are the authority boundary. Filesystem access, object access, sleeps, human approval, JIT tool registration, and external side effects are checked at primitive boundaries under explicit capabilities and policy. We describe the design, threat model, Python prototype, and safety-oriented evaluation. The current prototype implements async scheduling, namespace-local Object Memory, runtime-integrated human approval, one-shot permission grants, per-process working directories, shell and image-registration primitives, Deno/TypeScript JIT tools over a libOS syscall broker, filesystem/object bridge tools, an injectable Resource Provider Substrate, deterministic demos, real-model smoke scripts, and 123 regression tests at the time of writing. Rather than improving planner accuracy, Agent libOS demonstrates a runtime substrate in which long-running LLM agents can be scheduled, authorized, resumed, and audited without treating tool dispatch as the trust boundary.",
+      "published": "2026-06-02T16:53:24Z",
+      "updated": "2026-06-02T16:53:24Z",
+      "categories": [
+        "cs.OS",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2606.03895v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.03895v1",
+      "relevance_score": 17,
+      "relevance_tags": [
+        "large language model",
+        "operating system",
+        "kernel",
+        "llm"
+      ]
+    },
+    {
+      "arxiv_id": "2606.00942v2",
+      "title": "Characterizing Metastable Faults and Failures",
+      "authors": [
+        "Ali Farahbakhsh",
+        "Qingjie Lu",
+        "Lorenzo Alvisi",
+        "Andreas Haeberlen",
+        "Robbert Van Renesse"
+      ],
+      "abstract": "Metastable failures are hard to detect, prevent, and mitigate. During a metastable failure, a system exhibits self-sustaining bad behavior even in the absence of adversarial conditions. Prior work focuses on symptoms and has portrayed metastable failures as instances of self-sustaining overload. This characterization leaves the underlying failure causes and dynamics unknown, and does not account for metastable failures that do not manifest as overload. We present the first causal characterization of metastable failures by identifying their origin in metastable faults, i.e., structural destabilizing cycles of interaction among systems components that, in isolation, are stabilizing. Metastable failures arise when scheduling decisions let these destabilizing interactions gain the upper hand over the individual components' stabilizing tendencies. We then derive a methodology to predict metastable failures, and to build metastable-fault-tolerant (MFT) systems. We apply our methodology to three case studies, showcasing the generality of our results.",
+      "published": "2026-05-31T01:04:27Z",
+      "updated": "2026-06-02T16:15:24Z",
+      "categories": [
+        "cs.OS",
+        "cs.DC"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2606.00942v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.00942v2",
+      "relevance_score": 1,
+      "relevance_tags": [
+        "cs.os"
+      ]
+    },
+    {
+      "arxiv_id": "2606.00866v1",
+      "title": "Idleness is Relative: Exploiting Tool-Call Idle Windows for Offloading in Agentic Systems with MORI",
+      "authors": [
+        "Tian Xia",
+        "Hanchen Li",
+        "Zhifei Li",
+        "Xiaokun Chen",
+        "Hao Kang",
+        "Yifan Qiao",
+        "Yi Xu",
+        "Ion Stoica"
+      ],
+      "abstract": "Modern LLM serving systems increasingly host agentic workloads, whose sessions issue tens of model invocations interleaved with tool calls, accumulating KV cache that can be reused across steps. As requests' total KV cache size easily exceeds GPU HBM capacity, researchers offload them to CPU DRAM. However, tool-call durations span orders of magnitude, and the cost of transferring KV cache between tiers makes it impractical to re-place entries on every call. We observe that agentic programs exhibit a two-phase structure: busy phases of rapid short tool calls and idle phases dominated by long-running calls. Current eviction policies such as LRU fail to capture this property. A binary busy/idle label also falls short because the ratio of busy to idle programs may not match the hardware's GPU-to-CPU capacity ratio. When it does not, one tier sits underutilized while the other is oversubscribed, wasting memory or forcing unnecessary evictions. We present MORI, an agent serving system that solves the above problem. Our key insight is that idleness is a continuous, relative spectrum. MORI ranks all active programs by idleness, assigns the busiest to GPU HBM and the most idle to CPU DRAM, dynamically shifts the partition boundary to match hardware capacity, and enforces admission control at each memory tier. Evaluated on real coding agent workloads collected from Claude Code across four GPU and model pairs, MORI delivers 20--71% higher throughput and 18--43% lower TTFT than the best baseline with offloading.",
+      "published": "2026-05-30T19:44:25Z",
+      "updated": "2026-05-30T19:44:25Z",
+      "categories": [
+        "cs.OS"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2606.00866v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.00866v1",
+      "relevance_score": 10,
+      "relevance_tags": [
+        "kv cache",
+        "llm"
+      ]
+    },
+    {
+      "arxiv_id": "2606.00552v1",
+      "title": "Edge-Based QoS-Aware Adaptive Task Placement: A Closed-Loop Control in Multi-Robot Systems",
+      "authors": [
+        "Thien Tran",
+        "Jonathan Kua",
+        "Thuong Hoang",
+        "Minh Tran",
+        "Honghao Lyu",
+        "Jiong Jin"
+      ],
+      "abstract": "Multi-robot systems (MRS) increasingly offload compute-intensive perception tasks to edge nodes to meet strict time-sensitive Quality-of-Service (QoS) constraints. However, static task orchestration on a shared edge node can severely degrade QoS due to network latency, jitter, and edge-resource contention. We present a pilot edge-centric MRS testbed using Raspberry Pi nodes to evaluate a camera-to-manipulator pipeline under three modes: local execution, static offloading, and a QoS-aware Adaptive Task Placement (ATP) controller. ATP scores candidate placements using a multi-metric cost (normalized latency, CPU utilization, and switching overhead) over two-second control windows. The closed-loop visual servoing testbed is instrumented with sub-millisecond clock synchronization, network emulation, and detailed monitoring of multiple metrics across nodes to capture realistic jitter. Experimental results under compute-stress and network-fault scenarios show that static edge offloading reduces on-board CPU load but amplifies tail latency and deadline misses. In contrast, the QoS-aware ATP controller, by switching task placement based on measured latency and utilization thresholds, consistently lowers deadline violations and tail latency. Overall, the results position ATP as a practical edge-side control primitive for MRS and concrete design guidelines for Cloud-Edge Robotics deployments within the broader cloud-fog automation, while motivating QoS-aware multi-objective workload orchestration for industrial cyber-physical systems.",
+      "published": "2026-05-30T05:54:44Z",
+      "updated": "2026-05-30T05:54:44Z",
+      "categories": [
+        "cs.OS",
+        "cs.DC",
+        "cs.NI",
+        "cs.RO",
+        "eess.SY"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2606.00552v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.00552v1",
+      "relevance_score": 1,
+      "relevance_tags": [
+        "cs.os"
+      ]
+    },
+    {
+      "arxiv_id": "2606.00455v1",
+      "title": "Beyond Edge Coverage: Per-Task Data-Flow Extraction at Kernel Function Boundaries via LLVM",
+      "authors": [
+        "Yunseong Kim"
+      ],
+      "abstract": "Coverage-guided kernel fuzzers such as syzkaller rely on edge coverage (trace-pc) as their sole feedback signal. This context-blind approach cannot distinguish execution paths that differ only in argument values. for example, two invocations of copy_from_user() with different size parameters hit identical basic blocks yet have vastly different security implications. We present BOUNDARY FLOW, an LLVM-based instrumentation framework that extends Linux KCOV with data-flow extraction of function arguments and return values. A compiler pass (-fsanitize-coverage=dataflow-args, dataflow-ret) emits lightweight callbacks capturing a structured tuple <PC, arg_idx, arg_size, ptr, offsets[]> at function entry and <PC, ret_size, ptr, offsets[]> at return. Composite types are automatically decomposed via DWARF DICompositeType metadata with zero source annotation. A separate kernel device(/sys/kernel/debug/kcov_dataflow) provides lock-free per-task ring buffers with no inter ference to existing KCOV or syzkaller infrastructure. We demonstrate dual utility: fuzzers gain state-aware feedback for mutation guidance into value-dependent state transitions, and security analysts obtain deterministic argument records for root-cause analysis without printk or kprobe overhead. A post-compilation pipeline (rustc, opt, llc) enables Rust kernel module instrumentation without modifying rustc, the only runtime method for capturing Rust function arguments given that drgn/vmcore fails under-O2 DWARF elision. Evaluated on five vulnerability classes (OOB, UAF, double-free, 10 deep chain propagation, Rust FFI, Rust for Linux Modules) with <3% overhead on instrumented paths.",
+      "published": "2026-05-30T00:42:59Z",
+      "updated": "2026-05-30T00:42:59Z",
+      "categories": [
+        "cs.CR",
+        "cs.OS"
+      ],
+      "primary_category": "cs.CR",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2606.00455v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.00455v1",
+      "relevance_score": 14,
+      "relevance_tags": [
+        "kernel module",
+        "kernel"
+      ]
+    },
+    {
+      "arxiv_id": "2605.29639v1",
+      "title": "RTP-LLM: High-Performance Alibaba LLM Inference Engine",
+      "authors": [
+        "Boyu Tan",
+        "Jiarui Guo",
+        "Zongwei Lv",
+        "Hanbo Sun",
+        "Tong Yang",
+        "Kan Liu",
+        "Xinfei Shi",
+        "Zetao Hu",
+        "Yaxin Yu",
+        "Chi Zhang",
+        "Jianning Zhang",
+        "Xi Yang",
+        "Wei Zhang",
+        "Bo Cai",
+        "Silu Zhou",
+        "Xiyu Wang",
+        "Na He",
+        "Yinghao Yu",
+        "Wending Bao",
+        "Guiyang Huang",
+        "Yuxing Yuan",
+        "Juncheng Yin",
+        "Nan Wang",
+        "Lin Yang",
+        "Zechao Zhang",
+        "Lu Chen",
+        "Guoding Li",
+        "Tao Lan",
+        "Lin Qu"
+      ],
+      "abstract": "Large Language Models (LLMs) have revolutionized AI applications, but deploying them at scale presents significant challenges. We present RTP-LLM, a high-performance inference engine for industrial-scale LLM deployment, successfully deployed across Alibaba Group serving over 100 million users. RTP-LLM addresses fundamental bottlenecks through integrated design. It optimizes model loading via file-order-driven I/O and parallel I/O-communication overlapping. The Prefill-Decode Disaggregation architecture decouples compute-intensive prefill from memory-bound decode phases, combined with hierarchical multi-tiered KV cache management enabling efficient cache reuse. In addition, RTP-LLM incorporates modular speculative decoding supporting multiple algorithms, adaptive KV cache quantization, and decoupled multimodal processing, with support for multi-level parallelism. Comprehensive evaluations across diverse model architectures (8B-235B parameters) have been conducted, where both controlled benchmarks and real production workloads are used. The results demonstrate RTP-LLM's superior performance against vLLM and SGLang: 4.7x-6.3x model loading speedup, 35-37% TTFT P95 latency reduction with 215% cache reuse improvement in production traffic scheduling, 1.12x-2.48x and 1.86x-2.52x throughput improvements in speculative decoding and multimodal inference, respectively, and 35-40% batch latency reduction with 1.9x-3.0x TTFT improvement in quantized inference. RTP-LLM's production-proven architecture and open-source availability make it a comprehensive solution for industrial LLM deployment.",
+      "published": "2026-05-28T09:07:06Z",
+      "updated": "2026-05-28T09:07:06Z",
+      "categories": [
+        "cs.OS"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.29639v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29639v1",
+      "relevance_score": 20,
+      "relevance_tags": [
+        "large language model",
+        "kv cache",
+        "vllm",
+        "llm"
+      ]
+    },
+    {
+      "arxiv_id": "2605.29006v1",
+      "title": "IORM: Hierarchical I/O Governance for Thousands of Consolidated Databases on Oracle Exadata",
+      "authors": [
+        "Rajarshi Chowdhury",
+        "Akshay Shah",
+        "Zakaria Alrmaih",
+        "Chenhao Guo",
+        "Anubhav Singh",
+        "Sue Lee"
+      ],
+      "abstract": "Oracle Exadata consolidates thousands of tenant databases onto shared storage infrastructure deployed at hundreds of customer sites worldwide. Oracle Multitenant architecture enables this extreme density, with thousands of tenant databases sharing a single Exadata storage system -- but this creates a multi-level resource hierarchy (container databases, tenant databases, and workloads within tenants) that commodity block-layer schedulers cannot govern, as they lack visibility into database semantics and tenant boundaries. This paper presents the I/O Resource Manager (IORM), a storage-side scheduler built on three mechanisms: I/O Tagging, which propagates semantic context from the database kernel to the storage scheduler; Hierarchical Resource Profiles, which express compositional allocation policies across consolidation tiers using shares and limits; and Unified Storage Governance, which applies these policies consistently across all tiers of the storage hierarchy -- persistent memory, flash, and hard disk -- including cache placement decisions. IORM enables successful cloud deployments where thousands of tenants coexist on shared storage: production OLTP workloads run alongside concurrent analytical workloads from the same or different databases without noisy-neighbor interference. Evaluation on production Exadata systems demonstrates that IORM dramatically improves latency consistency, virtually eliminating tail latency outliers and delivering several-fold improvements in average read latency under mixed workloads. Hierarchical limits compose correctly across all three levels, and proportional share allocation tracks configured ratios closely even under highly skewed demand.",
+      "published": "2026-05-27T19:02:45Z",
+      "updated": "2026-05-27T19:02:45Z",
+      "categories": [
+        "cs.DB",
+        "cs.DC",
+        "cs.OS"
+      ],
+      "primary_category": "cs.DB",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.29006v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29006v1",
+      "relevance_score": 12,
+      "relevance_tags": [
+        "storage system",
+        "scheduler",
+        "kernel"
+      ]
+    },
+    {
+      "arxiv_id": "2605.28991v1",
+      "title": "A Secure, Manifest-Based Framework for Delegated Privilege Promotion",
+      "authors": [
+        "Rajarshi Chowdhury",
+        "Akshay Shah"
+      ],
+      "abstract": "Large-scale enterprise software systems commonly run as unprivileged service accounts to enforce least privilege, yet still depend on a small set of privileged components -- such as executables with elevated ownership, permissions, or capabilities -- for narrowly scoped operations. This creates a persistent security and operational conflict during maintenance. Automated patching tools running without elevated privileges cannot safely update privileged components without either executing the entire patch with full administrative rights or requiring manual administrator intervention. We present a secure, manifest-based infrastructure for delegated promotion of privileged software components, deployed in production as part of a large-scale enterprise database system serving both cloud and on-premises installations. The design centers on a minimal privileged mediator that validates cryptographically protected metadata and allows an unprivileged process to promote only vendor-approved files. The system explicitly mitigates Time-of-Check-to-Time-of-Use (TOCTOU) attacks using file-descriptor-bound validation and promotion, supports offline key rotation and revocation, and enables zero-downtime self-update via atomic replacement.",
+      "published": "2026-05-27T18:48:47Z",
+      "updated": "2026-05-27T18:48:47Z",
+      "categories": [
+        "cs.CR",
+        "cs.OS"
+      ],
+      "primary_category": "cs.CR",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.28991v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.28991v1",
+      "relevance_score": 1,
+      "relevance_tags": [
+        "cs.os"
+      ]
+    },
+    {
+      "arxiv_id": "2605.27804v1",
+      "title": "Patchlings: Safety-Preserving Flash-Based Hotpatching for Automotive Microcontrollers",
+      "authors": [
+        "Yuxin \"Myles\" Liu",
+        "Sekar Kulandaivel",
+        "Ardalan Amiri Sani",
+        "Jorge Guajardo"
+      ],
+      "abstract": "The increasing presence of software in modern automobiles has created a growing need to deliver software updates throughout a vehicle's entire lifespan. Traditional update methods are slow and require months of re-validation to comply with stringent safety standards like ISO 26262. Although hotpatching offers a path to faster updates, existing solutions for real-time embedded systems are unsuitable for the automotive domain: they overlook regulatory compliance, demand extensive safety validation, and lack support for the flash-based Execute-in-Place (XIP) architecture commonly used in automotive electronic control units (ECUs). We introduce Patchlings, the first hotpatching framework designed for compliance, safety, and persistence in automotive systems. It fills the gap in applying hotpatching to automotive systems and fundamentally reduces the mean-time-to-mitigate (MTTM) for vulnerabilities and bugs. We implement and evaluate a complete prototype of Patchlings on an automotive-grade hardware platform, NXP S32K148EVB, with both FreeRTOS and Zephyr. Our results demonstrate low and deterministic overhead (e.g., 3.3 $μ$s when a patch is applied), small firmware size increase (e.g., as low as 6.34%), and successful patching of different types of real CVEs, proving its real-world applicability and effectiveness.",
+      "published": "2026-05-27T00:51:57Z",
+      "updated": "2026-05-27T00:51:57Z",
+      "categories": [
+        "cs.CR",
+        "cs.OS"
+      ],
+      "primary_category": "cs.CR",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.27804v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.27804v1",
+      "relevance_score": 1,
+      "relevance_tags": [
+        "cs.os"
+      ]
+    },
+    {
+      "arxiv_id": "2605.27620v1",
+      "title": "Bounded Priority-Aware Locking for Real-Time Kernels",
+      "authors": [
+        "Shriram Raja",
+        "Richard West"
+      ],
+      "abstract": "A real-time multicore system requires delay bounds on access to shared resources. These resources include the kernel, which has potentially many non-preemptible critical sections guarded by one or more different synchronization primitives. While primitives such as FIFO locks bound the waiting time to enter a critical section, they do not distinguish the importance of individual tasks competing for shared resource access. To address this, we consider a priority-aware spinlock, which reduces the average delay of more important tasks while maintaining a worst-case bound on lock waiting time. We propose a Batched Priority Lock (BPL) that first groups waiting tasks based on the order of their lock requests, and then determines the next lock holder according to priority within the waiting group. We compare BPL to alternative lock approaches, showing that the average waiting time is reduced for higher priority tasks, in simulations up to 64 cores, and for a working implementation on an 8-core machine with a real RTOS. BPL is a compromise between strict priority and FIFO ordering. While strict priorities may lead to starvation and, hence, unbounded lock acquisition delays, BPL has the same waiting bound as FIFO, but with benefits to higher priority tasks. Although its complexity is greater than that of a simple spinlock, its common case execution overhead is shown to be inexpensive in a working system. We believe this is an acceptable cost in systems that require predictability.",
+      "published": "2026-05-26T19:38:43Z",
+      "updated": "2026-05-26T19:38:43Z",
+      "categories": [
+        "cs.OS"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.27620v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.27620v1",
+      "relevance_score": 2,
+      "relevance_tags": [
+        "kernel"
+      ]
+    },
+    {
+      "arxiv_id": "2605.26298v1",
+      "title": "Sandlock: Confining AI Agent Code with Unprivileged Linux Primitives",
+      "authors": [
+        "Cong Wang",
+        "Yusheng Zheng"
+      ],
+      "abstract": "AI agents increasingly run untrusted code on developer machines: shell commands generated by language models, third-party scripts retrieved at runtime, and tool plugins of unknown provenance. Existing isolation mechanisms impose tradeoffs that fit this workload poorly: containers and microVMs add privilege, image-management, and startup costs, while ad-hoc process controls and wrappers (e.g. chroot, ulimit) provide weak guarantees and little syscall-level control. Sandlock is a lightweight Linux process sandbox organized around a simple split: static, input-independent policy is compiled into kernel-enforced rules, while a narrow supervisor handles runtime-dependent decisions and virtualized effects. This split lets Sandlock enforce filesystem, network, IPC, and syscall policies without root, cgroups, images, or mandatory namespaces. It also supports dynamic network decisions, HTTP-level access control, TOCTOU-safe inspection of execve arguments, and reversible filesystem effects. On our workstation, Sandlock adds roughly 5 ms of startup overhead and runs Redis at bare-metal throughput (within measurement noise); its pipeline operator further supports per-stage confinement for separating data, network, and untrusted-content capabilities. Sandlock is available at https://github.com/multikernel/sandlock",
+      "published": "2026-05-25T19:51:30Z",
+      "updated": "2026-05-25T19:51:30Z",
+      "categories": [
+        "cs.CR",
+        "cs.OS"
+      ],
+      "primary_category": "cs.CR",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.26298v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.26298v1",
+      "relevance_score": 2,
+      "relevance_tags": [
+        "kernel"
+      ]
+    },
+    {
+      "arxiv_id": "2605.26168v1",
+      "title": "LearnedCache: An eBPF-Integrated Perceptron-Based Eviction Policy for the Linux Page Cache",
+      "authors": [
+        "Zejia Qi"
+      ],
+      "abstract": "Linux is the foundation of the digital age, accounting for the majority of the cloud and mobile OS markets. Any device that runs Linux uses the Linux page cache, a central pillar in OS and application performance, serving to reduce extraneous disk access. Many page cache eviction policies have been developed but remain bound by the rigidity of heuristics. The rise of AI-driven tools in recent years, melded with the ever-increasing variety of workloads for Linux devices, sets the stage for machine-learning-driven cache eviction policies. Promising research has been done in this field, but only in the field of user-space applications such as CDNs. We develop LearnedCache, an eBPF-integrated single-layer perceptron-based cache eviction policy for the Linux page cache, trained on real kernel data from diverse workloads. We demonstrate median AUCs of nearly 80% over multiple linear models modeling page reuse time, then take a step further by embedding these models inside the Linux kernel for real-time performance evaluation. Through statistical testing over 50 paired trials against a baseline of FIFO for each workload, LearnedCache reveals that machine-learning-derived cache eviction policies are practical in the Linux kernel under representative empirical workloads and are able to surpass conventional FIFO by statistically significant margins of up to 10% in insertion rate, a frequency-adjusted derivation of cache hit rate, in specific workloads while incurring minimal overhead.",
+      "published": "2026-05-25T00:15:38Z",
+      "updated": "2026-05-25T00:15:38Z",
+      "categories": [
+        "cs.OS",
+        "cs.LG"
+      ],
+      "primary_category": "cs.OS",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.26168v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.26168v1",
+      "relevance_score": 33,
+      "relevance_tags": [
+        "linux kernel",
+        "kernel",
+        "ebpf"
+      ]
+    },
     {
       "arxiv_id": "2605.22781v1",
       "title": "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback",
@@ -72,6 +405,29 @@
       "relevance_score": 32,
       "relevance_tags": [
         "os kernel"
+      ]
+    },
+    {
+      "arxiv_id": "2605.24026v1",
+      "title": "A Per-Access Upper Bound for Shared-Resource Interference in Direct-Mapped Multicore Architectures",
+      "authors": [
+        "Felipe T. Pedroni"
+      ],
+      "abstract": "We present a formal bounding analysis for maximum credible interference in multicore processors under strict architectural invariants: direct-mapped L2 cache (1-way associativity), disabled Miss Status Handling Registers (MSHRs), single-bank main memory, deterministic pinned tasks with fixed physical memory mapping, and a pessimistic L2/memory arbitration policy. We prove that, under these invariants, the per-critical-access stall imposed on a target task T is bounded above by (N-1)Lmem, and that this bound is attained by a synchronized adversarial workload of N-1 congruent-different-tag memory requests issued in phase with T's critical accesses. The argument is per-access and direct, requiring no informal multiplicative interference function. The derivation is purely analytical and discussed in the context of DO-178C/CAST-32A certification objectives for airborne software. Limitations and conditions for applicability are explicitly stated. This work provides a traceable method for separating multicore interference from Worst-Case Execution Time (WCET) budgets under fixed architectural constraints.",
+      "published": "2026-05-20T14:07:45Z",
+      "updated": "2026-05-20T14:07:45Z",
+      "categories": [
+        "cs.AR",
+        "cs.OS",
+        "cs.PF"
+      ],
+      "primary_category": "cs.AR",
+      "source_feed": "cs.OS",
+      "abs_url": "https://arxiv.org/abs/2605.24026v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.24026v1",
+      "relevance_score": 1,
+      "relevance_tags": [
+        "cs.os"
       ]
     },
     {
