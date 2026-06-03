@@ -49,6 +49,7 @@ class BroadcastPick:
     title: str
     authors: list[str]
     score: int
+    abstract: str = ""
     matched_tags: list[str] = field(default_factory=list)
     category_id: str | None = None
     category_label: str | None = None
@@ -219,6 +220,7 @@ def main() -> int:
             rank=rank,
             title=paper["title"],
             authors=paper.get("authors", [])[:4],
+            abstract=(paper.get("abstract") or "").strip(),
             score=score,
             matched_tags=tags,
             category_id=cat_id,

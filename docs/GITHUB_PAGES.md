@@ -57,3 +57,4 @@ Use one or both; if both run daily, they simply rebuild the same logic independe
 - **Workflow fails on arXiv 429:** re-run later; crawl is incremental.
 - **Pages 404:** confirm Pages source is **GitHub Actions**, not a branch folder.
 - **Empty picks:** check `website/data/top-monthly.json` in the workflow artifact log.
+- **Worldwide views bar hidden on Pages:** deploy the Cloudflare Worker, then add repository secret `VIEWS_API_URL` (see [VIEWS.md](VIEWS.md)). View counts update live at visit time; redeploying Pages only wires the API URL into the static site.

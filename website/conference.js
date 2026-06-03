@@ -5,6 +5,7 @@ import {
   renderPaperList,
   renderStats,
 } from "./shared.js";
+import { initViewsWidget } from "./views.js?v=2";
 
 function getConferenceId() {
   const params = new URLSearchParams(window.location.search);
@@ -54,6 +55,8 @@ async function loadBuildInfo() {
 }
 
 async function main() {
+  initViewsWidget();
+
   const confId = getConferenceId();
   if (!confId) {
     window.location.href = "index.html";

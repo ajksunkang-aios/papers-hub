@@ -15,6 +15,7 @@ import {
 } from "./picks-ui.js";
 import { todayBroadcast as bundledBroadcast } from "./today-broadcast-data.js";
 import { conferenceTimeline as bundledTimeline } from "./conference-timeline-data.js";
+import { initViewsWidget } from "./views.js?v=2";
 
 const DEFAULT_VENUE_ORDER = [
   "SOSP",
@@ -737,6 +738,107 @@ function formatEventRange(start, end) {
   return s === e ? s : `${s} - ${e}`;
 }
 
+function renderTimelineEventCard(ev, today) {
+  const status = eventStatusUtc8(ev.event_start, ev.event_end, today);
+  const statusLabel =
+    status === "past" ? "Past" : status === "in_progress" ? "In progress" : "Upcoming";
+  const href = ev.conference_id ? `conference.html?id=${encodeURIComponent(ev.conference_id)}` : "";
+  const titleInner = href
+    ? `<a href="${escapeHtml(href)}">${escapeHtml(ev.short_name)}</a>`
+    : escapeHtml(ev.short_name);
+  const dblpBadge = ev.in_dblp
+    ? `<span class="timeline-badge timeline-badge--dblp">In hub</span>`
+    : `<span class="timeline-badge timeline-badge--pending">Proceedings pending</span>`;
+  const papers =
+    ev.paper_count != null ? `<span class="timeline-papers">${ev.paper_count} papers</span>` : "";
+  const loc = ev.location ? `<span class="timeline-location">${escapeHtml(ev.location)}</span>` : "";
+
+  return `
+    <li class="timeline-event timeline-event--${escapeHtml(status)}" data-slug="${escapeHtml(ev.slug)}">
+      <div class="timeline-event-head">
+        <h3 class="timeline-event-name">${titleInner}</h3>
+        <span class="timeline-event-status">${statusLabel}</span>
+      </div>
+      <p class="timeline-event-dates">
+        <time datetime="${escapeHtml(ev.event_start)}">${escapeHtml(formatEventRange(ev.event_start, ev.event_end))}</time>
+        ${loc}
+      </p>
+      <div class="timeline-event-meta">${dblpBadge}${papers}</div>
+    </li>
+  `;
+}
+
+function renderTimelinePastChips(events) {
+  if (!events.length) return "";
+  const inHub = events.filter((ev) => ev.in_dblp).length;
+  const meta =
+    inHub === events.length
+      ? `${events.length} completed · proceedings in hub`
+      : `${events.length} completed · ${inHub} in hub`;
+  const chips = events
+    .map((ev) => {
+      const label = timelineRailLabel(ev);
+      const title = `${ev.short_name}: ${formatEventRange(ev.event_start, ev.event_end)}`;
+      const href = ev.conference_id
+        ? `conference.html?id=${encodeURIComponent(ev.conference_id)}`
+        : "";
+      const inner = `
+        <span class="timeline-past-chip-name">${escapeHtml(label)}</span>
+        <span class="timeline-past-chip-dates">${escapeHtml(formatEventRange(ev.event_start, ev.event_end))}</span>
+      `;
+      if (href) {
+        return `
+          <a class="timeline-past-chip" href="${escapeHtml(href)}" data-slug="${escapeHtml(ev.slug)}" title="${escapeHtml(title)}">
+            ${inner}
+          </a>
+        `;
+      }
+      return `
+        <button type="button" class="timeline-past-chip" data-slug="${escapeHtml(ev.slug)}" title="${escapeHtml(title)}">
+          ${inner}
+        </button>
+      `;
+    })
+    .join("");
+
+  return `
+    <section class="timeline-block timeline-block--past" aria-label="Past conferences">
+      <header class="timeline-block-head">
+        <h3 class="timeline-block-title">Past conferences</h3>
+        <p class="timeline-block-meta">${escapeHtml(meta)}</p>
+      </header>
+      <div class="timeline-past-chips">${chips}</div>
+    </section>
+  `;
+}
+
+function renderTimelineUpcomingGrid(events, today) {
+  if (!events.length) {
+    return `
+      <section class="timeline-block timeline-block--upcoming" aria-label="Upcoming conferences">
+        <header class="timeline-block-head">
+          <h3 class="timeline-block-title">Upcoming conferences</h3>
+        </header>
+        <p class="empty empty-compact">No upcoming venues on the calendar.</p>
+      </section>
+    `;
+  }
+
+  const next = events[0];
+  const nextDate = formatDate(next.event_start);
+  const cards = events.map((ev) => renderTimelineEventCard(ev, today)).join("");
+
+  return `
+    <section class="timeline-block timeline-block--upcoming" aria-label="Upcoming conferences">
+      <header class="timeline-block-head">
+        <h3 class="timeline-block-title">Upcoming conferences</h3>
+        <p class="timeline-block-meta">Next: ${escapeHtml(next.short_name)} · ${escapeHtml(nextDate)}</p>
+      </header>
+      <ol class="timeline-events timeline-events--grid">${cards}</ol>
+    </section>
+  `;
+}
+
 function renderConferenceTimeline(data) {
   const section = document.getElementById("timeline-section");
   const railWrap = document.getElementById("timeline-rail-wrap");
@@ -760,8 +862,10 @@ function renderConferenceTimeline(data) {
   const todayPct = timelinePercent(today, rangeStart, rangeEnd);
 
   const inDblp = events.filter((e) => e.in_dblp).length;
+  const pastEvents = events.filter((ev) => eventStatusUtc8(ev.event_start, ev.event_end, today) === "past");
+  const upcomingEvents = events.filter((ev) => eventStatusUtc8(ev.event_start, ev.event_end, today) !== "past");
   const built = data.generated_at ? ` | data ${formatGeneratedAt(data.generated_at)}` : "";
-  meta.textContent = `Today: ${formatDateUtc8(`${today}T12:00:00Z`)} (UTC+8) | ${events.length} venues | ${inDblp} in hub${built}`;
+  meta.textContent = `Today: ${formatDateUtc8(`${today}T12:00:00Z`)} (UTC+8) | ${pastEvents.length} past · ${upcomingEvents.length} upcoming | ${inDblp} in hub${built}`;
   note.textContent = data.note || "";
 
   const monthLabels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -798,7 +902,10 @@ function renderConferenceTimeline(data) {
 
   railWrap.innerHTML = `
     <div class="timeline-rail" role="img" aria-label="2026 conference schedule">
-      <div class="timeline-track" aria-hidden="true"></div>
+      <div class="timeline-track" aria-hidden="true">
+        <div class="timeline-track-past" style="width:${todayPct}%"></div>
+        <div class="timeline-track-upcoming" style="left:${todayPct}%;width:${100 - todayPct}%"></div>
+      </div>
       <div class="timeline-today" style="left:${todayPct}%" aria-hidden="true">
         <span class="timeline-today-label">Today</span>
         <span class="timeline-today-pin"></span>
@@ -808,47 +915,24 @@ function renderConferenceTimeline(data) {
     </div>
   `;
 
-  eventsEl.innerHTML = events
-    .map((ev) => {
-      const status = eventStatusUtc8(ev.event_start, ev.event_end, today);
-      const statusLabel =
-        status === "past" ? "Past" : status === "in_progress" ? "In progress" : "Upcoming";
-      const href = ev.conference_id
-        ? `conference.html?id=${encodeURIComponent(ev.conference_id)}`
-        : "";
-      const titleInner = href
-        ? `<a href="${escapeHtml(href)}">${escapeHtml(ev.short_name)}</a>`
-        : escapeHtml(ev.short_name);
-      const dblpBadge = ev.in_dblp
-        ? `<span class="timeline-badge timeline-badge--dblp">In hub</span>`
-        : `<span class="timeline-badge timeline-badge--pending">Proceedings pending</span>`;
-      const papers =
-        ev.paper_count != null
-          ? `<span class="timeline-papers">${ev.paper_count} papers</span>`
-          : "";
-      const loc = ev.location ? `<span class="timeline-location">${escapeHtml(ev.location)}</span>` : "";
-
-      return `
-        <li class="timeline-event timeline-event--${escapeHtml(status)}" data-slug="${escapeHtml(ev.slug)}">
-          <div class="timeline-event-head">
-            <h3 class="timeline-event-name">${titleInner}</h3>
-            <span class="timeline-event-status">${statusLabel}</span>
-          </div>
-          <p class="timeline-event-dates">
-            <time datetime="${escapeHtml(ev.event_start)}">${escapeHtml(formatEventRange(ev.event_start, ev.event_end))}</time>
-            ${loc}
-          </p>
-          <div class="timeline-event-meta">${dblpBadge}${papers}</div>
-        </li>
-      `;
-    })
-    .join("");
+  eventsEl.innerHTML = `
+    <div class="timeline-events-stack">
+      ${renderTimelinePastChips(pastEvents)}
+      <hr class="timeline-divider" aria-hidden="true" />
+      ${renderTimelineUpcomingGrid(upcomingEvents, today)}
+    </div>
+  `;
 
   railWrap.querySelectorAll(".timeline-marker").forEach((btn) => {
     btn.addEventListener("click", () => {
       const slug = btn.dataset.slug;
-      const row = eventsEl.querySelector(`.timeline-event[data-slug="${CSS.escape(slug)}"]`);
-      row?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
+      const row = eventsEl.querySelector(
+        `.timeline-event[data-slug="${CSS.escape(slug)}"], .timeline-past-chip[data-slug="${CSS.escape(slug)}"]`
+      );
+      row?.scrollIntoView({
+        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+        block: "nearest",
+      });
       row?.classList.add("timeline-event--focus");
       setTimeout(() => row?.classList.remove("timeline-event--focus"), 1200);
     });
@@ -888,6 +972,9 @@ function renderBroadcastCard(pick) {
   const date = pick.published
     ? `<time class="broadcast-date" datetime="${escapeHtml(pick.published)}">${escapeHtml(formatDateUtc8(pick.published))} UTC+8</time>`
     : "";
+  const abstract = (pick.abstract || "").trim()
+    ? `<p class="broadcast-abstract">${escapeHtml(pick.abstract.trim())}</p>`
+    : "";
 
   return `
     <li class="broadcast-card">
@@ -902,6 +989,7 @@ function renderBroadcastCard(pick) {
           <a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(pick.title)}</a>
         </h3>
         <p class="broadcast-authors">${authors}${more}</p>
+        ${abstract}
         ${tags ? `<div class="broadcast-tags">${tags}</div>` : ""}
         <div class="top-links meta meta-compact">
           <a href="${escapeHtml(url)}" target="_blank" rel="noopener">arXiv</a>
@@ -1033,6 +1121,7 @@ async function main() {
   const confSearch = document.getElementById("conf-search");
   const hub = await loadHubConfig();
   applyHubBranding(hub);
+  initViewsWidget({ apiUrl: hub?.views_api_url });
 
   const [timelineRes, broadcastRes, arxivRes, publishedRes, confRes] = await Promise.allSettled([
     loadConferenceTimeline(),

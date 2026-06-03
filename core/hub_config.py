@@ -127,6 +127,7 @@ class Hub:
             "pick_years": self.pick_years,
             "arxiv_pick_years": self.arxiv_pick_years,
             "timeline_year": self.meta.get("timeline_year"),
+            "views_api_url": self.meta.get("views_api_url", ""),
             "sections": self.sections,
             "categories": {
                 "section_heading": self.categories.get("section_heading", ""),

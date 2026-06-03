@@ -1,0 +1,60 @@
+{
+  "zone_order": ["americas", "europe", "asia", "oceania", "africa_me", "other"],
+  "zone_labels": {
+    "americas": "Americas",
+    "europe": "Europe",
+    "asia": "Asia-Pacific",
+    "oceania": "Oceania",
+    "africa_me": "Africa & Middle East",
+    "other": "Other"
+  },
+  "highlight_countries": {
+    "CN": "China"
+  },
+  "china_cities": {
+    "order": ["beijing", "shanghai", "guangzhou", "shenzhen", "hangzhou"],
+    "labels": {
+      "beijing": "Beijing",
+      "shanghai": "Shanghai",
+      "guangzhou": "Guangzhou",
+      "shenzhen": "Shenzhen",
+      "hangzhou": "Hangzhou"
+    },
+    "match": {
+      "beijing": ["beijing", "peking", "beijing shi"],
+      "shanghai": ["shanghai", "shanghai shi"],
+      "guangzhou": ["guangzhou", "canton", "guangzhou shi"],
+      "shenzhen": ["shenzhen", "shenzhen shi"],
+      "hangzhou": ["hangzhou", "hangchow", "hangzhou shi"]
+    }
+  },
+  "countries": {
+    "americas": [
+      "AG", "AR", "AW", "BB", "BZ", "BO", "BR", "BS", "CA", "CL", "CO", "CR", "CU", "DM", "DO",
+      "EC", "GD", "GF", "GP", "GT", "GY", "HN", "HT", "JM", "KN", "KY", "LC", "MQ", "MX", "NI",
+      "PA", "PE", "PR", "PY", "SR", "SV", "TT", "US", "UY", "VE", "VI"
+    ],
+    "europe": [
+      "AD", "AL", "AT", "AX", "BA", "BE", "BG", "BY", "CH", "CY", "CZ", "DE", "DK", "EE", "ES",
+      "FI", "FO", "FR", "GB", "GG", "GI", "GR", "HR", "HU", "IE", "IM", "IS", "IT", "JE", "LI",
+      "LT", "LU", "LV", "MC", "MD", "ME", "MK", "MT", "NL", "NO", "PL", "PT", "RO", "RS", "RU",
+      "SE", "SI", "SK", "SM", "TR", "UA", "VA", "XK"
+    ],
+    "asia": [
+      "AM", "AZ", "BD", "BN", "BT", "CN", "GE", "HK", "ID", "IN", "JP", "KG", "KH", "KP", "KR",
+      "KZ", "LA", "LK", "MM", "MN", "MO", "MV", "MY", "NP", "PH", "PK", "SG", "TH", "TJ", "TL",
+      "TM", "TW", "UZ", "VN"
+    ],
+    "oceania": [
+      "AS", "AU", "CK", "FJ", "FM", "GU", "KI", "MH", "MP", "NC", "NR", "NU", "NZ", "PF", "PG",
+      "PN", "PW", "SB", "TO", "TV", "VU", "WF", "WS"
+    ],
+    "africa_me": [
+      "AE", "AO", "BF", "BH", "BI", "BJ", "BW", "CD", "CF", "CG", "CI", "CM", "CV", "DJ", "DZ",
+      "EG", "EH", "ER", "ET", "GA", "GH", "GM", "GN", "GQ", "GW", "IL", "IQ", "IR", "JO", "KE",
+      "KM", "KW", "LB", "LR", "LS", "LY", "MA", "MG", "ML", "MR", "MU", "MW", "MZ", "NA", "NE",
+      "NG", "OM", "PS", "QA", "RE", "RW", "SA", "SC", "SD", "SL", "SN", "SO", "SS", "ST", "SY",
+      "SZ", "TD", "TG", "TN", "TZ", "UG", "YE", "YT", "ZA", "ZM", "ZW"
+    ]
+  }
+}

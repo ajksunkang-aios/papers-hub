@@ -1,10 +1,16 @@
 # Build papers-hub data (dblp + arXiv + picks) and deploy website/ to GitHub Pages.
 #
 # Setup (once per repo):
-#   Settings ? Pages ? Build and deployment ? Source: GitHub Actions
+#   Settings → Pages → Build and deployment → Source: GitHub Actions
+#   (Optional, for live view counts) Settings → Secrets → VIEWS_API_URL
+#     = https://your-view-stats-worker.workers.dev
 #
 # Schedule: 09:00 Asia/Shanghai (01:00 UTC). Adjust cron if you use another TZ.
-# Manual run: Actions ? Deploy Pages ? Run workflow
+# Manual run: Actions → Deploy Pages → Run workflow
+#
+# Note: view counts update live via the views API (Cloudflare Worker). This workflow
+# only publishes the static site and injects views_api_url into hub.json when the
+# secret is set. Redeploying Pages does not increment or batch-update view totals.
 
 name: Deploy Pages
 
@@ -79,9 +85,44 @@ jobs:
           ABSTRACT_SKIP: "1"
         run: ./scripts/daily_update.sh
 
+      - name: Sync view zones to worker config
+        run: python3 scripts/sync_view_zones.py
+
+      - name: Test view stats helpers
+        run: python3 -m unittest tests/test_view_stats.py
+
+      - name: Verify view zones stay in sync
+        run: python3 scripts/sync_view_zones.py --check
+
+      - name: Configure views API URL (optional)
+        env:
+          VIEWS_API_URL: ${{ secrets.VIEWS_API_URL }}
+        run: |
+          if [ -z "${VIEWS_API_URL}" ]; then
+            echo "VIEWS_API_URL secret not set; worldwide views bar stays hidden on Pages"
+            echo "unless hubs/os-kernel/hub.json already has views_api_url."
+            exit 0
+          fi
+          python3 - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          url = os.environ["VIEWS_API_URL"].strip().rstrip("/")
+          if not url.startswith("http"):
+              raise SystemExit(f"VIEWS_API_URL must be an http(s) URL, got: {url!r}")
+
+          hub_path = Path("website/data/hub.json")
+          hub = json.loads(hub_path.read_text(encoding="utf-8"))
+          hub["views_api_url"] = url
+          hub_path.write_text(json.dumps(hub, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(f"views_api_url configured for Pages: {url}")
+          PY
+
       - name: Verify site output
         run: |
           test -f website/index.html
+          test -f website/views.js
           test -f website/data/conferences.json
           test -f website/data/top-monthly.json
           test -f website/data/today-broadcast.json
@@ -94,6 +135,12 @@ jobs:
               if key not in p:
                   raise SystemExit(f"today-broadcast.json missing {key!r}")
           print(f"broadcast ok: {p['date_label']} ({len(p.get('picks', []))} preview / {len(p.get('all_picks', []))} total)")
+
+          hub = json.loads(Path("website/data/hub.json").read_text(encoding="utf-8"))
+          if hub.get("views_api_url"):
+              print(f"views ok: api={hub['views_api_url']}")
+          else:
+              print("views: api not configured (bar hidden until VIEWS_API_URL secret or hub.json URL)")
           PY
           echo "Pages artifact: $(du -sh website | cut -f1)"
 
