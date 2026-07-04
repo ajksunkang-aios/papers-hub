@@ -74,27 +74,16 @@ jobs:
             data/arxiv-cache
             data/abstract-enrich-os-kernel.json
             data/dblp-build-os-kernel.json
-          key: papers-hub-build-${{ runner.os }}-${{ hashFiles('hubs/os-kernel/**', 'core/**', 'crawl_arxiv_recent.py', 'build_top_monthly.py') }}
+            data/dblp-affiliation-cache-os-kernel.json
+          key: papers-hub-build-${{ runner.os }}-${{ hashFiles('hubs/os-kernel/**', 'core/**', 'crawl_arxiv_recent.py', 'build_top_monthly.py', 'enrich_author_metadata.py', 'build_country_analytics.py') }}
           restore-keys: |
             papers-hub-build-${{ runner.os }}-
 
-      - name: Cache author country enrichment
-        uses: actions/cache@v4
-        with:
-          path: |
-            data/author-country-cache-os-kernel.json
-            data/dblp-affiliation-cache-os-kernel.json
-            data/author-enrich-os-kernel.json
-          key: papers-hub-author-country-${{ runner.os }}-${{ hashFiles('build_country_analytics.py', 'enrich_author_metadata.py', 'core/author_country.py', 'core/author_profiles.py', 'core/dblp_affiliations.py', 'hubs/os-kernel/author_country_policy.json') }}
-          restore-keys: |
-            papers-hub-author-country-${{ runner.os }}-
-
-      - name: Daily build (dblp + arXiv + picks)
+      - name: Daily build (dblp + arXiv + picks + country analytics)
         env:
           CI: "true"
           HUB: os-kernel
           ABSTRACT_SKIP: "1"
-          AUTHOR_COUNTRY_OFFLINE: "1"
         run: ./scripts/daily_update.sh
 
       - name: Sync view zones to worker config
@@ -161,11 +150,18 @@ jobs:
 
           country = json.loads(Path("website/data/country-analytics.json").read_text(encoding="utf-8"))
           cov = country.get("coverage") or {}
+          resolved = int(cov.get("resolved") or 0)
+          total = int(cov.get("total_papers") or 0)
           print(
               f"country analytics ok: source={country.get('data_source')} "
-              f"papers={cov.get('total_papers')} resolved={cov.get('resolved')} "
+              f"papers={total} resolved={resolved} "
               f"countries={len(country.get('countries', []))}"
           )
+          if total > 100 and resolved == 0:
+              raise SystemExit(
+                  "country analytics resolved=0; author enrichment likely skipped "
+                  "(check dblp/OpenAlex network steps in daily_update)"
+              )
           PY
           echo "Pages artifact: $(du -sh website | cut -f1)"
 

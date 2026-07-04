@@ -136,7 +136,7 @@ def resolve_author_local(
 ) -> AuthorProfile:
     labels = policy.get("country_labels", {})
     institution_matcher, country_matcher = build_matchers(policy)
-    affs = [a for a in affiliations if a]
+    affs = [a for a in affiliations if a and a != "Unknown affiliation"]
     blob = " ".join(affs)
 
     code = infer_country_from_text(blob, institution_matcher)

@@ -72,7 +72,12 @@ run_daily() {
       "${ABSTRACT_ENRICH_FLAGS[@]}"
   fi
 
-  AUTHOR_ENRICH_FLAGS=(--years "$PICK_YEARS" --if-stale-hours 168)
+  AUTHOR_ENRICH_FLAGS=(--years "$PICK_YEARS")
+  if [[ "${CI:-}" == "true" ]]; then
+    echo "  CI: online author enrichment (dblp + OpenAlex), no if-stale skip"
+  else
+    AUTHOR_ENRICH_FLAGS+=(--if-stale-hours 168)
+  fi
   if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" ]]; then
     AUTHOR_ENRICH_FLAGS+=(--offline)
   elif [[ "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then

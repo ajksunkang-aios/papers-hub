@@ -131,4 +131,4 @@ def paper_authors_complete(paper: dict[str, Any]) -> bool:
     expected = len([a for a in (paper.get("authors") or []) if a])
     if expected and len(rows) < expected:
         return False
-    return not author_rows_missing_affiliations(rows)
+    return not rows_need_real_affiliations(rows)

@@ -54,8 +54,22 @@ class DblpAffiliationTests(unittest.TestCase):
 
     def test_paper_authors_complete(self) -> None:
         paper = attach_author_fields({"authors": ["Alice", "Bob"]})
-        self.assertTrue(paper_authors_complete(paper))
+        self.assertFalse(paper_authors_complete(paper))
         self.assertEqual(len(paper["authors_structured"]), 2)
+
+        complete = attach_author_fields(
+            {
+                "authors": ["Alice"],
+                "authors_structured": [
+                    {
+                        "name": "Alice",
+                        "affiliations": ["MIT CSAIL, Cambridge, MA, USA"],
+                        "country_code": "US",
+                    }
+                ],
+            }
+        )
+        self.assertTrue(paper_authors_complete(complete))
 
 
 if __name__ == "__main__":

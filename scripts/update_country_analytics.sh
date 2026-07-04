@@ -3,8 +3,7 @@
 #
 # Usage:
 #   ./scripts/update_country_analytics.sh
-#   AUTHOR_COUNTRY_OFFLINE=1 ./scripts/update_country_analytics.sh   # skip OpenAlex only
-#   AUTHOR_COUNTRY_OFFLINE=0 ./scripts/update_country_analytics.sh   # OpenAlex fallback enabled
+#   AUTHOR_COUNTRY_OFFLINE=1 ./scripts/update_country_analytics.sh   # local fast build only
 #
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -26,7 +25,10 @@ if [[ ! -f "$ROOT/website/data/conferences.json" ]]; then
   "$PYTHON" parse_dblp_xml.py "${HUB_FLAG[@]}" --build-website --if-stale
 fi
 
-AUTHOR_ENRICH_FLAGS=(--years "$PICK_YEARS" --skip-arxiv --if-stale-hours 168)
+AUTHOR_ENRICH_FLAGS=(--years "$PICK_YEARS" --skip-arxiv)
+if [[ "${CI:-}" != "true" ]]; then
+  AUTHOR_ENRICH_FLAGS+=(--if-stale-hours 168)
+fi
 if [[ "${AUTHOR_ENRICH_SKIP_DBLP:-0}" == "1" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--skip-dblp-fetch)
 fi
