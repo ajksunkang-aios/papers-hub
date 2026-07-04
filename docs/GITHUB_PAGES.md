@@ -27,8 +27,12 @@ Same as local daily update:
 - dblp parse (incremental, cached `data/dblp.xml.gz`)
 - arXiv crawl (`--if-stale-hours 24`)
 - top picks + broadcast + hub metadata  
+- **country analytics** (`scripts/update_country_analytics.sh` → `website/data/country-analytics.json`)
 
-CI defaults: `ABSTRACT_SKIP=1` (faster; enable in workflow env if you add abstract APIs later).
+CI defaults: `ABSTRACT_SKIP=1` (faster; enable in workflow env if you add abstract APIs later).  
+Author country: `AUTHOR_COUNTRY_OFFLINE=1` skips OpenAlex; dblp person-page fetch still runs when cached data is stale.
+
+Dedicated workflow: [`.github/workflows/country-analytics.yml`](../.github/workflows/country-analytics.yml) warms author-enrichment caches daily at **08:00 Asia/Shanghai** (one hour before Deploy Pages).
 
 To force a live arXiv API fetch in CI, set `ARXIV_FORCE: "1"` on the build step (removes the 24h skip).
 
@@ -38,6 +42,7 @@ Actions caches:
 
 - `data/dblp.xml.gz` (large; speeds up repeat runs)
 - abstract / arXiv / dblp build manifests under `data/`
+- author country enrichment (`author-country-cache-*`, `dblp-affiliation-cache-*`, `author-enrich-*`)
 
 First run may take a long time while dblp downloads.
 

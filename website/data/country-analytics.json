@@ -1,0 +1,371 @@
+{
+  "generated_at": "2026-07-04T11:39:59.474910+00:00",
+  "hub_id": "os-kernel",
+  "years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "period_label": "2023-2026",
+  "data_source": "dblp",
+  "coverage": {
+    "total_papers": 5234,
+    "resolved": 0,
+    "unknown": 5234,
+    "resolution_rate": 0.0
+  },
+  "category_labels": {
+    "llm-serving": "LLM serving",
+    "on-device-ai": "On-device AI",
+    "kernel-agentic": "Kernel Agentic Engineering",
+    "system-security": "System Security",
+    "os-kernel-arch": "OS Kernel Architecture",
+    "memory-resource": "Memory and Resource Management",
+    "fs-storage": "File System and Storage",
+    "ebpf": "eBPF and Programmable Kernel",
+    "fault-tolerance": "Fault Tolerance"
+  },
+  "region_groups": {
+    "APAC": [
+      "CN",
+      "JP",
+      "KR",
+      "SG",
+      "IN",
+      "AU",
+      "HK",
+      "TW"
+    ],
+    "Europe": [
+      "GB",
+      "DE",
+      "FR",
+      "CH",
+      "NL",
+      "SE",
+      "IT",
+      "ES",
+      "AT",
+      "BE",
+      "DK",
+      "FI",
+      "NO",
+      "RU"
+    ],
+    "Americas": [
+      "US",
+      "CA",
+      "BR"
+    ]
+  },
+  "country_labels": {
+    "CN": "China",
+    "US": "United States",
+    "GB": "United Kingdom",
+    "DE": "Germany",
+    "FR": "France",
+    "CH": "Switzerland",
+    "CA": "Canada",
+    "SG": "Singapore",
+    "KR": "South Korea",
+    "JP": "Japan",
+    "IN": "India",
+    "IL": "Israel",
+    "NL": "Netherlands",
+    "SE": "Sweden",
+    "AU": "Australia",
+    "HK": "Hong Kong",
+    "TW": "Taiwan",
+    "IT": "Italy",
+    "ES": "Spain",
+    "AT": "Austria",
+    "BE": "Belgium",
+    "DK": "Denmark",
+    "FI": "Finland",
+    "NO": "Norway",
+    "RU": "Russia",
+    "BR": "Brazil",
+    "XX": "Unknown"
+  },
+  "countries": [
+    {
+      "code": "XX",
+      "label": "Unknown",
+      "total": 5234,
+      "dblp": 5234,
+      "areas": {
+        "llm-serving": 162,
+        "ebpf": 74,
+        "memory-resource": 118,
+        "fault-tolerance": 66,
+        "": 3121,
+        "system-security": 1417,
+        "fs-storage": 116,
+        "kernel-agentic": 8,
+        "on-device-ai": 103,
+        "os-kernel-arch": 49
+      },
+      "by_year": {
+        "2023": 1526,
+        "2024": 1633,
+        "2025": 1588,
+        "2026": 487
+      },
+      "top_papers": [
+        {
+          "title": "Sharpen the Spec, Cut the Code: A Case for Generative File System with SYSSPEC",
+          "authors": [
+            "Qingyuan Liu",
+            "Mo Zou",
+            "Hengbin Zhang",
+            "Dong Du 0003",
+            "Yubin Xia",
+            "Haibo Chen 0001"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "fs-storage",
+          "area_label": "File System and Storage",
+          "area_score": 130,
+          "first_author": {
+            "name": "Qingyuan Liu",
+            "country_code": "XX",
+            "country_label": "Unknown",
+            "affiliations": [
+              "Unknown affiliation"
+            ],
+            "source": "unknown",
+            "confidence": "unknown"
+          },
+          "venue": "FAST 2026",
+          "dblp_url": "https://dblp.org/rec/conf/fast/LiuZZ0X026.html",
+          "conference_id": "fast-2026"
+        },
+        {
+          "title": "DFVG: A Heterogeneous Architecture for Speculative Decoding with Draft-on-FPGA and Verify-on-GPU",
+          "authors": [
+            "Shaoqiang Lu",
+            "Yangbo Wei",
+            "Junhong Qian",
+            "Dongge Qin",
+            "Shiji Gao",
+            "Yizhi Ding",
+            "Qifan Wang",
+            "Chen Wu",
+            "Xiao Shi 0001",
+            "Lei He 0001"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 53,
+          "first_author": {
+            "name": "Shaoqiang Lu",
+            "country_code": "XX",
+            "country_label": "Unknown",
+            "affiliations": [
+              "Unknown affiliation"
+            ],
+            "source": "unknown",
+            "confidence": "unknown"
+          },
+          "venue": "ASPLOS 2026",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/LuWQQGDWW0026.html",
+          "conference_id": "asplos-2026"
+        },
+        {
+          "title": "Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration",
+          "authors": [
+            "Zejia Lin 0001",
+            "Hongxin Xu",
+            "Guanyi Chen",
+            "Zhiguang Chen 0001",
+            "Yutong Lu",
+            "Xianwei Zhang 0001"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 41,
+          "first_author": {
+            "name": "Zejia Lin 0001",
+            "country_code": "XX",
+            "country_label": "Unknown",
+            "affiliations": [
+              "Unknown affiliation"
+            ],
+            "source": "unknown",
+            "confidence": "unknown"
+          },
+          "venue": "ASPLOS 2026",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/0001XC0L026.html",
+          "conference_id": "asplos-2026"
+        },
+        {
+          "title": "From Imperative to Declarative: Towards LLM-friendly OS Interfaces for Boosted Computer-Use Agents",
+          "authors": [
+            "Yuan Wang",
+            "Mingyu Li",
+            "Haibo Chen 0001"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "kernel-agentic",
+          "area_label": "Kernel Agentic Engineering",
+          "area_score": 34,
+          "first_author": {
+            "name": "Yuan Wang",
+            "country_code": "XX",
+            "country_label": "Unknown",
+            "affiliations": [
+              "Unknown affiliation"
+            ],
+            "source": "unknown",
+            "confidence": "unknown"
+          },
+          "venue": "EuroSys 2026",
+          "dblp_url": "https://dblp.org/rec/conf/eurosys/WangLC26.html",
+          "conference_id": "eurosys-2026"
+        },
+        {
+          "title": "Boosting File Systems Elegantly: A Transparent NVM Write-ahead Log for Disk File Systems",
+          "authors": [
+            "Guoyu Wang",
+            "Xilong Che",
+            "Haoyang Wei",
+            "Shuo Chen",
+            "Puyi He",
+            "Juncheng Hu"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "fs-storage",
+          "area_label": "File System and Storage",
+          "area_score": 34,
+          "first_author": {
+            "name": "Guoyu Wang",
+            "country_code": "XX",
+            "country_label": "Unknown",
+            "affiliations": [
+              "Unknown affiliation"
+            ],
+            "source": "unknown",
+            "confidence": "unknown"
+          },
+          "venue": "FAST 2025",
+          "dblp_url": "https://dblp.org/rec/conf/fast/WangCWCHH25.html",
+          "conference_id": "fast-2025"
+        },
+        {
+          "title": "DJFS : Directory-Granularity Filesystem Journaling for CMM-H SSDs",
+          "authors": [
+            "Seung Won Yoo",
+            "Joontaek Oh",
+            "Myeongin Cheon",
+            "Bonmoo Koo",
+            "Wonseb Jeong",
+            "Hyunsub Song",
+            "Hyeonho Song",
+            "Donghun Lee",
+            "Youjip Won"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "fs-storage",
+          "area_label": "File System and Storage",
+          "area_score": 34,
+          "first_author": {
+            "name": "Seung Won Yoo",
+            "country_code": "XX",
+            "country_label": "Unknown",
+            "affiliations": [
+              "Unknown affiliation"
+            ],
+            "source": "unknown",
+            "confidence": "unknown"
+          },
+          "venue": "FAST 2025",
+          "dblp_url": "https://dblp.org/rec/conf/fast/YooOCKJSSLW25.html",
+          "conference_id": "fast-2025"
+        },
+        {
+          "title": "On Stacking a Persistent Memory File System on Legacy File Systems",
+          "authors": [
+            "Hobin Woo",
+            "Daegyu Han",
+            "Seungjoon Ha",
+            "Sam H. Noh",
+            "Beomseok Nam"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "fs-storage",
+          "area_label": "File System and Storage",
+          "area_score": 34,
+          "first_author": {
+            "name": "Hobin Woo",
+            "country_code": "XX",
+            "country_label": "Unknown",
+            "affiliations": [],
+            "source": "unknown",
+            "confidence": "unknown"
+          },
+          "venue": "FAST 2023",
+          "dblp_url": "https://dblp.org/rec/conf/fast/WooHHNN23.html",
+          "conference_id": "fast-2023"
+        },
+        {
+          "title": "SwiftSpec: Disaggregated Speculative Decoding and Fused Kernels for Low-Latency LLM Inference",
+          "authors": [
+            "Ziyi Zhang",
+            "Ziheng Jiang",
+            "Chengquan Jiang",
+            "Menghan Yu",
+            "Size Zheng 0001",
+            "Haibin Lin",
+            "Xin Liu 0086",
+            "Henry Hoffmann"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 31,
+          "first_author": {
+            "name": "Ziyi Zhang",
+            "country_code": "XX",
+            "country_label": "Unknown",
+            "affiliations": [
+              "Unknown affiliation"
+            ],
+            "source": "unknown",
+            "confidence": "unknown"
+          },
+          "venue": "ASPLOS 2026",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/ZhangJJY0LLH26.html",
+          "conference_id": "asplos-2026"
+        }
+      ]
+    }
+  ],
+  "matrix": {
+    "XX": {
+      "llm-serving": 162,
+      "ebpf": 74,
+      "memory-resource": 118,
+      "fault-tolerance": 66,
+      "": 3121,
+      "system-security": 1417,
+      "fs-storage": 116,
+      "kernel-agentic": 8,
+      "on-device-ai": 103,
+      "os-kernel-arch": 49
+    }
+  },
+  "sources": {
+    "dblp": 5234
+  }
+}

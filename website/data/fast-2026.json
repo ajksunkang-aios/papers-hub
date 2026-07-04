@@ -45,7 +45,62 @@
         "https://www.usenix.org/conference/fast26/presentation/zhao"
       ],
       "abstract": "In cloud block store, indexing is on the critical path of I/O operations and typically resides in memory. With the scaling of users and the emergence of denser storage media, the index has become a primary memory consumer, causing memory strain. Our extensive analysis of production traces reveals that write requests exhibit a strong tendency to target continuous block ranges in cloud storage systems. Thus, compared to current per-block indexing, our insight is that we should directly index block ranges (i.e., range-as-a-key) to save memory. In this paper, we propose RASK, a memory-efficient and high-performance tree-structured index that natively indexes ranges. While range-as-a-key offers the potential to save memory and improve performance, realizing this idea is challenging due to the range overlap and range fragmentation issues. To handle range overlap efficiently, RASK introduces the log-structured leaf, combined with range-tailored search and garbage collection. To reduce range fragmentation, RASK employs range-aware split and merge mechanisms. Our evaluations on four production traces show that RASK reduces memory footprint by up to 98.9% and increases throughput by up to 31.0x compared to ten state-of-the-art indexes.",
-      "abstract_source": "arxiv-local"
+      "abstract_source": "arxiv-local",
+      "authors_structured": [
+        {
+          "name": "Haoru Zhao",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Mingkai Dong 0002",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Erci Xu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Zhongyu Wang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
+      ]
     },
     {
       "title": "Accelerating Model Loading in LLM Inference by Programmable Page Cache",
@@ -67,6 +122,91 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/Liu0HWGC0026.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/liu-yubo"
+      ],
+      "authors_structured": [
+        {
+          "name": "Yubo Liu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Hongbo Li 0007",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Xiaojia Huang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yongfeng Wang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Hanjun Guo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Hui Chen",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yuxin Ren 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ning Jia 0004",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -89,6 +229,91 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/BaronBMPPSMA26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/baron"
+      ],
+      "authors_structured": [
+        {
+          "name": "Benjamin Baron",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Aline Bousquet",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Eric Metens",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Swapnil Pimpale",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Nick Puz",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Marc de Saint Sauveur",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Varsha Muzumdar",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Vinay Ari",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -111,6 +336,91 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/LiuLLGCS0026.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/liu-weijie"
+      ],
+      "authors_structured": [
+        {
+          "name": "Weijie Liu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Shengwei Li",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Zhiquan Lai",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Keshi Ge",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Qiaoling Chen",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Peng Sun",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Dongsheng Li 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Kai Lu 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -132,6 +442,81 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/GuptaHJK0NC26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/gupta"
+      ],
+      "authors_structured": [
+        {
+          "name": "Anuj Gupta",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Christoph Hellwig",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Kanchan Joshi",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Vikash Kumar",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Javier Gonz&aacute;lez 0006",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Roshan R. Nair",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jinyoung Choi",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -149,6 +534,41 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/Zhang0S26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/zhang-kai"
+      ],
+      "authors_structured": [
+        {
+          "name": "Kai Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Tianyu Wang 0009",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Zili Shao",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -169,6 +589,71 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/HuZZWZC26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/hu-shipeng"
+      ],
+      "authors_structured": [
+        {
+          "name": "Shipeng Hu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Guangyan Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yuqi Zhou",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yaya Wei",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ziyan Zhong",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jike Chen",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -187,6 +672,51 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/YeZAA26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/ye"
+      ],
+      "authors_structured": [
+        {
+          "name": "Chenhao Ye",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Shawn Zhong",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Andrea C. Arpaci-Dusseau",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Remzi H. Arpaci-Dusseau",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -210,6 +740,101 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/LiuG0WX0GHM26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/liu-yang"
+      ],
+      "authors_structured": [
+        {
+          "name": "Yang Liu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yunfei Gu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Liqiang Zhang 0010",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Chentao Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Guangtao Xue",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jie Li 0002",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Minyi Guo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Junhao Hu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jie Meng",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -227,6 +852,41 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/Jia0X26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/jia"
+      ],
+      "authors_structured": [
+        {
+          "name": "Wenqing Jia",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Dejun Jiang 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jin Xiong",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -247,6 +907,71 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/SongQ0BNL26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/song"
+      ],
+      "authors_structured": [
+        {
+          "name": "Inho Song",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Shoaib Asif Qazi",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Javier Gonz&aacute;lez 0006",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Matias Bj&oslash;rling",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Sam H. Noh",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Huaicheng Li",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -267,6 +992,71 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/WangDYWLW26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/wang-li"
+      ],
+      "authors_structured": [
+        {
+          "name": "Li Wang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jinxu Du",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yang Yang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Qingbo Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Tao Liu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Haoze Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -298,6 +1088,181 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/WangYLXCLCCLBHL26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/wang"
+      ],
+      "authors_structured": [
+        {
+          "name": "Qing Wang 0031",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Fan Yang 0134",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Qiang Liu 0011",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Geng Xiao",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yongpeng Chen",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Hao Lan",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Leiming Chen",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Bangzhu Chen",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Chenrui Liu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Pingchang Bai",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Bin Huang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Zigan Luo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Mingyu Xie",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yu Wang 0002",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Youyou Lu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Huatao Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiwu Shu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -318,6 +1283,71 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/YoonILINL26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/yoon"
+      ],
+      "authors_structured": [
+        {
+          "name": "Dongha Yoon",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Hansen Idden",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jinshu Liu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Berkay Inceisci",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Sam H. Noh",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Huaicheng Li",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -352,6 +1382,211 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/BianZLZZGGGLZZC26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/bian"
+      ],
+      "authors_structured": [
+        {
+          "name": "Runhua Bian",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Liqiang Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jinxin Liu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiacheng Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jianong Zhong",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiahao Gu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Hao Guo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Zhihong Guo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yunhao Li",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Fenghao Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiangkun Zhao",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yangming Chen",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Guojun Li",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ruwen Fan",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Haijia Shen",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Chengyu Dong",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yao Wang 0022",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Rui Shi",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiwu Shu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Youyou Lu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -373,6 +1608,81 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/Wei0SLY0C26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/wei"
+      ],
+      "authors_structured": [
+        {
+          "name": "Guoli Wei",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yongkun Li 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Haoze Song",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Tao Li",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Lulu Yao",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yinlong Xu 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Heming Cui",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -394,6 +1704,81 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/KimOK0K0N26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/kim-jeeyun"
+      ],
+      "authors_structured": [
+        {
+          "name": "Jeeyun Kim",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Seonggyun Oh",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jungwoo Kim",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jisung Park 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jaeho Kim",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Sungjin Lee 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Sam H. Noh",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -415,6 +1800,81 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/SeoJYCJLD26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/seo"
+      ],
+      "authors_structured": [
+        {
+          "name": "Dongjoo Seo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jihyeon Jung",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yeohwan Yoon",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ping-Xiang Chen",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yongsoo Joo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Sung-Soo Lim",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Nikil D. Dutt",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -433,6 +1893,51 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/NiuZLC26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/niu"
+      ],
+      "authors_structured": [
+        {
+          "name": "Xiao Niu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Guangyan Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Zhiyue Li",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Sijie Cai",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -458,6 +1963,121 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/WangZLLKNKOCXH26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/wang-shuyang"
+      ],
+      "authors_structured": [
+        {
+          "name": "Shuyang Wang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yuqi Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Haonan Luo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Kangkang Liu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Gil Kim",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jongsung Na",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Claude Kim",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Geunrok Oh",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Kyle Choi",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ni Xue",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Xing He",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -481,6 +2101,101 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/Hao0WZSZFW026.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/hao"
+      ],
+      "authors_structured": [
+        {
+          "name": "Yingyi Hao",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ting Yao 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Xingda Wei",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Dingyan Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Tianle Sun",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yiwen Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Zhiyong Fu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Huatao Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Rong Chen 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -501,7 +2216,52 @@
         "https://www.usenix.org/conference/fast26/presentation/tu"
       ],
       "abstract": "We present Mirror-Optimized Storage Tiering (MOST), a novel tiering-based approach optimized for modern storage hierarchies. The key idea of MOST is to combine the load balancing advantages of mirroring with the space-efficiency advantages of tiering. Specifically, MOST dynamically mirrors a small amount of hot data across storage tiers to efficiently balance load, avoiding costly migrations. As a result, MOST is as space-efficient as classic tiering while achieving better bandwidth utilization under I/O-intensive workloads. We implement MOST in Cerberus, a user-level storage management layer based on CacheLib. We show the efficacy of Cerberus through a comprehensive empirical study: across a range of static and dynamic workloads, Cerberus achieves better throughput than competing approaches on modern storage hierarchies especially under I/O-intensive and dynamic workloads.",
-      "abstract_source": "arxiv-local"
+      "abstract_source": "arxiv-local",
+      "authors_structured": [
+        {
+          "name": "Kaiwei Tu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Kan Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Andrea C. Arpaci-Dusseau",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Remzi H. Arpaci-Dusseau",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
+      ]
     },
     {
       "title": "GPU Checkpoint/Restore Made Fast and Lightweight",
@@ -519,6 +2279,51 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/ZengRSL26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/zeng"
+      ],
+      "authors_structured": [
+        {
+          "name": "Shaoxun Zeng",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Tingxu Ren",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiwu Shu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Youyou Lu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -552,6 +2357,201 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/YangZZZZWSLLNZW26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/yang"
+      ],
+      "authors_structured": [
+        {
+          "name": "Leping Yang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yanbo Zhou",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Gong Zeng",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Li Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Saisai Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ruilin Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Chaoyang Sun",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Shiyi Luo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Wenrui Li",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Keqiang Niu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Xiaolu Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Junping Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiaji Zhu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiesheng Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Mariusz Barczak",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Wayne Gao",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ruiming Lu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Erci Xu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Guangtao Xue",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -571,6 +2571,61 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/RenS00L26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/ren"
+      ],
+      "authors_structured": [
+        {
+          "name": "Yuanming Ren",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Siyuan Sheng",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Zhang Cao 0005",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yongkun Li 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Patrick P. C. Lee",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -602,6 +2657,181 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/ChenZXWYWSWWWPL26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/chen"
+      ],
+      "authors_structured": [
+        {
+          "name": "Xinqi Chen",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yu Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Erci Xu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Changhong Wang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jifei Yi",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Qiuping Wang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Shizhuo Sun",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Zhongyu Wang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Haonan Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Junping Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Hailin Peng",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Rong Liu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yinhu Wang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiaji Zhu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiesheng Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Guangtao Xue",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Patrick P. C. Lee",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -621,6 +2851,61 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/ChengL0HL26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/cheng"
+      ],
+      "authors_structured": [
+        {
+          "name": "Keyun Cheng",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Guodong Li",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Xiaolu Li 0002",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Sihuang Hu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Patrick P. C. Lee",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -640,6 +2925,61 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/ParkJHNH26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/park"
+      ],
+      "authors_structured": [
+        {
+          "name": "Taeyoung Park",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yunjae Jo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Daegyu Han",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Beomseok Nam",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jaehyun Hwang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -664,6 +3004,111 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/XuYYLSCYST026.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/xu"
+      ],
+      "authors_structured": [
+        {
+          "name": "Erci Xu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Xinyi Yu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Lujia Yin",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Xinyuan Luo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Shaowei Song",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Qingsong Chen",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Shoumeng Yan",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiwu Shu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Hongliang Tian",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yiming Zhang 0003",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -680,6 +3125,31 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/GuoL26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/guo"
+      ],
+      "authors_structured": [
+        {
+          "name": "Hao Guo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Youyou Lu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -701,6 +3171,81 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/Zhang0LYXS026.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/zhang-zhihao-parasync"
+      ],
+      "authors_structured": [
+        {
+          "name": "Zhihao Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Lu Tang 0004",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Huiba Li",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yue Yu 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Guangtao Xue",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiwu Shu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yiming Zhang 0003",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -727,6 +3272,131 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/HuY0LLZZZXZWZ26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/hu"
+      ],
+      "authors_structured": [
+        {
+          "name": "Qingda Hu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Xinjun Yang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Feifei Li 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Junru Li",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ya Lin",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yuqi Zhou",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yicong Zhu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Junwei Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Rongbiao Xie",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ling Zhou",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Bin Wu 0003",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Wenchao Zhou",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -748,7 +3418,62 @@
         "https://www.usenix.org/conference/fast26/presentation/desai"
       ],
       "abstract": "Input data preprocessing is a common bottleneck when concurrently training multimedia machine learning (ML) models in modern systems. To alleviate these bottlenecks and reduce the training time for concurrent jobs, we present Seneca, a data loading system that optimizes cache partitioning and data sampling for the data storage and ingestion (DSI) pipeline. The design of Seneca contains two key techniques. First, Seneca uses a performance model for the data pipeline to optimally partition the cache for three different forms of data (encoded, decoded, and augmented). Second, Seneca opportunistically serves cached data over uncached ones during random batch sampling so that concurrent jobs benefit from each other. We implement Seneca by modifying PyTorch and demonstrate its effectiveness by comparing it against several state-of-the-art caching systems for DNN training. Seneca reduces the makespan by 45.23% compared to PyTorch and increases data processing throughput by up to 3.45x compared to the next best dataloader.",
-      "abstract_source": "arxiv-local"
+      "abstract_source": "arxiv-local",
+      "authors_structured": [
+        {
+          "name": "Omkar Desai",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ziyang Jiao",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Shuyi Pei",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Janki Bhimani",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Bryan S. Kim",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
+      ]
     },
     {
       "title": "Rearchitecting Buffered I/O in the Era of High-Bandwidth SSDs",
@@ -771,6 +3496,101 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/ZhanWPHW000026.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/zhan"
+      ],
+      "authors_structured": [
+        {
+          "name": "Yekang Zhan",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Tianze Wang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Zheng Peng 0017",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Haichuan Hu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiahao Wu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Xiangrui Yang 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Qiang Cao 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Hong Jiang 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jie Yao 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -796,6 +3616,121 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/QiuWYXYYC00SZ26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/qiu"
+      ],
+      "authors_structured": [
+        {
+          "name": "Shi Qiu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Li Wang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jianqin Yan",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ruofan Xiong",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Leping Yang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Xin Yao",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Renhai Chen",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Gong Zhang 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Dongsheng Li 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiwu Shu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yiming Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -814,6 +3749,51 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/AhnY0S26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/ahn"
+      ],
+      "authors_structured": [
+        {
+          "name": "Taehwan Ahn",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Chanhyeong Yu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Sangjin Lee 0003",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yongseok Son",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -836,7 +3816,72 @@
         "https://www.usenix.org/conference/fast26/presentation/liu-qingyuan"
       ],
       "abstract": "File systems are critical OS components that require constant evolution to support new hardware and emerging application needs. However, the traditional paradigm of developing features, fixing bugs, and maintaining the system incurs significant overhead, especially as systems grow in complexity. This paper proposes a new paradigm, generative file systems, which leverages Large Language Models (LLMs) to generate and evolve a file system from prompts, effectively addressing the need for robust evolution. Despite the widespread success of LLMs in code generation, attempts to create a functional file system have thus far been unsuccessful, mainly due to the ambiguity of natural language prompts. This paper introduces SYSSPEC, a framework for developing generative file systems. Its key insight is to replace ambiguous natural language with principles adapted from formal methods. Instead of imprecise prompts, SYSSPEC employs a multi-part specification that accurately describes a file system's functionality, modularity, and concurrency. The specification acts as an unambiguous blueprint, guiding LLMs to generate expected code flexibly. To manage evolution, we develop a DAG-structured patch that operates on the specification itself, enabling new features to be added without violating existing invariants. Moreover, the SYSSPEC toolchain features a set of LLM-based agents with mechanisms to mitigate hallucination during construction and evolution. We demonstrate our approach by generating SPECFS, a concurrent file system. SPECFS demonstrates equivalent level of correctness to that of a manually-coded baseline across hundreds of regression tests. We further confirm its evolvability by seamlessly integrating 10 real-world features from Ext4. Our work shows that a specification-guided approach makes generating and evolving complex systems not only feasible but also highly effective.",
-      "abstract_source": "arxiv-local"
+      "abstract_source": "arxiv-local",
+      "authors_structured": [
+        {
+          "name": "Qingyuan Liu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Mo Zou",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Hengbin Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Dong Du 0003",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yubin Xia",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
+      ]
     },
     {
       "title": "SkySync: Accelerating File Synchronization with Collaborative Delta Generation",
@@ -856,6 +3901,71 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/ZhangL0XS026.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/zhang-zhihao"
+      ],
+      "authors_structured": [
+        {
+          "name": "Zhihao Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Huiba Li",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Lu Tang 0004",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Guangtao Xue",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jiwu Shu",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yiming Zhang 0003",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -876,6 +3986,71 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/ZhengWGSM026.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/zheng"
+      ],
+      "authors_structured": [
+        {
+          "name": "Xinrui Zheng",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Dongliang Wei",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jianxiang Gao",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yixin Song",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Zeyu Mi",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Haibo Chen 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -898,6 +4073,91 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/HuangZPXZYZL26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/huang"
+      ],
+      "authors_structured": [
+        {
+          "name": "Hao Huang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yifeng Zhang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yanqi Pan",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Wen Xia",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Xiangyu Zou",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Darong Yang",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jubin Zhong",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Hua Liao",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -916,6 +4176,51 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/Meignan-MassonM26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/meignan-masson"
+      ],
+      "authors_structured": [
+        {
+          "name": "Ilya Meignan-Masson",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Masanori Misono",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Viktor Leis",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Pramod Bhatotia",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -937,6 +4242,81 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/Pan0NLGKX26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/pan"
+      ],
+      "authors_structured": [
+        {
+          "name": "Riwei Pan",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yu Liang 0004",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Sam H. Noh",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Lei Li 0067",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Nan Guan",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Tei-Wei Kuo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Chun Jason Xue",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -963,6 +4343,131 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/KimKCPKKOLAJVK26.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/kim-jungae"
+      ],
+      "authors_structured": [
+        {
+          "name": "Jungae Kim",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jaegeuk Kim",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Kyu-Jin Cho",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Sungjin Park",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jinwoo Kim",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jieun Kim",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Iksung Oh",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Chul Lee",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Bart Van Assche",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Daeho Jeong",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Konstantin Vyshetsky",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jin-Soo Kim",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     },
     {
@@ -988,6 +4493,121 @@
       "dblp_url": "https://dblp.org/rec/conf/fast/AnY00ZZ000L026.html",
       "ee_links": [
         "https://www.usenix.org/conference/fast26/presentation/an"
+      ],
+      "authors_structured": [
+        {
+          "name": "Yuda An",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Shushu Yi",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Bo Mao 0003",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Qiao Li 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Mingzhe Zhang 0005",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Diyu Zhou",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Ke Zhou 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Nong Xiao 0001",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Guangyu Sun 0003",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Yingwei Luo",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        },
+        {
+          "name": "Jie Zhang 0048",
+          "affiliations": [
+            "Unknown affiliation"
+          ],
+          "country_code": "XX",
+          "country_label": "Unknown",
+          "source": "unknown",
+          "confidence": "unknown"
+        }
+      ],
+      "first_author_affiliations": [
+        "Unknown affiliation"
       ]
     }
   ]

@@ -25,6 +25,8 @@ from typing import Iterable
 
 import requests
 
+from core.author_country import enrich_authors_structured_local, load_author_country_policy
+from core.author_profiles import ensure_all_authors_have_affiliations
 from core.hub_config import Hub, add_hub_argument, load_hub
 from core.incremental import (
     file_fingerprint,
@@ -184,6 +186,8 @@ class ArxivPaper:
     arxiv_id: str
     title: str
     authors: list[str] = field(default_factory=list)
+    authors_structured: list[dict] = field(default_factory=list)
+    first_author_affiliations: list[str] = field(default_factory=list)
     abstract: str = ""
     published: str = ""
     updated: str = ""
@@ -307,6 +311,8 @@ def dict_to_paper(d: dict) -> ArxivPaper:
         arxiv_id=d.get("arxiv_id", ""),
         title=d.get("title", ""),
         authors=list(d.get("authors") or []),
+        authors_structured=list(d.get("authors_structured") or []),
+        first_author_affiliations=list(d.get("first_author_affiliations") or []),
         abstract=d.get("abstract", ""),
         published=d.get("published", ""),
         updated=d.get("updated", ""),
@@ -435,6 +441,19 @@ def parse_entries(xml_text: str, *, source_feed: str) -> list[ArxivPaper]:
         updated = _text(entry.find("atom:updated", ATOM_NS))
         authors = [_text(a.find("atom:name", ATOM_NS)) for a in entry.findall("atom:author", ATOM_NS)]
         authors = [a for a in authors if a]
+        author_nodes = entry.findall("atom:author", ATOM_NS)
+        authors_structured: list[dict] = []
+        first_author_affiliations: list[str] = []
+        for author_node in author_nodes:
+            name = _text(author_node.find("atom:name", ATOM_NS))
+            if not name:
+                continue
+            affs = [
+                _text(a) for a in author_node.findall("arxiv:affiliation", ATOM_NS) if _text(a)
+            ]
+            authors_structured.append({"name": name, "affiliations": affs})
+        if authors_structured:
+            first_author_affiliations = authors_structured[0].get("affiliations") or []
         categories = [c.attrib.get("term", "") for c in entry.findall("atom:category", ATOM_NS)]
         primary = entry.find("arxiv:primary_category", ATOM_NS)
         primary_cat = primary.attrib.get("term", "") if primary is not None else ""
@@ -457,6 +476,8 @@ def parse_entries(xml_text: str, *, source_feed: str) -> list[ArxivPaper]:
                 arxiv_id=arxiv_id,
                 title=title,
                 authors=authors,
+                authors_structured=authors_structured,
+                first_author_affiliations=first_author_affiliations,
                 abstract=summary,
                 published=published,
                 updated=updated,
@@ -617,6 +638,16 @@ def dedupe(papers: Iterable[ArxivPaper]) -> list[ArxivPaper]:
     return out
 
 
+def apply_local_author_countries(papers: list[ArxivPaper], policy: dict) -> None:
+    for paper in papers:
+        rows = paper.authors_structured or [{"name": n, "affiliations": []} for n in paper.authors]
+        enriched = enrich_authors_structured_local(rows, policy=policy)
+        enriched = ensure_all_authors_have_affiliations(enriched)
+        paper.authors_structured = enriched
+        if enriched:
+            paper.first_author_affiliations = enriched[0].get("affiliations") or []
+
+
 def refilter_json(path: Path, min_cl_score: int) -> tuple[int, int]:
     """Re-apply cs.CL systems gate to an existing arxiv-recent.json (no network)."""
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -718,6 +749,7 @@ def main() -> int:
     hub = load_hub(args.hub)
     set_active_hub(hub)
     root = hub.root
+    author_policy = load_author_country_policy(hub.hub_dir)
     out_json = Path(args.output_json) if args.output_json else hub.site_json_path("arxiv-recent.json")
     policy = hub.arxiv_policy
     if args.cl_min_score == 6:
@@ -871,11 +903,13 @@ def main() -> int:
     if feed_errors:
         print(f"Feeds with errors: {', '.join(feed_errors)} (other feeds still saved)")
 
+    apply_local_author_countries(fetched_batch, author_policy)
     if incremental:
         all_papers = merge_paper_lists(existing_rows, fetched_batch, years=filter_years)
     else:
         all_papers = dedupe(fetched_batch)
         all_papers.sort(key=lambda p: p.published, reverse=True)
+    apply_local_author_countries(all_papers, author_policy)
 
     fetched_at = utc_now_iso()
     payload = {

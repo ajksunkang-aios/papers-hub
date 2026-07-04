@@ -1,0 +1,109 @@
+# Enrich dblp author affiliations and rebuild website/data/country-analytics.json.
+#
+# Runs before the daily Deploy Pages job to warm author-enrichment caches.
+# Manual run: Actions → Country analytics → Run workflow
+#
+# Live site: country-analytics.json is published by deploy-pages.yml (same daily schedule).
+
+name: Country analytics
+
+on:
+  schedule:
+    # 08:00 Asia/Shanghai (UTC+8) = 00:00 UTC — one hour before Deploy Pages
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - ".github/workflows/country-analytics.yml"
+      - "build_country_analytics.py"
+      - "enrich_author_metadata.py"
+      - "core/author_country.py"
+      - "core/author_profiles.py"
+      - "core/dblp_affiliations.py"
+      - "hubs/**/author_country_policy.json"
+      - "scripts/update_country_analytics.sh"
+      - "website/country-analytics.html"
+      - "website/country-analytics.js"
+
+concurrency:
+  group: country-analytics-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cache dblp XML
+        uses: actions/cache@v4
+        with:
+          path: data/dblp.xml.gz
+          key: papers-hub-dblp-xml-v1
+          restore-keys: papers-hub-dblp-xml-
+
+      - name: Cache build artifacts
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/abstract-cache-os-kernel.json
+            data/arxiv-cache
+            data/abstract-enrich-os-kernel.json
+            data/dblp-build-os-kernel.json
+          key: papers-hub-build-${{ runner.os }}-${{ hashFiles('hubs/os-kernel/**', 'core/**', 'crawl_arxiv_recent.py', 'build_top_monthly.py') }}
+          restore-keys: |
+            papers-hub-build-${{ runner.os }}-
+
+      - name: Cache author country enrichment
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/author-country-cache-os-kernel.json
+            data/dblp-affiliation-cache-os-kernel.json
+            data/author-enrich-os-kernel.json
+          key: papers-hub-author-country-${{ runner.os }}-${{ hashFiles('build_country_analytics.py', 'enrich_author_metadata.py', 'core/author_country.py', 'core/author_profiles.py', 'core/dblp_affiliations.py', 'hubs/os-kernel/author_country_policy.json') }}
+          restore-keys: |
+            papers-hub-author-country-${{ runner.os }}-
+
+      - name: Ensure dblp proceedings data
+        env:
+          CI: "true"
+          HUB: os-kernel
+        run: |
+          if [[ ! -f data/dblp.xml.gz ]]; then
+            python3 parse_dblp_xml.py --hub os-kernel --download
+          fi
+          python3 parse_dblp_xml.py --hub os-kernel --build-website --if-stale
+
+      - name: Update country analytics
+        env:
+          CI: "true"
+          HUB: os-kernel
+          AUTHOR_COUNTRY_OFFLINE: "1"
+        run: ./scripts/update_country_analytics.sh
+
+      - name: Test author country helpers
+        run: python3 -m unittest tests/test_author_country.py
+
+      - name: Upload country analytics artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: country-analytics-json
+          path: website/data/country-analytics.json
+          if-no-files-found: error

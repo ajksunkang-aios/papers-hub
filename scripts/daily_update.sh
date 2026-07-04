@@ -72,8 +72,24 @@ run_daily() {
       "${ABSTRACT_ENRICH_FLAGS[@]}"
   fi
 
+  AUTHOR_ENRICH_FLAGS=(--years "$PICK_YEARS" --if-stale-hours 168)
+  if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" ]]; then
+    AUTHOR_ENRICH_FLAGS+=(--offline)
+  elif [[ "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
+    AUTHOR_ENRICH_FLAGS+=(--skip-openalex)
+  fi
+  if [[ "${AUTHOR_ENRICH_SKIP_DBLP:-0}" == "1" ]]; then
+    AUTHOR_ENRICH_FLAGS+=(--skip-dblp-fetch)
+  fi
+  if [[ "${AUTHOR_ENRICH_FORCE:-0}" == "1" ]]; then
+    AUTHOR_ENRICH_FLAGS+=(--force)
+  fi
+  run "author metadata" "$PYTHON" -u enrich_author_metadata.py "${HUB_FLAG[@]}" \
+    "${AUTHOR_ENRICH_FLAGS[@]}"
+
   run "top picks" "$PYTHON" build_top_monthly.py "${HUB_FLAG[@]}" \
     --years "$PICK_YEARS" --arxiv-years "$ARXIV_PICK_YEARS"
+  run "country analytics" env SKIP_AUTHOR_ENRICH=1 "$ROOT/scripts/update_country_analytics.sh"
   run "broadcast" "$PYTHON" build_today_broadcast.py "${HUB_FLAG[@]}"
   if [[ -f "$ROOT/website/data/today-broadcast.json" ]]; then
     echo "  broadcast generated_at: $(grep -m1 '"generated_at"' "$ROOT/website/data/today-broadcast.json" || true)"

@@ -30,6 +30,11 @@ ROOT = Path(__file__).resolve().parent
 DEFAULT_XML = ROOT / "data" / "dblp.xml.gz"
 WEB_DATA = ROOT / "website" / "data"
 
+from core.author_profiles import (
+    attach_author_fields,
+    build_authors_structured_skeleton,
+    paper_authors_complete,
+)
 from core.hub_config import Hub, add_hub_argument, load_hub  # noqa: E402
 from core.incremental import file_fingerprint, is_fresh, load_json, save_json, utc_now_iso  # noqa: E402
 
@@ -90,9 +95,13 @@ def parse_paper(elem: ET.Element, venue: VenueConfig, year: int) -> dict | None:
         if t:
             ee_links.append(t)
 
+    authors_structured = build_authors_structured_skeleton(authors)
+
     return {
         "title": title.rstrip("."),
         "authors": authors,
+        "authors_structured": authors_structured,
+        "first_author_affiliations": authors_structured[0]["affiliations"] if authors_structured else [],
         "pages": pages,
         "year": year_text,
         "venue": f"{venue.short_name} {year}",
@@ -230,6 +239,39 @@ def dblp_manifest_path(hub: Hub) -> Path:
     return hub.root / "data" / f"dblp-build-{hub.id}.json"
 
 
+def merge_existing_paper(old: dict | None, new: dict) -> dict:
+    if not old:
+        return new
+    merged = dict(new)
+    for field in (
+        "authors_structured",
+        "first_author_affiliations",
+        "abstract",
+        "abstract_source",
+    ):
+        if old.get(field) and not merged.get(field):
+            merged[field] = old[field]
+    if old.get("authors_structured") and paper_authors_complete(old):
+        merged["authors_structured"] = old["authors_structured"]
+        merged["first_author_affiliations"] = old.get("first_author_affiliations") or []
+    return merged
+
+
+def load_existing_papers(path: Path) -> dict[str, dict]:
+    if not path.is_file():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    out: dict[str, dict] = {}
+    for paper in payload.get("papers") or []:
+        key = paper.get("dblp_key")
+        if key:
+            out[key] = paper
+    return out
+
+
 def write_website(
     grouped: dict[tuple[str, int], list[dict]],
     venues: dict[str, VenueConfig],
@@ -242,7 +284,13 @@ def write_website(
     for (slug, year), papers in sorted(grouped.items(), key=lambda x: (-x[0][1], x[0][0])):
         venue = venues[slug]
         conf_id = f"{slug}-{year}"
-        papers_sorted = sorted(papers, key=lambda p: p["title"].lower())
+        out = web_data / f"{conf_id}.json"
+        existing_by_key = load_existing_papers(out)
+        papers_merged: list[dict] = []
+        for paper in sorted(papers, key=lambda p: p["title"].lower()):
+            merged = merge_existing_paper(existing_by_key.get(paper.get("dblp_key", "")), paper)
+            papers_merged.append(attach_author_fields(merged))
+        papers_sorted = papers_merged
         src_urls = source_urls_for(slug, year)
         payload = {
             "id": conf_id,
