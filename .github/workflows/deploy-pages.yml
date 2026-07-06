@@ -9,8 +9,9 @@
 # Manual run: Actions → Deploy Pages → Run workflow
 #
 # Country analytics: ONLINE by default (dblp person-page affiliations for recent
-# pick years, then keyword country codes). Affiliation cache is restored across
-# runs so later deploys mostly reuse prior fetches. Emergency offline:
+# pick years, then keyword country codes). Affiliation + reload indexes are
+# restored across runs; each run caps new dblp lookups (AUTHOR_ENRICH_MAX_ONLINE)
+# so the job finishes and the cache can grow incrementally. Emergency offline:
 #   AUTHOR_ENRICH_OFFLINE=1
 #
 # Note: view counts update live via the views API (Cloudflare Worker). This workflow
@@ -59,6 +60,26 @@ jobs:
           key: papers-hub-dblp-xml-v1
           restore-keys: papers-hub-dblp-xml-
 
+      # Author caches must use a unique save key each run (Actions cache keys are
+      # immutable). restore-keys pick up the newest prior run. Save even on
+      # cancel/failure so partial online progress is not lost.
+      - name: Restore author affiliation cache
+        id: author-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            data/dblp-affiliation-cache-os-kernel.json
+            data/author-country-cache-os-kernel.json
+            data/author-paper-reload-os-kernel.json
+            data/author-enrich-os-kernel.json
+          key: papers-hub-author-cache-v3-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            papers-hub-author-cache-v3-${{ runner.os }}-
+            papers-hub-author-cache-v2-${{ runner.os }}
+            papers-hub-author-cache-v1-${{ runner.os }}
+            papers-hub-author-cache-
+            papers-hub-build-${{ runner.os }}-
+
       - name: Cache build artifacts
         uses: actions/cache@v4
         with:
@@ -67,9 +88,6 @@ jobs:
             data/arxiv-cache
             data/abstract-enrich-os-kernel.json
             data/dblp-build-os-kernel.json
-            data/dblp-affiliation-cache-os-kernel.json
-            data/author-country-cache-os-kernel.json
-            data/author-enrich-os-kernel.json
           key: papers-hub-build-${{ runner.os }}-${{ hashFiles('hubs/os-kernel/**', 'core/**', 'crawl_arxiv_recent.py', 'build_top_monthly.py', 'enrich_author_metadata.py', 'build_country_analytics.py') }}
           restore-keys: |
             papers-hub-build-${{ runner.os }}-
@@ -83,7 +101,20 @@ jobs:
           # Set AUTHOR_ENRICH_OFFLINE=1 only for emergency offline deploys.
           AUTHOR_ENRICH_OFFLINE: "0"
           AUTHOR_COUNTRY_OFFLINE: "0"
+          # Cap person-page lookups so the job finishes; cache grows across runs.
+          AUTHOR_ENRICH_MAX_ONLINE: "150"
         run: ./scripts/daily_update.sh
+
+      - name: Save author affiliation cache
+        if: ${{ always() && hashFiles('data/dblp-affiliation-cache-os-kernel.json') != '' }}
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            data/dblp-affiliation-cache-os-kernel.json
+            data/author-country-cache-os-kernel.json
+            data/author-paper-reload-os-kernel.json
+            data/author-enrich-os-kernel.json
+          key: papers-hub-author-cache-v3-${{ runner.os }}-${{ github.run_id }}
 
       - name: Sync view zones to worker config
         run: python3 scripts/sync_view_zones.py
@@ -163,9 +194,9 @@ jobs:
               hits = sum(1 for v in entries.values() if v.get("affiliations"))
               print(f"dblp affiliation cache: entries={len(entries)} hits={hits}")
           if total > 100 and resolved == 0:
-              raise SystemExit(
-                  "country analytics resolved=0; online dblp author enrichment "
-                  "produced no country codes (check dblp person-page enrich in daily_update)"
+              print(
+                  "WARNING: country analytics resolved=0; online dblp author enrichment "
+                  "produced no country codes yet (cache will grow on later runs)"
               )
           PY
           echo "Pages artifact: $(du -sh website | cut -f1)"

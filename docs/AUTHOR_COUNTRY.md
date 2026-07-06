@@ -27,7 +27,15 @@ AUTHOR_COUNTRY_OFFLINE=1 ./scripts/update_country_analytics.sh
 AUTHOR_USE_OPENALEX=1 ./scripts/update_country_analytics.sh
 ```
 
-GitHub Actions runs the **online** dblp pipeline in [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml) via `scripts/daily_update.sh` (first-author-only, affiliation cache restored across runs). Opt out with `AUTHOR_ENRICH_OFFLINE=1`.
+GitHub Actions runs the **online** dblp pipeline in [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml) via `scripts/daily_update.sh` (first-author-only). Affiliation caches are restored across runs:
+
+| File | Role |
+|------|------|
+| `data/dblp-affiliation-cache-*.json` | Per-author dblp person-page result (or miss) |
+| `data/author-country-cache-*.json` | Per-paper `authors_structured` |
+| `data/author-paper-reload-*.json` | Compact reload index written into `website/data/*.json` |
+
+Each run **reloads** prior results into conference JSON, then only HTTP-fetches authors still missing from the dblp cache. Opt out of online fetch with `AUTHOR_ENRICH_OFFLINE=1`. Force full re-fetch: `AUTHOR_ENRICH_FORCE=1`.
 
 ## Configuration
 

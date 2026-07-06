@@ -121,15 +121,28 @@ class DblpAffiliationFetcher:
         cache: DblpAffiliationCache,
         offline: bool = False,
         request_delay_sec: float = REQUEST_DELAY_SEC,
+        max_lookups: int | None = None,
     ) -> None:
         self.cache = cache
         self.offline = offline
         self.request_delay_sec = request_delay_sec
+        # Cap new person-page resolutions so CI can finish and persist the cache.
+        self.max_online_authors = max_lookups
         self._last_request = 0.0
         self._failures = 0
+        self._online_lookups = 0
+        self._budget_exhausted = False
+
+    @property
+    def online_lookups(self) -> int:
+        return self._online_lookups
+
+    @property
+    def budget_exhausted(self) -> bool:
+        return self._budget_exhausted
 
     def _network_ok(self) -> bool:
-        return not self.offline
+        return not self.offline and not self._budget_exhausted
 
     def _throttle(self) -> None:
         elapsed = time.monotonic() - self._last_request
@@ -234,7 +247,11 @@ class DblpAffiliationFetcher:
 
         if not self._network_ok():
             return []
+        if self.max_online_authors is not None and self._online_lookups >= self.max_online_authors:
+            self._budget_exhausted = True
+            return []
 
+        self._online_lookups += 1
         failures_before = self._failures
         pid = self.search_author_pid(author_name)
         if not pid:

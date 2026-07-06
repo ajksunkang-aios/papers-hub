@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -16,7 +17,12 @@ from core.author_profiles import (  # noqa: E402
     merge_author_affiliations,
     paper_authors_complete,
 )
-from core.dblp_affiliations import parse_person_affiliations  # noqa: E402
+from core.author_reload import (  # noqa: E402
+    AuthorPaperReloadIndex,
+    dblp_authors_resolved,
+    paper_needs_online_fetch,
+)
+from core.dblp_affiliations import DblpAffiliationCache, parse_person_affiliations  # noqa: E402
 
 
 SAMPLE_PERSON_HTML = """
@@ -79,6 +85,71 @@ class DblpAffiliationTests(unittest.TestCase):
             }
         )
         self.assertTrue(paper_authors_complete(complete))
+
+
+class AuthorReloadTests(unittest.TestCase):
+    def test_dblp_miss_skips_online_fetch(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = DblpAffiliationCache(Path(tmp) / "dblp.json")
+            cache.set_miss("alice")
+            paper = {
+                "authors": ["Alice"],
+                "authors_structured": [{"name": "Alice", "affiliations": []}],
+                "dblp_key": "conf/test/Alice26",
+            }
+            self.assertTrue(dblp_authors_resolved(["Alice"], cache))
+            self.assertFalse(
+                paper_needs_online_fetch(paper, dblp_cache=cache, first_author_only=True)
+            )
+
+    def test_unresolved_author_needs_online(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = DblpAffiliationCache(Path(tmp) / "dblp.json")
+            paper = {
+                "authors": ["Bob"],
+                "authors_structured": [{"name": "Bob", "affiliations": []}],
+            }
+            self.assertTrue(
+                paper_needs_online_fetch(
+                    paper, dblp_cache=cache, first_author_only=True
+                )
+            )
+
+    def test_reload_index_roundtrip(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "reload.json"
+            index = AuthorPaperReloadIndex(path)
+            paper = {
+                "title": "Hello World",
+                "dblp_key": "conf/test/Hello26",
+                "authors_structured": [
+                    {
+                        "name": "Alice",
+                        "affiliations": ["MIT, USA"],
+                        "country_code": "US",
+                    }
+                ],
+                "first_author_affiliations": ["MIT, USA"],
+            }
+            index.set_paper(paper)
+            index.save()
+            loaded = AuthorPaperReloadIndex(path)
+            rows = loaded.get(paper)
+            self.assertIsNotNone(rows)
+            assert rows is not None
+            self.assertEqual(rows[0]["country_code"], "US")
+
+    def test_fetcher_respects_max_lookups(self) -> None:
+        from core.dblp_affiliations import DblpAffiliationFetcher
+
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = DblpAffiliationCache(Path(tmp) / "dblp.json")
+            fetcher = DblpAffiliationFetcher(cache=cache, offline=False, max_lookups=0)
+            self.assertEqual(fetcher.resolve_author("Alice"), [])
+            self.assertTrue(fetcher.budget_exhausted)
+            self.assertEqual(fetcher.online_lookups, 0)
+            self.assertIsNone(cache.get("alice"))
+            self.assertFalse(cache.is_miss("alice"))
 
 
 if __name__ == "__main__":

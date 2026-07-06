@@ -33,7 +33,6 @@ WEB_DATA = ROOT / "website" / "data"
 from core.author_profiles import (
     attach_author_fields,
     build_authors_structured_skeleton,
-    paper_authors_complete,
 )
 from core.hub_config import Hub, add_hub_argument, load_hub  # noqa: E402
 from core.incremental import file_fingerprint, is_fresh, load_json, save_json, utc_now_iso  # noqa: E402
@@ -251,7 +250,8 @@ def merge_existing_paper(old: dict | None, new: dict) -> dict:
     ):
         if old.get(field) and not merged.get(field):
             merged[field] = old[field]
-    if old.get("authors_structured") and paper_authors_complete(old):
+    # Preserve any prior enrich (complete or partial) across dblp re-parse.
+    if old.get("authors_structured"):
         merged["authors_structured"] = old["authors_structured"]
         merged["first_author_affiliations"] = old.get("first_author_affiliations") or []
     return merged

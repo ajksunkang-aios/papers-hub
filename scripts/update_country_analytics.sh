@@ -33,14 +33,20 @@ AUTHOR_ENRICH_FLAGS=(--years "$PICK_YEARS" --skip-arxiv)
 if [[ "${AUTHOR_ENRICH_ALL_AUTHORS:-0}" != "1" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--first-author-only)
 fi
-if [[ "${CI:-}" != "true" ]]; then
-  AUTHOR_ENRICH_FLAGS+=(--if-stale-hours 168)
+AUTHOR_ENRICH_FLAGS+=(--if-stale-hours "${AUTHOR_ENRICH_STALE_HOURS:-168}")
+if [[ "${CI:-}" == "true" ]]; then
+  AUTHOR_ENRICH_FLAGS+=(--max-online-authors "${AUTHOR_ENRICH_MAX_ONLINE:-150}")
+elif [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then
+  AUTHOR_ENRICH_FLAGS+=(--max-online-authors "$AUTHOR_ENRICH_MAX_ONLINE")
 fi
 if [[ "${AUTHOR_ENRICH_SKIP_DBLP:-0}" == "1" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--skip-dblp-fetch)
 fi
 if [[ "${AUTHOR_ENRICH_FORCE:-0}" == "1" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--force)
+fi
+if [[ "${AUTHOR_ENRICH_NO_RELOAD:-0}" == "1" ]]; then
+  AUTHOR_ENRICH_FLAGS+=(--no-reload)
 fi
 if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" || "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--offline)
