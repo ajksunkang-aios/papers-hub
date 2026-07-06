@@ -1,4 +1,4 @@
-"""Resolve author affiliations and countries (OpenAlex as fallback)."""
+"""Resolve author affiliations and countries from dblp affiliations and keyword rules."""
 
 from __future__ import annotations
 

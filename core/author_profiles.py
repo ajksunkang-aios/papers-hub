@@ -65,13 +65,8 @@ def rows_need_real_affiliations(rows: list[dict[str, Any]] | None) -> bool:
 
 
 def author_rows_missing_affiliations(rows: list[dict[str, Any]] | None) -> bool:
-    if not rows:
-        return True
-    for row in rows:
-        affs = [a for a in (row.get("affiliations") or []) if a]
-        if not affs:
-            return True
-    return False
+    """True when any author lacks a real (non-placeholder) affiliation."""
+    return rows_need_real_affiliations(rows)
 
 
 def merge_author_affiliations(
@@ -81,7 +76,11 @@ def merge_author_affiliations(
     merged: list[dict[str, Any]] = []
     for row in rows:
         name = (row.get("name") or "").strip()
-        existing = [a for a in (row.get("affiliations") or []) if a]
+        existing = [
+            a
+            for a in (row.get("affiliations") or [])
+            if a and a != UNKNOWN_AFFILIATION
+        ]
         if existing:
             merged.append({**row, "name": name, "affiliations": existing})
             continue
@@ -124,11 +123,18 @@ def attach_author_fields(paper: dict[str, Any], *, policy: dict[str, Any] | None
     return paper
 
 
-def paper_authors_complete(paper: dict[str, Any]) -> bool:
+def paper_authors_complete(paper: dict[str, Any], *, first_author_only: bool = False) -> bool:
     rows = paper.get("authors_structured")
     if not rows:
         return False
     expected = len([a for a in (paper.get("authors") or []) if a])
     if expected and len(rows) < expected:
         return False
+    if first_author_only:
+        first_affs = [
+            a
+            for a in (rows[0].get("affiliations") or [])
+            if a and a != UNKNOWN_AFFILIATION
+        ]
+        return bool(first_affs)
     return not rows_need_real_affiliations(rows)

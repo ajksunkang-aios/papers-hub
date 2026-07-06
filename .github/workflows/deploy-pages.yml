@@ -8,6 +8,11 @@
 # Schedule: 09:00 Asia/Shanghai (01:00 UTC). Adjust cron if you use another TZ.
 # Manual run: Actions → Deploy Pages → Run workflow
 #
+# Country analytics: ONLINE by default (dblp person-page affiliations for recent
+# pick years, then keyword country codes). Affiliation cache is restored across
+# runs so later deploys mostly reuse prior fetches. Emergency offline:
+#   AUTHOR_ENRICH_OFFLINE=1
+#
 # Note: view counts update live via the views API (Cloudflare Worker). This workflow
 # only publishes the static site and injects views_api_url into hub.json when the
 # secret is set. Redeploying Pages does not increment or batch-update view totals.
@@ -75,15 +80,21 @@ jobs:
             data/abstract-enrich-os-kernel.json
             data/dblp-build-os-kernel.json
             data/dblp-affiliation-cache-os-kernel.json
+            data/author-country-cache-os-kernel.json
+            data/author-enrich-os-kernel.json
           key: papers-hub-build-${{ runner.os }}-${{ hashFiles('hubs/os-kernel/**', 'core/**', 'crawl_arxiv_recent.py', 'build_top_monthly.py', 'enrich_author_metadata.py', 'build_country_analytics.py') }}
           restore-keys: |
             papers-hub-build-${{ runner.os }}-
 
-      - name: Daily build (dblp + arXiv + picks + country analytics)
+      - name: Daily build (dblp + arXiv + picks + online country analytics)
         env:
           CI: "true"
           HUB: os-kernel
           ABSTRACT_SKIP: "1"
+          # Online dblp first-author enrich is default in daily_update.sh.
+          # Set AUTHOR_ENRICH_OFFLINE=1 only for emergency offline deploys.
+          AUTHOR_ENRICH_OFFLINE: "0"
+          AUTHOR_COUNTRY_OFFLINE: "0"
         run: ./scripts/daily_update.sh
 
       - name: Sync view zones to worker config
@@ -92,8 +103,8 @@ jobs:
       - name: Test view stats helpers
         run: python3 -m unittest tests/test_view_stats.py
 
-      - name: Test author country helpers
-        run: python3 -m unittest tests/test_author_country.py
+      - name: Test author country + dblp affiliation helpers
+        run: python3 -m unittest tests/test_author_country.py tests/test_dblp_affiliations.py
 
       - name: Verify view zones stay in sync
         run: python3 scripts/sync_view_zones.py --check
@@ -157,10 +168,16 @@ jobs:
               f"papers={total} resolved={resolved} "
               f"countries={len(country.get('countries', []))}"
           )
+          aff_path = Path("data/dblp-affiliation-cache-os-kernel.json")
+          if aff_path.is_file():
+              aff = json.loads(aff_path.read_text(encoding="utf-8"))
+              entries = aff.get("entries") or {}
+              hits = sum(1 for v in entries.values() if v.get("affiliations"))
+              print(f"dblp affiliation cache: entries={len(entries)} hits={hits}")
           if total > 100 and resolved == 0:
               raise SystemExit(
-                  "country analytics resolved=0; author enrichment likely skipped "
-                  "(check dblp/OpenAlex network steps in daily_update)"
+                  "country analytics resolved=0; online dblp author enrichment "
+                  "produced no country codes (check dblp person-page enrich in daily_update)"
               )
           PY
           echo "Pages artifact: $(du -sh website | cut -f1)"

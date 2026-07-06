@@ -13,7 +13,10 @@ papers_hub_setup_env
 
 HUB="${HUB:-os-kernel}"
 HUB_FLAG=(--hub "$HUB")
+# Author enrich stays on recent years (slow online person-page fetches).
 PICK_YEARS="${PICK_YEARS:-2023,2024,2025,2026}"
+# Country analytics totals every conference in conferences.json by default.
+COUNTRY_YEARS="${COUNTRY_YEARS:-all}"
 
 cd "$ROOT"
 
@@ -26,6 +29,10 @@ if [[ ! -f "$ROOT/website/data/conferences.json" ]]; then
 fi
 
 AUTHOR_ENRICH_FLAGS=(--years "$PICK_YEARS" --skip-arxiv)
+# Country analytics only needs first-author country; full author enrich is opt-in.
+if [[ "${AUTHOR_ENRICH_ALL_AUTHORS:-0}" != "1" ]]; then
+  AUTHOR_ENRICH_FLAGS+=(--first-author-only)
+fi
 if [[ "${CI:-}" != "true" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--if-stale-hours 168)
 fi
@@ -35,26 +42,26 @@ fi
 if [[ "${AUTHOR_ENRICH_FORCE:-0}" == "1" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--force)
 fi
-if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" ]]; then
+if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" || "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--offline)
-elif [[ "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
-  AUTHOR_ENRICH_FLAGS+=(--skip-openalex)
 fi
-
+if [[ "${AUTHOR_USE_OPENALEX:-0}" == "1" ]]; then
+  AUTHOR_ENRICH_FLAGS+=(--openalex)
+fi
 if [[ "${SKIP_AUTHOR_ENRICH:-0}" != "1" ]]; then
   echo "=== author metadata (dblp affiliations) ==="
   "$PYTHON" -u enrich_author_metadata.py "${HUB_FLAG[@]}" "${AUTHOR_ENRICH_FLAGS[@]}"
 fi
 
-ANALYTICS_FLAGS=(--years "$PICK_YEARS")
-if [[ "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
-  ANALYTICS_FLAGS+=(--offline)
+ANALYTICS_FLAGS=(--years "$COUNTRY_YEARS")
+if [[ "${AUTHOR_USE_OPENALEX:-0}" == "1" ]]; then
+  ANALYTICS_FLAGS+=(--openalex)
 fi
 if [[ "${AUTHOR_COUNTRY_FORCE:-0}" == "1" ]]; then
   ANALYTICS_FLAGS+=(--force)
 fi
 
-echo "=== country analytics ==="
+echo "=== country analytics (years=${COUNTRY_YEARS}) ==="
 "$PYTHON" build_country_analytics.py "${HUB_FLAG[@]}" "${ANALYTICS_FLAGS[@]}"
 
 OUT="$ROOT/website/data/country-analytics.json"

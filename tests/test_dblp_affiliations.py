@@ -48,6 +48,15 @@ class DblpAffiliationTests(unittest.TestCase):
         self.assertEqual(merged[0]["affiliations"][0], "Tsinghua University, Beijing, China")
         self.assertEqual(merged[1]["affiliations"], ["MIT"])
 
+    def test_merge_replaces_unknown_placeholder(self) -> None:
+        rows = [{"name": "Alice", "affiliations": ["Unknown affiliation"]}]
+        merged = merge_author_affiliations(
+            rows,
+            {"alice": ["Tsinghua University, Beijing, China"]},
+        )
+        self.assertEqual(merged[0]["affiliations"][0], "Tsinghua University, Beijing, China")
+        self.assertFalse(paper_authors_complete({"authors": ["Alice"], "authors_structured": rows}))
+
     def test_ensure_all_authors_have_affiliations(self) -> None:
         rows = ensure_all_authors_have_affiliations([{"name": "Alice", "affiliations": []}])
         self.assertEqual(rows[0]["affiliations"], ["Unknown affiliation"])

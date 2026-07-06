@@ -27,8 +27,21 @@ PROGRESS_EVERY = 40
 CACHE_SAVE_EVERY = 50
 
 
+def conference_years(web_data: Path) -> list[int]:
+    manifest_path = web_data / "conferences.json"
+    if not manifest_path.is_file():
+        return []
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    years = {
+        int(conf["year"])
+        for conf in manifest.get("conferences") or []
+        if conf.get("year") is not None
+    }
+    return sorted(years)
+
+
 def parse_years(raw: str | None, default: list[int]) -> list[int]:
-    if not raw:
+    if not raw or raw.strip().lower() in {"all", "*"}:
         return list(default)
     years = sorted({int(p.strip()) for p in raw.split(",") if p.strip()})
     return years or list(default)
@@ -258,16 +271,34 @@ def format_period(years: list[int]) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     add_hub_argument(parser)
-    parser.add_argument("--years", help="Comma-separated years (default hub pick years)")
-    parser.add_argument("--offline", action="store_true", help="Use cache and affiliation rules only")
+    parser.add_argument(
+        "--years",
+        default="all",
+        help="Comma-separated years, or 'all' for every year in conferences.json (default: all)",
+    )
+    parser.add_argument(
+        "--openalex",
+        action="store_true",
+        help="Enable OpenAlex fallback for country resolution (default: dblp affiliations + keyword rules only)",
+    )
+    parser.add_argument(
+        "--offline",
+        action="store_true",
+        help="Skip OpenAlex network calls (default; kept for compatibility)",
+    )
     parser.add_argument("--force", action="store_true", help="Ignore cache hits and re-fetch")
     args = parser.parse_args()
 
     hub = load_hub(args.hub)
-    years = parse_years(args.years, hub.pick_years)
-    print(f"Building country analytics for {hub.id} years={years} source=dblp offline={args.offline}")
+    all_years = conference_years(hub.web_data) or list(hub.pick_years)
+    years = parse_years(args.years, all_years)
+    use_openalex = args.openalex and not args.offline
+    print(
+        f"Building country analytics for {hub.id} years={years[0]}-{years[-1]} "
+        f"({len(years)} years) source=dblp openalex={use_openalex}"
+    )
 
-    payload = build_analytics(hub, years=years, offline=args.offline, force=args.force)
+    payload = build_analytics(hub, years=years, offline=not use_openalex, force=args.force)
     out_path = hub.web_data / "country-analytics.json"
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 

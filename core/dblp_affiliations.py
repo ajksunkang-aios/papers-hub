@@ -4,25 +4,52 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 import time
 from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote
-
-import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
+from urllib.parse import urlencode
 
 from core.author_profiles import normalize_author_key, normalize_author_name
-from core.published_abstracts import REQUEST_DELAY_SEC, REQUEST_TIMEOUT, USER_AGENT
+from core.published_abstracts import REQUEST_DELAY_SEC, USER_AGENT
 
-DBLP_AUTHOR_SEARCH = "https://dblp.org/search/author/api"
+# Person HTML on secondary mirrors often hangs from some networks; use dblp.org only.
+DBLP_MIRRORS = ("https://dblp.org",)
+DBLP_BASE = DBLP_MIRRORS[0]
+DBLP_AUTHOR_SEARCH_PATH = "/search/author/api"
+# Total wall-clock budget per request (curl -m). Idle read timeouts are not enough
+# when person HTML trickles slowly and never goes silent.
+DBLP_MAX_TIME_SEC = 15
 AFFILIATION_RE = re.compile(
     r'itemprop="affiliation"[^>]*>.*?itemprop="name">([^<]+)',
     re.IGNORECASE | re.DOTALL,
 )
+
+_DBLP_HOST_PREFIXES = (
+    "https://dblp.org",
+    "http://dblp.org",
+    "https://dblp.dagstuhl.de",
+    "http://dblp.dagstuhl.de",
+    "https://dblp.uni-trier.de",
+    "http://dblp.uni-trier.de",
+)
+
+
+def _rewrite_dblp_host(url: str, base: str) -> str:
+    """Rewrite any dblp host to ``base`` so person pages stay on a reachable mirror."""
+    text = (url or "").strip()
+    if not text:
+        return text
+    for host in _DBLP_HOST_PREFIXES:
+        if text.startswith(host):
+            return base + text[len(host) :]
+    return text
+
+
+def _normalize_dblp_url(url: str) -> str:
+    return _rewrite_dblp_host(url, DBLP_BASE)
 
 
 class DblpAffiliationCache:
@@ -98,16 +125,11 @@ class DblpAffiliationFetcher:
         self.cache = cache
         self.offline = offline
         self.request_delay_sec = request_delay_sec
-        self.session = requests.Session()
-        self.session.headers.update({"User-Agent": USER_AGENT, "Accept": "*/*"})
-        retry = Retry(total=2, backoff_factor=0.4, status_forcelist=(429, 500, 502, 503, 504))
-        adapter = HTTPAdapter(max_retries=retry)
-        self.session.mount("https://", adapter)
         self._last_request = 0.0
         self._failures = 0
 
     def _network_ok(self) -> bool:
-        return not self.offline and self._failures < 8
+        return not self.offline
 
     def _throttle(self) -> None:
         elapsed = time.monotonic() - self._last_request
@@ -118,22 +140,56 @@ class DblpAffiliationFetcher:
     def _get_text(self, url: str, *, params: dict | None = None) -> str | None:
         if not self._network_ok():
             return None
-        self._throttle()
-        try:
-            resp = self.session.get(url, params=params, timeout=REQUEST_TIMEOUT)
-            if resp.status_code == 404:
-                self._failures = max(0, self._failures - 1)
-                return None
-            resp.raise_for_status()
+        # Brief backoff when dblp is flaky so we do not burn the whole run.
+        if self._failures >= 8:
+            time.sleep(min(30.0, 2.0 * self._failures))
             self._failures = 0
-            return resp.text
-        except (requests.Timeout, requests.ConnectionError, requests.RequestException):
+        last_error = False
+        for base in DBLP_MIRRORS:
+            candidate = _rewrite_dblp_host(url, base)
+            if params:
+                sep = "&" if "?" in candidate else "?"
+                candidate = f"{candidate}{sep}{urlencode(params)}"
+            self._throttle()
+            try:
+                # curl -m enforces a hard total deadline (unlike requests read timeout).
+                proc = subprocess.run(
+                    [
+                        "curl",
+                        "-4",
+                        "-sS",
+                        "-L",
+                        "--max-time",
+                        str(DBLP_MAX_TIME_SEC),
+                        "-A",
+                        USER_AGENT,
+                        "-H",
+                        "Accept: */*",
+                        candidate,
+                    ],
+                    capture_output=True,
+                    text=True,
+                    timeout=DBLP_MAX_TIME_SEC + 2,
+                )
+            except (subprocess.TimeoutExpired, OSError):
+                last_error = True
+                continue
+            if proc.returncode != 0:
+                last_error = True
+                continue
+            body = proc.stdout or ""
+            if not body:
+                last_error = True
+                continue
+            self._failures = 0
+            return body
+        if last_error:
             self._failures += 1
-            return None
+        return None
 
     def search_author_pid(self, author_name: str) -> str | None:
         text = self._get_text(
-            DBLP_AUTHOR_SEARCH,
+            f"{DBLP_BASE}{DBLP_AUTHOR_SEARCH_PATH}",
             params={"q": author_name, "format": "json", "h": 8},
         )
         if not text:
@@ -150,16 +206,17 @@ class DblpAffiliationFetcher:
             info = hit.get("info") or {}
             candidate = (info.get("author") or "").strip()
             if normalize_author_name(candidate).lower() == want:
-                url = (info.get("url") or "").strip()
+                url = _rewrite_dblp_host(info.get("url") or "", DBLP_BASE)
                 if url:
                     return url
         if len(hits) == 1:
             info = hits[0].get("info") or {}
-            url = (info.get("url") or "").strip()
+            url = _rewrite_dblp_host(info.get("url") or "", DBLP_BASE)
             return url or None
         return None
 
     def fetch_person_affiliations(self, pid_url: str) -> list[str]:
+        pid_url = _rewrite_dblp_host(pid_url, DBLP_BASE)
         url = pid_url if pid_url.endswith(".html") else f"{pid_url.rstrip('/')}.html"
         html = self._get_text(url)
         if not html:
@@ -178,12 +235,18 @@ class DblpAffiliationFetcher:
         if not self._network_ok():
             return []
 
+        failures_before = self._failures
         pid = self.search_author_pid(author_name)
         if not pid:
+            # Do not poison cache on transient network errors.
+            if self._failures > failures_before:
+                return []
             self.cache.set_miss(key)
             return []
 
         affs = self.fetch_person_affiliations(pid)
+        if self._failures > failures_before and not affs:
+            return []
         pid_slug = pid.rstrip("/").split("/")[-1]
         self.cache.set(key, affs, pid=pid_slug)
         if not affs:

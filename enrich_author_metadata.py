@@ -5,9 +5,9 @@ Enrich arXiv and dblp conference JSON with per-author affiliations and countries
 Resolution order:
   1. dblp person-page affiliations (author search + profile HTML)
   2. arXiv XML / title-index affiliations (when available)
-  3. Local institution/country keyword rules
-  4. OpenAlex fallback (DOI, arXiv ID, title)
-  5. Placeholder affiliation so every author row is populated
+  3. Local institution/country keyword rules on affiliation text
+  4. Optional OpenAlex fallback (--openalex; off by default)
+  5. Placeholder affiliation so every author row is populated; country XX if unknown
 
 Run after parse_dblp_xml --build-website and before build_country_analytics.py.
 """
@@ -27,7 +27,6 @@ from core.author_country import (
 )
 from core.author_profiles import (
     attach_author_fields,
-    author_rows_missing_affiliations,
     finalize_authors_structured,
     merge_author_affiliations,
     paper_authors_complete,
@@ -40,8 +39,8 @@ from core.incremental import is_fresh, load_json, policy_fingerprint, save_json,
 from core.published_abstracts import normalize_title_key
 
 ROOT = Path(__file__).resolve().parent
-PROGRESS_EVERY = 40
-CACHE_SAVE_EVERY = 50
+PROGRESS_EVERY = 10
+CACHE_SAVE_EVERY = 10
 
 
 def parse_years(raw: str | None, default: list[int]) -> list[int]:
@@ -55,14 +54,27 @@ def log(msg: str) -> None:
     print(msg, flush=True)
 
 
-def paper_needs_author_work(paper: dict[str, Any], *, force: bool = False) -> bool:
+def paper_needs_author_work(
+    paper: dict[str, Any],
+    *,
+    force: bool = False,
+    first_author_only: bool = False,
+) -> bool:
     if force:
         return True
-    return not paper_authors_complete(paper)
+    return not paper_authors_complete(paper, first_author_only=first_author_only)
 
 
-def count_papers_missing_affiliations(papers: list[dict[str, Any]]) -> int:
-    return sum(1 for paper in papers if paper_needs_author_work(paper))
+def count_papers_missing_affiliations(
+    papers: list[dict[str, Any]],
+    *,
+    first_author_only: bool = False,
+) -> int:
+    return sum(
+        1
+        for paper in papers
+        if paper_needs_author_work(paper, first_author_only=first_author_only)
+    )
 
 
 def enrich_paper_authors(
@@ -73,21 +85,31 @@ def enrich_paper_authors(
     arxiv_by_title: dict[str, list[dict[str, Any]]],
     policy: dict[str, Any],
     force: bool = False,
+    first_author_only: bool = False,
 ) -> bool:
-    if not force and paper_authors_complete(paper):
+    if not force and paper_authors_complete(paper, first_author_only=first_author_only):
         return False
 
     rows = upgrade_authors_structured(paper)
     if not rows:
         rows = [{"name": name, "affiliations": []} for name in (paper.get("authors") or []) if name]
 
-    if author_rows_missing_affiliations(rows) and dblp_fetcher is not None and rows_need_real_affiliations(rows):
-        names = [row.get("name", "") for row in rows if row.get("name")]
+    need_fetch = (
+        rows_need_real_affiliations(rows[:1] if first_author_only and rows else rows)
+        if first_author_only
+        else rows_need_real_affiliations(rows)
+    )
+    # Placeholder "Unknown affiliation" must not block dblp person-page lookup.
+    if dblp_fetcher is not None and need_fetch:
+        if first_author_only:
+            names = [rows[0].get("name", "")] if rows and rows[0].get("name") else []
+        else:
+            names = [row.get("name", "") for row in rows if row.get("name")]
         aff_by_name = dblp_fetcher.resolve_authors(names, force=force)
         rows = merge_author_affiliations(rows, aff_by_name)
 
     title_key = normalize_title_key(paper.get("title", ""))
-    if rows_need_real_affiliations(rows) and title_key in arxiv_by_title:
+    if need_fetch and title_key in arxiv_by_title:
         arxiv_rows = arxiv_by_title[title_key]
         if arxiv_rows:
             merged: list[dict[str, Any]] = []
@@ -115,7 +137,7 @@ def enrich_paper_authors(
     paper["authors_structured"] = rows
     paper["first_author_affiliations"] = rows[0].get("affiliations") or [] if rows else []
     after = json.dumps(rows, sort_keys=True)
-    return before != after or not paper_authors_complete(paper)
+    return before != after or not paper_authors_complete(paper, first_author_only=first_author_only)
 
 
 def enrich_paper_list(
@@ -126,6 +148,7 @@ def enrich_paper_list(
     arxiv_by_title: dict[str, list[dict[str, Any]]],
     policy: dict[str, Any],
     force: bool = False,
+    first_author_only: bool = False,
     label: str = "papers",
 ) -> tuple[int, int]:
     changed = 0
@@ -138,17 +161,24 @@ def enrich_paper_list(
             arxiv_by_title=arxiv_by_title,
             policy=policy,
             force=force,
+            first_author_only=first_author_only,
         ):
             changed += 1
         lookups += 1
         if idx % PROGRESS_EVERY == 0:
-            missing = count_papers_missing_affiliations(papers)
+            missing = count_papers_missing_affiliations(
+                papers, first_author_only=first_author_only
+            )
             log(f"  {label} ... {idx}/{len(papers)} updated={changed} remaining={missing}")
         if lookups % CACHE_SAVE_EVERY == 0:
-            resolver.cache.save()
+            # Author-country cache can be huge; persist dblp cache every N papers.
             if dblp_fetcher is not None:
                 dblp_fetcher.cache.save()
-    return changed, count_papers_missing_affiliations(papers)
+            if idx % (CACHE_SAVE_EVERY * 5) == 0:
+                resolver.cache.save()
+    return changed, count_papers_missing_affiliations(
+        papers, first_author_only=first_author_only
+    )
 
 
 def enrich_arxiv_json(
@@ -158,6 +188,7 @@ def enrich_arxiv_json(
     dblp_fetcher: DblpAffiliationFetcher | None,
     policy: dict[str, Any],
     force: bool = False,
+    first_author_only: bool = False,
 ) -> tuple[int, int, int]:
     if not arxiv_path.is_file():
         return 0, 0, 0
@@ -171,6 +202,7 @@ def enrich_arxiv_json(
         arxiv_by_title=arxiv_index,
         policy=policy,
         force=force,
+        first_author_only=first_author_only,
         label="arxiv",
     )
     if changed or remaining < len(papers):
@@ -187,6 +219,7 @@ def enrich_conferences(
     arxiv_path: Path,
     policy: dict[str, Any],
     force: bool = False,
+    first_author_only: bool = False,
 ) -> dict[str, int]:
     manifest = json.loads((web_data / "conferences.json").read_text(encoding="utf-8"))
     year_set = set(years)
@@ -217,6 +250,7 @@ def enrich_conferences(
             arxiv_by_title=arxiv_index,
             policy=policy,
             force=force,
+            first_author_only=first_author_only,
             label=conf["id"],
         )
         stats["remaining"] += remaining
@@ -232,14 +266,20 @@ def enrich_conferences(
     return stats
 
 
-def coverage_stats(web_data: Path, years: list[int], arxiv_path: Path) -> dict[str, int]:
+def coverage_stats(
+    web_data: Path,
+    years: list[int],
+    arxiv_path: Path,
+    *,
+    first_author_only: bool = False,
+) -> dict[str, int]:
     year_set = set(years)
     total = 0
     complete = 0
     if arxiv_path.is_file():
         for paper in json.loads(arxiv_path.read_text(encoding="utf-8")).get("papers", []):
             total += 1
-            if paper_authors_complete(paper):
+            if paper_authors_complete(paper, first_author_only=first_author_only):
                 complete += 1
     manifest = json.loads((web_data / "conferences.json").read_text(encoding="utf-8"))
     for conf in manifest.get("conferences", []):
@@ -250,7 +290,7 @@ def coverage_stats(web_data: Path, years: list[int], arxiv_path: Path) -> dict[s
             continue
         for paper in json.loads(path.read_text(encoding="utf-8")).get("papers", []):
             total += 1
-            if paper_authors_complete(paper):
+            if paper_authors_complete(paper, first_author_only=first_author_only):
                 complete += 1
     return {"total": total, "complete": complete, "remaining": total - complete}
 
@@ -271,14 +311,14 @@ def main() -> int:
         help="skip when manifest is fresh and all papers already have affiliations",
     )
     parser.add_argument(
-        "--skip-openalex",
+        "--openalex",
         action="store_true",
-        help="skip OpenAlex fallback but still fetch dblp person-page affiliations",
+        help="enable OpenAlex fallback when dblp/arXiv affiliations cannot resolve country (default: off)",
     )
     parser.add_argument(
         "--offline",
         action="store_true",
-        help="no HTTP calls (OpenAlex and dblp person lookup disabled)",
+        help="no HTTP calls (dblp person lookup and OpenAlex disabled)",
     )
     parser.add_argument(
         "--skip-dblp-fetch",
@@ -287,6 +327,11 @@ def main() -> int:
     )
     parser.add_argument("--skip-arxiv", action="store_true", help="only enrich conference JSON")
     parser.add_argument("--skip-conferences", action="store_true", help="only enrich arxiv-recent.json")
+    parser.add_argument(
+        "--first-author-only",
+        action="store_true",
+        help="only fetch/resolve first-author affiliations (enough for country analytics)",
+    )
     parser.add_argument("--limit", type=int, default=None, help="max papers per dataset (testing)")
     args = parser.parse_args()
 
@@ -295,7 +340,7 @@ def main() -> int:
     policy = load_author_country_policy(hub.hub_dir)
     cache_path = hub.root / "data" / f"author-country-cache-{hub.id}.json"
     cache = AuthorCountryCache(cache_path)
-    openalex_offline = args.offline or args.skip_openalex
+    openalex_offline = args.offline or not args.openalex
     resolver = AuthorCountryResolver(cache=cache, policy=policy, offline=openalex_offline)
     dblp_cache_path = hub.root / "data" / f"dblp-affiliation-cache-{hub.id}.json"
     dblp_fetcher = None
@@ -308,13 +353,18 @@ def main() -> int:
         {
             "hub": hub.id,
             "years": years,
-            "offline": args.offline,
-            "skip_openalex": args.skip_openalex,
+            "openalex": args.openalex,
             "skip_dblp_fetch": args.skip_dblp_fetch,
+            "first_author_only": args.first_author_only,
         }
     )
 
-    before = coverage_stats(hub.web_data, years, arxiv_path if not args.skip_arxiv else Path("/dev/null"))
+    before = coverage_stats(
+        hub.web_data,
+        years,
+        arxiv_path if not args.skip_arxiv else Path("/dev/null"),
+        first_author_only=args.first_author_only,
+    )
     pending = before["remaining"]
 
     if (
@@ -334,6 +384,7 @@ def main() -> int:
     log(
         f"Enriching author metadata for {hub.id} years={years} "
         f"offline={args.offline} dblp_fetch={dblp_fetcher is not None} "
+        f"first_author_only={args.first_author_only} "
         f"(pending {pending}/{before['total']} papers)"
     )
 
@@ -345,6 +396,7 @@ def main() -> int:
             dblp_fetcher=dblp_fetcher,
             policy=policy,
             force=args.force,
+            first_author_only=args.first_author_only,
         )
         log(f"  arxiv-recent.json: updated {arxiv_changed}/{arxiv_total}, remaining={arxiv_remaining}")
 
@@ -358,13 +410,19 @@ def main() -> int:
             arxiv_path=arxiv_path,
             policy=policy,
             force=args.force,
+            first_author_only=args.first_author_only,
         )
         log(
             f"  conferences: updated {conf_stats['updated']} papers in "
             f"{conf_stats['conferences']} files, remaining={conf_stats['remaining']}"
         )
 
-    after = coverage_stats(hub.web_data, years, arxiv_path if not args.skip_arxiv else Path("/dev/null"))
+    after = coverage_stats(
+        hub.web_data,
+        years,
+        arxiv_path if not args.skip_arxiv else Path("/dev/null"),
+        first_author_only=args.first_author_only,
+    )
     rate = (after["complete"] / after["total"]) if after["total"] else 1.0
     log(f"Affiliation coverage: {after['complete']}/{after['total']} ({rate * 100:.1f}%)")
 
@@ -375,9 +433,9 @@ def main() -> int:
             "source": "author-enrich",
             "fingerprint": run_fp,
             "years": years,
-            "offline": args.offline,
-            "skip_openalex": args.skip_openalex,
+            "openalex": args.openalex,
             "skip_dblp_fetch": args.skip_dblp_fetch,
+            "first_author_only": args.first_author_only,
             "built_at": utc_now_iso(),
             "coverage": after,
             "stats": {

@@ -4,7 +4,9 @@
 # Run manually:
 #   ./scripts/daily_update.sh
 #   HUB=os-kernel ABSTRACT_OFFLINE=1 ./scripts/daily_update.sh
+#   AUTHOR_COUNTRY_OFFLINE=1 ./scripts/daily_update.sh   # skip dblp person-page fetch
 #
+# Country analytics: ONLINE by default (first-author affiliations from dblp person pages).
 # Schedule at 9:00 AM (server): ./scripts/install_daily_schedule.sh
 # Schedule at 9:00 AM (GitHub): .github/workflows/deploy-pages.yml
 #
@@ -72,16 +74,25 @@ run_daily() {
       "${ABSTRACT_ENRICH_FLAGS[@]}"
   fi
 
-  AUTHOR_ENRICH_FLAGS=(--years "$PICK_YEARS")
+  # Online dblp person-page affiliations by default (GitHub Pages + local).
+  # Opt out: AUTHOR_ENRICH_OFFLINE=1 or AUTHOR_COUNTRY_OFFLINE=1
+  AUTHOR_ENRICH_FLAGS=(--years "$PICK_YEARS" --skip-arxiv)
+  if [[ "${AUTHOR_ENRICH_ALL_AUTHORS:-0}" != "1" ]]; then
+    AUTHOR_ENRICH_FLAGS+=(--first-author-only)
+  fi
   if [[ "${CI:-}" == "true" ]]; then
-    echo "  CI: online author enrichment (dblp + OpenAlex), no if-stale skip"
+    echo "  CI: online dblp first-author enrichment (OpenAlex off unless AUTHOR_USE_OPENALEX=1)"
   else
     AUTHOR_ENRICH_FLAGS+=(--if-stale-hours 168)
   fi
-  if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" ]]; then
+  if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" || "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
     AUTHOR_ENRICH_FLAGS+=(--offline)
-  elif [[ "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
-    AUTHOR_ENRICH_FLAGS+=(--skip-openalex)
+    echo "  author enrich: OFFLINE (no dblp person-page fetch)"
+  else
+    echo "  author enrich: ONLINE dblp person pages (first-author-only unless AUTHOR_ENRICH_ALL_AUTHORS=1)"
+  fi
+  if [[ "${AUTHOR_USE_OPENALEX:-0}" == "1" ]]; then
+    AUTHOR_ENRICH_FLAGS+=(--openalex)
   fi
   if [[ "${AUTHOR_ENRICH_SKIP_DBLP:-0}" == "1" ]]; then
     AUTHOR_ENRICH_FLAGS+=(--skip-dblp-fetch)

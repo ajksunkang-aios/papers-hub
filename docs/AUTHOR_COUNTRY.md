@@ -3,25 +3,31 @@
 Standalone page: `website/country-analytics.html`  
 Data: `website/data/country-analytics.json`
 
+## Data source
+
+Country analytics uses **dblp only**, and counts **every conference year** present in `website/data/conferences.json` (not just recent pick years).
+
+1. **Papers** — all venue JSON under `website/data/` listed by `conferences.json` (`COUNTRY_YEARS=all` by default).
+2. **Affiliations** — fetched from dblp **person pages** (bulk `dblp.xml` has author names only, no affiliations). Online enrich still focuses on recent `PICK_YEARS` for speed; older papers stay `XX` until affiliations are filled.
+3. **Country** — inferred from affiliation text via keyword rules in `author_country_policy.json`.
+4. **Unknown** — no dblp affiliation or no keyword match → country code `XX`.
+
+OpenAlex is **optional** (`--openalex` / `AUTHOR_USE_OPENALEX=1`) and off by default.
+
 ## Build
 
 ```bash
-# Online build (dblp person pages + OpenAlex fallback)
+# Online dblp affiliations + keyword rules (default)
 ./scripts/update_country_analytics.sh
 
-# Local fast build (affiliation keyword rules only; no HTTP)
+# Fully offline (no HTTP; uses whatever is already in JSON)
 AUTHOR_COUNTRY_OFFLINE=1 ./scripts/update_country_analytics.sh
+
+# Optional OpenAlex fallback
+AUTHOR_USE_OPENALEX=1 ./scripts/update_country_analytics.sh
 ```
 
-GitHub Actions runs the **online** pipeline inside [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml) via `scripts/daily_update.sh` (dblp parse → author enrich → country analytics → Pages deploy).
-
-## Resolution sources
-
-1. dblp person-page affiliations (author search + profile HTML)
-2. Institution/country keyword rules (`hubs/os-kernel/author_country_policy.json`)
-3. OpenAlex institutions (`country_code`) via DOI / arXiv / title
-
-Unknown papers are grouped under `XX`. Placeholder `Unknown affiliation` rows are **not** treated as complete; CI re-fetches real affiliations online.
+GitHub Actions runs the **online** dblp pipeline in [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml) via `scripts/daily_update.sh` (first-author-only, affiliation cache restored across runs). Opt out with `AUTHOR_ENRICH_OFFLINE=1`.
 
 ## Configuration
 
@@ -29,7 +35,7 @@ Edit `hubs/os-kernel/author_country_policy.json`:
 
 - `country_labels` — display names
 - `region_groups` — APAC / Europe / Americas filters on the analytics page
-- `institution_hints` — `[substring, ISO]` pairs for offline matching
+- `institution_hints` — `[substring, ISO]` pairs matched against affiliation text
 
 ## Tests
 
