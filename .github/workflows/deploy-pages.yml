@@ -23,20 +23,8 @@ on:
   schedule:
     # 09:00 Asia/Shanghai (UTC+8) = 01:00 UTC
     - cron: "0 1 * * *"
+  # Manual only besides schedule — push does not trigger the heavy online build.
   workflow_dispatch:
-  push:
-    branches: [main, master]
-    paths:
-      - ".github/workflows/deploy-pages.yml"
-      - "core/**"
-      - "hubs/**"
-      - "scripts/**"
-      - "*.py"
-      - "requirements.txt"
-      - "website/*.html"
-      - "website/*.js"
-      - "website/*.css"
-
 concurrency:
   group: pages-${{ github.ref }}
   cancel-in-progress: false

@@ -16,7 +16,8 @@ Site URL: `https://<user>.github.io/<repo>/` (or your custom domain).
 |-------|------|
 | `cron: "0 1 * * *"` | **09:00 Asia/Shanghai** (01:00 UTC) daily |
 | `workflow_dispatch` | Manual run from the Actions tab |
-| `push` to `main` | Rebuild when code/config changes (path filters apply) |
+
+Push to `main` does **not** trigger this workflow (avoids running the heavy online dblp enrich on every code change). Use **Run workflow** when you need a deploy outside the schedule.
 
 To change timezone, edit the cron line in the workflow (GitHub Actions always uses UTC in `cron`).
 
