@@ -250,7 +250,7 @@ def main() -> int:
     parser.add_argument(
         "--years",
         default=None,
-        help="comma-separated years (default: hub pick_years or 2023-2026)",
+        help="comma-separated years (default: hub pick_years or 2020-2026)",
     )
     parser.add_argument("--force", action="store_true", help="re-fetch even if abstract exists")
     parser.add_argument("--limit", type=int, default=None, help="max papers to process (testing)")
@@ -274,7 +274,7 @@ def main() -> int:
     args = parser.parse_args()
 
     hub = load_hub(args.hub)
-    default_years = hub.pick_years or [2023, 2024, 2025, 2026]
+    default_years = hub.pick_years or [2020, 2021, 2022, 2023, 2024, 2025, 2026]
     years = parse_years(args.years, default_years)
     manifest_path = hub.root / "data" / f"abstract-enrich-{hub.id}.json"
     offline = args.offline

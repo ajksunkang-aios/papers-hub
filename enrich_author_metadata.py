@@ -529,7 +529,7 @@ def main() -> int:
     args.skip_arxiv = not args.with_arxiv
 
     hub = load_hub(args.hub)
-    years = parse_years(args.years, hub.pick_years or [2023, 2024, 2025, 2026])
+    years = parse_years(args.years, hub.pick_years or [2020, 2021, 2022, 2023, 2024, 2025, 2026])
     policy = load_author_country_policy(hub.hub_dir)
     cache_path = hub.root / "data" / f"author-country-cache-{hub.id}.json"
     cache = AuthorCountryCache(cache_path)

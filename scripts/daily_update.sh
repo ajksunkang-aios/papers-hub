@@ -25,7 +25,10 @@ LOG="$LOG_DIR/daily-$(date +%Y%m%d).log"
 
 HUB="${HUB:-os-kernel}"
 HUB_FLAG=(--hub "$HUB")
-PICK_YEARS="${PICK_YEARS:-2023,2024,2025,2026}"
+PICK_YEARS="${PICK_YEARS:-2020,2021,2022,2023,2024,2025,2026}"
+# Country totals use the same window unless COUNTRY_YEARS is set explicitly.
+COUNTRY_YEARS="${COUNTRY_YEARS:-$PICK_YEARS}"
+export COUNTRY_YEARS
 ARXIV_PICK_YEARS="${ARXIV_PICK_YEARS:-2025,2026}"
 ABSTRACT_ENRICH_YEARS="${ABSTRACT_ENRICH_YEARS:-2025,2026}"
 
@@ -86,18 +89,11 @@ run_daily() {
   if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" || "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
     AUTHOR_ENRICH_FLAGS+=(--offline)
     echo "  author enrich: OFFLINE (no dblp person-page fetch)"
-  elif [[ "${CI:-}" == "true" ]]; then
-    # Cap new lookups so the job finishes and Actions can persist the author cache.
-    # Cold cache fills across successive runs (each successful save uses a new key).
-    AUTHOR_ENRICH_FLAGS+=(--max-online-authors "${AUTHOR_ENRICH_MAX_ONLINE:-150}")
-    echo "  author enrich: ONLINE dblp (reload + incremental, max_online=${AUTHOR_ENRICH_MAX_ONLINE:-150})"
+  elif [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then
+    AUTHOR_ENRICH_FLAGS+=(--max-online-authors "$AUTHOR_ENRICH_MAX_ONLINE")
+    echo "  author enrich: ONLINE dblp (reload, max_online=${AUTHOR_ENRICH_MAX_ONLINE})"
   else
-    if [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then
-      AUTHOR_ENRICH_FLAGS+=(--max-online-authors "$AUTHOR_ENRICH_MAX_ONLINE")
-      echo "  author enrich: ONLINE dblp (reload, max_online=${AUTHOR_ENRICH_MAX_ONLINE})"
-    else
-      echo "  author enrich: ONLINE dblp (reload disk caches, incremental fetch)"
-    fi
+    echo "  author enrich: ONLINE dblp (reload disk caches, full person-page fetch)"
   fi
   if [[ "${AUTHOR_USE_OPENALEX:-0}" == "1" ]]; then
     AUTHOR_ENRICH_FLAGS+=(--openalex)

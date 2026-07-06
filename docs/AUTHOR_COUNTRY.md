@@ -5,10 +5,10 @@ Data: `website/data/country-analytics.json`
 
 ## Data source
 
-Country analytics uses **dblp only**, and counts **every conference year** present in `website/data/conferences.json` (not just recent pick years).
+Country analytics uses **dblp only**. Paper totals and author enrich share the same year window (default **2020–present**).
 
-1. **Papers** — all venue JSON under `website/data/` listed by `conferences.json` (`COUNTRY_YEARS=all` by default).
-2. **Affiliations** — fetched from dblp **person pages** (bulk `dblp.xml` has author names only, no affiliations). Online enrich still focuses on recent `PICK_YEARS` for speed; older papers stay `XX` until affiliations are filled.
+1. **Papers** — venue JSON under `website/data/` listed by `conferences.json` for `COUNTRY_YEARS` (default `2020,…,2026`; use `all` for every year in the dump).
+2. **Affiliations** — fetched from dblp **person pages** (bulk `dblp.xml` has author names only, no affiliations). Online enrich uses the same `PICK_YEARS` window with full dblp person-page fetch (reload caches prior hits).
 3. **Country** — inferred from affiliation text via keyword rules in `author_country_policy.json`.
 4. **Unknown** — no dblp affiliation or no keyword match → country code `XX`.
 

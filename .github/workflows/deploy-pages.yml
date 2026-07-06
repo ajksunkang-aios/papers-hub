@@ -8,10 +8,10 @@
 # Schedule: 09:00 Asia/Shanghai (01:00 UTC). Adjust cron if you use another TZ.
 # Manual run: Actions → Deploy Pages → Run workflow
 #
-# Country analytics: ONLINE by default (dblp person-page affiliations for recent
-# pick years, then keyword country codes). Affiliation + reload indexes are
-# restored across runs; each run caps new dblp lookups (AUTHOR_ENRICH_MAX_ONLINE)
-# so the job finishes and the cache can grow incrementally. Emergency offline:
+# Country analytics: ONLINE by default (dblp person-page affiliations for
+# PICK_YEARS / COUNTRY_YEARS from 2020 onward). Affiliation + reload indexes
+# are restored across runs; CI runs a full dblp person-page pass (no fetch
+# cap) with reload so later deploys reuse prior hits. Emergency offline:
 #   AUTHOR_ENRICH_OFFLINE=1
 #
 # Note: view counts update live via the views API (Cloudflare Worker). This workflow
@@ -97,12 +97,13 @@ jobs:
           CI: "true"
           HUB: os-kernel
           ABSTRACT_SKIP: "1"
-          # Online dblp first-author enrich is default in daily_update.sh.
+          # Enrich + country analytics: 2020–present (not full historical dblp dump).
+          PICK_YEARS: "2020,2021,2022,2023,2024,2025,2026"
+          COUNTRY_YEARS: "2020,2021,2022,2023,2024,2025,2026"
+          # Online dblp first-author enrich; leave AUTHOR_ENRICH_MAX_ONLINE unset for full scan.
           # Set AUTHOR_ENRICH_OFFLINE=1 only for emergency offline deploys.
           AUTHOR_ENRICH_OFFLINE: "0"
           AUTHOR_COUNTRY_OFFLINE: "0"
-          # Cap person-page lookups so the job finishes; cache grows across runs.
-          AUTHOR_ENRICH_MAX_ONLINE: "150"
         run: ./scripts/daily_update.sh
 
       - name: Save author affiliation cache

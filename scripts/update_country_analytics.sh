@@ -13,10 +13,10 @@ papers_hub_setup_env
 
 HUB="${HUB:-os-kernel}"
 HUB_FLAG=(--hub "$HUB")
-# Author enrich stays on recent years (slow online person-page fetches).
-PICK_YEARS="${PICK_YEARS:-2023,2024,2025,2026}"
-# Country analytics totals every conference in conferences.json by default.
-COUNTRY_YEARS="${COUNTRY_YEARS:-all}"
+# Author enrich + country analytics default to 2020–present (override via env).
+PICK_YEARS="${PICK_YEARS:-2020,2021,2022,2023,2024,2025,2026}"
+# Country analytics totals the same window (not full historical dump).
+COUNTRY_YEARS="${COUNTRY_YEARS:-2020,2021,2022,2023,2024,2025,2026}"
 
 cd "$ROOT"
 
@@ -34,9 +34,7 @@ if [[ "${AUTHOR_ENRICH_ALL_AUTHORS:-0}" != "1" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--first-author-only)
 fi
 AUTHOR_ENRICH_FLAGS+=(--if-stale-hours "${AUTHOR_ENRICH_STALE_HOURS:-168}")
-if [[ "${CI:-}" == "true" ]]; then
-  AUTHOR_ENRICH_FLAGS+=(--max-online-authors "${AUTHOR_ENRICH_MAX_ONLINE:-150}")
-elif [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then
+if [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--max-online-authors "$AUTHOR_ENRICH_MAX_ONLINE")
 fi
 if [[ "${AUTHOR_ENRICH_SKIP_DBLP:-0}" == "1" ]]; then
