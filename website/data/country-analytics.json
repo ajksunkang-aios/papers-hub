@@ -1,19 +1,22 @@
 {
-  "generated_at": "2026-07-04T11:39:59.474910+00:00",
+  "generated_at": "2026-07-07T04:28:38.380954+00:00",
   "hub_id": "os-kernel",
   "years": [
+    2020,
+    2021,
+    2022,
     2023,
     2024,
     2025,
     2026
   ],
-  "period_label": "2023-2026",
+  "period_label": "2020-2026",
   "data_source": "dblp",
   "coverage": {
-    "total_papers": 5234,
-    "resolved": 0,
-    "unknown": 5234,
-    "resolution_rate": 0.0
+    "total_papers": 8783,
+    "resolved": 718,
+    "unknown": 8065,
+    "resolution_rate": 0.0817
   },
   "category_labels": {
     "llm-serving": "LLM serving",
@@ -92,25 +95,28 @@
     {
       "code": "XX",
       "label": "Unknown",
-      "total": 5234,
-      "dblp": 5234,
+      "total": 8065,
+      "dblp": 8065,
       "areas": {
-        "llm-serving": 162,
-        "ebpf": 74,
-        "memory-resource": 118,
-        "fault-tolerance": 66,
-        "": 3121,
-        "system-security": 1417,
-        "fs-storage": 116,
+        "llm-serving": 192,
+        "ebpf": 96,
+        "memory-resource": 156,
+        "fault-tolerance": 112,
+        "": 5021,
+        "system-security": 2104,
+        "fs-storage": 172,
         "kernel-agentic": 8,
-        "on-device-ai": 103,
-        "os-kernel-arch": 49
+        "on-device-ai": 130,
+        "os-kernel-arch": 74
       },
       "by_year": {
-        "2023": 1526,
-        "2024": 1633,
-        "2025": 1588,
-        "2026": 487
+        "2020": 1099,
+        "2021": 1078,
+        "2022": 1093,
+        "2023": 1418,
+        "2024": 1486,
+        "2025": 1451,
+        "2026": 440
       },
       "top_papers": [
         {
@@ -132,9 +138,7 @@
             "name": "Qingyuan Liu",
             "country_code": "XX",
             "country_label": "Unknown",
-            "affiliations": [
-              "Unknown affiliation"
-            ],
+            "affiliations": [],
             "source": "unknown",
             "confidence": "unknown"
           },
@@ -165,43 +169,12 @@
             "name": "Shaoqiang Lu",
             "country_code": "XX",
             "country_label": "Unknown",
-            "affiliations": [
-              "Unknown affiliation"
-            ],
+            "affiliations": [],
             "source": "unknown",
             "confidence": "unknown"
           },
           "venue": "ASPLOS 2026",
           "dblp_url": "https://dblp.org/rec/conf/asplos/LuWQQGDWW0026.html",
-          "conference_id": "asplos-2026"
-        },
-        {
-          "title": "Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration",
-          "authors": [
-            "Zejia Lin 0001",
-            "Hongxin Xu",
-            "Guanyi Chen",
-            "Zhiguang Chen 0001",
-            "Yutong Lu",
-            "Xianwei Zhang 0001"
-          ],
-          "source": "dblp",
-          "year": "2026",
-          "area_id": "llm-serving",
-          "area_label": "LLM serving",
-          "area_score": 41,
-          "first_author": {
-            "name": "Zejia Lin 0001",
-            "country_code": "XX",
-            "country_label": "Unknown",
-            "affiliations": [
-              "Unknown affiliation"
-            ],
-            "source": "unknown",
-            "confidence": "unknown"
-          },
-          "venue": "ASPLOS 2026",
-          "dblp_url": "https://dblp.org/rec/conf/asplos/0001XC0L026.html",
           "conference_id": "asplos-2026"
         },
         {
@@ -220,9 +193,7 @@
             "name": "Yuan Wang",
             "country_code": "XX",
             "country_label": "Unknown",
-            "affiliations": [
-              "Unknown affiliation"
-            ],
+            "affiliations": [],
             "source": "unknown",
             "confidence": "unknown"
           },
@@ -249,9 +220,7 @@
             "name": "Guoyu Wang",
             "country_code": "XX",
             "country_label": "Unknown",
-            "affiliations": [
-              "Unknown affiliation"
-            ],
+            "affiliations": [],
             "source": "unknown",
             "confidence": "unknown"
           },
@@ -281,9 +250,7 @@
             "name": "Seung Won Yoo",
             "country_code": "XX",
             "country_label": "Unknown",
-            "affiliations": [
-              "Unknown affiliation"
-            ],
+            "affiliations": [],
             "source": "unknown",
             "confidence": "unknown"
           },
@@ -318,6 +285,29 @@
           "conference_id": "fast-2023"
         },
         {
+          "title": "Fault-Tolerant Replication with Pull-Based Consensus in MongoDB",
+          "authors": [
+            "Siyuan Zhou",
+            "Shuai Mu 0001"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "fault-tolerance",
+          "area_label": "Fault Tolerance",
+          "area_score": 32,
+          "first_author": {
+            "name": "Siyuan Zhou",
+            "country_code": "XX",
+            "country_label": "Unknown",
+            "affiliations": [],
+            "source": "unknown",
+            "confidence": "unknown"
+          },
+          "venue": "NSDI 2021",
+          "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhouM21.html",
+          "conference_id": "nsdi-2021"
+        },
+        {
           "title": "SwiftSpec: Disaggregated Speculative Decoding and Fused Kernels for Low-Latency LLM Inference",
           "authors": [
             "Ziyi Zhang",
@@ -338,9 +328,7 @@
             "name": "Ziyi Zhang",
             "country_code": "XX",
             "country_label": "Unknown",
-            "affiliations": [
-              "Unknown affiliation"
-            ],
+            "affiliations": [],
             "source": "unknown",
             "confidence": "unknown"
           },
@@ -349,23 +337,4703 @@
           "conference_id": "asplos-2026"
         }
       ]
+    },
+    {
+      "code": "CN",
+      "label": "China",
+      "total": 275,
+      "dblp": 275,
+      "areas": {
+        "llm-serving": 9,
+        "": 181,
+        "fs-storage": 10,
+        "memory-resource": 8,
+        "ebpf": 7,
+        "on-device-ai": 5,
+        "system-security": 51,
+        "fault-tolerance": 2,
+        "os-kernel-arch": 2
+      },
+      "by_year": {
+        "2020": 26,
+        "2021": 26,
+        "2022": 31,
+        "2023": 41,
+        "2024": 62,
+        "2025": 62,
+        "2026": 27
+      },
+      "top_papers": [
+        {
+          "title": "Bullet: Boosting GPU Utilization for LLM Serving via Dynamic Spatial-Temporal Orchestration",
+          "authors": [
+            "Zejia Lin 0001",
+            "Hongxin Xu",
+            "Guanyi Chen",
+            "Zhiguang Chen 0001",
+            "Yutong Lu",
+            "Xianwei Zhang 0001"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 41,
+          "first_author": {
+            "name": "Zejia Lin 0001",
+            "country_code": "CN",
+            "country_label": "China",
+            "affiliations": [
+              "Sun Yat-sen University, Guangzhou, Guangdong, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ASPLOS 2026",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/0001XC0L026.html",
+          "conference_id": "asplos-2026"
+        },
+        {
+          "title": "FusionFS: Fusing I/O Operations using CISCOps in Firmware File Systems",
+          "authors": [
+            "Jian Zhang",
+            "Yujie Ren",
+            "Sudarsun Kannan"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "fs-storage",
+          "area_label": "File System and Storage",
+          "area_score": 26,
+          "first_author": {
+            "name": "Jian Zhang",
+            "country_code": "CN",
+            "country_label": "China",
+            "affiliations": [
+              "Chinese Academy of Science, Institute of Software, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "FAST 2022",
+          "dblp_url": "https://dblp.org/rec/conf/fast/ZhangRK22.html",
+          "conference_id": "fast-2022"
+        },
+        {
+          "title": "CacheSlide: Unlocking Cross Position-Aware KV Cache Reuse for Accelerating LLM Serving",
+          "authors": [
+            "Yang Liu",
+            "Yunfei Gu",
+            "Liqiang Zhang 0010",
+            "Chentao Wu",
+            "Guangtao Xue",
+            "Jie Li 0002",
+            "Minyi Guo",
+            "Junhao Hu",
+            "Jie Meng"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 24,
+          "first_author": {
+            "name": "Yang Liu",
+            "country_code": "CN",
+            "country_label": "China",
+            "affiliations": [
+              "Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "FAST 2026",
+          "dblp_url": "https://dblp.org/rec/conf/fast/LiuG0WX0GHM26.html",
+          "conference_id": "fast-2026"
+        },
+        {
+          "title": "High Throughput and Low Latency LLM Serving via Adaptive KV Caching",
+          "authors": [
+            "Wenyan Chen 0001",
+            "Chengzhi Lu",
+            "Huanle Xu",
+            "Kejiang Ye",
+            "ChengZhong Xu 0001"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 20,
+          "first_author": {
+            "name": "Wenyan Chen 0001",
+            "country_code": "CN",
+            "country_label": "China",
+            "affiliations": [
+              "University of Macau, Macau",
+              "Chinese Academy of Sciences, Shenzhen Institute of Advanced Technology, Shenzhen, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "EuroSys 2026",
+          "dblp_url": "https://dblp.org/rec/conf/eurosys/ChenLXYX26.html",
+          "conference_id": "eurosys-2026"
+        },
+        {
+          "title": "eNetSTL: Towards an In-kernel Library for High-Performance eBPF-based Network Functions",
+          "authors": [
+            "Bin Yang 0027",
+            "Dian Shen",
+            "Junxue Zhang 0001",
+            "Hanlin Yang",
+            "Lunqi Zhao",
+            "Beilun Wang",
+            "Guyue Liu",
+            "Kai Chen 0005"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "ebpf",
+          "area_label": "eBPF and Programmable Kernel",
+          "area_score": 18,
+          "first_author": {
+            "name": "Bin Yang 0027",
+            "country_code": "CN",
+            "country_label": "China",
+            "affiliations": [
+              "Southeast University, Nanjin, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "EuroSys 2025",
+          "dblp_url": "https://dblp.org/rec/conf/eurosys/YangS0YZWL025.html",
+          "conference_id": "eurosys-2025"
+        },
+        {
+          "title": "GeminiFS: A Companion File System for GPUs",
+          "authors": [
+            "Shi Qiu 0012",
+            "Weinan Liu",
+            "Yifan Hu",
+            "Jianqin Yan",
+            "Zhirong Shen",
+            "Xin Yao",
+            "Renhai Chen",
+            "Gong Zhang 0001",
+            "Yiming Zhang 0003"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "fs-storage",
+          "area_label": "File System and Storage",
+          "area_score": 18,
+          "first_author": {
+            "name": "Shi Qiu 0012",
+            "country_code": "CN",
+            "country_label": "China",
+            "affiliations": [
+              "Xiamen University, Xiamen, Fujian, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "FAST 2025",
+          "dblp_url": "https://dblp.org/rec/conf/fast/QiuLHYSYCZZ25.html",
+          "conference_id": "fast-2025"
+        },
+        {
+          "title": "Ethane: An Asymmetric File System for Disaggregated Persistent Memory",
+          "authors": [
+            "Miao Cai 0001",
+            "Junru Shen",
+            "Baoliu Ye"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "fs-storage",
+          "area_label": "File System and Storage",
+          "area_score": 18,
+          "first_author": {
+            "name": "Miao Cai 0001",
+            "country_code": "CN",
+            "country_label": "China",
+            "affiliations": [
+              "Nanjing University of Aeronautics and Astronautics, College of Computer Science and Technology, Nanjing, China",
+              "Nanjing University, China"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX ATC 2024",
+          "dblp_url": "https://dblp.org/rec/conf/usenix/CaiSY24.html",
+          "conference_id": "usenix-2024"
+        },
+        {
+          "title": "Efficient Scheduler Live Update for Linux Kernel with Modularization",
+          "authors": [
+            "Teng Ma 0006",
+            "Shanpei Chen",
+            "Yihao Wu",
+            "Erwei Deng",
+            "Zhuo Song",
+            "Quan Chen 0002",
+            "Minyi Guo"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "os-kernel-arch",
+          "area_label": "OS Kernel Architecture",
+          "area_score": 18,
+          "first_author": {
+            "name": "Teng Ma 0006",
+            "country_code": "CN",
+            "country_label": "China",
+            "affiliations": [
+              "Hebei University of Science and Technology, Shijiazhuang, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ASPLOS 2023",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/MaCWDS0G23.html",
+          "conference_id": "asplos-2023"
+        }
+      ]
+    },
+    {
+      "code": "US",
+      "label": "United States",
+      "total": 182,
+      "dblp": 182,
+      "areas": {
+        "llm-serving": 3,
+        "": 117,
+        "ebpf": 6,
+        "fs-storage": 3,
+        "system-security": 39,
+        "on-device-ai": 3,
+        "memory-resource": 4,
+        "fault-tolerance": 5,
+        "os-kernel-arch": 2
+      },
+      "by_year": {
+        "2020": 36,
+        "2021": 24,
+        "2022": 18,
+        "2023": 29,
+        "2024": 35,
+        "2025": 31,
+        "2026": 9
+      },
+      "top_papers": [
+        {
+          "title": "Fast, Transparent Filesystem Microkernel Recovery with Ananke",
+          "authors": [
+            "Jing Liu 0074",
+            "Yifan Dai",
+            "Andrea C. Arpaci-Dusseau",
+            "Remzi H. Arpaci-Dusseau"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "fs-storage",
+          "area_label": "File System and Storage",
+          "area_score": 18,
+          "first_author": {
+            "name": "Jing Liu 0074",
+            "country_code": "US",
+            "country_label": "United States",
+            "affiliations": [
+              "Microsoft Research Asia, China",
+              "University of Wisconsin-Madison, WI, USA"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "FAST 2025",
+          "dblp_url": "https://dblp.org/rec/conf/fast/LiuDAA25.html",
+          "conference_id": "fast-2025"
+        },
+        {
+          "title": "Scale and Performance in a Filesystem Semi-Microkernel",
+          "authors": [
+            "Jing Liu 0074",
+            "Anthony Rebello",
+            "Yifan Dai",
+            "Chenhao Ye",
+            "Sudarsun Kannan",
+            "Andrea C. Arpaci-Dusseau",
+            "Remzi H. Arpaci-Dusseau"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "fs-storage",
+          "area_label": "File System and Storage",
+          "area_score": 18,
+          "first_author": {
+            "name": "Jing Liu 0074",
+            "country_code": "US",
+            "country_label": "United States",
+            "affiliations": [
+              "Microsoft Research Asia, China",
+              "University of Wisconsin-Madison, WI, USA"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "SOSP 2021",
+          "dblp_url": "https://dblp.org/rec/conf/sosp/LiuRDYKAA21.html",
+          "conference_id": "sosp-2021"
+        },
+        {
+          "title": "Provably-Safe Multilingual Software Sandboxing using WebAssembly",
+          "authors": [
+            "Jay Bosamiya",
+            "Wen Shih Lim",
+            "Bryan Parno"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 16,
+          "first_author": {
+            "name": "Jay Bosamiya",
+            "country_code": "US",
+            "country_label": "United States",
+            "affiliations": [
+              "Microsoft Research",
+              "Carnegie Mellon University, PA, USA"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX Security 2022",
+          "dblp_url": "https://dblp.org/rec/conf/uss/BosamiyaLP22.html",
+          "conference_id": "uss-2022"
+        },
+        {
+          "title": "BlendServe: Optimizing Offline Inference with Resource-Aware Batching",
+          "authors": [
+            "Yilong Zhao 0002",
+            "Shuo Yang 0011",
+            "Kan Zhu",
+            "Lianmin Zheng",
+            "Baris Kasikci",
+            "Yifan Qiao 0002",
+            "Yang Zhou 0008",
+            "Jiarong Xing",
+            "Ion Stoica"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 12,
+          "first_author": {
+            "name": "Yilong Zhao 0002",
+            "country_code": "US",
+            "country_label": "United States",
+            "affiliations": [
+              "University of California, Berkeley, CA, USA"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ASPLOS 2026",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/Zhao0ZZK00XS26.html",
+          "conference_id": "asplos-2026"
+        },
+        {
+          "title": "DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants",
+          "authors": [
+            "Yuhan Liu 0004",
+            "Yuyang Huang",
+            "Jiayi Yao",
+            "Shaoting Feng",
+            "Zhuohan Gu",
+            "Kuntai Du",
+            "Hanchen Li",
+            "Yihua Cheng",
+            "Junchen Jiang",
+            "Shan Lu 0001",
+            "Madan Musuvathi",
+            "Esha Choukse"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 12,
+          "first_author": {
+            "name": "Yuhan Liu 0004",
+            "country_code": "US",
+            "country_label": "United States",
+            "affiliations": [
+              "University of Chicago, IL, USA"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "NSDI 2026",
+          "dblp_url": "https://dblp.org/rec/conf/nsdi/LiuHYFGDLCJLMC26.html",
+          "conference_id": "nsdi-2026"
+        },
+        {
+          "title": "uBFT: Microsecond-Scale BFT using Disaggregated Memory",
+          "authors": [
+            "Marcos K. Aguilera",
+            "Naama Ben-David",
+            "Rachid Guerraoui",
+            "Antoine Murat",
+            "Athanasios Xygkis",
+            "Igor Zablotchi"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 8,
+          "first_author": {
+            "name": "Marcos K. Aguilera",
+            "country_code": "US",
+            "country_label": "United States",
+            "affiliations": [
+              "VMware, Palo Alto, CA, USA"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ASPLOS 2023",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/AguileraBGMXZ23.html",
+          "conference_id": "asplos-2023"
+        },
+        {
+          "title": "Multi-view Feature-based SSD Failure Prediction: What, When, and Why",
+          "authors": [
+            "Yuqi Zhang",
+            "Wenwen Hao",
+            "Ben Niu",
+            "Kangkang Liu",
+            "Shuyang Wang",
+            "Na Liu",
+            "Xing He",
+            "Yongwong Gwon",
+            "Chankyu Koh"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "fs-storage",
+          "area_label": "File System and Storage",
+          "area_score": 8,
+          "first_author": {
+            "name": "Yuqi Zhang",
+            "country_code": "US",
+            "country_label": "United States",
+            "affiliations": [
+              "Schr&ouml;dinger Inc., San Diego, CA, USA",
+              "Scripps Research Institute, La Jolla, CA, US"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "FAST 2023",
+          "dblp_url": "https://dblp.org/rec/conf/fast/ZhangHNLWLHGK23.html",
+          "conference_id": "fast-2023"
+        },
+        {
+          "title": "Implicit Memory Tagging: No-Overhead Memory Safety Using Alias-Free Tagged ECC",
+          "authors": [
+            "Michael B. Sullivan 0001",
+            "Mohamed Tarek Ibn Ziad",
+            "Aamer Jaleel",
+            "Stephen W. Keckler"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 8,
+          "first_author": {
+            "name": "Michael B. Sullivan 0001",
+            "country_code": "US",
+            "country_label": "United States",
+            "affiliations": [
+              "NVIDIA, Santa Clara, CA, USA"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ISCA 2023",
+          "dblp_url": "https://dblp.org/rec/conf/isca/0001ZJK23.html",
+          "conference_id": "isca-2023"
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "label": "Germany",
+      "total": 39,
+      "dblp": 39,
+      "areas": {
+        "": 18,
+        "system-security": 20,
+        "ebpf": 1
+      },
+      "by_year": {
+        "2020": 4,
+        "2021": 7,
+        "2022": 2,
+        "2023": 5,
+        "2024": 11,
+        "2025": 10
+      },
+      "top_papers": [
+        {
+          "title": "\"I have no idea how to make it safer\": Studying Security and Privacy Mindsets of Browser Extension Developers",
+          "authors": [
+            "Shubham Agarwal 0006",
+            "Rafael Mrowczynski",
+            "Maria Hellenthal",
+            "Ben Stock"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 8,
+          "first_author": {
+            "name": "Shubham Agarwal 0006",
+            "country_code": "DE",
+            "country_label": "Germany",
+            "affiliations": [
+              "CISPA Helmholtz Center for Information Security, Saarbrücken, Saarland, Germany"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2025",
+          "dblp_url": "https://dblp.org/rec/conf/uss/0006MHS25.html",
+          "conference_id": "uss-2025"
+        },
+        {
+          "title": "SoK: An Introspective Analysis of RPKI Security",
+          "authors": [
+            "Donika Mirdita",
+            "Haya Schulmann",
+            "Michael Waidner"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 8,
+          "first_author": {
+            "name": "Donika Mirdita",
+            "country_code": "DE",
+            "country_label": "Germany",
+            "affiliations": [
+              "TU Darmstadt, Germany"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2025",
+          "dblp_url": "https://dblp.org/rec/conf/uss/MirditaSW25.html",
+          "conference_id": "uss-2025"
+        },
+        {
+          "title": "Security and Privacy Software Creators' Perspectives on Unintended Consequences",
+          "authors": [
+            "Harshini Sri Ramulu",
+            "Helen Schmitt",
+            "Dominik Wermke",
+            "Yasemin Acar"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 8,
+          "first_author": {
+            "name": "Harshini Sri Ramulu",
+            "country_code": "DE",
+            "country_label": "Germany",
+            "affiliations": [
+              "Paderborn University, Germany"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2024",
+          "dblp_url": "https://dblp.org/rec/conf/uss/RamuluSWA24.html",
+          "conference_id": "uss-2024"
+        },
+        {
+          "title": "A Large-Scale Interview Study on Information Security in and Attacks against Small and Medium-sized Enterprises",
+          "authors": [
+            "Nicolas Huaman",
+            "Bennet von Skarczinski",
+            "Christian Stransky",
+            "Dominik Wermke",
+            "Yasemin Acar",
+            "Arne Drei&szlig;igacker",
+            "Sascha Fahl"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 8,
+          "first_author": {
+            "name": "Nicolas Huaman",
+            "country_code": "DE",
+            "country_label": "Germany",
+            "affiliations": [
+              "CISPA Helmholtz Center for Information Security, Saarbrücken, Germany",
+              "Leibniz University Hannover, Germany"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2021",
+          "dblp_url": "https://dblp.org/rec/conf/uss/HuamanSSWADF21.html",
+          "conference_id": "uss-2021"
+        },
+        {
+          "title": "Synthetic Artifact Auditing: Tracing LLM-Generated Synthetic Data Usage in Downstream Applications",
+          "authors": [
+            "Yixin Wu 0001",
+            "Ziqing Yang 0002",
+            "Yun Shen",
+            "Michael Backes 0001",
+            "Yang Zhang 0016"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "ebpf",
+          "area_label": "eBPF and Programmable Kernel",
+          "area_score": 6,
+          "first_author": {
+            "name": "Yixin Wu 0001",
+            "country_code": "DE",
+            "country_label": "Germany",
+            "affiliations": [
+              "CISPA Helmholtz Center for Information Security, Saarbrücken, Germany",
+              "Sichuan University, College of Cybersecurity, Chengdu, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2025",
+          "dblp_url": "https://dblp.org/rec/conf/uss/00010S0025.html",
+          "conference_id": "uss-2025"
+        },
+        {
+          "title": "Catch-22: Uncovering Compromised Hosts using SSH Public Keys",
+          "authors": [
+            "Cristian Munteanu 0001",
+            "Georgios Smaragdakis",
+            "Anja Feldmann",
+            "Tobias Fiebig"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Cristian Munteanu 0001",
+            "country_code": "DE",
+            "country_label": "Germany",
+            "affiliations": [
+              "Max Planck Institute for Informatics, Saarbrücken, Germany"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX Security 2025",
+          "dblp_url": "https://dblp.org/rec/conf/uss/MunteanuSFF25.html",
+          "conference_id": "uss-2025"
+        },
+        {
+          "title": "From Meme to Threat: On the Hateful Meme Understanding and Induced Hateful Content Generation in Open-Source Vision Language Models",
+          "authors": [
+            "Yihan Ma 0001",
+            "Xinyue Shen 0001",
+            "Yiting Qu",
+            "Ning Yu 0006",
+            "Michael Backes 0001",
+            "Savvas Zannettou",
+            "Yang Zhang 0016"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Yihan Ma 0001",
+            "country_code": "DE",
+            "country_label": "Germany",
+            "affiliations": [
+              "CISPA Helmholtz Center for Information Security, Saarbrücken, Germany"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2025",
+          "dblp_url": "https://dblp.org/rec/conf/uss/00010Q00Z025.html",
+          "conference_id": "uss-2025"
+        },
+        {
+          "title": "HateBench: Benchmarking Hate Speech Detectors on LLM-Generated Content and Hate Campaigns",
+          "authors": [
+            "Xinyue Shen 0001",
+            "Yixin Wu 0001",
+            "Yiting Qu",
+            "Michael Backes 0001",
+            "Savvas Zannettou",
+            "Yang Zhang 0016"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Xinyue Shen 0001",
+            "country_code": "DE",
+            "country_label": "Germany",
+            "affiliations": [
+              "CISPA Helmholtz Center for Information Security, Saarbrucken, Saarland, Germany"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2025",
+          "dblp_url": "https://dblp.org/rec/conf/uss/00010Q0Z025.html",
+          "conference_id": "uss-2025"
+        }
+      ]
+    },
+    {
+      "code": "HK",
+      "label": "Hong Kong",
+      "total": 39,
+      "dblp": 39,
+      "areas": {
+        "": 23,
+        "llm-serving": 1,
+        "fs-storage": 1,
+        "on-device-ai": 5,
+        "ebpf": 3,
+        "system-security": 3,
+        "memory-resource": 1,
+        "fault-tolerance": 1,
+        "os-kernel-arch": 1
+      },
+      "by_year": {
+        "2020": 3,
+        "2021": 3,
+        "2022": 10,
+        "2023": 5,
+        "2024": 7,
+        "2025": 7,
+        "2026": 4
+      },
+      "top_papers": [
+        {
+          "title": "MedFS: Pursuing Low Update Overhead via Metadata-Enabled Delta Compression for Log-structured File System on Mobile Device",
+          "authors": [
+            "Chao Wu 0006",
+            "Cheng Ji 0002",
+            "Li-Pin Chang",
+            "Zongwei Zhu",
+            "Congming Gao",
+            "Weichao Guo",
+            "Chao Yu",
+            "Yanzhi Wang 0001"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "fs-storage",
+          "area_label": "File System and Storage",
+          "area_score": 18,
+          "first_author": {
+            "name": "Chao Wu 0006",
+            "country_code": "HK",
+            "country_label": "Hong Kong",
+            "affiliations": [
+              "Northeastern University, Department of Electrical and Computer Engineering, Boston, MA, USA",
+              "City University of Hong Kong, Department of Computer Science, Hong Kong"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "FAST 2025",
+          "dblp_url": "https://dblp.org/rec/conf/fast/00060CZGGYW25.html",
+          "conference_id": "fast-2025"
+        },
+        {
+          "title": "DINT: Fast In-Kernel Distributed Transactions with eBPF",
+          "authors": [
+            "Yang Zhou 0008",
+            "Xingyu Xiang",
+            "Matthew Kiley",
+            "Sowmya Dharanipragada",
+            "Minlan Yu"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "ebpf",
+          "area_label": "eBPF and Programmable Kernel",
+          "area_score": 18,
+          "first_author": {
+            "name": "Yang Zhou 0008",
+            "country_code": "HK",
+            "country_label": "Hong Kong",
+            "affiliations": [
+              "Auburn University, Auburn, AL, USA",
+              "Georgia Institute of Technology, College of Computing, Atlanta, GA, USA",
+              "The Chinese University of Hong Kong, SAR, China",
+              "Chongqing University, China"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "NSDI 2024",
+          "dblp_url": "https://dblp.org/rec/conf/nsdi/0008XKDY24.html",
+          "conference_id": "nsdi-2024"
+        },
+        {
+          "title": "Electrode: Accelerating Distributed Protocols with eBPF",
+          "authors": [
+            "Yang Zhou 0008",
+            "Zezhou Wang",
+            "Sowmya Dharanipragada",
+            "Minlan Yu"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "ebpf",
+          "area_label": "eBPF and Programmable Kernel",
+          "area_score": 18,
+          "first_author": {
+            "name": "Yang Zhou 0008",
+            "country_code": "HK",
+            "country_label": "Hong Kong",
+            "affiliations": [
+              "Auburn University, Auburn, AL, USA",
+              "Georgia Institute of Technology, College of Computing, Atlanta, GA, USA",
+              "The Chinese University of Hong Kong, SAR, China",
+              "Chongqing University, China"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "NSDI 2023",
+          "dblp_url": "https://dblp.org/rec/conf/nsdi/0008WDY23.html",
+          "conference_id": "nsdi-2023"
+        },
+        {
+          "title": "Scaling open source communities: an empirical study of the Linux kernel",
+          "authors": [
+            "Xin Tan 0003",
+            "Minghui Zhou 0001",
+            "Brian Fitzgerald 0001"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "os-kernel-arch",
+          "area_label": "OS Kernel Architecture",
+          "area_score": 18,
+          "first_author": {
+            "name": "Xin Tan 0003",
+            "country_code": "HK",
+            "country_label": "Hong Kong",
+            "affiliations": [
+              "Chinese University of Hong Kong, Department of Computer Science and Engineering, Hong Kong"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ICSE 2020",
+          "dblp_url": "https://dblp.org/rec/conf/icse/TanZ020.html",
+          "conference_id": "icse-2020"
+        },
+        {
+          "title": "Carbink: Fault-Tolerant Far Memory",
+          "authors": [
+            "Yang Zhou 0008",
+            "Hassan M. G. Wassel",
+            "Sihang Liu 0001",
+            "Jiaqi Gao",
+            "James Mickens",
+            "Minlan Yu",
+            "Chris Kennelly",
+            "Paul Turner",
+            "David E. Culler",
+            "Henry M. Levy",
+            "Amin Vahdat"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "fault-tolerance",
+          "area_label": "Fault Tolerance",
+          "area_score": 16,
+          "first_author": {
+            "name": "Yang Zhou 0008",
+            "country_code": "HK",
+            "country_label": "Hong Kong",
+            "affiliations": [
+              "Auburn University, Auburn, AL, USA",
+              "Georgia Institute of Technology, College of Computing, Atlanta, GA, USA",
+              "The Chinese University of Hong Kong, SAR, China",
+              "Chongqing University, China"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "OSDI 2022",
+          "dblp_url": "https://dblp.org/rec/conf/osdi/0008WLGMYKTCLV22.html",
+          "conference_id": "osdi-2022"
+        },
+        {
+          "title": "JITServe: SLO-aware LLM Serving with Imprecise Request Information",
+          "authors": [
+            "Wei Zhang 0044",
+            "Zhiyu Wu",
+            "Yi Mu 0005",
+            "Rui Ning",
+            "Banruo Liu",
+            "Nikhil Sarda",
+            "Myungjin Lee",
+            "Fan Lai 0001"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 14,
+          "first_author": {
+            "name": "Wei Zhang 0044",
+            "country_code": "HK",
+            "country_label": "Hong Kong",
+            "affiliations": [
+              "University of Virginia, Charlottesville, VA, USA",
+              "City University of Hong Kong, Department of Electronic Engineering, Hong Kong"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "NSDI 2026",
+          "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangWMNLSLL26.html",
+          "conference_id": "nsdi-2026"
+        },
+        {
+          "title": "Seeing the Forest for the Trees: Understanding Security Hazards in the 3GPP Ecosystem through Intelligent Analysis on Change Requests",
+          "authors": [
+            "Yi Chen 0024",
+            "Di Tang 0001",
+            "Yepeng Yao",
+            "Mingming Zha 0001",
+            "XiaoFeng Wang 0001",
+            "Xiaozhong Liu 0001",
+            "Haixu Tang",
+            "Dongfang Zhao 0010"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 8,
+          "first_author": {
+            "name": "Yi Chen 0024",
+            "country_code": "HK",
+            "country_label": "Hong Kong",
+            "affiliations": [
+              "University of Hong Kong, Department of Computer Science, Hong Kong",
+              "University of Chinese Academy of Sciences, School of Cyber Security, Beijing, China",
+              "Indiana University, Bloomington, IN, USA",
+              "Chinese Academy of Sciences, Institute of Information Engineering, Beijing, China"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX Security 2022",
+          "dblp_url": "https://dblp.org/rec/conf/uss/ChenTYZ0LT022.html",
+          "conference_id": "uss-2022"
+        },
+        {
+          "title": "Efficient Unbalanced Private Set Intersection Cardinality and User-friendly Privacy-preserving Contact Tracing",
+          "authors": [
+            "Mingli Wu 0002",
+            "Tsz Hon Yuen"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "ebpf",
+          "area_label": "eBPF and Programmable Kernel",
+          "area_score": 6,
+          "first_author": {
+            "name": "Mingli Wu 0002",
+            "country_code": "HK",
+            "country_label": "Hong Kong",
+            "affiliations": [
+              "University of Hong Kong, Department of Computer Science, Pokfulam, Hong Kong"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2023",
+          "dblp_url": "https://dblp.org/rec/conf/uss/WuY23.html",
+          "conference_id": "uss-2023"
+        }
+      ]
+    },
+    {
+      "code": "SG",
+      "label": "Singapore",
+      "total": 29,
+      "dblp": 29,
+      "areas": {
+        "": 21,
+        "system-security": 6,
+        "on-device-ai": 1,
+        "fault-tolerance": 1
+      },
+      "by_year": {
+        "2020": 3,
+        "2021": 4,
+        "2022": 4,
+        "2023": 3,
+        "2024": 6,
+        "2025": 8,
+        "2026": 1
+      },
+      "top_papers": [
+        {
+          "title": "Redundancy in cost functions for Byzantine fault-tolerant federated learning",
+          "authors": [
+            "Shuo Liu 0011",
+            "Nirupam Gupta",
+            "Nitin H. Vaidya"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "fault-tolerance",
+          "area_label": "Fault Tolerance",
+          "area_score": 22,
+          "first_author": {
+            "name": "Shuo Liu 0011",
+            "country_code": "SG",
+            "country_label": "Singapore",
+            "affiliations": [
+              "Huawei Technologies Co., Ltd, Network Technology Laboratory, Shenzhen, China",
+              "National University of Singapore, Department of Electrical and Computer Engineering, Singapore"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "SOSP 2021",
+          "dblp_url": "https://dblp.org/rec/conf/sosp/0011GV21.html",
+          "conference_id": "sosp-2021"
+        },
+        {
+          "title": "Out of Sight, Out of Mind: Better Automatic Vulnerability Repair by Broadening Input Ranges and Sources",
+          "authors": [
+            "Xin Zhou 0014",
+            "Kisub Kim",
+            "Bowen Xu",
+            "DongGyun Han",
+            "David Lo 0001"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "on-device-ai",
+          "area_label": "On-device AI",
+          "area_score": 6,
+          "first_author": {
+            "name": "Xin Zhou 0014",
+            "country_code": "SG",
+            "country_label": "Singapore",
+            "affiliations": [
+              "Nanyang Technological University, Singapore",
+              "Peking University, School of Electronics Engineering and Computer Science, Beijing, China",
+              "Kyoto University, Department of Social Informatics, Kyoto, Japan"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/ZhouKXH024.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "Practical Keyword Private Information Retrieval from Key-to-Index Mappings",
+          "authors": [
+            "Meng Hao 0001",
+            "Weiran Liu",
+            "Liqiang Peng",
+            "Cong Zhang",
+            "Pengfei Wu 0003",
+            "Lei Zhang 0006",
+            "Hongwei Li 0001",
+            "Robert H. Deng"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Meng Hao 0001",
+            "country_code": "SG",
+            "country_label": "Singapore",
+            "affiliations": [
+              "Singapore Management University, School of Computing and Information Systems, Singapore",
+              "University of Electronic Science and Technology of China, Chengdu, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2025",
+          "dblp_url": "https://dblp.org/rec/conf/uss/0001LPZ000D25.html",
+          "conference_id": "uss-2025"
+        },
+        {
+          "title": "Scalable Zero-knowledge Proofs for Non-linear Functions in Machine Learning",
+          "authors": [
+            "Meng Hao 0001",
+            "Hanxiao Chen 0001",
+            "Hongwei Li 0001",
+            "Chenkai Weng",
+            "Yuan Zhang 0006",
+            "Haomiao Yang",
+            "Tianwei Zhang 0004"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Meng Hao 0001",
+            "country_code": "SG",
+            "country_label": "Singapore",
+            "affiliations": [
+              "Singapore Management University, School of Computing and Information Systems, Singapore",
+              "University of Electronic Science and Technology of China, Chengdu, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2024",
+          "dblp_url": "https://dblp.org/rec/conf/uss/HaoC0WZY024.html",
+          "conference_id": "uss-2024"
+        },
+        {
+          "title": "Unbalanced Circuit-PSI from Oblivious Key-Value Retrieval",
+          "authors": [
+            "Meng Hao 0001",
+            "Weiran Liu",
+            "Liqiang Peng",
+            "Hongwei Li 0001",
+            "Cong Zhang",
+            "Hanxiao Chen 0001",
+            "Tianwei Zhang 0004"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Meng Hao 0001",
+            "country_code": "SG",
+            "country_label": "Singapore",
+            "affiliations": [
+              "Singapore Management University, School of Computing and Information Systems, Singapore",
+              "University of Electronic Science and Technology of China, Chengdu, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2024",
+          "dblp_url": "https://dblp.org/rec/conf/uss/HaoLP0ZC024.html",
+          "conference_id": "uss-2024"
+        },
+        {
+          "title": "Ultimate SLH: Taking Speculative Load Hardening to the Next Level",
+          "authors": [
+            "Zhiyuan Zhang 0005",
+            "Gilles Barthe",
+            "Chitchanok Chuengsatiansup",
+            "Peter Schwabe",
+            "Yuval Yarom"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Zhiyuan Zhang 0005",
+            "country_code": "SG",
+            "country_label": "Singapore",
+            "affiliations": [
+              "Singapore Management University, School of Computing and Information Systems, Singapore",
+              "Zhejiang University, Ningbo Innorvation Center, China",
+              "National University of Singapore, Singapore,"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX Security 2023",
+          "dblp_url": "https://dblp.org/rec/conf/uss/ZhangBCSY23.html",
+          "conference_id": "uss-2023"
+        },
+        {
+          "title": "FreeWill: Automatically Diagnosing Use-after-free Bugs via Reference Miscounting Detection on Binaries",
+          "authors": [
+            "Liang He 0011",
+            "Hong Hu 0004",
+            "Purui Su",
+            "Yan Cai 0001",
+            "Zhenkai Liang"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Liang He 0011",
+            "country_code": "SG",
+            "country_label": "Singapore",
+            "affiliations": [
+              "University of Nebraska Lincoln, School of Computing, Lincoln, NE, USA",
+              "University of Colorado Denver, Department of Computer Science and Engineering, Denver, CO, USA",
+              "University of Michigan, Ann Arbor, MI, USA",
+              "Singapore University of Technology, Singapore",
+              "Nankai University, Tianjin, China",
+              "University of Victoria, Canada"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2022",
+          "dblp_url": "https://dblp.org/rec/conf/uss/He0S0L22.html",
+          "conference_id": "uss-2022"
+        },
+        {
+          "title": "PolyCruise: A Cross-Language Dynamic Information Flow Analysis",
+          "authors": [
+            "Wen Li 0007",
+            "Jiang Ming 0002",
+            "Xiapu Luo",
+            "Haipeng Cai"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Wen Li 0007",
+            "country_code": "SG",
+            "country_label": "Singapore",
+            "affiliations": [
+              "University of Electronic Science and Technology of China, Chengdu, China",
+              "ETH Z&uuml;rich, Computer Vision Laboratory, Switzerland",
+              "Nanyang Technological University, School of Computer Engineering, Singapore"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX Security 2022",
+          "dblp_url": "https://dblp.org/rec/conf/uss/Li0LC22.html",
+          "conference_id": "uss-2022"
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "label": "Switzerland",
+      "total": 27,
+      "dblp": 27,
+      "areas": {
+        "": 14,
+        "system-security": 10,
+        "llm-serving": 1,
+        "fault-tolerance": 1,
+        "memory-resource": 1
+      },
+      "by_year": {
+        "2020": 4,
+        "2021": 7,
+        "2022": 3,
+        "2023": 5,
+        "2024": 4,
+        "2025": 4
+      },
+      "top_papers": [
+        {
+          "title": "Rebooting Virtual Memory with Midgard",
+          "authors": [
+            "Siddharth Gupta 0003",
+            "Atri Bhattacharyya",
+            "Yunho Oh",
+            "Abhishek Bhattacharjee",
+            "Babak Falsafi",
+            "Mathias Payer"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "memory-resource",
+          "area_label": "Memory and Resource Management",
+          "area_score": 14,
+          "first_author": {
+            "name": "Siddharth Gupta 0003",
+            "country_code": "CH",
+            "country_label": "Switzerland",
+            "affiliations": [
+              "EPFL, Lausanne, Switzerland"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ISCA 2021",
+          "dblp_url": "https://dblp.org/rec/conf/isca/0003BOBFP21.html",
+          "conference_id": "isca-2021"
+        },
+        {
+          "title": "Formal Analysis of Session-Handling in Secure Messaging: Lifting Security from Sessions to Conversations",
+          "authors": [
+            "Cas Cremers",
+            "Charlie Jacomme",
+            "Aurora Naska"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 8,
+          "first_author": {
+            "name": "Cas Cremers",
+            "country_code": "CH",
+            "country_label": "Switzerland",
+            "affiliations": [
+              "CISPA Helmholtz Center for Information Security, Germany",
+              "Saarland University, Computer Science Department, Germany",
+              "University of Oxford, UK",
+              "ETH Zurich, Switzerland"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX Security 2023",
+          "dblp_url": "https://dblp.org/rec/conf/uss/CremersJN23.html",
+          "conference_id": "uss-2023"
+        },
+        {
+          "title": "Formal Analysis of SPDM: Security Protocol and Data Model version 1.2",
+          "authors": [
+            "Cas Cremers",
+            "Alexander Dax",
+            "Aurora Naska"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 8,
+          "first_author": {
+            "name": "Cas Cremers",
+            "country_code": "CH",
+            "country_label": "Switzerland",
+            "affiliations": [
+              "CISPA Helmholtz Center for Information Security, Germany",
+              "Saarland University, Computer Science Department, Germany",
+              "University of Oxford, UK",
+              "ETH Zurich, Switzerland"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX Security 2023",
+          "dblp_url": "https://dblp.org/rec/conf/uss/CremersDN23.html",
+          "conference_id": "uss-2023"
+        },
+        {
+          "title": "Replication Package for Article: Data-Oriented Differential Testing of Object-Relational Mapping Systems",
+          "authors": [
+            "Thodoris Sotiropoulos",
+            "Stefanos Chaliasos",
+            "Vaggelis Atlidakis",
+            "Dimitris Mitropoulos",
+            "Diomidis Spinellis"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "fault-tolerance",
+          "area_label": "Fault Tolerance",
+          "area_score": 8,
+          "first_author": {
+            "name": "Thodoris Sotiropoulos",
+            "country_code": "CH",
+            "country_label": "Switzerland",
+            "affiliations": [
+              "ETH Zurich, Switzerland",
+              "Athens University Economics and Business, Greece"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ICSE 2021",
+          "dblp_url": "https://dblp.org/rec/conf/icse/SotiropoulosCAM21a.html",
+          "conference_id": "icse-2021"
+        },
+        {
+          "title": "Lost in Translation: Enabling Confused Deputy Attacks on EDA Software with TransFuzz",
+          "authors": [
+            "Flavien Solt",
+            "Kaveh Razavi"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Flavien Solt",
+            "country_code": "CH",
+            "country_label": "Switzerland",
+            "affiliations": [
+              "ETH Zurich, Zürich, Switzerland"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX Security 2025",
+          "dblp_url": "https://dblp.org/rec/conf/uss/SoltR25.html",
+          "conference_id": "uss-2025"
+        },
+        {
+          "title": "MAESTRO: Multi-Party AES Using Lookup Tables",
+          "authors": [
+            "Hiraku Morita",
+            "Erik Pohle",
+            "Kunihiko Sadakane",
+            "Peter Scholl",
+            "Kazunari Tozawa",
+            "Daniel Tschudi"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Hiraku Morita",
+            "country_code": "CH",
+            "country_label": "Switzerland",
+            "affiliations": [
+              "University of St. Gallen (HSG), School of Computer Science, Switzerland",
+              "National Institute of Advanced Industrial Science and Technology (AIST), Information Technology Research Institute (ITRI), Tsukuba, Japan",
+              "Nagoya University, Department of Computational Science and Engineering, Nagoya, Japan",
+              "Nara Institute of Science and Technology (NAIST), Ikoma, Japan"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2025",
+          "dblp_url": "https://dblp.org/rec/conf/uss/MoritaPSSTT25.html",
+          "conference_id": "uss-2025"
+        },
+        {
+          "title": "Cascade: CPU Fuzzing via Intricate Program Generation",
+          "authors": [
+            "Flavien Solt",
+            "Katharina Ceesay-Seitz",
+            "Kaveh Razavi"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Flavien Solt",
+            "country_code": "CH",
+            "country_label": "Switzerland",
+            "affiliations": [
+              "ETH Zurich, Zürich, Switzerland"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX Security 2024",
+          "dblp_url": "https://dblp.org/rec/conf/uss/SoltCR24.html",
+          "conference_id": "uss-2024"
+        },
+        {
+          "title": "K-Waay: Fast and Deniable Post-Quantum X3DH without Ring Signatures",
+          "authors": [
+            "Daniel Collins 0001",
+            "Lo&iuml;s Huguenin-Dumittan",
+            "Ngoc Khanh Nguyen 0001",
+            "Nicolas Rolin",
+            "Serge Vaudenay"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Daniel Collins 0001",
+            "country_code": "CH",
+            "country_label": "Switzerland",
+            "affiliations": [
+              "Purdue University, West Lafayette, IN, USA",
+              "École Polytechnique Fédérale de Lausanne, Switzerland"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2024",
+          "dblp_url": "https://dblp.org/rec/conf/uss/0001HNRV24.html",
+          "conference_id": "uss-2024"
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "label": "Canada",
+      "total": 18,
+      "dblp": 18,
+      "areas": {
+        "": 15,
+        "system-security": 3
+      },
+      "by_year": {
+        "2020": 7,
+        "2021": 5,
+        "2022": 1,
+        "2023": 2,
+        "2024": 1,
+        "2025": 2
+      },
+      "top_papers": [
+        {
+          "title": "LIGHTBLUE: Automatic Profile-Aware Debloating of Bluetooth Stacks",
+          "authors": [
+            "Jianliang Wu 0002",
+            "Ruoyu Wu",
+            "Daniele Antonioli",
+            "Mathias Payer",
+            "Nils Ole Tippenhauer",
+            "Dongyan Xu",
+            "Dave (Jing) Tian",
+            "Antonio Bianchi"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Jianliang Wu 0002",
+            "country_code": "CA",
+            "country_label": "Canada",
+            "affiliations": [
+              "Simon Fraser University (SFU), Burnaby, BC, Canada",
+              "Purdue University, PurSec Lab, West Lafayette, IN, USA",
+              "Shandong University, Jinan, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2021",
+          "dblp_url": "https://dblp.org/rec/conf/uss/WuWAPTXTB21.html",
+          "conference_id": "uss-2021"
+        },
+        {
+          "title": "Chaperone: Real-time Locking and Loss Prevention for Smartphones",
+          "authors": [
+            "Jiayi Chen 0001",
+            "Urs Hengartner",
+            "Hassan Khan 0002",
+            "Mohammad Mannan"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Jiayi Chen 0001",
+            "country_code": "CA",
+            "country_label": "Canada",
+            "affiliations": [
+              "University of Waterloo, ON, Canada",
+              "University of Victoria, BC, Canada"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2020",
+          "dblp_url": "https://dblp.org/rec/conf/uss/ChenHKM20.html",
+          "conference_id": "uss-2020"
+        },
+        {
+          "title": "SANNS: Scaling Up Secure Approximate k-Nearest Neighbors Search",
+          "authors": [
+            "Hao Chen 0030",
+            "Ilaria Chillotti",
+            "Yihe Dong",
+            "Oxana Poburinnaya",
+            "Ilya P. Razenshteyn",
+            "M. Sadegh Riazi"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Hao Chen 0030",
+            "country_code": "CA",
+            "country_label": "Canada",
+            "affiliations": [
+              "University of Waterloo, ON, Canada",
+              "Southwest University for Nationalities, College of Electrical and Information Engineering, Chengdu, China",
+              "University of Electronic Science and Technology of China, School of Mathematical Sciences, Chengdu, China",
+              "Huaibei Normal University, School of Mathematical Sciences, China",
+              "University of Wales"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2020",
+          "dblp_url": "https://dblp.org/rec/conf/uss/0030CDPRR20.html",
+          "conference_id": "uss-2020"
+        },
+        {
+          "title": "Early Detection of Performance Regressions by Bridging Local Performance Data and Architectural Models",
+          "authors": [
+            "Lizhi Liao",
+            "Simon Eismann",
+            "Heng Li 0007",
+            "Cor-Paul Bezemer",
+            "Diego Elias Costa",
+            "Andr&eacute; van Hoorn",
+            "Weiyi Shang"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Lizhi Liao",
+            "country_code": "CA",
+            "country_label": "Canada",
+            "affiliations": [
+              "Memorial University of Newfoundland, St. John's, NL, Canada"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2025",
+          "dblp_url": "https://dblp.org/rec/conf/icse/LiaoE0BCHS25.html",
+          "conference_id": "icse-2025"
+        },
+        {
+          "title": "Towards Realistic, Applicable and Feasible Configuration-Aware Performance Modeling",
+          "authors": [
+            "Yuanjie Xia 0002"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Yuanjie Xia 0002",
+            "country_code": "CA",
+            "country_label": "Canada",
+            "affiliations": [
+              "University of Waterloo, Department of Electrical and Computer Engineering, ON, Canada"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2025",
+          "dblp_url": "https://dblp.org/rec/conf/icse/Xia25.html",
+          "conference_id": "icse-2025"
+        },
+        {
+          "title": "FlashSyn: Flash Loan Attack Synthesis via Counter Example Driven Approximation",
+          "authors": [
+            "Zhiyang Chen 0004",
+            "Sidi Mohamed Beillahi",
+            "Fan Long"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Zhiyang Chen 0004",
+            "country_code": "CA",
+            "country_label": "Canada",
+            "affiliations": [
+              "University of Toronto, ON, Canada"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/ChenBL24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "Addressing Performance Regressions in DevOps: Can We Escape from System Performance Testing?",
+          "authors": [
+            "Lizhi Liao"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Lizhi Liao",
+            "country_code": "CA",
+            "country_label": "Canada",
+            "affiliations": [
+              "Memorial University of Newfoundland, St. John's, NL, Canada"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2023",
+          "dblp_url": "https://dblp.org/rec/conf/icse/Liao23.html",
+          "conference_id": "icse-2023"
+        },
+        {
+          "title": "Designing Adaptive Developer-Chatbot Interactions: Context Integration, Experimental Studies, and Levels of Automation",
+          "authors": [
+            "Glaucia Melo 0001"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Glaucia Melo 0001",
+            "country_code": "CA",
+            "country_label": "Canada",
+            "affiliations": [
+              "Toronto Metropolitan University, Canada"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2023",
+          "dblp_url": "https://dblp.org/rec/conf/icse/Melo23.html",
+          "conference_id": "icse-2023"
+        }
+      ]
+    },
+    {
+      "code": "GB",
+      "label": "United Kingdom",
+      "total": 17,
+      "dblp": 17,
+      "areas": {
+        "": 15,
+        "system-security": 1,
+        "ebpf": 1
+      },
+      "by_year": {
+        "2020": 7,
+        "2021": 1,
+        "2022": 1,
+        "2023": 3,
+        "2024": 4,
+        "2026": 1
+      },
+      "top_papers": [
+        {
+          "title": "SoK: What don't we know? Understanding Security Vulnerabilities in SNARKs",
+          "authors": [
+            "Stefanos Chaliasos",
+            "Jens Ernstberger",
+            "David Theodore",
+            "David Wong",
+            "Mohammad Jahanara",
+            "Benjamin Livshits"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 8,
+          "first_author": {
+            "name": "Stefanos Chaliasos",
+            "country_code": "GB",
+            "country_label": "United Kingdom",
+            "affiliations": [
+              "University College London, UK"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX Security 2024",
+          "dblp_url": "https://dblp.org/rec/conf/uss/ChaliasosETWJL24.html",
+          "conference_id": "uss-2024"
+        },
+        {
+          "title": "The Guardian Council: Parallel Programmable Hardware Security",
+          "authors": [
+            "Sam Ainsworth 0001",
+            "Timothy M. Jones 0001"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "ebpf",
+          "area_label": "eBPF and Programmable Kernel",
+          "area_score": 8,
+          "first_author": {
+            "name": "Sam Ainsworth 0001",
+            "country_code": "GB",
+            "country_label": "United Kingdom",
+            "affiliations": [
+              "University of Edinburgh, UK",
+              "University of Cambridge, UK"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ASPLOS 2020",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/Ainsworth020.html",
+          "conference_id": "asplos-2020"
+        },
+        {
+          "title": "Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter",
+          "authors": [
+            "Qinghao Hu 0004",
+            "Shang Yang",
+            "Junxian Guo",
+            "Xiaozhe Yao",
+            "Yujun Lin 0001",
+            "Yuxian Gu",
+            "Han Cai",
+            "Chuang Gan 0001",
+            "Ana Klimovic",
+            "Song Han 0001"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Qinghao Hu 0004",
+            "country_code": "GB",
+            "country_label": "United Kingdom",
+            "affiliations": [
+              "MIT, Cambridge, MA, USA"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ASPLOS 2026",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/0004YGY0GC0K026.html",
+          "conference_id": "asplos-2026"
+        },
+        {
+          "title": "Fairness Improvement with Multiple Protected Attributes: How Far Are We?",
+          "authors": [
+            "Zhenpeng Chen 0001",
+            "Jie M. Zhang",
+            "Federica Sarro",
+            "Mark Harman"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Zhenpeng Chen 0001",
+            "country_code": "GB",
+            "country_label": "United Kingdom",
+            "affiliations": [
+              "Tsinghua University, School of Software, Beijing, China",
+              "Nanyang Technological University, Singapore",
+              "University College London, Department of Computer Science, London, UK",
+              "Peking University, Beijing, China"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/ChenZSH24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "Self-sustaining Software Systems (S4): Towards Improved Interpretability and Adaptation",
+          "authors": [
+            "Christian Cabrera 0001",
+            "Andrei Paleyes",
+            "Neil D. Lawrence"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Christian Cabrera 0001",
+            "country_code": "GB",
+            "country_label": "United Kingdom",
+            "affiliations": [
+              "University of Cambridge, Department of Computer Science and Technology, UK",
+              "Trinity College Dublin, School of Computer Science and Statistics, Ireland"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/CabreraPL24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "Characterization of Large Language Model Development in the Datacenter",
+          "authors": [
+            "Qinghao Hu 0004",
+            "Zhisheng Ye 0002",
+            "Zerui Wang",
+            "Guoteng Wang",
+            "Meng Zhang 0045",
+            "Qiaoling Chen",
+            "Peng Sun 0006",
+            "Dahua Lin",
+            "Xiaolin Wang 0001",
+            "Yingwei Luo",
+            "Yonggang Wen 0001",
+            "Tianwei Zhang 0004"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Qinghao Hu 0004",
+            "country_code": "GB",
+            "country_label": "United Kingdom",
+            "affiliations": [
+              "MIT, Cambridge, MA, USA"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "NSDI 2024",
+          "dblp_url": "https://dblp.org/rec/conf/nsdi/Hu0WWZC0L0L0024.html",
+          "conference_id": "nsdi-2024"
+        },
+        {
+          "title": "Lucid: A Non-intrusive, Scalable and Interpretable Scheduler for Deep Learning Training Jobs",
+          "authors": [
+            "Qinghao Hu 0004",
+            "Meng Zhang 0045",
+            "Peng Sun 0006",
+            "Yonggang Wen 0001",
+            "Tianwei Zhang 0004"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Qinghao Hu 0004",
+            "country_code": "GB",
+            "country_label": "United Kingdom",
+            "affiliations": [
+              "MIT, Cambridge, MA, USA"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ASPLOS 2023",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/HuZ00023.html",
+          "conference_id": "asplos-2023"
+        },
+        {
+          "title": "Towards Practical Few-shot Federated NLP",
+          "authors": [
+            "Dongqi Cai 0001",
+            "Yaozong Wu",
+            "Haitao Yuan 0002",
+            "Shangguang Wang",
+            "Felix Xiaozhu Lin",
+            "Mengwei Xu 0001"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Dongqi Cai 0001",
+            "country_code": "GB",
+            "country_label": "United Kingdom",
+            "affiliations": [
+              "University of Cambridge, UK",
+              "Beijing University of Posts and Telecommunications (BUPT), State Key Laboratory of Networking and Switching Technology, China"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "EuroSys 2023",
+          "dblp_url": "https://dblp.org/rec/conf/eurosys/CaiWYWLX23.html",
+          "conference_id": "eurosys-2023"
+        }
+      ]
+    },
+    {
+      "code": "AU",
+      "label": "Australia",
+      "total": 13,
+      "dblp": 13,
+      "areas": {
+        "": 10,
+        "system-security": 2,
+        "fault-tolerance": 1
+      },
+      "by_year": {
+        "2020": 6,
+        "2021": 2,
+        "2022": 2,
+        "2023": 1,
+        "2024": 2
+      },
+      "top_papers": [
+        {
+          "title": "Replication Package for Input Algebras",
+          "authors": [
+            "Rahul Gopinath",
+            "Hamed Nemati",
+            "Andreas Zeller"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "fault-tolerance",
+          "area_label": "Fault Tolerance",
+          "area_score": 8,
+          "first_author": {
+            "name": "Rahul Gopinath",
+            "country_code": "AU",
+            "country_label": "Australia",
+            "affiliations": [
+              "University of Sydney, Australia",
+              "CISPA Helmholtz Center for Information Security, Saarbr&uuml;cken, Germany"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2021",
+          "dblp_url": "https://dblp.org/rec/conf/icse/GopinathNZ21a.html",
+          "conference_id": "icse-2021"
+        },
+        {
+          "title": "HyPFuzz: Formal-Assisted Processor Fuzzing",
+          "authors": [
+            "Chen Chen 0125",
+            "Rahul Kande",
+            "Nathan Nguyen",
+            "Flemming Andersen",
+            "Aakash Tyagi",
+            "Ahmad-Reza Sadeghi",
+            "Jeyavijayan Rajendran"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Chen Chen 0125",
+            "country_code": "AU",
+            "country_label": "Australia",
+            "affiliations": [
+              "University of Wollongong, Australia",
+              "Zhejiang Gongshang University, Hangzhou, China",
+              "East China Normal University, China",
+              "Efiniti Telecommunications Services, Sydney, Australia",
+              "University of New South Wales, Sydney, Australia"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2023",
+          "dblp_url": "https://dblp.org/rec/conf/uss/ChenKNATSR23.html",
+          "conference_id": "uss-2023"
+        },
+        {
+          "title": "PEARL: Plausibly Deniable Flash Translation Layer using WOM coding",
+          "authors": [
+            "Chen Chen 0057",
+            "Anrin Chakraborti",
+            "Radu Sion"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Chen Chen 0057",
+            "country_code": "AU",
+            "country_label": "Australia",
+            "affiliations": [
+              "University of Wollongong, Australia",
+              "Zhejiang Gongshang University, Hangzhou, China",
+              "East China Normal University, China",
+              "Efiniti Telecommunications Services, Sydney, Australia",
+              "University of New South Wales, Sydney, Australia"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2021",
+          "dblp_url": "https://dblp.org/rec/conf/uss/0057CS21.html",
+          "conference_id": "uss-2021"
+        },
+        {
+          "title": "Boost Linear Algebra Computation Performance via Efficient VNNI Utilization",
+          "authors": [
+            "Hao Zhou 0009",
+            "Qiukun Han",
+            "Heng Shi 0005",
+            "Yalin Zhang 0004",
+            "Jianguo Yao 0002"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Hao Zhou 0009",
+            "country_code": "AU",
+            "country_label": "Australia",
+            "affiliations": [
+              "Huawei Technologies, Shenzhen, Guangdong, China",
+              "University of New South Wales, Sydney, Australia"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ASPLOS 2024",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/ZhouHSZY24.html",
+          "conference_id": "asplos-2024"
+        },
+        {
+          "title": "Adaptive User Interfaces for Software Supporting Chronic Disease",
+          "authors": [
+            "Wei Wang 0376",
+            "Hourieh Khalajzadeh",
+            "John C. Grundy",
+            "Anuradha Madugalla",
+            "Humphrey O. Obie"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Wei Wang 0376",
+            "country_code": "AU",
+            "country_label": "Australia",
+            "affiliations": [
+              "Monash University, Department of Software Systems and Cybersecurity, Faculty of IT, Melbourne, Victoria, Australia"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/WangKGMO24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "Building an efficient key-value store in a flexible address space",
+          "authors": [
+            "Chen Chen 0124",
+            "Wenshao Zhong",
+            "Xingbo Wu"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Chen Chen 0124",
+            "country_code": "AU",
+            "country_label": "Australia",
+            "affiliations": [
+              "University of Wollongong, Australia",
+              "Zhejiang Gongshang University, Hangzhou, China",
+              "East China Normal University, China",
+              "Efiniti Telecommunications Services, Sydney, Australia",
+              "University of New South Wales, Sydney, Australia"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "EuroSys 2022",
+          "dblp_url": "https://dblp.org/rec/conf/eurosys/ChenZW22.html",
+          "conference_id": "eurosys-2022"
+        },
+        {
+          "title": "Towards Automatically Repairing Compatibility Issues in Published Android Apps",
+          "authors": [
+            "Yanjie Zhao 0001",
+            "Li Li 0029",
+            "Kui Liu 0001",
+            "John C. Grundy"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Yanjie Zhao 0001",
+            "country_code": "AU",
+            "country_label": "Australia",
+            "affiliations": [
+              "Huazhong University of Science and Technology, Wuhan, China",
+              "Monash University, Melbourne, VIC, Australia"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2022",
+          "dblp_url": "https://dblp.org/rec/conf/icse/Zhao0LG22.html",
+          "conference_id": "icse-2022"
+        },
+        {
+          "title": "A practical, collaborative approach for modeling big data analytics application requirements",
+          "authors": [
+            "Hourieh Khalajzadeh",
+            "Andrew J. Simmons",
+            "Mohamed Abdelrazek 0001",
+            "John C. Grundy",
+            "John G. Hosking",
+            "Qiang He 0001",
+            "Prasanna Ratnakanthan",
+            "Adil Zia",
+            "Meng Law"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Hourieh Khalajzadeh",
+            "country_code": "AU",
+            "country_label": "Australia",
+            "affiliations": [
+              "Deakin University, Australia",
+              "Monash University, Australia"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2020",
+          "dblp_url": "https://dblp.org/rec/conf/icse/KhalajzadehS0GH20.html",
+          "conference_id": "icse-2020"
+        }
+      ]
+    },
+    {
+      "code": "KR",
+      "label": "South Korea",
+      "total": 13,
+      "dblp": 13,
+      "areas": {
+        "": 7,
+        "fs-storage": 1,
+        "on-device-ai": 2,
+        "llm-serving": 2,
+        "system-security": 1
+      },
+      "by_year": {
+        "2020": 2,
+        "2023": 2,
+        "2025": 6,
+        "2026": 3
+      },
+      "top_papers": [
+        {
+          "title": "Oaken: Fast and Efficient LLM Serving with Online-Offline Hybrid KV Cache Quantization",
+          "authors": [
+            "Minsu Kim 0004",
+            "Seongmin Hong",
+            "Ryeowook Ko",
+            "Soongyu Choi",
+            "Hunjong Lee",
+            "Junsoo Kim 0002",
+            "Joo-Young Kim 0001",
+            "Jongse Park"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 24,
+          "first_author": {
+            "name": "Minsu Kim 0004",
+            "country_code": "KR",
+            "country_label": "South Korea",
+            "affiliations": [
+              "Mila - Quebec Artificial Intelligence Institute, Montreal, Canada",
+              "Korea Advanced Institute of Science and Technology (KAIST), Department of Electrical Engineering, Daejeon, South Korea"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ISCA 2025",
+          "dblp_url": "https://dblp.org/rec/conf/isca/0004HKCL00P25.html",
+          "conference_id": "isca-2025"
+        },
+        {
+          "title": "Selective On-Device Execution of Data-Dependent Read I/Os",
+          "authors": [
+            "Chanyoung Park",
+            "Minu Chung",
+            "Hyungon Moon"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "on-device-ai",
+          "area_label": "On-device AI",
+          "area_score": 16,
+          "first_author": {
+            "name": "Chanyoung Park",
+            "country_code": "KR",
+            "country_label": "South Korea",
+            "affiliations": [
+              "Hanyang University, Department of Computer Science and Engineering, Ansan, South Korea"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "FAST 2025",
+          "dblp_url": "https://dblp.org/rec/conf/fast/ParkCM25.html",
+          "conference_id": "fast-2025"
+        },
+        {
+          "title": "AiF: Accelerating On-Device LLM Inference Using In-Flash Processing",
+          "authors": [
+            "Jaeyong Lee 0004",
+            "Hyeunjoo Kim",
+            "Sanghun Oh",
+            "Myoungjun Chun",
+            "Myungsuk Kim",
+            "Jihong Kim 0001"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "on-device-ai",
+          "area_label": "On-device AI",
+          "area_score": 16,
+          "first_author": {
+            "name": "Jaeyong Lee 0004",
+            "country_code": "KR",
+            "country_label": "South Korea",
+            "affiliations": [
+              "Seoul National University, Seoul, Korea"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ISCA 2025",
+          "dblp_url": "https://dblp.org/rec/conf/isca/LeeKOCK025.html",
+          "conference_id": "isca-2025"
+        },
+        {
+          "title": "AnyKey: A Key-Value SSD for All Workload Types",
+          "authors": [
+            "Chanyoung Park 0004",
+            "Jungho Lee",
+            "Chun-Yi Liu 0002",
+            "Kyungtae Kang",
+            "Mahmut Taylan Kandemir",
+            "Wonil Choi"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "fs-storage",
+          "area_label": "File System and Storage",
+          "area_score": 8,
+          "first_author": {
+            "name": "Chanyoung Park 0004",
+            "country_code": "KR",
+            "country_label": "South Korea",
+            "affiliations": [
+              "Hanyang University, Department of Computer Science and Engineering, Ansan, South Korea"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ASPLOS 2025",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/0004L0KKC25.html",
+          "conference_id": "asplos-2025"
+        },
+        {
+          "title": "ELASM: Error-Latency-Aware Scale Management for Fully Homomorphic Encryption",
+          "authors": [
+            "Yongwoo Lee 0001",
+            "Seonyoung Cheon",
+            "Dongkwan Kim 0002",
+            "Dongyoon Lee",
+            "Hanjun Kim 0001"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Yongwoo Lee 0001",
+            "country_code": "KR",
+            "country_label": "South Korea",
+            "affiliations": [
+              "Samsung Advanced Institute of Technology, Suwon, Gyeonggi-do, Korea",
+              "Inha University, Korea"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2023",
+          "dblp_url": "https://dblp.org/rec/conf/uss/LeeCKLK23.html",
+          "conference_id": "uss-2023"
+        },
+        {
+          "title": "EOD: Enabling Low Latency GNN Inference via Near-Memory Concatenate Aggregation",
+          "authors": [
+            "Taehwan Kim 0011",
+            "Yunki Han",
+            "Seohye Ha",
+            "Jiwan Kim",
+            "Lee-Sup Kim"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 3,
+          "first_author": {
+            "name": "Taehwan Kim 0011",
+            "country_code": "KR",
+            "country_label": "South Korea",
+            "affiliations": [
+              "Korea Advanced Institute of Science and Technology, Daejeon, Korea"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ISCA 2025",
+          "dblp_url": "https://dblp.org/rec/conf/isca/KimHHKK25.html",
+          "conference_id": "isca-2025"
+        },
+        {
+          "title": "GS-Scale: Unlocking Large-Scale 3D Gaussian Splatting Training via Host Offloading",
+          "authors": [
+            "Donghyun Lee 0005",
+            "Dawoon Jeong",
+            "Jae W. Lee",
+            "Hongil Yoon"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Donghyun Lee 0005",
+            "country_code": "KR",
+            "country_label": "South Korea",
+            "affiliations": [
+              "Seoul National University, Seoul, Korea"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ASPLOS 2026",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/0005JLY26.html",
+          "conference_id": "asplos-2026"
+        },
+        {
+          "title": "STRAW: Stress-Aware WL-Based Read Disturbance Management for High-Density NAND Flash Memory",
+          "authors": [
+            "Myoungjun Chun",
+            "Jaeyong Lee 0004",
+            "Inhyuk Choi",
+            "Jisung Park 0001",
+            "Myungsuk Kim",
+            "Jihong Kim 0001"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Myoungjun Chun",
+            "country_code": "KR",
+            "country_label": "South Korea",
+            "affiliations": [
+              "Soongsil University, Seoul, South Korea",
+              "Seoul National University, South Korea"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ASPLOS 2026",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/ChunLC0K026.html",
+          "conference_id": "asplos-2026"
+        }
+      ]
+    },
+    {
+      "code": "NL",
+      "label": "Netherlands",
+      "total": 11,
+      "dblp": 11,
+      "areas": {
+        "": 11
+      },
+      "by_year": {
+        "2020": 4,
+        "2021": 1,
+        "2022": 2,
+        "2024": 3,
+        "2025": 1
+      },
+      "top_papers": [
+        {
+          "title": "Metamorphic-Based Many-Objective Distillation of LLMs for Code-Related Tasks",
+          "authors": [
+            "Annibale Panichella"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Annibale Panichella",
+            "country_code": "NL",
+            "country_label": "Netherlands",
+            "affiliations": [
+              "Delft University of Technology, The Netherlands"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2025",
+          "dblp_url": "https://dblp.org/rec/conf/icse/Panichella25.html",
+          "conference_id": "icse-2025"
+        },
+        {
+          "title": "Architecture Knowledge Graphs - a Next Step in Architecture Knowledge Management",
+          "authors": [
+            "Remco C. de Boer"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Remco C. de Boer",
+            "country_code": "NL",
+            "country_label": "Netherlands",
+            "affiliations": [
+              "University of Amsterdam, Netherlands"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/Boer24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "Breaking the Silence: the Threats of Using LLMs in Software Engineering",
+          "authors": [
+            "June Sallou",
+            "Thomas Durieux",
+            "Annibale Panichella"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "June Sallou",
+            "country_code": "NL",
+            "country_label": "Netherlands",
+            "affiliations": [
+              "Wageningen University, The Netherlands"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/SallouDP24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "Graph Neural Networks based Log Anomaly Detection and Explanation",
+          "authors": [
+            "Zhong Li 0002",
+            "Jiayang Shi",
+            "Matthijs van Leeuwen"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Zhong Li 0002",
+            "country_code": "NL",
+            "country_label": "Netherlands",
+            "affiliations": [
+              "Leiden University, The Netherlands"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/0002SL24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "CodeFill: Multi-token Code Completion by Jointly learning from Structure and Naming Sequences",
+          "authors": [
+            "Maliheh Izadi",
+            "Roberta Gismondi",
+            "Georgios Gousios"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Maliheh Izadi",
+            "country_code": "NL",
+            "country_label": "Netherlands",
+            "affiliations": [
+              "Delft University of Technology, The Netherlands"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2022",
+          "dblp_url": "https://dblp.org/rec/conf/icse/IzadiGG22.html",
+          "conference_id": "icse-2022"
+        },
+        {
+          "title": "SynTest-Solidity: Automated Test Case Generation and Fuzzing for Smart Contracts",
+          "authors": [
+            "Mitchell Olsthoorn",
+            "Dimitri Michel Stallenberg",
+            "Arie van Deursen",
+            "Annibale Panichella"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Mitchell Olsthoorn",
+            "country_code": "NL",
+            "country_label": "Netherlands",
+            "affiliations": [
+              "Delft University of Technology, The Netherlands"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2022",
+          "dblp_url": "https://dblp.org/rec/conf/icse/OlsthoornSDP22.html",
+          "conference_id": "icse-2022"
+        },
+        {
+          "title": "What Are We Really Testing in Mutation Testing for Machine Learning? A Critical Reflection",
+          "authors": [
+            "Annibale Panichella",
+            "Cynthia C. S. Liem"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Annibale Panichella",
+            "country_code": "NL",
+            "country_label": "Netherlands",
+            "affiliations": [
+              "Delft University of Technology, The Netherlands"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2021",
+          "dblp_url": "https://dblp.org/rec/conf/icse/PanichellaL21.html",
+          "conference_id": "icse-2021"
+        },
+        {
+          "title": "EvoSuite at the SBST 2020 Tool Competition",
+          "authors": [
+            "Annibale Panichella",
+            "Jos&eacute; Campos 0001",
+            "Gordon Fraser 0001"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Annibale Panichella",
+            "country_code": "NL",
+            "country_label": "Netherlands",
+            "affiliations": [
+              "Delft University of Technology, The Netherlands"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2020",
+          "dblp_url": "https://dblp.org/rec/conf/icse/PanichellaCF20.html",
+          "conference_id": "icse-2020"
+        }
+      ]
+    },
+    {
+      "code": "SE",
+      "label": "Sweden",
+      "total": 9,
+      "dblp": 9,
+      "areas": {
+        "": 6,
+        "system-security": 2,
+        "llm-serving": 1
+      },
+      "by_year": {
+        "2020": 1,
+        "2022": 1,
+        "2023": 4,
+        "2024": 2,
+        "2026": 1
+      },
+      "top_papers": [
+        {
+          "title": "One Size Does Not Fit All: Uncovering and Exploiting Cross Platform Discrepant APIs in WeChat",
+          "authors": [
+            "Chao Wang 0113",
+            "Yue Zhang 0025",
+            "Zhiqiang Lin 0001"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 10,
+          "first_author": {
+            "name": "Chao Wang 0113",
+            "country_code": "SE",
+            "country_label": "Sweden",
+            "affiliations": [
+              "University of Exeter, Department of Computer Science, UK",
+              "Tongji University, School of Electronics and Information, Shanghai, China",
+              "KTH Royal Institute of Technology, Stockholm, Sweden",
+              "University of Edinburgh, UK"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2023",
+          "dblp_url": "https://dblp.org/rec/conf/uss/WangZL23.html",
+          "conference_id": "uss-2023"
+        },
+        {
+          "title": "Key Recovery Attacks on Approximate Homomorphic Encryption with Non-Worst-Case Noise Flooding Countermeasures",
+          "authors": [
+            "Qian Guo 0001",
+            "Denis Nabokov",
+            "Elias Suvanto",
+            "Thomas Johansson 0001"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Qian Guo 0001",
+            "country_code": "SE",
+            "country_label": "Sweden",
+            "affiliations": [
+              "Lund University, Department of Electrical and Information Technology, Sweden",
+              "University of Bergen, Department of Informatics, Selmer Center, Norway",
+              "Université catholique de Louvain, Louvain-la-Neuve, Begium"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2024",
+          "dblp_url": "https://dblp.org/rec/conf/uss/0001NS024.html",
+          "conference_id": "uss-2024"
+        },
+        {
+          "title": "Meces: Latency-efficient Rescaling via Prioritized State Migration for Stateful Distributed Stream Processing Systems",
+          "authors": [
+            "Rong Gu 0001",
+            "Han Yin",
+            "Weichang Zhong",
+            "Chunfeng Yuan",
+            "Yihua Huang 0001"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "llm-serving",
+          "area_label": "LLM serving",
+          "area_score": 3,
+          "first_author": {
+            "name": "Rong Gu 0001",
+            "country_code": "SE",
+            "country_label": "Sweden",
+            "affiliations": [
+              "M&auml;lardalen University, V&auml;ster&aring;s, Sweden",
+              "KTH, Mechatronics, Sweden"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX ATC 2022",
+          "dblp_url": "https://dblp.org/rec/conf/usenix/GuYZYH22.html",
+          "conference_id": "usenix-2022"
+        },
+        {
+          "title": "Gopher: Efficient Dynamic Graph Pattern Mining via DAG-Driven Execution",
+          "authors": [
+            "Yi Zhang 0004",
+            "Yu Huang 0013",
+            "Chaoqiang Liu",
+            "Haifeng Liu 0003",
+            "Juntao Chen",
+            "Jingrui Yuan",
+            "Jianhui Yue",
+            "Xiaofei Liao",
+            "Hai Jin 0001",
+            "Jingling Xue"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Yi Zhang 0004",
+            "country_code": "SE",
+            "country_label": "Sweden",
+            "affiliations": [
+              "SAP, Belfast, UK",
+              "University of Birmingham, School of Computer Science, Birmingham, UK",
+              "Chalmers University of Technology, Department of Computing Science, Gothenburg, Sweden"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "EuroSys 2026",
+          "dblp_url": "https://dblp.org/rec/conf/eurosys/ZhangHLLCYYLJX26.html",
+          "conference_id": "eurosys-2026"
+        },
+        {
+          "title": "With Great Humor Comes Great Developer Engagement",
+          "authors": [
+            "Deepika Tiwari",
+            "Tim Toady",
+            "Martin Monperrus",
+            "Benoit Baudry"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Deepika Tiwari",
+            "country_code": "SE",
+            "country_label": "Sweden",
+            "affiliations": [
+              "System Verification, Sweden",
+              "KTH Royal Institute of Technology, Stockholm, Sweden"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/TiwariTMB24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "Taintmini: Detecting Flow of Sensitive Data in Mini-Programs with Static Taint Analysis",
+          "authors": [
+            "Chao Wang 0113",
+            "Ronny Ko",
+            "Yue Zhang 0025",
+            "Yuqing Yang 0003",
+            "Zhiqiang Lin 0001"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Chao Wang 0113",
+            "country_code": "SE",
+            "country_label": "Sweden",
+            "affiliations": [
+              "University of Exeter, Department of Computer Science, UK",
+              "Tongji University, School of Electronics and Information, Shanghai, China",
+              "KTH Royal Institute of Technology, Stockholm, Sweden",
+              "University of Edinburgh, UK"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2023",
+          "dblp_url": "https://dblp.org/rec/conf/icse/WangKZYL23.html",
+          "conference_id": "icse-2023"
+        },
+        {
+          "title": "VeCare: Statistical Acoustic Sensing for Automotive In-Cabin Monitoring",
+          "authors": [
+            "Yi Zhang 0017",
+            "Weiying Hou",
+            "Zheng Yang 0002",
+            "Chenshu Wu"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Yi Zhang 0017",
+            "country_code": "SE",
+            "country_label": "Sweden",
+            "affiliations": [
+              "SAP, Belfast, UK",
+              "University of Birmingham, School of Computer Science, Birmingham, UK",
+              "Chalmers University of Technology, Department of Computing Science, Gothenburg, Sweden"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "NSDI 2023",
+          "dblp_url": "https://dblp.org/rec/conf/nsdi/ZhangH0W23.html",
+          "conference_id": "nsdi-2023"
+        },
+        {
+          "title": "SEPH: Scalable, Efficient, and Predictable Hashing on Persistent Memory",
+          "authors": [
+            "Chao Wang",
+            "Junliang Hu",
+            "Tsun-Yu Yang",
+            "Yuhong Liang",
+            "Ming-Chang Yang"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Chao Wang",
+            "country_code": "SE",
+            "country_label": "Sweden",
+            "affiliations": [
+              "University of Exeter, Department of Computer Science, UK",
+              "Tongji University, School of Electronics and Information, Shanghai, China",
+              "KTH Royal Institute of Technology, Stockholm, Sweden",
+              "University of Edinburgh, UK"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "OSDI 2023",
+          "dblp_url": "https://dblp.org/rec/conf/osdi/WangHYLY23.html",
+          "conference_id": "osdi-2023"
+        }
+      ]
+    },
+    {
+      "code": "IT",
+      "label": "Italy",
+      "total": 7,
+      "dblp": 7,
+      "areas": {
+        "": 7
+      },
+      "by_year": {
+        "2020": 1,
+        "2021": 2,
+        "2023": 1,
+        "2024": 1,
+        "2025": 2
+      },
+      "top_papers": [
+        {
+          "title": "Efficient Domain Augmentation for Autonomous Driving Testing Using Diffusion Models",
+          "authors": [
+            "Luciano Baresi",
+            "Davide Yi Xian Hu",
+            "Andrea Stocco 0001",
+            "Paolo Tonella"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Luciano Baresi",
+            "country_code": "IT",
+            "country_label": "Italy",
+            "affiliations": [
+              "Polytechnic University of Milan, Italy"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2025",
+          "dblp_url": "https://dblp.org/rec/conf/icse/BaresiH0T25.html",
+          "conference_id": "icse-2025"
+        },
+        {
+          "title": "Parametric Falsification of Many Probabilistic Requirements Under Flakiness",
+          "authors": [
+            "Matteo Camilli",
+            "Raffaela Mirandola"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Matteo Camilli",
+            "country_code": "IT",
+            "country_label": "Italy",
+            "affiliations": [
+              "Politecnico di Milano, Milan, Italy",
+              "Free University of Bozen-Bolzano, Italy"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2025",
+          "dblp_url": "https://dblp.org/rec/conf/icse/CamilliM25.html",
+          "conference_id": "icse-2025"
+        },
+        {
+          "title": "Multi-requirement Parametric Falsification",
+          "authors": [
+            "Matteo Camilli",
+            "Raffaela Mirandola"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Matteo Camilli",
+            "country_code": "IT",
+            "country_label": "Italy",
+            "affiliations": [
+              "Politecnico di Milano, Milan, Italy",
+              "Free University of Bozen-Bolzano, Italy"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/CamilliM24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "Assurance Case Development as Data: A Manifesto",
+          "authors": [
+            "Claudio Menghi",
+            "Torin Viger",
+            "Alessio Di Sandro",
+            "Chris Rees",
+            "Jeff Joyce",
+            "Marsha Chechik"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Claudio Menghi",
+            "country_code": "IT",
+            "country_label": "Italy",
+            "affiliations": [
+              "University of Bergamo, Italy"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2023",
+          "dblp_url": "https://dblp.org/rec/conf/icse/MenghiVSRJC23.html",
+          "conference_id": "icse-2023"
+        },
+        {
+          "title": "ThEodorE: a Trace Checker for CPS Properties",
+          "authors": [
+            "Claudio Menghi",
+            "Enrico Vigan&ograve;",
+            "Domenico Bianculli",
+            "Lionel C. Briand"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Claudio Menghi",
+            "country_code": "IT",
+            "country_label": "Italy",
+            "affiliations": [
+              "University of Bergamo, Italy"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2021",
+          "dblp_url": "https://dblp.org/rec/conf/icse/MenghiVBB21a.html",
+          "conference_id": "icse-2021"
+        },
+        {
+          "title": "Trace-Checking CPS Properties: Bridging the Cyber-Physical Gap",
+          "authors": [
+            "Claudio Menghi",
+            "Enrico Vigan&ograve;",
+            "Domenico Bianculli",
+            "Lionel C. Briand"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Claudio Menghi",
+            "country_code": "IT",
+            "country_label": "Italy",
+            "affiliations": [
+              "University of Bergamo, Italy"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2021",
+          "dblp_url": "https://dblp.org/rec/conf/icse/MenghiVBB21.html",
+          "conference_id": "icse-2021"
+        },
+        {
+          "title": "Approximation-refinement testing of compute-intensive cyber-physical models: an approach based on system identification",
+          "authors": [
+            "Claudio Menghi",
+            "Shiva Nejati 0001",
+            "Lionel C. Briand",
+            "Yago Isasi Parache"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Claudio Menghi",
+            "country_code": "IT",
+            "country_label": "Italy",
+            "affiliations": [
+              "University of Bergamo, Italy"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2020",
+          "dblp_url": "https://dblp.org/rec/conf/icse/MenghiNBP20.html",
+          "conference_id": "icse-2020"
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "label": "France",
+      "total": 6,
+      "dblp": 6,
+      "areas": {
+        "": 5,
+        "system-security": 1
+      },
+      "by_year": {
+        "2020": 1,
+        "2023": 2,
+        "2024": 2,
+        "2025": 1
+      },
+      "top_papers": [
+        {
+          "title": "GRAIL: Checking Transaction Isolation Violations with Graph Queries",
+          "authors": [
+            "Stefania Dumbrava",
+            "Zhao Jin",
+            "Burcu Kulahcioglu Ozkan",
+            "Jingxuan Qiu"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 8,
+          "first_author": {
+            "name": "Stefania Dumbrava",
+            "country_code": "FR",
+            "country_label": "France",
+            "affiliations": [
+              "Institute Polytechnique de Paris, France"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/DumbravaJOQ24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "A Socio-Technical Grounded Theory on the Effect of Cognitive Dysfunctions in the Performance of Software Developers with ADHD and Autism",
+          "authors": [
+            "Kiev Gama",
+            "Grischa Liebel",
+            "Miguel Goul&atilde;o",
+            "Aline Lacerda",
+            "Cristiana Lacerda"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Kiev Gama",
+            "country_code": "FR",
+            "country_label": "France",
+            "affiliations": [
+              "Universidade Federal de Pernambuco, Recife, Brazil",
+              "IMAG, Grenoble, France"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2025",
+          "dblp_url": "https://dblp.org/rec/conf/icse/GamaLGLL25.html",
+          "conference_id": "icse-2025"
+        },
+        {
+          "title": "Analyzing Software Energy Consumption",
+          "authors": [
+            "Adel Noureddine"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Adel Noureddine",
+            "country_code": "FR",
+            "country_label": "France",
+            "affiliations": [
+              "University Paris Nanterre, France"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/Noureddine24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "Compiling Parallel Symbolic Execution with Continuations",
+          "authors": [
+            "Guannan Wei 0001",
+            "Songlin Jia",
+            "Ruiqi Gao",
+            "Haotian Deng 0001",
+            "Shangyin Tan",
+            "Oliver Bracevac",
+            "Tiark Rompf"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Guannan Wei 0001",
+            "country_code": "FR",
+            "country_label": "France",
+            "affiliations": [
+              "Tufts University, Medford, MA, USA",
+              "INRIA/ENS-PSL, Paris, France",
+              "Purdue University, West Lafayette, IN, USA"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ICSE 2023",
+          "dblp_url": "https://dblp.org/rec/conf/icse/WeiJGDTBR23.html",
+          "conference_id": "icse-2023"
+        },
+        {
+          "title": "Hackathons as Inclusive Spaces for Prototyping Software in Open Social Innovation with NGOs",
+          "authors": [
+            "Kiev Gama",
+            "George Valen&ccedil;a",
+            "Candy Estelle Marques Laurendon",
+            "&Aacute;j&ograve; Nasid&iacute; Marques",
+            "Lu&iacute;s Eduardo Ramos",
+            "Ravena Amaral",
+            "Clarissa Maria Dubeux Lopes Barros",
+            "Guilherme Xavier"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Kiev Gama",
+            "country_code": "FR",
+            "country_label": "France",
+            "affiliations": [
+              "Universidade Federal de Pernambuco, Recife, Brazil",
+              "IMAG, Grenoble, France"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2023",
+          "dblp_url": "https://dblp.org/rec/conf/icse/GamaVLMRABX23.html",
+          "conference_id": "icse-2023"
+        },
+        {
+          "title": "On the power of abstraction: a model-driven co-evolution approach of software code",
+          "authors": [
+            "Djamel Eddine Khelladi",
+            "Beno&icirc;t Combemale",
+            "Mathieu Acher",
+            "Olivier Barais"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Djamel Eddine Khelladi",
+            "country_code": "FR",
+            "country_label": "France",
+            "affiliations": [
+              "CNRS, Inria, IRISA, Rennes, France"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ICSE 2020",
+          "dblp_url": "https://dblp.org/rec/conf/icse/KhelladiCAB20.html",
+          "conference_id": "icse-2020"
+        }
+      ]
+    },
+    {
+      "code": "AT",
+      "label": "Austria",
+      "total": 5,
+      "dblp": 5,
+      "areas": {
+        "system-security": 1,
+        "": 4
+      },
+      "by_year": {
+        "2020": 1,
+        "2021": 2,
+        "2022": 1,
+        "2025": 1
+      },
+      "top_papers": [
+        {
+          "title": "Bluetooth Low Energy Security Testing with Combinatorial Methods",
+          "authors": [
+            "Dominik-Philip Schreiber",
+            "Manuel Leithner",
+            "Jovan Zivanovic",
+            "Dimitris E. Simos"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Dominik-Philip Schreiber",
+            "country_code": "AT",
+            "country_label": "Austria",
+            "affiliations": [
+              "SBA Research, Vienna, Austria"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX ATC 2025",
+          "dblp_url": "https://dblp.org/rec/conf/usenix/SchreiberLZS25.html",
+          "conference_id": "usenix-2025"
+        },
+        {
+          "title": "QuSBT: Search-Based Testing of Quantum Programs",
+          "authors": [
+            "Xinyi Wang 0004",
+            "Paolo Arcaini",
+            "Tao Yue 0002",
+            "Shaukat Ali 0001"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Xinyi Wang 0004",
+            "country_code": "AT",
+            "country_label": "Austria",
+            "affiliations": [
+              "Michigan State University, Department of Computational Mathematics, Science, and Engineering, MI, USA",
+              "Graz University of Technology, Institute of Geometry, Austria"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2022",
+          "dblp_url": "https://dblp.org/rec/conf/icse/WangAYA22.html",
+          "conference_id": "icse-2022"
+        },
+        {
+          "title": "Inconsistency-Tolerating Guidance for Software Engineering Processes",
+          "authors": [
+            "Christoph Mayr-Dorn",
+            "Roland Kretschmer",
+            "Alexander Egyed",
+            "Ruben Heradio",
+            "David Fern&aacute;ndez-Amor&oacute;s"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Christoph Mayr-Dorn",
+            "country_code": "AT",
+            "country_label": "Austria",
+            "affiliations": [
+              "Johannes Kepler University, Linz, Austria"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2021",
+          "dblp_url": "https://dblp.org/rec/conf/icse/Mayr-DornKEHF21.html",
+          "conference_id": "icse-2021"
+        },
+        {
+          "title": "Supporting Quality Assurance with Automated Process-Centric Quality Constraints Checking",
+          "authors": [
+            "Christoph Mayr-Dorn",
+            "Michael Vierhauser",
+            "Stefan Bichler",
+            "Felix Keplinger",
+            "Jane Cleland-Huang",
+            "Alexander Egyed",
+            "Thomas Mehofer"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Christoph Mayr-Dorn",
+            "country_code": "AT",
+            "country_label": "Austria",
+            "affiliations": [
+              "Johannes Kepler University, Linz, Austria"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2021",
+          "dblp_url": "https://dblp.org/rec/conf/icse/Mayr-DornVBKCEM21.html",
+          "conference_id": "icse-2021"
+        },
+        {
+          "title": "TimeTracer: a tool for back in time traceability replaying",
+          "authors": [
+            "Christoph Mayr-Dorn",
+            "Michael Vierhauser",
+            "Felix Keplinger",
+            "Stefan Bichler",
+            "Alexander Egyed"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Christoph Mayr-Dorn",
+            "country_code": "AT",
+            "country_label": "Austria",
+            "affiliations": [
+              "Johannes Kepler University, Linz, Austria"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2020",
+          "dblp_url": "https://dblp.org/rec/conf/icse/Mayr-DornVKBE20.html",
+          "conference_id": "icse-2020"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "label": "India",
+      "total": 5,
+      "dblp": 5,
+      "areas": {
+        "": 3,
+        "system-security": 2
+      },
+      "by_year": {
+        "2021": 1,
+        "2022": 1,
+        "2024": 1,
+        "2025": 1,
+        "2026": 1
+      },
+      "top_papers": [
+        {
+          "title": "Systematic Evaluation of Randomized Cache Designs against Cache Occupancy",
+          "authors": [
+            "Anirban Chakraborty 0003",
+            "Nimish Mishra",
+            "Sayandeep Saha",
+            "Sarani Bhattacharya",
+            "Debdeep Mukhopadhyay"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Anirban Chakraborty 0003",
+            "country_code": "IN",
+            "country_label": "India",
+            "affiliations": [
+              "Indian Institute of Technology Kharagpur, Department of Computer Science and Engineering, India"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX Security 2025",
+          "dblp_url": "https://dblp.org/rec/conf/uss/0003MSBM25.html",
+          "conference_id": "uss-2025"
+        },
+        {
+          "title": "Shesha : Multi-head Microarchitectural Leakage Discovery in new-generation Intel Processors",
+          "authors": [
+            "Anirban Chakraborty 0003",
+            "Nimish Mishra",
+            "Debdeep Mukhopadhyay"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Anirban Chakraborty 0003",
+            "country_code": "IN",
+            "country_label": "India",
+            "affiliations": [
+              "Indian Institute of Technology Kharagpur, Department of Computer Science and Engineering, India"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "USENIX Security 2024",
+          "dblp_url": "https://dblp.org/rec/conf/uss/0003MM24.html",
+          "conference_id": "uss-2024"
+        },
+        {
+          "title": "TierScape: Harnessing Multiple Compressed Tiers to Tame Server Memory TCO",
+          "authors": [
+            "Sandeep Kumar",
+            "Aravinda Prasad",
+            "Sreenivas Subramoney"
+          ],
+          "source": "dblp",
+          "year": "2026",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Sandeep Kumar",
+            "country_code": "IN",
+            "country_label": "India",
+            "affiliations": [
+              "Jagannath University, Chaksu, Jaipur, Rajasthan, India"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "EuroSys 2026",
+          "dblp_url": "https://dblp.org/rec/conf/eurosys/KumarPS26.html",
+          "conference_id": "eurosys-2026"
+        },
+        {
+          "title": "GPM: leveraging persistent memory from a GPU",
+          "authors": [
+            "Shweta Pandey 0001",
+            "Aditya K. Kamath",
+            "Arkaprava Basu"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Shweta Pandey 0001",
+            "country_code": "IN",
+            "country_label": "India",
+            "affiliations": [
+              "Indian Institute of Science Bangalore, Bangalore, India"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ASPLOS 2022",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/PandeyKB22.html",
+          "conference_id": "asplos-2022"
+        },
+        {
+          "title": "Speculative Analysis for Quality Assessment of Code Comments",
+          "authors": [
+            "Pooja Rani 0001"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Pooja Rani 0001",
+            "country_code": "IN",
+            "country_label": "India",
+            "affiliations": [
+              "Motilal Nehru National Institute of Technology Allahabad, Department of Electronics and Communication Engineering, India"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2021",
+          "dblp_url": "https://dblp.org/rec/conf/icse/Rani21.html",
+          "conference_id": "icse-2021"
+        }
+      ]
+    },
+    {
+      "code": "JP",
+      "label": "Japan",
+      "total": 5,
+      "dblp": 5,
+      "areas": {
+        "": 4,
+        "fault-tolerance": 1
+      },
+      "by_year": {
+        "2020": 2,
+        "2023": 1,
+        "2024": 2
+      },
+      "top_papers": [
+        {
+          "title": "Fault-tolerant and transactional stateful serverless workflows",
+          "authors": [
+            "Haoran Zhang 0009",
+            "Adney Cardoza",
+            "Peter Baile Chen",
+            "Sebastian Angel",
+            "Vincent Liu 0001"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "fault-tolerance",
+          "area_label": "Fault Tolerance",
+          "area_score": 16,
+          "first_author": {
+            "name": "Haoran Zhang 0009",
+            "country_code": "JP",
+            "country_label": "Japan",
+            "affiliations": [
+              "LocationMind Inc., Chiyoda-ku, Japan",
+              "Peking University, School of Urban Planning and Design, Beijing, China",
+              "University of Tokyo, Japan",
+              "China University of Petroleum, Beijing, China"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "OSDI 2020",
+          "dblp_url": "https://dblp.org/rec/conf/osdi/ZhangCCAL20.html",
+          "conference_id": "osdi-2020"
+        },
+        {
+          "title": "Predicting open source contributor turnover from value-related discussions: An analysis of GitHub issues",
+          "authors": [
+            "Jack Jamieson",
+            "Naomi Yamashita",
+            "Eureka Foong"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Jack Jamieson",
+            "country_code": "JP",
+            "country_label": "Japan",
+            "affiliations": [
+              "NTT Social Informatics Laboratories, Tokyo, Japan"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/JamiesonYF24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "Technical Briefing on Deep Neural Network Repair",
+          "authors": [
+            "Paolo Arcaini",
+            "Fuyuki Ishikawa",
+            "Lei Ma 0003",
+            "Yuta Maezawa",
+            "Nobukazu Yoshioka",
+            "Fuyuan Zhang"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Paolo Arcaini",
+            "country_code": "JP",
+            "country_label": "Japan",
+            "affiliations": [
+              "National Institute of Informatics, Tokyo, Japan"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/ArcainiI0MYZ24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "CRAG at the SBFT 2023 Tool Competition - Cyber-Physical Systems Track",
+          "authors": [
+            "Paolo Arcaini",
+            "Ahmet Cetinkaya"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Paolo Arcaini",
+            "country_code": "JP",
+            "country_label": "Japan",
+            "affiliations": [
+              "National Institute of Informatics, Tokyo, Japan"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2023",
+          "dblp_url": "https://dblp.org/rec/conf/icse/ArcainiC23.html",
+          "conference_id": "icse-2023"
+        },
+        {
+          "title": "Peacenik: Architecture Support for Not Failing under Fail-Stop Memory Consistency",
+          "authors": [
+            "Rui Zhang",
+            "Swarnendu Biswas",
+            "Vignesh Balaji",
+            "Michael D. Bond",
+            "Brandon Lucia"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Rui Zhang",
+            "country_code": "JP",
+            "country_label": "Japan",
+            "affiliations": [
+              "Chinese Academy of Sciences (CAS), Institute of Information Engineering, State Key Laboratory of Cyberspace Security Defense, Beijing, China",
+              "University of Chinese Academy of Sciences, School of Cyber Security, Beijing, China",
+              "Chinese Academy of Sciences (CAS), Institute of Information Engineering, State Key Laboratory of Information Security, Beijing, China",
+              "National Institute of Advanced Industrial Science and Technology (AIST), Tokyo, Japan",
+              "University of Tokyo, Institute of Industrial Science, Tokyo, Japan"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ASPLOS 2020",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/ZhangBBBL20.html",
+          "conference_id": "asplos-2020"
+        }
+      ]
+    },
+    {
+      "code": "BE",
+      "label": "Belgium",
+      "total": 4,
+      "dblp": 4,
+      "areas": {
+        "": 4
+      },
+      "by_year": {
+        "2020": 1,
+        "2023": 1,
+        "2024": 1,
+        "2025": 1
+      },
+      "top_papers": [
+        {
+          "title": "UGPU: Dynamically Constructing Unbalanced GPUs for Enhanced Resource Efficiency",
+          "authors": [
+            "Xia Zhao 0004",
+            "Guangda Zhang",
+            "Lu Wang 0019",
+            "Huadong Dai"
+          ],
+          "source": "dblp",
+          "year": "2025",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Xia Zhao 0004",
+            "country_code": "BE",
+            "country_label": "Belgium",
+            "affiliations": [
+              "Ghent University, Department of Electronics and Information Systems, Belgium",
+              "National University of Defense Technology, Changsha, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ISCA 2025",
+          "dblp_url": "https://dblp.org/rec/conf/isca/ZhaoZWD25.html",
+          "conference_id": "isca-2025"
+        },
+        {
+          "title": "FOCAL: A First-Order Carbon Model to Assess Processor Sustainability",
+          "authors": [
+            "Lieven Eeckhout"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Lieven Eeckhout",
+            "country_code": "BE",
+            "country_label": "Belgium",
+            "affiliations": [
+              "Ghent University, Gent, Belgium"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ASPLOS 2024",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/Eeckhout24.html",
+          "conference_id": "asplos-2024"
+        },
+        {
+          "title": "NUBA: Non-Uniform Bandwidth GPUs",
+          "authors": [
+            "Xia Zhao 0004",
+            "Magnus Jahre",
+            "Yuhua Tang",
+            "Guangda Zhang",
+            "Lieven Eeckhout"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Xia Zhao 0004",
+            "country_code": "BE",
+            "country_label": "Belgium",
+            "affiliations": [
+              "Ghent University, Department of Electronics and Information Systems, Belgium",
+              "National University of Defense Technology, Changsha, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ASPLOS 2023",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/0004JTZE23.html",
+          "conference_id": "asplos-2023"
+        },
+        {
+          "title": "HSM: A Hybrid Slowdown Model for Multitasking GPUs",
+          "authors": [
+            "Xia Zhao 0004",
+            "Magnus Jahre",
+            "Lieven Eeckhout"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Xia Zhao 0004",
+            "country_code": "BE",
+            "country_label": "Belgium",
+            "affiliations": [
+              "Ghent University, Department of Electronics and Information Systems, Belgium",
+              "National University of Defense Technology, Changsha, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ASPLOS 2020",
+          "dblp_url": "https://dblp.org/rec/conf/asplos/0004JE20.html",
+          "conference_id": "asplos-2020"
+        }
+      ]
+    },
+    {
+      "code": "BR",
+      "label": "Brazil",
+      "total": 3,
+      "dblp": 3,
+      "areas": {
+        "": 3
+      },
+      "by_year": {
+        "2021": 1,
+        "2022": 1,
+        "2023": 1
+      },
+      "top_papers": [
+        {
+          "title": "K-D Bonsai: ISA-Extensions to Compress K-D Trees for Autonomous Driving Tasks",
+          "authors": [
+            "Pedro Henrique Exenberger Becker",
+            "Jos&eacute;-Mar&iacute;a Arnau",
+            "Antonio Gonz&aacute;lez 0001"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Pedro Henrique Exenberger Becker",
+            "country_code": "BR",
+            "country_label": "Brazil",
+            "affiliations": [
+              "Polytechnic University of Catalonia (UPC), Barcelona, Spain",
+              "Federal University of Rio Grande do Sul (UFRGS), Porto Alegre, RS, Brazil"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ISCA 2023",
+          "dblp_url": "https://dblp.org/rec/conf/isca/BeckerA023.html",
+          "conference_id": "isca-2023"
+        },
+        {
+          "title": "The best defense is a good defense: adapting negotiation methods for tackling pressure over software project estimates",
+          "authors": [
+            "Patr&iacute;cia G. F. Matsubara",
+            "Igor Steinmacher",
+            "Bruno Gadelha",
+            "Tayana Conte"
+          ],
+          "source": "dblp",
+          "year": "2022",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Patr&iacute;cia G. F. Matsubara",
+            "country_code": "BR",
+            "country_label": "Brazil",
+            "affiliations": [
+              "Federal University of Mato Grosso do Sul, Campo Grande, Brazil"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2022",
+          "dblp_url": "https://dblp.org/rec/conf/icse/MatsubaraSGC22.html",
+          "conference_id": "icse-2022"
+        },
+        {
+          "title": "Buying time in software development: how estimates become commitments?",
+          "authors": [
+            "Patr&iacute;cia G. F. Matsubara",
+            "Igor Steinmacher",
+            "Bruno Gadelha",
+            "Tayana Uch&ocirc;a Conte"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Patr&iacute;cia G. F. Matsubara",
+            "country_code": "BR",
+            "country_label": "Brazil",
+            "affiliations": [
+              "Federal University of Mato Grosso do Sul, Campo Grande, Brazil"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2021",
+          "dblp_url": "https://dblp.org/rec/conf/icse/MatsubaraSGC21.html",
+          "conference_id": "icse-2021"
+        }
+      ]
+    },
+    {
+      "code": "ES",
+      "label": "Spain",
+      "total": 3,
+      "dblp": 3,
+      "areas": {
+        "": 3
+      },
+      "by_year": {
+        "2020": 2,
+        "2024": 1
+      },
+      "top_papers": [
+        {
+          "title": "QUETZAL: Vector Acceleration Framework for Modern Genome Sequence Analysis Algorithms",
+          "authors": [
+            "Julian Pavon",
+            "Iv&aacute;n Vargas Valdivieso",
+            "Carlos Rojas",
+            "C&eacute;sar Hern&aacute;ndez",
+            "Mehmet Aslan",
+            "Roger Figueras",
+            "Yichao Yuan",
+            "Jo&euml;l Lindegger",
+            "Mohammed Alser",
+            "Francesc Moll",
+            "Santiago Marco-Sola",
+            "Oguz Ergin",
+            "Nishil Talati",
+            "Onur Mutlu",
+            "Osman S. Unsal",
+            "Mateo Valero",
+            "Adri&aacute;n Cristal"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Julian Pavon",
+            "country_code": "ES",
+            "country_label": "Spain",
+            "affiliations": [
+              "Barcelona Supercomputing Center, Spain"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ISCA 2024",
+          "dblp_url": "https://dblp.org/rec/conf/isca/PavonVRHAFYLAMMETMUVC24.html",
+          "conference_id": "isca-2024"
+        },
+        {
+          "title": "Software architecture and task plan co-adaptation for mobile service robots",
+          "authors": [
+            "Javier C&aacute;mara 0001",
+            "Bradley R. Schmerl",
+            "David Garlan"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Javier C&aacute;mara 0001",
+            "country_code": "ES",
+            "country_label": "Spain",
+            "affiliations": [
+              "University of M&aacute;laga, Spain"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2020",
+          "dblp_url": "https://dblp.org/rec/conf/icse/CamaraSG20.html",
+          "conference_id": "icse-2020"
+        },
+        {
+          "title": "Towards bridging the gap between control and self-adaptive system properties",
+          "authors": [
+            "Javier C&aacute;mara 0001",
+            "Alessandro Vittorio Papadopoulos",
+            "Thomas Vogel 0001",
+            "Danny Weyns",
+            "David Garlan",
+            "Shihong Huang",
+            "Kenji Tei"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Javier C&aacute;mara 0001",
+            "country_code": "ES",
+            "country_label": "Spain",
+            "affiliations": [
+              "University of M&aacute;laga, Spain"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2020",
+          "dblp_url": "https://dblp.org/rec/conf/icse/CamaraP0WGHT20.html",
+          "conference_id": "icse-2020"
+        }
+      ]
+    },
+    {
+      "code": "IL",
+      "label": "Israel",
+      "total": 2,
+      "dblp": 2,
+      "areas": {
+        "": 2
+      },
+      "by_year": {
+        "2021": 2
+      },
+      "top_papers": [
+        {
+          "title": "Unrealizable Cores for Reactive Systems Specifications",
+          "authors": [
+            "Shahar Maoz",
+            "Rafi Shalom"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Shahar Maoz",
+            "country_code": "IL",
+            "country_label": "Israel",
+            "affiliations": [
+              "Tel Aviv University, Israel"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ICSE 2021",
+          "dblp_url": "https://dblp.org/rec/conf/icse/MaozS21.html",
+          "conference_id": "icse-2021"
+        },
+        {
+          "title": "Unrealizable Cores for Reactive Systems Specifications: Artifact",
+          "authors": [
+            "Shahar Maoz",
+            "Rafi Shalom"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Shahar Maoz",
+            "country_code": "IL",
+            "country_label": "Israel",
+            "affiliations": [
+              "Tel Aviv University, Israel"
+            ],
+            "source": "affiliation-institution",
+            "confidence": "medium"
+          },
+          "venue": "ICSE 2021",
+          "dblp_url": "https://dblp.org/rec/conf/icse/MaozS21a.html",
+          "conference_id": "icse-2021"
+        }
+      ]
+    },
+    {
+      "code": "NO",
+      "label": "Norway",
+      "total": 2,
+      "dblp": 2,
+      "areas": {
+        "": 2
+      },
+      "by_year": {
+        "2023": 1,
+        "2024": 1
+      },
+      "top_papers": [
+        {
+          "title": "Quantum Software Testing 101",
+          "authors": [
+            "Shaukat Ali 0001"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Shaukat Ali 0001",
+            "country_code": "NO",
+            "country_label": "Norway",
+            "affiliations": [
+              "Simula Research Laboratory, Certus Software V&V Center, Lysaker, Norway",
+              "University of Oslo, Norway"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/Ali24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "Quantum Software Testing: A Brief Introduction",
+          "authors": [
+            "Shaukat Ali 0001",
+            "Tao Yue 0002"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Shaukat Ali 0001",
+            "country_code": "NO",
+            "country_label": "Norway",
+            "affiliations": [
+              "Simula Research Laboratory, Certus Software V&V Center, Lysaker, Norway",
+              "University of Oslo, Norway"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2023",
+          "dblp_url": "https://dblp.org/rec/conf/icse/0001023.html",
+          "conference_id": "icse-2023"
+        }
+      ]
+    },
+    {
+      "code": "TW",
+      "label": "Taiwan",
+      "total": 2,
+      "dblp": 2,
+      "areas": {
+        "": 2
+      },
+      "by_year": {
+        "2020": 1,
+        "2024": 1
+      },
+      "top_papers": [
+        {
+          "title": "Applying Transformer Models for Automatic Build Errors Classification of Java-Based Open Source Projects",
+          "authors": [
+            "Jonathan Lee 0004",
+            "Mason Li",
+            "Kuo-Hsun Hsu"
+          ],
+          "source": "dblp",
+          "year": "2024",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Jonathan Lee 0004",
+            "country_code": "TW",
+            "country_label": "Taiwan",
+            "affiliations": [
+              "National Taiwan University, Taipei, Taiwan"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2024",
+          "dblp_url": "https://dblp.org/rec/conf/icse/0004LH24.html",
+          "conference_id": "icse-2024"
+        },
+        {
+          "title": "MemLock: memory usage guided fuzzing",
+          "authors": [
+            "Cheng Wen 0002",
+            "Haijun Wang 0002",
+            "Yuekang Li",
+            "Shengchao Qin",
+            "Yang Liu 0003",
+            "Zhiwu Xu 0001",
+            "Hongxu Chen 0001",
+            "Xiaofei Xie",
+            "Geguang Pu",
+            "Ting Liu 0002"
+          ],
+          "source": "dblp",
+          "year": "2020",
+          "area_id": "",
+          "area_label": "",
+          "area_score": 0,
+          "first_author": {
+            "name": "Cheng Wen 0002",
+            "country_code": "TW",
+            "country_label": "Taiwan",
+            "affiliations": [
+              "Lunghwa University of Science and Technology, Department of Electrical Engineering,",
+              "National Taiwan University, Department of Electrical Engineering, Taipei, TaiwanC"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "ICSE 2020",
+          "dblp_url": "https://dblp.org/rec/conf/icse/WenWLQLXCXPL20.html",
+          "conference_id": "icse-2020"
+        }
+      ]
+    },
+    {
+      "code": "DK",
+      "label": "Denmark",
+      "total": 1,
+      "dblp": 1,
+      "areas": {
+        "system-security": 1
+      },
+      "by_year": {
+        "2021": 1
+      },
+      "top_papers": [
+        {
+          "title": "Collective Information Security in Large-Scale Urban Protests: the Case of Hong Kong",
+          "authors": [
+            "Martin R. Albrecht",
+            "Jorge Blasco",
+            "Rikke Bjerg Jensen",
+            "Lenka Marekov&aacute;"
+          ],
+          "source": "dblp",
+          "year": "2021",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 8,
+          "first_author": {
+            "name": "Martin R. Albrecht",
+            "country_code": "DK",
+            "country_label": "Denmark",
+            "affiliations": [
+              "King's College London, UK",
+              "Royal Holloway University of London, UK",
+              "Technical University of Denmark (DTU), Section for Mathematics, Copenhagen, Denmark",
+              "Pierre and Marie Curie University, LIP6, Paris, France"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2021",
+          "dblp_url": "https://dblp.org/rec/conf/uss/AlbrechtBJM21.html",
+          "conference_id": "uss-2021"
+        }
+      ]
+    },
+    {
+      "code": "FI",
+      "label": "Finland",
+      "total": 1,
+      "dblp": 1,
+      "areas": {
+        "system-security": 1
+      },
+      "by_year": {
+        "2023": 1
+      },
+      "top_papers": [
+        {
+          "title": "TRIDENT: Towards Detecting and Mitigating Web-based Social Engineering Attacks",
+          "authors": [
+            "Zheng Yang",
+            "Joey Allen",
+            "Matthew Landen",
+            "Roberto Perdisci",
+            "Wenke Lee"
+          ],
+          "source": "dblp",
+          "year": "2023",
+          "area_id": "system-security",
+          "area_label": "System Security",
+          "area_score": 4,
+          "first_author": {
+            "name": "Zheng Yang",
+            "country_code": "FI",
+            "country_label": "Finland",
+            "affiliations": [
+              "Southwest University, Chongqing, China",
+              "University of Helsinki, Secure System Group, Finland",
+              "Chongqing University of Technology, School of Computer Science and Engineering, China"
+            ],
+            "source": "affiliation-country-text",
+            "confidence": "low"
+          },
+          "venue": "USENIX Security 2023",
+          "dblp_url": "https://dblp.org/rec/conf/uss/YangALPL23.html",
+          "conference_id": "uss-2023"
+        }
+      ]
     }
   ],
   "matrix": {
     "XX": {
-      "llm-serving": 162,
-      "ebpf": 74,
-      "memory-resource": 118,
-      "fault-tolerance": 66,
-      "": 3121,
-      "system-security": 1417,
-      "fs-storage": 116,
+      "llm-serving": 192,
+      "ebpf": 96,
+      "memory-resource": 156,
+      "fault-tolerance": 112,
+      "": 5021,
+      "system-security": 2104,
+      "fs-storage": 172,
       "kernel-agentic": 8,
-      "on-device-ai": 103,
-      "os-kernel-arch": 49
+      "on-device-ai": 130,
+      "os-kernel-arch": 74
+    },
+    "US": {
+      "llm-serving": 3,
+      "": 117,
+      "ebpf": 6,
+      "fs-storage": 3,
+      "system-security": 39,
+      "on-device-ai": 3,
+      "memory-resource": 4,
+      "fault-tolerance": 5,
+      "os-kernel-arch": 2
+    },
+    "CN": {
+      "llm-serving": 9,
+      "": 181,
+      "fs-storage": 10,
+      "memory-resource": 8,
+      "ebpf": 7,
+      "on-device-ai": 5,
+      "system-security": 51,
+      "fault-tolerance": 2,
+      "os-kernel-arch": 2
+    },
+    "HK": {
+      "": 23,
+      "llm-serving": 1,
+      "fs-storage": 1,
+      "on-device-ai": 5,
+      "ebpf": 3,
+      "system-security": 3,
+      "memory-resource": 1,
+      "fault-tolerance": 1,
+      "os-kernel-arch": 1
+    },
+    "KR": {
+      "": 7,
+      "fs-storage": 1,
+      "on-device-ai": 2,
+      "llm-serving": 2,
+      "system-security": 1
+    },
+    "SG": {
+      "": 21,
+      "system-security": 6,
+      "on-device-ai": 1,
+      "fault-tolerance": 1
+    },
+    "GB": {
+      "": 15,
+      "system-security": 1,
+      "ebpf": 1
+    },
+    "SE": {
+      "": 6,
+      "system-security": 2,
+      "llm-serving": 1
+    },
+    "IN": {
+      "": 3,
+      "system-security": 2
+    },
+    "FR": {
+      "": 5,
+      "system-security": 1
+    },
+    "CH": {
+      "": 14,
+      "system-security": 10,
+      "llm-serving": 1,
+      "fault-tolerance": 1,
+      "memory-resource": 1
+    },
+    "CA": {
+      "": 15,
+      "system-security": 3
+    },
+    "IT": {
+      "": 7
+    },
+    "NL": {
+      "": 11
+    },
+    "DE": {
+      "": 18,
+      "system-security": 20,
+      "ebpf": 1
+    },
+    "BE": {
+      "": 4
+    },
+    "AT": {
+      "system-security": 1,
+      "": 4
+    },
+    "AU": {
+      "": 10,
+      "system-security": 2,
+      "fault-tolerance": 1
+    },
+    "TW": {
+      "": 2
+    },
+    "JP": {
+      "": 4,
+      "fault-tolerance": 1
+    },
+    "NO": {
+      "": 2
+    },
+    "ES": {
+      "": 3
+    },
+    "BR": {
+      "": 3
+    },
+    "FI": {
+      "system-security": 1
+    },
+    "IL": {
+      "": 2
+    },
+    "DK": {
+      "system-security": 1
     }
   },
   "sources": {
-    "dblp": 5234
+    "dblp": 8783
   }
 }

@@ -4,10 +4,11 @@ Enrich dblp conference JSON with per-author affiliations and countries.
 
 Resolution order:
   1. Reload from disk caches (author-paper-reload / author-country / dblp-affiliation)
-  2. dblp person-page affiliations (author search + profile HTML) — incremental only
-  3. Local institution/country keyword rules on affiliation text
-  4. Optional OpenAlex fallback (--openalex; off by default)
-  5. Placeholder affiliation so every author row is populated; country XX if unknown
+  2. dblp person records in dblp.xml.gz (offline index: homepages + affiliation notes)
+  3. Optional dblp person-page HTTP (--online-dblp-fallback / AUTHOR_ENRICH_ONLINE_DBLP=1)
+  4. Local institution/country keyword rules on affiliation text
+  5. Optional OpenAlex fallback (--openalex; off by default)
+  6. Placeholder affiliation so every author row is populated; country XX if unknown
 
 By default only conference proceedings (pick years) are enriched. arXiv recent
 papers are opt-in via --with-arxiv (not used for country analytics).
@@ -19,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from pathlib import Path
 from typing import Any
 
@@ -44,6 +46,7 @@ from core.author_reload import (
     target_author_names,
 )
 from core.dblp_affiliations import DblpAffiliationCache, DblpAffiliationFetcher
+from core.dblp_person_index import ensure_person_index, load_person_index
 from core.hub_config import add_hub_argument, load_hub
 from core.incremental import is_fresh, load_json, policy_fingerprint, save_json, utc_now_iso
 from core.published_abstracts import normalize_title_key
@@ -518,10 +521,15 @@ def main() -> int:
         help="do not hydrate papers from disk caches before online fetch",
     )
     parser.add_argument(
+        "--online-dblp-fallback",
+        action="store_true",
+        help="HTTP-fetch dblp person pages when the offline xml person index misses (slow; default off)",
+    )
+    parser.add_argument(
         "--max-online-authors",
         type=int,
         default=None,
-        help="cap new dblp person-page lookups this run (CI uses this so jobs finish and persist cache)",
+        help="cap new dblp person-page HTTP lookups this run (only with --online-dblp-fallback)",
     )
     parser.add_argument("--limit", type=int, default=None, help="max papers per dataset (testing)")
     args = parser.parse_args()
@@ -537,11 +545,20 @@ def main() -> int:
     resolver = AuthorCountryResolver(cache=cache, policy=policy, offline=openalex_offline)
     dblp_cache_path = hub.root / "data" / f"dblp-affiliation-cache-{hub.id}.json"
     dblp_cache = DblpAffiliationCache(dblp_cache_path)
+
+    person_index = None
+    if not args.skip_dblp_fetch and hub.dblp_xml.is_file():
+        ensure_person_index(hub.dblp_xml, force=args.force)
+        person_index = load_person_index(hub.root)
+
+    online_dblp_fallback = args.online_dblp_fallback or os.environ.get("AUTHOR_ENRICH_ONLINE_DBLP", "") == "1"
     dblp_fetcher = None
-    if not args.offline and not args.skip_dblp_fetch:
+    if not args.skip_dblp_fetch:
         dblp_fetcher = DblpAffiliationFetcher(
             cache=dblp_cache,
-            offline=False,
+            offline=args.offline or not online_dblp_fallback,
+            person_index=person_index,
+            online_fallback=online_dblp_fallback and not args.offline,
             max_lookups=args.max_online_authors,
         )
     arxiv_path = hub.site_json_path("arxiv-recent.json")
@@ -590,9 +607,11 @@ def main() -> int:
         )
         dblp_fetcher = None
 
+    index_entries = person_index.entry_count if person_index and person_index.loaded else 0
     log(
         f"Enriching author metadata for {hub.id} years={years} "
-        f"offline={args.offline} dblp_fetch={dblp_fetcher is not None} "
+        f"offline={args.offline} dblp_xml_index={index_entries} "
+        f"dblp_http_fallback={online_dblp_fallback and not args.offline} "
         f"first_author_only={args.first_author_only} reload={disk_reload} "
         f"max_online={args.max_online_authors if args.max_online_authors is not None else 'unlimited'} "
         f"(complete {before['complete']}/{before['total']}, online_pending {pending_online})"

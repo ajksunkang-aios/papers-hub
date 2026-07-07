@@ -8,10 +8,9 @@
 # Schedule: 09:00 Asia/Shanghai (01:00 UTC). Adjust cron if you use another TZ.
 # Manual run: Actions → Deploy Pages → Run workflow
 #
-# Country analytics: ONLINE by default (dblp person-page affiliations for
-# PICK_YEARS / COUNTRY_YEARS from 2020 onward). Affiliation + reload indexes
-# are restored across runs; CI runs a full dblp person-page pass (no fetch
-# cap) with reload so later deploys reuse prior hits. Emergency offline:
+# Country analytics: dblp.xml person index (offline) by default.
+# PICK_YEARS / COUNTRY_YEARS from 2020 onward. Set AUTHOR_ENRICH_ONLINE_DBLP=1
+# only when you need slow HTTP fallback for authors missing from the xml index.
 #   AUTHOR_ENRICH_OFFLINE=1
 #
 # Note: view counts update live via the views API (Cloudflare Worker). This workflow
@@ -88,6 +87,8 @@ jobs:
             data/arxiv-cache
             data/abstract-enrich-os-kernel.json
             data/dblp-build-os-kernel.json
+            data/dblp-person-index.json
+            data/dblp-person-index-manifest.json
           key: papers-hub-build-${{ runner.os }}-${{ hashFiles('hubs/os-kernel/**', 'core/**', 'crawl_arxiv_recent.py', 'build_top_monthly.py', 'enrich_author_metadata.py', 'build_country_analytics.py') }}
           restore-keys: |
             papers-hub-build-${{ runner.os }}-
@@ -100,8 +101,7 @@ jobs:
           # Enrich + country analytics: 2020–present (not full historical dblp dump).
           PICK_YEARS: "2020,2021,2022,2023,2024,2025,2026"
           COUNTRY_YEARS: "2020,2021,2022,2023,2024,2025,2026"
-          # Online dblp first-author enrich; leave AUTHOR_ENRICH_MAX_ONLINE unset for full scan.
-          # Set AUTHOR_ENRICH_OFFLINE=1 only for emergency offline deploys.
+          # Offline dblp.xml person index; no HTTP unless AUTHOR_ENRICH_ONLINE_DBLP=1.
           AUTHOR_ENRICH_OFFLINE: "0"
           AUTHOR_COUNTRY_OFFLINE: "0"
         run: ./scripts/daily_update.sh
@@ -124,7 +124,7 @@ jobs:
         run: python3 -m unittest tests/test_view_stats.py
 
       - name: Test author country + dblp affiliation helpers
-        run: python3 -m unittest tests/test_author_country.py tests/test_dblp_affiliations.py
+        run: python3 -m unittest tests/test_author_country.py tests/test_dblp_affiliations.py tests/test_dblp_person_index.py
 
       - name: Verify view zones stay in sync
         run: python3 scripts/sync_view_zones.py --check

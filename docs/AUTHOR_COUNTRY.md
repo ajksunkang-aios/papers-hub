@@ -8,7 +8,7 @@ Data: `website/data/country-analytics.json`
 Country analytics uses **dblp only**. Paper totals and author enrich share the same year window (default **2020–present**).
 
 1. **Papers** — venue JSON under `website/data/` listed by `conferences.json` for `COUNTRY_YEARS` (default `2020,…,2026`; use `all` for every year in the dump).
-2. **Affiliations** — fetched from dblp **person pages** (bulk `dblp.xml` has author names only, no affiliations). Online enrich uses the same `PICK_YEARS` window with full dblp person-page fetch (reload caches prior hits).
+2. **Affiliations** — extracted offline from dblp **person records** inside `dblp.xml.gz` (`<www key="homepages/...">` + `<note type="affiliation">`). Built once into `data/dblp-person-index.json`. Optional slow HTTP fallback: `AUTHOR_ENRICH_ONLINE_DBLP=1`.
 3. **Country** — inferred from affiliation text via keyword rules in `author_country_policy.json`.
 4. **Unknown** — no dblp affiliation or no keyword match → country code `XX`.
 
@@ -31,7 +31,8 @@ GitHub Actions runs the **online** dblp pipeline in [`.github/workflows/deploy-p
 
 | File | Role |
 |------|------|
-| `data/dblp-affiliation-cache-*.json` | Per-author dblp person-page result (or miss) |
+| `data/dblp-person-index.json` | Offline author → affiliation index from dblp.xml person records |
+| `data/dblp-affiliation-cache-*.json` | Per-author enrich result (from xml index and/or HTTP) |
 | `data/author-country-cache-*.json` | Per-paper `authors_structured` |
 | `data/author-paper-reload-*.json` | Compact reload index written into `website/data/*.json` |
 

@@ -6,7 +6,8 @@
 #   HUB=os-kernel ABSTRACT_OFFLINE=1 ./scripts/daily_update.sh
 #   AUTHOR_COUNTRY_OFFLINE=1 ./scripts/daily_update.sh   # skip dblp person-page fetch
 #
-# Country analytics: ONLINE by default (first-author affiliations from dblp person pages).
+# Country analytics: dblp.xml person index (offline) by default.
+# Slow HTTP fallback: AUTHOR_ENRICH_ONLINE_DBLP=1
 # Schedule at 9:00 AM (server): ./scripts/install_daily_schedule.sh
 # Schedule at 9:00 AM (GitHub): .github/workflows/deploy-pages.yml
 #
@@ -77,23 +78,24 @@ run_daily() {
       "${ABSTRACT_ENRICH_FLAGS[@]}"
   fi
 
-  # Online dblp person-page affiliations by default (GitHub Pages + local).
-  # Opt out: AUTHOR_ENRICH_OFFLINE=1 or AUTHOR_COUNTRY_OFFLINE=1
-  # Reload: disk caches hydrate website JSON; only unresolved authors hit dblp.
+  # Author affiliations: offline dblp.xml person index by default (fast).
+  # Slow HTTP person-page fallback: AUTHOR_ENRICH_ONLINE_DBLP=1
   AUTHOR_ENRICH_FLAGS=(--years "$PICK_YEARS" --skip-arxiv)
   if [[ "${AUTHOR_ENRICH_ALL_AUTHORS:-0}" != "1" ]]; then
     AUTHOR_ENRICH_FLAGS+=(--first-author-only)
   fi
-  # Skip online fetch when caches already cover all authors (still reloads into JSON).
   AUTHOR_ENRICH_FLAGS+=(--if-stale-hours "${AUTHOR_ENRICH_STALE_HOURS:-168}")
   if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" || "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
     AUTHOR_ENRICH_FLAGS+=(--offline)
-    echo "  author enrich: OFFLINE (no dblp person-page fetch)"
-  elif [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then
-    AUTHOR_ENRICH_FLAGS+=(--max-online-authors "$AUTHOR_ENRICH_MAX_ONLINE")
-    echo "  author enrich: ONLINE dblp (reload, max_online=${AUTHOR_ENRICH_MAX_ONLINE})"
+    echo "  author enrich: OFFLINE (xml person index + disk reload only)"
+  elif [[ "${AUTHOR_ENRICH_ONLINE_DBLP:-0}" == "1" ]]; then
+    AUTHOR_ENRICH_FLAGS+=(--online-dblp-fallback)
+    if [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then
+      AUTHOR_ENRICH_FLAGS+=(--max-online-authors "$AUTHOR_ENRICH_MAX_ONLINE")
+    fi
+    echo "  author enrich: xml index + HTTP fallback (max_online=${AUTHOR_ENRICH_MAX_ONLINE:-unlimited})"
   else
-    echo "  author enrich: ONLINE dblp (reload disk caches, full person-page fetch)"
+    echo "  author enrich: dblp.xml person index (offline, no HTTP)"
   fi
   if [[ "${AUTHOR_USE_OPENALEX:-0}" == "1" ]]; then
     AUTHOR_ENRICH_FLAGS+=(--openalex)

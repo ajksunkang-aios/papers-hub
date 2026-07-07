@@ -412,28 +412,32 @@ def main() -> int:
                 f"dblp build up to date (xml {xml_fp[:40]}…); "
                 f"skip parse → {hub.web_data}"
             )
-            return 0
+        else:
+            venues = load_venues(hub)
+            print(f"Streaming parse for hub {hub.id} (this may take several minutes)...")
+            grouped = stream_parse(xml_path, venues)
+            if not grouped:
+                print("No papers matched; check venue slugs.", file=sys.stderr)
+                return 1
+            print(f"Writing website data to {hub.web_data}...")
+            n = write_website(grouped, venues, web_data=hub.web_data)
+            save_json(
+                manifest_path,
+                {
+                    "hub_id": hub.id,
+                    "source": "dblp",
+                    "fingerprint": xml_fp,
+                    "built_at": utc_now_iso(),
+                    "xml_path": str(xml_path.relative_to(hub.root)),
+                    "conference_count": n,
+                    "web_data": str(hub.web_data.relative_to(hub.root)),
+                },
+            )
 
-        venues = load_venues(hub)
-        print(f"Streaming parse for hub {hub.id} (this may take several minutes)...")
-        grouped = stream_parse(xml_path, venues)
-        if not grouped:
-            print("No papers matched; check venue slugs.", file=sys.stderr)
-            return 2
-        print(f"Writing website data to {hub.web_data}...")
-        n = write_website(grouped, venues, web_data=hub.web_data)
-        save_json(
-            manifest_path,
-            {
-                "hub_id": hub.id,
-                "source": "dblp",
-                "fingerprint": xml_fp,
-                "built_at": utc_now_iso(),
-                "xml_path": str(xml_path.relative_to(hub.root)),
-                "conference_count": n,
-                "web_data": str(hub.web_data.relative_to(hub.root)),
-            },
-        )
+    if xml_path.is_file():
+        from core.dblp_person_index import ensure_person_index
+
+        ensure_person_index(xml_path, force=args.force)
 
     return 0
 

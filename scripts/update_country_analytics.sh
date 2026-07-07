@@ -34,8 +34,13 @@ if [[ "${AUTHOR_ENRICH_ALL_AUTHORS:-0}" != "1" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--first-author-only)
 fi
 AUTHOR_ENRICH_FLAGS+=(--if-stale-hours "${AUTHOR_ENRICH_STALE_HOURS:-168}")
-if [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then
-  AUTHOR_ENRICH_FLAGS+=(--max-online-authors "$AUTHOR_ENRICH_MAX_ONLINE")
+if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" || "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
+  AUTHOR_ENRICH_FLAGS+=(--offline)
+elif [[ "${AUTHOR_ENRICH_ONLINE_DBLP:-0}" == "1" ]]; then
+  AUTHOR_ENRICH_FLAGS+=(--online-dblp-fallback)
+  if [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then
+    AUTHOR_ENRICH_FLAGS+=(--max-online-authors "$AUTHOR_ENRICH_MAX_ONLINE")
+  fi
 fi
 if [[ "${AUTHOR_ENRICH_SKIP_DBLP:-0}" == "1" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--skip-dblp-fetch)

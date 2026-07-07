@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import json
 import sys
 import tempfile
 import unittest
@@ -144,12 +145,51 @@ class AuthorReloadTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             cache = DblpAffiliationCache(Path(tmp) / "dblp.json")
-            fetcher = DblpAffiliationFetcher(cache=cache, offline=False, max_lookups=0)
+            fetcher = DblpAffiliationFetcher(
+                cache=cache,
+                offline=False,
+                online_fallback=True,
+                max_lookups=0,
+            )
             self.assertEqual(fetcher.resolve_author("Alice"), [])
             self.assertTrue(fetcher.budget_exhausted)
             self.assertEqual(fetcher.online_lookups, 0)
             self.assertIsNone(cache.get("alice"))
             self.assertFalse(cache.is_miss("alice"))
+
+    def test_fetcher_uses_person_index_without_http(self) -> None:
+        from core.dblp_affiliations import DblpAffiliationFetcher
+        from core.dblp_person_index import DblpPersonIndex
+
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = DblpAffiliationCache(Path(tmp) / "dblp.json")
+            index_path = Path(tmp) / "person-index.json"
+            index_path.write_text(
+                json.dumps(
+                    {
+                        "version": 1,
+                        "entries": {
+                            "alice example": {
+                                "pid": "e/AliceExample",
+                                "affiliations": ["MIT, Cambridge, MA, USA"],
+                            }
+                        },
+                    }
+                ),
+                encoding="utf-8",
+            )
+            person_index = DblpPersonIndex(index_path)
+            person_index.load()
+            fetcher = DblpAffiliationFetcher(
+                cache=cache,
+                offline=True,
+                person_index=person_index,
+                online_fallback=False,
+            )
+            affs = fetcher.resolve_author("Alice Example")
+            self.assertEqual(affs, ["MIT, Cambridge, MA, USA"])
+            self.assertEqual(fetcher.online_lookups, 0)
+            self.assertEqual(cache.get("alice example"), ["MIT, Cambridge, MA, USA"])
 
 
 if __name__ == "__main__":

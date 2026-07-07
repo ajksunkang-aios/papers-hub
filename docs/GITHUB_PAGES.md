@@ -28,13 +28,13 @@ Same as local daily update:
 - dblp parse (incremental, cached `data/dblp.xml.gz`)
 - arXiv crawl (`--if-stale-hours 24`)
 - top picks + broadcast + hub metadata
-- **online country analytics** — dblp person-page affiliations for `PICK_YEARS` / `COUNTRY_YEARS` (2020–present, first-author-only, full uncached fetch), keyword country codes → `website/data/country-analytics.json`, then deploy to Pages
+- **offline country analytics** — affiliations from dblp.xml person index (`data/dblp-person-index.json`), first-author-only → `website/data/country-analytics.json`, then deploy to Pages
 
 CI defaults:
 
 - `ABSTRACT_SKIP=1` (faster abstract step)
 - `PICK_YEARS` / `COUNTRY_YEARS` = `2020,…,2026`
-- **Online** dblp author enrich (`AUTHOR_ENRICH_OFFLINE=0`), no `AUTHOR_ENRICH_MAX_ONLINE` cap
+- **Offline** dblp person index (no HTTP); set `AUTHOR_ENRICH_ONLINE_DBLP=1` for slow HTTP fallback
 - OpenAlex off unless `AUTHOR_USE_OPENALEX=1`
 - Job timeout 360 minutes so person-page fetches can finish; warm affiliation cache makes later days much faster
 

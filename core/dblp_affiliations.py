@@ -13,6 +13,7 @@ from typing import Any
 from urllib.parse import urlencode
 
 from core.author_profiles import normalize_author_key, normalize_author_name
+from core.dblp_person_index import DblpPersonIndex
 from core.published_abstracts import REQUEST_DELAY_SEC, USER_AGENT
 
 # Person HTML on secondary mirrors often hangs from some networks; use dblp.org only.
@@ -122,10 +123,15 @@ class DblpAffiliationFetcher:
         offline: bool = False,
         request_delay_sec: float = REQUEST_DELAY_SEC,
         max_lookups: int | None = None,
+        person_index: DblpPersonIndex | None = None,
+        online_fallback: bool = False,
     ) -> None:
         self.cache = cache
         self.offline = offline
         self.request_delay_sec = request_delay_sec
+        self.person_index = person_index
+        # Slow HTTP person-page lookup; off by default when xml person index is loaded.
+        self.online_fallback = online_fallback
         # Cap new person-page resolutions so CI can finish and persist the cache.
         self.max_online_authors = max_lookups
         self._last_request = 0.0
@@ -142,7 +148,21 @@ class DblpAffiliationFetcher:
         return self._budget_exhausted
 
     def _network_ok(self) -> bool:
-        return not self.offline and not self._budget_exhausted
+        return self.online_fallback and not self.offline and not self._budget_exhausted
+
+    def _resolve_from_person_index(self, author_name: str, key: str) -> list[str] | None:
+        """Lookup offline index; return affiliations, [] on indexed miss, None if not indexed."""
+        if self.person_index is None or not self.person_index.loaded:
+            return None
+        hit = self.person_index.lookup(author_name)
+        if hit is None:
+            return None
+        affs, pid = hit
+        if affs:
+            self.cache.set(key, affs, pid=pid)
+            return affs
+        self.cache.set_miss(key)
+        return []
 
     def _throttle(self) -> None:
         elapsed = time.monotonic() - self._last_request
@@ -245,7 +265,13 @@ class DblpAffiliationFetcher:
             if self.cache.is_miss(key):
                 return []
 
+        indexed = self._resolve_from_person_index(author_name, key)
+        if indexed is not None:
+            return indexed
+
         if not self._network_ok():
+            if self.person_index is not None and self.person_index.loaded:
+                self.cache.set_miss(key)
             return []
         if self.max_online_authors is not None and self._online_lookups >= self.max_online_authors:
             self._budget_exhausted = True
