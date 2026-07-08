@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=61" />
+    <link rel="stylesheet" href="styles.css?v=65" />
   </head>
   <body>
     <header class="site-header site-header-compact">
@@ -48,6 +48,27 @@
     </header>
 
     <main class="wrap wrap-wide hub-main">
+      <section class="hub-section hub-keyword-search" aria-labelledby="hub-search-heading">
+        <form class="hub-keyword-search-form" action="search.html" method="get" role="search">
+          <div class="hub-keyword-search-copy">
+            <h2 id="hub-search-heading" class="hub-keyword-search-title">Search papers by keyword</h2>
+            <p class="hub-keyword-search-hint">Title and abstract across dblp proceedings and recent arXiv</p>
+          </div>
+          <div class="hub-keyword-search-row">
+            <label class="sr-only" for="hub-keyword-search">Keyword</label>
+            <input
+              id="hub-keyword-search"
+              name="q"
+              type="search"
+              placeholder="e.g. ebpf, TEE, CXL, microkernel…"
+              autocomplete="off"
+              enterkeyhint="search"
+            />
+            <button type="submit" class="hub-keyword-search-btn">Search</button>
+          </div>
+        </form>
+      </section>
+
       <section
         class="hub-section timeline-hub"
         id="timeline-section"
@@ -160,6 +181,6 @@
       <p>Data: <a href="https://dblp.org/">dblp</a> (CC0) &middot; <a href="https://arxiv.org/">arXiv</a></p>
     </footer>
 
-    <script src="hub.js?v=54" type="module"></script>
+    <script src="hub.js?v=55" type="module"></script>
   </body>
 </html>

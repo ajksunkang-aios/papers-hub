@@ -117,6 +117,8 @@ run_daily() {
 
   run "top picks" "$PYTHON" build_top_monthly.py "${HUB_FLAG[@]}" \
     --years "$PICK_YEARS" --arxiv-years "$ARXIV_PICK_YEARS"
+  run "search index" "$PYTHON" build_search_index.py "${HUB_FLAG[@]}" \
+    --years "$PICK_YEARS" --arxiv-years "$ARXIV_PICK_YEARS"
   if [[ "${DAILY_SKIP_COUNTRY_ANALYTICS:-0}" != "1" ]]; then
     run "country analytics" env SKIP_AUTHOR_ENRICH=1 "$ROOT/scripts/update_country_analytics.sh"
   else

@@ -9,7 +9,7 @@ echo "Repo: ${ROOT}"
 echo "HTTP: ${BASE}"
 echo ""
 
-for f in today-broadcast.json top-monthly.json arxiv-recent.json hub.json; do
+for f in today-broadcast.json top-monthly.json search-index.json arxiv-recent.json hub.json; do
   disk="${ROOT}/website/data/${f}"
   if [[ -f "$disk" ]]; then
     echo "=== disk: data/${f} ==="
@@ -28,7 +28,7 @@ for f in today-broadcast.json top-monthly.json arxiv-recent.json hub.json; do
       grep -m1 '"generated_at"' /tmp/papers-hub-check.json 2>/dev/null || true
     fi
   else
-    echo "=== http: data/${f} FAILED (${code}) ó is serve_site.sh running from this repo? ==="
+    echo "=== http: data/${f} FAILED (${code}) ù is serve_site.sh running from this repo? ==="
   fi
   echo ""
 done

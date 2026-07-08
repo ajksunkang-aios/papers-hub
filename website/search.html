@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search papers | OS Kernel Papers Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=65" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div id="global-views-bar" class="global-views-bar" hidden></div>
+      <div class="wrap wrap-wide">
+        <div class="site-header-top">
+          <div class="site-header-brand">
+            <p class="eyebrow"><a href="index.html">OS Kernel Papers Hub</a></p>
+            <h1>Paper search</h1>
+            <p class="lede lede-compact">
+              Keyword lookup across dblp proceedings and recent arXiv (title and abstract).
+            </p>
+            <p class="hub-section-meta" id="search-meta">Loading index…</p>
+          </div>
+          <div class="site-header-actions">
+            <a class="header-nav-btn" href="search.html">Search</a>
+            <a class="header-nav-btn" href="index.html">Home</a>
+            <a class="header-nav-btn" href="country-analytics.html">Country analytics</a>
+            <a class="header-nav-btn" href="author-analytics.html">Author analysis</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap wrap-wide search-page">
+      <section class="toolbar toolbar-sticky search-toolbar" aria-label="Search">
+        <label class="search hub-search search-input-wide">
+          <span class="sr-only">Search by technical keyword</span>
+          <input
+            id="search-input"
+            type="search"
+            placeholder="e.g. ebpf, TEE, CXL, microkernel…"
+            autocomplete="off"
+            autofocus
+          />
+        </label>
+        <p class="result-count" id="search-result-count" aria-live="polite"></p>
+      </section>
+
+      <ol id="search-results" class="search-results-list" aria-label="Search results"></ol>
+    </main>
+
+    <footer class="site-footer wrap wrap-wide">
+      <p>
+        Matches are substring hits in title or abstract (case-insensitive). Results load entirely in your
+        browser from a static index built at deploy time.
+      </p>
+      <p>Data: <a href="https://arxiv.org/">arXiv</a> &middot; <a href="https://dblp.org/">dblp</a></p>
+    </footer>
+
+    <script src="search.js?v=1" type="module"></script>
+  </body>
+</html>

@@ -46,6 +46,9 @@ fi
 echo "Building top picks (arXiv ${ARXIV_PICK_YEARS}, published ${PICK_YEARS})..."
 python3 "$ROOT/build_top_monthly.py" "${HUB_FLAG[@]}" --years "$PICK_YEARS" --arxiv-years "$ARXIV_PICK_YEARS"
 
+echo "Building keyword search index..."
+python3 "$ROOT/build_search_index.py" "${HUB_FLAG[@]}" --years "$PICK_YEARS" --arxiv-years "$ARXIV_PICK_YEARS"
+
 echo "Building recent broadcast ticker..."
 python3 "$ROOT/build_today_broadcast.py" "${HUB_FLAG[@]}"
 

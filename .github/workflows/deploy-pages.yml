@@ -115,6 +115,9 @@ jobs:
           test -f website/data/country-analytics.json
           test -f website/author-analytics.html
           test -f website/data/author-analytics.json
+          test -f website/search.html
+          test -f website/search.js
+          test -f website/data/search-index.json
           test -f website/data/conferences.json
           test -f website/data/top-monthly.json
           test -f website/data/today-broadcast.json
@@ -127,6 +130,12 @@ jobs:
               if key not in p:
                   raise SystemExit(f"today-broadcast.json missing {key!r}")
           print(f"broadcast ok: {p['date_label']} ({len(p.get('picks', []))} preview / {len(p.get('all_picks', []))} total)")
+
+          search = json.loads(Path("website/data/search-index.json").read_text(encoding="utf-8"))
+          for key in ("generated_at", "count", "papers", "match_fields"):
+              if key not in search:
+                  raise SystemExit(f"search-index.json missing {key!r}")
+          print(f"search index ok: papers={search.get('count')}")
 
           hub = json.loads(Path("website/data/hub.json").read_text(encoding="utf-8"))
           if hub.get("views_api_url"):

@@ -1137,7 +1137,21 @@ async function loadConferences() {
   return manifest.conferences || [];
 }
 
+function initHubKeywordSearch() {
+  const form = document.querySelector(".hub-keyword-search-form");
+  if (!form) return;
+  form.addEventListener("submit", (event) => {
+    const input = form.querySelector('input[name="q"]');
+    const query = (input?.value || "").trim();
+    if (query.length < 2) {
+      event.preventDefault();
+      input?.focus();
+    }
+  });
+}
+
 async function main() {
+  initHubKeywordSearch();
   const confSearch = document.getElementById("conf-search");
   const hub = await loadHubConfig();
   applyHubBranding(hub);

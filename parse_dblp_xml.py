@@ -351,6 +351,7 @@ def write_website(
             "conference-timeline.json",
             "country-analytics.json",
             "author-analytics.json",
+            "search-index.json",
             "top-monthly.json",
             "top-published.json",
             "top-areas.json",
