@@ -1,6 +1,10 @@
 # Papers Hub
 
-Multi-area **research paper hub**: dblp conference proceedings, arXiv recent papers, categorized top picks, and a daily broadcast bar. The default site is the **OS kernel & systems** hub (`hubs/os-kernel` → `website/`).
+**Papers Hub** is an auto-updated research radar for OS and systems work—curating top venue proceedings and recent arXiv papers by research area so you can quickly discover and follow what matters.
+
+[中文文档](README.zh-CN.md)
+
+The default site is the **OS kernel & systems** hub (`hubs/os-kernel` → `website/`). The codebase supports multiple research-area hubs via `hubs/<hub-id>/`.
 
 ## Run (default hub)
 
@@ -54,6 +58,9 @@ Remove cron: `crontab -e` and delete lines containing `papers-hub`.
 - **Top picks by area** — published proceedings (left, default) and recent arXiv (right). **More** opens `area-picks.html`.
 - **Broadcast bar** — top arXiv papers from the last 7 days.
 - **Conference proceedings** — browse and search dblp-backed venue JSON.
+- **Site-wide search** — keyword search across titles and abstracts.
+- **Technology map** — classic and extended OS topics with links to picks and search.
+- **Author & country analytics** — research-area breakdown and affiliation views.
 
 ## Multiple research areas
 
