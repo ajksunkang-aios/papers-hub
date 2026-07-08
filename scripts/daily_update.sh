@@ -9,8 +9,8 @@
 # Country analytics: dblp.xml person index (offline) by default.
 # Slow HTTP fallback: AUTHOR_ENRICH_ONLINE_DBLP=1
 # Schedule at 9:00 AM (server): ./scripts/install_daily_schedule.sh
-# Schedule at 9:00 AM (GitHub): .github/workflows/deploy-pages.yml
-# Country analytics: local only → .github/workflows/deploy-country-pages.yml
+# Schedule at 9:00 AM (GitHub daily arXiv): .github/workflows/deploy-pages.yml
+# Analytics enrich (monthly): .github/workflows/deploy-country-pages.yml
 #
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"

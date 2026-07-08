@@ -1,7 +1,7 @@
-# Build papers-hub data (dblp + arXiv + picks) and deploy website/ to GitHub Pages.
+# Daily site build: dblp + arXiv + top picks + broadcast + search index → GitHub Pages.
 #
-# Country analytics (website/country-analytics.html) is updated locally — see
-# docs/COUNTRY_PAGES.md and .github/workflows/deploy-country-pages.yml.
+# Keeps recent arXiv and picks fresh (09:00 UTC+8). Skips affiliation enrich;
+# country/author analytics are rebuilt monthly by deploy-country-pages.yml.
 
 name: Deploy Pages
 
@@ -62,7 +62,7 @@ jobs:
           restore-keys: |
             papers-hub-build-${{ runner.os }}-
 
-      - name: Daily build (dblp + arXiv + picks; no country enrich)
+      - name: Daily build (arXiv + picks + search; analytics from repo)
         env:
           CI: "true"
           HUB: os-kernel
@@ -146,7 +146,7 @@ jobs:
           country = json.loads(Path("website/data/country-analytics.json").read_text(encoding="utf-8"))
           cov = country.get("coverage") or {}
           print(
-              f"country analytics (committed): papers={cov.get('total_papers')} "
+              f"country analytics (from repo/monthly job): papers={cov.get('total_papers')} "
               f"resolved={cov.get('resolved')}"
           )
           PY

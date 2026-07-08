@@ -16,22 +16,24 @@ Site URL: `https://<user>.github.io/<repo>/` (or your custom domain).
 
 | Event | When |
 |-------|------|
-| `cron: "0 1 * * *"` | **09:00 Asia/Shanghai** (01:00 UTC) daily |
-| `workflow_dispatch` | Manual run from the Actions tab (**Force fresh arXiv crawl** defaults to on) |
+| `cron: "0 1 * * *"` | **09:00 Asia/Shanghai** daily — arXiv, picks, broadcast, search |
+| `workflow_dispatch` | Manual run (**Force fresh arXiv crawl** defaults to on) |
 
-Push to `main` does **not** trigger this workflow (avoids running the heavy build on every code change). Use **Run workflow** when you need a deploy outside the schedule. Manual runs default to **Force fresh arXiv crawl** so stale cached manifests do not skip the fetch.
+Country/author analytics are refreshed **monthly** by [deploy-country-pages.yml](../.github/workflows/deploy-country-pages.yml) (1st of month, 10:00 UTC+8). See [COUNTRY_PAGES.md](COUNTRY_PAGES.md).
+
+Push to `main` does **not** trigger this workflow. Manual runs default to **Force fresh arXiv crawl** so stale cached manifests do not skip the fetch.
 
 ## What the workflow runs
 
-Same as local daily update, **without** author enrich or country analytics:
+Same as local daily update, **without** affiliation enrich or analytics rebuild:
 
 - dblp parse (incremental, cached `data/dblp.xml.gz`)
-- arXiv crawl (`--if-stale-hours 24`)
-- top picks + broadcast + hub metadata
+- arXiv crawl (`--if-stale-hours 24`; manual trigger sets `ARXIV_FORCE=1`)
+- top picks + broadcast + search index + hub metadata
 
 CI sets `DAILY_SKIP_AUTHOR_ENRICH=1` and `DAILY_SKIP_COUNTRY_ANALYTICS=1`.
 
-To update country data locally and deploy: [COUNTRY_PAGES.md](COUNTRY_PAGES.md).
+Monthly analytics (enrich + country + author JSON): [COUNTRY_PAGES.md](COUNTRY_PAGES.md) and `deploy-country-pages.yml`.
 
 ## Caches
 

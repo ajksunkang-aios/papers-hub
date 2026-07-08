@@ -1,67 +1,149 @@
-# Redeploy GitHub Pages when country analytics data changes locally.
+# Monthly analytics build: affiliation enrich, country + author analytics, deploy.
 #
-# Country analytics is a page on the same site (website/country-analytics.html),
-# linked from the main hub header. This workflow does NOT rebuild enrich data —
-# commit website/data/country-analytics.json after ./scripts/publish_country_data.sh.
-#
-# The daily Deploy Pages cron skips country enrich; use this workflow (or manual
-# Deploy Pages) to publish committed JSON to Pages.
+# Daily arXiv / top picks / broadcast stay on deploy-pages.yml (09:00 UTC+8).
+# This workflow refreshes analytics JSON (and enriched conference data) on a
+# monthly cadence, commits when changed, and publishes the full static site.
 
-name: Deploy Country Pages
+name: Deploy Analytics Pages
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "website/data/country-analytics.json"
-      - "website/data/author-analytics.json"
-      - "website/country-analytics.html"
-      - "website/author-analytics.html"
-      - "website/author-analytics.js"
-      - "website/search.html"
-      - "website/search.js"
-      - "website/country-analytics.js"
-      - "website/data/*.json"
-      - ".github/workflows/deploy-country-pages.yml"
+  schedule:
+    # 1st of each month, 10:00 Asia/Shanghai (UTC+8) = 02:00 UTC
+    - cron: "0 2 1 * *"
   workflow_dispatch:
+    inputs:
+      force_enrich:
+        description: Force affiliation re-fetch (ignore stale cache)
+        type: boolean
+        default: false
+      skip_commit:
+        description: Deploy only — do not commit analytics back to main
+        type: boolean
+        default: false
 
 concurrency:
   group: pages-${{ github.ref }}
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 360
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Verify country analytics output
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cache dblp XML
+        uses: actions/cache@v4
+        with:
+          path: data/dblp.xml.gz
+          key: papers-hub-dblp-xml-v1
+          restore-keys: papers-hub-dblp-xml-
+
+      - name: Cache build and enrich artifacts
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/abstract-cache-os-kernel.json
+            data/abstract-enrich-os-kernel.json
+            data/dblp-build-os-kernel.json
+            data/author-country-cache-os-kernel.json
+            data/dblp-affiliation-cache-os-kernel.json
+          key: papers-hub-analytics-${{ runner.os }}-${{ hashFiles('hubs/os-kernel/**', 'core/**', 'enrich_author_metadata.py', 'build_country_analytics.py', 'build_author_analytics.py') }}
+          restore-keys: |
+            papers-hub-analytics-${{ runner.os }}-
+            papers-hub-build-${{ runner.os }}-
+
+      - name: Refresh browsing data (dblp + arXiv + picks; no analytics enrich)
+        env:
+          CI: "true"
+          HUB: os-kernel
+          ABSTRACT_SKIP: "1"
+          DAILY_SKIP_AUTHOR_ENRICH: "1"
+          DAILY_SKIP_COUNTRY_ANALYTICS: "1"
+          PICK_YEARS: "2020,2021,2022,2023,2024,2025,2026"
+          ARXIV_FORCE: "0"
+        run: ./scripts/daily_update.sh
+
+      - name: Enrich affiliations and rebuild analytics
+        env:
+          HUB: os-kernel
+          PICK_YEARS: "2020,2021,2022,2023,2024,2025,2026"
+          COUNTRY_YEARS: "2020,2021,2022,2023,2024,2025,2026"
+          AUTHOR_ENRICH_ONLINE_DBLP: "1"
+          AUTHOR_USE_OPENALEX: "1"
+          AUTHOR_ENRICH_STALE_HOURS: "720"
+          AUTHOR_ENRICH_FORCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_enrich == 'true' && '1' || '0' }}
+        run: ./scripts/update_analytics.sh
+
+      - name: Rebuild search index (uses enriched abstracts)
+        env:
+          HUB: os-kernel
+        run: |
+          python3 build_search_index.py --hub os-kernel \
+            --years 2020,2021,2022,2023,2024,2025,2026 \
+            --arxiv-years 2025,2026
+
+      - name: Sync hub metadata
+        run: python3 scripts/sync_hub_meta.py --hub os-kernel
+
+      - name: Verify analytics output
         run: |
           test -f website/country-analytics.html
           test -f website/data/country-analytics.json
+          test -f website/author-analytics.html
+          test -f website/data/author-analytics.json
+          test -f website/data/search-index.json
           python3 - <<'PY'
           import json
           from pathlib import Path
 
-          data = json.loads(Path("website/data/country-analytics.json").read_text(encoding="utf-8"))
-          for key in ("generated_at", "data_source", "countries", "coverage"):
-              if key not in data:
-                  raise SystemExit(f"country-analytics.json missing {key!r}")
-          cov = data["coverage"]
+          country = json.loads(Path("website/data/country-analytics.json").read_text(encoding="utf-8"))
+          author = json.loads(Path("website/data/author-analytics.json").read_text(encoding="utf-8"))
+          ccov = country.get("coverage") or {}
+          acov = author.get("coverage") or {}
           print(
-              f"country analytics ok: papers={cov.get('total_papers')} "
-              f"resolved={cov.get('resolved')} countries={len(data.get('countries', []))}"
+              f"country analytics: papers={ccov.get('total_papers')} "
+              f"resolved={ccov.get('resolved')} countries={len(country.get('countries', []))}"
+          )
+          print(
+              f"author analytics: papers={acov.get('total_papers')} "
+              f"unique_authors={acov.get('unique_authors')} top={len(author.get('authors', []))}"
           )
           PY
+
+      - name: Commit analytics data
+        if: github.event_name != 'workflow_dispatch' || github.event.inputs.skip_commit != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add website/data/country-analytics.json website/data/author-analytics.json website/data/search-index.json
+          git add website/data/*.json
+          if git diff --staged --quiet; then
+            echo "No analytics changes to commit"
+          else
+            git commit -m "$(cat <<'EOF'
+Refresh country and author analytics from monthly enrich run.
+
+EOF
+)"
+            git push
+          fi
 
       - name: Configure views API URL (optional)
         env:
@@ -88,6 +170,13 @@ jobs:
         with:
           path: website
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
