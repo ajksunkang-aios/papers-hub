@@ -1,7 +1,7 @@
 # Build papers-hub data (dblp + arXiv + picks) and deploy website/ to GitHub Pages.
 #
-# Country analytics is NOT built here — update locally and deploy via
-# .github/workflows/deploy-country-pages.yml (see docs/COUNTRY_PAGES.md).
+# Country analytics (website/country-analytics.html) is updated locally — see
+# docs/COUNTRY_PAGES.md and .github/workflows/deploy-country-pages.yml.
 
 name: Deploy Pages
 
@@ -105,6 +105,8 @@ jobs:
         run: |
           test -f website/index.html
           test -f website/views.js
+          test -f website/country-analytics.html
+          test -f website/data/country-analytics.json
           test -f website/data/conferences.json
           test -f website/data/top-monthly.json
           test -f website/data/today-broadcast.json
@@ -123,8 +125,13 @@ jobs:
               print(f"views ok: api={hub['views_api_url']}")
           else:
               print("views: api not configured (bar hidden until VIEWS_API_URL secret or hub.json URL)")
-          if hub.get("country_analytics_url"):
-              print(f"country analytics: external site {hub['country_analytics_url']}")
+
+          country = json.loads(Path("website/data/country-analytics.json").read_text(encoding="utf-8"))
+          cov = country.get("coverage") or {}
+          print(
+              f"country analytics (committed): papers={cov.get('total_papers')} "
+              f"resolved={cov.get('resolved')}"
+          )
           PY
           echo "Pages artifact: $(du -sh website | cut -f1)"
 

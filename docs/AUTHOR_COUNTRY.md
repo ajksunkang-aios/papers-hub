@@ -27,7 +27,7 @@ AUTHOR_COUNTRY_OFFLINE=1 ./scripts/update_country_analytics.sh
 AUTHOR_USE_OPENALEX=1 ./scripts/update_country_analytics.sh
 ```
 
-GitHub Actions runs author enrich **locally only** — see [COUNTRY_PAGES.md](COUNTRY_PAGES.md). The daily Deploy Pages cron does not rebuild country analytics.
+Country analytics is a **page on the same GitHub Pages site** as the main hub. Update data locally and push — see [COUNTRY_PAGES.md](COUNTRY_PAGES.md). The daily Deploy Pages cron does not rebuild country analytics.
 
 | File | Role |
 |------|------|
@@ -38,7 +38,7 @@ GitHub Actions runs author enrich **locally only** — see [COUNTRY_PAGES.md](CO
 
 Each local run **reloads** prior results into conference JSON, then only HTTP-fetches authors still missing from the dblp cache. Opt out of online fetch with `AUTHOR_ENRICH_OFFLINE=1`. Force full re-fetch: `AUTHOR_ENRICH_FORCE=1`.
 
-Publish to the country Pages site: `./scripts/publish_country_data.sh` then commit and push (see [COUNTRY_PAGES.md](COUNTRY_PAGES.md)).
+Publish: `./scripts/publish_country_data.sh` then commit and push (see [COUNTRY_PAGES.md](COUNTRY_PAGES.md)).
 
 ## Configuration
 

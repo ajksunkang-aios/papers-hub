@@ -212,25 +212,6 @@ function renderCountryDetail(data, code) {
   `;
 }
 
-async function loadSiteHub() {
-  try {
-    const res = await fetch(`data/hub.json?ts=${Date.now()}`, { cache: "no-store" });
-    if (!res.ok) return null;
-    return res.json();
-  } catch {
-    return null;
-  }
-}
-
-async function applySiteHub(hub) {
-  if (!hub) return;
-  const link = document.getElementById("main-hub-link");
-  if (link) {
-    if (hub.main_hub_url) link.href = hub.main_hub_url;
-    if (hub.title) link.textContent = hub.title;
-  }
-}
-
 async function loadAnalytics() {
   const res = await fetch(`data/country-analytics.json?ts=${Date.now()}`, { cache: "no-store" });
   if (!res.ok) throw new Error(`Failed to load country analytics (${res.status})`);
@@ -240,8 +221,6 @@ async function loadAnalytics() {
 async function main() {
   initViewsWidget();
   try {
-    const siteHub = await loadSiteHub();
-    await applySiteHub(siteHub);
     analyticsData = await loadAnalytics();
     const sourceNote = analyticsData.data_source === "dblp" ? "dblp proceedings" : "papers";
     document.getElementById("analytics-meta").textContent = `${analyticsData.period_label || ""} · ${

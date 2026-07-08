@@ -2,7 +2,7 @@
 
 The workflow [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml) runs the daily pipeline (dblp + arXiv + picks) and publishes `website/` to GitHub Pages.
 
-**Country analytics** is on a separate site — see [COUNTRY_PAGES.md](COUNTRY_PAGES.md).
+**Country analytics** is a page on the same site (`country-analytics.html`). Data is updated locally — see [COUNTRY_PAGES.md](COUNTRY_PAGES.md).
 
 ## One-time setup
 
