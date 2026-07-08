@@ -36,6 +36,11 @@ fi
 AUTHOR_ENRICH_FLAGS+=(--if-stale-hours "${AUTHOR_ENRICH_STALE_HOURS:-168}")
 if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" || "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--offline)
+elif [[ "${AUTHOR_ENRICH_FULL:-0}" == "1" ]]; then
+  AUTHOR_ENRICH_FLAGS+=(--full-enrich)
+  if [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then
+    AUTHOR_ENRICH_FLAGS+=(--max-online-authors "$AUTHOR_ENRICH_MAX_ONLINE")
+  fi
 elif [[ "${AUTHOR_ENRICH_ONLINE_DBLP:-0}" == "1" ]]; then
   AUTHOR_ENRICH_FLAGS+=(--online-dblp-fallback)
   if [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then

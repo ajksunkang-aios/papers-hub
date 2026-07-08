@@ -143,6 +143,7 @@ def build_analytics(
             dblp_key=paper.get("dblp_key"),
             arxiv_id=paper.get("arxiv_id"),
             force=force,
+            first_author_only=True,
         )
         first_row = rows[0] if rows else {
             "name": (paper.get("authors") or [""])[0],

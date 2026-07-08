@@ -100,6 +100,18 @@ def dblp_authors_resolved(
     return True
 
 
+def paper_needs_affiliation_enrich(
+    paper: dict[str, Any],
+    *,
+    force: bool = False,
+    first_author_only: bool = False,
+) -> bool:
+    """True when the paper still lacks real (non-placeholder) affiliations."""
+    if force:
+        return True
+    return not paper_authors_complete(paper, first_author_only=first_author_only)
+
+
 def paper_needs_online_fetch(
     paper: dict[str, Any],
     *,

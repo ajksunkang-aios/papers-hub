@@ -14,6 +14,7 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
+from core.fetch_limits import OPENALEX_PAPER_BUDGET_SEC, OPENALEX_TIMEOUT, TimeBudget
 from core.published_abstracts import (
     REQUEST_DELAY_SEC,
     REQUEST_TIMEOUT,
@@ -371,7 +372,7 @@ class AuthorCountryResolver:
         self.offline = offline
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": USER_AGENT, "Accept": "application/json"})
-        retry = Retry(total=2, backoff_factor=0.4, status_forcelist=(429, 500, 502, 503, 504))
+        retry = Retry(total=1, backoff_factor=0.3, status_forcelist=(429, 500, 502, 503, 504))
         adapter = HTTPAdapter(max_retries=retry)
         self.session.mount("https://", adapter)
         self._last_request = 0.0
@@ -393,7 +394,7 @@ class AuthorCountryResolver:
             return None
         self._throttle()
         try:
-            r = self.session.get(url, params=params, timeout=REQUEST_TIMEOUT)
+            r = self.session.get(url, params=params, timeout=OPENALEX_TIMEOUT)
             r.raise_for_status()
             self._failures = 0
             return r.json()
@@ -437,6 +438,7 @@ class AuthorCountryResolver:
         dblp_key: str | None = None,
         arxiv_id: str | None = None,
         force: bool = False,
+        first_author_only: bool = False,
     ) -> list[dict[str, Any]]:
         cache_keys = lookup_cache_keys(title=title, ee_links=ee_links, dblp_key=dblp_key)
         if arxiv_id:
@@ -446,22 +448,33 @@ class AuthorCountryResolver:
         if not force:
             for key in cache_keys:
                 hit = self.cache.get(key)
-                if hit and hit.get("authors_structured"):
-                    return hit["authors_structured"]
+                if not hit or not hit.get("authors_structured"):
+                    continue
+                rows = hit["authors_structured"]
+                from core.author_profiles import paper_authors_complete
+
+                probe = {
+                    "authors": [r.get("name") for r in rows if r.get("name")],
+                    "authors_structured": rows,
+                }
+                if paper_authors_complete(probe, first_author_only=first_author_only):
+                    return rows
 
         profiles = normalize_authors_input(authors, authors_structured)
         resolved = [resolve_author_local(p.name, p.affiliations, policy=self.policy) for p in profiles]
 
-        needs_fallback = any(p.country_code == "XX" for p in resolved) or any(
-            not p.affiliations for p in resolved
+        target = resolved[:1] if first_author_only and resolved else resolved
+        needs_fallback = any(not p.affiliations for p in target) or any(
+            p.country_code == "XX" for p in target
         )
 
         if needs_fallback and self._network_ok():
+            budget = TimeBudget(OPENALEX_PAPER_BUDGET_SEC)
             doi = extract_doi(ee_links)
-            work = self.fetch_openalex_work(doi) if doi else None
-            if work is None and arxiv_id:
+            work = self.fetch_openalex_work(doi) if doi and not budget.expired else None
+            if work is None and arxiv_id and not budget.expired:
                 work = self.fetch_openalex_by_arxiv(arxiv_id)
-            if work is None and title:
+            if work is None and title and not budget.expired:
                 work = self.fetch_openalex_by_title(title)
             if work:
                 openalex_rows = parse_openalex_authorship_rows(work, policy=self.policy)

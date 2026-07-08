@@ -2,13 +2,16 @@
 """
 Enrich dblp conference JSON with per-author affiliations and countries.
 
-Resolution order:
+Resolution order (incremental — skips work already on disk):
   1. Reload from disk caches (author-paper-reload / author-country / dblp-affiliation)
-  2. dblp person records in dblp.xml.gz (offline index: homepages + affiliation notes)
-  3. Optional dblp person-page HTTP (--online-dblp-fallback / AUTHOR_ENRICH_ONLINE_DBLP=1)
-  4. Local institution/country keyword rules on affiliation text
-  5. Optional OpenAlex fallback (--openalex; off by default)
-  6. Placeholder affiliation so every author row is populated; country XX if unknown
+  2. dblp.xml person index (offline homepages + affiliation notes)
+  3. dblp person-page HTTP (--online-dblp-fallback / --full-enrich)
+  4. OpenAlex institutions by DOI/title (--openalex / --full-enrich)
+  5. Local institution/country keyword rules on affiliation text
+  6. Placeholder affiliation + country XX when all sources miss
+
+Use ``--full-enrich`` or ``./scripts/enrich_affiliations_online.sh`` for local
+online runs that persist results to ``website/data/`` and ``data/*-cache-*.json``.
 
 By default only conference proceedings (pick years) are enriched. arXiv recent
 papers are opt-in via --with-arxiv (not used for country analytics).
@@ -21,6 +24,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import time
 from pathlib import Path
 from typing import Any
 
@@ -28,6 +32,7 @@ from core.author_country import (
     AuthorCountryCache,
     AuthorCountryResolver,
     build_arxiv_authors_index,
+    enrich_authors_structured_local,
     load_author_country_policy,
 )
 from core.author_profiles import (
@@ -42,11 +47,12 @@ from core.author_reload import (
     apply_dblp_cache_affiliations,
     dblp_authors_resolved,
     load_cached_authors_structured,
-    paper_needs_online_fetch,
+    paper_needs_affiliation_enrich,
     target_author_names,
 )
 from core.dblp_affiliations import DblpAffiliationCache, DblpAffiliationFetcher
 from core.dblp_person_index import ensure_person_index, load_person_index
+from core.fetch_limits import PAPER_SLOW_LOG_SEC, run_with_wall_clock
 from core.hub_config import add_hub_argument, load_hub
 from core.incremental import is_fresh, load_json, policy_fingerprint, save_json, utc_now_iso
 from core.published_abstracts import normalize_title_key
@@ -54,6 +60,7 @@ from core.published_abstracts import normalize_title_key
 ROOT = Path(__file__).resolve().parent
 PROGRESS_EVERY = 10
 CACHE_SAVE_EVERY = 10
+PAPER_ENRICH_TIMEOUT_SEC = float(os.environ.get("AUTHOR_ENRICH_PAPER_TIMEOUT_SEC", "60"))
 
 
 def parse_years(raw: str | None, default: list[int]) -> list[int]:
@@ -74,12 +81,10 @@ def paper_needs_author_work(
     first_author_only: bool = False,
     dblp_cache: DblpAffiliationCache | None = None,
 ) -> bool:
-    """True when paper still needs online dblp work (or force)."""
-    return paper_needs_online_fetch(
-        paper,
-        dblp_cache=dblp_cache,
-        force=force,
-        first_author_only=first_author_only,
+    """True when paper still lacks real affiliations (any fallback may help)."""
+    _ = dblp_cache
+    return paper_needs_affiliation_enrich(
+        paper, force=force, first_author_only=first_author_only
     )
 
 
@@ -148,22 +153,11 @@ def reload_paper_from_disk(
     rows = apply_dblp_cache_affiliations(
         paper, dblp_cache, first_author_only=first_author_only
     )
-    # force=True: do not let empty XX paper-cache entries override dblp affs.
-    resolved = resolver.resolve_paper_authors(
-        title=paper.get("title", ""),
-        authors=paper.get("authors"),
-        authors_structured=rows,
-        ee_links=paper.get("ee_links"),
-        dblp_key=paper.get("dblp_key"),
-        arxiv_id=paper.get("arxiv_id"),
-        force=True,
-    )
-    if resolved:
-        rows = resolved
+    rows = enrich_authors_structured_local(rows, policy=policy)
     return _apply_rows_to_paper(paper, rows, policy=policy)
 
 
-def enrich_paper_authors(
+def _enrich_paper_authors_core(
     paper: dict[str, Any],
     *,
     resolver: AuthorCountryResolver,
@@ -191,17 +185,9 @@ def enrich_paper_authors(
             first_author_only=first_author_only,
         )
 
-    if not force and not paper_needs_online_fetch(
-        paper,
-        dblp_cache=dblp_cache,
-        force=False,
-        first_author_only=first_author_only,
-    ):
+    if not force and paper_authors_complete(paper, first_author_only=first_author_only):
         if reloaded and reload_index is not None:
             reload_index.set_paper(paper, first_author_only=first_author_only)
-        return reloaded
-
-    if not force and paper_authors_complete(paper, first_author_only=first_author_only):
         return reloaded
 
     rows = upgrade_authors_structured(paper)
@@ -240,22 +226,74 @@ def enrich_paper_authors(
                 merged.append({"name": row.get("name") or "", "affiliations": affs})
             rows = merged
 
-    resolved = resolver.resolve_paper_authors(
-        title=paper.get("title", ""),
-        authors=paper.get("authors"),
-        authors_structured=rows,
-        ee_links=paper.get("ee_links"),
-        dblp_key=paper.get("dblp_key"),
-        arxiv_id=paper.get("arxiv_id"),
-        force=force,
-    )
-    if resolved:
-        rows = resolved
+    target_rows = rows[:1] if first_author_only and rows else rows
+    if force or rows_need_real_affiliations(target_rows):
+        resolved = resolver.resolve_paper_authors(
+            title=paper.get("title", ""),
+            authors=paper.get("authors"),
+            authors_structured=rows,
+            ee_links=paper.get("ee_links"),
+            dblp_key=paper.get("dblp_key"),
+            arxiv_id=paper.get("arxiv_id"),
+            force=force,
+            first_author_only=first_author_only,
+        )
+        if resolved:
+            rows = resolved
 
     changed = _apply_rows_to_paper(paper, rows, policy=policy) or reloaded
     if reload_index is not None and paper.get("authors_structured"):
         reload_index.set_paper(paper, first_author_only=first_author_only)
     return changed or not paper_authors_complete(paper, first_author_only=first_author_only)
+
+
+def enrich_paper_authors(
+    paper: dict[str, Any],
+    *,
+    resolver: AuthorCountryResolver,
+    dblp_fetcher: DblpAffiliationFetcher | None,
+    arxiv_by_title: dict[str, list[dict[str, Any]]],
+    policy: dict[str, Any],
+    force: bool = False,
+    first_author_only: bool = False,
+    reload_index: AuthorPaperReloadIndex | None = None,
+    dblp_cache: DblpAffiliationCache | None = None,
+    disk_reload: bool = True,
+) -> bool:
+    t0 = time.monotonic()
+    online = (dblp_fetcher is not None and not dblp_fetcher.offline) or (
+        resolver is not None and not resolver.offline
+    )
+
+    def _run() -> bool:
+        return _enrich_paper_authors_core(
+            paper,
+            resolver=resolver,
+            dblp_fetcher=dblp_fetcher,
+            arxiv_by_title=arxiv_by_title,
+            policy=policy,
+            force=force,
+            first_author_only=first_author_only,
+            reload_index=reload_index,
+            dblp_cache=dblp_cache,
+            disk_reload=disk_reload,
+        )
+
+    if online and PAPER_ENRICH_TIMEOUT_SEC > 0:
+        title = (paper.get("title") or "")[:100]
+
+        def _on_timeout() -> bool:
+            log(f"  WARN paper enrich timeout ({PAPER_ENRICH_TIMEOUT_SEC:.0f}s): {title}")
+            return False
+
+        result = run_with_wall_clock(_run, timeout_sec=PAPER_ENRICH_TIMEOUT_SEC, on_timeout=_on_timeout)
+    else:
+        result = _run()
+
+    elapsed = time.monotonic() - t0
+    if elapsed >= PAPER_SLOW_LOG_SEC:
+        log(f"  slow paper {elapsed:.1f}s: {(paper.get('title') or '')[:100]}")
+    return result
 
 
 def enrich_paper_list(
@@ -301,15 +339,11 @@ def enrich_paper_list(
             )
             log(f"  {label} ... {idx}/{len(work)} updated={changed} online_pending={missing}")
         if lookups % CACHE_SAVE_EVERY == 0:
-            # Author-country cache can be huge; persist dblp cache every N papers.
+            # Persist dblp author cache incrementally; large paper caches flush per venue.
             if dblp_fetcher is not None:
                 dblp_fetcher.cache.save()
             elif dblp_cache is not None:
                 dblp_cache.save()
-            if idx % (CACHE_SAVE_EVERY * 5) == 0:
-                resolver.cache.save()
-                if reload_index is not None:
-                    reload_index.save()
     return changed, count_papers_missing_affiliations(
         work,
         first_author_only=first_author_only,
@@ -410,6 +444,9 @@ def enrich_conferences(
             stats["conferences"] += 1
             stats["updated"] += changed
             log(f"  done {conf['id']}: updated {changed}/{len(papers)} papers, online_pending={remaining}")
+            resolver.cache.save()
+            if reload_index is not None:
+                reload_index.save()
 
     resolver.cache.save()
     if dblp_fetcher is not None:
@@ -438,9 +475,8 @@ def coverage_stats(
             total += 1
             if paper_authors_complete(paper, first_author_only=first_author_only):
                 complete += 1
-            elif paper_needs_online_fetch(
+            elif paper_needs_affiliation_enrich(
                 paper,
-                dblp_cache=dblp_cache,
                 first_author_only=first_author_only,
             ):
                 online_pending += 1
@@ -455,9 +491,8 @@ def coverage_stats(
             total += 1
             if paper_authors_complete(paper, first_author_only=first_author_only):
                 complete += 1
-            elif paper_needs_online_fetch(
+            elif paper_needs_affiliation_enrich(
                 paper,
-                dblp_cache=dblp_cache,
                 first_author_only=first_author_only,
             ):
                 online_pending += 1
@@ -523,7 +558,12 @@ def main() -> int:
     parser.add_argument(
         "--online-dblp-fallback",
         action="store_true",
-        help="HTTP-fetch dblp person pages when the offline xml person index misses (slow; default off)",
+        help="HTTP-fetch dblp person pages when the offline xml person index misses (slow)",
+    )
+    parser.add_argument(
+        "--full-enrich",
+        action="store_true",
+        help="incremental reload + dblp xml index + dblp HTTP + OpenAlex until affiliations filled",
     )
     parser.add_argument(
         "--max-online-authors",
@@ -535,6 +575,10 @@ def main() -> int:
     args = parser.parse_args()
     # Country analytics only needs dblp conference papers; arXiv is opt-in.
     args.skip_arxiv = not args.with_arxiv
+
+    if args.full_enrich or os.environ.get("AUTHOR_ENRICH_FULL", "") == "1":
+        args.online_dblp_fallback = True
+        args.openalex = True
 
     hub = load_hub(args.hub)
     years = parse_years(args.years, hub.pick_years or [2020, 2021, 2022, 2023, 2024, 2025, 2026])
@@ -574,6 +618,8 @@ def main() -> int:
             "openalex": args.openalex,
             "skip_dblp_fetch": args.skip_dblp_fetch,
             "first_author_only": args.first_author_only,
+            "online_dblp_fallback": args.online_dblp_fallback,
+            "full_enrich": args.full_enrich,
         }
     )
 
@@ -585,12 +631,13 @@ def main() -> int:
         dblp_cache=dblp_cache,
     )
     pending_online = before.get("online_pending", before["remaining"])
+    affiliation_pending = before["remaining"]
 
-    # When online work is done and manifest is fresh, still hydrate website JSON
-    # from disk caches, but disable the network fetcher.
+    # Skip network when every paper already has real affiliations and manifest is fresh.
     reload_only = (
-        pending_online == 0
+        affiliation_pending == 0
         and not args.force
+        and not args.full_enrich
         and args.if_stale_hours is not None
         and is_fresh(
             load_json(manifest_path),
@@ -601,20 +648,23 @@ def main() -> int:
     )
     if reload_only:
         log(
-            f"Author online-complete for {hub.id} "
-            f"(complete={before['complete']}/{before['total']}, online_pending=0); "
-            f"reload-only pass (no dblp HTTP)"
+            f"Author enrich complete for {hub.id} "
+            f"(affiliations {before['complete']}/{before['total']}); "
+            f"reload-only pass (no HTTP)"
         )
         dblp_fetcher = None
+        resolver = AuthorCountryResolver(cache=cache, policy=policy, offline=True)
 
     index_entries = person_index.entry_count if person_index and person_index.loaded else 0
     log(
         f"Enriching author metadata for {hub.id} years={years} "
-        f"offline={args.offline} dblp_xml_index={index_entries} "
-        f"dblp_http_fallback={online_dblp_fallback and not args.offline} "
+        f"offline={args.offline} full_enrich={args.full_enrich or os.environ.get('AUTHOR_ENRICH_FULL') == '1'} "
+        f"dblp_xml_index={index_entries} "
+        f"dblp_http_fallback={online_dblp_fallback and not args.offline and dblp_fetcher is not None} "
+        f"openalex={args.openalex and not args.offline and not reload_only} "
         f"first_author_only={args.first_author_only} reload={disk_reload} "
         f"max_online={args.max_online_authors if args.max_online_authors is not None else 'unlimited'} "
-        f"(complete {before['complete']}/{before['total']}, online_pending {pending_online})"
+        f"(affiliations {before['complete']}/{before['total']}, pending {affiliation_pending})"
     )
 
     arxiv_total = arxiv_changed = arxiv_remaining = 0

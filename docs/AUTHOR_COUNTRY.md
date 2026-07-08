@@ -8,7 +8,7 @@ Data: `website/data/country-analytics.json`
 Country analytics uses **dblp only**. Paper totals and author enrich share the same year window (default **2020–present**).
 
 1. **Papers** — venue JSON under `website/data/` listed by `conferences.json` for `COUNTRY_YEARS` (default `2020,…,2026`; use `all` for every year in the dump).
-2. **Affiliations** — extracted offline from dblp **person records** inside `dblp.xml.gz` (`<www key="homepages/...">` + `<note type="affiliation">`). Built once into `data/dblp-person-index.json`. Optional slow HTTP fallback: `AUTHOR_ENRICH_ONLINE_DBLP=1`.
+2. **Affiliations** — incremental order: reload disk caches → dblp.xml person index → optional dblp HTTP (`AUTHOR_ENRICH_ONLINE_DBLP=1`) → optional OpenAlex (`AUTHOR_USE_OPENALEX=1` or `AUTHOR_ENRICH_FULL=1`). Local full run: `./scripts/enrich_affiliations_online.sh`.
 3. **Country** — inferred from affiliation text via keyword rules in `author_country_policy.json`.
 4. **Unknown** — no dblp affiliation or no keyword match → country code `XX`.
 

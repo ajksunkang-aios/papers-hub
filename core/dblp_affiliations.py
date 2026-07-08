@@ -16,13 +16,16 @@ from core.author_profiles import normalize_author_key, normalize_author_name
 from core.dblp_person_index import DblpPersonIndex
 from core.published_abstracts import REQUEST_DELAY_SEC, USER_AGENT
 
-# Person HTML on secondary mirrors often hangs from some networks; use dblp.org only.
+# Re-export shared limits (override legacy module constant).
+from core.fetch_limits import DBLP_MAX_TIME_SEC as _DBLP_MAX_TIME_SEC
+from core.fetch_limits import DBLP_CONNECT_TIMEOUT_SEC, DBLP_AUTHOR_BUDGET_SEC, TimeBudget
+
+DBLP_MAX_TIME_SEC = _DBLP_MAX_TIME_SEC
+
 DBLP_MIRRORS = ("https://dblp.org",)
 DBLP_BASE = DBLP_MIRRORS[0]
 DBLP_AUTHOR_SEARCH_PATH = "/search/author/api"
-# Total wall-clock budget per request (curl -m). Idle read timeouts are not enough
-# when person HTML trickles slowly and never goes silent.
-DBLP_MAX_TIME_SEC = 15
+
 AFFILIATION_RE = re.compile(
     r'itemprop="affiliation"[^>]*>.*?itemprop="name">([^<]+)',
     re.IGNORECASE | re.DOTALL,
@@ -185,13 +188,14 @@ class DblpAffiliationFetcher:
                 candidate = f"{candidate}{sep}{urlencode(params)}"
             self._throttle()
             try:
-                # curl -m enforces a hard total deadline (unlike requests read timeout).
                 proc = subprocess.run(
                     [
                         "curl",
                         "-4",
                         "-sS",
                         "-L",
+                        "--connect-timeout",
+                        str(DBLP_CONNECT_TIMEOUT_SEC),
                         "--max-time",
                         str(DBLP_MAX_TIME_SEC),
                         "-A",
@@ -202,7 +206,7 @@ class DblpAffiliationFetcher:
                     ],
                     capture_output=True,
                     text=True,
-                    timeout=DBLP_MAX_TIME_SEC + 2,
+                    timeout=DBLP_MAX_TIME_SEC + DBLP_CONNECT_TIMEOUT_SEC + 3,
                 )
             except (subprocess.TimeoutExpired, OSError):
                 last_error = True
@@ -278,17 +282,21 @@ class DblpAffiliationFetcher:
             return []
 
         self._online_lookups += 1
+        budget = TimeBudget(DBLP_AUTHOR_BUDGET_SEC)
         failures_before = self._failures
         pid = self.search_author_pid(author_name)
+        if budget.expired:
+            self._failures += 1
+            return []
         if not pid:
-            # Do not poison cache on transient network errors.
             if self._failures > failures_before:
                 return []
             self.cache.set_miss(key)
             return []
 
         affs = self.fetch_person_affiliations(pid)
-        if self._failures > failures_before and not affs:
+        if budget.expired and not affs:
+            self._failures += 1
             return []
         pid_slug = pid.rstrip("/").split("/")[-1]
         self.cache.set(key, affs, pid=pid_slug)
