@@ -352,6 +352,7 @@ def write_website(
             "country-analytics.json",
             "author-analytics.json",
             "search-index.json",
+            "tech-map.json",
             "top-monthly.json",
             "top-published.json",
             "top-areas.json",

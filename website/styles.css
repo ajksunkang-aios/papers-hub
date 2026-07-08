@@ -2815,3 +2815,290 @@ a.top-more-link {
     grid-template-columns: 1fr;
   }
 }
+
+/* OS technology map */
+.tech-map-page .tech-map-main {
+  padding: 1.25rem 0 2.5rem;
+}
+
+.tech-map-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.tech-map-view-toggle,
+.tech-map-lang-toggle {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.tech-map-toggle-btn {
+  font: 600 0.82rem var(--sans);
+  padding: 0.45rem 0.85rem;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.tech-map-toggle-btn.is-active {
+  background: #eef2ff;
+  color: #4338ca;
+}
+
+.tech-map-filter {
+  flex: 1 1 200px;
+  max-width: 320px;
+  margin: 0;
+}
+
+.tech-map-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.9fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.tech-map-canvas {
+  min-height: 420px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.tech-map-graph-wrap {
+  position: relative;
+}
+
+.tech-map-edges {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.tech-map-edge {
+  fill: none;
+  stroke-width: 1.5;
+  opacity: 0.35;
+}
+
+.tech-map-graph-groups {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.tech-map-graph-group {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.tech-map-hub {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: fit-content;
+  padding: 0.55rem 0.9rem;
+  border: 2px solid var(--group-accent, #4338ca);
+  border-radius: 999px;
+  background: #fff;
+  cursor: default;
+  font: inherit;
+}
+
+.tech-map-hub-label {
+  font-weight: 700;
+  color: var(--group-accent, #4338ca);
+}
+
+.tech-map-hub-count {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.tech-map-graph-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 0.55rem;
+}
+
+.tech-map-node {
+  text-align: left;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.65rem;
+  background: #fff;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.tech-map-node:hover,
+.tech-map-node.is-active {
+  border-color: var(--group-accent, #6366f1);
+  box-shadow: 0 4px 14px rgba(67, 56, 202, 0.12);
+}
+
+.tech-map-node-label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.tech-map-node-sub {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.tech-map-tree {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.tech-map-tree-group-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: var(--group-accent, #4338ca);
+}
+
+.tech-map-tree-root {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.tech-map-tree-topic-btn {
+  width: 100%;
+  text-align: left;
+  font: 600 0.88rem var(--sans);
+  padding: 0.45rem 0.55rem;
+  border: none;
+  border-radius: 0.45rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.tech-map-tree-topic.is-active .tech-map-tree-topic-btn,
+.tech-map-tree-topic-btn:hover {
+  background: #eef2ff;
+  color: #4338ca;
+}
+
+.tech-map-tree-elements {
+  margin: 0.25rem 0 0 1rem;
+  padding: 0;
+  list-style: disc;
+  font-size: 0.82rem;
+  color: #475569;
+}
+
+.tech-map-tree-elements a {
+  color: #4338ca;
+  text-decoration: none;
+}
+
+.tech-map-tree-elements a:hover {
+  text-decoration: underline;
+}
+
+.tech-map-detail {
+  position: sticky;
+  top: 1rem;
+  padding: 1.1rem 1.15rem;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.tech-map-detail h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+}
+
+.tech-map-detail-group {
+  margin: 0 0 0.25rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.tech-map-detail-title {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+}
+
+.tech-map-detail-summary {
+  margin: 0 0 0.65rem;
+  font-size: 0.86rem;
+  color: #475569;
+  line-height: 1.45;
+}
+
+.tech-map-area-link {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #4338ca;
+}
+
+.tech-map-elements-heading {
+  margin: 0 0 0.45rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.tech-map-elements {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.tech-map-element a {
+  font-weight: 600;
+  color: #312e81;
+  text-decoration: none;
+}
+
+.tech-map-element a:hover {
+  text-decoration: underline;
+}
+
+.tech-map-element-terms {
+  display: block;
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-top: 0.1rem;
+}
+
+@media (max-width: 960px) {
+  .tech-map-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-map-detail {
+    position: static;
+  }
+}

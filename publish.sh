@@ -54,6 +54,7 @@ python3 "$ROOT/build_today_broadcast.py" "${HUB_FLAG[@]}"
 
 echo "Syncing frontend hub metadata..."
 python3 "$ROOT/scripts/sync_hub_meta.py" "${HUB_FLAG[@]}"
+python3 "$ROOT/scripts/sync_tech_map.py" "${HUB_FLAG[@]}"
 
 if [[ "${NO_SERVE:-0}" == "1" ]]; then
   echo "Build complete (NO_SERVE=1; start server with ./scripts/serve_site.sh)"

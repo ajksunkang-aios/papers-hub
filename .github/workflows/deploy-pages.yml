@@ -118,6 +118,9 @@ jobs:
           test -f website/search.html
           test -f website/search.js
           test -f website/data/search-index.json
+          test -f website/tech-map.html
+          test -f website/tech-map.js
+          test -f website/data/tech-map.json
           test -f website/data/conferences.json
           test -f website/data/top-monthly.json
           test -f website/data/today-broadcast.json

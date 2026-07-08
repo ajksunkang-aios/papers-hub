@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technology map | OS Kernel Papers Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=66" />
+  </head>
+  <body class="tech-map-page">
+    <header class="site-header">
+      <div id="global-views-bar" class="global-views-bar" hidden></div>
+      <div class="wrap wrap-wide">
+        <div class="site-header-top">
+          <div class="site-header-brand">
+            <p class="eyebrow"><a href="index.html">OS Kernel Papers Hub</a></p>
+            <h1 id="page-title">OS Technology Map</h1>
+            <p class="lede lede-compact" id="page-subtitle">Loading…</p>
+          </div>
+          <div class="site-header-actions">
+            <a class="header-nav-btn" href="index.html">Home</a>
+            <a class="header-nav-btn" href="search.html">Search</a>
+            <a class="header-nav-btn" href="country-analytics.html">Country analytics</a>
+            <a class="header-nav-btn" href="author-analytics.html">Author analysis</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap wrap-wide tech-map-main">
+      <section class="tech-map-toolbar" aria-label="Map controls">
+        <div class="tech-map-view-toggle" role="group" aria-label="View mode">
+          <button type="button" class="tech-map-toggle-btn is-active" data-view="graph" aria-pressed="true">Graph</button>
+          <button type="button" class="tech-map-toggle-btn" data-view="tree" aria-pressed="false">Tree</button>
+        </div>
+        <div class="tech-map-lang-toggle" role="group" aria-label="Language">
+          <button type="button" class="tech-map-toggle-btn is-active" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="tech-map-toggle-btn" data-lang="zh" aria-pressed="false">中文</button>
+        </div>
+        <label class="search hub-search tech-map-filter">
+          <span class="sr-only">Filter topics</span>
+          <input id="tech-map-filter" type="search" placeholder="Filter topics…" autocomplete="off" />
+        </label>
+      </section>
+
+      <div class="tech-map-layout">
+        <div id="tech-map-canvas" class="tech-map-canvas" aria-live="polite"></div>
+        <aside class="tech-map-detail" aria-labelledby="detail-heading">
+          <h2 id="detail-heading">Topic detail</h2>
+          <div id="tech-map-detail" class="tech-map-detail-body">
+            <p class="panel-note">Select a Tier-1 topic in the graph or tree to see technical elements and paper search links.</p>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer wrap wrap-wide">
+      <p id="tech-map-footer-note">Tier-1 directions link to keyword search; mapped areas also link to top picks by area.</p>
+    </footer>
+
+    <script src="tech-map.js?v=1" type="module"></script>
+  </body>
+</html>

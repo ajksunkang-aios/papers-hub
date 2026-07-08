@@ -102,6 +102,9 @@ jobs:
       - name: Sync hub metadata
         run: python3 scripts/sync_hub_meta.py --hub os-kernel
 
+      - name: Sync technology map
+        run: python3 scripts/sync_tech_map.py --hub os-kernel
+
       - name: Verify analytics output
         run: |
           test -f website/country-analytics.html

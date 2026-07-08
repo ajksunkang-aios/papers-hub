@@ -1,0 +1,590 @@
+{
+  "version": 1,
+  "title_en": "OS Technology Map",
+  "title_zh": "操作系统技术地图",
+  "subtitle_en": "Tier-1 research directions and technical elements — click to search papers on this hub.",
+  "subtitle_zh": "一级研究方向与技术要素 — 点击跳转本站论文检索。",
+  "groups": [
+    {
+      "id": "classic-os",
+      "label_en": "Classic Operating Systems",
+      "label_zh": "传统操作系统",
+      "accent": "#4338ca",
+      "topics": [
+        {
+          "id": "process-mgmt",
+          "label_en": "Process Management",
+          "label_zh": "进程管理",
+          "area_id": "os-kernel-arch",
+          "summary_en": "Process and thread lifecycle, execution contexts.",
+          "summary_zh": "进程与线程生命周期、执行上下文。",
+          "elements": [
+            {
+              "id": "process-model",
+              "label_en": "Process & thread model",
+              "label_zh": "进程与线程模型",
+              "search_terms": ["process", "thread", "fork"]
+            },
+            {
+              "id": "exec-context",
+              "label_en": "Execution context",
+              "label_zh": "执行上下文",
+              "search_terms": ["context switch", "clone", "exec"]
+            },
+            {
+              "id": "lightweight-runtime",
+              "label_en": "Lightweight runtime",
+              "label_zh": "轻量运行时",
+              "search_terms": ["coroutine", "user-level thread"]
+            }
+          ]
+        },
+        {
+          "id": "memory-mgmt",
+          "label_en": "Memory Management",
+          "label_zh": "内存管理",
+          "area_id": "memory-resource",
+          "summary_en": "Virtual memory, allocators, and caching.",
+          "summary_zh": "虚拟内存、分配器与缓存。",
+          "elements": [
+            {
+              "id": "virtual-memory",
+              "label_en": "Virtual memory",
+              "label_zh": "虚拟内存",
+              "search_terms": ["virtual memory", "paging", "page table"]
+            },
+            {
+              "id": "allocators",
+              "label_en": "Memory allocators",
+              "label_zh": "内存分配器",
+              "search_terms": ["memory allocator", "slab", "malloc"]
+            },
+            {
+              "id": "page-cache",
+              "label_en": "Page cache",
+              "label_zh": "页缓存",
+              "search_terms": ["page cache", "buffer cache"]
+            },
+            {
+              "id": "huge-pages",
+              "label_en": "Huge pages & TLB",
+              "label_zh": "大页与 TLB",
+              "search_terms": ["huge pages", "TLB"]
+            }
+          ]
+        },
+        {
+          "id": "storage-fs",
+          "label_en": "Storage & File Systems",
+          "label_zh": "存储与文件系统",
+          "area_id": "fs-storage",
+          "summary_en": "Local and distributed storage stacks.",
+          "summary_zh": "本地与分布式存储栈。",
+          "elements": [
+            {
+              "id": "local-fs",
+              "label_en": "Local file systems",
+              "label_zh": "本地文件系统",
+              "search_terms": ["file system", "filesystem", "ext4"]
+            },
+            {
+              "id": "distributed-fs",
+              "label_en": "Distributed storage",
+              "label_zh": "分布式存储",
+              "search_terms": ["distributed file", "object storage"]
+            },
+            {
+              "id": "block-nvme",
+              "label_en": "Block & NVMe path",
+              "label_zh": "块设备与 NVMe",
+              "search_terms": ["NVMe", "block storage", "SSD"]
+            },
+            {
+              "id": "consistency",
+              "label_en": "Crash consistency",
+              "label_zh": "崩溃一致性",
+              "search_terms": ["journaling", "crash consistency", "WAL"]
+            }
+          ]
+        },
+        {
+          "id": "driver-net-io",
+          "label_en": "Drivers, Network & I/O",
+          "label_zh": "驱动、网络与 I/O",
+          "summary_en": "Device drivers, kernel networking, and I/O paths.",
+          "summary_zh": "设备驱动、内核网络与 I/O 路径。",
+          "elements": [
+            {
+              "id": "device-driver",
+              "label_en": "Device drivers",
+              "label_zh": "设备驱动",
+              "search_terms": ["device driver", "DMA", "interrupt"]
+            },
+            {
+              "id": "kernel-network",
+              "label_en": "Kernel network stack",
+              "label_zh": "内核网络栈",
+              "search_terms": ["TCP", "socket", "network stack"]
+            },
+            {
+              "id": "io-uring",
+              "label_en": "Async I/O",
+              "label_zh": "异步 I/O",
+              "search_terms": ["io_uring", "asynchronous I/O"]
+            },
+            {
+              "id": "rdma",
+              "label_en": "RDMA & kernel bypass",
+              "label_zh": "RDMA 与内核旁路",
+              "search_terms": ["RDMA", "DPDK", "kernel bypass"]
+            }
+          ]
+        },
+        {
+          "id": "virt-container",
+          "label_en": "Virtualization & Containers",
+          "label_zh": "虚拟化与容器",
+          "summary_en": "Hypervisors, VMs, and container runtime isolation.",
+          "summary_zh": "Hypervisor、虚拟机与容器运行时隔离。",
+          "elements": [
+            {
+              "id": "hypervisor",
+              "label_en": "Hypervisor & KVM",
+              "label_zh": "Hypervisor 与 KVM",
+              "search_terms": ["hypervisor", "KVM", "VM exit"]
+            },
+            {
+              "id": "container",
+              "label_en": "Containers",
+              "label_zh": "容器",
+              "search_terms": ["container", "namespace", "cgroup"]
+            },
+            {
+              "id": "microvm",
+              "label_en": "MicroVMs",
+              "label_zh": "微虚拟机",
+              "search_terms": ["microVM", "Firecracker", "Kata"]
+            }
+          ]
+        },
+        {
+          "id": "isolation-formal",
+          "label_en": "Isolation & Formal Methods",
+          "label_zh": "隔离与形式化",
+          "summary_en": "OS isolation guarantees and verified kernels.",
+          "summary_zh": "操作系统隔离保证与可验证内核。",
+          "elements": [
+            {
+              "id": "isolation",
+              "label_en": "Isolation mechanisms",
+              "label_zh": "隔离机制",
+              "search_terms": ["isolation", "capability", "privilege"]
+            },
+            {
+              "id": "formal-verification",
+              "label_en": "Formal verification",
+              "label_zh": "形式化验证",
+              "search_terms": ["formal verification", "seL4", "specification"]
+            },
+            {
+              "id": "correctness",
+              "label_en": "Kernel correctness",
+              "label_zh": "内核正确性",
+              "search_terms": ["verified kernel", "correctness proof"]
+            }
+          ]
+        },
+        {
+          "id": "scheduling",
+          "label_en": "Scheduling",
+          "label_zh": "调度",
+          "area_id": "memory-resource",
+          "summary_en": "CPU, IO, and real-time scheduling policies.",
+          "summary_zh": "CPU、IO 与实时调度策略。",
+          "elements": [
+            {
+              "id": "cpu-sched",
+              "label_en": "CPU scheduling",
+              "label_zh": "CPU 调度",
+              "search_terms": ["scheduler", "cpu scheduling", "CFS"]
+            },
+            {
+              "id": "realtime",
+              "label_en": "Real-time scheduling",
+              "label_zh": "实时调度",
+              "search_terms": ["real-time scheduling", "latency"]
+            },
+            {
+              "id": "io-sched",
+              "label_en": "IO scheduling",
+              "label_zh": "IO 调度",
+              "search_terms": ["IO scheduling", "disk scheduling"]
+            },
+            {
+              "id": "energy-sched",
+              "label_en": "Energy-aware scheduling",
+              "label_zh": "能效调度",
+              "search_terms": ["energy-aware scheduling", "DVFS", "power-aware"]
+            }
+          ]
+        },
+        {
+          "id": "ebpf-programmable",
+          "label_en": "eBPF & Programmable Kernel",
+          "label_zh": "eBPF 与可编程内核",
+          "area_id": "ebpf",
+          "summary_en": "Verified in-kernel programs, XDP, tracing, and programmable datapaths.",
+          "summary_zh": "可验证内核程序、XDP、追踪与可编程数据路径。",
+          "elements": [
+            {
+              "id": "ebpf-core",
+              "label_en": "eBPF & verifier",
+              "label_zh": "eBPF 与验证器",
+              "search_terms": ["ebpf", "bpf verifier"]
+            },
+            {
+              "id": "xdp-net",
+              "label_en": "XDP & network BPF",
+              "label_zh": "XDP 与网络 BPF",
+              "search_terms": ["XDP", "tc BPF", "Cilium"]
+            },
+            {
+              "id": "tracing-probes",
+              "label_en": "Tracing & probes",
+              "label_zh": "追踪与探针",
+              "search_terms": ["tracing", "kprobe", "uprobe", "tracepoint"]
+            },
+            {
+              "id": "libbpf-core",
+              "label_en": "libbpf & CO-RE",
+              "label_zh": "libbpf 与 CO-RE",
+              "search_terms": ["libbpf", "CO-RE", "BPF map"]
+            },
+            {
+              "id": "lsm-bpf",
+              "label_en": "LSM & security BPF",
+              "label_zh": "LSM 与安全 BPF",
+              "search_terms": ["LSM BPF", "runtime security"]
+            }
+          ]
+        },
+        {
+          "id": "sync-concurrency",
+          "label_en": "Synchronization & Concurrency",
+          "label_zh": "同步与并发",
+          "summary_en": "Locks, lock-free structures, and memory ordering.",
+          "summary_zh": "锁、无锁结构与内存序。",
+          "elements": [
+            {
+              "id": "locking",
+              "label_en": "Locking",
+              "label_zh": "锁机制",
+              "search_terms": ["mutex", "spinlock", "rwlock"]
+            },
+            {
+              "id": "rcu",
+              "label_en": "RCU & read-copy-update",
+              "label_zh": "RCU",
+              "search_terms": ["RCU", "read-copy-update"]
+            },
+            {
+              "id": "lock-free",
+              "label_en": "Lock-free & ordering",
+              "label_zh": "无锁与内存序",
+              "search_terms": ["lock-free", "memory barrier", "concurrency"]
+            }
+          ]
+        },
+        {
+          "id": "kernel-arch",
+          "label_en": "Kernel Architecture",
+          "label_zh": "内核基础架构",
+          "area_id": "os-kernel-arch",
+          "summary_en": "Monolithic, microkernel, exokernel, and syscalls.",
+          "summary_zh": "宏内核、微内核、外核与系统调用。",
+          "elements": [
+            {
+              "id": "monolithic",
+              "label_en": "Monolithic kernel",
+              "label_zh": "宏内核",
+              "search_terms": ["monolithic kernel", "linux kernel"]
+            },
+            {
+              "id": "microkernel",
+              "label_en": "Microkernel",
+              "label_zh": "微内核",
+              "search_terms": ["microkernel", "L4"]
+            },
+            {
+              "id": "exokernel",
+              "label_en": "Exokernel / library OS",
+              "label_zh": "外核 / 库操作系统",
+              "search_terms": ["exokernel", "library operating system"]
+            },
+            {
+              "id": "syscall",
+              "label_en": "System calls",
+              "label_zh": "系统调用",
+              "search_terms": ["syscall", "system call", "vDSO"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extended",
+      "label_en": "Architecture, Security & AI Systems",
+      "label_zh": "体系结构、安全与 AI 系统",
+      "accent": "#0891b2",
+      "topics": [
+        {
+          "id": "hw-sw-arch",
+          "label_en": "HW–SW Co-design & Computer Architecture",
+          "label_zh": "软硬协同与体系结构",
+          "summary_en": "ISA, heterogeneous cores, NUMA, CXL, and OS adaptation.",
+          "summary_zh": "指令集、异构核心、NUMA、CXL 与 OS 适配。",
+          "elements": [
+            {
+              "id": "isa",
+              "label_en": "ARM / RISC-V / x86",
+              "label_zh": "ARM / RISC-V / x86",
+              "search_terms": ["RISC-V", "ARM", "x86", "architecture port"]
+            },
+            {
+              "id": "smt-simd",
+              "label_en": "SMT & SIMD",
+              "label_zh": "SMT 与 SIMD",
+              "search_terms": ["SMT", "SIMD", "vectorization"]
+            },
+            {
+              "id": "big-little",
+              "label_en": "big.LITTLE & heterogeneous CPU",
+              "label_zh": "大小核",
+              "search_terms": ["big.LITTLE", "heterogeneous CPU"]
+            },
+            {
+              "id": "numa-cxl",
+              "label_en": "NUMA & CXL",
+              "label_zh": "NUMA 与 CXL",
+              "search_terms": ["NUMA", "CXL", "memory tiering"]
+            },
+            {
+              "id": "pmem",
+              "label_en": "Persistent memory",
+              "label_zh": "持久内存",
+              "search_terms": ["persistent memory", "PMem"]
+            }
+          ]
+        },
+        {
+          "id": "system-security",
+          "label_en": "System Security",
+          "label_zh": "系统安全",
+          "area_id": "system-security",
+          "summary_en": "Software/kernel security, TEE, trust, and agent security.",
+          "summary_zh": "软件/内核安全、TEE、可信计算与 Agent 安全。",
+          "elements": [
+            {
+              "id": "sw-security",
+              "label_en": "Software security",
+              "label_zh": "软件安全",
+              "search_terms": ["memory safety", "vulnerability", "exploit"]
+            },
+            {
+              "id": "kernel-security",
+              "label_en": "Kernel security",
+              "label_zh": "内核安全",
+              "search_terms": ["kernel exploit", "privilege escalation"]
+            },
+            {
+              "id": "tee",
+              "label_en": "TEE & confidential computing",
+              "label_zh": "TEE 与机密计算",
+              "search_terms": ["TEE", "confidential computing", "enclave"]
+            },
+            {
+              "id": "trusted-computing",
+              "label_en": "HSM & trusted computing",
+              "label_zh": "HSM 与可信计算",
+              "search_terms": ["HSM", "trusted computing", "remote attestation"]
+            },
+            {
+              "id": "agent-security",
+              "label_en": "Agent security",
+              "label_zh": "Agent 安全",
+              "search_terms": ["agent security", "sandbox", "capability"]
+            }
+          ]
+        },
+        {
+          "id": "ai-inside-kernel",
+          "label_en": "AI inside Kernel",
+          "label_zh": "内核内 AI",
+          "summary_en": "Models and learned components inside the kernel/runtime for fixes, heuristics, and execution-path decisions.",
+          "summary_zh": "模型进入内核/运行时，用于修复、启发式策略与执行路径决策。",
+          "elements": [
+            {
+              "id": "in-kernel-ml",
+              "label_en": "In-kernel ML & policies",
+              "label_zh": "内核内 ML 与策略",
+              "search_terms": ["learned scheduler", "ML for systems", "in-kernel inference"]
+            },
+            {
+              "id": "kernel-self-heal",
+              "label_en": "Self-healing & auto-fix",
+              "label_zh": "自愈与自动修复",
+              "search_terms": ["kernel fix", "self-healing", "automatic repair"]
+            },
+            {
+              "id": "learned-heuristics",
+              "label_en": "Learned heuristics & tuning",
+              "label_zh": "学习型启发式与调参",
+              "search_terms": ["heuristic", "autotuning", "learned policy"]
+            },
+            {
+              "id": "exec-path",
+              "label_en": "Execution path optimization",
+              "label_zh": "执行路径优化",
+              "search_terms": ["execution path", "fast path", "hot path"]
+            }
+          ]
+        },
+        {
+          "id": "agent-os",
+          "label_en": "AgentOS",
+          "label_zh": "AgentOS",
+          "summary_en": "New kernel/runtime abstractions for long-running agents — libOS, capabilities, and auditable agent processes.",
+          "summary_zh": "面向长运行 Agent 的新内核/运行时抽象 — libOS、能力模型与可审计 Agent 进程。",
+          "elements": [
+            {
+              "id": "agentos-arch",
+              "label_en": "AgentOS / libOS architecture",
+              "label_zh": "AgentOS / libOS 架构",
+              "search_terms": ["Agent libOS", "AgentProcess", "libOS"]
+            },
+            {
+              "id": "capability-runtime",
+              "label_en": "Capability & sandbox model",
+              "label_zh": "能力与沙箱模型",
+              "search_terms": ["capability", "sandbox", "syscall broker"]
+            },
+            {
+              "id": "agent-state",
+              "label_en": "Agent state & checkpoint",
+              "label_zh": "Agent 状态与 checkpoint",
+              "search_terms": ["checkpoint", "agent state", "long-running agent"]
+            },
+            {
+              "id": "agent-audit",
+              "label_en": "Audit & recovery",
+              "label_zh": "审计与恢复",
+              "search_terms": ["audit trail", "agent recovery", "resumable agent"]
+            }
+          ]
+        },
+        {
+          "id": "os-agentic-eng",
+          "label_en": "OS Agentic Engineering",
+          "label_zh": "操作系统智能体工程",
+          "area_id": "kernel-agentic",
+          "summary_en": "LLM-assisted kernel development, debugging, CVE repair, and code intelligence.",
+          "summary_zh": "LLM 辅助内核开发、调试、CVE 修复与代码智能。",
+          "elements": [
+            {
+              "id": "llm-debug",
+              "label_en": "LLM debugging & root cause",
+              "label_zh": "LLM 调试与根因",
+              "search_terms": ["root cause", "log analysis", "debugging"]
+            },
+            {
+              "id": "cve-patch",
+              "label_en": "CVE & patch generation",
+              "label_zh": "CVE 与补丁生成",
+              "search_terms": ["CVE", "patch generation", "vulnerability fix"]
+            },
+            {
+              "id": "code-review",
+              "label_en": "MR & code review",
+              "label_zh": "MR 与代码检视",
+              "search_terms": ["code review", "merge request"]
+            },
+            {
+              "id": "code-graph",
+              "label_en": "Kernel code graph & RAG",
+              "label_zh": "内核代码图谱与 RAG",
+              "search_terms": ["code graph", "knowledge graph", "RAG"]
+            }
+          ]
+        },
+        {
+          "id": "ai-infra",
+          "label_en": "AI Infra",
+          "label_zh": "AI 基础设施",
+          "area_id": "llm-serving",
+          "summary_en": "LLM serving and heterogeneous resource management.",
+          "summary_zh": "LLM 推理服务与异构资源管理。",
+          "elements": [
+            {
+              "id": "llm-serving",
+              "label_en": "LLM serving",
+              "label_zh": "LLM Serving",
+              "search_terms": ["LLM serving", "vLLM", "inference serving"]
+            },
+            {
+              "id": "kv-cache",
+              "label_en": "KV cache & memory",
+              "label_zh": "KV Cache 与内存",
+              "search_terms": ["KV cache", "memory offloading"]
+            },
+            {
+              "id": "hetero-resource",
+              "label_en": "Heterogeneous resources",
+              "label_zh": "异构资源管理",
+              "search_terms": ["GPU scheduling", "heterogeneous resource"]
+            },
+            {
+              "id": "disaggregated",
+              "label_en": "Disaggregated inference",
+              "label_zh": "分离式推理",
+              "search_terms": ["disaggregated inference", "speculative decoding"]
+            }
+          ]
+        },
+        {
+          "id": "on-device-ai",
+          "label_en": "On-device AI",
+          "label_zh": "端侧 AI",
+          "area_id": "on-device-ai",
+          "summary_en": "Edge/mobile LLM and NPU-aware system support.",
+          "summary_zh": "端侧/移动端 LLM 与 NPU 系统支持。",
+          "elements": [
+            {
+              "id": "mobile-llm",
+              "label_en": "On-device LLM",
+              "label_zh": "端侧 LLM",
+              "search_terms": ["on-device LLM", "mobile LLM"]
+            },
+            {
+              "id": "npu",
+              "label_en": "NPU & accelerators",
+              "label_zh": "NPU 与加速器",
+              "search_terms": ["NPU", "neural processing unit"]
+            },
+            {
+              "id": "edge-runtime",
+              "label_en": "Edge AI runtime",
+              "label_zh": "边缘 AI 运行时",
+              "search_terms": ["edge AI", "TinyML", "edge deployment"]
+            },
+            {
+              "id": "power-thermal",
+              "label_en": "Power & thermal",
+              "label_zh": "功耗与热管理",
+              "search_terms": ["power management", "thermal", "resource-constrained"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

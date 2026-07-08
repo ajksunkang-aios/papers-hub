@@ -129,6 +129,7 @@ run_daily() {
     echo "  broadcast generated_at: $(grep -m1 '"generated_at"' "$ROOT/website/data/today-broadcast.json" || true)"
   fi
   run "sync hub meta" "$PYTHON" scripts/sync_hub_meta.py "${HUB_FLAG[@]}"
+  run "sync tech map" "$PYTHON" scripts/sync_tech_map.py "${HUB_FLAG[@]}"
 
   run "daily_update done" echo "log=${LOG}"
   echo ""
