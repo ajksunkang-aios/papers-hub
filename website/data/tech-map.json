@@ -1,9 +1,9 @@
 {
-  "version": 1,
+  "version": 2,
   "title_en": "OS Technology Map",
   "title_zh": "操作系统技术地图",
-  "subtitle_en": "Tier-1 research directions and technical elements — click to search papers on this hub.",
-  "subtitle_zh": "一级研究方向与技术要素 — 点击跳转本站论文检索。",
+  "subtitle_en": "Six research pillars — from classic OS to AIOS and scenario-facing systems. Click elements to search papers.",
+  "subtitle_zh": "六大研究支柱 — 从传统 OS 到 AIOS 与面向场景的系统。点击技术要素检索论文。",
   "groups": [
     {
       "id": "classic-os",
@@ -235,44 +235,6 @@
           ]
         },
         {
-          "id": "isolation-formal",
-          "label_en": "Isolation & Formal Methods",
-          "label_zh": "隔离与形式化",
-          "summary_en": "OS isolation guarantees and verified kernels.",
-          "summary_zh": "操作系统隔离保证与可验证内核。",
-          "elements": [
-            {
-              "id": "isolation",
-              "label_en": "Isolation mechanisms",
-              "label_zh": "隔离机制",
-              "search_terms": [
-                "isolation",
-                "capability",
-                "privilege"
-              ]
-            },
-            {
-              "id": "formal-verification",
-              "label_en": "Formal verification",
-              "label_zh": "形式化验证",
-              "search_terms": [
-                "formal verification",
-                "seL4",
-                "specification"
-              ]
-            },
-            {
-              "id": "correctness",
-              "label_en": "Kernel correctness",
-              "label_zh": "内核正确性",
-              "search_terms": [
-                "verified kernel",
-                "correctness proof"
-              ]
-            }
-          ]
-        },
-        {
           "id": "scheduling",
           "label_en": "Scheduling",
           "label_zh": "调度",
@@ -467,10 +429,10 @@
       ]
     },
     {
-      "id": "extended",
-      "label_en": "Architecture, Security & AI Systems",
-      "label_zh": "体系结构、安全与 AI 系统",
-      "accent": "#0891b2",
+      "id": "arch-codesign",
+      "label_en": "Architecture & HW–SW Co-design",
+      "label_zh": "体系结构与软硬协同",
+      "accent": "#0f766e",
       "topics": [
         {
           "id": "hw-sw-arch",
@@ -531,12 +493,59 @@
           ]
         },
         {
+          "id": "hetero-sys",
+          "label_en": "Heterogeneous Systems",
+          "label_zh": "异构系统",
+          "summary_en": "CPU–GPU–NPU co-scheduling and disaggregated memory.",
+          "summary_zh": "CPU–GPU–NPU 协同调度与分离内存。",
+          "elements": [
+            {
+              "id": "cpu-gpu",
+              "label_en": "CPU–GPU co-scheduling",
+              "label_zh": "CPU–GPU 协同调度",
+              "search_terms": [
+                "GPU scheduling",
+                "CPU-GPU",
+                "accelerator scheduling"
+              ]
+            },
+            {
+              "id": "memory-fabric",
+              "label_en": "Memory fabric & CXL pooling",
+              "label_zh": "内存互联与 CXL 池化",
+              "search_terms": [
+                "CXL pooling",
+                "memory fabric",
+                "disaggregated memory"
+              ]
+            },
+            {
+              "id": "accel-os",
+              "label_en": "Accelerator-aware OS",
+              "label_zh": "加速器感知 OS",
+              "search_terms": [
+                "accelerator",
+                "device driver GPU",
+                "IOMMU"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security-formal",
+      "label_en": "System Security, TEE & Formal Methods",
+      "label_zh": "系统安全、TEE 与形式化方法",
+      "accent": "#b45309",
+      "topics": [
+        {
           "id": "system-security",
           "label_en": "System Security",
           "label_zh": "系统安全",
           "area_id": "system-security",
-          "summary_en": "Software/kernel security, TEE, trust, and agent security.",
-          "summary_zh": "软件/内核安全、TEE、可信计算与 Agent 安全。",
+          "summary_en": "Software/kernel security, attack surface, and runtime hardening.",
+          "summary_zh": "软件/内核安全、攻击面与运行时加固。",
           "elements": [
             {
               "id": "sw-security",
@@ -558,9 +567,29 @@
               ]
             },
             {
+              "id": "agent-security",
+              "label_en": "Agent security",
+              "label_zh": "Agent 安全",
+              "search_terms": [
+                "agent security",
+                "sandbox",
+                "capability"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tee-confidential",
+          "label_en": "TEE & Confidential Computing",
+          "label_zh": "TEE 与机密计算",
+          "area_id": "system-security",
+          "summary_en": "Trusted execution, enclaves, and remote attestation.",
+          "summary_zh": "可信执行、飞地与远程证明。",
+          "elements": [
+            {
               "id": "tee",
-              "label_en": "TEE & confidential computing",
-              "label_zh": "TEE 与机密计算",
+              "label_en": "TEE & enclaves",
+              "label_zh": "TEE 与飞地",
               "search_terms": [
                 "TEE",
                 "confidential computing",
@@ -578,141 +607,152 @@
               ]
             },
             {
-              "id": "agent-security",
-              "label_en": "Agent security",
-              "label_zh": "Agent 安全",
+              "id": "confidential-cloud",
+              "label_en": "Confidential cloud",
+              "label_zh": "机密云",
               "search_terms": [
-                "agent security",
-                "sandbox",
-                "capability"
+                "confidential VM",
+                "SGX",
+                "SEV",
+                "TDX"
               ]
             }
           ]
         },
         {
-          "id": "ai-inside-kernel",
-          "label_en": "AI inside Kernel",
-          "label_zh": "内核内 AI",
-          "summary_en": "Models and learned components inside the kernel/runtime for fixes, heuristics, and execution-path decisions.",
-          "summary_zh": "模型进入内核/运行时，用于修复、启发式策略与执行路径决策。",
+          "id": "isolation-formal",
+          "label_en": "Isolation & Formal Methods",
+          "label_zh": "隔离与形式化方法",
+          "summary_en": "OS isolation guarantees and verified kernels.",
+          "summary_zh": "操作系统隔离保证与可验证内核。",
           "elements": [
             {
-              "id": "in-kernel-ml",
-              "label_en": "In-kernel ML & policies",
-              "label_zh": "内核内 ML 与策略",
+              "id": "isolation",
+              "label_en": "Isolation mechanisms",
+              "label_zh": "隔离机制",
               "search_terms": [
-                "learned scheduler",
-                "ML for systems",
-                "in-kernel inference"
-              ]
-            },
-            {
-              "id": "kernel-self-heal",
-              "label_en": "Self-healing & auto-fix",
-              "label_zh": "自愈与自动修复",
-              "search_terms": [
-                "kernel fix",
-                "self-healing",
-                "automatic repair"
-              ]
-            },
-            {
-              "id": "learned-heuristics",
-              "label_en": "Learned heuristics & tuning",
-              "label_zh": "学习型启发式与调参",
-              "search_terms": [
-                "heuristic",
-                "autotuning",
-                "learned policy"
-              ]
-            },
-            {
-              "id": "exec-path",
-              "label_en": "Execution path optimization",
-              "label_zh": "执行路径优化",
-              "search_terms": [
-                "execution path",
-                "fast path",
-                "hot path"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "agent-os",
-          "label_en": "AgentOS",
-          "label_zh": "AgentOS",
-          "summary_en": "New kernel/runtime abstractions for long-running agents — libOS, capabilities, and auditable agent processes.",
-          "summary_zh": "面向长运行 Agent 的新内核/运行时抽象 — libOS、能力模型与可审计 Agent 进程。",
-          "elements": [
-            {
-              "id": "agentos-arch",
-              "label_en": "AgentOS / libOS architecture",
-              "label_zh": "AgentOS / libOS 架构",
-              "search_terms": [
-                "Agent libOS",
-                "AgentProcess",
-                "libOS"
-              ]
-            },
-            {
-              "id": "capability-runtime",
-              "label_en": "Capability & sandbox model",
-              "label_zh": "能力与沙箱模型",
-              "search_terms": [
+                "isolation",
                 "capability",
-                "sandbox",
-                "syscall broker"
+                "privilege"
               ]
             },
             {
-              "id": "agent-state",
-              "label_en": "Agent state & checkpoint",
-              "label_zh": "Agent 状态与 checkpoint",
+              "id": "formal-verification",
+              "label_en": "Formal verification",
+              "label_zh": "形式化验证",
               "search_terms": [
-                "checkpoint",
-                "agent state",
-                "long-running agent"
+                "formal verification",
+                "seL4",
+                "specification"
               ]
             },
             {
-              "id": "agent-audit",
-              "label_en": "Audit & recovery",
-              "label_zh": "审计与恢复",
+              "id": "correctness",
+              "label_en": "Kernel correctness",
+              "label_zh": "内核正确性",
               "search_terms": [
-                "audit trail",
-                "agent recovery",
-                "resumable agent"
+                "verified kernel",
+                "correctness proof"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agentic-infra",
+      "label_en": "OS Agentic Engineering",
+      "label_zh": "OS 智能体工程",
+      "accent": "#7c3aed",
+      "topics": [
+        {
+          "id": "agentic-foundation",
+          "label_en": "Agentic Foundation Layer",
+          "label_zh": "基础架构层",
+          "area_id": "kernel-agentic",
+          "summary_en": "Shared agent runtime substrate: multi-agent orchestration, loop/harness, memory, protocols, and graphs.",
+          "summary_zh": "共享 Agent 运行时底座：多智能体编排、Loop/Harness、记忆、协议与图谱。",
+          "elements": [
+            {
+              "id": "multi-agent",
+              "label_en": "Multi-agent systems",
+              "label_zh": "多智能体",
+              "search_terms": [
+                "multi-agent",
+                "agent orchestration",
+                "agent collaboration"
+              ]
+            },
+            {
+              "id": "loop-harness",
+              "label_en": "Loop / Harness architecture",
+              "label_zh": "Loop / Harness 架构",
+              "search_terms": [
+                "agent loop",
+                "harness",
+                "agent runtime",
+                "ReAct"
+              ]
+            },
+            {
+              "id": "memory-arch",
+              "label_en": "Memory architecture",
+              "label_zh": "记忆架构",
+              "search_terms": [
+                "agent memory",
+                "episodic memory",
+                "long-term memory"
+              ]
+            },
+            {
+              "id": "mcp-skill-protocol",
+              "label_en": "MCP / skill / tool protocol",
+              "label_zh": "MCP / Skill / 工具协议",
+              "search_terms": [
+                "MCP",
+                "Model Context Protocol",
+                "tool calling",
+                "skill protocol"
+              ]
+            },
+            {
+              "id": "codegraph",
+              "label_en": "Code graph",
+              "label_zh": "CodeGraph",
+              "search_terms": [
+                "code graph",
+                "program analysis graph",
+                "call graph"
+              ]
+            },
+            {
+              "id": "knowledgegraph",
+              "label_en": "Knowledge graph",
+              "label_zh": "KnowledgeGraph",
+              "search_terms": [
+                "knowledge graph",
+                "RAG",
+                "kernel knowledge"
               ]
             }
           ]
         },
         {
-          "id": "os-agentic-eng",
-          "label_en": "OS Agentic Engineering",
-          "label_zh": "操作系统智能体工程",
+          "id": "dev-agent",
+          "label_en": "Development Agents",
+          "label_zh": "开发智能体",
           "area_id": "kernel-agentic",
-          "summary_en": "LLM-assisted kernel development, debugging, CVE repair, and code intelligence.",
-          "summary_zh": "LLM 辅助内核开发、调试、CVE 修复与代码智能。",
+          "summary_en": "Domain agents for coding, review, refactor, and patch authoring.",
+          "summary_zh": "面向编码、评审、重构与补丁撰写的开发垂域智能体。",
           "elements": [
             {
-              "id": "llm-debug",
-              "label_en": "LLM debugging & root cause",
-              "label_zh": "LLM 调试与根因",
+              "id": "code-gen",
+              "label_en": "Code generation & refactor",
+              "label_zh": "代码生成与重构",
               "search_terms": [
-                "root cause",
-                "log analysis",
-                "debugging"
-              ]
-            },
-            {
-              "id": "cve-patch",
-              "label_en": "CVE & patch generation",
-              "label_zh": "CVE 与补丁生成",
-              "search_terms": [
-                "CVE",
-                "patch generation",
-                "vulnerability fix"
+                "code generation",
+                "refactor",
+                "LLM coding"
               ]
             },
             {
@@ -725,21 +765,188 @@
               ]
             },
             {
-              "id": "code-graph",
-              "label_en": "Kernel code graph & RAG",
-              "label_zh": "内核代码图谱与 RAG",
+              "id": "patch-authoring",
+              "label_en": "Patch authoring",
+              "label_zh": "补丁撰写",
               "search_terms": [
-                "code graph",
-                "knowledge graph",
-                "RAG"
+                "patch generation",
+                "commit message",
+                "diff synthesis"
+              ]
+            },
+            {
+              "id": "dev-workflow",
+              "label_en": "Dev workflow agents",
+              "label_zh": "开发工作流智能体",
+              "search_terms": [
+                "coding agent",
+                "software engineering agent"
               ]
             }
           ]
         },
         {
+          "id": "test-agent",
+          "label_en": "Testing Agents",
+          "label_zh": "测试智能体",
+          "area_id": "kernel-agentic",
+          "summary_en": "Domain agents for test generation, triage, fuzzing, and CI diagnosis.",
+          "summary_zh": "面向用例生成、失败归因、模糊测试与 CI 诊断的测试垂域智能体。",
+          "elements": [
+            {
+              "id": "test-gen",
+              "label_en": "Test generation",
+              "label_zh": "测试生成",
+              "search_terms": [
+                "test generation",
+                "unit test",
+                "property-based testing"
+              ]
+            },
+            {
+              "id": "failure-triage",
+              "label_en": "Failure triage",
+              "label_zh": "失败归因",
+              "search_terms": [
+                "test failure",
+                "flaky test",
+                "failure triage"
+              ]
+            },
+            {
+              "id": "fuzz-agent",
+              "label_en": "Fuzzing agents",
+              "label_zh": "模糊测试智能体",
+              "search_terms": [
+                "fuzzing",
+                "coverage-guided",
+                "kernel fuzz"
+              ]
+            },
+            {
+              "id": "ci-diagnosis",
+              "label_en": "CI diagnosis",
+              "label_zh": "CI 诊断",
+              "search_terms": [
+                "CI failure",
+                "continuous integration",
+                "build failure"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ops-agent",
+          "label_en": "Operations Agents",
+          "label_zh": "运维智能体",
+          "area_id": "kernel-agentic",
+          "summary_en": "Domain agents for SRE workflows: observability, incident response, and runbooks.",
+          "summary_zh": "面向可观测、应急响应与 Runbook 的运维垂域智能体。",
+          "elements": [
+            {
+              "id": "obs-agent",
+              "label_en": "Observability & RCA",
+              "label_zh": "可观测与根因分析",
+              "search_terms": [
+                "root cause",
+                "log analysis",
+                "observability agent"
+              ]
+            },
+            {
+              "id": "incident-agent",
+              "label_en": "Incident response",
+              "label_zh": "应急响应",
+              "search_terms": [
+                "incident response",
+                "on-call",
+                "auto remediation"
+              ]
+            },
+            {
+              "id": "runbook-agent",
+              "label_en": "Runbook automation",
+              "label_zh": "Runbook 自动化",
+              "search_terms": [
+                "runbook",
+                "ops automation",
+                "SRE agent"
+              ]
+            },
+            {
+              "id": "perf-tuning-agent",
+              "label_en": "Perf tuning agents",
+              "label_zh": "性能调优智能体",
+              "search_terms": [
+                "performance tuning",
+                "auto-tuning",
+                "bottleneck analysis"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "security-agent",
+          "label_en": "Security Agents",
+          "label_zh": "安全智能体",
+          "area_id": "kernel-agentic",
+          "summary_en": "Domain agents for CVE analysis, hardening, and vulnerability remediation.",
+          "summary_zh": "面向 CVE 分析、加固与漏洞修复的安全垂域智能体。",
+          "elements": [
+            {
+              "id": "cve-agent",
+              "label_en": "CVE analysis & triage",
+              "label_zh": "CVE 分析与分诊",
+              "search_terms": [
+                "CVE",
+                "vulnerability triage",
+                "security advisory"
+              ]
+            },
+            {
+              "id": "vuln-fix-agent",
+              "label_en": "Vulnerability fix agents",
+              "label_zh": "漏洞修复智能体",
+              "search_terms": [
+                "vulnerability fix",
+                "security patch",
+                "auto patching"
+              ]
+            },
+            {
+              "id": "hardening-agent",
+              "label_en": "Hardening & policy agents",
+              "label_zh": "加固与策略智能体",
+              "search_terms": [
+                "security hardening",
+                "LSM policy",
+                "secure coding"
+              ]
+            },
+            {
+              "id": "threat-hunt-agent",
+              "label_en": "Threat hunting agents",
+              "label_zh": "威胁狩猎智能体",
+              "search_terms": [
+                "threat hunting",
+                "malware detection",
+                "anomaly detection"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scenario-ai",
+      "label_en": "Scenario-Facing Systems",
+      "label_zh": "面向场景",
+      "accent": "#db2777",
+      "topics": [
+        {
           "id": "ai-infra",
-          "label_en": "AI Infra",
-          "label_zh": "AI 基础设施",
+          "label_en": "AI Infra (LLM Serving)",
+          "label_zh": "AI Infra（LLM Serving）",
           "area_id": "llm-serving",
           "summary_en": "LLM serving and heterogeneous resource management.",
           "summary_zh": "LLM 推理服务与异构资源管理。",
@@ -827,6 +1034,212 @@
                 "power management",
                 "thermal",
                 "resource-constrained"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "embodied-intelligence",
+          "label_en": "Embodied Intelligence",
+          "label_zh": "具身智能",
+          "summary_en": "OS and runtime support for robots, agents acting in the physical world.",
+          "summary_zh": "面向机器人与物理世界行动 Agent 的 OS/运行时支持。",
+          "elements": [
+            {
+              "id": "robot-os",
+              "label_en": "Robot / embodied OS",
+              "label_zh": "机器人 / 具身 OS",
+              "search_terms": [
+                "robot operating system",
+                "ROS",
+                "embodied AI"
+              ]
+            },
+            {
+              "id": "sensor-actuation",
+              "label_en": "Sensor & actuation stack",
+              "label_zh": "传感与执行栈",
+              "search_terms": [
+                "sensor fusion",
+                "actuation",
+                "real-time control"
+              ]
+            },
+            {
+              "id": "world-model-runtime",
+              "label_en": "World-model runtime",
+              "label_zh": "世界模型运行时",
+              "search_terms": [
+                "world model",
+                "embodied agent",
+                "multimodal runtime"
+              ]
+            },
+            {
+              "id": "sim-to-real",
+              "label_en": "Sim-to-real systems",
+              "label_zh": "仿真到现实系统",
+              "search_terms": [
+                "sim-to-real",
+                "digital twin",
+                "robotics simulation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-hw-xr",
+          "label_en": "AI Hardware / Wearables / XROS",
+          "label_zh": "AI 硬件 / 可穿戴 / XROS",
+          "summary_en": "Wearables, XR headsets, and OS stacks for AI-native hardware.",
+          "summary_zh": "可穿戴、XR 头显与 AI 原生硬件上的 OS 栈。",
+          "elements": [
+            {
+              "id": "wearable-os",
+              "label_en": "Wearable OS",
+              "label_zh": "可穿戴 OS",
+              "search_terms": [
+                "wearable",
+                "smartwatch OS",
+                "always-on sensing"
+              ]
+            },
+            {
+              "id": "xr-os",
+              "label_en": "XROS / spatial computing OS",
+              "label_zh": "XROS / 空间计算 OS",
+              "search_terms": [
+                "XR OS",
+                "spatial computing",
+                "AR headset",
+                "VR OS"
+              ]
+            },
+            {
+              "id": "ai-silicon",
+              "label_en": "AI silicon & co-processors",
+              "label_zh": "AI 芯片与协处理器",
+              "search_terms": [
+                "AI chip",
+                "NPU silicon",
+                "neural co-processor"
+              ]
+            },
+            {
+              "id": "ambient-runtime",
+              "label_en": "Ambient & continuous AI runtime",
+              "label_zh": "环境感知与持续 AI 运行时",
+              "search_terms": [
+                "ambient computing",
+                "always-on AI",
+                "context awareness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aios",
+      "label_en": "AIOS",
+      "label_zh": "AIOS",
+      "accent": "#2563eb",
+      "topics": [
+        {
+          "id": "ai-inside-kernel",
+          "label_en": "AI inside Kernel",
+          "label_zh": "内核内 AI",
+          "summary_en": "Models and learned components inside the kernel/runtime for fixes, heuristics, and execution-path decisions.",
+          "summary_zh": "模型进入内核/运行时，用于修复、启发式策略与执行路径决策。",
+          "elements": [
+            {
+              "id": "in-kernel-ml",
+              "label_en": "In-kernel ML & policies",
+              "label_zh": "内核内 ML 与策略",
+              "search_terms": [
+                "learned scheduler",
+                "ML for systems",
+                "in-kernel inference"
+              ]
+            },
+            {
+              "id": "kernel-self-heal",
+              "label_en": "Self-healing & auto-fix",
+              "label_zh": "自愈与自动修复",
+              "search_terms": [
+                "kernel fix",
+                "self-healing",
+                "automatic repair"
+              ]
+            },
+            {
+              "id": "learned-heuristics",
+              "label_en": "Learned heuristics & tuning",
+              "label_zh": "学习型启发式与调参",
+              "search_terms": [
+                "heuristic",
+                "autotuning",
+                "learned policy"
+              ]
+            },
+            {
+              "id": "exec-path",
+              "label_en": "Execution path optimization",
+              "label_zh": "执行路径优化",
+              "search_terms": [
+                "execution path",
+                "fast path",
+                "hot path"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "agent-os",
+          "label_en": "Agentic OS",
+          "label_zh": "Agentic OS",
+          "summary_en": "New kernel/runtime abstractions for long-running agents — libOS, capabilities, and auditable agent processes.",
+          "summary_zh": "面向长运行 Agent 的新内核/运行时抽象 — libOS、能力模型与可审计 Agent 进程。",
+          "elements": [
+            {
+              "id": "agentos-arch",
+              "label_en": "Agentic OS / libOS architecture",
+              "label_zh": "Agentic OS / libOS 架构",
+              "search_terms": [
+                "Agent libOS",
+                "AgentProcess",
+                "libOS",
+                "Agentic OS"
+              ]
+            },
+            {
+              "id": "capability-runtime",
+              "label_en": "Capability & sandbox model",
+              "label_zh": "能力与沙箱模型",
+              "search_terms": [
+                "capability",
+                "sandbox",
+                "syscall broker"
+              ]
+            },
+            {
+              "id": "agent-state",
+              "label_en": "Agent state & checkpoint",
+              "label_zh": "Agent 状态与 checkpoint",
+              "search_terms": [
+                "checkpoint",
+                "agent state",
+                "long-running agent"
+              ]
+            },
+            {
+              "id": "agent-audit",
+              "label_en": "Audit & recovery",
+              "label_zh": "审计与恢复",
+              "search_terms": [
+                "audit trail",
+                "agent recovery",
+                "resumable agent"
               ]
             }
           ]
