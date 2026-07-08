@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country analytics | OS Kernel Papers Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=59" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div id="global-views-bar" class="global-views-bar" hidden></div>
+      <div class="wrap wrap-wide">
+        <p class="eyebrow"><a id="main-hub-link" href="/">OS Kernel Papers Hub</a></p>
+        <h1>Country analytics</h1>
+        <p class="lede" id="analytics-subtitle">
+          First-author country breakdown for dblp conference proceedings: research areas, venues, and yearly trends.
+        </p>
+        <p class="hub-section-meta" id="analytics-meta">Loading...</p>
+      </div>
+    </header>
+
+    <main class="wrap wrap-wide country-analytics-page">
+      <section class="country-summary-grid" id="country-summary" aria-label="Summary statistics"></section>
+
+      <section class="country-panel" aria-labelledby="country-rank-heading">
+        <header class="hub-section-head">
+          <div>
+            <h2 id="country-rank-heading">Papers by first-author country</h2>
+            <p class="hub-section-meta">Ranked by total papers in the selected period. Click a country for details.</p>
+          </div>
+          <div class="country-region-filters" id="region-filters" role="group" aria-label="Filter by region"></div>
+        </header>
+        <div id="country-rank-chart" class="country-rank-chart"></div>
+      </section>
+
+      <section class="country-panel country-panel-split" aria-labelledby="heatmap-heading">
+        <div class="country-heatmap-wrap">
+          <header class="hub-section-head">
+            <div>
+              <h2 id="heatmap-heading">Country × research area</h2>
+              <p class="hub-section-meta">Heatmap of dblp paper counts by first-author country and area keyword match.</p>
+            </div>
+          </header>
+          <div id="country-heatmap" class="country-heatmap"></div>
+        </div>
+        <aside class="country-detail-panel" aria-labelledby="country-detail-heading">
+          <h2 id="country-detail-heading">Country detail</h2>
+          <div id="country-detail" class="country-detail">
+            <p class="panel-note">Select a country from the chart to inspect area mix, yearly trend, and top papers.</p>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap wrap-wide">
+      <p>
+        First-author country for dblp conference papers, inferred from affiliation text and institution rules.
+        Unknown entries are shown separately. Data is updated locally and published to this site.
+      </p>
+      <p>Data: <a href="https://openalex.org/">OpenAlex</a> &middot; <a href="https://dblp.org/">dblp</a></p>
+    </footer>
+
+    <script src="country-analytics.js?v=3" type="module"></script>
+  </body>
+</html>

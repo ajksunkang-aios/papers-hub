@@ -27,7 +27,7 @@ AUTHOR_COUNTRY_OFFLINE=1 ./scripts/update_country_analytics.sh
 AUTHOR_USE_OPENALEX=1 ./scripts/update_country_analytics.sh
 ```
 
-GitHub Actions runs the **online** dblp pipeline in [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml) via `scripts/daily_update.sh` (first-author-only). Affiliation caches are restored across runs:
+GitHub Actions runs author enrich **locally only** — see [COUNTRY_PAGES.md](COUNTRY_PAGES.md). The daily Deploy Pages cron does not rebuild country analytics.
 
 | File | Role |
 |------|------|
@@ -36,7 +36,9 @@ GitHub Actions runs the **online** dblp pipeline in [`.github/workflows/deploy-p
 | `data/author-country-cache-*.json` | Per-paper `authors_structured` |
 | `data/author-paper-reload-*.json` | Compact reload index written into `website/data/*.json` |
 
-Each run **reloads** prior results into conference JSON, then only HTTP-fetches authors still missing from the dblp cache. Opt out of online fetch with `AUTHOR_ENRICH_OFFLINE=1`. Force full re-fetch: `AUTHOR_ENRICH_FORCE=1`.
+Each local run **reloads** prior results into conference JSON, then only HTTP-fetches authors still missing from the dblp cache. Opt out of online fetch with `AUTHOR_ENRICH_OFFLINE=1`. Force full re-fetch: `AUTHOR_ENRICH_FORCE=1`.
+
+Publish to the country Pages site: `./scripts/publish_country_data.sh` then commit and push (see [COUNTRY_PAGES.md](COUNTRY_PAGES.md)).
 
 ## Configuration
 

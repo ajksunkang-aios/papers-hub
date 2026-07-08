@@ -6,13 +6,14 @@ from __future__ import annotations
 import sys
 import unittest
 from pathlib import Path
+from unittest import mock
 
 from lxml import etree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from core.dblp_person_index import parse_www_person  # noqa: E402
+from core.dblp_person_index import parse_www_person, ci_skip_person_index_build  # noqa: E402
 
 
 SAMPLE_WWW = """
@@ -51,6 +52,23 @@ class DblpPersonIndexParseTests(unittest.TestCase):
             """
         )
         self.assertIsNone(parse_www_person(elem))
+
+    def test_ci_skips_person_index_build_by_default(self) -> None:
+        import os
+
+        env = os.environ
+        with mock.patch.dict(
+            env,
+            {"CI": "true", "DBLP_PERSON_INDEX_FORCE": ""},
+            clear=False,
+        ):
+            self.assertTrue(ci_skip_person_index_build())
+        with mock.patch.dict(
+            env,
+            {"CI": "true", "DBLP_PERSON_INDEX_FORCE": "1"},
+            clear=False,
+        ):
+            self.assertFalse(ci_skip_person_index_build())
 
 
 if __name__ == "__main__":

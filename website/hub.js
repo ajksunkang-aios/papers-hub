@@ -78,6 +78,16 @@ function applyHubBranding(hub) {
   if (arxivModeBtn) arxivModeBtn.textContent = arxivLabel;
   if (publishedModeBtn) publishedModeBtn.textContent = publishedLabel;
 
+  const countryLink = document.getElementById("country-analytics-link");
+  if (countryLink) {
+    const url = (hub.country_analytics_url || "country-analytics.html").trim();
+    countryLink.href = url;
+    if (url.startsWith("http")) {
+      countryLink.target = "_blank";
+      countryLink.rel = "noopener noreferrer";
+    }
+  }
+
   const broadcastTagline = document.querySelector(".broadcast-tagline");
   if (broadcastTagline && hub.tagline) {
     const tz = hub.tagline_timezone ? ` (${hub.tagline_timezone})` : "";

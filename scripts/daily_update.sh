@@ -10,6 +10,7 @@
 # Slow HTTP fallback: AUTHOR_ENRICH_ONLINE_DBLP=1
 # Schedule at 9:00 AM (server): ./scripts/install_daily_schedule.sh
 # Schedule at 9:00 AM (GitHub): .github/workflows/deploy-pages.yml
+# Country analytics: local only → .github/workflows/deploy-country-pages.yml
 #
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -27,7 +28,6 @@ LOG="$LOG_DIR/daily-$(date +%Y%m%d).log"
 HUB="${HUB:-os-kernel}"
 HUB_FLAG=(--hub "$HUB")
 PICK_YEARS="${PICK_YEARS:-2020,2021,2022,2023,2024,2025,2026}"
-# Country totals use the same window unless COUNTRY_YEARS is set explicitly.
 COUNTRY_YEARS="${COUNTRY_YEARS:-$PICK_YEARS}"
 export COUNTRY_YEARS
 ARXIV_PICK_YEARS="${ARXIV_PICK_YEARS:-2025,2026}"
@@ -78,43 +78,50 @@ run_daily() {
       "${ABSTRACT_ENRICH_FLAGS[@]}"
   fi
 
-  # Author affiliations: offline dblp.xml person index by default (fast).
-  # Slow HTTP person-page fallback: AUTHOR_ENRICH_ONLINE_DBLP=1
-  AUTHOR_ENRICH_FLAGS=(--years "$PICK_YEARS" --skip-arxiv)
-  if [[ "${AUTHOR_ENRICH_ALL_AUTHORS:-0}" != "1" ]]; then
-    AUTHOR_ENRICH_FLAGS+=(--first-author-only)
-  fi
-  AUTHOR_ENRICH_FLAGS+=(--if-stale-hours "${AUTHOR_ENRICH_STALE_HOURS:-168}")
-  if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" || "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
-    AUTHOR_ENRICH_FLAGS+=(--offline)
-    echo "  author enrich: OFFLINE (xml person index + disk reload only)"
-  elif [[ "${AUTHOR_ENRICH_ONLINE_DBLP:-0}" == "1" ]]; then
-    AUTHOR_ENRICH_FLAGS+=(--online-dblp-fallback)
-    if [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then
-      AUTHOR_ENRICH_FLAGS+=(--max-online-authors "$AUTHOR_ENRICH_MAX_ONLINE")
+  # Author affiliations (optional; skipped on CI — see DAILY_SKIP_AUTHOR_ENRICH).
+  if [[ "${DAILY_SKIP_AUTHOR_ENRICH:-0}" != "1" ]]; then
+    AUTHOR_ENRICH_FLAGS=(--years "$PICK_YEARS" --skip-arxiv)
+    if [[ "${AUTHOR_ENRICH_ALL_AUTHORS:-0}" != "1" ]]; then
+      AUTHOR_ENRICH_FLAGS+=(--first-author-only)
     fi
-    echo "  author enrich: xml index + HTTP fallback (max_online=${AUTHOR_ENRICH_MAX_ONLINE:-unlimited})"
+    AUTHOR_ENRICH_FLAGS+=(--if-stale-hours "${AUTHOR_ENRICH_STALE_HOURS:-168}")
+    if [[ "${AUTHOR_ENRICH_OFFLINE:-0}" == "1" || "${AUTHOR_COUNTRY_OFFLINE:-0}" == "1" ]]; then
+      AUTHOR_ENRICH_FLAGS+=(--offline)
+      echo "  author enrich: OFFLINE (xml person index + disk reload only)"
+    elif [[ "${AUTHOR_ENRICH_ONLINE_DBLP:-0}" == "1" ]]; then
+      AUTHOR_ENRICH_FLAGS+=(--online-dblp-fallback)
+      if [[ -n "${AUTHOR_ENRICH_MAX_ONLINE:-}" ]]; then
+        AUTHOR_ENRICH_FLAGS+=(--max-online-authors "$AUTHOR_ENRICH_MAX_ONLINE")
+      fi
+      echo "  author enrich: xml index + HTTP fallback (max_online=${AUTHOR_ENRICH_MAX_ONLINE:-unlimited})"
+    else
+      echo "  author enrich: dblp.xml person index (offline, no HTTP)"
+    fi
+    if [[ "${AUTHOR_USE_OPENALEX:-0}" == "1" ]]; then
+      AUTHOR_ENRICH_FLAGS+=(--openalex)
+    fi
+    if [[ "${AUTHOR_ENRICH_SKIP_DBLP:-0}" == "1" ]]; then
+      AUTHOR_ENRICH_FLAGS+=(--skip-dblp-fetch)
+    fi
+    if [[ "${AUTHOR_ENRICH_FORCE:-0}" == "1" ]]; then
+      AUTHOR_ENRICH_FLAGS+=(--force)
+    fi
+    if [[ "${AUTHOR_ENRICH_NO_RELOAD:-0}" == "1" ]]; then
+      AUTHOR_ENRICH_FLAGS+=(--no-reload)
+    fi
+    run "author metadata" "$PYTHON" -u enrich_author_metadata.py "${HUB_FLAG[@]}" \
+      "${AUTHOR_ENRICH_FLAGS[@]}"
   else
-    echo "  author enrich: dblp.xml person index (offline, no HTTP)"
+    echo "=== skip author enrich (DAILY_SKIP_AUTHOR_ENRICH=1) ==="
   fi
-  if [[ "${AUTHOR_USE_OPENALEX:-0}" == "1" ]]; then
-    AUTHOR_ENRICH_FLAGS+=(--openalex)
-  fi
-  if [[ "${AUTHOR_ENRICH_SKIP_DBLP:-0}" == "1" ]]; then
-    AUTHOR_ENRICH_FLAGS+=(--skip-dblp-fetch)
-  fi
-  if [[ "${AUTHOR_ENRICH_FORCE:-0}" == "1" ]]; then
-    AUTHOR_ENRICH_FLAGS+=(--force)
-  fi
-  if [[ "${AUTHOR_ENRICH_NO_RELOAD:-0}" == "1" ]]; then
-    AUTHOR_ENRICH_FLAGS+=(--no-reload)
-  fi
-  run "author metadata" "$PYTHON" -u enrich_author_metadata.py "${HUB_FLAG[@]}" \
-    "${AUTHOR_ENRICH_FLAGS[@]}"
 
   run "top picks" "$PYTHON" build_top_monthly.py "${HUB_FLAG[@]}" \
     --years "$PICK_YEARS" --arxiv-years "$ARXIV_PICK_YEARS"
-  run "country analytics" env SKIP_AUTHOR_ENRICH=1 "$ROOT/scripts/update_country_analytics.sh"
+  if [[ "${DAILY_SKIP_COUNTRY_ANALYTICS:-0}" != "1" ]]; then
+    run "country analytics" env SKIP_AUTHOR_ENRICH=1 "$ROOT/scripts/update_country_analytics.sh"
+  else
+    echo "=== skip country analytics (DAILY_SKIP_COUNTRY_ANALYTICS=1) ==="
+  fi
   run "broadcast" "$PYTHON" build_today_broadcast.py "${HUB_FLAG[@]}"
   if [[ -f "$ROOT/website/data/today-broadcast.json" ]]; then
     echo "  broadcast generated_at: $(grep -m1 '"generated_at"' "$ROOT/website/data/today-broadcast.json" || true)"

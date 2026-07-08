@@ -349,6 +349,7 @@ def write_website(
             "arxiv-recent.json",
             "build-info.json",
             "conference-timeline.json",
+            "country-analytics.json",
             "top-monthly.json",
             "top-published.json",
             "top-areas.json",
@@ -433,11 +434,6 @@ def main() -> int:
                     "web_data": str(hub.web_data.relative_to(hub.root)),
                 },
             )
-
-    if xml_path.is_file():
-        from core.dblp_person_index import ensure_person_index
-
-        ensure_person_index(xml_path, force=args.force)
 
     return 0
 

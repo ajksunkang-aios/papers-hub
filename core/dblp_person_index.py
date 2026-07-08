@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import gzip
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -124,6 +125,13 @@ def person_index_manifest_path(hub_root: Path) -> Path:
     return hub_root / "data" / "dblp-person-index-manifest.json"
 
 
+def ci_skip_person_index_build() -> bool:
+    """On CI, never stream-build the full index unless explicitly forced."""
+    if os.environ.get("DBLP_PERSON_INDEX_FORCE", "").lower() in ("1", "true", "yes"):
+        return False
+    return os.environ.get("CI", "").lower() in ("1", "true", "yes")
+
+
 def build_person_index(xml_path: Path, index_path: Path) -> dict[str, Any]:
     print(f"Building dblp person index from {xml_path} …", flush=True)
     entries = stream_build_person_index(xml_path)
@@ -167,6 +175,21 @@ def ensure_person_index(
             f"dblp person index up to date (xml {xml_fp[:40]}…); skip build → {index_path}",
             flush=True,
         )
+        return index_path
+
+    if not force and ci_skip_person_index_build():
+        if index_path.is_file():
+            print(
+                "dblp person index: reusing cached index on CI "
+                f"(set DBLP_PERSON_INDEX_FORCE=1 to rebuild) → {index_path}",
+                flush=True,
+            )
+        else:
+            print(
+                "dblp person index: skip build on CI (no cache; enrich uses "
+                "disk reload + author caches). Set DBLP_PERSON_INDEX_FORCE=1 to build.",
+                flush=True,
+            )
         return index_path
 
     build_person_index(xml_path, index_path)

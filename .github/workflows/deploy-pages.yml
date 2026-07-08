@@ -1,21 +1,7 @@
 # Build papers-hub data (dblp + arXiv + picks) and deploy website/ to GitHub Pages.
 #
-# Setup (once per repo):
-#   Settings → Pages → Build and deployment → Source: GitHub Actions
-#   (Optional, for live view counts) Settings → Secrets → VIEWS_API_URL
-#     = https://your-view-stats-worker.workers.dev
-#
-# Schedule: 09:00 Asia/Shanghai (01:00 UTC). Adjust cron if you use another TZ.
-# Manual run: Actions → Deploy Pages → Run workflow
-#
-# Country analytics: dblp.xml person index (offline) by default.
-# PICK_YEARS / COUNTRY_YEARS from 2020 onward. Set AUTHOR_ENRICH_ONLINE_DBLP=1
-# only when you need slow HTTP fallback for authors missing from the xml index.
-#   AUTHOR_ENRICH_OFFLINE=1
-#
-# Note: view counts update live via the views API (Cloudflare Worker). This workflow
-# only publishes the static site and injects views_api_url into hub.json when the
-# secret is set. Redeploying Pages does not increment or batch-update view totals.
+# Country analytics is NOT built here — update locally and deploy via
+# .github/workflows/deploy-country-pages.yml (see docs/COUNTRY_PAGES.md).
 
 name: Deploy Pages
 
@@ -59,26 +45,6 @@ jobs:
           key: papers-hub-dblp-xml-v1
           restore-keys: papers-hub-dblp-xml-
 
-      # Author caches must use a unique save key each run (Actions cache keys are
-      # immutable). restore-keys pick up the newest prior run. Save even on
-      # cancel/failure so partial online progress is not lost.
-      - name: Restore author affiliation cache
-        id: author-cache
-        uses: actions/cache/restore@v4
-        with:
-          path: |
-            data/dblp-affiliation-cache-os-kernel.json
-            data/author-country-cache-os-kernel.json
-            data/author-paper-reload-os-kernel.json
-            data/author-enrich-os-kernel.json
-          key: papers-hub-author-cache-v3-${{ runner.os }}-${{ github.run_id }}
-          restore-keys: |
-            papers-hub-author-cache-v3-${{ runner.os }}-
-            papers-hub-author-cache-v2-${{ runner.os }}
-            papers-hub-author-cache-v1-${{ runner.os }}
-            papers-hub-author-cache-
-            papers-hub-build-${{ runner.os }}-
-
       - name: Cache build artifacts
         uses: actions/cache@v4
         with:
@@ -87,44 +53,25 @@ jobs:
             data/arxiv-cache
             data/abstract-enrich-os-kernel.json
             data/dblp-build-os-kernel.json
-            data/dblp-person-index.json
-            data/dblp-person-index-manifest.json
-          key: papers-hub-build-${{ runner.os }}-${{ hashFiles('hubs/os-kernel/**', 'core/**', 'crawl_arxiv_recent.py', 'build_top_monthly.py', 'enrich_author_metadata.py', 'build_country_analytics.py') }}
+          key: papers-hub-build-${{ runner.os }}-${{ hashFiles('hubs/os-kernel/**', 'core/**', 'crawl_arxiv_recent.py', 'build_top_monthly.py', 'parse_dblp_xml.py') }}
           restore-keys: |
             papers-hub-build-${{ runner.os }}-
 
-      - name: Daily build (dblp + arXiv + picks + online country analytics)
+      - name: Daily build (dblp + arXiv + picks; no country enrich)
         env:
           CI: "true"
           HUB: os-kernel
           ABSTRACT_SKIP: "1"
-          # Enrich + country analytics: 2020–present (not full historical dblp dump).
+          DAILY_SKIP_AUTHOR_ENRICH: "1"
+          DAILY_SKIP_COUNTRY_ANALYTICS: "1"
           PICK_YEARS: "2020,2021,2022,2023,2024,2025,2026"
-          COUNTRY_YEARS: "2020,2021,2022,2023,2024,2025,2026"
-          # Offline dblp.xml person index; no HTTP unless AUTHOR_ENRICH_ONLINE_DBLP=1.
-          AUTHOR_ENRICH_OFFLINE: "0"
-          AUTHOR_COUNTRY_OFFLINE: "0"
         run: ./scripts/daily_update.sh
-
-      - name: Save author affiliation cache
-        if: ${{ always() && hashFiles('data/dblp-affiliation-cache-os-kernel.json') != '' }}
-        uses: actions/cache/save@v4
-        with:
-          path: |
-            data/dblp-affiliation-cache-os-kernel.json
-            data/author-country-cache-os-kernel.json
-            data/author-paper-reload-os-kernel.json
-            data/author-enrich-os-kernel.json
-          key: papers-hub-author-cache-v3-${{ runner.os }}-${{ github.run_id }}
 
       - name: Sync view zones to worker config
         run: python3 scripts/sync_view_zones.py
 
       - name: Test view stats helpers
         run: python3 -m unittest tests/test_view_stats.py
-
-      - name: Test author country + dblp affiliation helpers
-        run: python3 -m unittest tests/test_author_country.py tests/test_dblp_affiliations.py tests/test_dblp_person_index.py
 
       - name: Verify view zones stay in sync
         run: python3 scripts/sync_view_zones.py --check
@@ -158,8 +105,6 @@ jobs:
         run: |
           test -f website/index.html
           test -f website/views.js
-          test -f website/country-analytics.html
-          test -f website/data/country-analytics.json
           test -f website/data/conferences.json
           test -f website/data/top-monthly.json
           test -f website/data/today-broadcast.json
@@ -178,27 +123,8 @@ jobs:
               print(f"views ok: api={hub['views_api_url']}")
           else:
               print("views: api not configured (bar hidden until VIEWS_API_URL secret or hub.json URL)")
-
-          country = json.loads(Path("website/data/country-analytics.json").read_text(encoding="utf-8"))
-          cov = country.get("coverage") or {}
-          resolved = int(cov.get("resolved") or 0)
-          total = int(cov.get("total_papers") or 0)
-          print(
-              f"country analytics ok: source={country.get('data_source')} "
-              f"papers={total} resolved={resolved} "
-              f"countries={len(country.get('countries', []))}"
-          )
-          aff_path = Path("data/dblp-affiliation-cache-os-kernel.json")
-          if aff_path.is_file():
-              aff = json.loads(aff_path.read_text(encoding="utf-8"))
-              entries = aff.get("entries") or {}
-              hits = sum(1 for v in entries.values() if v.get("affiliations"))
-              print(f"dblp affiliation cache: entries={len(entries)} hits={hits}")
-          if total > 100 and resolved == 0:
-              print(
-                  "WARNING: country analytics resolved=0; online dblp author enrichment "
-                  "produced no country codes yet (cache will grow on later runs)"
-              )
+          if hub.get("country_analytics_url"):
+              print(f"country analytics: external site {hub['country_analytics_url']}")
           PY
           echo "Pages artifact: $(du -sh website | cut -f1)"
 

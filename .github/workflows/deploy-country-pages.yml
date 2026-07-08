@@ -1,0 +1,98 @@
+# Deploy Country Pages
+#
+# Publishes website-country/ (static country analytics) to a separate GitHub Pages site.
+# Data is built locally via ./scripts/publish_country_data.sh and committed as
+# website/data/country-analytics.json — this workflow only packages and deploys.
+#
+# Setup (once):
+#   1. Create repo e.g. papers-hub-country and enable Pages → GitHub Actions or gh-pages branch.
+#   2. Repository variable: COUNTRY_PAGES_REPOSITORY = owner/papers-hub-country
+#   3. Secret: COUNTRY_PAGES_DEPLOY_TOKEN = PAT with contents:write on that repo
+#   4. Set hubs/os-kernel/hub.json → country_analytics_url + main_hub_url
+#
+# Triggers: push to main when country JSON changes, or manual Run workflow.
+
+name: Deploy Country Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "website/data/country-analytics.json"
+      - "website/country-analytics.js"
+      - "website/shared.js"
+      - "website/views.js"
+      - "website/styles.css"
+      - "website-country/**"
+      - "hubs/os-kernel/hub.json"
+      - "scripts/prepare_country_site.sh"
+      - ".github/workflows/deploy-country-pages.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: country-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare country site
+        run: ./scripts/prepare_country_site.sh
+
+      - name: Verify country site output
+        run: |
+          test -f website-country/index.html
+          test -f website-country/data/country-analytics.json
+          test -f website-country/country-analytics.js
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path("website-country/data/country-analytics.json").read_text(encoding="utf-8"))
+          for key in ("generated_at", "data_source", "countries", "coverage"):
+              if key not in data:
+                  raise SystemExit(f"country-analytics.json missing {key!r}")
+          cov = data["coverage"]
+          print(
+              f"country analytics ok: papers={cov.get('total_papers')} "
+              f"resolved={cov.get('resolved')} countries={len(data.get('countries', []))}"
+          )
+          PY
+          echo "Country site size: $(du -sh website-country | cut -f1)"
+
+      - name: Upload country site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: country-pages-site
+          path: website-country
+          retention-days: 7
+
+  deploy-external:
+    needs: build
+    if: vars.COUNTRY_PAGES_REPOSITORY != ''
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download country site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: country-pages-site
+          path: website-country
+
+      - name: Deploy to external Pages repository
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.COUNTRY_PAGES_DEPLOY_TOKEN }}
+          external_repository: ${{ vars.COUNTRY_PAGES_REPOSITORY }}
+          publish_dir: ./website-country
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: "Deploy country analytics from ${{ github.repository }}@${{ github.sha }}"

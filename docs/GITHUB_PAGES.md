@@ -1,6 +1,8 @@
 # GitHub Pages + scheduled builds
 
-The workflow [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml) replaces a server cron job: it runs the same pipeline as `scripts/daily_update.sh` and publishes `website/` to GitHub Pages.
+The workflow [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml) runs the daily pipeline (dblp + arXiv + picks) and publishes `website/` to GitHub Pages.
+
+**Country analytics** is on a separate site — see [COUNTRY_PAGES.md](COUNTRY_PAGES.md).
 
 ## One-time setup
 
@@ -17,35 +19,19 @@ Site URL: `https://<user>.github.io/<repo>/` (or your custom domain).
 | `cron: "0 1 * * *"` | **09:00 Asia/Shanghai** (01:00 UTC) daily |
 | `workflow_dispatch` | Manual run from the Actions tab |
 
-Push to `main` does **not** trigger this workflow (avoids running the heavy online dblp enrich on every code change). Use **Run workflow** when you need a deploy outside the schedule.
-
-To change timezone, edit the cron line in the workflow (GitHub Actions always uses UTC in `cron`).
+Push to `main` does **not** trigger this workflow (avoids running the heavy build on every code change). Use **Run workflow** when you need a deploy outside the schedule.
 
 ## What the workflow runs
 
-Same as local daily update:
+Same as local daily update, **without** author enrich or country analytics:
 
 - dblp parse (incremental, cached `data/dblp.xml.gz`)
 - arXiv crawl (`--if-stale-hours 24`)
 - top picks + broadcast + hub metadata
-- **offline country analytics** — affiliations from dblp.xml person index (`data/dblp-person-index.json`), first-author-only → `website/data/country-analytics.json`, then deploy to Pages
 
-CI defaults:
+CI sets `DAILY_SKIP_AUTHOR_ENRICH=1` and `DAILY_SKIP_COUNTRY_ANALYTICS=1`.
 
-- `ABSTRACT_SKIP=1` (faster abstract step)
-- `PICK_YEARS` / `COUNTRY_YEARS` = `2020,…,2026`
-- **Offline** dblp person index (no HTTP); set `AUTHOR_ENRICH_ONLINE_DBLP=1` for slow HTTP fallback
-- OpenAlex off unless `AUTHOR_USE_OPENALEX=1`
-- Job timeout 360 minutes so person-page fetches can finish; warm affiliation cache makes later days much faster
-
-Emergency offline deploy (no dblp person-page HTTP):
-
-```yaml
-# on the Daily build step env:
-AUTHOR_ENRICH_OFFLINE: "1"
-```
-
-To force a live arXiv API fetch in CI, set `ARXIV_FORCE: "1"` on the build step (removes the 24h skip).
+To update country data locally and deploy: [COUNTRY_PAGES.md](COUNTRY_PAGES.md).
 
 ## Caches
 
@@ -53,10 +39,6 @@ Actions caches:
 
 - `data/dblp.xml.gz` (large; speeds up repeat runs)
 - abstract / arXiv / dblp build manifests under `data/`
-- dblp person-page affiliation cache (`dblp-affiliation-cache-*`) — **required for incremental online country analytics**
-- author-country / author-enrich manifests
-
-First run may take a long time while dblp downloads and affiliation cache warms up. Later scheduled runs reuse the affiliation cache and only fetch remaining authors.
 
 ## Server vs GitHub
 
@@ -67,12 +49,9 @@ First run may take a long time while dblp downloads and affiliation cache warms 
 | Web | `./scripts/serve_site.sh` | GitHub Pages CDN |
 | Logs | `logs/daily-*.log` | Actions run log |
 
-Use one or both; if both run daily, they simply rebuild the same logic independently.
-
 ## Troubleshooting
 
 - **Workflow fails on arXiv 429:** re-run later; crawl is incremental.
 - **Pages 404:** confirm Pages source is **GitHub Actions**, not a branch folder.
 - **Empty picks:** check `website/data/top-monthly.json` in the workflow artifact log.
-- **country analytics `resolved=0`:** online enrich failed or was skipped; check the author metadata step and dblp connectivity from the runner. Do not set `AUTHOR_ENRICH_OFFLINE=1` unless intentional.
-- **Worldwide views bar hidden on Pages:** deploy the Cloudflare Worker, then add repository secret `VIEWS_API_URL` (see [VIEWS.md](VIEWS.md)). View counts update live at visit time; redeploying Pages only wires the API URL into the static site.
+- **Worldwide views bar hidden on Pages:** deploy the Cloudflare Worker, then add repository secret `VIEWS_API_URL` (see [VIEWS.md](VIEWS.md)).
