@@ -677,11 +677,14 @@
       "authors_structured": [
         {
           "name": "Deepti Raghavan",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Stanford University, USA",
+            "Massachusetts Institute of Technolog, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Shreya Ravi",
@@ -764,7 +767,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Stanford University, USA",
+        "Massachusetts Institute of Technolog, USA"
+      ]
     },
     {
       "title": "Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System",
@@ -1725,11 +1731,18 @@
       "authors_structured": [
         {
           "name": "Liang He 0011",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Nebraska Lincoln, School of Computing, Lincoln, NE, USA",
+            "University of Colorado Denver, Department of Computer Science and Engineering, Denver, CO, USA",
+            "University of Michigan, Ann Arbor, MI, USA",
+            "Singapore University of Technology, Singapore",
+            "Nankai University, Tianjin, China",
+            "University of Victoria, Canada"
+          ],
+          "country_code": "SG",
+          "country_label": "Singapore",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Purui Su",
@@ -1764,7 +1777,14 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Nebraska Lincoln, School of Computing, Lincoln, NE, USA",
+        "University of Colorado Denver, Department of Computer Science and Engineering, Denver, CO, USA",
+        "University of Michigan, Ann Arbor, MI, USA",
+        "Singapore University of Technology, Singapore",
+        "Nankai University, Tianjin, China",
+        "University of Victoria, Canada"
+      ]
     },
     {
       "title": "Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates",
@@ -2227,11 +2247,13 @@
       "authors_structured": [
         {
           "name": "Patrick Anderson 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Verizon Communications Inc., Basking Ridge, NJ, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Erika Blancada Aranas",
@@ -2682,7 +2704,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Verizon Communications Inc., Basking Ridge, NJ, USA"
+      ]
     },
     {
       "title": "Pushing Performance Isolation Boundaries into Application with pBox",

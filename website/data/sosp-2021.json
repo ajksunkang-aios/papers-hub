@@ -306,11 +306,14 @@
       "authors_structured": [
         {
           "name": "Ji Qi 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Northeast Petroleum University, College of Electrical and Information Engineering, Daqing, China",
+            "Qiqihar University, Communication and Electronic Engineering Institute, Qiqihar, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Xusheng Chen",
@@ -393,7 +396,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Northeast Petroleum University, College of Electrical and Information Engineering, Daqing, China",
+        "Qiqihar University, Communication and Electronic Engineering Institute, Qiqihar, China"
+      ]
     },
     {
       "title": "Birds of a Feather Flock Together: Scaling RDMA RPCs with Flock",
@@ -582,11 +588,13 @@
       "authors_structured": [
         {
           "name": "Dai Qin",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Toronto, Canada"
+          ],
+          "country_code": "CA",
+          "country_label": "Canada",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Angela Demke Brown",
@@ -605,7 +613,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Toronto, Canada"
+      ]
     },
     {
       "title": "CLoF: A Compositional Lock Framework for Multi-level NUMA Systems",
@@ -794,14 +804,24 @@
       "authors_structured": [
         {
           "name": "Christian Dietrich 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "TU Braunschweig, Germany",
+            "Technische Universit&auml;t Hamburg (TUHH), Germany",
+            "Leibniz Universit&auml;t Hannover, Germany",
+            "University of Erlangen-Nuremberg, Germany"
+          ],
+          "country_code": "DE",
+          "country_label": "Germany",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "TU Braunschweig, Germany",
+        "Technische Universit&auml;t Hamburg (TUHH), Germany",
+        "Leibniz Universit&auml;t Hannover, Germany",
+        "University of Erlangen-Nuremberg, Germany"
+      ]
     },
     {
       "title": "Crash Consistent Non-Volatile Memory Express",
@@ -1199,14 +1219,20 @@
       "authors_structured": [
         {
           "name": "Michael Greenberg 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Stevens Institute of Technology, Hoboken, NJ, USA",
+            "Pomona College, Claremont, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Stevens Institute of Technology, Hoboken, NJ, USA",
+        "Pomona College, Claremont, CA, USA"
+      ]
     },
     {
       "title": "FlashCube: Fast Provisioning of Serverless Functions with Streamlined Container Runtimes",
@@ -2441,11 +2467,14 @@
       "authors_structured": [
         {
           "name": "Jongyul Kim 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Illinois Urbana-Champaign, IL, USA",
+            "Korea Advanced Institute of Science and Technology, School of Computing, Daejeon, South Korea"
+          ],
+          "country_code": "KR",
+          "country_label": "South Korea",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Insu Jang",
@@ -2512,7 +2541,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Illinois Urbana-Champaign, IL, USA",
+        "Korea Advanced Institute of Science and Technology, School of Computing, Daejeon, South Korea"
+      ]
     },
     {
       "title": "lODA: A Host/Device Co-Design for Strong Predictability Contract on Modern Flash Storage",
@@ -2622,11 +2654,18 @@
       "authors_structured": [
         {
           "name": "Mahesh Balakrishnan 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Confluent",
+            "Facebook, Inc.",
+            "Yale University, New Haven, CT, USA",
+            "VMware Research",
+            "Microsoft Research Silicon Valley",
+            "Cornell University, Ithaca, NY, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Chen Shen",
@@ -2773,7 +2812,14 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Confluent",
+        "Facebook, Inc.",
+        "Yale University, New Haven, CT, USA",
+        "VMware Research",
+        "Microsoft Research Silicon Valley",
+        "Cornell University, Ithaca, NY, USA"
+      ]
     },
     {
       "title": "MIND: In-Network Memory Management for Disaggregated Data Centers",
@@ -3231,11 +3277,15 @@
       "authors_structured": [
         {
           "name": "Ke Yang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Texas at San Antonio, TX, USA",
+            "University of Massachusetts Amherst, MA, USA",
+            "New York University, NY, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Xiaosong Ma",
@@ -3270,7 +3320,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Texas at San Antonio, TX, USA",
+        "University of Massachusetts Amherst, MA, USA",
+        "New York University, NY, USA"
+      ]
     },
     {
       "title": "RAS: Continuously Optimized Region-Wide Datacenter Resource Allocation",
@@ -3840,11 +3894,14 @@
       "authors_structured": [
         {
           "name": "Sangmin Lee",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Korea Advanced Institute of Science and Technology, KAIST, Department of Mathematical Sciences, Daejeon, Korea",
+            "University of Ulsan College of Medicine, College of Medicine, Asan Medical Center, Seoul, Korea"
+          ],
+          "country_code": "KR",
+          "country_label": "South Korea",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Zhenhua Guo",
@@ -3959,7 +4016,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Korea Advanced Institute of Science and Technology, KAIST, Department of Mathematical Sciences, Daejeon, Korea",
+        "University of Ulsan College of Medicine, College of Medicine, Asan Medical Center, Seoul, Korea"
+      ]
     },
     {
       "title": "Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage",
@@ -4187,11 +4247,14 @@
       "authors_structured": [
         {
           "name": "Kostis Kaffes",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Columbia University, New York, NY, USA",
+            "Stanford University, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jack Tigar Humphries",
@@ -4218,7 +4281,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Columbia University, New York, NY, USA",
+        "Stanford University, CA, USA"
+      ]
     },
     {
       "title": "The Aurora Single Level Store Operating System",
@@ -4556,11 +4622,13 @@
       "authors_structured": [
         {
           "name": "Yongle Zhang 0007",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Purdue University, West Lafayette, Indiana, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Junwen Yang",
@@ -4611,7 +4679,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Purdue University, West Lafayette, Indiana, USA"
+      ]
     },
     {
       "title": "Understanding the Overheads of Hardware and Language-Based IPC Mechanisms",
@@ -4633,11 +4703,14 @@
       "authors_structured": [
         {
           "name": "Zhaofeng Li 0004",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Nanjing University of Aeronautics and Astronautics, College of Computer Science and Technology, China",
+            "Southeast University, School of Computer Science and Engineering, Nanjing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Tianjiao Huang",
@@ -4664,7 +4737,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Nanjing University of Aeronautics and Astronautics, College of Computer Science and Technology, China",
+        "Southeast University, School of Computer Science and Engineering, Nanjing, China"
+      ]
     },
     {
       "title": "Using Coroutines for Multi-core Preemptive Scheduling",
@@ -4683,14 +4759,18 @@
       "authors_structured": [
         {
           "name": "Ole Lehrmann Madsen",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Aarhus University, Denmark"
+          ],
+          "country_code": "DK",
+          "country_label": "Denmark",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Aarhus University, Denmark"
+      ]
     },
     {
       "title": "Using Lightweight Formal Methods to Validate a Key-Value Storage Node in Amazon S3",

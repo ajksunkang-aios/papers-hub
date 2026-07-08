@@ -857,11 +857,13 @@
       "authors_structured": [
         {
           "name": "Rui Pan",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Central University of Finance and Economics (CUFE), Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Chubo Liu",
@@ -904,7 +906,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Central University of Finance and Economics (CUFE), Beijing, China"
+      ]
     },
     {
       "title": "ArchGym: An Open-Source Gymnasium for Machine Learning Assisted Architecture Design",
@@ -1370,11 +1374,14 @@
       "authors_structured": [
         {
           "name": "Kaitlin N. Smith",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Infleqtion, USA",
+            "University of Chicago, IL, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Michael A. Perlin",
@@ -1433,7 +1440,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Infleqtion, USA",
+        "University of Chicago, IL, USA"
+      ]
     },
     {
       "title": "Contiguitas: The Pursuit of Physical Memory Contiguity in Datacenters",
@@ -1463,11 +1473,14 @@
       "authors_structured": [
         {
           "name": "Kaiyang Zhao 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Tsinghua University, Beijing, China",
+            "Shandong University, Weihai, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Kaiwen Xue",
@@ -1550,7 +1563,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Tsinghua University, Beijing, China",
+        "Shandong University, Weihai, China"
+      ]
     },
     {
       "title": "Dancing the Quantum Waltz: Compiling Three-Qubit Gates on Four Level Architectures",
@@ -1845,11 +1861,13 @@
       "authors_structured": [
         {
           "name": "V&iacute;ctor Soria Pardos",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Barcelona Supercomputing Center (BSC), Spain"
+          ],
+          "country_code": "ES",
+          "country_label": "Spain",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Adri&agrave; Armejach",
@@ -1900,7 +1918,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Barcelona Supercomputing Center (BSC), Spain"
+      ]
     },
     {
       "title": "ECSSD: Hardware/Data Layout Co-Designed In-Storage-Computing Architecture for Extreme Classification",
@@ -1927,11 +1947,15 @@
       "authors_structured": [
         {
           "name": "Siqi Li",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Kunming University of Science and Technology, Department of Electrical Engineering, China",
+            "University of Michigan, Dearborn, MI, USA",
+            "from Tsinghua University, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Fengbin Tu",
@@ -1990,7 +2014,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Kunming University of Science and Technology, Department of Electrical Engineering, China",
+        "University of Michigan, Dearborn, MI, USA",
+        "from Tsinghua University, Beijing, China"
+      ]
     },
     {
       "title": "EdgePC: Efficient Deep Learning Analytics for Point Clouds on Edge Devices",
@@ -2014,11 +2042,13 @@
       "authors_structured": [
         {
           "name": "Ziyu Ying 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Pennsylvania State University, PA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Sandeepa Bhuyan",
@@ -2061,7 +2091,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Pennsylvania State University, PA, USA"
+      ]
     },
     {
       "title": "EMISSARY: Enhanced Miss Awareness Replacement Policy for L2 Instruction Caching",
@@ -2295,11 +2327,17 @@
       "authors_structured": [
         {
           "name": "Yu Gong 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Loughborough University, School of Mechanical Electrical and Manufacturing Engineering, UK",
+            "University of Reading, School of Systems Engineering, UK",
+            "Queen's University of Belfast, UK",
+            "Institute of Inforcomm Research, Singapore",
+            "National University of Singapore, Singapore"
+          ],
+          "country_code": "SG",
+          "country_label": "Singapore",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Miao Yin",
@@ -2350,7 +2388,13 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Loughborough University, School of Mechanical Electrical and Manufacturing Engineering, UK",
+        "University of Reading, School of Systems Engineering, UK",
+        "Queen's University of Belfast, UK",
+        "Institute of Inforcomm Research, Singapore",
+        "National University of Singapore, Singapore"
+      ]
     },
     {
       "title": "F4T: A Fast and Flexible FPGA-based Full-stack TCP Acceleration Framework",
@@ -2844,11 +2888,13 @@
       "authors_structured": [
         {
           "name": "Jianqiao Mo",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "New York University, Tandon School of Engineering, New York, NY, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Jayanth Gopinath",
@@ -2867,7 +2913,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "New York University, Tandon School of Engineering, New York, NY, USA"
+      ]
     },
     {
       "title": "Hardware Acceleration of Neural Graphics",
@@ -3546,11 +3594,14 @@
       "authors_structured": [
         {
           "name": "Xiangyu Kong",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "High-Tech Institute of Xi'an, China",
+            "Xi'an Jiaotong University, School of Electronic and Information Engineering, Xi'an, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Yi Huang 0036",
@@ -3625,7 +3676,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "High-Tech Institute of Xi'an, China",
+        "Xi'an Jiaotong University, School of Electronic and Information Engineering, Xi'an, China"
+      ]
     },
     {
       "title": "MESA: Microarchitecture Extensions for Spatial Architecture Generation",
@@ -3758,11 +3812,17 @@
       "authors_structured": [
         {
           "name": "Dan Chen 0006",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Wuhan University, School of Computer Science, Wuhan, China",
+            "China University of Geosciences, Wuhan, China",
+            "Yanshan University, Institute of Electrical Engineering, Qinhuangdao, China",
+            "University of Birmingham, UK",
+            "Nanyang Technological University, School of Computer Engineering, Singapore"
+          ],
+          "country_code": "SG",
+          "country_label": "Singapore",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Haiheng He",
@@ -3813,7 +3873,13 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Wuhan University, School of Computer Science, Wuhan, China",
+        "China University of Geosciences, Wuhan, China",
+        "Yanshan University, Institute of Electrical Engineering, Qinhuangdao, China",
+        "University of Birmingham, UK",
+        "Nanyang Technological University, School of Computer Engineering, Singapore"
+      ]
     },
     {
       "title": "Metior: A Comprehensive Model to Evaluate Obfuscating Side-Channel Defense Schemes",
@@ -5298,11 +5364,13 @@
       "authors_structured": [
         {
           "name": "Abraham Gonzalez",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of California, Berkeley, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Aasheesh Kolli",
@@ -5369,7 +5437,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of California, Berkeley, CA, USA"
+      ]
     },
     {
       "title": "Programmable Olfactory Computing",
@@ -5391,11 +5461,14 @@
       "authors_structured": [
         {
           "name": "Nathaniel Bleier",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Michigan, Department of Electrical Engineering & Computer Science, Ann Arbor, MI, USA",
+            "University of Illinois at Urbana-Champaigni, Department of Electrical and Computer Engineering, Urbana, IL, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Abigail Wezelis",
@@ -5422,7 +5495,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Michigan, Department of Electrical Engineering & Computer Science, Ann Arbor, MI, USA",
+        "University of Illinois at Urbana-Champaigni, Department of Electrical and Computer Engineering, Urbana, IL, USA"
+      ]
     },
     {
       "title": "Q-BEEP: Quantum Bayesian Error Mitigation Employing Poisson Modeling over the Hamming Spectrum",
@@ -5915,11 +5991,14 @@
       "authors_structured": [
         {
           "name": "Maolin Wang 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "AI Chip Center for Emerging Smart Systems (ACCESS), Hong Kong",
+            "University of Hong Kong, Department of Electrical and Electronic Engineering, Hong Kong"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Ian McInerney",
@@ -5954,7 +6033,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "AI Chip Center for Emerging Smart Systems (ACCESS), Hong Kong",
+        "University of Hong Kong, Department of Electrical and Electronic Engineering, Hong Kong"
+      ]
     },
     {
       "title": "SAC: Sharing-Aware Caching in Multi-Chip GPUs",
@@ -6848,11 +6930,13 @@
       "authors_structured": [
         {
           "name": "Norman P. Jouppi",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Google, Mountain View, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "George Kurian",
@@ -6959,7 +7043,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Google, Mountain View, CA, USA"
+      ]
     },
     {
       "title": "Understanding and Mitigating Hardware Failures in Deep Learning Training Systems",

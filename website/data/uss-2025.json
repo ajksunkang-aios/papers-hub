@@ -545,11 +545,13 @@
       "authors_structured": [
         {
           "name": "Alexander Krause 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "CISPA - Helmholtz-Zentrum f&uuml;r Informationssicherheit, Saarbr&uuml;cken, Germany"
+          ],
+          "country_code": "DE",
+          "country_label": "Germany",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Harjot Kaur",
@@ -584,7 +586,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "CISPA - Helmholtz-Zentrum f&uuml;r Informationssicherheit, Saarbr&uuml;cken, Germany"
+      ]
     },
     {
       "title": "\"Threat modeling is very formal, it's very technical, and also very hard to do correctly\": Investigating Threat Modeling Practices in Open-Source Software Projects",
@@ -669,11 +673,13 @@
       "authors_structured": [
         {
           "name": "Sharad Agarwal",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Microsoft Research"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Emma Harvey",
@@ -708,7 +714,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Microsoft Research"
+      ]
     },
     {
       "title": "A Comprehensive Formal Security Analysis of OPC UA",
@@ -1537,11 +1545,14 @@
       "authors_structured": [
         {
           "name": "Jiawen Zhang 0005",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Hong Kong University of Science and Technology (Guangzhou), China",
+            "Chinese Academy of Sciences, Institute of Software, Beijing, China"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Kejia Chen 0007",
@@ -1616,7 +1627,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Hong Kong University of Science and Technology (Guangzhou), China",
+        "Chinese Academy of Sciences, Institute of Software, Beijing, China"
+      ]
     },
     {
       "title": "Addressing Sensitivity Distinction in Local Differential Privacy: A General Utility-Optimized Framework",
@@ -1826,11 +1840,14 @@
       "authors_structured": [
         {
           "name": "Jianqiang Wang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Tsinghua University, State Key Laboratory of Automotive Safety and Energy, Beijing, China",
+            "Jilin University, Changchun, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Qinying Wang",
@@ -1873,7 +1890,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Tsinghua University, State Key Laboratory of Automotive Safety and Energy, Beijing, China",
+        "Jilin University, Changchun, China"
+      ]
     },
     {
       "title": "Aion: Robust and Efficient Multi-Round Single-Mask Secure Aggregation Against Malicious Participants",
@@ -2045,11 +2065,19 @@
       "authors_structured": [
         {
           "name": "Yang Yang 0026",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Peng Cheng Laboratory, China",
+            "Hong Kong University of Science and Technology, China",
+            "ShanghaiTech University, School of Information Science and Technology, Shanghai Institute of Fog Computing Technology (SHIFT), Shanghai, China",
+            "Chinese Academy of Sciences, Shanghai Research Center for Wireless Communications (WiCO), Shanghai, China",
+            "Chinese Academy of Sciences, Shanghai Institute of Microsystem and Information Technology (SIMIT), Shanghai, China",
+            "University College London, Department of Electronic and Electrical Engineering, London, UK",
+            "Chinese University of Hong Kong, Department of Information Engineering, Hong Kong"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Guomin Yang",
@@ -2140,7 +2168,15 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Peng Cheng Laboratory, China",
+        "Hong Kong University of Science and Technology, China",
+        "ShanghaiTech University, School of Information Science and Technology, Shanghai Institute of Fog Computing Technology (SHIFT), Shanghai, China",
+        "Chinese Academy of Sciences, Shanghai Research Center for Wireless Communications (WiCO), Shanghai, China",
+        "Chinese Academy of Sciences, Shanghai Institute of Microsystem and Information Technology (SIMIT), Shanghai, China",
+        "University College London, Department of Electronic and Electrical Engineering, London, UK",
+        "Chinese University of Hong Kong, Department of Information Engineering, Hong Kong"
+      ]
     },
     {
       "title": "ALERT: Machine Learning-Enhanced Risk Estimation for Databases Supporting Encrypted Queries",
@@ -4107,11 +4143,15 @@
       "authors_structured": [
         {
           "name": "Shaowei Wang 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Nanjing University, School of Electronic Science and Engineering, China",
+            "Southeast University, National Mobile Communications Research Laboratory, Nanjing, China",
+            "Wuhan University, School of Electronic Information, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Changyu Dong",
@@ -4162,7 +4202,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Nanjing University, School of Electronic Science and Engineering, China",
+        "Southeast University, National Mobile Communications Research Laboratory, Nanjing, China",
+        "Wuhan University, School of Electronic Information, China"
+      ]
     },
     {
       "title": "BGP Vortex: Update Message Floods Can Create Internet Instabilities",
@@ -7127,11 +7171,13 @@
       "authors_structured": [
         {
           "name": "Mazharul Islam 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Texas at Arlington, Department of Computer Science and Engineering, TX, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Sunpreet S. Arora",
@@ -7158,7 +7204,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Texas at Arlington, Department of Computer Science and Engineering, TX, USA"
+      ]
     },
     {
       "title": "DFS: Delegation-friendly zkSNARK and Private Delegation of Provers",
@@ -7267,11 +7315,15 @@
       "authors_structured": [
         {
           "name": "Xiang Zhang 0011",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Tianjin University, School of Cyber Security, Tianjin, China",
+            "University of Science and Technology of China, Hefei, China",
+            "Hefei University of Technology, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jie Zhang 0073",
@@ -7354,7 +7406,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Tianjin University, School of Cyber Security, Tianjin, China",
+        "University of Science and Technology of China, Hefei, China",
+        "Hefei University of Technology, China"
+      ]
     },
     {
       "title": "Digital Security Perceptions and Practices Around the World: A WEIRD versus Non-WEIRD Comparison",
@@ -7441,11 +7497,13 @@
       "authors_structured": [
         {
           "name": "Weiye Xu 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Nanjing Institute of Technology, Nanjing, Jiangsu, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Danli Wen",
@@ -7496,7 +7554,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Nanjing Institute of Technology, Nanjing, Jiangsu, China"
+      ]
     },
     {
       "title": "Disparate Privacy Vulnerability: Targeted Attribute Inference Attacks and Defenses",
@@ -8510,11 +8570,14 @@
       "authors_structured": [
         {
           "name": "Shuai Cheng",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Neusoft Reach Automotive Technology Company, Shenyang, China",
+            "Changchun University of Science and Technology, Shenyang, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Shu Meng",
@@ -8589,7 +8652,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Neusoft Reach Automotive Technology Company, Shenyang, China",
+        "Changchun University of Science and Technology, Shenyang, China"
+      ]
     },
     {
       "title": "Efficient 2PC for Constant Round Secure Equality Testing and Comparison",
@@ -9051,11 +9117,13 @@
       "authors_structured": [
         {
           "name": "Nan Yan 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Wuhan University, School of Cyber Science and Engineering, Wuhan, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Yuqing Li 0001",
@@ -9098,7 +9166,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Wuhan University, School of Cyber Science and Engineering, Wuhan, China"
+      ]
     },
     {
       "title": "Enabling Low-Cost Secure Computing on Untrusted In-Memory Architectures",
@@ -9294,11 +9364,15 @@
       "authors_structured": [
         {
           "name": "Song Bian 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Wisconsin, Madison, WI, USA",
+            "Chinese University of Hong Kong, Hong Kong",
+            "Zhejiang University, China"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Haowen Pan",
@@ -9381,7 +9455,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Wisconsin, Madison, WI, USA",
+        "Chinese University of Hong Kong, Hong Kong",
+        "Zhejiang University, China"
+      ]
     },
     {
       "title": "Enhanced Label-Only Membership Inference Attacks with Fewer Queries",
@@ -9406,11 +9484,15 @@
       "authors_structured": [
         {
           "name": "Hao Li 0092",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Heidelberg University, Institute of Geography, Germany",
+            "Technical University of Munich, Signal Processing in Earth Observation, Germany",
+            "University of Stuttgart, Institute for Photogrammetry, Germany"
+          ],
+          "country_code": "DE",
+          "country_label": "Germany",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Zheng Li 0023",
@@ -9461,7 +9543,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Heidelberg University, Institute of Geography, Germany",
+        "Technical University of Munich, Signal Processing in Earth Observation, Germany",
+        "University of Stuttgart, Institute for Photogrammetry, Germany"
+      ]
     },
     {
       "title": "eSIMplicity or eSIMplification? Privacy and Security Risks in the eSIM Ecosystem",
@@ -10114,11 +10200,13 @@
       "authors_structured": [
         {
           "name": "Ali Zohaib",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Massachusetts Amherst, Amherst, MA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Qiang Zao",
@@ -10169,7 +10257,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Massachusetts Amherst, Amherst, MA, USA"
+      ]
     },
     {
       "title": "Exposing the Guardrails: Reverse-Engineering and Jailbreaking Safety Filters in DALL·E Text-to-Image Pipelines",
@@ -11344,11 +11434,13 @@
       "authors_structured": [
         {
           "name": "Chenyi Wang 0005",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Beihang University, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Raymond Muller",
@@ -11415,7 +11507,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Beihang University, Beijing, China"
+      ]
     },
     {
       "title": "Further Study on Frequency Estimation under Local Differential Privacy",
@@ -12149,11 +12243,14 @@
       "authors_structured": [
         {
           "name": "Lakshmi Likhitha Mankali",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "New York University, Tandon School of Engineering, NY, USA",
+            "New York University Abu Dhabi, UAE"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Mohammed Nabeel 0001",
@@ -12196,7 +12293,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "New York University, Tandon School of Engineering, NY, USA",
+        "New York University Abu Dhabi, UAE"
+      ]
     },
     {
       "title": "GNSS-WASP: GNSS Wide Area SPoofing",
@@ -13126,11 +13226,13 @@
       "authors_structured": [
         {
           "name": "Wentao Guo 0005",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Tsinghua University, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Paige Pepitone",
@@ -13157,7 +13259,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Tsinghua University, Beijing, China"
+      ]
     },
     {
       "title": "How to Compare Bandwidth Constrained Two-Party Secure Messaging Protocols: A Quest for A More Efficient and Secure Post-Quantum Protocol",
@@ -14971,11 +15075,15 @@
       "authors_structured": [
         {
           "name": "Youngjoon Kim 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Gachon University, Department of Electronic Engineering, Seongnam, Korea",
+            "Samsung Electronics, Samsung Research, Suwon, Korea",
+            "Purdue University, West Lafayette, USA"
+          ],
+          "country_code": "KR",
+          "country_label": "South Korea",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Sunguk Shin 0001",
@@ -15002,7 +15110,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Gachon University, Department of Electronic Engineering, Seongnam, Korea",
+        "Samsung Electronics, Samsung Research, Suwon, Korea",
+        "Purdue University, West Lafayette, USA"
+      ]
     },
     {
       "title": "LOHEN: Layer-wise Optimizations for Neural Network Inferences over Encrypted Data with High Performance or Accuracy",
@@ -15963,11 +16075,13 @@
       "authors_structured": [
         {
           "name": "Yining Wang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Carnegie Mellon University, Pittsburgh, PA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Mi Zhang 0001",
@@ -16034,7 +16148,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Carnegie Mellon University, Pittsburgh, PA, USA"
+      ]
     },
     {
       "title": "Misty Registry: An Empirical Study of Flawed Domain Registry Operation",
@@ -16771,11 +16887,13 @@
       "authors_structured": [
         {
           "name": "Mingxuan Liu 0006",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Northwestern Polytechnical University, Xi'an, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Yunyi Zhang",
@@ -16874,7 +16992,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Northwestern Polytechnical University, Xi'an, China"
+      ]
     },
     {
       "title": "Not so Refreshing: Attacking GPUs using RFM Rowhammer Mitigation",
@@ -19666,11 +19786,15 @@
       "authors_structured": [
         {
           "name": "Yong Yang 0017",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Soochow University, School of Rail Transportation, Suzhou, China",
+            "Ohio State University, Center for High Performance Power Electronics, Columbus, OH, USA",
+            "Shanghai University, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Changjiang Li",
@@ -19737,7 +19861,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Soochow University, School of Rail Transportation, Suzhou, China",
+        "Ohio State University, Center for High Performance Power Electronics, Columbus, OH, USA",
+        "Shanghai University, China"
+      ]
     },
     {
       "title": "Qelect: Lattice-based Single Secret Leader Election Made Practical",
@@ -19757,11 +19885,13 @@
       "authors_structured": [
         {
           "name": "Yunhao Wang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Xidian University, State Key Laboratory of Integrated Service Networks (ISN), Xi'an, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Fan Zhang",
@@ -19772,7 +19902,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Xidian University, State Key Laboratory of Integrated Service Networks (ISN), Xi'an, China"
+      ]
     },
     {
       "title": "RangeSanitizer: Detecting Memory Errors with Efficient Range Checks",
@@ -20833,11 +20965,14 @@
       "authors_structured": [
         {
           "name": "Neelu S. Kalani",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "EPFL, Lausanne, Switzerland",
+            "IBM Research Zurich, Switzerland"
+          ],
+          "country_code": "CH",
+          "country_label": "Switzerland",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Thomas Bourgeat",
@@ -20864,7 +20999,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "EPFL, Lausanne, Switzerland",
+        "IBM Research Zurich, Switzerland"
+      ]
     },
     {
       "title": "Scalable Collaborative zk-SNARK and Its Application to Fully Distributed Proof Delegation",
@@ -21030,11 +21168,14 @@
       "authors_structured": [
         {
           "name": "Daniel Weber 0007",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Fraunhofer-Institut f&uuml;r Kommunikation, Informationsverarbeitung und Ergonomie FKIE, Bonn, Germany",
+            "Osnabr&uuml;ck University, Germany"
+          ],
+          "country_code": "DE",
+          "country_label": "Germany",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Lukas Gerlach 0001",
@@ -21077,7 +21218,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Fraunhofer-Institut f&uuml;r Kommunikation, Informationsverarbeitung und Ergonomie FKIE, Bonn, Germany",
+        "Osnabr&uuml;ck University, Germany"
+      ]
     },
     {
       "title": "Scoop: Mitigation of Recapture Attacks on Provenance-Based Media Authentication",
@@ -28559,11 +28703,13 @@
       "authors_structured": [
         {
           "name": "Haolin Wu 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Wuhan University, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Chang Liu 0089",
@@ -28638,7 +28784,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Wuhan University, School of Cyber Science and Engineering, Key Laboratory of Aerospace Information Security and Trusted Computing, Wuhan, China"
+      ]
     },
     {
       "title": "Whispering Under the Eaves: Protecting User Privacy Against Commercial and LLM-powered Automatic Speech Recognition Systems",
@@ -28848,11 +28996,16 @@
       "authors_structured": [
         {
           "name": "Bing Shi",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Wuhan University of Technology, School of Computer Science and Artificial Intelligence, Wuhan, China",
+            "Wuhan University of Technology, Shenzhen Research Institute, Shenzhen, China",
+            "Nanjing University, State Key Laboratory for Novel Software Technology, Nanjing, China",
+            "University of Southampton, UK"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Wenchao Li",
@@ -28887,7 +29040,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Wuhan University of Technology, School of Computer Science and Artificial Intelligence, Wuhan, China",
+        "Wuhan University of Technology, Shenzhen Research Institute, Shenzhen, China",
+        "Nanjing University, State Key Laboratory for Novel Software Technology, Nanjing, China",
+        "University of Southampton, UK"
+      ]
     },
     {
       "title": "XSSky: Detecting XSS Vulnerabilities through Local Path-Persistent Fuzzing",
@@ -29075,11 +29233,14 @@
       "authors_structured": [
         {
           "name": "Xinyi Wang 0013",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Michigan State University, Department of Computational Mathematics, Science, and Engineering, MI, USA",
+            "Graz University of Technology, Institute of Geometry, Austria"
+          ],
+          "country_code": "AT",
+          "country_label": "Austria",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Yeting Li",
@@ -29154,7 +29315,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Michigan State University, Department of Computational Mathematics, Science, and Engineering, MI, USA",
+        "Graz University of Technology, Institute of Geometry, Austria"
+      ]
     },
     {
       "title": "zk-promises: Anonymous Moderation, Reputation, and Blocking from Anonymous Credentials with Callbacks",

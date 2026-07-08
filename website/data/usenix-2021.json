@@ -222,14 +222,18 @@
       "authors_structured": [
         {
           "name": "John K. Ousterhout",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Stanford University, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Stanford University, USA"
+      ]
     },
     {
       "title": "Accelerating Encrypted Deduplication via SGX",
@@ -644,11 +648,17 @@
       "authors_structured": [
         {
           "name": "Xu Li 0012",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Huawei Technologies Canada",
+            "INRIA Lille, France",
+            "University of Waterloo, ON, Canada",
+            "University of Ottawa, ON, Canada",
+            "Carleton University, Canada"
+          ],
+          "country_code": "FR",
+          "country_label": "France",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Feilong Tang 0001",
@@ -691,7 +701,13 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Huawei Technologies Canada",
+        "INRIA Lille, France",
+        "University of Waterloo, ON, Canada",
+        "University of Ottawa, ON, Canada",
+        "Carleton University, Canada"
+      ]
     },
     {
       "title": "Avocado: A Secure In-Memory Distributed Storage System",
@@ -1098,11 +1114,13 @@
       "authors_structured": [
         {
           "name": "Yongkun Li 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "York University, School of Information Technology, Behavior-Centric Cybersecurity Center, Toronto, ON, Canada"
+          ],
+          "country_code": "CA",
+          "country_label": "Canada",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Zhen Liu",
@@ -1169,7 +1187,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "York University, School of Information Technology, Behavior-Centric Cybersecurity Center, Toronto, ON, Canada"
+      ]
     },
     {
       "title": "Experiences in Managing the Performance and Reliability of a Large-Scale Genomics Cloud Platform",
@@ -1421,11 +1441,14 @@
       "authors_structured": [
         {
           "name": "Mathias Gottschlag",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "SAP, Germany",
+            "Karlsruhe Institute of Technology, Germany"
+          ],
+          "country_code": "DE",
+          "country_label": "Germany",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Philipp Machauer",
@@ -1452,7 +1475,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "SAP, Germany",
+        "Karlsruhe Institute of Technology, Germany"
+      ]
     },
     {
       "title": "Fighting the Fog of War: Automated Incident Detection for Cloud Systems",
@@ -2660,14 +2686,20 @@
       "authors_structured": [
         {
           "name": "Wenwen Wang 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Georgia, Athens, GA, USA",
+            "University of Minnesota, Twin Cities, MN, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Georgia, Athens, GA, USA",
+        "University of Minnesota, Twin Cities, MN, USA"
+      ]
     },
     {
       "title": "Naos: Serialization-free RDMA networking in Java",
@@ -4064,11 +4096,13 @@
       "authors_structured": [
         {
           "name": "Jongseok Kim",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Seoul National University, Seoul, Korea"
+          ],
+          "country_code": "KR",
+          "country_label": "South Korea",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Cassiano Campes",
@@ -4103,7 +4137,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Seoul National University, Seoul, Korea"
+      ]
     },
     {
       "title": "ZeRO-Offload: Democratizing Billion-Scale Model Training",

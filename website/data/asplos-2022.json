@@ -52,11 +52,16 @@
       "authors_structured": [
         {
           "name": "Dan Zhang 0004",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Intelligent Robot Research Center, Zhejiang Lab, Hangzhou, China",
+            "York University, Department of Mechanical Engineering, Toronto, ON, Canada",
+            "University of Ontario Institute of Technology, ON, Canada",
+            "Laval University, Department of Mechanical Engineering, Qu&eacute;bec, QC, Canada"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Safeen Huda",
@@ -107,7 +112,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Intelligent Robot Research Center, Zhejiang Lab, Hangzhou, China",
+        "York University, Department of Mechanical Engineering, Toronto, ON, Canada",
+        "University of Ontario Institute of Technology, ON, Canada",
+        "Laval University, Department of Mechanical Engineering, Qu&eacute;bec, QC, Canada"
+      ]
     },
     {
       "title": "A one-for-all and o(v log(v ))-cost solution for parallel merge style operations on sorted key-value arrays",
@@ -209,11 +219,15 @@
       "authors_structured": [
         {
           "name": "Umang Mathur 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "National University of Singapore",
+            "University of Illinois at Urbana Champaign, IL, USA",
+            "Facebook, Inc., USA"
+          ],
+          "country_code": "SG",
+          "country_label": "Singapore",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Andreas Pavlogiannis",
@@ -240,7 +254,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "National University of Singapore",
+        "University of Illinois at Urbana Champaign, IL, USA",
+        "Facebook, Inc., USA"
+      ]
     },
     {
       "title": "Adelie: continuous address space layout re-randomization for Linux drivers",
@@ -263,11 +281,14 @@
       "authors_structured": [
         {
           "name": "Ruslan Nikolaev 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Pennsylvania State University, University Park, PA, USA",
+            "Virginia Tech, Blacksburg, VA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Hassan Nadeem",
@@ -294,7 +315,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Pennsylvania State University, University Park, PA, USA",
+        "Virginia Tech, Blacksburg, VA, USA"
+      ]
     },
     {
       "title": "AStitch: enabling a new multi-dimensional optimization space for memory-intensive ML training and inference on modern SIMT architectures",
@@ -1349,7 +1373,9 @@
       "authors_structured": [
         {
           "name": "Sebastiano Miano",
-          "affiliations": [],
+          "affiliations": [
+            "Queen Mary University of London, UK"
+          ],
           "country_code": "XX",
           "country_label": "Unknown",
           "source": "unknown",
@@ -1388,7 +1414,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Queen Mary University of London, UK"
+      ]
     },
     {
       "title": "DOTA: detect and omit weak attentions for scalable transformer acceleration",
@@ -1412,11 +1440,14 @@
       "authors_structured": [
         {
           "name": "Zheng Qu 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Hong Kong, Department of Mathematics, Hong Kong",
+            "University of Edinburgh, UK"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Liu Liu 0017",
@@ -1459,7 +1490,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Hong Kong, Department of Mathematics, Hong Kong",
+        "University of Edinburgh, UK"
+      ]
     },
     {
       "title": "Eavesdropping user credentials via GPU side channels on smartphones",
@@ -1482,11 +1516,16 @@
       "authors_structured": [
         {
           "name": "Boyuan Yang 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Nanjing University, Center for Advanced Control and Smart Operations, Suzhou, China",
+            "Nankai University, College of Artificial Intellegence, Tianjin, China",
+            "Manchester University, School of Electrical and Electronic Engineering, Manchester, UK",
+            "Xi'an Jiaotong University, Xi'an, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Ruirong Chen",
@@ -1521,7 +1560,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Nanjing University, Center for Advanced Control and Smart Operations, Suzhou, China",
+        "Nankai University, College of Artificial Intellegence, Tianjin, China",
+        "Manchester University, School of Electrical and Electronic Engineering, Manchester, UK",
+        "Xi'an Jiaotong University, Xi'an, China"
+      ]
     },
     {
       "title": "Efficient and scalable core multiplexing with M³v",
@@ -1669,11 +1713,13 @@
       "authors_structured": [
         {
           "name": "David A. Cock",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "ETH Zurich, Z&uuml;rich, Switzerland"
+          ],
+          "country_code": "CH",
+          "country_label": "Switzerland",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Abishek Ramdas",
@@ -1772,7 +1818,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "ETH Zurich, Z&uuml;rich, Switzerland"
+      ]
     },
     {
       "title": "Every walk's a hit: making page walks single-access cache hits",
@@ -1794,11 +1842,14 @@
       "authors_structured": [
         {
           "name": "Chang Hyun Park 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Uppsala University, Sweden",
+            "KAIST, Daejeon, Korea"
+          ],
+          "country_code": "KR",
+          "country_label": "South Korea",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Ilias Vougioukas",
@@ -1825,7 +1876,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Uppsala University, Sweden",
+        "KAIST, Daejeon, Korea"
+      ]
     },
     {
       "title": "EXAMINER: automatically locating inconsistent instructions between real devices and CPU emulators for ARM",
@@ -2118,11 +2172,14 @@
       "authors_structured": [
         {
           "name": "Haggai Eran",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "NVIDIA, Israel",
+            "Technion - Israel Institute of Technology, Israel"
+          ],
+          "country_code": "IL",
+          "country_label": "Israel",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Maxim Fudim",
@@ -2189,7 +2246,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "NVIDIA, Israel",
+        "Technion - Israel Institute of Technology, Israel"
+      ]
     },
     {
       "title": "FlexOS: towards flexible OS isolation",
@@ -2531,11 +2591,13 @@
       "authors_structured": [
         {
           "name": "Swamit S. Tannu",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Wisconsin-Madison, WI, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Poulami Das 0005",
@@ -2562,7 +2624,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Wisconsin-Madison, WI, USA"
+      ]
     },
     {
       "title": "HeteroGen: transpiling C to heterogeneous HLS code with automated test generation and program repair",
@@ -2584,11 +2648,16 @@
       "authors_structured": [
         {
           "name": "Qian Zhang 0020",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Horizon Robotics, Beijing, China",
+            "Beijing Samsung Telecom Research and Development Center, China",
+            "Alibaba Group, Beijing, China",
+            "Chinese Academy of Sciences, Institute of Automation, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jiyuan Wang",
@@ -2615,7 +2684,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Horizon Robotics, Beijing, China",
+        "Beijing Samsung Telecom Research and Development Center, China",
+        "Alibaba Group, Beijing, China",
+        "Chinese Academy of Sciences, Institute of Automation, Beijing, China"
+      ]
     },
     {
       "title": "IceBreaker: warming serverless functions better with heterogeneity",
@@ -2950,11 +3024,14 @@
       "authors_structured": [
         {
           "name": "Poulami Das 0005",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Technische Universit&auml;t Darmstadt, Germany",
+            "Indian Institute of Technology Kharagpur, India"
+          ],
+          "country_code": "IN",
+          "country_label": "India",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Aditya Locharla",
@@ -2973,7 +3050,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Technische Universit&auml;t Darmstadt, Germany",
+        "Indian Institute of Technology Kharagpur, India"
+      ]
     },
     {
       "title": "Memory-harvesting VMs in cloud platforms",
@@ -3329,11 +3409,14 @@
       "authors_structured": [
         {
           "name": "Haotian Zhang 0006",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "New Jersey Institute of Technology (NJIT), Department of Computer Science, Newark, NJ, USA",
+            "University of Texas, Arlington, TX, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Mengfei Ren 0001",
@@ -3360,7 +3443,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "New Jersey Institute of Technology (NJIT), Department of Computer Science, Newark, NJ, USA",
+        "University of Texas, Arlington, TX, USA"
+      ]
     },
     {
       "title": "Parallel virtualized memory translation with nested elastic cuckoo page tables",
@@ -4145,11 +4231,14 @@
       "authors_structured": [
         {
           "name": "Dong Du 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Science and Technology of China, Hefei, China",
+            "City University of Hong Kong, School of Creative Media, Hong Kong"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Qingyuan Liu",
@@ -4192,7 +4281,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Science and Technology of China, Hefei, China",
+        "City University of Hong Kong, School of Creative Media, Hong Kong"
+      ]
     },
     {
       "title": "ShEF: shielded enclaves for cloud FPGAs",
@@ -4467,11 +4559,17 @@
       "authors_structured": [
         {
           "name": "Lei Xie",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Northwestern Polytechnical University, School of Computer Science, Xi'an, China",
+            "The Chinese University of Hong Kong, Department of Systems Engineering and Engineering Management, Hong Kong",
+            "City University of Hong Kong, School of Creative Media, Hong Kong",
+            "Northwestern Polytechnical University, Xi'an, China",
+            "Vrije Universiteit Brussel, Department of Electronics and Information Processing, Belgium"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jidong Zhai",
@@ -4514,7 +4612,13 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Northwestern Polytechnical University, School of Computer Science, Xi'an, China",
+        "The Chinese University of Hong Kong, Department of Systems Engineering and Engineering Management, Hong Kong",
+        "City University of Hong Kong, School of Creative Media, Hong Kong",
+        "Northwestern Polytechnical University, Xi'an, China",
+        "Vrije Universiteit Brussel, Department of Electronics and Information Processing, Belgium"
+      ]
     },
     {
       "title": "TaskStream: accelerating task-parallel workloads by recovering program structure",
@@ -4633,11 +4737,14 @@
       "authors_structured": [
         {
           "name": "Patricia Gonzalez-Guerrero",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Lawrence Berkeley National Lab, USA",
+            "University of Viriginia (UVA), Charlottesville, VA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Meriam Gay Bautista",
@@ -4664,7 +4771,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Lawrence Berkeley National Lab, USA",
+        "University of Viriginia (UVA), Charlottesville, VA, USA"
+      ]
     },
     {
       "title": "The benefits of general-purpose on-NIC memory",
@@ -5018,11 +5128,14 @@
       "authors_structured": [
         {
           "name": "Maaz Bin Safeer Ahmad",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Adobe Research, Seattle, WA, USA",
+            "University of Washington, Seattle, WA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Alexander J. Root",
@@ -5057,7 +5170,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Adobe Research, Seattle, WA, USA",
+        "University of Washington, Seattle, WA, USA"
+      ]
     },
     {
       "title": "VELTAIR: towards high-performance multi-tenant deep learning services via adaptive compilation and scheduling",

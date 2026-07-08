@@ -694,11 +694,14 @@
       "authors_structured": [
         {
           "name": "Jonathan Balkind",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "UC Santa Barbara, CA, USA",
+            "Princeton University, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Katie Lim",
@@ -797,7 +800,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "UC Santa Barbara, CA, USA",
+        "Princeton University, USA"
+      ]
     },
     {
       "title": "Capuchin: Tensor-based GPU Memory Management for Deep Learning",
@@ -2116,11 +2122,18 @@
       "authors_structured": [
         {
           "name": "Tao Zhang 0059",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "U.S. National Institute of Standards and Technology (NIST), Gaithersburg, MD, USA",
+            "National Chiao Tung University, Hsinchu, Taiwan",
+            "Futurewei Technologies, Santa Clara, CA, USA",
+            "Cisco Systems, San Jose, CA, USA",
+            "Telcordia Technologies, Piscataway, NJ, USA",
+            "University of Massachusetts, Amherst, MA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Kenneth Koltermann",
@@ -2139,7 +2152,14 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "U.S. National Institute of Standards and Technology (NIST), Gaithersburg, MD, USA",
+        "National Chiao Tung University, Hsinchu, Taiwan",
+        "Futurewei Technologies, Santa Clara, CA, USA",
+        "Cisco Systems, San Jose, CA, USA",
+        "Telcordia Technologies, Piscataway, NJ, USA",
+        "University of Massachusetts, Amherst, MA, USA"
+      ]
     },
     {
       "title": "Fair Write Attribution and Allocation for Consolidated Flash Cache",
@@ -2376,11 +2396,14 @@
       "authors_structured": [
         {
           "name": "James Thomas 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Ohio University, Ohio Musculoskeletal and Neurological Institute, OH, USA",
+            "Ohio University, School of Rehabilitation and Communication Sciences, OH, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Pat Hanrahan",
@@ -2399,7 +2422,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Ohio University, Ohio Musculoskeletal and Neurological Institute, OH, USA",
+        "Ohio University, School of Rehabilitation and Communication Sciences, OH, USA"
+      ]
     },
     {
       "title": "FlexAmata: A Universal and Efficient Adaption of Applications to Spatial Automata Processing Accelerators",
@@ -2885,11 +2911,13 @@
       "authors_structured": [
         {
           "name": "Xiantao Zhang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Beihang University, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Xiao Zheng",
@@ -2932,7 +2960,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Beihang University, Beijing, China"
+      ]
     },
     {
       "title": "HMC: Model Checking for Hardware Memory Models",
@@ -3406,11 +3436,15 @@
       "authors_structured": [
         {
           "name": "Pan Zhang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "China University of Geosciences, School of Automation, Wuhan, China",
+            "Hubei Key Laboratory of Advanced Control and Intelligent Automation for Complex Systems, Wuhan, China",
+            "Engineering Research Center of Intelligent Technology for Geo-Exploration, Wuhan, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Chengyu Song",
@@ -3453,7 +3487,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "China University of Geosciences, School of Automation, Wuhan, China",
+        "Hubei Key Laboratory of Advanced Control and Intelligent Automation for Complex Systems, Wuhan, China",
+        "Engineering Research Center of Intelligent Technology for Geo-Exploration, Wuhan, China"
+      ]
     },
     {
       "title": "Lazy Release Persistency",
@@ -4674,11 +4712,18 @@
       "authors_structured": [
         {
           "name": "Ji Liu 0007",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Kwai Inc., Seattle AI Lab, WA, USA",
+            "Kuaishou Technology, Beijing, China",
+            "University of Rochester, Department of Computer Science, NY, USA",
+            "Tencent AI Lab, China",
+            "University of Wisconsin-Madison, Department of Computer Sciences, WI, USA",
+            "Arizona State University, Department of Computer Science and Engineering, Tempe, AZ, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Gregory T. Byrd",
@@ -4697,7 +4742,14 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Kwai Inc., Seattle AI Lab, WA, USA",
+        "Kuaishou Technology, Beijing, China",
+        "University of Rochester, Department of Computer Science, NY, USA",
+        "Tencent AI Lab, China",
+        "University of Wisconsin-Madison, Department of Computer Sciences, WI, USA",
+        "Arizona State University, Department of Computer Science and Engineering, Tempe, AZ, USA"
+      ]
     },
     {
       "title": "Reliable Timekeeping for Intermittent Computing",
@@ -5463,11 +5515,16 @@
       "authors_structured": [
         {
           "name": "Hongyuan Liu 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Stevens Institute of Technology, Hoboken, NJ, USA",
+            "Hong Kong University of Science and Technology (Guangzhou), Guangzhou, Guangdong, China",
+            "College of William & Mary, Williamsburg, VA, USA",
+            "The University of Hong Kong, SAR, China"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Sreepathi Pai",
@@ -5486,7 +5543,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Stevens Institute of Technology, Hoboken, NJ, USA",
+        "Hong Kong University of Science and Technology (Guangzhou), Guangzhou, Guangdong, China",
+        "College of William & Mary, Williamsburg, VA, USA",
+        "The University of Hong Kong, SAR, China"
+      ]
     },
     {
       "title": "∅sim: Preparing System Software for a World with Terabyte-scale Memories",

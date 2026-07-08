@@ -153,11 +153,16 @@
       "authors_structured": [
         {
           "name": "Ce Zhang 0007",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "ETH Zurich, Institut f&uuml;r Computing Platforms, Switzerland",
+            "Stanford University, Computer Science Department, CA, USA",
+            "University of Wisconsin-Madison, Department of Computer Science, Madison, WI, USA",
+            "Peking University, Beijing, China"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Cheng Xu 0004",
@@ -184,7 +189,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "ETH Zurich, Institut f&uuml;r Computing Platforms, Switzerland",
+        "Stanford University, Computer Science Department, CA, USA",
+        "University of Wisconsin-Madison, Department of Computer Science, Madison, WI, USA",
+        "Peking University, Beijing, China"
+      ]
     },
     {
       "title": "Combining Buffered I/O and Direct I/O in Distributed File Systems",
@@ -600,11 +610,15 @@
       "authors_structured": [
         {
           "name": "Yi Xu",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "OPPO US Research Center, Palo Alto, CA, USA",
+            "InnoPeak Technology Inc., Palo Alto, CA, USA",
+            "Purdue University, Department of Computer Sciences, West Lafayette, IN, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Henry Zhu",
@@ -655,7 +669,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "OPPO US Research Center, Palo Alto, CA, USA",
+        "InnoPeak Technology Inc., Palo Alto, CA, USA",
+        "Purdue University, Department of Computer Sciences, West Lafayette, IN, USA"
+      ]
     },
     {
       "title": "Kosmo: Efficient Online Miss Ratio Curve Generation for Eviction Policy Evaluation",
@@ -1155,11 +1173,14 @@
       "authors_structured": [
         {
           "name": "Kyu-Jin Cho",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Seoul National University, Institute of Advanced Machinery and Design, South Korea",
+            "Massachusetts Institute of Technology, Cambridge, MA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jaewon Choi",
@@ -1186,7 +1207,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Seoul National University, Institute of Advanced Machinery and Design, South Korea",
+        "Massachusetts Institute of Technology, Cambridge, MA, USA"
+      ]
     },
     {
       "title": "Seraph: Towards Scalable and Efficient Fully-external Graph Computation via On-demand Processing",
@@ -1316,11 +1340,15 @@
       "authors_structured": [
         {
           "name": "Zhe Yang 0012",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Hong Kong Polytechnic University, Department of Electrical Engineering, Hong Kong",
+            "Aalborg University, AAU Energy, Denmark",
+            "Northeast China Electric Power University, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Qing Wang 0031",
@@ -1363,7 +1391,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Hong Kong Polytechnic University, Department of Electrical Engineering, Hong Kong",
+        "Aalborg University, AAU Energy, Denmark",
+        "Northeast China Electric Power University, Beijing, China"
+      ]
     },
     {
       "title": "The Design and Implementation of a Capacity-Variant Storage System",
@@ -1532,11 +1564,16 @@
       "authors_structured": [
         {
           "name": "Weidong Zhang 0011",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Hainan University, School of Information and Communication Engineering, Haikou, China",
+            "Shanghai Jiao Tong University, Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai, China",
+            "University of Stuttgart, Germany",
+            "Zhejiang University, Hangzhou, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Erci Xu",
@@ -1747,7 +1784,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Hainan University, School of Information and Communication Engineering, Haikou, China",
+        "Shanghai Jiao Tong University, Department of Automation, Key Laboratory of System Control and Information Processing, Shanghai, China",
+        "University of Stuttgart, Germany",
+        "Zhejiang University, Hangzhou, China"
+      ]
     }
   ]
 }

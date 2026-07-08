@@ -2189,11 +2189,14 @@
       "authors_structured": [
         {
           "name": "Kinan Dak Albab",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Brown University, Providence, RI, USA",
+            "American University of Beirut, Beirut, Lebanon"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Artem Agvanian",
@@ -2244,7 +2247,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Brown University, Providence, RI, USA",
+        "American University of Beirut, Beirut, Lebanon"
+      ]
     },
     {
       "title": "SilvanForge: A Schedule-Guided Retargetable Compiler for Decision Tree Inference",
@@ -2568,11 +2574,14 @@
       "authors_structured": [
         {
           "name": "Jialiang Huang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Agricultural Bank of China, Beijing, China",
+            "Beijing University of Technology, Faculty of Information Technology, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Mingxing Zhang",
@@ -2679,7 +2688,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Agricultural Bank of China, Beijing, China",
+        "Beijing University of Technology, Faculty of Information Technology, Beijing, China"
+      ]
     },
     {
       "title": "Uncovering Nested Data Parallelism and Data Reuse in DNN Computation with FractalTensor",
@@ -2906,11 +2918,14 @@
       "authors_structured": [
         {
           "name": "Andrea Lattuada 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "VMware Research, Switzerland",
+            "ETH Zurich, Z&uuml;rich, Switzerland"
+          ],
+          "country_code": "CH",
+          "country_label": "Switzerland",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Travis Hance",
@@ -3017,7 +3032,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "VMware Research, Switzerland",
+        "ETH Zurich, Z&uuml;rich, Switzerland"
+      ]
     },
     {
       "title": "VPRI: Efficient I/O Page Fault Handling via Software-Hardware Co-Design for IaaS Clouds",

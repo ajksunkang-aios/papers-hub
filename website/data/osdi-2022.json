@@ -759,11 +759,14 @@
       "authors_structured": [
         {
           "name": "Andrew Quinn 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of California, Santa Cruz, CA, USA",
+            "University of Michigan, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jason Flinn",
@@ -790,7 +793,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of California, Santa Cruz, CA, USA",
+        "University of Michigan, USA"
+      ]
     },
     {
       "title": "Demystifying and Checking Silent Semantic Violations in Large Distributed Systems",
@@ -1031,11 +1037,16 @@
       "authors_structured": [
         {
           "name": "Xuhao Chen 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Massachusetts Institute of Technology, Cambridge, MA, USA",
+            "The University of Texas at Austin, TX, USA",
+            "National University of Defense Technology, College of Computer, Changsha, China",
+            "University of Illinois Urbana-Champaign, IMPACT Research group, Urbana-Champaign, IL, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Arvind 0001",
@@ -1046,7 +1057,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Massachusetts Institute of Technology, Cambridge, MA, USA",
+        "The University of Texas at Austin, TX, USA",
+        "National University of Defense Technology, College of Computer, Changsha, China",
+        "University of Illinois Urbana-Champaign, IMPACT Research group, Urbana-Champaign, IL, USA"
+      ]
     },
     {
       "title": "Ekko: A Large-Scale Deep Learning Recommender System with Low-Latency Model Update",
@@ -1287,11 +1303,14 @@
       "authors_structured": [
         {
           "name": "Yuxin Ren 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Huawei, Beijing, China",
+            "George Washington University, Washington, DC, USA"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Kang Zhou",
@@ -1358,7 +1377,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Huawei, Beijing, China",
+        "George Washington University, Washington, DC, USA"
+      ]
     },
     {
       "title": "Groove: Flexible Metadata-Private Messaging",
@@ -1446,11 +1468,15 @@
       "authors_structured": [
         {
           "name": "Yu Luo 0006",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Mississippi State University, Department of Electrical and Computer Engineering, Mississippi State, MS, USA",
+            "South Dakota School of Mines and Technology, ECE Department, Rapid City, SD, USA",
+            "University of Connecticut, Storrs, CT, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Kirk Rodrigues",
@@ -1509,7 +1535,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Mississippi State University, Department of Electrical and Computer Engineering, Mississippi State, MS, USA",
+        "South Dakota School of Mines and Technology, ECE Department, Rapid City, SD, USA",
+        "University of Connecticut, Storrs, CT, USA"
+      ]
     },
     {
       "title": "Immortal Threads: Multithreaded Event-driven Intermittent Computing on Ultra-Low-Power Microcontrollers",
@@ -2357,11 +2387,14 @@
       "authors_structured": [
         {
           "name": "Jason Flinn",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Facebook",
+            "University of Michigan, Ann Arbor, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Xianzheng Dou",
@@ -2428,7 +2461,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Facebook",
+        "University of Michigan, Ann Arbor, USA"
+      ]
     },
     {
       "title": "Practically Correct, Just-in-Time Shell Script Parallelization",
@@ -2639,11 +2675,14 @@
       "authors_structured": [
         {
           "name": "Hongyu Zhu 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Toronto, Canada",
+            "Microsoft Research"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Ruofan Wu",
@@ -2758,7 +2797,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Toronto, Canada",
+        "Microsoft Research"
+      ]
     },
     {
       "title": "SHORTSTACK: Distributed, Fault-tolerant, Oblivious Data Access",

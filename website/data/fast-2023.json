@@ -96,14 +96,22 @@
       "authors_structured": [
         {
           "name": "Andy Warfield",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Amazon Web Services",
+            "University of British Columbia, Department of Computer Science, BC, Canada",
+            "Coho Data, Vancouver, BC, Canada"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Amazon Web Services",
+        "University of British Columbia, Department of Computer Science, BC, Canada",
+        "Coho Data, Vancouver, BC, Canada"
+      ]
     },
     {
       "title": "Citron: Distributed Range Lock Management with One-sided RDMA",
@@ -1042,11 +1050,15 @@
       "authors_structured": [
         {
           "name": "Lei Liu 0037",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Northwestern Polytechnical University, School of Astronautics, Shaanxi Aerospace Flight Vehicle Design Key Laboratory, Xi'an, China",
+            "National University of Singapore, NUS Graduate School for Integrative Sciences and Engineering, Singapore",
+            "Harbin Institute of Technology, China"
+          ],
+          "country_code": "SG",
+          "country_label": "Singapore",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Xinglei Dou",
@@ -1065,7 +1077,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Northwestern Polytechnical University, School of Astronautics, Shaanxi Aerospace Flight Vehicle Design Key Laboratory, Xi'an, China",
+        "National University of Singapore, NUS Graduate School for Integrative Sciences and Engineering, Singapore",
+        "Harbin Institute of Technology, China"
+      ]
     },
     {
       "title": "MadFS: Per-File Virtualization for Userspace Persistent Memory Filesystems",
@@ -1696,11 +1712,14 @@
       "authors_structured": [
         {
           "name": "Xiaolu Li 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Southwest University, School of Geographical Sciences, Chongqing, China",
+            "University of Electronic Science and Technology, School of Automation, Chengdu, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Keyun Cheng",
@@ -1759,7 +1778,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Southwest University, School of Geographical Sciences, Chongqing, China",
+        "University of Electronic Science and Technology, School of Automation, Chengdu, China"
+      ]
     },
     {
       "title": "Patronus: High-Performance and Protective Remote Memory",

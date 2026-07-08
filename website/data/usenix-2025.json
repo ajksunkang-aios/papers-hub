@@ -1852,11 +1852,15 @@
       "authors_structured": [
         {
           "name": "Xu Zhang 0033",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Southern University of Science and Technology, School of Automation and Intelligent Manufacturing, Shenzhen, China",
+            "Central South University, State Key Laboratory of High Performance Complex Manufacturing, Changsha, China",
+            "City University of Hong Kong, Centre for Smart Energy Conversion and Utilization Research, Department of Electrical Engineering, Hong Kong"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Ke Liu 0004",
@@ -1939,7 +1943,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Southern University of Science and Technology, School of Automation and Intelligent Manufacturing, Shenzhen, China",
+        "Central South University, State Key Laboratory of High Performance Complex Manufacturing, Changsha, China",
+        "City University of Hong Kong, Centre for Smart Energy Conversion and Utilization Research, Department of Electrical Engineering, Hong Kong"
+      ]
     },
     {
       "title": "DSA-2LM: A CPU-Free Tiered Memory Architecture with Intel DSA",
@@ -2091,11 +2099,15 @@
       "authors_structured": [
         {
           "name": "Chen Ding 0012",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Toronto Metropolitan University, Toronto, ON, Canada",
+            "Ryerson University, Toronto, ON, Canada",
+            "National University of Singapore, Singapore"
+          ],
+          "country_code": "SG",
+          "country_label": "Singapore",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Sicen Li",
@@ -2162,7 +2174,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Toronto Metropolitan University, Toronto, ON, Canada",
+        "Ryerson University, Toronto, ON, Canada",
+        "National University of Singapore, Singapore"
+      ]
     },
     {
       "title": "Efficient Performance-Aware GPU Sharing with Compatibility and Isolation through Kernel Space Interception",
@@ -3737,11 +3753,13 @@
       "authors_structured": [
         {
           "name": "Jiahao Wang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Tsinghua University, School of Vehicle and Mobility, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jinbo Han",
@@ -3808,7 +3826,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Tsinghua University, School of Vehicle and Mobility, Beijing, China"
+      ]
     },
     {
       "title": "Learning-Enhanced High-Throughput Pattern Matching Based on Programmable Data Plane",
@@ -4364,11 +4384,13 @@
       "authors_structured": [
         {
           "name": "Qingyang Zhang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Jiangsu Normal University, Xuzhou, Jiangsu, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Yongkun Li 0001",
@@ -4403,7 +4425,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Jiangsu Normal University, Xuzhou, Jiangsu, China"
+      ]
     },
     {
       "title": "mTuner: Accelerating Parameter-Efficient Fine-Tuning on Multi-GPU Servers with Elastic Tensor",
@@ -6294,11 +6318,14 @@
       "authors_structured": [
         {
           "name": "Jingyuan Yang 0018",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Shenzhen University, College of Computer Science and Software Engineering, China",
+            "Xidian University, School of Electronic Engineering, Xi'an, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Jun Wu 0001",
@@ -6349,7 +6376,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Shenzhen University, College of Computer Science and Software Engineering, China",
+        "Xidian University, School of Electronic Engineering, Xi'an, China"
+      ]
     },
     {
       "title": "SNARY: A High-Performance and Generic SmartNIC-accelerated Retrieval System",
@@ -6532,11 +6562,13 @@
       "authors_structured": [
         {
           "name": "Jiacheng Liu 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Tsinghua University, Department of Precision Instrument, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Xiaozhi Zhu",
@@ -6571,7 +6603,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Tsinghua University, Department of Precision Instrument, Beijing, China"
+      ]
     },
     {
       "title": "STORM: a Multipath QUIC Scheduler for Quick Streaming Media Transport under Unstable Mobile Networks",
@@ -7183,11 +7217,15 @@
       "authors_structured": [
         {
           "name": "Jianjun Zhao 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Kyushu University, Fukuoka, Japan",
+            "Shanghai Jiao Tong University, China",
+            "Fukuoka Institute of Technology, Japan"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Haikun Liu",
@@ -7246,7 +7284,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Kyushu University, Fukuoka, Japan",
+        "Shanghai Jiao Tong University, China",
+        "Fukuoka Institute of Technology, Japan"
+      ]
     },
     {
       "title": "Towards Optimal Rack-scale μs-level CPU Scheduling through In-Network Workload Shaping",

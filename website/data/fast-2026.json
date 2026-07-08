@@ -56,7 +56,7 @@
           "confidence": "unknown"
         },
         {
-          "name": "Mingkai Dong 0002",
+          "name": "Mingkai Dong",
           "affiliations": [],
           "country_code": "XX",
           "country_label": "Unknown",
@@ -80,7 +80,7 @@
           "confidence": "unknown"
         },
         {
-          "name": "Haibo Chen 0001",
+          "name": "Haibo Chen",
           "affiliations": [],
           "country_code": "XX",
           "country_label": "Unknown",
@@ -456,11 +456,17 @@
       "authors_structured": [
         {
           "name": "Kai Zhang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Temple University, Department of Computer and Information Sciences, Philadelphia, PA, USA",
+            "NEC Labs. America, Princeton, NJ, USA",
+            "Siemens Corporate Rearch",
+            "Lawrence Berkeley National Lab, CA, USA",
+            "Hong Kong University of Science and Technology"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Tianyu Wang 0009",
@@ -479,7 +485,13 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Temple University, Department of Computer and Information Sciences, Philadelphia, PA, USA",
+        "NEC Labs. America, Princeton, NJ, USA",
+        "Siemens Corporate Rearch",
+        "Lawrence Berkeley National Lab, CA, USA",
+        "Hong Kong University of Science and Technology"
+      ]
     },
     {
       "title": "Bidaw: Enhancing Key-Value Caching for Interactive LLM Serving via Bidirectional Computation-Storage Awareness",
@@ -2763,7 +2775,7 @@
           "confidence": "unknown"
         },
         {
-          "name": "Feifei Li 0001",
+          "name": "Feifei Li",
           "affiliations": [],
           "country_code": "XX",
           "country_label": "Unknown",
@@ -2779,7 +2791,7 @@
           "confidence": "unknown"
         },
         {
-          "name": "Ya Lin",
+          "name": "Lin Ya",
           "affiliations": [],
           "country_code": "XX",
           "country_label": "Unknown",
@@ -2819,7 +2831,7 @@
           "confidence": "unknown"
         },
         {
-          "name": "Ling Zhou",
+          "name": "Zhou, Ling",
           "affiliations": [],
           "country_code": "XX",
           "country_label": "Unknown",
@@ -2827,7 +2839,7 @@
           "confidence": "unknown"
         },
         {
-          "name": "Bin Wu 0003",
+          "name": "Bin Wu",
           "affiliations": [],
           "country_code": "XX",
           "country_label": "Unknown",
@@ -2867,47 +2879,60 @@
       "abstract_source": "arxiv-local",
       "authors_structured": [
         {
-          "name": "Omkar Desai",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "name": "Desai, Omkar",
+          "affiliations": [
+            "Syracuse University"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "openalex",
+          "confidence": "high"
         },
         {
-          "name": "Ziyang Jiao",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "name": "Jiao, Ziyang",
+          "affiliations": [
+            "Syracuse University"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "openalex",
+          "confidence": "high"
         },
         {
-          "name": "Shuyi Pei",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "name": "Pei, Shuyi",
+          "affiliations": [
+            "Samsung (South Korea)",
+            "Samsung Semiconductor Inc"
+          ],
+          "country_code": "KR",
+          "country_label": "South Korea",
+          "source": "openalex",
+          "confidence": "high"
         },
         {
-          "name": "Janki Bhimani",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "name": "Bhimani, Janki",
+          "affiliations": [
+            "Florida International University"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "openalex",
+          "confidence": "high"
         },
         {
-          "name": "Bryan S. Kim",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "name": "Kim, Bryan S.",
+          "affiliations": [
+            "Syracuse University"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "openalex",
+          "confidence": "high"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Syracuse University"
+      ]
     },
     {
       "title": "Rearchitecting Buffered I/O in the Era of High-Bandwidth SSDs",
@@ -3567,7 +3592,7 @@
           "confidence": "unknown"
         },
         {
-          "name": "Yu Liang 0004",
+          "name": "Yu Liang",
           "affiliations": [],
           "country_code": "XX",
           "country_label": "Unknown",
@@ -3583,7 +3608,7 @@
           "confidence": "unknown"
         },
         {
-          "name": "Lei Li 0067",
+          "name": "Lei LI",
           "affiliations": [],
           "country_code": "XX",
           "country_label": "Unknown",
@@ -3599,7 +3624,7 @@
           "confidence": "unknown"
         },
         {
-          "name": "Tei-Wei Kuo",
+          "name": "Tei‐Wei Kuo",
           "affiliations": [],
           "country_code": "XX",
           "country_label": "Unknown",
@@ -3607,7 +3632,7 @@
           "confidence": "unknown"
         },
         {
-          "name": "Chun Jason Xue",
+          "name": "Xue, Chun, Jason",
           "affiliations": [],
           "country_code": "XX",
           "country_label": "Unknown",

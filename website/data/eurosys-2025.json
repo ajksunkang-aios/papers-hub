@@ -1039,11 +1039,15 @@
       "authors_structured": [
         {
           "name": "Yiming Zhang 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Fuzhou University, Fujian Key Laboratory of New Energy Generation and Power Conversion, School of Electrical Engineering and Automation, Fuzhou, China",
+            "San Diego State University, San Diego, CA, USA",
+            "Tsinghua University, Department of Electrical Engineering, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Li Wang 0123",
@@ -1118,7 +1122,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Fuzhou University, Fujian Key Laboratory of New Energy Generation and Power Conversion, School of Electrical Engineering and Automation, Fuzhou, China",
+        "San Diego State University, San Diego, CA, USA",
+        "Tsinghua University, Department of Electrical Engineering, Beijing, China"
+      ]
     },
     {
       "title": "Chrono: Meticulous Hotness Measurement and Flexible Page Migration for Memory Tiering",
@@ -2575,11 +2583,16 @@
       "authors_structured": [
         {
           "name": "Yuan Liu",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Guangzhou University, Cyberspace Institute of Advanced Technology, Guangzhou, China",
+            "Northeastern University, Software College, Shenyang, China",
+            "Joint NTU-UBC Research Centre of Excellence in Active Living for the Elderly, Singapore",
+            "Nanyang Technological University, School of Computer Engineering, Singapore"
+          ],
+          "country_code": "SG",
+          "country_label": "Singapore",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Wenxin Li 0001",
@@ -2654,7 +2667,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Guangzhou University, Cyberspace Institute of Advanced Technology, Guangzhou, China",
+        "Northeastern University, Software College, Shenyang, China",
+        "Joint NTU-UBC Research Centre of Excellence in Active Living for the Elderly, Singapore",
+        "Nanyang Technological University, School of Computer Engineering, Singapore"
+      ]
     },
     {
       "title": "Garbage Collection Does Not Only Collect Garbage: Piggybacking-Style Defragmentation for Deduplicated Backup Storage",
@@ -3133,11 +3151,14 @@
       "authors_structured": [
         {
           "name": "Qiang He 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Swinburne University of Technology, School of Software and Electrical Engineering, Hawthorn, VIC, Australia",
+            "Huazhong University of Science and Technology, Department of Computer Science and Technology, Wuhan, China"
+          ],
+          "country_code": "AU",
+          "country_label": "Australia",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Kaibin Wang",
@@ -3188,7 +3209,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Swinburne University of Technology, School of Software and Electrical Engineering, Hawthorn, VIC, Australia",
+        "Huazhong University of Science and Technology, Department of Computer Science and Technology, Wuhan, China"
+      ]
     },
     {
       "title": "HybridFlow: A Flexible and Efficient RLHF Framework",
@@ -4805,11 +4829,15 @@
       "authors_structured": [
         {
           "name": "Yifeng Zhang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Quintic Corporation, San Jose, CA, USA",
+            "Philips Semiconductors, San Jose, CA, USA",
+            "Ohio University, Athens, OH, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Yanqi Pan",
@@ -4844,7 +4872,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Quintic Corporation, San Jose, CA, USA",
+        "Philips Semiconductors, San Jose, CA, USA",
+        "Ohio University, Athens, OH, USA"
+      ]
     },
     {
       "title": "ParallelEVM: Operation-Level Concurrent Transaction Execution for EVM-Compatible Blockchains",

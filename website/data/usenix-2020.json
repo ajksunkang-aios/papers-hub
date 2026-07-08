@@ -1371,11 +1371,16 @@
       "authors_structured": [
         {
           "name": "Dong Zhou 0006",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Guangdong University of Foreign Studies, School of Information Science and Technology, Guangzhou, China",
+            "Hunan University of Science and Technology, School of Computer Science and Engineering, Xiangtan, China",
+            "Trinity College Dublin, School of Computer Science and Statistics, Ireland",
+            "University of Nottingham, School of Computer Science, UK"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Huacheng Yu",
@@ -1402,7 +1407,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Guangdong University of Foreign Studies, School of Information Science and Technology, Guangzhou, China",
+        "Hunan University of Science and Technology, School of Computer Science and Engineering, Xiangtan, China",
+        "Trinity College Dublin, School of Computer Science and Statistics, Ireland",
+        "University of Nottingham, School of Computer Science, UK"
+      ]
     },
     {
       "title": "Fewer Cores, More Hertz: Leveraging High-Frequency Cores in the OS Scheduler for Improved Application Performance",
@@ -1619,11 +1629,14 @@
       "authors_structured": [
         {
           "name": "Feng Zhang 0007",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Chinese Academy of Sciences, Institute of Microelectronics, Beijing, China",
+            "Chinese Academy of Sciences, Institute of Computing Technology, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Lin Yang",
@@ -1666,7 +1679,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Chinese Academy of Sciences, Institute of Microelectronics, Beijing, China",
+        "Chinese Academy of Sciences, Institute of Computing Technology, Beijing, China"
+      ]
     },
     {
       "title": "Firefly: Untethered Multi-user VR for Commodity Mobile Devices",
@@ -1689,11 +1705,15 @@
       "authors_structured": [
         {
           "name": "Xing Liu",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Sichuan University, College of Electrical Engineering and Information Technology, Chengdu, China",
+            "University of Electronic Science and Technology of China, National Key Laboratory of Science and Technology on Communications, Chengdu, China",
+            "Southwest Jiaotong University, Institute of Mobile Communications, Provincial Key Laboratory of Information Coding and Transmission, Chengdu, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Christina Vlachou",
@@ -1728,7 +1748,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Sichuan University, College of Electrical Engineering and Information Technology, Chengdu, China",
+        "University of Electronic Science and Technology of China, National Key Laboratory of Science and Technology on Communications, Chengdu, China",
+        "Southwest Jiaotong University, Institute of Mobile Communications, Provincial Key Laboratory of Information Coding and Transmission, Chengdu, China"
+      ]
     },
     {
       "title": "FuZZan: Efficient Sanitizer Metadata Design for Fuzzing",
@@ -2009,11 +2033,15 @@
       "authors_structured": [
         {
           "name": "Ji Zhang 0010",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Huazhong University of Science and Technology, HUST, Wuhan National Laboratory for Optoelectronics, China",
+            "New York University, Center for Data Science, NY, USA",
+            "University of Amsterdam, Netherlands"
+          ],
+          "country_code": "NL",
+          "country_label": "Netherlands",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Ping Huang 0001",
@@ -2048,7 +2076,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Huazhong University of Science and Technology, HUST, Wuhan National Laboratory for Optoelectronics, China",
+        "New York University, Center for Data Science, NY, USA",
+        "University of Amsterdam, Netherlands"
+      ]
     },
     {
       "title": "HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism",
@@ -2170,11 +2202,14 @@
       "authors_structured": [
         {
           "name": "Kate Keahey",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Argonne National Laboratory, Lemont, IL, USA",
+            "University of Chicago, Consortium for Advanced Science and Engineering (CASE), IL, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Jason Anderson",
@@ -2289,7 +2324,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Argonne National Laboratory, Lemont, IL, USA",
+        "University of Chicago, Consortium for Advanced Science and Engineering (CASE), IL, USA"
+      ]
     },
     {
       "title": "Libnvmmio: Reconstructing Software IO Path with Failure-Atomic Memory-Mapped Interface",
@@ -2311,11 +2349,14 @@
       "authors_structured": [
         {
           "name": "Jungsik Choi 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Samsung Advanced Institute of Technology, Suwon, South Korea",
+            "Sungkyunkwan University, Suwon, South Korea"
+          ],
+          "country_code": "KR",
+          "country_label": "South Korea",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Jaewan Hong",
@@ -2342,7 +2383,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Samsung Advanced Institute of Technology, Suwon, South Korea",
+        "Sungkyunkwan University, Suwon, South Korea"
+      ]
     },
     {
       "title": "Lightweight Preemptible Functions",
@@ -2474,11 +2518,13 @@
       "authors_structured": [
         {
           "name": "Ting Yao 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Tencent Inc., Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Yiwen Zhang",
@@ -2537,7 +2583,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Tencent Inc., Beijing, China"
+      ]
     },
     {
       "title": "Midgress-aware traffic provisioning for content delivery",
@@ -2960,11 +3008,17 @@
       "authors_structured": [
         {
           "name": "Yu Zhang 0101",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University College London, Department of Electronic & Electrical Engineering, London, UK",
+            "Newcastle University, Newcastle upon Tyne, UK",
+            "Huawei Technologies Co.,Ltd., China",
+            "Tsinghua University, Department of Automation, Beijing, China",
+            "University of Houston, Department of Electrical and Computer Engineering, Houston, TX, USA"
+          ],
+          "country_code": "GB",
+          "country_label": "United Kingdom",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Ping Huang 0001",
@@ -3015,7 +3069,13 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University College London, Department of Electronic & Electrical Engineering, London, UK",
+        "Newcastle University, Newcastle upon Tyne, UK",
+        "Huawei Technologies Co.,Ltd., China",
+        "Tsinghua University, Department of Automation, Beijing, China",
+        "University of Houston, Department of Electrical and Computer Engineering, Houston, TX, USA"
+      ]
     },
     {
       "title": "PERCIVAL: Making In-Browser Perceptual Ad Blocking Practical with Deep Learning",
@@ -3702,11 +3762,15 @@
       "authors_structured": [
         {
           "name": "Long Zheng 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Shanghai Jiao Tong University, Department of Computer Science and Engineering, China",
+            "University of Aizu, Aizu-wakamatsu, Japan",
+            "Huazhong University of Science and Technology, School of Computer Science and Technology, Wuhan, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Xianliang Li",
@@ -3773,7 +3837,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Shanghai Jiao Tong University, Department of Computer Science and Engineering, China",
+        "University of Aizu, Aizu-wakamatsu, Japan",
+        "Huazhong University of Science and Technology, School of Computer Science and Technology, Wuhan, China"
+      ]
     },
     {
       "title": "Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider",
@@ -3801,11 +3869,13 @@
       "authors_structured": [
         {
           "name": "Mohammad Shahrad",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of British Columbia, Canada"
+          ],
+          "country_code": "CA",
+          "country_label": "Canada",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Rodrigo Fonseca",
@@ -3880,7 +3950,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of British Columbia, Canada"
+      ]
     },
     {
       "title": "SPINFER: Inferring Semantic Patches for the Linux Kernel",
@@ -3985,11 +4057,15 @@
       "authors_structured": [
         {
           "name": "Alexander Conway 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Cornell University, New York, NY, USA",
+            "VMware, USA",
+            "Rutgers University, Piscataway, NJ, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Abhishek Gupta",
@@ -4040,7 +4116,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Cornell University, New York, NY, USA",
+        "VMware, USA",
+        "Rutgers University, Piscataway, NJ, USA"
+      ]
     },
     {
       "title": "Spool: Reliable Virtualized NVMe Storage Pool in Public Cloud Infrastructure",
@@ -4308,14 +4388,20 @@
       "authors_structured": [
         {
           "name": "Margo I. Seltzer",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of British Columbia, Canada",
+            "Harvard University, Cambridge, USA"
+          ],
+          "country_code": "GB",
+          "country_label": "United Kingdom",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of British Columbia, Canada",
+        "Harvard University, Cambridge, USA"
+      ]
     },
     {
       "title": "The Future of the Past: Challenges in Archival Storage",
@@ -4334,14 +4420,18 @@
       "authors_structured": [
         {
           "name": "Ethan L. Miller",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of California, Santa Cruz, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of California, Santa Cruz, USA"
+      ]
     },
     {
       "title": "Twizzler: a Data-Centric OS for Non-Volatile Memory",

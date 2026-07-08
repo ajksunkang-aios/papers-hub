@@ -128,11 +128,13 @@
       "authors_structured": [
         {
           "name": "Supun Nakandala",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of California, San Diego, Computer Science and Engineering Department, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Karla Saur",
@@ -183,7 +185,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of California, San Diego, Computer Science and Engineering Department, CA, USA"
+      ]
     },
     {
       "title": "A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters",
@@ -278,11 +282,14 @@
       "authors_structured": [
         {
           "name": "Zhipeng Zhao",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "State University of New York at Buffalo, USA",
+            "Wuhan University, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Hugo Sadok",
@@ -325,7 +332,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "State University of New York at Buffalo, USA",
+        "Wuhan University, China"
+      ]
     },
     {
       "title": "AGAMOTTO: How Persistent is your Persistent Memory Application?",
@@ -770,11 +780,13 @@
       "authors_structured": [
         {
           "name": "Thomas E. Anderson",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Washington, Seattle, Washington, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Marco Canini",
@@ -841,7 +853,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Washington, Seattle, Washington, USA"
+      ]
     },
     {
       "title": "Automated Reasoning and Detection of Specious Configuration in Large Systems with Symbolic Execution",
@@ -1002,11 +1016,13 @@
       "authors_structured": [
         {
           "name": "Lalith Suresh 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Feldera.com, Sunnyvale, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Jo&atilde;o Loff",
@@ -1081,7 +1097,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Feldera.com, Sunnyvale, CA, USA"
+      ]
     },
     {
       "title": "Byzantine Ordered Consensus without Byzantine Oligarchy",
@@ -1771,11 +1789,16 @@
       "authors_structured": [
         {
           "name": "Xiao Shi",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Nanjing University, National Center of Technology Innovation for EDA, China",
+            "University of California Los Angeles, Electrical and Computer Engineering Department, CA, USA",
+            "Fudan University, Microelectronics Department, Shanghai, China",
+            "Southeast University, School of Electronic Science and Engineering, Nanjing, China"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Scott Pruett",
@@ -1834,7 +1857,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Nanjing University, National Center of Technology Innovation for EDA, China",
+        "University of California Los Angeles, Electrical and Computer Engineering Department, CA, USA",
+        "Fudan University, Microelectronics Department, Shanghai, China",
+        "Southeast University, School of Electronic Science and Engineering, Nanjing, China"
+      ]
     },
     {
       "title": "From Global to Local Quiescence: Wait-Free Code Patching of Multi-Threaded Processes",
@@ -3024,11 +3052,14 @@
       "authors_structured": [
         {
           "name": "Jialin Li 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "National University of Singapore, School of Computing",
+            "University of Washington, USA"
+          ],
+          "country_code": "SG",
+          "country_label": "Singapore",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jacob Nelson 0001",
@@ -3063,7 +3094,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "National University of Singapore, School of Computing",
+        "University of Washington, USA"
+      ]
     },
     {
       "title": "Performance-Optimal Read-Only Transactions",
@@ -4118,11 +4152,15 @@
       "authors_structured": [
         {
           "name": "Arpan Gujarati",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of British Columbia, Computer Science Department, Vancouver, BC, Canada",
+            "Max Planck Institute for Software Systems (MPI-SWS), Kaiserslautern, Germany",
+            "Kaiserslautern University of Technology, Germany"
+          ],
+          "country_code": "DE",
+          "country_label": "Germany",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Reza Karimi",
@@ -4173,7 +4211,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of British Columbia, Computer Science Department, Vancouver, BC, Canada",
+        "Max Planck Institute for Software Systems (MPI-SWS), Kaiserslautern, Germany",
+        "Kaiserslautern University of Technology, Germany"
+      ]
     },
     {
       "title": "Specification and verification in the field: Applying formal methods to BPF just-in-time compilers in the Linux kernel",
@@ -4326,11 +4368,14 @@
       "authors_structured": [
         {
           "name": "Yuliang Li",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Megagon Labs, Mountain View, CA, USA",
+            "University of California, San Diego, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Gautam Kumar 0001",
@@ -4413,7 +4458,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Megagon Labs, Mountain View, CA, USA",
+        "University of California, San Diego, USA"
+      ]
     },
     {
       "title": "Testing Configuration Changes in Context to Prevent Production Failures",
@@ -4504,11 +4552,13 @@
       "authors_structured": [
         {
           "name": "Manuel Rigger",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "country_code": "SG",
+          "country_label": "Singapore",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Zhendong Su 0001",
@@ -4519,7 +4569,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "National University of Singapore"
+      ]
     },
     {
       "title": "The CacheLib Caching Engine: Design and Experiences at Scale",

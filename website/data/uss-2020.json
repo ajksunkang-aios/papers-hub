@@ -245,11 +245,14 @@
       "authors_structured": [
         {
           "name": "Elissa M. Redmiles",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Georgetown University, Washington D.C., USA",
+            "Microsoft Research"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Noel Warford",
@@ -308,7 +311,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Georgetown University, Washington D.C., USA",
+        "Microsoft Research"
+      ]
     },
     {
       "title": "A Comprehensive Study of DNS-over-HTTPS Downgrade Attack",
@@ -633,11 +639,13 @@
       "authors_structured": [
         {
           "name": "Stefano Calzavara",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Ca' Foscari University of Venice, Italy"
+          ],
+          "country_code": "IT",
+          "country_label": "Italy",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Sebastian Roth",
@@ -672,7 +680,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Ca' Foscari University of Venice, Italy"
+      ]
     },
     {
       "title": "Achieving Keyless CDNs with Conclaves",
@@ -819,11 +829,14 @@
       "authors_structured": [
         {
           "name": "Erwin Quiring",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Ruhr University Bochum, Germany",
+            "Braunschweig University of Technology, Germany"
+          ],
+          "country_code": "DE",
+          "country_label": "Germany",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "David Klein 0001",
@@ -858,7 +871,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Ruhr University Bochum, Germany",
+        "Braunschweig University of Technology, Germany"
+      ]
     },
     {
       "title": "Agamotto: Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints",
@@ -1217,11 +1233,13 @@
       "authors_structured": [
         {
           "name": "Ivan De Oliveira Nunes",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Rochester Institute of Technology, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Karim Eldefrawy",
@@ -1248,7 +1266,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Rochester Institute of Technology, USA"
+      ]
     },
     {
       "title": "APTGen: An Approach towards Generating Practical Dataset Labelled with Targeted Attack Sequences",
@@ -1573,11 +1593,13 @@
       "authors_structured": [
         {
           "name": "Shweta Shinde",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "ETH Z&uuml;rich, Switzerland"
+          ],
+          "country_code": "CH",
+          "country_label": "Switzerland",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Shengyi Wang",
@@ -1620,7 +1642,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "ETH Z&uuml;rich, Switzerland"
+      ]
     },
     {
       "title": "Big Numbers - Big Troubles: Systematically Analyzing Nonce Leakage in (EC)DSA Implementations",
@@ -1937,11 +1961,16 @@
       "authors_structured": [
         {
           "name": "Yue Zhang 0025",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Shandong University, School of Computer Science and Technology, Qingdao, China",
+            "Drexel University, Philadelphia, PA, USA",
+            "Ohio State University, Columbus OH, USA",
+            "Jinan University, College of Information Science and Technology, Guangzhou, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Jian Weng 0001",
@@ -1984,7 +2013,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Shandong University, School of Computer Science and Technology, Qingdao, China",
+        "Drexel University, Philadelphia, PA, USA",
+        "Ohio State University, Columbus OH, USA",
+        "Jinan University, College of Information Science and Technology, Guangzhou, China"
+      ]
     },
     {
       "title": "Bridging Missing Gaps in Evaluating DDoS Research",
@@ -2209,11 +2243,15 @@
       "authors_structured": [
         {
           "name": "Mengjia Yan 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Massachusetts Institute of Technology, Cambridge, MA, USA",
+            "University of Illinois at Urbana-Champaign, IL, USA",
+            "Zhejiang University, College of Computer Science and Technology, Hangzhou, China"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Christopher W. Fletcher",
@@ -2232,7 +2270,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Massachusetts Institute of Technology, Cambridge, MA, USA",
+        "University of Illinois at Urbana-Champaign, IL, USA",
+        "Zhejiang University, College of Computer Science and Technology, Hangzhou, China"
+      ]
     },
     {
       "title": "Cached and Confused: Web Cache Deception in the Wild",
@@ -2640,11 +2682,16 @@
       "authors_structured": [
         {
           "name": "Jianjun Chen 0005",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "ByteDance, Infrastructure System Lab, USA",
+            "Huawei America Research, Santa Clara, CA, USA",
+            "Google",
+            "University of Wisconsin, Computer Science Department, Madison, WI, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Vern Paxson",
@@ -2663,7 +2710,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "ByteDance, Infrastructure System Lab, USA",
+        "Huawei America Research, Santa Clara, CA, USA",
+        "Google",
+        "University of Wisconsin, Computer Science Department, Madison, WI, USA"
+      ]
     },
     {
       "title": "CopyCat: Controlled Instruction-Level Attacks on Enclaves",
@@ -2793,11 +2845,14 @@
       "authors_structured": [
         {
           "name": "Md. Mehedi Hasan",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Dhaka, Bangladesh",
+            "University of New South Wales, School of Engineering and Information Technology, Canberra, ACT, Australia"
+          ],
+          "country_code": "AU",
+          "country_label": "Australia",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Biswajit Ray",
@@ -2808,7 +2863,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Dhaka, Bangladesh",
+        "University of New South Wales, School of Engineering and Information Technology, Canberra, ACT, Australia"
+      ]
     },
     {
       "title": "Datalog Disassembly",
@@ -3015,11 +3073,14 @@
       "authors_structured": [
         {
           "name": "Fan Yao 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Central Florida, Department of Electrical and Computer Engineering, Orlando, FL, USA",
+            "George Washington University, Department of Electrical and Computer Engineering, Washington DC, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Adnan Siraj Rakin",
@@ -3038,7 +3099,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Central Florida, Department of Electrical and Computer Engineering, Orlando, FL, USA",
+        "George Washington University, Department of Electrical and Computer Engineering, Washington DC, USA"
+      ]
     },
     {
       "title": "DELF: Safeguarding deletion correctness in Online Social Networks",
@@ -3168,11 +3232,14 @@
       "authors_structured": [
         {
           "name": "Pratyush Mishra 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Pennsylvania, Department of Computer and Information Science, Philadelphia, PA, USA",
+            "University of California, Berkeley, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Ryan Lehmkuhl",
@@ -3207,7 +3274,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Pennsylvania, Department of Computer and Information Science, Philadelphia, PA, USA",
+        "University of California, Berkeley, CA, USA"
+      ]
     },
     {
       "title": "Detecting and Evading Censorship-in-Depth: A Case Study of Iran's Protocol Whitelister",
@@ -3410,11 +3480,14 @@
       "authors_structured": [
         {
           "name": "Hailong Zhang 0006",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "China Electric Power Research Institute, Beijing, China",
+            "Tianjin University, Tianjin, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Sufian Latif",
@@ -3441,7 +3514,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "China Electric Power Research Institute, Beijing, China",
+        "Tianjin University, Tianjin, China"
+      ]
     },
     {
       "title": "Digital Contact Tracing",
@@ -3460,14 +3536,18 @@
       "authors_structured": [
         {
           "name": "Srdjan Capkun",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "ETH Zurich, Switzerland"
+          ],
+          "country_code": "CH",
+          "country_label": "Switzerland",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "ETH Zurich, Switzerland"
+      ]
     },
     {
       "title": "Donky: Domain Keys - Efficient In-Process Isolation for RISC-V and x86",
@@ -3569,11 +3649,13 @@
       "authors_structured": [
         {
           "name": "Junjie Shen 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Nanjing University of Posts and Telecommunications, School of Management, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jun Yeon Won 0001",
@@ -3600,7 +3682,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Nanjing University of Posts and Telecommunications, School of Management, China"
+      ]
     },
     {
       "title": "Droplet: Decentralized Authorization and Access Control for Encrypted Data Streams",
@@ -3966,11 +4050,15 @@
       "authors_structured": [
         {
           "name": "Daniel Lehmann 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Google, Munich, Germany",
+            "University of Stuttgart, Software Lab, Stuttgart, Germany",
+            "TU Darmstadt, Software Lab, Darmstadt, Germany"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Johannes Kinder",
@@ -3989,7 +4077,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Google, Munich, Germany",
+        "University of Stuttgart, Software Lab, Stuttgart, Germany",
+        "TU Darmstadt, Software Lab, Darmstadt, Germany"
+      ]
     },
     {
       "title": "Expansion of ICS Testbed for Security Validation based on MITRE ATT&CK Techniques",
@@ -5286,11 +5378,13 @@
       "authors_structured": [
         {
           "name": "Fnu Suya",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Tennessee, Knoxville, TN, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Jianfeng Chi",
@@ -5317,7 +5411,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Tennessee, Knoxville, TN, USA"
+      ]
     },
     {
       "title": "ICS Testbed Tetris: Practical Building Blocks Towards a Cyber Security Resource",
@@ -5342,11 +5438,13 @@
       "authors_structured": [
         {
           "name": "Benjamin Green 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Johns Hopkins University, Baltimore, MD, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Richard Derbyshire",
@@ -5397,7 +5495,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Johns Hopkins University, Baltimore, MD, USA"
+      ]
     },
     {
       "title": "Identifying Disinformation Websites Using Infrastructure Features",
@@ -5492,11 +5592,14 @@
       "authors_structured": [
         {
           "name": "Xinyang Zhang 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Cisco Systems, Inc., Boxborough, MA, USA",
+            "Cornell University, Ithaca, NY, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Ningfei Wang",
@@ -5539,7 +5642,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Cisco Systems, Inc., Boxborough, MA, USA",
+        "Cornell University, Ithaca, NY, USA"
+      ]
     },
     {
       "title": "iOS, Your OS, Everybody's OS: Vetting and Analyzing Network Services of iOS Applications",
@@ -5775,11 +5881,13 @@
       "authors_structured": [
         {
           "name": "Takeshi Sugawara 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "The University of Tokyo, Tokyo, Japan"
+          ],
+          "country_code": "JP",
+          "country_label": "Japan",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Benjamin Cyr",
@@ -5814,7 +5922,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "The University of Tokyo, Tokyo, Japan"
+      ]
     },
     {
       "title": "Liveness is Not Enough: Enhancing Fingerprint Authentication with Behavioral Biometrics to Defeat Puppet Attacks",
@@ -5837,11 +5947,16 @@
       "authors_structured": [
         {
           "name": "Cong Wu 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "West China Hospital, Institutes for Systems Genetics, China",
+            "Sichuan University, Department of Urology, Chengdu, China",
+            "China Academy of Engineering Physics, Institute of Nuclear Physics and Chemistry, Sichuan, China",
+            "University of Waterloo, Department of Applied Mathematics, ON, Canada"
+          ],
+          "country_code": "CA",
+          "country_label": "Canada",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Kun He 0008",
@@ -5876,7 +5991,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "West China Hospital, Institutes for Systems Genetics, China",
+        "Sichuan University, Department of Urology, Chengdu, China",
+        "China Academy of Engineering Physics, Institute of Nuclear Physics and Chemistry, Sichuan, China",
+        "University of Waterloo, Department of Applied Mathematics, ON, Canada"
+      ]
     },
     {
       "title": "Local Model Poisoning Attacks to Byzantine-Robust Federated Learning",
@@ -6283,11 +6403,14 @@
       "authors_structured": [
         {
           "name": "Hongxu Chen 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Technology Sydney, School of Computer Science, Ultimo, NSW, Australia",
+            "University of Queensland, Australia"
+          ],
+          "country_code": "AU",
+          "country_label": "Australia",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Shengjian Guo",
@@ -6346,7 +6469,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Technology Sydney, School of Computer Science, Ultimo, NSW, Australia",
+        "University of Queensland, Australia"
+      ]
     },
     {
       "title": "MVP: Detecting Vulnerabilities using Patch-Enhanced Vulnerability Signatures",
@@ -6375,11 +6501,14 @@
       "authors_structured": [
         {
           "name": "Yang Xiao 0011",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "City University of Hong Kong, School of Energy and Environment, Hong Kong",
+            "Southeast University, Department of electrical engineering, Nanjing, China"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Bihuan Chen 0001",
@@ -6462,7 +6591,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "City University of Hong Kong, School of Energy and Environment, Hong Kong",
+        "Southeast University, Department of electrical engineering, Nanjing, China"
+      ]
     },
     {
       "title": "NetWarden: Mitigating Network Covert Channels while Preserving Performance",
@@ -6730,11 +6862,15 @@
       "authors_structured": [
         {
           "name": "Bo Feng 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Zhejiang University, Hangzhou, Zhejiang, China",
+            "Georgia Institute of Technology, Atlanta, GA, USA",
+            "Northeastern University, USA"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Alejandro Mera",
@@ -6753,7 +6889,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Zhejiang University, Hangzhou, Zhejiang, China",
+        "Georgia Institute of Technology, Atlanta, GA, USA",
+        "Northeastern University, USA"
+      ]
     },
     {
       "title": "Padding Ain't Enough: Assessing the Privacy Guarantees of Encrypted DNS",
@@ -6773,11 +6913,13 @@
       "authors_structured": [
         {
           "name": "Jonas Bushart",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "CISPA Helmholtz Center for Information Security, Saarbr&uuml;cken, Germany"
+          ],
+          "country_code": "DE",
+          "country_label": "Germany",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Christian Rossow",
@@ -6788,7 +6930,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "CISPA Helmholtz Center for Information Security, Saarbr&uuml;cken, Germany"
+      ]
     },
     {
       "title": "Pancake: Frequency Smoothing for Encrypted Data Stores",
@@ -7651,11 +7795,13 @@
       "authors_structured": [
         {
           "name": "Florian Tram&egrave;r",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "ETH Zurich, Switzerland"
+          ],
+          "country_code": "CH",
+          "country_label": "Switzerland",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Dan Boneh",
@@ -7674,7 +7820,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "ETH Zurich, Switzerland"
+      ]
     },
     {
       "title": "Representativeness in the Benchmark for Vulnerability Analysis Tools (B-VAT)",
@@ -8302,11 +8450,13 @@
       "authors_structured": [
         {
           "name": "Ga&euml;tan Leurent",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Inria, Paris, France"
+          ],
+          "country_code": "FR",
+          "country_label": "France",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Thomas Peyrin",
@@ -8317,7 +8467,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Inria, Paris, France"
+      ]
     },
     {
       "title": "ShadowMove: A Stealthy Lateral Movement Strategy",
@@ -8487,14 +8639,18 @@
       "authors_structured": [
         {
           "name": "Frank Li 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Agder, Norway"
+          ],
+          "country_code": "NO",
+          "country_label": "Norway",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Agder, Norway"
+      ]
     },
     {
       "title": "Silhouette: Efficient Protected Shadow Stacks for Embedded Systems",
@@ -8518,11 +8674,15 @@
       "authors_structured": [
         {
           "name": "Jie Zhou 0022",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "South China University of Technology, School of Computer Science and Engineering, Guangzhou, China",
+            "Nankai University, Tianjin, China",
+            "Adam Mickiewicz University, Poznań, Poland"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Yufei Du",
@@ -8565,7 +8725,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "South China University of Technology, School of Computer Science and Engineering, Guangzhou, China",
+        "Nankai University, Tianjin, China",
+        "Adam Mickiewicz University, Poznań, Poland"
+      ]
     },
     {
       "title": "SkillExplorer: Understanding the Behavior of Skills in Large Scale",
@@ -8677,11 +8841,13 @@
       "authors_structured": [
         {
           "name": "Yan Xiong 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Science and Technology of China, School of Computer Science and Technology, Hefei, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Cheng Su",
@@ -8724,7 +8890,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Science and Technology of China, School of Computer Science and Technology, Hefei, China"
+      ]
     },
     {
       "title": "SpecFuzz: Bringing Spectre-type vulnerabilities to the surface",
@@ -9336,11 +9504,13 @@
       "authors_structured": [
         {
           "name": "Alisa Frik",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of California, Berkeley, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Amelia Haviland",
@@ -9359,7 +9529,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of California, Berkeley, CA, USA"
+      ]
     },
     {
       "title": "The Industrial Age of Hacking",
@@ -10164,11 +10336,14 @@
       "authors_structured": [
         {
           "name": "Ahmed Salem 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Amazon Web Services, USA",
+            "Old Dominion University, Norfolk, VA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Apratim Bhattacharya",
@@ -10203,7 +10378,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Amazon Web Services, USA",
+        "Old Dominion University, Norfolk, VA, USA"
+      ]
     },
     {
       "title": "USBFuzz: A Framework for Fuzzing USB Drivers by Device Emulation",

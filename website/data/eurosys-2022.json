@@ -1734,7 +1734,9 @@
       "authors_structured": [
         {
           "name": "Wonseok Shin 0003",
-          "affiliations": [],
+          "affiliations": [
+            "SK Telecom"
+          ],
           "country_code": "XX",
           "country_label": "Unknown",
           "source": "unknown",
@@ -1757,7 +1759,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "SK Telecom"
+      ]
     },
     {
       "title": "Fleche: an efficient GPU embedding cache for personalized recommendations",
@@ -2129,11 +2133,17 @@
       "authors_structured": [
         {
           "name": "Ning Li 0010",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Xi'an University of Technology, School of Electrical Engineering, China",
+            "Ministry of Education, Key Laboratory of Control of Power Transmission and Conversion, SJTU, Shanghai, China",
+            "University of Birmingham, Department of Electronic, Electrical, and Systems Engineering, UK",
+            "M&auml;lardalen University, Department of Energy Engineering, V&auml;ster&aring;s, Sweden",
+            "Xi'an Jiaotong University, XJTU, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Hong Jiang 0001",
@@ -2168,7 +2178,13 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Xi'an University of Technology, School of Electrical Engineering, China",
+        "Ministry of Education, Key Laboratory of Control of Power Transmission and Conversion, SJTU, Shanghai, China",
+        "University of Birmingham, Department of Electronic, Electrical, and Systems Engineering, UK",
+        "M&auml;lardalen University, Department of Energy Engineering, V&auml;ster&aring;s, Sweden",
+        "Xi'an Jiaotong University, XJTU, China"
+      ]
     },
     {
       "title": "Isolating functions at the hardware limit with virtines",
@@ -2413,11 +2429,14 @@
       "authors_structured": [
         {
           "name": "Ran Xu 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Connecticut, Department of Allied Health Sciences, Storrs, CT, USA",
+            "Virginia Tech, Department of Industrial and Systems Engineering, Falls Church, VA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Jayoung Lee",
@@ -2460,7 +2479,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Connecticut, Department of Allied Health Sciences, Storrs, CT, USA",
+        "Virginia Tech, Department of Industrial and Systems Engineering, Falls Church, VA, USA"
+      ]
     },
     {
       "title": "Live video analytics as a service",
@@ -2541,14 +2563,20 @@
       "authors_structured": [
         {
           "name": "Martin Kleppmann",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "TU Munich, Germany",
+            "University of Cambridge, Computer Laboratory"
+          ],
+          "country_code": "GB",
+          "country_label": "United Kingdom",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "TU Munich, Germany",
+        "University of Cambridge, Computer Laboratory"
+      ]
     },
     {
       "title": "Melda: a general purpose delta state JSON CRDT",
@@ -2821,11 +2849,13 @@
       "authors_structured": [
         {
           "name": "George Danezis",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Microsoft Research"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Lefteris Kokoris-Kogias",
@@ -2852,7 +2882,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Microsoft Research"
+      ]
     },
     {
       "title": "Nyx-net: network fuzzing with incremental snapshots",
@@ -3091,11 +3123,17 @@
       "authors_structured": [
         {
           "name": "Julia Lawall",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Sorbonne University, LIP6, Paris",
+            "Inria, France",
+            "University of Copenhagen, DIKU, Denmark",
+            "Boston University, Department of Computer Science, MA, USA",
+            "Indiana University, Bloomington, IN, USA"
+          ],
+          "country_code": "FR",
+          "country_label": "France",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Himadri Chhaya-Shailesh",
@@ -3138,7 +3176,13 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Sorbonne University, LIP6, Paris",
+        "Inria, France",
+        "University of Copenhagen, DIKU, Denmark",
+        "Boston University, Department of Computer Science, MA, USA",
+        "Indiana University, Bloomington, IN, USA"
+      ]
     },
     {
       "title": "Out-of-order backprop: an effective scheduling technique for deep learning",
@@ -3889,11 +3933,13 @@
       "authors_structured": [
         {
           "name": "Llu&iacute;s Vilanova",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Imperial College London, UK"
+          ],
+          "country_code": "GB",
+          "country_label": "United Kingdom",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Lina Maudlej",
@@ -3960,7 +4006,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Imperial College London, UK"
+      ]
     },
     {
       "title": "SLRL: a simple least remaining lifetime file evicition policy for HPC multi-tier storage systems",
@@ -4311,11 +4359,16 @@
       "authors_structured": [
         {
           "name": "Yong Zhang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Shenzhen University, ATR Key Laboratory of National Defense Technology, Shenzhen, China",
+            "Shenzhen University, College of Information Engineering, Shenzhen, China",
+            "Harbin Institute of Technology Shenzhen Graduate School, Guangdong, China",
+            "PLA University of Science and Technology, Nanjing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Xinran Xiong",
@@ -4334,7 +4387,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Shenzhen University, ATR Key Laboratory of National Defense Technology, Shenzhen, China",
+        "Shenzhen University, College of Information Engineering, Shenzhen, China",
+        "Harbin Institute of Technology Shenzhen Graduate School, Guangdong, China",
+        "PLA University of Science and Technology, Nanjing, China"
+      ]
     },
     {
       "title": "Towards efficient processing of latency-sensitive serverless DAGs at the edge",
@@ -4420,11 +4478,15 @@
       "authors_structured": [
         {
           "name": "Dhruv Kumar 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Birla Institute of Technology and Science, Pilani, India",
+            "IIIT Delhi, New Delhi, India",
+            "University of Minnesota, Twin Cities, USA"
+          ],
+          "country_code": "IN",
+          "country_label": "India",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Joel Wolfrath",
@@ -4451,7 +4513,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Birla Institute of Technology and Science, Pilani, India",
+        "IIIT Delhi, New Delhi, India",
+        "University of Minnesota, Twin Cities, USA"
+      ]
     },
     {
       "title": "Understanding the performance of erasure codes in hadoop distributed file system",

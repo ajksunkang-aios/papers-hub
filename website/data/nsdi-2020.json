@@ -49,11 +49,13 @@
       "authors_structured": [
         {
           "name": "Tom Barbette",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "UCLouvain, Belgium"
+          ],
+          "country_code": "BE",
+          "country_label": "Belgium",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Chen Tang",
@@ -104,7 +106,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "UCLouvain, Belgium"
+      ]
     },
     {
       "title": "ABC: A Simple Explicit Congestion Controller for Wireless Networks",
@@ -723,11 +727,15 @@
       "authors_structured": [
         {
           "name": "Fawad Ahmad 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Rochester Institute of Technology, Department of Computer Science, NY, USA",
+            "University of Southern California, Los Angeles, CA, USA",
+            "University of Engineering and Technology, Peshawar, Pakistan"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Hang Qiu 0001",
@@ -762,7 +770,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Rochester Institute of Technology, Department of Computer Science, NY, USA",
+        "University of Southern California, Los Angeles, CA, USA",
+        "University of Engineering and Technology, Peshawar, Pakistan"
+      ]
     },
     {
       "title": "Check before You Change: Preventing Correlated Failures in Service Updates",
@@ -1319,11 +1331,13 @@
       "authors_structured": [
         {
           "name": "Jeffrey C. Mogul",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Google Research"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Drago Goricanec",
@@ -1374,7 +1388,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Google Research"
+      ]
     },
     {
       "title": "Fawkes: Faster Mobile Page Loads via App-Inspired Static Templating",
@@ -1585,11 +1601,17 @@
       "authors_structured": [
         {
           "name": "Ming Liu 0027",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Hong Kong University of Science and Technology Guangzhou (HKUST-GZ), Guangzhou, China",
+            "Hong Kong University of Science and Technology, Department of Electronic and Computer Engineering, Robotics and Multi-perception Lab, Hong Kong",
+            "City University of Hong Kong, Robotics and Multi-perception Lab (RAM-LAB), Hong Kong",
+            "ETH Zurich, Autonomous Systems Laboratory, Switzerland",
+            "Tongji University, CEIE, China"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Arvind Krishnamurthy",
@@ -1672,7 +1694,13 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Hong Kong University of Science and Technology Guangzhou (HKUST-GZ), Guangzhou, China",
+        "Hong Kong University of Science and Technology, Department of Electronic and Computer Engineering, Robotics and Multi-perception Lab, Hong Kong",
+        "City University of Hong Kong, Robotics and Multi-perception Lab (RAM-LAB), Hong Kong",
+        "ETH Zurich, Autonomous Systems Laboratory, Switzerland",
+        "Tongji University, CEIE, China"
+      ]
     },
     {
       "title": "Firecracker: Lightweight Virtualization for Serverless Applications",
@@ -2934,11 +2962,13 @@
       "authors_structured": [
         {
           "name": "Yifei Yuan",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Chinese University of Hong Kong, Hong Kong"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Soo-Jin Moon",
@@ -2973,7 +3003,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Chinese University of Hong Kong, Hong Kong"
+      ]
     },
     {
       "title": "NetTLP: A Development Platform for PCIe devices in Software Interacting with Hardware",
@@ -3636,11 +3668,14 @@
       "authors_structured": [
         {
           "name": "Cong Ding 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Cornell University, Ithaca, NY, USA",
+            "University of G&ouml;ttingen, G&ouml;ttingen, Germany"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "David Chu",
@@ -3683,7 +3718,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Cornell University, Ithaca, NY, USA",
+        "University of G&ouml;ttingen, G&ouml;ttingen, Germany"
+      ]
     },
     {
       "title": "Sol: Fast Distributed Computation Over Slow Networks",
@@ -4380,7 +4418,9 @@
       "authors_structured": [
         {
           "name": "Albert Kwon",
-          "affiliations": [],
+          "affiliations": [
+            "MITZ"
+          ],
           "country_code": "XX",
           "country_label": "Unknown",
           "source": "unknown",
@@ -4403,7 +4443,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "MITZ"
+      ]
     }
   ]
 }

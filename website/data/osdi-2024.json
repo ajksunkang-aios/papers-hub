@@ -54,11 +54,16 @@
       "authors_structured": [
         {
           "name": "Lei Chen",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Beijing Institute of Technology, State Key Laboratory of CNS/ATM, China",
+            "Beihang University, School of Automation Science and Electrical Engineering, China",
+            "Southeast University, School of Automation, Nanjing, China",
+            "Royal Melbourne Institute of Technology University, Melbourne, VIC, Australia"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Shi Liu",
@@ -149,7 +154,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Beijing Institute of Technology, State Key Laboratory of CNS/ATM, China",
+        "Beihang University, School of Automation Science and Electrical Engineering, China",
+        "Southeast University, School of Automation, Nanjing, China",
+        "Royal Melbourne Institute of Technology University, Melbourne, VIC, Australia"
+      ]
     },
     {
       "title": "ACCL+: an FPGA-Based Collective Engine for Distributed Applications",
@@ -375,11 +385,14 @@
       "authors_structured": [
         {
           "name": "Rishabh R. Iyer",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "UC Berkeley, CA, USA",
+            "EPFL, Switzerland"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Katerina J. Argyraki",
@@ -398,7 +411,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "UC Berkeley, CA, USA",
+        "EPFL, Switzerland"
+      ]
     },
     {
       "title": "Beaver: Practical Partial Snapshots for Distributed Cloud Services",
@@ -1131,11 +1147,13 @@
       "authors_structured": [
         {
           "name": "Marcos K. Aguilera",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "VMware, Palo Alto, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Cl&eacute;ment Burgelin",
@@ -1178,7 +1196,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "VMware, Palo Alto, CA, USA"
+      ]
     },
     {
       "title": "Enabling Tensor Language Model to Assist in Generating High-Performance Tensor Programs for Deep Learning",
@@ -1207,11 +1227,13 @@
       "authors_structured": [
         {
           "name": "Yi Zhai 0005",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "NARI Technology Development Co. Ltd, State Grid Electric Power Research Institute, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Sijia Yang",
@@ -1294,7 +1316,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "NARI Technology Development Co. Ltd, State Grid Electric Power Research Institute, China"
+      ]
     },
     {
       "title": "Fairness in Serving Large Language Models",
@@ -1320,11 +1344,13 @@
       "authors_structured": [
         {
           "name": "Ying Sheng 0007",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Peking University, iGEM, Beijng, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Shiyi Cao",
@@ -1383,7 +1409,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Peking University, iGEM, Beijng, China"
+      ]
     },
     {
       "title": "FairyWREN: A Sustainable Cache for Emerging Write-Read-Erase Flash Interfaces",
@@ -2599,11 +2627,14 @@
       "authors_structured": [
         {
           "name": "Haibo Chen 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Shanghai Jiao Tong University, Institute of Parallel and Distributed Systems,China",
+            "Fudan University, Parallel Processing Institute, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Xie Miao",
@@ -2718,7 +2749,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Shanghai Jiao Tong University, Institute of Parallel and Distributed Systems,China",
+        "Fudan University, Parallel Processing Institute, China"
+      ]
     },
     {
       "title": "MonoNN: Enabling a New Monolithic Optimization Space for Neural Network Inference Tasks on Modern GPU-Centric Architectures",
@@ -2819,11 +2853,15 @@
       "authors_structured": [
         {
           "name": "Ming Zhang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Hubei University, School of Integrated Circuits, Wuhan, China",
+            "Chinese Academy of Sciences, Institute of Acoustics, Beijing, China",
+            "China University of Geosciences, School of Geophysics and Information Technology, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Yu Hua 0001",
@@ -2842,7 +2880,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Hubei University, School of Integrated Circuits, Wuhan, China",
+        "Chinese Academy of Sciences, Institute of Acoustics, Beijing, China",
+        "China University of Geosciences, School of Geophysics and Information Technology, Beijing, China"
+      ]
     },
     {
       "title": "nnScaler: Constraint-Guided Parallelization Plan Generation for Deep Learning Training",
@@ -3092,11 +3134,15 @@
       "authors_structured": [
         {
           "name": "Neeraj Kumar 0004",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Washington, Seattle, WA, USA",
+            "Columbia University, New York, USA",
+            "Georgia Institute of Technology, GA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Pol Mauri Ruiz",
@@ -3163,7 +3209,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Washington, Seattle, WA, USA",
+        "Columbia University, New York, USA",
+        "Georgia Institute of Technology, GA, USA"
+      ]
     },
     {
       "title": "Parrot: Efficient Serving of LLM-based Applications with Semantic Variable",

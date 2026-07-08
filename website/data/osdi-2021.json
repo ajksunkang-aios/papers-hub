@@ -1198,11 +1198,14 @@
       "authors_structured": [
         {
           "name": "Amy Tai",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Google, USA",
+            "VMware Research, Palo Alto, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Igor Smolyar",
@@ -1229,7 +1232,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Google, USA",
+        "VMware Research, Palo Alto, CA, USA"
+      ]
     },
     {
       "title": "P3: Distributed Deep Graph Learning at Scale",
@@ -1292,11 +1298,13 @@
       "authors_structured": [
         {
           "name": "Haojie Wang 0004",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Stanford University, Stanford, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jidong Zhai",
@@ -1371,7 +1379,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Stanford University, Stanford, CA, USA"
+      ]
     },
     {
       "title": "Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning",
@@ -1564,11 +1574,15 @@
       "authors_structured": [
         {
           "name": "Tao Luo",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Qualcomm",
+            "Texas Instruments, Wireless Design Center, San Diego, USA",
+            "University of Toronto, Canada"
+          ],
+          "country_code": "CA",
+          "country_label": "Canada",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Mingen Pan",
@@ -1611,7 +1625,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Qualcomm",
+        "Texas Instruments, Wireless Design Center, San Diego, USA",
+        "University of Toronto, Canada"
+      ]
     },
     {
       "title": "Rearchitecting Linux Storage Stack for &micro;s Latency and High Throughput",
@@ -1740,11 +1758,15 @@
       "authors_structured": [
         {
           "name": "Jiang Zhang 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Meta Platforms, Inc., Menlo Park, CA, USA",
+            "University of Southern California, Los Angeles, CA, USA",
+            "Beijing Institute of Technology, School of Automation, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Shuai Wang 0011",
@@ -1779,7 +1801,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Meta Platforms, Inc., Menlo Park, CA, USA",
+        "University of Southern California, Los Angeles, CA, USA",
+        "Beijing Institute of Technology, School of Automation, Beijing, China"
+      ]
     },
     {
       "title": "Scalable Memory Protection in the PENGLAI Enclave",

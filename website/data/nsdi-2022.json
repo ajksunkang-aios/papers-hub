@@ -1019,11 +1019,14 @@
       "authors_structured": [
         {
           "name": "Yifan Li",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Universit&eacute; Paris 6, LIP6, CEDRIC Lab, France",
+            "Pierre and Marie Curie University, Paris, France"
+          ],
+          "country_code": "FR",
+          "country_label": "France",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Jiaqi Gao",
@@ -1066,7 +1069,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Universit&eacute; Paris 6, LIP6, CEDRIC Lab, France",
+        "Pierre and Marie Curie University, Paris, France"
+      ]
     },
     {
       "title": "Characterizing Physical-Layer Transmission Errors in Cable Broadband Networks",
@@ -1942,11 +1948,18 @@
       "authors_structured": [
         {
           "name": "Peng Zhang 0011",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Guangzhou University, Cyberspace Institute of Advanced Technology, China",
+            "University of Technology Sydney, Research Center on Quantum Computation and Intelligent Systems, Sydney, Australia",
+            "Chinese Academy of Sciences, Institute of Information Engineering, Beijing, China",
+            "Chinese Academy of Sciences, Institute of Computing Technology, Beijing, China",
+            "Chinese Academy of Sciences, Research Center on Fictitious Economy & Data Science, Beijing, China",
+            "Graduate University of Chinese Academy of Sciences, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Aaron Gember-Jacobson",
@@ -1989,7 +2002,14 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Guangzhou University, Cyberspace Institute of Advanced Technology, China",
+        "University of Technology Sydney, Research Center on Quantum Computation and Intelligent Systems, Sydney, Australia",
+        "Chinese Academy of Sciences, Institute of Information Engineering, Beijing, China",
+        "Chinese Academy of Sciences, Institute of Computing Technology, Beijing, China",
+        "Chinese Academy of Sciences, Research Center on Fictitious Economy & Data Science, Beijing, China",
+        "Graduate University of Chinese Academy of Sciences, Beijing, China"
+      ]
     },
     {
       "title": "DispersedLedger: High-Throughput Byzantine Consensus on Variable Bandwidth Networks",
@@ -2012,11 +2032,16 @@
       "authors_structured": [
         {
           "name": "Lei Yang 0031",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "George Mason University, Department of Information Sciences and Technology, USA",
+            "University of Notre Dame, Department of Computer Science and Engineering, IN, USA",
+            "University of Pittsburgh, Department of Electrical and Computer Engineering, PA, USA",
+            "Chongqing University, College of Computer Science, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Seo Jin Park",
@@ -2051,7 +2076,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "George Mason University, Department of Information Sciences and Technology, USA",
+        "University of Notre Dame, Department of Computer Science and Engineering, IN, USA",
+        "University of Pittsburgh, Department of Electrical and Computer Engineering, PA, USA",
+        "Chongqing University, College of Computer Science, China"
+      ]
     },
     {
       "title": "Donar: Anonymous VoIP over Tor",
@@ -2073,7 +2103,9 @@
       "authors_structured": [
         {
           "name": "Y&eacute;rom-David Bromberg",
-          "affiliations": [],
+          "affiliations": [
+            "University of Rennes 1/ESIR"
+          ],
           "country_code": "XX",
           "country_label": "Unknown",
           "source": "unknown",
@@ -2104,7 +2136,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Rennes 1/ESIR"
+      ]
     },
     {
       "title": "Dynamic Scheduling of Approximate Telemetry Queries",
@@ -3945,11 +3979,14 @@
       "authors_structured": [
         {
           "name": "Khaled Diab 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Hewlett Packard Labs, Burnaby, Canada",
+            "Simon Fraser University, Burnaby, Canada"
+          ],
+          "country_code": "CA",
+          "country_label": "Canada",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Parham Yassini",
@@ -3968,7 +4005,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Hewlett Packard Labs, Burnaby, Canada",
+        "Simon Fraser University, Burnaby, Canada"
+      ]
     },
     {
       "title": "Packet Order Matters! Improving Application Performance by Deliberately Delaying Packets",
@@ -4229,11 +4269,13 @@
       "authors_structured": [
         {
           "name": "Junbo Zhang 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Carnegie Mellon University, Pittsburgh, PA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Elahe Soltanaghai",
@@ -4276,7 +4318,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Carnegie Mellon University, Pittsburgh, PA, USA"
+      ]
     },
     {
       "title": "PowerTCP: Pushing the Performance Limits of Datacenter Networks",
@@ -5549,11 +5593,14 @@
       "authors_structured": [
         {
           "name": "Tusher Chakraborty",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Microsoft Research, USA",
+            "Bangladesh University of Engineering and Technology, Dhaka, Bangladesh"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Heping Shi",
@@ -5644,7 +5691,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Microsoft Research, USA",
+        "Bangladesh University of Engineering and Technology, Dhaka, Bangladesh"
+      ]
     },
     {
       "title": "Yeti: Stateless and Generalized Multicast Forwarding",
@@ -5765,11 +5815,13 @@
       "authors_structured": [
         {
           "name": "Qianyu Zhang 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Hangzhou Dianzi University, Hangzhou, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Gongming Zhao",
@@ -5836,7 +5888,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Hangzhou Dianzi University, Hangzhou, China"
+      ]
     }
   ]
 }

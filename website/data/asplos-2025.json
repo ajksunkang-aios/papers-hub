@@ -3141,11 +3141,14 @@
       "authors_structured": [
         {
           "name": "Pu (Luke) Yi 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Peking University, Beijing, China",
+            "Stanford University, CA, USA"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Yifan Yang",
@@ -3172,7 +3175,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Peking University, Beijing, China",
+        "Stanford University, CA, USA"
+      ]
     },
     {
       "title": "Earth+: On-Board Satellite Imagery Compression Leveraging Historical Earth Observations",
@@ -3338,11 +3344,14 @@
       "authors_structured": [
         {
           "name": "Alexander Breuer",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Jena, Germany",
+            "University of California, San Diego, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Mark Blacher",
@@ -3393,7 +3402,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Jena, Germany",
+        "University of California, San Diego, USA"
+      ]
     },
     {
       "title": "ElasticMiter: Formally Verified Dataflow Circuit Rewrites",
@@ -3553,11 +3565,15 @@
       "authors_structured": [
         {
           "name": "Jiawei Wang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Hunan University, China",
+            "CVTE Research, China",
+            "Guangdong University of Technology, School of Automation,, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Nian Liu",
@@ -3624,7 +3640,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Hunan University, China",
+        "CVTE Research, China",
+        "Guangdong University of Technology, School of Automation,, China"
+      ]
     },
     {
       "title": "Energy-aware Scheduling and Input Buffer Overflow Prevention for Energy-harvesting Systems",
@@ -6723,11 +6743,15 @@
       "authors_structured": [
         {
           "name": "Yue Wu",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Southern California, Information Science Institute, Marina del Rey, CA, USA",
+            "Raytheon BBN Technologies, Speech, Language, and Multimedia Business Unit, Cambridge, MA, USA",
+            "Tufts University, Department of Electrical and Computer Engineering, Medford, MA, USA"
+          ],
+          "country_code": "GB",
+          "country_label": "United Kingdom",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Namitha Liyanage",
@@ -6746,7 +6770,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Southern California, Information Science Institute, Marina del Rey, CA, USA",
+        "Raytheon BBN Technologies, Speech, Language, and Multimedia Business Unit, Cambridge, MA, USA",
+        "Tufts University, Department of Electrical and Computer Engineering, Medford, MA, USA"
+      ]
     },
     {
       "title": "Mint: Cost-Efficient Tracing with All Requests Collection via Commonality and Variability Analysis",
@@ -6868,11 +6896,13 @@
       "authors_structured": [
         {
           "name": "Moinuddin Qureshi",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Georgia Institute of Technology, Atlanta GA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Salman Qazi",
@@ -6883,7 +6913,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Georgia Institute of Technology, Atlanta GA, USA"
+      ]
     },
     {
       "title": "MoC-System: Efficient Fault Tolerance for Sparse Mixture-of-Experts Model Training",
@@ -10186,11 +10218,16 @@
       "authors_structured": [
         {
           "name": "Stephen M. Blackburn",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Google Research, Sydney, NSW, Australia",
+            "Australian National University, Department of Computer Science, Canberra, ACT, Australia",
+            "Intel Corp, Hillsboro, OR, USA",
+            "University of Massachusetts Amherst, MA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Zixian Cai",
@@ -10233,7 +10270,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Google Research, Sydney, NSW, Australia",
+        "Australian National University, Department of Computer Science, Canberra, ACT, Australia",
+        "Intel Corp, Hillsboro, OR, USA",
+        "University of Massachusetts Amherst, MA, USA"
+      ]
     },
     {
       "title": "Robustness Verification for Checking Crash Consistency of Non-volatile Memory",
@@ -10566,11 +10608,14 @@
       "authors_structured": [
         {
           "name": "Huan Zhao",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Facebook, New York, NY, USA",
+            "Vanderbilt University, Department of Electrical Engineering and Computer Science, Robotics and Autonomous Systems Laboratory, Nashville, TN, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Dylan Wolff",
@@ -10597,7 +10642,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Facebook, New York, NY, USA",
+        "Vanderbilt University, Department of Electrical Engineering and Computer Science, Robotics and Autonomous Systems Laboratory, Nashville, TN, USA"
+      ]
     },
     {
       "title": "ShadowLoad: Injecting State into Hardware Prefetchers",
@@ -11316,11 +11364,13 @@
       "authors_structured": [
         {
           "name": "Tong Xing 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "China Academy of Railway Sciences Corporation Ltd., Standards and Metrology Research Institute, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Cong Xiong",
@@ -11371,7 +11421,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "China Academy of Railway Sciences Corporation Ltd., Standards and Metrology Research Institute, Beijing, China"
+      ]
     },
     {
       "title": "StreamGrid: Streaming Point Cloud Analytics via Compulsory Splitting and Deterministic Termination",
@@ -11789,11 +11841,16 @@
       "authors_structured": [
         {
           "name": "Lei Cui 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Zhongguancun Lab, Beijing, China",
+            "Chinese Academy of Sciences, Institute of Information Engineering, Beijing, China",
+            "George Washington University, Graph Computing Lab, Washington, DC, USA",
+            "Beihang University, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Youquan Xian",
@@ -11820,7 +11877,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Zhongguancun Lab, Beijing, China",
+        "Chinese Academy of Sciences, Institute of Information Engineering, Beijing, China",
+        "George Washington University, Graph Computing Lab, Washington, DC, USA",
+        "Beihang University, Beijing, China"
+      ]
     },
     {
       "title": "Tally: Non-Intrusive Performance Isolation for Concurrent Deep Learning Workloads",
@@ -11841,11 +11903,16 @@
       "authors_structured": [
         {
           "name": "Wei Zhao 0046",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, China",
+            "American University of Sharjah, United Arab Emirates",
+            "University of Macau, China",
+            "Texas A&M University, College Station, Texas, USA"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Anand Jayarajan",
@@ -11864,7 +11931,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Chinese Academy of Sciences, Shenzhen Institutes of Advanced Technology, China",
+        "American University of Sharjah, United Arab Emirates",
+        "University of Macau, China",
+        "Texas A&M University, College Station, Texas, USA"
+      ]
     },
     {
       "title": "TaOPT: Tool-Agnostic Optimization of Parallelized Automated Mobile UI Testing",
@@ -12233,11 +12305,14 @@
       "authors_structured": [
         {
           "name": "Jin Zhao 0003",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Fudan University, School of Computer Science, Shanghai, China",
+            "Nanjing University, Department of Computer Science and Technology, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Qian Wang 0002",
@@ -12336,7 +12411,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Fudan University, School of Computer Science, Shanghai, China",
+        "Nanjing University, Department of Computer Science and Technology, China"
+      ]
     },
     {
       "title": "The ASPLOS 2025 / EuroSys 2025 Contest on Intra-Operator Parallelism for Distributed Deep Learning",
@@ -13563,14 +13641,18 @@
       "authors_structured": [
         {
           "name": "Gernot Heiser",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of New South Wales, Sydney, Australia"
+          ],
+          "country_code": "AU",
+          "country_label": "Australia",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of New South Wales, Sydney, Australia"
+      ]
     },
     {
       "title": "ZRAID: Leveraging Zone Random Write Area (ZRWA) for Alleviating Partial Parity Tax in ZNS RAID",

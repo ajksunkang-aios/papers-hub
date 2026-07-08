@@ -62,11 +62,13 @@
       "authors_structured": [
         {
           "name": "Kaicheng Yang 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "ChangChun University of Science and Technology, Changchun, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Yuanpeng Li 0002",
@@ -213,7 +215,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "ChangChun University of Science and Technology, Changchun, China"
+      ]
     },
     {
       "title": "Accelerating Distributed MoE Training and Inference with Lina",
@@ -310,11 +314,14 @@
       "authors_structured": [
         {
           "name": "Rong Gu 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "M&auml;lardalen University, V&auml;ster&aring;s, Sweden",
+            "KTH, Mechatronics, Sweden"
+          ],
+          "country_code": "SE",
+          "country_label": "Sweden",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Simian Li",
@@ -413,7 +420,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "M&auml;lardalen University, V&auml;ster&aring;s, Sweden",
+        "KTH, Mechatronics, Sweden"
+      ]
     },
     {
       "title": "APRON: Authenticated and Progressive System Image Renovation",
@@ -432,14 +442,22 @@
       "authors_structured": [
         {
           "name": "Sangho Lee 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Microsoft Research, Redmond, WA, USA",
+            "Georgia Institute of Technology, USA",
+            "POSTECH Pohang, Korea"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Microsoft Research, Redmond, WA, USA",
+        "Georgia Institute of Technology, USA",
+        "POSTECH Pohang, Korea"
+      ]
     },
     {
       "title": "Arbitor: A Numerically Accurate Hardware Emulation Tool for DNN Accelerators",
@@ -3093,11 +3111,14 @@
       "authors_structured": [
         {
           "name": "Bo Peng 0043",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Shanghai Artificial Intelligence Laboratory, Shanghai, China",
+            "Shanghai Jiao Tong University, Shanghai, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Cheng Guo",
@@ -3124,7 +3145,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Shanghai Artificial Intelligence Laboratory, Shanghai, China",
+        "Shanghai Jiao Tong University, Shanghai, China"
+      ]
     },
     {
       "title": "Luci: Loader-based Dynamic Software Updates for Off-the-shelf Shared Objects",
@@ -3603,11 +3627,13 @@
       "authors_structured": [
         {
           "name": "Shao-Peng Yang 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Beihang University, School of Transportation Science and Engineering, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Minjae Kim 0015",
@@ -3674,7 +3700,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Beihang University, School of Transportation Science and Engineering, Beijing, China"
+      ]
     },
     {
       "title": "P2CACHE: Exploring Tiered Memory for In-Kernel File Systems Caching",
@@ -4022,11 +4050,15 @@
       "authors_structured": [
         {
           "name": "Haoyu Li",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Harbin Institute of Technology, School of Electrical Engineering and Automation, China",
+            "Rensselaer Polytechnic Institute, New York State Center for Future Energy Systems, Troy, NY, USA",
+            "Harbin Institute of Technology, Control Science and Engineering, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Sheng Jiang",
@@ -4077,7 +4109,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Harbin Institute of Technology, School of Electrical Engineering and Automation, China",
+        "Rensselaer Polytechnic Institute, New York State Center for Future Energy Systems, Troy, NY, USA",
+        "Harbin Institute of Technology, Control Science and Engineering, China"
+      ]
     },
     {
       "title": "SAGE: Software-based Attestation for GPU Execution",
@@ -4422,11 +4458,13 @@
       "authors_structured": [
         {
           "name": "Yutong Wu 0013",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "City University of Hong Kong, Department of Mathematics, Hong Kong"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Zhan Shi 0001",
@@ -4477,7 +4515,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "City University of Hong Kong, Department of Mathematics, Hong Kong"
+      ]
     },
     {
       "title": "Sponge: Fast Reactive Scaling for Stream Processing with Serverless Frameworks",
@@ -4879,14 +4919,18 @@
       "authors_structured": [
         {
           "name": "Yanyan Jiang 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Dalian Maritime University, Maritime Economics and Management College, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Dalian Maritime University, Maritime Economics and Management College, China"
+      ]
     },
     {
       "title": "TiDedup: A New Distributed Deduplication Architecture for Ceph",

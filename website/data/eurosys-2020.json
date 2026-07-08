@@ -49,11 +49,13 @@
       "authors_structured": [
         {
           "name": "Vikram Sreekanti",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of California, Berkeley, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Chenggang Wu 0001",
@@ -96,7 +98,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of California, Berkeley, CA, USA"
+      ]
     },
     {
       "title": "A Linux in unikernel clothing",
@@ -1001,11 +1005,15 @@
       "authors_structured": [
         {
           "name": "Jingwei Li 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Electronic Science and Technology of China, Center for Cyber Security, Sichuan, China",
+            "Chinese University of Hong Kong, Department of Computer Science and Engineering, Hong Kong",
+            "Nankai University, College of Computer and Control Engineering, China"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Zuoru Yang",
@@ -1040,7 +1048,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Electronic Science and Technology of China, Center for Cyber Security, Sichuan, China",
+        "Chinese University of Hong Kong, Department of Computer Science and Engineering, Hong Kong",
+        "Nankai University, College of Computer and Control Engineering, China"
+      ]
     },
     {
       "title": "BinRec: dynamic binary lifting and recompilation",
@@ -1701,14 +1713,20 @@
       "authors_structured": [
         {
           "name": "Jan Nordholz",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "TU Berlin, Institute of Software Engineering and Theoretical Computer Science, Germany",
+            "Physikalisch-Technische Bundesanstalt (PTB), Berlin, Germany"
+          ],
+          "country_code": "DE",
+          "country_label": "Germany",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "TU Berlin, Institute of Software Engineering and Theoretical Computer Science, Germany",
+        "Physikalisch-Technische Bundesanstalt (PTB), Berlin, Germany"
+      ]
     },
     {
       "title": "Don't shoot down TLB shootdowns!",
@@ -2130,11 +2148,13 @@
       "authors_structured": [
         {
           "name": "Marios Kogias",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Imperial College London, UK"
+          ],
+          "country_code": "GB",
+          "country_label": "United Kingdom",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Edouard Bugnion",
@@ -2145,7 +2165,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Imperial College London, UK"
+      ]
     },
     {
       "title": "Improving resource utilization by timely fine-grained scheduling",
@@ -3124,7 +3146,9 @@
       "authors_structured": [
         {
           "name": "Jack Waudby",
-          "affiliations": [],
+          "affiliations": [
+            "Newcastle University, UK"
+          ],
           "country_code": "XX",
           "country_label": "Unknown",
           "source": "unknown",
@@ -3155,7 +3179,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Newcastle University, UK"
+      ]
     },
     {
       "title": "Privacy-preserving activity and health monitoring on databox",
@@ -3559,11 +3585,13 @@
       "authors_structured": [
         {
           "name": "Alex Kogan",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Oracle Labs, Austin, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Dave Dice",
@@ -3582,7 +3610,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Oracle Labs, Austin, USA"
+      ]
     },
     {
       "title": "SEUSS: skip redundant paths to make serverless fast",

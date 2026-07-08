@@ -713,11 +713,18 @@
       "authors_structured": [
         {
           "name": "Xin He",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Shantou University, College of Electronics and Information Engineering, China",
+            "Hanshan Normal University, Chaozhou, China",
+            "Shenzhen University, China",
+            "Southern University of Science and Technology, Shenzhen, China",
+            "Nanyang Technological University, Department of EEE, Singapore",
+            "University of Hong Kong, Hong Kong"
+          ],
+          "country_code": "SG",
+          "country_label": "Singapore",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jianhua Sun 0002",
@@ -744,7 +751,14 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Shantou University, College of Electronics and Information Engineering, China",
+        "Hanshan Normal University, Chaozhou, China",
+        "Shenzhen University, China",
+        "Southern University of Science and Technology, Shenzhen, China",
+        "Nanyang Technological University, Department of EEE, Singapore",
+        "University of Hong Kong, Hong Kong"
+      ]
     },
     {
       "title": "CBMM: Financial Advice for Kernel Memory Managers",
@@ -1258,11 +1272,13 @@
       "authors_structured": [
         {
           "name": "Jinyu Gu 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "North University of China, Taiyuan, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Hao Li",
@@ -1297,7 +1313,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "North University of China, Taiyuan, China"
+      ]
     },
     {
       "title": "Eric Brewer, VP Infrastructure, Google Fellow and Professor Emeritus, UC Berkeley",
@@ -1316,14 +1334,18 @@
       "authors_structured": [
         {
           "name": "Eric A. Brewer",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of California, Berkeley, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of California, Berkeley, USA"
+      ]
     },
     {
       "title": "Faith: An Efficient Framework for Transformer Verification on GPUs",
@@ -2227,11 +2249,13 @@
       "authors_structured": [
         {
           "name": "Alexey Khrabrov 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Toronto, ON, Canada"
+          ],
+          "country_code": "CA",
+          "country_label": "Canada",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Marius Pirvu",
@@ -2258,7 +2282,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Toronto, ON, Canada"
+      ]
     },
     {
       "title": "KRCORE: A Microsecond-scale RDMA Control Plane for Elastic Computing",
@@ -2392,14 +2418,18 @@
       "authors_structured": [
         {
           "name": "Margaret Martonosi",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Princeton University, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Princeton University, USA"
+      ]
     },
     {
       "title": "Meces: Latency-efficient Rescaling via Prioritized State Migration for Stateful Distributed Stream Processing Systems",
@@ -3482,11 +3512,15 @@
       "authors_structured": [
         {
           "name": "Taeyoon Kim",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Dankook University, Mobile system engineering, Korea",
+            "Soonchunhyang University, School of Smart-car, Korea",
+            "Korea University, Department of Electronic Engineering, Seoul, Korea"
+          ],
+          "country_code": "KR",
+          "country_label": "South Korea",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Suyeon Jeong",
@@ -3521,7 +3555,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Dankook University, Mobile system engineering, Korea",
+        "Soonchunhyang University, School of Smart-car, Korea",
+        "Korea University, Department of Electronic Engineering, Seoul, Korea"
+      ]
     },
     {
       "title": "Sift: Using Refinement-guided Automation to Verify Complex Distributed Systems",
@@ -3629,11 +3667,16 @@
       "authors_structured": [
         {
           "name": "Zhi Zhang 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Western Australia, Perth, WA, Australia",
+            "Data61, CSIRO, Australia",
+            "University of New South Wales, NSW, Australia",
+            "Peking University, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Yueqiang Cheng",
@@ -3708,7 +3751,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Western Australia, Perth, WA, Australia",
+        "Data61, CSIRO, Australia",
+        "University of New South Wales, NSW, Australia",
+        "Peking University, Beijing, China"
+      ]
     },
     {
       "title": "SOTER: Guarding Black-box Inference for General Neural Networks at the Edge",
@@ -4015,11 +4063,16 @@
       "authors_structured": [
         {
           "name": "Jie Li",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Huawei Technologies, Hong Kong",
+            "Aalto University, Espoo, Finnland",
+            "Hubei University, Faculty of Mathematics and Statistics, Hubei Key Laboratory of Applied Mathematics, Wuhan, China",
+            "Southwest Jiaotong University, Information Security and National Computing Grid Laboratory, Chengdu, China"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Laiping Zhao",
@@ -4054,7 +4107,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Huawei Technologies, Hong Kong",
+        "Aalto University, Espoo, Finnland",
+        "Hubei University, Faculty of Mathematics and Statistics, Hubei Key Laboratory of Applied Mathematics, Wuhan, China",
+        "Southwest Jiaotong University, Information Security and National Computing Grid Laboratory, Chengdu, China"
+      ]
     },
     {
       "title": "Towards Latency Awareness for Content Delivery Network Caching",
@@ -4074,11 +4132,15 @@
       "authors_structured": [
         {
           "name": "Gang Yan 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Jilin University, Changchun, China",
+            "University of California Merced, CA, USA",
+            "Binghamton University, NY, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jian Li 0008",
@@ -4089,7 +4151,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Jilin University, Changchun, China",
+        "University of California Merced, CA, USA",
+        "Binghamton University, NY, USA"
+      ]
     },
     {
       "title": "uKharon: A Membership Service for Microsecond Applications",
@@ -4113,11 +4179,13 @@
       "authors_structured": [
         {
           "name": "Rachid Guerraoui",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Swiss Federal Institute of Technology in Lausanne, Switzerland"
+          ],
+          "country_code": "CH",
+          "country_label": "Switzerland",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Antoine Murat",
@@ -4160,7 +4228,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Swiss Federal Institute of Technology in Lausanne, Switzerland"
+      ]
     },
     {
       "title": "Vigil-KV: Hardware-Software Co-Design to Integrate Strong Latency Determinism into Log-Structured Merge Key-Value Stores",

@@ -733,11 +733,14 @@
       "authors_structured": [
         {
           "name": "Siyuan Chai 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Illinois Urbana-Champaign, Department of Computer Science, Urbana-Champaign, IL, USA",
+            "Northwestern University, Evanston, IL USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Jiyuan Zhang 0003",
@@ -812,7 +815,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Illinois Urbana-Champaign, Department of Computer Science, Urbana-Champaign, IL, USA",
+        "Northwestern University, Evanston, IL USA"
+      ]
     },
     {
       "title": "Enabling Efficient GPU Communication over Multiple NICs with FuseLink",
@@ -2520,11 +2526,17 @@
       "authors_structured": [
         {
           "name": "Yu Cheng",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Chinese University of Hong Kong, Department of Computer Science and Engineering, Shatin, Hong Kong",
+            "Rice University, Houston, TX, USA",
+            "Microsoft Research, Redmond, WA, USA",
+            "IBM T. J. Watson Center, Yorktown Heights, NY, USA",
+            "Northwestern University, Evanston, IL, USA"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Lei Wang 0222",
@@ -2615,7 +2627,13 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Chinese University of Hong Kong, Department of Computer Science and Engineering, Shatin, Hong Kong",
+        "Rice University, Houston, TX, USA",
+        "Microsoft Research, Redmond, WA, USA",
+        "IBM T. J. Watson Center, Yorktown Heights, NY, USA",
+        "Northwestern University, Evanston, IL, USA"
+      ]
     },
     {
       "title": "PoWER Never Corrupts: Tool-Agnostic Verification of Crash Consistency and Corruption Detection",
@@ -3047,11 +3065,14 @@
       "authors_structured": [
         {
           "name": "Runzhou Tao 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Maryland, Department of Computer Science, Joint Center for Quantum Information and Computer Science, College Park, MD, USA",
+            "Columbia University, New York, NY, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Hongzheng Zhu",
@@ -3086,7 +3107,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Maryland, Department of Computer Science, Joint Center for Quantum Information and Computer Science, College Park, MD, USA",
+        "Columbia University, New York, NY, USA"
+      ]
     },
     {
       "title": "S&ouml;ze: One Network Telemetry Is All You Need for Per-flow Weighted Bandwidth Allocation at Scale",
@@ -3567,11 +3591,15 @@
       "authors_structured": [
         {
           "name": "Yun Wang 0039",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Bradley University, Peoria, IL, USA",
+            "Southern Illinois University, Edwardsville, IL, USA",
+            "University of Cincinnati, OH, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Liang Chen",
@@ -3694,7 +3722,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Bradley University, Peoria, IL, USA",
+        "Southern Illinois University, Edwardsville, IL, USA",
+        "University of Cincinnati, OH, USA"
+      ]
     },
     {
       "title": "Training with Confidence: Catching Silent Errors in Deep Learning Training with Automated Proactive Checks",

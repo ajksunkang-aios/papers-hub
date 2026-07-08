@@ -111,11 +111,13 @@
       "authors_structured": [
         {
           "name": "Andrew Meneely",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Rochester Institute of Technology, Rochester, NY, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Aiden Green",
@@ -150,7 +152,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Rochester Institute of Technology, Rochester, NY, USA"
+      ]
     },
     {
       "title": "$\\mu \\text{PRL}$: A Mutation Testing Pipeline for Deep Reinforcement Learning Based on Real Faults",
@@ -395,11 +399,14 @@
       "authors_structured": [
         {
           "name": "Sarah Fakhoury",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Microsoft Research, Redmond, WA, USA",
+            "Washington State University, Pullman, WA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Markus Kuppe 0001",
@@ -434,7 +441,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Microsoft Research, Redmond, WA, USA",
+        "Washington State University, Pullman, WA, USA"
+      ]
     },
     {
       "title": "A BizDevOps-Aligned Framework for Integrating Security Practices in Agile Software Development",
@@ -4752,7 +4762,12 @@
       "authors_structured": [
         {
           "name": "Wen Zhang",
-          "affiliations": [],
+          "affiliations": [
+            "University of Bristol, UK",
+            "University of Essex, UK",
+            "London School of Economics and Political Science, UK",
+            "University of Warwick, Coventry, UK"
+          ],
           "country_code": "XX",
           "country_label": "Unknown",
           "source": "unknown",
@@ -4791,7 +4806,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Bristol, UK",
+        "University of Essex, UK",
+        "London School of Economics and Political Science, UK",
+        "University of Warwick, Coventry, UK"
+      ]
     },
     {
       "title": "Build and Runtime Integrity for Java",
@@ -4810,14 +4830,18 @@
       "authors_structured": [
         {
           "name": "Aman Sharma 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "KTH Royal Institute of Technology, Stockholm, Sweden"
+          ],
+          "country_code": "SE",
+          "country_label": "Sweden",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "KTH Royal Institute of Technology, Stockholm, Sweden"
+      ]
     },
     {
       "title": "Building BRIDGES across Papua New Guinea's Digital Divide in Growing the ICT Industry",
@@ -6705,11 +6729,16 @@
       "authors_structured": [
         {
           "name": "Xu Chen",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Sun Yat-sen University, School of Data and Computer Science, Guangzhou, China",
+            "University of G&ouml;ttingen, Germany",
+            "Arizona State University, School of Electrical, Computer and Energy Engineering, Tempe, AZ, USA",
+            "The Chinese University of Hong Kong, Hong Kong"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Ningning Cui",
@@ -6752,7 +6781,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Sun Yat-sen University, School of Data and Computer Science, Guangzhou, China",
+        "University of G&ouml;ttingen, Germany",
+        "Arizona State University, School of Electrical, Computer and Energy Engineering, Tempe, AZ, USA",
+        "The Chinese University of Hong Kong, Hong Kong"
+      ]
     },
     {
       "title": "Curating Model Problems for Software Designing",
@@ -7883,11 +7917,16 @@
       "authors_structured": [
         {
           "name": "Zhenpeng Chen 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Tsinghua University, School of Software, Beijing, China",
+            "Nanyang Technological University, Singapore",
+            "University College London, Department of Computer Science, London, UK",
+            "Peking University, Beijing, China"
+          ],
+          "country_code": "GB",
+          "country_label": "United Kingdom",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Xinyue Li",
@@ -7922,7 +7961,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Tsinghua University, School of Software, Beijing, China",
+        "Nanyang Technological University, Singapore",
+        "University College London, Department of Computer Science, London, UK",
+        "Peking University, Beijing, China"
+      ]
     },
     {
       "title": "Do Developers Adopt Green Architectural Tactics for ML-Enabled Systems? A Mining Software Repository Study",
@@ -8678,11 +8722,15 @@
       "authors_structured": [
         {
           "name": "Hao Song",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Computer Modeling Group Ltd., Calgary, AB, Canada",
+            "University of Western Ontario, Department of Mechanical and Materials Engineering, London, Ontario, Canada",
+            "Virtualwind Inc., Calgary, AB, Canada"
+          ],
+          "country_code": "CA",
+          "country_label": "Canada",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Teng Li",
@@ -8749,7 +8797,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Computer Modeling Group Ltd., Calgary, AB, Canada",
+        "University of Western Ontario, Department of Mechanical and Materials Engineering, London, Ontario, Canada",
+        "Virtualwind Inc., Calgary, AB, Canada"
+      ]
     },
     {
       "title": "Enhancing Women's Experiences in Software Engineering",
@@ -9504,11 +9556,15 @@
       "authors_structured": [
         {
           "name": "Yi Sun 0004",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Shanghai University, School of Mechatronic Engineering and Automation, China",
+            "Ritsumeikan University, Department of Robotics, Kyoto, Japan",
+            "Huazhong University of Science and Technology, School of Mechanical Science and Engineering, Wuhan, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Zhuo Zhang 0002",
@@ -9527,7 +9583,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Shanghai University, School of Mechatronic Engineering and Automation, China",
+        "Ritsumeikan University, Department of Robotics, Kyoto, Japan",
+        "Huazhong University of Science and Technology, School of Mechanical Science and Engineering, Wuhan, China"
+      ]
     },
     {
       "title": "FairLay-ML: Intuitive Debugging of Fairness in Data-Driven Social-Critical Software",
@@ -11218,11 +11278,14 @@
       "authors_structured": [
         {
           "name": "Gong Chen 0007",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Chengdu University of Information Technology, College of Communication Engineering, Chengdu, China",
+            "University of Kitakyushu, Kitakyushu, Japan"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Xiaoyuan Xie",
@@ -11257,7 +11320,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Chengdu University of Information Technology, College of Communication Engineering, Chengdu, China",
+        "University of Kitakyushu, Kitakyushu, Japan"
+      ]
     },
     {
       "title": "Heros in Action: Analyzing Objective-C Binaries through Decompilation and IFDS",
@@ -12663,11 +12729,15 @@
       "authors_structured": [
         {
           "name": "Chenxi Zhang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Xidian University, China",
+            "Fudan University, School of Computer Science, Shanghai Key Laboratory of Data Science, Shanghai, China",
+            "Xi'an Jiaotong University, Department of Information and Communications Engineering, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Yufei Liang",
@@ -12718,7 +12788,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Xidian University, China",
+        "Fudan University, School of Computer Science, Shanghai Key Laboratory of Data Science, Shanghai, China",
+        "Xi'an Jiaotong University, Department of Information and Communications Engineering, China"
+      ]
     },
     {
       "title": "INTERTRANS: Leveraging Transitive Intermediate Translations to Enhance LLM-Based Code Translation",
@@ -15506,11 +15580,13 @@
       "authors_structured": [
         {
           "name": "Sonja M. Hyrynsalmi",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "LUT University, Lahti, Finland"
+          ],
+          "country_code": "FI",
+          "country_label": "Finland",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Grischa Liebel",
@@ -15537,7 +15613,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "LUT University, Lahti, Finland"
+      ]
     },
     {
       "title": "On Prescription or Off Prescription? An Empirical Study of Community-Prescribed Security Configurations for Kubernetes",
@@ -15941,11 +16019,14 @@
       "authors_structured": [
         {
           "name": "Ze Li 0005",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Clemson University, Department of Electrical and Computer Engineering, SC, USA",
+            "University of Arkansas, Department of Computer Science and Computer Engineering, Fayetteville, AR, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Chang Lou",
@@ -15996,7 +16077,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Clemson University, Department of Electrical and Computer Engineering, SC, USA",
+        "University of Arkansas, Department of Computer Science and Computer Engineering, Fayetteville, AR, USA"
+      ]
     },
     {
       "title": "OSS-LCAF: Open-Source Software License Conflict Analysis Framework",
@@ -16756,11 +16840,14 @@
       "authors_structured": [
         {
           "name": "Zhiyong Wu 0010",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Shanghai AI Laboratory",
+            "University of Hong Kong, Department of Computer Science, Hong Kong"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Jie Liang 0006",
@@ -16795,7 +16882,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Shanghai AI Laboratory",
+        "University of Hong Kong, Department of Computer Science, Hong Kong"
+      ]
     },
     {
       "title": "PySymGym: An Infrastructure to Train AI-Powered Navigation Assistant for Symbolic Execution Engine",
@@ -16890,11 +16980,15 @@
       "authors_structured": [
         {
           "name": "Alex Sanchez-Stern",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Massachusetts Amherst, Amherst, MA, USA",
+            "University of California, San Diego, CA, USA",
+            "University of Washington, Seattle, WA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Abhishek Varghese",
@@ -16937,7 +17031,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Massachusetts Amherst, Amherst, MA, USA",
+        "University of California, San Diego, CA, USA",
+        "University of Washington, Seattle, WA, USA"
+      ]
     },
     {
       "title": "Rango: Adaptive Retrieval-Augmented Proving for Automated Software Verification",
@@ -17724,11 +17822,15 @@
       "authors_structured": [
         {
           "name": "Yanlin Wang 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Sun Yat-sen University, School of Software Engineering, Zhuhai, China",
+            "Microsoft Research Asia, Beijing, China",
+            "University of Hong Kong"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Yanli Wang 0001",
@@ -17779,7 +17881,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Sun Yat-sen University, School of Software Engineering, Zhuhai, China",
+        "Microsoft Research Asia, Beijing, China",
+        "University of Hong Kong"
+      ]
     },
     {
       "title": "ROCODE: Integrating Backtracking Mechanism and Program Analysis in Large Language Models for Code Generation",
@@ -18103,11 +18209,14 @@
       "authors_structured": [
         {
           "name": "Yuxin Zhang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Chinese Academy of Sciences, Institute of Automation, State Key Laboratory of Multimodal Artificial Intelligence Systems (MAIS), Beijing, China",
+            "University of Chinese Academy of Sciences, School of Artificial Intelligence, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Sen Chen 0001",
@@ -18142,7 +18251,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Chinese Academy of Sciences, Institute of Automation, State Key Laboratory of Multimodal Artificial Intelligence Systems (MAIS), Beijing, China",
+        "University of Chinese Academy of Sciences, School of Artificial Intelligence, Beijing, China"
+      ]
     },
     {
       "title": "Search-Based LLMs for Code Optimization",
@@ -18766,11 +18878,16 @@
       "authors_structured": [
         {
           "name": "Feng Lin",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Wayne State University, Department of Electrical and Computer Engineering, Detroit, MI, USA",
+            "Tongji University, School of Electronics and Information Engineering, Shanghai, China",
+            "Harvard University, Cambridge, MA, USA",
+            "University of Toronto, ON, Canada"
+          ],
+          "country_code": "GB",
+          "country_label": "United Kingdom",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Dong Jae Kim",
@@ -18789,7 +18906,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Wayne State University, Department of Electrical and Computer Engineering, Detroit, MI, USA",
+        "Tongji University, School of Electronics and Information Engineering, Shanghai, China",
+        "Harvard University, Cambridge, MA, USA",
+        "University of Toronto, ON, Canada"
+      ]
     },
     {
       "title": "Software Engineering Strategies and Innovations to Address Agricultural Challenges in the Global South: A Case Study of Indonesia",
@@ -19731,11 +19853,16 @@
       "authors_structured": [
         {
           "name": "Kai Huang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Sun Yat-sen University, School of Data and Computer Science, Guangzhou, China",
+            "TU Munich, Faculty of Computer Science, Germany",
+            "fortiss GmbH, Munich, Germany",
+            "ETH Zurich, Computer Engineering and Networks Laboratory (TIK), Switzerland"
+          ],
+          "country_code": "CH",
+          "country_label": "Switzerland",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jian Zhang 0087",
@@ -19762,7 +19889,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Sun Yat-sen University, School of Data and Computer Science, Guangzhou, China",
+        "TU Munich, Faculty of Computer Science, Germany",
+        "fortiss GmbH, Munich, Germany",
+        "ETH Zurich, Computer Engineering and Networks Laboratory (TIK), Switzerland"
+      ]
     },
     {
       "title": "Test Intention Guided LLM-Based Unit Test Generation",
@@ -20513,7 +20645,9 @@
       "authors_structured": [
         {
           "name": "Steve Counsell",
-          "affiliations": [],
+          "affiliations": [
+            "Brunel University London, UK"
+          ],
           "country_code": "XX",
           "country_label": "Unknown",
           "source": "unknown",
@@ -20560,7 +20694,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Brunel University London, UK"
+      ]
     },
     {
       "title": "TIGER: A Generating-Then-Ranking Framework for Practical Python Type Inference",
@@ -23478,11 +23614,13 @@
       "authors_structured": [
         {
           "name": "Elisa Yumi Nakagawa",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of S&atilde;o Paulo, Brazil"
+          ],
+          "country_code": "BR",
+          "country_label": "Brazil",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Rick Kazman",
@@ -23493,7 +23631,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of S&atilde;o Paulo, Brazil"
+      ]
     },
     {
       "title": "What is Unethical About Software? User Perceptions in the Netherlands",

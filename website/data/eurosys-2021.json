@@ -767,11 +767,19 @@
       "authors_structured": [
         {
           "name": "Yong Xu 0010",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Xiamen University, School of Film, Department of Digital Media, Xiamen, China",
+            "Fujian University of Technology, Department of Computer Science and Mathematics, Fujian Provincial Key Laboratory of Big Data Mining and Applications, Fuzhou, China",
+            "Fujian Agriculture and Forestry University, Center of Excellence for Research in Optoelectronic Agriculture, Fuzhou, China",
+            "University of Birmingham, School of Medicine and School of Computer Science, Birmingham, UK",
+            "Xiamen University, Xiamen, China",
+            "City University of Hong Kong, Department of Computer Engineering and Information Technology, Hong Kong",
+            "Fujian Normal University, School of Physics and Optoelectronics Technology, Fuzhou, China"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Xu Zhang 0024",
@@ -838,7 +846,15 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Xiamen University, School of Film, Department of Digital Media, Xiamen, China",
+        "Fujian University of Technology, Department of Computer Science and Mathematics, Fujian Provincial Key Laboratory of Big Data Mining and Applications, Fuzhou, China",
+        "Fujian Agriculture and Forestry University, Center of Excellence for Research in Optoelectronic Agriculture, Fuzhou, China",
+        "University of Birmingham, School of Medicine and School of Computer Science, Birmingham, UK",
+        "Xiamen University, Xiamen, China",
+        "City University of Hong Kong, Department of Computer Engineering and Information Technology, Hong Kong",
+        "Fujian Normal University, School of Physics and Optoelectronics Technology, Fuzhou, China"
+      ]
     },
     {
       "title": "ChameleonDB: a key-value store for optane persistent memory",
@@ -860,11 +876,13 @@
       "authors_structured": [
         {
           "name": "Wenhui Zhang 0005",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Stuttgart, Germany"
+          ],
+          "country_code": "DE",
+          "country_label": "Germany",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Xingsheng Zhao",
@@ -891,7 +909,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Stuttgart, Germany"
+      ]
     },
     {
       "title": "Characterizing, exploiting, and detecting DMA code injection vulnerabilities in the presence of an IOMMU",
@@ -1013,11 +1033,14 @@
       "authors_structured": [
         {
           "name": "Guerney D. H. Hunt",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "IBM Thomas J. Watson Research Center, Hawthorne, NY, USA",
+            "Cornell University, Ithaca, NY, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Ramachandra Pai",
@@ -1188,7 +1211,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "IBM Thomas J. Watson Research Center, Hawthorne, NY, USA",
+        "Cornell University, Ithaca, NY, USA"
+      ]
     },
     {
       "title": "Convergent Causal Consistency for Social Media Posts",
@@ -1484,11 +1510,17 @@
       "authors_structured": [
         {
           "name": "Kai Zhu",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Actel Corporation, Mountain View, CA, USA",
+            "Q Design Automation, USA",
+            "Triscend Corp., Mountain View, CA, USA",
+            "Actel Corporation, Sunnyvale, CA, USA",
+            "University of Texas, Austin, Department of Computer Sciences, TX, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Wenyi Zhao",
@@ -1563,7 +1595,13 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Actel Corporation, Mountain View, CA, USA",
+        "Q Design Automation, USA",
+        "Triscend Corp., Mountain View, CA, USA",
+        "Actel Corporation, Sunnyvale, CA, USA",
+        "University of Texas, Austin, Department of Computer Sciences, TX, USA"
+      ]
     },
     {
       "title": "DistIR: An Intermediate Representation for Optimizing Distributed Neural Networks",
@@ -3917,11 +3955,14 @@
       "authors_structured": [
         {
           "name": "Yidi Wu 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Meta, USA",
+            "Chinese University of Hong Kong, Department of Computer Science and Engineering, Hong Kong"
+          ],
+          "country_code": "HK",
+          "country_label": "Hong Kong",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Kaihao Ma",
@@ -3980,7 +4021,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Meta, USA",
+        "Chinese University of Hong Kong, Department of Computer Science and Engineering, Hong Kong"
+      ]
     },
     {
       "title": "Service mesh circuit breaker: From panic button to performance management tool",
@@ -4961,11 +5005,13 @@
       "authors_structured": [
         {
           "name": "Brian Choi",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Yale University, New Haven, CT, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Randal C. Burns",
@@ -4984,7 +5030,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Yale University, New Haven, CT, USA"
+      ]
     },
     {
       "title": "Unikraft: fast, specialized unikernels the easy way",
@@ -5194,11 +5242,14 @@
       "authors_structured": [
         {
           "name": "Daniel Goodman",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "The University of Manchester, UK",
+            "University of Oxford, UK"
+          ],
+          "country_code": "GB",
+          "country_label": "United Kingdom",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Adam Craig Pocock",
@@ -5225,7 +5276,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "The University of Manchester, UK",
+        "University of Oxford, UK"
+      ]
     },
     {
       "title": "Virtual machine preserving host updates for zero day patching in public cloud",

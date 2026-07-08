@@ -136,11 +136,17 @@
       "authors_structured": [
         {
           "name": "Meng Wang 0033",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Hefei University of Technology, China",
+            "National University of Singapore, School of Computing, Singapore",
+            "AKiiRA Media Systems Inc., Palo Alto, Ca, USA",
+            "Microsoft Research Asia, Beijing, China",
+            "University of Science and Technology of China, Hefei, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Swamit Tannu",
@@ -159,7 +165,13 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Hefei University of Technology, China",
+        "National University of Singapore, School of Computing, Singapore",
+        "AKiiRA Media Systems Inc., Palo Alto, Ca, USA",
+        "Microsoft Research Asia, Beijing, China",
+        "University of Science and Technology of China, Hefei, China"
+      ]
     },
     {
       "title": "Adaptive CHERI Compartmentalization for Heterogeneous Accelerators",
@@ -1500,11 +1512,16 @@
       "authors_structured": [
         {
           "name": "Tianbo Liu 0006",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Shandong University, Institute of Frontier and Interdisciplinary Science, Qingdao, China",
+            "Thomas Jefferson National Accelerator Facility, Newport News, VA, US",
+            "Duke University, Department of Physics, Durham, NC, USA",
+            "Peking University, Department of Physics, Beijing, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Xinkai Song",
@@ -1635,7 +1652,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Shandong University, Institute of Frontier and Interdisciplinary Science, Qingdao, China",
+        "Thomas Jefferson National Accelerator Facility, Newport News, VA, US",
+        "Duke University, Department of Physics, Durham, NC, USA",
+        "Peking University, Department of Physics, Beijing, China"
+      ]
     },
     {
       "title": "Caravan: A Hardware/Software Co-Design for Efficient SIMD Neighbor Search on Point Clouds",
@@ -1657,11 +1679,14 @@
       "authors_structured": [
         {
           "name": "Pedro Henrique Exenberger Becker",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Polytechnic University of Catalonia (UPC), Barcelona, Spain",
+            "Federal University of Rio Grande do Sul (UFRGS), Porto Alegre, RS, Brazil"
+          ],
+          "country_code": "BR",
+          "country_label": "Brazil",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Franyell Silfa",
@@ -1688,7 +1713,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Polytechnic University of Catalonia (UPC), Barcelona, Spain",
+        "Federal University of Rio Grande do Sul (UFRGS), Porto Alegre, RS, Brazil"
+      ]
     },
     {
       "title": "Cassandra: Efficient Enforcement of Sequential Execution for Cryptographic Programs",
@@ -3381,11 +3409,13 @@
       "authors_structured": [
         {
           "name": "Haomin Li 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Xi'an Jiaotong University, Xi'an, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Fangxin Liu",
@@ -3444,7 +3474,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Xi'an Jiaotong University, Xi'an, China"
+      ]
     },
     {
       "title": "Finesse: An Agile Design Framework for Pairing-based Cryptography via Software/Hardware Co-Design",
@@ -4930,11 +4962,14 @@
       "authors_structured": [
         {
           "name": "Xintong Li",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of California, San Diego, CA, USA",
+            "University of Wisconsin, Madison, WI, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Zhiyao Li",
@@ -4953,7 +4988,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of California, San Diego, CA, USA",
+        "University of Wisconsin, Madison, WI, USA"
+      ]
     },
     {
       "title": "IDEA-GP: Instruction-Driven Architecture with Efficient Online Workload Allocation for Geometric Perception",
@@ -5556,11 +5594,15 @@
       "authors_structured": [
         {
           "name": "Liang Liu",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Hong Kong Polytechnic University, Department of Electronic and Information Engineering, Hong Kong",
+            "National University of Singapore, Department of Electrical and Computer Engineering, Singapore",
+            "University of Toronto, Department of Electrical and Computer Engineering, Toronto, Canada"
+          ],
+          "country_code": "SG",
+          "country_label": "Singapore",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Sadra Rahimi Kari",
@@ -5603,7 +5645,11 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Hong Kong Polytechnic University, Department of Electronic and Information Engineering, Hong Kong",
+        "National University of Singapore, Department of Electrical and Computer Engineering, Singapore",
+        "University of Toronto, Department of Electrical and Computer Engineering, Toronto, Canada"
+      ]
     },
     {
       "title": "LightNobel: Improving Sequence Length Limitation in Protein Structure Prediction Model via Adaptive Activation Quantization",
@@ -8420,11 +8466,14 @@
       "authors_structured": [
         {
           "name": "Chengyue Wang 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of California, Los Angeles, CA, USA",
+            "Zhejiang University/University of Illinois at Urbana-Champaign Institute, Hangzhou, China"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Xiaofan Zhang 0001",
@@ -8451,7 +8500,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of California, Los Angeles, CA, USA",
+        "Zhejiang University/University of Illinois at Urbana-Champaign Institute, Hangzhou, China"
+      ]
     },
     {
       "title": "Reinforcement Learning-Guided Graph State Generation in Photonic Quantum Computers",
@@ -10754,11 +10806,14 @@
       "authors_structured": [
         {
           "name": "Li Peng",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Jiangnan University, Engineering Research Center of Internet of Things Technology Applications, Wuxi, China",
+            "Taihu University of Wuxi, Jiangsu Key Laboratory of IOT Application Technology, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Wenbo Wu",
@@ -10841,7 +10896,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Jiangnan University, Engineering Research Center of Internet of Things Technology Applications, Wuxi, China",
+        "Taihu University of Wuxi, Jiangsu Key Laboratory of IOT Application Technology, China"
+      ]
     },
     {
       "title": "Zettafly: A Network Topology with Flexible Non-blocking Regions for Large-scale AI and HPC Systems",

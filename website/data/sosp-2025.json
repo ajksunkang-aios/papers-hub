@@ -399,11 +399,13 @@
       "authors_structured": [
         {
           "name": "Zihao Zhang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Emory University, Atlanta, GA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Ti Zhou",
@@ -438,7 +440,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Emory University, Atlanta, GA, USA"
+      ]
     },
     {
       "title": "cache_ext: Customizing the Page Cache with eBPF",
@@ -1077,11 +1081,14 @@
       "authors_structured": [
         {
           "name": "Chenyu Jiang 0002",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "China Electronic Product Reliability and Environmental Test Institute (China CEPREI Laboratory), Guangzhou, China",
+            "South China University of Technology, School of Electric Power Engineering, Guangzhou, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Zhenkun Cai",
@@ -1124,7 +1131,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "China Electronic Product Reliability and Environmental Test Institute (China CEPREI Laboratory), Guangzhou, China",
+        "South China University of Technology, School of Electric Power Engineering, Guangzhou, China"
+      ]
     },
     {
       "title": "Demeter: A Scalable and Elastic Tiered Memory Solution for Virtualized Cloud via Guest Delegation",
@@ -4165,11 +4175,14 @@
       "authors_structured": [
         {
           "name": "Yuxuan Zhang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Zhejiang University, College of Computer, China",
+            "Alibaba-Zhejiang University Joint Institute of Frontier Technologies, Zhejiang, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Sebastian Angel",
@@ -4180,7 +4193,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Zhejiang University, College of Computer, China",
+        "Alibaba-Zhejiang University Joint Institute of Frontier Technologies, Zhejiang, China"
+      ]
     },
     {
       "title": "Rearchitecting the Thread Model of In-Memory Key-Value Stores with μTPS",
@@ -5735,11 +5751,13 @@
       "authors_structured": [
         {
           "name": "Louis-Henri Merino",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "EPFL, Lausanne, Switzerland"
+          ],
+          "country_code": "CH",
+          "country_label": "Switzerland",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Simone Colombo 0002",
@@ -5830,7 +5848,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "EPFL, Lausanne, Switzerland"
+      ]
     },
     {
       "title": "Unlocking True Elasticity for the Cloud-Native Era with Dandelion",

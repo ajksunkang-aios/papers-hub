@@ -43,14 +43,20 @@
       "authors_structured": [
         {
           "name": "Remzi H. Arpaci-Dusseau",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Wisconsin-Madison, Madison, WI, USA",
+            "University of California, Berkeley, CA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Wisconsin-Madison, Madison, WI, USA",
+        "University of California, Berkeley, CA, USA"
+      ]
     },
     {
       "title": "A Log-Structured Merge Tree-aware Message Authentication Scheme for Persistent Key-Value Stores",
@@ -192,11 +198,13 @@
       "authors_structured": [
         {
           "name": "Yu Liang 0004",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Pennsylvania State University, University Park, PA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Riwei Pan",
@@ -263,7 +271,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Pennsylvania State University, University Park, PA, USA"
+      ]
     },
     {
       "title": "Closing the B+-tree vs. LSM-tree Write Amplification Gap on Modern Storage Hardware with Built-in Transparent Compression",
@@ -481,11 +491,14 @@
       "authors_structured": [
         {
           "name": "Jisung Park 0001",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Pohang University of Science and Technology, Department of Computer Science and Engineering, Pohang, South Korea",
+            "ETH Zurich, Switzerland"
+          ],
+          "country_code": "CH",
+          "country_label": "Switzerland",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Jeonggyun Kim",
@@ -520,7 +533,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Pohang University of Science and Technology, Department of Computer Science and Engineering, Pohang, South Korea",
+        "ETH Zurich, Switzerland"
+      ]
     },
     {
       "title": "DEPART: Replica Decoupling for Distributed Key-Value Storage",
@@ -543,11 +559,16 @@
       "authors_structured": [
         {
           "name": "Qiang Zhang",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "University of Alabama, Department of Mechanical Engineering, AL, USA",
+            "North Carolina State University, Joint Department of Biomedical Engineering, Raleigh, NC, USA",
+            "University of North Carolina at Chapel Hill, UNC and NC State Joint Department of Biomedical Engineering, NC, USA",
+            "University of Pittsburgh School of Engineering, Department of Mechanical Engineering and Materials Science, PA, USA"
+          ],
+          "country_code": "US",
+          "country_label": "United States",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Yongkun Li 0001",
@@ -582,7 +603,12 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "University of Alabama, Department of Mechanical Engineering, AL, USA",
+        "North Carolina State University, Joint Department of Biomedical Engineering, Raleigh, NC, USA",
+        "University of North Carolina at Chapel Hill, UNC and NC State Joint Department of Biomedical Engineering, NC, USA",
+        "University of Pittsburgh School of Engineering, Department of Mechanical Engineering and Materials Science, PA, USA"
+      ]
     },
     {
       "title": "DUPEFS: Leaking Data Over the Network With Filesystem Deduplication Side Channels",
@@ -1229,11 +1255,13 @@
       "authors_structured": [
         {
           "name": "Kan Wu",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "China University of Mining and Technology, School of Environment Science and Spatial Informatics, Xuzhou, China"
+          ],
+          "country_code": "CN",
+          "country_label": "China",
+          "source": "affiliation-country-text",
+          "confidence": "low"
         },
         {
           "name": "Kaiwei Tu",
@@ -1284,7 +1312,9 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "China University of Mining and Technology, School of Environment Science and Spatial Informatics, Xuzhou, China"
+      ]
     },
     {
       "title": "Operational Characteristics of SSDs in Enterprise Storage Systems: A Large-Scale Field Study",
@@ -1536,11 +1566,14 @@
       "authors_structured": [
         {
           "name": "Dohyun Kim",
-          "affiliations": [],
-          "country_code": "XX",
-          "country_label": "Unknown",
-          "source": "unknown",
-          "confidence": "unknown"
+          "affiliations": [
+            "Myongji University, Department of Industrial and Management Engineering, Yongin, Korea",
+            "Korea Advanced Institute of Science and Technology, KAIST, Department of Industrial Engineering, Korea"
+          ],
+          "country_code": "KR",
+          "country_label": "South Korea",
+          "source": "affiliation-institution",
+          "confidence": "medium"
         },
         {
           "name": "Kwangwon Min",
@@ -1567,7 +1600,10 @@
           "confidence": "unknown"
         }
       ],
-      "first_author_affiliations": []
+      "first_author_affiliations": [
+        "Myongji University, Department of Industrial and Management Engineering, Yongin, Korea",
+        "Korea Advanced Institute of Science and Technology, KAIST, Department of Industrial Engineering, Korea"
+      ]
     },
     {
       "title": "Separating Data via Block Invalidation Time Inference for Write Amplification Reduction in Log-Structured Storage",
