@@ -47,6 +47,24 @@ function searchUrl(term) {
   return `search.html?q=${encodeURIComponent(term)}`;
 }
 
+function renderElementLinks(topic, { compact = false } = {}) {
+  return (topic.elements || [])
+    .map((el) => {
+      const term = (el.search_terms || [])[0] || t(el, "label");
+      const label = escapeHtml(t(el, "label"));
+      const href = escapeHtml(searchUrl(term));
+      if (compact) {
+        return `<li><a href="${href}">${label}</a></li>`;
+      }
+      return `
+        <li class="tech-map-element">
+          <a href="${href}">${label}</a>
+          <span class="tech-map-element-terms">${escapeHtml((el.search_terms || []).slice(0, 3).join(" · "))}</span>
+        </li>`;
+    })
+    .join("");
+}
+
 function renderDetail(topicId) {
   const mount = document.getElementById("tech-map-detail");
   const hit = findTopic(topicId);
@@ -58,16 +76,7 @@ function renderDetail(topicId) {
   const picksLink = topic.area_id
     ? `<a class="tech-map-area-link" href="${escapeHtml(areaPicksPageUrl("published", topic.area_id, []))}">View area picks →</a>`
     : "";
-  const elements = (topic.elements || [])
-    .map((el) => {
-      const term = (el.search_terms || [])[0] || t(el, "label");
-      return `
-        <li class="tech-map-element">
-          <a href="${escapeHtml(searchUrl(term))}">${escapeHtml(t(el, "label"))}</a>
-          <span class="tech-map-element-terms">${escapeHtml((el.search_terms || []).slice(0, 3).join(" · "))}</span>
-        </li>`;
-    })
-    .join("");
+  const elements = renderElementLinks(topic);
 
   mount.innerHTML = `
     <p class="tech-map-detail-group" style="color:${escapeHtml(group.accent || "#4338ca")}">${escapeHtml(t(group, "label"))}</p>
@@ -101,12 +110,15 @@ function renderGraph() {
             .map((topic) => {
               const active = selectedTopicId === topic.id ? " is-active" : "";
               return `
-            <button type="button" class="tech-map-node${active}" role="listitem"
-              data-topic="${escapeHtml(topic.id)}" data-hub="${escapeHtml(group.id)}"
-              aria-pressed="${selectedTopicId === topic.id ? "true" : "false"}">
-              <span class="tech-map-node-label">${escapeHtml(t(topic, "label"))}</span>
-              <span class="tech-map-node-sub">${(topic.elements || []).length} elements</span>
-            </button>`;
+            <article class="tech-map-node${active}" role="listitem"
+              data-topic="${escapeHtml(topic.id)}" data-hub="${escapeHtml(group.id)}">
+              <button type="button" class="tech-map-node-header tech-map-topic-select"
+                data-topic="${escapeHtml(topic.id)}"
+                aria-pressed="${selectedTopicId === topic.id ? "true" : "false"}">
+                <span class="tech-map-node-label">${escapeHtml(t(topic, "label"))}</span>
+              </button>
+              <ul class="tech-map-node-elements">${renderElementLinks(topic, { compact: true })}</ul>
+            </article>`;
             })
             .join("")}
         </div>
@@ -181,16 +193,11 @@ function renderTree() {
                 const active = selectedTopicId === topic.id ? " is-active" : "";
                 return `
               <li class="tech-map-tree-topic${active}">
-                <button type="button" class="tech-map-tree-topic-btn" data-topic="${escapeHtml(topic.id)}">
+                <button type="button" class="tech-map-tree-topic-btn tech-map-topic-select" data-topic="${escapeHtml(topic.id)}">
                   ${escapeHtml(t(topic, "label"))}
                 </button>
                 <ul class="tech-map-tree-elements">
-                  ${(topic.elements || [])
-                    .map((el) => {
-                      const term = (el.search_terms || [])[0] || t(el, "label");
-                      return `<li><a href="${escapeHtml(searchUrl(term))}">${escapeHtml(t(el, "label"))}</a></li>`;
-                    })
-                    .join("")}
+                  ${renderElementLinks(topic, { compact: true })}
                 </ul>
               </li>`;
               })
@@ -205,7 +212,7 @@ function renderTree() {
 }
 
 function wireTopicButtons(root) {
-  root.querySelectorAll("[data-topic]").forEach((btn) => {
+  root.querySelectorAll(".tech-map-topic-select").forEach((btn) => {
     btn.addEventListener("click", () => {
       selectedTopicId = btn.dataset.topic;
       renderDetail(selectedTopicId);
