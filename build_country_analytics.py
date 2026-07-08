@@ -18,8 +18,8 @@ from core.author_country import (
     country_label,
     load_author_country_policy,
 )
+from core.analytics_scoring import analytics_area_scoring, analytics_scoring_text
 from core.hub_config import Hub, add_hub_argument, load_hub
-from core.picks_scoring import AreaPickScoring
 
 ROOT = Path(__file__).resolve().parent
 TOP_PAPERS_PER_COUNTRY = 8
@@ -90,17 +90,6 @@ def load_dblp_papers(web_data: Path, years: set[int]) -> list[dict[str, Any]]:
     return out
 
 
-def scoring_text(paper: dict[str, Any]) -> str:
-    parts = [
-        paper.get("title", ""),
-        paper.get("abstract", ""),
-        " ".join(paper.get("authors") or []),
-        paper.get("venue") or "",
-        paper.get("source") or "",
-    ]
-    return " ".join(p for p in parts if p)
-
-
 def build_analytics(
     hub: Hub,
     *,
@@ -116,7 +105,7 @@ def build_analytics(
 
     categories = hub.category_rows
     category_labels = {c["id"]: c["label"] for c in categories}
-    scoring = AreaPickScoring(categories=categories, min_score=0)
+    scoring = analytics_area_scoring(hub)
     year_set = set(years)
 
     papers = load_dblp_papers(hub.web_data, year_set)
@@ -164,10 +153,11 @@ def build_analytics(
         if first_author.country_code != "XX":
             resolved += 1
 
-        match = scoring.best_match(scoring_text(paper))
-        area_id = match[0] if match else "uncategorized"
-        area_label = match[1] if match else "Uncategorized"
-        area_score = match[2] if match else 0
+        match = scoring.best_match(analytics_scoring_text(paper))
+        if match and match[0] and match[2] > 0:
+            area_id, area_label, area_score = match[0], match[1], match[2]
+        else:
+            area_id, area_label, area_score = "uncategorized", "Uncategorized", 0
 
         code = first_author.country_code
         stats = country_stats[code]

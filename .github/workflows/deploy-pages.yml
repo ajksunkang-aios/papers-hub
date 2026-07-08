@@ -107,6 +107,8 @@ jobs:
           test -f website/views.js
           test -f website/country-analytics.html
           test -f website/data/country-analytics.json
+          test -f website/author-analytics.html
+          test -f website/data/author-analytics.json
           test -f website/data/conferences.json
           test -f website/data/top-monthly.json
           test -f website/data/today-broadcast.json

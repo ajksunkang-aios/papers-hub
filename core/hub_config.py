@@ -129,6 +129,7 @@ class Hub:
             "timeline_year": self.meta.get("timeline_year"),
             "views_api_url": self.meta.get("views_api_url", ""),
             "country_analytics_url": self.meta.get("country_analytics_url", ""),
+            "author_analytics_url": self.meta.get("author_analytics_url", ""),
             "main_hub_url": self.meta.get("main_hub_url", ""),
             "sections": self.sections,
             "categories": {

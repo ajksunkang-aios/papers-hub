@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Author analysis | OS Kernel Papers Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=64" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div id="global-views-bar" class="global-views-bar" hidden></div>
+      <div class="wrap wrap-wide">
+        <p class="eyebrow"><a href="index.html">OS Kernel Papers Hub</a></p>
+        <h1>Author analysis</h1>
+        <p class="lede" id="analytics-subtitle">
+          Top 50 authors by dblp paper count (all co-authors), with research-area tags from keyword scoring.
+        </p>
+        <p class="hub-section-meta" id="analytics-meta">Loading...</p>
+      </div>
+    </header>
+
+    <main class="wrap wrap-wide country-analytics-page author-analytics-page">
+      <section class="country-summary-grid author-summary-grid" id="author-summary" aria-label="Summary statistics"></section>
+
+      <section class="country-panel" aria-labelledby="author-rank-heading">
+        <header class="hub-section-head">
+          <div>
+            <h2 id="author-rank-heading">Top 50 authors by paper count</h2>
+            <p class="hub-section-meta">All co-authors counted. Click an author for area mix, tech tags, and top papers.</p>
+          </div>
+        </header>
+        <div id="author-rank-chart" class="country-rank-chart author-rank-chart"></div>
+      </section>
+
+      <section class="country-panel country-panel-split" aria-labelledby="research-breakdown-heading">
+        <div class="author-breakdown-wrap">
+          <header class="hub-section-head">
+            <div>
+              <h2 id="research-breakdown-heading">Research breakdown</h2>
+              <p class="hub-section-meta">
+                Keyword-matched areas and broad topic tags in one ranked list
+                (e.g. Memory management → Memory and Resource Management).
+              </p>
+            </div>
+          </header>
+          <div id="research-breakdown" class="author-research-breakdown"></div>
+        </div>
+        <aside class="country-detail-panel" aria-labelledby="author-detail-heading">
+          <h2 id="author-detail-heading">Author detail</h2>
+          <div id="author-detail" class="country-detail">
+            <p class="panel-note">Select an author from the chart to inspect tech tags, areas, and papers.</p>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap wrap-wide">
+      <p>
+        Author counts include every co-author on dblp conference papers in the selected period.
+        Tech tags come from the same area keyword rules used for top picks.
+      </p>
+      <p>Data: <a href="https://dblp.org/">dblp</a></p>
+    </footer>
+
+    <script src="author-analytics.js?v=6" type="module"></script>
+  </body>
+</html>

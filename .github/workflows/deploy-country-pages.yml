@@ -14,7 +14,10 @@ on:
     branches: [main]
     paths:
       - "website/data/country-analytics.json"
+      - "website/data/author-analytics.json"
       - "website/country-analytics.html"
+      - "website/author-analytics.html"
+      - "website/author-analytics.js"
       - "website/country-analytics.js"
       - "website/data/*.json"
       - ".github/workflows/deploy-country-pages.yml"

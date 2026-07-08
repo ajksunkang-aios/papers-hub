@@ -88,6 +88,16 @@ function applyHubBranding(hub) {
     }
   }
 
+  const authorLink = document.getElementById("author-analytics-link");
+  if (authorLink) {
+    const url = (hub.author_analytics_url || "author-analytics.html").trim();
+    authorLink.href = url;
+    if (url.startsWith("http")) {
+      authorLink.target = "_blank";
+      authorLink.rel = "noopener noreferrer";
+    }
+  }
+
   const broadcastTagline = document.querySelector(".broadcast-tagline");
   if (broadcastTagline && hub.tagline) {
     const tz = hub.tagline_timezone ? ` (${hub.tagline_timezone})` : "";
