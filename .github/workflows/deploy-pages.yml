@@ -11,6 +11,11 @@ on:
     - cron: "0 1 * * *"
   # Manual only besides schedule — push does not trigger the heavy online build.
   workflow_dispatch:
+    inputs:
+      arxiv_force:
+        description: Force fresh arXiv crawl (ignore 24h staleness cache)
+        type: boolean
+        default: true
 concurrency:
   group: pages-${{ github.ref }}
   cancel-in-progress: false
@@ -65,6 +70,7 @@ jobs:
           DAILY_SKIP_AUTHOR_ENRICH: "1"
           DAILY_SKIP_COUNTRY_ANALYTICS: "1"
           PICK_YEARS: "2020,2021,2022,2023,2024,2025,2026"
+          ARXIV_FORCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.arxiv_force == 'true' && '1' || '0' }}
         run: ./scripts/daily_update.sh
 
       - name: Sync view zones to worker config

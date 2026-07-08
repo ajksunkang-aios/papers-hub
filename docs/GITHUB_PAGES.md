@@ -17,9 +17,9 @@ Site URL: `https://<user>.github.io/<repo>/` (or your custom domain).
 | Event | When |
 |-------|------|
 | `cron: "0 1 * * *"` | **09:00 Asia/Shanghai** (01:00 UTC) daily |
-| `workflow_dispatch` | Manual run from the Actions tab |
+| `workflow_dispatch` | Manual run from the Actions tab (**Force fresh arXiv crawl** defaults to on) |
 
-Push to `main` does **not** trigger this workflow (avoids running the heavy build on every code change). Use **Run workflow** when you need a deploy outside the schedule.
+Push to `main` does **not** trigger this workflow (avoids running the heavy build on every code change). Use **Run workflow** when you need a deploy outside the schedule. Manual runs default to **Force fresh arXiv crawl** so stale cached manifests do not skip the fetch.
 
 ## What the workflow runs
 
