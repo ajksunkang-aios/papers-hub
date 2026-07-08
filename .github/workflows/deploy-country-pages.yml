@@ -137,11 +137,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No analytics changes to commit"
           else
-            git commit -m "$(cat <<'EOF'
-Refresh country and author analytics from monthly enrich run.
-
-EOF
-)"
+            git commit -m "Refresh country and author analytics from monthly enrich run."
             git push
           fi
 
