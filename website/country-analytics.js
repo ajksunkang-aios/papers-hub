@@ -1,5 +1,5 @@
 import { escapeHtml } from "./shared.js";
-import { initViewsWidget } from "./views.js?v=2";
+import { initViewsWidget } from "./views.js?v=3";
 
 let analyticsData = null;
 let selectedCountry = null;

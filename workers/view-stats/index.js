@@ -7,10 +7,6 @@ import zones from "./zones.json";
 
 const ZONE_ORDER = zones.zone_order;
 const ZONE_LABELS = zones.zone_labels;
-const HIGHLIGHT_COUNTRIES = zones.highlight_countries || {};
-const CHINA_CITY_CONFIG = zones.china_cities || {};
-const CHINA_CITY_ORDER = CHINA_CITY_CONFIG.order || [];
-const CHINA_CITY_LABELS = CHINA_CITY_CONFIG.labels || {};
 
 const COUNTRY_TO_ZONE = new Map();
 for (const zone of ZONE_ORDER) {
@@ -20,44 +16,13 @@ for (const zone of ZONE_ORDER) {
   }
 }
 
-const CITY_TO_BUCKET = new Map();
-for (const [bucket, names] of Object.entries(CHINA_CITY_CONFIG.match || {})) {
-  CITY_TO_BUCKET.set(normalizeCityName(bucket), bucket);
-  for (const alias of names) {
-    CITY_TO_BUCKET.set(normalizeCityName(alias), bucket);
-  }
-}
-
 const KV_TOTAL = "total";
 const kvZone = (zone) => `zone:${zone}`;
-const kvCountry = (code) => `country:${code}`;
-const kvChinaCity = (city) => `china:${city}`;
-
-function normalizeCityName(city) {
-  if (!city) return "";
-  let normalized = city.trim().toLowerCase();
-  for (const suffix of [" shi", " city", " municipality"]) {
-    if (normalized.endsWith(suffix)) {
-      normalized = normalized.slice(0, -suffix.length);
-    }
-  }
-  return normalized.replace(/\./g, "").trim();
-}
 
 function countryToZone(code) {
   const c = (code || "").toUpperCase();
   if (!c || c === "XX" || c === "T1") return "other";
   return COUNTRY_TO_ZONE.get(c) || "other";
-}
-
-function chinaCityBucket(city) {
-  const normalized = normalizeCityName(city);
-  if (!normalized) return null;
-  if (CITY_TO_BUCKET.has(normalized)) return CITY_TO_BUCKET.get(normalized);
-  for (const [alias, bucket] of CITY_TO_BUCKET.entries()) {
-    if (normalized.startsWith(alias) || alias.startsWith(normalized)) return bucket;
-  }
-  return null;
 }
 
 function corsHeaders(origin, env) {
@@ -79,70 +44,33 @@ function corsHeaders(origin, env) {
   };
 }
 
-async function readChinaCityCounts(env) {
-  const counts = {};
-  for (const city of CHINA_CITY_ORDER) {
-    counts[city] = Number((await env.VIEW_STATS.get(kvChinaCity(city))) || 0);
-  }
-  return {
-    order: CHINA_CITY_ORDER,
-    labels: CHINA_CITY_LABELS,
-    counts,
-  };
-}
-
 async function readStats(env) {
   const total = Number((await env.VIEW_STATS.get(KV_TOTAL)) || 0);
   const zoneCounts = {};
   for (const zone of ZONE_ORDER) {
     zoneCounts[zone] = Number((await env.VIEW_STATS.get(kvZone(zone))) || 0);
   }
-  const countryCounts = {};
-  for (const code of Object.keys(HIGHLIGHT_COUNTRIES)) {
-    countryCounts[code] = Number((await env.VIEW_STATS.get(kvCountry(code))) || 0);
-  }
   return {
     total,
     zones: zoneCounts,
-    countries: countryCounts,
-    china_cities: await readChinaCityCounts(env),
-    highlight_countries: HIGHLIGHT_COUNTRIES,
     zone_labels: ZONE_LABELS,
     zone_order: ZONE_ORDER,
     updated_at: new Date().toISOString(),
   };
 }
 
-async function recordHit(env, country, city) {
+async function recordHit(env, country) {
   const zone = countryToZone(country);
-  const code = (country || "").toUpperCase();
   await env.VIEW_STATS.put(KV_TOTAL, String(Number((await env.VIEW_STATS.get(KV_TOTAL)) || 0) + 1));
   await env.VIEW_STATS.put(
     kvZone(zone),
     String(Number((await env.VIEW_STATS.get(kvZone(zone))) || 0) + 1)
   );
-  let chinaBucket = null;
-  if (HIGHLIGHT_COUNTRIES[code]) {
-    await env.VIEW_STATS.put(
-      kvCountry(code),
-      String(Number((await env.VIEW_STATS.get(kvCountry(code))) || 0) + 1)
-    );
-    if (code === "CN") {
-      chinaBucket = chinaCityBucket(city);
-      if (chinaBucket) {
-        await env.VIEW_STATS.put(
-          kvChinaCity(chinaBucket),
-          String(Number((await env.VIEW_STATS.get(kvChinaCity(chinaBucket))) || 0) + 1)
-        );
-      }
-    }
-  }
-  return { zone, chinaBucket };
+  return { zone };
 }
 
 async function parseHitGeo(request) {
   let country = request.headers.get("CF-IPCountry") || "XX";
-  let city = request.cf?.city || "";
 
   const contentType = request.headers.get("Content-Type") || "";
   if (contentType.includes("application/json")) {
@@ -151,15 +79,12 @@ async function parseHitGeo(request) {
       if ((!country || country === "XX") && body.country) {
         country = String(body.country).toUpperCase();
       }
-      if (!city && body.city) {
-        city = String(body.city);
-      }
     } catch {
       /* optional JSON body */
     }
   }
 
-  return { country, city };
+  return { country };
 }
 
 export default {
@@ -177,13 +102,10 @@ export default {
     }
 
     if (url.pathname === "/hit" && request.method === "POST") {
-      const { country, city } = await parseHitGeo(request);
-      const { zone, chinaBucket } = await recordHit(env, country, city);
+      const { country } = await parseHitGeo(request);
+      const { zone } = await recordHit(env, country);
       const stats = await readStats(env);
-      return Response.json(
-        { ok: true, zone, country, city: city || null, china_city: chinaBucket, ...stats },
-        { headers }
-      );
+      return Response.json({ ok: true, zone, country, ...stats }, { headers });
     }
 
     return Response.json({ error: "Not found" }, { status: 404, headers });

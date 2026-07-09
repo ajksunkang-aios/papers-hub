@@ -1,6 +1,8 @@
 # Cumulative views by world region
 
-The site shows a bar at the top of each page with total page views and a breakdown by world region (Americas, Europe, Asia-Pacific, Oceania, Africa & Middle East, Other). **China** is shown first with five tracked cities (Beijing, Shanghai, Guangzhou, Shenzhen, Hangzhou); city counts are a subset of total China views.
+The site shows a bar at the top of each page with total page views and a breakdown by region:
+
+**China · America · Europe · Asia-Pacific · Oceania · Africa & Middle East · Others**
 
 GitHub Pages is static, so counting requires a small backend API. The frontend module is `website/views.js`.
 
@@ -24,7 +26,7 @@ GitHub Pages is static, so counting requires a small backend API. The frontend m
    ./scripts/serve_site.sh
    ```
 
-   On localhost the widget defaults to `http://127.0.0.1:8788` automatically. The dev API accepts optional JSON `{ "country": "CN", "city": "Shanghai" }` on `/hit`; production uses Cloudflare `CF-IPCountry` and `cf.city` instead.
+   On localhost the widget defaults to `http://127.0.0.1:8788` automatically. The dev API accepts optional JSON `{ "country": "CN" }` on `/hit`; production uses Cloudflare `CF-IPCountry`.
 
 ## Production (Cloudflare Worker)
 
@@ -40,7 +42,7 @@ GitHub Pages is static, so counting requires a small backend API. The frontend m
 
 2. Set the worker URL via GitHub Actions secret (recommended):
 
-   - Repo **Settings ? Secrets and variables ? Actions ? New repository secret**
+   - Repo **Settings → Secrets and variables → Actions → New repository secret**
    - Name: `VIEWS_API_URL`
    - Value: `https://your-worker.example.workers.dev`
 
@@ -64,8 +66,8 @@ Alternatively, add a meta tag to each HTML page:
 
 | Method | Path    | Description                                      |
 |--------|---------|--------------------------------------------------|
-| GET    | `/stats` | Returns `{ total, zones, countries, china_cities, highlight_countries, zone_labels, zone_order }` |
-| POST   | `/hit`   | Records one view; Worker uses Cloudflare geo headers; dev accepts optional JSON `{ "country", "city" }` |
+| GET    | `/stats` | Returns `{ total, zones, zone_labels, zone_order, updated_at }` |
+| POST   | `/hit`   | Records one view; Worker uses Cloudflare geo headers; dev accepts optional JSON `{ "country" }` |
 
 Each browser session records at most one successful hit (`sessionStorage`, with in-memory fallback).
 

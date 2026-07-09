@@ -1,5 +1,5 @@
 import { escapeHtml, formatGeneratedAtUtc8 } from "./shared.js";
-import { initViewsWidget } from "./views.js?v=2";
+import { initViewsWidget } from "./views.js?v=3";
 
 const MIN_QUERY_LEN = 2;
 const MAX_RESULTS = 200;

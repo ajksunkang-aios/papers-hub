@@ -6,7 +6,7 @@ import {
   withDisplayRanks,
 } from "./picks-ui.js";
 import { escapeHtml, formatGeneratedAt } from "./shared.js";
-import { initViewsWidget } from "./views.js?v=2";
+import { initViewsWidget } from "./views.js?v=3";
 
 function parseYearsParam(raw) {
   if (!raw) return [];
@@ -137,7 +137,7 @@ async function main() {
   document.getElementById("area-subtitle").textContent = modeLabel(mode);
   const period = data.period_label || data.month_label || "";
   const built = data.generated_at ? `Updated ${formatGeneratedAt(data.generated_at)}` : "";
-  document.getElementById("area-meta").textContent = `${period} · ${visible.length} papers · ${modeLabel(mode)}${built ? ` · ${built}` : ""}`;
+  document.getElementById("area-meta").textContent = `${period} ï¿½ ${visible.length} papers ï¿½ ${modeLabel(mode)}${built ? ` ï¿½ ${built}` : ""}`;
   document.getElementById("area-note").textContent = data.note || "";
 
   renderYearFilterButtons(availableYears, selectedYears, area, mode);

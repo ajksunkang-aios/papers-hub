@@ -15,7 +15,7 @@ import {
 } from "./picks-ui.js";
 import { todayBroadcast as bundledBroadcast } from "./today-broadcast-data.js";
 import { conferenceTimeline as bundledTimeline } from "./conference-timeline-data.js";
-import { initViewsWidget } from "./views.js?v=2";
+import { initViewsWidget } from "./views.js?v=3";
 
 const DEFAULT_VENUE_ORDER = [
   "SOSP",

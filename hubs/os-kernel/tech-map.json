@@ -172,32 +172,50 @@
           "label_en": "Scheduling",
           "label_zh": "调度",
           "area_id": "memory-resource",
-          "summary_en": "CPU, IO, and real-time scheduling policies.",
-          "summary_zh": "CPU、IO 与实时调度策略。",
+          "summary_en": "CPU, IO, real-time, QoS, load balancing, and energy-aware scheduling.",
+          "summary_zh": "CPU、IO、实时、QoS、负载均衡与能效调度。",
           "elements": [
             {
-              "id": "cpu-sched",
-              "label_en": "CPU scheduling",
-              "label_zh": "CPU 调度",
-              "search_terms": ["scheduler", "cpu scheduling", "CFS"]
+              "id": "rt-sched",
+              "label_en": "Real-Time Scheduling (RT)",
+              "label_zh": "实时调度 (RT)",
+              "search_terms": ["real-time scheduling", "RT scheduling", "latency", "deadline"]
             },
             {
-              "id": "realtime",
-              "label_en": "Real-time scheduling",
-              "label_zh": "实时调度",
-              "search_terms": ["real-time scheduling", "latency"]
+              "id": "cfs",
+              "label_en": "CFS",
+              "label_zh": "CFS",
+              "search_terms": ["CFS", "Completely Fair Scheduler", "fair scheduling"]
+            },
+            {
+              "id": "preemption-starvation",
+              "label_en": "Preemption & starvation",
+              "label_zh": "抢占与饥饿",
+              "search_terms": ["preemption", "starvation", "priority inversion"]
+            },
+            {
+              "id": "qos-bandwidth",
+              "label_en": "QoS & bandwidth control",
+              "label_zh": "QoS 与带宽控制",
+              "search_terms": ["QoS", "bandwidth control", "cgroup", "throttling"]
+            },
+            {
+              "id": "load-balancing",
+              "label_en": "Load balancing & load tracking",
+              "label_zh": "负载均衡与负载跟踪",
+              "search_terms": ["load balancing", "load tracking", "runqueue", "NUMA balancing"]
             },
             {
               "id": "io-sched",
               "label_en": "IO scheduling",
               "label_zh": "IO 调度",
-              "search_terms": ["IO scheduling", "disk scheduling"]
+              "search_terms": ["IO scheduling", "disk scheduling", "block IO scheduler"]
             },
             {
               "id": "energy-sched",
               "label_en": "Energy-aware scheduling",
               "label_zh": "能效调度",
-              "search_terms": ["energy-aware scheduling", "DVFS", "power-aware"]
+              "search_terms": ["energy-aware scheduling", "DVFS", "power-aware", "cpufreq"]
             }
           ]
         },

@@ -4,6 +4,7 @@ const SESSION_KEY = "papers-hub-view-hit";
 let hitRecordedThisPage = false;
 
 const ZONE_COLORS = {
+  china: "#de2910",
   americas: "#2563eb",
   europe: "#7c3aed",
   asia: "#0891b2",
@@ -11,50 +12,6 @@ const ZONE_COLORS = {
   africa_me: "#ea580c",
   other: "#64748b",
 };
-
-const HIGHLIGHT_COLORS = {
-  CN: "#de2910",
-};
-
-const DEFAULT_CHINA_CITIES = {
-  order: ["beijing", "shanghai", "guangzhou", "shenzhen", "hangzhou"],
-  labels: {
-    beijing: "Beijing",
-    shanghai: "Shanghai",
-    guangzhou: "Guangzhou",
-    shenzhen: "Shenzhen",
-    hangzhou: "Hangzhou",
-  },
-};
-
-function normalizeChinaCities(raw) {
-  if (!raw || typeof raw !== "object") {
-    return {
-      order: DEFAULT_CHINA_CITIES.order,
-      labels: DEFAULT_CHINA_CITIES.labels,
-      counts: Object.fromEntries(DEFAULT_CHINA_CITIES.order.map((k) => [k, 0])),
-    };
-  }
-  if (Array.isArray(raw.order)) {
-    const counts = raw.counts && typeof raw.counts === "object" ? raw.counts : {};
-    return {
-      order: raw.order.length ? raw.order : DEFAULT_CHINA_CITIES.order,
-      labels: { ...DEFAULT_CHINA_CITIES.labels, ...(raw.labels || {}) },
-      counts: {
-        ...Object.fromEntries(DEFAULT_CHINA_CITIES.order.map((k) => [k, 0])),
-        ...counts,
-      },
-    };
-  }
-  return {
-    order: DEFAULT_CHINA_CITIES.order,
-    labels: DEFAULT_CHINA_CITIES.labels,
-    counts: {
-      ...Object.fromEntries(DEFAULT_CHINA_CITIES.order.map((k) => [k, 0])),
-      ...raw,
-    },
-  };
-}
 
 function formatCount(n) {
   const v = Number(n) || 0;
@@ -104,19 +61,18 @@ function isLocalDevApi(apiUrl) {
 
 async function fetchLocationHint(apiUrl) {
   if (!isLocalDevApi(apiUrl)) {
-    return { country: "", city: "" };
+    return { country: "" };
   }
   try {
     const res = await fetch("https://ipapi.co/json/", { cache: "no-store" });
-    if (!res.ok) return { country: "XX", city: "" };
+    if (!res.ok) return { country: "XX" };
     const data = await res.json();
     const country = (data.country_code || "XX").trim().toUpperCase();
     return {
       country: /^[A-Z]{2}$/.test(country) ? country : "XX",
-      city: (data.city || "").trim(),
     };
   } catch {
-    return { country: "XX", city: "" };
+    return { country: "XX" };
   }
 }
 
@@ -141,10 +97,14 @@ function setStatusMessage(mount, className, message) {
   mount.innerHTML = `<p class="${className}" role="status" aria-live="polite">${escapeHtml(message)}</p>`;
 }
 
-function renderChip(className, label, count, barTotal, color, title) {
-  const pct = barTotal > 0 ? Math.max(2, Math.round((count / barTotal) * 100)) : 0;
+function renderZoneChip(zone, labels, zones, total) {
+  const count = Number(zones[zone]) || 0;
+  const label = labels[zone] || zone;
+  const color = ZONE_COLORS[zone] || ZONE_COLORS.other;
+  const title = `${label}: ${count.toLocaleString()} views`;
+  const pct = total > 0 ? Math.max(2, Math.round((count / total) * 100)) : 0;
   return `
-    <span class="${className}" title="${escapeHtml(title)}" aria-label="${escapeHtml(title)}">
+    <span class="global-views-zone" title="${escapeHtml(title)}" aria-label="${escapeHtml(title)}">
       <span class="global-views-zone-dot" style="background:${color}"></span>
       <span class="global-views-zone-label">${escapeHtml(label)}</span>
       <span class="global-views-zone-count">${formatCount(count)}</span>
@@ -153,75 +113,12 @@ function renderChip(className, label, count, barTotal, color, title) {
   `;
 }
 
-function renderZoneChip(zone, labels, zones, total) {
-  const count = Number(zones[zone]) || 0;
-  const label = labels[zone] || zone;
-  const color = ZONE_COLORS[zone] || ZONE_COLORS.other;
-  const title = `${label}: ${count.toLocaleString()} views`;
-  return renderChip("global-views-zone", label, count, total, color, title);
-}
-
-function renderHighlightChip(code, label, countries, total) {
-  const count = Number(countries[code]) || 0;
-  const color = HIGHLIGHT_COLORS[code] || "#dc2626";
-  const slug = code.toLowerCase();
-  const title = `${label}: ${count.toLocaleString()} views`;
-  return renderChip(
-    `global-views-zone global-views-zone-highlight global-views-zone-${slug}`,
-    label,
-    count,
-    total,
-    color,
-    title
-  );
-}
-
-function renderChinaCityChip(cityKey, label, counts, chinaTotal) {
-  const count = Number(counts[cityKey]) || 0;
-  const color = HIGHLIGHT_COLORS.CN;
-  const title = `${label}: ${count.toLocaleString()} views in China`;
-  return renderChip(
-    `global-views-zone global-views-zone-highlight global-views-zone-china-city global-views-zone-${escapeHtml(cityKey)}`,
-    label,
-    count,
-    chinaTotal,
-    color,
-    title
-  );
-}
-
 function renderBar(mount, data) {
   const order = data.zone_order || Object.keys(data.zones || {});
   const labels = data.zone_labels || {};
-  const highlights = data.highlight_countries || { CN: "China" };
-  const countries = data.countries || {};
-  const chinaMeta = normalizeChinaCities(data.china_cities);
-  const chinaTotal = Number(countries.CN) || 0;
   const total = Number(data.total) || 0;
   const zones = data.zones || {};
-
-  const chips = [];
-
-  if (highlights.CN) {
-    const chinaParts = [renderHighlightChip("CN", highlights.CN, countries, total)];
-    for (const cityKey of chinaMeta.order) {
-      chinaParts.push(
-        renderChinaCityChip(
-          cityKey,
-          chinaMeta.labels[cityKey] || cityKey,
-          chinaMeta.counts,
-          chinaTotal
-        )
-      );
-    }
-    chips.push(
-      `<div class="global-views-china-group" aria-label="China region">${chinaParts.join("")}</div>`
-    );
-  }
-
-  for (const zone of order) {
-    chips.push(renderZoneChip(zone, labels, zones, total));
-  }
+  const chips = order.map((zone) => renderZoneChip(zone, labels, zones, total)).join("");
 
   mount.innerHTML = `
     <div class="global-views-inner">
@@ -229,7 +126,7 @@ function renderBar(mount, data) {
         <span class="global-views-total-value">${total.toLocaleString()}</span>
         cumulative views worldwide
       </p>
-      <div class="global-views-zones" aria-label="Views by world region">${chips.join("")}</div>
+      <div class="global-views-zones" aria-label="Views by world region">${chips}</div>
     </div>
   `;
   mount.hidden = false;

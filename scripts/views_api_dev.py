@@ -14,7 +14,6 @@ sys.path.insert(0, str(ROOT))
 
 from core.view_stats import (
     build_zone_maps,
-    country_to_zone,
     load_stats,
     load_zones_config,
     record_hit,
@@ -81,25 +80,19 @@ class Handler(BaseHTTPRequestHandler):
             req = {}
 
         country = (req.get("country") or "XX").upper()
-        city = (req.get("city") or "").strip()
-        if self.client_address[0] in {"127.0.0.1", "::1"}:
-            if req.get("country"):
-                country = str(req["country"]).upper()
-            if req.get("city"):
-                city = str(req["city"]).strip()
+        if self.client_address[0] in {"127.0.0.1", "::1"} and req.get("country"):
+            country = str(req["country"]).upper()
 
         raw = self._read_raw_stats()
-        china_bucket = record_hit(raw, MAPS, country, city)
+        zone = record_hit(raw, MAPS, country)
         self._write_raw_stats(raw)
         data = load_stats(self._read_raw_stats(), MAPS)
         self._json(
             200,
             {
                 "ok": True,
-                "zone": country_to_zone(country, MAPS["country_to_zone"]),
+                "zone": zone,
                 "country": country,
-                "city": city or None,
-                "china_city": china_bucket,
                 **data,
             },
         )

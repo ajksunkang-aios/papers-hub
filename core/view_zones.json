@@ -1,34 +1,16 @@
 {
-  "zone_order": ["americas", "europe", "asia", "oceania", "africa_me", "other"],
+  "zone_order": ["china", "americas", "europe", "asia", "oceania", "africa_me", "other"],
   "zone_labels": {
-    "americas": "Americas",
+    "china": "China",
+    "americas": "America",
     "europe": "Europe",
     "asia": "Asia-Pacific",
     "oceania": "Oceania",
     "africa_me": "Africa & Middle East",
-    "other": "Other"
-  },
-  "highlight_countries": {
-    "CN": "China"
-  },
-  "china_cities": {
-    "order": ["beijing", "shanghai", "guangzhou", "shenzhen", "hangzhou"],
-    "labels": {
-      "beijing": "Beijing",
-      "shanghai": "Shanghai",
-      "guangzhou": "Guangzhou",
-      "shenzhen": "Shenzhen",
-      "hangzhou": "Hangzhou"
-    },
-    "match": {
-      "beijing": ["beijing", "peking", "beijing shi"],
-      "shanghai": ["shanghai", "shanghai shi"],
-      "guangzhou": ["guangzhou", "canton", "guangzhou shi"],
-      "shenzhen": ["shenzhen", "shenzhen shi"],
-      "hangzhou": ["hangzhou", "hangchow", "hangzhou shi"]
-    }
+    "other": "Others"
   },
   "countries": {
+    "china": ["CN"],
     "americas": [
       "AG", "AR", "AW", "BB", "BZ", "BO", "BR", "BS", "CA", "CL", "CO", "CR", "CU", "DM", "DO",
       "EC", "GD", "GF", "GP", "GT", "GY", "HN", "HT", "JM", "KN", "KY", "LC", "MQ", "MX", "NI",
@@ -41,7 +23,7 @@
       "SE", "SI", "SK", "SM", "TR", "UA", "VA", "XK"
     ],
     "asia": [
-      "AM", "AZ", "BD", "BN", "BT", "CN", "GE", "HK", "ID", "IN", "JP", "KG", "KH", "KP", "KR",
+      "AM", "AZ", "BD", "BN", "BT", "GE", "HK", "ID", "IN", "JP", "KG", "KH", "KP", "KR",
       "KZ", "LA", "LK", "MM", "MN", "MO", "MV", "MY", "NP", "PH", "PK", "SG", "TH", "TJ", "TL",
       "TM", "TW", "UZ", "VN"
     ],

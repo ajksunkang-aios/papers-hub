@@ -5,7 +5,7 @@ import {
   renderPaperList,
   renderStats,
 } from "./shared.js";
-import { initViewsWidget } from "./views.js?v=2";
+import { initViewsWidget } from "./views.js?v=3";
 
 function getConferenceId() {
   const params = new URLSearchParams(window.location.search);
