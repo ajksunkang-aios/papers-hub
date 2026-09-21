@@ -1,5 +1,4 @@
 import { escapeHtml } from "./shared.js";
-import { initViewsWidget } from "./views.js?v=3";
 
 let analyticsData = null;
 let selectedAuthorKey = null;
@@ -251,7 +250,6 @@ async function loadAnalytics() {
 }
 
 async function main() {
-  initViewsWidget();
   try {
     analyticsData = await loadAnalytics();
     document.getElementById("analytics-meta").textContent = `${analyticsData.period_label || ""} · ${

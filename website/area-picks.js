@@ -6,7 +6,6 @@ import {
   withDisplayRanks,
 } from "./picks-ui.js";
 import { escapeHtml, formatGeneratedAt } from "./shared.js";
-import { initViewsWidget } from "./views.js?v=3";
 
 function parseYearsParam(raw) {
   if (!raw) return [];
@@ -88,7 +87,6 @@ function renderList(picks, highlightConference) {
 }
 
 async function main() {
-  initViewsWidget();
 
   const { mode, area, years: yearsParam } = parseQuery();
   const highlightConference = mode === "published";

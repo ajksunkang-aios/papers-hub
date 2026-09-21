@@ -15,7 +15,6 @@ import {
 } from "./picks-ui.js";
 import { todayBroadcast as bundledBroadcast } from "./today-broadcast-data.js";
 import { conferenceTimeline as bundledTimeline } from "./conference-timeline-data.js";
-import { initViewsWidget } from "./views.js?v=3";
 
 const DEFAULT_VENUE_ORDER = [
   "SOSP",
@@ -1155,7 +1154,6 @@ async function main() {
   const confSearch = document.getElementById("conf-search");
   const hub = await loadHubConfig();
   applyHubBranding(hub);
-  initViewsWidget({ apiUrl: hub?.views_api_url });
 
   const [timelineRes, broadcastRes, arxivRes, publishedRes, confRes] = await Promise.allSettled([
     loadConferenceTimeline(),

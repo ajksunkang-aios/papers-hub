@@ -1,6 +1,5 @@
 import { escapeHtml } from "./shared.js";
 import { areaPicksPageUrl } from "./picks-ui.js";
-import { initViewsWidget } from "./views.js?v=3";
 
 let mapData = null;
 let locale = "en";
@@ -326,7 +325,6 @@ function initControls() {
 }
 
 async function main() {
-  initViewsWidget();
   initControls();
   try {
     mapData = await loadMap();

@@ -1,5 +1,4 @@
 import { escapeHtml } from "./shared.js";
-import { initViewsWidget } from "./views.js?v=3";
 
 let analyticsData = null;
 let selectedCountry = null;
@@ -219,7 +218,6 @@ async function loadAnalytics() {
 }
 
 async function main() {
-  initViewsWidget();
   try {
     analyticsData = await loadAnalytics();
     const sourceNote = analyticsData.data_source === "dblp" ? "dblp proceedings" : "papers";

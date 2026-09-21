@@ -144,26 +144,6 @@ jobs:
             git push
           fi
 
-      - name: Configure views API URL (optional)
-        env:
-          VIEWS_API_URL: ${{ secrets.VIEWS_API_URL }}
-        run: |
-          if [ -z "${VIEWS_API_URL}" ]; then
-            exit 0
-          fi
-          python3 - <<'PY'
-          import json
-          import os
-          from pathlib import Path
-
-          url = os.environ["VIEWS_API_URL"].strip().rstrip("/")
-          hub_path = Path("website/data/hub.json")
-          hub = json.loads(hub_path.read_text(encoding="utf-8"))
-          hub["views_api_url"] = url
-          hub_path.write_text(json.dumps(hub, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-          print(f"views_api_url configured: {url}")
-          PY
-
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

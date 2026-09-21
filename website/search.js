@@ -1,5 +1,4 @@
 import { escapeHtml, formatGeneratedAtUtc8 } from "./shared.js";
-import { initViewsWidget } from "./views.js?v=3";
 
 const MIN_QUERY_LEN = 2;
 const MAX_RESULTS = 200;
@@ -131,7 +130,6 @@ function runSearch(query) {
 }
 
 async function main() {
-  initViewsWidget();
   const input = document.getElementById("search-input");
   const meta = document.getElementById("search-meta");
   const initialQuery = new URLSearchParams(window.location.search).get("q") || "";
