@@ -44,11 +44,34 @@ run_daily() {
   cd "$ROOT"
 
   if [[ "${DAILY_SKIP_DBLP:-0}" != "1" ]]; then
+    # Download only when we don't already have a local copy. dblp now serves a
+    # JS anti-bot HTML page (HTTP 200 + text/html) to non-browser clients, so the
+    # download can fail even when the URL is reachable. On failure we degrade
+    # gracefully: drop any corrupt file, skip the dblp rebuild, and keep the
+    # rest of the pipeline (arXiv / picks / broadcast) running on cached data.
+    DBLP_DOWNLOAD_RC=0
     if [[ ! -f "$ROOT/data/dblp.xml.gz" ]]; then
+      set +e
       run "dblp download" "$PYTHON" parse_dblp_xml.py "${HUB_FLAG[@]}" --download
+      DBLP_DOWNLOAD_RC=$?
+      set -e
+      if [[ $DBLP_DOWNLOAD_RC -ne 0 ]]; then
+        echo "=== dblp download failed (rc=$DBLP_DOWNLOAD_RC); falling back to cached conference data ==="
+        rm -f "$ROOT/data/dblp.xml.gz"
+      fi
     fi
-    run "dblp build" "$PYTHON" parse_dblp_xml.py "${HUB_FLAG[@]}" --build-website --if-stale
-    run "conference timeline" "$PYTHON" build_conference_timeline.py "${HUB_FLAG[@]}"
+
+    if [[ $DBLP_DOWNLOAD_RC -eq 0 ]]; then
+      run "dblp build" "$PYTHON" parse_dblp_xml.py "${HUB_FLAG[@]}" --build-website --if-stale
+      run "conference timeline" "$PYTHON" build_conference_timeline.py "${HUB_FLAG[@]}"
+    else
+      echo "=== skip dblp build (download failed; using committed website/data/*.json) ==="
+      if [[ -f "$ROOT/website/data/conferences.json" ]]; then
+        run "conference timeline" "$PYTHON" build_conference_timeline.py "${HUB_FLAG[@]}"
+      else
+        echo "  WARNING: no cached conferences.json; dblp-dependent views will be stale"
+      fi
+    fi
   else
     echo "=== skip dblp (DAILY_SKIP_DBLP=1) ==="
   fi

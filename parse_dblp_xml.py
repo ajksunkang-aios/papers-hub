@@ -159,6 +159,19 @@ def _clear_elem(elem) -> None:
         del elem.getparent()[0]
 
 
+class DblpDownloadError(RuntimeError):
+    """Raised when dblp serves a non-gzip payload (e.g. an anti-bot HTML page)."""
+
+
+def _looks_like_gzip(path: Path) -> bool:
+    """Return True iff ``path`` starts with the gzip magic bytes ``1f 8b``."""
+    try:
+        with path.open("rb") as fh:
+            return fh.read(2) == b"\x1f\x8b"
+    except OSError:
+        return False
+
+
 def download_xml(dest: Path) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
     print(f"Downloading {DBLP_XML_GZ} -> {dest}", flush=True)
@@ -168,6 +181,13 @@ def download_xml(dest: Path) -> None:
     session.headers["User-Agent"] = USER_AGENT
     with session.get(DBLP_XML_GZ, stream=True, timeout=600) as resp:
         resp.raise_for_status()
+        ctype = resp.headers.get("content-type", "").split(";")[0].strip().lower()
+        if ctype not in ("", "application/gzip", "application/x-gzip", "application/octet-stream"):
+            # dblp now returns HTTP 200 + text/html with a JS anti-bot page.
+            raise DblpDownloadError(
+                f"{DBLP_XML_GZ} returned content-type {ctype!r}, not gzip "
+                f"(dblp anti-bot challenge). Aborting download."
+            )
         total = int(resp.headers.get("content-length", 0))
         done = 0
         with dest.open("wb") as out:
@@ -179,6 +199,19 @@ def download_xml(dest: Path) -> None:
                 if total and done % (50 * 1024 * 1024) < len(chunk):
                     print(f"\r  {done * 100 / total:.1f}%", end="", flush=True)
     print(f"\nSaved {dest} ({dest.stat().st_size / 1e9:.2f} GB)", flush=True)
+
+    # Guard against a 200 OK body that is not actually gzipped (anti-bot HTML).
+    if not _looks_like_gzip(dest):
+        size = dest.stat().st_size
+        try:
+            dest.unlink()
+        except OSError:
+            pass
+        raise DblpDownloadError(
+            f"{dest} is not a gzip file ({size} bytes; got non-gzip payload from "
+            f"{DBLP_XML_GZ} — likely the dblp anti-bot challenge page). "
+            f"Downloaded file removed; will fall back to cached dblp data."
+        )
 
 
 def stream_parse(xml_path: Path, venues: dict[str, VenueConfig]) -> dict[tuple[str, int], list[dict]]:
@@ -394,7 +427,18 @@ def main() -> int:
         args.all = True
 
     if args.download or args.all:
-        download_xml(xml_path)
+        try:
+            download_xml(xml_path)
+        except DblpDownloadError as exc:
+            # dblp served an anti-bot HTML page instead of gzip. Don't crash the
+            # pipeline: surface the problem and let the caller decide whether to
+            # fall back to previously cached dblp data.
+            print(f"dblp download failed: {exc}", file=sys.stderr)
+            if args.all:
+                # `--all` implies build too; skip the build step on download
+                # failure so we don't try to parse a (possibly stale/absent) file.
+                args.build_website = False
+            return 2
 
     if args.build_website or args.all:
         if not xml_path.is_file():
