@@ -23,6 +23,7 @@
   --picks: #a85a1a;
   --conf: #4a4f7a;
   --live: #b4232b;
+  --sidebar-w: 248px;
 }
 
 *,
@@ -38,6 +39,165 @@ body {
   background: var(--bg);
   line-height: 1.6;
   min-height: 100vh;
+}
+
+/* Left sidebar layout: sidebar is sticky/fixed on the left; main content
+   (header + main + footer) is pushed right by the sidebar width. */
+.site-header,
+main,
+.site-footer {
+  margin-left: var(--sidebar-w);
+}
+
+.app-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--sidebar-w);
+  height: 100vh;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--border);
+  background: var(--surface);
+  overflow-y: auto;
+  z-index: 50;
+}
+
+.sidebar-brand {
+  padding: 1.1rem 1rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar-brand a {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.sidebar-brand a:hover {
+  color: var(--accent);
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.6rem 0.6rem 0.8rem;
+  flex: 1;
+}
+
+.sidebar-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-family: var(--sans);
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}
+
+.sidebar-nav-item:hover {
+  color: var(--accent);
+  background: var(--surface-soft);
+}
+
+.sidebar-nav-item[aria-current="page"] {
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
+.sidebar-nav-item--github {
+  margin-top: auto;
+  border-top: 1px solid var(--border);
+  border-radius: 0;
+  padding-top: 0.75rem;
+  margin-bottom: -0.2rem;
+}
+
+.sidebar-github-icon {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+/* Mobile: sidebar collapses into a slide-in drawer with a hamburger toggle. */
+.sidebar-toggle {
+  display: none;
+  position: fixed;
+  top: 0.7rem;
+  left: 0.7rem;
+  z-index: 60;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
+.sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(28, 28, 26, 0.35);
+  z-index: 45;
+}
+
+@media (max-width: 880px) {
+  .site-header,
+  main,
+  .site-footer {
+    margin-left: 0;
+  }
+
+  .sidebar-toggle {
+    display: inline-flex;
+  }
+
+  .app-sidebar {
+    left: calc(-1 * var(--sidebar-w));
+    box-shadow: var(--shadow-lg);
+  }
+
+  .app-sidebar.is-open {
+    left: 0;
+  }
+
+  .app-sidebar.is-open + .sidebar-backdrop {
+    display: block;
+  }
+
+  /* Leave room for the hamburger button on compact headers. */
+  .site-header-compact {
+    padding-left: calc(0.7rem + 40px + 0.6rem);
+  }
+
+  .site-header {
+    padding-left: calc(0.7rem + 40px + 0.6rem);
+  }
 }
 
 a {
