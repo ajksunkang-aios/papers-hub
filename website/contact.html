@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search papers | OS Kernel Papers Hub</title>
+    <meta name="description" content="Contact information for OS Kernel Papers Hub." />
+    <title>Contact | OS Kernel Papers Hub</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,57 +22,40 @@
       <nav class="sidebar-nav" aria-label="Primary">
         <a class="sidebar-nav-item" href="index.html">Home</a>
         <a class="sidebar-nav-item" href="tech-map.html">Tech map</a>
-        <a class="sidebar-nav-item" href="search.html" aria-current="page">Search</a>
+        <a class="sidebar-nav-item" href="search.html">Search</a>
         <a class="sidebar-nav-item" href="country-analytics.html">Country analytics</a>
         <a class="sidebar-nav-item" href="author-analytics.html">Author analysis</a>
-        <a class="sidebar-nav-item sidebar-nav-item--contact" href="contact.html"><svg class="sidebar-mail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Contact</a>
+        <a class="sidebar-nav-item sidebar-nav-item--contact" href="contact.html" aria-current="page"><svg class="sidebar-mail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Contact</a>
         <a class="sidebar-nav-item sidebar-nav-item--github" href="https://github.com/ajksunkang-aios/papers-hub" target="_blank" rel="noopener noreferrer"><svg class="sidebar-github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 6.16 7.59.45.08.61-.2.45-.45v-1.69c-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.39.82.81 1.19 2.12.85 2.64.65.08-.52.31-.85.56-1.05-1.78-.2-3.64-.89-3.64-3.48 0-.77.27-1.4.71-1.89-.1-.25-.45-1.28.1-1.84 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 8 4.77c.85.004 1.71.115 2.51.337 1.91-1.58 2.75-1.27 2.75-1.27.55 1.96.2 2.24.1 2.84.62.49 1 1.11 1 1.89 0 2.48-1.87 3.28-3.65 3.48.32.27.6.82.6 1.66v2.52c0 .35 0 .73.45.45A10.03 10.03 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a>
       </nav>
     </aside>
     <div class="sidebar-backdrop"></div>
 
     <header class="site-header">
-      <div class="wrap wrap-wide">
-        <div class="site-header-top">
-          <div class="site-header-brand">
-            <p class="eyebrow"><a href="index.html">OS Kernel Papers Hub</a></p>
-            <h1>Paper search</h1>
-            <p class="lede lede-compact">
-              Keyword lookup across dblp proceedings and recent arXiv (title and abstract).
-            </p>
-            <p class="hub-section-meta" id="search-meta">Loading index…</p>
-          </div>
-        </div>
+      <div class="wrap">
+        <p class="eyebrow">Get in touch</p>
+        <h1>Contact</h1>
+        <p class="lede">Questions, corrections, or paper suggestions? Reach out by email.</p>
       </div>
     </header>
 
-    <main class="wrap wrap-wide search-page">
-      <section class="toolbar toolbar-sticky search-toolbar" aria-label="Search">
-        <label class="search hub-search search-input-wide">
-          <span class="sr-only">Search by technical keyword</span>
-          <input
-            id="search-input"
-            type="search"
-            placeholder="e.g. ebpf, TEE, CXL, microkernel…"
-            autocomplete="off"
-            autofocus
-          />
-        </label>
-        <p class="result-count" id="search-result-count" aria-live="polite"></p>
+    <main class="wrap contact-page">
+      <section class="contact-card" aria-label="Email contact">
+        <div class="contact-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </div>
+        <div class="contact-card-body">
+          <p class="contact-card-label">Email</p>
+          <p class="contact-card-value">ajksunkang@gmail.com</p>
+          <p class="contact-card-note">Copy the address above or write to it directly from your mail client.</p>
+        </div>
       </section>
-
-      <ol id="search-results" class="search-results-list" aria-label="Search results"></ol>
     </main>
 
-    <footer class="site-footer wrap wrap-wide">
-      <p>
-        Matches are substring hits in title or abstract (case-insensitive). Results load entirely in your
-        browser from a static index built at deploy time.
-      </p>
+    <footer class="site-footer wrap">
       <p>Data: <a href="https://arxiv.org/">arXiv</a> &middot; <a href="https://dblp.org/">dblp</a></p>
     </footer>
 
-    <script src="search.js?v=1" type="module"></script>
     <script src="back-to-top.js?v=1"></script>
     <script src="sidebar.js?v=1"></script>
   </body>
