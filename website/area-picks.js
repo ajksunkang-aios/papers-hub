@@ -130,7 +130,7 @@ async function main() {
   );
   let visible = withDisplayRanks(pool);
 
-  document.title = `${cat.label} | OS Kernel Papers Hub`;
+  document.title = `${cat.label} | AgentOS Papers Hub`;
   document.getElementById("area-title").textContent = cat.label;
   document.getElementById("area-subtitle").textContent = modeLabel(mode);
   const period = data.period_label || data.month_label || "";

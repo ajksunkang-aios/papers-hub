@@ -276,7 +276,7 @@ function paint() {
 function applyLocale() {
   document.getElementById("page-title").textContent = t(mapData, "title");
   document.getElementById("page-subtitle").textContent = t(mapData, "subtitle");
-  document.title = `${t(mapData, "title")} | OS Kernel Papers Hub`;
+  document.title = `${t(mapData, "title")} | AgentOS Papers Hub`;
   paint();
 }
 

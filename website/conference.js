@@ -84,7 +84,7 @@ async function main() {
   const data = await editionRes.json();
   const edition = data.edition ? `${data.edition} ` : "";
   const short = data.short_name || data.venue.toUpperCase();
-  document.title = `${short} ${data.year} Papers | OS Kernel Papers Hub`;
+  document.title = `${short} ${data.year} Papers | AgentOS Papers Hub`;
   document.getElementById("page-title").textContent = `${edition}${short} ${data.year}`;
   document.getElementById("page-subtitle").textContent = data.full_name || "";
   document.getElementById("back-link").href = "index.html";
