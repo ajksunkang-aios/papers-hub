@@ -67,7 +67,7 @@ Remove cron: `crontab -e` and delete lines containing `papers-hub`.
 Configuration lives under `hubs/<hub-id>/`. See **[docs/ADDING_A_HUB.md](docs/ADDING_A_HUB.md)**.
 
 ```bash
-HUB=compiler ./publish.sh
+HUB=my-area ./publish.sh
 ```
 
 ## Repository map

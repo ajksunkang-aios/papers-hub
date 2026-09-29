@@ -70,7 +70,7 @@ curl -sI http://127.0.0.1:8765/ | head -1
 配置位于 `hubs/<hub-id>/`。详见 **[docs/ADDING_A_HUB.md](docs/ADDING_A_HUB.md)**。
 
 ```bash
-HUB=compiler ./publish.sh
+HUB=my-area ./publish.sh
 ```
 
 ## 仓库结构

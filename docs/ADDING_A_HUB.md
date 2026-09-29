@@ -2,7 +2,7 @@
 
 This repository (**papers-hub**) is a **multi-hub paper index**: shared build tooling under `core/` and per-area configuration under `hubs/<hub-id>/`.
 
-The live **OS Kernel** site is `hubs/os-kernel` ? `website/`. A **Compiler** example stub lives in `hubs/compiler/`.
+The live **AgentOS** site is `hubs/os-kernel` → `website/`. To start a new hub, duplicate `hubs/os-kernel` and edit it.
 
 ## Layout
 
@@ -17,17 +17,16 @@ papers-hub/
 ?   ?   ??? categories.json  # Top picks by area keywords
 ?   ?   ??? arxiv_policy.json
 ?   ?   ??? conference_timeline.json
-?   ??? compiler/            # Example second hub
 ??? website/                 # os-kernel static site + data/
 ??? publish.sh               # HUB=os-kernel ./publish.sh
 ```
 
 ## Quick start (new hub)
 
-1. **Copy the compiler stub** (or duplicate `hubs/os-kernel` and edit):
+1. **Duplicate `hubs/os-kernel`** and edit it:
 
    ```bash
-   cp -R hubs/compiler hubs/my-area
+   cp -R hubs/os-kernel hubs/my-area
    ```
 
 2. **Edit `hubs/my-area/hub.json`**
@@ -68,10 +67,4 @@ See **[DEPLOY.md](DEPLOY.md)** for Linux server setup and daily cron.
 
 ```bash
 python3 scripts/export_hub_configs.py
-```
-
-## Compiler example
-
-```bash
-HUB=compiler PICK_YEARS=2025,2026 ./publish.sh
 ```
