@@ -123,6 +123,20 @@ main,
 
 /* Bottom group: contact + github pinned to the sidebar foot, separated by a
    single top border on the first bottom item. */
+.sidebar-nav-group-label {
+  margin: 0.9rem 0.75rem 0.1rem;
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.sidebar-nav-item--custom {
+  /* sits in the custom-topics group above the foot; no separator border */
+}
+
 .sidebar-nav-item--contact {
   margin-top: auto;
   border-top: 1px solid var(--border);

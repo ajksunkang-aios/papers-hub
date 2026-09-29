@@ -538,6 +538,7 @@ def build_category_picks(
             {
                 "id": cat_id,
                 "label": cat["label"],
+                "is_custom": cat.get("is_custom", False),
                 "total_count": len(all_picks),
                 "count": len(top_picks),
                 "picks": [asdict(p) for p in top_picks],

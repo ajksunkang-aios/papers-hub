@@ -477,7 +477,9 @@ function renderTopPicksSection(data, config) {
   const note = document.getElementById(noteId);
   if (!section || !container || !meta) return;
 
-  const categories = data?.categories || [];
+  // Custom topics are excluded from the homepage area grid; they are reached
+  // via the sidebar nav (?topic=<id>) and rendered on area-picks.html instead.
+  const categories = (data?.categories || []).filter((c) => !c.is_custom);
   const hasPicks = categories.some((c) => (c.picks?.length || c.all_picks?.length));
 
   if (!hasPicks) {

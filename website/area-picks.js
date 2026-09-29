@@ -20,9 +20,13 @@ function parseYearsParam(raw) {
 function parseQuery() {
   const q = new URLSearchParams(window.location.search);
   const mode = q.get("mode") === "published" ? "published" : "arxiv";
-  const area = q.get("area") || "";
+  // `topic` selects a custom topic (surfaced via the sidebar Custom topics
+  // group); `area` selects one of the homepage areas. Both resolve to a
+  // category id in the picks data, so treat them as the same selector.
+  const topic = q.get("topic") || "";
+  const area = q.get("area") || topic;
   const years = parseYearsParam(q.get("years"));
-  return { mode, area, years };
+  return { mode, area, topic, years };
 }
 
 function dataUrlForMode(mode) {
@@ -88,12 +92,14 @@ function renderList(picks, highlightConference) {
 
 async function main() {
 
-  const { mode, area, years: yearsParam } = parseQuery();
+  const { mode, area, topic, years: yearsParam } = parseQuery();
   const highlightConference = mode === "published";
+  const isCustomTopic = Boolean(topic);
 
   const back = document.getElementById("back-link");
   if (back) {
-    back.href = `index.html#top-picks-${mode}`;
+    back.href = isCustomTopic ? "index.html" : `index.html#top-picks-${mode}`;
+    back.textContent = isCustomTopic ? "Home" : back.textContent;
   }
 
   if (!area) {
@@ -132,7 +138,9 @@ async function main() {
 
   document.title = `${cat.label} | AgentOS Papers Hub`;
   document.getElementById("area-title").textContent = cat.label;
-  document.getElementById("area-subtitle").textContent = modeLabel(mode);
+  document.getElementById("area-subtitle").textContent = isCustomTopic
+    ? `Custom topic · ${modeLabel(mode).toLowerCase()}`
+    : modeLabel(mode);
   const period = data.period_label || data.month_label || "";
   const built = data.generated_at ? `Updated ${formatGeneratedAt(data.generated_at)}` : "";
   document.getElementById("area-meta").textContent = `${period} � ${visible.length} papers � ${modeLabel(mode)}${built ? ` � ${built}` : ""}`;

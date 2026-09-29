@@ -1,6 +1,6 @@
 {
   "kind": "arxiv",
-  "generated_at": "2026-06-03T08:15:15.819768+00:00",
+  "generated_at": "2026-09-29T09:53:54.461085+00:00",
   "years": [
     2025,
     2026
@@ -22,7 +22,8 @@
     {
       "id": "llm-serving",
       "label": "LLM serving",
-      "total_count": 28,
+      "is_custom": false,
+      "total_count": 27,
       "count": 5,
       "picks": [
         {
@@ -540,41 +541,6 @@
         },
         {
           "rank": 9,
-          "title": "ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation",
-          "authors": [
-            "Shihao Wang",
-            "Jiahao Chen",
-            "Yanqi Pan",
-            "Hao Huang",
-            "Yichen Hao",
-            "Xiangyu Zou",
-            "Wen Xia",
-            "Wentao Zhang",
-            "Chongyang Qiu",
-            "Pengfei Wang"
-          ],
-          "category_score": 42,
-          "category_id": "llm-serving",
-          "display_score": 42,
-          "score_boost": 0,
-          "matched_tags": [
-            "kv cache"
-          ],
-          "source": "arxiv",
-          "published": "2026-01-31T09:53:31Z",
-          "primary_category": "cs.OS",
-          "source_feed": "cs.OS",
-          "venue": null,
-          "year": null,
-          "conference_id": null,
-          "abs_url": "https://arxiv.org/abs/2602.02579v3",
-          "pdf_url": "https://arxiv.org/pdf/2602.02579v3",
-          "dblp_url": null,
-          "paper_url": "https://arxiv.org/abs/2602.02579v3",
-          "abstract": null
-        },
-        {
-          "rank": 10,
           "title": "KV-RM: Regularizing KV-Cache Movement for Static-Graph LLM Serving",
           "authors": [
             "Zhiqing Zhong",
@@ -607,7 +573,7 @@
           "abstract": null
         },
         {
-          "rank": 11,
+          "rank": 10,
           "title": "SAGA: Workflow-Atomic Scheduling for AI Agent Inference on GPU Clusters",
           "authors": [
             "Dongxin Guo",
@@ -638,7 +604,7 @@
           "abstract": null
         },
         {
-          "rank": 12,
+          "rank": 11,
           "title": "StepCache: Step-Level Reuse with Lightweight Verification and Selective Patching for LLM Serving",
           "authors": [
             "Azam Nouri"
@@ -665,7 +631,7 @@
           "abstract": null
         },
         {
-          "rank": 13,
+          "rank": 12,
           "title": "Nova: Real-Time Agentic Vision-Language Model Serving with Adaptive Cross-Stage Parallelization",
           "authors": [
             "Yuhang Xu",
@@ -698,7 +664,7 @@
           "abstract": null
         },
         {
-          "rank": 14,
+          "rank": 13,
           "title": "SSV: Sparse Speculative Verification for Efficient LLM Inference",
           "authors": [
             "Zhibin Wang",
@@ -731,7 +697,7 @@
           "abstract": null
         },
         {
-          "rank": 15,
+          "rank": 14,
           "title": "PreFT: Prefill-only finetuning for efficient inference",
           "authors": [
             "Andrew Lanpouthakoun",
@@ -764,7 +730,7 @@
           "abstract": null
         },
         {
-          "rank": 16,
+          "rank": 15,
           "title": "Token Management in Multi-Tenant AI Inference Platforms",
           "authors": [
             "William J. Cunningham"
@@ -793,7 +759,7 @@
           "abstract": null
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "Blink: CPU-Free LLM Inference by Delegating the Serving Stack to GPU and SmartNIC",
           "authors": [
             "Mohammad Siavashi",
@@ -825,7 +791,7 @@
           "abstract": null
         },
         {
-          "rank": 18,
+          "rank": 17,
           "title": "Valve: Production Online-Offline Inference Colocation with Jointly-Bounded Preemption Latency and Rate",
           "authors": [
             "Fangyue Liu",
@@ -862,7 +828,7 @@
           "abstract": null
         },
         {
-          "rank": 19,
+          "rank": 18,
           "title": "Edge-Based QoS-Aware Adaptive Task Placement: A Closed-Loop Control in Multi-Robot Systems",
           "authors": [
             "Thien Tran",
@@ -893,7 +859,7 @@
           "abstract": null
         },
         {
-          "rank": 20,
+          "rank": 19,
           "title": "Rethinking Inter-Process Communication with Memory Operation Offloading",
           "authors": [
             "Misun Park",
@@ -924,7 +890,7 @@
           "abstract": null
         },
         {
-          "rank": 21,
+          "rank": 20,
           "title": "Proxics: an efficient programming model for far memory accelerators",
           "authors": [
             "Zikai Liu",
@@ -956,7 +922,7 @@
           "abstract": null
         },
         {
-          "rank": 22,
+          "rank": 21,
           "title": "Guidelines for Building Indexes on Partially Cache-Coherent CXL Shared Memory",
           "authors": [
             "Fangnuo Wu",
@@ -987,7 +953,7 @@
           "abstract": null
         },
         {
-          "rank": 23,
+          "rank": 22,
           "title": "MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU",
           "authors": [
             "Zhengqing Yuan",
@@ -1017,7 +983,7 @@
           "abstract": null
         },
         {
-          "rank": 24,
+          "rank": 23,
           "title": "Horizon-LM: A RAM-Centric Architecture for LLM Training",
           "authors": [
             "Zhengqing Yuan",
@@ -1046,7 +1012,7 @@
           "abstract": null
         },
         {
-          "rank": 25,
+          "rank": 24,
           "title": "Meta-ROS: A Next-Generation Middleware Architecture for Adaptive and Scalable Robotic Systems",
           "authors": [
             "Anshul Ranjan",
@@ -1078,7 +1044,7 @@
           "abstract": null
         },
         {
-          "rank": 26,
+          "rank": 25,
           "title": "SemaTune: Semantic-Aware Online OS Tuning with Large Language Models",
           "authors": [
             "Georgios Liargkovas",
@@ -1107,7 +1073,7 @@
           "abstract": null
         },
         {
-          "rank": 27,
+          "rank": 26,
           "title": "TempoNet: Slack-Quantized Transformer-Guided Reinforcement Scheduler for Adaptive Deadline-Centric Real-Time Dispatchs",
           "authors": [
             "Rong Fu",
@@ -1143,7 +1109,7 @@
           "abstract": null
         },
         {
-          "rank": 28,
+          "rank": 27,
           "title": "Reexamining Paradigms of End-to-End Data Movement",
           "authors": [
             "Chin Fang",
@@ -1177,6 +1143,7 @@
     {
       "id": "on-device-ai",
       "label": "On-device AI",
+      "is_custom": false,
       "total_count": 8,
       "count": 5,
       "picks": [
@@ -1580,6 +1547,7 @@
     {
       "id": "kernel-agentic",
       "label": "Kernel Agentic Engineering",
+      "is_custom": false,
       "total_count": 9,
       "count": 5,
       "picks": [
@@ -2022,6 +1990,7 @@
     {
       "id": "system-security",
       "label": "System Security",
+      "is_custom": false,
       "total_count": 34,
       "count": 5,
       "picks": [
@@ -3209,6 +3178,7 @@
     {
       "id": "os-kernel-arch",
       "label": "OS Kernel Architecture",
+      "is_custom": false,
       "total_count": 30,
       "count": 5,
       "picks": [
@@ -4321,6 +4291,7 @@
     {
       "id": "memory-resource",
       "label": "Memory and Resource Management",
+      "is_custom": false,
       "total_count": 41,
       "count": 5,
       "picks": [
@@ -5749,6 +5720,7 @@
     {
       "id": "fs-storage",
       "label": "File System and Storage",
+      "is_custom": false,
       "total_count": 23,
       "count": 5,
       "picks": [
@@ -6598,6 +6570,7 @@
     {
       "id": "ebpf",
       "label": "eBPF and Programmable Kernel",
+      "is_custom": false,
       "total_count": 9,
       "count": 5,
       "picks": [
@@ -7029,6 +7002,7 @@
     {
       "id": "fault-tolerance",
       "label": "Fault Tolerance",
+      "is_custom": false,
       "total_count": 8,
       "count": 5,
       "picks": [
@@ -7430,6 +7404,89 @@
           "pdf_url": "https://arxiv.org/pdf/2605.04226v1",
           "dblp_url": null,
           "paper_url": "https://arxiv.org/abs/2605.04226v1",
+          "abstract": null
+        }
+      ]
+    },
+    {
+      "id": "agent-memory",
+      "label": "Agent memory",
+      "is_custom": true,
+      "total_count": 1,
+      "count": 1,
+      "picks": [
+        {
+          "rank": 1,
+          "title": "ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation",
+          "authors": [
+            "Shihao Wang",
+            "Jiahao Chen",
+            "Yanqi Pan",
+            "Hao Huang",
+            "Yichen Hao",
+            "Xiangyu Zou",
+            "Wen Xia",
+            "Wentao Zhang",
+            "Chongyang Qiu",
+            "Pengfei Wang"
+          ],
+          "category_score": 46,
+          "category_id": "agent-memory",
+          "display_score": 46,
+          "score_boost": 0,
+          "matched_tags": [
+            "retrieval",
+            "kv cache"
+          ],
+          "source": "arxiv",
+          "published": "2026-01-31T09:53:31Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2602.02579v3",
+          "pdf_url": "https://arxiv.org/pdf/2602.02579v3",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2602.02579v3",
+          "abstract": null
+        }
+      ],
+      "all_picks": [
+        {
+          "rank": 1,
+          "title": "ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation",
+          "authors": [
+            "Shihao Wang",
+            "Jiahao Chen",
+            "Yanqi Pan",
+            "Hao Huang",
+            "Yichen Hao",
+            "Xiangyu Zou",
+            "Wen Xia",
+            "Wentao Zhang",
+            "Chongyang Qiu",
+            "Pengfei Wang"
+          ],
+          "category_score": 46,
+          "category_id": "agent-memory",
+          "display_score": 46,
+          "score_boost": 0,
+          "matched_tags": [
+            "retrieval",
+            "kv cache"
+          ],
+          "source": "arxiv",
+          "published": "2026-01-31T09:53:31Z",
+          "primary_category": "cs.OS",
+          "source_feed": "cs.OS",
+          "venue": null,
+          "year": null,
+          "conference_id": null,
+          "abs_url": "https://arxiv.org/abs/2602.02579v3",
+          "pdf_url": "https://arxiv.org/pdf/2602.02579v3",
+          "dblp_url": null,
+          "paper_url": "https://arxiv.org/abs/2602.02579v3",
           "abstract": null
         }
       ]

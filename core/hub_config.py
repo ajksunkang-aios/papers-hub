@@ -105,6 +105,16 @@ class Hub:
                     "id": c["id"],
                     "label": c["label"],
                     "keywords": pairs_from_json(c["keywords"]),
+                    "is_custom": False,
+                }
+            )
+        for c in self.categories.get("custom_topics", []):
+            rows.append(
+                {
+                    "id": c["id"],
+                    "label": c["label"],
+                    "keywords": pairs_from_json(c["keywords"]),
+                    "is_custom": True,
                 }
             )
         return rows
