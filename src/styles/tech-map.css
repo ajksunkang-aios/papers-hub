@@ -1,0 +1,403 @@
+/* OS technology map */
+.tech-map-page .tech-map-main {
+  padding: 0.85rem 0 1.75rem;
+}
+
+.tech-map-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.tech-map-view-toggle,
+.tech-map-lang-toggle {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.tech-map-toggle-btn {
+  font: 600 0.78rem var(--sans);
+  padding: 0.35rem 0.7rem;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.tech-map-toggle-btn.is-active {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.tech-map-filter {
+  flex: 1 1 180px;
+  max-width: 280px;
+  margin: 0;
+}
+
+.tech-map-canvas {
+  min-height: 280px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.7rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.tech-map-graph-wrap {
+  position: relative;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.tech-map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  position: sticky;
+  top: 0.4rem;
+  z-index: 4;
+  padding: 0.25rem 0;
+  background: var(--surface-soft);
+}
+
+.tech-map-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  max-width: 100%;
+  padding: 0.22rem 0.5rem 0.22rem 0.22rem;
+  border: 1px solid color-mix(in srgb, var(--group-accent, var(--accent)) 32%, var(--border));
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  font: 600 0.68rem var(--sans);
+}
+
+.tech-map-legend-item:hover {
+  border-color: var(--group-accent, var(--accent));
+}
+
+.tech-map-legend-dot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--group-accent, var(--accent)) 16%, var(--surface));
+  color: var(--group-accent, var(--accent));
+  font-size: 0.62rem;
+}
+
+.tech-map-legend-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 11rem;
+}
+
+.tech-map-graph-layout {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.tech-map-graph-row-primary {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.tech-map-graph-row-secondary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+@media (min-width: 1100px) {
+  .tech-map-graph-row-secondary {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .tech-map-graph-group.is-primary .tech-map-orbit-grid {
+    grid-template-columns: repeat(auto-fill, minmax(10.5rem, 1fr));
+  }
+}
+
+@media (min-width: 1400px) {
+  .tech-map-graph-row-secondary {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+.tech-map-graph-group {
+  position: relative;
+  border-radius: 0.75rem;
+  padding: 0.1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  scroll-margin-top: 3.5rem;
+}
+
+.tech-map-constellation {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.65rem;
+  padding: 0.65rem 0.55rem 0.55rem;
+  background: var(--surface);
+}
+
+.tech-map-edges {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.tech-map-edge {
+  fill: none;
+  stroke-width: 1.5;
+  opacity: 0.22;
+  transition: opacity 0.15s, stroke-width 0.15s;
+}
+
+.tech-map-edge.is-lit-hover {
+  opacity: 0.7;
+  stroke-width: 2.25;
+}
+
+.tech-map-hub-stage {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.55rem;
+}
+
+.tech-map-hub {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  max-width: 100%;
+  padding: 0.35rem 0.65rem 0.35rem 0.35rem;
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--group-accent, var(--accent));
+  border: 1px solid color-mix(in srgb, var(--group-accent, var(--accent)) 32%, var(--border));
+  box-shadow: var(--shadow-sm);
+}
+
+.tech-map-hub-ordinal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--group-accent, var(--accent)) 14%, var(--surface));
+  color: var(--group-accent, var(--accent));
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.tech-map-hub-copy {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+.tech-map-hub-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--group-accent, var(--accent));
+  line-height: 1.2;
+}
+
+.tech-map-hub-count {
+  font-size: 0.68rem;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.tech-map-orbit-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  gap: 0.4rem;
+}
+
+.tech-map-node {
+  position: relative;
+  text-align: left;
+  padding: 0.4rem 0.45rem 0.45rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: var(--surface);
+  box-shadow:
+    0 1px 3px rgba(28, 28, 26, 0.04),
+    inset 2px 0 0 var(--group-accent, var(--accent));
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+
+.tech-map-node:hover,
+.tech-map-node.is-linked {
+  border-color: var(--group-accent, var(--accent));
+  box-shadow:
+    var(--shadow-md),
+    inset 2px 0 0 var(--group-accent, var(--accent));
+}
+
+.tech-map-node-header {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: transparent;
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+}
+
+.tech-map-node-header:hover .tech-map-node-label {
+  color: var(--group-accent, var(--accent));
+}
+
+.tech-map-node-label {
+  display: block;
+  font-size: 0.74rem;
+  font-weight: 650;
+  line-height: 1.3;
+}
+
+.tech-map-node-elements {
+  margin: 0.3rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+.tech-map-node-elements a {
+  display: inline-block;
+  font-size: 0.62rem;
+  font-weight: 500;
+  padding: 0.1rem 0.32rem;
+  border-radius: 999px;
+  background: var(--surface-soft);
+  color: var(--accent-strong);
+  text-decoration: none;
+  line-height: 1.25;
+}
+
+.tech-map-node-elements a:hover {
+  background: var(--accent-soft);
+}
+
+.tech-map-tree {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem 1rem;
+}
+
+.tech-map-tree-group-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 0.35rem;
+  font-size: 0.88rem;
+  color: var(--group-accent, var(--accent));
+}
+
+.tech-map-tree-ordinal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--group-accent, var(--accent)) 14%, var(--surface));
+  font-size: 0.65rem;
+  font-weight: 700;
+}
+
+.tech-map-tree-root {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.tech-map-tree-topic-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font: 600 0.8rem var(--sans);
+  padding: 0.28rem 0.4rem;
+  border: none;
+  border-radius: 0.35rem;
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tech-map-tree-topic-btn:hover {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.tech-map-tree-elements {
+  margin: 0.15rem 0 0 0.7rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  font-size: 0.72rem;
+}
+
+.tech-map-tree-elements a {
+  display: inline-block;
+  padding: 0.08rem 0.32rem;
+  border-radius: 999px;
+  background: var(--surface-soft);
+  color: var(--accent-strong);
+  text-decoration: none;
+  font-size: 0.62rem;
+}
+
+.tech-map-tree-elements a:hover {
+  background: var(--accent-soft);
+}
+
+@media (max-width: 960px) {
+  .tech-map-graph-row-secondary,
+  .tech-map-tree {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-map-legend-label {
+    max-width: 8rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tech-map-node {
+    transition: none;
+  }
+}

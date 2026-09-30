@@ -1,0 +1,114 @@
+/* arXiv list */
+.arxiv-paper-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.65rem;
+}
+
+.arxiv-card-compact {
+  padding: 0.85rem 1rem;
+}
+
+.arxiv-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+}
+
+.badge {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+}
+
+.arxiv-date {
+  color: var(--muted);
+}
+
+.arxiv-title {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.arxiv-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.arxiv-title a:hover {
+  color: var(--accent);
+}
+
+.authors-compact {
+  margin: 0 0 0.35rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.arxiv-card-compact .abstract-snippet {
+  margin: 0 0 0.45rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.meta-compact {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.meta-compact a {
+  text-decoration: none;
+}
+
+.meta-compact a:hover {
+  text-decoration: underline;
+}
+
+.paper-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.empty-compact,
+.empty {
+  padding: 1rem;
+  text-align: center;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.9rem;
+}
+
+.site-footer {
+  padding: 1.25rem 0 2rem;
+  border-top: 1px solid var(--border);
+  margin-top: 0.5rem;
+  background: var(--surface);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.site-footer a {
+  color: var(--accent);
+}
+
+.site-footer a:hover {
+  color: var(--accent-strong);
+}
+
+.site-footer p {
+  margin: 0;
+}

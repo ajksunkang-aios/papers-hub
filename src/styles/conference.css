@@ -1,0 +1,244 @@
+/* Conference detail page */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.stats div {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.stats dt {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0;
+}
+
+.stats dd {
+  margin: 0.2rem 0 0;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.conf-page .toolbar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg);
+  padding: 0.75rem 0 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 0 0.75rem;
+}
+
+.search input {
+  width: 100%;
+  font: 1rem var(--sans);
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.conf-page .search {
+  flex: 1;
+  min-width: min(100%, 280px);
+}
+
+.paper-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-bottom: 3rem;
+}
+
+.paper-list-dense {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.paper-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.75rem 1.25rem;
+  align-items: start;
+  padding: 0.85rem 1.1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.paper-row:last-child {
+  border-bottom: none;
+}
+
+.paper-row-skeleton {
+  pointer-events: none;
+}
+
+.paper-row-skeleton .skeleton-line {
+  height: 0.75rem;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--surface-soft) 0%, var(--surface) 50%, var(--surface-soft) 100%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.2s ease-in-out infinite;
+}
+
+.paper-row-skeleton .skeleton-title {
+  width: 72%;
+  height: 0.9rem;
+  margin-bottom: 0.45rem;
+}
+
+.paper-row-skeleton .skeleton-authors {
+  width: 48%;
+}
+
+.paper-row-skeleton .skeleton-meta {
+  width: 4rem;
+  justify-self: end;
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .paper-row-skeleton .skeleton-line {
+    animation: none;
+    background: var(--surface-soft);
+  }
+}
+
+.paper-row:hover {
+  background: var(--surface-soft);
+}
+
+.paper-row-title {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.paper-row-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.paper-row-title a:hover {
+  color: var(--accent);
+}
+
+.paper-row-authors {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.paper-row-meta {
+  flex-shrink: 0;
+  text-align: right;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+  min-width: 5rem;
+}
+
+.paper-row-meta a {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.paper-row-meta a:hover {
+  text-decoration: underline;
+}
+
+.paper-pages {
+  color: var(--muted);
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+}
+
+@media (max-width: 960px) {
+  .top-categories {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .timeline-events--grid {
+    grid-template-columns: 1fr;
+  }
+
+  .top-pick {
+    grid-template-columns: 1.75rem 1fr;
+  }
+
+  .top-pick-aside {
+    grid-column: 2;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .paper-row {
+    grid-template-columns: 1fr;
+  }
+
+  .paper-row-meta {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+  }
+
+  .latest-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .arxiv-paper-list {
+    grid-template-columns: 1fr;
+  }
+
+  .hub-section-head {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hub-search {
+    max-width: none;
+  }
+}

@@ -1,0 +1,213 @@
+/* Today's top papers */
+.broadcast-hub {
+  border-top: 3px solid var(--broadcast);
+  background: var(--surface);
+}
+
+.broadcast-head h2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin: 0;
+  color: #1a3a6a;
+  font-size: 1.15rem;
+}
+
+.broadcast-head .broadcast-live {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: #fff;
+  background: var(--live);
+  padding: 0.2rem 0.45rem;
+  border-radius: 3px;
+}
+
+.broadcast-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 0.85rem;
+}
+
+.broadcast-card {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 0.65rem 0.85rem;
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  align-items: start;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.broadcast-card:hover {
+  border-color: var(--broadcast);
+  box-shadow: var(--shadow-md);
+}
+
+.broadcast-rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--surface-soft);
+  border: 1px solid var(--border-strong);
+  color: var(--ink-soft);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.broadcast-card-body {
+  min-width: 0;
+}
+
+.broadcast-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.6rem;
+  margin-bottom: 0.3rem;
+}
+
+.broadcast-date {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.broadcast-title {
+  margin: 0 0 0.25rem;
+  font-size: 0.98rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.broadcast-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.broadcast-title a:hover {
+  color: var(--accent);
+}
+
+.broadcast-authors {
+  margin: 0 0 0.35rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.broadcast-abstract {
+  margin: 0 0 0.45rem;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  color: var(--muted);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  overflow: hidden;
+}
+
+.broadcast-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.35rem;
+}
+
+.broadcast-tag {
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.broadcast-area {
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  background: var(--surface-soft);
+  color: var(--ink-soft);
+  border: 1px solid var(--border);
+}
+
+.broadcast-actions {
+  margin-top: 0.65rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.broadcast-more-btn {
+  margin-top: 0;
+}
+
+.broadcast-note {
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+  font-size: 0.78rem;
+}
+
+.broadcast-utc {
+  font-family: var(--sans);
+  font-size: 0.85em;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.top-picks-mode-btn:focus-visible,
+.top-year-btn:focus-visible,
+.broadcast-more-btn:focus-visible,
+.top-more-btn:focus-visible,
+.timeline-marker:focus-visible,
+.hub-search input:focus-visible,
+.latest-card:focus-visible,
+.year-pill:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timeline-event--focus,
+  .hub-section,
+  .broadcast-card,
+  .latest-card,
+  .top-category-panel,
+  .timeline-event,
+  .timeline-past-chip,
+  .year-pill {
+    transition: none;
+  }
+
+  .broadcast-card:hover,
+  .latest-card:hover,
+  .hub-section:hover,
+  .top-category-panel:hover,
+  .timeline-event:hover,
+  .timeline-past-chip:hover,
+  .year-pill:hover {
+    transform: none;
+  }
+
+  .timeline-event--focus {
+    transition: none;
+  }
+
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+}

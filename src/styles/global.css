@@ -1,0 +1,21 @@
+/* AgentOS Papers Hub — global stylesheet.
+ *
+ * Modular CSS: each section lives in its own file under src/styles/.
+ * This file imports them all; Vite inlines and minifies them into a
+ * single dist/styles.css at build time.
+ */
+@import "./base.css";
+@import "./header.css";
+@import "./timeline.css";
+@import "./broadcast.css";
+@import "./top-picks.css";
+@import "./hub-home.css";
+@import "./arxiv-list.css";
+@import "./conference.css";
+@import "./country-analytics.css";
+@import "./author-analysis.css";
+@import "./search.css";
+@import "./tech-map.css";
+@import "./back-to-top.css";
+@import "./contact.css";
+@import "./timeline-view.css";
