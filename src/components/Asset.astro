@@ -1,0 +1,49 @@
+---
+// Asset reference with automatic content-hash cache-busting.
+//
+// Usage:
+//   <Asset href="styles.css" rel="stylesheet" />
+//   <Asset src="hub.js" type="module" is:inline />
+//
+// At build time, reads the file from public/ and appends ?v=<content-hash>
+// so a changed file gets a new URL and browsers never serve stale JS/CSS.
+// This replaces the hand-maintained ?v=N scheme.
+import { createHash } from "node:crypto";
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+
+interface Props {
+  href?: string;
+  src?: string;
+  rel?: string;
+  type?: string;
+  [key: string]: any;
+}
+
+const { href, src, rel, type, ...rest } = Astro.props;
+const assetPath = src || href || "";
+
+let versioned = assetPath;
+if (assetPath && !assetPath.startsWith("http") && !assetPath.startsWith("//")) {
+  try {
+    // Resolve against the project root (cwd at build time) + public/.
+    const { resolve } = await import("node:path");
+    const filePath = resolve(process.cwd(), "public", assetPath);
+    const content = readFileSync(filePath);
+    const hash = createHash("md5").update(content).digest("hex").slice(0, 8);
+    versioned = `${assetPath}?v=${hash}`;
+  } catch {
+    // File not found in public/ (e.g. data JSON fetched at runtime);
+    // fall back to the raw path with a build timestamp.
+    versioned = `${assetPath}?v=${Date.now().toString(36)}`;
+  }
+}
+---
+
+{
+  src ? (
+    <script src={versioned} type={type} is:inline {...rest} />
+  ) : (
+    <link href={versioned} rel={rel || "stylesheet"} {...rest} />
+  )
+}

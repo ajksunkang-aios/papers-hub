@@ -1,5 +1,6 @@
 ---
 import Sidebar from "../components/Sidebar.astro";
+import Asset from "../components/Asset.astro";
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +14,7 @@ import Sidebar from "../components/Sidebar.astro";
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=83" />
+    <Asset href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <Sidebar currentPage="conference" />
@@ -51,8 +52,8 @@ import Sidebar from "../components/Sidebar.astro";
       </p>
     </footer>
 
-    <script src="conference.js?v=7" type="module" is:inline></script>
-    <script src="back-to-top.js?v=1" is:inline></script>
-    <script src="sidebar.js?v=1" is:inline></script>
+    <Asset src="conference.js" type="module" />
+    <Asset src="back-to-top.js" />
+    <Asset src="sidebar.js" />
   </body>
 </html>
