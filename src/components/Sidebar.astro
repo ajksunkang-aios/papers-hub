@@ -1,0 +1,63 @@
+---
+// Shared sidebar: brand, primary nav, custom topics, contact, github.
+// Include this on every page so nav changes only touch this one file.
+//
+// Usage: <Sidebar currentPage="index" />
+// currentPage matches the basename of the page (index, tech-map, search, …)
+// or "area-picks" for all area-picks pages.
+interface Props {
+  currentPage?: string;
+}
+const { currentPage = "" } = Astro.props;
+
+const navItems: { href: string; label: string; page: string }[] = [
+  { href: "index.html", label: "Home", page: "index" },
+  { href: "tech-map.html", label: "Tech map", page: "tech-map" },
+  { href: "search.html", label: "Search", page: "search" },
+  { href: "country-analytics.html", label: "Country analytics", page: "country-analytics" },
+  { href: "author-analytics.html", label: "Author analysis", page: "author-analytics" },
+];
+
+const customTopics: { href: string; label: string }[] = [
+  { href: "area-picks.html?topic=agent-memory", label: "Agent memory" },
+];
+---
+
+<button class="sidebar-toggle" aria-label="Toggle navigation" aria-expanded="false">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
+<aside class="app-sidebar" id="app-sidebar">
+  <div class="sidebar-brand"><a href="index.html">AgentOS Papers Hub</a></div>
+  <nav class="sidebar-nav" aria-label="Primary">
+    {
+      navItems.map((item) => (
+        <a
+          class="sidebar-nav-item"
+          href={item.href}
+          aria-current={currentPage === item.page ? "page" : undefined}
+        >
+          {item.label}
+        </a>
+      ))
+    }
+    <p class="sidebar-nav-group-label">Custom topics</p>
+    {
+      customTopics.map((item) => (
+        <a
+          class:list={["sidebar-nav-item", "sidebar-nav-item--custom"]}
+          href={item.href}
+          aria-current={currentPage === "area-picks" ? "page" : undefined}
+        >
+          {item.label}
+        </a>
+      ))
+    }
+    <a class:list={["sidebar-nav-item", "sidebar-nav-item--contact"]} href="contact.html" aria-current={currentPage === "contact" ? "page" : undefined}>
+      <svg class="sidebar-mail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Contact
+    </a>
+    <a class:list={["sidebar-nav-item", "sidebar-nav-item--github"]} href="https://github.com/ajksunkang-aios/papers-hub" target="_blank" rel="noopener noreferrer">
+      <svg class="sidebar-github-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 6.16 7.59.45.08.61-.2.45-.45v-1.69c-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.39.82.81 1.19 2.12.85 2.64.65.08-.52.31-.85.56-1.05-1.78-.2-3.64-.89-3.64-3.48 0-.77.27-1.4.71-1.89-.1-.25-.45-1.28.1-1.84 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 8 4.77c.85.004 1.71.115 2.51.337 1.91-1.58 2.75-1.27 2.75-1.27.55 1.96.2 2.24.1 2.84.62.49 1 1.11 1 1.89 0 2.48-1.87 3.28-3.65 3.48.32.27.6.82.6 1.66v2.52c0 .35 0 .73.45.45A10.03 10.03 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub
+    </a>
+  </nav>
+</aside>
+<div class="sidebar-backdrop"></div>

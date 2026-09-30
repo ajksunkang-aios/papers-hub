@@ -1,0 +1,58 @@
+---
+import Sidebar from "../components/Sidebar.astro";
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conference Papers | AgentOS Papers Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=83" />
+  </head>
+  <body>
+    <Sidebar currentPage="conference" />
+
+    <header class="site-header">
+      <div class="wrap">
+        <p class="eyebrow"><a id="back-link" href="index.html">All conferences</a></p>
+        <h1 id="page-title">Conference</h1>
+        <p class="lede" id="page-subtitle"></p>
+        <dl class="stats" id="stats"></dl>
+      </div>
+    </header>
+
+    <main class="wrap conf-page">
+      <section class="toolbar toolbar-sticky" aria-label="Filters">
+        <label class="search">
+          <span class="sr-only">Search papers</span>
+          <input
+            id="search"
+            type="search"
+            placeholder="Search title or author..."
+            autocomplete="off"
+          />
+        </label>
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+      </section>
+
+      <section id="paper-list" class="paper-list paper-list-dense" aria-label="Paper list"></section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <p>
+        Data source: <span id="source-links"></span>
+        | Generated <time id="generated-at"></time>
+      </p>
+    </footer>
+
+    <script src="conference.js?v=7" type="module" is:inline></script>
+    <script src="back-to-top.js?v=1" is:inline></script>
+    <script src="sidebar.js?v=1" is:inline></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+---
+import Sidebar from "../components/Sidebar.astro";
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact information for AgentOS Papers Hub." />
+    <title>Contact | AgentOS Papers Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=83" />
+  </head>
+  <body>
+    <Sidebar currentPage="contact" />
+
+    <header class="site-header">
+      <div class="wrap">
+        <p class="eyebrow">Get in touch</p>
+        <h1>Contact</h1>
+        <p class="lede">Questions, corrections, or paper suggestions? Reach out by email.</p>
+      </div>
+    </header>
+
+    <main class="wrap contact-page">
+      <section class="contact-card" aria-label="Email contact">
+        <div class="contact-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </div>
+        <div class="contact-card-body">
+          <p class="contact-card-label">Email</p>
+          <p class="contact-card-value">ajksunkang@gmail.com</p>
+          <p class="contact-card-note">Copy the address above or write to it directly from your mail client.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <p>Data: <a href="https://arxiv.org/">arXiv</a> &middot; <a href="https://dblp.org/">dblp</a></p>
+    </footer>
+
+    <script src="back-to-top.js?v=1" is:inline></script>
+    <script src="sidebar.js?v=1" is:inline></script>
+  </body>
+</html>
