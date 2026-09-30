@@ -199,6 +199,7 @@ MIN_CONFERENCE_PREVIEW = 2
 RECENCY_BOOST_PER_YEAR = 2
 RECENCY_BASE_YEAR = 2023
 _ACTIVE_WEB_DATA = WEB_DATA
+_ACTIVE_HUB = None
 
 # Fallback scoring context when no abstract was enriched for a proceedings paper.
 VENUE_SCORE_HINTS: dict[str, str] = {
@@ -218,7 +219,7 @@ VENUE_SCORE_HINTS: dict[str, str] = {
 def configure_hub(hub: Hub) -> None:
     global CATEGORIES, MIN_CATEGORY_SCORE, PER_CATEGORY_LIMIT, DEFAULT_YEARS, DEFAULT_ARXIV_YEARS
     global CONFERENCE_SCORE_BOOST, MIN_CONFERENCE_PREVIEW, RECENCY_BOOST_PER_YEAR, RECENCY_BASE_YEAR
-    global _ACTIVE_WEB_DATA
+    global _ACTIVE_WEB_DATA, _ACTIVE_HUB
     CATEGORIES = hub.category_rows
     MIN_CATEGORY_SCORE = int(hub.categories.get("min_category_score", MIN_CATEGORY_SCORE))
     PER_CATEGORY_LIMIT = int(hub.categories.get("per_category_limit", PER_CATEGORY_LIMIT))
@@ -231,6 +232,7 @@ def configure_hub(hub: Hub) -> None:
     RECENCY_BOOST_PER_YEAR = int(ranking.get("recency_boost_per_year", RECENCY_BOOST_PER_YEAR))
     RECENCY_BASE_YEAR = int(ranking.get("recency_base_year", RECENCY_BASE_YEAR))
     _ACTIVE_WEB_DATA = hub.web_data
+    _ACTIVE_HUB = hub
 
 
 @dataclass
@@ -312,6 +314,24 @@ def format_period_label(years: list[int]) -> str:
     return f"{years[0]}\u2013{years[-1]}"
 
 
+def _paper_to_candidate(p: dict) -> PaperCandidate | None:
+    """Convert one arxiv paper dict (recent or history) to a PaperCandidate."""
+    if not passes_top_arxiv_gate(p):
+        return None
+    return PaperCandidate(
+        title=p["title"],
+        authors=p.get("authors", []),
+        text=AreaPickScoring.paper_text(p),
+        source="arxiv",
+        published=p.get("published"),
+        primary_category=p.get("primary_category"),
+        source_feed=p.get("source_feed"),
+        abs_url=p.get("abs_url"),
+        pdf_url=p.get("pdf_url"),
+        paper_url=p.get("abs_url"),
+    )
+
+
 def load_arxiv_candidates(years: list[int]) -> list[PaperCandidate]:
     year_set = set(years)
     path = _ACTIVE_WEB_DATA / "arxiv-recent.json"
@@ -323,23 +343,27 @@ def load_arxiv_candidates(years: list[int]) -> list[PaperCandidate]:
         pub_year = parse_year(p.get("published", ""))
         if pub_year not in year_set:
             continue
-        if not passes_top_arxiv_gate(p):
-            continue
-        text = AreaPickScoring.paper_text(p)
-        out.append(
-            PaperCandidate(
-                title=p["title"],
-                authors=p.get("authors", []),
-                text=text,
-                source="arxiv",
-                published=p.get("published"),
-                primary_category=p.get("primary_category"),
-                source_feed=p.get("source_feed"),
-                abs_url=p.get("abs_url"),
-                pdf_url=p.get("pdf_url"),
-                paper_url=p.get("abs_url"),
-            )
-        )
+        c = _paper_to_candidate(p)
+        if c:
+            out.append(c)
+    # Merge in back-filled historical papers for custom topics, if present.
+    # These are crawled by crawl_arxiv_history.py and stored per topic under
+    # data/arxiv-history/<topic>.json. Only custom topics get history merged,
+    # so the homepage area pool is unaffected.
+    history_dir = _ACTIVE_HUB.root / "data" / "arxiv-history"
+    if history_dir.is_dir():
+        for hist_file in sorted(history_dir.glob("*.json")):
+            try:
+                hist = json.loads(hist_file.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                continue
+            for p in hist.get("papers", []):
+                pub_year = parse_year(p.get("published", ""))
+                if pub_year not in year_set:
+                    continue
+                c = _paper_to_candidate(p)
+                if c:
+                    out.append(c)
     return out
 
 
