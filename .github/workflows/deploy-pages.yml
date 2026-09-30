@@ -43,6 +43,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: pnpm
+
+      - name: Install pnpm
+        run: npm install -g pnpm@9
+
+      - name: Install JS dependencies
+        run: pnpm install --frozen-lockfile
+
       - name: Cache dblp XML
         uses: actions/cache@v4
         with:
@@ -74,51 +86,59 @@ jobs:
           ARXIV_FORCE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.arxiv_force == 'true' && '1' || '0' }}
         run: ./scripts/daily_update.sh
 
+      - name: Build static site (Astro)
+        env:
+          ASTRO_TELEMETRY_DISABLED: "1"
+        run: pnpm run build
+
       - name: Verify site output
         run: |
-          test -f website/index.html
-          test -f website/country-analytics.html
-          test -f website/data/country-analytics.json
-          test -f website/author-analytics.html
-          test -f website/data/author-analytics.json
-          test -f website/search.html
-          test -f website/search.js
-          test -f website/data/search-index.json
-          test -f website/tech-map.html
-          test -f website/tech-map.js
-          test -f website/data/tech-map.json
-          test -f website/data/conferences.json
-          test -f website/data/top-monthly.json
-          test -f website/data/today-broadcast.json
-          test -f website/today-broadcast-data.js
+          test -f public/index.html
+          test -f public/country-analytics.html
+          test -f public/data/country-analytics.json
+          test -f public/author-analytics.html
+          test -f public/data/author-analytics.json
+          test -f public/search.html
+          test -f public/search.js
+          test -f public/data/search-index.json
+          test -f public/tech-map.html
+          test -f public/tech-map.js
+          test -f public/data/tech-map.json
+          test -f public/data/conferences.json
+          test -f public/data/top-monthly.json
+          test -f public/data/today-broadcast.json
+          test -f public/today-broadcast-data.js
+          test -f dist/index.html
+          test -f dist/area-picks.html
+          test -f dist/data/top-monthly.json
           python3 - <<'PY'
           import json
           from pathlib import Path
-          p = json.loads(Path("website/data/today-broadcast.json").read_text(encoding="utf-8"))
+          p = json.loads(Path("public/data/today-broadcast.json").read_text(encoding="utf-8"))
           for key in ("generated_at", "date_label", "picks", "all_picks"):
               if key not in p:
                   raise SystemExit(f"today-broadcast.json missing {key!r}")
           print(f"broadcast ok: {p['date_label']} ({len(p.get('picks', []))} preview / {len(p.get('all_picks', []))} total)")
 
-          search = json.loads(Path("website/data/search-index.json").read_text(encoding="utf-8"))
+          search = json.loads(Path("public/data/search-index.json").read_text(encoding="utf-8"))
           for key in ("generated_at", "count", "papers", "match_fields"):
               if key not in search:
                   raise SystemExit(f"search-index.json missing {key!r}")
           print(f"search index ok: papers={search.get('count')}")
 
-          country = json.loads(Path("website/data/country-analytics.json").read_text(encoding="utf-8"))
+          country = json.loads(Path("public/data/country-analytics.json").read_text(encoding="utf-8"))
           cov = country.get("coverage") or {}
           print(
               f"country analytics (from repo/monthly job): papers={cov.get('total_papers')} "
               f"resolved={cov.get('resolved')}"
           )
           PY
-          echo "Pages artifact: $(du -sh website | cut -f1)"
+          echo "Pages artifact: $(du -sh dist | cut -f1)"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: website
+          path: dist
 
   deploy:
     needs: build

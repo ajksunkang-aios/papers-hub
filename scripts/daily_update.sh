@@ -65,8 +65,8 @@ run_daily() {
       run "dblp build" "$PYTHON" parse_dblp_xml.py "${HUB_FLAG[@]}" --build-website --if-stale
       run "conference timeline" "$PYTHON" build_conference_timeline.py "${HUB_FLAG[@]}"
     else
-      echo "=== skip dblp build (download failed; using committed website/data/*.json) ==="
-      if [[ -f "$ROOT/website/data/conferences.json" ]]; then
+      echo "=== skip dblp build (download failed; using committed public/data/*.json) ==="
+      if [[ -f "$ROOT/public/data/conferences.json" ]]; then
         run "conference timeline" "$PYTHON" build_conference_timeline.py "${HUB_FLAG[@]}"
       else
         echo "  WARNING: no cached conferences.json; dblp-dependent views will be stale"
@@ -178,8 +178,8 @@ PYEOF
     echo "=== skip country analytics (DAILY_SKIP_COUNTRY_ANALYTICS=1) ==="
   fi
   run "broadcast" "$PYTHON" build_today_broadcast.py "${HUB_FLAG[@]}"
-  if [[ -f "$ROOT/website/data/today-broadcast.json" ]]; then
-    echo "  broadcast generated_at: $(grep -m1 '"generated_at"' "$ROOT/website/data/today-broadcast.json" || true)"
+  if [[ -f "$ROOT/public/data/today-broadcast.json" ]]; then
+    echo "  broadcast generated_at: $(grep -m1 '"generated_at"' "$ROOT/public/data/today-broadcast.json" || true)"
   fi
   run "sync hub meta" "$PYTHON" scripts/sync_hub_meta.py "${HUB_FLAG[@]}"
   run "sync tech map" "$PYTHON" scripts/sync_tech_map.py "${HUB_FLAG[@]}"

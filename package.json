@@ -1,0 +1,14 @@
+{
+  "name": "papers-hub",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev --port 8765",
+    "build": "astro build",
+    "preview": "astro preview --port 8765"
+  },
+  "devDependencies": {
+    "astro": "^7.3.5"
+  }
+}
