@@ -58,7 +58,8 @@ jobs:
             data/arxiv-cache
             data/abstract-enrich-os-kernel.json
             data/dblp-build-os-kernel.json
-          key: papers-hub-build-${{ runner.os }}-${{ hashFiles('hubs/os-kernel/**', 'core/**', 'crawl_arxiv_recent.py', 'build_top_monthly.py', 'parse_dblp_xml.py') }}
+            data/arxiv-history
+          key: papers-hub-build-${{ runner.os }}-${{ hashFiles('hubs/os-kernel/**', 'core/**', 'crawl_arxiv_recent.py', 'crawl_arxiv_history.py', 'build_top_monthly.py', 'parse_dblp_xml.py') }}
           restore-keys: |
             papers-hub-build-${{ runner.os }}-
 

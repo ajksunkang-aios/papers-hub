@@ -88,6 +88,36 @@ run_daily() {
     echo "=== skip arxiv (DAILY_SKIP_ARXIV=1) ==="
   fi
 
+  # Historical arXiv back-fill for custom topics (e.g. agent-memory).
+  # crawl_arxiv_history.py walks the Query API backwards in time so the
+  # timeline view can show the full history (MemGPT/mem0/…), not just the
+  # recent window. Re-crawl weekly (168h) to limit rate-limit load; degrade
+  # gracefully — a failure here must NOT abort the daily build (recent picks
+  # still work off arxiv-recent.json alone).
+  if [[ "${DAILY_SKIP_ARXIV:-0}" != "1" ]]; then
+    HIST_CATS_JSON="$ROOT/hubs/${HUB}/categories.json"
+    if [[ -f "$HIST_CATS_JSON" ]]; then
+      # Topic ids listed under custom_topics in categories.json.
+      TOPIC_IDS=$("$PYTHON" - "$HIST_CATS_JSON" <<'PYEOF'
+import json, sys
+d = json.load(open(sys.argv[1]))
+for t in d.get("custom_topics", []):
+    print(t["id"])
+PYEOF
+      )
+      for TID in $TOPIC_IDS; do
+        set +e
+        run "arxiv history: $TID" "$PYTHON" crawl_arxiv_history.py \
+          "${HUB_FLAG[@]}" --topic "$TID" --max-per-query 500 --if-stale-hours 168
+        HIST_RC=$?
+        set -e
+        if [[ $HIST_RC -ne 0 ]]; then
+          echo "=== arxiv history crawl for $TID failed (rc=$HIST_RC); continuing with recent-only data ==="
+        fi
+      done
+    fi
+  fi
+
   if [[ "${ABSTRACT_SKIP:-0}" == "1" ]]; then
     echo "=== skip abstracts (ABSTRACT_SKIP=1) ==="
   else

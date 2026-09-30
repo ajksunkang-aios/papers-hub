@@ -229,12 +229,28 @@ def main() -> int:
     parser.add_argument("--max-per-query", type=int, default=1000,
                         help="max papers per query (default 1000)")
     parser.add_argument("--out", default=None, help="output path (default data/arxiv-history/<topic>.json)")
+    parser.add_argument("--if-stale-hours", type=int, default=0,
+                        help="skip crawl if output file exists and is younger than N hours "
+                             "(0 = always crawl; use 168 on CI to re-crawl weekly)")
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parent
     hub_dir = root / "hubs" / args.hub
     if not hub_dir.is_dir():
         raise SystemExit(f"hub dir not found: {hub_dir}")
+
+    out_dir = root / "data" / "arxiv-history"
+    out_path = Path(args.out) if args.out else out_dir / f"{args.topic}.json"
+
+    # Staleness guard: skip if the cache is fresh enough. arXiv history
+    # changes slowly (a few new papers per week), so a 7-day cadence is
+    # plenty and avoids burning CI minutes / hitting rate limits daily.
+    if args.if_stale_hours > 0 and out_path.is_file():
+        age_hours = (datetime.now(timezone.utc).timestamp() - out_path.stat().st_mtime) / 3600
+        if age_hours < args.if_stale_hours:
+            print(f"=== crawl_arxiv_history: skip {args.topic!r} — cache is {age_hours:.1f}h old "
+                  f"(< {args.if_stale_hours}h threshold) ===")
+            return 0
 
     topic_label, keywords = load_topic_config(hub_dir, args.topic)
     categories = [c.strip() for c in args.categories.split(",") if c.strip()]
@@ -245,9 +261,7 @@ def main() -> int:
     papers = crawl_topic(topic_label, keywords, categories, args.max_per_query)
     print(f"\n=== total unique papers: {len(papers)} ===")
 
-    out_dir = root / "data" / "arxiv-history"
     out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = Path(args.out) if args.out else out_dir / f"{args.topic}.json"
     payload = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "hub_id": args.hub,
