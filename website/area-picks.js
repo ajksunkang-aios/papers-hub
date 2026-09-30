@@ -1,6 +1,7 @@
 import {
   areaPicksPageUrl,
   filterPicksByYears,
+  pickCalendarYear,
   renderPickRow,
   sortedUniqueYears,
   withDisplayRanks,
@@ -90,6 +91,54 @@ function renderList(picks, highlightConference) {
   list.innerHTML = picks.map((p) => renderPickRow(p, { highlightConference })).join("");
 }
 
+/**
+ * Timeline view for custom topics: group all papers by calendar year,
+ * newest first (2026 → 2025 → … → oldest), ignoring the homepage's
+ * year-window. Each year is a section heading with its paper count, and
+ * the list beneath repeats the standard pick row markup.
+ */
+function renderTimeline(picks, highlightConference) {
+  const list = document.getElementById("area-picks-list");
+  const countEl = document.getElementById("area-result-count");
+  if (!list) return;
+  if (!picks.length) {
+    list.innerHTML = "";
+    if (countEl) countEl.textContent = "No papers match your filters.";
+    return;
+  }
+
+  // Group by year (null/unknown lumped under "Undated"), sort newest first.
+  const byYear = new Map();
+  for (const p of picks) {
+    const y = pickCalendarYear(p);
+    const key = y === null ? null : y;
+    if (!byYear.has(key)) byYear.set(key, []);
+    byYear.get(key).push(p);
+  }
+  const yearsDesc = [...byYear.keys()].sort((a, b) => {
+    if (a === null) return 1;
+    if (b === null) return -1;
+    return b - a;
+  });
+
+  if (countEl) countEl.textContent = `${picks.length} paper${picks.length === 1 ? "" : "s"} · ${yearsDesc.length} years`;
+
+  const parts = [];
+  for (const y of yearsDesc) {
+    const group = byYear.get(y);
+    const label = y === null ? "Undated" : String(y);
+    parts.push(
+      `<li class="timeline-year-group">` +
+        `<h2 class="timeline-year-heading">${escapeHtml(label)} <span class="timeline-year-count">${group.length}</span></h2>` +
+        `<ol class="timeline-year-picks">` +
+          group.map((p) => renderPickRow(p, { highlightConference })).join("") +
+        `</ol>` +
+      `</li>`
+    );
+  }
+  list.innerHTML = parts.join("");
+}
+
 async function main() {
 
   const { mode, area, topic, years: yearsParam } = parseQuery();
@@ -120,6 +169,38 @@ async function main() {
   if (!cat) {
     document.getElementById("area-title").textContent = "Unknown area";
     document.getElementById("area-meta").textContent = `No category "${area}" in ${mode} data.`;
+    return;
+  }
+
+  // Custom topics render as a full-history timeline (newest year first),
+  // ignoring the homepage's pick-year window, so the full back-filled
+  // history is visible rather than only the current 2025–2026 slice.
+  if (isCustomTopic) {
+    const allPicks = cat.all_picks?.length ? cat.all_picks : cat.picks || [];
+    const visible = withDisplayRanks(allPicks);
+
+    document.title = `${cat.label} | AgentOS Papers Hub`;
+    document.getElementById("area-title").textContent = cat.label;
+    document.getElementById("area-subtitle").textContent = `Custom topic · ${modeLabel(mode).toLowerCase()} timeline`;
+    const built = data.generated_at ? `Updated ${formatGeneratedAt(data.generated_at)}` : "";
+    const ys = visible.map(pickCalendarYear).filter((y) => y !== null);
+    const yearSpan = ys.length ? (Math.min(...ys) === Math.max(...ys) ? `${Math.max(...ys)}` : `${Math.max(...ys)}–${Math.min(...ys)}`) : "";
+    document.getElementById("area-meta").textContent =
+      `${visible.length} papers${yearSpan ? ` · ${yearSpan}` : ""} · ${modeLabel(mode)}${built ? ` · ${built}` : ""}`;
+    document.getElementById("area-note").textContent = data.note || "";
+
+    // No year filter buttons in timeline view; the timeline is the filter.
+    const yearFilters = document.getElementById("area-year-filters");
+    if (yearFilters) yearFilters.innerHTML = "";
+
+    const searchInput = document.getElementById("area-search");
+    const applySearch = () => {
+      const q = searchInput.value.trim().toLowerCase();
+      const filtered = q ? visible.filter((p) => matchesSearch(p, q)) : visible;
+      renderTimeline(filtered, highlightConference);
+    };
+    searchInput.addEventListener("input", applySearch);
+    applySearch();
     return;
   }
 

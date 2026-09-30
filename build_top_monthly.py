@@ -358,9 +358,10 @@ def load_arxiv_candidates(years: list[int]) -> list[PaperCandidate]:
             except (json.JSONDecodeError, OSError):
                 continue
             for p in hist.get("papers", []):
-                pub_year = parse_year(p.get("published", ""))
-                if pub_year not in year_set:
-                    continue
+                # History files are back-filled across all years on purpose;
+                # don't narrow them to the current arxiv_years window (which
+                # only covers the recent slice), so the timeline view can
+                # show the full history.
                 c = _paper_to_candidate(p)
                 if c:
                     out.append(c)
