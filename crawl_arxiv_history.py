@@ -156,14 +156,61 @@ def fetch_page(session: requests.Session, search_query: str, start: int, max_res
     return [], 0
 
 
-def crawl_topic(topic_label: str, keywords: list[str], categories: list[str], max_per_query: int) -> list[dict]:
+def fetch_by_ids(session: requests.Session, arxiv_ids: list[str]) -> list[dict]:
+    """Fetch papers by arxiv id directly (id_list query).
+
+    Used for must_include_arxiv_ids — classic / seminal works whose titles
+    don't match the keyword queries (e.g. Memory3's title is LaTeX
+    '$\\text{Memory}^3$', MemOS isn't a query keyword). This guarantees they
+    land in the pool regardless of keyword matching.
+    """
+    if not arxiv_ids:
+        return []
+    papers: list[dict] = []
+    # arXiv id_list accepts comma-separated ids; batch to avoid URL limits.
+    for i in range(0, len(arxiv_ids), 20):
+        batch = arxiv_ids[i:i + 20]
+        id_list = ",".join(batch)
+        throttle()
+        params = {"id_list": id_list, "max_results": len(batch)}
+        try:
+            resp = session.get(ARXIV_API, params=params, timeout=90)
+        except requests.RequestException as e:
+            print(f"  id_list fetch error: {e}", file=sys.stderr)
+            continue
+        if resp.status_code != 200:
+            print(f"  id_list status {resp.status_code}", file=sys.stderr)
+            continue
+        try:
+            root = ET.fromstring(resp.content)
+        except ET.ParseError:
+            continue
+        for entry in root.findall("atom:entry", ATOM_NS):
+            p = parse_entry(entry)
+            if p:
+                papers.append(p)
+    return papers
+
+
+def crawl_topic(
+    topic_label: str,
+    keywords: list[str],
+    categories: list[str],
+    max_per_query: int,
+    must_include_ids: list[str] | None = None,
+) -> list[dict]:
     """Crawl all matching papers for a topic.
 
-    Strategy: run one keyword-only query per keyword (arXiv's `all:` search
-    covers every category), then optionally one per category for the *primary*
-    keyword only. This avoids the keyword×category cross-product blowup
-    (15 keywords × 7 categories = 105 slow queries) while still surfacing
-    papers that mention the keyword anywhere. Dedup by arxiv_id.
+    Strategy:
+    1. Run one keyword-only query per core keyword (arXiv's `all:` search
+       covers every category), dedup by arxiv_id.
+    2. Fetch any must_include_arxiv_ids directly by id — guarantees seminal
+       works (whose titles may not match keywords, e.g. Memory3's LaTeX
+       title) are always in the pool.
+
+    `memos`-like broad terms are kept as scoring keywords but NOT used as
+    query terms (would match generic 'memos' = notes); must_include handles
+    them by id instead.
     """
     session = requests.Session()
     session.headers["User-Agent"] = USER_AGENT
@@ -173,13 +220,14 @@ def crawl_topic(topic_label: str, keywords: list[str], categories: list[str], ma
         kw = kw.strip()
         return f'"{kw}"' if " " in kw else kw
 
-    # Use only the top-weighted keywords for queries: arXiv `all:` search is
-    # broad, so a handful of high-weight phrases already surface the bulk of
-    # relevant papers without the keyword×category cross-product blowup.
-    # Long tail keywords (weight <= 6) add noise and queries; skip them here.
-    core_keywords = keywords[:6]
+    # Use the top-weighted keywords for queries. Broad proper-noun terms
+    # like 'memos' are excluded from queries (too many false positives) but
+    # kept in the scoring keywords list. We query up to 9 core terms.
+    # Skip query terms known to be too broad: 'memos', 'memory os'.
+    broad_query_skip = {"memos", "memory os", "memory^3"}
+    core_keywords = [kw for kw in keywords[:9] if kw.lower() not in broad_query_skip]
     queries: list[str] = [f"all:{_phrase(kw)}" for kw in core_keywords]
-    print(f"  {len(queries)} queries to run (3s throttle each ≈ {len(queries)*3}s minimum)", flush=True)
+    print(f"  {len(queries)} keyword queries to run (3s throttle each ≈ {len(queries)*3}s minimum)", flush=True)
 
     for q in queries:
         probe, total = fetch_page(session, q, 0, 1)
@@ -200,10 +248,18 @@ def crawl_topic(topic_label: str, keywords: list[str], categories: list[str], ma
             start += batch_size
             print(f"    fetched {fetched}/{cap} (cumulative unique={len(seen)})", flush=True)
 
+    # Must-include: fetch seminal works by arxiv id directly.
+    if must_include_ids:
+        print(f"  must_include: fetching {len(must_include_ids)} papers by id", flush=True)
+        for p in fetch_by_ids(session, must_include_ids):
+            seen[p["arxiv_id"]] = p
+        print(f"    after must_include: cumulative unique={len(seen)}", flush=True)
+
     return list(seen.values())
 
 
-def load_topic_config(hub_dir: Path, topic_id: str) -> tuple[str, list[str]]:
+def load_topic_config(hub_dir: Path, topic_id: str) -> tuple[str, list[str], list[str]]:
+    """Return (label, keywords, must_include_arxiv_ids)."""
     cats = json.loads((hub_dir / "categories.json").read_text(encoding="utf-8"))
     for t in cats.get("custom_topics", []):
         if t["id"] == topic_id:
@@ -216,7 +272,8 @@ def load_topic_config(hub_dir: Path, topic_id: str) -> tuple[str, list[str]]:
                     kws.append(k[0])
                 elif isinstance(k, str):
                     kws.append(k)
-            return t["label"], kws
+            must_ids = t.get("must_include_arxiv_ids", [])
+            return t["label"], kws, must_ids
     raise SystemExit(f"topic {topic_id!r} not found in custom_topics")
 
 
@@ -252,13 +309,14 @@ def main() -> int:
                   f"(< {args.if_stale_hours}h threshold) ===")
             return 0
 
-    topic_label, keywords = load_topic_config(hub_dir, args.topic)
+    topic_label, keywords, must_ids = load_topic_config(hub_dir, args.topic)
     categories = [c.strip() for c in args.categories.split(",") if c.strip()]
     print(f"=== crawl_arxiv_history: topic={args.topic!r} label={topic_label!r} ===")
     print(f"  keywords: {keywords}")
+    print(f"  must_include_arxiv_ids: {must_ids}")
     print(f"  categories: {categories}")
 
-    papers = crawl_topic(topic_label, keywords, categories, args.max_per_query)
+    papers = crawl_topic(topic_label, keywords, categories, args.max_per_query, must_include_ids=must_ids)
     print(f"\n=== total unique papers: {len(papers)} ===")
 
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -268,6 +326,7 @@ def main() -> int:
         "topic_id": args.topic,
         "topic_label": topic_label,
         "keywords": keywords,
+        "must_include_arxiv_ids": must_ids,
         "categories": categories,
         "count": len(papers),
         "papers": papers,
