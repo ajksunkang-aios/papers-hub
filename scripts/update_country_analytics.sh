@@ -20,7 +20,7 @@ COUNTRY_YEARS="${COUNTRY_YEARS:-2020,2021,2022,2023,2024,2025,2026}"
 
 cd "$ROOT"
 
-if [[ ! -f "$ROOT/website/data/conferences.json" ]]; then
+if [[ ! -f "$ROOT/public/data/conferences.json" ]]; then
   echo "=== dblp build (conferences.json missing) ==="
   if [[ ! -f "$ROOT/data/dblp.xml.gz" ]]; then
     "$PYTHON" parse_dblp_xml.py "${HUB_FLAG[@]}" --download
@@ -78,7 +78,7 @@ fi
 echo "=== country analytics (years=${COUNTRY_YEARS}) ==="
 "$PYTHON" build_country_analytics.py "${HUB_FLAG[@]}" "${ANALYTICS_FLAGS[@]}"
 
-OUT="$ROOT/website/data/country-analytics.json"
+OUT="$ROOT/public/data/country-analytics.json"
 if [[ ! -f "$OUT" ]]; then
   echo "missing $OUT" >&2
   exit 1
@@ -88,7 +88,7 @@ fi
 import json
 from pathlib import Path
 
-path = Path("website/data/country-analytics.json")
+path = Path("public/data/country-analytics.json")
 data = json.loads(path.read_text(encoding="utf-8"))
 for key in ("generated_at", "data_source", "countries", "coverage"):
     if key not in data:

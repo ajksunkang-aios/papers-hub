@@ -48,6 +48,24 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install pnpm
+        run: npm install -g pnpm@9
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/pnpm/store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: ${{ runner.os }}-pnpm-
+
+      - name: Install JS dependencies
+        run: pnpm install --frozen-lockfile
+
       - name: Cache dblp XML
         uses: actions/cache@v4
         with:
@@ -105,19 +123,24 @@ jobs:
       - name: Sync technology map
         run: python3 scripts/sync_tech_map.py --hub os-kernel
 
+      - name: Build static site (Astro)
+        env:
+          ASTRO_TELEMETRY_DISABLED: "1"
+        run: pnpm run build
+
       - name: Verify analytics output
         run: |
-          test -f website/country-analytics.html
-          test -f website/data/country-analytics.json
-          test -f website/author-analytics.html
-          test -f website/data/author-analytics.json
-          test -f website/data/search-index.json
+          test -f dist/country-analytics.html
+          test -f dist/data/country-analytics.json
+          test -f dist/author-analytics.html
+          test -f dist/data/author-analytics.json
+          test -f dist/data/search-index.json
           python3 - <<'PY'
           import json
           from pathlib import Path
 
-          country = json.loads(Path("website/data/country-analytics.json").read_text(encoding="utf-8"))
-          author = json.loads(Path("website/data/author-analytics.json").read_text(encoding="utf-8"))
+          country = json.loads(Path("dist/data/country-analytics.json").read_text(encoding="utf-8"))
+          author = json.loads(Path("dist/data/author-analytics.json").read_text(encoding="utf-8"))
           ccov = country.get("coverage") or {}
           acov = author.get("coverage") or {}
           print(
@@ -135,8 +158,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add website/data/country-analytics.json website/data/author-analytics.json website/data/search-index.json
-          git add website/data/*.json
+          git add public/data/country-analytics.json public/data/author-analytics.json public/data/search-index.json
+          git add public/data/*.json
           if git diff --staged --quiet; then
             echo "No analytics changes to commit"
           else
@@ -147,7 +170,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: website
+          path: dist
 
   deploy:
     needs: build

@@ -17,12 +17,12 @@ YEARS="${AUTHOR_ANALYTICS_YEARS:-${PICK_YEARS:-2020,2021,2022,2023,2024,2025,202
 cd "$ROOT"
 "$PYTHON" build_author_analytics.py --hub "$HUB" --years "$YEARS"
 
-OUT="$ROOT/website/data/author-analytics.json"
+OUT="$ROOT/public/data/author-analytics.json"
 "$PYTHON" - <<'PY'
 import json
 from pathlib import Path
 
-path = Path("website/data/author-analytics.json")
+path = Path("public/data/author-analytics.json")
 data = json.loads(path.read_text(encoding="utf-8"))
 for key in ("generated_at", "authors", "coverage", "category_labels"):
     if key not in data:
