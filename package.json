@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "astro": "^7.3.5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
   }
 }
